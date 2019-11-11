@@ -1,1 +1,1 @@
-Pasta onde devem ser colocados os arquivos .conllu
+Pasta onde devem ser colocados os arquivos .conllu golden
