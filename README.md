@@ -1,7 +1,7 @@
 # BIG-Oil-NLP
 Repositório de Processamento de Linguagem Natural do projeto BIG Oil
 
-## Como começar com Windows 10
+## Como começar com Windows 10+
 
 Como instalar o Ubuntu dentro do sistema Windows:
 
@@ -13,7 +13,7 @@ Para executar programas do Linux depois de instalado o Ubuntu no Windows, instal
 
 ## Requisitos
 
-Para executar os scripts dentro do repositório, é necessário antes baixar o repositório [ACDC-UD](https://github.com/alvelvis/ACDC-UD) na mesma pasta em que se baixou este repositório (BIG-Oil-NLP):
+Para executar os scripts dentro do repositório, é necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) na mesma pasta onde está este repositório (BIG-Oil-NLP):
 
     $ git clone https://github.com/comcorhd/BIG-Oil-NLP.git
 
