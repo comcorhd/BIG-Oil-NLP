@@ -2,10 +2,26 @@
 
 set -e
 
+if [ ! -d scripts ]; then
+  echo 'Execute o script de dentro da pasta do repositório, exemplo: sh scripts/script.sh'
+  exit
+fi
+
+if [ ! -d ../Interrogat-rio/www/interrogar-ud/conllu/ ]; then
+  echo 'Pasta do Interrogatório não encontrada'
+  exit
+fi
+
 if [ $# -eq 0 ]
   then
+  echo "Escolha a branch que deseja fazer commit. Veja as atuais:"
     git ls-remote
     exit
+fi
+
+if [ ! -d ../ACDC-UD ]; then
+  echo "Pasta dos scripts do ACDC-UD não encontrada"
+  exit
 fi
 
 [ ! -d "Repositorio-Branches" ] && mkdir -p "Repositorio-Branches"

@@ -2,8 +2,19 @@
 #$1 = branch
 #set -e
 
+if [ ! -d scripts ]; then
+	echo 'Execute o script de dentro da pasta do repositório, exemplo: sh scripts/script.sh'
+	exit
+fi
+
+if [ ! -d ../ACDC-UD ]; then
+  echo 'Pasta de scripts do ACDC-UD não encontrada'
+  exit
+fi
+
 if [ $# -eq 0 ]
   then
+    echo 'Escolha o nome do branch que deseja criar para editar por regra. Veja os atuais:'
     git ls-remote
     exit
 fi
