@@ -26,7 +26,9 @@ Para utilizar qualquer componente da [ET: uma Estação de Trabalho para revisã
 
     $ git clone https://github.com/alvelvis/Julgamento.git
 
-Experimente também mudar a variável `COMCORHD` no arquivo `config.py` para `True` e habilite funções extras (necessário ter a pasta Interrogat-rio na mesma pasta em que se baixou o BIG-Oil-NLP).
+Experimente também mudar a variável `COMCORHD` no arquivo `config.py` para `True` e habilite funções extras (necessário ter a pasta Interrogat-rio na mesma pasta em que se baixou o BIG-Oil-NLP). Na variável `REPOSITORIES`, adicione também a linha:
+
+    https://github.com/comcorhd/BIG-Oil-NLP.git
 
 ## Edição por regra
 
