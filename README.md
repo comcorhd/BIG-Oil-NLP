@@ -1,7 +1,7 @@
 # BIG-Oil-NLP
 Repositório de Processamento de Linguagem Natural do projeto BIG Oil
 
-## Como começar com Windows
+## Como começar com Windows 10
 
 Como instalar o Ubuntu dentro do sistema Windows:
 
