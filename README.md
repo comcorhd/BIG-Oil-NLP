@@ -7,7 +7,7 @@ Para executar os scripts dentro do repositório, é necessário antes baixar o r
 
     $ git clone https://github.com/alvelvis/ACDC-UD.git
 
-Para utilizar qualquer componente da [ET](http://comcorhd.letras.puc-rio.br/ET), é necessário que os ambientes tenham sido clonados na mesma pasta do BIG Oil NLP:
+Para utilizar qualquer componente da [ET](http://comcorhd.letras.puc-rio.br/ET), é necessário que os ambientes tenham sido clonados na mesma pasta em que se baixou o BIG Oil NLP:
 
     $ git clone https://github.com/alvelvis/Interrogat-rio.git
 
