@@ -7,7 +7,7 @@ if [ ! -e $branch.conllu ]; then
   exit
 fi
 
-if [ ! -d ../../Interrogat-rio/www/interrogar-ud/conllu/ ]; then
+if [ ! -d ../../../Interrogat-rio/www/interrogar-ud/conllu/ ]; then
   echo 'Pasta do Interrogatório não encontrada'
   exit
 fi

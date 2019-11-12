@@ -11,30 +11,25 @@ Para executar programas do Linux depois de instalado o Ubuntu no Windows, instal
 
 - [Xming](https://sourceforge.net/projects/xming/)
 
-## Requisitos
+## Requisitos para utilizar os scripts
 
-Para executar os scripts dentro do repositório, é necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) na mesma pasta onde está este repositório (BIG-Oil-NLP):
+Para executar os scripts dentro do repositório, é necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) e a [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET) na mesma pasta onde está este repositório (BIG-Oil-NLP):
 
     $ git clone https://github.com/comcorhd/BIG-Oil-NLP.git
 
     $ git clone https://github.com/alvelvis/ACDC-UD.git
 
-
-## ET
-
-Para utilizar qualquer componente da [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET), é necessário que os ambientes tenham sido clonados na mesma pasta em que se baixou o BIG-Oil-NLP:
-
     $ git clone https://github.com/alvelvis/Interrogat-rio.git
 
     $ git clone https://github.com/alvelvis/Julgamento.git
 
-Experimente também mudar a variável `COMCORHD` no arquivo `config.py` para `True` e habilite funções extras (necessário ter a pasta Interrogat-rio na mesma pasta em que se baixou o BIG-Oil-NLP). Na variável `REPOSITORIES`, adicione também a linha a seguir, editando seu usuário e senha:
+Para habilitar funções extras do Julgamento, experimente mudar o valor da variável `COMCORHD` no arquivo `Julgamento/config.py` para `True`, e, na variável `REPOSITORIES`, adicione a linha a seguir, editando seu usuário e senha (ou removendo a parte de usuário e senha, caso não seja colaborador do repositório):
 
     https://SeuUsername:SuaSenha@github.com/comcorhd/BIG-Oil-NLP.git
 
 ## Edição por regra
 
-Para editar por regra, é necessário instalar Sublime-Text 3 e Meld. Em um sistema baseado em Ubuntu, execute os comandos:
+Para editar por regra, é necessário instalar Meld e Sublime Text 3. Em um sistema baseado em Ubuntu, execute os comandos:
 
     $ sudo apt-get install meld
 
