@@ -5,11 +5,11 @@ Repositório de Processamento de Linguagem Natural do projeto BIG Oil
 
 Como instalar o Ubuntu dentro do sistema Windows:
 
-[Ubuntu - Microsoft Store](https://www.microsoft.com/pt-br/p/ubuntu/9nblggh4msv6)
+- [Ubuntu - Microsoft Store](https://www.microsoft.com/pt-br/p/ubuntu/9nblggh4msv6)
 
 Para executar programas do Linux depois de instalado o Ubuntu no Windows, instale o Xming:
 
-[Xming](https://sourceforge.net/projects/xming/)
+- [Xming](https://sourceforge.net/projects/xming/)
 
 ## Requisitos
 
