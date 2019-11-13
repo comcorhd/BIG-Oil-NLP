@@ -13,15 +13,19 @@ Para executar programas do Linux depois de instalado o Ubuntu no Windows, instal
 
 ## Integração com a ET
 
-Para executar os scripts dentro do repositório, é necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) e a [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET) na mesma pasta onde está este repositório (BIG-Oil-NLP):
+É necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) e a [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET) na mesma pasta onde está este repositório (BIG-Oil-NLP).
+
+Para baixar este repositório e as dependências do ACDC-UD, utilize os comandos:
 
     $ git clone https://github.com/comcorhd/BIG-Oil-NLP.git
 
     $ git clone https://github.com/alvelvis/ACDC-UD.git
+    
+Para baixar a ET, veja os comandos em:
 
-    $ git clone https://github.com/alvelvis/Interrogat-rio.git
+https://github.com/alvelvis/Interrogat-rio
 
-    $ git clone https://github.com/alvelvis/Julgamento.git
+https://github.com/alvelvis/Julgamento
 
 Para habilitar funções extras do Julgamento, experimente mudar o valor da variável `COMCORHD` no arquivo `Julgamento/config.py` para `True`, e, na variável `REPOSITORIES`, adicione a linha a seguir, editando seu usuário e senha (ou removendo a parte de usuário e senha, caso não seja colaborador do repositório):
 
