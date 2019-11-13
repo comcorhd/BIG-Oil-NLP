@@ -1,5 +1,5 @@
 # BIG-Oil-NLP
-Repositório de Processamento de Linguagem Natural do projeto BIG Oil
+Repositório de Processamento de Linguagem Natural do projeto BIG Oil - Ciência de Dados para a indústria de Óleo & Gás
 
 ## Como começar com Windows 10+
 
@@ -11,7 +11,7 @@ Para executar programas do Linux depois de instalado o Ubuntu no Windows, instal
 
 - [Xming](https://sourceforge.net/projects/xming/)
 
-## Requisitos para utilizar os scripts
+## Integração com a ET
 
 Para executar os scripts dentro do repositório, é necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) e a [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET) na mesma pasta onde está este repositório (BIG-Oil-NLP):
 
