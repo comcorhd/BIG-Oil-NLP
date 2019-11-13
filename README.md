@@ -1,5 +1,5 @@
 # BIG-Oil-NLP
-Repositório de Processamento de Linguagem Natural do projeto BIG Oil
+Repositório de Processamento de Linguagem Natural do projeto BIG Oil - Ciência de Dados para a indústria de Óleo & Gás
 
 ## Como começar com Windows 10+
 
