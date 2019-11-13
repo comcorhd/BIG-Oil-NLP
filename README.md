@@ -27,6 +27,10 @@ Para habilitar funções extras do Julgamento, experimente mudar o valor da vari
 
     https://SeuUsername:SuaSenha@github.com/comcorhd/BIG-Oil-NLP.git
 
+Para rodar a ET (Interrogatório e Julgamento simultaneamente), execute o shell script:
+
+    $ sh run_ET.sh
+
 ## Edição por regra
 
 Para editar por regra, é necessário instalar Meld e Sublime Text 3. Em um sistema baseado em Ubuntu, execute os comandos:
