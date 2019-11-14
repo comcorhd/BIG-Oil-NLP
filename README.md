@@ -45,9 +45,9 @@ Para editar por regra, é necessário instalar Meld e Sublime Text 3. Em um sist
 
 Anotar com o UDPipe e redirecionar o output para a pasta do experimento. Exemplo:
 
-    $ ./udpipe/udpipe-1.2.0 modelo.udpipe 5TEM/TXT/* > 5TEM/udpipe/5TEM.conllu
+    $ ./udpipe/udpipe-1.2.0 --tokenize --tag --parse modelo.udpipe 5TEM/TXT/* > 5TEM/udpipe/5TEM.conllu
 
-Ajeitar o `sent_id` das frases anotadas. Exemplos:
+Ajeitar o `sent_id` das frases anotadas. Exemplo:
 
     $ python3 scripts/fix_sent_id.py 5TEM/udpipe/5TEM.conllu > 5TEM/udpipe/5TEM_sent_id.conllu
 
