@@ -1,4 +1,4 @@
-Utilizar o script sent_id.py para adicionar o identificador do arquivo no começo do sent_id
+Utilizar o script `fix_sent_id.py` para adicionar o identificador do arquivo em todas as frases.
 
 From http://ufal.mff.cuni.cz/udpipe/users-manual
 

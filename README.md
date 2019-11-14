@@ -38,3 +38,26 @@ Para editar por regra, é necessário instalar Meld e Sublime Text 3. Em um sist
     $ sudo apt-get install meld
 
     $ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -; sudo apt-get install apt-transport-https; echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list; sudo apt-get update; sudo apt-get install sublime-text
+
+## Anotando novos arquivos
+
+### Com o UDPipe:
+
+Anotar com o UDPipe e redirecionar o output para a pasta do experimento. Exemplo:
+
+    $ ./udpipe/udpipe-1.2.0 modelo.udpipe 5TEM/TXT/* > 5TEM/udpipe/5TEM.conllu
+
+Ajeitar o `sent_id` das frases anotadas. Exemplos:
+
+    $ python3 scripts/fix_sent_id.py 5TEM/udpipe/5TEM.conllu > 5TEM/udpipe/5TEM_sent_id.conllu
+
+Criar a pasta `documents` a partir dessas frases. Exemplo:
+
+    $ cd 5TEM/udpipe/
+
+    $ python3 ../../../ACDC-UD/split_conllu.py 5TEM_sent_id.conllu
+
+Copiar os arquivos da pasta `documents` desse experimento para a pasta `documents` global. Exemplo:
+
+    $ cp 5TEM/udpipe/documents/* documents
+
