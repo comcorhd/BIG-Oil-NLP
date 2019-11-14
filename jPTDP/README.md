@@ -49,12 +49,6 @@ where hyper-parameters in [] are optional:
  * `--dev`: Specify path to the development data file. 
 
 
-__For example:__
-
-    SOURCE_DIR$ python jPTDP.py --dynet-seed 123456789 --dynet-mem 1000 --epochs 30 --lstmdims 128 --lstmlayers 2 --hidden 100 --wembedding 100 --cembedding 50 --pembedding 100  --model trialmodel --params trialmodel.params --outdir sample/ --train sample/train.conllu --dev sample/dev.conllu
-    
-will produce model files `trialmodel` and `trialmodel.params` in folder `SOURCE_DIR/sample`.
-
 ### Utilize a pre-trained model
 
 __To utilize a pre-trained model for POS tagging and dependency parsing, you perform:__
@@ -68,9 +62,3 @@ __To utilize a pre-trained model for POS tagging and dependency parsing, you per
 * `--output`: Specify name of the  output file.
 
 
-For example: 
-
-    SOURCE_DIR$ python jPTDP.py --predict --model sample/trialmodel --params sample/trialmodel.params --test sample/test.conllu --outdir sample/ --output test.conllu.pred
-    SOURCE_DIR$ python jPTDP.py --predict --model sample/trialmodel --params sample/trialmodel.params --test sample/dev.conllu --outdir sample/ --output dev.conllu.pred
-    
-will produce output files `test.conllu.pred` and `dev.conllu.pred` in folder `SOURCE_DIR/sample`.
