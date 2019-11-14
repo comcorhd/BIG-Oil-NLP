@@ -1,3 +1,5 @@
+Utilizar o script `fix_sent_id.py` para adicionar o identificador do arquivo em todas as frases.
+
 From http://ufal.mff.cuni.cz/udpipe/users-manual
 
     Usage: udpipe [running_opts] udpipe_model [input_files]
