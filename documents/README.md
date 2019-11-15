@@ -1,4 +1,4 @@
-Pasta onde devem ser colocados os arquivos .conllu golden
+Pasta onde devem ser colocados os arquivos `.conllu` golden
 
 Para modificar as siglas de sent_id das sentenças, utilizar o script `scripts/fix_sent_id.py`
 

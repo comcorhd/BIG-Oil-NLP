@@ -51,13 +51,26 @@ Ajeitar o `sent_id` das frases anotadas. Exemplo:
 
     $ python3 scripts/fix_sent_id.py 5TEM/udpipe/5TEM.conllu > 5TEM/udpipe/5TEM_sent_id.conllu
 
+### Com o jPTDP:
+
+Baixe o modelo pré-treinado no Bosque-UD 2.5 workbench e adicione à pasta `jPTDP`:
+
+    $ cd jPTDP
+    $ wget https://www.dropbox.com/s/fn0r48xhn67inpt/outputs.tar.gz
+    $ tar xvzf outputs.tar.gz
+
+Execute o algoritmo no arquivo já anotado anteriormente pelo UDPipe (ver dependências em [README](https://github.com/comcorhd/BIG-Oil-NLP/tree/master/jPTDP)). Exemplo
+
+    $ cd src
+    $ python jPTDP.py --predict --model ../outputs/jPTDP_pt_ud.model --params ../outputs/jPTDP_pt_ud.params --test ../../5TEM/udpipe/5TEM_sent_id.conllu --outdir ../../5TEM/ju --output ../../5TEM/ju/5TEM.conllu
+
+### Para adicionar arquivos anotados à pasta golden
+
 Criar a pasta `documents` a partir dessas frases. Exemplo:
 
-    $ cd 5TEM/udpipe/
+    $ cd 5TEM/ju/
+    $ python3 ../../../ACDC-UD/split_conllu.py 5TEM.conllu
 
-    $ python3 ../../../ACDC-UD/split_conllu.py 5TEM_sent_id.conllu
+Copiar os arquivos da pasta `documents` desse experimento para a pasta `documents` raíz, ou seja, para o golden do repositório. Exemplo:
 
-Copiar os arquivos da pasta `documents` desse experimento para a pasta `documents` global. Exemplo:
-
-    $ cp 5TEM/udpipe/documents/* documents
-
+    $ cp 5TEM/ju/documents/* documents
