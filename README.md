@@ -59,7 +59,7 @@ Baixe o modelo pré-treinado no Bosque-UD 2.5 workbench e adicione à pasta `jPT
     $ wget https://www.dropbox.com/s/fn0r48xhn67inpt/outputs.tar.gz
     $ tar xvzf outputs.tar.gz
 
-Execute o algoritmo no arquivo já anotado anteriormente pelo UDPipe (ver dependências em [README](https://github.com/comcorhd/BIG-Oil-NLP/tree/master/jPTDP)). Exemplo
+Execute o algoritmo no arquivo já anotado anteriormente pelo UDPipe (ver dependências em [README](https://github.com/comcorhd/BIG-Oil-NLP/tree/master/jPTDP)). Exemplo:
 
     $ cd src
     $ python jPTDP.py --predict --model ../outputs/jPTDP_pt_ud.model --params ../outputs/jPTDP_pt_ud.params --test ../../5TEM/udpipe/5TEM_sent_id.conllu --outdir ../../5TEM/ju --output ../../5TEM/ju/5TEM.conllu
