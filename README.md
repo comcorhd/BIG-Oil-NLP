@@ -34,7 +34,7 @@ Para executar programas do Linux depois de instalado o Ubuntu no Windows, instal
 
 ## Integração com a ET
 
-Para editar o corpus via ET, é necessário baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) e a [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET) na mesma pasta onde está este repositório (BIG-Oil-NLP).
+Para editar o corpus via ET, é necessário utilizar um sistema baseado em Ubuntu e baixar o repositório de dependências [ACDC-UD](https://github.com/alvelvis/ACDC-UD) e a [ET: uma Estação de Trabalho para revisão, edição e avaliação de corpora anotados](http://comcorhd.letras.puc-rio.br/ET) na mesma pasta onde está este repositório (BIG-Oil-NLP).
 
 Para baixar este repositório e as dependências do ACDC-UD, utilize os comandos:
 
