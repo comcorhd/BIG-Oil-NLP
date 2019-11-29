@@ -67,7 +67,7 @@ Para baixar a ET, veja os comandos em:
 
 3. Na variável `VALIDAR_UD`, mude o valor para a linha abaixo (é necessário ter baixo o repositório ACDC-UD):
 
-    f"{os.path.abspath(os.path.dirname(__file__)).rsplit('/', 1)[0]}/ACDC-UD/validar_UD.txt"
+    f"{os.path.abspath(os.path.dirname(\__file__)).rsplit('/', 1)\[0]}/ACDC-UD/validar_UD.txt"
 
 **No arquivo `Interrogat-rio/www/cgi-bin/variables.py`**
 
