@@ -2,15 +2,18 @@
 
 Repositório de Processamento de Linguagem Natural do projeto BIG Oil - Ciência de Dados para a indústria de Óleo & Gás
 
+
 ## Descrição do repositório
 
 Os arquivos anotados com revisão humana encontram-se na pasta `documents`.
 
 Para treinar um modelo a partir deste corpus, utilize o arquivo `bigoil-train.conllu` (em breve).
 
+
 ### Arquivos já adicionados à pasta `documents`
 
-* 5TEM - 5 teses e monografias
+* 5TEM - 5 teses e dissertações
+
 
 ### Modelos que utilizamos para anotar os arquivos
 
@@ -18,9 +21,11 @@ Para treinar um modelo a partir deste corpus, utilize o arquivo `bigoil-train.co
 
 * jPTDP
 
+
 ### Publicações
 
 [BIG Oil – Ciência de Dados para a indústria de Óleo & Gás](http://comcorhd.letras.puc-rio.br/category/big-oil-identificacao-e-extracao-de-informacao-semantica-no-dominio-de-oleo-gas/)
+
 
 ## Como começar a editar o corpus com Windows 10
 
@@ -31,6 +36,7 @@ Como instalar o Ubuntu dentro do sistema Windows:
 Para executar programas do Linux depois de instalado o Ubuntu no Windows, instale o Xming:
 
 - [Xming](https://sourceforge.net/projects/xming/)
+
 
 ## Integração com a ET
 
@@ -48,9 +54,25 @@ Para baixar a ET, veja os comandos em:
 
 2. https://github.com/alvelvis/Julgamento
 
-Para habilitar funções extras do Julgamento, experimente mudar o valor da variável `COMCORHD` no arquivo `Julgamento/config.py` para `True`, e, na variável `REPOSITORIES`, adicione a linha a seguir, editando seu usuário e senha (ou removendo a parte de usuário e senha, caso não seja colaborador do repositório):
+
+### Para integrar os componentes da ET, siga os passos a seguir:
+
+**No arquivo `Julgamento/config.py`**
+
+1. Mude o valor da variável `COMCORHD` para `True`
+
+2. Na variável `REPOSITORIES`, adicione a linha a seguir entre aspas, editando seu usuário e senha (ou removendo a parte de usuário e senha, caso não seja colaborador do repositório):
 
     https://SeuUsername:SuaSenha@github.com/comcorhd/BIG-Oil-NLP.git
+
+3. Na variável `VALIDAR_UD`, mude o valor para a linha abaixo (é necessário ter baixo o repositório ACDC-UD):
+
+    f"{os.path.abspath(os.path.dirname(__file__)).rsplit('/', 1)[0]}/ACDC-UD/validar_UD.txt"
+
+**No arquivo `Interrogat-rio/www/cgi-bin/variables.py`**
+
+1. Mude o valor da variável `validar_UD` para `../../ACDC-UD/validar_UD.txt`
+
 
 ## Edição por regra
 
@@ -59,6 +81,7 @@ Para editar por regra, é necessário instalar Meld e Sublime Text 3. Em um sist
     $ sudo apt-get install meld
 
     $ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -; sudo apt-get install apt-transport-https; echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list; sudo apt-get update; sudo apt-get install sublime-text
+
 
 ## Adicionando novos arquivos ao repositório
 
@@ -72,6 +95,7 @@ Ajeitar o `sent_id` das frases anotadas. Exemplo:
 
     $ python3 scripts/fix_sent_id.py 5TEM/udpipe/5TEM.conllu > 5TEM/udpipe/5TEM_sent_id.conllu
 
+
 ### Anotando-os com o jPTDP
 
 Baixe o modelo pré-treinado no Bosque-UD 2.5 workbench e adicione à pasta `jPTDP`:
@@ -84,6 +108,7 @@ Execute o algoritmo no arquivo já anotado anteriormente pelo UDPipe (ver depend
 
     $ cd src
     $ python jPTDP.py --predict --model ../outputs/jPTDP_pt_ud.model --params ../outputs/jPTDP_pt_ud.params --test ../../5TEM/udpipe/5TEM_sent_id.conllu --outdir ../../5TEM/ju --output ../../5TEM/ju/5TEM.conllu
+
 
 ### Para adicionar arquivos anotados à pasta `documents`
 
