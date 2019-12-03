@@ -55,7 +55,7 @@ Para baixar a ET, veja os comandos em:
 2. https://github.com/alvelvis/Julgamento
 
 
-### Para integrar os componentes da ET, siga os passos a seguir:
+### Para integrar os componentes da ET com o repositório do BIG Oil, siga os passos a seguir:
 
 **No arquivo `Julgamento/config.py`**
 
