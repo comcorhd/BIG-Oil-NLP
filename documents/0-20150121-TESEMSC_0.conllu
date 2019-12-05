@@ -152,8 +152,8 @@
 39	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
-# sent_id = 0-20150121-TESEMSC_0-5
 # text = Já foi evidenciado que existe uma forte correlação entre os depósitos formados nos injetores de automóveis e o teor de dienos conjugados presente nos combustíveis utilizados (POLÁK et al., 1986 e VELASCO-ARJONA et al., 1998).
+# sent_id = 0-20150121-TESEMSC_0-5
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	evidenciado	evidenciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -177,15 +177,15 @@
 20	teor	teor	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
-23	conjugados	conjugar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	22	amod	_	_
-24	presente	presente	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+23	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	presente	presente	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 25-26	nos	_	_	_	_	_	_	_	_
 25	em	em	ADP	_	_	27	case	_	_
 26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
 28	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	27	acl	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	POLÁK	Polák	PROPN	_	_	27	appos	_	_
+30	POLÁK	Polák	PROPN	_	_	3	appos:parataxis	_	_
 31	et	et	PROPN	_	_	30	flat:name	_	_
 32	al.	al.	PROPN	_	Gender=Fem|Number=Sing	30	flat:name	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
@@ -195,7 +195,7 @@
 37	et	et	PROPN	_	Number=Sing	36	flat:name	_	_
 38	al.	al.	NOUN	_	Gender=Fem|Number=Sing	36	flat:name	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
-40	1998	1998	NUM	_	NumType=Card	30	conj	_	SpaceAfter=No
+40	1998	1998	NUM	_	NumType=Card	36	appos:parataxis	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -606,8 +606,8 @@
 5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 0-20150121-TESEMSC_0-17
 # text = O produto da reação dos dienos conjugados é um aduto 1:1, sendo que os compostos como o estireno e seus derivados dão um copolímero (1:1).
+# sent_id = 0-20150121-TESEMSC_0-17
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	produto	produto	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -618,7 +618,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-9	conjugados	conjugar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	amod	_	_
+9	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	aduto	aduto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -941,8 +941,8 @@
 27	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	16	punct	_	_
 
-# sent_id = 0-20150121-TESEMSC_0-25
 # text = Este método apresenta um tempo de análise relativamente grande, além de ter uma resolução insuficiente para a análise de todos os possíveis isômeros de dienos conjugados.
+# sent_id = 0-20150121-TESEMSC_0-25
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -969,7 +969,7 @@
 24	isômeros	isômero	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
-27	conjugados	conjugado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	26	amod	_	SpaceAfter=No
+27	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 0-20150121-TESEMSC_0-26
