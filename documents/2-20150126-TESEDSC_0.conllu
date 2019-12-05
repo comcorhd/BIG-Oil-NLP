@@ -2,8 +2,8 @@
 # text = ﻿INTRODUÇÃO
 1	﻿INTRODUÇÃO	﻿introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
-# sent_id = 2-20150126-TESEDSC_0-2
 # text = A crescente preocupação com a qualidade das águas marítimas, fluviais e subterrâneas, que tem um grande impacto na integridade dos diferentes ecossistemas marítimos e terrestres e afetam decisivamente a saúde humana, está promovendo o desenvolvimento de novas tecnologias para o tratamento e eliminação de poluentes ambientais (Chet, 1999;
+# sent_id = 2-20150126-TESEDSC_0-2
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	crescente	crescente	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	_
@@ -36,7 +36,7 @@
 27	ecossistemas	ecossistema	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 28	marítimos	marítimo	VERB	_	Gender=Masc|Number=Plur	27	amod	_	_
 29	e	e	CCONJ	_	_	30	cc	_	_
-30	terrestres	terrestr	ADJ	_	Gender=Masc|Number=Plur	27	conj	_	_
+30	terrestres	terrestr	ADJ	_	Gender=Masc|Number=Plur	28	conj	_	_
 31	e	e	CCONJ	_	_	32	cc	_	_
 32	afetam	afetar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
 33	decisivamente	decisivamente	ADV	_	_	32	advmod	_	_
@@ -60,9 +60,9 @@
 51	poluentes	poluente	NOUN	_	Gender=Masc|Number=Plur	49	nmod	_	_
 52	ambientais	ambiental	ADJ	_	Gender=Masc|Number=Plur	51	amod	_	_
 53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
-54	Chet	Chet	PROPN	_	Gender=Masc|Number=Sing	51	appos	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	56	punct	_	_
-56	1999	1999	NUM	_	NumType=Card	54	conj	_	SpaceAfter=No
+54	Chet	Chet	PROPN	_	Gender=Masc|Number=Sing	51	appos:parataxis	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	54	flat:name	_	_
+56	1999	1999	NUM	_	NumType=Card	54	flat:name	_	SpaceAfter=No
 57	;	;	PUNCT	_	_	39	punct	_	_
 
 # sent_id = 2-20150126-TESEDSC_0-3
@@ -122,8 +122,8 @@
 41	industriais	industrial	ADJ	_	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	27	punct	_	_
 
-# sent_id = 2-20150126-TESEDSC_0-5
 # text = As legislações americanas e canadenses reunidas na ISO 14001- EMS (Environmental Management System), no SDWA (Safe Drinking Water Act), no CWA (Clean Water Act), e na SWTR (Surface Water Treatment Rule) e reguladas pelas agências EPA (Environmental Pollution Agency) e pela OSHA (Occupational safety and heald administration) definem os limites permissíveis de compostos poluentes em águas residuais industriais e domésticas nestes países (Denilizi, 2004).
+# sent_id = 2-20150126-TESEDSC_0-5
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	legislações	legislação	NOUN	_	Gender=Fem|Number=Plur	70	nsubj	_	_
 3	americanas	americano	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -133,10 +133,10 @@
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	ISO	ISO	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	ISO	ISO	PROPN	_	Gender=Fem|Number=Sing	12	parataxis	_	_
 10	14001	14001	PROPN	_	NumType=Card	9	flat:name	_	SpaceAfter=No
-11	-	-	PUNCT	_	_	21	punct	_	_
-12	EMS	EMS	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+11	-	-	PUNCT	_	_	21	flat:name	_	_
+12	EMS	EMS	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	Environmental	Environmental	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	_
 15	Management	Management	PROPN	_	Number=Sing	14	flat:name	_	_
@@ -146,9 +146,9 @@
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	_	_	21	case	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	SDWA	SDWA	PROPN	_	Gender=Masc|Number=Sing	9	appos:parataxis	_	_
+21	SDWA	SDWA	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	Safe	Safe	PROPN	_	Gender=Masc|Number=Sing	21	appos:parataxis	_	_
+23	Safe	Safe	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
 24	Drinking	Drinking	PROPN	_	Number=Sing	23	flat:name	_	_
 25	Water	Water	PROPN	_	Number=Sing	23	flat:name	_	_
 26	Act	Act	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
@@ -157,20 +157,20 @@
 29-30	no	_	_	_	_	_	_	_	_
 29	em	em	ADP	_	_	31	case	_	_
 30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	CWA	CWA	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+31	CWA	CWA	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	_
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	Clean	Clean	PROPN	_	Gender=Masc|Number=Sing	23	conj	_	_
+33	Clean	Clean	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
 34	Water	Water	PROPN	_	Number=Sing	33	flat:name	_	_
 35	Act	Act	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-36	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	43	punct	_	_
 38	e	e	CCONJ	_	_	43	cc	_	_
 39-40	na	_	_	_	_	_	_	_	_
 39	em	em	ADP	_	_	41	case	_	_
 40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	SWTR	SWTR	PROPN	_	Gender=Fem|Number=Sing	43	nmod	_	_
+41	SWTR	SWTR	PROPN	_	Gender=Fem|Number=Sing	12	conj	_	_
 42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	Surface	Surface	PROPN	_	Gender=Fem|Number=Sing	23	conj	_	_
+43	Surface	Surface	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	_
 44	Water	Water	PROPN	_	Number=Sing	43	flat:name	_	_
 45	Treatment	Treatment	PROPN	_	Number=Sing	43	flat:name	_	_
 46	Rule	Rule	PROPN	_	Number=Sing	43	flat:name	_	SpaceAfter=No
@@ -191,7 +191,7 @@
 60-61	pela	_	_	_	_	_	_	_	_
 60	por	por	ADP	_	_	62	case	_	_
 61	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
-62	OSHA	OSHA	PROPN	_	Gender=Fem|Number=Sing	52	conj	_	_
+62	OSHA	OSHA	PROPN	_	Gender=Fem|Number=Sing	53	conj	_	_
 63	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
 64	Occupational	Occupational	PROPN	_	Gender=Fem|Number=Sing	62	appos	_	_
 65	safety	safety	X	_	_	64	flat:name	_	_
@@ -199,7 +199,7 @@
 67	heald	heald	PROPN	_	_	64	flat:name	_	_
 68	administration	administration	PROPN	_	_	64	flat:name	_	SpaceAfter=No
 69	)	)	PUNCT	_	_	64	punct	_	_
-70	definem	definem	VERB	_	_	0	root	_	_
+70	definem	definem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Inf	0	root	_	_
 71	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	72	det	_	_
 72	limites	limite	NOUN	_	Gender=Masc|Number=Plur	70	obj	_	_
 73	permissíveis	permissível	ADJ	_	Gender=Masc|Number=Plur	72	amod	_	_
@@ -215,16 +215,16 @@
 83-84	nestes	_	_	_	_	_	_	_	_
 83	em	em	ADP	_	_	85	case	_	_
 84	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	85	det	_	_
-85	países	país	NOUN	_	Gender=Masc|Number=Plur	78	nmod	_	_
+85	países	país	NOUN	_	Gender=Masc|Number=Plur	70	obl	_	_
 86	(	(	PUNCT	_	_	87	punct	_	SpaceAfter=No
-87	Denilizi	Denilizi	PROPN	_	Gender=Masc|Number=Sing	85	appos	_	SpaceAfter=No
-88	,	,	PUNCT	_	_	89	punct	_	_
-89	2004	2004	NUM	_	NumType=Card	87	conj	_	SpaceAfter=No
+87	Denilizi	Denilizi	PROPN	_	Gender=Masc|Number=Sing	85	appos:parataxis	_	SpaceAfter=No
+88	,	,	PUNCT	_	_	87	flat:name	_	_
+89	2004	2004	NUM	_	NumType=Card	87	flat:name	_	SpaceAfter=No
 90	)	)	PUNCT	_	_	87	punct	_	SpaceAfter=No
 91	.	.	PUNCT	_	_	70	punct	_	SpacesAfter=\r\n
 
-# sent_id = 2-20150126-TESEDSC_0-6
 # text = Em relação à legislação brasileira federal e estadual, a Lei nº 997 (31 de maio de 1976) dispõe sobre a prevenção e o controle da poluição do meio ambiente, o decreto 8.468 (8 de setembro de 1976) aprova os regulamentos da mesma lei e o decreto 50.877 de 1961 dispõe sobre o lançamento de resíduos tóxicos ou oleosos nas águas interiores e litorâneas do país.
+# sent_id = 2-20150126-TESEDSC_0-6
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -238,10 +238,10 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Lei	Lei	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
-13	nº	nº	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-14	997	997	NUM	_	NumType=Card	13	nummod	_	_
+13	nº	nº	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+14	997	997	NUM	_	NumType=Card	13	flat:name	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	31	31	NUM	_	NumType=Card	12	appos	_	_
+16	31	31	NUM	_	NumType=Card	12	appos:parataxis	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	maio	maio	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
@@ -253,7 +253,7 @@
 25	prevenção	prevenção	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 26	e	e	CCONJ	_	_	47	cc	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	controle	controle	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
+28	controle	controle	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 29-30	da	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -266,13 +266,13 @@
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
-39	8.468	8.468	NUM	_	NumType=Card	38	nummod	_	_
+39	8.468	8.468	NUM	_	NumType=Card	38	appos	_	_
 40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
-41	8	8	NUM	_	NumType=Card	39	conj	_	_
+41	8	8	NUM	_	NumType=Card	39	appos:parataxis	_	_
 42	de	de	ADP	_	_	43	case	_	_
 43	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
 44	de	de	ADP	_	_	45	case	_	_
-45	1976	1976	NUM	_	NumType=Card	43	nmod	_	SpaceAfter=No
+45	1976	1976	NUM	_	NumType=Card	43	nummod	_	SpaceAfter=No
 46	)	)	PUNCT	_	_	41	punct	_	_
 47	aprova	aprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 48	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
@@ -285,7 +285,7 @@
 54	e	e	CCONJ	_	_	60	cc	_	_
 55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	decreto	decreto	NOUN	_	Gender=Masc|Number=Sing	60	nsubj	_	_
-57	50.877	50.877	NUM	_	NumType=Card	56	nummod	_	_
+57	50.877	50.877	NUM	_	NumType=Card	56	appos	_	_
 58	de	de	ADP	_	_	59	case	_	_
 59	1961	1961	NUM	_	NumType=Card	56	nmod	_	_
 60	dispõe	dispor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
@@ -310,8 +310,8 @@
 77	país	país	NOUN	_	Gender=Masc|Number=Sing	71	nmod	_	SpaceAfter=No
 78	.	.	PUNCT	_	_	22	punct	_	_
 
-# sent_id = 2-20150126-TESEDSC_0-7
 # text = Esta legislação orienta a atuação de conselhos e órgãos federais e estaduais encarregados do controle e vigilância das emissões de compostos poluentes, entre eles o CONAMA (Conselho Nacional do Meio Ambiente), a FEEMA (Fundação Estadual de Engenharia do Meio Ambiente, Rio de Janeiro, RJ), a CEPESP (Secretaria Estadual do Meio Ambiente, São Paulo, SP), a CETESP (Ciência e Tecnologia
+# sent_id = 2-20150126-TESEDSC_0-7
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	legislação	legislação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	orienta	orientar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -324,7 +324,7 @@
 10	federais	federal	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 11	e	e	CCONJ	_	_	12	cc	_	_
 12	estaduais	estadual	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	_
-13	encarregados	encarregado	VERB	_	Gender=Masc|Number=Plur	9	acl	_	_
+13	encarregados	encarregado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -342,14 +342,14 @@
 26	entre	entre	ADP	_	_	27	case	_	_
 27	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nmod	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	CONAMA	CONAMA	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
+29	CONAMA	CONAMA	PROPN	_	Gender=Masc|Number=Sing	7	appos:parataxis	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	Conselho	Conselho	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	_
 32	Nacional	Nacional	PROPN	_	Number=Sing	31	flat:name	_	_
 33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	Meio	Meio	PROPN	_	Number=Sing	31	nmod	_	_
+33	de	de	ADP	_	_	31	flat:name	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	flat:name	_	_
+35	Meio	Meio	PROPN	_	Number=Sing	31	flat:name	_	_
 36	Ambiente	Ambiente	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
@@ -358,19 +358,19 @@
 41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
 42	Fundação	Fundação	PROPN	_	Gender=Fem|Number=Sing	40	appos	_	_
 43	Estadual	Estadual	PROPN	_	Number=Sing	42	flat:name	_	_
-44	de	de	ADP	_	_	45	case	_	_
-45	Engenharia	Engenharia	PROPN	_	Number=Sing	42	nmod	_	_
+44	de	de	ADP	_	_	42	flat:name	_	_
+45	Engenharia	Engenharia	PROPN	_	Number=Sing	42	flat:name	_	_
 46-47	do	_	_	_	_	_	_	_	_
-46	de	de	ADP	_	_	48	case	_	_
-47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	Meio	Meio	PROPN	_	Number=Sing	45	nmod	_	_
-49	Ambiente	Ambiente	PROPN	_	Number=Sing	45	flat:name	_	SpaceAfter=No
+46	de	de	ADP	_	_	42	flat:name	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	flat:name	_	_
+48	Meio	Meio	PROPN	_	Number=Sing	42	flat:name	_	_
+49	Ambiente	Ambiente	PROPN	_	Number=Sing	42	flat:name	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	51	punct	_	_
-51	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	42	appos	_	_
-52	de	de	ADP	_	_	53	case	_	_
-53	Janeiro	Janeiro	PROPN	_	Number=Sing	51	nmod	_	SpaceAfter=No
+51	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	42	appos:parataxis	_	_
+52	de	de	ADP	_	_	51	flat:name	_	_
+53	Janeiro	Janeiro	PROPN	_	Number=Sing	51	flat:name	_	SpaceAfter=No
 54	,	,	PUNCT	_	_	55	punct	_	_
-55	RJ	RJ	PROPN	_	Gender=Masc|Number=Sing	53	conj	_	SpaceAfter=No
+55	RJ	RJ	PROPN	_	Gender=Masc|Number=Sing	51	appos	_	SpaceAfter=No
 56	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	59	punct	_	_
 58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
@@ -379,15 +379,15 @@
 61	Secretaria	Secretaria	PROPN	_	Gender=Fem|Number=Sing	59	appos	_	_
 62	Estadual	Estadual	PROPN	_	Number=Sing	61	flat:name	_	_
 63-64	do	_	_	_	_	_	_	_	_
-63	de	de	ADP	_	_	65	case	_	_
-64	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
-65	Meio	Meio	PROPN	_	Number=Sing	61	nmod	_	_
+63	de	de	ADP	_	_	61	flat:name	_	_
+64	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	flat:name	_	_
+65	Meio	Meio	PROPN	_	Number=Sing	61	flat:name	_	_
 66	Ambiente	Ambiente	PROPN	_	Number=Sing	61	flat:name	_	SpaceAfter=No
 67	,	,	PUNCT	_	_	68	punct	_	_
-68	São	São	PROPN	_	Gender=Masc|Number=Sing	61	conj	_	_
+68	São	São	PROPN	_	Gender=Masc|Number=Sing	61	appos:parataxis	_	_
 69	Paulo	Paulo	PROPN	_	Number=Sing	68	flat:name	_	SpaceAfter=No
 70	,	,	PUNCT	_	_	71	punct	_	_
-71	SP	SP	PROPN	_	Gender=Masc|Number=Sing	68	appos:parataxis	_	SpaceAfter=No
+71	SP	SP	PROPN	_	Gender=Masc|Number=Sing	68	appos	_	SpaceAfter=No
 72	)	)	PUNCT	_	_	61	punct	_	SpaceAfter=No
 73	,	,	PUNCT	_	_	75	punct	_	_
 74	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
@@ -395,7 +395,7 @@
 76	(	(	PUNCT	_	_	77	punct	_	SpaceAfter=No
 77	Ciência	Ciência	PROPN	_	Gender=Fem|Number=Sing	75	appos	_	_
 78	e	e	CCONJ	_	_	77	flat:name	_	_
-79	Tecnologia	Tecnologia	PROPN	_	Gender=Fem|Number=Sing	29	conj	_	_
+79	Tecnologia	Tecnologia	PROPN	_	Gender=Fem|Number=Sing	77	flat:name	_	_
 
 # sent_id = 2-20150126-TESEDSC_0-8
 # text = Aplicada ao Meio Ambiente, São Paulo, SP) e a CECA (Comissão Estadual de Controle Ambiental, Rio de Janeiro, RJ), entre outras.
@@ -504,8 +504,8 @@
 29	perigosos	perigoso	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n
 
-# sent_id = 2-20150126-TESEDSC_0-11
 # text = Adicionalmente, tem limitações relacionadas com a concentração e a natureza do fenol (Smith, 1987; Spiker, 1992; Aitken, 1993 e Wada, 1994).
+# sent_id = 2-20150126-TESEDSC_0-11
 1	Adicionalmente	Adicionalmente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -516,28 +516,28 @@
 8	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 9	e	e	CCONJ	_	_	11	cc	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+11	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	Smith	Smith	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	1987	1987	NUM	_	NumType=Card	16	appos:parataxis	_	SpaceAfter=No
-19	;	;	PUNCT	_	_	3	punct	_	_
-20	Spiker	Spiker	PROPN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	1992	1992	NUM	_	NumType=Card	20	conj	_	SpaceAfter=No
+16	Smith	Smith	PROPN	_	Gender=Masc|Number=Sing	14	appos:parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	flat:name	_	_
+18	1987	1987	NUM	_	NumType=Card	16	flat:name	_	SpaceAfter=No
+19	;	;	PUNCT	_	_	16	punct	_	_
+20	Spiker	Spiker	PROPN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	flat:name	_	_
+22	1992	1992	NUM	_	NumType=Card	20	flat:name	_	SpaceAfter=No
 23	;	;	PUNCT	_	_	20	punct	_	_
-24	Aitken	Aitken	PROPN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	1993	1993	NUM	_	NumType=Card	24	conj	_	_
+24	Aitken	Aitken	PROPN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	flat:name	_	_
+26	1993	1993	NUM	_	NumType=Card	24	flat:name	_	_
 27	e	e	CCONJ	_	_	28	cc	_	_
-28	Wada	Wada	PROPN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	30	punct	_	_
-30	1994	1994	NUM	_	NumType=Card	24	conj	_	SpaceAfter=No
-31	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+28	Wada	Wada	PROPN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	16	flat:name	_	_
+30	1994	1994	NUM	_	NumType=Card	16	flat:name	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 2-20150126-TESEDSC_0-12
@@ -914,11 +914,11 @@
 43	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 2-20150126-TESEDSC_0-22
 # text = A tabela I-1 apresenta o histórico dos processos geradores de compostos fenólicos na indústria petrolífera.
+# sent_id = 2-20150126-TESEDSC_0-22
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
-3	I-1	I-1	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
+3	I-1	I-1	PROPN	_	Gender=Fem|Number=Sing	2	flat:name	_	_
 4	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
