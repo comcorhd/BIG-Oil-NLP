@@ -46,8 +46,8 @@
 34	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	24	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-4
 # text = O conceito de células a combustível (CC) existe há mais de 150 anos, cuja paternidade é atribuída a Sir William Grove, que teve a idéia durante seus experimentos sobre a eletrólise de água, quando imaginou como seria o processo inverso, ou seja, a reação entre hidrogênio e oxigênio para gerar eletricidade.
+# sent_id = 10-20150122-MONOGRAFIA_0-4
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conceito	conceito	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -67,14 +67,14 @@
 17	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	18	det	_	_
 18	paternidade	paternidade	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
 19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
-20	atribuída	atribuír	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
-21	a	o	ADP	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	case	_	_
+20	atribuída	atribuír	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+21	a	a	ADP	_	_	22	case	_	_
 22	Sir	Sir	PROPN	_	Gender=Fem|Number=Sing	20	obj	_	_
 23	William	William	PROPN	_	Gender=Masc|Number=Sing	22	flat:name	_	_
 24	Grove	Grove	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	20	punct	_	_
 26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	_
-27	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+27	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	idéia	idéia	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
 30	durante	durante	ADP	_	_	32	case	_	_
@@ -108,19 +108,19 @@
 58	eletricidade	eletricidade	NOUN	_	Gender=Fem|Number=Sing	57	obj	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-5
 # text = O termo célula a combustível surgiu então em 1839, criado por Ludwig Mond e Charles Langer.
+# sent_id = 10-20150122-MONOGRAFIA_0-5
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	termo	termo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	célula	célular	ADJ	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	amod	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	célula	célula	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	surgiu	surger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	então	então	ADV	_	_	6	advmod	_	_
 8	em	em	ADP	_	_	9	case	_	_
 9	1839	1839	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	parataxis	_	_
 12	por	por	ADP	_	_	13	case	_	_
 13	Ludwig	Ludwig	PROPN	_	Gender=Masc|Number=Sing	11	obl:agent	_	_
 14	Mond	Mond	PROPN	_	Number=Sing	13	flat:name	_	_
@@ -259,8 +259,8 @@
 35	catodo	catodo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-9
 # text = Em uma célula a combustível operando com hidrogênio como combustível e o oxigênio como oxidante, ocorre a formação de água, além da liberação de elétrons, que geram uma corrente contínua.
+# sent_id = 10-20150122-MONOGRAFIA_0-9
 1	Em	em	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	célula	célula	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -292,14 +292,14 @@
 28	elétrons	elétrom	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	23	punct	_	_
 30	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	31	nsubj	_	_
-31	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+31	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
 32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 33	corrente	corrente	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
 34	contínua	contínuo	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	17	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-10
 # text = Os prótons gerados na reação anódica são conduzidos pelo eletrólito até o catodo, onde participam da reação de redução do oxigênio (O2), formando água.
+# sent_id = 10-20150122-MONOGRAFIA_0-10
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	prótons	prótom	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	gerados	gerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -319,7 +319,7 @@
 15	catodo	catodo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	_
 17	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	obl	_	_
-18	participam	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+18	participam	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -412,8 +412,8 @@
 64	=G	=G	PROPN	_	Number=Sing	63	flat:name	_	SpaceAfter=No
 65	/H	/h	PROPN	_	Number=Sing	63	flat:name	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-12
 # text = A eficiência dada pela equação acima tem uma fraca dependência com a temperatura quando comparada àquela dada pelo ciclo de Carnot.
+# sent_id = 10-20150122-MONOGRAFIA_0-12
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -430,15 +430,15 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	quando	quando	SCONJ	_	_	16	mark	_	_
-16	comparada	comparar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_
+16	comparada	comparar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	advcl	_	_
 17-18	àquela	_	_	_	_	_	_	_	_
-17	a	a	ADP	_	_	19	case	_	_
-18	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
-19	dada	dar	NOUN	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	obj	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	aquela	aquele	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	16	obj	_	_
+19	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
 20-21	pelo	_	_	_	_	_	_	_	_
 20	por	por	ADP	_	_	22	case	_	_
 21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	16	obl:agent	_	_
+22	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	Carnot	Carnot	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
@@ -476,8 +476,8 @@
 27	%	%	SYM	_	_	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-14
 # text = Existem vários tipos de células a combustível, classificadas segundo o tipo de eletrólito que utilizam e, conseqüentemente, a sua temperatura de operação.
+# sent_id = 10-20150122-MONOGRAFIA_0-14
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -486,7 +486,7 @@
 6	a	a	ADP	_	_	7	case	_	_
 7	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	classificadas	classificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	acl	_	_
+9	classificadas	classificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	parataxis	_	_
 10	segundo	segundo	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -1083,7 +1083,7 @@
 # text = O calor e o vapor d´água produzidos na reação podem ser reutilizados para o aquecimento da célula ou para aproveitamento externo ao sistema.
 # sent_id = 10-20150122-MONOGRAFIA_0-44
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
@@ -1976,8 +1976,8 @@
 40	platina	platina	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-76
 # text = Este sistema para produção de hidrogênio não é considerado ecologicamente correto, devido às emissões de CO2, que contribuem para o aumento do efeito estufa.
+# sent_id = 10-20150122-MONOGRAFIA_0-76
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -1999,7 +1999,7 @@
 18	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	13	punct	_	_
 20	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
-21	contribuem	contribuar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+21	contribuem	contribuar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 22	para	para	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
@@ -2007,7 +2007,7 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-28	estufa	estufar	ADJ	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	amod	_	SpaceAfter=No
+28	estufa	estufar	NOUN	_	Gender=Masc|Number=Sing	27	compound	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\r\n
 
 # sent_id = 10-20150122-MONOGRAFIA_0-77
@@ -2372,14 +2372,14 @@
 14	cátions	cátiom	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-90
 # text = Este transporte de cátions que ocorre na membrana é devido a grupos presentes na cadeia polimérica.
+# sent_id = 10-20150122-MONOGRAFIA_0-90
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	cátions	cátiom	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 5	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	_
-6	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -2478,8 +2478,8 @@
 13	íons	íom	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-94
 # text = Além disso, é preciso que tenham boa resistência mecânica (para que suportem as condições da célula), estabilidade dimensional (não deve inchar nem encolher, independentemente das condições) e estabilidade química, que devem suportar meios na faixa de pH de operação, assim como agentes oxidantes.
+# sent_id = 10-20150122-MONOGRAFIA_0-94
 1	Além	além	ADV	_	_	6	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2504,7 +2504,7 @@
 20	célula	célula	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
+23	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	15	appos:parataxis	_	_
 24	dimensional	dimensional	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 26	não	não	ADV	_	Polarity=Neg	28	advmod	_	_
@@ -2524,7 +2524,7 @@
 39	química	químico	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	38	punct	_	_
 41	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	28	conj	_	_
-42	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+42	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
 43	suportar	suportar	VERB	_	VerbForm=Inf	42	xcomp	_	_
 44	meios	meios	NOUN	_	Gender=Masc|Number=Plur	43	obj	_	_
 45-46	na	_	_	_	_	_	_	_	_
@@ -3131,16 +3131,16 @@
 27	água	água	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-122
 # text = Células de metanol direto (DMFCs) baseadas em membranas poliméricas com propriedades de condução protônica, são candidatas promissoras para aplicações como fontes de energia portáteis e móveis9, 10, 11.
+# sent_id = 10-20150122-MONOGRAFIA_0-122
 1	Células	célula	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	metanol	metanol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	direto	direto	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	DMFCs	DMFCs	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	DMFCs	DMFCs	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
-8	baseadas	basear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	acl	_	_
+8	baseadas	basear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 9	em	em	ADP	_	_	10	case	_	_
 10	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
 11	poliméricas	polimérico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
@@ -3161,7 +3161,7 @@
 26	energia	energia	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	portáteis	portátil	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
 28	e	e	CCONJ	_	_	29	cc	_	_
-29	móveis9	móveis9	ADJ	_	NumType=Card	27	conj	_	SpaceAfter=No
+29	móveis9	móveis9	ADJ	_	Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	10	10	NUM	_	NumType=Card	22	appos:parataxis	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
