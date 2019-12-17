@@ -1,23 +1,23 @@
-# sent_id = 10-20150122-MONOGRAFIA_0-1
 # text = ﻿1.
+# sent_id = 10-20150122-MONOGRAFIA_0-1
 1	﻿1	﻿1	NOUN	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-2
 # text = Introdução
+# sent_id = 10-20150122-MONOGRAFIA_0-2
 1	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O princípio de funcionamento remonta à 1801, quando um gerador com célula a combustível usando uma pilha de zinco e oxigênio produzia o zincato de sódio (Sir Humphrey, Inglaterra).
 # sent_id = 10-20150122-MONOGRAFIA_0-3
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+2	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	remonta	remontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6-7	à	_	_	_	_	_	_	_	_
 6	a	a	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	1801	1801	NUM	_	NumType=Card	5	obj	_	SpaceAfter=No
+8	1801	1801	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	17	punct	_	_
 10	quando	quando	ADV	_	_	17	mark	_	_
 11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -32,7 +32,7 @@
 20	de	de	ADP	_	_	21	case	_	_
 21	zinco	zinco	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 22	e	e	CCONJ	_	_	23	cc	_	_
-23	oxigênio	oxigênio	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+23	oxigênio	oxigênio	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
 24	produzia	produzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	zincato	zincato	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
@@ -44,7 +44,7 @@
 32	,	,	PUNCT	_	_	30	flat:name	_	_
 33	Inglaterra	Inglaterra	PROPN	_	Gender=Fem|Number=Sing	30	appos:parataxis	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	24	punct	_	_
+35	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O conceito de células a combustível (CC) existe há mais de 150 anos, cuja paternidade é atribuída a Sir William Grove, que teve a idéia durante seus experimentos sobre a eletrólise de água, quando imaginou como seria o processo inverso, ou seja, a reação entre hidrogênio e oxigênio para gerar eletricidade.
 # sent_id = 10-20150122-MONOGRAFIA_0-4
@@ -59,8 +59,8 @@
 9	)	)	PUNCT	_	_	8	punct	_	_
 10	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
-12	mais	mais	ADV	_	_	14	advmod	_	_
-13	de	de	ADP	_	_	15	case	_	_
+12	mais	mais	ADV	_	_	14	advmod	_	MWE=mais_de|MWEPOS=ADV
+13	de	de	ADP	_	_	12	fixed	_	_
 14	150	150	NUM	_	NumType=Card	15	nummod	_	_
 15	anos	ano	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
@@ -68,10 +68,10 @@
 18	paternidade	paternidade	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
 19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
 20	atribuída	atribuír	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
-21	a	o	ADP	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	case	_	_
+21	a	o	ADP	_	_	22	case	_	_
 22	Sir	Sir	PROPN	_	Gender=Fem|Number=Sing	20	obj	_	_
 23	William	William	PROPN	_	Gender=Masc|Number=Sing	22	flat:name	_	_
-24	Grove	Grove	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
+24	Grove	Grove	PROPN	_	Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	20	punct	_	_
 26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	_
 27	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
@@ -104,23 +104,23 @@
 54	e	e	CCONJ	_	_	55	cc	_	_
 55	oxigênio	oxigênio	NOUN	_	Gender=Masc|Number=Sing	53	conj	_	_
 56	para	para	SCONJ	_	_	57	mark	_	_
-57	gerar	gerar	VERB	_	VerbForm=Inf	51	acl	_	_
+57	gerar	gerar	VERB	_	VerbForm=Inf	51	advcl	_	_
 58	eletricidade	eletricidade	NOUN	_	Gender=Fem|Number=Sing	57	obj	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-5
 # text = O termo célula a combustível surgiu então em 1839, criado por Ludwig Mond e Charles Langer.
+# sent_id = 10-20150122-MONOGRAFIA_0-5
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	termo	termo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	célula	célular	ADJ	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	amod	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	célula	célula	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	surgiu	surger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	então	então	ADV	_	_	6	advmod	_	_
 8	em	em	ADP	_	_	9	case	_	_
 9	1839	1839	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
 12	por	por	ADP	_	_	13	case	_	_
 13	Ludwig	Ludwig	PROPN	_	Gender=Masc|Number=Sing	11	obl:agent	_	_
 14	Mond	Mond	PROPN	_	Number=Sing	13	flat:name	_	_
@@ -238,7 +238,7 @@
 16	eletrólito	eletrólito	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
 17	apropriado	apropriar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	SpaceAfter=No
 18	:	:	PUNCT	_	_	3	punct	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	oxidação	oxidação	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -259,8 +259,8 @@
 35	catodo	catodo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-9
 # text = Em uma célula a combustível operando com hidrogênio como combustível e o oxigênio como oxidante, ocorre a formação de água, além da liberação de elétrons, que geram uma corrente contínua.
+# sent_id = 10-20150122-MONOGRAFIA_0-9
 1	Em	em	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	célula	célula	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -273,7 +273,7 @@
 10	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	_
 11	e	e	CCONJ	_	_	13	cc	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	oxigênio	oxigênio	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	oxigênio	oxigênio	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 14	como	como	ADP	_	_	15	case	_	_
 15	oxidante	oxidante	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	6	punct	_	_
@@ -283,19 +283,19 @@
 20	de	de	ADP	_	_	21	case	_	_
 21	água	água	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	além	além	ADV	_	_	21	advmod	_	_
+23	além	além	ADV	_	_	21	advmod	_	MWE=além_de|MWEPOS=ADV
 24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
+24	de	de	ADP	_	_	23	fixed	_	_
 25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	liberação	liberação	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+26	liberação	liberação	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	elétrons	elétrom	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	23	punct	_	_
 30	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	31	nsubj	_	_
-31	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+31	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
 32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-33	corrente	corrente	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
-34	contínua	contínuo	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+33	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+34	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Os prótons gerados na reação anódica são conduzidos pelo eletrólito até o catodo, onde participam da reação de redução do oxigênio (O2), formando água.
@@ -314,12 +314,12 @@
 10	por	por	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	eletrólito	eletrólito	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
-13	até	até	ADP	_	_	15	advmod	_	_
+13	até	até	ADP	_	_	15	case	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	catodo	catodo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	_
 17	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	obl	_	_
-18	participam	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+18	participam	participar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -412,8 +412,8 @@
 64	=G	=G	PROPN	_	Number=Sing	63	flat:name	_	SpaceAfter=No
 65	/H	/h	PROPN	_	Number=Sing	63	flat:name	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-12
 # text = A eficiência dada pela equação acima tem uma fraca dependência com a temperatura quando comparada àquela dada pelo ciclo de Carnot.
+# sent_id = 10-20150122-MONOGRAFIA_0-12
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -443,8 +443,8 @@
 24	Carnot	Carnot	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-13
 # text = Assim, as células a combustível, mesmo e especialmente em baixas temperaturas, na prática, obtêm-se eficiências de 55% a 60%.
+# sent_id = 10-20150122-MONOGRAFIA_0-13
 1	Assim	assim	ADV	_	_	19	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -476,8 +476,8 @@
 27	%	%	SYM	_	_	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-14
 # text = Existem vários tipos de células a combustível, classificadas segundo o tipo de eletrólito que utilizam e, conseqüentemente, a sua temperatura de operação.
+# sent_id = 10-20150122-MONOGRAFIA_0-14
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -522,8 +522,8 @@
 12	PEMFC	PEMFC	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	proton	proton	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
-15	exchange	exchanger	NOUN	_	Gender=Fem|Number=Sing	14	flat:name	_	_
-16	membran	membran	ADJ	_	Gender=Fem|Number=Sing	14	flat:name	_	_
+15	exchange	exchange	NOUN	_	Gender=Fem|Number=Sing	14	flat:name	_	_
+16	membran	membran	NOUN	_	Gender=Fem|Number=Sing	14	flat:name	_	_
 17	fuel	fuel	NOUN	_	Gender=Fem|Number=Sing	14	flat:name	_	_
 18	cell	cell	NOUN	_	Gender=Fem|Number=Sing	14	flat:name	_	_
 19	–	–	PUNCT	_	_	20	punct	_	_
@@ -539,8 +539,8 @@
 29	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 30	:	:	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-16
 # text = Eletrólito: membrana polimérica de condução protônica;
+# sent_id = 10-20150122-MONOGRAFIA_0-16
 1	Eletrólito	Eletrólito	NOUN	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	membrana	membrano	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -550,8 +550,8 @@
 7	protônica	protônico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-17
 # text = Faixa de temperatura: 80oC-120oC;
+# sent_id = 10-20150122-MONOGRAFIA_0-17
 1	Faixa	Faixa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -652,11 +652,11 @@
 5	mais	mais	ADV	_	_	6	advmod	_	_
 6	baixas	baixo	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	11	case	_	MWE=de_o_que|MWEPOS=SCONJ
+7	de	de	ADP	_	_	11	mark	_	MWE=de_o_que|MWEPOS=SCONJ
 8	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	fixed	_	_
 9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	fixed	_	_
 10	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
-11	células	célula	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+11	células	célula	NOUN	_	Gender=Fem|Number=Plur	1	advcl	_	_
 12	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 13	cerca	cerca	ADV	_	_	15	advmod	_	MWE=cerca_de|MWEPOS=ADV
 14	de	de	ADP	_	_	13	fixed	_	_
@@ -679,8 +679,8 @@
 28	membrana	membrano	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-23
 # text = As membranas em uso na maioria das células em operação hoje são produzidas pela Dow Chemicals, pela DuPont e pela Ballard.
+# sent_id = 10-20150122-MONOGRAFIA_0-23
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -725,7 +725,7 @@
 6	cell	cell	NOUN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 7	–	–	PUNCT	_	_	8	punct	_	_
 8	célula	célular	NOUN	_	Gender=Fem|Number=Sing	3	appos:transl	_	_
-9	a	o	ADP	_	_	10	case	_	_
+9	a	a	ADP	_	_	10	case	_	_
 10	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -733,8 +733,8 @@
 14	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-25
 # text = Eletrólito: solução de ácido fosfórico;
+# sent_id = 10-20150122-MONOGRAFIA_0-25
 1	Eletrólito	Eletrólito	NOUN	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	solução	solução	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -754,8 +754,8 @@
 7	220oC	220oC	NUM	_	Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-27
 # text = Maior desenvolvimento tecnológico: tolerância a CO;
+# sent_id = 10-20150122-MONOGRAFIA_0-27
 1	Maior	grande	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	tecnológico	tecnológico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -765,8 +765,8 @@
 7	CO	CO	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-28
 # text = Desvantagens: controle de porosidade do eletrodo, eficiência limitada pela corrosão;
+# sent_id = 10-20150122-MONOGRAFIA_0-28
 1	Desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	controle	controle	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -785,8 +785,8 @@
 14	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent	_	SpaceAfter=No
 15	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-29
 # text = Aplicações: unidades estacionárias, geração de calor.
+# sent_id = 10-20150122-MONOGRAFIA_0-29
 1	Aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
@@ -821,8 +821,8 @@
 20	presente	presente	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-31
 # text = Algumas centrais elétricas de demonstração já se encontram em operação no mundo.
+# sent_id = 10-20150122-MONOGRAFIA_0-31
 1	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	centrais	central	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	elétricas	elétrico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -839,8 +839,8 @@
 13	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-32
 # text = Operam em temperaturas de cerca de 200oC, não sendo adequadas para utilização do calor residual em aplicações de co-geração.
+# sent_id = 10-20150122-MONOGRAFIA_0-32
 1	Operam	operar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
@@ -865,8 +865,8 @@
 21	co-geração	co-geração	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-33
 # text = Podem utilizar metanol ou gás hidrogênio como combustível, este após ser submetido ao processo de reforma para produção de gás rico em hidrogênio.
+# sent_id = 10-20150122-MONOGRAFIA_0-33
 1	Podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	utilizar	utilizar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	metanol	metanol	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -900,28 +900,28 @@
 1	MCFC	MCFC	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	Molten	Molten	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	carbonate	carbonater	ADJ	_	Gender=Masc|Number=Sing	3	flat:name	_	_
-5	fuel	fuel	ADJ	_	Gender=Masc|Number=Sing	3	flat:name	_	_
-6	cell	cell	VERB	_	Gender=Masc|Number=Sing	3	flat:name	_	_
+4	carbonate	carbonate	NOUN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
+5	fuel	fuel	NOUN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
+6	cell	cell	NOUN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 7	–	–	PUNCT	_	_	8	punct	_	_
-8	célula	célular	ADJ	_	Gender=Fem|Number=Sing	7	appos:transl	_	_
+8	célula	célula	NOUN	_	Gender=Fem|Number=Sing	7	appos:transl	_	_
 9	a	o	ADP	_	_	10	case	_	_
 10	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	carbonato	carbonato	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
-14	:	:	PUNCT	_	_	6	punct	_	_
+13	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-35
 # text = Eletrólito: carbonatos fundidos;
+# sent_id = 10-20150122-MONOGRAFIA_0-35
 1	Eletrólito	Eletrólito	NOUN	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	carbonatos	carbonato	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
 4	fundidos	fundir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	3	acl	_	SpaceAfter=No
 5	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-36
 # text = Faixa de temperatura: 550oC - 660oC;
+# sent_id = 10-20150122-MONOGRAFIA_0-36
 1	Faixa	Faixa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -946,8 +946,8 @@
 11	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-38
 # text = Desvantagens: corrosão do catodo, interface trifásica de difícil controle;
+# sent_id = 10-20150122-MONOGRAFIA_0-38
 1	Desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -963,8 +963,8 @@
 12	controle	controle	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 13	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-39
 # text = Aplicações: unidades estacionárias, co-geração de eletricidade e calor.
+# sent_id = 10-20150122-MONOGRAFIA_0-39
 1	Aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
@@ -977,8 +977,8 @@
 10	calor	calor	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-40
 # text = As células de carbonato fundido (MCFC) utilizam como eletrólito uma mistura de carbonatos alcalinos fundidos.
+# sent_id = 10-20150122-MONOGRAFIA_0-40
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	células	célula	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -998,8 +998,8 @@
 17	fundidos	fundir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-41
 # text = Operam em temperaturas em torno de 650oC, com eficiência máxima entre 55 e 60%.
+# sent_id = 10-20150122-MONOGRAFIA_0-41
 1	Operam	operar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
@@ -1055,8 +1055,8 @@
 32	eletrólito	eletrólito	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-43
 # text = No anodo, estes íons são consumidos na oxidação do hidrogênio, formando vapor d´água.
+# sent_id = 10-20150122-MONOGRAFIA_0-43
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1076,19 +1076,19 @@
 14	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	formando	formar	VERB	_	VerbForm=Ger	8	advcl	_	_
-17	vapor	_	NOUN	_	_	16	obj	_	_
-18	d´água	d´água	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+17	vapor	_	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+18	d´água	d´água	NOUN	_	Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-44
 # text = O calor e o vapor d´água produzidos na reação podem ser reutilizados para o aquecimento da célula ou para aproveitamento externo ao sistema.
+# sent_id = 10-20150122-MONOGRAFIA_0-44
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-6	d´água	d´águar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
-7	produzidos	produzir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	advcl	_	_
+5	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+6	d´água	d´água	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+7	produzidos	produzir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl:relcl	_	_
 8-9	na	_	_	_	_	_	_	_	_
 8	em	em	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -1098,14 +1098,14 @@
 13	reutilizados	reutilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	xcomp	_	_
 14	para	para	ADP	_	_	16	case	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	célula	célula	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	ou	ou	CCONJ	_	_	22	cc	_	_
 21	para	para	ADP	_	_	22	case	_	_
-22	aproveitamento	aproveitamento	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+22	aproveitamento	aproveitamento	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
 23	externo	externo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 24-25	ao	_	_	_	_	_	_	_	_
 24	a	a	ADP	_	_	26	case	_	_
@@ -1117,13 +1117,13 @@
 # sent_id = 10-20150122-MONOGRAFIA_0-45
 1	SOFC	SOFC	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	solid	solid	VERB	_	Gender=Fem|Number=Sing	1	appos	_	_
-4	oxide	oxidir	NOUN	_	Gender=Fem|Number=Sing	3	flat:name	_	_
-5	fuel	fuel	ADJ	_	Gender=Masc|Number=Sing	3	flat:name	_	_
+3	solid	solid	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+4	oxide	oxide	NOUN	_	Gender=Fem|Number=Sing	3	flat:name	_	_
+5	fuel	fuel	NOUN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 6	cell	cell	NOUN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 7	–	–	PUNCT	_	_	8	punct	_	_
 8	célula	célular	NOUN	_	Gender=Fem|Number=Sing	3	appos:transl	_	_
-9	a	o	ADP	_	_	10	case	_	_
+9	a	a	ADP	_	_	10	case	_	_
 10	combustível	combustível	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	óxido	óxido	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -1164,8 +1164,8 @@
 16	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 17	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-48
 # text = Desvantagens: problemas de materiais, expansão térmica;
+# sent_id = 10-20150122-MONOGRAFIA_0-48
 1	Desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
@@ -1176,8 +1176,8 @@
 8	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	;	;	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-49
 # text = Aplicações: unidades estacionárias, cogeração de eletricidade e calor.
+# sent_id = 10-20150122-MONOGRAFIA_0-49
 1	Aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
@@ -1218,8 +1218,8 @@
 23	1000oC	1000oC	NUM	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-51
 # text = Algumas unidades experimentais encontram-se em operação, e a expectativa é de que dentro de algum tempo seja possível a construção modular de centrais de grande porte com densidade energética de cerca de 1
+# sent_id = 10-20150122-MONOGRAFIA_0-51
 1	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	experimentais	experimental	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -1231,21 +1231,21 @@
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	e	e	CCONJ	_	_	12	cc	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	expectativa	expectativa	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-13	de	de	ADP	_	_	12	fixed	_	_
-14	que	que	SCONJ	_	_	15	mark	_	_
+11	expectativa	expectativa	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+13	de	de	ADP	_	_	22	case	_	_
+14	que	que	SCONJ	_	_	20	mark	_	_
 15	dentro	dentro	ADV	_	_	20	advmod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
-18	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 19	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-20	possível	possível	ADJ	_	Gender=Fem|Number=Sing	12	csubj	_	_
+20	possível	possível	ADJ	_	Gender=Fem|Number=Sing	11	acl	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	construção	construção	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
-23	modular	modular	VERB	_	Gender=Fem|Number=Sing	12	advcl	_	_
+23	modular	modular	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	de	de	ADP	_	_	25	case	_	_
-25	centrais	central	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
+25	centrais	central	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	grande	grande	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 28	porte	porte	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
@@ -1253,12 +1253,12 @@
 30	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
 31	energética	energético	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 32	de	de	ADP	_	_	35	case	_	_
-33	cerca	cerca	ADV	_	_	35	advmod	_	_
+33	cerca	cerca	ADV	_	_	35	advmod	_	MWE=cerca_de|MWEPOS=ADV
 34	de	de	ADP	_	_	33	fixed	_	_
 35	1	1	NUM	_	NumType=Card	30	nmod	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-52
 # text = MW/m3 e eficiência de 50 a 60%.
+# sent_id = 10-20150122-MONOGRAFIA_0-52
 1	MW/m3	MW/m3	NOUN	_	NumType=Card	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -1269,12 +1269,12 @@
 8	%	%	SYM	_	_	1	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-53
 # text = O calor produzido pode ser utilizado em aplicações de co-geração ou para acionar uma turbina a vapor, produzindo, assim, energia elétrica adicional àquela gerada com a reação química da célula.
+# sent_id = 10-20150122-MONOGRAFIA_0-53
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	nsubj:pass	_	_
-4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	pode	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
 6	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 7	em	em	ADP	_	_	8	case	_	_
@@ -1283,7 +1283,7 @@
 10	co-geração	co-geração	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	ou	ou	CCONJ	_	_	13	cc	_	_
 12	para	para	SCONJ	_	_	13	mark	_	_
-13	acionar	acionar	VERB	_	VerbForm=Inf	6	advcl	_	_
+13	acionar	acionar	VERB	_	VerbForm=Inf	6	conj	_	_
 14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	turbina	turbina	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 16	a	a	ADP	_	_	17	case	_	_
@@ -1310,8 +1310,8 @@
 35	célula	célula	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-54
 # text = Podem ser usados diferentes tipos de combustível, desde o hidrogênio puro até o metano ou o monóxido de carbono, e a natureza das emissões varia conforme a mistura do combustível.
+# sent_id = 10-20150122-MONOGRAFIA_0-54
 1	Podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
 3	usados	usar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	xcomp	_	_
@@ -1350,13 +1350,13 @@
 34	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-55
 # text = Hidrogênio:
+# sent_id = 10-20150122-MONOGRAFIA_0-55
 1	Hidrogênio	Hidrogênio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-56
 # text = O hidrogênio é uma molécula com grande capacidade de gerar energia (na sua dissociação) e por este motivo sua utilização como fonte renovável vem sendo amplamente pesquisada.
+# sent_id = 10-20150122-MONOGRAFIA_0-56
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1394,8 +1394,8 @@
 # sent_id = 10-20150122-MONOGRAFIA_0-57
 1	Se	se	SCONJ	_	_	2	mark	_	_
 2	produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	31	advcl	_	_
-3	a	a	ADP	_	_	6	case	_	MWE=a_partir_de
-4	partir	partir	NOUN	_	_	3	fixed	_	_
+3	a	a	ADP	_	_	6	case	_	MWE=a_partir_de|MWEPOS=case
+4	partir	partir	VERB	_	VerbForm=Inf	3	fixed	_	_
 5	de	de	ADP	_	_	3	fixed	_	_
 6	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
 7	renováveis	renovável	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
@@ -1406,7 +1406,7 @@
 12	)	)	PUNCT	_	_	9	punct	_	_
 13	ou	ou	CCONJ	_	_	14	cc	_	_
 14	tecnologias	tecnologias	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
-15	limpas	limpo	VERB	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+15	limpas	limpo	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	como	como	ADP	_	_	19	case	_	_
 18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -1433,8 +1433,8 @@
 38	correto	correto	ADJ	_	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	31	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-58
 # text = Quando queimado com oxigênio puro, os únicos produtos são calor e água.
+# sent_id = 10-20150122-MONOGRAFIA_0-58
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	queimado	queimado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -1457,7 +1457,7 @@
 3	com	com	ADP	_	_	4	case	_	_
 4	ar	ar	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	constituído	constituir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	advcl	_	_
+6	constituído	constituir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
 7	por	por	ADP	_	_	11	case	_	_
 8	cerca	cerca	ADV	_	_	11	advmod	_	MWE=cerca_de|MWEPOS=ADV
 9	de	de	ADP	_	_	8	fixed	_	_
@@ -1477,8 +1477,8 @@
 23	formados	formar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	23	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-60
 # text = Ainda assim, a queima de hidrogênio produz menos poluentes atmosféricos que os combustíveis fósseis.
+# sent_id = 10-20150122-MONOGRAFIA_0-60
 1	Ainda	ainda	ADV	_	_	8	advmod	_	_
 2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1487,10 +1487,10 @@
 6	de	de	ADP	_	_	7	case	_	_
 7	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	produz	produzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	menos	pouco	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	advmod	_	_
+9	menos	pouco	ADV	_	_	8	advmod	_	_
 10	poluentes	poluente	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
 11	atmosféricos	atmosférico	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
-12	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	obj	_	_
+12	que	que	SCONJ	_	_	10	mark	_	_
 13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 15	fósseis	fóssil	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
@@ -1550,12 +1550,12 @@
 47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	41	punct	_	_
-50	além	além	ADV	_	_	53	mark	_	_
+50	além	além	ADV	_	_	53	cc	_	MWE=além_de|MWEPOS=CCONJ
 51	de	de	ADP	_	_	50	fixed	_	_
 52	não	não	ADV	_	Polarity=Neg	53	advmod	_	_
-53	contaminar	contaminar	VERB	_	VerbForm=Inf	20	advcl	_	_
+53	contaminar	contaminar	VERB	_	VerbForm=Inf	20	conj	_	_
 54	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
-55	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	57	obj	_	_
+55	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	53	obj	_	_
 56	e	e	CCONJ	_	_	57	cc	_	_
 57	eletrodos	eletrodo	NOUN	_	Gender=Masc|Number=Plur	55	conj	_	_
 58	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	60	nsubj	_	_
@@ -1569,14 +1569,14 @@
 66	reacionais	reacional	ADJ	_	Gender=Masc|Number=Plur	65	amod	_	SpaceAfter=No
 67	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-62
 # text = Gás Natural:
+# sent_id = 10-20150122-MONOGRAFIA_0-62
 1	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Natural	Natural	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-63
 # text = O gás natural é uma fonte de energia rica em hidrogênio, com a relação de um átomo de carbono para quatro de hidrogênio.
+# sent_id = 10-20150122-MONOGRAFIA_0-63
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gás	gás	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	natural	natural	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1603,8 +1603,8 @@
 24	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-64
 # text = É um dos combustíveis fósseis mais utilizados no mundo, com sua participação na matriz energética mundial de aproximadamente de 23%, atrás apenas do petróleo que está com 40%.
+# sent_id = 10-20150122-MONOGRAFIA_0-64
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	um	um	NUM	_	NumType=Card	0	root	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -1639,7 +1639,7 @@
 29-30	do	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+31	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	_	_
 33	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
 34	com	com	ADP	_	_	36	case	_	_
@@ -1647,8 +1647,8 @@
 36	%	%	SYM	_	_	33	obl	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-65
 # text = Dentre os principais combustíveis fósseis, como o petróleo e o carvão, o gás natural é o que gera menores emissões de poluentes.
+# sent_id = 10-20150122-MONOGRAFIA_0-65
 1	Dentre	Dentre	VERB	_	_	0	root	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 3	principais	principal	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
@@ -1675,8 +1675,8 @@
 24	poluentes	poluente	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-66
 # text = Hoje, aproximadamente a metade da produção de hidrogênio no mundo provém do gás natural, e a maior parte da produção em escala industrial é pelo processo de reforma a vapor, ou como um subproduto do refino de petróleo e produção de compostos químicos.
+# sent_id = 10-20150122-MONOGRAFIA_0-66
 1	Hoje	hoje	ADV	_	_	14	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	aproximadamente	aproximadamente	ADV	_	_	5	advmod	_	_
@@ -1737,8 +1737,8 @@
 52	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	51	amod	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-67
 # text = Para ser utilizado numa célula a combustível, o gás natural passa pelo processo de reforma para a obtenção do hidrogênio.
+# sent_id = 10-20150122-MONOGRAFIA_0-67
 1	Para	para	SCONJ	_	_	3	mark	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	_
@@ -1795,22 +1795,22 @@
 21	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 22	d	d	ADP	_	_	24	case	_	SpaceAfter=No
 23	’	’	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	água	águar	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-25	a	o	ADP	_	_	27	case	_	_
+24	água	água	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+25	a	a	ADP	_	_	27	case	_	_
 26	alta	alto	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-27	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	24	amod	_	_
+27	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 28	em	em	ADP	_	_	29	case	_	_
 29	superfícies	superfície	NOUN	_	Gender=Fem|Number=Plur	27	obl	_	_
 30	catalíticas	catalítico	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	platina	platina	NOUN	_	Gender=Fem|Number=Sing	29	appos:parataxis	_	_
+32	platina	platina	NOUN	_	Gender=Fem|Number=Sing	29	appos	_	_
 33	ou	ou	CCONJ	_	_	34	cc	_	_
 34	níquel	níquel	ADJ	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-69
 # text = O processo extrai os átomos de hidrogênio, deixando o dióxido de carbono como subproduto.
+# sent_id = 10-20150122-MONOGRAFIA_0-69
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	extrai	extrair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1861,8 +1861,8 @@
 14	ii	ii	SYM	_	_	3	parataxis	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-72
 # text = O monóxido de carbono e a água são convertidos em dióxido de carbono e hidrogênio.
+# sent_id = 10-20150122-MONOGRAFIA_0-72
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	monóxido	monóxido	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1880,8 +1880,8 @@
 15	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-73
 # text = Estas reações ocorrem em temperaturas de 200ºC ou maiores.
+# sent_id = 10-20150122-MONOGRAFIA_0-73
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	reações	reação	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	ocorrem	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1909,7 +1909,7 @@
 12	carbonato	carbonato	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 13	fundido	fundido	VERB	_	Gender=Masc|Number=Sing	12	acl	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	MCFC	MCFC	PROPN	_	Gender=Masc|Number=Sing	12	appos:parataxis	_	SpaceAfter=No
+15	MCFC	MCFC	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	13	punct	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -1924,15 +1924,15 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	alta	alto	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 28	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
-29	–	–	PUNCT	_	_	28	punct	_	_
+29	–	–	PUNCT	_	_	31	punct	_	_
 30	entre	entre	ADP	_	_	31	case	_	_
-31	600°C	600°C	NUM	_	Gender=Masc|Number=Sing	29	appos	_	_
+31	600°C	600°C	NUM	_	Gender=Masc|Number=Sing	28	appos	_	_
 32	e	e	CCONJ	_	_	33	cc	_	_
 33	1000°C	1000°C	NUM	_	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	22	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-75
 # text = O catalisador a esta temperatura pode ser o níquel, mais barato que a platina, pois nesta temperatura as reações de catálise ocorrem mais facilmente dispensando um catalisador de altíssima taxa de reações e caro como a platina.
+# sent_id = 10-20150122-MONOGRAFIA_0-75
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	a	a	ADP	_	_	5	case	_	_
@@ -1941,15 +1941,15 @@
 6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ser	ser	AUX	_	VerbForm=Inf	9	cop	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	mais	mais	ADV	_	_	12	advmod	_	_
-12	barato	barato	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	_
+12	barato	barato	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 13	que	que	SCONJ	_	_	12	mark	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	platina	platina	NOUN	_	Gender=Fem|Number=Sing	12	csubj	_	SpaceAfter=No
+15	platina	platina	NOUN	_	Gender=Fem|Number=Sing	12	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	25	punct	_	_
-17	pois	pois	SCONJ	_	_	25	mark	_	_
+17	pois	pois	CCONJ	_	_	25	cc	_	_
 18-19	nesta	_	_	_	_	_	_	_	_
 18	em	em	ADP	_	_	20	case	_	_
 19	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
@@ -1958,8 +1958,8 @@
 22	reações	reação	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	catálise	catálise	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-25	ocorrem	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-26	mais	mais	ADV	_	_	25	advmod	_	_
+25	ocorrem	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+26	mais	mais	ADV	_	_	27	advmod	_	_
 27	facilmente	facilmente	ADV	_	_	25	advmod	_	_
 28	dispensando	dispensar	VERB	_	VerbForm=Ger	25	advcl	_	_
 29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -1970,14 +1970,14 @@
 34	de	de	ADP	_	_	35	case	_	_
 35	reações	reação	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
 36	e	e	CCONJ	_	_	37	cc	_	_
-37	caro	caro	ADJ	_	Gender=Masc|Number=Sing	35	conj	_	_
+37	caro	caro	ADJ	_	Gender=Masc|Number=Sing	33	conj	_	_
 38	como	como	ADP	_	_	40	case	_	_
 39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	platina	platina	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+40	platina	platina	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-76
 # text = Este sistema para produção de hidrogênio não é considerado ecologicamente correto, devido às emissões de CO2, que contribuem para o aumento do efeito estufa.
+# sent_id = 10-20150122-MONOGRAFIA_0-76
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -2007,11 +2007,11 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-28	estufa	estufar	ADJ	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	amod	_	SpaceAfter=No
+28	estufa	estufa	NOUN	_	Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-77
 # text = Metanol:
+# sent_id = 10-20150122-MONOGRAFIA_0-77
 1	Metanol	Metanol	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -2062,8 +2062,8 @@
 39	puro	puro	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-79
 # text = O metanol é convertido em dióxido de carbono e hidrogênio no anodo.
+# sent_id = 10-20150122-MONOGRAFIA_0-79
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	metanol	metanol	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2080,8 +2080,8 @@
 13	anodo	anodo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-80
 # text = Os prótons gerados na oxidação do metanol atravessam a membrana até reagir com o oxigênio para formar água, seguindo uma reação semelhante àquela que ocorre em uma PEMFC.
+# sent_id = 10-20150122-MONOGRAFIA_0-80
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	prótons	prótom	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	gerados	gerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -2119,23 +2119,23 @@
 32	PEMFC	PEMFC	PROPN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-81
 # text = As DMFC não tem muitos dos problemas de armazenamento típicos de outras tecnologias, pois o metanol tem uma densidade de energia aproveitável maior que a do hidrogênio, embora menor que a da gasolina ou diesel.
+# sent_id = 10-20150122-MONOGRAFIA_0-81
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	DMFC	DMFC	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	obj	_	_
+5	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 6-7	dos	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	armazenamento	armazenamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	típicos	típico	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+11	típicos	típico	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
-14	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	11	acl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
 16	pois	pois	SCONJ	_	_	19	mark	_	_
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -2155,9 +2155,9 @@
 30	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	19	punct	_	_
 32	embora	embora	SCONJ	_	_	19	mark	_	_
-33	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	32	fixed	_	_
-34	que	que	SCONJ	_	_	32	fixed	_	_
-35	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	34	case	_	_
+33	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+34	que	que	SCONJ	_	_	32	mark	_	_
+35	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	33	obl	_	_
 36-37	da	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
@@ -2182,16 +2182,16 @@
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
-15	pois	pois	SCONJ	_	_	6	conj	_	_
-16	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	pois	pois	CCONJ	_	_	16	cc	_	_
+16	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 17	utilizar	utilizar	VERB	_	VerbForm=Inf	16	xcomp	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
-20	infra-estrutura	infra-estrutura	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+19	corrente	corrente	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	infra-estrutura	infra-estrutura	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 21	por	por	SCONJ	_	_	24	mark	_	_
 22	ser	ser	AUX	_	VerbForm=Inf	24	cop	_	_
 23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	17	xcomp	_	_
+24	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	17	advcl	_	_
 25	líquido	líquido	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	como	como	ADV	_	_	29	case	_	_
@@ -2199,8 +2199,8 @@
 29	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	24	appos:parataxis	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-83
 # text = Estas células operam em temperaturas entre 120 e 130°C e atingem uma eficiência de aproximadamente 40%.
+# sent_id = 10-20150122-MONOGRAFIA_0-83
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	células	célula	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	operam	operar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2268,8 +2268,8 @@
 41	produção	produção	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-85
 # text = O aumento no custo é, entretanto, compensado pela praticidade de utilizar um combustível líquido e de não necessitar de um reformador.
+# sent_id = 10-20150122-MONOGRAFIA_0-85
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -2299,8 +2299,8 @@
 25	reformador	reformador	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-86
 # text = A tecnologia existente nas DMFCs ainda está em início de desenvolvimento mas já têm demonstrado sucesso em aplicações em telefones celulares e laptops, mercados potenciais para esta tecnologia.
+# sent_id = 10-20150122-MONOGRAFIA_0-86
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	existente	existente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2337,11 +2337,11 @@
 # text = Membranas Poliméricas:
 # sent_id = 10-20150122-MONOGRAFIA_0-87
 1	Membranas	Membranas	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Poliméricas	Poliméricas	PROPN	_	Number=Sing	1	amod	_	SpaceAfter=No
+2	Poliméricas	Poliméricas	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-88
 # text = As membranas de troca iônica podem ser aniônicas ou catiônicas.
+# sent_id = 10-20150122-MONOGRAFIA_0-88
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2354,8 +2354,8 @@
 10	catiônicas	catiônico	ADJ	_	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-89
 # text = As aniônicas vão realizar o transporte de ânions e as catiônicas, de cátions.
+# sent_id = 10-20150122-MONOGRAFIA_0-89
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	aniônicas	aniônica	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2372,10 +2372,10 @@
 14	cátions	cátiom	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-90
 # text = Este transporte de cátions que ocorre na membrana é devido a grupos presentes na cadeia polimérica.
+# sent_id = 10-20150122-MONOGRAFIA_0-90
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	cátions	cátiom	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 5	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	_
@@ -2420,9 +2420,9 @@
 18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 19	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 20	que	que	SCONJ	_	_	23	mark	_	_
-21	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	23	nsubj	_	_
+21	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	19	csubj	_	_
 22	esteja	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-23	umidecida	umidecido	ADJ	_	Gender=Fem|Number=Sing	19	csubj	_	SpaceAfter=No
+23	umidecida	umidecido	ADJ	_	Gender=Fem|Number=Sing	21	acl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	32	punct	_	_
 25	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	mark	_	MWE=uma_vez_que|MWEPOS=SCONJ
 26	vez	vez	NOUN	_	Gender=Fem|Number=Sing	25	fixed	_	_
@@ -2443,8 +2443,8 @@
 40	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-92
 # text = Uma membrana de troca iônica deve possuir algumas propriedades fundamentais para seu bom funcionamento.
+# sent_id = 10-20150122-MONOGRAFIA_0-92
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	membrana	membrano	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2461,8 +2461,8 @@
 14	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-93
 # text = Não pode ser permeável a gases e deve promover o transporte de íons.
+# sent_id = 10-20150122-MONOGRAFIA_0-93
 1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	cop	_	_
@@ -2480,10 +2480,10 @@
 
 # text = Além disso, é preciso que tenham boa resistência mecânica (para que suportem as condições da célula), estabilidade dimensional (não deve inchar nem encolher, independentemente das condições) e estabilidade química, que devem suportar meios na faixa de pH de operação, assim como agentes oxidantes.
 # sent_id = 10-20150122-MONOGRAFIA_0-94
-1	Além	além	ADV	_	_	6	advmod	_	MWE=além_de|MWEPOS=ADV
+1	Além	além	ADV	_	_	3	cc	_	MWE=além_de|MWEPOS=CCONJ
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
-3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -2508,9 +2508,9 @@
 24	dimensional	dimensional	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 26	não	não	ADV	_	Polarity=Neg	28	advmod	_	_
-27	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	xcomp	_	_
-28	inchar	inchar	VERB	_	VerbForm=Inf	42	xcomp	_	_
-29	nem	nem	CCONJ	_	_	30	advmod	_	_
+27	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+28	inchar	inchar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	nem	nem	CCONJ	_	_	30	cc	_	_
 30	encolher	encolher	VERB	_	VerbForm=Inf	28	conj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	_
 32	independentemente	independentemente	ADV	_	_	30	advmod	_	_
@@ -2524,7 +2524,7 @@
 39	química	químico	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	38	punct	_	_
 41	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	28	conj	_	_
-42	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+42	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 43	suportar	suportar	VERB	_	VerbForm=Inf	42	xcomp	_	_
 44	meios	meios	NOUN	_	Gender=Masc|Number=Plur	43	obj	_	_
 45-46	na	_	_	_	_	_	_	_	_
@@ -2536,9 +2536,9 @@
 50	de	de	ADP	_	_	51	case	_	_
 51	operação	operação	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	43	punct	_	_
-53	assim	assim	ADV	_	_	43	advmod	_	MWE=assim_como|MWEPOS=SCONJ
-54	como	como	ADP	_	_	43	fixed	_	_
-55	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	43	advcl	_	_
+53	assim	assim	ADV	_	_	43	cc	_	MWE=assim_como|MWEPOS=CCONJ
+54	como	como	ADP	_	_	53	fixed	_	_
+55	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	44	conj	_	_
 56	oxidantes	oxidante	ADJ	_	Gender=Masc|Number=Plur	55	amod	_	SpaceAfter=No
 57	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
@@ -2547,8 +2547,8 @@
 1	Nafion	Nafion	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-96
 # text = O bom desempenho de PEMFC depende fortemente de uma membrana de troca iônica eficiente.
+# sent_id = 10-20150122-MONOGRAFIA_0-96
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	bom	bom	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -2565,8 +2565,8 @@
 14	eficiente	eficiente	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-97
 # text = A membrana mais utilizada nestas células é o Nafion®, que se caracteriza por ter uma estrutura altamente estável com boa condutividade iônica.
+# sent_id = 10-20150122-MONOGRAFIA_0-97
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	membrana	membrano	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -2584,7 +2584,7 @@
 14	caracteriza	caracterizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 15	por	por	SCONJ	_	_	16	mark	_	_
 16	ter	ter	VERB	_	VerbForm=Inf	14	advcl	_	_
-17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	obj	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 19	altamente	altamente	ADV	_	_	18	advmod	_	_
 20	estável	estável	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
@@ -2594,16 +2594,16 @@
 24	iônica	iônico	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-98
 # text = A estrutura molecular do Nafion®[1] encontra-se na Figura 2 e uma representação de sua nanoestrutura na Figura 3.
+# sent_id = 10-20150122-MONOGRAFIA_0-98
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
-3	molecular	molecular	VERB	_	Gender=Fem|Number=Sing	9	advcl	_	_
+3	molecular	molecular	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Nafion®[	nafion®[	PROPN	_	Number=Sing	3	obj	_	SpaceAfter=No
-7	1	1	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+6	Nafion®[	Nafion	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	1	1	PROPN	_	Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	]	_	PUNCT	_	_	9	punct	_	_
 9-10	encontra-se	_	_	_	_	_	_	_	_
 9	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2615,7 +2615,7 @@
 14	2	2	PROPN	_	Number=Sing	13	flat:name	_	_
 15	e	e	CCONJ	_	_	17	cc	_	_
 16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	representação	representação	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+17	representação	representação	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	20	det	_	_
 20	nanoestrutura	nanoestrutura	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -2626,14 +2626,14 @@
 24	3	3	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-99
 # text = Figura 2.
+# sent_id = 10-20150122-MONOGRAFIA_0-99
 1	Figura	figurar	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-100
 # text = Estrutura molecular do Nafion®.2
+# sent_id = 10-20150122-MONOGRAFIA_0-100
 1	Estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	molecular	molecular	VERB	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2641,8 +2641,8 @@
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Nafion®.2	Nafion®.2	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-101
 # text = Figura 3.
+# sent_id = 10-20150122-MONOGRAFIA_0-101
 1	Figura	figurar	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
@@ -2659,8 +2659,8 @@
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Nafion®.2	Nafion®.2	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-103
 # text = A aplicabilidade do Nafion® em larga escala é restrita, porém, pelo seu alto custo.
+# sent_id = 10-20150122-MONOGRAFIA_0-103
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aplicabilidade	aplicabilidade	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2683,8 +2683,8 @@
 18	custo	custo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-104
 # text = Vários trabalhos têm sido desenvolvidos na intenção de obter membranas de condução protônica eficientes e de baixo custo.
+# sent_id = 10-20150122-MONOGRAFIA_0-104
 1	Vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -2707,8 +2707,8 @@
 19	custo	custo	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-105
 # text = Alguns destes trabalhos resultaram em materiais como o polibenzimidazol3 e copolímeros de imidazol4 dopados com ácido fosfórico.
+# sent_id = 10-20150122-MONOGRAFIA_0-105
 1	Alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
 2-3	destes	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2730,8 +2730,8 @@
 18	fosfórico	fosfórico	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-106
 # text = Poli(bisfenol A-co-epicloridrina):
+# sent_id = 10-20150122-MONOGRAFIA_0-106
 1	Poli(	Poli(	NOUN	_	_	0	root	_	SpaceAfter=No
 2	bisfenol	bisfenol	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	A-co-epicloridrina	A-co-epicloridrina	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -2742,8 +2742,8 @@
 # sent_id = 10-20150122-MONOGRAFIA_0-107
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	poli(	poli(	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
-3	bisfenol	bisfenol	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-4	A-co-epicloridrina	A-co-epicloridrina	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+3	bisfenol	bisfenol	NOUN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
+4	A-co-epicloridrina	A-co-epicloridrina	NOUN	_	Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	7	punct	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	PBE	PBE	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
@@ -2751,12 +2751,12 @@
 9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	resina	resina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-12	epóxi	epóxer	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+12	epóxi	epóxi	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	contendo	conter	VERB	_	VerbForm=Ger	11	advcl	_	_
 14	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
-15	éter	éter	ADJ	_	Gender=Masc|Number=Sing	14	appos	_	_
-16	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
-17	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	éter	éter	ADJ	_	Gender=Masc|Number=Plur	14	appos	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	11	nsubj	_	_
+17	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 18	coordenar	coordenar	VERB	_	VerbForm=Inf	17	xcomp	_	_
 19	cátions	cátiom	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
@@ -2765,8 +2765,8 @@
 23	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-108
 # text = Apresenta início de decomposição térmica em 180 oC e, em decorrência de suas propriedades adesivas, já foi utilizada como matriz hospedeira para a formulação de eletrólitos sólidos poliméricos condutores de Li+ .
+# sent_id = 10-20150122-MONOGRAFIA_0-108
 1	Apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	início	início	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2799,11 +2799,11 @@
 30	poliméricos	polimérico	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 31	condutores	condutor	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 32	de	de	ADP	_	_	33	case	_	_
-33	Li+	Li+	PROPN	_	Number=Sing	28	nmod	_	_
+33	Li+	Li+	PROPN	_	Number=Sing	31	nmod	_	_
 34	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-109
 # text = Nesses trabalhos
+# sent_id = 10-20150122-MONOGRAFIA_0-109
 1-2	Nesses	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
@@ -2844,8 +2844,8 @@
 
 # text = S/cm e janela de estabilidade eletroquímica maior que 5 V.
 # sent_id = 10-20150122-MONOGRAFIA_0-111
-1	S	se	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	/cm	/cr	NOUN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
+1	S	s	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	/cm	/cm	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
 4	janela	janela	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -2856,8 +2856,8 @@
 10	5	5	NUM	_	NumType=Card	11	nummod	_	_
 11	V.	V.	NOUN	_	Gender=Masc|Number=Sing	1	advcl	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-112
 # text = Portanto, o PBE apresenta características térmicas e de estabilidade eletroquímica adequadas para ser testado como membrana condutora protônica.
+# sent_id = 10-20150122-MONOGRAFIA_0-112
 1	Portanto	portanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2867,26 +2867,26 @@
 7	térmicas	térmico	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
 8	e	e	CCONJ	_	_	10	cc	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+10	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 11	eletroquímica	eletroquímico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
-12	adequadas	adequada	VERB	_	Gender=Fem|Number=Plur	10	acl	_	_
+12	adequadas	adequada	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 13	para	para	SCONJ	_	_	15	mark	_	_
 14	ser	ser	AUX	_	VerbForm=Inf	15	aux:pass	_	_
-15	testado	testar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_
-16	como	como	ADP	_	_	17	mark	_	_
-17	membrana	membrano	VERB	_	Gender=Fem|Number=Sing	15	xcomp	_	_
-18	condutora	condutora	NOUN	_	Gender=Fem|Number=Sing	17	xcomp	_	_
-19	protônica	protônico	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+15	testado	testar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	_
+16	como	como	ADP	_	_	17	case	_	_
+17	membrana	membrana	NOUN	_	Gender=Fem|Number=Sing	15	xcomp	_	_
+18	condutora	condutor	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	protônica	protônico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-113
 # text = Figura 4.
+# sent_id = 10-20150122-MONOGRAFIA_0-113
 1	Figura	figurar	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-114
 # text = Estrutura molecular do PBE.
+# sent_id = 10-20150122-MONOGRAFIA_0-114
 1	Estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	molecular	molecular	VERB	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2895,8 +2895,8 @@
 5	PBE	PBE	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-115
 # text = Compósitos e nanocompósitos
+# sent_id = 10-20150122-MONOGRAFIA_0-115
 1	Compósitos	Compósito	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	nanocompósitos	nanocompósito	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
@@ -2922,19 +2922,19 @@
 16	escala	escala	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 17	nanométrica	nanométrico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 18	com	com	ADP	_	_	19	case	_	_
-19	alta	alto	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-20	reprodutibilidade	reprodutibilidade	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+19	alta	alto	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	reprodutibilidade	reprodutibilidade	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-117
 # text = Esta família de materiais, que apresentam ordem estrutural na faixa de nanômetros, pode ser chamada de nanopartículas.
+# sent_id = 10-20150122-MONOGRAFIA_0-117
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	família	família	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	materiais	material	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	_	_
-7	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+7	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 8	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 9	estrutural	estrutural	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10-11	na	_	_	_	_	_	_	_	_
@@ -2948,11 +2948,11 @@
 17	ser	ser	AUX	_	VerbForm=Inf	18	aux:pass	_	_
 18	chamada	chamar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	xcomp	_	_
 19	de	de	ADP	_	_	20	case	_	_
-20	nanopartículas	nanopartícula	NOUN	_	Gender=Fem|Number=Plur	18	nsubj:pass	_	SpaceAfter=No
+20	nanopartículas	nanopartícula	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-118
 # text = Os compostos mais utilizados são as zeólitas e os óxidos micro ou mesoporosos, pois estes são formados por ligações interatômicas fortes e possuem retículo cristalino bem definido com canais, poros e cavidades de dimensões nanométricas7.
+# sent_id = 10-20150122-MONOGRAFIA_0-118
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -2967,10 +2967,10 @@
 12	ou	ou	CCONJ	_	_	13	cc	_	_
 13	mesoporosos	mesoporoso	ADJ	_	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
-15	pois	pois	SCONJ	_	_	18	mark	_	_
+15	pois	pois	CCONJ	_	_	18	cc	_	_
 16	estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	18	nsubj:pass	_	_
 17	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
-18	formados	formar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	_
+18	formados	formar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	conj	_	_
 19	por	por	ADP	_	_	20	case	_	_
 20	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	18	obl:agent	_	_
 21	interatômicas	interatômico	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
@@ -2980,7 +2980,7 @@
 25	retículo	retículo	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
 26	cristalino	cristalino	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 27	bem	bem	ADV	_	_	28	advmod	_	_
-28	definido	definido	VERB	_	Gender=Masc|Number=Sing	25	acl	_	_
+28	definido	definido	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 29	com	com	ADP	_	_	30	case	_	_
 30	canais	canal	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
@@ -2989,11 +2989,11 @@
 34	cavidades	cavidade	NOUN	_	Gender=Fem|Number=Plur	30	conj	_	_
 35	de	de	ADP	_	_	36	case	_	_
 36	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
-37	nanométricas7	nanométricas7	ADJ	_	NumType=Card	36	amod	_	SpaceAfter=No
+37	nanométricas7	nanométrico	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-119
 # text = Compósitos ou nanocompósitos são obtidos, em casos onde a matriz utilizada na síntese não é dissolvida (template), pois as dimensões da fase polimérica sintetizada estarão delimitadas pelas dimensões dos espaços vazios das matrizes hospedeiras, geralmente na faixa de nanômetros.
+# sent_id = 10-20150122-MONOGRAFIA_0-119
 1	Compósitos	Compósito	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 2	ou	ou	CCONJ	_	_	3	cc	_	_
 3	nanocompósitos	nanocompósito	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
@@ -3014,10 +3014,10 @@
 17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
 18	dissolvida	dissolver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	template	template	ADJ	_	Gender=Masc|Number=Sing	18	advcl	_	SpaceAfter=No
+20	template	template	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	_
-23	pois	pois	SCONJ	_	_	32	mark	_	_
+23	pois	pois	CCONJ	_	_	32	cc	_	_
 24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	32	nsubj:pass	_	_
 26-27	da	_	_	_	_	_	_	_	_
@@ -3047,7 +3047,7 @@
 46-47	na	_	_	_	_	_	_	_	_
 46	em	em	ADP	_	_	48	case	_	_
 47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+48	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	_
 49	de	de	ADP	_	_	50	case	_	_
 50	nanômetros	nanômetro	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	5	punct	_	_
@@ -3056,16 +3056,16 @@
 # sent_id = 10-20150122-MONOGRAFIA_0-120
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	nano	nano	NOUN	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+3	nano	nano	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	compósitos	compósito	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 6	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
-8	híbrido	híbrer	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+8	híbrido	híbrido	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	e	e	CCONJ	_	_	15	cc	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -3097,7 +3097,7 @@
 38	elétricas	elétrico	ADJ	_	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
 40	entre	entre	ADP	_	_	41	case	_	_
-41	outras8	outras8	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
+41	outras8	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	32	conj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
 # text = As células que utilizam H2 e Nafion® como eletrólito, perdem água a temperaturas próximas a 100 oC e perdem sua eficiência com a perda de água.
@@ -3140,7 +3140,7 @@
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	DMFCs	DMFCs	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
-8	baseadas	basear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	acl	_	_
+8	baseadas	basear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 9	em	em	ADP	_	_	10	case	_	_
 10	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 11	poliméricas	polimérico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
@@ -3161,7 +3161,7 @@
 26	energia	energia	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	portáteis	portátil	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
 28	e	e	CCONJ	_	_	29	cc	_	_
-29	móveis9	móveis9	ADJ	_	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+29	móveis9	móvel	ADJ	_	Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	10	10	NUM	_	NumType=Card	29	conj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
@@ -3184,7 +3184,7 @@
 11	dispositivos	dispositivo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 12	:	:	PUNCT	_	_	2	punct	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	i	i	SYM	_	_	17	parataxis	_	SpaceAfter=No
+14	i	i	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	cinética	cinética	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
@@ -3256,14 +3256,14 @@
 36	condutividade	condutividade	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 37	protônica	protônico	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
 38	e	e	CCONJ	_	_	40	cc	_	_
-39	baixo	baixo	ADV	_	_	40	amod	_	_
-40	cross-over12	cross-over12	ADJ	_	Gender=Masc|Number=Sing	32	conj	_	_
+39	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
+40	cross-over12	cross-over	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	_
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	13	13	NUM	_	NumType=Card	32	appos	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-125
 # text = O aumento da temperatura de operação da célula reduz o envenenamento do catalisador por CO em células com hidrogênio, e do anodo pelos resíduos metanólicos adsorbidos em células a metanol.
+# sent_id = 10-20150122-MONOGRAFIA_0-125
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3349,9 +3349,9 @@
 34	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-127
 # text = Sendo assim, a introdução de membranas compósitas possibilita a operação a temperaturas maiores que as membrana de Nafion® permitem sem diminuir o seu tempo de operacionalidade.
-1	Sendo	ser	VERB	_	VerbForm=Ger	9	advmod	_	_
+# sent_id = 10-20150122-MONOGRAFIA_0-127
+1	Sendo	ser	VERB	_	VerbForm=Ger	9	cc	_	MWE=Sendo_assim|MWEPOS=CCONJ
 2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3365,14 +3365,14 @@
 12	a	a	ADP	_	_	13	case	_	_
 13	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
 14	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
-15	que	que	PRON	_	_	20	obj	_	_
+15	que	que	SCONJ	_	_	20	mark	_	_
 16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	membrana	membrana	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	Nafion®	Nafion®	PROPN	_	Number=Sing	17	nmod	_	_
-20	permitem	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+20	permitem	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 21	sem	sem	SCONJ	_	_	22	mark	_	_
-22	diminuir	diminuir	VERB	_	VerbForm=Inf	20	advcl	_	_
+22	diminuir	diminuir	VERB	_	VerbForm=Inf	9	advcl	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	25	det	_	_
 25	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
@@ -3380,8 +3380,8 @@
 27	operacionalidade	operacionalidade	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-128
 # text = Uma das possibilidades consiste na inclusão de preenchedores sólidos inorgânicos higroscópicos na matriz do Nafion® para aumentar a sua temperatura de operação, como tem sido proposto em alguns trabalhos14.
+# sent_id = 10-20150122-MONOGRAFIA_0-128
 1	Uma	um	NUM	_	NumType=Card	5	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3426,7 +3426,7 @@
 # sent_id = 10-20150122-MONOGRAFIA_0-129
 1	Baglio	Baglio	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
-3	colaboradores15	colaboradores15	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
+3	colaboradores15	colaborador	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 4	prepararam	preparar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	com	com	ADP	_	_	6	case	_	_
 6	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -3442,7 +3442,7 @@
 16	chabazita	chabazita	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
 17	e	e	CCONJ	_	_	19	cc	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	clinoptilotita	clinoptilotita	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+19	clinoptilotita	clinoptilotita	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
 20-21	na	_	_	_	_	_	_	_	_
 20	em	em	ADP	_	_	22	case	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -3453,8 +3453,8 @@
 25	Nafion®	Nafion®	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-130
 # text = Aumentaram a condutividade protônica e a retenção de água do eletrólito a temperaturas de operação da célula de 150 °C.
+# sent_id = 10-20150122-MONOGRAFIA_0-130
 1	Aumentaram	aumentar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	condutividade	condutividade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -3481,10 +3481,10 @@
 22	°C	°c	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 10-20150122-MONOGRAFIA_0-131
 # text = Na verdade, os preenchedores possuem propriedades higroscópicas nessas temperaturas16.
+# sent_id = 10-20150122-MONOGRAFIA_0-131
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	7	advmod	_	_
+1	Em	em	ADP	_	_	7	cc	_	MWE=Na_verdade|MWEPOS=CCONJ
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	fixed	_	_
 3	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -3496,11 +3496,11 @@
 10-11	nessas	_	_	_	_	_	_	_	_
 10	em	em	ADP	_	_	12	case	_	_
 11	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
-12	temperaturas16	temperaturas16	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	temperaturas16	temperaturas	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n
 
-# sent_id = 10-20150122-MONOGRAFIA_0-132
 # text = tanto propriedade de condução protônica como
+# sent_id = 10-20150122-MONOGRAFIA_0-132
 1	tanto	tanto	DET	_	_	2	det	_	_
 2	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
