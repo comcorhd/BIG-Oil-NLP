@@ -50,8 +50,8 @@
 44	e	e	CCONJ	_	_	45	cc	_	_
 45	ramificados	ramificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	43	conj	_	_
 46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
-47	POLÁK	Polák	PROPN	_	Gender=Masc|Number=Sing	42	appos:parataxis	_	_
-48	et	et	PROPN	_	Gender=Masc|Number=Sing	47	flat:name	_	_
+47	POLÁK	Polák	PROPN	_	Gender=Masc|Number=Sing	29	appos:parataxis	_	_
+48	et	et	PROPN	_	_	47	flat:name	_	_
 49	al.	al.	PROPN	_	Gender=Fem|Number=Sing	47	flat:name	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	47	flat:name	_	_
 51	1986	1986	NUM	_	NumType=Card	47	flat:name	_	SpaceAfter=No
@@ -70,7 +70,7 @@
 9	al.	al.	NOUN	_	Gender=Fem|Number=Sing	7	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	7	flat:name	_	_
 11	1989	1989	NUM	_	NumType=Card	7	flat:name	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estes compostos diminuem a qualidade dos produtos petrolíferos devido à sua fácil polimerização, já que as suas ligações duplas conjugadas apresentam alta reatividade.
@@ -107,7 +107,7 @@
 
 # text = Além dos dienos conjugados, o estireno e seus derivados (devido à conjugação da ligação dupla com o sistema aromático) também apresentam forte tendência à polimerização (POLÁK et al., 1986).
 # sent_id = 0-20150121-TESEMSC_0-4
-1	Além	além	ADV	_	_	4	cc	_	MWE=Sendo_assim|MWEPOS=CCONJ
+1	Além	além	ADV	_	_	4	cc	_	MWE=Além_de|MWEPOS=CCONJ
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -142,13 +142,13 @@
 30-31	à	_	_	_	_	_	_	_	_
 30	a	a	ADP	_	_	32	case	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	polimerização	polimerização	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+32	polimerização	polimerização	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
 33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	POLÁK	Polák	PROPN	_	Gender=Unsp|Number=Sing	32	appos:parataxis	_	_
-35	et	et	PROPN	_	Gender=Masc|Number=Sing	34	flat:name	_	_
+34	POLÁK	Polák	PROPN	_	_	27	appos:parataxis	_	_
+35	et	et	PROPN	_	_	34	flat:name	_	_
 36	al.	al.	PROPN	_	Gender=Fem|Number=Sing	34	flat:name	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	32	flat:name	_	_
-38	1986	1986	NUM	_	NumType=Card	32	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	34	flat:name	_	_
+38	1986	1986	NUM	_	NumType=Card	34	flat:name	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -192,7 +192,7 @@
 34	1986	1986	NUM	_	NumType=Card	30	flat:name	_	_
 35	e	e	CCONJ	_	_	36	cc	_	_
 36	VELASCO-ARJONA	VELASCO-ARJONA	PROPN	_	Gender=Fem|Number=Sing	30	conj	_	_
-37	et	et	PROPN	_	Number=Sing	36	flat:name	_	_
+37	et	et	PROPN	_	Number=Sing	36	flat:name	_	MWE=et_al|MWEPOS=NOUN
 38	al.	al.	NOUN	_	Gender=Fem|Number=Sing	36	flat:name	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	36	flat:name	_	_
 40	1998	1998	NUM	_	NumType=Card	36	flat:name	_	SpaceAfter=No
@@ -206,9 +206,9 @@
 3	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	6	obj	_	_
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-6	apresenta	apresento	VERB	_	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+6	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 7	em	em	SCONJ	_	_	8	mark	_	_
-8	formar	formar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	formar	formar	VERB	_	VerbForm=Inf	2	acl	_	_
 9	goma	goma	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	durante	durante	ADP	_	_	13	case	_	_
@@ -238,7 +238,7 @@
 35	insaturados	insaturado	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
 36	presentes	presente	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
 37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
-38	composição	composição	NOUN	_	Gender=Fem|Number=Sing	34	appos:parataxis	_	SpaceAfter=No
+38	composição	composição	NOUN	_	Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
@@ -261,10 +261,10 @@
 57	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	61	obl	_	_
 58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	produto	produto	NOUN	_	Gender=Masc|Number=Sing	61	nsubj	_	_
-60	está	esestar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
-61	armazenado	armazenado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	56	acl:relcl	_	_
+60	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
+61	armazenado	armazenado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	54	acl:relcl	_	_
 62	(	(	PUNCT	_	_	63	punct	_	SpaceAfter=No
-63	D’	D’	PROPN	_	Gender=Unsp|Number=Sing	2	appos:parataxis	_	SpaceAfter=No
+63	D’	D’	PROPN	_	Gender=Unsp|Number=Sing	22	appos:parataxis	_	SpaceAfter=No
 64	ORNELLAS	ORNELLAS	PROPN	_	Gender=Unsp|Number=Sing	63	flat:name	_	_
 65	et	et	ADP	_	Gender=Unsp|Number=Sing	63	flat:name	_	_
 66	al.	al.	PROPN	_	Gender=Fem|Number=Sing	63	flat:name	_	SpaceAfter=No
@@ -307,8 +307,8 @@
 6	craqueamento	craqueamento	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8-9	oxida-se	_	_	_	_	_	_	_	_
-8	oxida	oxer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
-9	se	se	SCONJ	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	expl	_	_
+8	oxida	oxidar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+9	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	expl	_	_
 10	mais	mais	ADV	_	_	11	advmod	_	_
 11	rapidamente	rapidamente	ADV	_	_	8	advmod	_	_
 12	que	que	SCONJ	_	_	14	mark	_	_
@@ -342,7 +342,7 @@
 
 # text = A lenta oxidação da gasolina na presença do ar forma produtos, como gomas, que podem depositar-se nas superfícies dos compartimentos por onde o combustível passa, causando um mau funcionamento do motor.
 # sent_id = 0-20150121-TESEMSC_0-10
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	lenta	lento	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	oxidação	oxidação	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -361,10 +361,10 @@
 14	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	como	como	ADP	_	_	17	case	_	_
-17	gomas	goma	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	SpaceAfter=No
+17	gomas	goma	NOUN	_	Gender=Masc|Number=Plur	14	appos:parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	21	nsubj	_	_
-20	podem	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	20	nsubj	_	_
+20	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 21-22	depositar-se	_	_	_	_	_	_	_	_
 21	depositar	depositar	VERB	_	VerbForm=Inf	14	acl:relcl	_	_
 22	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	expl	_	_
@@ -380,7 +380,7 @@
 30	onde	onde	PRON	_	Gender=Masc|Number=Sing	33	obl	_	_
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
-33	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+33	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	causando	causar	VERB	_	VerbForm=Ger	33	advcl	_	_
 36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -394,7 +394,7 @@
 
 # text = Baseado nisso, torna-se importante a análise de dienos conjugados na gasolina, exigindo deste setor industrial a adoção de um método rápido e preciso para determinação destes compostos a fim de substituir o método tradicionalmente utilizado, que demanda muito tempo de análise.
 # sent_id = 0-20150121-TESEMSC_0-11
-1	Baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+1	Baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	_
 2-3	nisso	_	_	_	_	_	_	_	SpaceAfter=No
 2	em	em	ADP	_	_	3	case	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
@@ -402,7 +402,7 @@
 5-6	torna-se	_	_	_	_	_	_	_	_
 5	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-7	importante	importante	ADJ	_	Gender=Masc|Number=Sing	9	acl	_	_
+7	importante	importante	ADJ	_	Gender=Fem|Number=Sing	5	xcomp	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	análise	análise	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -453,20 +453,20 @@
 # text = O teor de dienos conjugados é normalmente expresso em valor de dieno, sendo este definido como o número de gramas de iodo necessários à adição a uma dupla ligação do dieno conjugado presente em 100 gramas de amostra.
 # sent_id = 0-20150121-TESEMSC_0-12
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	teor	teor	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	teor	teor	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 5	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
-6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 7	normalmente	normalmente	ADV	_	_	8	advmod	_	_
-8	expresso	expresso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+8	expresso	expressar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 9	em	em	ADP	_	_	10	case	_	_
 10	valor	valor	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	dieno	dieno	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	sendo	ser	AUX	_	VerbForm=Ger	16	cop	_	_
-15	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
+14	sendo	ser	AUX	_	VerbForm=Ger	16	aux:pass	_	_
+15	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj:pass	_	_
 16	definido	definir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	advcl	_	_
 17	como	como	ADP	_	_	19	case	_	_
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -475,7 +475,7 @@
 21	gramas	grama	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	iodo	iodo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-24	necessários	necessário	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+24	necessários	necessário	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
 25-26	à	_	_	_	_	_	_	_	_
 25	a	a	ADP	_	_	27	case	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -561,9 +561,9 @@
 35	maleico	maleico	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 36	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
 37	usualmente	usualmente	ADV	_	_	38	advmod	_	_
-38	recomendada	recomendado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+38	recomendada	recomendar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	ALLINGER	ALLINGER	NOUN	_	Gender=Fem|Number=Sing	38	appos:parataxis	_	_
+40	ALLINGER	ALLINGER	PROPN	_	Gender=Fem|Number=Sing	38	appos:parataxis	_	_
 41	et.	et.	PROPN	_	_	40	flat:name	_	_
 42	al.	al.	PROPN	_	Gender=Fem|Number=Sing	40	flat:name	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	40	flat:name	_	_
@@ -580,16 +580,16 @@
 54	al.	al.	PROPN	_	Gender=Fem|Number=Sing	52	flat:name	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	52	flat:name	_	_
 56	1973	1973	NUM	_	NumType=Card	52	flat:name	_	SpaceAfter=No
-57	;	;	PUNCT	_	_	52	punct	_	_
+57	;	;	PUNCT	_	_	38	punct	_	_
 
 # text = JENKINS et al., 1946; OGUNTOYE et al., 1996;
 # sent_id = 0-20150121-TESEMSC_0-15
 1	JENKINS	Jenkim	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	et	et	PROPN	_	Number=Sing	1	flat:name	_	_
-3	al.	al.	PUNCT	_	Gender=Fem|Number=Sing	1	flat:name	_	SpaceAfter=No
+3	al.	al.	PROPN	_	Gender=Fem|Number=Sing	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	flat:name	_	_
 5	1946	1946	NUM	_	NumType=Card	1	flat:name	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	1	punct	_	_
+6	;	;	PUNCT	_	_	7	punct	_	_
 7	OGUNTOYE	OGUNTOYE	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 8	et	et	PROPN	_	Number=Sing	7	flat:name	_	_
 9	al.	al.	PROPN	_	Gender=Fem|Number=Sing	7	flat:name	_	SpaceAfter=No
@@ -647,18 +647,18 @@
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	final	final	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+3	final	final	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	reação	reação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	cc	_	MWE=isto_é|MWEPOS=CCONJ
+8	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	cc	_	MWE=isto_é|MWEPOS=CCONJ
 9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	após	após	ADP	_	_	13	case	_	_
 12	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
-13	horas	hora	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+13	horas	hora	NOUN	_	Gender=Fem|Number=Plur	3	appos	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	anidrido	anidrido	NOUN	_	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
@@ -675,7 +675,7 @@
 27	reagiu	reagir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
-30	hidrolisado	hidrolisado	VERB	_	Gender=Masc|Number=Sing	0	root	_	_
+30	hidrolisado	hidrolisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 31	e	e	CCONJ	_	_	32	cc	_	_
 32	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	conj	_	_
 33	por	por	ADP	_	_	34	case	_	_
@@ -699,9 +699,9 @@
 7	UOP-326	UOP-326	PROPN	_	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	e	e	CCONJ	_	_	4	cc	_	_
-10	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	sendo	ser	AUX	_	VerbForm=Ger	12	aux:pass	_	_
-12	empregado	empregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	empregado	empregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
 13	desde	desde	ADP	_	_	14	case	_	_
 14	1965	1965	NUM	_	NumType=Card	12	obl	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
@@ -773,7 +773,7 @@
 53	como	como	ADP	_	_	54	case	_	_
 54	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	51	appos:parataxis	_	_
 55	e	e	CCONJ	_	_	56	cc	_	_
-56	metanol	metanol	ADJ	_	Gender=Masc|Number=Sing	54	conj	_	_
+56	metanol	metanol	NOUN	_	Gender=Masc|Number=Sing	54	conj	_	_
 57	(	(	PUNCT	_	_	58	punct	_	SpaceAfter=No
 58	álcoois	álcool	NOUN	_	Gender=Masc|Number=Plur	54	appos	_	_
 59	primários	primário	ADJ	_	Gender=Masc|Number=Plur	58	amod	_	SpaceAfter=No
@@ -790,12 +790,12 @@
 70	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	71	det	_	_
 71	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	69	obj	_	SpaceAfter=No
 72	,	,	PUNCT	_	_	69	punct	_	_
-73	além	além	ADV	_	_	69	advmod	_	MWE=além_de|MWEPOS=ADV
+73	além	além	ADV	_	_	77	cc	_	MWE=além_de|MWEPOS=CCONJ
 74-75	do	_	_	_	_	_	_	_	_
 74	de	de	ADP	_	_	73	fixed	_	_
 75	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
 76	grande	grande	ADJ	_	Gender=Masc|Number=Sing	77	amod	_	_
-77	desvio-padrão	desvio-padrão	NOUN	_	Gender=Masc|Number=Sing	51	conj	_	_
+77	desvio-padrão	desvio-padrão	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
 78	relativo	relativo	ADJ	_	Gender=Masc|Number=Sing	77	amod	_	_
 79	de	de	ADP	_	_	82	case	_	_
 80	aproximadamente	aproximadamente	ADV	_	_	81	advmod	_	_
@@ -810,14 +810,14 @@
 89	de	de	ADP	_	_	90	case	_	_
 90	análise	análise	NOUN	_	Gender=Fem|Number=Sing	88	nmod	_	_
 91	(	(	PUNCT	_	_	92	punct	_	SpaceAfter=No
-92	POLÁK	Polák	PROPN	_	_	88	appos:parataxis	_	_
+92	POLÁK	Polák	PROPN	_	Gender=Unsp|Number=Sing	88	appos:parataxis	_	_
 93	et	et	PROPN	_	_	92	flat:name	_	_
 94	al.	al.	PROPN	_	Gender=Fem|Number=Sing	92	flat:name	_	SpaceAfter=No
 95	,	,	PUNCT	_	_	92	flat:name	_	_
 96	1986	1986	NUM	_	NumType=Card	92	flat:name	_	SpaceAfter=No
 97	;	;	PUNCT	_	_	92	punct	_	_
-98	SWARIN	Swarin	PROPN	_	_	92	conj	_	_
-99	et	et	PROPN	_	_	98	flat:name	_	_
+98	SWARIN	Swarin	PROPN	_	Gender=Unsp|Number=Sing	92	conj	_	_
+99	et	et	PROPN	_	_	98	flat:name	_	MWE=et_al|MWEPOS=NOUN
 100	al.	al.	PROPN	_	Gender=Fem|Number=Sing	98	flat:name	_	SpaceAfter=No
 101	,	,	PUNCT	_	_	98	flat:name	_	_
 102	1989	1989	NUM	_	NumType=Card	98	flat:name	_	_
@@ -831,9 +831,8 @@
 110	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n
 
 # text = Alguns métodos vêm sendo descritos na literatura para a determinação do valor de dienos conjugados.
-# sent_id = 0-20150121-TESEMSC_0-21
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
-2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
 3	vêm	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sendo	ser	AUX	_	VerbForm=Ger	5	aux:pass	_	_
 5	descritos	descrever	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	3	xcomp	_	_
@@ -855,8 +854,8 @@
 
 # text = Dentre eles destacam-se os métodos fotométrico, cromatográfico e voltamétrico.
 # sent_id = 0-20150121-TESEMSC_0-22
-1	Dentre	Dentre	PROPN	_	_	3	nsubj	_	_
-2	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+1	Dentre	Dentre	ADP	_	_	2	case	_	_
+2	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
 3-4	destacam-se	_	_	_	_	_	_	_	_
 3	destacam	destacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	se	se	SCONJ	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
@@ -932,7 +931,7 @@
 19	cromatográfico	cromatográfico	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 20	para	para	ADP	_	_	22	case	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+22	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -953,9 +952,9 @@
 8	relativamente	relativamente	ADV	_	_	9	advmod	_	_
 9	grande	grande	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
-11	além	além	ADV	_	_	13	mark	_	_
+11	além	além	ADV	_	_	13	cc	_	MWE=além_de|MWEPOS=CCONJ
 12	de	de	ADP	_	_	11	fixed	_	_
-13	ter	ter	VERB	_	VerbForm=Inf	3	advcl	_	_
+13	ter	ter	VERB	_	VerbForm=Inf	3	conj	_	_
 14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 16	insuficiente	insuficiente	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
@@ -1032,7 +1031,7 @@
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 16	de	de	ADP	_	_	17	case	_	_
-17	potencial	potencial	NOUN	_	Gender=Unsp|Number=Sing	15	nmod	_	_
+17	potencial	potencial	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	-2,3VECS	-2,3vec	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
 20	a	a	ADP	_	_	21	case	_	_
@@ -1046,7 +1045,7 @@
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	potencial	potencial	NOUN	_	Gender=Unsp|Number=Sing	3	nmod	_	SpaceAfter=No
+5	potencial	potencial	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	redução	redução	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -1054,15 +1053,15 @@
 10	sulfidas	sulfida	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	diaril	diaril	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	e	e	CCONJ	_	_	13	cc	_	_
-13	aromáticos	aromático	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	_
+13	aromáticos	aromático	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 14	policíclicos	policíclico	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 15	também	também	ADV	_	_	16	advmod	_	_
 16	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	31	punct	_	_
 18	mas	mas	CCONJ	_	_	31	cc	_	_
-19	devido	devido	ADV	_	_	24	advmod	_	_
+19	devido	devido	ADP	_	_	24	case	_	MWE=devido_a|MWEPOS=ADP
 20-21	aos	_	_	_	_	_	_	_	_
-20	a	a	ADP	_	_	24	case	_	_
+20	a	a	ADP	_	_	19	fixed	_	_
 21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 22	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	24	det	_	_
 23	altos	alto	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
@@ -1070,7 +1069,7 @@
 25	de	de	ADP	_	_	26	case	_	_
 26	ebulição	ebulição	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	19	punct	_	_
-28	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	31	nsubj	_	_
+28	estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	10	appos	_	_
 29	não	não	ADV	_	Polarity=Neg	31	advmod	_	_
 30	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 31	presentes	presente	ADJ	_	Gender=Masc|Number=Plur	16	conj	_	_
@@ -1079,8 +1078,8 @@
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	POLÁK	Polák	PROPN	_	Gender=Masc|Number=Sing	34	appos:parataxis	_	_
-37	et	et	PROPN	_	_	36	flat:name	_	_
+36	POLÁK	Polák	PROPN	_	Gender=Unsp|Number=Sing	16	appos:parataxis	_	_
+37	et	et	PROPN	_	Gender=Fem|Number=Sing	36	flat:name	_	_
 38	al.	al.	PROPN	_	Gender=Fem|Number=Sing	36	flat:name	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	36	flat:name	_	_
 40	1986	1986	NUM	_	NumType=Card	36	flat:name	_	SpaceAfter=No
