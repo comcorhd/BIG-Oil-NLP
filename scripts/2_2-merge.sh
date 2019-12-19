@@ -16,5 +16,5 @@ fi
 
 git checkout master
 git pull
-git pull origin $1
+git merge -s recursive -Xignore-space-at-eol $1
 git push
