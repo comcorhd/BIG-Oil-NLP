@@ -16,10 +16,10 @@
 
 O corpus 5TEM é composto pelas introduções anotadas automaticamente dos seguintes arquivos:
 
-1. 0-20150121-TESEMSC_0.conllu
-2. 2-20150126-TESEDSC_0.conllu
-3. 10-20150122-MONOGRAFIA_0.conllu
-4. 6-20140908-MONOGRAFIA_0.conllu
+* 0-20150121-TESEMSC_0.conllu
+* 2-20150126-TESEDSC_0.conllu
+* 10-20150122-MONOGRAFIA_0.conllu
+* 6-20140908-MONOGRAFIA_0.conllu
 
 A revisão humana da anotação linguística foi feita pelos seguintes anotadores:
 
@@ -28,4 +28,4 @@ A revisão humana da anotação linguística foi feita pelos seguintes anotadore
 * Tatiana Cavalcanti
 * Wograine Evelyn
 
-O corpus é composto por 257 sentenças, totalizando 3776 tokens anotados no formato CoNLL-U, conforme o framework Universal Dependencies.
+O corpus é composto por 257 sentenças, totalizando 7185 tokens anotados no formato CoNLL-U, conforme o framework Universal Dependencies.
