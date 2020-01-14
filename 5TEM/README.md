@@ -14,18 +14,67 @@
 
 ## Descrição
 
-O corpus 5TEM é composto pelas introduções anotadas automaticamente dos seguintes arquivos:
+* 0-20150121-TESEMSC_0
+* 10-20150122-MONOGRAFIA_0
+* 2-20150126-TESEDSC_0
+* 6-20140908-MONOGRAFIA_0
 
-* 0-20150121-TESEMSC_0.conllu
-* 2-20150126-TESEDSC_0.conllu
-* 10-20150122-MONOGRAFIA_0.conllu
-* 6-20140908-MONOGRAFIA_0.conllu
+|Corpus|Sentenças|Tokens|
+|---|---|---|
+|jUD|257|7185|
+|GOLDEN|257|7185|
 
-A revisão humana da anotação linguística foi feita pelos seguintes anotadores:
-
-* Aline Silveira
-* Elvis de Souza
-* Tatiana Cavalcanti
-* Wograine Evelyn
-
-O corpus é composto por 257 sentenças, totalizando 7185 tokens anotados no formato CoNLL-U, conforme o framework Universal Dependencies.
+|Anotação|jUD|GOLDEN|
+|---|---|---|
+|ADJ|557|571|
+|ADP|1167|1175|
+|ADV|205|197|
+|AUX|134|135|
+|CCONJ|237|243|
+|DET|913|905|
+|NOUN|1742|1754|
+|NUM|171|172|
+|PRON|123|131|
+|PROPN|343|347|
+|PUNCT|980|983|
+|SCONJ|68|64|
+|SYM|18|20|
+|VERB|526|482|
+|X|1|6|
+|_|884|884|
+|acl|103|97|
+|acl:relcl|56|59|
+|advcl|96|89|
+|advmod|188|168|
+|amod|491|505|
+|appos|140|117|
+|appos:parataxis|47|77|
+|appos:transl|0|4|
+|aux|18|16|
+|aux:pass|54|61|
+|case|1146|1123|
+|cc|236|262|
+|ccomp|10|7|
+|compound|0|23|
+|conj|384|371|
+|cop|64|56|
+|csubj|6|4|
+|det|906|897|
+|expl|22|23|
+|fixed|64|84|
+|flat|0|3|
+|flat:foreign|1|0|
+|flat:name|125|255|
+|iobj|2|5|
+|mark|70|68|
+|nmod|724|709|
+|nsubj|245|227|
+|nsubj:pass|50|44|
+|nummod|54|45|
+|obj|244|223|
+|obl|281|270|
+|obl:agent|35|32|
+|parataxis|9|15|
+|punct|981|925|
+|root|257|257|
+|xcomp|76|64|
