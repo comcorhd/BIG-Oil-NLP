@@ -14,6 +14,8 @@
 
 ## Descrição
 
+5TEM compõe-se da introdução de duas teses e duas monografias. Os arquivos foram anotadas por dois modelos e passaram por revisão humana da anotação morfossintática.
+
 * 0-20150121-TESEMSC_0
 * 10-20150122-MONOGRAFIA_0
 * 2-20150126-TESEDSC_0
