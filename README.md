@@ -12,7 +12,7 @@ Para treinar um modelo a partir deste corpus, utilize o arquivo `bigoil-train.co
 
 ### Arquivos já adicionados à pasta `documents`
 
-* 5TEM - 5 teses e dissertações
+* 5TEM - 5 teses e monografias
 
 
 ### Modelos que utilizamos para anotar os arquivos
