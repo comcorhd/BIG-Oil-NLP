@@ -2073,11 +2073,11 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	carbono	carbono	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	e	e	CCONJ	_	_	10	cc	_	_
-10	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+10	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	_	_	13	case	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	anodo	anodo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+13	anodo	anodo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os prótons gerados na oxidação do metanol atravessam a membrana até reagir com o oxigênio para formar água, seguindo uma reação semelhante àquela que ocorre em uma PEMFC.
@@ -2207,7 +2207,7 @@
 4	em	em	ADP	_	_	5	case	_	_
 5	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
 6	entre	entre	ADP	_	_	7	case	_	_
-7	120	120	NUM	_	NumType=Card	3	obl	_	_
+7	120	120	NUM	_	NumType=Card	5	nmod	_	_
 8	e	e	CCONJ	_	_	9	cc	_	_
 9	130°C	130°C	NUM	_	Gender=Masc|Number=Sing	7	conj	_	_
 10	e	e	CCONJ	_	_	11	cc	_	_
@@ -2307,7 +2307,7 @@
 4-5	nas	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
 5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	DMFCs	DMFC	PROPN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	DMFCs	DMFC	PROPN	_	Gender=Fem|Number=Plur	3	obl	_	_
 7	ainda	ainda	ADV	_	_	10	advmod	_	_
 8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	em	em	ADP	_	_	10	case	_	_
@@ -2325,9 +2325,9 @@
 21	telefones	telefone	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	celulares	celular	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
 23	e	e	CCONJ	_	_	24	cc	_	_
-24	laptops	laptop	ADJ	_	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+24	laptops	laptop	ADJ	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	mercados	mercado	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+26	mercados	mercado	NOUN	_	Gender=Masc|Number=Plur	21	appos	_	_
 27	potenciais	potencial	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
 28	para	para	ADP	_	_	30	case	_	_
 29	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
@@ -2363,13 +2363,13 @@
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	ânions	âniom	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+8	ânions	ânion	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 9	e	e	CCONJ	_	_	11	cc	_	_
 10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	catiônicas	catiônica	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+11	catiônicas	catiônica	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	cátions	cátiom	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+14	cátions	cátion	NOUN	_	Gender=Masc|Number=Plur	11	orphan	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Este transporte de cátions que ocorre na membrana é devido a grupos presentes na cadeia polimérica.
@@ -2693,7 +2693,7 @@
 6-7	na	_	_	_	_	_	_	_	_
 6	em	em	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 9	de	de	SCONJ	_	_	10	mark	_	_
 10	obter	obter	VERB	_	VerbForm=Inf	8	acl	_	_
 11	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
@@ -2897,7 +2897,7 @@
 
 # text = Compósitos e nanocompósitos
 # sent_id = 10-20150122-MONOGRAFIA_0-115
-1	Compósitos	Compósito	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+1	Compósitos	compósito	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	nanocompósitos	nanocompósito	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 
@@ -3284,7 +3284,7 @@
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 17	por	por	ADP	_	_	18	case	_	_
-18	CO	Co	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+18	CO	CO	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 19	em	em	ADP	_	_	20	case	_	_
 20	células	célula	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
 21	com	com	ADP	_	_	22	case	_	_
@@ -3294,13 +3294,13 @@
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	anodo	anodo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+27	anodo	anodo	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
 28-29	pelos	_	_	_	_	_	_	_	_
 28	por	por	ADP	_	_	30	case	_	_
 29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
-30	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+30	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	27	orphan	_	_
 31	metanólicos	metanólico	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	_
-32	adsorbidos	adsorbir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	30	acl	_	_
+32	adsorbidos	adsorber	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	30	acl	_	_
 33	em	em	ADP	_	_	34	case	_	_
 34	células	célula	NOUN	_	Gender=Fem|Number=Plur	32	obl	_	_
 35	a	a	ADP	_	_	36	case	_	_
@@ -3461,7 +3461,7 @@
 4	protônica	protônico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	e	e	CCONJ	_	_	7	cc	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+7	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	água	água	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10-11	do	_	_	_	_	_	_	_	_
@@ -3478,7 +3478,7 @@
 19	célula	célula	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	150	150	NUM	_	NumType=Card	22	nummod	_	_
-22	°C	°c	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	°C	°C	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na verdade, os preenchedores possuem propriedades higroscópicas nessas temperaturas16.
