@@ -1,0 +1,1991 @@
+﻿1. IntroduçãoA produção de petróleo offshore, que é uma realidade no Brasil desde a décadade 70,toma proporções ainda maiores atualmente com as novas descobertasrelacionadas ao pré-sal. Das reservas naturais provadas, cerca de 95% se localizam nomar, sendo a Bacia de Campos e Santos detentoras da maioria das reservas marítimas.
+Estas Bacias possuem grande parte de suas reservas situadas a uma profundidade maiorque 1500 metros, o que exige novas tecnologias submarinas para explotação de óleo egás em águas profundas e ultraprofundas.
+As linhas flexíveis consistem em um tipo de tubulação utilizada para otransporte de vários tipos de fluidos trabalhando, usualmente, com pressões elevadas.
+Estes tubos se dividem em dois tipos de acordo com sua aplicação:● Flowlines São projetados para aplicações estáticas, estando sempre assentados noleito marinho.
+● Risers São projetados para aplicações dinâmicas, estando pendurados em catenáriaa partir do sistema flutuante.
+Os dutos flexíveis apresentam diversas camadas, sendo estas projetadas deacordo com a aplicação de cada estrutura. Cada uma destas camadas confere ao flexíveluma propriedade diferente, como por exemplo, a carcaça intertravada para suportar apressão externa, ou as armaduras, que proporcionam resistência à tração. A junçãodestas diferentes camadas gera uma estrutura extremamente complexa e importantequando se pensa em exploração de óleo e gás.
+Grande parte da produção de petróleo escoa através deste sistema de flexíveis,sendo assim, imprescindível ao bom funcionamento de toda a estrutura, a fim de gerarmaior segurança, diminuindo a possibilidade de acidentes ambientais como vazamentode óleo.
+A conexão de topo de tubos flexíveis com as plataformas é um ponto crítico emrelação à máxima curvatura e a vida em fadiga, já que a região é muito suscetível a altastrações causadas por carregamentos estáticos e dinâmicos.
+A transição de rigidez entre o tubo flexível e a plataforma rígida é feita a partirde uma estrutura cônica de poliuretano, conhecida como bend stiffener ou enrijecedoresà flexão. Este sistema previne falhas causadas por curvatura excessiva e acumulação dedano por fadiga. Um exemplo de enrijecedor à flexão pode ser visto na figura 1,3enquanto na figura 2 pode ser verificado o acoplamento desta estrutura com a unidadeflutuante no turret.
+Figura 1 – Bend StiffenerFigura 2 – Bend Stiffeners acoplados noTurretO projeto convencional de bend stiffeners geralmenteconsidera oscarregamentos extremos, obtidos a partir de análises globais, para garantir que o flexívelnão curve a ponto de atingir um nível inferior ao mínimo raio de curvatura (MBR). O
+MBR é normalmente determinado pela máxima deformação permitida, na camada maisexterna do tubo flexível (e.g 7%), e gera um estado limite no projeto do enrijecedor. A
+análise global é a primeira etapa em um projeto de bend stiffener e considera umacondição de contorno rotulada com a plataforma. Os principais resultados de análisesglobais, que são usados no projeto de enrijecedores são a distribuição de ângulos detopo e as trações na conexão com a plataforma.
+O projeto e análise de bend stiffeners representados por viga equivalente foianteriormente apresentado. Vaz et al (2007)introduziram a não linearidade dopoliuretano estendendo o modelo de Boef & Out(2005)apresentaram um modelo considerando a resposta viscoelástica do poliuretano quandosubmetido a carregamentos estáticos. Os autores anteriores consideraram em todos oscasos um carregamento estático aplicado ao sistema. A questão que surge quando trata-se de um material com comportamento dependente do tempo, como o poliuretano, é oefeito das condições de carregamento reais aplicadas ao sistema riser-enrijecedordurante a operação.
+(1990). Caire et al4Ariza (2009) et al apresentam um modelo matemático que permite uma melhorcompreensão do fenômeno de relaxação observado no enrijecedor viscoelástico,desenvolvendo um estudo de caso em que os resultados mostram a importância de seconsiderar carregamentos harmônicos para o projeto e análise de enrijecedoresviscoelásticos.
+Com base no que foi exposto, este trabalho busca estabelecer mais umacontribuição para o estudo e análise de bend stiffeners, caracterizando todos os passospara o projeto destes equipamentos.
+No capítulo 2 deste trabalho é estudado o comportamento viscoelástico dopoliuretano, descrevendo os testes experimentais que podem ser feitos, entre eles oensaio de fluência realizado com amostras de um enrijecedor à flexão real utilzado naindústria do petróleo. Este ensaio possibilitou a caracterização viscoelástica do materialque será estudado ao longo deste trabalho.
+No capítulo 3 é abordada a análise global do sistema, unidade flutuante – riserflexível. Nesta etapa do trabalho são caracterizados todos os fatores que influenciam ocomportamento das linhas flexíveis em operação. Esta análise é realizada a partir dosoftware Deeplines, onde são inseridos os dados de RAO, passeio do sistema flutuante,os valores de altura e período de onda, perfil de corrente e características do flexível. Os
+resultados são analisados e discutidos, para posteriormente utilização na análise local doenrijecedor.
+O capítulo 4 aborda como é realizado o projeto de bend stiffeners na indústria dopetróleo e descreve os passos utilizados para a escolha da geometria deste equipamentoutilizado neste trabalho.
+No capítulo 5 é mostrado como deve ser realizada a transição da análise globalpara a local, fazendo-se ajustes dos resultados encontrados anteriormente, a fim de quefosse possível a caracterização correta da resposta da estrutura, e posterior introduçãodesta no modelo de análise local do enrijecedor.
+No capítulo 6 são descritos todos os passos realizados para a análise localimplementada a partir do software de elementos finitos Abaqus.
+Sendo assim, os resultados são mostrados e discutido no capítulo 7, para umaposterior conclusão do trabalho no capítulo 8.
+O capítulo 9 expõe as idéias propostas para trabalhos futuros, que seriam degrande importância para análises de bend stiffeners cada vez mais próxima da realidade.
+52. Comportamento ViscoelásticoApesar da maioria dos estudos e análises de enrijecedores assumirem umcomportamento elástico, esses equipamentos são formados de poliuretano, sendo esteum polímero que possui uma resposta tensão x deformação dependente do tempo e datemperatura. Quando sujeito a uma tensão constante, ele se deforma e eventualmentevolta ao seu estado inicial, surgindo assim o conceito de fluência (deformaçãocontinuada sob tensão constante). Enquanto, se sujeito a uma deformação constante, suatensão decai com o tempo, o que é chamado de relaxação de tensão.
+Quando um corpo é submetido a uma deformação 0 constante, ocorre um saltode tensão, e posteriormente uma gradativa queda com o tempo. Os sólidos elásticosexibem tensão constante, não ocorrendo esta característica. Sendo assim, a resposta deum material viscoelástico pode ser obtida a partir de testes como, por exemplo, o testede fluência (creep test) e a relaxação de tensão.
+2.1. Teste de Relaxação de TensãoNa relaxação de tensão, são aplicadas deformações constantes nos corpos deprova, obtendo-se, assim, as curvas de tensões (). A figura 3 mostra as respostasde tensões para três níveis de deformações constantes aplicadas em um determinadocorpo de prova.
+),( tGFigura 3 - Relaxação de Tensão2.2. Teste de FluênciaO teste de fluência mede a mudança dimensional de uma amostra submetida auma carga estática ao longo do tempo. Geralmente, muitos níveis de tensões são6aplicados a temperaturas constantes, e as deformações são medidas em função do tempopara caracterizar o comportamento do material. Nas análises, considera-se que a força éaplicada instantaneamente e posteriormente mantida constante. Como isto é impossível,devido à dinâmica do sistema, o carregamento é aplicado gradualmente por um curtointervalo de tempo para evitar os efeitos da vibração.
+A viscoelasticidade do material pode ser considerada linear se o nível de tensãoaplicada for proporcional à deformação para um tempo dado.
+Sendo assim, o comportamento do material, neste trabalho foi consideradolinear, reduzindo o tempo computacional das análises.
+Tentativas de simular as propriedades de estruturas poliméricas têm sido feitascom modelos mecânicos usando combinações de dois elementos fundamentais. Sãoeles: a mola linear (sólido elástico) e o amortecedor linear (fluido viscoso). Estascombinações conduzem a equações constitutivas que relacionam tensão, deformação etempo. Para cada equação obtida, a tensão em um determinado tempo σ (t) pode serdeterminada em função da história da deformação ε (t), ou vice-versa. Estes modelosdiferem apenas na forma da função relaxação G(t) e fluência J(t) obtida. Entre estesdiferentes modelos é possível citar:● Modelo de Maxwell  Consiste em uma mola e um amortecedor conectadosem série.
+● Modelo Kelvin-Voigt  Consiste em uma mola e um amortecedor conectadosem paralelo.
+● Modelo do Sólido Linear Padrão  Os modelos de Maxwell e Kelvin-Voigtnão oferecem uma simulação satisfatória da resposta viscoelástica. O modelo maissimples que fornece resposta satisfatória é o modelo do sólido linear padrão queconsiste no modelo de Maxwell com uma mola linear em paralelo.
+Embora estes modelos sejam bem representativos, eles ainda não dão umaprevisão adequada da resposta viscoelástica. Por isso o método adequado é o uso dedados experimentais obtidos do material em específico que se deseja analisar, utilizandoa melhor forma da função G(t) ou J (t).
+Pensando nisso e tomando como base os testes experimentais expostos porFarias et al (2009), com amostras de um bend stiffener real foi possível obter ocomportamento do poliuretano.
+De acordo com Wineman & Rajagopal (2000), o comportamento do materialpode ser descrito pela equação constitutiva (1):7t)(t)(t s),(sJ,(d).
+(1)0A curva de fluência J(t) foi ajustada utilizando a série de Prony de terceiraordem, como verifica-se na equação (2):tJ)(JeJ.
+1eJ.
+2eJ.
+3eJ.
+4tttt////CCCC(2)12340A hipótese de carregamento estático constante pode ser considerada somente seo comportamento relacionado a um tempo muito longo for buscado, porém não é o casotratado aqui. Pode ser visto na Figura 4 que a tensão começa a se estabilizar depois de,aproximadamente, 10 segundos e, consequentemente, toda a deformação e o históricode tensão são usados para ajustar a curva de fluência utilizando as Equações 1 e 2. Os
+coeficientes de fluência obtidos são apresentados na tabela 1:Tabela 1 – Coeficientes de fluênciaMPaJ()1)(3 s)(4 s)(1 sc)(2 sJ1MPa(1MPa(1J4JMPa1MPa(1J3))cc())c02-0,279-0,911-0,195-0,1502,6021,1771,44800,338868,84A curva ajustada é mostrada na Figura 4. Tendo sido obtida a curva de fluência,a curva de relaxação G(t) pode ser calculada numericamente usando a Equação 3:tGtJ).
+(tGsJ('(sds).
+1)0().
+(3)0Os coeficientes de relaxação são encontrados e mostrados na tabela 2.
+Tabela 2 – Coeficientes de relaxação(4 MPa(2 MPaGG))4,594,52(3 MPaG)3,07)(3 sR)(4 s695,04 7647,97(1 MPaG)30,26)(1 sR1,01)(2 sR59,09(0 MPaG)38,57R83,02,82,62,4)1-aPM2,2(acnêuF2,0i1,8l1,61,41,20200040006000800010000120001400016000Tempo (s)Figura 4– Função de Fluência x Tempo3. Análise GlobalA análise global tem como objetivo avaliar os efeitos dos carregamentos globaisna estrutura, obtendo-se, a partir dela, dados que servirão posteriormente para asanálises locais, ou mesmo, para definir critérios de raio mínimos de curvatura nasregiões mais críticas da linha. Como a prioridade deste trabalho está na análise de umequipamento de topo, a análise global será realizada para obter os dados necessáriospara o projeto detalhado deste, que são a tração e o ângulo de topo.
+Muitos aspectos devem ser levados em conta em uma análise global de linhasflexíveis, sendo muito importante um bom mapeamento das condições de contorno eforças que agem no sistema, sejam pela ação de ondas, correntezas, ou mesmo pelomovimento prescrito pela plataforma ou pelo navio. Na figura 5, verifica-se umesquema dos principais carregamentos aplicados a um sistema flutuante de produção deóleo e gás e ao flexível acoplado a este.
+9Figura 5 - Principais carregamentos atuantesO ponto inicial para a elaboração da análise global é a definição do cenário deatuação do sistema. O cenário escolhido foi a Bacia de Campos, tomando como base osdados típicos dos novos projetos em águas ultraprofundas, que foi exposto por Padilha(2009). Esses dados podem ser vistos a seguir:● Lâmina d’água de 1700m.
+● Ângulo de topo 7º - posição neutra.
+● Ponto de conexão na unidade flutuante: bombordo● Azimute do riser: 110º.
+● Embarcação: Navio FPSO.
+● Aproamento: 0°.
+Estes dados foram inseridos no programa Deeplines, de forma a modelar ocenário de operação. Em seguida, buscou-se a modelação das propriedades do flexível,que foi dividido em duas estruturas: o riser de topo e o riser de fundo, unidos emcatenária simples. A seguir encontram-se os dados dos flexíveis utilizados por Padilha[4], e adotados também neste trabalho.
+Dados de projeto● Diâmetro interno: 9 polegadas ou 228,6mm.
+● Diâmetro externo: 13 polegadas ou 330,5mm.
+10● Pressão de projeto: 3000 psi ou 207 Bar.
+● Temperatura de projeto: 65 °C.
+Características Físicas e Mecânicas do tramo de topo● Pressão de explosão: 63,1 MPa● Colapso hidrostático: 16,1 MPa● Raio Mínimo de curvatura: 2,34m● Peso linear no ar vazio: 173,83 kgf/m● Peso linear no mar vazio: 85,9 kgf/m● Rigidez à flexão em 20ºC: 62,95 kN.m².
+● Tensão de ruptura do aço das armaduras de tração: 1400 MPaCaracterísticas Físicas e Mecânicas do tramo de fundo● Pressão de explosão: 87,5 MPa● Colapso hidrostático: 23,2 MPa● Raio Mínimo de curvatura: 2,43m● Peso linear no ar vazio: 222,19 kgf/m● Peso linear no mar vazio: 109,28 kgf/m● Rigidez à flexão em 20°C: 269,6 kN.m².
+● Tensão de ruptura do aço das armaduras de tração: 1400 MPaDe acordo com o passeio do sistema flutuante (offset), a linha flexível podeassumir diferentes configurações, sendo elas: Transverse: o movimento acontece fora do plano da catenária (não será levado emconta neste trabalho); Near: o movimento acontece no plano da catenária aproximando-se do touchdownpoint (conhecido como TDP, é o ponto onde a linha flexível toca o fundo do oceano); Far: o movimento acontece no plano da catenária afastando-se do touchdown point(TDP).
+Mean: Posição média da linha.
+Usualmente, em projetos se utiliza um valor de passeio de 5% a 15% da lâminad’água. Neste trabalho foi utilizado um passeio de 10% para os casos normais e 15%11para os casos acidentais com amarra rompida, incluindo-se um erro de posicionamentodo sistema flutuante e dos acessórios de topo, garantindo o conservadorismo da análise.
+Sendo assim, chegou-se aos seguintes valores:● Passeio em casos normais 187,5 m.
+● Passeio em casos acidentais 272,5 m.
+Casos de Instalação e OperaçãoNo projeto de dutos flexíveis, dois pontos fundamentais são as análises globaisde instalação e operação. Análises de instalação são realizadas de acordo com a tabela3:Tabela 3 – Casos de InstalaçãoG - Instalação com linhacheia de água do marH - Instalação com linhaLinha cheia de água do mar, intacta, e condiçõesambientais de instalaçãoLinha vazia, com a capa externa danificada, eInstalaçãovaziacondições ambientais de instalaçãoI - Instalação com linhaLinha vazia, intacta, e condições ambientais devaziainstalaçãoLinha cheia de água do mar, intacta, com pressãomáxima de teste offshore e condições ambientais deTesteOffshoreJ - Teste offshore comlinha cheiainstalaçãoOs casos GH e GI correspondem ao mesmo caso, só diferenciando em relação àcamada externa (danificada e intacta, respectivamente). Sendo assim, os casos GI sãoconsiderados cobertos pelos casos GH.
+Na prática comum de projetos de risers, em uma análise de instalação, deve-segarantir, a partir dos casos mostrados anteriormente, que:• MBR da linha seja maior que 1,5 do MBR de armazenagem.
+• A linha não sofra o fenômeno de flambagem lateral (crítico em linhas vazias).
+• A tração de topo não atinja o limite da estrutura.
+• A tração de topo deve ser menor do que a capacidade de lançamento do navio.
+Porém como o foco principal deste trabalho é a análise de bend stiffeners, serárealizada somente a análise de operação, para que assim seja possível obter dadoscríticos que serão considerados nas análises locais posteriores.
+Em análises globais de operação são avaliados casos acidentais e operacionais,como descreve a tabela 4, apresentada por Padilha (2009).
+12Tabela 4 – Casos de OperaçãoCondição deCarregamentoCaso de CarregamentoDescriçãoDuto preenchido com fluido interno deoperação, a uma pressão interna máximaA - Riser em operação.
+OperaçãoRecorrentede operação na unidade de produção.
+Camada externa do flexível intacta.
+Pressão interna deoperação.
+Sistema de amarração intacto. Condiçõesambientais centenárias.
+Duto preenchido com fluido interno deB - Riser em operação.
+operação, a uma pressão interna máximaPressão interna deprojeto e uma amarrade projeto na unidade de produção.
+Camada externa do flexível intacta. Umaamarra rompida. Condições ambientaisrompida.
+centenárias.
+Duto preenchido com fluido interno deC - Riser em operação.
+operação, a uma pressão internaOperaçãoNormalPressão internaatmosférica e umaamarra rompida.
+atmosférica na unidade de produção.
+Camada externa do flexível intacta. Umaamarra rompida. Condições ambientaisOperaçãoExtremacentenárias.
+D - Riser em operação.
+Duto sem fluido interno, com camadaSem fluido interno eexterna danificada. Sistema de amarraçãointacto. Condições ambientais centenárias.
+capa externa danificada.
+E - Riser em operação.
+Duto sem fluido interno, com camadaexterna intacta. Sistema de amarraçãoSem fluido interno ecapa externa intacta.
+intacto. Condições ambientais centenárias.
+Duto preenchido com fluido interno deoperação, a uma pressão interna máximaF - Riser em operação.
+de projeto na unidade de produção.
+Camada externa do flexível intacta.
+Unidade flutuanteOperação Anormalinclinada peloSistema de amarração intacto. Condiçõesalagamento de tanques.
+ambientais anuais. Unidade flutuanteinclinada pelo alagamento de tanques.
+13Como este trabalho possui fins apenas de estudo de um acessório de topo, nãoseria necessário analisar os casos de C a F. Sendo assim, foi decidido analisar apenas oscasos colineares (casos em que a onda e corrente autam na mesma direção) de operaçãonormal recorrente (GA) e os casos de operação extrema com pressão interna de projetoe uma amarra rompida (GB).
+Na tabela 5 será apresentada a matriz de carregamento para os casos de operaçãorecorrente estudados.
+Tabela 5 – Matriz de CarregamentosCargas FuncionaisCargas AmbientaisCaso dePosiçãoEmbarcaçãoOndaCorrenteCarregamentoGA-1GA-2GA-3GA-4GA-5GA-6GA-7GA-8GA-9GA-10GA-11GA-12GA-13GA-14GA-15GA-16Calado Heading Offset Período de Rec. Direção Período de Rec. DireçãoNearFar10010010010010010010010010101010101010101010101010101010100100100100100100100100Cross Near 1Cross Near 2Cross Far 1Cross Far 2Transv. 1
+Transv. 2
+etnerrocoãçacrabmeadoãçeridanomertxElanocarepOraenraeniadoNearFarililoCoCtnemaorpACross Near 1Cross Near 2Cross Far 1Cross Far 2Transv. 1
+Transv. 2
+Os casos acidentais devem ser definidos a partir dos resultados da análise feitanos casos recorrentes, como mostra a tabela 6:Tabela 6 – Definição dos Casos AcidentaisCargas Funcionais Cargas AmbientaisCorrenteDireçãoCaso deCargasCasos a serem escolhidos dentre os casosPosiçãoOndaDireçãoEmbarcaçãoCarregamentoGB-1GB-2GB-3GB-4GB-5GB-6GB-7GB-8AcidentaisrecorrentesOffsetMaior tração de topo e ângulo dentre os casos nearMaior tração de topo e ângulo dentre os casos farMaior tração de topo e ângulo dentre os casos crossMaior tração de topo e ângulo dentre os casos transv.
+Maior curvatura no TDP dentre os casos nearMaior curvatura no TDP dentre os casos farMaior curvatura no TDP dentre os casos crossMaior curvatura no TDP dentre os casos transv.
+NearFararramaCross Near 1Cross Near 2Cross Far 1Cross Far 2Transv. 1
+Transv. 2
+raenraenomertxEadipmorililoCoCamUPosteriormente serão apresentados os resultados e a montagem dos casos GB.
+Os dados de corrente e onda inseridos no modelo realizado foram obtidos deinformações metaoceanográficas da região. A corrente foi introduzida no programa deacordo com o perfil característico da região para cada caso, variando da superfície aoleito marinho, de acordo com o anexo 1. Para as ondas relacionadas a cada caso, foraminseridos os períodos e suas respectivas alturas (esses dados são provenientes do14cruzamento do RAO da unidade flutuante com o estado de mar, para cada direção deonda). Os movimentos prescritos pela unidade flutuante pode ser verificadas a partir dosgráficos de RAO apresentados no anexo 2.
+A figura 7 mostra o modelo de operação realizado, expondo além dos passeios,ondas e correntes aplicados, a diferenciação entre o tramo de topo (amarelo) e o defundo (vermelho), com propriedades diferenciadas.
+Figura 6 – Modelo de operação (DeepLines)ResultadosA partir do modelo pronto, os diversos casos de operação foram simulados paraum total de cinco períodos de onda, a fim de que fosse alcançada assim a estabilizaçãodos resultados. Os resultados das análises globais são apresentados e discutidos a seguir.
+- Casos de operação recorrenteOs casos de operação recorrentes (GA) foram extraídos e os resultados de topo eTDP podem ser observados na tabela 7.
+Percebe-se claramente, já nos casos recorrentes, que as trações de topo são bemelevadas, atingindo cerca de 2400 KN. Com relação às curvaturas, como era esperado,foram obtidos valores elevados na região do TDP, evidenciados por raios bem reduzidosem alguns casos.
+Em casos reais de operação, as maiores curvaturas dos flexíveis são observadasna região de topo e no TDP. Porém, nas análises globais, a linha é considerada rotulada15na conexão com a embarcação, para que seja possível obter as trações e ângulos a seremutilizados no projeto de enrijecedores à flexão, não apresentando, assim, nesta região detopo, grandes valores de curvaturas.
+Tabela 7 – Resultados dos Casos de Operação RecorrenteTração no topoRaioTração no TDPRaiomínimoÂngulomax (°)Tração no raiomínimo (KN)CasoPosição(kN)mínimo noTDP (m)(KN)(m)min1057,71892,11587,41330,31997,01882,21882,21690,21156,11933,81611,91403,72012,01676,31896,81709,7max2208,52368,01975,22151,92129,92259,71946,82093,92150,92377,21953,12065,52119,31956,41963,82071,9maxmin-92,33324,14369,69 576,06197,6688,10-75,83270,72382,12 429,97334,45 484,70228,01 275,81172,10 340,31-84,71266,18397,55 587,79189,4698,83-44,10232,45388,06 427,90143,50 201,45240,50 290,42182,42 323,94GA-1_1GA-2_1GA-3_1 Cross Near 1GA-3_2 Cross Near 2GA-3_3Cross Far 1GA-3_4Cross Far 2GA-4_1Transv. 1
+GA-4_2Transv. 2
+GA-5_1GA-6_1GA-7_1 Cross Near 1GA-7_2 Cross Near 2GA-7_3Cross Far 1GA-7_4Cross Far 2GA-8_1Transv. 1
+GA-8_2Transv. 2
+NearFar11,479,844,999,344,597,042,227,8210,539,935,478,584,426,003,017,595,45171,6660,524,82355,42202,332009,7572,784,34167,1270,384,84279,20106,591260,7670,572,38171,3960,453,09200,59114,41132,4368,802,48164,2666,754,50204,60105,42113,8670,51-67,04369,9088,10-60,38387,46338,19238,26172,16-68,16397,62132,33-43,78393,54143,54280,76182,77NearFarOs casos destacados em amarelo representam aqueles que foram utilizados paragerar os casos extremos, de acordo com a metodologia mostrada na tabela 6, sendoassociados e mostrados na tabela 8:Tabela 8 – Casos GB e Casos GA AssociadosCasos GBCasos GA utilizadosGB-1GB-2GB-3GB-4GB-5GB-6GB-7GB-8GA-1_1GA-6_1GA-3_4GA-4_2GA-5_1GA-6_1GA-3_4GA-8_216- Casos de operação extremaNa tabela 8 foi possível perceber que alguns casos GB foram provenientes dosmesmos casos GA, sendo assim eles não precisariam ser rodados. Isto ocorreu com oscasos GB-2 e GB-6 (provenientes do GA-6_1), assim como o GB-3 e GB-7(provenientes do GA-3_4), entretanto optou-se por rodar todos os casos, e mostrá-losem ordem, mesmo sabendo que estes citados obteriam mesmos resultados.
+Depois de montados os casos de operação extrema (casos acidentais GB)segundo a tabela 8, estes foram rodados, também com cinco períodos de onda cada um,e os resultados extraídos podem ser verificados na tabela 9.
+Tração no topoRaiomínimono TDPTração no TDPÂngulomax (°)RaioTração no raiomínimo (KN)(kN)(kN)CasoPosiçãomínimo (m)(m)minmaxminmaxNearGB-1GB-2GB-3GB-4GB-5GB-6GB-71066,92188,92,97-80,00177,0912,991,92-55,20Far2041,82580,3214,67469,04786,0412,70214,37469,23Cross Far 21984,32389,2188,90425,27596,489,24188,67425,41Transv. 2
+1701,92106,571,45179,25348,278,8068,82179,29Near1156,12118,92,57-73,65147,7611,932,31-46,18Far2041,82580,3214,67469,04786,0412,70214,37469,23Cross Far 21984,32389,2188,90425,27596,489,24188,67425,41Transv. 2
+GB-81722,28,58335,812083,8Tabela 9 – Resultados dos Casos Acidentais190,1794,8172,58190,20Como era esperado, os casos GB-2 e GB-6, assim como o GB-3 e GB-7,obtiveram resultados idênticos, já que foram construídos a partir de casos de operaçãorecorrentes iguais.
+O caso extremo GB-2/GB-6 atingiu um elevado valor máximo de tração no topo(2580KN), assim como o caso GB-1 alcançou um valor de aproximadamente 13º para aangulação de topo. Desta forma, estes serão os principais casos a serem analisados nasanálises locais do enrijecedor. Os gráficos a seguir mostram a variação da tração de topodos casos mencionados durante os passos estáticos da análise global, sendo esses ospassos em que ocorre a introdução da corrente e do passeio do sistema flutuante.
+17● Caso GB-1 – Caso Near● Caso GB-2 – Caso Far300000019000001850000)N2000000()avN(1800000itefeavitefEoãçarToãçarT17500001000000170000001650000024681012024681012PassoPassoGráfico 1 – Tração Efetiva x Passo (Caso GB1)Gráfico 2 – Tração Efetiva x Passo (Caso GB2)Observando os gráficos, percebe-se a coerência dos resultados, já que no caso“near”, com a aproximação da unidade flutuante, a tração de topo cai progressivamentecom a aplicação dos incrementos de passeio e corrente, enquanto o oposto ocorre nocaso ”far”, no qual ocorre o afastamento da mesma.
+Posteriormente são aplicados os passos dinâmicos, onde são introduzidos osdados de ondas. A seguir serão analisados os comportamentos encontrados para essescasos críticos ao longo do tempo, o que é de grande importância para a análise local queserá feita posteriormente.
+- Caso GB-1O gráfico 3 mostra o comportamento do ângulo de topo, sendo este, definidocomo a diferença entre o ângulo de instalação do riser e o ângulo que o flexível assumena configuração deformada. Este ângulo, como será visto posteriormente será um dosdados de entrada para as análises locais.
+18141210)°(opotedougnÂ86lc42001020304050607080Tempo (s)Gráfico 3– Ângulo de Topo x Tempo (Caso GB1)Outro dado de entrada para as análises locais, são as trações de topo, sendo estarelacionada ao caso GB-1, definida dinamicamente no gráfico 4.
+192,42,22)NM(oãçarT1,81,61,41,2101020304050607080Tempo (s)Gráfico 4– Tração x Tempo (Caso GB1)- Caso GB-2Assim como foi feito no caso GB-1, o comportamento de ângulo e tração detopo serão mostrados a partir do gráfico 5 e 6 respectivamente.
+141210)°(opo8tedougnÂ6l4200102030405060Tempo (s)Gráfico 5– Ângulo de Topo x Tempo (Caso GB2)202,72,62,52,4)NM2,3(oãçarT2,22,121,91,80102030405060Tempo (s)Gráfico 6– Tração x Tempo (Caso GB2)A partir dos gráficos, percebe-se a estabilização dos resultados a partir de 10segundos, onde os comportamentos de ângulo e tração se mostram homogêneos,variando de acordo com as aplicações dos carregamentos de onda.
+4. Projeto de Bend Stiffenerstem-se reforçado a utilização de navios FPSOs (FloatingProduction, Storage and Offloading) como unidade flutuante para a produção de óleo egás, em detrimento das plataformas semi-submersíveis. Esse fato decorre entre outrosfatores, devido à facilidade na operação e armazenamento. Porém, em certos casos deoperação, os navios assumem um comportamento crítico, fazendo-se necessária umamaior atenção ao projeto tanto da linha flexível como do enrijecedor.
+Recentemente,O projeto de bend stiffener é realizado na indústria a partir de programascomputacionais que se baseiam em modelos de viga, tendo como principais entradasvalores de tração e ângulo de topo obtido das análises globais. A partir disto, é feito o21dimensionamento inicial do enrijecedor, sendo possível assim realizar uma análise localou mesmo uma segunda análise global, considerando neste momento, porém, o bendstiffener projetado. Estes passos são realizados até que sejam atingidos todos os critériosde projeto, obtendo-se finalmente um dimensionamento ótimo do enrijecedor a flexão.
+Para auxiliar no projeto do enrijecedor, foi utilizado o programa computacionaldesenvolvido por Caire (2009), aluno de doutorado da COPPE. Este software, a partirde dados de tração crítica, ângulo crítico, módulo de elasticidade do poliuretano a serutilizado, e uma faixa de conicidade (ângulo de inclinação do enrijecedor), realiza umaanálise elástica para uma série de geometrias de bend stiffeners que se enquadramdentro da faixa escolhida pelo usuário. Feito isso, o programa seleciona as geometriasque obtiveram menor curvatura e apresentam menores volumes, a fim de reduzir o custoda fabricação. A interface do programa pode ser vista na figura 7.
+Figura 7 - Interface do software utilizadoSendo assim, introduzindo os dados de entrada, e a partir do menor valor decurvatura e volume, foi selecionado o enrijecedor da figura 8:22Figura 8 – Geometria do bend stiffener5. Transição da análise global para localComo foi dito anteriormente é imprescindível, no projeto de enrijecedores, umajá que os seus resultados de esforços dimensionantesanálise global correta,identifica-se comoinfluenciarão diretamente as análises locais. Sendo assim,primeiro passo, a realização de uma análise estrutural global, do flexível semconsiderar a estrutura de conexão. A partir desta, serão coletados os esforçosdimensionantes, necessários para a realização da análise isolada da conexão, que sãocomo foi dito anteriormente, a tração de topo e a variação de ângulo no topo,definida como a diferença entre o ângulo de instalação do riser e o ângulo que oflexível assume na configuração deformada.
+Na indústria, esta transição da análise global para a análise local pode ser feitade diversas maneiras dependendo do conservadorismo necessário e do grau decriticidade dos resultados. É comum, em casos normais de linhas flexíveis depequenos diâmetros e linha d’água pouco profundas, o projeto de enrijecedoresmantendo-se um elevado grau de conservadorismo, realizando-se uma análise localconsiderando a maior das trações e maior dos ângulos que foram encontradas nasanálises dinâmicas, mesmo que não representem o mesmo caso.
+Entretanto, a produção de petróleo vem se concentrando cada dia mais em águasultraprofundas, que associada à utilização de dutos flexíveis de grandes diâmetros,tornam os resultados muito mais críticos. Sendo assim, se um bend stiffener fosseprojetado com o mesmo conservadorismo que foi mostrado anteriormente, levaria agrandes dimensões deste equipamento,a fabricação deenrijecedores duplos em alguns casos, ou mesmo inviabilizando a instalação nasunidades flutuantes. Nestes casos, nas análises locais consideram-se as traçõescríticas associadas aos seus respectivos ângulos e/ou os ângulos críticos associadossendo necessária23às trações do mesmo caso, encontrados nas análises dinâmicas. Com isso, percebe-se a importância da caracterização cada vez mais precisa dos casos e do própriomaterial em análise.
+Em [3] e [9] foi exposta a importância de se considerar o efeito da frequência decarregamento na resposta do sistema com amortecimento estrutural devidocomportamento viscoelástico do poliuretano do enrijecedor. Sendo assim, na análiselocal será realizada uma caracterização do material viscoelástico, considerando osefeitos do carregamento harmônico vindos da análise global. A seguir serãomostrados os ajustes realizados nos carregamentos de forma a possibilitar a entradadesses dados no software de elementos finitos. Todos os ajustes foram realizadosbuscando seguir equações senoidais, com uma amplitude média ( F ), fase)( efreqüência (w), de acordo com as equações (4) e (5).
+FFwt(1wt)2Fsensen()(4)(5)GB-1 (Caso Near)Para o caso GB-1, o ajuste do ângulo de topo, mostrado no gráfico 7, ignorou ainstabilidade na resposta, discutida anteriormente, de forma a simplificar as análiseslocais.
+18Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)Adj. R-Square0,7745916ValueStandard Error0000,11132BBBBxcwAy0-1,775,86,853931412]suarG10[ougnA8l64200102030405060Tempo [s]Gráfico 7– Ajuste do Ângulo de Topo (Caso GB-1)24O resultado deste ajuste pode ser visto na equação (6), no formato que seráintroduzido no software Abaqus.
+.7,1
+)7t.
+(7sen85,68,5(6)O gráfico 8 mostra o ajuste realizado para a tração de topo do caso GB-1.
+2,8x106Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)Adj. R-Square0,986842,6x106ValueStandard Error0002670,03231BBBBxcwAy00,875568241,66783E62,4x1062,2x1062,0x106]N[1,8x106açroF1,6x1061,4x1061,2x1061,0x1068,0x1050102030405060Tempo [s]Gráfico 8– Ajuste da Tração de Topo (Caso GB-1)O resultado final deste ajuste pode ser verificado na equação (7).
+t.
+(7.8,0
+7)FEsen66,16556824(7)GB-2 (Caso far)Assim como foi realizado com o caso GB-1, foram feitos os ajustes de tração eângulo para o caso GB-2.
+O gráfico 9 mostra o ajuste quase perfeito do comportamento de ângulo de topodas análises dinâmicas.
+2516Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)15Adj. R-Square0,91665ValueStandard Error0000,03062BBBBxcwAy08,35,383,68,89172141312]suarG1110[ougnAl9876540102030405060Tempo [s]Gráfico 9– Ajuste do Ângulo de Topo (Caso GB-2)O resultado final deste ajuste pode ser verificado na equação (8).
+t.
+38,5.3,8
+)38,5sen89,86,3((8)O gráfico 10 mostra o ajuste realizado para a tração de topo do caso GB-2.
+Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)2,8x106Adj. R-Square0,86763ValueStandard Error0002824,193BBBBxcwAy02,75,382600002,31682E62,7x1062,6x1062,5x106]N2,4x106[açroF2,3x1062,2x1062,1x1062,0x1061,9x1060102030405060Tempo [s]Gráfico 10– Ajuste da Tração de Topo (Caso GB-2)O resultado final deste ajuste pode ser verificado na equação (9).
+26t.
+38,5.3,8
+)38,5FE31,2sen6260000((9)Sendo assim, já são conhecidas as respostas de força e ângulo para os casos maiscríticos dentre os analisados globalmente, restando agora estudar como estas respostasinfluenciam na curvatura do flexível para o enrijecedor escolhido.
+6. Análise LocalA prática comum no projeto de bend stiffeners é primeiramente considerar osistema como uma viga delgada sujeita a um carregamento extremo combinado (F, θ) obtido de análises globais sem o enrijecedor. Um processo iterativo é realizado até queo projeto final atinja as especificações necessárias. Caso informações locais sejamnecessárias, como por exemplo, a distribuição de tensão na região do inserto metálico,pode ser realizada uma análise em três dimensões via elementos finitos. Neste trabalhomodelos de vigas são desenvolvidos utilizando o método dos elementos finitos atravésdo programa computacional Abaqus v6.8. As seguintes hipóteses são consideradas nosmodelos:a) a seção transversal sofre grandes deflexões;b) o espaço entre as estruturas não é considerado;c) o duto flexível é considerado com rigidez flexional constante ao longo de seucomprimento;d) o material é modelado como linear elástico, não linear elástico e finalmenteviscoelástico linear considerando o comportamento real do poliuretano;e) a resposta dinâmica causada pela massa do sistema é ignorada;6.1 Geometria e PropriedadesUm programa computacional com base na linguagem C (anexo 3)foidesenvolvido para criar um arquivo de entrada no software Abaqus, a partir de dados dageometria e das propriedades da estrutura, gerando assim uma fácil manipulação naestrutura e a possibilidade de usuários que não tenham conhecimentos no software,27realizar a análise em questão. A parir da subrotina desenvolvida geraram-se os nós,elementos e propriedades das seções ao longo do comprimento do sistema.
+As propriedades de rigidez axial e flexional do riser foram implementadasigualmente as informações fornecidas pelo fabricante. Entretanto, enirjecedor érepresentado por uma viga de rigidez equivalente variável ao longo do comprimentodevido ao seu formato cônico. Foram geradas seções retangulares com medidas de basee altura que fornecessem áreas e momentos de inércia compatíveis as da geometria real.
+Pensando nisto, foram utilizadas as relações (10) e (11):BaseAlturaRR2 2extintÁreaseção(10)R4ext4R4int4BaseAltura123Inércia(11)seçãoSabendo a geometria, a área e a inércia de cada seção são calculadas, podendoassim, obter os dados de entrada (base e altura de cada seção) para o Abaqus, de acordocom as relações (12) e (13).
+ÁreaseçãoInérciaÁreaseçãoInérciaÁreaBase(12)seção12(2/1)seçãoAltura12(2/1)(13)seçãoEstas equações irão reger os cálculos para cada seção do enrijecedor, seja naregião reta ou na região inclinada do mesmo.
+6.2 MaterialO modelo construído foi representado com vários materiais, buscando assim,mostrar a diferença nos resultados e a importância de se modelar o material doenrijecedor de forma correta.
+Há algum tempo atrás, as análises e projetos de enrijecedores eram realizadosconsiderando a estrutura formada de material linear elástico, a partir de um módulo deelasticidade representativo encontrado em testes experimentais.
+28Sendo assim, inicialmente, o bend stiffener foi modelado com material linearelástico, tomando como base dois módulos de elasticidades, buscando mapear o maiornúmero de casos possíveis. Com base na curva de material viscoelástico obtida nocapítulo 2 deste trabalho, estudaram-se dois módulos de elasticidades possíveis para oscálculos, um considerando o G0 da curva de relaxação, e outro sendo o somatório detodos os módulos de elasticidades, para todos os termos da série. Os valores utilizadosforam:G● MPa57,380 G finalOutra análise realizada consiste em considerar o poliuretano como materialhiperelástico, sendo esta, a análise mais comum realizada atualmente na indústria dopetróleo. A entrada dos dados na análise local consistiu na introdução dos pontos dacurva tensão x deformação deste material, medidos também experimentalmente. A
+curva citada pode ser verificada no gráfico 11:MPa● 03,8165)aPM4(oãsneT32100,000,050,100,150,20Deformação (%)0,250,30Gráfico 11– Curva Tensão x Deformação (Material Hiperelástico)Finalmente, o comportamento viscoelástico linear do poliuretano do enrijecedorfoi descrito no domínio do tempo, a partir da série de Prony. Os coeficientes derelaxação expostos na Tabela 2 – Coeficientes de relaxa, foram adimensionalizados deforma a ficarem coerentes com os dados de entrada do Abaqus, que são:29• Razão modular dos termos da série de Prony expandida, do módulo deGi 3gpirelaxamento cisalhante , tal que i = termo da série de Prony.
+iGi1i• Razão modular dos termos da série de Prony expandida, do módulo dek igppirelaxamento volumétrico (modelo de viga).
+• Tempo de relaxamento para os termos da série de Prony expandida iSendo-se assim, obtiveram-se como dado de entrada para a definição docomportamento do material, os valores expostos na tabela 10:Tabela 10 – Coeficientes de relaxação adimensionalizados1,01181 pk2 pk3 pk4 pk0,37341 1 pg2 pg3 pg4 pg0,373459,09740,05660,05662 3 695,04470,03790,03797647,97530,05580,05584 6.3 ElementosOs elementos de viga no software Abaqus possuem a nomenclatura de acordocom o esquema da figura 9:Figura 9 – Nomenclatura dos elementos (Abaqus)Nota: A formulação híbrida é tipicamente utilizada para representar estruturasmuito rígidas que sofrem rotações significantes. Os elementos de vigas Euler-Bernoulli(B23, B23H, B33, B33H) não permitem deformação por cisalhamento transverso, onde30seções planas permanecem planas, sendo utilizadas para estruturas esbeltas, como é ocaso do riser. A malha da viga foi gerada utilizando elementos de duas dimensõesEuler-Bernoulli (B23).
+6.4 ContatoComo foi dito anteriormente, não se considerou no modelo, o espaço entre oriser e o enrijecedor, sendo considerados acoplados. Foi utilizado o comando *Tie queassegura que os nós do riser e do enrijecedor se mantêm com os mesmos graus deliberdade, não apresentando deslocamento relativo nem gap (espaço entre as duasestruturas).
+6.5 Condições de Contorno e CarregamentoO modelo realizado considera o sistema engastado na base no bend stiffener,sendo a força e o ângulo (F, θ) aplicados na extremidade livre.
+O carregamento foi aplicado com auxílio do comando *Amplitude, sendopossível assim, controlar a periodicidade da força e ângulo aplicados. Este comandopermite o usuário traçar um histórico de carregamento, seja ele tabular, periódico,rampa, entre outro.
+6.6 AnáliseA análise é dividida em um passo estático e outro quase-estático, sendodefinidos com o parâmetro *Nlgeom que indica que a não linearidade geométrica deveser considerada, já que se trata de um problema de grandes deslocamentos;A opção *Visco foi usada para se obter a resposta transiente, considerando ocomportamento viscoelástico linear do material.
+Uma subrotina em Fortran foi desenvolvida para extrair os resultados de ummaior número de análises de forma eficaz. O anexo 4 mostra o arquivo de entrada daanálise viscoelástica no software Abaqus.
+317. ResultadosCom base no que foi apresentado, foram desenvolvidos diversos modelos nosoftware Abaqus, sendo que estes se diferenciam no que diz respeito a propriedades domaterial, em busca de obter resultados que demonstrassem o erro contido em uma nãorepresentação correta do material viscoelástico de enrijecedores. A seguir serãoapresentados os resultados dos diferentes modelos implementados para os dois casoscríticos, analisando-os com relação aos pontos de vista mais importantes no que dizrespeito ao projeto de enrijecedores e a comparação dos resultados de curvatura no casomais crítico para diferentes materiais analisados.
+ GB1Um dos pontos mais críticos no projeto de enrijecedores é a curvatura máximaque a estrutura assume com o carregamento de topo, já que esta não pode atingir o valordo MBR do flexível. No gráfico 12, verifica-se o histórico de curvatura ao longo dotempo.
+0,40Viscoelástico0,350,30)m1(aruavruC0,25/0,20t0,150,100,050,000204060Tempo (s)80100Gráfico 12– Curvatura x Tempo para o caso GB-1Com este gráfico é possível verificar a fluência do poliuretano, com a curvaturaaumentando ao longo do tempo. Os gráficos 13 e 14 mostram a mesma estrutura32sofrendo o mesmo carregamento, porém durante um intervalo maior de tempo, um naescala normal e o segundo na escala logarítmica.
+0,40,350,30,250,20,150,10,0500,40,350,30,250,20,150,10,0500,001ucuc)m1(arutavruCm)1(arutavruC//05001000150020000,110Tempo(s)1000Tempo(s)Gráfico 13 – CurvaturaxTempo (Escala Normal)Gráfico 14–CurvaturaxTempo (Escala Logarítimica)Observando os gráficos 13 e 14, é possível perceber o efeito da fluência dopoliuretano, que pode se tornar bastante importante para tempos muito longos, já quepara o tempo de 2000 segundos, o material não se estabilizou ainda.
+ GB2Como já era esperado as curvaturas para o caso GB-2 não obtiveram valores tãocríticos quanto no caso GB-1, já que este possui os maiores ângulos de topo, e o ânguloinfluencia mais diretamente do que a tração nos resultados de curvatura para o sistemariser x enrijecedor. A seguir pode ser vista a curvatura obtida para o caso GB-2.
+330,40Viscoelástico0,350,30)m/1(arutavruC0,250,200,150,100,050,000204060Tempo (s)80100Gráfico 15– Curvatura x Tempo Comparação de MateriaisComo foi mostrado, o caso GB-1 alcançou maiores valores de curvatura, sendoeste mais crítico no projeto de bend stiffeners, com isso, será analisado neste momento,as curvaturas neste caso, considerando diversos materiais formando o enrijecedor.
+0,60ViscoelásticoElástico (G=38MPa)Elástico (G=81MPa)Não linear elástico0,550,500,450,40)m/1(arutavruC0,350,300,250,200,150,100,050,000102030405060708090100Tempo (s)Gráfico 16– Curvatura x Tempo34No gráfico 16, foi possível perceber a disparidade causada pela variação dosmateriais, podendo chegar a diferenças de até 50% na resposta da estrutura. Assim,verifica-se uma abordagem bastante conservadora na representação do material nãolinear elástico (hiperelástico) e do material elástico considerando um módulo deelasticidade bem baixo. Na tabela 11, serão expostos os resultados de curvaturas críticasencontradas, seus respectivos raios, além das diferenças percentuais encontradas quandose compara o resultado com enrijecedor modelado com material viscoelástico e osdemais materiais.
+Tabela 11 – Resultados e diferença percentual em relação ao caso viscoelásticoMaterialCurvatura Máxima (1/m) Raio Mínimo (m) MBR (m) Diferença (%)Viscoelástico0,360,420,280,432,782,373,552,322,342,342,342,340,0016,67-22,2219,44Elástico (G=38MPa)Elástico (G=81MPa)Não Linear ElásticoVale lembrar também que esta análise foi feita para as freqüências encontradasnos ajustes realizados, de forma que seguindo as seguintes relações 14 e 15 é possívelverificá-las.
+t.(
+7.8,0
+7)FFFsen(wtFE66,1senwrads)6556824,0448/(14)t.
+(7.7,1
+)7senwtsenwrads()85,68,5,0448/(15)Neste caso (GB-1), a mesma freqüência foi utilizada tanto para a aplicação daforça quanto do ângulo.
+O gráfico 17 mostra as curvaturas expostas anteriormente no final do cicloaplicado, e o valor do MBR da estrutura de topo.
+350,60MBRViscoelásticoElástico (G=38MPa)Elástico (G=81MPa)Não linear elástico0,550,500,450,40)m1(aruavruC/0,350,30t0,250,200,150,100,050,008090100Tempo (s)Gráfico 17– Curvatura x Tempo (MBR do Flexível)Sabendo-se que a indústria do petróleo sempre aplica um fator de segurança parao valor máximo de curvatura que pode ser atingido, nota-se que provavelmente esteenrijecedor deveria ser redefinido caso fosse utilizado o material hiperelástico ou omaterial elástico (G=38MPa) para a análise.
+As curvaturas observadas na estrutura modelada com material viscoelástico semostraram bem abaixo do MBR do flexível, cabendo ainda a aplicação do fator desegurança. Porém percebe-se também a fluência do material viscoelástico, mesmo quepequeno, este aumento de curvatura com o passar de um grande número de ciclos podese tornar elevado.
+8. ConclusãoEste trabalho possibilitou um entendimento maior no que diz respeito ao projetode enrijecedores à flexão, descrevendo todos os passosimportantes para acaracterização do mesmo, desde a realização de uma análise global considerando aregião de operação até uma análise local da estrutura em questão, avaliando ascurvaturas resultantes.
+Foi possível analisar as diferenças nas curvaturas geradas para diferentesconsiderações de materiais do enrijecedor. As variações nos resultados mostram os erroscontidos em não se realizar uma análise dinâmica, e sim, análises estáticas36simplificadas. Por um lado, percebeu-se que a análise utilizando material hiperelástico,que vem sendo feita na indústria do petróleo se mostra bem conservadora e maissimples, porém não se considera a fluência do poliuretano. Entretanto, com as novasdescobertas de óleo e gás em cenários cada vez mais críticos, necessitam-se de análisesque se aproximem ao máximo da realidade, já que um nível de conservadorismo alto oua superestimação de um enrijecedor pode inviabilizar um projeto, como já ocorreu emmuitos casos.
+Sendo assim, cabe a cada um avaliar até que ponto a simplificação de uma análiseé válida, reduzindo o custo computacional, compensando com fatores de segurança, emdetrimento de uma análise mais próxima da realidade.
+9. Trabalhos FuturosComo foi possível perceber, a análise de enrijecedores à flexão é um assuntobastante amplo que pode assumir um grau de complexidade grande à medida que seenglobam novas considerações nos problemas. Muitos pontos foram abordados ao longodeste estudo, porém alguns só serão relatados a seguir, optando-se por abordá-los emtrabalhos futuros: Modelação do sistema bend stiffener x riser em três dimensões, tornandopossível analisar concentrações de tensões na região do inserto metálico do enrijecedor,ou a ovalização da região final deste, ocasionada pelo contato com o flexível.
+ Análise térmica, avaliando a variação das propriedades do enrijecedor, geradapelo aumento da temperatura que pode ser causada pelo atrito durante uma série decilcos e pelo comportamento viscoelástico do poliuretano.
+ Consideração de um estudo de fadiga no poliuretano, para o projeto de bendstiffener, já que neste trabalho só se analisou os casos críticos vindo das análisesglobais.
+3710.Referências[1] CAIRE, M., VAZ, M.A., LEMOS, C.A.D. “Viscoelastic Analysis of BendStiffeners”. In: Proceedings of the International Conference on OffshoreMechanics and Arctic Engineering, OMAE2005-67321, Halkidiki, Greece,June 2005.
+[2] CAIRE, M., Análise de Enrijecedores à Flexão. Tese de M.Sc.,
+COPPE/UFRJ, Rio de Janeiro, RJ, Brasil,2005[3] FARIAS, L.F.A., VAZ, M.A., CAIRE, M., Resposta viscoelástica linear deenrijecedores à flexão sujeitos a carregamentos harmônicos, PDPETRO, 2009[4] PADILHA, J., Análise estrutural de riser flexível com armaduras de traçãoem titânio. Tese de M.Sc., COPPE/UFRJ, Rio de Janeiro, RJ, Brasil,2009[5] LYONS, G. J., PATEL, M. H., WITZ, J. A., et al, Vertical Riser DesignManual. University College London, 2 ed. London, Bentham Press,1994.
+[6] WINEMAN, A., RAJAGOPAL, K.R., Mechanical Response of Polymers –Introduction. Cambridge University Press, 2000.
+[7] KIEPPER, B.O., Análise Estrutural Estática, Via Elementos Finitos doSegmento Tubo Flexível-Enrijecedor. Tese de M.Sc., COPPE/UFRJ, Rio deJaneiro, RJ, Brasil, 2004.
+[8] VAZ, M.A., LEMOS, C.A.D. “Geometrical and Material Non-LinearFormulation for Bend Stiffeners”. In: Proceedings of the InternationalConference on Offshore Mechanics and Arctic Engineering, OMAE2004-51366, Vancouver, Canada, June 2004.
+[9] Vaz, M.A.; Caire, M.; Ariza, A. G.; Farias, L. F., Bend Stiffener LlinearViscoelastic Response Subjected to Harmonic Loading, COBEM, 200938Anexo 1 – Perfis de Corrente39 Norte301.14
+1.14
+1.08
+0.73
+0.67
+0.5
+0.33
+0.36
+0.28
+1001.23
+1.23
+1.16
+0.77
+0.69
+0.52
+0.36
+0.39
+0.31
+1.0
+0.9
+0.9
+0.8
+0.6
+0.6
+0.4
+0.3
+0.2
+0.2
+10.0
+1.1
+1.1
+1.0
+0.7
+0.7
+0.5
+0.3
+0.3
+0.3
+20.0
+1.1
+1.1
+1.1
+0.7
+0.7
+0.5
+0.3
+0.4
+0.3
+50.0
+1.2
+1.2
+1.1
+0.8
+0.7
+0.5
+0.3
+0.4
+0.3
+DireçãoSuperfícieNNNNNN100m350m500m1000m1250m1500m2000m2500mN-NENN Nordeste301.33
+1.24
+1.1
+0.62
+0.66
+0.5
+0.29
+0.38
+0.38
+1001.41
+1.29
+1.2
+0.65
+0.69
+0.53
+0.3
+0.4
+0.42
+1.0
+1.1
+1.1
+0.8
+0.5
+0.6
+0.4
+0.2
+0.3
+0.3
+10.0
+1.3
+1.2
+1.0
+0.6
+0.6
+0.5
+0.3
+0.4
+0.3
+20.0
+1.3
+1.2
+1.1
+0.6
+0.7
+0.5
+0.3
+0.4
+0.4
+50.0
+1.4
+1.3
+1.1
+0.6
+0.7
+0.5
+0.3
+0.4
+0.4
+DireçãoSuperfícieNENENENNN100m350m500m1000m1250m1500m2000m2500mN-NENN Leste301.04
+0.89
+0.91
+1.03
+0.62
+0.49
+0.35
+0.46
+0.34
+1001.14
+0.99
+1.02
+1.14
+0.65
+0.52
+0.38
+0.51
+0.38
+1.0
+0.7
+0.6
+0.6
+0.7
+0.6
+0.4
+0.3
+0.3
+0.2
+10.0
+0.9
+0.8
+0.8
+0.9
+0.6
+0.5
+0.3
+0.4
+0.3
+20.0
+1.0
+0.9
+0.9
+1.0
+0.6
+0.5
+0.3
+0.4
+0.3
+50.0
+1.1
+0.9
+1.0
+1.1
+0.6
+0.5
+0.4
+0.5
+0.4
+DireçãoSuperfícieEENNNN10035050010001250150020002500N-NENENE Sudeste20.0
+1.3
+0.8
+0.6
+0.8
+0.5
+0.5
+0.4
+0.4
+0.4
+30.0
+1.4
+0.8
+0.6
+0.8
+0.5
+0.5
+0.4
+0.4
+0.4
+1001.44
+0.83
+0.63
+0.88
+0.52
+0.52
+0.4
+0.44
+0.44
+1.0
+1.1
+0.7
+0.5
+0.7
+0.4
+0.4
+0.3
+0.3
+0.3
+10.0
+1.3
+0.8
+0.6
+0.8
+0.5
+0.5
+0.4
+0.4
+0.4
+50.0
+1.4
+0.8
+0.6
+0.9
+0.5
+0.5
+0.4
+0.4
+0.4
+DireçãoSESENNNNSuperfície100m350m500m1000m1250m1500m2000m2500mN-NENENE Sul4020.0
+1.2
+1.2
+0.8
+0.7
+0.7
+0.6
+0.5
+0.35
+0.36
+30.0
+1.3
+1.3
+0.8
+0.7
+0.7
+0.6
+0.5
+0.36
+0.37
+1001.33
+1.33
+0.84
+0.76
+0.71
+0.58
+0.5
+0.38
+0.4
+1.0
+1.1
+1.1
+0.6
+0.6
+0.6
+0.5
+0.4
+0.3
+0.29
+10.0
+1.2
+1.2
+0.7
+0.7
+0.7
+0.5
+0.4
+0.34
+0.35
+50.0
+1.3
+1.3
+0.8
+0.7
+0.7
+0.6
+0.5
+0.37
+0.38
+DireçãoSSNNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m Sudoeste1100.98
+0.9
+0.68
+0.65
+0.59
+0.46
+0.45
+0.35
+0.34
+201.04
+0.96
+0.72
+0.67
+0.61
+0.48
+0.47
+0.37
+0.36
+301.07
+0.99
+0.74
+0.68
+0.62
+0.48
+0.49
+0.39
+0.37
+501.12
+1.03
+0.78
+0.7
+0.63
+0.49
+0.5
+0.4
+0.39
+1001.18
+1.09
+0.82
+0.72
+0.64
+0.5
+0.52
+0.42
+0.41
+Direção0.79
+0.72
+0.54
+0.57
+0.54
+0.42
+0.38
+0.27
+0.27
+SWSWNWNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m Oeste1100.89
+0.57
+0.51
+0.69
+0.67
+0.51
+0.42
+0.4
+0.33
+200.95
+0.59
+0.53
+0.72
+0.69
+0.53
+0.44
+0.43
+0.35
+300.99
+0.61
+0.53
+0.73
+0.7
+0.53
+0.45
+0.45
+0.36
+501.03
+0.62
+0.55
+0.75
+0.71
+0.55
+0.46
+0.47
+0.37
+1001.09
+0.64
+0.56
+0.77
+0.73
+0.56
+0.48
+0.5
+0.39
+Direção0.69
+0.49
+0.45
+0.6
+0.6
+0.45
+0.35
+0.31
+0.26
+WWNNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m Noroeste1100.88
+0.62
+0.53
+0.76
+0.64
+0.47
+0.31
+0.33
+0.31
+200.91
+0.65
+0.55
+0.79
+0.66
+0.48
+0.32
+0.34
+0.33
+300.94
+0.66
+0.56
+0.8
+0.66
+0.49
+0.33
+0.35
+0.34
+500.97
+0.68
+0.57
+0.82
+0.67
+0.5
+0.33
+0.37
+0.35
+1001.02
+0.71
+0.58
+0.85
+0.69
+0.51
+0.34
+0.38
+0.37
+Direção0.69
+0.52
+0.48
+0.67
+0.58
+0.42
+0.26
+0.26
+0.25
+NWNWNNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m41Anexo 2 – Tabelas de RAO42RAO 0º (surge, sway, heave)1SurgeSwayHeave0.8
+0.6
+)mm0.4
+/(0.2
+0051015202530-0.2
+(s)RAO 90º (surge, sway, heave)1.2
+SurgeSwayHeave10.8
+0.6
+)mm/(0.4
+0.2
+0051015202530-0.2
+(s)43RAO 180º (surge, sway, heave)1SurgeSwayHeave0.9
+0.8
+0.7
+0.6
+)mm0.5
+/(0.4
+0.3
+0.2
+0.1
+0051015(s)202530RAO 270º (surge, sway, heave)1.2
+SurgeSwayHeave10.8
+0.6
+)mm/(0.4
+0.2
+0051015202530-0.2
+(s)44RAO 345º (surge, sway, heave)1SurgeSwayHeave0.9
+0.8
+0.7
+0.6
+)mm0.5
+/(0.4
+0.3
+0.2
+0.1
+0051015(s)202530RAO 0º (roll, pitch, yaw)0.6
+RollPitchYaw0.5
+0.4
+)mm0.3
+/(0.2
+0.1
+0051015(s)20253045RAO 90º (roll, pitch, yaw)2.5
+RollPitchYaw21.5
+)mm/(10.5
+0051015(s)202530RAO 180º (roll, pitch, yaw)0.6
+RollPitchYaw0.5
+0.4
+)mm0.3
+/(0.2
+0.1
+0051015(s)20253046RAO 270º (roll, pitch, yaw)2.5
+RollPitchYaw21.5
+)mm/(10.5
+0051015(s)202530RAO 345º (roll, pitch, yaw)0.6
+RollPitchYaw0.5
+0.4
+)mm0.3
+/(0.2
+0.1
+0051015(s)20253047Anexo 3 – Algoritmos do programa computacional para gerar o arquivo deentrada para a análise local48#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#define MAX 100int main (){nespr=Lr/espr;nespbs=Lbs/espbs;j=1001;floatfor(i=0; i<(nespr+1);espr,espbs,h,Lr,Lbs,gap,Dint,EIr,EAr,T,ang,Rmax,Rmin,Rr,Lri,a,b,x,y,K,A2,I2,A3,I3,base2,base3,altura2,altura3;h=h+Lr/nespr ){fprintf(arq, "\n %d,int nespr,nespbs,i,j,m,n;FILE *arq,*pa;char nomearquivo[MAX];char *nome =%0.3f,
+0",j,h);j=j+1;i=i+1;}"informacoes_projeto.txt";// Abre o arquivo para leiturafprintf(arq, "\n*Element, type=B21,if (( pa = fopen(nome, "r")) ==ELSET=RISER");NULL){j=1002;printf("\n\nNao foi possivelfor (i=1001;abrir o arquivo.\n");exit(1);i<=1000+(nespr) ;i=i+1){fprintf(arq,}"\n%d,%d,%d",i,i,j);j++;fscanf(pa, "%s %f %f %f %f %f %f%f %f %f %f %f %f %f", nomearquivo, &Lr,&espr,&Rr,&EAr,&EIr,&Lbs,&espbs,&Rmax,&Rmin,&Dint,&Lri,&T,&ang);}fclose(pa);fprintf(arq, "\n*Beam GeneralSection, elset=Riser,SECTION=NONLINEAR GENERAL ");/* Abre o arquivo para escrita */if (( arq = fopen(nomearquivo, "w")) ==fprintf(arq, "\n1,1");fprintf(arq, "\n 0.,0.,-1.");
+fprintf(arq, "\n*AXIAL, LINEAR ");NULL){printf("\n\nNao foi possivelfprintf(arq, "\n<EA> ");fprintf(arq, "\n*M1, LINEAR ");fprintf(arq, "\n<EI> ");fprintf(arq, "\n************************* ");fprintf(arq, "\n************************* ");abrir o arquivo.\n");exit(1);}// Inicio do arquivofprintf(arq, "\n*Node, NSET=BS ");gap=(Dint/2)-Rr;j=6001;h=Lr-Lbs;fprintf(arq, "*Heading");fprintf(arq, "\n*Preprint, echo=NO,for(i=0; i<(nespbs+1);h=h+(Lbs/nespbs))model=NO, history=NO, contact=NO");{fprintf(arq, "\n**");fprintf(arq, "\n**");fprintf(arq, "\n*PARAMETER");fprintf(arq, "\nEA = %f",EAr);fprintf(arq, "\nEI = %f",EIr);fprintf(arq, "\n*Node, NSET=RISER ");fprintf(arq, "\n %d,%0.3f,
+0",j,h);j++;i++;}49fprintf(arq, "\n*Element, type=B21H,ELSET=BS");// Calculo da area e inercia daregiao 1 do Bend stiffenerj=6002;y=Rmax;n=6000+((Lbs-Lri)/espbs);for (K=-(Lri-(espbs/2));K<=-for (i=6001; i<=6000+(nespbs);i=i+1){fprintf(arq, "\n%d,(espbs/2) ; K=(K+espbs)){%d,%d",i,i,j);j++;A3=(3.141592654*(pow(y,2)))-(3.141592654*(pow(Dint/2,2)));}I3=(3.141592654*(pow(y,4))/4)-fprintf(arq, "\n**" );(3.141592654*(pow(Dint/2,4))/4);n=n+1;fprintf(arq,"\n*Beamfor (i=6001;i<=6000+(nespbs) ;i=i+1)Section,elset=BS%d, material=Material-1,section=Rect",n);{base3=A3/(pow(I3*12/A3,0.5));altura3=pow(I3*12/A3,0.5);
+fprintf(arq,"\n %0.8f
+fprintf(arq, "\n*Elset, elset=BS%d",i);fprintf(arq, "\n %d,",i);,%0.9f", base3 , altura3);}fprintf(arq,"\n 0.,0.,-1.");
+}// Equação da reta --> Parteinclinada do bend stiffenerfprintf(arq,a=-(Rmax-Rmin)/(Lri-Lbs);b=Rmax-(((Rmax-Rmin)*Lri)/(+Lri-"\n*Surface,Type=Node,Name=Surf_BS");Lbs));for (i=6001;i<=6001+(nespbs) ;i=i+1)//Area e inercia da parte 2 do{fprintf(arq, "\n%d",i);bend stiffener --> Parte inclinadam=6000;for (x=-((Lbs)-(espbs/2)); x<=-Lri-(espbs/2) ; x=(x+espbs))}{y=(a*x)+b;fprintf(arq,"\n*Surface,Type=Node,Name=Surf_Riser");A2=(3.141592654*(pow(y,2)))-(3.141592654*(pow(Dint/2,2)));for (i=(1001+((Lr/espr)-Lbs/espbs)); i<=(1001+(Lr/espr)) ;i=i+1)I2=(3.141592654*(pow(y,4))/4)-(3.141592654*(pow(Dint/2,4))/4);{fprintf(arq, "\n%d",i);m=m+1;fprintf(arq,"\n*BeamSection,elset=BS%d, material=Material-1,section=Rect",m);}base2=A2/(pow(I2*12/A2,0.5));fprintf(arq,altura2=pow(I2*12/A2,0.5);
+fprintf(arq,"\n %0.8f
+"\n************************************");,fprintf(arq, "\n** Constraint:%0.9f", base2 , altura2);Constraint-1");fprintf(arq,"\n 0.,0.,-1.");
+fprintf(arq, "\n*Tie,name=Constraint-1, adjust=yes");fprintf(arq, "\nSurf_BS,}Surf_Riser");50fprintf(arq,fprintf(arq,"\n************************************");"\n************************************");fprintf(arq,fprintf(arq, "\n*Nset,"\n************************************");nset=Engaste_Rigido");fprintf(arq, "\n** STEP: Step_1");fprintf(arq, "\n**");fprintf(arq, "\n*Step, name=Step_Forca,fprintf(arq, "\n%0.0f,%0.0f",round(1001+(Lr/espr)),round(6001+(Lbs/espbs)));nlgeom=YES");fprintf(arq, "\n*Nset,fprintf(arq, "\n*Static");fprintf(arq, "\n0.001, 1, 1e-20, 1.");
+fprintf(arq, "\n**");fprintf(arq, "\n* Boundary ");fprintf(arq, "\nEngaste_Rigido,encastre");fprintf(arq,nset=N_Forca");fprintf(arq, "\n 1001");fprintf(arq,"\n************************************");"\nN_Forca,6,6,0.087266462");fprintf(arq, "\n*Orientation,fprintf(arq, "\n** LOADS");fprintf(arq, "\n**");fprintf(arq, "\n*Cload,follower");fprintf(arq, "\nN_Forca, 1,-62500");fprintf(arq, "\n**");fprintf(arq, "\n** OUTPUT REQUESTS");fprintf(arq, "\n**");fprintf(arq, "\n*Restart, write,name=\"Datum csys-1\"");0.,
+0.,
+fprintf(arq, "\n1.,
+1.,
+0.");
+fprintf(arq, "\n1, 0.");
+fprintf(arq,0.,
+"\n************************************");fprintf(arq,"\n************************************");frequency=0");fprintf(arq, "\n************ AMPLITUDEfprintf(arq, "\n**");fprintf(arq, "\n** FIELD OUTPUT: F-************************");fprintf(arq, "\n*Amplitude,Output-1");name=AmpForca,definition=Periodic");fprintf(arq, "\n**");fprintf(arq, "\n*Output, field,fprintf(arq, "\n1,1.256637,0,1");fprintf(arq, "\n0,0.2");variable=PRESELECT");fprintf(arq, "\n*Element Output,fprintf(arq, "\n*Amplitude,ELSET=RISER");name=AmpAngulo,definition=Periodic");fprintf(arq, "\n1,1.256637,0,1");fprintf(arq, "\nSE");fprintf(arq, "\n**");fprintf(arq, "\n** HISTORY OUTPUT: H-fprintf(arq, "\n0,0.2");Output-1");fprintf(arq,fprintf(arq, "\n**");fprintf(arq, "\n*Output, history,"\n************************************");fprintf(arq, "\n**MATERIALS");variable=PRESELECT");fprintf(arq, "\n**");fprintf(arq, "\n*Material,fprintf(arq, "\n*Node Print,freq=1,Nset=Riser");name=MATERIAL-1");fprintf(arq, "\nCoor1,fprintf(arq, "\n*Elastic,moduli=INSTANTANEOUS");Coor2,Coor3");fprintf(arq, "\n*Output, history,fprintf(arq, "\n8.53642e+07, 0.3");fprintf(arq, "\n*Viscoelastic,variable=PRESELECT");fprintf(arq, "\n*El Print,time=PRONY");freq=1,elset=Riser");fprintf(arq, "\n0.4838, 0.4838 , 0.75");fprintf(arq, "\n0.0562, 0.0562, 28.908");fprintf(arq, "\n0.0581, 0.0581,289.826");fprintf(arq, "\nSK1");fprintf(arq, "\n*End Step");fprintf(arq,fprintf(arq,"\n************************************");"\n************************************");fprintf(arq,fprintf(arq,"\n************************************");"\n************************************");fprintf(arq,fprintf(arq, "\n** STEP: VISCO");fprintf(arq, "\n**");fprintf(arq, "\n*Step, name=Step_2,"\n************************************");nlgeom=YES,inc=5000");fprintf(arq, "\n*Visco");51fprintf(arq, "\n0.05, 100");fprintf(arq, "\n**");fprintf(arq, "\n* Boundary ");fprintf(arq,fprintf(arq, "\nSE");fprintf(arq, "\n**");fprintf(arq, "\n** HISTORYOUTPUT: H-Output-1");"\nEngaste_Rigido,encastre");fprintf(arq, "\n**");fprintf(arq, "\n*Output, history,fprintf(arq,"\n*Boundary,amplitude=AmpAngulo");variable=PRESELECT");fprintf(arq,fprintf(arq, "\n*Node Print,"\nN_Forca,6,6,0.087266462");freq=1,Nset=Riser");fprintf(arq, "\n** LOADS");fprintf(arq, "\n**");fprintf(arq, "\n*Cload,follower,fprintf(arq, "\nCoor1,Coor2,Coor3");fprintf(arq, "\n*Output, history,amplitude=AmpForca");variable=PRESELECT");fprintf(arq, "\nN_Forca, 1,-62500");fprintf(arq, "\n**");fprintf(arq, "\n** OUTPUTfprintf(arq, "\n*El Print,freq=1,elset=Riser");fprintf(arq, "\nSK1");fprintf(arq, "\n*End Step");REQUESTS");fprintf(arq, "\n**");fprintf(arq, "\n*Restart, write,frequency=0");fclose(arq);fprintf(arq, "\n**");fprintf(arq, "\n** FIELD OUTPUT: F-printf("\n O ARQUIVO FOI CRIADOOutput-1");COM SUCESSO !!!!
+");fprintf(arq, "\n**");fprintf(arq, "\n*Output, field,return 0;variable=PRESELECT");fprintf(arq, "\n*Element Output,}ELSET=RISER");52Anexo 4 – Arquivo de entrada para a análise local(Caso GB1 – Viscoelástico)53*Heading*Preprint, echo=NO,model=NO, history=NO,contact=NO*****PARAMETEREA = 880436992.000000EI = 10000.000000*Node,NSET=RISER,INPUT=NOSRISER.DAT
+*Element,type=B21,ELSET=RISER,INPUT=ELRISER.DAT
+*Beam General Section,elset=Riser,SECTION=NONLINEARGENERAL1,10.,0.,-1.
+*AXIAL, LINEAR<EA>*M1, LINEAR<EI>***************************************************Node,NSET=BS,INPUT=NOSBS.DAT
+*Element,ELSET=BS,INPUT=ELBS.DAT
+***Elset, elset=BS60016011,6039,*Elset, elset=BS6012*Elset, elset=BS60406012,6040,*Elset, elset=BS6013*Elset, elset=BS60416013,6041,*Elset, elset=BS6014*Elset, elset=BS60426014,6042,*Elset, elset=BS6015*Elset, elset=BS60436015,6043,*Elset, elset=BS6016*Elset, elset=BS60446016,6044,*Elset, elset=BS6017*Elset, elset=BS60456017,6045,*Elset, elset=BS6018*Elset, elset=BS60466018,6046,*Elset, elset=BS6019*Elset, elset=BS60476019,6047,*Elset, elset=BS6020*Elset, elset=BS60486020,6048,*Elset, elset=BS6021*Elset, elset=BS60496021,6049,*Elset, elset=BS6022*Elset, elset=BS60506022,6050,*Elset, elset=BS6023*Elset, elset=BS60516023,6051,*Elset, elset=BS6024*Elset, elset=BS60526024,6052,*Elset, elset=BS6025*Elset, elset=BS60536025,6053,,*Elset, elset=BS6026*Elset, elset=BS60546026,6054,type=B21H,*Elset, elset=BS6027*Elset, elset=BS60556027,6055,*Elset, elset=BS6028*Elset, elset=BS60566028,6056,*Elset, elset=BS6029*Elset, elset=BS60576001,6029,6057,*Elset, elset=BS6002*Elset, elset=BS6030*Elset, elset=BS60586002,6030,6058,*Elset, elset=BS6003*Elset, elset=BS6031*Elset, elset=BS60596003,6031,6059,*Elset, elset=BS6004*Elset, elset=BS6032*Elset, elset=BS60606004,6032,6060,*Elset, elset=BS6005*Elset, elset=BS6033*Elset, elset=BS60616005,6033,6061,*Elset, elset=BS6006*Elset, elset=BS6034*Elset, elset=BS60626006,6034,6062,*Elset, elset=BS6007*Elset, elset=BS6035*Elset, elset=BS60636007,6035,6063,*Elset, elset=BS6008*Elset, elset=BS6036*Elset, elset=BS60646008,6036,6064,*Elset, elset=BS6009*Elset, elset=BS6037*Elset, elset=BS60656009,6037,6065,*Elset, elset=BS6010*Elset, elset=BS6038*Elset, elset=BS60666010,6038,6066,*Elset, elset=BS6011*Elset, elset=BS6039*Elset, elset=BS6067546067,6097,6127,*Elset, elset=BS6068*Elset, elset=BS6098*Elset, elset=BS61286068,6098,6128,*Elset, elset=BS6069*Elset, elset=BS6099*Elset, elset=BS61296069,6099,6129,*Elset, elset=BS6070*Elset, elset=BS6100*Elset, elset=BS61306070,6100,6130,*Elset, elset=BS6071*Elset, elset=BS6101*Elset, elset=BS61316071,6101,6131,*Elset, elset=BS6072*Elset, elset=BS6102*Elset, elset=BS61326072,6102,6132,*Elset, elset=BS6073*Elset, elset=BS6103*Elset, elset=BS61336073,6103,6133,*Elset, elset=BS6074*Elset, elset=BS6104*Elset, elset=BS61346074,6104,6134,*Elset, elset=BS6075*Elset, elset=BS6105*Elset, elset=BS61356075,6105,6135,*Elset, elset=BS6076*Elset, elset=BS6106*Elset, elset=BS61366076,6106,6136,*Elset, elset=BS6077*Elset, elset=BS6107*Elset, elset=BS61376077,6107,6137,*Elset, elset=BS6078*Elset, elset=BS6108*Elset, elset=BS61386078,6108,6138,*Elset, elset=BS6079*Elset, elset=BS6109*Elset, elset=BS61396079,6109,6139,*Elset, elset=BS6080*Elset, elset=BS6110*Elset, elset=BS61406080,6110,6140,*Elset, elset=BS6081*Elset, elset=BS6111*Elset, elset=BS61416081,6111,6141,*Elset, elset=BS6082*Elset, elset=BS6112*Elset, elset=BS61426082,6112,6142,*Elset, elset=BS6083*Elset, elset=BS6113*Elset, elset=BS61436083,6113,6143,*Elset, elset=BS6084*Elset, elset=BS6114*Elset, elset=BS61446084,6114,6144,*Elset, elset=BS6085*Elset, elset=BS6115*Elset, elset=BS61456085,6115,6145,*Elset, elset=BS6086*Elset, elset=BS6116*Elset, elset=BS61466086,6116,6146,*Elset, elset=BS6087*Elset, elset=BS6117*Elset, elset=BS61476087,6117,6147,*Elset, elset=BS6088*Elset, elset=BS6118*Elset, elset=BS61486088,6118,6148,*Elset, elset=BS6089*Elset, elset=BS6119*Elset, elset=BS61496089,6119,6149,*Elset, elset=BS6090*Elset, elset=BS6120*Elset, elset=BS61506090,6120,6150,*Elset, elset=BS6091*Elset, elset=BS6121*Elset, elset=BS61516091,6121,6151,*Elset, elset=BS6092*Elset, elset=BS6122*Elset, elset=BS61526092,6122,6152,*Elset, elset=BS6093*Elset, elset=BS6123*Elset, elset=BS61536093,6123,6153,*Elset, elset=BS6094*Elset, elset=BS6124*Elset, elset=BS61546094,6124,6154,*Elset, elset=BS6095*Elset, elset=BS6125*Elset, elset=BS61556095,6125,6155,*Elset, elset=BS6096*Elset, elset=BS6126*Elset, elset=BS61566096,6126,6156,*Elset, elset=BS6097*Elset, elset=BS6127*Elset, elset=BS6157556157,6187,6217,*Elset, elset=BS6158*Elset, elset=BS6188*Elset, elset=BS62186158,6188,6218,*Elset, elset=BS6159*Elset, elset=BS6189*Elset, elset=BS62196159,6189,6219,*Elset, elset=BS6160*Elset, elset=BS6190*Elset, elset=BS62206160,6190,6220,*Elset, elset=BS6161*Elset, elset=BS6191*Elset, elset=BS62216161,6191,6221,*Elset, elset=BS6162*Elset, elset=BS6192*Elset, elset=BS62226162,6192,6222,*Elset, elset=BS6163*Elset, elset=BS6193*Elset, elset=BS62236163,6193,6223,*Elset, elset=BS6164*Elset, elset=BS6194*Elset, elset=BS62246164,6194,6224,*Elset, elset=BS6165*Elset, elset=BS6195*Elset, elset=BS62256165,6195,6225,*Elset, elset=BS6166*Elset, elset=BS6196*Elset, elset=BS62266166,6196,6226,*Elset, elset=BS6167*Elset, elset=BS6197*Elset, elset=BS62276167,6197,6227,*Elset, elset=BS6168*Elset, elset=BS6198*Elset, elset=BS62286168,6198,6228,*Elset, elset=BS6169*Elset, elset=BS6199*Elset, elset=BS62296169,6199,6229,*Elset, elset=BS6170*Elset, elset=BS6200*Elset, elset=BS62306170,6200,6230,*Elset, elset=BS6171*Elset, elset=BS6201*Elset, elset=BS62316171,6201,6231,*Elset, elset=BS6172*Elset, elset=BS6202*Elset, elset=BS62326172,6202,6232,*Elset, elset=BS6173*Elset, elset=BS6203*Elset, elset=BS62336173,6203,6233,*Elset, elset=BS6174*Elset, elset=BS6204*Elset, elset=BS62346174,6204,6234,*Elset, elset=BS6175*Elset, elset=BS6205*Elset, elset=BS62356175,6205,6235,*Elset, elset=BS6176*Elset, elset=BS6206*Elset, elset=BS62366176,6206,6236,*Elset, elset=BS6177*Elset, elset=BS6207*Elset, elset=BS62376177,6207,6237,*Elset, elset=BS6178*Elset, elset=BS6208*Elset, elset=BS62386178,6208,6238,*Elset, elset=BS6179*Elset, elset=BS6209*Elset, elset=BS62396179,6209,6239,*Elset, elset=BS6180*Elset, elset=BS6210*Elset, elset=BS62406180,6210,6240,*Elset, elset=BS6181*Elset, elset=BS6211*Elset, elset=BS62416181,6211,6241,*Elset, elset=BS6182*Elset, elset=BS6212*Elset, elset=BS62426182,6212,6242,*Elset, elset=BS6183*Elset, elset=BS6213*Elset, elset=BS62436183,6213,6243,*Elset, elset=BS6184*Elset, elset=BS6214*Elset, elset=BS62446184,6214,6244,*Elset, elset=BS6185*Elset, elset=BS6215*Elset, elset=BS62456185,6215,6245,*Elset, elset=BS6186*Elset, elset=BS6216*Elset, elset=BS62466186,6216,6246,*Elset, elset=BS6187*Elset, elset=BS6217*Elset, elset=BS6247566247,0.01599429 ,*BeamSection,elset=BS6017,material=Material-1,section=Rect*Elset, elset=BS62480.4124869410.,0.,-1.
+*BeamSection,elset=BS6009,material=Material-1,section=Rect6248,*Elset, elset=BS62496249,0.03516553 ,*Elset, elset=BS62500.4219165740.,0.,-1.
+*BeamSection,elset=BS6018,material=Material-1,section=Rect6250,*BeamSection,elset=BS6001,material=Material-1,section=Rect0.01812598 ,0.4135252240.,0.,-1.
+*BeamSection,elset=BS6010,material=Material-1,section=Rect0.00106650 ,0.03729322 ,0.4052877130.,0.,-1.
+*BeamSection,elset=BS6002,material=Material-1,section=Rect0.4229758680.,0.,-1.
+*BeamSection,elset=BS6019,material=Material-1,section=Rect0.02025739 ,0.4145659210.,0.,-1.
+*BeamSection,elset=BS6011,material=Material-1,section=Rect0.00319939 ,0.03942035 ,0.4063086510.,0.,-1.
+*BeamSection,elset=BS6003,material=Material-1,section=Rect0.4240373970.,0.,-1.
+*BeamSection,elset=BS6020,material=Material-1,section=Rect0.02238841 ,0.4156090020.,0.,-1.
+*BeamSection,elset=BS6012,material=Material-1,section=Rect0.00533227 ,0.04154683 ,0.4073321820.,0.,-1.
+*BeamSection,elset=BS6004,material=Material-1,section=Rect0.4251011310.,0.,-1.
+*BeamSection,elset=BS6021,material=Material-1,section=Rect0.02451909 ,0.4166544380.,0.,-1.
+*BeamSection,elset=BS6013,material=Material-1,section=Rect0.00746500 ,0.04367266 ,0.4083581570.,0.,-1.
+*BeamSection,elset=BS6005,material=Material-1,section=Rect0.4261671010.,0.,-1.
+*BeamSection,elset=BS6022,material=Material-1,section=Rect0.02664932 ,0.4177022580.,0.,-1.
+*BeamSection,elset=BS6014,material=Material-1,section=Rect0.00959764 ,0.04579785 ,0.4093866650.,0.,-1.
+*BeamSection,elset=BS6006,material=Material-1,section=Rect0.4272352760.,0.,-1.
+*BeamSection,elset=BS6023,material=Material-1,section=Rect0.02877910 ,0.4187523720.,0.,-1.
+*BeamSection,elset=BS6015,material=Material-1,section=Rect0.01173007 ,0.04792231 ,0.4104176460.,0.,-1.
+*BeamSection,elset=BS6007,material=Material-1,section=Rect0.4283055960.,0.,-1.
+*BeamSection,elset=BS6024,material=Material-1,section=Rect0.03090844 ,0.4198048110.,0.,-1.
+*BeamSection,elset=BS6016,material=Material-1,section=Rect0.01386229 ,0.05004607 ,0.4114510420.,0.,-1.
+*BeamSection,elset=BS6008,material=Material-1,section=Rect0.4293781220.,0.,-1.
+*BeamSection,elset=BS6025,material=Material-1,section=Rect0.03303723 ,0.4208595450.,0.,-1.
+570.05216904 ,*BeamSection,elset=BS6034,material=Material-1,section=Rect0.08812384 ,0.4304527640.,0.,-1.
+*BeamSection,elset=BS6026,material=Material-1,section=Rect0.4490351970.,0.,-1.
+*BeamSection,elset=BS6043,material=Material-1,section=Rect0.07123841 ,0.4402186270.,0.,-1.
+*BeamSection,elset=BS6035,material=Material-1,section=Rect0.05429129 ,0.09022973 ,0.4315295520.,0.,-1.
+*BeamSection,elset=BS6027,material=Material-1,section=Rect0.4501459000.,0.,-1.
+*BeamSection,elset=BS6044,material=Material-1,section=Rect0.07335266 ,0.4413138630.,0.,-1.
+*BeamSection,elset=BS6036,material=Material-1,section=Rect0.05641269 ,0.09233446 ,0.4326084260.,0.,-1.
+*BeamSection,elset=BS6028,material=Material-1,section=Rect0.4512584210.,0.,-1.
+*BeamSection,elset=BS6045,material=Material-1,section=Rect0.07546594 ,0.4424111250.,0.,-1.
+*BeamSection,elset=BS6037,material=Material-1,section=Rect0.05853327 ,0.09443811 ,0.4336894450.,0.,-1.
+*BeamSection,elset=BS6029,material=Material-1,section=Rect0.4523727890.,0.,-1.
+*BeamSection,elset=BS6046,material=Material-1,section=Rect0.07757819 ,0.4435102940.,0.,-1.
+*BeamSection,elset=BS6038,material=Material-1,section=Rect0.06065305 ,0.09654057 ,0.4347725210.,0.,-1.
+*BeamSection,elset=BS6030,material=Material-1,section=Rect0.4534890060.,0.,-1.
+*BeamSection,elset=BS6047,material=Material-1,section=Rect0.07968946 ,0.4446114600.,0.,-1.
+*BeamSection,elset=BS6039,material=Material-1,section=Rect0.06277192 ,0.09864190 ,0.4358576540.,0.,-1.
+*BeamSection,elset=BS6031,material=Material-1,section=Rect0.4546070690.,0.,-1.
+*BeamSection,elset=BS6048,material=Material-1,section=Rect0.08179965 ,0.4457145330.,0.,-1.
+*BeamSection,elset=BS6040,material=Material-1,section=Rect0.06488995 ,0.10074201 ,0.4369448720.,0.,-1.
+*BeamSection,elset=BS6032,material=Material-1,section=Rect0.4557269220.,0.,-1.
+*BeamSection,elset=BS6049,material=Material-1,section=Rect0.08390880 ,0.4468195440.,0.,-1.
+*BeamSection,elset=BS6041,material=Material-1,section=Rect0.06700703 ,0.10284095 ,0.4380340870.,0.,-1.
+*BeamSection,elset=BS6033,material=Material-1,section=Rect0.4568485320.,0.,-1.
+*BeamSection,elset=BS6050,material=Material-1,section=Rect0.08601686 ,0.4479264320.,0.,-1.
+*BeamSection,elset=BS6042,material=Material-1,section=Rect0.06912322 ,0.10493869 ,0.4391253590.,0.,-1.
+0.4579719900.,0.,-1.
+58*BeamSection,elset=BS6051,material=Material-1,section=Rect0.12376223 ,*BeamSection,elset=BS6068,material=Material-1,section=Rect0.4681608970.,0.,-1.
+*BeamSection,elset=BS6060,material=Material-1,section=Rect0.10703520 ,0.14247951 ,0.4590971770.,0.,-1.
+*BeamSection,elset=BS6052,material=Material-1,section=Rect0.4784839750.,0.,-1.
+*BeamSection,elset=BS6069,material=Material-1,section=Rect0.12584728 ,0.4693014320.,0.,-1.
+*BeamSection,elset=BS6061,material=Material-1,section=Rect0.10913052 ,0.14455241 ,0.4602241220.,0.,-1.
+*BeamSection,elset=BS6053,material=Material-1,section=Rect0.4796388750.,0.,-1.
+*BeamSection,elset=BS6070,material=Material-1,section=Rect0.12793101 ,0.4704436060.,0.,-1.
+*BeamSection,elset=BS6062,material=Material-1,section=Rect0.11122455 ,0.14662388 ,0.4613527950.,0.,-1.
+*BeamSection,elset=BS6054,material=Material-1,section=Rect0.4807953540.,0.,-1.
+*BeamSection,elset=BS6071,material=Material-1,section=Rect0.13001345 ,0.4715874200.,0.,-1.
+*BeamSection,elset=BS6063,material=Material-1,section=Rect0.11331734 ,0.14869398 ,0.4624832270.,0.,-1.
+*BeamSection,elset=BS6055,material=Material-1,section=Rect0.4819533530.,0.,-1.
+*BeamSection,elset=BS6072,material=Material-1,section=Rect0.13209452 ,0.4727328720.,0.,-1.
+*BeamSection,elset=BS6064,material=Material-1,section=Rect0.11540890 ,0.15076263 ,0.4636153880.,0.,-1.
+*BeamSection,elset=BS6056,material=Material-1,section=Rect0.4831128420.,0.,-1.
+*BeamSection,elset=BS6073,material=Material-1,section=Rect0.13417427 ,0.4738799040.,0.,-1.
+*BeamSection,elset=BS6065,material=Material-1,section=Rect0.11749916 ,0.15282992 ,0.4647492170.,0.,-1.
+*BeamSection,elset=BS6057,material=Material-1,section=Rect0.4842738810.,0.,-1.
+*BeamSection,elset=BS6074,material=Material-1,section=Rect0.13625261 ,0.4750285740.,0.,-1.
+*BeamSection,elset=BS6066,material=Material-1,section=Rect0.11958816 ,0.15489574 ,0.4658847750.,0.,-1.
+*BeamSection,elset=BS6058,material=Material-1,section=Rect0.4854363800.,0.,-1.
+*BeamSection,elset=BS6075,material=Material-1,section=Rect0.13832964 ,0.4761788250.,0.,-1.
+*BeamSection,elset=BS6067,material=Material-1,section=Rect0.12167583 ,0.15696016 ,0.4670220020.,0.,-1.
+*BeamSection,elset=BS6059,material=Material-1,section=Rect0.4866003390.,0.,-1.
+*BeamSection,elset=BS6076,material=Material-1,section=Rect0.14040527 ,0.4773306250.,0.,-1.
+590.15902318 ,*BeamSection,elset=BS6085,material=Material-1,section=Rect0.19387177 ,0.4877658490.,0.,-1.
+*BeamSection,elset=BS6077,material=Material-1,section=Rect0.5077946190.,0.,-1.
+*BeamSection,elset=BS6094,material=Material-1,section=Rect0.17752518 ,0.4983197450.,0.,-1.
+*BeamSection,elset=BS6086,material=Material-1,section=Rect0.16108473 ,0.19590843 ,0.4889327590.,0.,-1.
+*BeamSection,elset=BS6078,material=Material-1,section=Rect0.5089849230.,0.,-1.
+*BeamSection,elset=BS6095,material=Material-1,section=Rect0.17957364 ,0.4994994100.,0.,-1.
+*BeamSection,elset=BS6087,material=Material-1,section=Rect0.16314487 ,0.19794357 ,0.4901011880.,0.,-1.
+*BeamSection,elset=BS6079,material=Material-1,section=Rect0.5101764800.,0.,-1.
+*BeamSection,elset=BS6096,material=Material-1,section=Rect0.18162069 ,0.5006804470.,0.,-1.
+*BeamSection,elset=BS6088,material=Material-1,section=Rect0.16520354 ,0.19997723 ,0.4912709890.,0.,-1.
+*BeamSection,elset=BS6080,material=Material-1,section=Rect0.5113693480.,0.,-1.
+*BeamSection,elset=BS6097,material=Material-1,section=Rect0.18366621 ,0.5018627640.,0.,-1.
+*BeamSection,elset=BS6089,material=Material-1,section=Rect0.16726081 ,0.20200942 ,0.4924422800.,0.,-1.
+*BeamSection,elset=BS6081,material=Material-1,section=Rect0.5125635270.,0.,-1.
+*BeamSection,elset=BS6098,material=Material-1,section=Rect0.18571028 ,0.5030464530.,0.,-1.
+*BeamSection,elset=BS6090,material=Material-1,section=Rect0.16931659 ,0.20404013 ,0.4936149420.,0.,-1.
+*BeamSection,elset=BS6082,material=Material-1,section=Rect0.5137588980.,0.,-1.
+*BeamSection,elset=BS6099,material=Material-1,section=Rect0.18775289 ,0.5042315720.,0.,-1.
+*BeamSection,elset=BS6091,material=Material-1,section=Rect0.17137091 ,0.20606934 ,0.4947890340.,0.,-1.
+*BeamSection,elset=BS6083,material=Material-1,section=Rect0.5149555800.,0.,-1.
+*BeamSection,elset=BS6100,material=Material-1,section=Rect0.18979397 ,0.5054179430.,0.,-1.
+*BeamSection,elset=BS6092,material=Material-1,section=Rect0.17342381 ,0.20809703 ,0.4959645570.,0.,-1.
+*BeamSection,elset=BS6084,material=Material-1,section=Rect0.5161534550.,0.,-1.
+*BeamSection,elset=BS6101,material=Material-1,section=Rect0.19183363 ,0.5066056250.,0.,-1.
+*BeamSection,elset=BS6093,material=Material-1,section=Rect0.17547521 ,0.21012327 ,0.4971414510.,0.,-1.
+0.5173525810.,0.,-1.
+60*BeamSection,elset=BS6102,material=Material-1,section=Rect0.22829182 ,*BeamSection,elset=BS6119,material=Material-1,section=Rect0.5281989570.,0.,-1.
+*BeamSection,elset=BS6111,material=Material-1,section=Rect0.21214797 ,0.24633937 ,0.5185529590.,0.,-1.
+*BeamSection,elset=BS6103,material=Material-1,section=Rect0.5391387940.,0.,-1.
+*BeamSection,elset=BS6120,material=Material-1,section=Rect0.23030306 ,0.5294100050.,0.,-1.
+*BeamSection,elset=BS6112,material=Material-1,section=Rect0.21417122 ,0.24833721 ,0.5197545290.,0.,-1.
+*BeamSection,elset=BS6104,material=Material-1,section=Rect0.5403598550.,0.,-1.
+*BeamSection,elset=BS6121,material=Material-1,section=Rect0.23231289 ,0.5306221840.,0.,-1.
+*BeamSection,elset=BS6113,material=Material-1,section=Rect0.21619292 ,0.25033358 ,0.5209572910.,0.,-1.
+*BeamSection,elset=BS6105,material=Material-1,section=Rect0.5415820480.,0.,-1.
+*BeamSection,elset=BS6122,material=Material-1,section=Rect0.23432112 ,0.5318354960.,0.,-1.
+*BeamSection,elset=BS6114,material=Material-1,section=Rect0.21821311 ,0.25232846 ,0.5221613050.,0.,-1.
+*BeamSection,elset=BS6106,material=Material-1,section=Rect0.5428052540.,0.,-1.
+*BeamSection,elset=BS6123,material=Material-1,section=Rect0.23632790 ,0.5330498810.,0.,-1.
+*BeamSection,elset=BS6115,material=Material-1,section=Rect0.22023186 ,0.25432181 ,0.5233664510.,0.,-1.
+*BeamSection,elset=BS6107,material=Material-1,section=Rect0.5440294740.,0.,-1.
+*BeamSection,elset=BS6124,material=Material-1,section=Rect0.23833317 ,0.5342654590.,0.,-1.
+*BeamSection,elset=BS6116,material=Material-1,section=Rect0.22224914 ,0.25631371 ,0.5245728490.,0.,-1.
+*BeamSection,elset=BS6108,material=Material-1,section=Rect0.5452548270.,0.,-1.
+*BeamSection,elset=BS6125,material=Material-1,section=Rect0.24033691 ,0.5354821680.,0.,-1.
+*BeamSection,elset=BS6117,material=Material-1,section=Rect0.22426486 ,0.25830409 ,0.5257803800.,0.,-1.
+*BeamSection,elset=BS6109,material=Material-1,section=Rect0.5464811920.,0.,-1.
+*BeamSection,elset=BS6126,material=Material-1,section=Rect0.24233925 ,0.5367000100.,0.,-1.
+*BeamSection,elset=BS6118,material=Material-1,section=Rect0.22627909 ,0.26029313 ,0.5269891020.,0.,-1.
+*BeamSection,elset=BS6110,material=Material-1,section=Rect0.5477086310.,0.,-1.
+*BeamSection,elset=BS6127,material=Material-1,section=Rect0.24434006 ,0.5379188660.,0.,-1.
+610.26228058 ,*BeamSection,elset=BS6136,material=Material-1,section=Rect0.29584420 ,0.5489370820.,0.,-1.
+*BeamSection,elset=BS6128,material=Material-1,section=Rect0.5699723960.,0.,-1.
+*BeamSection,elset=BS6145,material=Material-1,section=Rect0.28010187 ,0.5600385070.,0.,-1.
+*BeamSection,elset=BS6137,material=Material-1,section=Rect0.26426655 ,0.29780558 ,0.5501665470.,0.,-1.
+*BeamSection,elset=BS6129,material=Material-1,section=Rect0.5712183710.,0.,-1.
+*BeamSection,elset=BS6146,material=Material-1,section=Rect0.28207472 ,0.5612769130.,0.,-1.
+*BeamSection,elset=BS6138,material=Material-1,section=Rect0.26625109 ,0.29976550 ,0.5513970260.,0.,-1.
+*BeamSection,elset=BS6130,material=Material-1,section=Rect0.5724651810.,0.,-1.
+*BeamSection,elset=BS6147,material=Material-1,section=Rect0.28404608 ,0.5625162720.,0.,-1.
+*BeamSection,elset=BS6139,material=Material-1,section=Rect0.26823413 ,0.30172396 ,0.5526285170.,0.,-1.
+*BeamSection,elset=BS6131,material=Material-1,section=Rect0.5737129450.,0.,-1.
+*BeamSection,elset=BS6148,material=Material-1,section=Rect0.28601602 ,0.5637565850.,0.,-1.
+*BeamSection,elset=BS6140,material=Material-1,section=Rect0.27021578 ,0.30368102 ,0.5538610820.,0.,-1.
+*BeamSection,elset=BS6132,material=Material-1,section=Rect0.5749615430.,0.,-1.
+*BeamSection,elset=BS6149,material=Material-1,section=Rect0.28798461 ,0.5649979110.,0.,-1.
+*BeamSection,elset=BS6141,material=Material-1,section=Rect0.27219591 ,0.30563670 ,0.5550945400.,0.,-1.
+*BeamSection,elset=BS6133,material=Material-1,section=Rect0.5762111540.,0.,-1.
+*BeamSection,elset=BS6150,material=Material-1,section=Rect0.28995165 ,0.5662401320.,0.,-1.
+*BeamSection,elset=BS6142,material=Material-1,section=Rect0.27417457 ,0.30759093 ,0.5563290720.,0.,-1.
+*BeamSection,elset=BS6134,material=Material-1,section=Rect0.5774615410.,0.,-1.
+*BeamSection,elset=BS6151,material=Material-1,section=Rect0.29191726 ,0.5674833060.,0.,-1.
+*BeamSection,elset=BS6143,material=Material-1,section=Rect0.27615178 ,0.30954376 ,0.5575645570.,0.,-1.
+*BeamSection,elset=BS6135,material=Material-1,section=Rect0.5787128810.,0.,-1.
+*BeamSection,elset=BS6152,material=Material-1,section=Rect0.29388145 ,0.5687273740.,0.,-1.
+*BeamSection,elset=BS6144,material=Material-1,section=Rect0.27812755 ,0.31149518 ,0.5588010550.,0.,-1.
+0.5799650550.,0.,-1.
+62*BeamSection,elset=BS6153,material=Material-1,section=Rect0.32899523 ,*BeamSection,elset=BS6170,material=Material-1,section=Rect0.5912733080.,0.,-1.
+*BeamSection,elset=BS6162,material=Material-1,section=Rect0.31344515 ,0.34638411 ,0.5812181230.,0.,-1.
+*BeamSection,elset=BS6154,material=Material-1,section=Rect0.6026481990.,0.,-1.
+*BeamSection,elset=BS6171,material=Material-1,section=Rect0.33093274 ,0.5925339460.,0.,-1.
+*BeamSection,elset=BS6163,material=Material-1,section=Rect0.31539384 ,0.34830949 ,0.5824720860.,0.,-1.
+*BeamSection,elset=BS6155,material=Material-1,section=Rect0.6039159890.,0.,-1.
+*BeamSection,elset=BS6172,material=Material-1,section=Rect0.33286896 ,0.5937954190.,0.,-1.
+*BeamSection,elset=BS6164,material=Material-1,section=Rect0.31734106 ,0.35023347 ,0.5837268230.,0.,-1.
+*BeamSection,elset=BS6156,material=Material-1,section=Rect0.6051845550.,0.,-1.
+*BeamSection,elset=BS6173,material=Material-1,section=Rect0.33480376 ,0.5950577260.,0.,-1.
+*BeamSection,elset=BS6165,material=Material-1,section=Rect0.31928688 ,0.35215622 ,0.5849824550.,0.,-1.
+*BeamSection,elset=BS6157,material=Material-1,section=Rect0.6064539550.,0.,-1.
+*BeamSection,elset=BS6174,material=Material-1,section=Rect0.33673719 ,0.5963208080.,0.,-1.
+*BeamSection,elset=BS6166,material=Material-1,section=Rect0.32123131 ,0.35407758 ,0.5862389210.,0.,-1.
+*BeamSection,elset=BS6158,material=Material-1,section=Rect0.6077240710.,0.,-1.
+*BeamSection,elset=BS6175,material=Material-1,section=Rect0.33866927 ,0.5975846650.,0.,-1.
+*BeamSection,elset=BS6167,material=Material-1,section=Rect0.32317433 ,0.35599759 ,0.5874962810.,0.,-1.
+*BeamSection,elset=BS6159,material=Material-1,section=Rect0.6089949610.,0.,-1.
+*BeamSection,elset=BS6176,material=Material-1,section=Rect0.34060001 ,0.5988493560.,0.,-1.
+*BeamSection,elset=BS6168,material=Material-1,section=Rect0.32511607 ,0.35791630 ,0.5887544750.,0.,-1.
+*BeamSection,elset=BS6160,material=Material-1,section=Rect0.6102665660.,0.,-1.
+*BeamSection,elset=BS6177,material=Material-1,section=Rect0.34252942 ,0.6001148820.,0.,-1.
+*BeamSection,elset=BS6169,material=Material-1,section=Rect0.32705632 ,0.35983372 ,0.5900135040.,0.,-1.
+*BeamSection,elset=BS6161,material=Material-1,section=Rect0.6115389470.,0.,-1.
+*BeamSection,elset=BS6178,material=Material-1,section=Rect0.34445745 ,0.6013811230.,0.,-1.
+630.36174983 ,*BeamSection,elset=BS6187,material=Material-1,section=Rect0.39412659 ,0.6128121020.,0.,-1.
+*BeamSection,elset=BS6179,material=Material-1,section=Rect0.6345644590.,0.,-1.
+*BeamSection,elset=BS6196,material=Material-1,section=Rect0.37893635 ,0.6243028640.,0.,-1.
+*BeamSection,elset=BS6188,material=Material-1,section=Rect0.36366463 ,0.39601982 ,0.6140859130.,0.,-1.
+*BeamSection,elset=BS6180,material=Material-1,section=Rect0.6358502510.,0.,-1.
+*BeamSection,elset=BS6197,material=Material-1,section=Rect0.38083950 ,0.6255831720.,0.,-1.
+*BeamSection,elset=BS6189,material=Material-1,section=Rect0.36557809 ,0.39791176 ,0.6153605580.,0.,-1.
+*BeamSection,elset=BS6181,material=Material-1,section=Rect0.6371366380.,0.,-1.
+*BeamSection,elset=BS6198,material=Material-1,section=Rect0.38274145 ,0.6268641350.,0.,-1.
+*BeamSection,elset=BS6190,material=Material-1,section=Rect0.36749026 ,0.39980239 ,0.6166358590.,0.,-1.
+*BeamSection,elset=BS6182,material=Material-1,section=Rect0.6384236810.,0.,-1.
+*BeamSection,elset=BS6199,material=Material-1,section=Rect0.38464206 ,0.6281458140.,0.,-1.
+*BeamSection,elset=BS6191,material=Material-1,section=Rect0.36940119 ,0.40169185 ,0.6179119350.,0.,-1.
+*BeamSection,elset=BS6183,material=Material-1,section=Rect0.6397113800.,0.,-1.
+*BeamSection,elset=BS6200,material=Material-1,section=Rect0.38654146 ,0.6294282080.,0.,-1.
+*BeamSection,elset=BS6192,material=Material-1,section=Rect0.37131077 ,0.40358013 ,0.6191886660.,0.,-1.
+*BeamSection,elset=BS6184,material=Material-1,section=Rect0.6409997340.,0.,-1.
+*BeamSection,elset=BS6201,material=Material-1,section=Rect0.38843966 ,0.6307113170.,0.,-1.
+*BeamSection,elset=BS6193,material=Material-1,section=Rect0.37321907 ,0.40546715 ,0.6204661730.,0.,-1.
+*BeamSection,elset=BS6185,material=Material-1,section=Rect0.6422888040.,0.,-1.
+*BeamSection,elset=BS6202,material=Material-1,section=Rect0.39033657 ,0.6319950220.,0.,-1.
+*BeamSection,elset=BS6194,material=Material-1,section=Rect0.37512606 ,0.40735301 ,0.6217443350.,0.,-1.
+*BeamSection,elset=BS6186,material=Material-1,section=Rect0.6435784100.,0.,-1.
+*BeamSection,elset=BS6203,material=Material-1,section=Rect0.39223218 ,0.6332794430.,0.,-1.
+*BeamSection,elset=BS6195,material=Material-1,section=Rect0.37703180 ,0.40923759 ,0.6230232120.,0.,-1.
+0.6448687310.,0.,-1.
+64*BeamSection,elset=BS6204,material=Material-1,section=Rect0.42614534 ,*BeamSection,elset=BS6221,material=Material-1,section=Rect0.6565092800.,0.,-1.
+*BeamSection,elset=BS6213,material=Material-1,section=Rect0.41112101 ,0.44295833 ,0.6461595890.,0.,-1.
+*BeamSection,elset=BS6205,material=Material-1,section=Rect0.6681985860.,0.,-1.
+*BeamSection,elset=BS6222,material=Material-1,section=Rect0.42801803 ,0.6578057410.,0.,-1.
+*BeamSection,elset=BS6214,material=Material-1,section=Rect0.41300318 ,0.44482067 ,0.6474511620.,0.,-1.
+*BeamSection,elset=BS6206,material=Material-1,section=Rect0.6695002910.,0.,-1.
+*BeamSection,elset=BS6223,material=Material-1,section=Rect0.42988959 ,0.6591027980.,0.,-1.
+*BeamSection,elset=BS6215,material=Material-1,section=Rect0.41488421 ,0.44668186 ,0.6487433910.,0.,-1.
+*BeamSection,elset=BS6207,material=Material-1,section=Rect0.6708025930.,0.,-1.
+*BeamSection,elset=BS6224,material=Material-1,section=Rect0.43176001 ,0.6604005100.,0.,-1.
+*BeamSection,elset=BS6216,material=Material-1,section=Rect0.41676405 ,0.44854209 ,0.6500361560.,0.,-1.
+*BeamSection,elset=BS6208,material=Material-1,section=Rect0.6721054320.,0.,-1.
+*BeamSection,elset=BS6225,material=Material-1,section=Rect0.43362927 ,0.6616986990.,0.,-1.
+*BeamSection,elset=BS6217,material=Material-1,section=Rect0.41864264 ,0.45040107 ,0.6513295770.,0.,-1.
+*BeamSection,elset=BS6209,material=Material-1,section=Rect0.6734088060.,0.,-1.
+*BeamSection,elset=BS6226,material=Material-1,section=Rect0.43549734 ,0.6629974840.,0.,-1.
+*BeamSection,elset=BS6218,material=Material-1,section=Rect0.42052007 ,0.45225900 ,0.6526235940.,0.,-1.
+*BeamSection,elset=BS6210,material=Material-1,section=Rect0.6747127180.,0.,-1.
+*BeamSection,elset=BS6227,material=Material-1,section=Rect0.43736428 ,0.6642969250.,0.,-1.
+*BeamSection,elset=BS6219,material=Material-1,section=Rect0.42239636 ,0.45411572 ,0.6539182660.,0.,-1.
+*BeamSection,elset=BS6211,material=Material-1,section=Rect0.6760172840.,0.,-1.
+*BeamSection,elset=BS6228,material=Material-1,section=Rect0.43923008 ,0.6655969020.,0.,-1.
+*BeamSection,elset=BS6220,material=Material-1,section=Rect0.42427140 ,0.45597145 ,0.6552134750.,0.,-1.
+*BeamSection,elset=BS6212,material=Material-1,section=Rect0.6773223280.,0.,-1.
+*BeamSection,elset=BS6229,material=Material-1,section=Rect0.44109476 ,0.6668974760.,0.,-1.
+650.45782605 ,*BeamSection,elset=BS6238,material=Material-1,section=Rect0.46060622 ,0.46060622 ,0.6786279080.,0.,-1.
+*BeamSection,elset=BS6230,material=Material-1,section=Rect0.6805875300.,0.,-1.
+*BeamSection,elset=BS6247,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6239,material=Material-1,section=Rect0.46060622 ,0.45967948 ,0.6799340250.,0.,-1.
+*BeamSection,elset=BS6231,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6248,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6240,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6232,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6249,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6241,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6233,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6250,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6242,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6234,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*************************************************************************Surface,Type=Node,Name=Surf_BS600160026003600460056006600760086009601060116012601360146015601660176018601960206021602260230.6805875300.,0.,-1.
+*BeamSection,elset=BS6243,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6235,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6244,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6236,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6245,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6237,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6246,material=Material-1,section=Rect0.6805875300.,0.,-1.
+6660246025602660276028602960306031603260336034603560366037603860396040604160426043604460456046604760486049605060516052605360546055605660576058605960606061606260636064606560666067606860696070607160726073607460756076607760786079608060816082608360846085608660876088608960906091609260936094609560966097609860996100610161026103610461056106610761086109611061116112611361146115611661176118611961206121612261236124612561266127612861296130613161326133613461356136613761386139614061416142614361446145614661476148614961506151615261536154615561566157615861596160616161626163616461656166616761686169617061716172617361746175617661776178617961806181618261836184618561866187618861896190619161926193619461956196619761986199620062016202620367620462056206620762086209621062116212621362146215621662176218621962206221622262236224622562266227622862296230623162326233623462356236623762386239624062416242624362446245624662476248624962506251*Surface,Type=Node,Name=Surf_Riser1251125212531254125512561257125812591260126112621263126412651266126712681269127012711272127312741275127612771278127912801281128212831284128512861287128812891290129112921293129412951296129712981299130013011302130313041305130613071308130913101311131213131314131513161317131813191320132113221323132413251326132713281329133013311332133313341335133613371338133913401341134213431344134513461347134813491350135113521353135413551356135713581359136013611362136313641365136613671368136913701371137213731374137513761377137813791380681381138213831384138513861387138813891390139113921393139413951396139713981399140014011402140314041405140614071408140914101411141214131414141514161417141814191420142114221423142414251426142714281429143014311432143314341435143614371438143914401441144214431444144514461447144814491450145114521453145414551456145714581459146014611462146314641465146614671468146914701471147214731474147514761477147814791480148114821483148414851486148714881489149014911492149314941495149614971498149915001501************************************** Constraint: Constraint-1*Tie, name=Constraint-1,adjust=yesSurf_BS, Surf_Riser*************************************Nset, nset=Engaste_Rigido1501,6251*Nset, nset=N_Forca1001*************************************Orientation, name="Datumcsys-1"1.,
+0.,
+1, 0.
+************************************************************************************AMPLITUDE ************Amplitude,name=AmpForca,definition=Periodic1,0.448,0.801,10,0.3338*Amplitude,name=AmpAngulo,definition=Periodic1,0.448,-1.7,1
+0,0.8462**************************************MATERIALS***Material,name=MATERIAL-1*Elastic,moduli=INSTANTANEOUS8.103285600041369e+07,0.3
+*Viscoelastic, time=PRONY0.3734558949035541,0.3734558949035541 ,1.01188533404198620.056658285744699916,0.056658285744699916,59.0974069738818950.037982907818830174,0.037982907818830174,695.
+04470970036970.05585211605855134,0.05585211605855134,7647.9753065312240.,
+0.
+0.,
+1.,
+69*End Step************************************************************************** STEP: VISCO***Step, name=Step_2,nlgeom=YES,inc=5000000*Visco0.1, 10000*** BoundaryEngaste_Rigido,encastre*Boundary,amplitude=AmpAnguloN_Forca,6,6,0.1196** LOADS***Cload,follower,amplitude=AmpForcaN_Forca, 1,-1.66783E+6**** OUTPUT REQUESTS** OUTPUT REQUESTS***Restart, write, frequency=0**** FIELD OUTPUT: F-Output-1***Output, field,variable=PRESELECT*Element Output,ELSET=RISERSE**** HISTORY OUTPUT: H-Output-1***Output, history,variable=PRESELECT*Node Print,freq=1,Nset=RiserCoor1, Coor2,Coor3*Output, history,variable=PRESELECT*El Print, freq=1,elset=RiserSK1************************************************************************************************************************************************************************************** STEP: Step_Static***Step, name=Step_1,nlgeom=YES*Static0.001, 1, 1e-20, 1.
+*** BoundaryEngaste_Rigido,encastreN_Forca,6,6,0.1196** LOADS***Cload,followerN_Forca, 1,-1.66783E+6*****Restart, write, frequency=0**** FIELD OUTPUT: F-Output-1***Output, field, variable=PRESELECT*Element Output, ELSET=RISERSE**** HISTORY OUTPUT: H-Output-1***Output, history, variable=PRESELECT*Node Print, freq=1,Nset=RiserCoor1, Coor2,Coor3*Output, history, variable=PRESELECT*El Print, freq=1,elset=RiserSK1*End Step701. IntroduçãoA produção de petróleo offshore, que é uma realidade no Brasil desde a décadade 70,toma proporções ainda maiores atualmente com as novas descobertasrelacionadas ao pré-sal. Das reservas naturais provadas, cerca de 95% se localizam nomar, sendo a Bacia de Campos e Santos detentoras da maioria das reservas marítimas.
+Estas Bacias possuem grande parte de suas reservas situadas a uma profundidade maiorque 1500 metros, o que exige novas tecnologias submarinas para explotação de óleo egás em águas profundas e ultraprofundas.
+As linhas flexíveis consistem em um tipo de tubulação utilizada para otransporte de vários tipos de fluidos trabalhando, usualmente, com pressões elevadas.
+Estes tubos se dividem em dois tipos de acordo com sua aplicação:● Flowlines São projetados para aplicações estáticas, estando sempre assentados noleito marinho.
+● Risers São projetados para aplicações dinâmicas, estando pendurados em catenáriaa partir do sistema flutuante.
+Os dutos flexíveis apresentam diversas camadas, sendo estas projetadas deacordo com a aplicação de cada estrutura. Cada uma destas camadas confere ao flexíveluma propriedade diferente, como por exemplo, a carcaça intertravada para suportar apressão externa, ou as armaduras, que proporcionam resistência à tração. A junçãodestas diferentes camadas gera uma estrutura extremamente complexa e importantequando se pensa em exploração de óleo e gás.
+Grande parte da produção de petróleo escoa através deste sistema de flexíveis,sendo assim, imprescindível ao bom funcionamento de toda a estrutura, a fim de gerarmaior segurança, diminuindo a possibilidade de acidentes ambientais como vazamentode óleo.
+A conexão de topo de tubos flexíveis com as plataformas é um ponto crítico emrelação à máxima curvatura e a vida em fadiga, já que a região é muito suscetível a altastrações causadas por carregamentos estáticos e dinâmicos.
+A transição de rigidez entre o tubo flexível e a plataforma rígida é feita a partirde uma estrutura cônica de poliuretano, conhecida como bend stiffener ou enrijecedoresà flexão. Este sistema previne falhas causadas por curvatura excessiva e acumulação dedano por fadiga. Um exemplo de enrijecedor à flexão pode ser visto na figura 1,3enquanto na figura 2 pode ser verificado o acoplamento desta estrutura com a unidadeflutuante no turret.
+Figura 1 – Bend StiffenerFigura 2 – Bend Stiffeners acoplados noTurretO projeto convencional de bend stiffeners geralmenteconsidera oscarregamentos extremos, obtidos a partir de análises globais, para garantir que o flexívelnão curve a ponto de atingir um nível inferior ao mínimo raio de curvatura (MBR). O
+MBR é normalmente determinado pela máxima deformação permitida, na camada maisexterna do tubo flexível (e.g 7%), e gera um estado limite no projeto do enrijecedor. A
+análise global é a primeira etapa em um projeto de bend stiffener e considera umacondição de contorno rotulada com a plataforma. Os principais resultados de análisesglobais, que são usados no projeto de enrijecedores são a distribuição de ângulos detopo e as trações na conexão com a plataforma.
+O projeto e análise de bend stiffeners representados por viga equivalente foianteriormente apresentado. Vaz et al (2007)introduziram a não linearidade dopoliuretano estendendo o modelo de Boef & Out(2005)apresentaram um modelo considerando a resposta viscoelástica do poliuretano quandosubmetido a carregamentos estáticos. Os autores anteriores consideraram em todos oscasos um carregamento estático aplicado ao sistema. A questão que surge quando trata-se de um material com comportamento dependente do tempo, como o poliuretano, é oefeito das condições de carregamento reais aplicadas ao sistema riser-enrijecedordurante a operação.
+(1990). Caire et al4Ariza (2009) et al apresentam um modelo matemático que permite uma melhorcompreensão do fenômeno de relaxação observado no enrijecedor viscoelástico,desenvolvendo um estudo de caso em que os resultados mostram a importância de seconsiderar carregamentos harmônicos para o projeto e análise de enrijecedoresviscoelásticos.
+Com base no que foi exposto, este trabalho busca estabelecer mais umacontribuição para o estudo e análise de bend stiffeners, caracterizando todos os passospara o projeto destes equipamentos.
+No capítulo 2 deste trabalho é estudado o comportamento viscoelástico dopoliuretano, descrevendo os testes experimentais que podem ser feitos, entre eles oensaio de fluência realizado com amostras de um enrijecedor à flexão real utilzado naindústria do petróleo. Este ensaio possibilitou a caracterização viscoelástica do materialque será estudado ao longo deste trabalho.
+No capítulo 3 é abordada a análise global do sistema, unidade flutuante – riserflexível. Nesta etapa do trabalho são caracterizados todos os fatores que influenciam ocomportamento das linhas flexíveis em operação. Esta análise é realizada a partir dosoftware Deeplines, onde são inseridos os dados de RAO, passeio do sistema flutuante,os valores de altura e período de onda, perfil de corrente e características do flexível. Os
+resultados são analisados e discutidos, para posteriormente utilização na análise local doenrijecedor.
+O capítulo 4 aborda como é realizado o projeto de bend stiffeners na indústria dopetróleo e descreve os passos utilizados para a escolha da geometria deste equipamentoutilizado neste trabalho.
+No capítulo 5 é mostrado como deve ser realizada a transição da análise globalpara a local, fazendo-se ajustes dos resultados encontrados anteriormente, a fim de quefosse possível a caracterização correta da resposta da estrutura, e posterior introduçãodesta no modelo de análise local do enrijecedor.
+No capítulo 6 são descritos todos os passos realizados para a análise localimplementada a partir do software de elementos finitos Abaqus.
+Sendo assim, os resultados são mostrados e discutido no capítulo 7, para umaposterior conclusão do trabalho no capítulo 8.
+O capítulo 9 expõe as idéias propostas para trabalhos futuros, que seriam degrande importância para análises de bend stiffeners cada vez mais próxima da realidade.
+52. Comportamento ViscoelásticoApesar da maioria dos estudos e análises de enrijecedores assumirem umcomportamento elástico, esses equipamentos são formados de poliuretano, sendo esteum polímero que possui uma resposta tensão x deformação dependente do tempo e datemperatura. Quando sujeito a uma tensão constante, ele se deforma e eventualmentevolta ao seu estado inicial, surgindo assim o conceito de fluência (deformaçãocontinuada sob tensão constante). Enquanto, se sujeito a uma deformação constante, suatensão decai com o tempo, o que é chamado de relaxação de tensão.
+Quando um corpo é submetido a uma deformação 0 constante, ocorre um saltode tensão, e posteriormente uma gradativa queda com o tempo. Os sólidos elásticosexibem tensão constante, não ocorrendo esta característica. Sendo assim, a resposta deum material viscoelástico pode ser obtida a partir de testes como, por exemplo, o testede fluência (creep test) e a relaxação de tensão.
+2.1. Teste de Relaxação de TensãoNa relaxação de tensão, são aplicadas deformações constantes nos corpos deprova, obtendo-se, assim, as curvas de tensões (). A figura 3 mostra as respostasde tensões para três níveis de deformações constantes aplicadas em um determinadocorpo de prova.
+),( tGFigura 3 - Relaxação de Tensão2.2. Teste de FluênciaO teste de fluência mede a mudança dimensional de uma amostra submetida auma carga estática ao longo do tempo. Geralmente, muitos níveis de tensões são6aplicados a temperaturas constantes, e as deformações são medidas em função do tempopara caracterizar o comportamento do material. Nas análises, considera-se que a força éaplicada instantaneamente e posteriormente mantida constante. Como isto é impossível,devido à dinâmica do sistema, o carregamento é aplicado gradualmente por um curtointervalo de tempo para evitar os efeitos da vibração.
+A viscoelasticidade do material pode ser considerada linear se o nível de tensãoaplicada for proporcional à deformação para um tempo dado.
+Sendo assim, o comportamento do material, neste trabalho foi consideradolinear, reduzindo o tempo computacional das análises.
+Tentativas de simular as propriedades de estruturas poliméricas têm sido feitascom modelos mecânicos usando combinações de dois elementos fundamentais. Sãoeles: a mola linear (sólido elástico) e o amortecedor linear (fluido viscoso). Estascombinações conduzem a equações constitutivas que relacionam tensão, deformação etempo. Para cada equação obtida, a tensão em um determinado tempo σ (t) pode serdeterminada em função da história da deformação ε (t), ou vice-versa. Estes modelosdiferem apenas na forma da função relaxação G(t) e fluência J(t) obtida. Entre estesdiferentes modelos é possível citar:● Modelo de Maxwell  Consiste em uma mola e um amortecedor conectadosem série.
+● Modelo Kelvin-Voigt  Consiste em uma mola e um amortecedor conectadosem paralelo.
+● Modelo do Sólido Linear Padrão  Os modelos de Maxwell e Kelvin-Voigtnão oferecem uma simulação satisfatória da resposta viscoelástica. O modelo maissimples que fornece resposta satisfatória é o modelo do sólido linear padrão queconsiste no modelo de Maxwell com uma mola linear em paralelo.
+Embora estes modelos sejam bem representativos, eles ainda não dão umaprevisão adequada da resposta viscoelástica. Por isso o método adequado é o uso dedados experimentais obtidos do material em específico que se deseja analisar, utilizandoa melhor forma da função G(t) ou J (t).
+Pensando nisso e tomando como base os testes experimentais expostos porFarias et al (2009), com amostras de um bend stiffener real foi possível obter ocomportamento do poliuretano.
+De acordo com Wineman & Rajagopal (2000), o comportamento do materialpode ser descrito pela equação constitutiva (1):7t)(t)(t s),(sJ,(d).
+(1)0A curva de fluência J(t) foi ajustada utilizando a série de Prony de terceiraordem, como verifica-se na equação (2):tJ)(JeJ.
+1eJ.
+2eJ.
+3eJ.
+4tttt////CCCC(2)12340A hipótese de carregamento estático constante pode ser considerada somente seo comportamento relacionado a um tempo muito longo for buscado, porém não é o casotratado aqui. Pode ser visto na Figura 4 que a tensão começa a se estabilizar depois de,aproximadamente, 10 segundos e, consequentemente, toda a deformação e o históricode tensão são usados para ajustar a curva de fluência utilizando as Equações 1 e 2. Os
+coeficientes de fluência obtidos são apresentados na tabela 1:Tabela 1 – Coeficientes de fluênciaMPaJ()1)(3 s)(4 s)(1 sc)(2 sJ1MPa(1MPa(1J4JMPa1MPa(1J3))cc())c02-0,279-0,911-0,195-0,1502,6021,1771,44800,338868,84A curva ajustada é mostrada na Figura 4. Tendo sido obtida a curva de fluência,a curva de relaxação G(t) pode ser calculada numericamente usando a Equação 3:tGtJ).
+(tGsJ('(sds).
+1)0().
+(3)0Os coeficientes de relaxação são encontrados e mostrados na tabela 2.
+Tabela 2 – Coeficientes de relaxação(4 MPa(2 MPaGG))4,594,52(3 MPaG)3,07)(3 sR)(4 s695,04 7647,97(1 MPaG)30,26)(1 sR1,01)(2 sR59,09(0 MPaG)38,57R83,02,82,62,4)1-aPM2,2(acnêuF2,0i1,8l1,61,41,20200040006000800010000120001400016000Tempo (s)Figura 4– Função de Fluência x Tempo3. Análise GlobalA análise global tem como objetivo avaliar os efeitos dos carregamentos globaisna estrutura, obtendo-se, a partir dela, dados que servirão posteriormente para asanálises locais, ou mesmo, para definir critérios de raio mínimos de curvatura nasregiões mais críticas da linha. Como a prioridade deste trabalho está na análise de umequipamento de topo, a análise global será realizada para obter os dados necessáriospara o projeto detalhado deste, que são a tração e o ângulo de topo.
+Muitos aspectos devem ser levados em conta em uma análise global de linhasflexíveis, sendo muito importante um bom mapeamento das condições de contorno eforças que agem no sistema, sejam pela ação de ondas, correntezas, ou mesmo pelomovimento prescrito pela plataforma ou pelo navio. Na figura 5, verifica-se umesquema dos principais carregamentos aplicados a um sistema flutuante de produção deóleo e gás e ao flexível acoplado a este.
+9Figura 5 - Principais carregamentos atuantesO ponto inicial para a elaboração da análise global é a definição do cenário deatuação do sistema. O cenário escolhido foi a Bacia de Campos, tomando como base osdados típicos dos novos projetos em águas ultraprofundas, que foi exposto por Padilha(2009). Esses dados podem ser vistos a seguir:● Lâmina d’água de 1700m.
+● Ângulo de topo 7º - posição neutra.
+● Ponto de conexão na unidade flutuante: bombordo● Azimute do riser: 110º.
+● Embarcação: Navio FPSO.
+● Aproamento: 0°.
+Estes dados foram inseridos no programa Deeplines, de forma a modelar ocenário de operação. Em seguida, buscou-se a modelação das propriedades do flexível,que foi dividido em duas estruturas: o riser de topo e o riser de fundo, unidos emcatenária simples. A seguir encontram-se os dados dos flexíveis utilizados por Padilha[4], e adotados também neste trabalho.
+Dados de projeto● Diâmetro interno: 9 polegadas ou 228,6mm.
+● Diâmetro externo: 13 polegadas ou 330,5mm.
+10● Pressão de projeto: 3000 psi ou 207 Bar.
+● Temperatura de projeto: 65 °C.
+Características Físicas e Mecânicas do tramo de topo● Pressão de explosão: 63,1 MPa● Colapso hidrostático: 16,1 MPa● Raio Mínimo de curvatura: 2,34m● Peso linear no ar vazio: 173,83 kgf/m● Peso linear no mar vazio: 85,9 kgf/m● Rigidez à flexão em 20ºC: 62,95 kN.m².
+● Tensão de ruptura do aço das armaduras de tração: 1400 MPaCaracterísticas Físicas e Mecânicas do tramo de fundo● Pressão de explosão: 87,5 MPa● Colapso hidrostático: 23,2 MPa● Raio Mínimo de curvatura: 2,43m● Peso linear no ar vazio: 222,19 kgf/m● Peso linear no mar vazio: 109,28 kgf/m● Rigidez à flexão em 20°C: 269,6 kN.m².
+● Tensão de ruptura do aço das armaduras de tração: 1400 MPaDe acordo com o passeio do sistema flutuante (offset), a linha flexível podeassumir diferentes configurações, sendo elas: Transverse: o movimento acontece fora do plano da catenária (não será levado emconta neste trabalho); Near: o movimento acontece no plano da catenária aproximando-se do touchdownpoint (conhecido como TDP, é o ponto onde a linha flexível toca o fundo do oceano); Far: o movimento acontece no plano da catenária afastando-se do touchdown point(TDP).
+Mean: Posição média da linha.
+Usualmente, em projetos se utiliza um valor de passeio de 5% a 15% da lâminad’água. Neste trabalho foi utilizado um passeio de 10% para os casos normais e 15%11para os casos acidentais com amarra rompida, incluindo-se um erro de posicionamentodo sistema flutuante e dos acessórios de topo, garantindo o conservadorismo da análise.
+Sendo assim, chegou-se aos seguintes valores:● Passeio em casos normais 187,5 m.
+● Passeio em casos acidentais 272,5 m.
+Casos de Instalação e OperaçãoNo projeto de dutos flexíveis, dois pontos fundamentais são as análises globaisde instalação e operação. Análises de instalação são realizadas de acordo com a tabela3:Tabela 3 – Casos de InstalaçãoG - Instalação com linhacheia de água do marH - Instalação com linhaLinha cheia de água do mar, intacta, e condiçõesambientais de instalaçãoLinha vazia, com a capa externa danificada, eInstalaçãovaziacondições ambientais de instalaçãoI - Instalação com linhaLinha vazia, intacta, e condições ambientais devaziainstalaçãoLinha cheia de água do mar, intacta, com pressãomáxima de teste offshore e condições ambientais deTesteOffshoreJ - Teste offshore comlinha cheiainstalaçãoOs casos GH e GI correspondem ao mesmo caso, só diferenciando em relação àcamada externa (danificada e intacta, respectivamente). Sendo assim, os casos GI sãoconsiderados cobertos pelos casos GH.
+Na prática comum de projetos de risers, em uma análise de instalação, deve-segarantir, a partir dos casos mostrados anteriormente, que:• MBR da linha seja maior que 1,5 do MBR de armazenagem.
+• A linha não sofra o fenômeno de flambagem lateral (crítico em linhas vazias).
+• A tração de topo não atinja o limite da estrutura.
+• A tração de topo deve ser menor do que a capacidade de lançamento do navio.
+Porém como o foco principal deste trabalho é a análise de bend stiffeners, serárealizada somente a análise de operação, para que assim seja possível obter dadoscríticos que serão considerados nas análises locais posteriores.
+Em análises globais de operação são avaliados casos acidentais e operacionais,como descreve a tabela 4, apresentada por Padilha (2009).
+12Tabela 4 – Casos de OperaçãoCondição deCarregamentoCaso de CarregamentoDescriçãoDuto preenchido com fluido interno deoperação, a uma pressão interna máximaA - Riser em operação.
+OperaçãoRecorrentede operação na unidade de produção.
+Camada externa do flexível intacta.
+Pressão interna deoperação.
+Sistema de amarração intacto. Condiçõesambientais centenárias.
+Duto preenchido com fluido interno deB - Riser em operação.
+operação, a uma pressão interna máximaPressão interna deprojeto e uma amarrade projeto na unidade de produção.
+Camada externa do flexível intacta. Umaamarra rompida. Condições ambientaisrompida.
+centenárias.
+Duto preenchido com fluido interno deC - Riser em operação.
+operação, a uma pressão internaOperaçãoNormalPressão internaatmosférica e umaamarra rompida.
+atmosférica na unidade de produção.
+Camada externa do flexível intacta. Umaamarra rompida. Condições ambientaisOperaçãoExtremacentenárias.
+D - Riser em operação.
+Duto sem fluido interno, com camadaSem fluido interno eexterna danificada. Sistema de amarraçãointacto. Condições ambientais centenárias.
+capa externa danificada.
+E - Riser em operação.
+Duto sem fluido interno, com camadaexterna intacta. Sistema de amarraçãoSem fluido interno ecapa externa intacta.
+intacto. Condições ambientais centenárias.
+Duto preenchido com fluido interno deoperação, a uma pressão interna máximaF - Riser em operação.
+de projeto na unidade de produção.
+Camada externa do flexível intacta.
+Unidade flutuanteOperação Anormalinclinada peloSistema de amarração intacto. Condiçõesalagamento de tanques.
+ambientais anuais. Unidade flutuanteinclinada pelo alagamento de tanques.
+13Como este trabalho possui fins apenas de estudo de um acessório de topo, nãoseria necessário analisar os casos de C a F. Sendo assim, foi decidido analisar apenas oscasos colineares (casos em que a onda e corrente autam na mesma direção) de operaçãonormal recorrente (GA) e os casos de operação extrema com pressão interna de projetoe uma amarra rompida (GB).
+Na tabela 5 será apresentada a matriz de carregamento para os casos de operaçãorecorrente estudados.
+Tabela 5 – Matriz de CarregamentosCargas FuncionaisCargas AmbientaisCaso dePosiçãoEmbarcaçãoOndaCorrenteCarregamentoGA-1GA-2GA-3GA-4GA-5GA-6GA-7GA-8GA-9GA-10GA-11GA-12GA-13GA-14GA-15GA-16Calado Heading Offset Período de Rec. Direção Período de Rec. DireçãoNearFar10010010010010010010010010101010101010101010101010101010100100100100100100100100Cross Near 1Cross Near 2Cross Far 1Cross Far 2Transv. 1
+Transv. 2
+etnerrocoãçacrabmeadoãçeridanomertxElanocarepOraenraeniadoNearFarililoCoCtnemaorpACross Near 1Cross Near 2Cross Far 1Cross Far 2Transv. 1
+Transv. 2
+Os casos acidentais devem ser definidos a partir dos resultados da análise feitanos casos recorrentes, como mostra a tabela 6:Tabela 6 – Definição dos Casos AcidentaisCargas Funcionais Cargas AmbientaisCorrenteDireçãoCaso deCargasCasos a serem escolhidos dentre os casosPosiçãoOndaDireçãoEmbarcaçãoCarregamentoGB-1GB-2GB-3GB-4GB-5GB-6GB-7GB-8AcidentaisrecorrentesOffsetMaior tração de topo e ângulo dentre os casos nearMaior tração de topo e ângulo dentre os casos farMaior tração de topo e ângulo dentre os casos crossMaior tração de topo e ângulo dentre os casos transv.
+Maior curvatura no TDP dentre os casos nearMaior curvatura no TDP dentre os casos farMaior curvatura no TDP dentre os casos crossMaior curvatura no TDP dentre os casos transv.
+NearFararramaCross Near 1Cross Near 2Cross Far 1Cross Far 2Transv. 1
+Transv. 2
+raenraenomertxEadipmorililoCoCamUPosteriormente serão apresentados os resultados e a montagem dos casos GB.
+Os dados de corrente e onda inseridos no modelo realizado foram obtidos deinformações metaoceanográficas da região. A corrente foi introduzida no programa deacordo com o perfil característico da região para cada caso, variando da superfície aoleito marinho, de acordo com o anexo 1. Para as ondas relacionadas a cada caso, foraminseridos os períodos e suas respectivas alturas (esses dados são provenientes do14cruzamento do RAO da unidade flutuante com o estado de mar, para cada direção deonda). Os movimentos prescritos pela unidade flutuante pode ser verificadas a partir dosgráficos de RAO apresentados no anexo 2.
+A figura 7 mostra o modelo de operação realizado, expondo além dos passeios,ondas e correntes aplicados, a diferenciação entre o tramo de topo (amarelo) e o defundo (vermelho), com propriedades diferenciadas.
+Figura 6 – Modelo de operação (DeepLines)ResultadosA partir do modelo pronto, os diversos casos de operação foram simulados paraum total de cinco períodos de onda, a fim de que fosse alcançada assim a estabilizaçãodos resultados. Os resultados das análises globais são apresentados e discutidos a seguir.
+- Casos de operação recorrenteOs casos de operação recorrentes (GA) foram extraídos e os resultados de topo eTDP podem ser observados na tabela 7.
+Percebe-se claramente, já nos casos recorrentes, que as trações de topo são bemelevadas, atingindo cerca de 2400 KN. Com relação às curvaturas, como era esperado,foram obtidos valores elevados na região do TDP, evidenciados por raios bem reduzidosem alguns casos.
+Em casos reais de operação, as maiores curvaturas dos flexíveis são observadasna região de topo e no TDP. Porém, nas análises globais, a linha é considerada rotulada15na conexão com a embarcação, para que seja possível obter as trações e ângulos a seremutilizados no projeto de enrijecedores à flexão, não apresentando, assim, nesta região detopo, grandes valores de curvaturas.
+Tabela 7 – Resultados dos Casos de Operação RecorrenteTração no topoRaioTração no TDPRaiomínimoÂngulomax (°)Tração no raiomínimo (KN)CasoPosição(kN)mínimo noTDP (m)(KN)(m)min1057,71892,11587,41330,31997,01882,21882,21690,21156,11933,81611,91403,72012,01676,31896,81709,7max2208,52368,01975,22151,92129,92259,71946,82093,92150,92377,21953,12065,52119,31956,41963,82071,9maxmin-92,33324,14369,69 576,06197,6688,10-75,83270,72382,12 429,97334,45 484,70228,01 275,81172,10 340,31-84,71266,18397,55 587,79189,4698,83-44,10232,45388,06 427,90143,50 201,45240,50 290,42182,42 323,94GA-1_1GA-2_1GA-3_1 Cross Near 1GA-3_2 Cross Near 2GA-3_3Cross Far 1GA-3_4Cross Far 2GA-4_1Transv. 1
+GA-4_2Transv. 2
+GA-5_1GA-6_1GA-7_1 Cross Near 1GA-7_2 Cross Near 2GA-7_3Cross Far 1GA-7_4Cross Far 2GA-8_1Transv. 1
+GA-8_2Transv. 2
+NearFar11,479,844,999,344,597,042,227,8210,539,935,478,584,426,003,017,595,45171,6660,524,82355,42202,332009,7572,784,34167,1270,384,84279,20106,591260,7670,572,38171,3960,453,09200,59114,41132,4368,802,48164,2666,754,50204,60105,42113,8670,51-67,04369,9088,10-60,38387,46338,19238,26172,16-68,16397,62132,33-43,78393,54143,54280,76182,77NearFarOs casos destacados em amarelo representam aqueles que foram utilizados paragerar os casos extremos, de acordo com a metodologia mostrada na tabela 6, sendoassociados e mostrados na tabela 8:Tabela 8 – Casos GB e Casos GA AssociadosCasos GBCasos GA utilizadosGB-1GB-2GB-3GB-4GB-5GB-6GB-7GB-8GA-1_1GA-6_1GA-3_4GA-4_2GA-5_1GA-6_1GA-3_4GA-8_216- Casos de operação extremaNa tabela 8 foi possível perceber que alguns casos GB foram provenientes dosmesmos casos GA, sendo assim eles não precisariam ser rodados. Isto ocorreu com oscasos GB-2 e GB-6 (provenientes do GA-6_1), assim como o GB-3 e GB-7(provenientes do GA-3_4), entretanto optou-se por rodar todos os casos, e mostrá-losem ordem, mesmo sabendo que estes citados obteriam mesmos resultados.
+Depois de montados os casos de operação extrema (casos acidentais GB)segundo a tabela 8, estes foram rodados, também com cinco períodos de onda cada um,e os resultados extraídos podem ser verificados na tabela 9.
+Tração no topoRaiomínimono TDPTração no TDPÂngulomax (°)RaioTração no raiomínimo (KN)(kN)(kN)CasoPosiçãomínimo (m)(m)minmaxminmaxNearGB-1GB-2GB-3GB-4GB-5GB-6GB-71066,92188,92,97-80,00177,0912,991,92-55,20Far2041,82580,3214,67469,04786,0412,70214,37469,23Cross Far 21984,32389,2188,90425,27596,489,24188,67425,41Transv. 2
+1701,92106,571,45179,25348,278,8068,82179,29Near1156,12118,92,57-73,65147,7611,932,31-46,18Far2041,82580,3214,67469,04786,0412,70214,37469,23Cross Far 21984,32389,2188,90425,27596,489,24188,67425,41Transv. 2
+GB-81722,28,58335,812083,8Tabela 9 – Resultados dos Casos Acidentais190,1794,8172,58190,20Como era esperado, os casos GB-2 e GB-6, assim como o GB-3 e GB-7,obtiveram resultados idênticos, já que foram construídos a partir de casos de operaçãorecorrentes iguais.
+O caso extremo GB-2/GB-6 atingiu um elevado valor máximo de tração no topo(2580KN), assim como o caso GB-1 alcançou um valor de aproximadamente 13º para aangulação de topo. Desta forma, estes serão os principais casos a serem analisados nasanálises locais do enrijecedor. Os gráficos a seguir mostram a variação da tração de topodos casos mencionados durante os passos estáticos da análise global, sendo esses ospassos em que ocorre a introdução da corrente e do passeio do sistema flutuante.
+17● Caso GB-1 – Caso Near● Caso GB-2 – Caso Far300000019000001850000)N2000000()avN(1800000itefeavitefEoãçarToãçarT17500001000000170000001650000024681012024681012PassoPassoGráfico 1 – Tração Efetiva x Passo (Caso GB1)Gráfico 2 – Tração Efetiva x Passo (Caso GB2)Observando os gráficos, percebe-se a coerência dos resultados, já que no caso“near”, com a aproximação da unidade flutuante, a tração de topo cai progressivamentecom a aplicação dos incrementos de passeio e corrente, enquanto o oposto ocorre nocaso ”far”, no qual ocorre o afastamento da mesma.
+Posteriormente são aplicados os passos dinâmicos, onde são introduzidos osdados de ondas. A seguir serão analisados os comportamentos encontrados para essescasos críticos ao longo do tempo, o que é de grande importância para a análise local queserá feita posteriormente.
+- Caso GB-1O gráfico 3 mostra o comportamento do ângulo de topo, sendo este, definidocomo a diferença entre o ângulo de instalação do riser e o ângulo que o flexível assumena configuração deformada. Este ângulo, como será visto posteriormente será um dosdados de entrada para as análises locais.
+18141210)°(opotedougnÂ86lc42001020304050607080Tempo (s)Gráfico 3– Ângulo de Topo x Tempo (Caso GB1)Outro dado de entrada para as análises locais, são as trações de topo, sendo estarelacionada ao caso GB-1, definida dinamicamente no gráfico 4.
+192,42,22)NM(oãçarT1,81,61,41,2101020304050607080Tempo (s)Gráfico 4– Tração x Tempo (Caso GB1)- Caso GB-2Assim como foi feito no caso GB-1, o comportamento de ângulo e tração detopo serão mostrados a partir do gráfico 5 e 6 respectivamente.
+141210)°(opo8tedougnÂ6l4200102030405060Tempo (s)Gráfico 5– Ângulo de Topo x Tempo (Caso GB2)202,72,62,52,4)NM2,3(oãçarT2,22,121,91,80102030405060Tempo (s)Gráfico 6– Tração x Tempo (Caso GB2)A partir dos gráficos, percebe-se a estabilização dos resultados a partir de 10segundos, onde os comportamentos de ângulo e tração se mostram homogêneos,variando de acordo com as aplicações dos carregamentos de onda.
+4. Projeto de Bend Stiffenerstem-se reforçado a utilização de navios FPSOs (FloatingProduction, Storage and Offloading) como unidade flutuante para a produção de óleo egás, em detrimento das plataformas semi-submersíveis. Esse fato decorre entre outrosfatores, devido à facilidade na operação e armazenamento. Porém, em certos casos deoperação, os navios assumem um comportamento crítico, fazendo-se necessária umamaior atenção ao projeto tanto da linha flexível como do enrijecedor.
+Recentemente,O projeto de bend stiffener é realizado na indústria a partir de programascomputacionais que se baseiam em modelos de viga, tendo como principais entradasvalores de tração e ângulo de topo obtido das análises globais. A partir disto, é feito o21dimensionamento inicial do enrijecedor, sendo possível assim realizar uma análise localou mesmo uma segunda análise global, considerando neste momento, porém, o bendstiffener projetado. Estes passos são realizados até que sejam atingidos todos os critériosde projeto, obtendo-se finalmente um dimensionamento ótimo do enrijecedor a flexão.
+Para auxiliar no projeto do enrijecedor, foi utilizado o programa computacionaldesenvolvido por Caire (2009), aluno de doutorado da COPPE. Este software, a partirde dados de tração crítica, ângulo crítico, módulo de elasticidade do poliuretano a serutilizado, e uma faixa de conicidade (ângulo de inclinação do enrijecedor), realiza umaanálise elástica para uma série de geometrias de bend stiffeners que se enquadramdentro da faixa escolhida pelo usuário. Feito isso, o programa seleciona as geometriasque obtiveram menor curvatura e apresentam menores volumes, a fim de reduzir o custoda fabricação. A interface do programa pode ser vista na figura 7.
+Figura 7 - Interface do software utilizadoSendo assim, introduzindo os dados de entrada, e a partir do menor valor decurvatura e volume, foi selecionado o enrijecedor da figura 8:22Figura 8 – Geometria do bend stiffener5. Transição da análise global para localComo foi dito anteriormente é imprescindível, no projeto de enrijecedores, umajá que os seus resultados de esforços dimensionantesanálise global correta,identifica-se comoinfluenciarão diretamente as análises locais. Sendo assim,primeiro passo, a realização de uma análise estrutural global, do flexível semconsiderar a estrutura de conexão. A partir desta, serão coletados os esforçosdimensionantes, necessários para a realização da análise isolada da conexão, que sãocomo foi dito anteriormente, a tração de topo e a variação de ângulo no topo,definida como a diferença entre o ângulo de instalação do riser e o ângulo que oflexível assume na configuração deformada.
+Na indústria, esta transição da análise global para a análise local pode ser feitade diversas maneiras dependendo do conservadorismo necessário e do grau decriticidade dos resultados. É comum, em casos normais de linhas flexíveis depequenos diâmetros e linha d’água pouco profundas, o projeto de enrijecedoresmantendo-se um elevado grau de conservadorismo, realizando-se uma análise localconsiderando a maior das trações e maior dos ângulos que foram encontradas nasanálises dinâmicas, mesmo que não representem o mesmo caso.
+Entretanto, a produção de petróleo vem se concentrando cada dia mais em águasultraprofundas, que associada à utilização de dutos flexíveis de grandes diâmetros,tornam os resultados muito mais críticos. Sendo assim, se um bend stiffener fosseprojetado com o mesmo conservadorismo que foi mostrado anteriormente, levaria agrandes dimensões deste equipamento,a fabricação deenrijecedores duplos em alguns casos, ou mesmo inviabilizando a instalação nasunidades flutuantes. Nestes casos, nas análises locais consideram-se as traçõescríticas associadas aos seus respectivos ângulos e/ou os ângulos críticos associadossendo necessária23às trações do mesmo caso, encontrados nas análises dinâmicas. Com isso, percebe-se a importância da caracterização cada vez mais precisa dos casos e do própriomaterial em análise.
+Em [3] e [9] foi exposta a importância de se considerar o efeito da frequência decarregamento na resposta do sistema com amortecimento estrutural devidocomportamento viscoelástico do poliuretano do enrijecedor. Sendo assim, na análiselocal será realizada uma caracterização do material viscoelástico, considerando osefeitos do carregamento harmônico vindos da análise global. A seguir serãomostrados os ajustes realizados nos carregamentos de forma a possibilitar a entradadesses dados no software de elementos finitos. Todos os ajustes foram realizadosbuscando seguir equações senoidais, com uma amplitude média ( F ), fase)( efreqüência (w), de acordo com as equações (4) e (5).
+FFwt(1wt)2Fsensen()(4)(5)GB-1 (Caso Near)Para o caso GB-1, o ajuste do ângulo de topo, mostrado no gráfico 7, ignorou ainstabilidade na resposta, discutida anteriormente, de forma a simplificar as análiseslocais.
+18Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)Adj. R-Square0,7745916ValueStandard Error0000,11132BBBBxcwAy0-1,775,86,853931412]suarG10[ougnA8l64200102030405060Tempo [s]Gráfico 7– Ajuste do Ângulo de Topo (Caso GB-1)24O resultado deste ajuste pode ser visto na equação (6), no formato que seráintroduzido no software Abaqus.
+.7,1
+)7t.
+(7sen85,68,5(6)O gráfico 8 mostra o ajuste realizado para a tração de topo do caso GB-1.
+2,8x106Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)Adj. R-Square0,986842,6x106ValueStandard Error0002670,03231BBBBxcwAy00,875568241,66783E62,4x1062,2x1062,0x106]N[1,8x106açroF1,6x1061,4x1061,2x1061,0x1068,0x1050102030405060Tempo [s]Gráfico 8– Ajuste da Tração de Topo (Caso GB-1)O resultado final deste ajuste pode ser verificado na equação (7).
+t.
+(7.8,0
+7)FEsen66,16556824(7)GB-2 (Caso far)Assim como foi realizado com o caso GB-1, foram feitos os ajustes de tração eângulo para o caso GB-2.
+O gráfico 9 mostra o ajuste quase perfeito do comportamento de ângulo de topodas análises dinâmicas.
+2516Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)15Adj. R-Square0,91665ValueStandard Error0000,03062BBBBxcwAy08,35,383,68,89172141312]suarG1110[ougnAl9876540102030405060Tempo [s]Gráfico 9– Ajuste do Ângulo de Topo (Caso GB-2)O resultado final deste ajuste pode ser verificado na equação (8).
+t.
+38,5.3,8
+)38,5sen89,86,3((8)O gráfico 10 mostra o ajuste realizado para a tração de topo do caso GB-2.
+Analise GlobalAjusteEquationy=y0+A*sin(pi*(x-xc)/w)2,8x106Adj. R-Square0,86763ValueStandard Error0002824,193BBBBxcwAy02,75,382600002,31682E62,7x1062,6x1062,5x106]N2,4x106[açroF2,3x1062,2x1062,1x1062,0x1061,9x1060102030405060Tempo [s]Gráfico 10– Ajuste da Tração de Topo (Caso GB-2)O resultado final deste ajuste pode ser verificado na equação (9).
+26t.
+38,5.3,8
+)38,5FE31,2sen6260000((9)Sendo assim, já são conhecidas as respostas de força e ângulo para os casos maiscríticos dentre os analisados globalmente, restando agora estudar como estas respostasinfluenciam na curvatura do flexível para o enrijecedor escolhido.
+6. Análise LocalA prática comum no projeto de bend stiffeners é primeiramente considerar osistema como uma viga delgada sujeita a um carregamento extremo combinado (F, θ) obtido de análises globais sem o enrijecedor. Um processo iterativo é realizado até queo projeto final atinja as especificações necessárias. Caso informações locais sejamnecessárias, como por exemplo, a distribuição de tensão na região do inserto metálico,pode ser realizada uma análise em três dimensões via elementos finitos. Neste trabalhomodelos de vigas são desenvolvidos utilizando o método dos elementos finitos atravésdo programa computacional Abaqus v6.8. As seguintes hipóteses são consideradas nosmodelos:a) a seção transversal sofre grandes deflexões;b) o espaço entre as estruturas não é considerado;c) o duto flexível é considerado com rigidez flexional constante ao longo de seucomprimento;d) o material é modelado como linear elástico, não linear elástico e finalmenteviscoelástico linear considerando o comportamento real do poliuretano;e) a resposta dinâmica causada pela massa do sistema é ignorada;6.1 Geometria e PropriedadesUm programa computacional com base na linguagem C (anexo 3)foidesenvolvido para criar um arquivo de entrada no software Abaqus, a partir de dados dageometria e das propriedades da estrutura, gerando assim uma fácil manipulação naestrutura e a possibilidade de usuários que não tenham conhecimentos no software,27realizar a análise em questão. A parir da subrotina desenvolvida geraram-se os nós,elementos e propriedades das seções ao longo do comprimento do sistema.
+As propriedades de rigidez axial e flexional do riser foram implementadasigualmente as informações fornecidas pelo fabricante. Entretanto, enirjecedor érepresentado por uma viga de rigidez equivalente variável ao longo do comprimentodevido ao seu formato cônico. Foram geradas seções retangulares com medidas de basee altura que fornecessem áreas e momentos de inércia compatíveis as da geometria real.
+Pensando nisto, foram utilizadas as relações (10) e (11):BaseAlturaRR2 2extintÁreaseção(10)R4ext4R4int4BaseAltura123Inércia(11)seçãoSabendo a geometria, a área e a inércia de cada seção são calculadas, podendoassim, obter os dados de entrada (base e altura de cada seção) para o Abaqus, de acordocom as relações (12) e (13).
+ÁreaseçãoInérciaÁreaseçãoInérciaÁreaBase(12)seção12(2/1)seçãoAltura12(2/1)(13)seçãoEstas equações irão reger os cálculos para cada seção do enrijecedor, seja naregião reta ou na região inclinada do mesmo.
+6.2 MaterialO modelo construído foi representado com vários materiais, buscando assim,mostrar a diferença nos resultados e a importância de se modelar o material doenrijecedor de forma correta.
+Há algum tempo atrás, as análises e projetos de enrijecedores eram realizadosconsiderando a estrutura formada de material linear elástico, a partir de um módulo deelasticidade representativo encontrado em testes experimentais.
+28Sendo assim, inicialmente, o bend stiffener foi modelado com material linearelástico, tomando como base dois módulos de elasticidades, buscando mapear o maiornúmero de casos possíveis. Com base na curva de material viscoelástico obtida nocapítulo 2 deste trabalho, estudaram-se dois módulos de elasticidades possíveis para oscálculos, um considerando o G0 da curva de relaxação, e outro sendo o somatório detodos os módulos de elasticidades, para todos os termos da série. Os valores utilizadosforam:G● MPa57,380 G finalOutra análise realizada consiste em considerar o poliuretano como materialhiperelástico, sendo esta, a análise mais comum realizada atualmente na indústria dopetróleo. A entrada dos dados na análise local consistiu na introdução dos pontos dacurva tensão x deformação deste material, medidos também experimentalmente. A
+curva citada pode ser verificada no gráfico 11:MPa● 03,8165)aPM4(oãsneT32100,000,050,100,150,20Deformação (%)0,250,30Gráfico 11– Curva Tensão x Deformação (Material Hiperelástico)Finalmente, o comportamento viscoelástico linear do poliuretano do enrijecedorfoi descrito no domínio do tempo, a partir da série de Prony. Os coeficientes derelaxação expostos na Tabela 2 – Coeficientes de relaxa, foram adimensionalizados deforma a ficarem coerentes com os dados de entrada do Abaqus, que são:29• Razão modular dos termos da série de Prony expandida, do módulo deGi 3gpirelaxamento cisalhante , tal que i = termo da série de Prony.
+iGi1i• Razão modular dos termos da série de Prony expandida, do módulo dek igppirelaxamento volumétrico (modelo de viga).
+• Tempo de relaxamento para os termos da série de Prony expandida iSendo-se assim, obtiveram-se como dado de entrada para a definição docomportamento do material, os valores expostos na tabela 10:Tabela 10 – Coeficientes de relaxação adimensionalizados1,01181 pk2 pk3 pk4 pk0,37341 1 pg2 pg3 pg4 pg0,373459,09740,05660,05662 3 695,04470,03790,03797647,97530,05580,05584 6.3 ElementosOs elementos de viga no software Abaqus possuem a nomenclatura de acordocom o esquema da figura 9:Figura 9 – Nomenclatura dos elementos (Abaqus)Nota: A formulação híbrida é tipicamente utilizada para representar estruturasmuito rígidas que sofrem rotações significantes. Os elementos de vigas Euler-Bernoulli(B23, B23H, B33, B33H) não permitem deformação por cisalhamento transverso, onde30seções planas permanecem planas, sendo utilizadas para estruturas esbeltas, como é ocaso do riser. A malha da viga foi gerada utilizando elementos de duas dimensõesEuler-Bernoulli (B23).
+6.4 ContatoComo foi dito anteriormente, não se considerou no modelo, o espaço entre oriser e o enrijecedor, sendo considerados acoplados. Foi utilizado o comando *Tie queassegura que os nós do riser e do enrijecedor se mantêm com os mesmos graus deliberdade, não apresentando deslocamento relativo nem gap (espaço entre as duasestruturas).
+6.5 Condições de Contorno e CarregamentoO modelo realizado considera o sistema engastado na base no bend stiffener,sendo a força e o ângulo (F, θ) aplicados na extremidade livre.
+O carregamento foi aplicado com auxílio do comando *Amplitude, sendopossível assim, controlar a periodicidade da força e ângulo aplicados. Este comandopermite o usuário traçar um histórico de carregamento, seja ele tabular, periódico,rampa, entre outro.
+6.6 AnáliseA análise é dividida em um passo estático e outro quase-estático, sendodefinidos com o parâmetro *Nlgeom que indica que a não linearidade geométrica deveser considerada, já que se trata de um problema de grandes deslocamentos;A opção *Visco foi usada para se obter a resposta transiente, considerando ocomportamento viscoelástico linear do material.
+Uma subrotina em Fortran foi desenvolvida para extrair os resultados de ummaior número de análises de forma eficaz. O anexo 4 mostra o arquivo de entrada daanálise viscoelástica no software Abaqus.
+317. ResultadosCom base no que foi apresentado, foram desenvolvidos diversos modelos nosoftware Abaqus, sendo que estes se diferenciam no que diz respeito a propriedades domaterial, em busca de obter resultados que demonstrassem o erro contido em uma nãorepresentação correta do material viscoelástico de enrijecedores. A seguir serãoapresentados os resultados dos diferentes modelos implementados para os dois casoscríticos, analisando-os com relação aos pontos de vista mais importantes no que dizrespeito ao projeto de enrijecedores e a comparação dos resultados de curvatura no casomais crítico para diferentes materiais analisados.
+ GB1Um dos pontos mais críticos no projeto de enrijecedores é a curvatura máximaque a estrutura assume com o carregamento de topo, já que esta não pode atingir o valordo MBR do flexível. No gráfico 12, verifica-se o histórico de curvatura ao longo dotempo.
+0,40Viscoelástico0,350,30)m1(aruavruC0,25/0,20t0,150,100,050,000204060Tempo (s)80100Gráfico 12– Curvatura x Tempo para o caso GB-1Com este gráfico é possível verificar a fluência do poliuretano, com a curvaturaaumentando ao longo do tempo. Os gráficos 13 e 14 mostram a mesma estrutura32sofrendo o mesmo carregamento, porém durante um intervalo maior de tempo, um naescala normal e o segundo na escala logarítmica.
+0,40,350,30,250,20,150,10,0500,40,350,30,250,20,150,10,0500,001ucuc)m1(arutavruCm)1(arutavruC//05001000150020000,110Tempo(s)1000Tempo(s)Gráfico 13 – CurvaturaxTempo (Escala Normal)Gráfico 14–CurvaturaxTempo (Escala Logarítimica)Observando os gráficos 13 e 14, é possível perceber o efeito da fluência dopoliuretano, que pode se tornar bastante importante para tempos muito longos, já quepara o tempo de 2000 segundos, o material não se estabilizou ainda.
+ GB2Como já era esperado as curvaturas para o caso GB-2 não obtiveram valores tãocríticos quanto no caso GB-1, já que este possui os maiores ângulos de topo, e o ânguloinfluencia mais diretamente do que a tração nos resultados de curvatura para o sistemariser x enrijecedor. A seguir pode ser vista a curvatura obtida para o caso GB-2.
+330,40Viscoelástico0,350,30)m/1(arutavruC0,250,200,150,100,050,000204060Tempo (s)80100Gráfico 15– Curvatura x Tempo Comparação de MateriaisComo foi mostrado, o caso GB-1 alcançou maiores valores de curvatura, sendoeste mais crítico no projeto de bend stiffeners, com isso, será analisado neste momento,as curvaturas neste caso, considerando diversos materiais formando o enrijecedor.
+0,60ViscoelásticoElástico (G=38MPa)Elástico (G=81MPa)Não linear elástico0,550,500,450,40)m/1(arutavruC0,350,300,250,200,150,100,050,000102030405060708090100Tempo (s)Gráfico 16– Curvatura x Tempo34No gráfico 16, foi possível perceber a disparidade causada pela variação dosmateriais, podendo chegar a diferenças de até 50% na resposta da estrutura. Assim,verifica-se uma abordagem bastante conservadora na representação do material nãolinear elástico (hiperelástico) e do material elástico considerando um módulo deelasticidade bem baixo. Na tabela 11, serão expostos os resultados de curvaturas críticasencontradas, seus respectivos raios, além das diferenças percentuais encontradas quandose compara o resultado com enrijecedor modelado com material viscoelástico e osdemais materiais.
+Tabela 11 – Resultados e diferença percentual em relação ao caso viscoelásticoMaterialCurvatura Máxima (1/m) Raio Mínimo (m) MBR (m) Diferença (%)Viscoelástico0,360,420,280,432,782,373,552,322,342,342,342,340,0016,67-22,2219,44Elástico (G=38MPa)Elástico (G=81MPa)Não Linear ElásticoVale lembrar também que esta análise foi feita para as freqüências encontradasnos ajustes realizados, de forma que seguindo as seguintes relações 14 e 15 é possívelverificá-las.
+t.(
+7.8,0
+7)FFFsen(wtFE66,1senwrads)6556824,0448/(14)t.
+(7.7,1
+)7senwtsenwrads()85,68,5,0448/(15)Neste caso (GB-1), a mesma freqüência foi utilizada tanto para a aplicação daforça quanto do ângulo.
+O gráfico 17 mostra as curvaturas expostas anteriormente no final do cicloaplicado, e o valor do MBR da estrutura de topo.
+350,60MBRViscoelásticoElástico (G=38MPa)Elástico (G=81MPa)Não linear elástico0,550,500,450,40)m1(aruavruC/0,350,30t0,250,200,150,100,050,008090100Tempo (s)Gráfico 17– Curvatura x Tempo (MBR do Flexível)Sabendo-se que a indústria do petróleo sempre aplica um fator de segurança parao valor máximo de curvatura que pode ser atingido, nota-se que provavelmente esteenrijecedor deveria ser redefinido caso fosse utilizado o material hiperelástico ou omaterial elástico (G=38MPa) para a análise.
+As curvaturas observadas na estrutura modelada com material viscoelástico semostraram bem abaixo do MBR do flexível, cabendo ainda a aplicação do fator desegurança. Porém percebe-se também a fluência do material viscoelástico, mesmo quepequeno, este aumento de curvatura com o passar de um grande número de ciclos podese tornar elevado.
+8. ConclusãoEste trabalho possibilitou um entendimento maior no que diz respeito ao projetode enrijecedores à flexão, descrevendo todos os passosimportantes para acaracterização do mesmo, desde a realização de uma análise global considerando aregião de operação até uma análise local da estrutura em questão, avaliando ascurvaturas resultantes.
+Foi possível analisar as diferenças nas curvaturas geradas para diferentesconsiderações de materiais do enrijecedor. As variações nos resultados mostram os erroscontidos em não se realizar uma análise dinâmica, e sim, análises estáticas36simplificadas. Por um lado, percebeu-se que a análise utilizando material hiperelástico,que vem sendo feita na indústria do petróleo se mostra bem conservadora e maissimples, porém não se considera a fluência do poliuretano. Entretanto, com as novasdescobertas de óleo e gás em cenários cada vez mais críticos, necessitam-se de análisesque se aproximem ao máximo da realidade, já que um nível de conservadorismo alto oua superestimação de um enrijecedor pode inviabilizar um projeto, como já ocorreu emmuitos casos.
+Sendo assim, cabe a cada um avaliar até que ponto a simplificação de uma análiseé válida, reduzindo o custo computacional, compensando com fatores de segurança, emdetrimento de uma análise mais próxima da realidade.
+9. Trabalhos FuturosComo foi possível perceber, a análise de enrijecedores à flexão é um assuntobastante amplo que pode assumir um grau de complexidade grande à medida que seenglobam novas considerações nos problemas. Muitos pontos foram abordados ao longodeste estudo, porém alguns só serão relatados a seguir, optando-se por abordá-los emtrabalhos futuros: Modelação do sistema bend stiffener x riser em três dimensões, tornandopossível analisar concentrações de tensões na região do inserto metálico do enrijecedor,ou a ovalização da região final deste, ocasionada pelo contato com o flexível.
+ Análise térmica, avaliando a variação das propriedades do enrijecedor, geradapelo aumento da temperatura que pode ser causada pelo atrito durante uma série decilcos e pelo comportamento viscoelástico do poliuretano.
+ Consideração de um estudo de fadiga no poliuretano, para o projeto de bendstiffener, já que neste trabalho só se analisou os casos críticos vindo das análisesglobais.
+3710.Referências[1] CAIRE, M., VAZ, M.A., LEMOS, C.A.D. “Viscoelastic Analysis of BendStiffeners”. In: Proceedings of the International Conference on OffshoreMechanics and Arctic Engineering, OMAE2005-67321, Halkidiki, Greece,June 2005.
+[2] CAIRE, M., Análise de Enrijecedores à Flexão. Tese de M.Sc.,
+COPPE/UFRJ, Rio de Janeiro, RJ, Brasil,2005[3] FARIAS, L.F.A., VAZ, M.A., CAIRE, M., Resposta viscoelástica linear deenrijecedores à flexão sujeitos a carregamentos harmônicos, PDPETRO, 2009[4] PADILHA, J., Análise estrutural de riser flexível com armaduras de traçãoem titânio. Tese de M.Sc., COPPE/UFRJ, Rio de Janeiro, RJ, Brasil,2009[5] LYONS, G. J., PATEL, M. H., WITZ, J. A., et al, Vertical Riser DesignManual. University College London, 2 ed. London, Bentham Press,1994.
+[6] WINEMAN, A., RAJAGOPAL, K.R., Mechanical Response of Polymers –Introduction. Cambridge University Press, 2000.
+[7] KIEPPER, B.O., Análise Estrutural Estática, Via Elementos Finitos doSegmento Tubo Flexível-Enrijecedor. Tese de M.Sc., COPPE/UFRJ, Rio deJaneiro, RJ, Brasil, 2004.
+[8] VAZ, M.A., LEMOS, C.A.D. “Geometrical and Material Non-LinearFormulation for Bend Stiffeners”. In: Proceedings of the InternationalConference on Offshore Mechanics and Arctic Engineering, OMAE2004-51366, Vancouver, Canada, June 2004.
+[9] Vaz, M.A.; Caire, M.; Ariza, A. G.; Farias, L. F., Bend Stiffener LlinearViscoelastic Response Subjected to Harmonic Loading, COBEM, 200938Anexo 1 – Perfis de Corrente39 Norte301.14
+1.14
+1.08
+0.73
+0.67
+0.5
+0.33
+0.36
+0.28
+1001.23
+1.23
+1.16
+0.77
+0.69
+0.52
+0.36
+0.39
+0.31
+1.0
+0.9
+0.9
+0.8
+0.6
+0.6
+0.4
+0.3
+0.2
+0.2
+10.0
+1.1
+1.1
+1.0
+0.7
+0.7
+0.5
+0.3
+0.3
+0.3
+20.0
+1.1
+1.1
+1.1
+0.7
+0.7
+0.5
+0.3
+0.4
+0.3
+50.0
+1.2
+1.2
+1.1
+0.8
+0.7
+0.5
+0.3
+0.4
+0.3
+DireçãoSuperfícieNNNNNN100m350m500m1000m1250m1500m2000m2500mN-NENN Nordeste301.33
+1.24
+1.1
+0.62
+0.66
+0.5
+0.29
+0.38
+0.38
+1001.41
+1.29
+1.2
+0.65
+0.69
+0.53
+0.3
+0.4
+0.42
+1.0
+1.1
+1.1
+0.8
+0.5
+0.6
+0.4
+0.2
+0.3
+0.3
+10.0
+1.3
+1.2
+1.0
+0.6
+0.6
+0.5
+0.3
+0.4
+0.3
+20.0
+1.3
+1.2
+1.1
+0.6
+0.7
+0.5
+0.3
+0.4
+0.4
+50.0
+1.4
+1.3
+1.1
+0.6
+0.7
+0.5
+0.3
+0.4
+0.4
+DireçãoSuperfícieNENENENNN100m350m500m1000m1250m1500m2000m2500mN-NENN Leste301.04
+0.89
+0.91
+1.03
+0.62
+0.49
+0.35
+0.46
+0.34
+1001.14
+0.99
+1.02
+1.14
+0.65
+0.52
+0.38
+0.51
+0.38
+1.0
+0.7
+0.6
+0.6
+0.7
+0.6
+0.4
+0.3
+0.3
+0.2
+10.0
+0.9
+0.8
+0.8
+0.9
+0.6
+0.5
+0.3
+0.4
+0.3
+20.0
+1.0
+0.9
+0.9
+1.0
+0.6
+0.5
+0.3
+0.4
+0.3
+50.0
+1.1
+0.9
+1.0
+1.1
+0.6
+0.5
+0.4
+0.5
+0.4
+DireçãoSuperfícieEENNNN10035050010001250150020002500N-NENENE Sudeste20.0
+1.3
+0.8
+0.6
+0.8
+0.5
+0.5
+0.4
+0.4
+0.4
+30.0
+1.4
+0.8
+0.6
+0.8
+0.5
+0.5
+0.4
+0.4
+0.4
+1001.44
+0.83
+0.63
+0.88
+0.52
+0.52
+0.4
+0.44
+0.44
+1.0
+1.1
+0.7
+0.5
+0.7
+0.4
+0.4
+0.3
+0.3
+0.3
+10.0
+1.3
+0.8
+0.6
+0.8
+0.5
+0.5
+0.4
+0.4
+0.4
+50.0
+1.4
+0.8
+0.6
+0.9
+0.5
+0.5
+0.4
+0.4
+0.4
+DireçãoSESENNNNSuperfície100m350m500m1000m1250m1500m2000m2500mN-NENENE Sul4020.0
+1.2
+1.2
+0.8
+0.7
+0.7
+0.6
+0.5
+0.35
+0.36
+30.0
+1.3
+1.3
+0.8
+0.7
+0.7
+0.6
+0.5
+0.36
+0.37
+1001.33
+1.33
+0.84
+0.76
+0.71
+0.58
+0.5
+0.38
+0.4
+1.0
+1.1
+1.1
+0.6
+0.6
+0.6
+0.5
+0.4
+0.3
+0.29
+10.0
+1.2
+1.2
+0.7
+0.7
+0.7
+0.5
+0.4
+0.34
+0.35
+50.0
+1.3
+1.3
+0.8
+0.7
+0.7
+0.6
+0.5
+0.37
+0.38
+DireçãoSSNNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m Sudoeste1100.98
+0.9
+0.68
+0.65
+0.59
+0.46
+0.45
+0.35
+0.34
+201.04
+0.96
+0.72
+0.67
+0.61
+0.48
+0.47
+0.37
+0.36
+301.07
+0.99
+0.74
+0.68
+0.62
+0.48
+0.49
+0.39
+0.37
+501.12
+1.03
+0.78
+0.7
+0.63
+0.49
+0.5
+0.4
+0.39
+1001.18
+1.09
+0.82
+0.72
+0.64
+0.5
+0.52
+0.42
+0.41
+Direção0.79
+0.72
+0.54
+0.57
+0.54
+0.42
+0.38
+0.27
+0.27
+SWSWNWNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m Oeste1100.89
+0.57
+0.51
+0.69
+0.67
+0.51
+0.42
+0.4
+0.33
+200.95
+0.59
+0.53
+0.72
+0.69
+0.53
+0.44
+0.43
+0.35
+300.99
+0.61
+0.53
+0.73
+0.7
+0.53
+0.45
+0.45
+0.36
+501.03
+0.62
+0.55
+0.75
+0.71
+0.55
+0.46
+0.47
+0.37
+1001.09
+0.64
+0.56
+0.77
+0.73
+0.56
+0.48
+0.5
+0.39
+Direção0.69
+0.49
+0.45
+0.6
+0.6
+0.45
+0.35
+0.31
+0.26
+WWNNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m Noroeste1100.88
+0.62
+0.53
+0.76
+0.64
+0.47
+0.31
+0.33
+0.31
+200.91
+0.65
+0.55
+0.79
+0.66
+0.48
+0.32
+0.34
+0.33
+300.94
+0.66
+0.56
+0.8
+0.66
+0.49
+0.33
+0.35
+0.34
+500.97
+0.68
+0.57
+0.82
+0.67
+0.5
+0.33
+0.37
+0.35
+1001.02
+0.71
+0.58
+0.85
+0.69
+0.51
+0.34
+0.38
+0.37
+Direção0.69
+0.52
+0.48
+0.67
+0.58
+0.42
+0.26
+0.26
+0.25
+NWNWNNNNNNNSuperfície100m350m500m1000m1250m1500m2000m2500m41Anexo 2 – Tabelas de RAO42RAO 0º (surge, sway, heave)1SurgeSwayHeave0.8
+0.6
+)mm0.4
+/(0.2
+0051015202530-0.2
+(s)RAO 90º (surge, sway, heave)1.2
+SurgeSwayHeave10.8
+0.6
+)mm/(0.4
+0.2
+0051015202530-0.2
+(s)43RAO 180º (surge, sway, heave)1SurgeSwayHeave0.9
+0.8
+0.7
+0.6
+)mm0.5
+/(0.4
+0.3
+0.2
+0.1
+0051015(s)202530RAO 270º (surge, sway, heave)1.2
+SurgeSwayHeave10.8
+0.6
+)mm/(0.4
+0.2
+0051015202530-0.2
+(s)44RAO 345º (surge, sway, heave)1SurgeSwayHeave0.9
+0.8
+0.7
+0.6
+)mm0.5
+/(0.4
+0.3
+0.2
+0.1
+0051015(s)202530RAO 0º (roll, pitch, yaw)0.6
+RollPitchYaw0.5
+0.4
+)mm0.3
+/(0.2
+0.1
+0051015(s)20253045RAO 90º (roll, pitch, yaw)2.5
+RollPitchYaw21.5
+)mm/(10.5
+0051015(s)202530RAO 180º (roll, pitch, yaw)0.6
+RollPitchYaw0.5
+0.4
+)mm0.3
+/(0.2
+0.1
+0051015(s)20253046RAO 270º (roll, pitch, yaw)2.5
+RollPitchYaw21.5
+)mm/(10.5
+0051015(s)202530RAO 345º (roll, pitch, yaw)0.6
+RollPitchYaw0.5
+0.4
+)mm0.3
+/(0.2
+0.1
+0051015(s)20253047Anexo 3 – Algoritmos do programa computacional para gerar o arquivo deentrada para a análise local48#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#define MAX 100int main (){nespr=Lr/espr;nespbs=Lbs/espbs;j=1001;floatfor(i=0; i<(nespr+1);espr,espbs,h,Lr,Lbs,gap,Dint,EIr,EAr,T,ang,Rmax,Rmin,Rr,Lri,a,b,x,y,K,A2,I2,A3,I3,base2,base3,altura2,altura3;h=h+Lr/nespr ){fprintf(arq, "\n %d,int nespr,nespbs,i,j,m,n;FILE *arq,*pa;char nomearquivo[MAX];char *nome =%0.3f,
+0",j,h);j=j+1;i=i+1;}"informacoes_projeto.txt";// Abre o arquivo para leiturafprintf(arq, "\n*Element, type=B21,if (( pa = fopen(nome, "r")) ==ELSET=RISER");NULL){j=1002;printf("\n\nNao foi possivelfor (i=1001;abrir o arquivo.\n");exit(1);i<=1000+(nespr) ;i=i+1){fprintf(arq,}"\n%d,%d,%d",i,i,j);j++;fscanf(pa, "%s %f %f %f %f %f %f%f %f %f %f %f %f %f", nomearquivo, &Lr,&espr,&Rr,&EAr,&EIr,&Lbs,&espbs,&Rmax,&Rmin,&Dint,&Lri,&T,&ang);}fclose(pa);fprintf(arq, "\n*Beam GeneralSection, elset=Riser,SECTION=NONLINEAR GENERAL ");/* Abre o arquivo para escrita */if (( arq = fopen(nomearquivo, "w")) ==fprintf(arq, "\n1,1");fprintf(arq, "\n 0.,0.,-1.");
+fprintf(arq, "\n*AXIAL, LINEAR ");NULL){printf("\n\nNao foi possivelfprintf(arq, "\n<EA> ");fprintf(arq, "\n*M1, LINEAR ");fprintf(arq, "\n<EI> ");fprintf(arq, "\n************************* ");fprintf(arq, "\n************************* ");abrir o arquivo.\n");exit(1);}// Inicio do arquivofprintf(arq, "\n*Node, NSET=BS ");gap=(Dint/2)-Rr;j=6001;h=Lr-Lbs;fprintf(arq, "*Heading");fprintf(arq, "\n*Preprint, echo=NO,for(i=0; i<(nespbs+1);h=h+(Lbs/nespbs))model=NO, history=NO, contact=NO");{fprintf(arq, "\n**");fprintf(arq, "\n**");fprintf(arq, "\n*PARAMETER");fprintf(arq, "\nEA = %f",EAr);fprintf(arq, "\nEI = %f",EIr);fprintf(arq, "\n*Node, NSET=RISER ");fprintf(arq, "\n %d,%0.3f,
+0",j,h);j++;i++;}49fprintf(arq, "\n*Element, type=B21H,ELSET=BS");// Calculo da area e inercia daregiao 1 do Bend stiffenerj=6002;y=Rmax;n=6000+((Lbs-Lri)/espbs);for (K=-(Lri-(espbs/2));K<=-for (i=6001; i<=6000+(nespbs);i=i+1){fprintf(arq, "\n%d,(espbs/2) ; K=(K+espbs)){%d,%d",i,i,j);j++;A3=(3.141592654*(pow(y,2)))-(3.141592654*(pow(Dint/2,2)));}I3=(3.141592654*(pow(y,4))/4)-fprintf(arq, "\n**" );(3.141592654*(pow(Dint/2,4))/4);n=n+1;fprintf(arq,"\n*Beamfor (i=6001;i<=6000+(nespbs) ;i=i+1)Section,elset=BS%d, material=Material-1,section=Rect",n);{base3=A3/(pow(I3*12/A3,0.5));altura3=pow(I3*12/A3,0.5);
+fprintf(arq,"\n %0.8f
+fprintf(arq, "\n*Elset, elset=BS%d",i);fprintf(arq, "\n %d,",i);,%0.9f", base3 , altura3);}fprintf(arq,"\n 0.,0.,-1.");
+}// Equação da reta --> Parteinclinada do bend stiffenerfprintf(arq,a=-(Rmax-Rmin)/(Lri-Lbs);b=Rmax-(((Rmax-Rmin)*Lri)/(+Lri-"\n*Surface,Type=Node,Name=Surf_BS");Lbs));for (i=6001;i<=6001+(nespbs) ;i=i+1)//Area e inercia da parte 2 do{fprintf(arq, "\n%d",i);bend stiffener --> Parte inclinadam=6000;for (x=-((Lbs)-(espbs/2)); x<=-Lri-(espbs/2) ; x=(x+espbs))}{y=(a*x)+b;fprintf(arq,"\n*Surface,Type=Node,Name=Surf_Riser");A2=(3.141592654*(pow(y,2)))-(3.141592654*(pow(Dint/2,2)));for (i=(1001+((Lr/espr)-Lbs/espbs)); i<=(1001+(Lr/espr)) ;i=i+1)I2=(3.141592654*(pow(y,4))/4)-(3.141592654*(pow(Dint/2,4))/4);{fprintf(arq, "\n%d",i);m=m+1;fprintf(arq,"\n*BeamSection,elset=BS%d, material=Material-1,section=Rect",m);}base2=A2/(pow(I2*12/A2,0.5));fprintf(arq,altura2=pow(I2*12/A2,0.5);
+fprintf(arq,"\n %0.8f
+"\n************************************");,fprintf(arq, "\n** Constraint:%0.9f", base2 , altura2);Constraint-1");fprintf(arq,"\n 0.,0.,-1.");
+fprintf(arq, "\n*Tie,name=Constraint-1, adjust=yes");fprintf(arq, "\nSurf_BS,}Surf_Riser");50fprintf(arq,fprintf(arq,"\n************************************");"\n************************************");fprintf(arq,fprintf(arq, "\n*Nset,"\n************************************");nset=Engaste_Rigido");fprintf(arq, "\n** STEP: Step_1");fprintf(arq, "\n**");fprintf(arq, "\n*Step, name=Step_Forca,fprintf(arq, "\n%0.0f,%0.0f",round(1001+(Lr/espr)),round(6001+(Lbs/espbs)));nlgeom=YES");fprintf(arq, "\n*Nset,fprintf(arq, "\n*Static");fprintf(arq, "\n0.001, 1, 1e-20, 1.");
+fprintf(arq, "\n**");fprintf(arq, "\n* Boundary ");fprintf(arq, "\nEngaste_Rigido,encastre");fprintf(arq,nset=N_Forca");fprintf(arq, "\n 1001");fprintf(arq,"\n************************************");"\nN_Forca,6,6,0.087266462");fprintf(arq, "\n*Orientation,fprintf(arq, "\n** LOADS");fprintf(arq, "\n**");fprintf(arq, "\n*Cload,follower");fprintf(arq, "\nN_Forca, 1,-62500");fprintf(arq, "\n**");fprintf(arq, "\n** OUTPUT REQUESTS");fprintf(arq, "\n**");fprintf(arq, "\n*Restart, write,name=\"Datum csys-1\"");0.,
+0.,
+fprintf(arq, "\n1.,
+1.,
+0.");
+fprintf(arq, "\n1, 0.");
+fprintf(arq,0.,
+"\n************************************");fprintf(arq,"\n************************************");frequency=0");fprintf(arq, "\n************ AMPLITUDEfprintf(arq, "\n**");fprintf(arq, "\n** FIELD OUTPUT: F-************************");fprintf(arq, "\n*Amplitude,Output-1");name=AmpForca,definition=Periodic");fprintf(arq, "\n**");fprintf(arq, "\n*Output, field,fprintf(arq, "\n1,1.256637,0,1");fprintf(arq, "\n0,0.2");variable=PRESELECT");fprintf(arq, "\n*Element Output,fprintf(arq, "\n*Amplitude,ELSET=RISER");name=AmpAngulo,definition=Periodic");fprintf(arq, "\n1,1.256637,0,1");fprintf(arq, "\nSE");fprintf(arq, "\n**");fprintf(arq, "\n** HISTORY OUTPUT: H-fprintf(arq, "\n0,0.2");Output-1");fprintf(arq,fprintf(arq, "\n**");fprintf(arq, "\n*Output, history,"\n************************************");fprintf(arq, "\n**MATERIALS");variable=PRESELECT");fprintf(arq, "\n**");fprintf(arq, "\n*Material,fprintf(arq, "\n*Node Print,freq=1,Nset=Riser");name=MATERIAL-1");fprintf(arq, "\nCoor1,fprintf(arq, "\n*Elastic,moduli=INSTANTANEOUS");Coor2,Coor3");fprintf(arq, "\n*Output, history,fprintf(arq, "\n8.53642e+07, 0.3");fprintf(arq, "\n*Viscoelastic,variable=PRESELECT");fprintf(arq, "\n*El Print,time=PRONY");freq=1,elset=Riser");fprintf(arq, "\n0.4838, 0.4838 , 0.75");fprintf(arq, "\n0.0562, 0.0562, 28.908");fprintf(arq, "\n0.0581, 0.0581,289.826");fprintf(arq, "\nSK1");fprintf(arq, "\n*End Step");fprintf(arq,fprintf(arq,"\n************************************");"\n************************************");fprintf(arq,fprintf(arq,"\n************************************");"\n************************************");fprintf(arq,fprintf(arq, "\n** STEP: VISCO");fprintf(arq, "\n**");fprintf(arq, "\n*Step, name=Step_2,"\n************************************");nlgeom=YES,inc=5000");fprintf(arq, "\n*Visco");51fprintf(arq, "\n0.05, 100");fprintf(arq, "\n**");fprintf(arq, "\n* Boundary ");fprintf(arq,fprintf(arq, "\nSE");fprintf(arq, "\n**");fprintf(arq, "\n** HISTORYOUTPUT: H-Output-1");"\nEngaste_Rigido,encastre");fprintf(arq, "\n**");fprintf(arq, "\n*Output, history,fprintf(arq,"\n*Boundary,amplitude=AmpAngulo");variable=PRESELECT");fprintf(arq,fprintf(arq, "\n*Node Print,"\nN_Forca,6,6,0.087266462");freq=1,Nset=Riser");fprintf(arq, "\n** LOADS");fprintf(arq, "\n**");fprintf(arq, "\n*Cload,follower,fprintf(arq, "\nCoor1,Coor2,Coor3");fprintf(arq, "\n*Output, history,amplitude=AmpForca");variable=PRESELECT");fprintf(arq, "\nN_Forca, 1,-62500");fprintf(arq, "\n**");fprintf(arq, "\n** OUTPUTfprintf(arq, "\n*El Print,freq=1,elset=Riser");fprintf(arq, "\nSK1");fprintf(arq, "\n*End Step");REQUESTS");fprintf(arq, "\n**");fprintf(arq, "\n*Restart, write,frequency=0");fclose(arq);fprintf(arq, "\n**");fprintf(arq, "\n** FIELD OUTPUT: F-printf("\n O ARQUIVO FOI CRIADOOutput-1");COM SUCESSO !!!!
+");fprintf(arq, "\n**");fprintf(arq, "\n*Output, field,return 0;variable=PRESELECT");fprintf(arq, "\n*Element Output,}ELSET=RISER");52Anexo 4 – Arquivo de entrada para a análise local(Caso GB1 – Viscoelástico)53*Heading*Preprint, echo=NO,model=NO, history=NO,contact=NO*****PARAMETEREA = 880436992.000000EI = 10000.000000*Node,NSET=RISER,INPUT=NOSRISER.DAT
+*Element,type=B21,ELSET=RISER,INPUT=ELRISER.DAT
+*Beam General Section,elset=Riser,SECTION=NONLINEARGENERAL1,10.,0.,-1.
+*AXIAL, LINEAR<EA>*M1, LINEAR<EI>***************************************************Node,NSET=BS,INPUT=NOSBS.DAT
+*Element,ELSET=BS,INPUT=ELBS.DAT
+***Elset, elset=BS60016011,6039,*Elset, elset=BS6012*Elset, elset=BS60406012,6040,*Elset, elset=BS6013*Elset, elset=BS60416013,6041,*Elset, elset=BS6014*Elset, elset=BS60426014,6042,*Elset, elset=BS6015*Elset, elset=BS60436015,6043,*Elset, elset=BS6016*Elset, elset=BS60446016,6044,*Elset, elset=BS6017*Elset, elset=BS60456017,6045,*Elset, elset=BS6018*Elset, elset=BS60466018,6046,*Elset, elset=BS6019*Elset, elset=BS60476019,6047,*Elset, elset=BS6020*Elset, elset=BS60486020,6048,*Elset, elset=BS6021*Elset, elset=BS60496021,6049,*Elset, elset=BS6022*Elset, elset=BS60506022,6050,*Elset, elset=BS6023*Elset, elset=BS60516023,6051,*Elset, elset=BS6024*Elset, elset=BS60526024,6052,*Elset, elset=BS6025*Elset, elset=BS60536025,6053,,*Elset, elset=BS6026*Elset, elset=BS60546026,6054,type=B21H,*Elset, elset=BS6027*Elset, elset=BS60556027,6055,*Elset, elset=BS6028*Elset, elset=BS60566028,6056,*Elset, elset=BS6029*Elset, elset=BS60576001,6029,6057,*Elset, elset=BS6002*Elset, elset=BS6030*Elset, elset=BS60586002,6030,6058,*Elset, elset=BS6003*Elset, elset=BS6031*Elset, elset=BS60596003,6031,6059,*Elset, elset=BS6004*Elset, elset=BS6032*Elset, elset=BS60606004,6032,6060,*Elset, elset=BS6005*Elset, elset=BS6033*Elset, elset=BS60616005,6033,6061,*Elset, elset=BS6006*Elset, elset=BS6034*Elset, elset=BS60626006,6034,6062,*Elset, elset=BS6007*Elset, elset=BS6035*Elset, elset=BS60636007,6035,6063,*Elset, elset=BS6008*Elset, elset=BS6036*Elset, elset=BS60646008,6036,6064,*Elset, elset=BS6009*Elset, elset=BS6037*Elset, elset=BS60656009,6037,6065,*Elset, elset=BS6010*Elset, elset=BS6038*Elset, elset=BS60666010,6038,6066,*Elset, elset=BS6011*Elset, elset=BS6039*Elset, elset=BS6067546067,6097,6127,*Elset, elset=BS6068*Elset, elset=BS6098*Elset, elset=BS61286068,6098,6128,*Elset, elset=BS6069*Elset, elset=BS6099*Elset, elset=BS61296069,6099,6129,*Elset, elset=BS6070*Elset, elset=BS6100*Elset, elset=BS61306070,6100,6130,*Elset, elset=BS6071*Elset, elset=BS6101*Elset, elset=BS61316071,6101,6131,*Elset, elset=BS6072*Elset, elset=BS6102*Elset, elset=BS61326072,6102,6132,*Elset, elset=BS6073*Elset, elset=BS6103*Elset, elset=BS61336073,6103,6133,*Elset, elset=BS6074*Elset, elset=BS6104*Elset, elset=BS61346074,6104,6134,*Elset, elset=BS6075*Elset, elset=BS6105*Elset, elset=BS61356075,6105,6135,*Elset, elset=BS6076*Elset, elset=BS6106*Elset, elset=BS61366076,6106,6136,*Elset, elset=BS6077*Elset, elset=BS6107*Elset, elset=BS61376077,6107,6137,*Elset, elset=BS6078*Elset, elset=BS6108*Elset, elset=BS61386078,6108,6138,*Elset, elset=BS6079*Elset, elset=BS6109*Elset, elset=BS61396079,6109,6139,*Elset, elset=BS6080*Elset, elset=BS6110*Elset, elset=BS61406080,6110,6140,*Elset, elset=BS6081*Elset, elset=BS6111*Elset, elset=BS61416081,6111,6141,*Elset, elset=BS6082*Elset, elset=BS6112*Elset, elset=BS61426082,6112,6142,*Elset, elset=BS6083*Elset, elset=BS6113*Elset, elset=BS61436083,6113,6143,*Elset, elset=BS6084*Elset, elset=BS6114*Elset, elset=BS61446084,6114,6144,*Elset, elset=BS6085*Elset, elset=BS6115*Elset, elset=BS61456085,6115,6145,*Elset, elset=BS6086*Elset, elset=BS6116*Elset, elset=BS61466086,6116,6146,*Elset, elset=BS6087*Elset, elset=BS6117*Elset, elset=BS61476087,6117,6147,*Elset, elset=BS6088*Elset, elset=BS6118*Elset, elset=BS61486088,6118,6148,*Elset, elset=BS6089*Elset, elset=BS6119*Elset, elset=BS61496089,6119,6149,*Elset, elset=BS6090*Elset, elset=BS6120*Elset, elset=BS61506090,6120,6150,*Elset, elset=BS6091*Elset, elset=BS6121*Elset, elset=BS61516091,6121,6151,*Elset, elset=BS6092*Elset, elset=BS6122*Elset, elset=BS61526092,6122,6152,*Elset, elset=BS6093*Elset, elset=BS6123*Elset, elset=BS61536093,6123,6153,*Elset, elset=BS6094*Elset, elset=BS6124*Elset, elset=BS61546094,6124,6154,*Elset, elset=BS6095*Elset, elset=BS6125*Elset, elset=BS61556095,6125,6155,*Elset, elset=BS6096*Elset, elset=BS6126*Elset, elset=BS61566096,6126,6156,*Elset, elset=BS6097*Elset, elset=BS6127*Elset, elset=BS6157556157,6187,6217,*Elset, elset=BS6158*Elset, elset=BS6188*Elset, elset=BS62186158,6188,6218,*Elset, elset=BS6159*Elset, elset=BS6189*Elset, elset=BS62196159,6189,6219,*Elset, elset=BS6160*Elset, elset=BS6190*Elset, elset=BS62206160,6190,6220,*Elset, elset=BS6161*Elset, elset=BS6191*Elset, elset=BS62216161,6191,6221,*Elset, elset=BS6162*Elset, elset=BS6192*Elset, elset=BS62226162,6192,6222,*Elset, elset=BS6163*Elset, elset=BS6193*Elset, elset=BS62236163,6193,6223,*Elset, elset=BS6164*Elset, elset=BS6194*Elset, elset=BS62246164,6194,6224,*Elset, elset=BS6165*Elset, elset=BS6195*Elset, elset=BS62256165,6195,6225,*Elset, elset=BS6166*Elset, elset=BS6196*Elset, elset=BS62266166,6196,6226,*Elset, elset=BS6167*Elset, elset=BS6197*Elset, elset=BS62276167,6197,6227,*Elset, elset=BS6168*Elset, elset=BS6198*Elset, elset=BS62286168,6198,6228,*Elset, elset=BS6169*Elset, elset=BS6199*Elset, elset=BS62296169,6199,6229,*Elset, elset=BS6170*Elset, elset=BS6200*Elset, elset=BS62306170,6200,6230,*Elset, elset=BS6171*Elset, elset=BS6201*Elset, elset=BS62316171,6201,6231,*Elset, elset=BS6172*Elset, elset=BS6202*Elset, elset=BS62326172,6202,6232,*Elset, elset=BS6173*Elset, elset=BS6203*Elset, elset=BS62336173,6203,6233,*Elset, elset=BS6174*Elset, elset=BS6204*Elset, elset=BS62346174,6204,6234,*Elset, elset=BS6175*Elset, elset=BS6205*Elset, elset=BS62356175,6205,6235,*Elset, elset=BS6176*Elset, elset=BS6206*Elset, elset=BS62366176,6206,6236,*Elset, elset=BS6177*Elset, elset=BS6207*Elset, elset=BS62376177,6207,6237,*Elset, elset=BS6178*Elset, elset=BS6208*Elset, elset=BS62386178,6208,6238,*Elset, elset=BS6179*Elset, elset=BS6209*Elset, elset=BS62396179,6209,6239,*Elset, elset=BS6180*Elset, elset=BS6210*Elset, elset=BS62406180,6210,6240,*Elset, elset=BS6181*Elset, elset=BS6211*Elset, elset=BS62416181,6211,6241,*Elset, elset=BS6182*Elset, elset=BS6212*Elset, elset=BS62426182,6212,6242,*Elset, elset=BS6183*Elset, elset=BS6213*Elset, elset=BS62436183,6213,6243,*Elset, elset=BS6184*Elset, elset=BS6214*Elset, elset=BS62446184,6214,6244,*Elset, elset=BS6185*Elset, elset=BS6215*Elset, elset=BS62456185,6215,6245,*Elset, elset=BS6186*Elset, elset=BS6216*Elset, elset=BS62466186,6216,6246,*Elset, elset=BS6187*Elset, elset=BS6217*Elset, elset=BS6247566247,0.01599429 ,*BeamSection,elset=BS6017,material=Material-1,section=Rect*Elset, elset=BS62480.4124869410.,0.,-1.
+*BeamSection,elset=BS6009,material=Material-1,section=Rect6248,*Elset, elset=BS62496249,0.03516553 ,*Elset, elset=BS62500.4219165740.,0.,-1.
+*BeamSection,elset=BS6018,material=Material-1,section=Rect6250,*BeamSection,elset=BS6001,material=Material-1,section=Rect0.01812598 ,0.4135252240.,0.,-1.
+*BeamSection,elset=BS6010,material=Material-1,section=Rect0.00106650 ,0.03729322 ,0.4052877130.,0.,-1.
+*BeamSection,elset=BS6002,material=Material-1,section=Rect0.4229758680.,0.,-1.
+*BeamSection,elset=BS6019,material=Material-1,section=Rect0.02025739 ,0.4145659210.,0.,-1.
+*BeamSection,elset=BS6011,material=Material-1,section=Rect0.00319939 ,0.03942035 ,0.4063086510.,0.,-1.
+*BeamSection,elset=BS6003,material=Material-1,section=Rect0.4240373970.,0.,-1.
+*BeamSection,elset=BS6020,material=Material-1,section=Rect0.02238841 ,0.4156090020.,0.,-1.
+*BeamSection,elset=BS6012,material=Material-1,section=Rect0.00533227 ,0.04154683 ,0.4073321820.,0.,-1.
+*BeamSection,elset=BS6004,material=Material-1,section=Rect0.4251011310.,0.,-1.
+*BeamSection,elset=BS6021,material=Material-1,section=Rect0.02451909 ,0.4166544380.,0.,-1.
+*BeamSection,elset=BS6013,material=Material-1,section=Rect0.00746500 ,0.04367266 ,0.4083581570.,0.,-1.
+*BeamSection,elset=BS6005,material=Material-1,section=Rect0.4261671010.,0.,-1.
+*BeamSection,elset=BS6022,material=Material-1,section=Rect0.02664932 ,0.4177022580.,0.,-1.
+*BeamSection,elset=BS6014,material=Material-1,section=Rect0.00959764 ,0.04579785 ,0.4093866650.,0.,-1.
+*BeamSection,elset=BS6006,material=Material-1,section=Rect0.4272352760.,0.,-1.
+*BeamSection,elset=BS6023,material=Material-1,section=Rect0.02877910 ,0.4187523720.,0.,-1.
+*BeamSection,elset=BS6015,material=Material-1,section=Rect0.01173007 ,0.04792231 ,0.4104176460.,0.,-1.
+*BeamSection,elset=BS6007,material=Material-1,section=Rect0.4283055960.,0.,-1.
+*BeamSection,elset=BS6024,material=Material-1,section=Rect0.03090844 ,0.4198048110.,0.,-1.
+*BeamSection,elset=BS6016,material=Material-1,section=Rect0.01386229 ,0.05004607 ,0.4114510420.,0.,-1.
+*BeamSection,elset=BS6008,material=Material-1,section=Rect0.4293781220.,0.,-1.
+*BeamSection,elset=BS6025,material=Material-1,section=Rect0.03303723 ,0.4208595450.,0.,-1.
+570.05216904 ,*BeamSection,elset=BS6034,material=Material-1,section=Rect0.08812384 ,0.4304527640.,0.,-1.
+*BeamSection,elset=BS6026,material=Material-1,section=Rect0.4490351970.,0.,-1.
+*BeamSection,elset=BS6043,material=Material-1,section=Rect0.07123841 ,0.4402186270.,0.,-1.
+*BeamSection,elset=BS6035,material=Material-1,section=Rect0.05429129 ,0.09022973 ,0.4315295520.,0.,-1.
+*BeamSection,elset=BS6027,material=Material-1,section=Rect0.4501459000.,0.,-1.
+*BeamSection,elset=BS6044,material=Material-1,section=Rect0.07335266 ,0.4413138630.,0.,-1.
+*BeamSection,elset=BS6036,material=Material-1,section=Rect0.05641269 ,0.09233446 ,0.4326084260.,0.,-1.
+*BeamSection,elset=BS6028,material=Material-1,section=Rect0.4512584210.,0.,-1.
+*BeamSection,elset=BS6045,material=Material-1,section=Rect0.07546594 ,0.4424111250.,0.,-1.
+*BeamSection,elset=BS6037,material=Material-1,section=Rect0.05853327 ,0.09443811 ,0.4336894450.,0.,-1.
+*BeamSection,elset=BS6029,material=Material-1,section=Rect0.4523727890.,0.,-1.
+*BeamSection,elset=BS6046,material=Material-1,section=Rect0.07757819 ,0.4435102940.,0.,-1.
+*BeamSection,elset=BS6038,material=Material-1,section=Rect0.06065305 ,0.09654057 ,0.4347725210.,0.,-1.
+*BeamSection,elset=BS6030,material=Material-1,section=Rect0.4534890060.,0.,-1.
+*BeamSection,elset=BS6047,material=Material-1,section=Rect0.07968946 ,0.4446114600.,0.,-1.
+*BeamSection,elset=BS6039,material=Material-1,section=Rect0.06277192 ,0.09864190 ,0.4358576540.,0.,-1.
+*BeamSection,elset=BS6031,material=Material-1,section=Rect0.4546070690.,0.,-1.
+*BeamSection,elset=BS6048,material=Material-1,section=Rect0.08179965 ,0.4457145330.,0.,-1.
+*BeamSection,elset=BS6040,material=Material-1,section=Rect0.06488995 ,0.10074201 ,0.4369448720.,0.,-1.
+*BeamSection,elset=BS6032,material=Material-1,section=Rect0.4557269220.,0.,-1.
+*BeamSection,elset=BS6049,material=Material-1,section=Rect0.08390880 ,0.4468195440.,0.,-1.
+*BeamSection,elset=BS6041,material=Material-1,section=Rect0.06700703 ,0.10284095 ,0.4380340870.,0.,-1.
+*BeamSection,elset=BS6033,material=Material-1,section=Rect0.4568485320.,0.,-1.
+*BeamSection,elset=BS6050,material=Material-1,section=Rect0.08601686 ,0.4479264320.,0.,-1.
+*BeamSection,elset=BS6042,material=Material-1,section=Rect0.06912322 ,0.10493869 ,0.4391253590.,0.,-1.
+0.4579719900.,0.,-1.
+58*BeamSection,elset=BS6051,material=Material-1,section=Rect0.12376223 ,*BeamSection,elset=BS6068,material=Material-1,section=Rect0.4681608970.,0.,-1.
+*BeamSection,elset=BS6060,material=Material-1,section=Rect0.10703520 ,0.14247951 ,0.4590971770.,0.,-1.
+*BeamSection,elset=BS6052,material=Material-1,section=Rect0.4784839750.,0.,-1.
+*BeamSection,elset=BS6069,material=Material-1,section=Rect0.12584728 ,0.4693014320.,0.,-1.
+*BeamSection,elset=BS6061,material=Material-1,section=Rect0.10913052 ,0.14455241 ,0.4602241220.,0.,-1.
+*BeamSection,elset=BS6053,material=Material-1,section=Rect0.4796388750.,0.,-1.
+*BeamSection,elset=BS6070,material=Material-1,section=Rect0.12793101 ,0.4704436060.,0.,-1.
+*BeamSection,elset=BS6062,material=Material-1,section=Rect0.11122455 ,0.14662388 ,0.4613527950.,0.,-1.
+*BeamSection,elset=BS6054,material=Material-1,section=Rect0.4807953540.,0.,-1.
+*BeamSection,elset=BS6071,material=Material-1,section=Rect0.13001345 ,0.4715874200.,0.,-1.
+*BeamSection,elset=BS6063,material=Material-1,section=Rect0.11331734 ,0.14869398 ,0.4624832270.,0.,-1.
+*BeamSection,elset=BS6055,material=Material-1,section=Rect0.4819533530.,0.,-1.
+*BeamSection,elset=BS6072,material=Material-1,section=Rect0.13209452 ,0.4727328720.,0.,-1.
+*BeamSection,elset=BS6064,material=Material-1,section=Rect0.11540890 ,0.15076263 ,0.4636153880.,0.,-1.
+*BeamSection,elset=BS6056,material=Material-1,section=Rect0.4831128420.,0.,-1.
+*BeamSection,elset=BS6073,material=Material-1,section=Rect0.13417427 ,0.4738799040.,0.,-1.
+*BeamSection,elset=BS6065,material=Material-1,section=Rect0.11749916 ,0.15282992 ,0.4647492170.,0.,-1.
+*BeamSection,elset=BS6057,material=Material-1,section=Rect0.4842738810.,0.,-1.
+*BeamSection,elset=BS6074,material=Material-1,section=Rect0.13625261 ,0.4750285740.,0.,-1.
+*BeamSection,elset=BS6066,material=Material-1,section=Rect0.11958816 ,0.15489574 ,0.4658847750.,0.,-1.
+*BeamSection,elset=BS6058,material=Material-1,section=Rect0.4854363800.,0.,-1.
+*BeamSection,elset=BS6075,material=Material-1,section=Rect0.13832964 ,0.4761788250.,0.,-1.
+*BeamSection,elset=BS6067,material=Material-1,section=Rect0.12167583 ,0.15696016 ,0.4670220020.,0.,-1.
+*BeamSection,elset=BS6059,material=Material-1,section=Rect0.4866003390.,0.,-1.
+*BeamSection,elset=BS6076,material=Material-1,section=Rect0.14040527 ,0.4773306250.,0.,-1.
+590.15902318 ,*BeamSection,elset=BS6085,material=Material-1,section=Rect0.19387177 ,0.4877658490.,0.,-1.
+*BeamSection,elset=BS6077,material=Material-1,section=Rect0.5077946190.,0.,-1.
+*BeamSection,elset=BS6094,material=Material-1,section=Rect0.17752518 ,0.4983197450.,0.,-1.
+*BeamSection,elset=BS6086,material=Material-1,section=Rect0.16108473 ,0.19590843 ,0.4889327590.,0.,-1.
+*BeamSection,elset=BS6078,material=Material-1,section=Rect0.5089849230.,0.,-1.
+*BeamSection,elset=BS6095,material=Material-1,section=Rect0.17957364 ,0.4994994100.,0.,-1.
+*BeamSection,elset=BS6087,material=Material-1,section=Rect0.16314487 ,0.19794357 ,0.4901011880.,0.,-1.
+*BeamSection,elset=BS6079,material=Material-1,section=Rect0.5101764800.,0.,-1.
+*BeamSection,elset=BS6096,material=Material-1,section=Rect0.18162069 ,0.5006804470.,0.,-1.
+*BeamSection,elset=BS6088,material=Material-1,section=Rect0.16520354 ,0.19997723 ,0.4912709890.,0.,-1.
+*BeamSection,elset=BS6080,material=Material-1,section=Rect0.5113693480.,0.,-1.
+*BeamSection,elset=BS6097,material=Material-1,section=Rect0.18366621 ,0.5018627640.,0.,-1.
+*BeamSection,elset=BS6089,material=Material-1,section=Rect0.16726081 ,0.20200942 ,0.4924422800.,0.,-1.
+*BeamSection,elset=BS6081,material=Material-1,section=Rect0.5125635270.,0.,-1.
+*BeamSection,elset=BS6098,material=Material-1,section=Rect0.18571028 ,0.5030464530.,0.,-1.
+*BeamSection,elset=BS6090,material=Material-1,section=Rect0.16931659 ,0.20404013 ,0.4936149420.,0.,-1.
+*BeamSection,elset=BS6082,material=Material-1,section=Rect0.5137588980.,0.,-1.
+*BeamSection,elset=BS6099,material=Material-1,section=Rect0.18775289 ,0.5042315720.,0.,-1.
+*BeamSection,elset=BS6091,material=Material-1,section=Rect0.17137091 ,0.20606934 ,0.4947890340.,0.,-1.
+*BeamSection,elset=BS6083,material=Material-1,section=Rect0.5149555800.,0.,-1.
+*BeamSection,elset=BS6100,material=Material-1,section=Rect0.18979397 ,0.5054179430.,0.,-1.
+*BeamSection,elset=BS6092,material=Material-1,section=Rect0.17342381 ,0.20809703 ,0.4959645570.,0.,-1.
+*BeamSection,elset=BS6084,material=Material-1,section=Rect0.5161534550.,0.,-1.
+*BeamSection,elset=BS6101,material=Material-1,section=Rect0.19183363 ,0.5066056250.,0.,-1.
+*BeamSection,elset=BS6093,material=Material-1,section=Rect0.17547521 ,0.21012327 ,0.4971414510.,0.,-1.
+0.5173525810.,0.,-1.
+60*BeamSection,elset=BS6102,material=Material-1,section=Rect0.22829182 ,*BeamSection,elset=BS6119,material=Material-1,section=Rect0.5281989570.,0.,-1.
+*BeamSection,elset=BS6111,material=Material-1,section=Rect0.21214797 ,0.24633937 ,0.5185529590.,0.,-1.
+*BeamSection,elset=BS6103,material=Material-1,section=Rect0.5391387940.,0.,-1.
+*BeamSection,elset=BS6120,material=Material-1,section=Rect0.23030306 ,0.5294100050.,0.,-1.
+*BeamSection,elset=BS6112,material=Material-1,section=Rect0.21417122 ,0.24833721 ,0.5197545290.,0.,-1.
+*BeamSection,elset=BS6104,material=Material-1,section=Rect0.5403598550.,0.,-1.
+*BeamSection,elset=BS6121,material=Material-1,section=Rect0.23231289 ,0.5306221840.,0.,-1.
+*BeamSection,elset=BS6113,material=Material-1,section=Rect0.21619292 ,0.25033358 ,0.5209572910.,0.,-1.
+*BeamSection,elset=BS6105,material=Material-1,section=Rect0.5415820480.,0.,-1.
+*BeamSection,elset=BS6122,material=Material-1,section=Rect0.23432112 ,0.5318354960.,0.,-1.
+*BeamSection,elset=BS6114,material=Material-1,section=Rect0.21821311 ,0.25232846 ,0.5221613050.,0.,-1.
+*BeamSection,elset=BS6106,material=Material-1,section=Rect0.5428052540.,0.,-1.
+*BeamSection,elset=BS6123,material=Material-1,section=Rect0.23632790 ,0.5330498810.,0.,-1.
+*BeamSection,elset=BS6115,material=Material-1,section=Rect0.22023186 ,0.25432181 ,0.5233664510.,0.,-1.
+*BeamSection,elset=BS6107,material=Material-1,section=Rect0.5440294740.,0.,-1.
+*BeamSection,elset=BS6124,material=Material-1,section=Rect0.23833317 ,0.5342654590.,0.,-1.
+*BeamSection,elset=BS6116,material=Material-1,section=Rect0.22224914 ,0.25631371 ,0.5245728490.,0.,-1.
+*BeamSection,elset=BS6108,material=Material-1,section=Rect0.5452548270.,0.,-1.
+*BeamSection,elset=BS6125,material=Material-1,section=Rect0.24033691 ,0.5354821680.,0.,-1.
+*BeamSection,elset=BS6117,material=Material-1,section=Rect0.22426486 ,0.25830409 ,0.5257803800.,0.,-1.
+*BeamSection,elset=BS6109,material=Material-1,section=Rect0.5464811920.,0.,-1.
+*BeamSection,elset=BS6126,material=Material-1,section=Rect0.24233925 ,0.5367000100.,0.,-1.
+*BeamSection,elset=BS6118,material=Material-1,section=Rect0.22627909 ,0.26029313 ,0.5269891020.,0.,-1.
+*BeamSection,elset=BS6110,material=Material-1,section=Rect0.5477086310.,0.,-1.
+*BeamSection,elset=BS6127,material=Material-1,section=Rect0.24434006 ,0.5379188660.,0.,-1.
+610.26228058 ,*BeamSection,elset=BS6136,material=Material-1,section=Rect0.29584420 ,0.5489370820.,0.,-1.
+*BeamSection,elset=BS6128,material=Material-1,section=Rect0.5699723960.,0.,-1.
+*BeamSection,elset=BS6145,material=Material-1,section=Rect0.28010187 ,0.5600385070.,0.,-1.
+*BeamSection,elset=BS6137,material=Material-1,section=Rect0.26426655 ,0.29780558 ,0.5501665470.,0.,-1.
+*BeamSection,elset=BS6129,material=Material-1,section=Rect0.5712183710.,0.,-1.
+*BeamSection,elset=BS6146,material=Material-1,section=Rect0.28207472 ,0.5612769130.,0.,-1.
+*BeamSection,elset=BS6138,material=Material-1,section=Rect0.26625109 ,0.29976550 ,0.5513970260.,0.,-1.
+*BeamSection,elset=BS6130,material=Material-1,section=Rect0.5724651810.,0.,-1.
+*BeamSection,elset=BS6147,material=Material-1,section=Rect0.28404608 ,0.5625162720.,0.,-1.
+*BeamSection,elset=BS6139,material=Material-1,section=Rect0.26823413 ,0.30172396 ,0.5526285170.,0.,-1.
+*BeamSection,elset=BS6131,material=Material-1,section=Rect0.5737129450.,0.,-1.
+*BeamSection,elset=BS6148,material=Material-1,section=Rect0.28601602 ,0.5637565850.,0.,-1.
+*BeamSection,elset=BS6140,material=Material-1,section=Rect0.27021578 ,0.30368102 ,0.5538610820.,0.,-1.
+*BeamSection,elset=BS6132,material=Material-1,section=Rect0.5749615430.,0.,-1.
+*BeamSection,elset=BS6149,material=Material-1,section=Rect0.28798461 ,0.5649979110.,0.,-1.
+*BeamSection,elset=BS6141,material=Material-1,section=Rect0.27219591 ,0.30563670 ,0.5550945400.,0.,-1.
+*BeamSection,elset=BS6133,material=Material-1,section=Rect0.5762111540.,0.,-1.
+*BeamSection,elset=BS6150,material=Material-1,section=Rect0.28995165 ,0.5662401320.,0.,-1.
+*BeamSection,elset=BS6142,material=Material-1,section=Rect0.27417457 ,0.30759093 ,0.5563290720.,0.,-1.
+*BeamSection,elset=BS6134,material=Material-1,section=Rect0.5774615410.,0.,-1.
+*BeamSection,elset=BS6151,material=Material-1,section=Rect0.29191726 ,0.5674833060.,0.,-1.
+*BeamSection,elset=BS6143,material=Material-1,section=Rect0.27615178 ,0.30954376 ,0.5575645570.,0.,-1.
+*BeamSection,elset=BS6135,material=Material-1,section=Rect0.5787128810.,0.,-1.
+*BeamSection,elset=BS6152,material=Material-1,section=Rect0.29388145 ,0.5687273740.,0.,-1.
+*BeamSection,elset=BS6144,material=Material-1,section=Rect0.27812755 ,0.31149518 ,0.5588010550.,0.,-1.
+0.5799650550.,0.,-1.
+62*BeamSection,elset=BS6153,material=Material-1,section=Rect0.32899523 ,*BeamSection,elset=BS6170,material=Material-1,section=Rect0.5912733080.,0.,-1.
+*BeamSection,elset=BS6162,material=Material-1,section=Rect0.31344515 ,0.34638411 ,0.5812181230.,0.,-1.
+*BeamSection,elset=BS6154,material=Material-1,section=Rect0.6026481990.,0.,-1.
+*BeamSection,elset=BS6171,material=Material-1,section=Rect0.33093274 ,0.5925339460.,0.,-1.
+*BeamSection,elset=BS6163,material=Material-1,section=Rect0.31539384 ,0.34830949 ,0.5824720860.,0.,-1.
+*BeamSection,elset=BS6155,material=Material-1,section=Rect0.6039159890.,0.,-1.
+*BeamSection,elset=BS6172,material=Material-1,section=Rect0.33286896 ,0.5937954190.,0.,-1.
+*BeamSection,elset=BS6164,material=Material-1,section=Rect0.31734106 ,0.35023347 ,0.5837268230.,0.,-1.
+*BeamSection,elset=BS6156,material=Material-1,section=Rect0.6051845550.,0.,-1.
+*BeamSection,elset=BS6173,material=Material-1,section=Rect0.33480376 ,0.5950577260.,0.,-1.
+*BeamSection,elset=BS6165,material=Material-1,section=Rect0.31928688 ,0.35215622 ,0.5849824550.,0.,-1.
+*BeamSection,elset=BS6157,material=Material-1,section=Rect0.6064539550.,0.,-1.
+*BeamSection,elset=BS6174,material=Material-1,section=Rect0.33673719 ,0.5963208080.,0.,-1.
+*BeamSection,elset=BS6166,material=Material-1,section=Rect0.32123131 ,0.35407758 ,0.5862389210.,0.,-1.
+*BeamSection,elset=BS6158,material=Material-1,section=Rect0.6077240710.,0.,-1.
+*BeamSection,elset=BS6175,material=Material-1,section=Rect0.33866927 ,0.5975846650.,0.,-1.
+*BeamSection,elset=BS6167,material=Material-1,section=Rect0.32317433 ,0.35599759 ,0.5874962810.,0.,-1.
+*BeamSection,elset=BS6159,material=Material-1,section=Rect0.6089949610.,0.,-1.
+*BeamSection,elset=BS6176,material=Material-1,section=Rect0.34060001 ,0.5988493560.,0.,-1.
+*BeamSection,elset=BS6168,material=Material-1,section=Rect0.32511607 ,0.35791630 ,0.5887544750.,0.,-1.
+*BeamSection,elset=BS6160,material=Material-1,section=Rect0.6102665660.,0.,-1.
+*BeamSection,elset=BS6177,material=Material-1,section=Rect0.34252942 ,0.6001148820.,0.,-1.
+*BeamSection,elset=BS6169,material=Material-1,section=Rect0.32705632 ,0.35983372 ,0.5900135040.,0.,-1.
+*BeamSection,elset=BS6161,material=Material-1,section=Rect0.6115389470.,0.,-1.
+*BeamSection,elset=BS6178,material=Material-1,section=Rect0.34445745 ,0.6013811230.,0.,-1.
+630.36174983 ,*BeamSection,elset=BS6187,material=Material-1,section=Rect0.39412659 ,0.6128121020.,0.,-1.
+*BeamSection,elset=BS6179,material=Material-1,section=Rect0.6345644590.,0.,-1.
+*BeamSection,elset=BS6196,material=Material-1,section=Rect0.37893635 ,0.6243028640.,0.,-1.
+*BeamSection,elset=BS6188,material=Material-1,section=Rect0.36366463 ,0.39601982 ,0.6140859130.,0.,-1.
+*BeamSection,elset=BS6180,material=Material-1,section=Rect0.6358502510.,0.,-1.
+*BeamSection,elset=BS6197,material=Material-1,section=Rect0.38083950 ,0.6255831720.,0.,-1.
+*BeamSection,elset=BS6189,material=Material-1,section=Rect0.36557809 ,0.39791176 ,0.6153605580.,0.,-1.
+*BeamSection,elset=BS6181,material=Material-1,section=Rect0.6371366380.,0.,-1.
+*BeamSection,elset=BS6198,material=Material-1,section=Rect0.38274145 ,0.6268641350.,0.,-1.
+*BeamSection,elset=BS6190,material=Material-1,section=Rect0.36749026 ,0.39980239 ,0.6166358590.,0.,-1.
+*BeamSection,elset=BS6182,material=Material-1,section=Rect0.6384236810.,0.,-1.
+*BeamSection,elset=BS6199,material=Material-1,section=Rect0.38464206 ,0.6281458140.,0.,-1.
+*BeamSection,elset=BS6191,material=Material-1,section=Rect0.36940119 ,0.40169185 ,0.6179119350.,0.,-1.
+*BeamSection,elset=BS6183,material=Material-1,section=Rect0.6397113800.,0.,-1.
+*BeamSection,elset=BS6200,material=Material-1,section=Rect0.38654146 ,0.6294282080.,0.,-1.
+*BeamSection,elset=BS6192,material=Material-1,section=Rect0.37131077 ,0.40358013 ,0.6191886660.,0.,-1.
+*BeamSection,elset=BS6184,material=Material-1,section=Rect0.6409997340.,0.,-1.
+*BeamSection,elset=BS6201,material=Material-1,section=Rect0.38843966 ,0.6307113170.,0.,-1.
+*BeamSection,elset=BS6193,material=Material-1,section=Rect0.37321907 ,0.40546715 ,0.6204661730.,0.,-1.
+*BeamSection,elset=BS6185,material=Material-1,section=Rect0.6422888040.,0.,-1.
+*BeamSection,elset=BS6202,material=Material-1,section=Rect0.39033657 ,0.6319950220.,0.,-1.
+*BeamSection,elset=BS6194,material=Material-1,section=Rect0.37512606 ,0.40735301 ,0.6217443350.,0.,-1.
+*BeamSection,elset=BS6186,material=Material-1,section=Rect0.6435784100.,0.,-1.
+*BeamSection,elset=BS6203,material=Material-1,section=Rect0.39223218 ,0.6332794430.,0.,-1.
+*BeamSection,elset=BS6195,material=Material-1,section=Rect0.37703180 ,0.40923759 ,0.6230232120.,0.,-1.
+0.6448687310.,0.,-1.
+64*BeamSection,elset=BS6204,material=Material-1,section=Rect0.42614534 ,*BeamSection,elset=BS6221,material=Material-1,section=Rect0.6565092800.,0.,-1.
+*BeamSection,elset=BS6213,material=Material-1,section=Rect0.41112101 ,0.44295833 ,0.6461595890.,0.,-1.
+*BeamSection,elset=BS6205,material=Material-1,section=Rect0.6681985860.,0.,-1.
+*BeamSection,elset=BS6222,material=Material-1,section=Rect0.42801803 ,0.6578057410.,0.,-1.
+*BeamSection,elset=BS6214,material=Material-1,section=Rect0.41300318 ,0.44482067 ,0.6474511620.,0.,-1.
+*BeamSection,elset=BS6206,material=Material-1,section=Rect0.6695002910.,0.,-1.
+*BeamSection,elset=BS6223,material=Material-1,section=Rect0.42988959 ,0.6591027980.,0.,-1.
+*BeamSection,elset=BS6215,material=Material-1,section=Rect0.41488421 ,0.44668186 ,0.6487433910.,0.,-1.
+*BeamSection,elset=BS6207,material=Material-1,section=Rect0.6708025930.,0.,-1.
+*BeamSection,elset=BS6224,material=Material-1,section=Rect0.43176001 ,0.6604005100.,0.,-1.
+*BeamSection,elset=BS6216,material=Material-1,section=Rect0.41676405 ,0.44854209 ,0.6500361560.,0.,-1.
+*BeamSection,elset=BS6208,material=Material-1,section=Rect0.6721054320.,0.,-1.
+*BeamSection,elset=BS6225,material=Material-1,section=Rect0.43362927 ,0.6616986990.,0.,-1.
+*BeamSection,elset=BS6217,material=Material-1,section=Rect0.41864264 ,0.45040107 ,0.6513295770.,0.,-1.
+*BeamSection,elset=BS6209,material=Material-1,section=Rect0.6734088060.,0.,-1.
+*BeamSection,elset=BS6226,material=Material-1,section=Rect0.43549734 ,0.6629974840.,0.,-1.
+*BeamSection,elset=BS6218,material=Material-1,section=Rect0.42052007 ,0.45225900 ,0.6526235940.,0.,-1.
+*BeamSection,elset=BS6210,material=Material-1,section=Rect0.6747127180.,0.,-1.
+*BeamSection,elset=BS6227,material=Material-1,section=Rect0.43736428 ,0.6642969250.,0.,-1.
+*BeamSection,elset=BS6219,material=Material-1,section=Rect0.42239636 ,0.45411572 ,0.6539182660.,0.,-1.
+*BeamSection,elset=BS6211,material=Material-1,section=Rect0.6760172840.,0.,-1.
+*BeamSection,elset=BS6228,material=Material-1,section=Rect0.43923008 ,0.6655969020.,0.,-1.
+*BeamSection,elset=BS6220,material=Material-1,section=Rect0.42427140 ,0.45597145 ,0.6552134750.,0.,-1.
+*BeamSection,elset=BS6212,material=Material-1,section=Rect0.6773223280.,0.,-1.
+*BeamSection,elset=BS6229,material=Material-1,section=Rect0.44109476 ,0.6668974760.,0.,-1.
+650.45782605 ,*BeamSection,elset=BS6238,material=Material-1,section=Rect0.46060622 ,0.46060622 ,0.6786279080.,0.,-1.
+*BeamSection,elset=BS6230,material=Material-1,section=Rect0.6805875300.,0.,-1.
+*BeamSection,elset=BS6247,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6239,material=Material-1,section=Rect0.46060622 ,0.45967948 ,0.6799340250.,0.,-1.
+*BeamSection,elset=BS6231,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6248,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6240,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6232,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6249,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6241,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6233,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6250,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6242,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6234,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*************************************************************************Surface,Type=Node,Name=Surf_BS600160026003600460056006600760086009601060116012601360146015601660176018601960206021602260230.6805875300.,0.,-1.
+*BeamSection,elset=BS6243,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6235,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6244,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6236,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6245,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6237,material=Material-1,section=Rect0.46060622 ,0.6805875300.,0.,-1.
+*BeamSection,elset=BS6246,material=Material-1,section=Rect0.6805875300.,0.,-1.
+6660246025602660276028602960306031603260336034603560366037603860396040604160426043604460456046604760486049605060516052605360546055605660576058605960606061606260636064606560666067606860696070607160726073607460756076607760786079608060816082608360846085608660876088608960906091609260936094609560966097609860996100610161026103610461056106610761086109611061116112611361146115611661176118611961206121612261236124612561266127612861296130613161326133613461356136613761386139614061416142614361446145614661476148614961506151615261536154615561566157615861596160616161626163616461656166616761686169617061716172617361746175617661776178617961806181618261836184618561866187618861896190619161926193619461956196619761986199620062016202620367620462056206620762086209621062116212621362146215621662176218621962206221622262236224622562266227622862296230623162326233623462356236623762386239624062416242624362446245624662476248624962506251*Surface,Type=Node,Name=Surf_Riser1251125212531254125512561257125812591260126112621263126412651266126712681269127012711272127312741275127612771278127912801281128212831284128512861287128812891290129112921293129412951296129712981299130013011302130313041305130613071308130913101311131213131314131513161317131813191320132113221323132413251326132713281329133013311332133313341335133613371338133913401341134213431344134513461347134813491350135113521353135413551356135713581359136013611362136313641365136613671368136913701371137213731374137513761377137813791380681381138213831384138513861387138813891390139113921393139413951396139713981399140014011402140314041405140614071408140914101411141214131414141514161417141814191420142114221423142414251426142714281429143014311432143314341435143614371438143914401441144214431444144514461447144814491450145114521453145414551456145714581459146014611462146314641465146614671468146914701471147214731474147514761477147814791480148114821483148414851486148714881489149014911492149314941495149614971498149915001501************************************** Constraint: Constraint-1*Tie, name=Constraint-1,adjust=yesSurf_BS, Surf_Riser*************************************Nset, nset=Engaste_Rigido1501,6251*Nset, nset=N_Forca1001*************************************Orientation, name="Datumcsys-1"1.,
+0.,
+1, 0.
+************************************************************************************AMPLITUDE ************Amplitude,name=AmpForca,definition=Periodic1,0.448,0.801,10,0.3338*Amplitude,name=AmpAngulo,definition=Periodic1,0.448,-1.7,1
+0,0.8462**************************************MATERIALS***Material,name=MATERIAL-1*Elastic,moduli=INSTANTANEOUS8.103285600041369e+07,0.3
+*Viscoelastic, time=PRONY0.3734558949035541,0.3734558949035541 ,1.01188533404198620.056658285744699916,0.056658285744699916,59.0974069738818950.037982907818830174,0.037982907818830174,695.
+04470970036970.05585211605855134,0.05585211605855134,7647.9753065312240.,
+0.
+0.,
+1.,
+69*End Step************************************************************************** STEP: VISCO***Step, name=Step_2,nlgeom=YES,inc=5000000*Visco0.1, 10000*** BoundaryEngaste_Rigido,encastre*Boundary,amplitude=AmpAnguloN_Forca,6,6,0.1196** LOADS***Cload,follower,amplitude=AmpForcaN_Forca, 1,-1.66783E+6**** OUTPUT REQUESTS** OUTPUT REQUESTS***Restart, write, frequency=0**** FIELD OUTPUT: F-Output-1***Output, field,variable=PRESELECT*Element Output,ELSET=RISERSE**** HISTORY OUTPUT: H-Output-1***Output, history,variable=PRESELECT*Node Print,freq=1,Nset=RiserCoor1, Coor2,Coor3*Output, history,variable=PRESELECT*El Print, freq=1,elset=RiserSK1************************************************************************************************************************************************************************************** STEP: Step_Static***Step, name=Step_1,nlgeom=YES*Static0.001, 1, 1e-20, 1.
+*** BoundaryEngaste_Rigido,encastreN_Forca,6,6,0.1196** LOADS***Cload,followerN_Forca, 1,-1.66783E+6*****Restart, write, frequency=0**** FIELD OUTPUT: F-Output-1***Output, field, variable=PRESELECT*Element Output, ELSET=RISERSE**** HISTORY OUTPUT: H-Output-1***Output, history, variable=PRESELECT*Node Print, freq=1,Nset=RiserCoor1, Coor2,Coor3*Output, history, variable=PRESELECT*El Print, freq=1,elset=RiserSK1*End Step70
