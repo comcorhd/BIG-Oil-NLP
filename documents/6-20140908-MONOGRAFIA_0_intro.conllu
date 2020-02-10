@@ -1,13 +1,16 @@
-# text = ﻿3-Introdução: 3.1-Caracterização Geral:
-# sent_id = 6-20140908-MONOGRAFIA_0-1
-1	﻿3-Introdução	﻿3-Introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	3.1-Caracterização	3.1-Caracterização	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-4	Geral	Geral	NOUN	_	Number=Sing	3	amod	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	1	punct	_	_
+# text = ﻿Introdução.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-1
+1	﻿Introdução	﻿Introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Caracterização Geral.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-2
+1	Caracterização	Caracterização	NOUN	_	Gender=Fem|Number=Sing	1	root	_	_
+2	Geral	Geral	NOUN	_	Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Desde 1887, quando se teve o início da “era da propulsão mecânica” e posteriormente com o surgimento da indústria petroquímica em 1930, o petróleo tem tido importante função na sociedade, como fonte combustível e fornecendo matéria sintética para diversos produtos (CETESB, 2002).
-# sent_id = 6-20140908-MONOGRAFIA_0-2
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-3
 1	Desde	desde	ADP	_	_	2	case	_	_
 2	1887	1887	NUM	_	NumType=Card	33	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -69,7 +72,7 @@
 55	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\r\n
 
 # text = Tanto o óleo cru como seus derivados estão entre os contaminantes mais comumente lançados no ambiente costeiro e estuarino.
-# sent_id = 6-20140908-MONOGRAFIA_0-3
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-4
 1	Tanto	tanto	ADV	_	_	3	cc	_	MWE=tanto_como|MWEPOS=CCONJ
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -94,7 +97,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Seja por causas intencionais ou acidentais, estes lançamentos vêm contribuindo para comprometer a qualidade das águas costeiras e oceânicas bem como o equilíbrio dos ecossistemas marinhos (Kennish, 1997).
-# sent_id = 6-20140908-MONOGRAFIA_0-4
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-5
 1	Seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	causas	causa	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
@@ -134,7 +137,7 @@
 35	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n
 
 # text = Derrames de petróleo, de natureza acidental ou crônica, constituem um sério problema ambiental o que torna necessário o desenvolvimento de programas de monitoramento globais e regionais nos ambientes marinhos (GESAMP, 1993).
-# sent_id = 6-20140908-MONOGRAFIA_0-5
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-6
 1	Derrames	Derrame	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -176,7 +179,7 @@
 38	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n
 
 # text = Grandes derrames não constituem as maiores fontes de lançamento de óleo nos ambientes estuarinos e marinhos, pois cerca de 45% do óleo nestes ambientes entra por rios poluídos, águas residuais das cidades, indústrias não petrolíferas e fontes aéreas.
-# sent_id = 6-20140908-MONOGRAFIA_0-6
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-7
 1	Grandes	grande	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	derrames	derrame	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -199,38 +202,37 @@
 19	pois	pois	CCONJ	_	_	30	cc	_	_
 20	cerca	cerca	ADV	_	_	23	advmod	_	MWE=cerca_de|MWEPOS=ADV
 21	de	de	ADP	_	_	20	fixed	_	_
-22	45	45	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
-23	%	%	SYM	_	_	30	nsubj	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-27-28	nestes	_	_	_	_	_	_	_	_
-27	em	em	ADP	_	_	29	case	_	_
-28	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	29	det	_	_
-29	ambientes	ambiente	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
-30	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-31	por	por	ADP	_	_	32	case	_	_
-32	rios	rios	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	_
-33	poluídos	poluído	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	35	punct	_	_
-35	águas	água	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	_
-36	residuais	residual	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
-37-38	das	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	39	case	_	_
-38	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
-39	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	41	punct	_	_
-41	indústrias	indústria	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	_
-42	não	não	ADV	_	Polarity=Neg	43	advmod	_	_
-43	petrolíferas	petrolífero	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	_
-44	e	e	CCONJ	_	_	45	cc	_	_
-45	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	_
-46	aéreas	aéreo	ADJ	_	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	4	punct	_	_
+22	45%	45%	NUM	_	NumType=Card	29	nsubj	_	SpaceAfter=No
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	nestes	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	28	det	_	_
+28	ambientes	ambiente	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+30	por	por	ADP	_	_	31	case	_	_
+31	rios	rios	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	_
+32	poluídos	poluído	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	águas	água	NOUN	_	Gender=Fem|Number=Plur	31	conj	_	_
+35	residuais	residual	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
+36-37	das	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	indústrias	indústria	NOUN	_	Gender=Fem|Number=Plur	31	conj	_	_
+41	não	não	ADV	_	Polarity=Neg	42	advmod	_	_
+42	petrolíferas	petrolífero	ADJ	_	Gender=Fem|Number=Plur	40	amod	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	31	conj	_	_
+45	aéreas	aéreo	ADJ	_	Gender=Fem|Number=Plur	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = No entanto, este tipo de acidente, principalmente em larga escala, causa grandes danos a biota local.
-# sent_id = 6-20140908-MONOGRAFIA_0-7
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-8
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	15	cc	_	MWE=no_entanto|MWEPOS=CCONJ
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -255,7 +257,7 @@
 21	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Estes danos podem ser acentuados dependendo das características locais, podendo o óleo permanecer por longos períodos após o derrame (Kennish, 1997).
-# sent_id = 6-20140908-MONOGRAFIA_0-8
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-9
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	danos	dano	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -286,7 +288,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n
 
 # text = No Brasil, as atividades relacionadas ao petróleo tiveram um grande impulso depois da quebra do monopólio estatal.
-# sent_id = 6-20140908-MONOGRAFIA_0-9
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-10
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -315,8 +317,8 @@
 22	estatal	estatal	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	11	punct	_	_
 
-# text = Dentro deste novo contexto, que visa tornar o país auto- sustentável, tem se dada grande importância às questões ambientais.
-# sent_id = 6-20140908-MONOGRAFIA_0-10
+# text = Dentro deste novo contexto, que visa tornar o país auto-sustentável, tem se dada grande importância às questões ambientais.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-11
 1	Dentro	dentro	ADV	_	_	18	advmod	_	_
 2-3	deste	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -329,24 +331,22 @@
 9	tornar	tornar	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	país	país	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
-12	auto	auto	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
-13	-	-	PUNCT	_	_	12	punct	_	_
-14	sustentável	sustentável	ADJ	_	Gender=Masc|Number=Sing	12	compound	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	9	punct	_	_
-16	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-17	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
-18	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-19	grande	grande	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-20	importância	importância	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21-22	às	_	_	_	_	_	_	_	_
-21	a	a	ADP	_	_	23	case	_	_
-22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
-23	questões	questão	NOUN	_	Gender=Fem|Number=Plur	18	iobj	_	_
-24	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	18	punct	_	_
+12	auto-sustentável	auto-sustentável	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
+16	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17	grande	grande	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	importância	importância	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	às	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	questões	questão	NOUN	_	Gender=Fem|Number=Plur	16	iobj	_	_
+22	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Com o crescimento deste mercado, a Agência Nacional do Petróleo (ANP), associada ao Ministério das Minas e Energia (MME) e o Ministério da Ciência e Tecnologia (MCT), criou o Programa de Formação de Recursos Humanos da Agência Nacional do Petróleo PRH-ANP/MME/MCT (ANP) para o setor Petróleo e Gás, visando a formação de mão de obra qualificada para atuar neste segmento.
-# sent_id = 6-20140908-MONOGRAFIA_0-11
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-12
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	_
@@ -438,7 +438,7 @@
 81	.	.	PUNCT	_	_	42	punct	_	_
 
 # text = O presente trabalho está inserido neste programa, através de um convênio denominado “Estudos Ambientais em Áreas de Atuação da Indústria do Petróleo”, estabelecido na Fundação Universidade Federal do Rio Grande (FURG), uma das poucas universidades brasileiras com filosofia e política voltada para o Ecossistema Costeiro.
-# sent_id = 6-20140908-MONOGRAFIA_0-12
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-13
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	presente	presente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -506,7 +506,7 @@
 59	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O objetivo deste trabalho é produzir um sistema computacional que permita estimar rapidamente a presença de ovos e larvas de peixes no Estuário da Lagoa dos Patos em caso de derrame de óleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-13
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-14
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	deste	_	_	_	_	_	_	_	_
@@ -551,7 +551,7 @@
 38	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Foram utilizados inicialmente organismos ictioplanctônicos, entretanto a ampliação para outros grupos forneceria uma visão mais adequada do impacto causado por este contaminante.
-# sent_id = 6-20140908-MONOGRAFIA_0-14
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-15
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	inicialmente	inicialmente	ADV	_	_	2	advmod	_	_
@@ -579,17 +579,15 @@
 24	contaminante	contaminante	NOUN	_	Gender=Masc|Number=Sing	21	obl:agent	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n
 
-# text = 3.2-O Ambiente Estuarino:
-# sent_id = 6-20140908-MONOGRAFIA_0-15
-1-2	3.2-O	_	_	_	_	_	_	_	_
-1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
-2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Ambiente	Ambiente	PROPN	_	Gender=Masc|Number=Sing	1	parataxis	_	_
-4	Estuarino	Estuarino	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	1	punct	_	_
+# text = O Ambiente Estuarino.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-16
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ambiente	Ambiente	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	Estuarino	Estuarino	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = De acordo com Perillo (1995) “estuários são corpos de água semi-fechados com uma ou mais conexões livres com o oceano onde a intrusão de água salina pode efetivamente se estender até o limite da influência de maré e que pode ser diluída pela água doce de drenagem continental sustentando com unidades eurihalinas em pelo menos algum estágio da vida”.
-# sent_id = 6-20140908-MONOGRAFIA_0-16
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-17
 1	De	de	ADP	_	_	4	case	_	MWE=de_acordo_com|MWEPOS=ADP
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	com	ADP	_	_	1	fixed	_	_
@@ -664,7 +662,7 @@
 68	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O valor associado a tais ambientes em termos de pesca, transporte, aquacultura e áreas de recreação, justifica os diversos estudos realizados nestes (Kennish, 1997).
-# sent_id = 6-20140908-MONOGRAFIA_0-17
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-18
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 3	associado	associar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -700,7 +698,7 @@
 32	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\r\n
 
 # text = Estuários são considerados um dos mais importantes ambientes das regiões costeiras, sendo o fluxo de água doce e a ação mecânica das marés os principais fatores que favorecem a alta produtividade local, criando gradientes de temperatura e salinidade, além de transportarem uma grande quantidade de nutrientes e matéria orgânica (Ibagy, 1997).
-# sent_id = 6-20140908-MONOGRAFIA_0-18
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-19
 1	Estuários	Estuário	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -767,7 +765,7 @@
 61	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Estes desempenham importante função no ciclo de vida de muitos organismos marinhos, de água doce ou caracteristicamente estuarinos.
-# sent_id = 6-20140908-MONOGRAFIA_0-19
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-20
 1	Estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	2	nsubj	_	_
 2	desempenham	desempenhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	importante	importante	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -791,11 +789,11 @@
 20	estuarinos	estuarino	ADJ	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = Sua elevada produção primária do Estuário da Lagoa dos
-# sent_id = 6-20140908-MONOGRAFIA_0-20
+# text = Sua elevada produção primária do Estuário da Lagoa dos Patos fornece riqueza e abundância de alimento, além de proteção contra predadores para os estágios larvais e juvenis de peixes e crustáceos apresentando-se como uma zona de berçário e assim permitindo uma elevada taxa de crescimento e baixa mortalidade (Ibagy, 1997).
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-21
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
 2	elevada	elevada	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-3	produção	produção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	produção	produção	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 4	primária	primária	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -806,62 +804,59 @@
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Lagoa	Lagoa	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11-12	dos	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	case	_	_
-12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	fixed	_	_
-
-# text = Patos fornece riqueza e abundância de alimento, além de proteção contra predadores para os estágios larvais e juvenis de peixes e crustáceos apresentando-se como uma zona de berçário e assim permitindo uma elevada taxa de crescimento e baixa mortalidade (Ibagy, 1997).
-# sent_id = 6-20140908-MONOGRAFIA_0-21
-1	Patos	Pato	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
-2	fornece	fornecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	riqueza	riqueza	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
-4	e	e	CCONJ	_	_	5	cc	_	_
-5	abundância	abundância	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	alimento	alimento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	2	punct	_	_
-9	além	além	ADV	_	_	11	cc	_	MWE=além_de|MWEPOS=CCONJ
-10	de	de	ADP	_	_	9	fixed	_	_
-11	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-12	contra	contra	ADP	_	_	13	case	_	_
-13	predadores	predador	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-14	para	para	ADP	_	_	16	case	_	_
-15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	estágios	estágio	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-17	larvais	larval	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
-18	e	e	CCONJ	_	_	19	cc	_	_
-19	juvenis	juvenil	ADJ	_	Gender=Masc|Number=Plur	17	conj	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	peixes	peixe	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-22	e	e	CCONJ	_	_	23	cc	_	_
-23	crustáceos	crustáceo	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
-24-25	apresentando-se	_	_	_	_	_	_	_	_
-24	apresentando	apresentar	VERB	_	VerbForm=Ger	2	advcl	_	_
-25	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
-26	como	como	ADP	_	_	28	case	_	_
-27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	zona	zona	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	berçário	berçário	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-31	e	e	CCONJ	_	_	33	cc	_	_
-32	assim	assim	ADV	_	_	33	advmod	_	_
-33	permitindo	permitir	VERB	_	VerbForm=Ger	24	conj	_	_
-34	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-35	elevada	elevada	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
-36	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
-37	de	de	ADP	_	_	38	case	_	_
-38	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
-39	e	e	CCONJ	_	_	40	cc	_	_
-40	baixa	baixa	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
-41	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
-42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	Ibagy	Ibagy	PROPN	_	Gender=Masc|Number=Sing	2	appos:parataxis	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	43	flat:name	_	_
-45	1997	1997	NUM	_	NumType=Card	43	flat:name	_	SpaceAfter=No
-46	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	2	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Patos	Pato	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	fornece	fornecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	riqueza	riqueza	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	abundância	abundância	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	alimento	alimento	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	além	além	ADV	_	_	23	cc	_	MWE=além_de|MWEPOS=CCONJ
+22	de	de	ADP	_	_	21	fixed	_	_
+23	proteção	proteção	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+24	contra	contra	ADP	_	_	25	case	_	_
+25	predadores	predador	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+26	para	para	ADP	_	_	28	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	estágios	estágio	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+29	larvais	larval	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	juvenis	juvenil	ADJ	_	Gender=Masc|Number=Plur	29	conj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	peixes	peixe	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	crustáceos	crustáceo	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	_
+36-37	apresentando-se	_	_	_	_	_	_	_	_
+36	apresentando	apresentar	VERB	_	VerbForm=Ger	14	advcl	_	_
+37	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	expl	_	_
+38	como	como	ADP	_	_	40	case	_	_
+39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	zona	zona	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	berçário	berçário	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+43	e	e	CCONJ	_	_	45	cc	_	_
+44	assim	assim	ADV	_	_	45	advmod	_	_
+45	permitindo	permitir	VERB	_	VerbForm=Ger	36	conj	_	_
+46	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	elevada	elevada	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	_
+48	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+51	e	e	CCONJ	_	_	52	cc	_	_
+52	baixa	baixa	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	_
+53	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	48	conj	_	_
+54	(	(	PUNCT	_	_	55	punct	_	SpaceAfter=No
+55	Ibagy	Ibagy	PROPN	_	Gender=Masc|Number=Sing	14	appos:parataxis	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	flat:name	_	_
+57	1997	1997	NUM	_	NumType=Card	55	flat:name	_	SpaceAfter=No
+58	)	)	PUNCT	_	_	55	punct	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Apesar de caracterizar-se como sendo de baixa diversidade, reflexo da alta instabilidade ambiental, um grande número de espécies depende pelo menos durante seu ciclo de vida deste ambiente (Day et al., 1989).
-# sent_id = 6-20140908-MONOGRAFIA_0-22
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-22
 1	Apesar	apesar	ADV	_	_	3	mark	_	MWE=apesar_de|MWEPOS=SCONJ
 2	de	de	ADP	_	_	1	fixed	_	_
 3-4	caracterizar-se	_	_	_	_	_	_	_	_
@@ -910,7 +905,7 @@
 42	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\r\n
 
 # text = Apesar da destacada importância, ambientes estuarinos têm sido usados durante décadas como depósitos de resíduos de origem antropogênica, sendo que sua qualidade ambiental e respectiva biota têm sido comprometidas gradualmente.
-# sent_id = 6-20140908-MONOGRAFIA_0-23
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-23
 1	Apesar	apesar	ADV	_	_	5	mark	_	MWE=Apesar_de|MWEPOS=SCONJ
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -948,7 +943,7 @@
 34	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Do óleo que chega até o mar, através de atividades antropogênicas, a maior parte (65,2%) é originária de despejos municipais e industriais, descarga de rios e urbanas, extração do oceano e descargas atmosféricas.
-# sent_id = 6-20140908-MONOGRAFIA_0-24
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-24
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -967,36 +962,35 @@
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	maior	grande	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 17	parte	parte	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
-18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-19	65,2	65,2	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
-20	%	%	SYM	_	_	17	appos:parataxis	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	20	punct	_	_
-22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-23	originária	originário	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	despejos	despejo	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
-26	municipais	municipal	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
-27	e	e	CCONJ	_	_	28	cc	_	_
-28	industriais	industrial	ADJ	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	30	punct	_	_
-30	descarga	descarga	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
-31	de	de	ADP	_	_	32	case	_	_
-32	rios	rios	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
-33	e	e	CCONJ	_	_	34	cc	_	_
-34	urbanas	urbana	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	30	punct	_	_
-36	extração	extração	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
-37-38	do	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	39	case	_	_
-38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	oceano	oceano	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
-40	e	e	CCONJ	_	_	41	cc	_	_
-41	descargas	descarga	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	_
-42	atmosféricas	atmosférico	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	23	punct	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	65,2%	65,2%	NUM	_	NumType=Card	17	appos:parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	originária	originário	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	despejos	despejo	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+25	municipais	municipal	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	industriais	industrial	ADJ	_	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	descarga	descarga	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	rios	rios	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	urbanas	urbano	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	extração	extração	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	oceano	oceano	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	descargas	descarga	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
+41	atmosféricas	atmosférico	ADJ	_	Gender=Fem|Number=Plur	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Em adição, 26,2 % deste óleo deriva de atividades relacionadas ao transporte marítimo.
-# sent_id = 6-20140908-MONOGRAFIA_0-25
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-25
 1	Em	em	ADP	_	_	2	case	_	_
 2	adição	adição	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1018,69 +1012,66 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Somente 8,5% dos aportes antropogênicos são atribuídos às instalações fixas.
-# sent_id = 6-20140908-MONOGRAFIA_0-26
-1	Somente	somente	ADV	_	_	9	advmod	_	_
-2	8,5	8,5	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
-3	%	%	SYM	_	_	9	nsubj:pass	_	_
-4-5	dos	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	aportes	aporte	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-7	antropogênicos	antropogênico	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
-8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
-9	atribuídos	atribuir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-10-11	às	_	_	_	_	_	_	_	_
-10	a	a	ADP	_	_	12	case	_	_
-11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	instalações	instalação	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
-13	fixas	fixo	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\r\n
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-26
+1	Somente	somente	ADV	_	_	8	advmod	_	_
+2	8,5%	8,5%	NUM	_	NumType=Card	8	nsubj:pass	_	SpaceAfter=No
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	aportes	aporte	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	antropogênicos	antropogênico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	atribuídos	atribuir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9-10	às	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	instalações	instalação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+12	fixas	fixo	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n
 
 # text = Estima-se que 33% da totalidade do óleo que entra na hidrosfera marinha passe por estuários (Kennish, 1997).
-# sent_id = 6-20140908-MONOGRAFIA_0-27
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-27
 1-2	Estima-se	_	_	_	_	_	_	_	_
 1	Estima	estimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	_	1	expl	_	_
-3	que	que	SCONJ	_	_	1	mark	_	_
-4	33	33	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
-5	%	%	SYM	_	_	18	nsubj	_	_
-6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	8	case	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	totalidade	totalidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	_
-13	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
-14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	hidrosfera	hidrosfera	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
-17	marinha	marinho	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-18	passe	passar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	csubj	_	_
-19	por	por	ADP	_	_	20	case	_	_
-20	estuários	estuário	NOUN	_	Gender=Masc|Number=Plur	18	obl:agent	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	Kennish	Kennish	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	flat:name	_	_
-24	1997	1997	NUM	_	NumType=Card	22	flat:name	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n
+3	que	que	SCONJ	_	_	17	mark	_	_
+4	33%	33%	NUM	_	NumType=Card	17	nsubj	_	SpaceAfter=No
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	totalidade	totalidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	hidrosfera	hidrosfera	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	marinha	marinho	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	passe	passar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	estuários	estuário	NOUN	_	Gender=Masc|Number=Plur	17	obl:agent	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Kennish	Kennish	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	flat:name	_	_
+23	1997	1997	NUM	_	NumType=Card	21	flat:name	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n
 
-# text = 3.3-Vulnerabilidade ao óleo:
-# sent_id = 6-20140908-MONOGRAFIA_0-28
-1	3.3-	3.3	NUM	_	NumType=Card	2	parataxis	_	SpaceAfter=No
-2	Vulnerabilidade	vulnerabilidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-3-4	ao	_	_	_	_	_	_	_	_
-3	a	a	ADP	_	_	5	case	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-6	:	:	PUNCT	_	_	2	punct	_	_
+# text = Vulnerabilidade ao óleo.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-28
+1	Vulnerabilidade	vulnerabilidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A vulnerabilidade destes ambientes ao óleo é de difícil determinação, envolvendo amplos conceitos de sensibilidade das populações atingidas, tempo de permanência do óleo no ambiente, susceptibilidade do ambiente ao derrame de óleo, capacidade e tempo de recuperação e ainda formas possíveis de limpeza (CETESB, 2002).
-# sent_id = 6-20140908-MONOGRAFIA_0-29
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-29
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vulnerabilidade	vulnerabilidade	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	destes	_	_	_	_	_	_	_	_
@@ -1150,7 +1141,7 @@
 60	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A escala de vulnerabilidade ao petróleo se modifica de acordo com características ambientais específicas do local.
-# sent_id = 6-20140908-MONOGRAFIA_0-30
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-30
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	escala	escala	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1159,7 +1150,7 @@
 5	a	a	ADP	_	_	7	case	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	se	se	PRON	_	_	9	expl	_	_
+8	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 9	modifica	modificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -1174,7 +1165,7 @@
 19	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Apesar disso, estes índices têm fundamental importância no estabelecimento de diretrizes que visem à proteção de áreas de maior sensibilidade e o estabelecimento de regiões de sacrifício (zonas de menor importância ecológica usadas no direcionamento de manchas), no caso da ocorrência de um derrame.
-# sent_id = 6-20140908-MONOGRAFIA_0-31
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-31
 1	Apesar	apesar	ADV	_	_	3	mark	_	MWE=apesar_de|MWEPOS=SCONJ
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -1238,7 +1229,7 @@
 55	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n
 
 # text = Podemos observar que regiões estuarinas, juntamente com mangues estão entre as zonas de maior sensibilidade a derrames apresentando-se com os maiores valores (Gundlach & Hayes, 1978., CETESB, 2002).
-# sent_id = 6-20140908-MONOGRAFIA_0-32
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-32
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	observar	observar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	13	mark	_	_
@@ -1278,7 +1269,7 @@
 36	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Esta sensibilidade determina o grau de proteção que deve ser dado para estes ambientes (Tabela 1).
-# sent_id = 6-20140908-MONOGRAFIA_0-33
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-33
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	determina	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1300,7 +1291,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O fato de estuários servirem como áreas de berçário e abrigo para diversas espécies além de serem usadas como locais de recreação, traduz esta característica.
-# sent_id = 6-20140908-MONOGRAFIA_0-34
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-34
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
 3	de	de	SCONJ	_	_	5	mark	_	_
@@ -1330,7 +1321,7 @@
 27	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\r\n
 
 # text = Tabela 1 - Vulnerabilidade dos ecossistemas costeiros de acordo com CETESB (2002) e Gundlach &Hayes (1978): Índices maiores determinam maior sensibilidade.
-# sent_id = 6-20140908-MONOGRAFIA_0-35
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-35
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	MWE=Tabela_1|MWEPOS=NOUN
 2	1	1	NUM	_	NumType=Card	1	compound	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -1363,7 +1354,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n
 
 # text = De acordo com Kennish (1997), a sensibilidade dos ambientes estuarinos ao óleo é bem conhecida, as mudanças na estrutura das comunidades ali residentes juntamente com o efeito causado pelo óleo podem persistir de dias a anos.
-# sent_id = 6-20140908-MONOGRAFIA_0-36
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-36
 1	De	de	ADP	_	_	4	case	_	MWE=de_acordo_com|MWEPOS=ADP
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	com	ADP	_	_	1	fixed	_	_
@@ -1416,23 +1407,21 @@
 45	anos	ano	NOUN	_	Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\r\n
 
-# text = 3.4 - Comportamento do óleo no mar:
-# sent_id = 6-20140908-MONOGRAFIA_0-37
-1	3.4	3.4	NUM	_	NumType=Card	0	root	_	_
-2	-	-	PUNCT	_	_	1	punct	_	_
-3	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7-8	no	_	_	_	_	_	_	_	_
-7	em	em	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	mar	mar	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	1	punct	_	_
+# text = Comportamento do óleo no mar.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-37
+1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mar	mar	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O óleo derramado no mar passa por diversos processos (Figura 1) como o espalhamento, deriva, evaporação, dissolução, dispersão, oxidação fotoquímica, emulsificação, absorção por materiais particulados suspensos, biodegradação, afundamento e sedimentação (Ferreira, 1995).
-# sent_id = 6-20140908-MONOGRAFIA_0-38
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-38
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	derramado	derramar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -1484,7 +1473,7 @@
 48	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n
 
 # text = Figura 1 - Degradação do óleo no mar (Extraído de CETESB, 2001).
-# sent_id = 6-20140908-MONOGRAFIA_0-39
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-39
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	1	1	NUM	_	NumType=Card	1	compound	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -1507,7 +1496,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n
 
 # text = A evaporação é determinada principalmente pela volatilidade do óleo que é influenciada por diversos fatores como área da mancha e temperatura da água (Mackay et al., 1983).
-# sent_id = 6-20140908-MONOGRAFIA_0-40
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-40
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	evaporação	evaporação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1549,7 +1538,7 @@
 35	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Outro processo que ocorre com o óleo no mar é a sedimentação que basicamente depende da adsorção do óleo ao material em suspensão na água (Thuer & Stumm, 1977).
-# sent_id = 6-20140908-MONOGRAFIA_0-41
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-41
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
@@ -1595,7 +1584,7 @@
 38	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O processo de biodegradação é considerado lento, mas efetivo principalmente na coluna d’água.
-# sent_id = 6-20140908-MONOGRAFIA_0-42
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-42
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1611,12 +1600,12 @@
 12	em	em	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
-15	d’	d’	ADP	_	_	16	case	_	SpaceAfter=No
+15	d’	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	água	água	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
 # text = Este processo é limitado por diversos fatores: disponibilidade de nutrientes (nitrogênio e fósforo), salinidade, temperatura, concentração de oxigênio dissolvido, distribuição e natureza do óleo derramado, composição e abundância das comunidades microbianas (Wheeler, 1978; Concawe, 1983).
-# sent_id = 6-20140908-MONOGRAFIA_0-43
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-43
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1672,7 +1661,7 @@
 51	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Fatores como a dissolução e sedimentação proporcionam a difusão do óleo por diferentes camadas até o fundo impactando comunidades em toda a coluna d’água.
-# sent_id = 6-20140908-MONOGRAFIA_0-44
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-44
 1	Fatores	fator	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 2	como	como	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1698,12 +1687,12 @@
 22	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	24	det	_	_
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
-25	d’	d’	ADP	_	_	26	case	_	SpaceAfter=No
+25	d’	de	ADP	_	_	26	case	_	SpaceAfter=No
 26	água	água	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n
 
-# text = De acordo com CETESB (2002) as características mais relevantes em um derrame são: 1.
-# sent_id = 6-20140908-MONOGRAFIA_0-45
+# text = De acordo com CETESB (2002) as características mais relevantes em um derrame são: Tipo e quantidade de petróleo, sendo os mais tóxicos os óleos leves devido á presença de uma quantidade maior de compostos aromáticos; Amplitude de maré, podendo esta agravar o efeito do derrame ou mesmo contribuir para processo de limpeza; Época do ano, por causar consideráveis variações na estrutura e composição das comunidades biológicas costeiras; Grau de hidrodinamismo, determinado pela quantidade, intensidade e força das ondas e correntes locais; Ciclo construtivo/destrutivo do ambiente: determinado pelo grau de erosão e deposição das praias; Tipo de substrato; Tipo de comunidade; Exposição prévia a outros impactos; Formas de limpeza aplicadas ao derrame.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-45
 1	De	de	ADP	_	_	4	case	_	MWE=de_acordo_com|MWEPOS=ADP
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	com	ADP	_	_	1	fixed	_	_
@@ -1720,187 +1709,142 @@
 14	derrame	derrame	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 15	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	17	punct	_	_
-17	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Tipo e quantidade de petróleo, sendo os mais tóxicos os óleos leves devido á presença de uma quantidade maior de compostos aromáticos; 2.
-# sent_id = 6-20140908-MONOGRAFIA_0-46
-1	Tipo	Tipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	e	e	CCONJ	_	_	3	cc	_	_
-3	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	10	punct	_	_
-7	sendo	ser	AUX	_	VerbForm=Ger	10	cop	_	_
-8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-9	mais	mais	ADV	_	_	10	advmod	_	_
-10	tóxicos	tóxico	ADJ	_	Gender=Masc|Number=Plur	1	advcl	_	_
-11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
-13	leves	leve	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
-14	devido	devido	ADV	_	_	16	case	_	MWE=devido_a_a|MWEPOS=ADP
-15	á	a	ADP	_	_	14	fixed	_	_
-16	presença	presença	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-20	maior	grande	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
-23	aromáticos	aromático	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
-24	;	;	PUNCT	_	_	1	punct	_	_
-25	2	2	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Amplitude de maré, podendo esta agravar o efeito do derrame ou mesmo contribuir para processo de limpeza; 3.
-# sent_id = 6-20140908-MONOGRAFIA_0-47
-1	Amplitude	amplitude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	maré	maré	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	7	punct	_	_
-5	podendo	poder	VERB	_	VerbForm=Ger	1	advcl	_	_
-6	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	1	appos	_	_
-7	agravar	agravar	VERB	_	VerbForm=Inf	5	xcomp	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	derrame	derrame	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	ou	ou	CCONJ	_	_	15	cc	_	_
-14	mesmo	mesmo	ADV	_	_	15	advmod	_	_
-15	contribuir	contribuir	VERB	_	VerbForm=Inf	7	conj	_	_
-16	para	para	ADP	_	_	17	case	_	_
-17	processo	processo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	limpeza	limpeza	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-20	;	;	PUNCT	_	_	21	punct	_	_
-21	3	3	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	15	punct	_	_
-
-# text = Época do ano, por causar consideráveis variações na estrutura e composição das comunidades biológicas costeiras; 4.
-# sent_id = 6-20140908-MONOGRAFIA_0-48
-1	Época	época	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	ano	ano	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	por	por	SCONJ	_	_	7	mark	_	_
-7	causar	causar	VERB	_	VerbForm=Inf	1	advcl	_	_
-8	consideráveis	considerável	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
-9	variações	variação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
-10-11	na	_	_	_	_	_	_	_	_
-10	em	em	ADP	_	_	12	case	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	composição	composição	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
-15-16	das	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	comunidades	comunidade	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
-18	biológicas	biológico	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
-19	costeiras	costeiro	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
-20	;	;	PUNCT	_	_	1	punct	_	_
-21	4	4	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Grau de hidrodinamismo, determinado pela quantidade, intensidade e força das ondas e correntes locais; 5.
-# sent_id = 6-20140908-MONOGRAFIA_0-49
-1	Grau	grau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	hidrodinamismo	hidrodinamismo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
-6-7	pela	_	_	_	_	_	_	_	_
-6	por	por	ADP	_	_	8	case	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	intensidade	intensidade	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-11	e	e	CCONJ	_	_	12	cc	_	_
-12	força	força	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-13-14	das	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	ondas	ondas	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-16	e	e	CCONJ	_	_	17	cc	_	_
-17	correntes	corrente	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
-18	locais	local	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
-19	;	;	PUNCT	_	_	1	punct	_	_
-20	5	5	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Ciclo construtivo/destrutivo do ambiente: determinado pelo grau de erosão e deposição das praias; 6.
-# sent_id = 6-20140908-MONOGRAFIA_0-50
-1	Ciclo	Ciclo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	construtivo/destrutivo	construtivo/destrutivo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-6	:	:	PUNCT	_	_	1	punct	_	_
-7	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
-8-9	pelo	_	_	_	_	_	_	_	_
-8	por	por	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	grau	grau	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
-15-16	das	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	praias	praia	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
-18	;	;	PUNCT	_	_	1	punct	_	_
-19	6	6	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Tipo de substrato; 7.
-# sent_id = 6-20140908-MONOGRAFIA_0-51
-1	Tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	1	punct	_	_
-5	7	7	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Tipo de comunidade; 8.
-# sent_id = 6-20140908-MONOGRAFIA_0-52
-1	Tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-4	;	;	PUNCT	_	_	1	punct	_	_
-5	8	8	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Exposição prévia a outros impactos; 9.
-# sent_id = 6-20140908-MONOGRAFIA_0-53
-1	Exposição	exposição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	prévia	prévio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-3	a	a	ADP	_	_	5	case	_	_
-4	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
-5	impactos	impacto	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	1	punct	_	_
-7	9	9	NUM	_	NumType=Card	1	parataxis	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Formas de limpeza aplicadas ao derrame.
-# sent_id = 6-20140908-MONOGRAFIA_0-54
-1	Formas	forma	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	limpeza	limpeza	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4	aplicadas	aplicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
-5-6	ao	_	_	_	_	_	_	_	_
-5	a	a	ADP	_	_	7	case	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	derrame	derrame	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n
+17	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	sendo	ser	AUX	_	VerbForm=Ger	24	cop	_	_
+24	os	o	PRON	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	17	advcl	_	_
+25	mais	mais	ADV	_	_	26	advmod	_	_
+26	tóxicos	tóxico	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+29	leves	leve	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	devido	devido	ADV	_	_	32	case	_	MWE=devido_a_a|MWEPOS=ADP
+31	á	a	ADP	_	_	30	fixed	_	_
+32	presença	presença	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+36	maior	grande	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+39	aromáticos	aromático	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
+40	;	;	PUNCT	_	_	41	punct	_	_
+41	amplitude	amplitude	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	maré	maré	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	podendo	poder	VERB	_	VerbForm=Ger	41	advcl	_	_
+46	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	45	nsubj	_	_
+47	agravar	agravar	VERB	_	VerbForm=Inf	45	xcomp	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	47	obj	_	_
+50-51	do	_	_	_	_	_	_	_	_
+50	de	de	ADP	_	_	52	case	_	_
+51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	derrame	derrame	NOUN	_	Gender=Masc|Number=Sing	49	nmod	_	_
+53	ou	ou	CCONJ	_	_	55	cc	_	_
+54	mesmo	mesmo	ADV	_	_	55	advmod	_	_
+55	contribuir	contribuir	VERB	_	VerbForm=Inf	47	conj	_	_
+56	para	para	ADP	_	_	57	case	_	_
+57	processo	processo	NOUN	_	Gender=Masc|Number=Sing	55	obl	_	_
+58	de	de	ADP	_	_	59	case	_	_
+59	limpeza	limpeza	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	SpaceAfter=No
+60	;	;	PUNCT	_	_	61	punct	_	_
+61	época	época	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+62-63	do	_	_	_	_	_	_	_	_
+62	de	de	ADP	_	_	64	case	_	_
+63	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	ano	ano	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
+65	,	,	PUNCT	_	_	67	punct	_	_
+66	por	por	SCONJ	_	_	67	mark	_	_
+67	causar	causar	VERB	_	VerbForm=Inf	61	advcl	_	_
+68	consideráveis	considerável	ADJ	_	Gender=Fem|Number=Plur	69	amod	_	_
+69	variações	variação	NOUN	_	Gender=Fem|Number=Plur	67	obj	_	_
+70-71	na	_	_	_	_	_	_	_	_
+70	em	em	ADP	_	_	72	case	_	_
+71	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	67	obl	_	_
+73	e	e	CCONJ	_	_	74	cc	_	_
+74	composição	composição	NOUN	_	Gender=Fem|Number=Sing	72	conj	_	_
+75-76	das	_	_	_	_	_	_	_	_
+75	de	de	ADP	_	_	77	case	_	_
+76	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	77	det	_	_
+77	comunidades	comunidade	NOUN	_	Gender=Fem|Number=Plur	74	nmod	_	_
+78	biológicas	biológico	ADJ	_	Gender=Fem|Number=Plur	77	amod	_	_
+79	costeiras	costeiro	ADJ	_	Gender=Fem|Number=Plur	77	amod	_	SpaceAfter=No
+80	;	;	PUNCT	_	_	81	punct	_	_
+81	grau	grau	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+82	de	de	ADP	_	_	83	case	_	_
+83	hidrodinamismo	hidrodinamismo	NOUN	_	Gender=Masc|Number=Sing	81	nmod	_	SpaceAfter=No
+84	,	,	PUNCT	_	_	85	punct	_	_
+85	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	81	acl	_	_
+86-87	pela	_	_	_	_	_	_	_	_
+86	por	por	ADP	_	_	88	case	_	_
+87	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
+88	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	85	obl:agent	_	SpaceAfter=No
+89	,	,	PUNCT	_	_	90	punct	_	_
+90	intensidade	intensidade	NOUN	_	Gender=Fem|Number=Sing	88	conj	_	_
+91	e	e	CCONJ	_	_	92	cc	_	_
+92	força	força	NOUN	_	Gender=Fem|Number=Sing	88	conj	_	_
+93-94	das	_	_	_	_	_	_	_	_
+93	de	de	ADP	_	_	95	case	_	_
+94	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	95	det	_	_
+95	ondas	ondas	NOUN	_	Gender=Fem|Number=Plur	92	nmod	_	_
+96	e	e	CCONJ	_	_	97	cc	_	_
+97	correntes	corrente	NOUN	_	Gender=Masc|Number=Plur	95	conj	_	_
+98	locais	local	ADJ	_	Gender=Masc|Number=Plur	95	amod	_	SpaceAfter=No
+99	;	;	PUNCT	_	_	100	punct	_	_
+100	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+101	construtivo/destrutivo	construtivo/destrutivo	ADJ	_	Gender=Masc|Number=Sing	100	amod	_	_
+102-103	do	_	_	_	_	_	_	_	_
+102	de	de	ADP	_	_	104	case	_	_
+103	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	104	det	_	_
+104	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	100	nmod	_	SpaceAfter=No
+105	:	:	PUNCT	_	_	106	punct	_	_
+106	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	100	acl	_	_
+107-108	pelo	_	_	_	_	_	_	_	_
+107	por	por	ADP	_	_	109	case	_	_
+108	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	109	det	_	_
+109	grau	grau	NOUN	_	Gender=Masc|Number=Sing	106	obl:agent	_	_
+110	de	de	ADP	_	_	111	case	_	_
+111	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	109	nmod	_	_
+112	e	e	CCONJ	_	_	113	cc	_	_
+113	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	111	conj	_	_
+114-115	das	_	_	_	_	_	_	_	_
+114	de	de	ADP	_	_	116	case	_	_
+115	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	116	det	_	_
+116	praias	praia	NOUN	_	Gender=Fem|Number=Plur	111	nmod	_	SpaceAfter=No
+117	;	;	PUNCT	_	_	118	punct	_	_
+118	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+119	de	de	ADP	_	_	120	case	_	_
+120	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	118	nmod	_	SpaceAfter=No
+121	;	;	PUNCT	_	_	122	punct	_	_
+122	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+123	de	de	ADP	_	_	124	case	_	_
+124	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	122	nmod	_	SpaceAfter=No
+125	;	;	PUNCT	_	_	126	punct	_	_
+126	exposição	exposição	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+127	prévia	prévio	ADJ	_	Gender=Fem|Number=Sing	126	amod	_	_
+128	a	a	ADP	_	_	130	case	_	_
+129	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	130	det	_	_
+130	impactos	impacto	NOUN	_	Gender=Masc|Number=Plur	126	nmod	_	SpaceAfter=No
+131	;	;	PUNCT	_	_	132	punct	_	_
+132	formas	forma	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+133	de	de	ADP	_	_	134	case	_	_
+134	limpeza	limpeza	NOUN	_	Gender=Fem|Number=Sing	132	nmod	_	_
+135	aplicadas	aplicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	132	acl	_	_
+136-137	ao	_	_	_	_	_	_	_	_
+136	a	a	ADP	_	_	138	case	_	_
+137	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	138	det	_	_
+138	derrame	derrame	NOUN	_	Gender=Masc|Number=Sing	135	obl	_	SpaceAfter=No
+139	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\r\n
 
 # text = Portanto a elaboração de sistemas de ação emergencial para contenção de manchas de óleo devem levar em conta as características do ambiente, sua dinâmica e propriedades físico/químicas do óleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-55
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-46
 1	Portanto	portanto	CCONJ	_	_	15	cc	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	elaboração	elaboração	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -1930,21 +1874,15 @@
 26	dinâmica	dinâmica	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
 27	e	e	CCONJ	_	_	28	cc	_	_
 28	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
-29	físico/	físico/	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	MWE=físico/_químicas|MWEPOS=ADJ|SpaceAfter=No
-30	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	29	compound	_	_
-31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\r\n
+29	físico/químicas	físico/químico	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\r\n
 
-# text = 3.5 –
-# sent_id = 6-20140908-MONOGRAFIA_0-56
-1	3.5	3.5	NUM	_	NumType=Card	2	nummod	_	_
-2	–	–	NOUN	_	_	0	root	_	_
-
-# text = Efeitos do óleo nos organismos:
-# sent_id = 6-20140908-MONOGRAFIA_0-57
+# text = Efeitos do óleo nos organismos.
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-47
 1	Efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1954,10 +1892,10 @@
 5	em	em	ADP	_	_	7	case	_	_
 6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	1	punct	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os efeitos apresentados na biota atingida por derrames estão relacionadas à resistência destes organismos ao contaminante, estágio de vida, exposição prévia, mobilidade, modo de contato e tipo de óleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-58
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-48
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -2002,7 +1940,7 @@
 38	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Os efeitos podem apresentar-se na forma de: morte direta por recobrimento e asfixia impedindo respiração, excreção, alimentação fotossíntese etc., morte direta por intoxicação, principalmente causada por compostos aromáticos; perturbação nos recursos alimentares dos grupos tróficos superiores reduzindo seu alimento; incorporação e bioacumulação formando concentrações nos tecidos superiores àquelas encontradas no meio, incorporação de substâncias carcinogênicas; efeitos indiretos subletais, como alterações na percepção motora, química, respiratória e reprodução que podem progredir para a morte (CETESB, 2002).
-# sent_id = 6-20140908-MONOGRAFIA_0-59
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-49
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2110,7 +2048,7 @@
 98	.	.	PUNCT	_	_	94	punct	_	SpacesAfter=\r\n
 
 # text = Especificamente em organismos planctônicos, a contaminação pode vir de diferentes formas: através da fração solúvel, do contato direto com a mancha ou mesmo pela ingestão de alimentos contaminados por petróleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-60
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-50
 1	Especificamente	especificamente	ADV	_	_	9	advmod	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
@@ -2153,7 +2091,7 @@
 37	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = De acordo com Kennish (1997), ovos, larvas e estágios juvenis são mais sensíveis ao óleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-61
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-51
 1	De	de	ADP	_	_	4	case	_	MWE=de_acordo_com|MWEPOS=ADP
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	com	ADP	_	_	1	fixed	_	_
@@ -2178,7 +2116,7 @@
 21	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = O contato do ictioplâncton com a superfície do óleo pode ser fatal.
-# sent_id = 6-20140908-MONOGRAFIA_0-62
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-52
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	contato	contato	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2198,7 +2136,7 @@
 15	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Além do efeito letal, do óleo em embriões e larvas, efeitos subletais nestes primeiros estágios de vida podem incluir desenvolvimento anormal, redução no crescimento demora na eclosão dos ovos e anomalias celulares.
-# sent_id = 6-20140908-MONOGRAFIA_0-63
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-53
 1	Além	além	ADV	_	_	4	advmod	_	MWE=além_de|MWEPOS=ADV
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2249,7 +2187,7 @@
 42	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\r\n
 
 # text = Carls et al. (1997) testou a sensibilidade de ovos de salmão rosa e arenque, a baixas concentrações de exposição de frações persistentes do óleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-64
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-54
 1	Carls	Carls	PROPN	_	Gender=Unsp|Number=Sing	7	nsubj	_	_
 2	et	et	PROPN	_	Gender=Unsp|Number=Sing	1	flat:name	_	_
 3	al.	al.	PROPN	_	Gender=Unsp|Number=Sing	1	flat:name	_	_
@@ -2282,7 +2220,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Foram observadas, em experimentos de longa duração, utilizando ovos destas espécies, deformidades nas larvas após sua eclosão, mesmo quando estes eram expostos a concentrações a níveis de ppb dos HPAs (hidrocarbonetos poliaromáticos).
-# sent_id = 6-20140908-MONOGRAFIA_0-65
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-55
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	observadas	observar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2330,7 +2268,7 @@
 42	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n
 
 # text = Gallego et al. (1995) analisou possíveis efeitos do derrame causado pelo navio Braer (1993) nas microestruturas dos otólitos de arenques Clupea arengus (larvas) coletados logo após o derrame, não encontrando alterações significativas no crescimento das larvas, mesmo sendo as concentrações locais superiores aquelas anteriormente testadas em laboratório e que apresentaram efeitos letais às larvas.
-# sent_id = 6-20140908-MONOGRAFIA_0-66
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-56
 1	Gallego	Gallego	PROPN	_	Gender=Unsp|Number=Sing	7	nsubj	_	_
 2	et	et	PROPN	_	Gender=Unsp|Number=Sing	1	flat:name	_	_
 3	al.	al.	PROPN	_	Gender=Unsp|Number=Sing	1	flat:name	_	_
@@ -2410,7 +2348,7 @@
 70	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Esta ausência do efeito imediato na taxa de crescimento não implica necessariamente que o óleo não cause efeitos deletérios na zona afetada.
-# sent_id = 6-20140908-MONOGRAFIA_0-67
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-57
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2442,7 +2380,7 @@
 26	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = McGurk et al. (1990), analisando otólitos, encontraram evidências de redução no crescimento de larvas de arenque na região do derrame do Exxon Valdez além do aumento na mortalidade, anomalias morfológicas e defeitos citogenéticos e sugerem que devido às baixas concentrações de óleo na água, estes efeitos estejam relacionados ao contato direto com partículas de óleo.
-# sent_id = 6-20140908-MONOGRAFIA_0-68
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-58
 1	McGurk	McGurk	PROPN	_	Gender=Unsp|Number=Sing	11	nsubj	_	_
 2	et	et	PROPN	_	Gender=Unsp|Number=Sing	1	flat:name	_	_
 3	al.	al.	PROPN	_	Gender=Unsp|Number=Sing	1	flat:name	_	_
@@ -2525,7 +2463,7 @@
 71	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n
 
 # text = O uso de dispersantes pode levar a efeitos ainda mais deletérios, como no caso apresentado por Lockhart et al. (1996), onde a utilização destes causou, em estudos laboratoriais de 55 dias, uma mortalidade mais acentuada quando associado o óleo ao dispersante.
-# sent_id = 6-20140908-MONOGRAFIA_0-69
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-59
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2582,7 +2520,7 @@
 51	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Em sua maioria, os testes são realizados com 96 horas de duração, entretanto neste experimento foi detectado um efeito realmente significante com mortalidade de 100%, caracterizando um efeito crônico.
-# sent_id = 6-20140908-MONOGRAFIA_0-70
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-60
 1	Em	em	ADP	_	_	3	case	_	_
 2	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
 3	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -2611,17 +2549,16 @@
 25	com	com	ADP	_	_	26	case	_	_
 26	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 27	de	de	ADP	_	_	29	case	_	_
-28	100	100	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
-29	%	%	SYM	_	_	26	nmod	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	31	punct	_	_
-31	caracterizando	caracterizar	VERB	_	VerbForm=Ger	20	advcl	_	_
-32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
-34	crônico	crônico	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	8	punct	_	_
+28	100%	100%	NUM	_	NumType=Card	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	caracterizando	caracterizar	VERB	_	VerbForm=Ger	20	advcl	_	_
+31	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	crônico	crônico	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Também foi verificado o aumento da quantidade de água dentro do corpo dos peixes, o que não ocorreu utilizando dispersantes, podendo ser esta uma possível adaptação destes organismos.
-# sent_id = 6-20140908-MONOGRAFIA_0-71
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-61
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	verificado	verificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2663,7 +2600,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n
 
 # text = Peixes em estágios mais avançados apresentam como efeitos subletais típicos, alterações nos batimentos cardíacos, respiração, hiperplasia das branquias, aumento do fígado, redução do crescimento, erosão das nadadeiras, enfraquecimento do sistema endócrino, alterações comportamentais, assim como alterações na alimentação, migração, reprodução, natação, aprendizado e no comportamento cavador.
-# sent_id = 6-20140908-MONOGRAFIA_0-72
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-62
 1	Peixes	peixe	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	estágios	estágio	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -2742,7 +2679,7 @@
 68	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n
 
 # text = Os hidrocarbonetos clorados, e especialmente os utilizados como biocidas, são totalmente insolúveis em água, muito solúveis em lipídeos e em produtos petrolíferos.
-# sent_id = 6-20140908-MONOGRAFIA_0-73
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-63
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	hidrocarbonetos	hidrocarboneto	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	clorados	clorar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	SpaceAfter=No
@@ -2771,7 +2708,7 @@
 26	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Estes, mesmo em doses mínimas, são extremamente tóxicos para o plâncton, principalmente em relação a ovos e larvas de inúmeras espécies de valor comercial podendo, inclusive, comprometer as atividades pesqueiras locais e regionais.
-# sent_id = 6-20140908-MONOGRAFIA_0-74
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-64
 1	Estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	mesmo	mesmo	ADV	_	_	5	advmod	_	_
@@ -2813,7 +2750,7 @@
 39	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Sua acumulação nos organismos resulta numa concentração ao longo da cadeia trófica, com conseqüências deletérias bem conhecidas em predadores de último nível, como aves marinhas (Cunha & Guerra, 1999).
-# sent_id = 6-20140908-MONOGRAFIA_0-75
+# sent_id = 6-20140908-MONOGRAFIA_0_intro-65
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
 2	acumulação	acumulação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	nos	_	_	_	_	_	_	_	_

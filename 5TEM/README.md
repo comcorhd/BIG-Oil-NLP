@@ -12,7 +12,7 @@
 
 `JPTDP`: os arquivos anteriormente anotados pelo UDPipe, já com as sent_id corrigidas, foram reanotados pelo jPDTP, no arquivo `5TEM_ju.conllu`. A partir daí, fizemos a revisão humana, o que resultou no arquivo `5TEM_golden.conllu` e na pasta `documents`.
 
-`golden-tokenizado-anotado`: neste pasta-se emcontram-se o golden das 5TEM, bem tokenizado e bem anotado; a anotação do JPTDP tokenizada igual ao golden, e a anotação do UDPIPE tokenizada igual ao golden.
+`golden`: neste pasta-se emcontram-se o golden das 5TEM, bem tokenizado e bem anotado; a anotação do JPTDP tokenizada igual ao golden, e a anotação do UDPIPE tokenizada igual ao golden.
 
 ## Descrição
 
