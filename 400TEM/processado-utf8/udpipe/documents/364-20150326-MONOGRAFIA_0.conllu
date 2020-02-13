@@ -486,7 +486,7 @@
 46	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = A partir dessa década, o consumo de GNV começou a crescer de forma rápida e contínua, principalmente na cidade de Natal-RN, onde a frota de veículos convertidos para o GNV passa dos 18.000 veículos, e conta com a Artur Henrique Souza Saldanha presença de 37 postos fornecedores de GNV, com consumo mensal médio de GNV de aproximadamente 140 Mm³/d.
+# text = A partir dessa década, o consumo de GNV começou a crescer de forma rápida e contínua, principalmente na cidade de Natal-RN, onde a frota de veículos convertidos para o GNV passa dos 18.000 veículos, e conta com a presença de 37 postos fornecedores de GNV, com consumo mensal médio de GNV de aproximadamente 140 Mm³/d.
 # sent_id = 364-20150326-MONOGRAFIA_0-17
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
@@ -535,30 +535,26 @@
 42	e	e	CCONJ	_	_	43	cc	_	_
 43	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 44	com	com	ADP	_	_	46	case	_	_
-45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	50	nmod	_	_
-47	Henrique	Henrique	PROPN	_	Number=Sing	46	flat:name	_	_
-48	Souza	Souza	PROPN	_	Number=Sing	46	flat:name	_	_
-49	Saldanha	Saldanha	PROPN	_	Number=Sing	46	flat:name	_	_
-50	presença	presença	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	_
-51	de	de	ADP	_	_	53	case	_	_
-52	37	37	NUM	_	NumType=Card	53	nummod	_	_
-53	postos	posto	NOUN	_	Gender=Masc|Number=Plur	50	nmod	_	_
-54	fornecedores	fornecedor	ADJ	_	Gender=Masc|Number=Plur	53	amod	_	_
-55	de	de	ADP	_	_	56	case	_	_
-56	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
-57	,	,	PUNCT	_	_	50	punct	_	_
-58	com	com	ADP	_	_	59	case	_	_
-59	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
-60	mensal	mensal	ADJ	_	Gender=Masc|Number=Sing	59	amod	_	_
-61	médio	médio	ADJ	_	Gender=Masc|Number=Sing	59	amod	_	_
-62	de	de	ADP	_	_	63	case	_	_
-63	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	59	nmod	_	_
-64	de	de	ADP	_	_	63	case	_	_
-65	aproximadamente	aproximadamente	ADV	_	_	66	advmod	_	_
-66	140	140	NUM	_	NumType=Card	67	nummod	_	_
-67	Mm³/d	Mm³/d	PROPN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
-68	.	.	PUNCT	_	_	13	punct	_	_
+45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	SpacesAfter=\s\n
+46	presença	presença	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	37	37	NUM	_	NumType=Card	49	nummod	_	_
+49	postos	posto	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
+50	fornecedores	fornecedor	ADJ	_	Gender=Masc|Number=Plur	49	amod	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	13	punct	_	_
+54	com	com	ADP	_	_	55	case	_	_
+55	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+56	mensal	mensal	ADJ	_	Gender=Masc|Number=Sing	55	amod	_	_
+57	médio	médio	ADJ	_	Gender=Masc|Number=Sing	55	amod	_	_
+58	de	de	ADP	_	_	59	case	_	_
+59	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	55	nmod	_	_
+60	de	de	ADP	_	_	59	case	_	_
+61	aproximadamente	aproximadamente	ADV	_	_	62	advmod	_	_
+62	140	140	NUM	_	NumType=Card	63	nummod	_	_
+63	Mm³/d	Mm³/d	PROPN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Essas informações despertaram a atenção das indústrias distribuidoras, o que as levaram a investir em novas estações de abastecimento.
 # sent_id = 364-20150326-MONOGRAFIA_0-18
@@ -848,58 +844,47 @@
 37	em	em	ADP	_	_	38	case	_	_
 38	território	território	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
 39	potiguar	potiguar	VERB	_	VerbForm=Inf	13	acl	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
-# text = Artur Henrique Souza Saldanha Capítulo 2
+# text = Capítulo 2
 # sent_id = 364-20150326-MONOGRAFIA_0-27
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-5	Capítulo	capítulo	PROPN	_	Number=Sing	1	flat:name	_	_
-6	2	2	PROPN	_	Number=Sing	1	flat:name	_	_
+1	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	2	2	NUM	_	NumType=Card	1	nummod	_	_
 
-# text = Aspectos Teóricos Artur Henrique Souza Saldanha 2.Fundamentação Teórica
+# text = Aspectos Teóricos 2.Fundamentação Teórica Inicialmente são descritas algumas características técnicas e comerciais no GNV e como sua utilização no Brasil vem se desenvolvendo.
 # sent_id = 364-20150326-MONOGRAFIA_0-28
-1	Aspectos	aspecto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	Teóricos	Teórico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
-3	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	Henrique	Henrique	PROPN	_	Number=Sing	3	flat:name	_	_
-5	Souza	Souza	PROPN	_	Number=Sing	3	flat:name	_	_
-6	Saldanha	Saldanha	PROPN	_	Number=Sing	3	flat:name	_	_
-7	2.Fundamenta	2.Fundamenta	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
-8	ção	ção	PROPN	_	Number=Sing	3	flat:name	_	_
-9	Teórica	teórica	PROPN	_	Number=Sing	3	flat:name	_	_
-
-# text = Inicialmente são descritas algumas características técnicas e comerciais no GNV e como sua utilização no Brasil vem se desenvolvendo.
-# sent_id = 364-20150326-MONOGRAFIA_0-29
-1	Inicialmente	inicialmente	ADV	_	_	3	advmod	_	_
-2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	descritas	descrito	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
-4	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
-5	características	característica	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
-6	técnicas	técnico	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
-7	e	e	CCONJ	_	_	8	cc	_	_
-8	comerciais	comercial	ADJ	_	Gender=Fem|Number=Plur	6	conj	_	_
-9-10	no	_	_	_	_	_	_	_	_
-9	em	em	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
-12	e	e	CCONJ	_	_	19	cc	_	_
-13	como	como	ADV	_	_	19	advmod	_	_
-14	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	det	_	_
-15	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
-16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	_	_	18	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-19	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-20	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
-21	desenvolvendo	desenvolver	VERB	_	VerbForm=Ger	19	advcl	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	3	punct	_	_
+1	Aspectos	aspectos	PROPN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	Teóricos	Teóricos	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
+3	2.Fundamenta	2.Fundamenta	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+4	ção	ção	PROPN	_	Number=Sing	1	flat:name	_	_
+5	Teórica	teórica	PROPN	_	Number=Sing	1	flat:name	_	_
+6	Inicialmente	Inicialmente	PROPN	_	Number=Sing	1	flat:name	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	descritas	descrito	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+9	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	características	característica	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
+11	técnicas	técnico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	comerciais	comercial	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+17	e	e	CCONJ	_	_	24	cc	_	_
+18	como	como	ADV	_	_	24	advmod	_	_
+19	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	20	det	_	_
+20	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+25	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	desenvolvendo	desenvolver	VERB	_	VerbForm=Ger	24	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Logo a seguir irá ser apresentado aspectos ligados a indústria do GNV no país.
-# sent_id = 364-20150326-MONOGRAFIA_0-30
+# sent_id = 364-20150326-MONOGRAFIA_0-29
 1	Logo	logo	ADV	_	_	3	advmod	_	_
 2	a	a	ADP	_	_	3	compound	_	_
 3	seguir	seguir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -921,7 +906,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.1 História do Gás Natural e suas Características
-# sent_id = 364-20150326-MONOGRAFIA_0-31
+# sent_id = 364-20150326-MONOGRAFIA_0-30
 1	2.1	2.1	NUM	_	NumType=Card	2	nummod	_	_
 2	História	História	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -934,7 +919,7 @@
 9	Características	características	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = No Brasil, a utilização do Gás Natural começou modestamente por volta de 1940, com as descobertas de óleo e gás na Bahia, atendendo a indústria localizadas no Recôncavo Baiano.
-# sent_id = 364-20150326-MONOGRAFIA_0-32
+# sent_id = 364-20150326-MONOGRAFIA_0-31
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -978,7 +963,7 @@
 37	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Depois de alguns anos, as bacias do Recôncavo, Sergipe e Alagoas eram destinadas quase em sua totalidade para a fabricação de insumos industriais e combustíveis para a refinaria Landulfo Alves e o Pólo Petroquimico de Camaçari (GASENERGIA, 2004).
-# sent_id = 364-20150326-MONOGRAFIA_0-33
+# sent_id = 364-20150326-MONOGRAFIA_0-32
 1	Depois	depois	ADV	_	_	16	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -1027,7 +1012,7 @@
 45	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = O grande marco do GN ocorreu com a exploração da Bacia de Campos, no estado do Rio de Janeiro, na década de 80.
-# sent_id = 364-20150326-MONOGRAFIA_0-34
+# sent_id = 364-20150326-MONOGRAFIA_0-33
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	grande	grande	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	marco	marco	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -1066,7 +1051,7 @@
 31	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O desenvolvimento da bacia proporcionou um aumento no uso da matéria-prima, elevando para 2,7% a participação do GN na matriz energética nacional (GASENERGIA, 2004).
-# sent_id = 364-20150326-MONOGRAFIA_0-35
+# sent_id = 364-20150326-MONOGRAFIA_0-34
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1109,7 +1094,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = De acordo com as previsões de consumo, até o ano de 2020, o Gás é a matriz energética que mais crescerá, não obstante o desempenho do Petróleo e suas variações de preços.
-# sent_id = 364-20150326-MONOGRAFIA_0-36
+# sent_id = 364-20150326-MONOGRAFIA_0-35
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -1150,7 +1135,7 @@
 37	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Assim, diversos segmentos estão se mobilizando a fim de alcançar tais metas (GAZCAR, 2004).
-# sent_id = 364-20150326-MONOGRAFIA_0-37
+# sent_id = 364-20150326-MONOGRAFIA_0-36
 1	Assim	assim	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -1171,8 +1156,8 @@
 18	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = A produção do Gás Natural, segue as seguintes fases:
-# sent_id = 364-20150326-MONOGRAFIA_0-38
+# text = A produção do Gás Natural, segue as seguintes fases: 2.3 GNV
+# sent_id = 364-20150326-MONOGRAFIA_0-37
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1185,19 +1170,12 @@
 9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 10	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 11	fases	fase	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
-12	:	:	PUNCT	_	_	8	punct	_	_
-
-# text = Artur Henrique Souza Saldanha 2.3 GNV
-# sent_id = 364-20150326-MONOGRAFIA_0-39
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-5	2.3	2.3	NUM	_	NumType=Card	1	nummod	_	_
-6	GNV	Gnv	NUM	_	NumType=Card	5	flat	_	_
+12	:	:	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
+13	2.3	2.3	NUM	_	NumType=Card	12	nummod	_	_
+14	GNV	Gnv	NUM	_	NumType=Card	13	flat	_	_
 
 # text = A poluição do ar tem aumentado de forma significante com o passar dos anos.
-# sent_id = 364-20150326-MONOGRAFIA_0-40
+# sent_id = 364-20150326-MONOGRAFIA_0-38
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	poluição	poluição	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1219,7 +1197,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A maioria dos países hoje vem sofrendo com as conseqüências devido a esse aumento da poluição.
-# sent_id = 364-20150326-MONOGRAFIA_0-41
+# sent_id = 364-20150326-MONOGRAFIA_0-39
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -1243,7 +1221,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O grande vilão que interfere de forma direta no aumento significativo da poluição do ar é a queima de derivados do petróleo, como por exemplos, a gasolina e o diesel.
-# sent_id = 364-20150326-MONOGRAFIA_0-42
+# sent_id = 364-20150326-MONOGRAFIA_0-40
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	grande	grande	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	vilão	vilão	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
@@ -1287,7 +1265,7 @@
 37	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = A queima desses combustíveis lança diretamente na atmosfera uma grande quantidade de monóxido de carbono e dióxido de carbono, entre outros.
-# sent_id = 364-20150326-MONOGRAFIA_0-43
+# sent_id = 364-20150326-MONOGRAFIA_0-41
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	queima	queima	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	desses	_	_	_	_	_	_	_	_
@@ -1317,7 +1295,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A presença desses gases vem acarretando problemas de saúde na população e ocasionando danos aos ecossistemas e ao patrimônio histórico e cultural.
-# sent_id = 364-20150326-MONOGRAFIA_0-44
+# sent_id = 364-20150326-MONOGRAFIA_0-42
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	desses	_	_	_	_	_	_	_	_
@@ -1351,7 +1329,7 @@
 27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Por outro lado, os preços do etanol e da gasolina estão elevados, decorrentes de problemas nas lavouras de cana-de-açúcar e do preço elevado do petróleo no mercado internacional.
-# sent_id = 364-20150326-MONOGRAFIA_0-45
+# sent_id = 364-20150326-MONOGRAFIA_0-43
 1	Por	por	ADP	_	_	15	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -1397,7 +1375,7 @@
 37	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Projeta-se forte crescimento da oferta doméstica de gás natural para os próximos anos, tanto em áreas do Pré-sal quanto em campos em terra.
-# sent_id = 364-20150326-MONOGRAFIA_0-46
+# sent_id = 364-20150326-MONOGRAFIA_0-44
 1-2	Projeta-se	_	_	_	_	_	_	_	_
 1	Projeta	projetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -1431,7 +1409,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Diante dos fatos apresentados, as buscas por fontes alternativas menos poluentes têm se tornado o foco do momento.
-# sent_id = 364-20150326-MONOGRAFIA_0-47
+# sent_id = 364-20150326-MONOGRAFIA_0-45
 1	Diante	diante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1458,7 +1436,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O gás natura veicular (GNV) ficou conhecido como o combustível do futuro, pois ele é mais limpo e quase não há liberação de monóxido de carbono para a atmosfera.
-# sent_id = 364-20150326-MONOGRAFIA_0-48
+# sent_id = 364-20150326-MONOGRAFIA_0-46
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gás	gás	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	natura	naturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1496,7 +1474,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Ele também é um combustível não corrosivo, isso faz com que não se formem depósitos de carbono nas câmaras de combustão.
-# sent_id = 364-20150326-MONOGRAFIA_0-49
+# sent_id = 364-20150326-MONOGRAFIA_0-47
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	também	também	ADV	_	_	5	advmod	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1524,7 +1502,7 @@
 24	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Normalmente, o GNV não possui enxofre em sua composição, isso implica no não lançamento para a atmosfera de substancia responsável pela formação da chuva ácida.
-# sent_id = 364-20150326-MONOGRAFIA_0-50
+# sent_id = 364-20150326-MONOGRAFIA_0-48
 1	Normalmente	normalmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1561,7 +1539,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = O GNV surgiu no mercado como um combustível mais barato, menos poluente e mais econômico do que os combustíveis tradicionais, Com isto, muitas pessoas optaram pela conversão dos seus automóveis para o uso do mesmo.
-# sent_id = 364-20150326-MONOGRAFIA_0-51
+# sent_id = 364-20150326-MONOGRAFIA_0-49
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	surgiu	surgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1613,7 +1591,7 @@
 44	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os custos envolvidos para a transformação do automóvel chegam a ser muito baixo em relação aos benefícios de economia que ele trará, se gasta hoje em média uma faixa de R$:1.500,00 para a conversão de um veículo leve.
-# sent_id = 364-20150326-MONOGRAFIA_0-52
+# sent_id = 364-20150326-MONOGRAFIA_0-50
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	custos	custo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	envolvidos	envolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -1660,7 +1638,7 @@
 42	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O GNV hoje é considerado um dos combustíveis mais seguros na hora do abastecimento, pois ele não entra em contato com o ar na hora do abastecimento, o que impossibilita a combustão, e caso haja vazamento, o GNV rapidamente se dissipa na atmosfera reduzindo os riscos de explosões.
-# sent_id = 364-20150326-MONOGRAFIA_0-53
+# sent_id = 364-20150326-MONOGRAFIA_0-51
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	hoje	hoje	ADV	_	_	5	advmod	_	_
@@ -1727,8 +1705,8 @@
 58	explosões	explosão	NOUN	_	Gender=Fem|Number=Plur	56	nmod	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Como o GNV realiza uma combustão completa, Artur Henrique Souza Saldanha isso faz com que ele aumente a vida útil do motor, diminuindo assim a necessidade de manutenção no veículo.
-# sent_id = 364-20150326-MONOGRAFIA_0-54
+# text = Como o GNV realiza uma combustão completa, isso faz com que ele aumente a vida útil do motor, diminuindo assim a necessidade de manutenção no veículo.
+# sent_id = 364-20150326-MONOGRAFIA_0-52
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1736,121 +1714,109 @@
 5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	completa	completo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
-10	Henrique	Henrique	PROPN	_	Number=Sing	9	flat:name	_	_
-11	Souza	Souza	PROPN	_	Number=Sing	9	flat:name	_	_
-12	Saldanha	Saldanha	PROPN	_	Number=Sing	9	flat:name	_	_
-13	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	_
-14	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
-15	com	com	SCONJ	_	_	18	mark	_	_
-16	que	que	SCONJ	_	_	18	mark	_	_
-17	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-18	aumente	aumentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	vida	vida	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21	útil	útil	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	motor	motor	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	diminuindo	diminuir	VERB	_	VerbForm=Ger	18	advcl	_	_
-27	assim	assim	ADV	_	_	26	advmod	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	manutenção	manutenção	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-32-33	no	_	_	_	_	_	_	_	_
-32	em	em	ADP	_	_	34	case	_	_
-33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+8	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
+9	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+10	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	com	com	SCONJ	_	_	14	mark	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	aumente	aumentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vida	vida	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	útil	útil	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	motor	motor	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	diminuindo	diminuir	VERB	_	VerbForm=Ger	14	advcl	_	_
+23	assim	assim	ADV	_	_	22	advmod	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	manutenção	manutenção	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = Artur Henrique Souza Saldanha Capítulo 3
-# sent_id = 364-20150326-MONOGRAFIA_0-55
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-5	Capítulo	capítulo	PROPN	_	Number=Sing	1	flat:name	_	_
-6	3	3	NUM	_	NumType=Card	1	nummod	_	_
+# text = Capítulo 3
+# sent_id = 364-20150326-MONOGRAFIA_0-53
+1	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 
-# text = Metodologia da Pesquisa Artur Henrique Souza Saldanha 3.Metodologia A metodologia adotada foi de forma bem semelhante à da tese de mestrado de RODRIGUES (2005), onde primeiramente será realizado todo um levantamento bibliográfico sobre as características do Gás Natural, dando foco no GNV e pesquisando suas vantagens e desvantagens em relação aos outros combustíveis.
-# sent_id = 364-20150326-MONOGRAFIA_0-56
-1	Metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+# text = Metodologia da Pesquisa 3.Metodologia A metodologia adotada foi de forma bem semelhante à da tese de mestrado de RODRIGUES (2005), onde primeiramente será realizado todo um levantamento bibliográfico sobre as características do Gás Natural, dando foco no GNV e pesquisando suas vantagens e desvantagens em relação aos outros combustíveis.
+# sent_id = 364-20150326-MONOGRAFIA_0-54
+1	Metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Pesquisa	Pesquisa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
-6	Henrique	Henrique	PROPN	_	Number=Sing	5	flat:name	_	_
-7	Souza	Souza	PROPN	_	Number=Sing	5	flat:name	_	_
-8	Saldanha	Saldanha	PROPN	_	Number=Sing	5	flat:name	_	_
-9	3.Metodologia	3.Metodologia	PROPN	_	Number=Sing	5	flat:name	_	_
-10	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
-12	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_
-13	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	forma	forma	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-16	bem	bem	ADV	_	_	17	advmod	_	_
-17	semelhante	semelhante	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-18-19	à	_	_	_	_	_	_	_	_
-18	a	a	ADP	_	_	19	case	_	_
-19	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	17	obl	_	_
-20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	tese	tese	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	mestrado	mestrado	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	RODRIGUES	Rodrigues	PROPN	_	Gender=Unsp|Number=Sing	24	nmod	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	2005	2005	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	17	punct	_	_
-31	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	34	obl	_	_
-32	primeiramente	primeiramente	ADV	_	_	34	advmod	_	_
-33	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	aux:pass	_	_
-34	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
-35	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	37	det	_	_
-36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	levantamento	levantamento	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
-38	bibliográfico	bibliográfico	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	_
-39	sobre	sobre	ADP	_	_	41	case	_	_
-40	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
-41	características	característica	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
-42-43	do	_	_	_	_	_	_	_	_
-42	de	de	ADP	_	_	44	case	_	_
-43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	41	nmod	_	_
-45	Natural	Natural	PROPN	_	Number=Sing	44	flat:name	_	SpaceAfter=No
-46	,	,	PUNCT	_	_	47	punct	_	_
-47	dando	dar	VERB	_	VerbForm=Ger	17	advcl	_	_
-48	foco	foco	NOUN	_	Gender=Masc|Number=Sing	47	obj	_	_
-49-50	no	_	_	_	_	_	_	_	_
-49	em	em	ADP	_	_	51	case	_	_
-50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	47	obl	_	_
+4	Pesquisa	Pesquisa	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\s\n
+5	3.Metodologia	3.Metodologia	PROPN	_	Number=Sing	4	flat:name	_	_
+6	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
+9	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	forma	forma	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+12	bem	bem	ADV	_	_	13	advmod	_	_
+13	semelhante	semelhante	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	13	obl	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tese	tese	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	mestrado	mestrado	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	RODRIGUES	Rodrigues	PROPN	_	Gender=Unsp|Number=Sing	20	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	2005	2005	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	13	punct	_	_
+27	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	30	obl	_	_
+28	primeiramente	primeiramente	ADV	_	_	30	advmod	_	_
+29	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	aux:pass	_	_
+30	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+31	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	33	det	_	_
+32	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	levantamento	levantamento	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+34	bibliográfico	bibliográfico	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
+35	sobre	sobre	ADP	_	_	37	case	_	_
+36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	características	característica	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+41	Natural	Natural	PROPN	_	Number=Sing	40	flat:name	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	dando	dar	VERB	_	VerbForm=Ger	13	advcl	_	_
+44	foco	foco	NOUN	_	Gender=Masc|Number=Sing	43	obj	_	_
+45-46	no	_	_	_	_	_	_	_	_
+45	em	em	ADP	_	_	47	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	43	obl	_	_
+48	e	e	CCONJ	_	_	49	cc	_	_
+49	pesquisando	pesquisar	VERB	_	VerbForm=Ger	13	conj	_	_
+50	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	51	det	_	_
+51	vantagens	vantagem	NOUN	_	Gender=Fem|Number=Plur	49	obj	_	_
 52	e	e	CCONJ	_	_	53	cc	_	_
-53	pesquisando	pesquisar	VERB	_	VerbForm=Ger	17	conj	_	_
-54	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	55	det	_	_
-55	vantagens	vantagem	NOUN	_	Gender=Fem|Number=Plur	53	obj	_	_
-56	e	e	CCONJ	_	_	57	cc	_	_
-57	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	55	conj	_	_
-58	em	em	ADP	_	_	59	case	_	_
-59	relação	relação	NOUN	_	Gender=Fem|Number=Sing	17	fixed	_	_
-60-61	aos	_	_	_	_	_	_	_	_
-60	a	a	ADP	_	_	63	case	_	_
-61	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
-62	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	63	det	_	_
-63	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
-64	.	.	PUNCT	_	_	17	punct	_	_
+53	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	51	conj	_	_
+54	em	em	ADP	_	_	55	case	_	_
+55	relação	relação	NOUN	_	Gender=Fem|Number=Sing	13	fixed	_	_
+56-57	aos	_	_	_	_	_	_	_	_
+56	a	a	ADP	_	_	59	case	_	_
+57	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+58	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	59	det	_	_
+59	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Foi realizado também um levantamento para saber a quantidade de postos de combustíveis que comercializam GNV na Cidade de Natal-RN.
-# sent_id = 364-20150326-MONOGRAFIA_0-57
+# sent_id = 364-20150326-MONOGRAFIA_0-55
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	também	também	ADV	_	_	2	advmod	_	_
@@ -1876,7 +1842,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A etapa final da pesquisa se dará com a elaboração de questionários, com caráter avaliativo, realizando entrevistas com todas as pessoas ligadas de forma direta com o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-58
+# sent_id = 364-20150326-MONOGRAFIA_0-56
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	final	final	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -1912,7 +1878,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Esse questionário aborda as questões do GNV de forma geral, com foco principalmente em: quantidade de postos, localização dos postos, preço, qualidade, custos, atendimento, manutenção, segurança e meio ambiente.
-# sent_id = 364-20150326-MONOGRAFIA_0-59
+# sent_id = 364-20150326-MONOGRAFIA_0-57
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	questionário	questionário	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	aborda	abordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1958,7 +1924,7 @@
 41	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os resultados da pesquisa serão apresentados graficamente e também descritivamente, depois de tabulados os dados obtidos, foi feita uma análise detalhada dos resultados, fazendo com que se pudesse apresentar a conclusão do presente trabalho.
-# sent_id = 364-20150326-MONOGRAFIA_0-60
+# sent_id = 364-20150326-MONOGRAFIA_0-58
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2005,11 +1971,11 @@
 41	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.1
-# sent_id = 364-20150326-MONOGRAFIA_0-61
+# sent_id = 364-20150326-MONOGRAFIA_0-59
 1	3.1	3.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Objetivo da pesquisa
-# sent_id = 364-20150326-MONOGRAFIA_0-62
+# sent_id = 364-20150326-MONOGRAFIA_0-60
 1	Objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2017,7 +1983,7 @@
 4	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Essa pesquisa tem o intuito de fornecer o real motivo pela qual o consumo de GNV, principalmente na cidade de Natal-RN vem caindo de forma significante com o passar dos tempos.
-# sent_id = 364-20150326-MONOGRAFIA_0-63
+# sent_id = 364-20150326-MONOGRAFIA_0-61
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2059,7 +2025,7 @@
 36	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esse trabalho tomará como base principalmente a pesquisa de Mestrado Profissionalizante em Engenharia, de autoria de Rodrigues (2005), cujo tema é “O Mercado de Gás Natural Veicular em Curitiba: Visão dos Taxistas”.
-# sent_id = 364-20150326-MONOGRAFIA_0-64
+# sent_id = 364-20150326-MONOGRAFIA_0-62
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tomará	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -2101,37 +2067,29 @@
 38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
 39	Taxistas	taxistas	PROPN	_	Number=Sing	36	nmod	_	SpaceAfter=No
 40	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
-# text = Artur Henrique Souza Saldanha Capítulo 4
-# sent_id = 364-20150326-MONOGRAFIA_0-65
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-5	Capítulo	capítulo	PROPN	_	Number=Sing	1	flat:name	_	_
-6	4	4	NUM	_	NumType=Card	1	nummod	_	_
+# text = Capítulo 4
+# sent_id = 364-20150326-MONOGRAFIA_0-63
+1	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 
-# text = Resultados e Discussões Artur Henrique Souza Saldanha 4.
-# sent_id = 364-20150326-MONOGRAFIA_0-66
+# text = Resultados e Discussões 4.
+# sent_id = 364-20150326-MONOGRAFIA_0-64
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
-3	Discussões	discussões	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-4	Artur	Artur	PROPN	_	Number=Sing	3	flat:name	_	_
-5	Henrique	Henrique	PROPN	_	Number=Sing	3	flat:name	_	_
-6	Souza	Souza	PROPN	_	Number=Sing	3	flat:name	_	_
-7	Saldanha	Saldanha	PROPN	_	Number=Sing	3	flat:name	_	_
-8	4	4	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	_
+3	Discussões	discussão	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpacesAfter=\s\n
+4	4	4	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados e Discussões
-# sent_id = 364-20150326-MONOGRAFIA_0-67
+# sent_id = 364-20150326-MONOGRAFIA_0-65
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Discussões	discussão	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 
 # text = Nesse capitulo será abordado a análise da satisfação do questionário por parte dos entrevistados em relação ao GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-68
+# sent_id = 364-20150326-MONOGRAFIA_0-66
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2163,7 +2121,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Foram entrevistados ao todo um total de 167 pessoas.
-# sent_id = 364-20150326-MONOGRAFIA_0-69
+# sent_id = 364-20150326-MONOGRAFIA_0-67
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	entrevistados	entrevistar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -2178,13 +2136,13 @@
 11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 4.1 Combustível predominante
-# sent_id = 364-20150326-MONOGRAFIA_0-70
+# sent_id = 364-20150326-MONOGRAFIA_0-68
 1	4.1	4.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Combustível	combustível	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	predominante	predominante	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
 # text = Ao analisar os dados do gráfico abaixo, pode-se notar que durante a pesquisa de satisfação, o combustível mais utilizado pelos entrevistados foi o GNV, representando um percentual equivalente a 52% dos entrevistados.
-# sent_id = 364-20150326-MONOGRAFIA_0-71
+# sent_id = 364-20150326-MONOGRAFIA_0-69
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2234,24 +2192,20 @@
 42	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 2.
-# sent_id = 364-20150326-MONOGRAFIA_0-72
+# sent_id = 364-20150326-MONOGRAFIA_0-70
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Proporção de Combustível Artur Henrique Souza Saldanha 4.2
-# sent_id = 364-20150326-MONOGRAFIA_0-73
+# text = Proporção de Combustível 4.2
+# sent_id = 364-20150326-MONOGRAFIA_0-71
 1	Proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	Combustível	combustível	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4	Artur	Artur	PROPN	_	Number=Sing	3	flat:name	_	_
-5	Henrique	Henrique	PROPN	_	Number=Sing	3	flat:name	_	_
-6	Souza	Souza	PROPN	_	Number=Sing	3	flat:name	_	_
-7	Saldanha	Saldanha	PROPN	_	Number=Sing	3	flat:name	_	_
-8	4.2	4.2	NUM	_	NumType=Card	1	nummod	_	_
+3	Combustível	combustível	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
+4	4.2	4.2	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Análise das pessoas que utilizam o GNV
-# sent_id = 364-20150326-MONOGRAFIA_0-74
+# sent_id = 364-20150326-MONOGRAFIA_0-72
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2263,7 +2217,7 @@
 8	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
 
 # text = Dos 167 entrevistados, 87 afirmam utilizar o GNV como combustível.
-# sent_id = 364-20150326-MONOGRAFIA_0-75
+# sent_id = 364-20150326-MONOGRAFIA_0-73
 1-2	Dos	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -2280,7 +2234,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Desses 87 entrevistados, 86 afirmam que acham o GNV um combustível confiável.
-# sent_id = 364-20150326-MONOGRAFIA_0-76
+# sent_id = 364-20150326-MONOGRAFIA_0-74
 1-2	Desses	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -2299,7 +2253,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Analisando o gráfico abaixo, pode-se obter um comparativo dos preços do GNV em relação aos demais combustíveis existentes.
-# sent_id = 364-20150326-MONOGRAFIA_0-77
+# sent_id = 364-20150326-MONOGRAFIA_0-75
 1	Analisando	analisar	VERB	_	VerbForm=Ger	6	acl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -2330,7 +2284,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Aproximadamente 73% dos entrevistados acham que o GNV possui um preço mais barato se comparado com os demais combustíveis.
-# sent_id = 364-20150326-MONOGRAFIA_0-78
+# sent_id = 364-20150326-MONOGRAFIA_0-76
 1	Aproximadamente	aproximadamente	ADV	_	_	2	advmod	_	_
 2	73	73	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	7	nsubj	_	_
@@ -2356,13 +2310,13 @@
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 3.
-# sent_id = 364-20150326-MONOGRAFIA_0-79
+# sent_id = 364-20150326-MONOGRAFIA_0-77
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Comparativo de preço dos combustíveis
-# sent_id = 364-20150326-MONOGRAFIA_0-80
+# sent_id = 364-20150326-MONOGRAFIA_0-78
 1	Comparativo	comparativo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	preço	preço	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2372,7 +2326,7 @@
 6	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 
 # text = Dos entrevistados, 76% afirmam que os postos que fornecem GNV estão muito bem distribuídos por toda região de Natal-RN e que a quantidade é suficiente para que seja atendida toda a demanda de consumo.
-# sent_id = 364-20150326-MONOGRAFIA_0-81
+# sent_id = 364-20150326-MONOGRAFIA_0-79
 1-2	Dos	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -2411,17 +2365,10 @@
 35	demanda	demanda	NOUN	_	Gender=Fem|Number=Sing	32	nsubj:pass	_	_
 36	de	de	ADP	_	_	37	case	_	_
 37	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
-
-# text = Artur Henrique Souza Saldanha
-# sent_id = 364-20150326-MONOGRAFIA_0-82
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
+38	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Na Figura 4 abaixo pode-se ver a opinião dos entrevistados em relação ao desempenho do seu veículo após a instalação do Kit GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-83
+# sent_id = 364-20150326-MONOGRAFIA_0-80
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2460,7 +2407,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Analisando o gráfico, pode-se observar que 94% dos entrevistados relatam que após instalação do GNV em seus veículos, os mesmos apresentaram perdas significativa quanto ao desempenho do veículo.
-# sent_id = 364-20150326-MONOGRAFIA_0-84
+# sent_id = 364-20150326-MONOGRAFIA_0-81
 1	Analisando	analisar	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -2505,7 +2452,7 @@
 37	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Aproximadamente 97% dos entrevistados acreditam que com a instalação do kit GNV em seus veículos, os mesmos passaram a ter um maior gasto em relação a manutenção, conforme podemos observar pela Figura 5.
-# sent_id = 364-20150326-MONOGRAFIA_0-85
+# sent_id = 364-20150326-MONOGRAFIA_0-82
 1	Aproximadamente	aproximadamente	ADV	_	_	3	advmod	_	_
 2	97	97	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	7	nsubj	_	_
@@ -2548,33 +2495,14 @@
 37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	35	obl	_	_
 39	5	5	PROPN	_	Number=Sing	38	flat:name	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n\n
 
-# text = Artur Henrique Souza Saldanha Figura 5.
-# sent_id = 364-20150326-MONOGRAFIA_0-86
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-5	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
-6	5	5	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Manutenção dos Veículos Artur Henrique Souza Saldanha 4.3
-# sent_id = 364-20150326-MONOGRAFIA_0-87
-1	Manutenção	Manutenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	Veículos	Veículos	PROPN	_	Number=Sing	1	nmod	_	_
-5	Artur	Artur	PROPN	_	Number=Sing	4	flat:name	_	_
-6	Henrique	Henrique	PROPN	_	Number=Sing	4	flat:name	_	_
-7	Souza	Souza	PROPN	_	Number=Sing	4	flat:name	_	_
-8	Saldanha	Saldanha	PROPN	_	Number=Sing	4	flat:name	_	_
-9	4.3	4.3	NUM	_	NumType=Card	1	nummod	_	_
+# text = 4.3
+# sent_id = 364-20150326-MONOGRAFIA_0-83
+1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Análise das pessoas que não utilizam o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-88
+# sent_id = 364-20150326-MONOGRAFIA_0-84
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2588,7 +2516,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Aproximadamente 44% dos entrevistados não possuíam o kit GNV instalado em seus veículos.
-# sent_id = 364-20150326-MONOGRAFIA_0-89
+# sent_id = 364-20150326-MONOGRAFIA_0-85
 1	Aproximadamente	aproximadamente	ADV	_	_	2	advmod	_	_
 2	44	44	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	8	nsubj	_	_
@@ -2608,7 +2536,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Em virtude de ser um percentual relativamente considerado, foi aplicado um questionário para tentar entender os motivos pelos quais os mesmos não o utilizam.
-# sent_id = 364-20150326-MONOGRAFIA_0-90
+# sent_id = 364-20150326-MONOGRAFIA_0-86
 1	Em	em	ADP	_	_	2	case	_	_
 2	virtude	virtude	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 3	de	de	SCONJ	_	_	6	mark	_	_
@@ -2638,24 +2566,8 @@
 26	utilizam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = Figura 6.
-# sent_id = 364-20150326-MONOGRAFIA_0-91
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	6	6	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Motivos para não usar o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-92
-1	Motivos	motivo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	para	para	SCONJ	_	_	4	mark	_	_
-3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
-4	usar	usar	VERB	_	VerbForm=Inf	1	acl	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = Analisando o gráfico da figura acima, pode-se observar que foram obtidas respostas bem diversificadas quanto ao porquê de não utilizar o GNV nos veículos.
-# sent_id = 364-20150326-MONOGRAFIA_0-93
+# sent_id = 364-20150326-MONOGRAFIA_0-87
 1	Analisando	analisar	VERB	_	VerbForm=Ger	9	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -2692,7 +2604,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Dos 9 parâmetros analisados, apenas quatro tiveram uma maior frequência de respostas.
-# sent_id = 364-20150326-MONOGRAFIA_0-94
+# sent_id = 364-20150326-MONOGRAFIA_0-88
 1-2	Dos	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -2711,7 +2623,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Aproximadamente 37% dos entrevistados afirmam que acham o GNV um combustível inseguro.
-# sent_id = 364-20150326-MONOGRAFIA_0-95
+# sent_id = 364-20150326-MONOGRAFIA_0-89
 1	Aproximadamente	aproximadamente	ADV	_	_	3	advmod	_	_
 2	37	37	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	7	nsubj	_	_
@@ -2729,8 +2641,8 @@
 14	inseguro	inseguro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = 47% acham que ocorre perda de potência do motor e perda significativa do espaço do porta malas e 38% Artur Henrique Souza Saldanha acham que existe uma carência grande em relação as informações de vantagem e desvantagens sobre o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-96
+# text = 47% acham que ocorre perda de potência do motor e perda significativa do espaço do porta malas e 38% acham que existe uma carência grande em relação as informações de vantagem e desvantagens sobre o GNV.
+# sent_id = 364-20150326-MONOGRAFIA_0-90
 1	47	47	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 2	%	%	SYM	_	_	3	nsubj	_	_
 3	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2754,39 +2666,35 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	porta	porta	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-21	malas	emala	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	29	obj	_	_
+21	malas	emala	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
 22	e	e	CCONJ	_	_	24	cc	_	_
 23	38	38	NUM	_	NumType=Card	24	nummod	_	SpaceAfter=No
-24	%	%	SYM	_	_	21	nsubj	_	_
-25	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	_
-26	Henrique	Henrique	PROPN	_	Number=Sing	25	flat:name	_	_
-27	Souza	Souza	PROPN	_	Number=Sing	25	flat:name	_	_
-28	Saldanha	Saldanha	PROPN	_	Number=Sing	25	flat:name	_	_
-29	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
-30	que	que	SCONJ	_	_	31	mark	_	_
-31	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
-32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	carência	carência	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
-34	grande	grande	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
-35	em	em	ADP	_	_	33	case	_	_
-36	relação	relação	NOUN	_	Gender=Fem|Number=Sing	35	fixed	_	_
-37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
-38	informações	informação	NOUN	_	Gender=Fem|Number=Plur	31	nsubj	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
-41	e	e	CCONJ	_	_	42	cc	_	_
-42	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	40	conj	_	_
-43	sobre	sobre	ADP	_	_	45	case	_	_
-44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+24	%	%	SYM	_	_	21	nsubj	_	SpacesAfter=\s\n
+25	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+26	que	que	SCONJ	_	_	27	mark	_	_
+27	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	carência	carência	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+30	grande	grande	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+31	em	em	ADP	_	_	29	case	_	_
+32	relação	relação	NOUN	_	Gender=Fem|Number=Sing	31	fixed	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	informações	informação	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	_
+39	sobre	sobre	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4.4
-# sent_id = 364-20150326-MONOGRAFIA_0-97
+# sent_id = 364-20150326-MONOGRAFIA_0-91
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Análise das pessoas que possuíram o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-98
+# sent_id = 364-20150326-MONOGRAFIA_0-92
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2799,7 +2707,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Por fim foi aplicado esse questionário especifico, com intuito de avaliar o motivo pelo qual esses entrevistados resolveram desinstalar o GNV dos seus veículos.
-# sent_id = 364-20150326-MONOGRAFIA_0-99
+# sent_id = 364-20150326-MONOGRAFIA_0-93
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -2832,7 +2740,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Mesmo o percentual de entrevistado com esse perfil tenha sido baixo (3,6%), foi possível tirar uma conclusão.
-# sent_id = 364-20150326-MONOGRAFIA_0-100
+# sent_id = 364-20150326-MONOGRAFIA_0-94
 1	Mesmo	mesmo	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	percentual	percentual	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -2857,7 +2765,7 @@
 22	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Com a análise do Figura 7, pode-se concluir que os motivos principais que levaram os consumidores a desinstalarem os kits GNV dos seus veículos foram, a perda de desempenho e a baixa qualidade apresentada pelo mesmo.
-# sent_id = 364-20150326-MONOGRAFIA_0-101
+# sent_id = 364-20150326-MONOGRAFIA_0-95
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -2904,30 +2812,22 @@
 40	por	por	ADP	_	_	42	case	_	_
 41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	39	obl:agent	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
-# text = Artur Henrique Souza Saldanha Capítulo 5 Conclusões Artur Henrique Souza Saldanha 5.
-# sent_id = 364-20150326-MONOGRAFIA_0-102
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-5	Capítulo	capítulo	PROPN	_	Number=Sing	1	flat:name	_	_
-6	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
-7	Conclusões	conclusões	PROPN	_	Number=Sing	1	flat:name	_	_
-8	Artur	Artur	PROPN	_	Number=Sing	1	flat:name	_	_
-9	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-10	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-11	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	_
-12	5	5	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	_
+# text = Capítulo 5 Conclusões 5.
+# sent_id = 364-20150326-MONOGRAFIA_0-96
+1	Capítulo	capítulo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Conclusões	conclusões	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
+4	5	5	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Conclusão
-# sent_id = 364-20150326-MONOGRAFIA_0-103
+# sent_id = 364-20150326-MONOGRAFIA_0-97
 1	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O presente trabalho teve como objetivo realizar um estudo de satisfação dos clientes do GNV na região de Natal-RN visando obter informações importantes sobre a opinião da população que utiliza, dos que não utilizam e dos que já utilizaram o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-104
+# sent_id = 364-20150326-MONOGRAFIA_0-98
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	presente	presente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -2985,7 +2885,7 @@
 49	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O GNV é um dos combustíveis mais barato se comparado aos demais, polui menos o meio ambiente e é menos susceptível a explosões.
-# sent_id = 364-20150326-MONOGRAFIA_0-105
+# sent_id = 364-20150326-MONOGRAFIA_0-99
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	GNV	GNV	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3017,7 +2917,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A pesquisa contou com a participação de 167 pessoas entrevistadas, no qual 52% dos entrevistados utilizam o GNV como combustível principal, 44% não utilizam e apenas 6% já utilizaram o GNV.
-# sent_id = 364-20150326-MONOGRAFIA_0-106
+# sent_id = 364-20150326-MONOGRAFIA_0-100
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3061,7 +2961,7 @@
 39	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Aproximadamente 70% dos entrevistados relatam não se importar com o fato do GNV ser um combustível menos poluente.
-# sent_id = 364-20150326-MONOGRAFIA_0-107
+# sent_id = 364-20150326-MONOGRAFIA_0-101
 1	Aproximadamente	aproximadamente	ADV	_	_	3	advmod	_	_
 2	70	70	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	7	nsubj	_	_
@@ -3088,7 +2988,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A maioria dos entrevistados relataram que o GNV fez com eles tivessem uma perda de potência do motor e um aumento com gastos na manutenção do veículo.
-# sent_id = 364-20150326-MONOGRAFIA_0-108
+# sent_id = 364-20150326-MONOGRAFIA_0-102
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -3127,7 +3027,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Para que houvesse um possível aumento na frota de veículos com GNV, faz-se necessário a implantação de alguns pontos:
-# sent_id = 364-20150326-MONOGRAFIA_0-109
+# sent_id = 364-20150326-MONOGRAFIA_0-103
 1	Para	para	SCONJ	_	_	3	mark	_	_
 2	que	que	SCONJ	_	_	3	mark	_	_
 3	houvesse	houver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
@@ -3155,7 +3055,7 @@
 23	:	:	PUNCT	_	_	15	punct	_	_
 
 # text = -Fabricas automobilísticas passassem a realizar adaptações para que os cilindros de GNV não prejudicassem o porta malas;
-# sent_id = 364-20150326-MONOGRAFIA_0-110
+# sent_id = 364-20150326-MONOGRAFIA_0-104
 1	-Fabricas	-Fabrico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 2	automobilísticas	automobilística	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	passassem	passar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -3176,7 +3076,7 @@
 18	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = -Campanhas que mostrassem a população os benefícios para quem utiliza o GNV; -Incentivos fiscais por parte do governo, beneficiando as pessoas que convertessem seus veículos.
-# sent_id = 364-20150326-MONOGRAFIA_0-111
+# sent_id = 364-20150326-MONOGRAFIA_0-105
 1	-Campanhas	-Campanha	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	mostrassem	mostrar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
@@ -3206,12 +3106,5 @@
 26	convertessem	converter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
 27	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	28	det	_	_
 28	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = Artur Henrique Souza Saldanha
-# sent_id = 364-20150326-MONOGRAFIA_0-112
-1	Artur	Artur	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Henrique	Henrique	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Souza	Souza	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Saldanha	Saldanha	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
+29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 

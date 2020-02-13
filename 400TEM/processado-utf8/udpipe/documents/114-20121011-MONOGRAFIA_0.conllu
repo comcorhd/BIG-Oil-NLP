@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 114-20121011-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -474,7 +474,7 @@
 13	com	com	ADP	_	_	15	case	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Uruguai	Uruguai	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Segundo Lucchesi (1998), esta bacia possui características semelhantes à bacia do delta do Niger e do Mississipi as quais são importantes produtoras de petróleo e gás natural.
 # sent_id = 114-20121011-MONOGRAFIA_0-16
@@ -725,7 +725,7 @@
 27	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
 28	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	34	nsubj	_	_
 29	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
-30	ali	ali	ADV	_	_	34	advmod	_	_
+30	ali	ali	ADV	_	_	34	advmod	_	SpacesAfter=\s\n
 31	desde	desde	ADP	_	_	34	case	_	_
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 33	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	34	det	_	_
@@ -1302,7 +1302,7 @@
 21	processos	processo	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
 22	sedimentares	sedimentar	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
 23	recentes	recente	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = A Bacia de Pelotas também foi foco de estudos em modelagem de mancha de óleo (ALVES, 2006), cartas de sensibilidade ambiental (DINIZ, 2008) e banco de dados ambientais (SANTOS, 2009).
 # sent_id = 114-20121011-MONOGRAFIA_0-41
@@ -1755,7 +1755,7 @@
 5	inovação	inovação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	e	e	CCONJ	_	_	7	cc	_	_
 7	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpacesAfter=\s\n
 9	importância	importância	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	que	que	SCONJ	_	_	17	mark	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -2202,7 +2202,7 @@
 43	de	de	ADP	_	_	45	case	_	_
 44	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	45	det	_	_
 45	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Este estudo visa contribuir para uma avaliação geoquímica da bacia como um todo, ainda que num caráter preliminar, e também fornecer novas informações para serem incluídas nestes bancos de dados.
 # sent_id = 114-20121011-MONOGRAFIA_0-65
@@ -2244,7 +2244,7 @@
 33	bancos	bancos	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	dados	dado	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 114-20121011-MONOGRAFIA_0-66
@@ -2373,7 +2373,7 @@
 47	de	de	ADP	_	_	49	case	_	_
 48	05	05	NUM	_	NumType=Card	49	nummod	_	_
 49	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+50	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 114-20121011-MONOGRAFIA_0-71
@@ -2629,33 +2629,10 @@
 28	linha	linha	NOUN	_	Gender=Fem|Number=Sing	25	obl:agent	_	_
 29	em	em	ADP	_	_	30	case	_	_
 30	vermelho	vermelho	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = Figura 3:
-# sent_id = 114-20121011-MONOGRAFIA_0-83
-1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	3:	3:	PUNCT	_	_	1	punct	_	_
-
-# text = Container refrigerado no LOG da FURG e os testemunhos armazenados.
-# sent_id = 114-20121011-MONOGRAFIA_0-84
-1	Container	Container	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	refrigerado	refrigerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
-3-4	no	_	_	_	_	_	_	_	_
-3	em	em	ADP	_	_	5	case	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	LOG	LOG	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	_
-6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	8	case	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	FURG	FURG	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	e	e	CCONJ	_	_	11	cc	_	_
-10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-11	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
-12	armazenados	armazenar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Com estes testemunhos disponibilizados foram selecionados 45 (Figura 4) distribuídos ao longo da bacia.
-# sent_id = 114-20121011-MONOGRAFIA_0-85
+# sent_id = 114-20121011-MONOGRAFIA_0-83
 1	Com	com	ADP	_	_	3	case	_	_
 2	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
@@ -2679,7 +2656,7 @@
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Estes foram escolhidos de forma a abranger diferentes áreas da bacia em questão, para que suas características geoquímicas pudessem ser comparadas.
-# sent_id = 114-20121011-MONOGRAFIA_0-86
+# sent_id = 114-20121011-MONOGRAFIA_0-84
 1	Estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj:pass	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2707,7 +2684,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Um foco maior foi dado na região sul por ser onde se encontra o Cone do Rio Grande, formação sedimentar com reservas de hidratos de gás.
-# sent_id = 114-20121011-MONOGRAFIA_0-87
+# sent_id = 114-20121011-MONOGRAFIA_0-85
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	foco	foco	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	maior	grande	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2742,7 +2719,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A identificação dos testemunhos segue a nomenclatura estipulada pela empresa contratada para este trabalho (FUGRO), que se referem aos diferentes cruzeiros na região.
-# sent_id = 114-20121011-MONOGRAFIA_0-88
+# sent_id = 114-20121011-MONOGRAFIA_0-86
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -2780,7 +2757,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Durante a coleta pela FUGRO, os testemunhos foram divididos em parte
-# sent_id = 114-20121011-MONOGRAFIA_0-89
+# sent_id = 114-20121011-MONOGRAFIA_0-87
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	coleta	coleta	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -2797,7 +2774,7 @@
 13	parte	parte	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 
 # text = I e parte II, sendo chamados de topo e base, respectivamente.
-# sent_id = 114-20121011-MONOGRAFIA_0-90
+# sent_id = 114-20121011-MONOGRAFIA_0-88
 1	I	i	NUM	_	Gender=Unsp|Number=Sing|NumType=Ord	5	nsubj:pass	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	parte	parte	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -2814,7 +2791,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = As amostras tomadas são consideradas de sub-superfície já que não foi possível coletar a parte superficial dos testemunhos, pois esta foi retirada para o estudo contratado pela ANP.
-# sent_id = 114-20121011-MONOGRAFIA_0-91
+# sent_id = 114-20121011-MONOGRAFIA_0-89
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	tomadas	tomar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -2851,7 +2828,7 @@
 32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Para as análises propostas foram abertas todas as bases dos testemunhos escolhidos onde a profundidade de coleta da amostra variou conforme o tamanho do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-92
+# sent_id = 114-20121011-MONOGRAFIA_0-90
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	análises	análise	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
@@ -2886,7 +2863,7 @@
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Foi decidido abrir as bases dos testemunhos porque no estudo realizado na região do Cone do Rio Grande (CORREIA, 2009) não se observou diferença significativa entre as duas partes e também por ser esta à parte do testemunho mais abundante entre os exemplares doados ao laboratório.
-# sent_id = 114-20121011-MONOGRAFIA_0-93
+# sent_id = 114-20121011-MONOGRAFIA_0-91
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	decidido	decidir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	abrir	abrir	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -2955,7 +2932,7 @@
 58	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Além disto, como o estudo anterior contemplou somente testemunhos da região sul, foram escolhidos 5 testemunhos ao longo da Bacia de Pelotas para terem as duas partes abertas (topo e base) e assim tornar possível uma análise em perfil de profundidade das características geoquímicas.
-# sent_id = 114-20121011-MONOGRAFIA_0-94
+# sent_id = 114-20121011-MONOGRAFIA_0-92
 1	Além	além	ADV	_	_	3	advmod	_	_
 2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -3014,15 +2991,15 @@
 51	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
 52	características	característica	NOUN	_	Gender=Fem|Number=Plur	49	nmod	_	_
 53	geoquímicas	geoquímico	ADJ	_	Gender=Fem|Number=Plur	52	amod	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+54	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n\n
 
 # text = 3.2.
-# sent_id = 114-20121011-MONOGRAFIA_0-95
+# sent_id = 114-20121011-MONOGRAFIA_0-93
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Abertura e Coleta de Amostras
-# sent_id = 114-20121011-MONOGRAFIA_0-96
+# sent_id = 114-20121011-MONOGRAFIA_0-94
 1	Abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Coleta	coleta	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -3030,7 +3007,7 @@
 5	Amostras	amostras	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Os testemunhos foram abertos com uma serra em uma mesa própria para esta finalidade cedida pelo Centro de Estudos Costeiros e Oceânicos da Universidade Federal do Rio Grande do Sul (CECO – UFRGS).
-# sent_id = 114-20121011-MONOGRAFIA_0-97
+# sent_id = 114-20121011-MONOGRAFIA_0-95
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -3077,7 +3054,7 @@
 40	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Durante a abertura dos testemunhos foi obedecido os critérios de normatização de acordo com as análises executadas para evitar a contaminação das amostras.
-# sent_id = 114-20121011-MONOGRAFIA_0-98
+# sent_id = 114-20121011-MONOGRAFIA_0-96
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -3108,7 +3085,7 @@
 26	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Após a abertura, os testemunhos foram escaneados, desenhados e descritos conforme coloração, textura e padrão granulométrico.
-# sent_id = 114-20121011-MONOGRAFIA_0-99
+# sent_id = 114-20121011-MONOGRAFIA_0-97
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -3131,7 +3108,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Também utilizou-se uma agulha histológica para verificar a homogeneidade dos sedimentos ao longo do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-100
+# sent_id = 114-20121011-MONOGRAFIA_0-98
 1	Também	também	ADV	_	_	2	advmod	_	_
 2-3	utilizou-se	_	_	_	_	_	_	_	_
 2	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3158,7 +3135,7 @@
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = As cores dos testemunhos foram determinadas segundo a carta de coloração de rochas de Damuth (1948).
-# sent_id = 114-20121011-MONOGRAFIA_0-101
+# sent_id = 114-20121011-MONOGRAFIA_0-99
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cores	cor	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -3181,7 +3158,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Todos estes dados foram organizados e arquivados para posteriores estudos dos testemunhos, não estando contemplados nos resultados deste trabalho.
-# sent_id = 114-20121011-MONOGRAFIA_0-102
+# sent_id = 114-20121011-MONOGRAFIA_0-100
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	dados	dado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
@@ -3211,7 +3188,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As amostras foram retiradas do início da base dos testemunhos, variando a profundidade conforme o tamanho total do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-103
+# sent_id = 114-20121011-MONOGRAFIA_0-101
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3243,7 +3220,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Além disto, nos 5 testemunhos: REG 396, REG 740, REG 985, SAT 072 e SAT 119 também foram abertas os topos, sendo retirada destes 1 ou 2 amostras conforme o tamanho total deste.
-# sent_id = 114-20121011-MONOGRAFIA_0-104
+# sent_id = 114-20121011-MONOGRAFIA_0-102
 1	Além	além	ADV	_	_	3	advmod	_	_
 2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3291,10 +3268,10 @@
 42-43	deste	_	_	_	_	_	_	_	SpaceAfter=No
 42	de	de	ADP	_	_	43	case	_	_
 43	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	40	nmod	_	_
-44	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n\n
 
 # text = As amostras abrangeram aproximadamente 30cm do testemunho, do qual utilizamos a metade para estas análises, foram retiradas com espátula de plástico e transferidas para placas de petri para posterior secagem.
-# sent_id = 114-20121011-MONOGRAFIA_0-105
+# sent_id = 114-20121011-MONOGRAFIA_0-103
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	abrangeram	abrangerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3335,7 +3312,7 @@
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Após a coleta, foi realizado a medição de pH em cada amostra selecionada.
-# sent_id = 114-20121011-MONOGRAFIA_0-106
+# sent_id = 114-20121011-MONOGRAFIA_0-104
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	coleta	coleta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
@@ -3353,7 +3330,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Estas amostras foram secas em estufa à 45ºC e posteriormente foram desagregadas em almofariz de porcelana, maceradas em graal de agáta e armazenadas em recipientes de vidro previamente limpos até a realização das análises.
-# sent_id = 114-20121011-MONOGRAFIA_0-107
+# sent_id = 114-20121011-MONOGRAFIA_0-105
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -3396,25 +3373,25 @@
 38	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.3.
-# sent_id = 114-20121011-MONOGRAFIA_0-108
+# sent_id = 114-20121011-MONOGRAFIA_0-106
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Metodologia Analítica 3.3.1.
-# sent_id = 114-20121011-MONOGRAFIA_0-109
+# sent_id = 114-20121011-MONOGRAFIA_0-107
 1	Metodologia	metodologia	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Analítica	Analítica	PROPN	_	Number=Sing	1	flat:name	_	_
 3	3.3.1	3.3.1	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Limpeza de Materiais
-# sent_id = 114-20121011-MONOGRAFIA_0-110
+# sent_id = 114-20121011-MONOGRAFIA_0-108
 1	Limpeza	limpeza	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Materiais	materiais	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = A vidraria utilizada nas amostras para as análises de carbono, nitrogênio e fósforo foi lavada com detergente livre de fósforo, enxaguada com água corrente abundante e em seguida com água destilada, sendo seca à temperatura ambiente.
-# sent_id = 114-20121011-MONOGRAFIA_0-111
+# sent_id = 114-20121011-MONOGRAFIA_0-109
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vidraria	vidraria	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
 3	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3460,8 +3437,8 @@
 41	ambiente	ambiente	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
-# text = Para as análises de metais, o material utilizado foi lavado com água corrente e imerso em uma solução de 1% de ácido nítrico (HNO3), sendo posteriormente lavado com água destilada e seco à temperatura ambiente.
-# sent_id = 114-20121011-MONOGRAFIA_0-112
+# text = Para as análises de metais, o material utilizado foi lavado com água corrente e imerso em uma solução de 1% de ácido nítrico (HNO), sendo posteriormente lavado com água destilada e seco à temperatura ambiente.
+# sent_id = 114-20121011-MONOGRAFIA_0-110
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	análises	análise	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
@@ -3488,7 +3465,7 @@
 24	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 25	nítrico	nítrico	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+27	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	sendo	ser	AUX	_	VerbForm=Ger	32	aux	_	_
@@ -3507,12 +3484,12 @@
 42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 3.3.2.
-# sent_id = 114-20121011-MONOGRAFIA_0-113
+# sent_id = 114-20121011-MONOGRAFIA_0-111
 1	3.3.2	3.3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Determinações de Potencial Hidrogeniônico (pH)
-# sent_id = 114-20121011-MONOGRAFIA_0-114
+# sent_id = 114-20121011-MONOGRAFIA_0-112
 1	Determinações	Determinação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Potencial	potencial	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3522,7 +3499,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = O pH permite informações sobre a tendência do comportamento de elementos e substâncias químicas de origem contaminante ou natural.
-# sent_id = 114-20121011-MONOGRAFIA_0-115
+# sent_id = 114-20121011-MONOGRAFIA_0-113
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	ph	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3547,7 +3524,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A medição do pH dos sedimentos foi feita com a utilização de pH-metro da marca Oakton® (modelo pH6/00702-75, Acorn Series), calibrado com padrões de pH 4 e 7, utilizando eletrodo combinado de vidro tipo baioneta.
-# sent_id = 114-20121011-MONOGRAFIA_0-116
+# sent_id = 114-20121011-MONOGRAFIA_0-114
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	medição	medição	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -3597,7 +3574,7 @@
 44	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = As medições foram realizadas logo após a abertura dos testemunhos.
-# sent_id = 114-20121011-MONOGRAFIA_0-117
+# sent_id = 114-20121011-MONOGRAFIA_0-115
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	medições	medição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3610,20 +3587,20 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 3.3.3.
-# sent_id = 114-20121011-MONOGRAFIA_0-118
+# sent_id = 114-20121011-MONOGRAFIA_0-116
 1	3.3.3	3.3.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Análises Granulométricas
-# sent_id = 114-20121011-MONOGRAFIA_0-119
+# sent_id = 114-20121011-MONOGRAFIA_0-117
 1	Análises	Análises	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Granulométricas	Granulométricas	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = As análises granulométricas seguiram os métodos de peneiragem/pipetagem descritos em Suguio (1973) e foram realizas no Setor de Sedimentologia do LOG.
-# sent_id = 114-20121011-MONOGRAFIA_0-120
+# sent_id = 114-20121011-MONOGRAFIA_0-118
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	análises	análise	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	granulométricas	granulométrico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3654,7 +3631,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, as amostras foram lavadas, para retirada dos sais, e após secas em estufa a 60ºC.
-# sent_id = 114-20121011-MONOGRAFIA_0-121
+# sent_id = 114-20121011-MONOGRAFIA_0-119
 1	Inicialmente	inicialmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3679,7 +3656,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para cada testemunho foram pesados em torno de 30g, e estes foram separados em sedimentos grosseiros e sedimentos finos através de uma malha de 0,063 mm.
-# sent_id = 114-20121011-MONOGRAFIA_0-122
+# sent_id = 114-20121011-MONOGRAFIA_0-120
 1	Para	para	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -3710,7 +3687,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os sedimentos finos (<0,063mm) foram separados através de decantação e pipetagem e os sedimentos grosseiros (>0,063 mm) foram peneirados.
-# sent_id = 114-20121011-MONOGRAFIA_0-123
+# sent_id = 114-20121011-MONOGRAFIA_0-121
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	finos	fino	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -3737,7 +3714,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os resultados obtidos foram classificados em areia, silte e argila através do diagrama de Shepard (SUGUIO, 1973).
-# sent_id = 114-20121011-MONOGRAFIA_0-124
+# sent_id = 114-20121011-MONOGRAFIA_0-122
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -3764,19 +3741,19 @@
 23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.3.4.
-# sent_id = 114-20121011-MONOGRAFIA_0-125
+# sent_id = 114-20121011-MONOGRAFIA_0-123
 1	3.3.4	3.3.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Determinação de elementos maiores
-# sent_id = 114-20121011-MONOGRAFIA_0-126
+# sent_id = 114-20121011-MONOGRAFIA_0-124
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 4	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 
 # text = O termo matéria orgânica é utilizado para se referir coletivamente a todo e qualquer composto orgânico.
-# sent_id = 114-20121011-MONOGRAFIA_0-127
+# sent_id = 114-20121011-MONOGRAFIA_0-125
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	termo	termo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
@@ -3796,7 +3773,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Geralmente tem grande estrutura e peso molecular e contém primariamente os elementos carbono, hidrogênio, nitrogênio, oxigênio, fósforo e enxofre.
-# sent_id = 114-20121011-MONOGRAFIA_0-128
+# sent_id = 114-20121011-MONOGRAFIA_0-126
 1	Geralmente	geralmente	ADV	_	_	2	advmod	_	_
 2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	grande	grande	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -3823,7 +3800,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Em áreas costeiras, a matéria orgânica desempenha um importante papel, quer seja no compartimento água ou sedimento, porque ela apresenta propriedades particulares como a complexação ou adsorção de íons traço, resultando na imobilização e redução de seus estados de valência, com mudanças nas suas propriedades químicas (LIMA, 2008).
-# sent_id = 114-20121011-MONOGRAFIA_0-129
+# sent_id = 114-20121011-MONOGRAFIA_0-127
 1	Em	em	ADP	_	_	2	case	_	_
 2	áreas	área	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 3	costeiras	costeiro	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
@@ -3889,7 +3866,7 @@
 60	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para inferir sobre as características da matéria orgânica presente nos testemunhos foram escolhidas as análises de Carbono Orgânico Total, Nitrogênio Total (N) e Fósforo Total (P).
-# sent_id = 114-20121011-MONOGRAFIA_0-130
+# sent_id = 114-20121011-MONOGRAFIA_0-128
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	inferir	inferir	VERB	_	VerbForm=Inf	15	advcl	_	_
 3	sobre	sobre	ADP	_	_	5	case	_	_
@@ -3928,7 +3905,7 @@
 34	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Todas estas, foram realizadas em triplicata para minimizar o possível erro analítico no momento da execução do método.
-# sent_id = 114-20121011-MONOGRAFIA_0-131
+# sent_id = 114-20121011-MONOGRAFIA_0-129
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	2	det	_	_
 2	estas	este	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	5	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3957,18 +3934,18 @@
 23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.3.4.1.
-# sent_id = 114-20121011-MONOGRAFIA_0-132
+# sent_id = 114-20121011-MONOGRAFIA_0-130
 1	3.3.4.1	3.3.4.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Carbono Orgânico Total
-# sent_id = 114-20121011-MONOGRAFIA_0-133
+# sent_id = 114-20121011-MONOGRAFIA_0-131
 1	Carbono	Carbono	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Orgânico	orgânico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Total	total	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A determinação do Carbono Orgânico Total (COT) foi realizada através do método descrito por Strickland & Parsons e modificado por Gaudette et.al. (1974).
-# sent_id = 114-20121011-MONOGRAFIA_0-134
+# sent_id = 114-20121011-MONOGRAFIA_0-132
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4004,9 +3981,9 @@
 31	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = As amostras foram pesadas e colocadas em um erlenmeyer onde foi adicionado ácido fosfórico, para a eliminação de carbonatos durante aquecimento na estufa por 30 minutos (100-110ºC).
-# sent_id = 114-20121011-MONOGRAFIA_0-135
+# sent_id = 114-20121011-MONOGRAFIA_0-133
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	SpacesAfter=\s\n
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
 4	pesadas	pesar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 5	e	e	CCONJ	_	_	6	cc	_	_
@@ -4040,7 +4017,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em seguida, foi adicionada uma solução oxidante (H2SO4/K2Cr2O7) em cada amostra e estas foram colocadas novamente em estufa durante 60 minutos.
-# sent_id = 114-20121011-MONOGRAFIA_0-136
+# sent_id = 114-20121011-MONOGRAFIA_0-134
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4068,7 +4045,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Após voltar à temperatura ambiente, a amostra foi diluída com água destilada e acrescentou-se 6 gotas do indicador ferroína.
-# sent_id = 114-20121011-MONOGRAFIA_0-137
+# sent_id = 114-20121011-MONOGRAFIA_0-135
 1	Após	após	SCONJ	_	_	2	mark	_	_
 2	voltar	voltar	VERB	_	VerbForm=Inf	11	advcl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -4098,7 +4075,7 @@
 24	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Deste modo, titularam-se as amostras com sulfato ferroso amoniacal (0,1
-# sent_id = 114-20121011-MONOGRAFIA_0-138
+# sent_id = 114-20121011-MONOGRAFIA_0-136
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -4117,7 +4094,7 @@
 14	0,1	0,1	NUM	_	NumType=Card	5	xcomp	_	_
 
 # text = N) para fazer o cálculo da porcentagem de COT encontrada em cada testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-139
+# sent_id = 114-20121011-MONOGRAFIA_0-137
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	1	punct	_	_
 3	para	para	SCONJ	_	_	4	mark	_	_
@@ -4137,17 +4114,17 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.3.4.2.
-# sent_id = 114-20121011-MONOGRAFIA_0-140
+# sent_id = 114-20121011-MONOGRAFIA_0-138
 1	3.3.4.2	3.3.4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Nitrogênio Total
-# sent_id = 114-20121011-MONOGRAFIA_0-141
+# sent_id = 114-20121011-MONOGRAFIA_0-139
 1	Nitrogênio	Nitrogênio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Total	total	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O método utilizado para a determinação do Nitrogênio Total foi o Micro-Kjeldhal, de acordo com Tedesco et al. (1995).
-# sent_id = 114-20121011-MONOGRAFIA_0-142
+# sent_id = 114-20121011-MONOGRAFIA_0-140
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -4175,7 +4152,7 @@
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Este método consiste na digestão da amostra em ácido sulfúrico à 350ºC para que todo o nitrogênio orgânico seja convertido à forma amoniacal.
-# sent_id = 114-20121011-MONOGRAFIA_0-143
+# sent_id = 114-20121011-MONOGRAFIA_0-141
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4210,7 +4187,7 @@
 28	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Assim, com a adição de hidróxido de sódio a mistura se alcaliniza e então, a amônia é destilada juntamente com o vapor d’água.
-# sent_id = 114-20121011-MONOGRAFIA_0-144
+# sent_id = 114-20121011-MONOGRAFIA_0-142
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -4240,7 +4217,7 @@
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O destilado alcalino é recebido por uma solução de ácido bórico, a qual se titula com ácido sulfúrico diluído obtendo-se então a concentração total de N nas amostras.
-# sent_id = 114-20121011-MONOGRAFIA_0-145
+# sent_id = 114-20121011-MONOGRAFIA_0-143
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	destilado	destilar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
 3	alcalino	alcalino	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -4277,17 +4254,17 @@
 32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.3.4.3.
-# sent_id = 114-20121011-MONOGRAFIA_0-146
+# sent_id = 114-20121011-MONOGRAFIA_0-144
 1	3.3.4.3	3.3.4.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fósforo Total
-# sent_id = 114-20121011-MONOGRAFIA_0-147
+# sent_id = 114-20121011-MONOGRAFIA_0-145
 1	Fósforo	Fósforo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Total	total	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O Fósforo Total seguiu o procedimento descrito por Ruttenberg (1992).
-# sent_id = 114-20121011-MONOGRAFIA_0-148
+# sent_id = 114-20121011-MONOGRAFIA_0-146
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Fósforo	Fósforo	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Total	total	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4303,7 +4280,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Neste método as amostras são calcinadas em mufla durante 1 hora, a fim de eliminar a matéria orgânica.
-# sent_id = 114-20121011-MONOGRAFIA_0-149
+# sent_id = 114-20121011-MONOGRAFIA_0-147
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -4328,7 +4305,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Após está mineralização, o sedimento é digerido com solução de ácido clorídrico e agitado por 16 horas.
-# sent_id = 114-20121011-MONOGRAFIA_0-150
+# sent_id = 114-20121011-MONOGRAFIA_0-148
 1	Após	após	SCONJ	_	_	3	mark	_	_
 2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	mineralização	mineralização	NOUN	_	Gender=Fem|Number=Sing	8	advcl	_	SpaceAfter=No
@@ -4350,7 +4327,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A solução é então filtrada para a retirada do material em suspensão, para não haver leitura subestimada da amostra.
-# sent_id = 114-20121011-MONOGRAFIA_0-151
+# sent_id = 114-20121011-MONOGRAFIA_0-149
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4377,8 +4354,8 @@
 22	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Em cada amostra é adicionado ácido ascórbico e molibdato de amônio que forma um complexo de cor azulada de fosfo- molibdato, possibilitando a determinação da concentração por colorimetria no comprimento de onda de 885 nm.
-# sent_id = 114-20121011-MONOGRAFIA_0-152
+# text = Em cada amostra é adicionado ácido ascórbico e molibdato de amônio que forma um complexo de cor azulada de fosfo-molibdato, possibilitando a determinação da concentração por colorimetria no comprimento de onda de 885 nm.
+# sent_id = 114-20121011-MONOGRAFIA_0-150
 1	Em	em	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -4391,39 +4368,37 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	amônio	amônio	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	_
-13	forma	formar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+13	forma	formar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	complexo	complexo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	cor	cor	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18	azulada	azular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
+18	azulada	azular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
 19	de	de	ADP	_	_	20	case	_	_
-20	fosfo	fosfo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
-21	-	-	PUNCT	_	_	20	punct	_	_
-22	molibdato	molibdato	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	possibilitando	possibilitar	VERB	_	VerbForm=Ger	5	advcl	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30	por	por	ADP	_	_	31	case	_	_
-31	colorimetria	colorimetria	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-32-33	no	_	_	_	_	_	_	_	_
-32	em	em	ADP	_	_	34	case	_	_
-33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	onda	onda	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
-37	de	de	ADP	_	_	39	case	_	_
-38	885	885	NUM	_	NumType=Card	39	nummod	_	_
-39	nm	nm	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	5	punct	_	_
+20	fosfo-molibdato	fosfo-molibdato	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	possibilitando	possibilitar	VERB	_	VerbForm=Ger	13	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	por	por	ADP	_	_	29	case	_	_
+29	colorimetria	colorimetria	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	onda	onda	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	885	885	NUM	_	NumType=Card	37	nummod	_	_
+37	nm	nm	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Juntamente a estes procedimentos é feita uma curva de calibração para tornar possível o cálculo da concentração de P total nas amostras.
-# sent_id = 114-20121011-MONOGRAFIA_0-153
+# sent_id = 114-20121011-MONOGRAFIA_0-151
 1	Juntamente	juntamente	ADV	_	_	4	advmod	_	_
 2	a	o	ADP	_	_	4	case	_	_
 3	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -4453,7 +4428,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O espectrofotômetro utilizado para a leitura das amostras foi da marca Micronal, modelo B582.
-# sent_id = 114-20121011-MONOGRAFIA_0-154
+# sent_id = 114-20121011-MONOGRAFIA_0-152
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	espectrofotômetro	espectrofotômetro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -4473,20 +4448,20 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
 17	B582	B582	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = 3.3.5.
-# sent_id = 114-20121011-MONOGRAFIA_0-155
+# sent_id = 114-20121011-MONOGRAFIA_0-153
 1	3.3.5	3.3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Elementos Metálicos
-# sent_id = 114-20121011-MONOGRAFIA_0-156
+# sent_id = 114-20121011-MONOGRAFIA_0-154
 1	Elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Metálicos	metálico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Os metais são transportados pelo ciclo hidrológico desde a primeira ocorrência de água no Planeta Terra (SALOMONS & FORSTNER, 1984), durante o percurso entre o continente e o oceano, estes elementos estão sujeitos a diferentes processos que ocorrem devido às características físico-químicas do ambiente.
-# sent_id = 114-20121011-MONOGRAFIA_0-157
+# sent_id = 114-20121011-MONOGRAFIA_0-155
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	metais	metal	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4547,7 +4522,7 @@
 54	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Na interface águas continentais/marinhas e nas plataformas continentais, ocorrem alguns destes processos onde a acumulação de metais traço de origem natural e antrópica acaba por ser mais intensa.
-# sent_id = 114-20121011-MONOGRAFIA_0-158
+# sent_id = 114-20121011-MONOGRAFIA_0-156
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4587,7 +4562,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Essa acumulação ocorre através de processos de sedimentação, floculação, adsorção, precipitação ou coprecipitação envolvendo metais dissolvidos ou particulados (BAISCH, 1996).
-# sent_id = 114-20121011-MONOGRAFIA_0-159
+# sent_id = 114-20121011-MONOGRAFIA_0-157
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	acumulação	acumulação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4617,7 +4592,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os metais escolhidos para este trabalho basearam-se no trabalho anterior realizado no Cone de Rio Grande (CORREIA, 2009).
-# sent_id = 114-20121011-MONOGRAFIA_0-160
+# sent_id = 114-20121011-MONOGRAFIA_0-158
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	metais	metal	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4648,7 +4623,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim, os metais determinados foram os seguintes: cobre, cromo, níquel, zinco, chumbo e ferro.
-# sent_id = 114-20121011-MONOGRAFIA_0-161
+# sent_id = 114-20121011-MONOGRAFIA_0-159
 1	Assim	assim	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -4672,7 +4647,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Foi utilizada a fração total dos sedimentos já que a composição dos testemunhos é basicamente silte e argila.
-# sent_id = 114-20121011-MONOGRAFIA_0-162
+# sent_id = 114-20121011-MONOGRAFIA_0-160
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4698,7 +4673,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O procedimento utilizado para a determinação dos metais foi o método 3050B da U.S.
-# sent_id = 114-20121011-MONOGRAFIA_0-163
+# sent_id = 114-20121011-MONOGRAFIA_0-161
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -4720,7 +4695,7 @@
 17	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Environmental Protection Agency – EPA (USEPA, 1996).
-# sent_id = 114-20121011-MONOGRAFIA_0-164
+# sent_id = 114-20121011-MONOGRAFIA_0-162
 1	Environmental	Environmental	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Protection	Protection	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Agency	Agency	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -4733,8 +4708,8 @@
 10	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Este método consiste em pesar 1g de amostra da fração total do sedimento já macerada, adicionar 10 mL de ácido nítrico (HNO3) 1:1 e colocar as amostras em uma chapa aquecida à aproximadamente 80ºC por cerca de 20 minutos.
-# sent_id = 114-20121011-MONOGRAFIA_0-165
+# text = Este método consiste em pesar 1g de amostra da fração total do sedimento já macerada, adicionar 10 mL de ácido nítrico (HNO) 1:1 e colocar as amostras em uma chapa aquecida à aproximadamente 80ºC por cerca de 20 minutos.
+# sent_id = 114-20121011-MONOGRAFIA_0-163
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4762,7 +4737,7 @@
 23	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	nítrico	nítrico	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+26	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	26	punct	_	_
 28	1:1	1:1	NUM	_	NumType=Card	19	obj	_	_
 29	e	e	CCONJ	_	_	30	cc	_	_
@@ -4785,8 +4760,8 @@
 45	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Depois deste período, adiciona-se 5 mL de HNO3 concentrado.
-# sent_id = 114-20121011-MONOGRAFIA_0-166
+# text = Depois deste período, adiciona-se 5 mL de HNO concentrado.
+# sent_id = 114-20121011-MONOGRAFIA_0-164
 1	Depois	depois	ADV	_	_	6	advmod	_	_
 2-3	deste	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4799,12 +4774,12 @@
 8	5	5	NUM	_	NumType=Card	9	nummod	_	_
 9	mL	mL	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+11	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	concentrado	concentrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Espera-se a amostrar concentrar-se a 5 mL e então adiciona-se 2 mL de água destilada e 3 mL de água oxigenada (H2O2)
-# sent_id = 114-20121011-MONOGRAFIA_0-167
+# sent_id = 114-20121011-MONOGRAFIA_0-165
 1-2	Espera-se	_	_	_	_	_	_	_	_
 1	Espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4837,7 +4812,7 @@
 27	)	)	PUNCT	_	_	26	punct	_	_
 
 # text = Novamente as amostras são colocadas na chapa aquecida até atingirem 5 mL.
-# sent_id = 114-20121011-MONOGRAFIA_0-168
+# sent_id = 114-20121011-MONOGRAFIA_0-166
 1	Novamente	novamente	ADV	_	_	5	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -4855,7 +4830,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A seguir, adiciona-se 10 mL de ácido clorídrico (HCl) e as amostras sofrem o último aquecimento por mais 20 minutos.
-# sent_id = 114-20121011-MONOGRAFIA_0-169
+# sent_id = 114-20121011-MONOGRAFIA_0-167
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4884,7 +4859,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após este período, retiram-se as amostras da chapa e espera-se o esfriamento destas, adiciona-se 20 mL de água destilada e então as amostras são filtradas e aferidas até 50 mL.
-# sent_id = 114-20121011-MONOGRAFIA_0-170
+# sent_id = 114-20121011-MONOGRAFIA_0-168
 1	Após	após	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -4930,7 +4905,7 @@
 38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A leitura dos metais foi realizada por espectrofotometria de absorção atômica com chama em equipamento de modelo AA GBC 932.
-# sent_id = 114-20121011-MONOGRAFIA_0-171
+# sent_id = 114-20121011-MONOGRAFIA_0-169
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -4953,15 +4928,15 @@
 19	AA	AA	PROPN	_	Gender=Fem|Number=Sing	18	appos	_	_
 20	GBC	GBC	PROPN	_	Number=Sing	19	flat:name	_	_
 21	932	932	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = 3.4.
-# sent_id = 114-20121011-MONOGRAFIA_0-172
+# sent_id = 114-20121011-MONOGRAFIA_0-170
 1	3.4	3.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tratamento dos Dados
-# sent_id = 114-20121011-MONOGRAFIA_0-173
+# sent_id = 114-20121011-MONOGRAFIA_0-171
 1	Tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4969,7 +4944,7 @@
 4	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Os resultados encontrados para cada parâmetro receberam um tratamento estatístico descritivo básico além de uma Análise de Componentes Principais, utilizando a rotação Varimax normalizada.
-# sent_id = 114-20121011-MONOGRAFIA_0-174
+# sent_id = 114-20121011-MONOGRAFIA_0-172
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4998,7 +4973,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Os parâmetros também foram interpolados por krigagem através de um software para gerar mapas de concentração ao longo da bacia analisada.
-# sent_id = 114-20121011-MONOGRAFIA_0-175
+# sent_id = 114-20121011-MONOGRAFIA_0-173
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	também	também	ADV	_	_	5	advmod	_	_
@@ -5024,26 +4999,26 @@
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	analisada	analisar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 4.
-# sent_id = 114-20121011-MONOGRAFIA_0-176
+# sent_id = 114-20121011-MONOGRAFIA_0-174
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS
-# sent_id = 114-20121011-MONOGRAFIA_0-177
+# sent_id = 114-20121011-MONOGRAFIA_0-175
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = E DISCUSSÕES 4.1.
-# sent_id = 114-20121011-MONOGRAFIA_0-178
+# sent_id = 114-20121011-MONOGRAFIA_0-176
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	DISCUSSÕES	discussão	NUM	_	NumType=Card	3	nummod	_	_
 3	4.1	4.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Relação dos Testemunhos Selecionados
-# sent_id = 114-20121011-MONOGRAFIA_0-179
+# sent_id = 114-20121011-MONOGRAFIA_0-177
 1	Relação	relação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5052,7 +5027,7 @@
 5	Selecionados	selecionados	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Os testemunhos escolhidos para abertura, processamento e análise estão listados na tabela 1.
-# sent_id = 114-20121011-MONOGRAFIA_0-180
+# sent_id = 114-20121011-MONOGRAFIA_0-178
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -5071,7 +5046,7 @@
 15	1.	1	NUM	_	NumType=Card	14	nummod	_	_
 
 # text = Nesta tabela também estão relacionadas as coordenadas geográficas de cada testemunho, profundidade da coluna d’água onde foram amostrados, além do tamanho total destes e a profundidade amostrada dentro do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-181
+# sent_id = 114-20121011-MONOGRAFIA_0-179
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5118,13 +5093,13 @@
 39	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 1:
-# sent_id = 114-20121011-MONOGRAFIA_0-182
+# sent_id = 114-20121011-MONOGRAFIA_0-180
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	1	1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Testemunhos escolhidos para as análises com suas coordenadas geográficas, profundidade no local de amostragem, tamanho total do testemunho e profundidade amostrada no testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-183
+# sent_id = 114-20121011-MONOGRAFIA_0-181
 1	Testemunhos	Testemunho	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -5156,15 +5131,15 @@
 26	em	em	ADP	_	_	28	case	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.
-# sent_id = 114-20121011-MONOGRAFIA_0-184
+# sent_id = 114-20121011-MONOGRAFIA_0-182
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Potencial Hidrogeniônico (pH) O pH encontrado nas amostras indicou em sua maioria sedimentos neutros, variando entre 6,15 até 7,54, a média encontrada foi de 7,04 com baixo desvio padrão de 0,27 (Tabela 2).
-# sent_id = 114-20121011-MONOGRAFIA_0-185
+# sent_id = 114-20121011-MONOGRAFIA_0-183
 1	Potencial	potencial	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 2	Hidrogeniônico	Hidrogeniônico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5209,7 +5184,7 @@
 41	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Por problemas técnicos com o potenciômetro, as amostras REG 250, REG 305, REG 396, REG 486 e SAT 570 não puderam ter o seu pH medido, e portanto, estas amostras não estão contempladas na tabela.
-# sent_id = 114-20121011-MONOGRAFIA_0-186
+# sent_id = 114-20121011-MONOGRAFIA_0-184
 1	Por	por	ADP	_	_	2	case	_	_
 2	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
 3	técnicos	técnico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5256,7 +5231,7 @@
 43	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = Outro ponto importante a salientar é que como estes testemunhos foram coletados em 2007/2008, mesmo com a conservação correta, os valores de pH podem ter sofrido alterações já que saíram do ambiente de origem a um tempo considerável.
-# sent_id = 114-20121011-MONOGRAFIA_0-187
+# sent_id = 114-20121011-MONOGRAFIA_0-185
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
 3	importante	importante	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5302,7 +5277,7 @@
 42	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Os valores de pH possuem correlação com a concentração de carbonatos, quanto maior o valor do pH do sedimento e da água do mar ao redor, maior será o teor de carbonatos (LI & SCHOONMAKER, 2003).
-# sent_id = 114-20121011-MONOGRAFIA_0-188
+# sent_id = 114-20121011-MONOGRAFIA_0-186
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5357,7 +5332,7 @@
 47	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Como esta análise de carbonatos não foi realizada neste projeto, mas considerando que os valores de pH determinados não foram elevados pode-se inferir que a concentração de carbonatos é baixa para todas as amostras analisadas.
-# sent_id = 114-20121011-MONOGRAFIA_0-189
+# sent_id = 114-20121011-MONOGRAFIA_0-187
 1	Como	como	ADV	_	_	8	advmod	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
@@ -5398,20 +5373,44 @@
 36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
 37	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	33	obl	_	_
 38	analisadas	analisar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	37	acl	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
+
+# text = Tabela 2: Resultados de pH encontrados, média, desvio padrão, máximo e mínimo das amostras.
+# sent_id = 114-20121011-MONOGRAFIA_0-188
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	2	2	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Resultados	Resultados	PROPN	_	Number=Sing	1	flat:name	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	pH	ph	PROPN	_	Number=Sing	7	nmod	_	_
+7	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	média	média	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	desvio	desvio	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	máximo	grande	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	mínimo	mínimo	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.3.
-# sent_id = 114-20121011-MONOGRAFIA_0-190
+# sent_id = 114-20121011-MONOGRAFIA_0-189
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Análises Granulométricas
-# sent_id = 114-20121011-MONOGRAFIA_0-191
+# sent_id = 114-20121011-MONOGRAFIA_0-190
 1	Análises	Análises	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Granulométricas	Granulométricas	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A análise dos resultados da granulometria é apresentada na forma de porcentagem das frações areia, silte e argila para cada amostra dos testemunhos (Tabela 3), onde também se encontram as médias, desvio padrão, máximos e mínimos de cada fração granulométrica.
-# sent_id = 114-20121011-MONOGRAFIA_0-192
+# sent_id = 114-20121011-MONOGRAFIA_0-191
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -5471,7 +5470,7 @@
 52	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = A porcentagem de areia foi a menos representativa nas amostras e variou de 0,20% a 19,19% apresentando média de 5,08%.
-# sent_id = 114-20121011-MONOGRAFIA_0-193
+# sent_id = 114-20121011-MONOGRAFIA_0-192
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5500,7 +5499,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Já as porcentagens de silte e argila foram as mais representativas, variando de 14,34% a 75,04% para o silte, com média de 46,74%, e de 24,76% a 79,73% para a argila, com média de 48,16%.
-# sent_id = 114-20121011-MONOGRAFIA_0-194
+# sent_id = 114-20121011-MONOGRAFIA_0-193
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	porcentagens	porcentagem	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
@@ -5549,7 +5548,7 @@
 46	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Com base nos dados apresentados na Tabela 5, efetuou-se a classificação da granulometria dos sedimentos com emprego do diagrama textural de Shepard (1954).
-# sent_id = 114-20121011-MONOGRAFIA_0-195
+# sent_id = 114-20121011-MONOGRAFIA_0-194
 1	Com	com	ADP	_	_	2	case	_	_
 2	base	base	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -5591,7 +5590,7 @@
 33	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Os testemunhos foram divididos nas regiões Norte, Central e Sul conforme mostrado nas figuras 6, 7 e 8, de modo a que as considerações possam ser feitas de forma regional.
-# sent_id = 114-20121011-MONOGRAFIA_0-196
+# sent_id = 114-20121011-MONOGRAFIA_0-195
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -5632,12 +5631,12 @@
 36	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 3:
-# sent_id = 114-20121011-MONOGRAFIA_0-197
+# sent_id = 114-20121011-MONOGRAFIA_0-196
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3:	3:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados de granulometria encontrados com a porcentagem das classes por testemunho, Figura 5: Diagrama de Shepard referente a porção norte da Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-198
+# sent_id = 114-20121011-MONOGRAFIA_0-197
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	granulometria	granulometria	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -5651,7 +5650,7 @@
 10	classes	classes	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 11	por	por	ADP	_	_	12	case	_	_
 12	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	4	punct	_	_
+13	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 14	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 15	5	5	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	1	punct	_	_
@@ -5668,16 +5667,16 @@
 26	Bacia	bacia	PROPN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Pelotas	Pelotas	PROPN	_	Number=Sing	26	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6:
-# sent_id = 114-20121011-MONOGRAFIA_0-199
+# sent_id = 114-20121011-MONOGRAFIA_0-198
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Diagrama de Shepard referente a porção central da Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-200
+# sent_id = 114-20121011-MONOGRAFIA_0-199
 1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Shepard	Shepard	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5694,13 +5693,13 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 7:
-# sent_id = 114-20121011-MONOGRAFIA_0-201
+# sent_id = 114-20121011-MONOGRAFIA_0-200
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Diagrama de Shepard referente a porção sul da Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-202
+# sent_id = 114-20121011-MONOGRAFIA_0-201
 1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Shepard	Shepard	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5717,7 +5716,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os resultados apresentados pelos diagramas de Shepard corroboram com Press et al. (2006) que afirma que a sedimentação de oceano profundo é dominada pelos sedimentos de granulometria mais fina, já que há uma predominância da fácie silte argiloso e argila síltica em todas as regiões da Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-203
+# sent_id = 114-20121011-MONOGRAFIA_0-202
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5781,7 +5780,7 @@
 57	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O testemunho com maior porcentagem de areia foi justamente o testemunho mais próximo a costa (SAT 002) localizado na profundidade de 100m, a mais rasa das amostradas.
-# sent_id = 114-20121011-MONOGRAFIA_0-204
+# sent_id = 114-20121011-MONOGRAFIA_0-203
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -5819,7 +5818,7 @@
 33	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Confirmando a tendência de sedimentação dos grãos maiores primeiro e posteriormente dos mais finos.
-# sent_id = 114-20121011-MONOGRAFIA_0-205
+# sent_id = 114-20121011-MONOGRAFIA_0-204
 1	Confirmando	Confirmar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -5841,7 +5840,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Em relação as regiões norte e central é possível ver que a primeira possui uma tendência para silte argiloso e a outra argila síltica, o que mostra que estas regiões em geral receberam sempre o mesmo padrão de sedimentação.
-# sent_id = 114-20121011-MONOGRAFIA_0-206
+# sent_id = 114-20121011-MONOGRAFIA_0-205
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -5885,7 +5884,7 @@
 41	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Segundo Nizoli & Luiz-Silva (2009), sedimentos mais bem selecionados, ou seja, aqueles com menor granulometria, indicam ambiente de sedimentação estável, com baixo regime de fluxo fluvial.
-# sent_id = 114-20121011-MONOGRAFIA_0-207
+# sent_id = 114-20121011-MONOGRAFIA_0-206
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Nizoli	Nizoli	PROPN	_	Gender=Masc|Number=Sing	22	obl	_	_
 3	&	&	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -5893,7 +5892,7 @@
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	2009	2009	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	2	punct	_	_
+8	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 9	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	2	appos	_	_
 10	mais	mais	ADV	_	_	11	advmod	_	_
 11	bem	bem	ADV	_	_	12	advmod	_	_
@@ -5922,7 +5921,7 @@
 34	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Observa-se na porção sul a mesma predominância das outras regiões, mas alguns testemunhos apresentaram fácies diferentes como argila e argila arenosa.
-# sent_id = 114-20121011-MONOGRAFIA_0-208
+# sent_id = 114-20121011-MONOGRAFIA_0-207
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5954,7 +5953,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esta presença de mais tipos de fácies é resultado dos diferentes padrões de sedimentação sobre esta região já que foi cenário da formação da feição sedimentar do Cone de Rio Grande, com contribuições terrígenas dos rios da planície costeira do Rio Grande do Sul além de eventos de transgressão e regressão marinha onde estes sedimentos depositados foram retrabalhados.
-# sent_id = 114-20121011-MONOGRAFIA_0-209
+# sent_id = 114-20121011-MONOGRAFIA_0-208
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -6033,7 +6032,7 @@
 68	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Estes rios que drenavam a plataforma emersa foram afogados pelo mar, diminuindo gradativamente, a influência da sedimentação terrígena fluvial no talude e na elevação continental.
-# sent_id = 114-20121011-MONOGRAFIA_0-210
+# sent_id = 114-20121011-MONOGRAFIA_0-209
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	rios	rio	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -6072,7 +6071,7 @@
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A taxa de sedimentação holocênica desta região parece ter variado de 5 cm/103 anos para 1,4 cm/103 anos, segundo Vicalvi (1977).
-# sent_id = 114-20121011-MONOGRAFIA_0-211
+# sent_id = 114-20121011-MONOGRAFIA_0-210
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6102,7 +6101,7 @@
 26	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O último evento deposicional terrígeno observado sobre a região do Cone do Rio Grande foi praticamente nulo, prevalecendo, durante todo o Holoceno, uma sedimentação marinha, estritamente pelágica (ALVES, 1977 apud CORREIA, 2009).
-# sent_id = 114-20121011-MONOGRAFIA_0-212
+# sent_id = 114-20121011-MONOGRAFIA_0-211
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	evento	evento	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
@@ -6150,7 +6149,7 @@
 43	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = A ausência de grandes aportes na plataforma e o reduzido transporte de material terrígeno em suspensão nesta área leva à uma baixíssima sedimentação sobre a Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-213
+# sent_id = 114-20121011-MONOGRAFIA_0-212
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -6188,12 +6187,12 @@
 32	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = 4.4.
-# sent_id = 114-20121011-MONOGRAFIA_0-214
+# sent_id = 114-20121011-MONOGRAFIA_0-213
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Considerações da Matéria
-# sent_id = 114-20121011-MONOGRAFIA_0-215
+# sent_id = 114-20121011-MONOGRAFIA_0-214
 1	Considerações	consideração	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6201,11 +6200,11 @@
 4	Matéria	matéria	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Orgânica
-# sent_id = 114-20121011-MONOGRAFIA_0-216
+# sent_id = 114-20121011-MONOGRAFIA_0-215
 1	Orgânica	Orgânica	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = As características da matéria orgânica despositada em sedimentos de áreas marinhas têm sido largamente utilizadas na correlação com vários processos oceanográficos, tais como produtividade de águas superficiais, aporte de materiais continentais para os oceanos, a dinâmica de massas d’água (MAHIQUES, 1998).
-# sent_id = 114-20121011-MONOGRAFIA_0-217
+# sent_id = 114-20121011-MONOGRAFIA_0-216
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	características	característica	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6262,7 +6261,7 @@
 52	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Já que sua distribuição é afetada por muitas variáveis oceanográficas, como a profundidade da coluna de água, a hidrodinâmica local, o diâmetro das partículas, dentre outros conforme Sommaruga & Conde (1990).
-# sent_id = 114-20121011-MONOGRAFIA_0-218
+# sent_id = 114-20121011-MONOGRAFIA_0-217
 1	Já	já	ADV	_	_	6	advmod	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
@@ -6304,10 +6303,10 @@
 37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	1990	1990	NUM	_	NumType=Card	34	appos	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Este material orgânico pode ter origem alóctone ou autóctone, ou ainda uma combinação de ambos.
-# sent_id = 114-20121011-MONOGRAFIA_0-219
+# sent_id = 114-20121011-MONOGRAFIA_0-218
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	material	material	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	orgânico	orgânico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6327,7 +6326,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A fonte fluvial é a principal fonte de matéria orgânica alóctone terrestre para os sedimentos, que consistem em uma mistura complexa de material de diversas origens.
-# sent_id = 114-20121011-MONOGRAFIA_0-220
+# sent_id = 114-20121011-MONOGRAFIA_0-219
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	fluvial	fluvial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6358,7 +6357,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A fonte marinha que aporta no sistema via maré e a biomassa autóctone derivada dos produtores primários do sistema (plâncton, bentos e vegetação marginal) são outras fontes naturais também significativas para a matéria orgânica sedimentar.
-# sent_id = 114-20121011-MONOGRAFIA_0-221
+# sent_id = 114-20121011-MONOGRAFIA_0-220
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
 3	marinha	marinho	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6406,7 +6405,7 @@
 42	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = (GARSIDE et al., 1976 apud SANTOS, 2007).
-# sent_id = 114-20121011-MONOGRAFIA_0-222
+# sent_id = 114-20121011-MONOGRAFIA_0-221
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	GARSIDE	Garsidere	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -6421,7 +6420,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O estudo dos teores e relações entre os elementos carbono, nitrogênio, fósforo e enxofre, situados entre os mais importantes na composição da matéria orgânica, consiste na base para a compreensão da natureza da matéria orgânica, sua origem e grau de degradação e condições de oxi-redução do fundo oceânico.
-# sent_id = 114-20121011-MONOGRAFIA_0-223
+# sent_id = 114-20121011-MONOGRAFIA_0-222
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6492,7 +6491,7 @@
 61	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
 
 # text = Outros parâmetros, tais como razões de isótopos estáveis, organolitas e hidrocarbonetos, fornecem informações importantes sobre os processos de aporte e modificações da matéria orgânica.
-# sent_id = 114-20121011-MONOGRAFIA_0-224
+# sent_id = 114-20121011-MONOGRAFIA_0-223
 1	Outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6525,7 +6524,7 @@
 29	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Pela estrutura atual do laboratório, as análises realizadas em elementos maiores como indicadores da matéria orgânica foram somente dos elementos carbono, nitrogênio e fósforo, permitindo inferir um pouco sobre sua origem e proporção nos sedimentos.
-# sent_id = 114-20121011-MONOGRAFIA_0-225
+# sent_id = 114-20121011-MONOGRAFIA_0-224
 1-2	Pela	_	_	_	_	_	_	_	_
 1	Por	por	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6577,7 +6576,7 @@
 44	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Os valores de Carbono Orgânico Total (COT), Nitrogênio Total e Fósforo Total serão apresentados na tabela 4, juntamente com os desvios de cada amostra, médias por região da Bacia de Pelotas e média geral encontrada.
-# sent_id = 114-20121011-MONOGRAFIA_0-226
+# sent_id = 114-20121011-MONOGRAFIA_0-225
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6625,7 +6624,7 @@
 43	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Os resultados estão ilustrados nas figuras 9 e 10.
-# sent_id = 114-20121011-MONOGRAFIA_0-227
+# sent_id = 114-20121011-MONOGRAFIA_0-226
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6640,7 +6639,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 4: COT, N-Total, P-Total encontrados, com seus respectivos desvios, média, máximos e mínimos encontrados.
-# sent_id = 114-20121011-MONOGRAFIA_0-228
+# sent_id = 114-20121011-MONOGRAFIA_0-227
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6662,10 +6661,10 @@
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	mínimos	mínimo	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 21	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	20	acl	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Os valores de COT (tabela 4) apresentaram média de 0,38% e variaram de 0,05% à 0,95%, conforme localização na bacia, os menores valores foram encontrados na porção norte e central desta.
-# sent_id = 114-20121011-MONOGRAFIA_0-229
+# sent_id = 114-20121011-MONOGRAFIA_0-228
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6715,7 +6714,7 @@
 43	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Enquanto que na porção sul, região do Cone do Rio Grande, os valores foram maiores, indicando a importância do aporte continental na quantidade de matéria orgânica depositada no ambiente durante níveis do mar regressivos com influências diretas dos rios da Prata, Jaguarão, Cebolatti e da própria Laguna dos Patos, conforme Corrêa et al.(2008).
-# sent_id = 114-20121011-MONOGRAFIA_0-230
+# sent_id = 114-20121011-MONOGRAFIA_0-229
 1	Enquanto	enquanto	SCONJ	_	_	20	mark	_	_
 2	que	que	SCONJ	_	_	20	mark	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -6768,7 +6767,7 @@
 43	mar	mar	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
 44	regressivos	regressivo	ADJ	_	Gender=Masc|Number=Plur	43	amod	_	_
 45	com	com	ADP	_	_	46	case	_	_
-46	influências	influência	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+46	influências	influência	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpacesAfter=\s\n
 47	diretas	direto	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
 48-49	dos	_	_	_	_	_	_	_	_
 48	de	de	ADP	_	_	50	case	_	_
@@ -6801,7 +6800,7 @@
 72	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Os teores de N (tabela 4) encontrados também obtiveram variação de acordo com sua latitude e possuíram distribuição semelhante a do COT, com os menores valores encontrados na região central e norte da bacia e as maiores concentrações reportadas para a porção sul.
-# sent_id = 114-20121011-MONOGRAFIA_0-231
+# sent_id = 114-20121011-MONOGRAFIA_0-230
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	teores	teor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6857,7 +6856,7 @@
 50	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O valor médio encontrado para a Bacia de Pelotas foi de 620,66 mg/kg variando entre 152,74 – 1916,88 mg/kg.
-# sent_id = 114-20121011-MONOGRAFIA_0-232
+# sent_id = 114-20121011-MONOGRAFIA_0-231
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	médio	médio	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6883,7 +6882,7 @@
 23	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Segundo Mahiques (1998) este padrão semelhante entre carbono e nitrogênio é normal pois estes são os elementos mais importantes na estrutura da matéria orgânica dos seres vivos, sendo o carbono presente em todas as moléculas e o nitrogênio é um elemento fundamental na estrutura das proteínas.
-# sent_id = 114-20121011-MONOGRAFIA_0-233
+# sent_id = 114-20121011-MONOGRAFIA_0-232
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Mahiques	Mahiques	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6946,7 +6945,7 @@
 55	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = O fósforo (tabela 4) apresentou concentração média de 1827,56 mg/kg na bacia, variando de 524,29 mg/kg à 3602,73 mg/kg.
-# sent_id = 114-20121011-MONOGRAFIA_0-234
+# sent_id = 114-20121011-MONOGRAFIA_0-233
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fósforo	fósforo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6981,7 +6980,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Diferente dos outros elementos da fração orgânica, este não apresentou uma distribuição marcada de acordo com a latitude, mas houve valores altos e baixos em todas as regiões.
-# sent_id = 114-20121011-MONOGRAFIA_0-235
+# sent_id = 114-20121011-MONOGRAFIA_0-234
 1	Diferente	diferente	ADV	_	_	13	advmod	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -7019,7 +7018,7 @@
 33	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A porção central da Bacia de Pelotas, na região mais rasa, foi a que apresentou os menores valores para este nutriente.
-# sent_id = 114-20121011-MONOGRAFIA_0-236
+# sent_id = 114-20121011-MONOGRAFIA_0-235
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porção	porção	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	central	central	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7050,7 +7049,7 @@
 26	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Este elemento é indicativo de zonas de produtividade marinha mostrando que algumas destas áreas desta bacia contaram com alta produtividade, possivelmente pela circulação oceânica que traz águas frias da Corrente das Malvinas, ricas em nutrientes como fosfatos e nitratos, que encontram a Corrente do Brasil e se misturam geralmente na borda da plataforma continental (GODÓI, 1983).
-# sent_id = 114-20121011-MONOGRAFIA_0-237
+# sent_id = 114-20121011-MONOGRAFIA_0-236
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	elemento	elemento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -7129,10 +7128,39 @@
 68	,	,	PUNCT	_	_	69	punct	_	_
 69	1983	1983	NUM	_	NumType=Card	67	appos:parataxis	_	SpaceAfter=No
 70	)	)	PUNCT	_	_	67	punct	_	SpaceAfter=No
-71	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+71	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# text = Sul Central Norte Figura 8:
+# sent_id = 114-20121011-MONOGRAFIA_0-237
+1	Sul	sul	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Central	Central	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Norte	Norte	PROPN	_	Number=Sing	1	flat:name	_	_
+4	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
+5	8	8	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Gráficos de barras e box-plots com médias e desvios padrões de COT, N-Total, P-Total.
+# sent_id = 114-20121011-MONOGRAFIA_0-238
+1	Gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	barras	barra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	box-plots	box-plot	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	médias	média	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+10	padrões	padrão	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	COT	COT	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	N-Total	N-Total	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	P-Total	P-Total	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n\n
 
 # text = As concentrações dos elementos indicadores de matéria orgânica situam-se nos valores considerados padrão para sedimentos oceânicos onde a taxa de sedimentação, e conseqüente aporte de matéria orgânica, é normalmente muito baixa.
-# sent_id = 114-20121011-MONOGRAFIA_0-238
+# sent_id = 114-20121011-MONOGRAFIA_0-239
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -7175,7 +7203,7 @@
 37	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Valores encontrados em argilas pelágicas para
-# sent_id = 114-20121011-MONOGRAFIA_0-239
+# sent_id = 114-20121011-MONOGRAFIA_0-240
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 2	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -7184,7 +7212,7 @@
 6	para	para	ADP	_	_	0	root	_	_
 
 # text = C foram de 0,45%, para N de 600 mg/kg e P de 1500 mg/kg, conforme Li & Schoonmaker (2003).
-# sent_id = 114-20121011-MONOGRAFIA_0-240
+# sent_id = 114-20121011-MONOGRAFIA_0-241
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -7215,7 +7243,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Portanto, verificamos que apesar destes valores parecerem baixos, estas concentrações são o natural para este tipo de ambiente, indicando que a área de estudo trata-se de uma região não contaminada.
-# sent_id = 114-20121011-MONOGRAFIA_0-241
+# sent_id = 114-20121011-MONOGRAFIA_0-242
 1	Portanto	portanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	verificamos	verificar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7256,7 +7284,7 @@
 36	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Visualizando os mapas com as concentrações encontradas e interpoladas (figura 10) é possível notar o padrão semelhante de distribuição do COT e N já comentado anteriormente.
-# sent_id = 114-20121011-MONOGRAFIA_0-242
+# sent_id = 114-20121011-MONOGRAFIA_0-243
 1	Visualizando	Visualizar	VERB	_	VerbForm=Ger	15	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	mapas	mapa	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -7290,7 +7318,7 @@
 30	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Além do P apresentar as maiores concentrações, isto pode ser explicado porque o fósforo é o elemento, destes 3 estudados, que mais persiste no ambiente e demora a ser remineralizado (BERBEL, 2008).
-# sent_id = 114-20121011-MONOGRAFIA_0-243
+# sent_id = 114-20121011-MONOGRAFIA_0-244
 1	Além	além	ADV	_	_	5	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -7338,7 +7366,7 @@
 42	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Outro padrão que pode ser visualizado são as maiores concentrações de fósforo relacionadas à maior distância da costa e conseqüente aumento de profundidade, segundo Ruttemberg & Goni (1997) este comportamento está ligado ao fósforo utilizado nas atividades bacterianas da sub-superfície.
-# sent_id = 114-20121011-MONOGRAFIA_0-244
+# sent_id = 114-20121011-MONOGRAFIA_0-245
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj:pass	_	_
@@ -7395,7 +7423,7 @@
 49	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Comparando com outras bacias sedimentares brasileiras (Tabela 5) é possível notar que a quantidade de COT varia bastante de bacia para bacia, sendo a Bacia de Pelotas a que apresenta os menores valores.
-# sent_id = 114-20121011-MONOGRAFIA_0-245
+# sent_id = 114-20121011-MONOGRAFIA_0-246
 1	Comparando	comparar	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
@@ -7435,7 +7463,7 @@
 37	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Esta diferença pode ser explicada pela diferença nos métodos analíticos aplicados nos outros estudos, que é considerado mais sensível e confiável, leitura em analisador elementar de carbono para as Bacias do Espírito Santo, Potiguar e Pará – Maranhão.
-# sent_id = 114-20121011-MONOGRAFIA_0-246
+# sent_id = 114-20121011-MONOGRAFIA_0-247
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7487,27 +7515,24 @@
 45	Maranhão	Maranhão	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Tabela 5:
-# sent_id = 114-20121011-MONOGRAFIA_0-247
+# text = Tabela 5: Concentrações de Carbono, Nitrogênio e Fósforo em diversas bacias sedimentares brasileiras.
+# sent_id = 114-20121011-MONOGRAFIA_0-248
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Concentrações de Carbono, Nitrogênio e Fósforo em diversas bacias sedimentares brasileiras.
-# sent_id = 114-20121011-MONOGRAFIA_0-248
-1	Concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Carbono	Carbono	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	Nitrogênio	Nitrogênio	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	Fósforo	Fósforo	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-8	em	em	ADP	_	_	10	case	_	_
-9	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
-10	bacias	bacia	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-11	sedimentares	sedimentar	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
-12	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+4	Concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Carbono	Carbono	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Nitrogênio	Nitrogênio	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Fósforo	Fósforo	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	bacias	bacia	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+14	sedimentares	sedimentar	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+15	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para N e P só foram encontrados dado na bacia brasileira do Pará – Maranhão, estes proveninentes do EIA-RIMA (HABTEC, 2009) para perfuração de poços petrolíferos nesta região.
 # sent_id = 114-20121011-MONOGRAFIA_0-249
@@ -7621,7 +7646,7 @@
 57-58	na	_	_	_	_	_	_	_	_
 57	em	em	ADP	_	_	59	case	_	_
 58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
-59	região	região	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+59	região	região	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	SpacesAfter=\s\n
 60	de	de	ADP	_	_	61	case	_	_
 61	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	59	nmod	_	_
 62	e	e	CCONJ	_	_	67	cc	_	_
@@ -8083,7 +8108,7 @@
 26	11	11	NUM	_	NumType=Card	25	nummod	_	_
 27	e	e	CCONJ	_	_	28	cc	_	_
 28	12	12	NUM	_	NumType=Card	26	conj	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 6: Relação C/N calculados para testemunhos com COT > 0,3%.
 # sent_id = 114-20121011-MONOGRAFIA_0-264
@@ -8102,28 +8127,14 @@
 13	%	%	SYM	_	_	10	appos	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Figura 10: Gráfico das relações C/N calculadas.
-# sent_id = 114-20121011-MONOGRAFIA_0-265
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-5-6	das	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	relações	relação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8	C/N	C/N	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
-9	calculadas	calcular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = Figura 11:
-# sent_id = 114-20121011-MONOGRAFIA_0-266
+# sent_id = 114-20121011-MONOGRAFIA_0-265
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Mapa com os valores C/N encontrados e interpolados na região da bacia.
-# sent_id = 114-20121011-MONOGRAFIA_0-267
+# sent_id = 114-20121011-MONOGRAFIA_0-266
 1	Mapa	mapa	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -8140,10 +8151,10 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = A origem predominante para a matéria orgânica dos testemunhos estudados foi marinha, com valor médio de 8,03 variando entre 3,47 até 20,10.
-# sent_id = 114-20121011-MONOGRAFIA_0-268
+# sent_id = 114-20121011-MONOGRAFIA_0-267
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	origem	origem	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	predominante	predominante	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8172,7 +8183,7 @@
 25	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A porção Norte da bacia como esperado indicou apenas sedimentação marinha já que a região nunca possuiu contribuição continental significativa.
-# sent_id = 114-20121011-MONOGRAFIA_0-269
+# sent_id = 114-20121011-MONOGRAFIA_0-268
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porção	porção	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	Norte	Norte	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -8198,7 +8209,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A região central foi a única que apresentou um testemunho com origem continental (figura 12), o REG 785, este se encontra em regiões próximas a paleocanais já reportados por estudos sísmicos de Abreu & Calliari (2005), Weschenfelder et al. (2008) e Weschenfelder et al. (2010) que pertencem ao Rio Camaquã, sendo esta a explicação para esta anomalia, quando comparada aos demais testemunhos analisados.
-# sent_id = 114-20121011-MONOGRAFIA_0-270
+# sent_id = 114-20121011-MONOGRAFIA_0-269
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	região	região	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	central	central	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8281,7 +8292,7 @@
 78	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Para a região sul esperava-se pela presença da feição sedimentar do Cone do Rio Grande que houvesse maior predominância de origem continental e/ou intermediária nos sedimentos.
-# sent_id = 114-20121011-MONOGRAFIA_0-271
+# sent_id = 114-20121011-MONOGRAFIA_0-270
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	região	região	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -8323,7 +8334,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No entanto, os resultados apresentaram em sua maioria proveniência marinha com alguns pontos com origem marinha e continental.
-# sent_id = 114-20121011-MONOGRAFIA_0-272
+# sent_id = 114-20121011-MONOGRAFIA_0-271
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	7	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -8348,7 +8359,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Isto pode ser explicado porque, de acordo com Alves (1977 apud CORREIA, 2009), durante o Holoceno prevaleceu uma sedimentação marinha na região sul da Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-273
+# sent_id = 114-20121011-MONOGRAFIA_0-272
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj:pass	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -8388,17 +8399,17 @@
 35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.5.
-# sent_id = 114-20121011-MONOGRAFIA_0-274
+# sent_id = 114-20121011-MONOGRAFIA_0-273
 1	4.5	4.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Elementos Metálicos
-# sent_id = 114-20121011-MONOGRAFIA_0-275
+# sent_id = 114-20121011-MONOGRAFIA_0-274
 1	Elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Metálicos	metálico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = A concentração de metais no ambiente marinho depende da proximidade com fontes naturais, como erupções vulcânicas submarinas; ou antrópicas, como rios e estuários contaminados.
-# sent_id = 114-20121011-MONOGRAFIA_0-276
+# sent_id = 114-20121011-MONOGRAFIA_0-275
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8433,7 +8444,7 @@
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os sedimentos têm atuam como um reservatório nos quais mudanças nas condições ambientais podem causar a remobilização dos metais acumulados.
-# sent_id = 114-20121011-MONOGRAFIA_0-277
+# sent_id = 114-20121011-MONOGRAFIA_0-276
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8462,8 +8473,8 @@
 23	acumulados	acumular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	22	acl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
-# text = Os metais estão associados aos sedimentos através dos diferentes suportes lito- sedimentares.
-# sent_id = 114-20121011-MONOGRAFIA_0-278
+# text = Os metais estão associados aos sedimentos através dos diferentes suportes litosedimentares.
+# sent_id = 114-20121011-MONOGRAFIA_0-277
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	metais	metal	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -8471,20 +8482,18 @@
 5-6	aos	_	_	_	_	_	_	_	_
 5	a	a	ADP	_	_	7	case	_	_
 6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+7	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 8	através	através	ADV	_	_	4	advmod	_	_
 9-10	dos	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	12	case	_	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 11	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
 12	suportes	suporte	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
-13	lito	lever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	4	punct	_	_
-15	sedimentares	sedimentar	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
+13	litosedimentares	litosedimentar	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Dentre eles podem ser citados o suporte granulométrico e a associação de metais com os diferentes componentes lito-geoquímicos.
-# sent_id = 114-20121011-MONOGRAFIA_0-279
+# sent_id = 114-20121011-MONOGRAFIA_0-278
 1	Dentre	Dentre	SCONJ	_	_	3	mark	_	_
 2	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8506,7 +8515,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Como o objetivo deste trabalho foi proporcionar uma visão geral da Bacia de Pelotas, possuindo um caráter pioneiro, recomenda-se para trabalhos futuros que outros metais e métodos seqüenciais de extrações sejam analisados.
-# sent_id = 114-20121011-MONOGRAFIA_0-280
+# sent_id = 114-20121011-MONOGRAFIA_0-279
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -8550,7 +8559,7 @@
 38	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Os metais analisados foram Níquel (Ni), Zinco (Zn), Cromo (Cr), Chumbo (Pb), Cobre (Cu), Ferro (Fe).
-# sent_id = 114-20121011-MONOGRAFIA_0-281
+# sent_id = 114-20121011-MONOGRAFIA_0-280
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	metais	metal	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	analisados	analisar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8587,7 +8596,7 @@
 34	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os elementos Ni, Cu, Cr, Pb e Zn são considerados elementos vestigiais da crosta continental e o Fe é o quarto elemento mais abundante na crosta, sendo também o segundo metal mais abundante na terra.
-# sent_id = 114-20121011-MONOGRAFIA_0-282
+# sent_id = 114-20121011-MONOGRAFIA_0-281
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
 3	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
@@ -8602,7 +8611,7 @@
 12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 14	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
-15	vestigiais	vestigial	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+15	vestigiais	vestigial	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpacesAfter=\s\n
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -8636,7 +8645,7 @@
 43	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Problemas no equipamento impossibilitaram a análise de alumínio (Al) e cádmio (Cd).
-# sent_id = 114-20121011-MONOGRAFIA_0-283
+# sent_id = 114-20121011-MONOGRAFIA_0-282
 1	Problemas	problema	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -8657,8 +8666,8 @@
 17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = O alumínio é elemento indicador da fração fina e da abundância dos minerais alumino- silicatado.
-# sent_id = 114-20121011-MONOGRAFIA_0-284
+# text = O alumínio é elemento indicador da fração fina e da abundância dos minerais alumino-silicatado.
+# sent_id = 114-20121011-MONOGRAFIA_0-283
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	alumínio	alumínio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -8678,13 +8687,11 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	minerais	mineral	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
-17	alumino	alumino	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	19	punct	_	_
-19	silicatado	silicatar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+17	alumino-silicatado	alumino-silicatar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os resultados encontrados para os metais estudados são apresentados na tabela 7 por região na bacia, com suas respectivas médias, desvio padrão, média geral, desvio padrão geral, máximos e mínimos.
-# sent_id = 114-20121011-MONOGRAFIA_0-285
+# sent_id = 114-20121011-MONOGRAFIA_0-284
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8727,7 +8734,7 @@
 38	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Além disto, nas figuras 13 a 16 encontram-se ilustrados os gráficos para facilitar a visualização dos resultados.
-# sent_id = 114-20121011-MONOGRAFIA_0-286
+# sent_id = 114-20121011-MONOGRAFIA_0-285
 1	Além	além	ADV	_	_	3	advmod	_	_
 2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -8754,67 +8761,15 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
-
-# text = Tabela 7:
-# sent_id = 114-20121011-MONOGRAFIA_0-287
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Resultados dos metais estudados (Ni, Zn, Cr, Pb, Cu e Fe), seus limites de detecção, suas respectivas médias por região da bacia, desvios padrões, mínimos e máximos gerais.
-# sent_id = 114-20121011-MONOGRAFIA_0-288
-1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	metais	metal	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-5	estudados	estudar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	Zn	Zn	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
-11	Cr	Cr	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	Pb	Pb	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	Cu	cu	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
-16	e	e	CCONJ	_	_	17	cc	_	_
-17	Fe	Fe	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	21	punct	_	_
-20	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	21	det	_	_
-21	limites	limite	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	27	punct	_	_
-25	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	27	det	_	_
-26	respectivas	respectivo	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
-27	médias	média	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
-28	por	por	ADP	_	_	29	case	_	_
-29	região	região	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
-30-31	da	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	_
-35	padrões	padrão	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	37	punct	_	_
-37	mínimos	mínimo	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
-38	e	e	CCONJ	_	_	39	cc	_	_
-39	máximos	máximo	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
-40	gerais	geral	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = O metal
-# sent_id = 114-20121011-MONOGRAFIA_0-289
+# sent_id = 114-20121011-MONOGRAFIA_0-286
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	metal	metal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Ni obteve uma média de 13,56 mg/kg (desvio padrão 4,15 mg/kg) entre os 45 testemunhos analisados com valores variando entre 6,34 – 26,86 mg/kg.
-# sent_id = 114-20121011-MONOGRAFIA_0-290
+# sent_id = 114-20121011-MONOGRAFIA_0-287
 1	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	obteve	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8846,7 +8801,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Comparando as regiões da bacia é possível ver que tanto a porção Norte como a Sul, apresentam valores semelhantes, enquanto que a porção central apresentou valores mais elevados.
-# sent_id = 114-20121011-MONOGRAFIA_0-291
+# sent_id = 114-20121011-MONOGRAFIA_0-288
 1	Comparando	comparar	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	regiões	região	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -8882,7 +8837,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Contudo, na mesma região (central) também foi reportado o testemunho com valor mínimo de Ni.
-# sent_id = 114-20121011-MONOGRAFIA_0-292
+# sent_id = 114-20121011-MONOGRAFIA_0-289
 1	Contudo	contudo	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8906,7 +8861,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Analisando o mapa de distribuição (figura 15) além da região de maior concentração no centro da bacia, também é possível visualizar uma concentração maior deste elemento, no talude continental.
-# sent_id = 114-20121011-MONOGRAFIA_0-293
+# sent_id = 114-20121011-MONOGRAFIA_0-290
 1	Analisando	analisar	VERB	_	VerbForm=Ger	26	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mapa	mapa	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -8950,51 +8905,66 @@
 36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	talude	talude	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 38	continental	continental	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n\n
 
-# text = Figura 12: Gráficos de Níquel, Zinco e Cromo, todos em mg/kg.
-# sent_id = 114-20121011-MONOGRAFIA_0-294
-1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	12	12	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Gráficos	gráficos	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	Níquel	Níquel	PROPN	_	Number=Sing	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	Zinco	Zinco	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-9	e	e	CCONJ	_	_	10	cc	_	_
-10	Cromo	Cromo	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	1	punct	_	_
-12	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	14	det	_	_
-13	em	em	ADP	_	_	14	case	_	_
-14	mg/kg	mg/kg	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Sul Central Norte Sul Central Norte Figura 12: Gráficos de Níquel, Zinco e Cromo, todos em mg/kg.
+# sent_id = 114-20121011-MONOGRAFIA_0-291
+1	Sul	sul	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Central	Central	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Norte	Norte	PROPN	_	Number=Sing	1	flat:name	_	_
+4	Sul	sul	PROPN	_	Number=Sing	1	flat:name	_	_
+5	Central	Central	PROPN	_	Number=Sing	1	flat:name	_	_
+6	Norte	Norte	PROPN	_	Number=Sing	1	flat:name	_	_
+7	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
+8	12	12	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	1	punct	_	_
+10	Gráficos	gráficos	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Níquel	Níquel	PROPN	_	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Zinco	Zinco	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	Cromo	Cromo	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	21	det	_	_
+19	em	em	ADP	_	_	18	fixed	_	_
+20	mg/	mg/	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	kg.	kg.	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpacesAfter=\n\n
 
-# text = Figura 13: Gráficos de Chumbo e Cobre em mg/kg e Ferro em %.
-# sent_id = 114-20121011-MONOGRAFIA_0-295
-1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	13:	13:	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Gráficos	gráficos	PROPN	_	Number=Sing	1	flat:name	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	Chumbo	chumbo	PROPN	_	Number=Sing	1	nmod	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	Cobre	cobre	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-8	em	em	ADP	_	_	9	case	_	_
-9	mg/kg	mg/kg	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-10	e	e	CCONJ	_	_	11	cc	_	_
-11	Ferro	Ferro	PROPN	_	Gender=Masc|Number=Sing	9	conj	_	_
-12	em	em	ADP	_	_	13	case	_	_
-13	%	%	SYM	_	_	1	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Sul Central Norte Sul Central Norte Figura 13: Gráficos de Chumbo e Cobre em mg/kg e Ferro em %.
+# sent_id = 114-20121011-MONOGRAFIA_0-292
+1	Sul	sul	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Central	Central	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Norte	Norte	PROPN	_	Number=Sing	1	flat:name	_	_
+4	Sul	sul	PROPN	_	Number=Sing	1	flat:name	_	_
+5	Central	Central	PROPN	_	Number=Sing	1	flat:name	_	_
+6	Norte	Norte	PROPN	_	Number=Sing	1	flat:name	_	_
+7	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
+8	13	13	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	1	punct	_	_
+10	Gráficos	gráficos	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Chumbo	chumbo	PROPN	_	Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	Cobre	cobre	PROPN	_	Gender=Masc|Number=Sing	16	conj	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	mg	mg	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+17	/	/	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	kg	kg	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	Ferro	Ferro	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	%	%	SYM	_	_	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 14:
-# sent_id = 114-20121011-MONOGRAFIA_0-296
+# sent_id = 114-20121011-MONOGRAFIA_0-293
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Mapas de concentrações de Níquel, Zinco, Cromo e Chumbo ao longo da Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-297
+# sent_id = 114-20121011-MONOGRAFIA_0-294
 1	Mapas	mapa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	concentrações	concentrações	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -9016,10 +8986,10 @@
 17	Bacia	bacia	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	Pelotas	Pelotas	PROPN	_	Number=Sing	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n\n
 
 # text = O Zn foi o metal que apresentou a maior média (à exceção do Fe) de 59,96 mg/kg e maior desvio padrão, 16,37mg/kg.
-# sent_id = 114-20121011-MONOGRAFIA_0-298
+# sent_id = 114-20121011-MONOGRAFIA_0-295
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Zn	Zn	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
@@ -9055,7 +9025,7 @@
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Seus valores variaram entre 32,38 até 128,09 mg/kg, sendo a porção central e norte as que apresentaram os maiores valores.
-# sent_id = 114-20121011-MONOGRAFIA_0-299
+# sent_id = 114-20121011-MONOGRAFIA_0-296
 1	Seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	variaram	variar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
@@ -9081,7 +9051,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Este metal é fonte do intemperismo de rochas básicas, conforme Valadares & Catani (1975).
-# sent_id = 114-20121011-MONOGRAFIA_0-300
+# sent_id = 114-20121011-MONOGRAFIA_0-297
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	metal	metal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -9104,7 +9074,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Além disto, outros estudos têm apontado que o zinco na coluna da água entra na ciclagem de silício e fosfato, através da incorporação deste ao fitoplâncton, e da sedimentação em direção ao fundo oceânico (MARTIN et al., 1980 apud BARCELLOS, 1995).
-# sent_id = 114-20121011-MONOGRAFIA_0-301
+# sent_id = 114-20121011-MONOGRAFIA_0-298
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -9174,7 +9144,7 @@
 58	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Este metal (juntamente com o Cd) também é conhecido por possuir uma pequena capacidade de retenção na barreira de sedimentação representada pelos estuários, chegando aos oceanos, valores globais apontam que 52% do Zn ultrapassa esta barreira, (YEATS & BEWERS,1983, apud BARCELLOS, 1995).
-# sent_id = 114-20121011-MONOGRAFIA_0-302
+# sent_id = 114-20121011-MONOGRAFIA_0-299
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	metal	metal	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -9239,7 +9209,7 @@
 58	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Este característica é explicada pela redissolução destes metais ligados à matéria orgânica e aos óxidos de ferro e mânganes.
-# sent_id = 114-20121011-MONOGRAFIA_0-303
+# sent_id = 114-20121011-MONOGRAFIA_0-300
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	característica	característica	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -9269,8 +9239,8 @@
 23	mânganes	mângane	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = O cromo apresentou um teor médio de 14,10 mg/kg (desvio padrão 4,69 mg/kg) com maiores concentrações foi a porção central e a porção sul apresentou maiores valores na região mais profunda analisada (figura 15).
-# sent_id = 114-20121011-MONOGRAFIA_0-304
+# text = O cromo apresentou um teor médio de 14,10 mg/kg (desvio padrão 4,69 mg/kg) com concentrações variando entre 3,10 – 24,41 mg/kg.
+# sent_id = 114-20121011-MONOGRAFIA_0-301
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cromo	cromo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9281,7 +9251,7 @@
 8	14,10	14,10	NUM	_	NumType=Card	9	nummod	_	_
 9	mg	mg	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 10	/	/	PUNCT	_	_	3	punct	_	SpaceAfter=No
-11	kg	kg	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+11	kg	kg	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	desvio	desvio	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
@@ -9289,74 +9259,98 @@
 16	mg/	mg/	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	kg	kg	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	14	punct	_	_
-19	com	com	ADP	_	_	21	case	_	_
-20	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
-21	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-22	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
-23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	porção	porção	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-25	central	central	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	porção	porção	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
-29	sul	sul	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
-30	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-31	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
-32	valores	valor	NOUN	_	Gender=Masc|Number=Plur	30	obj	_	_
-33-34	na	_	_	_	_	_	_	_	_
-33	em	em	ADP	_	_	35	case	_	_
-34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	região	região	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-36	mais	mais	ADV	_	_	37	advmod	_	_
-37	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
-38	analisada	analisada	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	figura	figura	NOUN	_	Gender=Fem|Number=Sing	38	appos	_	_
-41	15	15	NUM	_	NumType=Card	40	nummod	_	SpaceAfter=No
-42	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+19	com	com	ADP	_	_	20	case	_	_
+20	concentrações	concentrações	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
+21	variando	variar	VERB	_	VerbForm=Ger	3	advcl	_	_
+22	entre	entre	ADP	_	_	23	case	_	_
+23	3,10	3,10	NUM	_	NumType=Card	21	obl	_	_
+24	–	–	PUNCT	_	_	21	punct	_	_
+25	24,41	24,41	NUM	_	NumType=Card	21	obj	_	_
+26	mg/	mg/	ADP	_	_	27	case	_	SpaceAfter=No
+27	kg	kg	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Os valores para Pb variaram de 4,90 mg/kg à 23,45 mg/kg apresentando uma média de 14,39 mg/kg (desvio padrão 4,90 mg/kg) para a bacia.
-# sent_id = 114-20121011-MONOGRAFIA_0-305
+# text = As regiões da Bacia de Pelotas com maiores concentrações foi a porção central e a porção sul apresentou maiores valores na região mais profunda analisada (figura 15).
+# sent_id = 114-20121011-MONOGRAFIA_0-302
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	regiões	região	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Bacia	bacia	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Pelotas	Pelotas	PROPN	_	Number=Sing	5	nmod	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	porção	porção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+14	central	central	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	porção	porção	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+18	sul	sul	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	conj	_	_
+20	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+21	valores	valor	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	região	região	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+25	mais	mais	ADV	_	_	26	advmod	_	_
+26	profunda	profundo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+27	analisada	analisada	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	figura	figura	NOUN	_	Gender=Fem|Number=Sing	27	appos	_	_
+30	15	15	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# text = Os valores para
+# sent_id = 114-20121011-MONOGRAFIA_0-303
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	para	para	ADP	_	_	4	case	_	_
-4	Pb	Pb	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	variaram	variar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	de	de	ADP	_	_	8	case	_	_
-7	4,90	4,90	NUM	_	NumType=Card	8	nummod	_	_
-8	mg	mg	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
-9	/	/	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	kg	kg	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
-11-12	à	_	_	_	_	_	_	_	_
-11	a	a	ADP	_	_	14	case	_	_
-12	a	o	ADP	_	_	14	case	_	_
-13	23,45	23,45	NUM	_	NumType=Card	14	nummod	_	_
-14	mg	mg	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
-15	/	/	PUNCT	_	_	5	punct	_	SpaceAfter=No
-16	kg	kg	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
-17	apresentando	apresentar	VERB	_	VerbForm=Ger	5	advcl	_	_
-18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	média	média	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	14,39	14,39	NUM	_	NumType=Card	22	nummod	_	_
-22	mg	mg	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
-23	/	/	PUNCT	_	_	22	punct	_	SpaceAfter=No
-24	kg	kg	NOUN	_	Gender=Masc|Number=Plur	19	appos	_	_
-25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	desvio	desvio	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
-27	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	24	acl:relcl	_	_
-28	4,90	4,90	NUM	_	NumType=Card	27	obl	_	_
-29	mg/	mg/	ADP	_	_	30	case	_	SpaceAfter=No
-30	kg	kg	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
-31	)	)	PUNCT	_	_	28	punct	_	_
-32	para	para	ADP	_	_	34	case	_	_
-33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	5	punct	_	_
+2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	para	para	ADP	_	_	2	case	_	_
+
+# text = Pb variaram de 4,90 mg/kg à 23,45 mg/kg apresentando uma média de 14,39 mg/kg (desvio padrão 4,90 mg/kg) para a bacia.
+# sent_id = 114-20121011-MONOGRAFIA_0-304
+1	Pb	Pb	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	variaram	variar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	4,90	4,90	NUM	_	NumType=Card	5	nummod	_	_
+5	mg	mg	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+6	/	/	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	kg	kg	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	11	case	_	_
+9	a	o	ADP	_	_	11	case	_	_
+10	23,45	23,45	NUM	_	NumType=Card	11	nummod	_	_
+11	mg	mg	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	/	/	PUNCT	_	_	2	punct	_	SpaceAfter=No
+13	kg	kg	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+14	apresentando	apresentar	VERB	_	VerbForm=Ger	2	advcl	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	média	média	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	14,39	14,39	NUM	_	NumType=Card	19	nummod	_	_
+19	mg	mg	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	/	/	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	kg	kg	NOUN	_	Gender=Masc|Number=Plur	16	appos	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	desvio	desvio	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+24	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	21	acl:relcl	_	_
+25	4,90	4,90	NUM	_	NumType=Card	24	obl	_	_
+26	mg/	mg/	ADP	_	_	27	case	_	SpaceAfter=No
+27	kg	kg	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	25	punct	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Este metal apresentou picos mais elevados de concentração na região sul da bacia, seguido da região norte.
-# sent_id = 114-20121011-MONOGRAFIA_0-306
+# sent_id = 114-20121011-MONOGRAFIA_0-305
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	metal	metal	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9384,7 +9378,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Observando a figura 14 nota-se que a porção sul o chumbo apresenta uma distribuição até o final da Laguna dos Patos, indicando que o aporte continental foi importante para sua concentração nestas localidades.
-# sent_id = 114-20121011-MONOGRAFIA_0-307
+# sent_id = 114-20121011-MONOGRAFIA_0-306
 1	Observando	Observar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	figura	figura	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -9430,7 +9424,7 @@
 39	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Além do que, este metal não possui fonte marinha, sendo toda sua deposição proveniente de sedimentos terrígenos.
-# sent_id = 114-20121011-MONOGRAFIA_0-308
+# sent_id = 114-20121011-MONOGRAFIA_0-307
 1	Além	além	ADV	_	_	9	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -9455,7 +9449,7 @@
 21	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O cobre obteve concentração média de 14,49 mg/kg (desvio padrão 3,85 mg/kg) com os valores variando entre 5,71 – 22,93 mg/kg.
-# sent_id = 114-20121011-MONOGRAFIA_0-309
+# sent_id = 114-20121011-MONOGRAFIA_0-308
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cobre	cobre	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	obteve	obtar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9484,7 +9478,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Este metal seguiu o mesmo padrão do chumbo, apresentando maiores concentrações na região sul e as menores, na porção central.
-# sent_id = 114-20121011-MONOGRAFIA_0-310
+# sent_id = 114-20121011-MONOGRAFIA_0-309
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	metal	metal	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	seguiu	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9516,7 +9510,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As maiores concentrações estão ligadas as zonas mais profundas estudadas e também à porção sul do Cone do Rio Grande (figura 15).
-# sent_id = 114-20121011-MONOGRAFIA_0-311
+# sent_id = 114-20121011-MONOGRAFIA_0-310
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -9550,7 +9544,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Como era esperado por ser o segundo metal mais abundante na Terra o Fe foi o metal que apresentou as maiores concentrações, com desvio padrão de 0,40%, valor médio de 1,92% e mínimo e máximo de 0,83% e 2,60% respectivamente.
-# sent_id = 114-20121011-MONOGRAFIA_0-312
+# sent_id = 114-20121011-MONOGRAFIA_0-311
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
 3	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	advcl	_	_
@@ -9602,7 +9596,7 @@
 48	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Este metal apresentou uma distribuição mais ampla e homogênea que os outros metais, justamente por estar presente na crosta e em todos os sedimentos (LI & SCHOONMAKER, 2003).
-# sent_id = 114-20121011-MONOGRAFIA_0-313
+# sent_id = 114-20121011-MONOGRAFIA_0-312
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	metal	metal	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9637,10 +9631,10 @@
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	2003	2003	NUM	_	NumType=Card	28	appos	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = O níquel, cromo e ferro (figuras 15 e 16) apresentaram em geral um padrão de distribuição similar, devido a associações geoquímicas como em depósitos lateríticos residuais.
-# sent_id = 114-20121011-MONOGRAFIA_0-314
+# sent_id = 114-20121011-MONOGRAFIA_0-313
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -9674,7 +9668,7 @@
 31	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Além do Cr e Ni apresentarem certa tendência de concentrarem em granulometria mais grosseira (região central com menor concentração de argila) devido a presença de alguns minerais como a cromita (FeCr2O4).
-# sent_id = 114-20121011-MONOGRAFIA_0-315
+# sent_id = 114-20121011-MONOGRAFIA_0-314
 1	Além	além	ADV	_	_	7	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9715,7 +9709,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Comparando os resultados encontrados com os dados mundiais (tabela 8) é visível que a Bacia de Pelotas apresenta para todos os metais valores abaixo do reportado para sedimentos e argilas pelágicas.
-# sent_id = 114-20121011-MONOGRAFIA_0-316
+# sent_id = 114-20121011-MONOGRAFIA_0-315
 1	Comparando	comparar	VERB	_	VerbForm=Ger	14	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -9754,7 +9748,7 @@
 35	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Uma explicação para baixos valores são que em climas temperados/subtropicais o intemperismo químico não é tão pronunciado então o enriquecimento natural por metais no sedimento é menor, comparado a regiões com climas mais quentes além de a margem costeira brasileira ser passiva e com isto não possuir zonas de vulcanismo próximo.
-# sent_id = 114-20121011-MONOGRAFIA_0-317
+# sent_id = 114-20121011-MONOGRAFIA_0-316
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	explicação	explicação	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -9814,7 +9808,7 @@
 56	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n
 
 # text = Em relação a outras bacias brasileiras (tabela 9) com estudos realizados nos últimos anos, foi possível analisar que não há um padrão fixo na concentração dos metais ao longo da margem brasileira.
-# sent_id = 114-20121011-MONOGRAFIA_0-318
+# sent_id = 114-20121011-MONOGRAFIA_0-317
 1	Em	em	ADP	_	_	5	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	a	a	ADP	_	_	1	fixed	_	_
@@ -9863,7 +9857,7 @@
 41	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Os valores reportados para a Bacia de Campos2, Bacia Potiguar e Bacia
-# sent_id = 114-20121011-MONOGRAFIA_0-319
+# sent_id = 114-20121011-MONOGRAFIA_0-318
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	reportados	reportar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -9879,7 +9873,7 @@
 13	Bacia	Bacia	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	_
 
 # text = Pará – Maranhão são marcadamente menores que as reportadas para a bacia de estudo em questão e os resultados encontrados para a Bacia de Campos1, isto se explica possivelmente pela diferença dos métodos analíticos empregados para tais análises já que análises da fração total dos sedimentos não é tão sensível quanto, da fração fina.
-# sent_id = 114-20121011-MONOGRAFIA_0-320
+# sent_id = 114-20121011-MONOGRAFIA_0-319
 1	Pará	Par	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	Maranhão	Maranhão	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -9949,7 +9943,7 @@
 62	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Neste estudo foram realizadas análises de fração total, no entanto os testemunhos eram compostos basicamente de silte e argila (fração fina).
-# sent_id = 114-20121011-MONOGRAFIA_0-321
+# sent_id = 114-20121011-MONOGRAFIA_0-320
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9981,7 +9975,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tabela 2: Concentrações de metais do presente estudo e de outras bacias sedimentares brasileiras.
-# sent_id = 114-20121011-MONOGRAFIA_0-322
+# sent_id = 114-20121011-MONOGRAFIA_0-321
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -9999,21 +9993,21 @@
 14	bacias	bacia	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
 15	sedimentares	sedimentar	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
 16	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.6.
-# sent_id = 114-20121011-MONOGRAFIA_0-323
+# sent_id = 114-20121011-MONOGRAFIA_0-322
 1	4.6	4.6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Perfis de Profundidade
-# sent_id = 114-20121011-MONOGRAFIA_0-324
+# sent_id = 114-20121011-MONOGRAFIA_0-323
 1	Perfis	Perfis	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Profundidade	profundidade	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Os 5 testemunhos (figura 16) abertos topo e base passaram pelo mesmo processamento e análises dos outros já considerados.
-# sent_id = 114-20121011-MONOGRAFIA_0-325
+# sent_id = 114-20121011-MONOGRAFIA_0-324
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	5	5	NUM	_	NumType=Card	3	nummod	_	_
 3	testemunhos	testemunho	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -10042,7 +10036,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Estes, foram separados em topo, meio e base conforme o tamanho total do testemunho, sendo que os amostrados na porção norte apresentam tamanho bem inferior quando comparados aos amostrados na região central e sul.
-# sent_id = 114-20121011-MONOGRAFIA_0-326
+# sent_id = 114-20121011-MONOGRAFIA_0-325
 1	Estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj:pass	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -10091,13 +10085,13 @@
 42	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 16:
-# sent_id = 114-20121011-MONOGRAFIA_0-327
+# sent_id = 114-20121011-MONOGRAFIA_0-326
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Testemunhos analisados em perfil de profundidade.
-# sent_id = 114-20121011-MONOGRAFIA_0-328
+# sent_id = 114-20121011-MONOGRAFIA_0-327
 1	Testemunhos	Testemunho	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	analisados	analisar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -10107,7 +10101,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os resultados dos parâmetros analisados encontram-se na tabela 10 com seus respectivos desvios, médias, máximos e mínimos encontrados.
-# sent_id = 114-20121011-MONOGRAFIA_0-329
+# sent_id = 114-20121011-MONOGRAFIA_0-328
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -10137,7 +10131,7 @@
 24	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para ilustrar os resultados as figuras 17,18 e 19 apresentam os gráficos de concentração dos elementos analisados pela profundidade amostrada em cada testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-330
+# sent_id = 114-20121011-MONOGRAFIA_0-329
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	ilustrar	ilustrar	VERB	_	VerbForm=Inf	0	root	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -10168,7 +10162,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Do mesmo modo que os anteriores, estes testemunhos foram escolhidos de modo a cobrirem diferentes áreas da Bacia de Pelotas, assim: SAT 072, REG 396 pertencem à porção norte; SAT 119 pertence à região central da bacia e REG 740 e REG 985 à porção sul, região do Cone do Rio Grande.
-# sent_id = 114-20121011-MONOGRAFIA_0-331
+# sent_id = 114-20121011-MONOGRAFIA_0-330
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -10246,7 +10240,7 @@
 67	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
 
 # text = A porção norte apresenta os perfis mais uniformes, com os resultados variando pouco com o aumento da profundidade.
-# sent_id = 114-20121011-MONOGRAFIA_0-332
+# sent_id = 114-20121011-MONOGRAFIA_0-331
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porção	porção	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	norte	norte	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -10271,7 +10265,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O fósforo apresentou considerável diminuição no testemunho REG 396, e os metais, em geral apresentaram tendência de maior concentração com o aumento de profundidade.
-# sent_id = 114-20121011-MONOGRAFIA_0-333
+# sent_id = 114-20121011-MONOGRAFIA_0-332
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fósforo	fósforo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10300,10 +10294,10 @@
 25	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = O único testemunho da região central analisado apresentou mesmo padrão de distribuição do COT e N-Total com leve diminuição de concentração no meio do perfil e aumento na próxima profundidade analisada.
-# sent_id = 114-20121011-MONOGRAFIA_0-334
+# sent_id = 114-20121011-MONOGRAFIA_0-333
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	único	único	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -10348,7 +10342,7 @@
 37	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Interessante notar que os metais apresentaram comportamento inverso a matéria orgânica, aumento da concentração no centro do testemunho e em seguida decréscimo com a profundidade.
-# sent_id = 114-20121011-MONOGRAFIA_0-335
+# sent_id = 114-20121011-MONOGRAFIA_0-334
 1	Interessante	interessante	ADV	_	_	2	advmod	_	_
 2	notar	notar	VERB	_	VerbForm=Inf	0	root	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
@@ -10384,7 +10378,7 @@
 30	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O sul obteve em geral o mesmo padrão do testemunho da região central, contudo nota-se certa diferença entre os dois testemunhos, pois um está localizado próximo a borda do talude (REG 985) e o outro (REG 740) mais afastado em zona mais oceânica, lado direito do Cone.
-# sent_id = 114-20121011-MONOGRAFIA_0-336
+# sent_id = 114-20121011-MONOGRAFIA_0-335
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sul	sul	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	obteve	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10449,16 +10443,104 @@
 57	de	de	ADP	_	_	59	case	_	_
 58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	Cone	Cone	PROPN	_	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
-60	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+60	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
-# text = Figura 17:
+# text = Pb (mg/kg)
+# sent_id = 114-20121011-MONOGRAFIA_0-336
+1	Pb	Pb	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	mg/	mg/	ADP	_	_	4	case	_	SpaceAfter=No
+4	kg	kg	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+
+# text = Cu (mg/kg)
 # sent_id = 114-20121011-MONOGRAFIA_0-337
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
+1	Cu	cr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	mg/kg	mg/kg	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Fe (%) 11,283 17,524 1,587 21,648 18,173 1,765 9,291 10,490 1,806 10,283 13,178 1,869 7,593 12,754 1,771 16,740 14,802 2,140 8,081 12,147 10,015 1,784 2,232 12,944 1,042 9,739 13,813 1,622 5,627 11,853 10,508 1,470 5,078 20,910 1,656 9,844 20,931 1,591 14,153 18,539 1,692 10,914 14,968 1,676 Máximo 1,013 2596,761 3398,928 10,097 30,519 128,088 23,833 21,648 20,931 2,140
+# sent_id = 114-20121011-MONOGRAFIA_0-338
+1	Fe	Fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	%	%	SYM	_	_	1	obj	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	11,283	11,283	NUM	_	NumType=Card	3	nummod	_	_
+6	17,524	17,524	NUM	_	NumType=Card	5	flat	_	_
+7	1,587	1,587	NUM	_	NumType=Card	6	flat	_	_
+8	21,648	21,648	NUM	_	NumType=Card	11	nmod	_	_
+9	18,173	18,173	NUM	_	NumType=Card	8	flat	_	_
+10	1,765	1,765	NUM	_	NumType=Card	8	flat	_	_
+11	9,291	9,291	NUM	_	NumType=Card	7	nummod	_	_
+12	10,490	10,490	NUM	_	NumType=Card	11	nummod	_	_
+13	1,806	1,806	NUM	_	NumType=Card	12	flat	_	_
+14	10,283	10,283	NUM	_	NumType=Card	13	flat	_	_
+15	13,178	13,178	NUM	_	NumType=Card	14	flat	_	_
+16	1,869	1,869	NUM	_	NumType=Card	15	flat	_	_
+17	7,593	7,593	NUM	_	NumType=Card	16	nummod	_	_
+18	12,754	12,754	NUM	_	NumType=Card	17	flat	_	_
+19	1,771	1,771	NUM	_	NumType=Card	18	nummod	_	_
+20	16,740	16,740	NUM	_	NumType=Card	19	flat	_	_
+21	14,802	14,802	NUM	_	NumType=Card	19	flat	_	_
+22	2,140	2,140	NUM	_	NumType=Card	23	nmod	_	_
+23	8,081	8,081	NUM	_	NumType=Card	21	nummod	_	_
+24	12,147	12,147	NUM	_	NumType=Card	23	nummod	_	_
+25	10,015	10,015	NUM	_	NumType=Card	24	nummod	_	_
+26	1,784	1,784	NUM	_	NumType=Card	25	flat	_	_
+27	2,232	2,232	NUM	_	NumType=Card	26	nummod	_	_
+28	12,944	12,944	NUM	_	NumType=Card	27	flat	_	_
+29	1,042	1,042	NUM	_	NumType=Card	27	flat	_	_
+30	9,739	9,739	NUM	_	NumType=Card	27	nummod	_	_
+31	13,813	13,813	NUM	_	NumType=Card	30	flat	_	_
+32	1,622	1,622	NUM	_	NumType=Card	31	flat	_	_
+33	5,627	5,627	NUM	_	NumType=Card	32	flat	_	_
+34	11,853	11,853	NUM	_	NumType=Card	33	nummod	_	_
+35	10,508	10,508	NUM	_	NumType=Card	34	nummod	_	_
+36	1,470	1,470	NUM	_	NumType=Card	35	flat	_	_
+37	5,078	5,078	NUM	_	NumType=Card	35	flat	_	_
+38	20,910	20,910	NUM	_	NumType=Card	37	flat	_	_
+39	1,656	1,656	NUM	_	NumType=Card	35	flat	_	_
+40	9,844	9,844	NUM	_	NumType=Card	35	nummod	_	_
+41	20,931	20,931	NUM	_	NumType=Card	40	nummod	_	_
+42	1,591	1,591	NUM	_	NumType=Card	41	flat	_	_
+43	14,153	14,153	NUM	_	NumType=Card	42	flat	_	_
+44	18,539	18,539	NUM	_	NumType=Card	43	flat	_	_
+45	1,692	1,692	NUM	_	NumType=Card	44	flat	_	_
+46	10,914	10,914	NUM	_	NumType=Card	45	flat	_	_
+47	14,968	14,968	NUM	_	NumType=Card	46	flat	_	_
+48	1,676	1,676	NUM	_	NumType=Card	47	flat	_	_
+49	Máximo	máximo	ADV	_	_	50	advmod	_	_
+50	1,013	1,013	NUM	_	NumType=Card	48	flat	_	_
+51	2596,761	2596,761	NUM	_	NumType=Card	50	flat	_	_
+52	3398,928	3398,928	NUM	_	NumType=Card	51	flat	_	_
+53	10,097	10,097	NUM	_	NumType=Card	50	flat	_	_
+54	30,519	30,519	NUM	_	NumType=Card	53	flat	_	_
+55	128,088	128,088	NUM	_	NumType=Card	54	flat	_	_
+56	23,833	23,833	NUM	_	NumType=Card	55	flat	_	_
+57	21,648	21,648	NUM	_	NumType=Card	56	flat	_	_
+58	20,931	20,931	NUM	_	NumType=Card	57	flat	_	_
+59	2,140	2,140	NUM	_	NumType=Card	50	flat	_	_
+
+# text = Mínimo 0,237 242,645 1248,103 3,901 9,122 44,088 5,627 2,232 10,015 1,042 Figura 17:
+# sent_id = 114-20121011-MONOGRAFIA_0-339
+1	Mínimo	pequeno	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+2	0,237	0,237	NUM	_	NumType=Card	12	nsubj	_	_
+3	242,645	242,645	NUM	_	NumType=Card	12	nsubj	_	_
+4	1248,103	1248,103	NUM	_	NumType=Card	3	flat	_	_
+5	3,901	3,901	NUM	_	NumType=Card	3	flat	_	_
+6	9,122	9,122	NUM	_	NumType=Card	3	flat	_	_
+7	44,088	44,088	NUM	_	NumType=Card	6	flat	_	_
+8	5,627	5,627	NUM	_	NumType=Card	12	nsubj	_	_
+9	2,232	2,232	NUM	_	NumType=Card	12	nsubj	_	_
+10	10,015	10,015	NUM	_	NumType=Card	9	flat	_	_
+11	1,042	1,042	NUM	_	NumType=Card	12	nummod	_	SpacesAfter=\s\n
+12	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	17	17	NUM	_	NumType=Card	12	obj	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	12	punct	_	_
 
 # text = Perfis de profundidade para COT, N-Total e P-Total.
-# sent_id = 114-20121011-MONOGRAFIA_0-338
+# sent_id = 114-20121011-MONOGRAFIA_0-340
 1	Perfis	Perfl	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -10468,10 +10550,10 @@
 7	N-Total	N-Total	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 8	e	e	CCONJ	_	_	9	cc	_	_
 9	P-Total	P-Total	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 18: Perfis de profundidade para Ni, Zn e Cr.
-# sent_id = 114-20121011-MONOGRAFIA_0-339
+# sent_id = 114-20121011-MONOGRAFIA_0-341
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -10484,29 +10566,26 @@
 10	Zn	Zn	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 11	e	e	CCONJ	_	_	12	cc	_	_
 12	Cr	Cr	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = Figura 19:
-# sent_id = 114-20121011-MONOGRAFIA_0-340
+# text = Figura 19: Perfis de profundidade para Pb, Cu e Fe.
+# sent_id = 114-20121011-MONOGRAFIA_0-342
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Perfis de profundidade para Pb, Cu e Fe.
-# sent_id = 114-20121011-MONOGRAFIA_0-341
-1	Perfis	Perfl	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4	para	para	ADP	_	_	5	case	_	_
-5	Pb	Pb	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	Cu	cu	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-8	e	e	CCONJ	_	_	9	cc	_	_
-9	Fe	Fe	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+4	Perfis	Perfis	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	Pb	Pb	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Cu	cu	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	Fe	Fe	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Diniz (2011) através da datação de amostras da região do Cone de Rio Grande, próxima ao testemunho REG 985, encontrou para amostras à 20cm de profundidade a datação de 2220 AP, à 100cm, é de 4080 AP e à 200cm, é de 5050 AP.
-# sent_id = 114-20121011-MONOGRAFIA_0-342
+# sent_id = 114-20121011-MONOGRAFIA_0-343
 1	Diniz	Diniz	PROPN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	2011	2011	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -10578,7 +10657,7 @@
 62	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Confirmando a baixíssima taxa de sedimentação no local e podendo inferir que os estratos analisados neste testemunho (REG 985) possuem a mesma datação absoluta indicando que todo sedimento analisado foi depositado a partir do Holoceno, no qual prevaleceu sedimentação pelágica na região segundo Alves (1977, apud CORREIA 2009).
-# sent_id = 114-20121011-MONOGRAFIA_0-343
+# sent_id = 114-20121011-MONOGRAFIA_0-344
 1	Confirmando	Confirmar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	baixíssima	baixíssimo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -10646,7 +10725,7 @@
 60	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O testemunho REG 985 foi o que apresentou maiores concentrações de carbono e nitrogênio dentre todos os 45 testemunhos abertos para as análises.
-# sent_id = 114-20121011-MONOGRAFIA_0-344
+# sent_id = 114-20121011-MONOGRAFIA_0-345
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	REG	REG	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -10673,7 +10752,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Com este testemunho foi possível notar um aumento da concentração da matéria orgânica nas partes topo analisadas, relacionados ao menor tempo para degradação da matéria orgânica em tais profundidades.
-# sent_id = 114-20121011-MONOGRAFIA_0-345
+# sent_id = 114-20121011-MONOGRAFIA_0-346
 1	Com	com	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	testemunho	testemunho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -10717,7 +10796,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O fósforo total apresentou considerável aumento com a profundidade, podendo ser relacionado as atividades bacterianas no sedimento depositado (RUTTEMBERG & GONI, 1997).
-# sent_id = 114-20121011-MONOGRAFIA_0-346
+# sent_id = 114-20121011-MONOGRAFIA_0-347
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fósforo	fósforo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	total	total	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -10749,7 +10828,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os metais Ni, Cr, Cu neste testemunho apresentaram um padrão de diminuição da concentração ao final do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-347
+# sent_id = 114-20121011-MONOGRAFIA_0-348
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	metais	metal	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
@@ -10781,7 +10860,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O chumbo e o ferro apresentaram um aumento no teor encontrado com a profundidade e o zinco apresentou um padrão homogêneo na profundidade total analisada.
-# sent_id = 114-20121011-MONOGRAFIA_0-348
+# sent_id = 114-20121011-MONOGRAFIA_0-349
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	chumbo	chumbo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -10814,7 +10893,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = No testemunho REG 740 os elementos analisados que permitem inferir sobre a matéria orgânica (COT, N e P), registram para COT e N um leve aumento em relação ao meio do perfil e decréscimo no final do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-349
+# sent_id = 114-20121011-MONOGRAFIA_0-350
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10870,7 +10949,7 @@
 48	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = O fósforo já apresenta uma tendência de diminuição da concentração desde a primeira profundidade amostrada.
-# sent_id = 114-20121011-MONOGRAFIA_0-350
+# sent_id = 114-20121011-MONOGRAFIA_0-351
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fósforo	fósforo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	já	já	ADV	_	_	4	advmod	_	_
@@ -10891,7 +10970,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em relação aos metais estudados, estes em geral apresentam leve aumento no meio do testemunho e grande decréscimo de concentração na profundidade final amostrada.
-# sent_id = 114-20121011-MONOGRAFIA_0-351
+# sent_id = 114-20121011-MONOGRAFIA_0-352
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 3-4	aos	_	_	_	_	_	_	_	_
@@ -10928,7 +11007,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = O zinco apresentou um comportamento diferente neste testemunho, com leve aumento em relação à parte central e após um grande aumento.
-# sent_id = 114-20121011-MONOGRAFIA_0-352
+# sent_id = 114-20121011-MONOGRAFIA_0-353
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	zinco	zinco	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10957,8 +11036,8 @@
 24	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Este comportamento pode estar ligado a presença de algum barreira como condições redox que acaba por concentrá- lo nesta profundidade.
-# sent_id = 114-20121011-MONOGRAFIA_0-353
+# text = Este comportamento pode estar ligado a presença de algum barreira como condições redox que acaba por concentrá-lo nesta profundidade.
+# sent_id = 114-20121011-MONOGRAFIA_0-354
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10972,19 +11051,20 @@
 11	como	como	ADP	_	_	12	case	_	_
 12	condições	condição	NOUN	_	Gender=Fem|Number=Plur	5	xcomp	_	_
 13	redox	redox	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
-14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
-15	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-16	por	por	ADP	_	_	17	case	_	_
-17	concentrá-	concentrá	PART	_	_	15	obl	_	_
-18	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
+15	acaba	acabar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	por	por	ADP	_	_	15	compound	_	_
+17-18	concentrá-lo	_	_	_	_	_	_	_	_
+17	concentrá	concentrar	VERB	_	VerbForm=Inf	12	acl:relcl	_	_
+18	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 19-20	nesta	_	_	_	_	_	_	_	_
 19	em	em	ADP	_	_	21	case	_	_
 20	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
-21	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Outras barreiras geoquímicas conhecidas para o Zn são o pH e a adsorção pelas argilas, pelos óxidos de Fe-Mn e pela matéria orgânica.
-# sent_id = 114-20121011-MONOGRAFIA_0-354
+# sent_id = 114-20121011-MONOGRAFIA_0-355
 1	Outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	barreiras	barreira	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	geoquímicas	geoquímico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -11018,7 +11098,7 @@
 28	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = As explicações para esta variação nas concentrações encontradas principalmente na região sul e central da bacia são a influência da paleodrenagem que cobria a região e depositava seus sedimentos na Bacia de Pelotas.
-# sent_id = 114-20121011-MONOGRAFIA_0-355
+# sent_id = 114-20121011-MONOGRAFIA_0-356
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	explicações	explicação	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -11052,7 +11132,7 @@
 27	cobria	cobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	região	região	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
-30	e	e	CCONJ	_	_	31	cc	_	_
+30	e	e	CCONJ	_	_	31	cc	_	SpacesAfter=\s\n
 31	depositava	depositar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
 32	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	33	det	_	_
 33	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	_
@@ -11065,7 +11145,7 @@
 39	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Com as sucessivas transgressões e regressões do nível do mar nos últimos 5000 anos houve retrabalhamento destes sedimentos caracterizando regiões diferentes ao longo da bacia.
-# sent_id = 114-20121011-MONOGRAFIA_0-356
+# sent_id = 114-20121011-MONOGRAFIA_0-357
 1	Com	com	ADP	_	_	4	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 3	sucessivas	sucessivo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -11106,7 +11186,7 @@
 32	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A porção norte não apresentou tal distribuição já que é uma região sem aporte continental significativo até os dias de hoje.
-# sent_id = 114-20121011-MONOGRAFIA_0-357
+# sent_id = 114-20121011-MONOGRAFIA_0-358
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porção	porção	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	norte	norte	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -11131,12 +11211,12 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4.7.
-# sent_id = 114-20121011-MONOGRAFIA_0-358
+# sent_id = 114-20121011-MONOGRAFIA_0-359
 1	4.7	4.7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Análise de Componentes Principais (PCA)
-# sent_id = 114-20121011-MONOGRAFIA_0-359
+# sent_id = 114-20121011-MONOGRAFIA_0-360
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Componentes	componentes	PROPN	_	Number=Sing	1	nmod	_	_
@@ -11146,7 +11226,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = A PCA tem a propriedade de facilitar a avaliação de um grande número de dados, agrupando os dados de covariância similar e apresentando-os de maneira mais simplificada.
-# sent_id = 114-20121011-MONOGRAFIA_0-360
+# sent_id = 114-20121011-MONOGRAFIA_0-361
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	PCA	PCA	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11180,7 +11260,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Estes métodos também organizam os dados de forma a obter informações mais precisas a respeito do comportamento das variáveis analisadas, principalmente em termos de correlação entre os diversos componentes.
-# sent_id = 114-20121011-MONOGRAFIA_0-361
+# sent_id = 114-20121011-MONOGRAFIA_0-362
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -11218,7 +11298,7 @@
 33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para esta análises foram utilizados os parâmetros estudados de todos os testemunhos, com exceção da razão C/N.
-# sent_id = 114-20121011-MONOGRAFIA_0-362
+# sent_id = 114-20121011-MONOGRAFIA_0-363
 1	Para	para	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	análises	análise	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
@@ -11242,7 +11322,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Também foram adicionados os dados de profundidade da coluna d’água, já que pelos mapas notou-se influência desta variável, e profundidade amostrada dentro do testemunho.
-# sent_id = 114-20121011-MONOGRAFIA_0-363
+# sent_id = 114-20121011-MONOGRAFIA_0-364
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	adicionados	adicionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -11283,7 +11363,7 @@
 33	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Foram selecionados apenas os fatores que contribuíram com peso acima de 10%, considerados significativos para a explicação da variância total.
-# sent_id = 114-20121011-MONOGRAFIA_0-364
+# sent_id = 114-20121011-MONOGRAFIA_0-365
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	selecionados	selecionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	apenas	apenas	ADV	_	_	5	advmod	_	_
@@ -11311,7 +11391,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Esse procedimento determinou o emprego de 3 componentes principais.
-# sent_id = 114-20121011-MONOGRAFIA_0-365
+# sent_id = 114-20121011-MONOGRAFIA_0-366
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -11324,7 +11404,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A primeira componente principal (fator 1) é constituída positivamente pelo Zn, Cr, Fe e Cu e negativamente pela areia.
-# sent_id = 114-20121011-MONOGRAFIA_0-366
+# sent_id = 114-20121011-MONOGRAFIA_0-367
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	primeira	primeira	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	componente	componente	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
@@ -11355,7 +11435,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A segunda componente (fator 2) é composta apenas positivamente pelo COT e N-Total.
-# sent_id = 114-20121011-MONOGRAFIA_0-367
+# sent_id = 114-20121011-MONOGRAFIA_0-368
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	componente	componente	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
@@ -11376,7 +11456,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A terceira componente (fator 3) é formada pela relação inversa do silte e argila, positivamente para argila e negativamente para silte.
-# sent_id = 114-20121011-MONOGRAFIA_0-368
+# sent_id = 114-20121011-MONOGRAFIA_0-369
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	terceira	terceiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	componente	componente	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
@@ -11408,7 +11488,7 @@
 27	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os demais parâmetros não apresentaram correlação maior que 0,7.
-# sent_id = 114-20121011-MONOGRAFIA_0-369
+# sent_id = 114-20121011-MONOGRAFIA_0-370
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -11421,7 +11501,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Para a projeção dos fatores em gráfico (figura 20) foi escolhido plotar o fator 1 verso o fator 3, pois estes foram o que possuíam maior explicação da variância calculada.
-# sent_id = 114-20121011-MONOGRAFIA_0-370
+# sent_id = 114-20121011-MONOGRAFIA_0-371
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	projeção	projeção	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -11459,10 +11539,10 @@
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	variância	variância	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
 35	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	34	acl	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = Figura 20: Projeção da PCA do fator 1 e fator 3.
-# sent_id = 114-20121011-MONOGRAFIA_0-371
+# sent_id = 114-20121011-MONOGRAFIA_0-372
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	20	20	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -11482,7 +11562,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Nesta figura é possível ver claramente que a granulometria fina (silte e argila) não apresenta influência sobre a concentração de metais e apresentam uma influência completamente oposta sobre os parâmetros em geral.
-# sent_id = 114-20121011-MONOGRAFIA_0-372
+# sent_id = 114-20121011-MONOGRAFIA_0-373
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -11522,7 +11602,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O pH localiza-se bem no meio da projeção indicando influência nenhuma sobre os parâmetros.
-# sent_id = 114-20121011-MONOGRAFIA_0-373
+# sent_id = 114-20121011-MONOGRAFIA_0-374
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	ph	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3-4	localiza-se	_	_	_	_	_	_	_	_
@@ -11546,7 +11626,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O Carbono e o Nitrogênio apresentam-se também no centro desta projeção, no entanto fazem parte do fator 2, indicando uma correlação entre estes dois já que ambos fazem parte da composição da matéria orgânica.
-# sent_id = 114-20121011-MONOGRAFIA_0-374
+# sent_id = 114-20121011-MONOGRAFIA_0-375
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Carbono	Carbono	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -11600,7 +11680,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O fósforo, níquel e profundidade amostrada no testemunho não apresentaram relação significativa com nenhuma outra variável analisada.
-# sent_id = 114-20121011-MONOGRAFIA_0-375
+# sent_id = 114-20121011-MONOGRAFIA_0-376
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fósforo	fósforo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -11624,7 +11704,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = A única relação principal mostrada com está analise foi a relação dos metais (Pb, Cr, Fe, Cu e Zn) com a profundidade da coluna d’água, mostrando que estes metais possuem um comportamento geoquímico semelhante e as características das zonas mais profundas acabam por concentrá-los.
-# sent_id = 114-20121011-MONOGRAFIA_0-376
+# sent_id = 114-20121011-MONOGRAFIA_0-377
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	única	único	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	relação	relação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -11687,7 +11767,7 @@
 56	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A areia apresentou um comportamento contrário a concentração destes, explicado pela sua baixíssima capacidade de retenção de metais além de sua praticamente inexistência em zonas oceânicas, que possuem predominância de sedimentos finos.
-# sent_id = 114-20121011-MONOGRAFIA_0-377
+# sent_id = 114-20121011-MONOGRAFIA_0-378
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	areia	areia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -11726,10 +11806,10 @@
 34	de	de	ADP	_	_	35	case	_	_
 35	sedimentos	sedimento	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
 36	finos	fino	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 5. CONCLUSÃO Com este estudo foi possível chegar a valores iniciais preliminares da Bacia de Pelotas, podendo inferir que as características da bacia variam conforme influência de aportes continentais pretéritos na formação das feições sedimentares.
-# sent_id = 114-20121011-MONOGRAFIA_0-378
+# sent_id = 114-20121011-MONOGRAFIA_0-379
 1	5	5	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	CONCLUSÃO	conclusão	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -11778,7 +11858,7 @@
 42	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Apesar da contribuição sedimentar continental ser importante na porção Sul da Bacia de Pelotas, esta não influencia na origem dos sedimentos que apresentam grande predominância a origem marinha (C/N < 10) e também não contribui com deposição de matéria orgânica na região.
-# sent_id = 114-20121011-MONOGRAFIA_0-379
+# sent_id = 114-20121011-MONOGRAFIA_0-380
 1	Apesar	apesar	ADV	_	_	4	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -11839,7 +11919,7 @@
 52	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A granulometria não apresentou dominância em relação a concentração tanto dos elementos orgânicos como inorgânicos, indicando somente uma influência negativa da areia na concentração de alguns metais.
-# sent_id = 114-20121011-MONOGRAFIA_0-380
+# sent_id = 114-20121011-MONOGRAFIA_0-381
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	granulometria	granulometria	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -11877,7 +11957,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Em relação as regiões norte, central e sul estudadas notou-se uma maior concentração de matéria orgânica e alguns metais na porção sul, influenciada pelos antigos aportes na região.
-# sent_id = 114-20121011-MONOGRAFIA_0-381
+# sent_id = 114-20121011-MONOGRAFIA_0-382
 1	Em	em	ADP	_	_	4	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -11919,7 +11999,7 @@
 35	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A porção central apresentou picos para Ni e Cr e porção norte em geral compreendeu as menores concentrações para os parâmetros estudados.
-# sent_id = 114-20121011-MONOGRAFIA_0-382
+# sent_id = 114-20121011-MONOGRAFIA_0-383
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porção	porção	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	central	central	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -11945,7 +12025,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A sedimentação na formação do Cone do Rio Grande conferiu algumas características diferentes em perfil de profundidade que devem ser melhor estudadas para correlacionar com mudanças na paleoceanografia da região.
-# sent_id = 114-20121011-MONOGRAFIA_0-383
+# sent_id = 114-20121011-MONOGRAFIA_0-384
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sedimentação	sedimentação	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -11989,7 +12069,7 @@
 36	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = A Bacia de Pelotas possuiu somente características naturais, como esperado, não apresentando nenhum tipo de contaminação para os elementos estudados.
-# sent_id = 114-20121011-MONOGRAFIA_0-384
+# sent_id = 114-20121011-MONOGRAFIA_0-385
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Bacia	bacia	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -12012,22 +12092,22 @@
 20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
 22	estudados	estudar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 6.
-# sent_id = 114-20121011-MONOGRAFIA_0-385
+# sent_id = 114-20121011-MONOGRAFIA_0-386
 1	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = SUGESTÕES PARA TRABALHOS FUTUROS
-# sent_id = 114-20121011-MONOGRAFIA_0-386
+# sent_id = 114-20121011-MONOGRAFIA_0-387
 1	SUGESTÕES	sugestão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	PARA	para	ADP	_	_	3	case	_	_
 3	TRABALHOS	Trabalhos	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	FUTUROS	Futuros	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Para uma melhor compreensão das características geoquímicas da Bacia de Pelotas recomenda-se um estudo com novas amostragens de testemunhos além, da camada superficial disponível para análises.
-# sent_id = 114-20121011-MONOGRAFIA_0-387
+# sent_id = 114-20121011-MONOGRAFIA_0-388
 1	Para	para	ADP	_	_	4	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	melhor	bom	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -12066,7 +12146,7 @@
 32	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Também sugere-se para uma melhor quantificação e entendimento da matéria orgânica depositada na região, a utilização de analisadores de carbono que são mais sensíveis a baixas concentrações de COT e o estudo de enxofre e isótopos de carbono e nitrogênio.
-# sent_id = 114-20121011-MONOGRAFIA_0-388
+# sent_id = 114-20121011-MONOGRAFIA_0-389
 1	Também	também	ADV	_	_	2	advmod	_	_
 2-3	sugere-se	_	_	_	_	_	_	_	_
 2	sugere	sugerer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12117,7 +12197,7 @@
 45	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Além disto, é interessante o estudo de mais metais como vanádio, mercúrio e alumínio que são marcadores de algumas condições paleoambientais porque possibilita uma melhor interpretação dos sedimentos desta bacia.
-# sent_id = 114-20121011-MONOGRAFIA_0-389
+# sent_id = 114-20121011-MONOGRAFIA_0-390
 1	Além	além	ADV	_	_	6	advmod	_	_
 2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_

@@ -1,6 +1,6 @@
 # text = Introdução
 # sent_id = 266-20141001-MONOGRAFIA_0-1
-1	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesBefore=\n\n
 
 # text = O intenso crescimento populacional gerou um aumento da demanda energética.
 # sent_id = 266-20141001-MONOGRAFIA_0-2
@@ -490,7 +490,7 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Neste sentido, existem diversas pesquisas com catalisadores a base de níquel e cobalto suportados em óxidos metálicos (BENITO et al., 2005; VAIDYA; RODRIGUES, 2006;
 # sent_id = 266-20141001-MONOGRAFIA_0-11
@@ -663,7 +663,7 @@
 19	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 20	e	e	CCONJ	_	_	21	cc	_	_
 21	cobalto	cobalto	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = 2
 # sent_id = 266-20141001-MONOGRAFIA_0-16
@@ -756,7 +756,7 @@
 72	em	em	ADP	_	_	74	case	_	_
 73	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
 74	RVE	RVE	PROPN	_	Gender=Fem|Number=Sing	70	nmod	_	SpaceAfter=No
-75	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+75	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3
 # sent_id = 266-20141001-MONOGRAFIA_0-19
@@ -1001,21 +1001,31 @@
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 17	abaixo	abaixo	ADV	_	_	16	advmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = Fonte: Adaptado de HOLLADAY et al. (2009).
+# text = TABELA 1 – Comparação das tecnologias de reforma Fonte: Adaptado de HOLLADAY et al. (2009).
 # sent_id = 266-20141001-MONOGRAFIA_0-30
-1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	HOLLADAY	Holladay	X	_	_	3	obl	_	_
-6	et	et	X	_	_	5	flat:foreign	_	_
-7	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	2009	2009	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	TABELA	Tabelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	1	1	NUM	_	NumType=Card	4	nummod	_	_
+3	–	–	PUNCT	_	_	2	punct	_	_
+4	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	HOLLADAY	HOLLADAY	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+15	et	et	X	_	Number=Sing	14	flat:name	_	_
+16	al.	al.	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	2009	2009	NUM	_	NumType=Card	14	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Apesar do processo de reforma ser o mais viável existem altos custos de implantação de plantas industriais, a necessidade de um catalisador estável e de baixo custo e, ainda, a disponibilidade de matérias primas renováveis.
 # sent_id = 266-20141001-MONOGRAFIA_0-31
@@ -1242,7 +1252,7 @@
 2	4	4	NUM	_	NumType=Card	5	appos:parataxis	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	5)	5)	NUM	_	NumType=Card	0	root	_	_
+5	5)	5)	NUM	_	NumType=Card	0	root	_	SpacesAfter=\s\n
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	6	6	NUM	_	NumType=Card	5	appos:parataxis	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
@@ -1698,26 +1708,12 @@
 12	cobalto	cobalto	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
 14	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = TABELA 2 – Rotas reacionais para a reforma a vapor do etanol Eq.
+# text = Eq.
 # sent_id = 266-20141001-MONOGRAFIA_0-53
-1	TABELA	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	2	2	NUM	_	NumType=Card	1	nummod	_	_
-3	–	–	PUNCT	_	_	4	punct	_	_
-4	Rotas	Rota	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
-5	reacionais	reacional	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
-6	para	para	ADP	_	_	8	case	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9	a	a	ADP	_	_	10	case	_	_
-10	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-14	Eq	Eq	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Eq	Eq	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Reação Equação Observações Rota reacional ideal, a maior produção de H2
 # sent_id = 266-20141001-MONOGRAFIA_0-54
@@ -1773,85 +1769,36 @@
 24	baixa	baixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 25	produção	produção	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
 26	de	de	ADP	_	_	27	case	_	_
-27	H2	H2	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+27	H2	H2	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	SpacesAfter=\s\n\n\n\n
 
-# text = Fornecimento de vapor suficiente Fornecimento de vapor insuficiente Desidrogenação
+# text = Desidrogenação
 # sent_id = 266-20141001-MONOGRAFIA_0-57
-1	Fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4	suficiente	suficiente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-5	Fornecimento	fornecimento	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-6	de	de	SCONJ	_	_	7	mark	_	_
-7	vapor	vapor	VERB	_	VerbForm=Inf	1	acl	_	_
-8	insuficiente	insuficiente	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-9	Desidrogenação	Desidrogenação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+1	Desidrogenação	Desidrogenação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n\n\n\n
 
-# text = Desidrogenação oxidativa
+# text = Desidratação
 # sent_id = 266-20141001-MONOGRAFIA_0-58
-1	Desidrogenação	Desidrogenação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	oxidativa	oxidativo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+1	Desidratação	Desidratação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n\n\n\n\n\n\n\n\n\n
 
-# text = Decomposição do acetaldeído
+# text = Formação de coque Decomposição Reduz a formação de coque, aumenta a produção de H2
 # sent_id = 266-20141001-MONOGRAFIA_0-59
-1	Decomposição	Decomposição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	acetaldeído	acetaldeído	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-
-# text = Reforma a vapor do acetaldeído
-# sent_id = 266-20141001-MONOGRAFIA_0-60
-1	Reforma	reforma	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	a	a	ADP	_	_	3	case	_	_
-3	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	acetaldeído	acetaldeído	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-
-# text = Desidratação Formação de coque Decomposição Reduz a formação de coque, aumenta a produção de H2
-# sent_id = 266-20141001-MONOGRAFIA_0-61
-1	Desidratação	Desidratação	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
-2	Formação	formação	PROPN	_	Number=Sing	1	flat:name	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	coque	coque	PROPN	_	Number=Sing	1	nmod	_	_
-5	Decomposição	Decomposição	PROPN	_	Number=Sing	4	flat:name	_	_
-6	Reduz	reduz	PROPN	_	Number=Sing	4	flat:name	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	formação	formação	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	coque	coque	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	8	punct	_	_
-12	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	produção	produção	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	H2	H2	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-
-# text = Reação dos produtos da decomposição Metanação Decomposição do metano Reação de Boudouard
-# sent_id = 266-20141001-MONOGRAFIA_0-62
-1	Reação	reação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
+1	Formação	formação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	coque	coque	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	Decomposição	Decomposição	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	Reduz	reduz	PROPN	_	Number=Sing	4	flat:name	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	decomposição	decomposição	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	Metanação	Metanação	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
-9	Decomposição	Decomposição	PROPN	_	Number=Sing	8	flat:name	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	metano	metano	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-13	Reação	reação	PROPN	_	Number=Sing	12	flat:name	_	_
+7	formação	formação	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	coque	coque	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	produção	produção	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
-15	Boudouard	Boudouard	PROPN	_	Number=Sing	12	nmod	_	_
+15	H2	H2	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\s\n
 
 # text = Reação de deslocamento gás-água Fonte: Adaptado de NI; LEUNG; LEUNG (2007).
-# sent_id = 266-20141001-MONOGRAFIA_0-63
+# sent_id = 266-20141001-MONOGRAFIA_0-60
 1	Reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	deslocamento	deslocamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -1868,10 +1815,10 @@
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	2007	2007	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n\n\n
 
 # text = LLORCA et al. (2002) estudou a RVE em catalisadores a base de cobalto suportado em diversos óxidos metálicos.
-# sent_id = 266-20141001-MONOGRAFIA_0-64
+# sent_id = 266-20141001-MONOGRAFIA_0-61
 1	LLORCA	Llorca	ADV	_	_	2	advmod	_	_
 2	et	et	X	_	Number=Sing	3	amod	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -1894,8 +1841,8 @@
 20	metálicos	metálico	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = Concluiu que a RVE ocorreu de forma mais significativa nos catalisadores suportados em ZnO-, La2O3-, Sm2O3- e CeO2-.
-# sent_id = 266-20141001-MONOGRAFIA_0-65
+# text = Concluiu que a RVE ocorreu de forma mais significativa nos catalisadores suportados em ZnO-, La2O3-, Sm2O3-e CeO-.
+# sent_id = 266-20141001-MONOGRAFIA_0-62
 1	Concluiu	concluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	_	_	5	mark	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1914,16 +1861,14 @@
 15	ZnO-	ZnO	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	La2O3	La2O3	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	Sm2O3	Sm2O3	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-21	-	-	PUNCT	_	_	23	punct	_	_
-22	e	e	CCONJ	_	_	23	cc	_	_
-23	CeO2	CeO2	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-24	-.	-.	PUNCT	_	_	1	punct	_	_
+18	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	1	punct	_	_
+20	Sm2O3-e	Sm2O3-e	PROPN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+21	CeO	CeO	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	-.	-.	PUNCT	_	_	1	punct	_	_
 
 # text = Além disso, foi possível produzir hidrogênio sem monóxido de carbono.
-# sent_id = 266-20141001-MONOGRAFIA_0-66
+# sent_id = 266-20141001-MONOGRAFIA_0-63
 1	Além	além	ADV	_	_	3	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -1940,7 +1885,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Em seu estudo com catalisadores de cobalto suportados em ZnO afirmou que ao usar Co2(CO)8 como precursor do cobalto produziu-se um catalisador altamente estável e seletivo para a produção de H2 sem CO em baixas temperaturas de reação, como 623K (LLORCA et al., 2003).
-# sent_id = 266-20141001-MONOGRAFIA_0-67
+# sent_id = 266-20141001-MONOGRAFIA_0-64
 1	Em	em	ADP	_	_	3	case	_	_
 2	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	det	_	_
 3	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -2000,7 +1945,7 @@
 54	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = HAGA et al. (1997) também estudou catalisadores a base de cobalto suportado em óxidos metálicos e concluiu que o material do suporte do catalisador tem forte influência sobre a distribuição de produtos e que a formação de hidrogênio diminuiu na seguinte ordem:
-# sent_id = 266-20141001-MONOGRAFIA_0-68
+# sent_id = 266-20141001-MONOGRAFIA_0-65
 1	HAGA	Hagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	3	amod	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -2053,21 +1998,21 @@
 47	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
 48	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Co/Al2O3 > Co/ZrO2 > Co/MgO > Co/SiO2 > Co/C.
-# sent_id = 266-20141001-MONOGRAFIA_0-69
-1	Co/Al2O3	Co/Al2O3	NUM	_	NumType=Card	2	nummod	_	_
-2	>	>	SYM	_	_	5	nsubj	_	_
-3	Co/ZrO2	Co/ZrO2	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-4	>	>	SYM	_	_	2	nmod	_	_
-5	Co/MgO	Co/mgar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	>	>	SYM	_	_	5	obj	_	_
-7	Co/SiO2	Co/SiO2	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+# text = Co/Al2O3 > Co/ZrO > Co/MgO > Co/SiO > Co/C.
+# sent_id = 266-20141001-MONOGRAFIA_0-66
+1	Co/Al2O3	Co/Al2O3	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	>	>	SYM	_	_	3	nsubj	_	_
+3	Co/ZrO	Co/zrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	>	>	SYM	_	_	3	obj	_	_
+5	Co/MgO	Co/MgO	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
+6	>	>	SYM	_	_	5	appos	_	_
+7	Co/SiO	Co/SiO	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 8	>	>	SYM	_	_	6	appos	_	_
 9	Co/C	Co/C	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Sugeriu que a seletividade para RVE também diminuiu nesta ordem e que a diferença na seletividade não estava relacionada com o tamanho médio de partícula, nem com a área superficial e nem com a dispersão de Co e sim com as propriedades da área superficial do suporte.
-# sent_id = 266-20141001-MONOGRAFIA_0-70
+# sent_id = 266-20141001-MONOGRAFIA_0-67
 1	Sugeriu	Sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	_	_	8	mark	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2126,8 +2071,8 @@
 52	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Segundo KADDOURI; MAZZOCCHIA (2004), que estudaram catalisadores a base de cobalto suportados em Al2O3 e SiO2, a seletividade a hidrogênio e a distribuição de produtos são dependentes do método de preparação dos catalisadores e da natureza do suporte utilizado.
-# sent_id = 266-20141001-MONOGRAFIA_0-71
+# text = Segundo KADDOURI; MAZZOCCHIA (2004), que estudaram catalisadores a base de cobalto suportados em Al2O3 e SiO, a seletividade a hidrogênio e a distribuição de produtos são dependentes do método de preparação dos catalisadores e da natureza do suporte utilizado.
+# sent_id = 266-20141001-MONOGRAFIA_0-68
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	KADDOURI	KADDOURI	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 3	;	;	PUNCT	_	_	2	punct	_	_
@@ -2147,7 +2092,7 @@
 17	em	em	ADP	_	_	18	case	_	_
 18	Al2O3	Al2O3	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	_
 19	e	e	CCONJ	_	_	20	cc	_	_
-20	SiO2	SiO2	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+20	SiO	SiO	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	2	punct	_	_
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	seletividade	seletividade	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
@@ -2183,7 +2128,7 @@
 49	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = BATISTA et al. (2004), que estudaram os mesmos tipos de catalisadores com diferentes teores metálicos, concluíram que a distribuição de produtos também é afetada pelo teor metálico nas amostras.
-# sent_id = 266-20141001-MONOGRAFIA_0-72
+# sent_id = 266-20141001-MONOGRAFIA_0-69
 1	BATISTA	Bater	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
 2	et	et	X	_	Number=Sing	1	obj	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
@@ -2223,8 +2168,8 @@
 35	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
-# text = RIBEIRO et al. (2009) avaliaram o desempenho de nanopartículas de cobalto suportadas em SiO2 utilizando Co2(CO)8 como precursor de Co.
-# sent_id = 266-20141001-MONOGRAFIA_0-73
+# text = RIBEIRO et al. (2009) avaliaram o desempenho de nanopartículas de cobalto suportadas em SiO utilizando Co2(CO)8 como precursor de Co.
+# sent_id = 266-20141001-MONOGRAFIA_0-70
 1	RIBEIRO	Ribeirar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	3	amod	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -2240,7 +2185,7 @@
 13	cobalto	cobalto	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	suportadas	suportar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	20	acl	_	_
 15	em	em	ADP	_	_	16	case	_	_
-16	SiO2	SiO2	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
+16	SiO	SiO	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
 17	utilizando	utilizando	PROPN	_	Number=Sing	16	flat:name	_	_
 18	Co2(	co2(	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
 19	CO)	CO)	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
@@ -2252,7 +2197,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os catalisadores com menores partículas de Co tiveram maior atividade para a RVE e sugeriu-se que a fração de sítios ativos de
-# sent_id = 266-20141001-MONOGRAFIA_0-74
+# sent_id = 266-20141001-MONOGRAFIA_0-71
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	catalisadores	catalisador	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -2279,7 +2224,7 @@
 23	de	de	ADP	_	_	21	case	_	_
 
 # text = Co acessíveis está relacionada às condições de preparação do catalisador.
-# sent_id = 266-20141001-MONOGRAFIA_0-75
+# sent_id = 266-20141001-MONOGRAFIA_0-72
 1	Co	co	ADV	_	_	2	advmod	_	_
 2	acessíveis	acessível	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 3	está	esestar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2297,7 +2242,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Além disso, algumas rotas reacionais para a RVE na superfície do catalisador foram propostas e estão ilustradas na figura 1 abaixo, onde inicialmente ocorre a adsorção do etanol e desidrogenação, formando o intermediário CHx---CHO na superfície, com acetaldeído e H2 desadsorvendo em baixas temperaturas (T1); em seguida ocorre a quebra do intermediário formado na superfície CHx---CHO, formando –CHx (adsorvido) e –CO (adsorvido) em temperaturas médias (T2), sendo que duas rotas reacionais podem ocorrer: hidrogenação/desidrogenação do –CHx (adsorvido) e –CO (adsorvido), resultando na desadsorção de CH4 e CO ou quimissorção e decomposição da água em H* e OH* em paralelo com a decomposição do –CHx (adsorvido) em C (adsorvido) e H2 (g) com oxidação do C (adsorvido) e CO (adsorvido) pelo O* formando CO2 (g); por fim tem-se a ativação do CH4 para reforma a vapor através do C (adsorvido) e oxidação a CO e CO2 pela H2O em temperaturas mais altas (T3).
-# sent_id = 266-20141001-MONOGRAFIA_0-76
+# sent_id = 266-20141001-MONOGRAFIA_0-73
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2402,7 +2347,7 @@
 94	reacionais	reacional	ADJ	_	Gender=Fem|Number=Plur	93	amod	_	_
 95	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	conj	_	_
 96	ocorrer	ocorrer	VERB	_	VerbForm=Inf	180	advcl	_	SpaceAfter=No
-97	:	:	PUNCT	_	_	96	punct	_	_
+97	:	:	PUNCT	_	_	96	punct	_	SpacesAfter=\s\n
 98	hidrogenação	hidrogenação	NOUN	_	Gender=Fem|Number=Sing	100	conj	_	SpaceAfter=No
 99	/	/	PUNCT	_	_	98	punct	_	SpaceAfter=No
 100	desidrogenação	desidrogenação	NOUN	_	Gender=Fem|Number=Sing	108	conj	_	_
@@ -2531,47 +2476,20 @@
 213	)	)	PUNCT	_	_	212	punct	_	SpaceAfter=No
 214	.	.	PUNCT	_	_	95	punct	_	SpacesAfter=\n
 
-# text = FIGURA 1 – Esquema das reações do etanol na presença de água na superfície de nanopartículas Fonte:
-# sent_id = 266-20141001-MONOGRAFIA_0-77
-1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
-2	1	1	NUM	_	NumType=Card	0	root	_	_
-3	–	–	PUNCT	_	_	2	punct	_	_
-4	Esquema	esquema	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-5-6	das	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	reações	reação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	_	_	13	case	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	presença	presença	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	água	água	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-16-17	na	_	_	_	_	_	_	_	_
-16	em	em	ADP	_	_	18	case	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	nanopartículas	nanopartícula	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
-21	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	20	appos	_	SpaceAfter=No
-22	:	:	PUNCT	_	_	2	punct	_	_
-
-# text = RIBEIRO et al. (2009).
-# sent_id = 266-20141001-MONOGRAFIA_0-78
-1	RIBEIRO	Ribeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
-2	et	et	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	al.	al.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
-4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	2009	2009	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+# text = Fonte: RIBEIRO et al. (2009).
+# sent_id = 266-20141001-MONOGRAFIA_0-74
+1	Fonte	fonte	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	RIBEIRO	Ribeiro	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	et	et	X	_	Number=Sing	3	flat:name	_	_
+5	al.	al.	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	2009	2009	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O níquel é muito utilizado em catalisadores para vários processos químicos industriais por ter baixo custo e não ser um metal nobre.
-# sent_id = 266-20141001-MONOGRAFIA_0-79
+# sent_id = 266-20141001-MONOGRAFIA_0-75
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -2597,7 +2515,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Na RVE o Ni também opera bem, pois favorece a quebra da ligação C-C (NI; LEUNG; LEUNG, 2007).
-# sent_id = 266-20141001-MONOGRAFIA_0-80
+# sent_id = 266-20141001-MONOGRAFIA_0-76
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2629,7 +2547,7 @@
 27	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Porém relata-se a desativação do catalisador principalmente devido à sinterização do metal e à formação de coque (FRUSTERI et al., 2006).
-# sent_id = 266-20141001-MONOGRAFIA_0-81
+# sent_id = 266-20141001-MONOGRAFIA_0-77
 1	Porém	porém	ADV	_	_	2	advmod	_	_
 2-3	relata-se	_	_	_	_	_	_	_	_
 2	relata	relatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2667,7 +2585,7 @@
 30	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Um estudo analisou catalisadores de Ni suportados em alguns óxidos metálicos, que foram ZnO, La2O3, MgO e γ-Al2O3, e uma conversão praticamente completa de etanol foi obtida para todos os catalisadores.
-# sent_id = 266-20141001-MONOGRAFIA_0-82
+# sent_id = 266-20141001-MONOGRAFIA_0-78
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	analisou	analisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2706,7 +2624,7 @@
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = No entanto a seletividade para hidrogênio foi afetada pelos diferentes suportes utilizados na seguinte ordem:
-# sent_id = 266-20141001-MONOGRAFIA_0-83
+# sent_id = 266-20141001-MONOGRAFIA_0-79
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	9	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -2728,17 +2646,17 @@
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 18	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
-19	:	:	PUNCT	_	_	9	punct	_	_
+19	:	:	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 
 # text = Ni/ZnO ≈ Ni/La2O3 >
-# sent_id = 266-20141001-MONOGRAFIA_0-84
+# sent_id = 266-20141001-MONOGRAFIA_0-80
 1	Ni/ZnO	Ni/znar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	≈	≈	SYM	_	_	1	obj	_	_
 3	Ni/La2O3	Ni/La2O3	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 4	>	>	SYM	_	_	1	obj	_	_
 
 # text = Ni/MgO > Ni/γ-Al2O3 (YANG; MA; WU, 2006).
-# sent_id = 266-20141001-MONOGRAFIA_0-85
+# sent_id = 266-20141001-MONOGRAFIA_0-81
 1	Ni/MgO	Ni/mgar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	>	>	SYM	_	_	1	obj	_	_
 3	Ni/γ-Al2O3	Ni/γ-Al2O3	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -2753,8 +2671,8 @@
 12	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Além disso, a distribuição de produtos mostrou que menos subprodutos foram formados utilizando- se o catalisador Ni/ZnO.
-# sent_id = 266-20141001-MONOGRAFIA_0-86
+# text = Além disso, a distribuição de produtos mostrou que menos subprodutos foram formados utilizando-se o catalisador Ni/ZnO.
+# sent_id = 266-20141001-MONOGRAFIA_0-82
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2770,16 +2688,16 @@
 12	subprodutos	subproduto	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
 13	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
 14	formados	formar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	_
-15	utilizando	utilizar	VERB	_	VerbForm=Ger	14	advcl	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	15	punct	_	_
-17	se	se	SCONJ	_	_	19	mark	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-20	Ni/ZnO	Ni/zele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	appos	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	9	punct	_	_
+15-16	utilizando-se	_	_	_	_	_	_	_	_
+15	utilizando	utilizar	VERB	_	VerbForm=Ger	14	advcl	_	_
+16	se	se	SCONJ	_	_	18	mark	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+19	Ni/ZnO	Ni/zele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Assim, alguns parâmetros da reação foram avaliados para este catalisador, como temperatura de reação, razão molar de água para etanol e teor metálico de Ni.
-# sent_id = 266-20141001-MONOGRAFIA_0-87
+# sent_id = 266-20141001-MONOGRAFIA_0-83
 1	Assim	assim	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -2813,7 +2731,7 @@
 30	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Neste mesmo estudo observou-se que a partir de 603K já se tinha conversão praticamente completa de etanol.
-# sent_id = 266-20141001-MONOGRAFIA_0-88
+# sent_id = 266-20141001-MONOGRAFIA_0-84
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -2838,7 +2756,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = À 803K o consumo de água se aproximou ao valor estequiométrico e a seletividade para H2 aumento para cerca de 80%.
-# sent_id = 266-20141001-MONOGRAFIA_0-89
+# sent_id = 266-20141001-MONOGRAFIA_0-85
 1-2	À	_	_	_	_	_	_	_	_
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	A	A	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -2868,7 +2786,7 @@
 25	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A concentração de metano também diminuiu, a concentração de CO2 chegou ao seu máximo e a de CO ao seu mínimo.
-# sent_id = 266-20141001-MONOGRAFIA_0-90
+# sent_id = 266-20141001-MONOGRAFIA_0-86
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2898,7 +2816,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Para a razão molar de água para etanol, a qual foi variada entre 3 e 12, concluiu-se que este parâmetro é de grande importância na RVE, principalmente quanto à seletividade para H2, e que com a razão estequiométrica de 3 obteve-se 81% de seletividade.
-# sent_id = 266-20141001-MONOGRAFIA_0-91
+# sent_id = 266-20141001-MONOGRAFIA_0-87
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	razão	razão	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -2959,7 +2877,7 @@
 54	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Com a razão de 9 observou-se 91% de seletividade e com 12 houve um aumento de apenas 1%.
-# sent_id = 266-20141001-MONOGRAFIA_0-92
+# sent_id = 266-20141001-MONOGRAFIA_0-88
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	razão	razão	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -2985,7 +2903,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = No caso do teor metálico de Ni, avaliado entre 5 e 20% em massa, observou-se que a seletividade para H2 aumentou e a formação de subprodutos intermediários diminuiu com o aumento da quantidade de Ni.
-# sent_id = 266-20141001-MONOGRAFIA_0-93
+# sent_id = 266-20141001-MONOGRAFIA_0-89
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3035,7 +2953,7 @@
 43	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = A formação de metano atingiu seu mínimo com o catalisador contendo 20% de Ni com a temperatura reacional de 823K (YANG; MA; WU, 2006).
-# sent_id = 266-20141001-MONOGRAFIA_0-94
+# sent_id = 266-20141001-MONOGRAFIA_0-90
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3068,8 +2986,8 @@
 30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Segundo FRUSTERI et al. (2006), a formação de coque é mais rápida no catalisador de Ni suportado em CeO2 do que no suportado em MgO.
-# sent_id = 266-20141001-MONOGRAFIA_0-95
+# text = Segundo FRUSTERI et al. (2006), a formação de coque é mais rápida no catalisador de Ni suportado em CeO do que no suportado em MgO.
+# sent_id = 266-20141001-MONOGRAFIA_0-91
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	FRUSTERI	FRUSTERI	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -3093,7 +3011,7 @@
 20	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	suportado	suportar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
 22	em	em	ADP	_	_	23	case	_	_
-23	CeO2	CeO2	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
+23	CeO	CeO	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	29	case	_	_
 25	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	fixed	_	_
@@ -3107,7 +3025,7 @@
 32	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Isto ocorre, provavelmente, devido à forte interação do suporte com os compostos intermediários adsorvidos.
-# sent_id = 266-20141001-MONOGRAFIA_0-96
+# sent_id = 266-20141001-MONOGRAFIA_0-92
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3131,7 +3049,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Além disso, os testes realizados demonstraram que a natureza básica do MgO favoreceu a RVE e inibiu a formação de coque.
-# sent_id = 266-20141001-MONOGRAFIA_0-97
+# sent_id = 266-20141001-MONOGRAFIA_0-93
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3161,7 +3079,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Uma rota reacional proposta para a reação de RVE, esquematizada na figura 2, envolve a adsorção do etanol na superfície do catalisador, onde ocorre a quebra e desidrogenação da ligação C-C, o que resulta na formação de dois radicais com diferentes reatividades, que são o formil (CHyO) e o metil (CHx).
-# sent_id = 266-20141001-MONOGRAFIA_0-98
+# sent_id = 266-20141001-MONOGRAFIA_0-94
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	rota	rota	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	reacional	reacional	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3237,7 +3155,7 @@
 67	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = O formil pode formar CO e o metil, CH4.
-# sent_id = 266-20141001-MONOGRAFIA_0-99
+# sent_id = 266-20141001-MONOGRAFIA_0-95
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	formil	formil	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3251,7 +3169,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A seguir ocorre a ativação da água, a qual desidrogena o metano e produz hidrogênio (LIBERATORI et al., 2007).
-# sent_id = 266-20141001-MONOGRAFIA_0-100
+# sent_id = 266-20141001-MONOGRAFIA_0-96
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	3	advcl	_	_
 3	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3277,10 +3195,10 @@
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	2007	2007	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = FIGURA 2 – Esquema para a reação do etanol com a água na superfície do Ni com aumento de temperatura (T) Fonte: LIBERATORI et al. (2007).
-# sent_id = 266-20141001-MONOGRAFIA_0-101
+# sent_id = 266-20141001-MONOGRAFIA_0-97
 1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
 2	2	2	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -3321,7 +3239,7 @@
 35	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
 
 # text = O problema do catalisador de Ni é a sua rápida desativação pela formação de coque, entretanto a modificação das propriedades eletrônicas da superfície das partículas de
-# sent_id = 266-20141001-MONOGRAFIA_0-102
+# sent_id = 266-20141001-MONOGRAFIA_0-98
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	problema	problema	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -3361,7 +3279,7 @@
 32	de	de	ADP	_	_	31	compound	_	_
 
 # text = Ni através da adição de um segundo metal pode resultar em catalisadores resistentes a deposição de carbono, assim, catalisadores bimetálicos são estudados para evitar esta desativação (BRAGA, 2012).
-# sent_id = 266-20141001-MONOGRAFIA_0-103
+# sent_id = 266-20141001-MONOGRAFIA_0-99
 1	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 2	através	através	ADV	_	_	1	advmod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3400,7 +3318,7 @@
 35	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Especificamente sobre os catalisadores bimetálicos
-# sent_id = 266-20141001-MONOGRAFIA_0-104
+# sent_id = 266-20141001-MONOGRAFIA_0-100
 1	Especificamente	especificamente	ADV	_	_	4	advmod	_	_
 2	sobre	sobre	ADP	_	_	4	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -3408,7 +3326,7 @@
 5	bimetálicos	bimetálico	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 
 # text = Ni-Co há três vantagens principais relatadas em literatura: o catalisador bimetálico aumenta a seletividade para H2 com a diminuição da formação de CH4; a resistência à oxidação do metal em reação; e a resistência a formação de coque (BRAGA, 2012).
-# sent_id = 266-20141001-MONOGRAFIA_0-105
+# sent_id = 266-20141001-MONOGRAFIA_0-101
 1	Ni-Co	Ni-Co	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	três	três	NUM	_	NumType=Card	4	nummod	_	_
@@ -3464,7 +3382,7 @@
 50	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = De acordo com TAKANABE et al. (2005) existe a formação de uma liga neste par Ni-Co sobre TiO2, o que é a principal explicação para as melhoras das propriedades catalíticas do material.
-# sent_id = 266-20141001-MONOGRAFIA_0-106
+# sent_id = 266-20141001-MONOGRAFIA_0-102
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3509,16 +3427,16 @@
 39	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 3.2 Catalisadores
-# sent_id = 266-20141001-MONOGRAFIA_0-107
+# sent_id = 266-20141001-MONOGRAFIA_0-103
 1	3.2	3.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Catalisadores	Catalisador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Modelo
-# sent_id = 266-20141001-MONOGRAFIA_0-108
+# sent_id = 266-20141001-MONOGRAFIA_0-104
 1	Modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Visando entender melhor o catalisador a base de Ni e Co e, principalmente, isolar a contribuição do tamanho de partícula e da formação de ligas, se faz necessário o estudo da reforma a vapor do etanol com catalisadores modelo.
-# sent_id = 266-20141001-MONOGRAFIA_0-109
+# sent_id = 266-20141001-MONOGRAFIA_0-105
 1	Visando	visar	VERB	_	VerbForm=Ger	32	acl	_	_
 2	entender	entender	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	melhor	melhor	ADV	_	_	2	advmod	_	_
@@ -3572,7 +3490,7 @@
 47	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
 
 # text = Alguns trabalhos na literatura (WILLIAMS et al., 2010;
-# sent_id = 266-20141001-MONOGRAFIA_0-110
+# sent_id = 266-20141001-MONOGRAFIA_0-106
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -3588,7 +3506,7 @@
 12	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = SHEKHAR et al., 2012a; SHEKHAR et al., 2012b) relatam o uso de suportes de baixa área superfial e porosidade com alta cristalinidade, o que permite que as partículas de óxidos e metálicas fiquem na superfície do suporte, evitando o alto recobrimento do mesmo.
-# sent_id = 266-20141001-MONOGRAFIA_0-111
+# sent_id = 266-20141001-MONOGRAFIA_0-107
 1	SHEKHAR	Shekhar	NUM	_	NumType=Card	3	nummod	_	_
 2	et	et	X	_	Number=Sing	1	flat	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -3624,7 +3542,7 @@
 33	partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	38	nsubj	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	óxidos	óxido	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	_
-36	e	e	CCONJ	_	_	37	cc	_	_
+36	e	e	CCONJ	_	_	37	cc	_	SpacesAfter=\s\n
 37	metálicas	metálico	NOUN	_	Gender=Fem|Number=Plur	35	conj	_	_
 38	fiquem	ficar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
 39-40	na	_	_	_	_	_	_	_	_
@@ -3647,7 +3565,7 @@
 53	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Contudo estes estudos foram feitos com metais nobres como Pt e Au, estudos com metais de transição ainda são pouco explorados.
-# sent_id = 266-20141001-MONOGRAFIA_0-112
+# sent_id = 266-20141001-MONOGRAFIA_0-108
 1	Contudo	contudo	ADV	_	_	2	advmod	_	_
 2	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
@@ -3670,16 +3588,16 @@
 20	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 21	pouco	pouco	ADV	_	_	22	advmod	_	_
 22	explorados	explorar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	advcl	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 4 Metodologia 4.1
-# sent_id = 266-20141001-MONOGRAFIA_0-113
+# sent_id = 266-20141001-MONOGRAFIA_0-109
 1	4	4	NUM	_	NumType=Card	2	nummod	_	_
 2	Metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	4.1	4.1	NUM	_	NumType=Card	2	nummod	_	_
 
 # text = Preparação dos catalisadores
-# sent_id = 266-20141001-MONOGRAFIA_0-114
+# sent_id = 266-20141001-MONOGRAFIA_0-110
 1	Preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3687,7 +3605,7 @@
 4	catalisadores	catalisador	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = As amostras foram preparadas por impregnação incipiente no Laboratório de Preparação de Catalisadores
-# sent_id = 266-20141001-MONOGRAFIA_0-115
+# sent_id = 266-20141001-MONOGRAFIA_0-111
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3705,7 +3623,7 @@
 14	Catalisadores	Catalisadores	PROPN	_	Number=Sing	12	nmod	_	_
 
 # text = Heterogêneos da Prof.
-# sent_id = 266-20141001-MONOGRAFIA_0-116
+# sent_id = 266-20141001-MONOGRAFIA_0-112
 1	Heterogêneos	Heterogêneo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3713,19 +3631,19 @@
 4	Prof.	Prof.	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Dra.
-# sent_id = 266-20141001-MONOGRAFIA_0-117
+# sent_id = 266-20141001-MONOGRAFIA_0-113
 1	Dra	Drar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Clélia Mara de Paula
-# sent_id = 266-20141001-MONOGRAFIA_0-118
+# sent_id = 266-20141001-MONOGRAFIA_0-114
 1	Clélia	Clélia	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Mara	Mara	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Paula	Paula	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Marques localizado no DQ-UFSCar.
-# sent_id = 266-20141001-MONOGRAFIA_0-119
+# sent_id = 266-20141001-MONOGRAFIA_0-115
 1	Marques	Marque	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -3735,7 +3653,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os sais Ni(NO3)2.6H2O e Co(NO3)2.6H2O foram dissolvidos em etanol (1mL/g de suporte) e a solução foi e gotejada sobre MgO comercial (Aldrich), previamente calcinado, mantendo-se o teor metálico em 1 ou 2% em massa, o suporte foi mantido à 70ºC para que se mantivesse seco.
-# sent_id = 266-20141001-MONOGRAFIA_0-120
+# sent_id = 266-20141001-MONOGRAFIA_0-116
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sais	sais	PROPN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
 3	Ni(	ni(	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
@@ -3800,7 +3718,7 @@
 60	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Após, as amostras foram secas em temperatura ambiente em um dessecador e posteriormente calcinadas à 550ºC sob ar sintético com uma taxa de aquecimento de 3ºC/min durante 6h.
-# sent_id = 266-20141001-MONOGRAFIA_0-121
+# sent_id = 266-20141001-MONOGRAFIA_0-117
 1	Após	após	SCONJ	_	_	6	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3837,7 +3755,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = As amostras foram nomeadas 2Ni, 1Co1Ni, 2Co, 1Ni, 0,5Co0,5Ni e 1Co onde o número indica o teor metálico.
-# sent_id = 266-20141001-MONOGRAFIA_0-122
+# sent_id = 266-20141001-MONOGRAFIA_0-118
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3863,11 +3781,11 @@
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.2
-# sent_id = 266-20141001-MONOGRAFIA_0-123
+# sent_id = 266-20141001-MONOGRAFIA_0-119
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Caracterização dos catalisadores
-# sent_id = 266-20141001-MONOGRAFIA_0-124
+# sent_id = 266-20141001-MONOGRAFIA_0-120
 1	Caracterização	caracterização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3875,7 +3793,7 @@
 4	catalisadores	catalisador	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Para caracterizar as amostras foram feitas medidas de Redução à Temperatura Programada (TPR) e de dispersão.
-# sent_id = 266-20141001-MONOGRAFIA_0-125
+# sent_id = 266-20141001-MONOGRAFIA_0-121
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	caracterizar	caracterizar	VERB	_	VerbForm=Inf	6	advcl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3899,7 +3817,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Ambas foram feitas em um equipamento Micromeritics Pulse Autochem 2920 equipado com um detector de condutividade térmica (TCD).
-# sent_id = 266-20141001-MONOGRAFIA_0-126
+# sent_id = 266-20141001-MONOGRAFIA_0-122
 1	Ambas	ambos	PRON	_	Gender=Fem|Number=Plur|PronType=Tot	3	nsubj:pass	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3923,7 +3841,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Um reator de quartzo em U contendo 150mg de amostra foi acoplado ao equipamento para realizar as análises.
-# sent_id = 266-20141001-MONOGRAFIA_0-127
+# sent_id = 266-20141001-MONOGRAFIA_0-123
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	reator	reator	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3948,7 +3866,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Inicialmente a amostra foi pré tratada sob fluxo de 30 mL/min de N2 à 200ºC por 30 min.
-# sent_id = 266-20141001-MONOGRAFIA_0-128
+# sent_id = 266-20141001-MONOGRAFIA_0-124
 1	Inicialmente	inicialmente	ADV	_	_	6	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
@@ -3974,7 +3892,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Após o resfriamento, a mistura de 10%H2/N2 passou pela amostra em temperatura ambiente até estabilização da linha de base.
-# sent_id = 266-20141001-MONOGRAFIA_0-129
+# sent_id = 266-20141001-MONOGRAFIA_0-125
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -4003,7 +3921,7 @@
 24	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Aqueceu-se a amostra até 1000ºC sob fluxo de 30 mL/min da mistura contendo hidrogênio e se mediu o consumo de H2 através do detector de condutividade térmica.
-# sent_id = 266-20141001-MONOGRAFIA_0-130
+# sent_id = 266-20141001-MONOGRAFIA_0-126
 1-2	Aqueceu-se	_	_	_	_	_	_	_	_
 1	Aqueceu	Aquecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -4042,7 +3960,7 @@
 33	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Um “trap” com gelo também foi acoplado ao equipamento para evitar que água fosse para o detector.
-# sent_id = 266-20141001-MONOGRAFIA_0-131
+# sent_id = 266-20141001-MONOGRAFIA_0-127
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	trap	trap	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
@@ -4067,7 +3985,7 @@
 21	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = As medidas de dispersão foram feitas no mesmo equipamento do TPR com pulsos de N2O, após a redução da amostra à 750ºC por 1h sob fluxo de 30 mL/min de uma mistura contedo 10% de H2.
-# sent_id = 266-20141001-MONOGRAFIA_0-132
+# sent_id = 266-20141001-MONOGRAFIA_0-128
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4119,7 +4037,7 @@
 45	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os pulsos de N2O eram de 1 mL com intervalos de 5 min, com purga de N2, até saturação da superfície.
-# sent_id = 266-20141001-MONOGRAFIA_0-133
+# sent_id = 266-20141001-MONOGRAFIA_0-129
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pulsos	pulso	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4148,10 +4066,10 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O N2O foi consumido pelos sítios ativos metálicos presentes, produzindo N2 e óxidos metálicos.
-# sent_id = 266-20141001-MONOGRAFIA_0-134
+# sent_id = 266-20141001-MONOGRAFIA_0-130
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	N2O	N2O	PROPN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
-3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	SpacesAfter=\s\n
 4	consumido	consumir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5-6	pelos	_	_	_	_	_	_	_	_
 5	por	por	ADP	_	_	7	case	_	_
@@ -4169,7 +4087,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Então, foi possível converter a medida de consumo de N2O em dispersão do metal na superfície do suporte.
-# sent_id = 266-20141001-MONOGRAFIA_0-135
+# sent_id = 266-20141001-MONOGRAFIA_0-131
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -4198,7 +4116,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As imagens de alta resolução das amostras calcinadas foram obtidas em um microscópio Jeol JEM 3010, equipado com câmara CCD Gatan de 2000x2000 pixels; fonte de termiônica LaB6, e voltagem de aceleração de 300 kV.
-# sent_id = 266-20141001-MONOGRAFIA_0-136
+# sent_id = 266-20141001-MONOGRAFIA_0-132
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -4242,7 +4160,7 @@
 40	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = As imagens de High Anular Angular Dark Field (HAADF) no modo transmissão-varredura (reduzidas) foram obtidas em microscópio Jeol JEM 2010f, com tamanho do feixe de 1 nm; fonte Field Emission Gun (FEG) e voltagem de aceleração de 200 kV.
-# sent_id = 266-20141001-MONOGRAFIA_0-137
+# sent_id = 266-20141001-MONOGRAFIA_0-133
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4297,7 +4215,7 @@
 50	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Os microscópios são uma facilidade do Laboratório Nacional de Nanociência e Nanotecnologia (LNNano), e foram obtidas pelo doutorado Adriano Henrique Braga.
-# sent_id = 266-20141001-MONOGRAFIA_0-138
+# sent_id = 266-20141001-MONOGRAFIA_0-134
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	microscópios	microscópio	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4329,16 +4247,16 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4.3
-# sent_id = 266-20141001-MONOGRAFIA_0-139
+# sent_id = 266-20141001-MONOGRAFIA_0-135
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Ensaios catalíticos
-# sent_id = 266-20141001-MONOGRAFIA_0-140
+# sent_id = 266-20141001-MONOGRAFIA_0-136
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	catalíticos	catalítico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Os ensaios catalíticos foram realizados no Laboratório de Reações no DEQ-UFSCar.
-# sent_id = 266-20141001-MONOGRAFIA_0-141
+# sent_id = 266-20141001-MONOGRAFIA_0-137
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	catalíticos	catalítico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -4357,7 +4275,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Inicialmente a amostra foi reduzida in situ sob fluxo de H2 à 750ºC durante 1h e em seguida submetida à reação em um reator de quartzo de leito fixo.
-# sent_id = 266-20141001-MONOGRAFIA_0-142
+# sent_id = 266-20141001-MONOGRAFIA_0-138
 1	Inicialmente	inicialmente	ADV	_	_	5	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -4394,7 +4312,7 @@
 32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As amostras foram submetidas à reação realizada de 250ºC à 750ºC com passos de 50ºC mantendo-se uma razão de H2O:Etanol de 6:1, alimentados por saturadores.
-# sent_id = 266-20141001-MONOGRAFIA_0-143
+# sent_id = 266-20141001-MONOGRAFIA_0-139
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4431,7 +4349,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim, a composição na fase vapor foi de 0,44% de etanol, 2,72% de água e hélio para balanço, sendo diluída com o fim de se ter um alto tempo de residência do etanol.
-# sent_id = 266-20141001-MONOGRAFIA_0-144
+# sent_id = 266-20141001-MONOGRAFIA_0-140
 1	Assim	assim	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4477,7 +4395,7 @@
 41	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Para estas amostras utilizou-se 120mg de catalisador.
-# sent_id = 266-20141001-MONOGRAFIA_0-145
+# sent_id = 266-20141001-MONOGRAFIA_0-141
 1	Para	para	ADP	_	_	3	case	_	_
 2	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
@@ -4491,7 +4409,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O efluente das reações foi analisado por um cromatografia gasosa hifenada com um espectrômetro de massas.
-# sent_id = 266-20141001-MONOGRAFIA_0-146
+# sent_id = 266-20141001-MONOGRAFIA_0-142
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	efluente	efluente	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4513,11 +4431,11 @@
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 4.4
-# sent_id = 266-20141001-MONOGRAFIA_0-147
+# sent_id = 266-20141001-MONOGRAFIA_0-143
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Análise dos dados
-# sent_id = 266-20141001-MONOGRAFIA_0-148
+# sent_id = 266-20141001-MONOGRAFIA_0-144
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4525,7 +4443,7 @@
 4	dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = As frações molares para cada analito, em cada injeção foram calculadas através da área do pico correspondente a determinado produto ou reagente não convertido, em relação ao somatório das áreas, multiplicada pelo fator de resposta do analito em questão, como mostra a equação abaixo.
-# sent_id = 266-20141001-MONOGRAFIA_0-149
+# sent_id = 266-20141001-MONOGRAFIA_0-145
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	frações	fração	NOUN	_	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
 3	molares	molar	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4586,10 +4504,10 @@
 52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	equação	equação	NOUN	_	Gender=Fem|Number=Sing	51	nsubj	_	_
 54	abaixo	abaixo	ADV	_	_	53	advmod	_	SpaceAfter=No
-55	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+55	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = (22) onde yi é a fração molar do analito i, Ai é a área do pico no cromatograma do analito i e fi é o seu fator de resposta;
-# sent_id = 266-20141001-MONOGRAFIA_0-150
+# sent_id = 266-20141001-MONOGRAFIA_0-146
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	22	22	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -4633,7 +4551,7 @@
 37	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = N é o número de espécies analisadas.
-# sent_id = 266-20141001-MONOGRAFIA_0-151
+# sent_id = 266-20141001-MONOGRAFIA_0-147
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4644,7 +4562,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A conversão de etanol (XEtOH) foi calculada a partir das equação 23.
-# sent_id = 266-20141001-MONOGRAFIA_0-152
+# sent_id = 266-20141001-MONOGRAFIA_0-148
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	conversão	conversão	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4664,7 +4582,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = (23) onde, nEtOH 0 e nEtOH é o número de mols de etanol que entram e que saem do reator respectivamente.
-# sent_id = 266-20141001-MONOGRAFIA_0-153
+# sent_id = 266-20141001-MONOGRAFIA_0-149
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	23	23	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -4691,20 +4609,20 @@
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	reator	reator	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
 25	respectivamente	respectivamente	ADV	_	_	21	advmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 5
-# sent_id = 266-20141001-MONOGRAFIA_0-154
+# sent_id = 266-20141001-MONOGRAFIA_0-150
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Resultados e Discussão
-# sent_id = 266-20141001-MONOGRAFIA_0-155
+# sent_id = 266-20141001-MONOGRAFIA_0-151
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 
 # text = Na figura 3 abaixo estão apresentados os resultados da Redução à Temperatura Programada (TPR) das amostras de teor metálico de 1%.
-# sent_id = 266-20141001-MONOGRAFIA_0-156
+# sent_id = 266-20141001-MONOGRAFIA_0-152
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4740,7 +4658,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Para a amostra 1Ni observa-se um forte pico em torno de 650ºC, o qual se deve à redução do NiO, ou seja, o metal se reduziu de Ni2+ para Ni0, como reportado na literatura (ANDONOVA et al., 2011).
-# sent_id = 266-20141001-MONOGRAFIA_0-157
+# sent_id = 266-20141001-MONOGRAFIA_0-153
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -4797,7 +4715,7 @@
 50	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O pico, não tão intenso, presente por volta dos 450ºC provavelmente também se deve à redução do NiO, mas de partículas fracamente ligadas ao suporte, visto que segundo ZHANG et al. (2009) a redução do óxido de níquel sem suporte ocorre por volta dos 400ºC.
-# sent_id = 266-20141001-MONOGRAFIA_0-158
+# sent_id = 266-20141001-MONOGRAFIA_0-154
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pico	pico	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -4864,7 +4782,7 @@
 58	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = De acordo com JI et al. (2009) e ANDONOVA et al. (2011) a redução do cobalto ocorre em duas etapas.
-# sent_id = 266-20141001-MONOGRAFIA_0-159
+# sent_id = 266-20141001-MONOGRAFIA_0-155
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4893,7 +4811,7 @@
 25	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = De Co3O4 para CoO e, em seguida, de CoO à Co.
-# sent_id = 266-20141001-MONOGRAFIA_0-160
+# sent_id = 266-20141001-MONOGRAFIA_0-156
 1	De	de	ADP	_	_	2	case	_	_
 2	Co3O4	Co3O4	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -4912,7 +4830,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Este perfil de redução também pode ser encontrado para a amostra de 1Co na Figura 3, onde observa-se a redução de Co3+ para Co2+ em torno de 500ºC e a de Co2+ para Co0 por volta dos 650ºC.
-# sent_id = 266-20141001-MONOGRAFIA_0-161
+# sent_id = 266-20141001-MONOGRAFIA_0-157
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4961,7 +4879,7 @@
 43	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O pico de baixa intensidade em 350ºC provavelmente se deve à redução de partículas fracamente ligadas ao suporte.
-# sent_id = 266-20141001-MONOGRAFIA_0-162
+# sent_id = 266-20141001-MONOGRAFIA_0-158
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pico	pico	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -4987,7 +4905,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Para a amostra bimetálica observam-se dois picos, o mais intenso por volta dos 650ºC se deve à redução do metal de Me2+ para Me0 e o pico em cerca de 450ºC se deve ao metal reduzindo de Me3+ para Me2+.
-# sent_id = 266-20141001-MONOGRAFIA_0-163
+# sent_id = 266-20141001-MONOGRAFIA_0-159
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -5042,7 +4960,7 @@
 47	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Os resultados de TPR das amostras de 2% de teor metálico podem ser observados na figura 4.
-# sent_id = 266-20141001-MONOGRAFIA_0-164
+# sent_id = 266-20141001-MONOGRAFIA_0-160
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5068,7 +4986,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Nota-se que os perfis de redução são semelhantes aos apresentados pelas amostras de 1%, porém com diferentes intensidades de picos.
-# sent_id = 266-20141001-MONOGRAFIA_0-165
+# sent_id = 266-20141001-MONOGRAFIA_0-161
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5100,7 +5018,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na amostra 2Ni o pico por volta dos 700ºC se deve à redução de Ni2+ para
-# sent_id = 266-20141001-MONOGRAFIA_0-166
+# sent_id = 266-20141001-MONOGRAFIA_0-162
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5125,7 +5043,7 @@
 19	para	para	ADP	_	_	4	case	_	_
 
 # text = Ni0 e o ombro por volta dos 500ºC indica a redução de partículas com diferente interação com o suporte.
-# sent_id = 266-20141001-MONOGRAFIA_0-167
+# sent_id = 266-20141001-MONOGRAFIA_0-163
 1	Ni0	Ni0	NUM	_	NumType=Range	10	nsubj	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5150,7 +5068,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Para a amostra 2Co observa-se um pico devido à redução de Co3O4 para CoO por volta dos 500ºC e um pico mais intenso correspondente à redução de CoO à Co0 em 650ºC.
-# sent_id = 266-20141001-MONOGRAFIA_0-168
+# sent_id = 266-20141001-MONOGRAFIA_0-164
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -5196,7 +5114,7 @@
 38	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O pico em torno dos 300ºC também se deve à redução de partículas interagindo com o suporte mais fracamente, nota-se que este pico é mais intenso para a amostra de 2% do que para a de 1%.
-# sent_id = 266-20141001-MONOGRAFIA_0-169
+# sent_id = 266-20141001-MONOGRAFIA_0-165
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pico	pico	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	em	em	ADP	_	_	7	case	_	_
@@ -5248,7 +5166,7 @@
 45	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Na amostra bimetálica observam-se dois picos, o mais intenso por volta dos 650ºC se deve à redução do metal de Me2+ para Me0 e o pico em cerca de 500ºC se deve ao metal reduzindo de Me3+ para Me2+, este pico é menos intenso que o pico correspondente na amostra de 1%, provavelmente devido à grande parte do metal estar presente na forma MeO.
-# sent_id = 266-20141001-MONOGRAFIA_0-170
+# sent_id = 266-20141001-MONOGRAFIA_0-166
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5306,7 +5224,7 @@
 49	pico	pico	NOUN	_	Gender=Masc|Number=Sing	52	nsubj	_	_
 50	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
 51	menos	menos	ADV	_	_	52	advmod	_	_
-52	intenso	intenso	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+52	intenso	intenso	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	SpacesAfter=\s\n
 53	que	que	SCONJ	_	_	55	mark	_	_
 54	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	pico	pico	NOUN	_	Gender=Masc|Number=Sing	52	obl	_	_
@@ -5340,18 +5258,18 @@
 79	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Fonte:
-# sent_id = 266-20141001-MONOGRAFIA_0-171
+# sent_id = 266-20141001-MONOGRAFIA_0-167
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal.
-# sent_id = 266-20141001-MONOGRAFIA_0-172
+# sent_id = 266-20141001-MONOGRAFIA_0-168
 1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = FIGURA 4 – Resultados de TPR para as amostras de 2% Fonte:
-# sent_id = 266-20141001-MONOGRAFIA_0-173
+# sent_id = 266-20141001-MONOGRAFIA_0-169
 1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
 2	4	4	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -5368,13 +5286,13 @@
 14	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Acervo pessoal.
-# sent_id = 266-20141001-MONOGRAFIA_0-174
+# sent_id = 266-20141001-MONOGRAFIA_0-170
 1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = É importante ressaltar que por volta dos 750ºC praticamente toda a amostra já se reduziu em todos os casos, o que indica que as amostras estão bem reduzidas para a RVE, já que é feita uma redução in situ à 750ºC antes dos ensaios catalíticos.
-# sent_id = 266-20141001-MONOGRAFIA_0-175
+# sent_id = 266-20141001-MONOGRAFIA_0-171
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	ressaltar	ressaltar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -5431,7 +5349,7 @@
 51	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Na tabela 3 abaixo estão apresentados os resultados de medida de dispersão, área metálica e tamanho de partícula, todos calculados a partir do consumo de N2O.
-# sent_id = 266-20141001-MONOGRAFIA_0-176
+# sent_id = 266-20141001-MONOGRAFIA_0-172
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5467,7 +5385,7 @@
 31	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Para estas medidas nota-se que as amostras de níquel apresentaram resultados discrepantes quando comparados com os das amostras de cobalto e bimetálicas.
-# sent_id = 266-20141001-MONOGRAFIA_0-177
+# sent_id = 266-20141001-MONOGRAFIA_0-173
 1	Para	para	ADP	_	_	3	case	_	_
 2	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
@@ -5497,7 +5415,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Segundo FARMER; CAMPBELL (2010) quanto menor a quantidade de átomos por partícula, mais instável é a ligação com o suporte, ou seja, a estabilidade da interação com o suporte aumenta com o aumento de partícula.
-# sent_id = 266-20141001-MONOGRAFIA_0-178
+# sent_id = 266-20141001-MONOGRAFIA_0-174
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	FARMER	FARMER	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 3	;	;	PUNCT	_	_	2	punct	_	_
@@ -5544,7 +5462,7 @@
 43	.	.	PUNCT	_	_	37	punct	_	_
 
 # text = No entanto, partículas maiores resultam em uma menor quantidade de átomos expostos, assim há perda de atividade e seletividade.
-# sent_id = 266-20141001-MONOGRAFIA_0-179
+# sent_id = 266-20141001-MONOGRAFIA_0-175
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -5571,7 +5489,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Desta forma, não é possível diminuir o teor metálico mantendo partículas pequenas e altas dispersões.
-# sent_id = 266-20141001-MONOGRAFIA_0-180
+# sent_id = 266-20141001-MONOGRAFIA_0-176
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5592,30 +5510,36 @@
 17	dispersões	dispersão	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = As baixas dispersões de
-# sent_id = 266-20141001-MONOGRAFIA_0-181
+# text = TABELA 3 – Dados de dispersão
+# sent_id = 266-20141001-MONOGRAFIA_0-177
+1	TABELA	Tabelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	3	3	NUM	_	NumType=Card	4	nummod	_	_
+3	–	–	PUNCT	_	_	4	punct	_	_
+4	Dados	Dado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	dispersão	dispersão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+
+# text = As baixas dispersões de Ni se devem aos grandes tamanhos de partículas apresentados.
+# sent_id = 266-20141001-MONOGRAFIA_0-178
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	baixas	baixo	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
-3	dispersões	dispersão	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
-4	de	de	ADP	_	_	0	root	_	_
-
-# text = Ni se devem aos grandes tamanhos de partículas apresentados.
-# sent_id = 266-20141001-MONOGRAFIA_0-182
-1	Ni	Ner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
-3	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
-4-5	aos	_	_	_	_	_	_	_	_
-4	a	a	ADP	_	_	7	case	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
-7	tamanhos	tamanho	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-10	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	3	punct	_	_
+3	dispersões	dispersão	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl	_	_
+7	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	aos	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	11	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+11	tamanhos	tamanho	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+14	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	13	acl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A baixa interação com o suporte fez com que o metal se aglomerasse e formasse partículas maiores.
-# sent_id = 266-20141001-MONOGRAFIA_0-183
+# sent_id = 266-20141001-MONOGRAFIA_0-179
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	baixa	baixa	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	interação	interação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -5636,12 +5560,12 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Este processo é conhecido como sinterização, o qual ocorre sob condições reacionais ou até mesmo durante o processo de preparação do catalisador (FARMER; CAMPBELL, 2010).
-# sent_id = 266-20141001-MONOGRAFIA_0-184
+# sent_id = 266-20141001-MONOGRAFIA_0-180
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-5	como	como	ADP	_	_	6	case	_	_
+5	como	como	ADP	_	_	6	case	_	SpacesAfter=\s\n
 6	sinterização	sinterização	NOUN	_	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -5672,7 +5596,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A ocorrência da sinterização após a redução pode ser observada na figura 5 abaixo, onde a imagem (a) é a partícula metálica antes da redução, com aproximadamente 5nm, e a imagem (b) apresenta partículas metálicas após a redução, com aproximadamente 10nm.
-# sent_id = 266-20141001-MONOGRAFIA_0-185
+# sent_id = 266-20141001-MONOGRAFIA_0-181
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5732,7 +5656,7 @@
 54	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = FIGURA 5 – Imagens de microscopia eletrônica de transmissão do catalisador 1Co1Ni calcinado, Fonte: Acervo pessoal.
-# sent_id = 266-20141001-MONOGRAFIA_0-186
+# sent_id = 266-20141001-MONOGRAFIA_0-182
 1	FIGURA	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -5756,7 +5680,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na figura 6 abaixo temos as distribuições de produto em função da temperatura para as amostras de 2% em teor metálico.
-# sent_id = 266-20141001-MONOGRAFIA_0-187
+# sent_id = 266-20141001-MONOGRAFIA_0-183
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5786,7 +5710,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Nota-se que para todas as amostras a formação de produtos ocorre a partir de 400ºC.
-# sent_id = 266-20141001-MONOGRAFIA_0-188
+# sent_id = 266-20141001-MONOGRAFIA_0-184
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5807,7 +5731,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No catalisador monometálico de Ni, diferente do bimetálico e monometálico de Co, ocorre queda de conversão a partir de 550ºC, o que pode ser devido à formação de óxido de Ni através da ativação da H2O.
-# sent_id = 266-20141001-MONOGRAFIA_0-189
+# sent_id = 266-20141001-MONOGRAFIA_0-185
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5860,7 +5784,7 @@
 45	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A partir de 650°C os produtos obtidos podem ser devidos à decomposição em fase homogênea do etanol.
-# sent_id = 266-20141001-MONOGRAFIA_0-190
+# sent_id = 266-20141001-MONOGRAFIA_0-186
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -5885,7 +5809,7 @@
 20	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = A elevada formação de acetaldeído para 2Ni mostra que a amostra é pouco ativa para RVE e ativa para a reação de desidrogenação do etanol.
-# sent_id = 266-20141001-MONOGRAFIA_0-191
+# sent_id = 266-20141001-MONOGRAFIA_0-187
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	elevada	elevada	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	formação	formação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -5916,7 +5840,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Já o catalisador bimetálico e o de
-# sent_id = 266-20141001-MONOGRAFIA_0-192
+# sent_id = 266-20141001-MONOGRAFIA_0-188
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5926,7 +5850,7 @@
 7	de	de	ADP	_	_	6	case	_	_
 
 # text = Co se mostram ativos.
-# sent_id = 266-20141001-MONOGRAFIA_0-193
+# sent_id = 266-20141001-MONOGRAFIA_0-189
 1	Co	co	ADV	_	_	3	advmod	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
 3	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5934,7 +5858,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Em baixas temperaturas (400°C) há desidrogenação do etanol a acetaldeído e com o aumento de temperatura (450°C) ocorre quebra da ligação C-C.
-# sent_id = 266-20141001-MONOGRAFIA_0-194
+# sent_id = 266-20141001-MONOGRAFIA_0-190
 1	Em	em	ADP	_	_	2	case	_	_
 2	baixas	baixa	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
 3	temperaturas	temperaturo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -5965,10 +5889,10 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	ligação	ligação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 28	C-C	C-C	PROPN	_	Gender=Fem|Number=Sing	27	appos	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Para a amostra 1Co1Ni há a formação de CO e pequenas quantidades de CO2 e CH4, sendo que é provável que parte do radical metil adsorvido na superfície do catalisador esteja sofrendo decomposição à H2 e C, o qual se deposita na superfície, ao invés de ser hidrogenado à CH4.
-# sent_id = 266-20141001-MONOGRAFIA_0-195
+# sent_id = 266-20141001-MONOGRAFIA_0-191
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -6039,7 +5963,7 @@
 61	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Na amostra 1Co nota-se um comportamento similar, no entanto a formação de CO2 é maior, devido à maior ocorrência da reação de deslocamento gás-água.
-# sent_id = 266-20141001-MONOGRAFIA_0-196
+# sent_id = 266-20141001-MONOGRAFIA_0-192
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6079,7 +6003,7 @@
 32	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Por este motivo a formação de CO é menor que no catalisador bimetálico.
-# sent_id = 266-20141001-MONOGRAFIA_0-197
+# sent_id = 266-20141001-MONOGRAFIA_0-193
 1	Por	por	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -6098,7 +6022,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A formação de CH4 também é menor, provavelmente devido ao fato de mais carbono estar se depositando na superfície do catalisador.
-# sent_id = 266-20141001-MONOGRAFIA_0-198
+# sent_id = 266-20141001-MONOGRAFIA_0-194
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6130,7 +6054,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Em 550°C tem-se a máxima formação de CO, e para 2Co, observa-se uma formação expressiva de CO2, embora com queda na fração molar de H2.
-# sent_id = 266-20141001-MONOGRAFIA_0-199
+# sent_id = 266-20141001-MONOGRAFIA_0-195
 1	Em	em	ADP	_	_	2	case	_	_
 2	550°C	550°C	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
 3-4	tem-se	_	_	_	_	_	_	_	_
@@ -6168,7 +6092,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Tal queda sugere que o CO2 é proveniente da oxidação do CO ou oxidação do C acumulado devido à decomposição do radical metil formado.
-# sent_id = 266-20141001-MONOGRAFIA_0-200
+# sent_id = 266-20141001-MONOGRAFIA_0-196
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	queda	queda	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6206,7 +6130,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A elevada formação de H2 em baixas temperaturas (até 500°C), acima da quantidade de carbono observada na saída do reator, sugere que pode ocorrer acúmulo de carbono nos catalisadores, como dito anteriormente; com a ativação da água e formação de óxidos de Ni, CoNi e Ni na superfície, a partir de 550°C esse carbono acumulado pode ser oxidado a COx, limpando a superfície do catalisador, o que explica a alta formação destes produtos, principalmente sobre 2Co.
-# sent_id = 266-20141001-MONOGRAFIA_0-201
+# sent_id = 266-20141001-MONOGRAFIA_0-197
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	elevada	elevada	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	formação	formação	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
@@ -6296,7 +6220,7 @@
 80	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	_	_
 81	catalisador	catalisador	NOUN	_	Gender=Masc|Number=Sing	78	nmod	_	SpaceAfter=No
 82	,	,	PUNCT	_	_	72	punct	_	_
-83	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	72	appos	_	_
+83	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	72	appos	_	SpacesAfter=\s\n
 84	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	85	nsubj	_	_
 85	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	acl:relcl	_	_
 86	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
@@ -6313,7 +6237,7 @@
 96	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Devido à esta oxidação a formação de H2 decresce.
-# sent_id = 266-20141001-MONOGRAFIA_0-202
+# sent_id = 266-20141001-MONOGRAFIA_0-198
 1	Devido	devido	ADV	_	_	7	advmod	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	5	case	_	_
@@ -6328,7 +6252,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = As amostras de teor metálico de 1% não foram testadas em reação, pois não apresentaram resultados de dispersão interessantes, uma vez que os dados obtidos são similares aos das amostras de teor metálico de 2%.
-# sent_id = 266-20141001-MONOGRAFIA_0-203
+# sent_id = 266-20141001-MONOGRAFIA_0-199
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6372,14 +6296,14 @@
 39	de	de	ADP	_	_	41	case	_	_
 40	2	2	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
 41	%	%	SYM	_	_	37	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = 6
-# sent_id = 266-20141001-MONOGRAFIA_0-204
+# sent_id = 266-20141001-MONOGRAFIA_0-200
 1	6	6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Conclusão Através dos resultados obtidos foi possível concluir que os catalisadores estavam bem reduzidos antes do início da reação, garantindo maior disponibilidade de sítios ativos para a RVE.
-# sent_id = 266-20141001-MONOGRAFIA_0-205
+# sent_id = 266-20141001-MONOGRAFIA_0-201
 1	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 2	Através	através	ADV	_	_	5	advmod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6418,7 +6342,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Notou-se também que o catalisador 2Ni se mostrou pouco ativo para a RVE, provavelmente devido ao tamanho de partícula formado, evidenciando a necessidade de um novo método de impregnação para a síntese do catalisador modelo a base de níquel para garantir que as partículas metálicas estejam bem dispersas na superfície do suporte.
-# sent_id = 266-20141001-MONOGRAFIA_0-206
+# sent_id = 266-20141001-MONOGRAFIA_0-202
 1-2	Notou-se	_	_	_	_	_	_	_	_
 1	Notou	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -6486,7 +6410,7 @@
 60	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os catalisadores 2Co e 1Co1Ni mostraram boas propriedades de oxirredução, mas ainda se faz necessário a realização de alguma técnica para se determinar a quantidade de deposição de carbono, como por exemplo uma análise termogravimétrica.
-# sent_id = 266-20141001-MONOGRAFIA_0-207
+# sent_id = 266-20141001-MONOGRAFIA_0-203
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	catalisadores	catalisador	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	2Co	2Co	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -6527,7 +6451,7 @@
 38	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Como se esperava conseguir através do uso de catalisadores modelo, foi possível identificar as reações ao longo do processo com certa facilidade, permitindo uma análise mais sistemática das rotas reacionais, sem a influência do suporte MgO.
-# sent_id = 266-20141001-MONOGRAFIA_0-208
+# sent_id = 266-20141001-MONOGRAFIA_0-204
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	esperava	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
@@ -6580,7 +6504,7 @@
 45	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = No entanto, a impregnação normal não é um bom método para manter as partículas bem dispersas sobre o suporte.
-# sent_id = 266-20141001-MONOGRAFIA_0-209
+# sent_id = 266-20141001-MONOGRAFIA_0-205
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	12	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_

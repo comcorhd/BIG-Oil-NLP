@@ -3,7 +3,7 @@
 1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = INTRODUÇÃO Motores de combustão interna são amplamente difundidos como forma de conversão de energia térmica em mecânica, seja em aplicações automotivas ou em conjuntos moto- geradores.
+# text = INTRODUÇÃO Motores de combustão interna são amplamente difundidos como forma de conversão de energia térmica em mecânica, seja em aplicações automotivas ou em conjuntos moto-geradores.
 # sent_id = 176-20141015-MONOGRAFIA_0-2
 1	INTRODUÇÃO	introdução	PROPN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 2	Motores	motores	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -25,15 +25,13 @@
 18	,	,	PUNCT	_	_	8	punct	_	_
 19	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 20	em	em	ADP	_	_	21	case	_	_
-21	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+21	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 22	automotivas	automotivo	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
 23	ou	ou	CCONJ	_	_	25	cc	_	_
 24	em	em	ADP	_	_	25	case	_	_
 25	conjuntos	conjunto	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
-26	moto	moto	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
-27	-	-	PUNCT	_	_	26	punct	_	_
-28	geradores	geradores	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	8	punct	_	_
+26	moto-geradores	moto-gerador	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os derivados de petróleo, como a gasolina e o óleo diesel, seguem como principais combustíveis para esses equipamentos e provavelmente continuarão apresentando demanda crescente pelos próximos anos, porém as pesquisas relacionadas ao uso de biocombustíveis em motores avançam e indicam a possibilidade de substituição dos hidrocarbonetos convencionais em diversas situações.
 # sent_id = 176-20141015-MONOGRAFIA_0-3
@@ -416,7 +414,7 @@
 24	[	[	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	2	2	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
 26	]	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
-27	:	:	PUNCT	_	_	17	punct	_	_
+27	:	:	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
 28			PROPN	_	Number=Sing	17	appos	_	_
 29	Composição	composição	PROPN	_	Number=Sing	28	flat:name	_	_
 30-31	dos	_	_	_	_	_	_	_	_
@@ -478,7 +476,7 @@
 7	ar	ar	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Sendo assim, a composição usual do biogás de esgoto situa-se geralmente na seguinte faixa[3]: - CH4: 50 – 70% Algumas impurezas são ainda encontradas, destacando-se o sulfeto de hidrogênio (H2S), gás altamente corrosivo e que confere um odor característico ao biogás.
+# text = Sendo assim, a composição usual do biogás de esgoto situa-se geralmente na seguinte faixa[3]:
 # sent_id = 176-20141015-MONOGRAFIA_0-15
 1	Sendo	ser	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -493,7 +491,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	esgoto	esgoto	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12-13	situa-se	_	_	_	_	_	_	_	_
-12	situa	situar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+12	situa	situar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
 14	geralmente	geralmente	ADV	_	_	12	advmod	_	_
 15-16	na	_	_	_	_	_	_	_	_
@@ -503,47 +501,43 @@
 18	faixa[3	faixa[3	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 19	]	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 20	:	:	PUNCT	_	_	12	punct	_	_
-21	-	-	PUNCT	_	_	22	punct	_	_
-22	CH4	CH4	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	12	punct	_	_
-24	50	50	NUM	_	NumType=Card	27	nummod	_	_
-25	–	–	PUNCT	_	_	27	punct	_	_
-26	70	70	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
-27	%	%	SYM	_	_	29	nmod	_	_
-28	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	29	det	_	_
-29	impurezas	impureza	NOUN	_	Gender=Fem|Number=Plur	12	appos	_	_
-30	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
-31	ainda	ainda	ADV	_	_	32	advmod	_	_
-32	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	56	advcl	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34-35	destacando-se	_	_	_	_	_	_	_	_
-34	destacando	destacar	VERB	_	VerbForm=Ger	32	advcl	_	_
-35	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	expl	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	sulfeto	sulfeto	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
-38	de	de	ADP	_	_	39	case	_	_
-39	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
-40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
-41	H2S	H2S	PROPN	_	Gender=Masc|Number=Sing	37	appos	_	SpaceAfter=No
-42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	34	punct	_	_
-44	gás	gás	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
-45	altamente	altamente	ADV	_	_	46	advmod	_	_
-46	corrosivo	corrosivo	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	_
-47	e	e	CCONJ	_	_	49	cc	_	_
-48	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	49	nsubj	_	_
-49	confere	conferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
-50	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	odor	odor	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
-52	característico	característico	ADJ	_	Gender=Masc|Number=Sing	51	amod	_	_
-53-54	ao	_	_	_	_	_	_	_	_
-53	a	a	ADP	_	_	55	case	_	_
-54	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-55	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	52	obl	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
+
+# text = Algumas impurezas são ainda encontradas, destacando-se o sulfeto de hidrogênio (H2S), gás altamente corrosivo e que confere um odor característico ao biogás.
+# sent_id = 176-20141015-MONOGRAFIA_0-16
+1	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	impurezas	impureza	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	ainda	ainda	ADV	_	_	5	advmod	_	_
+5	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7-8	destacando-se	_	_	_	_	_	_	_	_
+7	destacando	destacar	VERB	_	VerbForm=Ger	5	advcl	_	_
+8	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sulfeto	sulfeto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	hidrogênio	hidrogênio	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	H2S	H2S	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	gás	gás	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+18	altamente	altamente	ADV	_	_	19	advmod	_	_
+19	corrosivo	corrosivo	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
+22	confere	conferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	odor	odor	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	característico	característico	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26-27	ao	_	_	_	_	_	_	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A utilização do biogás em sistemas de conversão de energia depende do tratamento do mesmo antes de sua queima.
-# sent_id = 176-20141015-MONOGRAFIA_0-16
+# sent_id = 176-20141015-MONOGRAFIA_0-17
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -572,7 +566,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A purificação do gás geralmente é feita em duas etapas: a desumidificação do combustível, seguida da retirada de H2S, já que o mesmo pode ocasionar a corrosão de alguns componentes do motor utilizado na conversão.
-# sent_id = 176-20141015-MONOGRAFIA_0-17
+# sent_id = 176-20141015-MONOGRAFIA_0-18
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	purificação	purificação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -624,12 +618,12 @@
 44	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 1.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-18
+# sent_id = 176-20141015-MONOGRAFIA_0-19
 1	1.2	1.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = MOTIVAÇÃO A crise do petróleo, em meados da década de 70, revelou a necessidade da busca de novas fontes de energia em substituição aos combustíveis fósseis tradicionais.
-# sent_id = 176-20141015-MONOGRAFIA_0-19
+# sent_id = 176-20141015-MONOGRAFIA_0-20
 1	MOTIVAÇÃO	motivação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
 3	crise	crise	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -670,7 +664,7 @@
 34	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = O aumento das reservas de petróleo em grande parte das regiões produtoras, ilustrado na Tabela 1.1, não se mostra suficiente para suprir a crescente demanda por energia.
-# sent_id = 176-20141015-MONOGRAFIA_0-20
+# sent_id = 176-20141015-MONOGRAFIA_0-21
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -709,7 +703,7 @@
 33	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = A Tabela 1.2 oferece uma comparação entre a produção de petróleo e o consumo de energia no mundo, e enfatiza a importância das pesquisas e investimentos em fontes renováveis de energia.
-# sent_id = 176-20141015-MONOGRAFIA_0-21
+# sent_id = 176-20141015-MONOGRAFIA_0-22
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	1.2	1.2	NUM	_	NumType=Card	4	nsubj	_	_
@@ -746,15 +740,15 @@
 32	renováveis	renovável	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	energia	energia	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 1.1
-# sent_id = 176-20141015-MONOGRAFIA_0-22
+# sent_id = 176-20141015-MONOGRAFIA_0-23
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	1.1	1.1	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Reserva mundia de petróleo Tabela 1.2
-# sent_id = 176-20141015-MONOGRAFIA_0-23
+# sent_id = 176-20141015-MONOGRAFIA_0-24
 1	Reserva	Reservar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 2	mundia	mundia	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -763,18 +757,18 @@
 6	1.2	1.2	NUM	_	NumType=Card	5	nsubj	_	_
 
 # text = Produção x
-# sent_id = 176-20141015-MONOGRAFIA_0-24
+# sent_id = 176-20141015-MONOGRAFIA_0-25
 1	Produção	produção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	x	x	ADP	_	_	1	case	_	_
 
 # text = Consumo de energia
-# sent_id = 176-20141015-MONOGRAFIA_0-25
+# sent_id = 176-20141015-MONOGRAFIA_0-26
 1	Consumo	Consumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	energia	energia	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = O cresimento econômico de muitos países, a se destacar alguns situados na Ásia Oriental e América do Sul e Central, vêm impulsionando o aumento do consumo de energia, porém esse não é o único incentivo para o aumento dos investimentos em fontes alternativas de energia.
-# sent_id = 176-20141015-MONOGRAFIA_0-26
+# sent_id = 176-20141015-MONOGRAFIA_0-27
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cresimento	cresimento	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
 3	econômico	econômico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -834,7 +828,7 @@
 53	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Desde a década de 70, após a crise do petróleo mencionada anteriormente, vê-se um esforço geral em diminuir a dependência da matriz energética dos países de combustíveis fósseis, e assim se tornar menos vulnerável aos aumentos nos preços.
-# sent_id = 176-20141015-MONOGRAFIA_0-27
+# sent_id = 176-20141015-MONOGRAFIA_0-28
 1	Desde	desde	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	década	década	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -891,7 +885,7 @@
 48	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = O Brasil pode ser considerado um dos casos mais bem sucedidos no que se refere à diversidade de sua matriz.
-# sent_id = 176-20141015-MONOGRAFIA_0-28
+# sent_id = 176-20141015-MONOGRAFIA_0-29
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -921,7 +915,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Ainda na década de 70 foi lançado o programa Pró-Alcool, que introduziu o etanol como combustível para a frota automotiva brasileira.
-# sent_id = 176-20141015-MONOGRAFIA_0-29
+# sent_id = 176-20141015-MONOGRAFIA_0-30
 1	Ainda	ainda	ADV	_	_	4	advmod	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -949,7 +943,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Hoje, grande parte dos carros vendidos no país possui tecnologia para operar com mais de um tipo de combustível (carros “Flex”), e os níveis de mistura do etanol de cana-de-açúcar na gasolina comercializada atingem de 20 a 25%.
-# sent_id = 176-20141015-MONOGRAFIA_0-30
+# sent_id = 176-20141015-MONOGRAFIA_0-31
 1	Hoje	hoje	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	grande	grande	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -995,7 +989,7 @@
 40-41	na	_	_	_	_	_	_	_	_
 40	em	em	ADP	_	_	42	case	_	_
 41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+42	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpacesAfter=\s\n
 43	comercializada	comercializar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	42	acl	_	_
 44	atingem	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 45	de	de	ADP	_	_	46	case	_	_
@@ -1006,7 +1000,7 @@
 50	.	.	PUNCT	_	_	44	punct	_	_
 
 # text = O uso do biodiesel misturado ao diesel convencional, que hoje alimenta grande parte das frotas de ônibus e caminhões nas cidades brasileiras também vêm contribuindo para a diversificação e menor dependência dos combustíveis convencionais.
-# sent_id = 176-20141015-MONOGRAFIA_0-31
+# sent_id = 176-20141015-MONOGRAFIA_0-32
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1055,7 +1049,7 @@
 41	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = A figura 1.1 mostra a diversidade de fontes de energia utilizadas no consumo final no Brasil em 2012:
-# sent_id = 176-20141015-MONOGRAFIA_0-32
+# sent_id = 176-20141015-MONOGRAFIA_0-33
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	1.1	1.1	NUM	_	NumType=Card	4	nsubj	_	_
@@ -1081,7 +1075,7 @@
 21	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Figura 1.1 Consumo final de energia por tipo de combustível Fonte: Adaptado de EPE – Empresa de Pesquisa Energética (BEN, 2013)[5] Outro ponto importante no que diz respeito aos investimentos em biocombustíveis e fontes renováveis de energia é o menor impacto que estes combustíveis exercem sobre o meio ambiente.
-# sent_id = 176-20141015-MONOGRAFIA_0-33
+# sent_id = 176-20141015-MONOGRAFIA_0-34
 1	Figura	figuro	ADV	_	_	4	advmod	_	_
 2	1.1	1.1	NUM	_	NumType=Card	4	nummod	_	_
 3	Consumo	Consumo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
@@ -1144,7 +1138,7 @@
 58	.	.	PUNCT	_	_	49	punct	_	_
 
 # text = Novamente o Brasil ocupa posição de destaque nesse quesito, principalmente por ter na energia gerada nas hidrelétricas sua principal fonte de abastecimento das residências, estabelecimentos comerciais e indústrias no país.
-# sent_id = 176-20141015-MONOGRAFIA_0-34
+# sent_id = 176-20141015-MONOGRAFIA_0-35
 1	Novamente	novamente	ADV	_	_	4	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1190,7 +1184,7 @@
 38	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A figura 1.2 mostra a distância entre o impacto ambiental da geração de energia nas principais economias mundiais e no Brasil.
-# sent_id = 176-20141015-MONOGRAFIA_0-35
+# sent_id = 176-20141015-MONOGRAFIA_0-36
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	1.2	1.2	NUM	_	NumType=Card	2	nummod	_	_
@@ -1218,15 +1212,15 @@
 22	em	em	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 1.2
-# sent_id = 176-20141015-MONOGRAFIA_0-36
+# sent_id = 176-20141015-MONOGRAFIA_0-37
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	1.2	1.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emissões na produção de energia elétrica
-# sent_id = 176-20141015-MONOGRAFIA_0-37
+# sent_id = 176-20141015-MONOGRAFIA_0-38
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -1237,7 +1231,7 @@
 7	elétrica	elétrico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 
 # text = Fonte: Adaptado de EPE – Empresa de Pesquisa Energética (BEN, 2013)[5] A conscientização da importância da diminuição das emissões de gases nocivos ao ambiente vem crescendo junto aos governos, o que torna ainda mais importante o aproveitamento do biogás, já que o mesmo é composto principalmente por metano (CH4),cerca de 21 vezes mais prejudicial ao meio ambiente que o dióxido de carbono(CO2)[6], por provocar a destruição da camada de ozônio e contribuir para o aquecimento global.
-# sent_id = 176-20141015-MONOGRAFIA_0-38
+# sent_id = 176-20141015-MONOGRAFIA_0-39
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
@@ -1351,7 +1345,7 @@
 103	.	.	PUNCT	_	_	79	punct	_	SpacesAfter=\n
 
 # text = Sendo assim, a motivação para o presente trabalho pode ser resumida nos seguintes itens: 
-# sent_id = 176-20141015-MONOGRAFIA_0-39
+# sent_id = 176-20141015-MONOGRAFIA_0-40
 1	Sendo	ser	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -1373,7 +1367,7 @@
 18			PROPN	_	Number=Sing	12	flat:name	_	_
 
 # text = Aperfeiçoamento do uso de biogás em sistemas de conversão energética, neste caso, motores de ignição por centelha; 
-# sent_id = 176-20141015-MONOGRAFIA_0-40
+# sent_id = 176-20141015-MONOGRAFIA_0-41
 1	Aperfeiçoamento	Aperfeiçoamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1401,7 +1395,7 @@
 23			PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Diminuição da dependência dos derivados de petróleo para geração descentralizada de energia (comunidades rurais, por exemplo) ou nos casos em que for possível o aproveitamento do gás de esgoto; 
-# sent_id = 176-20141015-MONOGRAFIA_0-41
+# sent_id = 176-20141015-MONOGRAFIA_0-42
 1	Diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1446,7 +1440,7 @@
 38			PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Diminuição das emissões de gases nocivos ao meio ambiente;  Contribuição para a diversificação da matriz energética brasileira, e consequentemente, para a maior oferta de energia.
-# sent_id = 176-20141015-MONOGRAFIA_0-42
+# sent_id = 176-20141015-MONOGRAFIA_0-43
 1	Diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1482,15 +1476,15 @@
 30	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	energia	energia	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 1.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-43
+# sent_id = 176-20141015-MONOGRAFIA_0-44
 1	1.3	1.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = OBJETIVO A diversificação da matriz energética e a diminuição da dependência dos combustíveis fósseis se tornou questão estratégica para muitos países nos dias de hoje, e nesse contexto, o biogás se mostra uma fonte de energia de grande disponibilidade, já que sua produção está atrelada a processos contínuos, como o tratamento do esgoto das grandes cidades ou mesmo a disposição do lixo em aterros sanitários, por exemplo.
-# sent_id = 176-20141015-MONOGRAFIA_0-44
+# sent_id = 176-20141015-MONOGRAFIA_0-45
 1	OBJETIVO	objetiver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	diversificação	diversificação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -1582,7 +1576,7 @@
 81	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O objetivo deste trabalho é fornecer uma análise comparativa do desempenho e emissões de um motor de ignição por centelha operando com três combustíveis distintos, bem como estudar a influência de alguns parâmetros operacionais (razão ar-combustível e avanço de ignição) na combustão do biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-45
+# sent_id = 176-20141015-MONOGRAFIA_0-46
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	deste	_	_	_	_	_	_	_	_
@@ -1637,10 +1631,10 @@
 49-50	do	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	51	case	_	_
 50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	biogás.	biogás.	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpacesAfter=\n
+51	biogás.	biogás.	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpacesAfter=\n\n
 
 # text = 2. REVISÃO DA LITERATURA
-# sent_id = 176-20141015-MONOGRAFIA_0-46
+# sent_id = 176-20141015-MONOGRAFIA_0-47
 1	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	REVISÃO	revisão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -1650,7 +1644,7 @@
 6	LITERATURA	Literatura	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 
 # text = O presente capítulo tem como objetivo apresentar alguns trabalhos que serviram de referência para a realização dos ensaios, análise dos resultados, e também como fonte de consulta para este Projeto de Graduação.
-# sent_id = 176-20141015-MONOGRAFIA_0-47
+# sent_id = 176-20141015-MONOGRAFIA_0-48
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	presente	presente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1692,7 +1686,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Souza et. al. [7]realizaram ensaios num conjunto motogerador operando originalmente à gasolina e, posteriormente a biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-48
+# sent_id = 176-20141015-MONOGRAFIA_0-49
 1	Souza	Souza	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 2	et.	et.	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -1721,7 +1715,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Foram estabelecidas três potências resistivas (1000, 1200 e 1500W) e medidas para as mesmas o consumo e a rotação do motor operando com os dois combustíveis.
-# sent_id = 176-20141015-MONOGRAFIA_0-49
+# sent_id = 176-20141015-MONOGRAFIA_0-50
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	estabelecidas	estabelecer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	três	três	NUM	_	NumType=Card	4	nummod	_	_
@@ -1756,7 +1750,7 @@
 31	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Para medir o consumo do biogás foi utilizado um medidor volumétrico de gás, método semelhante ao utilizado em outras referências, enquanto o consumo de gasolina foi medido através da diferença de nível em uma coluna graduada.
-# sent_id = 176-20141015-MONOGRAFIA_0-50
+# sent_id = 176-20141015-MONOGRAFIA_0-51
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	medir	medir	VERB	_	VerbForm=Inf	9	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1804,7 +1798,7 @@
 42	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os resultados mostraram aumento de potência média gerada, porém houve diminuição da eficiência do conjunto quando comparado ao uso da gasolina.
-# sent_id = 176-20141015-MONOGRAFIA_0-51
+# sent_id = 176-20141015-MONOGRAFIA_0-52
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
@@ -1838,7 +1832,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Porpatham et. al. [8]utilizaram um motor de ignição por centelha acoplado a um dinamômetro para analisar a influência da concentração de CO2 nodesempenho e nas emissões do motor operando com biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-52
+# sent_id = 176-20141015-MONOGRAFIA_0-53
 1	Porpatham	Porpathar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et.	et.	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -1883,7 +1877,7 @@
 39	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Hidróxido de cálcio (Ca(OH)2) era armazenado na unidade de separação, que recebia posteriormente o biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-53
+# sent_id = 176-20141015-MONOGRAFIA_0-54
 1	Hidróxido	Hidróxer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	cálcio	cálcio	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
@@ -1910,7 +1904,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Assim, o CO2 presente no gás se combinava ao hidróxido de cálcio formando carbonato de cálcio (CaCO3) e diminuindo deste modo sua concentração no combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-54
+# sent_id = 176-20141015-MONOGRAFIA_0-55
 1	Assim	assim	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1950,7 +1944,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Foi constatado um aumento do PCI do biogás e da potência gerada pelo motor com a diminuição dos níveis de CO2, bem como o aumento da faixa de operação para misturas ricas de ar-combustível (excesso de ar).
-# sent_id = 176-20141015-MONOGRAFIA_0-55
+# sent_id = 176-20141015-MONOGRAFIA_0-56
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	constatado	constatar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2006,7 +2000,7 @@
 47	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Houve também aumento da eficiência térmica com o decréscimo da concentração de CO2, porém fez-se necessário retardar a ignição na câmara de combustão para se evitar a detonação.
-# sent_id = 176-20141015-MONOGRAFIA_0-56
+# sent_id = 176-20141015-MONOGRAFIA_0-57
 1	Houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	também	também	ADV	_	_	1	advmod	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -2047,7 +2041,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No que diz respeito às emissões, houve diminuição dos níveis de HC, atingindo o valor mínimo na razão de equivalência de 0.95 e concentração de CO2 de 20%.
-# sent_id = 176-20141015-MONOGRAFIA_0-57
+# sent_id = 176-20141015-MONOGRAFIA_0-58
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	2	case	_	_
 2	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	_
@@ -2090,7 +2084,7 @@
 36	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Para misturas muito pobres, como era de se esperar, houve acréscimo nas emissões de HC, já que o efeito da combustão incompleta é predominante.
-# sent_id = 176-20141015-MONOGRAFIA_0-58
+# sent_id = 176-20141015-MONOGRAFIA_0-59
 1	Para	para	ADP	_	_	2	case	_	_
 2	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
 3	muito	muito	ADV	_	_	4	advmod	_	_
@@ -2125,7 +2119,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Os níveis de NOx aumentaram para níveis menores de CO2, o que pode ser explicado pela maior admissão de CH4 e O2, o que leva a combustão a atingir maiores temperaturas.
-# sent_id = 176-20141015-MONOGRAFIA_0-59
+# sent_id = 176-20141015-MONOGRAFIA_0-60
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2164,7 +2158,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Crookes[9] realizou testes em motores de ignição por centelha e por compressão (ambos com velocidade e carga variáveis, tendo ainda o primeiro taxa de compressão variável) utilizando biogás simulado – houve variação na concentração de CO2 no mesmo – e óleos vegetais, monitorando o desempenho do motor (potência e consumo específico) e as emissões de hidrocarbonetos não queimados (HC), óxidos de nitrogênio (NOx), monóxido de carbono (CO) e dióxido de carbono (CO2).
-# sent_id = 176-20141015-MONOGRAFIA_0-60
+# sent_id = 176-20141015-MONOGRAFIA_0-61
 1	Crookes[	Crookes[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	9	9	NUM	_	NumType=Card	4	nsubj	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
@@ -2193,7 +2187,7 @@
 26	primeiro	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
 27	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 28	de	de	ADP	_	_	29	case	_	_
-29	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+29	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpacesAfter=\s\n
 30	variável	variável	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	4	punct	_	_
 32	utilizando	utilizar	VERB	_	VerbForm=Ger	4	advcl	_	_
@@ -2264,7 +2258,7 @@
 94	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os resultados obtidos com o motor de ignição por centelha operando numa faixa de razão de compressão entre 11:1 e 13:1, à 2000 rpm, indicaram diminuição das emissões específicas (massa do componente emitida por unidade de potência) de NOx para maiores frações de CO2 no biogás, enquanto houve aumento das emissões específicas de HC.
-# sent_id = 176-20141015-MONOGRAFIA_0-61
+# sent_id = 176-20141015-MONOGRAFIA_0-62
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	29	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -2339,7 +2333,7 @@
 66	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = Para o monóxido de carbono, as emissões se mostraram governadas principalmente pela variação da relação A/C, havendo pouca influência da concentração de dióxido de carbono no combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-62
+# sent_id = 176-20141015-MONOGRAFIA_0-63
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	monóxido	monóxido	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -2380,7 +2374,7 @@
 34	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Os resultados mostraram diminuição das emissões de CO com o afastamento do ponto de operação da zona de mistura pobre (escassez de ar na mistura), o que se deve à combustão incompleta que ocorre nessa região.
-# sent_id = 176-20141015-MONOGRAFIA_0-63
+# sent_id = 176-20141015-MONOGRAFIA_0-64
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2435,7 +2429,7 @@
 46	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Aumentos na taxa de compressão elevaram as emissões de NOx e HC, já que maiores temperaturas de combustão são alcançadas nessa condição.
-# sent_id = 176-20141015-MONOGRAFIA_0-64
+# sent_id = 176-20141015-MONOGRAFIA_0-65
 1	Aumentos	aumento	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -2466,7 +2460,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Huang andCrookes[3] utilizaram um motor de ignição por centelha operando com biogás simulado (uma mistura de gás natural doméstico e dióxido de carbono) para analisar a influência da concentração de CO2 neste combustível no que diz respeito às emissões de CO, HC, NOx, bem como em dados de performance como eficiência térmica e potência medida no eixo (brakepower).
-# sent_id = 176-20141015-MONOGRAFIA_0-65
+# sent_id = 176-20141015-MONOGRAFIA_0-66
 1	Huang	Huang	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	andCrookes[	andCrookes[	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
@@ -2547,7 +2541,7 @@
 73	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Primeiramente os testes foram conduzidos para dois tipos de misturas ar-combustível: pobres, com razão de equivalência (λ) de 0.98, e ricas, com razão λ de 1.05, enquanto a razão de compressão foi fixada em 13:1.
-# sent_id = 176-20141015-MONOGRAFIA_0-66
+# sent_id = 176-20141015-MONOGRAFIA_0-67
 1	Primeiramente	primeiramente	ADV	_	_	5	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	testes	teste	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
@@ -2593,7 +2587,7 @@
 43	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Foi constatada, para ambas as misturas, a diminuição da potência obtida com o aumento da concentração de CO2, fato explicado pela diminuição da entalpia de combustão do biogás, e ainda a diminuição da eficiência térmica, justificado pela diminuição da velocidade de chama na câmara de combustão e consequentemente, maior tempo de combustão e menores pressões atingidas no cilindro do motor.
-# sent_id = 176-20141015-MONOGRAFIA_0-67
+# sent_id = 176-20141015-MONOGRAFIA_0-68
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	constatada	constatar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2685,7 +2679,7 @@
 78	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = No que diz respeito às emissões de NOx, houve diminuição com o acréscimo de CO2, já que as temperaturas de combustão atingidas são inversamente proporcionais a concentração de dióxido de carbono.
-# sent_id = 176-20141015-MONOGRAFIA_0-68
+# sent_id = 176-20141015-MONOGRAFIA_0-69
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	2	case	_	_
 2	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	_
@@ -2726,7 +2720,7 @@
 36	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Quanto ao CO e HC, ocorre aumento de emissão para misturas muito pobres, já que uma maior concentração de CO2 ocasiona menor velocidade de chama, que somado a baixa disponibilidade de oxigênio neste tipo de mistura leva a uma combustão incompleta.
-# sent_id = 176-20141015-MONOGRAFIA_0-69
+# sent_id = 176-20141015-MONOGRAFIA_0-70
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -2778,7 +2772,7 @@
 47	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Testes realizados com variação na razão de compressão, porém com razão λ fixa em 0.97 e concentração de CO2 também fixada em 37,5%, demonstraram aumento nas emissões de HC, CO e NOx com o aumento da razão de compressão.
-# sent_id = 176-20141015-MONOGRAFIA_0-70
+# sent_id = 176-20141015-MONOGRAFIA_0-71
 1	Testes	teste	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
 2	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	10	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -2787,7 +2781,7 @@
 5	em	em	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	razão	razão	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
-8	de	de	ADP	_	_	9	case	_	_
+8	de	de	ADP	_	_	9	case	_	SpacesAfter=\s\n
 9	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	porém	porém	CCONJ	_	_	13	cc	_	_
@@ -2831,7 +2825,7 @@
 47	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = Porpathamet al. [10] investigaram o efeito da adição de H2 ao biogás utilizado para alimentar um motor de ignição por centelha com diferentes razões λ.
-# sent_id = 176-20141015-MONOGRAFIA_0-71
+# sent_id = 176-20141015-MONOGRAFIA_0-72
 1	Porpathamet	Porpathamet	X	_	Number=Sing	2	amod	_	_
 2	al.	al.	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2866,7 +2860,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O biogás apresenta algumas propriedades desfavoráveis à utilização em motores de combustão interna, como seu baixo PCI e baixa velocidade de chama (25 cm/s contra 275 cm/s para o H2).
-# sent_id = 176-20141015-MONOGRAFIA_0-72
+# sent_id = 176-20141015-MONOGRAFIA_0-73
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2905,7 +2899,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Sendo assim, foram utilizadas 4 misturas, a primeira contendo somente biogás e as três restantes com concentração em volume de 5, 10 e 15% de H2 respectivamente, como combustível para o motor de 4.4 kW e 1500 rpm (constante).
-# sent_id = 176-20141015-MONOGRAFIA_0-73
+# sent_id = 176-20141015-MONOGRAFIA_0-74
 1	Sendo	ser	VERB	_	VerbForm=Ger	0	root	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -2955,7 +2949,7 @@
 47	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os resultados apontaram o aumento da faixa de operação do motor devido as melhores propriedades do H2 enquanto combustível, permitindo a combustão numa faixa de λ abaixo do leanlimit (mistura com a quantidade mínima de ar necessária para que ocorra combustão), o que se refletiu ainda no aumento progressivo da potência no eixo acompanhando o aumento da concentração de hidrogênio no biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-74
+# sent_id = 176-20141015-MONOGRAFIA_0-75
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	apontaram	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
@@ -3045,7 +3039,7 @@
 77	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Houve também aumento da eficiência térmica da combustão, porém para concentrações de H2 maiores que 10% essa tendência era revertida, já que houve necessidade de retardar o ponto de ignição do motor para evitar a detonação (somente para misturas ricas).
-# sent_id = 176-20141015-MONOGRAFIA_0-75
+# sent_id = 176-20141015-MONOGRAFIA_0-76
 1	Houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	também	também	ADV	_	_	1	advmod	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -3100,7 +3094,7 @@
 49	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Para as emissões de HC observou-se a diminuição dos níveis para todas as razões λ, o que pode ser explicado tanto pela menor admissão de hidrocarbonetos na mistura, mas, principalmente pela melhora da combustão nas regiões de mistura com escassez de ar, conforme mencionado anteriormente.
-# sent_id = 176-20141015-MONOGRAFIA_0-76
+# sent_id = 176-20141015-MONOGRAFIA_0-77
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
@@ -3167,7 +3161,7 @@
 57	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Subramanianet al. [11] utilizaram um motor automotivo de ignição por centelhaconectado a um dinamômetro, operando com biogás enriquecido (concentrações de metano de 93%) e gás natural comprimido para analisar e comparar o consumo de combustível e as emissões.
-# sent_id = 176-20141015-MONOGRAFIA_0-77
+# sent_id = 176-20141015-MONOGRAFIA_0-78
 1	Subramanianet	Subramanianet	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpacesAfter=\n
 3	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -3215,7 +3209,7 @@
 45	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os testes foram realizados de acordo com a norma BharatStage IV (norma estabelecida pelo governo indiano), tendo o veículo operado em dois diferentes estágios: o primeiro corresponde a uma distância percorrida de aproximadamente 4 km em velocidade abaixo de 50 km/h, enquanto o segundo estágio compreende uma distância relativa percorrida de aproximadamente 6,5 km com a máxima velocidade de 90 km/h.
-# sent_id = 176-20141015-MONOGRAFIA_0-78
+# sent_id = 176-20141015-MONOGRAFIA_0-79
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testes	teste	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -3287,7 +3281,7 @@
 68	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = O estudo comparativo apontou as seguintes conclusões:  Aumento das emissões de CO, HC e NOx para o motor operando com biogás enriquecido, porém, os valores ficaram abaixo do permitido pela norma;  Níveis equivalentes de consumo de combustível, tendo o biogás atingido a média de 24,11 km/kg, enquanto o gás natural comprimido chegou a marca de 24,38 km/kg; 
-# sent_id = 176-20141015-MONOGRAFIA_0-79
+# sent_id = 176-20141015-MONOGRAFIA_0-80
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	comparativo	comparativo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3295,7 +3289,7 @@
 5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 6	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
 7	conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	4	punct	_	_
+8	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 9			PROPN	_	Number=Sing	4	appos	_	_
 10	Aumento	Aumento	PROPN	_	Number=Sing	9	flat:name	_	_
 11-12	das	_	_	_	_	_	_	_	_
@@ -3365,7 +3359,7 @@
 72			PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Não houve diferença significativa nas emissões de CO2, com ambos os combustíveis atingindo valores em torno de 114 g/km;  O uso de biogás atende integralmente aos requisitos da norma, podendo ser utilizado, assim como o gás natural, para alimentar veículos de passeio nas condições usuais (previstas pela norma).
-# sent_id = 176-20141015-MONOGRAFIA_0-80
+# sent_id = 176-20141015-MONOGRAFIA_0-81
 1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
 2	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -3435,7 +3429,7 @@
 62	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Coelho et al. [12]utilizaram um um grupo motor-gerador operando a biogás para geração de energia elétrica.
-# sent_id = 176-20141015-MONOGRAFIA_0-81
+# sent_id = 176-20141015-MONOGRAFIA_0-82
 1	Coelho	Coelhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -3458,7 +3452,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O biogás foi produzido através do processo de digestão anaeróbia do esgoto proveniente do conjunto residencial da USP, bem como do principal restaurante universitário do campus.
-# sent_id = 176-20141015-MONOGRAFIA_0-82
+# sent_id = 176-20141015-MONOGRAFIA_0-83
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3501,7 +3495,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O gás produzido no biodigestor era encaminhado a um sistema de purificação, cujo principal objetivo era remover o ácido sulfídrico (H2S) presente no combustível, além de diminuir o teor de água no mesmo.
-# sent_id = 176-20141015-MONOGRAFIA_0-83
+# sent_id = 176-20141015-MONOGRAFIA_0-84
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gás	gás	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3548,7 +3542,7 @@
 41	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O sistema de purificação possibilitou a diminuição de aproximadamente 650 ppm de H2S, além de aumentar em torno de 5% o teor de metano na mistura.
-# sent_id = 176-20141015-MONOGRAFIA_0-84
+# sent_id = 176-20141015-MONOGRAFIA_0-85
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3582,7 +3576,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O grupo gerador consistiu num motor de ignição por centelha de 18 kW que alimentou um painel de teste de potência requerida de 2,4 kW.
-# sent_id = 176-20141015-MONOGRAFIA_0-85
+# sent_id = 176-20141015-MONOGRAFIA_0-86
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	gerador	gerador	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3613,7 +3607,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Constatou-se um nível elevado de hidrocarbonetos não queimados na análise dos gases de descarga, o que pode ser explicado pela baixa carga a que o motor estava submetido (15% de sua potência nominal).
-# sent_id = 176-20141015-MONOGRAFIA_0-86
+# sent_id = 176-20141015-MONOGRAFIA_0-87
 1-2	Constatou-se	_	_	_	_	_	_	_	_
 1	Constatou	constatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3662,7 +3656,7 @@
 42	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Porpathamet al. [13] adaptaram um motor original a diesel para operar como motor de ciclo
-# sent_id = 176-20141015-MONOGRAFIA_0-87
+# sent_id = 176-20141015-MONOGRAFIA_0-88
 1	Porpathamet	Porpathamet	X	_	Number=Sing	2	amod	_	_
 2	al.	al.	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3682,14 +3676,14 @@
 17	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 
 # text = Otto utilizando biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-88
+# sent_id = 176-20141015-MONOGRAFIA_0-89
 1	Otto	Otto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	utilizando	utilizar	VERB	_	VerbForm=Ger	1	acl	_	_
 3	biogás	biogás	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O estudo foi realizado para analisar a influência da taxa de compressão no desempenho do motor.
-# sent_id = 176-20141015-MONOGRAFIA_0-89
+# sent_id = 176-20141015-MONOGRAFIA_0-90
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3715,7 +3709,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Usualmente, o biogás apresenta altas temperaturas de auto-ignição, o que aumenta o seu poder anti-detonante e, por consequência, permite a sua utilização em maiores razões de compressão (motivo pelo qual foi utilizado um motor a diesel adaptado).
-# sent_id = 176-20141015-MONOGRAFIA_0-90
+# sent_id = 176-20141015-MONOGRAFIA_0-91
 1	Usualmente	Usualmente	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3764,7 +3758,7 @@
 45	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os resultados apresentaram aumento da potência indicada para maiores razões de compressão, o que pode ser explicado pela melhor eficiência térmica alcançada.
-# sent_id = 176-20141015-MONOGRAFIA_0-91
+# sent_id = 176-20141015-MONOGRAFIA_0-92
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	apresentaram	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
@@ -3795,7 +3789,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Para a carga correspondente a 25% da carga máxima do motor, foi constatada uma sensível diminuição na potência para misturas muito pobres (próximas ao leanlimit), o que pode ser explicado pela diminuição da quantidade de combustível queimado (aumento nas emissões de HC) como também pela diminuição da eficiência térmica da combustão.
-# sent_id = 176-20141015-MONOGRAFIA_0-92
+# sent_id = 176-20141015-MONOGRAFIA_0-93
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	carga	carga	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -3837,7 +3831,7 @@
 35	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	17	appos	_	_
 36	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	37	nsubj:pass	_	_
 37	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
-38	ser	ser	AUX	_	VerbForm=Inf	39	aux:pass	_	_
+38	ser	ser	AUX	_	VerbForm=Inf	39	aux:pass	_	SpacesAfter=\s\n
 39	explicado	explicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	37	xcomp	_	_
 40-41	pela	_	_	_	_	_	_	_	_
 40	por	por	ADP	_	_	42	case	_	_
@@ -3877,7 +3871,7 @@
 69	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Para esta situação, o efeito do aumento da taxa de compressão não se mostrou significativo, apesar do aumento da região limite de operação para maiores razões de compressão.
-# sent_id = 176-20141015-MONOGRAFIA_0-93
+# sent_id = 176-20141015-MONOGRAFIA_0-94
 1	Para	para	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	situação	situação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
@@ -3919,7 +3913,7 @@
 35	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Pode se observar a diminuição da temperatura dos gases de exaustão com o aumento das taxas de compressão, além do aumento da massa de hidrocarbonetos não queimados.
-# sent_id = 176-20141015-MONOGRAFIA_0-94
+# sent_id = 176-20141015-MONOGRAFIA_0-95
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
 3	observar	observar	VERB	_	VerbForm=Inf	1	xcomp	_	_
@@ -3961,7 +3955,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Este comportamento foi potencializado para o motor operando com 100% da carga máxima, já que baixas temperaturas de combustão e cargas altas levam a um declínio da qualidade do processo.
-# sent_id = 176-20141015-MONOGRAFIA_0-95
+# sent_id = 176-20141015-MONOGRAFIA_0-96
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4003,7 +3997,7 @@
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Este fato se refletiu no aumento de aproximadamente 2000 ppm nos níveis de emissão de HC .
-# sent_id = 176-20141015-MONOGRAFIA_0-96
+# sent_id = 176-20141015-MONOGRAFIA_0-97
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -4027,7 +4021,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = No presente trabalho, utilizou-se um grupo-motor gerador operando inicialmente com três combustíveis: gasolina, GNV e biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-97
+# sent_id = 176-20141015-MONOGRAFIA_0-98
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4054,7 +4048,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As emissões de CO2 apresentaram aumento com o uso do gás de esgoto, já que o mesmo apresenta alto teor do mesmo em sua composição.
-# sent_id = 176-20141015-MONOGRAFIA_0-98
+# sent_id = 176-20141015-MONOGRAFIA_0-99
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4088,7 +4082,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Na segunda etapa dos testes, as emissões e o consumo foram medidos para determinada faixa de razões de equivalência e avanços de ignição.
-# sent_id = 176-20141015-MONOGRAFIA_0-99
+# sent_id = 176-20141015-MONOGRAFIA_0-100
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4120,7 +4114,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Os melhores resultados de consumo e eficiência foram encontrados para misturas ligeiramente ricas e ainda para maiores avanços de ignição.
-# sent_id = 176-20141015-MONOGRAFIA_0-100
+# sent_id = 176-20141015-MONOGRAFIA_0-101
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
@@ -4141,20 +4135,20 @@
 18	avanços	avanço	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 3.
-# sent_id = 176-20141015-MONOGRAFIA_0-101
+# sent_id = 176-20141015-MONOGRAFIA_0-102
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = APARATO EXPERIMENTAL
-# sent_id = 176-20141015-MONOGRAFIA_0-102
+# sent_id = 176-20141015-MONOGRAFIA_0-103
 1	APARATO	aparato	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	EXPERIMENTAL	Experimental	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A seguir será feita a descrição do conjunto motor-gerador e de todo o aparato utilizado para a realização dos ensaios e aquisição dos dados necessários para efetuar os cálculos de emissões e desempenho.
-# sent_id = 176-20141015-MONOGRAFIA_0-103
+# sent_id = 176-20141015-MONOGRAFIA_0-104
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -4197,17 +4191,17 @@
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.1.
-# sent_id = 176-20141015-MONOGRAFIA_0-104
+# sent_id = 176-20141015-MONOGRAFIA_0-105
 1	3.1	3.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = GRUPO MOTOR-GERADOR
-# sent_id = 176-20141015-MONOGRAFIA_0-105
+# sent_id = 176-20141015-MONOGRAFIA_0-106
 1	GRUPO	grupo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	MOTOR-GERADOR	MOTOR-GERADOR	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Utilizou-se um grupo motor-gerador ciclo Otto, fabricado pela empresa Branco, com partida a gasolina e operação também a gás natural e biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-106
+# sent_id = 176-20141015-MONOGRAFIA_0-107
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4239,17 +4233,17 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 3.1
-# sent_id = 176-20141015-MONOGRAFIA_0-107
+# sent_id = 176-20141015-MONOGRAFIA_0-108
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.1	3.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Grupo motor-gerador
-# sent_id = 176-20141015-MONOGRAFIA_0-108
+# sent_id = 176-20141015-MONOGRAFIA_0-109
 1	Grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	motor-gerador	motor-gerador	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = A tabela abaixo mostra as principais características do motorutilizado nos ensaios [14]: Tabela 3.1
-# sent_id = 176-20141015-MONOGRAFIA_0-109
+# sent_id = 176-20141015-MONOGRAFIA_0-110
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	abaixo	abaixo	ADV	_	_	4	advmod	_	_
@@ -4268,12 +4262,12 @@
 14	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	14	14	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 16	]	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	4	punct	_	_
+17	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 18	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	appos	_	_
 19	3.1	3.1	NUM	_	NumType=Card	18	nummod	_	_
 
 # text = Características do motor 3.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-110
+# sent_id = 176-20141015-MONOGRAFIA_0-111
 1	Características	característica	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4283,13 +4277,13 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = ANALISADOR DE GASES
-# sent_id = 176-20141015-MONOGRAFIA_0-111
+# sent_id = 176-20141015-MONOGRAFIA_0-112
 1	ANALISADOR	Analisador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	GASES	GASES	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Os gases de descarga do motor estão ligados a um analisador de gases
-# sent_id = 176-20141015-MONOGRAFIA_0-112
+# sent_id = 176-20141015-MONOGRAFIA_0-113
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	gases	gase	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4306,48 +4300,46 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	gases	gase	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 
-# text = NAPRO PC- MULTIGÁS, capaz de monitorar as emissões de CO, CO2, HC, NOx e O2 baseado no método de medição de infravermelho não dispersivo.
-# sent_id = 176-20141015-MONOGRAFIA_0-113
-1	NAPRO	Napro	ADV	_	_	2	advmod	_	_
-2	PC	PC	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	MULTIGÁS	MULTIGÁS	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	2	punct	_	_
-6	capaz	capaz	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-7	de	de	SCONJ	_	_	8	mark	_	_
-8	monitorar	monitorar	VERB	_	VerbForm=Inf	6	xcomp	_	_
-9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	CO	CO	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+# text = NAPRO PC-MULTIGÁS, capaz de monitorar as emissões de CO, CO2, HC, NOx e O2 baseado no método de medição de infravermelho não dispersivo.
+# sent_id = 176-20141015-MONOGRAFIA_0-114
+1	NAPRO	NAPRO	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	PC-MULTIGÁS	PC-MULTIGÁS	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	capaz	capaz	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+5	de	de	SCONJ	_	_	6	mark	_	_
+6	monitorar	monitorar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	CO	CO	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+14	HC	HC	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	HC	HC	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	_
-19	e	e	CCONJ	_	_	20	cc	_	_
-20	O2	O2	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	_
-21	baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
-22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	_	_	24	case	_	_
-23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	método	método	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+16	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	O2	O2	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	_
+19	baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	método	método	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	medição	medição	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 25	de	de	ADP	_	_	26	case	_	_
-26	medição	medição	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-27	de	de	ADP	_	_	28	case	_	_
-28	infravermelho	infravermelho	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-29	não	não	ADV	_	Polarity=Neg	30	advmod	_	_
-30	dispersivo	dispersivo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+26	infravermelho	infravermelho	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27	não	não	ADV	_	Polarity=Neg	28	advmod	_	_
+28	dispersivo	dispersivo	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 3.2
-# sent_id = 176-20141015-MONOGRAFIA_0-114
+# sent_id = 176-20141015-MONOGRAFIA_0-115
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Analisador de gases de descarga
-# sent_id = 176-20141015-MONOGRAFIA_0-115
+# sent_id = 176-20141015-MONOGRAFIA_0-116
 1	Analisador	Analisador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	gases	gase	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -4355,25 +4347,25 @@
 5	descarga	descarga	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 
 # text = NAPRO e software de visualização de dados 3.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-116
+# sent_id = 176-20141015-MONOGRAFIA_0-117
 1	NAPRO	Napro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	software	software	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	visualização	visualização	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+7	dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\s\n
 8	3.3	3.3	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = BANCO DE RESISTÊNCIA
-# sent_id = 176-20141015-MONOGRAFIA_0-117
+# sent_id = 176-20141015-MONOGRAFIA_0-118
 1	BANCO	Banco	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	DE	DE	PROPN	_	Number=Sing	1	flat:name	_	_
 3	RESISTÊNCIA	Resistência	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Para o teste do motor aqui considerado, de potência menor que 5 kW, foi possível usar um banco de resistência simples, composto por um chuveiro eletrônico com resistência variável (chuveiro eletrônico LORENZETTI, 50 W), a fim de medirem-se cargas elétricas que correspondem a 100%, 75%, 50% e 25% da potência do grupo motor-gerador.
-# sent_id = 176-20141015-MONOGRAFIA_0-118
+# sent_id = 176-20141015-MONOGRAFIA_0-119
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	teste	teste	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
@@ -4451,7 +4443,7 @@
 71	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = A escolha desse tipo de bancada se deve a alta disponibilidade desse equipamento no mercado, assim como pela facilidade na sua operação.
-# sent_id = 176-20141015-MONOGRAFIA_0-119
+# sent_id = 176-20141015-MONOGRAFIA_0-120
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -4488,7 +4480,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O controlador de potência utiliza um TRIAC como componente principal, o que torna sua operação trivial.
-# sent_id = 176-20141015-MONOGRAFIA_0-120
+# sent_id = 176-20141015-MONOGRAFIA_0-121
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4509,30 +4501,30 @@
 18	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 3.3
-# sent_id = 176-20141015-MONOGRAFIA_0-121
+# sent_id = 176-20141015-MONOGRAFIA_0-122
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Banco de resistência para simulação de carga 3.4.
-# sent_id = 176-20141015-MONOGRAFIA_0-122
+# sent_id = 176-20141015-MONOGRAFIA_0-123
 1	Banco	banco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	para	para	ADP	_	_	5	case	_	_
 5	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	carga	carga	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+7	carga	carga	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\s\n
 8	3.4	3.4	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = MEDIDOR DE VAZÃO
-# sent_id = 176-20141015-MONOGRAFIA_0-123
+# sent_id = 176-20141015-MONOGRAFIA_0-124
 1	MEDIDOR	MEDIDOR	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	DE	DE	PROPN	_	Number=Sing	1	flat:name	_	_
 3	VAZÃO	VAZÃO	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Foi utilizado um medidor de gás diafragma, do fabricante LAO, para monitorar o consumo de gás natural e biogás durante a operação do motor.
-# sent_id = 176-20141015-MONOGRAFIA_0-124
+# sent_id = 176-20141015-MONOGRAFIA_0-125
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4566,7 +4558,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O princípio de funcionamento do medidor consiste em um grupo de canais comunicantes que, ao movimentar os diafragmas de carga e descarga acionam a válvula responsável pela movimentação do sistema de integração.
-# sent_id = 176-20141015-MONOGRAFIA_0-125
+# sent_id = 176-20141015-MONOGRAFIA_0-126
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4611,7 +4603,7 @@
 38	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Na figura abaixo podemos ver o painel indicador do equipamento.
-# sent_id = 176-20141015-MONOGRAFIA_0-126
+# sent_id = 176-20141015-MONOGRAFIA_0-127
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4629,12 +4621,12 @@
 13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 3.4
-# sent_id = 176-20141015-MONOGRAFIA_0-127
+# sent_id = 176-20141015-MONOGRAFIA_0-128
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.4	3.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Medidor de vazão de GNV e biogás
-# sent_id = 176-20141015-MONOGRAFIA_0-128
+# sent_id = 176-20141015-MONOGRAFIA_0-129
 1	Medidor	Medidor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4644,7 +4636,7 @@
 7	biogás	biogás	ADV	_	_	1	conj	_	_
 
 # text = Abaixo segue as principais características do equipamento:  Marca: LAO  Modelo: G1  Vazão máxima: 1,6 m3/h 
-# sent_id = 176-20141015-MONOGRAFIA_0-129
+# sent_id = 176-20141015-MONOGRAFIA_0-130
 1	Abaixo	abaixo	ADV	_	_	2	advmod	_	_
 2	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -4654,7 +4646,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	2	punct	_	_
+9	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 10			PROPN	_	Number=Sing	2	appos	_	_
 11	Marca	marca	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
 12	:	:	PUNCT	_	_	2	punct	_	_
@@ -4672,7 +4664,7 @@
 24			PROPN	_	Number=Sing	23	flat:name	_	_
 
 # text = Vazão mínima: 0,016 m3/h  Pressão máxima: 50 kPa
-# sent_id = 176-20141015-MONOGRAFIA_0-130
+# sent_id = 176-20141015-MONOGRAFIA_0-131
 1	Vazão	Vazão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	mínima	pequeno	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4686,7 +4678,7 @@
 11	kPa	kPa	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 
 # text = Para medir o consumo de gasolina foi utilizado um recipiente posicionado sobre uma balança digital.
-# sent_id = 176-20141015-MONOGRAFIA_0-131
+# sent_id = 176-20141015-MONOGRAFIA_0-132
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	medir	medir	VERB	_	VerbForm=Inf	8	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4705,7 +4697,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Sendo assim, a vazão de gasolina em massa foi obtida pela diferença na medição da balança, descontando-se o peso do recipiente.
-# sent_id = 176-20141015-MONOGRAFIA_0-132
+# sent_id = 176-20141015-MONOGRAFIA_0-133
 1	Sendo	ser	VERB	_	VerbForm=Ger	11	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -4742,22 +4734,22 @@
 29	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 3.5
-# sent_id = 176-20141015-MONOGRAFIA_0-133
+# sent_id = 176-20141015-MONOGRAFIA_0-134
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.5	3.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Medidor de consumo de gasolina 4.
-# sent_id = 176-20141015-MONOGRAFIA_0-134
+# sent_id = 176-20141015-MONOGRAFIA_0-135
 1	Medidor	Medidor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 6	4	4	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = METODOLOGIA DOS TESTES 4.1.
-# sent_id = 176-20141015-MONOGRAFIA_0-135
+# sent_id = 176-20141015-MONOGRAFIA_0-136
 1	METODOLOGIA	metodologia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	DOS	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -4767,12 +4759,12 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = COMBUSTÍVEIS UTILIZADOS
-# sent_id = 176-20141015-MONOGRAFIA_0-136
+# sent_id = 176-20141015-MONOGRAFIA_0-137
 1	COMBUSTÍVEIS	combustível	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	UTILIZADOS	utilizado	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Como mencionado anteriormente, na primeira fase de testes foram utilizados três combustíveis distintos: gasolina, GNV e biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-137
+# sent_id = 176-20141015-MONOGRAFIA_0-138
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -4798,7 +4790,7 @@
 22	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Sabe-se que devido à presença de grande quantidade de CO2em sua composição, o biogás apresenta baixo PCI em comparação com os outros combustíveis, o que pode ser entendido da seguinte maneira: para gerar a mesma potência consome-se mais biogás que gasolina e GNV.
-# sent_id = 176-20141015-MONOGRAFIA_0-138
+# sent_id = 176-20141015-MONOGRAFIA_0-139
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4856,7 +4848,7 @@
 51	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A tabela a seguir apresenta o PCI e a densidade usualpara a gasolina utilizada[9]: Tabela 4.1
-# sent_id = 176-20141015-MONOGRAFIA_0-139
+# sent_id = 176-20141015-MONOGRAFIA_0-140
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	a	a	SCONJ	_	_	4	mark	_	_
@@ -4877,7 +4869,7 @@
 18	4.1	4.1	NUM	_	NumType=Card	17	nummod	_	_
 
 # text = Propriedades da gasolina
-# sent_id = 176-20141015-MONOGRAFIA_0-140
+# sent_id = 176-20141015-MONOGRAFIA_0-141
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4885,7 +4877,7 @@
 4	gasolina	gasolina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = O biogás e GNV utilizado nos ensaios foram analisados e suas principais propriedades físico-químicas, bem como a sua composição, são apresentadas a seguir[15]: Tabela 4.2
-# sent_id = 176-20141015-MONOGRAFIA_0-141
+# sent_id = 176-20141015-MONOGRAFIA_0-142
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -4920,7 +4912,7 @@
 31	4.2	4.2	NUM	_	NumType=Card	30	nummod	_	_
 
 # text = Propriedades do biogás e GNV Tabela 4.3
-# sent_id = 176-20141015-MONOGRAFIA_0-142
+# sent_id = 176-20141015-MONOGRAFIA_0-143
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4932,7 +4924,7 @@
 8	4.3	4.3	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Composição do biogás [%] Vale ressaltar que a tabela anterior aponta somente os componentes com maior participação na composição do gás, porém há ainda alguns componentes minoritários, como o H2S, gás extremamente nocivo ao motor, que é filtrado antes da entrada do biogás no misturador.
-# sent_id = 176-20141015-MONOGRAFIA_0-143
+# sent_id = 176-20141015-MONOGRAFIA_0-144
 1	Composição	composição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5001,7 +4993,7 @@
 59	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Para filtragem desse composto, foi utilizado o filtro de limalha de ferro, método que se mostrou bastante eficiente e com baixo custo relativo.
-# sent_id = 176-20141015-MONOGRAFIA_0-144
+# sent_id = 176-20141015-MONOGRAFIA_0-145
 1	Para	para	ADP	_	_	2	case	_	_
 2	filtragem	filtragem	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -5029,15 +5021,15 @@
 24	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 25	custo	custo	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
 26	relativo	relativo	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-145
+# sent_id = 176-20141015-MONOGRAFIA_0-146
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CÁLCULO DA RAZÃO A/C Fator de extrema importância no desempenho e nas emissões de motores de combustão interna, turbinas a gás, entre outros, a razão A/C indica a quantidade de ar utilizada por unidade de massa ou por unidade molar de combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-146
+# sent_id = 176-20141015-MONOGRAFIA_0-147
 1	CÁLCULO	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	DA	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -5092,7 +5084,7 @@
 49	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Outro parâmetro utilizado é a razão de equivalência λ, que indica a distância entre a relação
-# sent_id = 176-20141015-MONOGRAFIA_0-147
+# sent_id = 176-20141015-MONOGRAFIA_0-148
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5112,7 +5104,7 @@
 17	relação	relação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 
 # text = A/C real para a estequiométrica (onde haveria a combustão perfeita).
-# sent_id = 176-20141015-MONOGRAFIA_0-148
+# sent_id = 176-20141015-MONOGRAFIA_0-149
 1	A/C	A/c	ADV	_	_	2	advmod	_	_
 2	real	real	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -5128,7 +5120,7 @@
 13	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Para calcular a razão A/C com a qual o motor está operando, primeiramente faz-se necessário diferenciar a razão real da chamada razão estequiométrica.
-# sent_id = 176-20141015-MONOGRAFIA_0-149
+# sent_id = 176-20141015-MONOGRAFIA_0-150
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	calcular	calcular	VERB	_	VerbForm=Inf	15	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5160,7 +5152,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A primeiratrata da combustão real, que ocorre nosdiversos equipamentos de conversão de energia, enquanto a segunda, descreve um processo idealizado de combustão completa, definido pela equação estequiométrica.
-# sent_id = 176-20141015-MONOGRAFIA_0-150
+# sent_id = 176-20141015-MONOGRAFIA_0-151
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	primeiratrata	primeiratrato	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5199,7 +5191,7 @@
 34	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Korakianatiset al. [16] descreveu a seguinte fórmula de combustão estequiométrica de hidrocarbonetos:
-# sent_id = 176-20141015-MONOGRAFIA_0-151
+# sent_id = 176-20141015-MONOGRAFIA_0-152
 1	Korakianatiset	Korakianatiset	X	_	Number=Sing	2	amod	_	_
 2	al.	al.	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5217,7 +5209,7 @@
 15	:	:	PUNCT	_	_	6	punct	_	_
 
 # text = Esta equação permite o balanceamento da combustão de um hidrocarboneto qualquer, considerando a composição do ar de 21% de O2 e 79% de N2.
-# sent_id = 176-20141015-MONOGRAFIA_0-152
+# sent_id = 176-20141015-MONOGRAFIA_0-153
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	equação	equação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5252,7 +5244,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Chegamos à razão A/C estequiométrica pela seguinte equação[16]:
-# sent_id = 176-20141015-MONOGRAFIA_0-153
+# sent_id = 176-20141015-MONOGRAFIA_0-154
 1	Chegamos	chegar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -5271,12 +5263,12 @@
 14	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sendo .
-# sent_id = 176-20141015-MONOGRAFIA_0-154
+# sent_id = 176-20141015-MONOGRAFIA_0-155
 1	Sendo	ser	AUX	_	VerbForm=Ger	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Consideraram-se as seguintes massas molares para a equação acima: - C: 12,011 kg/kmol - H2: 2,016 kg/kmol - O2: 31,998 kg/kmol - N2: 28,157 kg/kmol
-# sent_id = 176-20141015-MONOGRAFIA_0-155
+# sent_id = 176-20141015-MONOGRAFIA_0-156
 1-2	Consideraram-se	_	_	_	_	_	_	_	_
 1	Consideraram	Considerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -5314,7 +5306,7 @@
 34	kmol	kmol	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 
 # text = De maneira análoga podemos chegar à razão
-# sent_id = 176-20141015-MONOGRAFIA_0-156
+# sent_id = 176-20141015-MONOGRAFIA_0-157
 1	De	de	ADP	_	_	2	case	_	_
 2	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 3	análoga	análogo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5326,11 +5318,11 @@
 8	razão	razão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 
 # text = A/Cest.
-# sent_id = 176-20141015-MONOGRAFIA_0-157
+# sent_id = 176-20141015-MONOGRAFIA_0-158
 1	A/Cest.	A/Cest.	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 
 # text = para o combustível especificado [15] através da seguinte equação de balanceamento:
-# sent_id = 176-20141015-MONOGRAFIA_0-158
+# sent_id = 176-20141015-MONOGRAFIA_0-159
 1	para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
@@ -5346,10 +5338,10 @@
 12	equação	equação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	balanceamento	balanceamento	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	8	punct	_	_
+15	:	:	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 
 # text = Pelo cálculo da massa do biogás e da massa molar do ar [2] chegamos à seguinte fórmula para a razão A/C:
-# sent_id = 176-20141015-MONOGRAFIA_0-159
+# sent_id = 176-20141015-MONOGRAFIA_0-160
 1-2	Pelo	_	_	_	_	_	_	_	_
 1	Por	por	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5388,7 +5380,7 @@
 30	:	:	PUNCT	_	_	21	punct	_	_
 
 # text = Balanceando a equação (3) chegamos ao valor de 133,32 kmol de ar para a combustão estequiométrica do combustível utilizado nos ensaios.
-# sent_id = 176-20141015-MONOGRAFIA_0-160
+# sent_id = 176-20141015-MONOGRAFIA_0-161
 1	Balanceando	Balancear	VERB	_	VerbForm=Ger	7	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	equação	equação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -5421,7 +5413,7 @@
 27	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Esse valor nos dá a seguinte razão A/C:
-# sent_id = 176-20141015-MONOGRAFIA_0-161
+# sent_id = 176-20141015-MONOGRAFIA_0-162
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -5435,7 +5427,7 @@
 10	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = A razão A/C estequiométrica para o biogás varia de acordo com sua composição.
-# sent_id = 176-20141015-MONOGRAFIA_0-162
+# sent_id = 176-20141015-MONOGRAFIA_0-163
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	razão	razão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	A/C	A/c	ADV	_	_	4	advmod	_	_
@@ -5452,7 +5444,7 @@
 14	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Bedoya et. al[17]calcularam em seu estudo a razão A/C de 6,1 para o biogás com 60% de CH4, enquanto Porpatham et. al [8] calcularam a razão de 5,7 para o biogás contendo 57% de metano.
-# sent_id = 176-20141015-MONOGRAFIA_0-163
+# sent_id = 176-20141015-MONOGRAFIA_0-164
 1	Bedoya	Bedoyo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 2	et.	et.	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	al[	al[	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5499,7 +5491,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O valor encontrado nesse estudo se mostrou coerente, já que uma maior quantidade de metano necessita de maior quantidade de ar para que ocorra a combustão completa[3].
-# sent_id = 176-20141015-MONOGRAFIA_0-164
+# sent_id = 176-20141015-MONOGRAFIA_0-165
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5534,7 +5526,7 @@
 31	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para o cálculo da razão A/C real seguimos o caminho inverso.
-# sent_id = 176-20141015-MONOGRAFIA_0-165
+# sent_id = 176-20141015-MONOGRAFIA_0-166
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -5551,7 +5543,7 @@
 13	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Partimos da concentração dos gases de descarga medida pelo analisador de gases NAPRO, e balanceamos a seguinte equação:
-# sent_id = 176-20141015-MONOGRAFIA_0-166
+# sent_id = 176-20141015-MONOGRAFIA_0-167
 1	Partimos	Partimo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5580,7 +5572,7 @@
 23	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = A combustão de hidrocarbonetos a baixas temperaturas tem como principais gases de descarga N2, H2O, CO2 e O2, ou ainda CO e H2[18].
-# sent_id = 176-20141015-MONOGRAFIA_0-167
+# sent_id = 176-20141015-MONOGRAFIA_0-168
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5610,7 +5602,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # text = O biogás, por ser um gás de baixo PCI, apresenta menores temperaturas e pressões na câmara de combustão, o que pode ser comprovado pela composição dos gases de exaustão apresentada pelo analisador de gases NAPRO.
-# sent_id = 176-20141015-MONOGRAFIA_0-168
+# sent_id = 176-20141015-MONOGRAFIA_0-169
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
@@ -5637,7 +5629,7 @@
 23	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	appos	_	_
 24	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	25	nsubj:pass	_	_
 25	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
-26	ser	ser	AUX	_	VerbForm=Inf	27	aux:pass	_	_
+26	ser	ser	AUX	_	VerbForm=Inf	27	aux:pass	_	SpacesAfter=\s\n
 27	comprovado	comprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	xcomp	_	_
 28-29	pela	_	_	_	_	_	_	_	_
 28	por	por	ADP	_	_	30	case	_	_
@@ -5660,7 +5652,7 @@
 43	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Os valores de e [ver Eq.
-# sent_id = 176-20141015-MONOGRAFIA_0-169
+# sent_id = 176-20141015-MONOGRAFIA_0-170
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	6	case	_	_
@@ -5671,7 +5663,7 @@
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = 5] correspondem a menos de 100ppm (0,01%) e 900ppm (0,09%) respectivamente.
-# sent_id = 176-20141015-MONOGRAFIA_0-170
+# sent_id = 176-20141015-MONOGRAFIA_0-171
 1	5	5	NUM	_	NumType=Card	3	nsubj	_	SpaceAfter=No
 2	]	_	PUNCT	_	_	1	punct	_	_
 3	correspondem	corresponder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5693,7 +5685,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Sendo assim, para efeitos de balanceamento da equação de combustão real, e consequentemente para o cálculo da razão A/C,os mesmos foram desprezados.
-# sent_id = 176-20141015-MONOGRAFIA_0-171
+# sent_id = 176-20141015-MONOGRAFIA_0-172
 1	Sendo	ser	VERB	_	VerbForm=Ger	28	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -5727,7 +5719,7 @@
 29	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Abaixo temos as equações para o balanceamento da quantidade de combustível, de ar e para a razão A/Creal, respectivamente:
-# sent_id = 176-20141015-MONOGRAFIA_0-172
+# sent_id = 176-20141015-MONOGRAFIA_0-173
 1	Abaixo	abaixo	ADV	_	_	2	advmod	_	_
 2	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -5754,7 +5746,7 @@
 23	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Vale ressaltar que para chegar até a equação 8 calculou-se a massa do combustível especificado e a massa do ar modelado (21% de O2 e 79% de N2).
-# sent_id = 176-20141015-MONOGRAFIA_0-173
+# sent_id = 176-20141015-MONOGRAFIA_0-174
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	10	mark	_	_
@@ -5796,7 +5788,7 @@
 36	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sendo assim, podemos chegar à razão A/Creal através da concentração dos gases de descarga medidos pelo analisador NAPRO.
-# sent_id = 176-20141015-MONOGRAFIA_0-174
+# sent_id = 176-20141015-MONOGRAFIA_0-175
 1	Sendo	ser	VERB	_	VerbForm=Ger	0	root	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -5827,7 +5819,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Define-se ainda a razão de equivalência λ, sendo esta: 4.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-175
+# sent_id = 176-20141015-MONOGRAFIA_0-176
 1-2	Define-se	_	_	_	_	_	_	_	_
 1	Define	definir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5840,12 +5832,12 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	sendo	ser	AUX	_	VerbForm=Ger	11	cop	_	_
 11	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	1	advcl	_	SpaceAfter=No
-12	:	:	PUNCT	_	_	1	punct	_	_
+12	:	:	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 13	4.3	4.3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CÁLCULO DO CONSUMO ESPECÍFICO DE COMBUSTÍVEL E EFICIÊNCIA DE CONVERSÃO ENERGÉTICA
-# sent_id = 176-20141015-MONOGRAFIA_0-176
+# sent_id = 176-20141015-MONOGRAFIA_0-177
 1	CÁLCULO	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	DO	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -5861,7 +5853,7 @@
 12	ENERGÉTICA	ENERGÉTICA	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = O consumo específico de combustível, de agora em diante , é a medida do quão eficiente é a operação de um motor com determinado combustível [18].
-# sent_id = 176-20141015-MONOGRAFIA_0-177
+# sent_id = 176-20141015-MONOGRAFIA_0-178
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	específico	específico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5896,7 +5888,7 @@
 31	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Pode ser definido como o consumo de combustível por unidade de potência, conforme a seguinte equação:
-# sent_id = 176-20141015-MONOGRAFIA_0-178
+# sent_id = 176-20141015-MONOGRAFIA_0-179
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
 3	definido	definir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
@@ -5917,7 +5909,7 @@
 18	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Como a medição da vazão de biogás foi realizada em base volumétrica, fez-se necessário o uso da seguinte equação para a conversão em vazão mássica:
-# sent_id = 176-20141015-MONOGRAFIA_0-179
+# sent_id = 176-20141015-MONOGRAFIA_0-180
 1	Como	como	SCONJ	_	_	10	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	medição	medição	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
@@ -5953,7 +5945,7 @@
 30	:	:	PUNCT	_	_	15	punct	_	_
 
 # text = Durante a operação do motor, é desejável que se obtenha baixos valores de , tendo em vista que estes resultarão em ganho de eficiência.
-# sent_id = 176-20141015-MONOGRAFIA_0-180
+# sent_id = 176-20141015-MONOGRAFIA_0-181
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	operação	operação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -5984,7 +5976,7 @@
 27	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A eficiência de conversão energética, ou eficiência global, é definida como a razão entre a quantidade de energia produzida por ciclo do motor e a quantidade de energia fornecida, medida pelo do combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-181
+# sent_id = 176-20141015-MONOGRAFIA_0-182
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6030,7 +6022,7 @@
 40	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A eficiência global, de agora em diante , é definida pela seguinte equação: 4.4.
-# sent_id = 176-20141015-MONOGRAFIA_0-182
+# sent_id = 176-20141015-MONOGRAFIA_0-183
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3	global	global	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
@@ -6052,7 +6044,7 @@
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = VARIAÇÃO DO AVANÇO DE IGNIÇÃO
-# sent_id = 176-20141015-MONOGRAFIA_0-183
+# sent_id = 176-20141015-MONOGRAFIA_0-184
 1	VARIAÇÃO	variação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	DO	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -6062,7 +6054,7 @@
 6	IGNIÇÃO	IGNIÇÃO	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Um importante parâmetro de operação dos motores de ignição por centelha é o chamado avanço de ignição.
-# sent_id = 176-20141015-MONOGRAFIA_0-184
+# sent_id = 176-20141015-MONOGRAFIA_0-185
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -6085,7 +6077,7 @@
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Sabe-se que a presença de gases inertes misturados ao combustível afeta negativamente a qualidade da combustão, reduzindo a velocidade de propagação de chama e consequentemente, aumentando o tempo médio de duração da queima [19].
-# sent_id = 176-20141015-MONOGRAFIA_0-185
+# sent_id = 176-20141015-MONOGRAFIA_0-186
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -6135,7 +6127,7 @@
 43	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Uma das soluções para este problema consiste em adiantar o ponto de ignição do motor, para que o pico de pressão seja atingido na posição do pistão desejada.
-# sent_id = 176-20141015-MONOGRAFIA_0-186
+# sent_id = 176-20141015-MONOGRAFIA_0-187
 1	Uma	um	NUM	_	NumType=Card	8	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6150,7 +6142,7 @@
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+14	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpacesAfter=\s\n
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -6176,7 +6168,7 @@
 34	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A modificação do ponto de ignição pode ser utilizada também como ferramenta para evitar a detonação do combustível nos cilindros dos motores, como pode ser visto no estudo de Porpathamet al.[13], onde o aumento da razão de compressão para a combustão com misturas ricas foi associado a um maior atraso na ignição do motor, para que o mesmo pudesse operar sem problemas relacionados a detonação.
-# sent_id = 176-20141015-MONOGRAFIA_0-187
+# sent_id = 176-20141015-MONOGRAFIA_0-188
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	modificação	modificação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6266,7 +6258,7 @@
 79	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A figura 4.1 mostra a adaptação realizada no motor para que o mesmo pudesse operar com diferentes avanços de ignição:
-# sent_id = 176-20141015-MONOGRAFIA_0-188
+# sent_id = 176-20141015-MONOGRAFIA_0-189
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4.1	4.1	NUM	_	NumType=Card	2	nmod	_	_
@@ -6292,12 +6284,12 @@
 22	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Figura 4.1
-# sent_id = 176-20141015-MONOGRAFIA_0-189
+# sent_id = 176-20141015-MONOGRAFIA_0-190
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	4.1	4.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Modificação do ponto de ignição - detalhe da chaveta Pode-se observar que foi realizada uma intervenção mecânica no motor.
-# sent_id = 176-20141015-MONOGRAFIA_0-190
+# sent_id = 176-20141015-MONOGRAFIA_0-191
 1	Modificação	modificação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6328,7 +6320,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Foram fabricadas chavetas adicionais com a aréa de contato que é acoplada ao virabrequim deslocada para a esquerda ou direita, resultando num maior ou menor avanço em relação ao avanço original.
-# sent_id = 176-20141015-MONOGRAFIA_0-191
+# sent_id = 176-20141015-MONOGRAFIA_0-192
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	fabricadas	fabricar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	chavetas	chaveta	NOUN	_	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
@@ -6370,7 +6362,7 @@
 36	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Deste modo, a posição dos pistões em relação ao ponto morto superior, no momento em que a centelha é disparada, é modificado.
-# sent_id = 176-20141015-MONOGRAFIA_0-192
+# sent_id = 176-20141015-MONOGRAFIA_0-193
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -6404,19 +6396,19 @@
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
 29	modificado	modificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n\n
 
 # text = 4.5.
-# sent_id = 176-20141015-MONOGRAFIA_0-193
+# sent_id = 176-20141015-MONOGRAFIA_0-194
 1	4.5	4.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = TESTES
-# sent_id = 176-20141015-MONOGRAFIA_0-194
+# sent_id = 176-20141015-MONOGRAFIA_0-195
 1	TESTES	teste	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = Como mencionado anteriormente, os testes foram realizados em 3 etapas, sendo elas:  Testes de desempenho e emissões para o motor operando com gasolina, GNV e biogás;  Testes de desempenho e emissões para o motor operando somente com biogás variando-se a razão A/Creal;  Testes de desempenho e emissões para o motor operando somente com biogás variando-se o avanço de ignição.
-# sent_id = 176-20141015-MONOGRAFIA_0-195
+# sent_id = 176-20141015-MONOGRAFIA_0-196
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	advcl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -6492,7 +6484,7 @@
 71	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = Em cada etapa realizada, o motor era submetido a quatro cargas diferentes, impostas pelo banco de resistência mostrado anteriormente.
-# sent_id = 176-20141015-MONOGRAFIA_0-196
+# sent_id = 176-20141015-MONOGRAFIA_0-197
 1	Em	em	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -6519,7 +6511,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = As cargas correspondem a 25, 50, 75 e 100% da potência máxima do motor de 4 kW.
-# sent_id = 176-20141015-MONOGRAFIA_0-197
+# sent_id = 176-20141015-MONOGRAFIA_0-198
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cargas	carga	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	correspondem	corresponder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6547,7 +6539,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Na segunda etapa de testes variou-se também a razão λ, tendo percorrido um range de 0,94 (mistura pobre) a 1,06 (mistura rica).
-# sent_id = 176-20141015-MONOGRAFIA_0-198
+# sent_id = 176-20141015-MONOGRAFIA_0-199
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6582,7 +6574,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Houve ainda a mudança no ponto de ignição, na etapa final dos testes.
-# sent_id = 176-20141015-MONOGRAFIA_0-199
+# sent_id = 176-20141015-MONOGRAFIA_0-200
 1	Houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	ainda	ainda	ADV	_	_	1	advmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6606,7 +6598,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os testes foram conduzidos para quatro avanços diferentes de ignição, sendo eles:  31° apms (avanço original)  21° apms (atraso da ignição)  42° apms  53° apms Vale ainda ressaltar que para um avanço de 21°apms, a operação do motor quando submetido a 100% da carga máxima se mostrou extremamente instável, o que tornou impossível a tomada de qualquer dado de emissões e consumo.
-# sent_id = 176-20141015-MONOGRAFIA_0-200
+# sent_id = 176-20141015-MONOGRAFIA_0-201
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testes	teste	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -6691,12 +6683,12 @@
 79	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.6.
-# sent_id = 176-20141015-MONOGRAFIA_0-201
+# sent_id = 176-20141015-MONOGRAFIA_0-202
 1	4.6	4.6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = TRATAMENTO DOS DADOS
-# sent_id = 176-20141015-MONOGRAFIA_0-202
+# sent_id = 176-20141015-MONOGRAFIA_0-203
 1	TRATAMENTO	tratamente	ADV	_	_	3	advmod	_	_
 2-3	DOS	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	3	case	_	_
@@ -6704,7 +6696,7 @@
 4	DADOS	Dados	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Os dados medidos pelo analisador de gases
-# sent_id = 176-20141015-MONOGRAFIA_0-203
+# sent_id = 176-20141015-MONOGRAFIA_0-204
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	medidos	medir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -6716,7 +6708,7 @@
 8	gases	gase	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 
 # text = NAPRO foram convertidos em um arquivo para leitura no software EXCEL, onde também foram inseridas as equações (8), (9), (10) e (11).
-# sent_id = 176-20141015-MONOGRAFIA_0-204
+# sent_id = 176-20141015-MONOGRAFIA_0-205
 1	NAPRO	Napro	ADV	_	_	3	advmod	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	convertidos	converter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -6748,14 +6740,14 @@
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	10	10	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	29	punct	_	_
-31	e	e	CCONJ	_	_	33	cc	_	_
+31	e	e	CCONJ	_	_	33	cc	_	SpacesAfter=\s\n
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	11	11	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os gráficos apresentados no capítulo 5 foram gerados no mesmo software.
-# sent_id = 176-20141015-MONOGRAFIA_0-205
+# sent_id = 176-20141015-MONOGRAFIA_0-206
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -6773,8 +6765,8 @@
 13	software	software	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	_
 
-# text = As tabelas com os dados de emissões e consumo são apresentadas nos apêndices A, B e C. 5.
-# sent_id = 176-20141015-MONOGRAFIA_0-206
+# text = As tabelas com os dados de emissões e consumo são apresentadas nos apêndices A, B e C.
+# sent_id = 176-20141015-MONOGRAFIA_0-207
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -6792,14 +6784,17 @@
 14	apêndices	apêndic	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
 15	A	A	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	B	B	PROPN	_	Gender=Fem|Number=Sing	11	appos	_	_
+17	B	B	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	e	e	CCONJ	_	_	19	cc	_	_
-19	C.	C.	PROPN	_	Gender=Fem|Number=Sing	17	conj	_	SpacesAfter=\n
-20	5	5	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	11	punct	_	_
+19	C.	C.	PROPN	_	Gender=Fem|Number=Sing	17	conj	_	SpacesAfter=\n\n
+
+# text = 5.
+# sent_id = 176-20141015-MONOGRAFIA_0-208
+1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS E DISCUSSÕES 5.1.
-# sent_id = 176-20141015-MONOGRAFIA_0-207
+# sent_id = 176-20141015-MONOGRAFIA_0-209
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	4	cc	_	_
 3	DISCUSSÕES	discussão	NUM	_	NumType=Card	4	nummod	_	_
@@ -6807,7 +6802,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = ENSAIOS COM GASOLINA, GNV E BIOGÁS
-# sent_id = 176-20141015-MONOGRAFIA_0-208
+# sent_id = 176-20141015-MONOGRAFIA_0-210
 1	ENSAIOS	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	COM	com	ADP	_	_	3	case	_	_
 3	GASOLINA	gasolina	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -6817,7 +6812,7 @@
 7	BIOGÁS	BIOGÁS	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 
 # text = A seguir são apresentadas as tabelas comparativas de emissões e desempenho do motor operando com os diferentes combustíveis ensaiados.
-# sent_id = 176-20141015-MONOGRAFIA_0-209
+# sent_id = 176-20141015-MONOGRAFIA_0-211
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6842,18 +6837,18 @@
 21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 5.1.1.
-# sent_id = 176-20141015-MONOGRAFIA_0-210
+# sent_id = 176-20141015-MONOGRAFIA_0-212
 1	5.1.1	5.1.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE CO2
-# sent_id = 176-20141015-MONOGRAFIA_0-211
+# sent_id = 176-20141015-MONOGRAFIA_0-213
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = As análises de emissões de CO2 pelo analisador de gases
-# sent_id = 176-20141015-MONOGRAFIA_0-212
+# sent_id = 176-20141015-MONOGRAFIA_0-214
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	análises	análise	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6868,7 +6863,7 @@
 11	gases	gase	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 
 # text = NAPRO é apresentada abaixo:
-# sent_id = 176-20141015-MONOGRAFIA_0-213
+# sent_id = 176-20141015-MONOGRAFIA_0-215
 1	NAPRO	Napro	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -6876,13 +6871,13 @@
 5	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Tabela 5.1
-# sent_id = 176-20141015-MONOGRAFIA_0-214
+# sent_id = 176-20141015-MONOGRAFIA_0-216
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.1	.1	NUM	_	NumType=Card	2	flat	_	_
 
 # text = Comparação das emissões de CO2 Figura 5.1
-# sent_id = 176-20141015-MONOGRAFIA_0-215
+# sent_id = 176-20141015-MONOGRAFIA_0-217
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6895,16 +6890,16 @@
 9	.1	.1	NUM	_	NumType=Card	8	flat	_	_
 
 # text = Emissões de CO2 para diferentes combustíveis
-# sent_id = 176-20141015-MONOGRAFIA_0-216
+# sent_id = 176-20141015-MONOGRAFIA_0-218
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	para	para	ADP	_	_	6	case	_	_
 5	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
-6	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\s\n
 
 # text = A tabela e figura mostradas acima indicam emissões superiores de CO2 para o motor operando com biogás, devido principalmente ao fato do combustível já possuir uma concentração em torno de 25% deste gás em sua composição, e também pelo motor apresentar maior consumo quando operando com este combustível, o que irá refletir também nas emissões.
-# sent_id = 176-20141015-MONOGRAFIA_0-217
+# sent_id = 176-20141015-MONOGRAFIA_0-219
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6977,12 +6972,12 @@
 65	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 5.1.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-218
+# sent_id = 176-20141015-MONOGRAFIA_0-220
 1	5.1.2	5.1.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE CO Segundo Korakianitiset al.[16], motores operando com gás natural geralmente apresentam redução de 50 a 90% das emissões de CO quando comparados com os motores originalmente utilizados para operar com gasolina.
-# sent_id = 176-20141015-MONOGRAFIA_0-219
+# sent_id = 176-20141015-MONOGRAFIA_0-221
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	CO	CO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7025,7 +7020,7 @@
 39	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Este fato se deve principalmente a menor razão de equivalência com que o primeiro motor funciona.
-# sent_id = 176-20141015-MONOGRAFIA_0-220
+# sent_id = 176-20141015-MONOGRAFIA_0-222
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -7045,7 +7040,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Segue abaixo a comparação com os dados para os diferentes combustíveis utilizados neste experimento:
-# sent_id = 176-20141015-MONOGRAFIA_0-221
+# sent_id = 176-20141015-MONOGRAFIA_0-223
 1	Segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7065,26 +7060,26 @@
 16	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tabela 5.2
-# sent_id = 176-20141015-MONOGRAFIA_0-222
+# sent_id = 176-20141015-MONOGRAFIA_0-224
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.2	.2	NUM	_	NumType=Card	2	flat	_	_
 
 # text = Comparação das emissões de CO Figura 5.2
-# sent_id = 176-20141015-MONOGRAFIA_0-223
+# sent_id = 176-20141015-MONOGRAFIA_0-225
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	CO	CO	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+6	CO	CO	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\s\n
 7	Figura	figura	PROPN	_	Number=Sing	6	flat:name	_	_
 8	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 9	.2	.2	NUM	_	NumType=Card	8	flat	_	_
 
 # text = Emissões de CO para diferentes combustíveis
-# sent_id = 176-20141015-MONOGRAFIA_0-224
+# sent_id = 176-20141015-MONOGRAFIA_0-226
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	CO	CO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7093,7 +7088,7 @@
 6	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = A figura apresentada anteriormente confirma a diminuição das emissões de CO para o motor operando com biogás e GNV (comparado à gasolina).
-# sent_id = 176-20141015-MONOGRAFIA_0-225
+# sent_id = 176-20141015-MONOGRAFIA_0-227
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -7125,7 +7120,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Menores emissões de monóxido de carbono indicam a combustão mais completa para esses dois combustíveis, já que operam com razãoA/C mais adequada.
-# sent_id = 176-20141015-MONOGRAFIA_0-226
+# sent_id = 176-20141015-MONOGRAFIA_0-228
 1	Menores	menor	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 2	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7152,18 +7147,18 @@
 24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 5.1.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-227
+# sent_id = 176-20141015-MONOGRAFIA_0-229
 1	5.1.3	5.1.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE HC
-# sent_id = 176-20141015-MONOGRAFIA_0-228
+# sent_id = 176-20141015-MONOGRAFIA_0-230
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	HC	HC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Assim como o CO, aemissão de hidrocarbonetos não queimados está ligada a qualidade da combustão, ou seja, uma combustão mais completa leva a menores níveis de emissão de HC.
-# sent_id = 176-20141015-MONOGRAFIA_0-229
+# sent_id = 176-20141015-MONOGRAFIA_0-231
 1	Assim	assim	ADV	_	_	12	advmod	_	_
 2	como	como	ADP	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7201,7 +7196,7 @@
 34	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Porpathamet al. [8]mostraram em seu estudo a relação das emissões de HC com a razão A/C com que o motor opera, constatando o aumento das taxas conforme o ponto de operação se afasta da razão estequiométrica.
-# sent_id = 176-20141015-MONOGRAFIA_0-230
+# sent_id = 176-20141015-MONOGRAFIA_0-232
 1	Porpathamet	Porpathamet	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	al	al	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
@@ -7252,24 +7247,24 @@
 45	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Tabela 5.3
-# sent_id = 176-20141015-MONOGRAFIA_0-231
+# sent_id = 176-20141015-MONOGRAFIA_0-233
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.3	5.3	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Comparação das emissões de HC Figura 5.3
-# sent_id = 176-20141015-MONOGRAFIA_0-232
+# sent_id = 176-20141015-MONOGRAFIA_0-234
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	HC	HC	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+6	HC	HC	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\s\n
 7	Figura	figura	PROPN	_	Number=Sing	6	flat:name	_	_
 8	5.3	5.3	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Emissões de HC para diferentes combustíveis Podemos constatar os maiores níveis de emissão para a gasolina.
-# sent_id = 176-20141015-MONOGRAFIA_0-233
+# sent_id = 176-20141015-MONOGRAFIA_0-235
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	HC	HC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7289,7 +7284,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Isso se deve ao fato do motor operar afastado da razão A/C estequiométrica para este combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-234
+# sent_id = 176-20141015-MONOGRAFIA_0-236
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7315,7 +7310,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Observamos também os menores níveis de HC nas emissões do motor operando com biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-235
+# sent_id = 176-20141015-MONOGRAFIA_0-237
 1	Observamos	Observar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	também	também	ADV	_	_	1	advmod	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -7337,18 +7332,18 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 5.1.4.
-# sent_id = 176-20141015-MONOGRAFIA_0-236
+# sent_id = 176-20141015-MONOGRAFIA_0-238
 1	5.1.4	5.1.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE NOx
-# sent_id = 176-20141015-MONOGRAFIA_0-237
+# sent_id = 176-20141015-MONOGRAFIA_0-239
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = As emissões de óxidos de nitrogênio estão relacionadas à concentração de oxigênio no combustível, bem como a altas temperaturas e pressões atingidas durante o processo de combustão.
-# sent_id = 176-20141015-MONOGRAFIA_0-238
+# sent_id = 176-20141015-MONOGRAFIA_0-240
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7384,7 +7379,7 @@
 31	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Alguns estudos comprovam a influência destes fatores nos níveis de emissões de NOx, como pode ser visto em Gökalp et al.[20]e Rakopoulos et al. [21].
-# sent_id = 176-20141015-MONOGRAFIA_0-239
+# sent_id = 176-20141015-MONOGRAFIA_0-241
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	comprovam	comprovar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7421,7 +7416,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Ambos os autores realizaram testes em motores de ignição por compressão operando com biodiesel, e constataram um aumento das taxas de emissão de NOx quando comparadas ao uso do diesel convencional, o que pode ser explicado pela maior concentração de O2 no combustível e a melhor combustão promovida por tal mistura.
-# sent_id = 176-20141015-MONOGRAFIA_0-240
+# sent_id = 176-20141015-MONOGRAFIA_0-242
 1	Ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	autores	autor	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -7488,7 +7483,7 @@
 59	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Abaixo podemos ver a comparação para os três combustíveis diferentes utilizados nesse experimento: Tabela 5.4
-# sent_id = 176-20141015-MONOGRAFIA_0-241
+# sent_id = 176-20141015-MONOGRAFIA_0-243
 1	Abaixo	abaixo	ADV	_	_	2	advmod	_	_
 2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ver	ver	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -7504,12 +7499,12 @@
 12	em	em	ADP	_	_	14	case	_	_
 13	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	2	punct	_	_
+15	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 16	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 17	5.4	5.4	NUM	_	NumType=Card	16	nummod	_	_
 
 # text = Comparação das emissões de NOx Figura 5.4
-# sent_id = 176-20141015-MONOGRAFIA_0-242
+# sent_id = 176-20141015-MONOGRAFIA_0-244
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7521,7 +7516,7 @@
 8	5.4	5.4	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Emissões de NOx para diferentes combustíveis Podemos perceber que as maiores emissões são encontradas para o motor operando com GNV, o que pode ser explicado pelas maiores pressões e temperaturas atingidas na queima deste combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-243
+# sent_id = 176-20141015-MONOGRAFIA_0-245
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7567,7 +7562,7 @@
 40	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para o biogás, o fato de ser um gás com alta concentração de CO2 e, portanto baixo poder calorífico, torna o processo de combustão menos intenso, o que explica os menores níveis de emissões[9].
-# sent_id = 176-20141015-MONOGRAFIA_0-244
+# sent_id = 176-20141015-MONOGRAFIA_0-246
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	biogás	biogás	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -7608,15 +7603,15 @@
 38	emissões[	emissões[	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39	9	9	NUM	_	NumType=Card	36	nmod	_	SpaceAfter=No
 40	]	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
 
 # text = 5.1.5.
-# sent_id = 176-20141015-MONOGRAFIA_0-245
+# sent_id = 176-20141015-MONOGRAFIA_0-247
 1	5.1.5	5.1.5	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONSUMO ESPECÍFICO DE COMBUSTÍVEL E EFICIÊNCIA GLOBAL
-# sent_id = 176-20141015-MONOGRAFIA_0-246
+# sent_id = 176-20141015-MONOGRAFIA_0-248
 1	CONSUMO	Consumo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	ESPECÍFICO	específico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	DE	DE	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -7626,7 +7621,7 @@
 7	GLOBAL	Global	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Sabe-se que o CEC e a eficiência global são parâmetros inversamente proporcionais, como pode ser visto na equação (12).
-# sent_id = 176-20141015-MONOGRAFIA_0-247
+# sent_id = 176-20141015-MONOGRAFIA_0-249
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7656,7 +7651,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As tabelas e figuras a seguir mostram a comparação do desempenho do motor operando com os três combustíveis distintos:
-# sent_id = 176-20141015-MONOGRAFIA_0-248
+# sent_id = 176-20141015-MONOGRAFIA_0-250
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -7683,12 +7678,12 @@
 22	:	:	PUNCT	_	_	7	punct	_	_
 
 # text = Tabela 5.5
-# sent_id = 176-20141015-MONOGRAFIA_0-249
+# sent_id = 176-20141015-MONOGRAFIA_0-251
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.5	5.5	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Comparação do consumo específico Figura 5.5
-# sent_id = 176-20141015-MONOGRAFIA_0-250
+# sent_id = 176-20141015-MONOGRAFIA_0-252
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7699,7 +7694,7 @@
 7	5.5	5.5	NUM	_	NumType=Card	6	nummod	_	_
 
 # text = Consumo específico para diferentes combustíveis Tabela 5.6
-# sent_id = 176-20141015-MONOGRAFIA_0-251
+# sent_id = 176-20141015-MONOGRAFIA_0-253
 1	Consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	específico	específico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -7709,18 +7704,18 @@
 7	5.6	5.6	NUM	_	NumType=Card	6	nummod	_	_
 
 # text = Comparação da eficiência global Figura 5.6
-# sent_id = 176-20141015-MONOGRAFIA_0-252
+# sent_id = 176-20141015-MONOGRAFIA_0-254
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	global	global	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+5	global	global	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\s\n
 6	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 7	5.6	5.6	NUM	_	NumType=Card	6	nummod	_	_
 
 # text = Eficiência global para diferentes combustíveis Podemos observar a diminuição do CEC, e consequentemente o aumento da ηg, com o aumento da carga a que o motor está submetido, o que mostra o melhor desempenho do motor em operação próximo a sua carga nominal.
-# sent_id = 176-20141015-MONOGRAFIA_0-253
+# sent_id = 176-20141015-MONOGRAFIA_0-255
 1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	global	global	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -7778,7 +7773,7 @@
 51	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Observa-se também a queda de desempenho para o motor operando com biogás, quando comparado com o GNV.
-# sent_id = 176-20141015-MONOGRAFIA_0-254
+# sent_id = 176-20141015-MONOGRAFIA_0-256
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7802,7 +7797,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os resultados se mostraram semelhantes aos obtidos em Crookes[9], o que pode ser explicado pela melhor relação consumo/potência obtida pelo gás natural.
-# sent_id = 176-20141015-MONOGRAFIA_0-255
+# sent_id = 176-20141015-MONOGRAFIA_0-257
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl	_	_
@@ -7837,12 +7832,12 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 5.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-256
+# sent_id = 176-20141015-MONOGRAFIA_0-258
 1	5.2	5.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = ENSAIOS COM BIOGÁS – INFLUÊNCIA DA VARIAÇÃO DA RELAÇÃO AR-COMBUSTÍVEL
-# sent_id = 176-20141015-MONOGRAFIA_0-257
+# sent_id = 176-20141015-MONOGRAFIA_0-259
 1	ENSAIOS	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	COM	com	ADP	_	_	3	case	_	_
 3	BIOGÁS	BIOGÁS	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7859,7 +7854,7 @@
 12	AR-COMBUSTÍVEL	AR-COMBUSTÍVEL	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = Este capítulo se dedica a analisar a influência da razão A/C, representada no fator λ, nas emissões e desempenho do motor operando com biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-258
+# sent_id = 176-20141015-MONOGRAFIA_0-260
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -7897,18 +7892,18 @@
 31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 5.2.1.
-# sent_id = 176-20141015-MONOGRAFIA_0-259
+# sent_id = 176-20141015-MONOGRAFIA_0-261
 1	5.2.1	5.2.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE CO2
-# sent_id = 176-20141015-MONOGRAFIA_0-260
+# sent_id = 176-20141015-MONOGRAFIA_0-262
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Sabemos que a combustão completa ocorre na razão A/C estequiométrica, e consequentemente, maior deverá ser a taxa de emissão de CO2 nesta região[9].
-# sent_id = 176-20141015-MONOGRAFIA_0-261
+# sent_id = 176-20141015-MONOGRAFIA_0-263
 1	Sabemos	sabar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7942,7 +7937,7 @@
 29	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A figura abaixo mostra o comportamento do motor estudado quando aumentamos a restrição à entrada de ar no misturador:
-# sent_id = 176-20141015-MONOGRAFIA_0-262
+# sent_id = 176-20141015-MONOGRAFIA_0-264
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	abaixo	abaixo	ADV	_	_	4	advmod	_	_
@@ -7968,16 +7963,16 @@
 20	em	em	ADP	_	_	22	case	_	_
 21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	misturador	misturador	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	4	punct	_	_
+23	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 
 # text = Figura 5.7
-# sent_id = 176-20141015-MONOGRAFIA_0-263
+# sent_id = 176-20141015-MONOGRAFIA_0-265
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.7	.7	NUM	_	NumType=Card	2	flat	_	_
 
 # text = Emissões de CO2 em função da razão λ Podemos constataradiminuição das emissões de CO2 conforme a razão λse afasta da região estequimétrica.
-# sent_id = 176-20141015-MONOGRAFIA_0-264
+# sent_id = 176-20141015-MONOGRAFIA_0-266
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8009,7 +8004,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As regiões de mistura rica (λ> 1)[22], apesar de apresentarem menores níveis de CO2, o fazem em detrimento da queima de combustível, ou seja, níveis mais elevados de hidrocarbonetos nãoqueimados e CO. 5.2.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-265
+# sent_id = 176-20141015-MONOGRAFIA_0-267
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	regiões	região	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8057,13 +8052,13 @@
 44	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = EMISSÕES DE CO
-# sent_id = 176-20141015-MONOGRAFIA_0-266
+# sent_id = 176-20141015-MONOGRAFIA_0-268
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	CO	CO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Com relação ao CO, vemos que apresenta tendência inversa ao CO2, tendo em vista que maiores emissões deste gás estão associadas a um processo ineficiente de queima, o que ocorre justamente nas regiões de mistura pobre[17].
-# sent_id = 176-20141015-MONOGRAFIA_0-267
+# sent_id = 176-20141015-MONOGRAFIA_0-269
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -8113,10 +8108,10 @@
 43	pobre[	pobre[	PUNCT	_	_	44	punct	_	SpaceAfter=No
 44	17	17	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
 45	]	_	PUNCT	_	_	44	punct	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.8 Emissões de CO em função da razão λ Acima podemos observar os baixos níveis de CO apresentados para razão λ próxima a 1. 5.2.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-268
+# sent_id = 176-20141015-MONOGRAFIA_0-270
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5.8	5.8	NUM	_	NumType=Card	3	nummod	_	_
 3	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -8148,7 +8143,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE HC Altas taxas de emissão de hidrocarbonetos não queimados usualmente acompanham níveias altos também de CO, já que ambos provêm de processos incipientes de combustão[17].
-# sent_id = 176-20141015-MONOGRAFIA_0-269
+# sent_id = 176-20141015-MONOGRAFIA_0-271
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	HC	HC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8182,7 +8177,7 @@
 31	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A partida de motores a frio, por exemplo, geralmente acarreta maiores níveis de CO e HC presentes nos gases de exaustão, já que as baixas temperaturas e pressões alcançadas no cilindro se mostram insuficientes para manter a queima completa do combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-270
+# sent_id = 176-20141015-MONOGRAFIA_0-272
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	partida	partida	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8233,16 +8228,16 @@
 45	de	de	ADP	_	_	47	case	_	_
 46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+48	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.9
-# sent_id = 176-20141015-MONOGRAFIA_0-271
+# sent_id = 176-20141015-MONOGRAFIA_0-273
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.9	.9	NUM	_	NumType=Card	2	flat	_	_
 
 # text = Emissões de HC em função da razão λ Na figura acima podemos ver o declínio dos níveis de HC acompanhando o aumento da razão λ.
-# sent_id = 176-20141015-MONOGRAFIA_0-272
+# sent_id = 176-20141015-MONOGRAFIA_0-274
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	HC	HC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8279,7 +8274,7 @@
 30	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Comportamento idêntico pode ser observado no estudo desenvolvido por Crookes[9].
-# sent_id = 176-20141015-MONOGRAFIA_0-273
+# sent_id = 176-20141015-MONOGRAFIA_0-275
 1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	idêntico	idêntico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8297,12 +8292,12 @@
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 5.2.4.
-# sent_id = 176-20141015-MONOGRAFIA_0-274
+# sent_id = 176-20141015-MONOGRAFIA_0-276
 1	5.2.4	5.2.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE NOx Podemos observar o aumento das emissões de NOx para o motor operando com misturas ricas.
-# sent_id = 176-20141015-MONOGRAFIA_0-275
+# sent_id = 176-20141015-MONOGRAFIA_0-277
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8326,7 +8321,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Como explicado anteriormente, a formação do NOx está relacionado a maior liberação de calor na combustão e, consequentemente, as maiores temperaturas atingidas [23].
-# sent_id = 176-20141015-MONOGRAFIA_0-276
+# sent_id = 176-20141015-MONOGRAFIA_0-278
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	explicado	explicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -8362,12 +8357,12 @@
 31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 5.10
-# sent_id = 176-20141015-MONOGRAFIA_0-277
+# sent_id = 176-20141015-MONOGRAFIA_0-279
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.10	5.10	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emissões de NOx em função da razão λ 5.2.5.
-# sent_id = 176-20141015-MONOGRAFIA_0-278
+# sent_id = 176-20141015-MONOGRAFIA_0-280
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8377,19 +8372,19 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	razão	razão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	λ	λ	PROPN	_	Number=Sing	8	appos	_	_
+9	λ	λ	PROPN	_	Number=Sing	8	appos	_	SpacesAfter=\s\n
 10	5.2.5	5.2.5	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONSUMO ESPECÍFICO DE COMBUSTÍVEL
-# sent_id = 176-20141015-MONOGRAFIA_0-279
+# sent_id = 176-20141015-MONOGRAFIA_0-281
 1	CONSUMO	Consumo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	ESPECÍFICO	específico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	DE	DE	PROPN	_	Number=Sing	1	flat:name	_	_
 4	COMBUSTÍVEL	combustível	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = E EFICIÊNCIA GLOBAL Porpathamet al.
-# sent_id = 176-20141015-MONOGRAFIA_0-280
+# sent_id = 176-20141015-MONOGRAFIA_0-282
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	EFICIÊNCIA	eficiência	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	GLOBAL	Global	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -8398,7 +8393,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = [8] mostraram em seu estudo que o aumento da relação A/C leva ao aumento na potência indicada, com o pico usualmente localizado em regiões de mistura levemente ricas.
-# sent_id = 176-20141015-MONOGRAFIA_0-281
+# sent_id = 176-20141015-MONOGRAFIA_0-283
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	8	8	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
@@ -8439,7 +8434,7 @@
 35	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Podemos observar que esse aumento na potência se reflete no CEC e ηg do motor, como mostrado nas figuras a seguir:
-# sent_id = 176-20141015-MONOGRAFIA_0-282
+# sent_id = 176-20141015-MONOGRAFIA_0-284
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	observar	observar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	10	mark	_	_
@@ -8473,12 +8468,12 @@
 27	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Figura 5.11
-# sent_id = 176-20141015-MONOGRAFIA_0-283
+# sent_id = 176-20141015-MONOGRAFIA_0-285
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.11	5.11	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consumo específico em função da razãoλ Figura 5.12
-# sent_id = 176-20141015-MONOGRAFIA_0-284
+# sent_id = 176-20141015-MONOGRAFIA_0-286
 1	Consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	específico	específico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -8491,7 +8486,7 @@
 9	5.12	5.12	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Eficiência global em função da razão λ 5.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-285
+# sent_id = 176-20141015-MONOGRAFIA_0-287
 1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	global	global	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -8500,12 +8495,12 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	razão	razão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	λ	λ	PROPN	_	Number=Sing	7	flat:name	_	_
+8	λ	λ	PROPN	_	Number=Sing	7	flat:name	_	SpacesAfter=\s\n
 9	5.3	5.3	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = ENSAIOS COM BIOGÁS – INFLUÊNCIA DA VARIAÇÃO DO AVANÇO DE IGNIÇÃO
-# sent_id = 176-20141015-MONOGRAFIA_0-286
+# sent_id = 176-20141015-MONOGRAFIA_0-288
 1	ENSAIOS	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	COM	com	ADP	_	_	3	case	_	_
 3	BIOGÁS	BIOGÁS	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8523,7 +8518,7 @@
 13	IGNIÇÃO	IGNIÇÃO	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = O capítulo a seguir tem como objetivo estudar a influência do avanço de ignição nas emissões e desempenho do motor operando com biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-287
+# sent_id = 176-20141015-MONOGRAFIA_0-289
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	a	a	ADP	_	_	4	case	_	_
@@ -8556,12 +8551,12 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 5.3.1.
-# sent_id = 176-20141015-MONOGRAFIA_0-288
+# sent_id = 176-20141015-MONOGRAFIA_0-290
 1	5.3.1	5.3.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE CO2 Podemos perceber pela análise da figura abaixo que para o motor operando em 25, 50 e 75% da carga máxima, as maiores emissões de CO2 se encontram no avanço de ignição de 31° apms, indicando a melhor combustão do biogás para esse ponto.
-# sent_id = 176-20141015-MONOGRAFIA_0-289
+# sent_id = 176-20141015-MONOGRAFIA_0-291
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8625,12 +8620,12 @@
 56	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 5.13
-# sent_id = 176-20141015-MONOGRAFIA_0-290
+# sent_id = 176-20141015-MONOGRAFIA_0-292
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.13	5.13	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emissões de CO2 em função do avanço de ignição 5.3.2.
-# sent_id = 176-20141015-MONOGRAFIA_0-291
+# sent_id = 176-20141015-MONOGRAFIA_0-293
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8646,7 +8641,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE CO Como já mencionado anteriormente, as emissões de CO2e CO seguem tendências inversas, sendo que ambas indicam o quão completa está sendo a queima do combustível.
-# sent_id = 176-20141015-MONOGRAFIA_0-292
+# sent_id = 176-20141015-MONOGRAFIA_0-294
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	CO	CO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8682,7 +8677,7 @@
 32	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Percebemos na figura abaixo que para todas as cargas, com exceção da carga máxima, os menores níveis de emissões de CO são encontrados para o avanço de 31° apms.
-# sent_id = 176-20141015-MONOGRAFIA_0-293
+# sent_id = 176-20141015-MONOGRAFIA_0-295
 1	Percebemos	percebar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -8718,15 +8713,15 @@
 31	de	de	ADP	_	_	32	case	_	_
 32	31°	31°	PROPN	_	Number=Sing	30	nmod	_	_
 33	apms	apms	PROPN	_	Number=Sing	32	flat:name	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.14
-# sent_id = 176-20141015-MONOGRAFIA_0-294
+# sent_id = 176-20141015-MONOGRAFIA_0-296
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.14	5.14	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emissões de CO em função do avanço de ignição 5.3.3.
-# sent_id = 176-20141015-MONOGRAFIA_0-295
+# sent_id = 176-20141015-MONOGRAFIA_0-297
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	CO	CO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8742,13 +8737,13 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE HC
-# sent_id = 176-20141015-MONOGRAFIA_0-296
+# sent_id = 176-20141015-MONOGRAFIA_0-298
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	HC	HC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A figura abaixo apresenta a evolução das emisões de HC conforme aumentamos o avanço de ignição.
-# sent_id = 176-20141015-MONOGRAFIA_0-297
+# sent_id = 176-20141015-MONOGRAFIA_0-299
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	abaixo	abaixo	ADV	_	_	4	advmod	_	_
@@ -8770,7 +8765,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Podemos observar que os maiores níveis de HC são encontrados para o ponto de ignição de 53°.
-# sent_id = 176-20141015-MONOGRAFIA_0-298
+# sent_id = 176-20141015-MONOGRAFIA_0-300
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	observar	observar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	10	mark	_	_
@@ -8791,7 +8786,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os menores níveis de emissões foram encontrados para o avanço de ignição original, de 31°.
-# sent_id = 176-20141015-MONOGRAFIA_0-299
+# sent_id = 176-20141015-MONOGRAFIA_0-301
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	menores	pequeno	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
@@ -8811,12 +8806,12 @@
 17	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 5.15
-# sent_id = 176-20141015-MONOGRAFIA_0-300
+# sent_id = 176-20141015-MONOGRAFIA_0-302
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.15	5.15	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emissões de HC em função do avanço de ignição 5.3.4.
-# sent_id = 176-20141015-MONOGRAFIA_0-301
+# sent_id = 176-20141015-MONOGRAFIA_0-303
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	HC	HC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8827,12 +8822,12 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+10	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\s\n
 11	5.3.4	5.3.4	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = EMISSÕES DE NOX Podemos observar na figura abaixo o aumento das emissões de NOx para maiores avanços de ignição.
-# sent_id = 176-20141015-MONOGRAFIA_0-302
+# sent_id = 176-20141015-MONOGRAFIA_0-304
 1	EMISSÕES	emissão	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	NOX	NOX	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8859,7 +8854,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Por ser um gás com baixa velocidade de propagação de chama [10], o biogás usualmente apresenta maiores temperaturas de combustão para pontos de ignição adiantados, o que causará o aumento nos níveis de NOx.
-# sent_id = 176-20141015-MONOGRAFIA_0-303
+# sent_id = 176-20141015-MONOGRAFIA_0-305
 1	Por	por	ADP	_	_	4	case	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	4	cop	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -8903,12 +8898,12 @@
 40	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = Figura 5.16
-# sent_id = 176-20141015-MONOGRAFIA_0-304
+# sent_id = 176-20141015-MONOGRAFIA_0-306
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.16	5.16	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emissões de NOx em função do avanção de ignição 5.3.5.
-# sent_id = 176-20141015-MONOGRAFIA_0-305
+# sent_id = 176-20141015-MONOGRAFIA_0-307
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8924,20 +8919,20 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONSUMO ESPECÍFICO DE COMBUSTÍVEL
-# sent_id = 176-20141015-MONOGRAFIA_0-306
+# sent_id = 176-20141015-MONOGRAFIA_0-308
 1	CONSUMO	Consumo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	ESPECÍFICO	específico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	DE	DE	PROPN	_	Number=Sing	1	flat:name	_	_
 4	COMBUSTÍVEL	combustível	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = E EFICIÊNCIA GLOBAL
-# sent_id = 176-20141015-MONOGRAFIA_0-307
+# sent_id = 176-20141015-MONOGRAFIA_0-309
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	EFICIÊNCIA	eficiência	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	GLOBAL	Global	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = As figuras a seguir mostram o menor CEC (maior eficiência global) para o motor operando com o avanço de 53° apms, com exceção para a operação em carga máxima.
-# sent_id = 176-20141015-MONOGRAFIA_0-308
+# sent_id = 176-20141015-MONOGRAFIA_0-310
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	a	a	SCONJ	_	_	4	mark	_	_
@@ -8973,7 +8968,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Como mencionado anteriormente, o biogás apresenta baixa velocidade de propagação de chama, logo, maiores avanços tendem a minimizar os efeitos dessa propriedade, levando a ganhos no desempenho do motor.
-# sent_id = 176-20141015-MONOGRAFIA_0-309
+# sent_id = 176-20141015-MONOGRAFIA_0-311
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -9013,15 +9008,15 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	motor	motor	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.17
-# sent_id = 176-20141015-MONOGRAFIA_0-310
+# sent_id = 176-20141015-MONOGRAFIA_0-312
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5.17	5.17	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consumo específico em função do avanço de ignição Figura 5.18
-# sent_id = 176-20141015-MONOGRAFIA_0-311
+# sent_id = 176-20141015-MONOGRAFIA_0-313
 1	Consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 2	específico	específico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -9036,7 +9031,7 @@
 11	5.18	5.18	NUM	_	NumType=Card	10	obj	_	_
 
 # text = Eficiência global em função do avanço de ignição 6.
-# sent_id = 176-20141015-MONOGRAFIA_0-312
+# sent_id = 176-20141015-MONOGRAFIA_0-314
 1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	global	global	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -9046,12 +9041,12 @@
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+9	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\s\n
 10	6	6	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONCLUSÃO Devido ao baixo poder calorífico (PCI), o biogás apresentou maior consumo de combustível em relação ao mesmo motor operando com gasolina ou gás natural.
-# sent_id = 176-20141015-MONOGRAFIA_0-313
+# sent_id = 176-20141015-MONOGRAFIA_0-315
 1	CONCLUSÃO	conclusão	ADV	_	_	2	advmod	_	_
 2	Devido	devido	ADV	_	_	14	advmod	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -9087,7 +9082,7 @@
 31	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Os valores de emissões nos gases de exaustão nos testes realizados com biogás foram inferiores aos do mesmo motor operando com gasolina e semelhantes aos resultados obtidos com o gás natural.
-# sent_id = 176-20141015-MONOGRAFIA_0-314
+# sent_id = 176-20141015-MONOGRAFIA_0-316
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9132,7 +9127,7 @@
 37	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A exceção é o caso das emissões de CO2, já presente em grande quantidade no biogás.
-# sent_id = 176-20141015-MONOGRAFIA_0-315
+# sent_id = 176-20141015-MONOGRAFIA_0-317
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	exceção	exceção	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -9157,7 +9152,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No caso do NOx, o gás natural apresenta valores mais elevados devido as temperaturas mais altas atingidas durante seu processo de queima, enquanto que se mantem praticamente constante para a gasolina e o biogás, uma vez que o CO2 presente no gás de esgoto tem um efeito diluente, diminuindo a intensidade de sua combustão.
-# sent_id = 176-20141015-MONOGRAFIA_0-316
+# sent_id = 176-20141015-MONOGRAFIA_0-318
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9225,7 +9220,7 @@
 62	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Na segunda etapa dos ensaios, pode-se constatar que é possível amenizar as emissões de HC e de CO diminuindo a restrição à entrada de ar no misturador, ou seja, aumentando-se a razão λ.
-# sent_id = 176-20141015-MONOGRAFIA_0-317
+# sent_id = 176-20141015-MONOGRAFIA_0-319
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9277,7 +9272,7 @@
 43	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O fato pode ser explicado pela melhora na qualidade da combustão, já que nessas condições o motor opera mais próximo da região estequiométrica.
-# sent_id = 176-20141015-MONOGRAFIA_0-318
+# sent_id = 176-20141015-MONOGRAFIA_0-320
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9315,14 +9310,14 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = As taxas de CO2e
-# sent_id = 176-20141015-MONOGRAFIA_0-319
+# sent_id = 176-20141015-MONOGRAFIA_0-321
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	taxas	taxa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	CO2e	CO2e	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = NOxseguem tendência inversa, aumentando de valor.
-# sent_id = 176-20141015-MONOGRAFIA_0-320
+# sent_id = 176-20141015-MONOGRAFIA_0-322
 1	NOxseguem	NOxseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	inversa	inverso	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
@@ -9333,7 +9328,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na terceira etapa o menor consumo específico de combustível é encontrado para o maior avanço de ignição (53° apms), o que significa que para uma determinada potência, este avanço implica em menor consumo.
-# sent_id = 176-20141015-MONOGRAFIA_0-321
+# sent_id = 176-20141015-MONOGRAFIA_0-323
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9376,7 +9371,7 @@
 39	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Todavia, a operação nesse ponto está associada também a maiores níveis de emissões.
-# sent_id = 176-20141015-MONOGRAFIA_0-322
+# sent_id = 176-20141015-MONOGRAFIA_0-324
 1	Todavia	todavia	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9396,7 +9391,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Já as emissões de CO e HC são otimizadas no ponto de avanço original do motor, de 31° apms.
-# sent_id = 176-20141015-MONOGRAFIA_0-323
+# sent_id = 176-20141015-MONOGRAFIA_0-325
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
@@ -9424,7 +9419,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os valores mínimos de NOxsão encontrados em 21° apms, onde a combustão se apresenta ainda bastante incipiente, enquanto os níveis mais baixos de CO2 são encontrados no avanço de 53° apms.
-# sent_id = 176-20141015-MONOGRAFIA_0-324
+# sent_id = 176-20141015-MONOGRAFIA_0-326
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
 3	mínimos	mínimo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -9460,5 +9455,5 @@
 32	de	de	ADP	_	_	33	case	_	_
 33	53°	53°	PROPN	_	Number=Sing	31	nmod	_	_
 34	apms	apms	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n\n
 

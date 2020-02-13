@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 381-20160602-TESEMSC_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -548,7 +548,7 @@
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	prejudicando	prejudicar	VERB	_	VerbForm=Ger	10	advcl	_	_
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	valor	valor	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+32	valor	valor	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	SpacesAfter=\s\n
 33	nutritivo	nutritivo	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
 34-35	do	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	36	case	_	_
@@ -878,7 +878,7 @@
 42	como	como	ADP	_	_	44	case	_	_
 43	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 44	príons	príom	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+45	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 1 OBJETIVOS 1.1 Objetivos gerais Cultivo de Lentinula edodes (Shiitake) e o Pleurotus ostreatus (shimeji) no bagaço de cana-de-açúcar termo hidrolisado e biotransformação em relação ao tempo e aditivos nutricionais, visando obter uma biomassa com melhores condições nutricionais e proteicas para melhorar a utilização de bagaço termo hidrolisado como ração para ruminantes 1.2
 # sent_id = 381-20160602-TESEMSC_0-26
@@ -1069,7 +1069,7 @@
 109	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	110	det	_	_
 110	fermentação	fermentação	NOUN	_	Gender=Fem|Number=Sing	106	nmod	_	_
 111	fungica	fungico	ADJ	_	Gender=Fem|Number=Sing	110	amod	_	SpaceAfter=No
-112	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
+112	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n\n
 
 # text = 3
 # sent_id = 381-20160602-TESEMSC_0-28
@@ -1297,7 +1297,7 @@
 27	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
-# text = Segundo a União da Indústria de Cana-de-Açúcar (UNICA) em conjunto com os demais sindicatos e associações de produtores da região Centro-Sul do Brasil e o Centro de Tecnologia Canavieira (CTC), há uma estimativa para a safra 2015/2016 de cana-de- açúcar de 590.00 milhões de toneladas, crescimento de 18,66 milhões de toneladas em relação ao total processado na safra de 2014/2015, que somou 571,34 milhões de toneladas.
+# text = Segundo a União da Indústria de Cana-de-Açúcar (UNICA) em conjunto com os demais sindicatos e associações de produtores da região Centro-Sul do Brasil e o Centro de Tecnologia Canavieira (CTC), há uma estimativa para a safra 2015/2016 de cana-de-açúcar de 590.00 milhões de toneladas, crescimento de 18,66 milhões de toneladas em relação ao total processado na safra de 2014/2015, que somou 571,34 milhões de toneladas.
 # sent_id = 381-20160602-TESEMSC_0-38
 1	Segundo	segundo	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1346,44 +1346,42 @@
 42	para	para	ADP	_	_	44	case	_	_
 43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	safra	safra	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	_
-45	2015/2016	2015/2016	NOUN	_	Gender=Fem|Number=Plur	41	appos	_	_
+45	2015/2016	2015/2016	NOUN	_	Gender=Masc|Number=Sing	41	appos	_	_
 46	de	de	ADP	_	_	47	case	_	_
-47	cana-de	cana-de	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
-48	-	-	PUNCT	_	_	49	punct	_	_
-49	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	45	appos	_	_
-50	de	de	ADP	_	_	51	case	_	_
-51	590.00	590.00	NUM	_	NumType=Card	49	nmod	_	_
-52	milhões	milhão	NUM	_	NumType=Card	51	flat	_	_
-53	de	de	ADP	_	_	54	case	_	_
-54	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	51	nmod	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	56	punct	_	_
-56	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	51	appos	_	_
-57	de	de	ADP	_	_	58	case	_	_
-58	18,66	18,66	NUM	_	NumType=Card	56	nmod	_	_
-59	milhões	milhão	NUM	_	NumType=Card	58	flat	_	_
-60	de	de	ADP	_	_	61	case	_	_
-61	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	58	nmod	_	_
-62	em	em	ADP	_	_	63	case	_	_
-63	relação	relação	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
-64-65	ao	_	_	_	_	_	_	_	_
-64	a	a	ADP	_	_	66	case	_	_
-65	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
-66	total	total	NOUN	_	Gender=Masc|Number=Sing	63	nmod	_	_
-67	processado	processar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	66	acl	_	_
-68-69	na	_	_	_	_	_	_	_	_
-68	em	em	ADP	_	_	70	case	_	_
-69	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
-70	safra	safra	NOUN	_	Gender=Fem|Number=Sing	67	obl	_	_
-71	de	de	ADP	_	_	72	case	_	_
-72	2014/2015	2014/2015	NOUN	_	Gender=Fem|Number=Plur	70	nmod	_	SpaceAfter=No
-73	,	,	PUNCT	_	_	67	punct	_	_
-74	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	75	nsubj	_	_
-75	somou	somar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	acl:relcl	_	_
-76	571,34	571,34	NUM	_	NumType=Card	75	obj	_	_
-77	milhões	milhão	NUM	_	NumType=Card	76	flat	_	_
-78	de	de	ADP	_	_	79	case	_	_
-79	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	76	nmod	_	SpaceAfter=No
-80	.	.	PUNCT	_	_	39	punct	_	_
+47	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	_
+48	de	de	ADP	_	_	49	case	_	_
+49	590.00	590.00	NUM	_	NumType=Card	47	nmod	_	_
+50	milhões	milhão	NUM	_	NumType=Card	49	flat	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	49	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	54	punct	_	_
+54	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	45	appos	_	_
+55	de	de	ADP	_	_	56	case	_	_
+56	18,66	18,66	NUM	_	NumType=Card	54	nmod	_	_
+57	milhões	milhão	NUM	_	NumType=Card	56	flat	_	_
+58	de	de	ADP	_	_	59	case	_	_
+59	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	56	nmod	_	_
+60	em	em	ADP	_	_	64	case	_	_
+61	relação	relação	NOUN	_	Gender=Fem|Number=Sing	60	fixed	_	_
+62-63	ao	_	_	_	_	_	_	_	_
+62	a	a	ADP	_	_	60	fixed	_	_
+63	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	total	total	NOUN	_	Gender=Masc|Number=Sing	65	nmod	_	_
+65	processado	processar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	39	acl	_	_
+66-67	na	_	_	_	_	_	_	_	_
+66	em	em	ADP	_	_	68	case	_	_
+67	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+68	safra	safra	NOUN	_	Gender=Fem|Number=Sing	65	obl	_	_
+69	de	de	ADP	_	_	70	case	_	_
+70	2014/2015	2014/2015	NOUN	_	Gender=Fem|Number=Plur	68	nmod	_	SpaceAfter=No
+71	,	,	PUNCT	_	_	39	punct	_	_
+72	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	73	nsubj	_	_
+73	somou	somar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	_	_
+74	571,34	571,34	NUM	_	NumType=Card	73	obj	_	_
+75	milhões	milhão	NUM	_	NumType=Card	74	flat	_	_
+76	de	de	ADP	_	_	77	case	_	_
+77	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	74	nmod	_	SpaceAfter=No
+78	.	.	PUNCT	_	_	39	punct	_	_
 
 # text = Com esta avaliação o Brasil assume liderança na comparação mundial de produção de cana (UNICA,2015).
 # sent_id = 381-20160602-TESEMSC_0-39
@@ -1631,7 +1629,7 @@
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	1	1	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	2	punct	_	_
+5	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 
 # text = Figura 1: Mapa da distribuição da produção de cana de açúcar no território brasileiro (UNICA, 2012)
 # sent_id = 381-20160602-TESEMSC_0-45
@@ -1931,7 +1929,7 @@
 29	;	;	PUNCT	_	_	19	punct	_	_
 30	2010	2010	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Segundo a UNICA (2015) estima-se que em 2020 a produção de eletricidade deste setor poderá atingir 15% da matriz brasileira (hoje representa 3,7%), considerando uma estimativa de produção de 1 bilhão de toneladas de cana.
 # sent_id = 381-20160602-TESEMSC_0-57
@@ -2445,7 +2443,7 @@
 37	sucroalcooleira	sucroalcooleiro	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Assim, quando se analisa as condições da pecuária brasileira, verifica-se que há coincidência entre o período de safra de cana- de-açúcar e o período de seca e de falta de alimento para ruminantes em regiões do Brasil tanto no Sudeste como o nordeste (SILVA et al; 2007).
+# text = Assim, quando se analisa as condições da pecuária brasileira, verifica-se que há coincidência entre o período de safra de cana-de-açúcar e o período de seca e de falta de alimento para ruminantes em regiões do Brasil tanto no Sudeste como o nordeste (SILVA et al; 2007).
 # sent_id = 381-20160602-TESEMSC_0-69
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -2472,43 +2470,41 @@
 21	de	de	ADP	_	_	22	case	_	_
 22	safra	safra	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 23	de	de	ADP	_	_	24	case	_	_
-24	cana	cana	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-25	-	-	PUNCT	_	_	26	punct	_	_
-26	de-açúcar	de-açúcar	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
-27	e	e	CCONJ	_	_	29	cc	_	_
-28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	período	período	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	seca	seca	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-32	e	e	CCONJ	_	_	34	cc	_	_
+24	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	período	período	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	seca	seca	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+30	e	e	CCONJ	_	_	32	cc	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	falta	falta	NOUN	_	Gender=Fem|Number=Sing	29	conj	_	_
 33	de	de	ADP	_	_	34	case	_	_
-34	falta	falta	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	alimento	alimento	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-37	para	para	ADP	_	_	38	case	_	_
-38	ruminantes	ruminante	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
-39	em	em	ADP	_	_	40	case	_	_
-40	regiões	região	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
-41-42	do	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-44	tanto	tanto	ADV	_	_	47	cc	_	_
-45-46	no	_	_	_	_	_	_	_	_
-45	em	em	ADP	_	_	47	case	_	_
-46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	Sudeste	Sudeste	PROPN	_	Gender=Masc|Number=Sing	50	nmod	_	_
-48	como	como	ADP	_	_	50	case	_	_
-49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	nordeste	nordeste	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	SILVA	SILVA	PROPN	_	Gender=Fem|Number=Sing	50	appos	_	_
-53	et	et	X	_	Number=Sing	52	flat:name	_	_
-54	al	al	ADP	_	_	56	case	_	SpaceAfter=No
-55	;	;	PUNCT	_	_	56	punct	_	_
-56	2007	2007	NUM	_	NumType=Card	52	nmod	_	SpaceAfter=No
-57	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	13	punct	_	_
+34	alimento	alimento	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+35	para	para	ADP	_	_	36	case	_	_
+36	ruminantes	ruminante	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+37	em	em	ADP	_	_	38	case	_	_
+38	regiões	região	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+39-40	do	_	_	_	_	_	_	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	38	nmod	_	SpacesAfter=\s\n
+42	tanto	tanto	ADV	_	_	45	cc	_	_
+43-44	no	_	_	_	_	_	_	_	_
+43	em	em	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Sudeste	Sudeste	PROPN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+46	como	como	ADP	_	_	48	case	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	nordeste	nordeste	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	SILVA	SILVA	PROPN	_	Gender=Fem|Number=Sing	48	appos	_	_
+51	et	et	X	_	Number=Sing	50	flat:name	_	_
+52	al	al	ADP	_	_	54	case	_	SpaceAfter=No
+53	;	;	PUNCT	_	_	54	punct	_	_
+54	2007	2007	NUM	_	NumType=Card	50	nmod	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Considerando que o bagaço representa uma fonte potencial de alimento para animais ruminantes este pode ser utilizado para minimizar o problema.
 # sent_id = 381-20160602-TESEMSC_0-70
@@ -2974,40 +2970,40 @@
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	_
 
-# text = Devido a sua composição, o material mesmo depois de fragmentado apresenta- se de difícil digestão dado a resistência das fibras (TEIXEIRA et al; 2007).
+# text = Devido a sua composição, o material mesmo depois de fragmentado apresenta-se de difícil digestão dado a resistência das fibras (TEIXEIRA et al; 2007).
 # sent_id = 381-20160602-TESEMSC_0-83
 1	Devido	devido	ADV	_	_	12	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
-4	composição	composição	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	composição	composição	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	material	material	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 8	mesmo	mesmo	ADV	_	_	9	advmod	_	_
-9	depois	depois	ADV	_	_	7	advmod	_	_
+9	depois	depois	ADV	_	_	12	advmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	fragmentado	fragmentado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-12	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	-	-	SYM	_	_	18	nsubj	_	_
-14	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	difícil	difícil	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-17	digestão	digestão	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-18	dado	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21-22	das	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	23	case	_	_
-22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
-23	fibras	fibra	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	TEIXEIRA	Teixeira	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
-26	et	et	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
-27	al	al	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
-28	;	;	PUNCT	_	_	26	punct	_	_
-29	2007	2007	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+12-13	apresenta-se	_	_	_	_	_	_	_	_
+12	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	difícil	difícil	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	digestão	digestão	NOUN	_	Gender=Masc|Number=Sing	12	xcomp	_	_
+17	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	fibras	fibra	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	TEIXEIRA	Teixeira	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
+25	et	et	X	_	Number=Sing	24	flat:name	_	_
+26	al	al	ADP	_	_	28	case	_	SpaceAfter=No
+27	;	;	PUNCT	_	_	28	punct	_	_
+28	2007	2007	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 1: Componentes principais do bagaço de cana e seus respectivos teores energéticos.
 # sent_id = 381-20160602-TESEMSC_0-84
@@ -3253,7 +3249,7 @@
 42	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = A lignina é composta por um polímero heterogêneo e complexo e sua fórmula química é constituída pela polimerização de três diferentes monômeros: álcool trans-para-cumárico, álcool-trans-coniferílico e álcool- trans-sinapílico, também chamados de monolignóis (Figura 2D) (SUHAS et al; 2007).
+# text = A lignina é composta por um polímero heterogêneo e complexo e sua fórmula química é constituída pela polimerização de três diferentes monômeros: álcool trans-para-cumárico, álcool-trans-coniferílico e álcool-trans-sinapílico, também chamados de monolignóis (Figura 2D) (SUHAS et al; 2007).
 # sent_id = 381-20160602-TESEMSC_0-93
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -3285,26 +3281,24 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	álcool-trans-coniferílico	álcool-trans-coniferílico	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	_
 29	e	e	CCONJ	_	_	30	cc	_	_
-30	álcool	álcool	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
-31	-	-	PUNCT	_	_	32	punct	_	_
-32	trans-sinapílico	trans-sinapílico	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	32	punct	_	_
-34	também	também	ADV	_	_	35	advmod	_	_
-35	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	25	acl	_	_
-36	de	de	ADP	_	_	37	case	_	_
-37	monolignóis	monolignol	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	_
-38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	37	appos	_	_
-40	2D	2D	PROPN	_	Number=Sing	39	flat:name	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	39	punct	_	_
-42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	SUHAS	SUHAS	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
-44	et	et	X	_	Number=Sing	43	flat:name	_	_
-45	al	al	ADP	_	_	47	case	_	SpaceAfter=No
-46	;	;	PUNCT	_	_	47	punct	_	_
-47	2007	2007	NUM	_	NumType=Card	43	nmod	_	SpaceAfter=No
-48	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+30	álcool-trans-sinapílico	álcool-trans-sinapílico	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	também	também	ADV	_	_	33	advmod	_	_
+33	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	25	acl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	monolignóis	monolignol	NOUN	_	Gender=Masc|Number=Plur	33	obl	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	35	appos	_	_
+38	2D	2D	PROPN	_	Number=Sing	37	flat:name	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	37	punct	_	_
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	SUHAS	SUHAS	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
+42	et	et	X	_	Number=Sing	41	flat:name	_	_
+43	al	al	ADP	_	_	45	case	_	SpaceAfter=No
+44	;	;	PUNCT	_	_	45	punct	_	_
+45	2007	2007	NUM	_	NumType=Card	41	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Sua estrutura é formada por unidades propano-fenólicas organizadas tridimensionalmente.
 # sent_id = 381-20160602-TESEMSC_0-94
@@ -3409,7 +3403,7 @@
 60	al	al	ADJ	_	Gender=Masc|Number=Sing	59	amod	_	SpaceAfter=No
 61	,	,	PUNCT	_	_	62	punct	_	_
 62	2007	2007	NUM	_	NumType=Card	37	conj	_	SpaceAfter=No
-63	)	)	PUNCT	_	_	8	punct	_	_
+63	)	)	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 
 # text = Fonte: SANTOS et. al,2001 e TUZZIN,2015 3.4
 # sent_id = 381-20160602-TESEMSC_0-97
@@ -3620,7 +3614,7 @@
 6-7	ao	_	_	_	_	_	_	_	_
 6	a	a	ADP	_	_	9	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	9	det	_	_
+8	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	9	det	_	SpacesAfter=\s\n
 9	potencial	potencial	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -3740,7 +3734,7 @@
 28	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = As endo-(1,4)-β-D-glucanases (EC 3.2.1.4) hidrolisam ligações internas (β- 1,4), preferencialmente nas regiões amorfas que são mais suscetíveis, deste modo o grau de polimerização é menor, produzindo terminais reduzidos e não-reduzidos.
+# text = As endo-(1,4)-β-D-glucanases (EC 3.2.1.4) hidrolisam ligações internas (β-1,4), preferencialmente nas regiões amorfas que são mais suscetíveis, deste modo o grau de polimerização é menor, produzindo terminais reduzidos e não-reduzidos.
 # sent_id = 381-20160602-TESEMSC_0-110
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	endo-(	endo-(	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -3749,43 +3743,41 @@
 5	EC	EC	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
 6	3.2.1.4	3.2.1.4	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	5	punct	_	_
-8	hidrolisam	hidrolisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	_
+8	hidrolisam	hidrolisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
 9	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
 10	internas	interno	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	β	β	PROPN	_	Number=Sing	9	appos	_	SpaceAfter=No
-13	-	-	PUNCT	_	_	12	punct	_	_
-14	1,4	1,4	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	9	punct	_	_
-17	preferencialmente	preferencialmente	ADV	_	_	8	advmod	_	_
-18-19	nas	_	_	_	_	_	_	_	_
-18	em	em	ADP	_	_	20	case	_	_
-19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-20	regiões	região	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
-21	amorfas	amorfo	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
-22	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	25	nsubj	_	_
-23	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-24	mais	mais	ADV	_	_	25	advmod	_	_
-25	suscetíveis	suscetível	ADJ	_	Gender=Fem|Number=Plur	20	acl:relcl	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	29	punct	_	_
-27-28	deste	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
-29	modo	modo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	grau	grau	NOUN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	polimerização	polimerização	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-34	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
-35	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	37	punct	_	_
-37	produzindo	produzir	VERB	_	VerbForm=Ger	35	advcl	_	_
-38	terminais	terminal	NOUN	_	Gender=Masc|Number=Plur	37	obj	_	_
-39	reduzidos	reduzido	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	_
-40	e	e	CCONJ	_	_	41	cc	_	_
-41	não-reduzidos	não-reduzido	ADJ	_	Gender=Masc|Number=Plur	39	conj	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	35	punct	_	_
+12	β-1,4	β-1,4	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	preferencialmente	preferencialmente	ADV	_	_	8	advmod	_	_
+16-17	nas	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	regiões	região	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+19	amorfas	amorfo	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+20	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	23	nsubj	_	_
+21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	mais	mais	ADV	_	_	23	advmod	_	_
+23	suscetíveis	suscetível	ADJ	_	Gender=Fem|Number=Plur	18	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25-26	deste	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	modo	modo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	grau	grau	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	polimerização	polimerização	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	produzindo	produzir	VERB	_	VerbForm=Ger	33	advcl	_	_
+36	terminais	terminal	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
+37	reduzidos	reduzido	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	não-reduzidos	não-reduzido	ADJ	_	Gender=Masc|Number=Plur	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = Essa ação expõe as microfibrilas ao ataque subseqüente de outras enzimas, e também aumenta o número de oligossacarídeos com terminações susceptíveis ao ataque das exoglucanases (FUKUDA et al., 2009).
 # sent_id = 381-20160602-TESEMSC_0-111
@@ -3910,7 +3902,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	2005	2005	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = As hemicelulases atuam em ação sinérgica de uma variedade de enzimas hidrolíticas, conhecidas como xilanas, formando um complexo xilanolítico.
 # sent_id = 381-20160602-TESEMSC_0-117
@@ -4419,7 +4411,7 @@
 9	NADALINI	NADALINI	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
 10	1991	1991	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Para buscar a detoxicação do bagaço termo explodido este será tratado pelos fungos Lentinula edodes e Pleurotus ostreatus.
 # sent_id = 381-20160602-TESEMSC_0-134
@@ -4634,7 +4626,7 @@
 # text = Lentinula edodes Figura 4:(A) Carpóforos de Lentinula edodes em seu habitat natural.
 # sent_id = 381-20160602-TESEMSC_0-144
 1	Lentinula	Lentinular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+2	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpacesAfter=\s\n
 3	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
 4	4:(A	4:(A	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	3	punct	_	_
@@ -5072,7 +5064,7 @@
 8	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 9	ser	ser	AUX	_	VerbForm=Inf	10	aux:pass	_	_
 10	representada	representar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	xcomp	_	_
-11-12	pela	_	_	_	_	_	_	_	_
+11-12	pela	_	_	_	_	_	_	_	SpacesAfter=\s\n
 11	por	por	ADP	_	_	13	case	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	melhora	melhora	NOUN	_	Gender=Fem|Number=Sing	10	obl:agent	_	_
@@ -5152,7 +5144,7 @@
 # text = edodes.
 # sent_id = 381-20160602-TESEMSC_0-161
 1	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = L.edodes é o segundo cogumelo mais cultivado no mundo (OEI, 2005), cuja produção cresceu no período de 1986 a 1997 cerca de 400% (CHEN, 2005).
 # sent_id = 381-20160602-TESEMSC_0-162
@@ -5471,7 +5463,7 @@
 33	Shiitake	Shiitake	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	_
 
-# text = No entanto, por ser resultante de cana-de-açúcar que sofreu diversos tipos de tratamentos e lavagens em usinas sucroalcooleiras apresentam- se como um produto final rico em parede celular, de baixo conteúdo de células inteiras, baixa densidade e pobre em proteínas e minerais (SANTOS, 1990).
+# text = No entanto, por ser resultante de cana-de-açúcar que sofreu diversos tipos de tratamentos e lavagens em usinas sucroalcooleiras apresentam-se como um produto final rico em parede celular, de baixo conteúdo de células inteiras, baixa densidade e pobre em proteínas e minerais (SANTOS, 1990).
 # sent_id = 381-20160602-TESEMSC_0-169
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	cc	_	_
@@ -5480,7 +5472,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	por	por	SCONJ	_	_	7	mark	_	_
 6	ser	ser	AUX	_	VerbForm=Inf	7	cop	_	_
-7	resultante	resultante	ADJ	_	Gender=Masc|Number=Sing	21	advcl	_	_
+7	resultante	resultante	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 10	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	_
@@ -5492,41 +5484,41 @@
 16	e	e	CCONJ	_	_	17	cc	_	_
 17	lavagens	lavagem	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
 18	em	em	ADP	_	_	19	case	_	_
-19	usinas	usina	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+19	usinas	usina	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
 20	sucroalcooleiras	sucroalcooleiro	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
-21	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-22	-	-	PUNCT	_	_	21	punct	_	_
-23	se	se	SCONJ	_	_	26	mark	_	_
-24	como	como	ADP	_	_	23	fixed	_	_
-25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	produto	produto	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
-27	final	final	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
-28	rico	rico	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
-29	em	em	ADP	_	_	30	case	_	_
-30	parede	parede	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-31	celular	celular	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	35	punct	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
-35	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
-36	de	de	ADP	_	_	37	case	_	_
-37	células	célula	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
-38	inteiras	inteiro	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	35	punct	_	_
-40	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
-41	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
-42	e	e	CCONJ	_	_	43	cc	_	_
-43	pobre	pobre	ADJ	_	Gender=Masc|Number=Sing	41	conj	_	_
-44	em	em	ADP	_	_	45	case	_	_
-45	proteínas	proteína	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
-46	e	e	CCONJ	_	_	47	cc	_	_
-47	minerais	mineral	NOUN	_	Gender=Masc|Number=Plur	45	conj	_	_
-48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
-49	SANTOS	Santos	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	51	punct	_	_
-51	1990	1990	NUM	_	NumType=Card	49	conj	_	SpaceAfter=No
-52	)	)	PUNCT	_	_	49	punct	_	SpaceAfter=No
-53	.	.	PUNCT	_	_	21	punct	_	_
+21-22	apresentam-se	_	_	_	_	_	_	_	_
+21	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	expl	_	_
+23	como	como	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	produto	produto	NOUN	_	Gender=Masc|Number=Sing	21	xcomp	_	_
+26	final	final	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	rico	rico	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	parede	parede	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+30	celular	celular	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	34	punct	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+34	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	células	célula	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
+37	inteiras	inteiro	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+40	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+41	e	e	CCONJ	_	_	42	cc	_	_
+42	pobre	pobre	ADJ	_	Gender=Masc|Number=Sing	40	conj	_	_
+43	em	em	ADP	_	_	44	case	_	_
+44	proteínas	proteína	NOUN	_	Gender=Fem|Number=Plur	21	fixed	_	_
+45	e	e	CCONJ	_	_	46	cc	_	_
+46	minerais	mineral	NOUN	_	Gender=Masc|Number=Plur	44	conj	_	_
+47	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
+48	SANTOS	Santos	NUM	_	NumType=Card	21	appos	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	1990	1990	NUM	_	NumType=Card	48	conj	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	48	punct	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Com isso, a suplementação com nutrientes, de preferência solúveis para estarem prontamente disponíveis para o fungo, promove crescimento e rápida colonização do bagaço, o que é desejável do ponto de vista tecnológico.
 # sent_id = 381-20160602-TESEMSC_0-170
@@ -5680,7 +5672,7 @@
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 14	forma	forma	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	4	punct	_	_
+15	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 16	-	-	PUNCT	_	_	17	punct	_	_
 17	Reino	Reino	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
 18	:	:	PUNCT	_	_	4	punct	_	_
@@ -5949,7 +5941,7 @@
 31	produção	produção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 32	em	em	ADP	_	_	33	case	_	_
 33	escala	escala	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
-34	comercial	comercial	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+34	comercial	comercial	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpacesAfter=\s\n
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
 36	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	33	appos	_	_
 37	5B	5B	PROPN	_	Number=Sing	36	flat:name	_	SpaceAfter=No
@@ -6416,22 +6408,20 @@
 92	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	91	acl	_	SpaceAfter=No
 93	.	.	PUNCT	_	_	28	punct	_	_
 
-# text = Seu resultado e expresso em curvas dose- resposta (TAVARES, 2004)
+# text = Seu resultado e expresso em curvas dose-resposta (TAVARES, 2004)
 # sent_id = 381-20160602-TESEMSC_0-205
 1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
 4	expresso	expresso	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 5	em	em	ADP	_	_	6	case	_	_
-6	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-7	dose	dose	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
-8	-	-	PUNCT	_	_	9	punct	_	_
-9	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
-10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	TAVARES	Tavar	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	2004	2004	NUM	_	NumType=Card	11	conj	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	11	punct	_	_
+6	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+7	dose-resposta	dose-resposta	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	TAVARES	Tavar	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	2004	2004	NUM	_	NumType=Card	9	conj	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 
 # text = Entre os métodos biológicos eficientes para se medir a qualidade proteica de uma determinada amostra, é o método baseado na resposta de crescimento de Enterococcus zymogenes frente à qualidade da amostra de proteínas de Ford, 1962.
 # sent_id = 381-20160602-TESEMSC_0-206
@@ -6813,7 +6803,7 @@
 7	Korshikov	Korshikov	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	1987	1987	NUM	_	NumType=Card	7	appos:parataxis	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	7	punct	_	_
+10	)	)	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
 11	3.8	3.8	NUM	_	NumType=Card	5	obj	_	_
 
 # text = Daphinia similis
@@ -7070,7 +7060,7 @@
 68	,	,	PUNCT	_	_	69	punct	_	_
 69	2001	2001	NUM	_	NumType=Card	67	appos:parataxis	_	SpaceAfter=No
 70	)	)	PUNCT	_	_	67	punct	_	SpaceAfter=No
-71	.	.	PUNCT	_	_	63	punct	_	SpacesAfter=\n
+71	.	.	PUNCT	_	_	63	punct	_	SpacesAfter=\n\n
 
 # text = Dentre os ensaios biológicos possíveis de serem executados com Daphnia similis destaca-se o de toxicidade aguda que objetiva avaliar a dose ou a concentração de um agente tóxico que possa produzir efeitos aos organismos expostos em um período de tempo relativamente curto.
 # sent_id = 381-20160602-TESEMSC_0-235
@@ -7290,7 +7280,7 @@
 19	,	,	PUNCT	_	_	16	punct	_	_
 20	2008	2008	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n\n
 
 # text = MATERIAL E MÉTODOS 4.1 Material 4.1.1
 # sent_id = 381-20160602-TESEMSC_0-241
@@ -7550,7 +7540,7 @@
 6	termo	termo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 7	explodido	exploder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
 
-# text = O bagaço de cana termo explodido foi proveniente da Indústria Nardini- Catanduva-S.P.
+# text = O bagaço de cana termo explodido foi proveniente da Indústria Nardini-Catanduva-S.P.
 # sent_id = 381-20160602-TESEMSC_0-257
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -7564,8 +7554,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Indústria	indústria	PROPN	_	Gender=Fem|Number=Sing	8	obl	_	_
-12	Nardini-	nardini-	PROPN	_	Number=Sing	11	flat:name	_	_
-13	Catanduva-S.P.	Catanduva-S.P.	PROPN	_	Number=Sing	11	flat:name	_	_
+12	Nardini-Catanduva-S.P.	Nardini-Catanduva-S.P.	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = As amostras de bagaço foram divididas em dois grupos.
 # sent_id = 381-20160602-TESEMSC_0-258
@@ -7630,7 +7619,7 @@
 7	em	em	ADP	_	_	8	case	_	_
 8	câmara	câmara	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 9	fria	fria	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 4.1.3
 # sent_id = 381-20160602-TESEMSC_0-261
@@ -7779,29 +7768,27 @@
 8	minerais	mineral	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Macronutrientes KCl- 0,7 g L-1 KH2PO4 2,0 g L-1 ou NaH2PO4.
+# text = Macronutrientes KCl-0,7 g L-1 KH2PO4 2,0 g L-1 ou NaH2PO4.
 # sent_id = 381-20160602-TESEMSC_0-270
 1	Macronutrientes	Macronutrientes	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	KCl	KCl	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-4	0,7	0,7	NUM	_	NumType=Card	5	nummod	_	_
-5	g	g	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-6	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	_
-7	KH2PO4	KH2PO4	PROPN	_	Number=Sing	6	flat:name	_	_
-8	2,0	2,0	NUM	_	NumType=Card	9	nummod	_	_
-9	g	g	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
-10	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
-11	ou	ou	CCONJ	_	_	12	cc	_	_
-12	NaH2PO4	NaH2PO4	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	KCl-0,7	KCl-0,7	PROPN	_	Number=Sing	1	flat:name	_	_
+3	g	g	PROPN	_	Number=Sing	1	flat:name	_	_
+4	L-1	L-1	PROPN	_	Number=Sing	1	flat:name	_	_
+5	KH2PO4	KH2PO4	PROPN	_	Number=Sing	1	flat:name	_	_
+6	2,0	2,0	NUM	_	NumType=Card	7	nummod	_	_
+7	g	g	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+8	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
+9	ou	ou	CCONJ	_	_	10	cc	_	_
+10	NaH2PO4	NaH2PO4	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
-# text = H2O 2,9 g L-1 Na2HPO4 3,0 g L-1 NH4NO3 1,0 g L-1 Microingredientes (1mL L-1)
+# text = H2O 2,9 g L-1 Na2HPO 3,0 g L-1 NH4NO3 1,0 g L-1 Microingredientes (1mL L-1)
 # sent_id = 381-20160602-TESEMSC_0-271
 1	H2O	H2O	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	2,9	2,9	NUM	_	NumType=Card	3	nummod	_	_
 3	g	g	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	3	appos	_	_
-5	Na2HPO4	Na2HPO4	PROPN	_	Number=Sing	4	flat:name	_	_
+5	Na2HPO	Na2HPO	PROPN	_	Number=Sing	4	flat:name	_	_
 6	3,0	3,0	NUM	_	NumType=Card	7	nummod	_	_
 7	g	g	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
@@ -7815,21 +7802,21 @@
 16	L-1	L-1	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	15	punct	_	_
 
-# text = MgSO4 4,0 g L-1ou MgSO4.7H2O 8,2 g L-1 FeSO4 0,2 g L-1ou FeSO4.7H2O 0,36 g L-1 MnCl2 0,2 g L-1ou MnCl2.4H2O 0,31 g L-1 CaCl2 0,2 g L-1ou CaCl2.2H2O 0,26 g L-1
+# text = MgSO 4,0 g L-1ou MgSO.7H2O 8,2 g L-1 FeSO 0,2 g L-1ou FeSO.7H2O 0,36 g L-1 MnCl2 0,2 g L-1ou MnCl2.4H2O 0,31 g L-1 CaCl 0,2 g L-1ou CaCl.2H2O 0,26 g L-1
 # sent_id = 381-20160602-TESEMSC_0-272
-1	MgSO4	MgSO4	NUM	_	NumType=Card	3	nummod	_	_
-2	4,0	4,0	NUM	_	NumType=Card	1	flat	_	_
+1	MgSO	Mgso	ADV	_	_	3	advmod	_	_
+2	4,0	4,0	NUM	_	NumType=Card	3	nummod	_	_
 3	g	g	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
 4	L-1ou	L-1ou	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
-5	MgSO4.7H2O	MgSO4.7H2O	PROPN	_	Number=Sing	4	flat:name	_	_
+5	MgSO.7H2O	MgSO.7H2O	PROPN	_	Number=Sing	4	flat:name	_	_
 6	8,2	8,2	NUM	_	NumType=Card	7	nummod	_	_
-7	g	g	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	g	g	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
 8	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
-9	FeSO4	FeSO4	PROPN	_	Number=Sing	8	flat:name	_	_
+9	FeSO	FeSO	PROPN	_	Number=Sing	8	flat:name	_	_
 10	0,2	0,2	NUM	_	NumType=Card	11	nummod	_	_
 11	g	g	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 12	L-1ou	L-1ou	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
-13	FeSO4.7H2O	FeSO4.7H2O	PROPN	_	Number=Sing	12	flat:name	_	_
+13	FeSO.7H2O	FeSO.7H2O	PROPN	_	Number=Sing	12	flat:name	_	_
 14	0,36	0,36	NUM	_	NumType=Card	15	nummod	_	_
 15	g	g	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	_
 16	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	15	appos	_	_
@@ -7841,11 +7828,11 @@
 22	0,31	0,31	NUM	_	NumType=Card	23	nummod	_	_
 23	g	g	NOUN	_	Gender=Fem|Number=Sing	20	appos	_	_
 24	L-1	L-1	PROPN	_	Gender=Fem|Number=Sing	23	appos	_	_
-25	CaCl2	CaCl2	PROPN	_	Number=Sing	24	flat:name	_	_
+25	CaCl	CaCl	PROPN	_	Number=Sing	24	flat:name	_	_
 26	0,2	0,2	NUM	_	NumType=Card	27	nummod	_	_
 27	g	g	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
 28	L-1ou	L-1ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-29	CaCl2.2H2O	CaCl2.2H2O	PROPN	_	Gender=Masc|Number=Sing	28	obl	_	_
+29	CaCl.2H2O	CaCl.2H2O	PROPN	_	Gender=Masc|Number=Sing	28	obl	_	_
 30	0,26	0,26	NUM	_	NumType=Card	29	nummod	_	_
 31	g	g	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
 32	L-1	L-1	NUM	_	NumType=Card	31	nummod	_	_
@@ -7875,7 +7862,7 @@
 4	et.	et.	PUNCT	_	_	5	punct	_	_
 5	al	al	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	2004	2004	NUM	_	NumType=Card	9	nummod	_	_
+7	2004	2004	NUM	_	NumType=Card	9	nummod	_	SpacesAfter=\s\n
 8	4.1.4.2	4.1.4.2	NUM	_	NumType=Card	7	flat	_	_
 9	Mistura	mistura	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 10	Vitamínica	Vitamínica	PROPN	_	Number=Sing	9	flat:name	_	_
@@ -7939,7 +7926,7 @@
 15	et.	et.	PUNCT	_	_	16	punct	_	_
 16	al	al	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	2004	2004	NUM	_	NumType=Card	1	nummod	_	_
+18	2004	2004	NUM	_	NumType=Card	1	nummod	_	SpacesAfter=\s\n
 19	4.2	4.2	NUM	_	NumType=Card	18	flat	_	_
 20	MÉTODOS	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	_
 21	4.2.1	4.2.1	NUM	_	NumType=Card	19	flat	_	_
@@ -8004,7 +7991,7 @@
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	inoculação	inoculação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
-# text = Por se tratar de um substrato com pouca umidade, pH ácido e baixo valor nutricional, houve necessidade de correções desses fatores como a adição de CaCO3, água, levedura seca objetivando complementar o valor nutricional do bagaço e facilitar a colonização dos fungos.
+# text = Por se tratar de um substrato com pouca umidade, pH ácido e baixo valor nutricional, houve necessidade de correções desses fatores como a adição de CaCO, água, levedura seca objetivando complementar o valor nutricional do bagaço e facilitar a colonização dos fungos.
 # sent_id = 381-20160602-TESEMSC_0-283
 1	Por	por	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
@@ -8035,7 +8022,7 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	adição	adição	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 28	de	de	ADP	_	_	29	case	_	_
-29	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	água	água	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
@@ -8121,58 +8108,34 @@
 14	protocolo	protocolo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	6	punct	_	_
 
-# text = Lentinula edodes Pleurotus ostreatus % de inóculo Bagaço Bagaço + 1% levedura seca Bagaço + 1% CaCO3 CaCO3
+# text = Lentinula edodes Pleurotus ostreatus Todas as amostras foram mantidas em estufa a 250C +/- 20C e adicionados 100 mL de água destilada.
 # sent_id = 381-20160602-TESEMSC_0-287
 1	Lentinula	Lentinular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+2	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpacesAfter=\s\n
 3	Pleurotus	Pleurotus	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
 4	ostreatus	ostreatus	PROPN	_	Number=Sing	3	flat:name	_	_
-5	%	%	SYM	_	_	2	nmod	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	inóculo	inóculo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	Bagaço	Bagaço	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
-9	Bagaço	Bagaço	PROPN	_	Number=Sing	8	flat:name	_	_
-10	+	+	SYM	_	_	1	obj	_	_
-11	1	1	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
-12	%	%	SYM	_	_	10	nmod	_	_
-13	levedura	levedura	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	_
-14	seca	seco	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-15	Bagaço	Bagaço	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
-16	+	+	SYM	_	_	15	nmod	_	_
-17	1	1	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
-18	%	%	SYM	_	_	16	nmod	_	_
-19	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	18	appos	_	_
-20	CaCO3	CaCO3	PROPN	_	Number=Sing	19	flat:name	_	_
-
-# text = Bagaço controle
-# sent_id = 381-20160602-TESEMSC_0-288
-1	Bagaço	Bagaço	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	controle	controle	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-
-# text = Todas as amostras foram mantidas em estufa a 250C +/- 20C e adicionados 100 mL de água destilada.
-# sent_id = 381-20160602-TESEMSC_0-289
-1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
-2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
-4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
-5	mantidas	manter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-6	em	em	ADP	_	_	7	case	_	_
-7	estufa	estufa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
-8	a	a	ADP	_	_	9	case	_	_
-9	250C	250C	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-10	+/-	+/-	PUNCT	_	_	11	punct	_	_
-11	20C	20C	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	_
-12	e	e	CCONJ	_	_	13	cc	_	_
-13	adicionados	adicionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	conj	_	_
-14	100	100	NUM	_	NumType=Card	15	nummod	_	_
-15	mL	ml	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	água	água	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18	destilada	destilar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
+5	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	7	det	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	mantidas	manter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	estufa	estufa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	250C	250C	PROPN	_	Gender=Fem|Number=Sing	9	obl	_	_
+14	+/-	+/-	PUNCT	_	_	15	punct	_	_
+15	20C	20C	PROPN	_	Gender=Fem|Number=Sing	13	appos	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	adicionados	adicionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	19	conj	_	_
+18	100	100	NUM	_	NumType=Card	19	nummod	_	_
+19	mL	ml	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	água	água	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	destilada	destilar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	21	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Objetivando uma forma mais econômica e prática para a sua aplicação industrial não houve processo de esterilização do material.
-# sent_id = 381-20160602-TESEMSC_0-290
+# sent_id = 381-20160602-TESEMSC_0-288
 1	Objetivando	Objetivar	VERB	_	VerbForm=Ger	14	advcl	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	forma	forma	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -8197,7 +8160,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Para cada amostra foram utilizados 500g de bagaço de cana termo hidrolisado.
-# sent_id = 381-20160602-TESEMSC_0-291
+# sent_id = 381-20160602-TESEMSC_0-289
 1	Para	para	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -8213,7 +8176,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Foram encubadas por período de 7 e 45 dias.
-# sent_id = 381-20160602-TESEMSC_0-292
+# sent_id = 381-20160602-TESEMSC_0-290
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	encubadas	encubar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -8226,7 +8189,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A inoculação foi realizada acrescentando-se a quantidade de semente desejada em cada amostra.
-# sent_id = 381-20160602-TESEMSC_0-293
+# sent_id = 381-20160602-TESEMSC_0-291
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	inoculação	inoculação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8245,7 +8208,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Posteriormente fechou-se as embalagens de polipropileno com um tampão de algodão, permitindo trocas gasosas do ambiente para o interior dos sacos.
-# sent_id = 381-20160602-TESEMSC_0-294
+# sent_id = 381-20160602-TESEMSC_0-292
 1	Posteriormente	posteriormente	ADV	_	_	2	advmod	_	_
 2-3	fechou-se	_	_	_	_	_	_	_	_
 2	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8277,7 +8240,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Objetivando homogeneizar o inóculo as amostras foram revolvidas no interior dos sacos até completa dispersão das sementes.
-# sent_id = 381-20160602-TESEMSC_0-295
+# sent_id = 381-20160602-TESEMSC_0-293
 1	Objetivando	Objetivar	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	homogeneizar	homogeneizar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -8304,7 +8267,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Após a completa colonização, as amostras foram secas em estufa a 45 0C por 24 horas e pulverizadas em moinho elétrico.
-# sent_id = 381-20160602-TESEMSC_0-296
+# sent_id = 381-20160602-TESEMSC_0-294
 1	Após	após	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	completa	completo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -8330,7 +8293,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Essas amostras foram submetidas as análises seguintes.
-# sent_id = 381-20160602-TESEMSC_0-297
+# sent_id = 381-20160602-TESEMSC_0-295
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8341,11 +8304,11 @@
 8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.2.3
-# sent_id = 381-20160602-TESEMSC_0-298
+# sent_id = 381-20160602-TESEMSC_0-296
 1	4.2.3	4.2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Pesagem das amostras
-# sent_id = 381-20160602-TESEMSC_0-299
+# sent_id = 381-20160602-TESEMSC_0-297
 1	Pesagem	Pesagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8353,7 +8316,7 @@
 4	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = Todas as amostras foram pesadas logo após a inoculação, no início do processo de crescimento fungico, e posteriormente foram novamente pesados, ao final do tempo de incubação, afim de se verificar a taxa metabólica dos microorganismos.
-# sent_id = 381-20160602-TESEMSC_0-300
+# sent_id = 381-20160602-TESEMSC_0-298
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -8407,7 +8370,7 @@
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Efetuou-se um controle em duplicata contendo apenas bagaço, carbonato de cálcio e levedura, para que se contabilizasse a evaporação normal de água dispensando aquela relativa ao metabolismo fungico.
-# sent_id = 381-20160602-TESEMSC_0-301
+# sent_id = 381-20160602-TESEMSC_0-299
 1-2	Efetuou-se	_	_	_	_	_	_	_	_
 1	Efetuou	Efetuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8426,7 +8389,7 @@
 15	levedura	levedura	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	7	punct	_	_
 17	para	para	SCONJ	_	_	20	mark	_	_
-18	que	que	SCONJ	_	_	20	mark	_	_
+18	que	que	SCONJ	_	_	20	mark	_	SpacesAfter=\s\n
 19	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
 20	contabilizasse	contabilizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -8445,11 +8408,11 @@
 33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 4.2.4
-# sent_id = 381-20160602-TESEMSC_0-302
+# sent_id = 381-20160602-TESEMSC_0-300
 1	4.2.4	4.2.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Quantificação da proteína bruta
-# sent_id = 381-20160602-TESEMSC_0-303
+# sent_id = 381-20160602-TESEMSC_0-301
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8458,7 +8421,7 @@
 5	bruta	bruto	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 
 # text = Empregou-se o método de Kjeldhal para quantificação de nitrogênio total que foi executado em 4 etapas: - Preparo da amostra e mineralização com H2SO4:
-# sent_id = 381-20160602-TESEMSC_0-304
+# sent_id = 381-20160602-TESEMSC_0-302
 1-2	Empregou-se	_	_	_	_	_	_	_	_
 1	Empregou	empregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -8490,8 +8453,8 @@
 27	H2SO4	H2SO4	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
 28	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Colocou-se em cada tubo digestor entre 0,04 a 0,05g de amostra seca e pulverizada; cerca de 0,5g de mistura digestora (Na2SeO3.5H2O); e 2 mL de ácido sulfúrico
-# sent_id = 381-20160602-TESEMSC_0-305
+# text = Colocou-se em cada tubo digestor entre 0,04 a 0,05g de amostra seca e pulverizada; cerca de 0,5g de mistura digestora K2SO4 + CuSO4 – 1:1.
+# sent_id = 381-20160602-TESEMSC_0-303
 1-2	Colocou-se	_	_	_	_	_	_	_	_
 1	Colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -8510,24 +8473,45 @@
 15	pulverizada	pulverizado	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
 16	;	;	PUNCT	_	_	1	punct	_	_
 17	cerca	cerca	ADV	_	_	19	advmod	_	_
-18	de	de	ADP	_	_	17	fixed	_	_
-19	0,5g	0,5g	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
+18	de	de	ADP	_	_	19	fixed	_	_
+19	0,5g	0,5g	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22	digestora	digestora	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	Na2SeO3.5H2O	Na2SeO3.5H2O	PROPN	_	Gender=Fem|Number=Sing	21	appos	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
-26	;	;	PUNCT	_	_	1	punct	_	_
-27	e	e	CCONJ	_	_	29	cc	_	_
-28	2	2	NUM	_	NumType=Card	29	nummod	_	_
-29	mL	ml	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-32	sulfúrico	sulfúrico	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+23	K2SO4	K2SO4	NUM	_	NumType=Card	24	nummod	_	_
+24	+	+	SYM	_	_	1	appos	_	_
+25	CuSO4	CuSO4	NUM	_	NumType=Card	24	nummod	_	_
+26	–	–	PUNCT	_	_	27	punct	_	_
+27	1:1	1:1	NUM	_	NumType=Card	24	appos	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Acrescentou-se cerca de 7g de cristais de selenito de sódio (Na2SeO.5H2O); e 2 mL de ácido sulfúrico
+# sent_id = 381-20160602-TESEMSC_0-304
+1-2	Acrescentou-se	_	_	_	_	_	_	_	_
+1	Acrescentou	acrescentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
+3	cerca	cerca	ADV	_	_	5	advmod	_	_
+4	de	de	ADP	_	_	3	fixed	_	_
+5	7g	7g	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	cristais	cristal	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	selenito	selenito	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Na2SeO.5H2O	Na2SeO.5H2O	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	1	punct	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	2	2	NUM	_	NumType=Card	18	nummod	_	_
+18	mL	ml	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	sulfúrico	sulfúrico	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 
 # text = P.A. (H2SO4).
-# sent_id = 381-20160602-TESEMSC_0-306
+# sent_id = 381-20160602-TESEMSC_0-305
 1	P.A.	P.A.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	H2SO4	H2SO4	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
@@ -8535,7 +8519,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os tubos contendo as amostras a serem digeridas foram colocadas no Bloco Digestor (200 - 230°C) até adquirir coloração translúcida (de cor esverdeada ou azulada) e posteriormente adicionou-se cuidadosamente 10 mL de H2O destilada em cada tubo.
-# sent_id = 381-20160602-TESEMSC_0-307
+# sent_id = 381-20160602-TESEMSC_0-306
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 3	contendo	conter	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -8583,17 +8567,20 @@
 43	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = - Destilação no destilador de Kjedahl:
+# text = -
+# sent_id = 381-20160602-TESEMSC_0-307
+1	-	-	PUNCT	_	_	0	root	_	_
+
+# text = Destilação no destilador de Kjedahl:
 # sent_id = 381-20160602-TESEMSC_0-308
-1	-	-	PUNCT	_	_	2	punct	_	_
-2	Destilação	Destilação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-3-4	no	_	_	_	_	_	_	_	_
-3	em	em	ADP	_	_	5	case	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	destilador	destilador	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Kjedahl	Kjedahl	PROPN	_	Gender=Unsp|Number=Sing	5	nmod	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	2	punct	_	_
+1	Destilação	Destilação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	destilador	destilador	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Kjedahl	Kjedahl	PROPN	_	Gender=Unsp|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Procedeu-se a destilação da amostra no aparelho de destilação de Kjeldhal, mediante a adição para neutralização da amostra com NaOH 40%, responsável pela liberação da amônia.
 # sent_id = 381-20160602-TESEMSC_0-309
@@ -8816,7 +8803,7 @@
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Amostra	amostra	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	Amostra	amostra	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 5	4.2.5	4.2.5	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Quantificação de lipídios nas amostras
@@ -9108,7 +9095,7 @@
 37	horas	hora	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = Posteriormente calculou-se a Concentração Efetiva Média (CE 50), que é determinada de acordo com a imobilidade ou mortalidade de 50% dos indivíduos (GHERARDI- GOLGSTEIN et. al., 1990).
+# text = Posteriormente calculou-se a Concentração Efetiva Média (CE 50), que é determinada de acordo com a imobilidade ou mortalidade de 50% dos indivíduos (GHERARDI-GOLGSTEIN et. al., 1990).
 # sent_id = 381-20160602-TESEMSC_0-333
 1	Posteriormente	posteriormente	ADV	_	_	2	advmod	_	_
 2-3	calculou-se	_	_	_	_	_	_	_	_
@@ -9141,14 +9128,13 @@
 27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	indivíduos	indivíduo	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	GHERARDI-	GHERARDI-	SYM	_	_	2	appos	_	_
-31	GOLGSTEIN	GOLGSTEIN	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
-32	et.	et.	PUNCT	_	_	30	punct	_	_
-33	al.	al.	NOUN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	30	punct	_	_
-35	1990	1990	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
-36	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+30	GHERARDI-GOLGSTEIN	GHERARDI-GOLGSTEIN	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	_
+31	et.	et.	PUNCT	_	_	32	punct	_	_
+32	al.	al.	NOUN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	1990	1990	NUM	_	NumType=Card	30	appos:parataxis	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Para a realização do teste, adicionou-se em tubos de ensaio 10 mL lixiviado do bagaço puro e do bagaço fermentado com os fungos.
 # sent_id = 381-20160602-TESEMSC_0-334
@@ -9229,7 +9215,7 @@
 15	testes	teste	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	toxicidade	toxicidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.7
 # sent_id = 381-20160602-TESEMSC_0-337
@@ -9358,23 +9344,23 @@
 25	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Após 5 dias mediu- se o OD das outras amostras incubadas.
+# text = Após 5 dias mediu-se o OD das outras amostras incubadas.
 # sent_id = 381-20160602-TESEMSC_0-344
 1	Após	após	ADP	_	_	3	case	_	_
 2	5	5	NUM	_	NumType=Card	3	nummod	_	_
 3	dias	dia	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
-4	mediu	medir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-	-	PUNCT	_	_	4	punct	_	_
-6	se	se	SCONJ	_	_	8	mark	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	OD	OD	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-9-10	das	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	12	case	_	_
-10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-11	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
-12	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-13	incubadas	incubar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	12	acl	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	4	punct	_	_
+4-5	mediu-se	_	_	_	_	_	_	_	_
+4	mediu	medir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	OD	OD	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+12	incubadas	incubar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	11	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A diferença de concentração de oxigênio representa a DBO, isto é, o oxigênio consumido para oxidar a matéria orgânica via respiração microbiana.
 # sent_id = 381-20160602-TESEMSC_0-345
@@ -9404,7 +9390,7 @@
 24	microbiana	microbiano	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = Tratando-se de uma amostra de resíduo industrial que possui poucos micro-organismos foi necessário adicionar a "semente", que é um inóculo de cultura mista de bactérias procedentes do esgoto doméstico (RAND et. al,1992).
+# text = Tratando-se de uma amostra de resíduo industrial que possui poucos micro-organismos foi necessário adicionar a "semente", que é um inóculo de cultura mista de bactérias procedentes do esgoto doméstico (RAND et.
 # sent_id = 381-20160602-TESEMSC_0-346
 1-2	Tratando-se	_	_	_	_	_	_	_	_
 1	Tratando	tratar	VERB	_	VerbForm=Ger	0	root	_	_
@@ -9420,8 +9406,8 @@
 11	poucos	pouco	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
 12	micro-organismos	micro-organismo	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 13	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
-14	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	10	ccomp	_	_
-15	adicionar	adicionar	VERB	_	VerbForm=Inf	14	advcl	_	_
+14	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	_
+15	adicionar	adicionar	VERB	_	VerbForm=Inf	14	xcomp	_	_
 16	a	o	ADP	_	_	18	case	_	_
 17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	semente	semente	ADV	_	_	15	advmod	_	SpaceAfter=No
@@ -9430,12 +9416,12 @@
 21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
 22	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	inóculo	inóculo	NOUN	_	Gender=Masc|Number=Sing	15	acl:relcl	_	_
+24	inóculo	inóculo	NOUN	_	Gender=Masc|Number=Sing	14	acl:relcl	_	_
 25	de	de	ADP	_	_	26	case	_	_
-26	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+26	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
 27	mista	misturar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	29	acl	_	_
 28	de	de	ADP	_	_	29	case	_	_
-29	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
+29	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 30	procedentes	procedente	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
 31-32	do	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
@@ -9445,13 +9431,17 @@
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
 36	RAND	RAND	PROPN	_	Gender=Masc|Number=Sing	33	appos	_	_
 37	et.	et.	PUNCT	_	_	36	punct	_	_
-38	al	al	ADP	_	_	39	case	_	SpaceAfter=No
-39	,1992	,1992	NUM	_	NumType=Card	36	nmod	_	SpaceAfter=No
-40	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = al,1992).
+# sent_id = 381-20160602-TESEMSC_0-347
+1	al	al	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	1992	1992	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A demanda química de oxigênio (DQO) é um indicador da concentração de oxigênio necessário para oxidar a matéria orgânica em meio ácido e com condições energéticas por ação de um agente químico oxidante forte, sendo o mais utilizado o dicromato.
-# sent_id = 381-20160602-TESEMSC_0-347
+# sent_id = 381-20160602-TESEMSC_0-348
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	demanda	demanda	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	química	químico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9500,7 +9490,7 @@
 45	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Este parâmetro aponta, portanto, a estimativa total da quantidade de matéria orgânica da amostra, biodegradável ou não.
-# sent_id = 381-20160602-TESEMSC_0-348
+# sent_id = 381-20160602-TESEMSC_0-349
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	aponta	apontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -9528,11 +9518,11 @@
 23	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4.2.8
-# sent_id = 381-20160602-TESEMSC_0-349
+# sent_id = 381-20160602-TESEMSC_0-350
 1	4.2.8	4.2.8	NUM	_	NumType=Card	0	root	_	_
 
 # text = Avaliação da qualidade proteica pelo método de Enterococcus zymogenes
-# sent_id = 381-20160602-TESEMSC_0-350
+# sent_id = 381-20160602-TESEMSC_0-351
 1	Avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9548,7 +9538,7 @@
 11	zymogenes	zymogene	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 
 # text = O teste é baseado no crescimento de Enteococcus zymogenes, relacionando a necessidade de aminoácidos essenciais desse micro-organismo, que é semelhante à humana.
-# sent_id = 381-20160602-TESEMSC_0-351
+# sent_id = 381-20160602-TESEMSC_0-352
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teste	teste	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -9582,7 +9572,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Trata-se de um meio indireto de avaliação do Valor Nutricional Relativo (VNR) das proteínas na amostra.
-# sent_id = 381-20160602-TESEMSC_0-352
+# sent_id = 381-20160602-TESEMSC_0-353
 1-2	Trata-se	_	_	_	_	_	_	_	_
 1	Trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -9612,7 +9602,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A eficiência do crescimento bacteriano esta relacionada com as enzimas utilizadas na hidrólise do material e é comparada com a proteína padrão (caseína), substância referência no teste de digestibilidade microbiológica onde o VNR desta substância é tido como 100%, FORD (1962).
-# sent_id = 381-20160602-TESEMSC_0-353
+# sent_id = 381-20160602-TESEMSC_0-354
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9674,7 +9664,7 @@
 54	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Apresenta vantagens quando comparados aos métodos in vivo, pois, necessita de menor quantidade de amostra com resposta mais simples e rápida (TAVANO et. al, 2004).
-# sent_id = 381-20160602-TESEMSC_0-354
+# sent_id = 381-20160602-TESEMSC_0-355
 1	Apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	vantagens	vantagem	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
 3	quando	quando	ADV	_	_	4	advmod	_	_
@@ -9707,22 +9697,22 @@
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	2004	2004	NUM	_	NumType=Card	26	appos:parataxis	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.8.1 Manutenção de cultura
-# sent_id = 381-20160602-TESEMSC_0-355
+# sent_id = 381-20160602-TESEMSC_0-356
 1	4.2.8.1	4.2.8.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Manutenção	Manutenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 
 # text = Enterococcus zymogenes
-# sent_id = 381-20160602-TESEMSC_0-356
+# sent_id = 381-20160602-TESEMSC_0-357
 1	Enterococcus	Enterococcu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	det	_	_
 2	zymogenes	zymogene	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = A cultura de E. zymogenes foi mantida a -100C em meio de manutenção de congelamento composto de meio basal (Tabela 6) com 10% de glicerol.
-# sent_id = 381-20160602-TESEMSC_0-357
+# sent_id = 381-20160602-TESEMSC_0-358
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9754,7 +9744,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Posteriormente foram colocados 3 mL de inoculo ativo com 10 mL desse meio com glicerol e levados diretamente ao freezer a -100C antes do crescimento da cultura.
-# sent_id = 381-20160602-TESEMSC_0-358
+# sent_id = 381-20160602-TESEMSC_0-359
 1	Posteriormente	posteriormente	ADV	_	_	3	advmod	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	colocados	colocar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -9792,39 +9782,36 @@
 31	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = Meio de cultivo para o E.
-# sent_id = 381-20160602-TESEMSC_0-359
-1	Meio	Meio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+# text = Meio de cultivo para o E. zymogenes 4.2.8.2 Preparou-se meio de cultivo (Tabela 7) para a ativação da cultura de bactéria.
+# sent_id = 381-20160602-TESEMSC_0-360
+1	Meio	Meio	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	para	para	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	E.	E.	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-
-# text = zymogenes 4.2.8.2 Preparou-se meio de cultivo (Tabela 7) para a ativação da cultura de bactéria.
-# sent_id = 381-20160602-TESEMSC_0-360
-1	zymogenes	zymogene	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
-2	4.2.8.2	4.2.8.2	NUM	_	NumType=Card	1	nummod	_	_
-3-4	Preparou-se	_	_	_	_	_	_	_	_
-3	Preparou	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
-5	meio	meio	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-10	7	7	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	9	punct	_	_
-12	para	para	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	ativação	ativação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	bactéria	bactéria	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	3	punct	_	_
+7	zymogenes	zymogenes	PROPN	_	Number=Sing	6	flat:name	_	_
+8	4.2.8.2	4.2.8.2	PROPN	_	Number=Sing	6	flat:name	_	_
+9-10	Preparou-se	_	_	_	_	_	_	_	_
+9	Preparou	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+11	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
+16	7	7	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ativação	ativação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	bactéria	bactéria	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A cultura mantida sob refrigeração foi submetida a 2 subculturas com intervalos de 24 horas com a proporção de 1 mL de inoculo para 10 mL de meio de cultivo, mantidas a uma temperatura de 36 0C.
 # sent_id = 381-20160602-TESEMSC_0-361
@@ -9868,30 +9855,33 @@
 38	0C	0c	NUM	_	NumType=Card	37	flat	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Tabela 7: Composição do meio de cultivo para Enterococcus zymogenes 4.2.8.3 Ensaio biológico com Enterococcus zymogenes
+# text = Tabela 7:
 # sent_id = 381-20160602-TESEMSC_0-362
-1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	7	7	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-4	Composição	composição	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	meio	meio	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	para	para	ADP	_	_	11	case	_	_
-11	Enterococcus	Enterococcus	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-12	zymogenes	zymogenes	PROPN	_	Number=Sing	11	flat:name	_	_
-13	4.2.8.3	4.2.8.3	PROPN	_	Number=Sing	11	flat:name	_	_
-14	Ensaio	ensaio	PROPN	_	Number=Sing	11	flat:name	_	_
-15	biológico	biológico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-16	com	com	ADP	_	_	17	case	_	_
-17	Enterococcus	Enterococcus	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-18	zymogenes	zymogenes	PROPN	_	Number=Sing	17	flat:name	_	_
+
+# text = Composição do meio de cultivo para Enterococcus zymogenes 4.2.8.3 Ensaio biológico com Enterococcus zymogenes
+# sent_id = 381-20160602-TESEMSC_0-363
+1	Composição	composição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	Enterococcus	Enterococcus	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+9	zymogenes	zymogenes	PROPN	_	Number=Sing	8	flat:name	_	_
+10	4.2.8.3	4.2.8.3	PROPN	_	Number=Sing	8	flat:name	_	_
+11	Ensaio	ensaio	PROPN	_	Number=Sing	8	flat:name	_	_
+12	biológico	biológico	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	Enterococcus	Enterococcus	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+15	zymogenes	zymogenes	PROPN	_	Number=Sing	14	flat:name	_	_
 
 # text = O teste microbiológico com Enterococcus zymogenes foi realizado em 3 etapas: - Preparo das (pré-hidrólise): pesou-se equivalente a 100 mg de amostras proteínas tomando como base nos valores obtidos de nitrogênio total das fermentado com L.edodes e com P.ostreatus.
-# sent_id = 381-20160602-TESEMSC_0-363
+# sent_id = 381-20160602-TESEMSC_0-364
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teste	teste	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	microbiológico	microbiológico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -9946,7 +9936,7 @@
 48	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = amostras de bagaço puro, bagaço Adicionou 40 mL solução de βglicerofosfato de sódio, Sigma G-5422 (20 g/litro) e ajustou para o pH 8,0.
-# sent_id = 381-20160602-TESEMSC_0-364
+# sent_id = 381-20160602-TESEMSC_0-365
 1	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -9978,7 +9968,7 @@
 29	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Quando o pH apresentou valores menores que 8 utilizou-se com hidróxido de sódio (NaOH) e quando apresentou valores maiores utilizou-se ácido fosfórico (H3PO4).
-# sent_id = 381-20160602-TESEMSC_0-365
+# sent_id = 381-20160602-TESEMSC_0-366
 1	Quando	quando	SCONJ	_	_	4	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	pH	ph	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -10013,7 +10003,7 @@
 30	.	.	PUNCT	_	_	0	root	_	_
 
 # text = Colocou-se em banho-maria 48°C, sob agitação lenta e constante, e acrescentou 4,0 mL de solução 1 mg/mL de pronase Sigma P-5147.
-# sent_id = 381-20160602-TESEMSC_0-366
+# sent_id = 381-20160602-TESEMSC_0-367
 1-2	Colocou-se	_	_	_	_	_	_	_	_
 1	Colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -10042,7 +10032,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Depois de 3 horas as amostras foram resfriadas até temperatura ambiente e ajustou-se o pH para 7,2 novamente com H3PO4 ou NaOH e o volume para 100 mL.
-# sent_id = 381-20160602-TESEMSC_0-367
+# sent_id = 381-20160602-TESEMSC_0-368
 1	Depois	depois	ADV	_	_	8	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	3	3	NUM	_	NumType=Card	4	nummod	_	_
@@ -10076,7 +10066,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Esterilizou-se as amostras a frio através de membrana millipore de 0,22 µm.
-# sent_id = 381-20160602-TESEMSC_0-368
+# sent_id = 381-20160602-TESEMSC_0-369
 1-2	Esterilizou-se	_	_	_	_	_	_	_	_
 1	Esterilizou	Esterilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	SCONJ	_	_	4	mark	_	_
@@ -10091,10 +10081,10 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	0,22	0,22	NUM	_	NumType=Card	13	nummod	_	_
 13	µm	µm	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = - Ensaio: o ensaio foi realizado em quintuplicata (4 teste + 1 branco).
-# sent_id = 381-20160602-TESEMSC_0-369
+# sent_id = 381-20160602-TESEMSC_0-370
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Ensaio	ensaio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -10114,7 +10104,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Em tubos de cultura esterilizados colocou-se: 2,0 mL de meio basal esterilizado com membrana millipore de 0,22 µm + 2,0 mL da amostra + 7,0 mL de água esterilizado + 100 µL do inóculo de E.
-# sent_id = 381-20160602-TESEMSC_0-370
+# sent_id = 381-20160602-TESEMSC_0-371
 1	Em	em	ADP	_	_	2	case	_	_
 2	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10160,12 +10150,12 @@
 40	E.	E.	PROPN	_	Gender=Masc|Number=Sing	38	nmod	_	SpacesAfter=\n
 
 # text = zymogenes.
-# sent_id = 381-20160602-TESEMSC_0-371
+# sent_id = 381-20160602-TESEMSC_0-372
 1	zymogenes	zymogene	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No tubo branco colocou-se 100µL de inóculo inativo.
-# sent_id = 381-20160602-TESEMSC_0-372
+# sent_id = 381-20160602-TESEMSC_0-373
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10181,7 +10171,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Foram encubados em 37°C/ 48 horas.
-# sent_id = 381-20160602-TESEMSC_0-373
+# sent_id = 381-20160602-TESEMSC_0-374
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	encubados	encubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -10192,7 +10182,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Um tubo contendo somente solução de pronase nas mesmas condições da hidrólise também foi preparado.
-# sent_id = 381-20160602-TESEMSC_0-374
+# sent_id = 381-20160602-TESEMSC_0-375
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 3	contendo	conter	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -10215,7 +10205,7 @@
 18	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Após o período de incubação os tubos foram esterilizados em autoclave (121ºC por 15 minutos).
-# sent_id = 381-20160602-TESEMSC_0-375
+# sent_id = 381-20160602-TESEMSC_0-376
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -10236,7 +10226,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Titulação: titular com NaOH 0,1N até pH 7,2.
-# sent_id = 381-20160602-TESEMSC_0-376
+# sent_id = 381-20160602-TESEMSC_0-377
 1	Titulação	Titulação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	titular	titular	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -10249,7 +10239,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os cálculos - foram realizados descontando-se volume de NaOH gasto com branco da respectiva amostra e da pronase e foram expressos em % do volume gasto com a amostra padrão (caseína).
-# sent_id = 381-20160602-TESEMSC_0-377
+# sent_id = 381-20160602-TESEMSC_0-378
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -10294,7 +10284,7 @@
 38	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = (TAVANO et. al, 2004) 4.2.9
-# sent_id = 381-20160602-TESEMSC_0-378
+# sent_id = 381-20160602-TESEMSC_0-379
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	TAVANO	Tavanar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 3	et.	et.	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -10305,11 +10295,11 @@
 8	4.2.9	4.2.9	NUM	_	NumType=Card	0	root	_	_
 
 # text = Estatística
-# sent_id = 381-20160602-TESEMSC_0-379
+# sent_id = 381-20160602-TESEMSC_0-380
 1	Estatística	Estatística	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Os testes estatísticos foram realizados com o programa BioStat 5.9.8.
-# sent_id = 381-20160602-TESEMSC_0-380
+# sent_id = 381-20160602-TESEMSC_0-381
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testes	teste	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	estatísticos	estatístico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -10323,7 +10313,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Foi aplicado o teste de Análise de Variância (ANOVA) afim de ser verificar se houveram diferenças significativas nas amostras observadas.
-# sent_id = 381-20160602-TESEMSC_0-381
+# sent_id = 381-20160602-TESEMSC_0-382
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	aplicado	aplicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -10351,7 +10341,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Nas situações em que o p-value apresentou valores inferiores a 0,05 apontando para significância dos dados, foi aplicado o teste de Tukey.
-# sent_id = 381-20160602-TESEMSC_0-382
+# sent_id = 381-20160602-TESEMSC_0-383
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -10379,10 +10369,10 @@
 23	teste	teste	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	Tukey	Tukey	PROPN	_	Gender=Unsp|Number=Sing	23	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n\n
 
 # text = 5 RESULTADOS e DISCUSSÃO 5.1
-# sent_id = 381-20160602-TESEMSC_0-383
+# sent_id = 381-20160602-TESEMSC_0-384
 1	5	5	NUM	_	NumType=Card	2	nummod	_	_
 2	RESULTADOS	Resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -10390,7 +10380,7 @@
 5	5.1	5.1	NUM	_	NumType=Card	2	conj	_	_
 
 # text = Seleção do meio de cultivo
-# sent_id = 381-20160602-TESEMSC_0-384
+# sent_id = 381-20160602-TESEMSC_0-385
 1	Seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -10400,7 +10390,7 @@
 6	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Inicialmente procurou-se selecionar um meio de cultivo que atendesse as expectativas de bom desenvolvimento dos fungos L. edodes e P.
-# sent_id = 381-20160602-TESEMSC_0-385
+# sent_id = 381-20160602-TESEMSC_0-386
 1	Inicialmente	inicialmente	ADV	_	_	2	advmod	_	_
 2-3	procurou-se	_	_	_	_	_	_	_	_
 2	procurou	procurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10427,53 +10417,53 @@
 22	P.	P.	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
 
 # text = ostratus.
-# sent_id = 381-20160602-TESEMSC_0-386
+# sent_id = 381-20160602-TESEMSC_0-387
 1	ostratus	ostratu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Comparando- se as diversas combinações de meios de cultivo, foi possível verificar que tanto a presença de CaCO3 quanto a presença de levedura liofilizada mostraram-se essenciais para o desenvolvimento dos fungos.
-# sent_id = 381-20160602-TESEMSC_0-387
-1	Comparando	comparar	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	_
-3	se	se	SCONJ	_	_	13	mark	_	_
-4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-5	diversas	diverso	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
-6	combinações	combinação	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	meios	meio	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	6	punct	_	_
-12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
-13	possível	possível	ADJ	_	Gender=Masc|Number=Sing	1	advcl	_	_
-14	verificar	verificar	VERB	_	VerbForm=Inf	13	csubj	_	_
-15	que	que	SCONJ	_	_	27	mark	_	_
-16	tanto	tanto	ADV	_	_	18	advmod	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	presença	presença	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-21	quanto	quanto	ADV	_	_	23	advmod	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	presença	presença	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	levedura	levedura	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	liofilizada	liofilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	23	acl	_	_
-27-28	mostraram-se	_	_	_	_	_	_	_	_
-27	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
-28	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	expl	_	_
-29	essenciais	essencial	ADJ	_	Gender=Masc|Number=Plur	27	xcomp	_	_
-30	para	para	ADP	_	_	32	case	_	_
-31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
-33-34	dos	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
-35	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	1	punct	_	_
+# text = Comparando-se as diversas combinações de meios de cultivo, foi possível verificar que tanto a presença de CaCO quanto a presença de levedura liofilizada mostraram-se essenciais para o desenvolvimento dos fungos.
+# sent_id = 381-20160602-TESEMSC_0-388
+1-2	Comparando-se	_	_	_	_	_	_	_	_
+1	Comparando	comparar	VERB	_	VerbForm=Ger	12	advcl	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	diversas	diverso	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+5	combinações	combinação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	meios	meio	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	cultivo	cultivo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	1	punct	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+13	verificar	verificar	VERB	_	VerbForm=Inf	12	csubj	_	_
+14	que	que	SCONJ	_	_	26	mark	_	_
+15	tanto	tanto	ADV	_	_	17	advmod	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	presença	presença	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	quanto	quanto	ADV	_	_	22	advmod	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	presença	presença	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	levedura	levedura	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+25	liofilizada	liofilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
+26-27	mostraram-se	_	_	_	_	_	_	_	_
+26	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+27	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	expl	_	_
+28	essenciais	essencial	ADJ	_	Gender=Masc|Number=Plur	26	xcomp	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+32-33	dos	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O valor de pH ideal para o crescimento desses fungos está entre 4,5 e 5,5 (CHANG; MILES,2004).
-# sent_id = 381-20160602-TESEMSC_0-388
+# sent_id = 381-20160602-TESEMSC_0-389
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10499,7 +10489,7 @@
 22	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Sendo assim, devido ao fato do bagaço de cana possuir um pH excessivamente baixo, em torno de 3, o carbonato de cálcio elevou esse valor, aproximando-se das condições ideais para o desenvolvimento fungico.
-# sent_id = 381-20160602-TESEMSC_0-389
+# sent_id = 381-20160602-TESEMSC_0-390
 1	Sendo	ser	VERB	_	VerbForm=Ger	28	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -10548,7 +10538,7 @@
 42	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = A levedura liofilizada por sua vez, melhorou a disponibilidade de recursos nutricionais necessárias para o desenvolvimento das hifas uma vez que o bagaço é um material de baixo valor nutritivo.
-# sent_id = 381-20160602-TESEMSC_0-390
+# sent_id = 381-20160602-TESEMSC_0-391
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	levedura	levedura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	liofilizada	liofilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -10585,7 +10575,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Resultados semelhantes também foram encontrados em trabalhos anteriores (SOUZA,2013).
-# sent_id = 381-20160602-TESEMSC_0-391
+# sent_id = 381-20160602-TESEMSC_0-392
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 2	semelhantes	semelhante	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	também	também	ADV	_	_	5	advmod	_	_
@@ -10600,7 +10590,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Foram registradas por meio de fotos como ficaram as amostras após o período de incubação (Figura 8 e 9)
-# sent_id = 381-20160602-TESEMSC_0-392
+# sent_id = 381-20160602-TESEMSC_0-393
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	registradas	registrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -10622,8 +10612,8 @@
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	9)	9)	NUM	_	NumType=Card	18	conj	_	_
 
-# text = Figura 8:Cultivo de Pleurotus ostreatus: (A) bagaço de cana termo hidrolisado sem a adição de CaCO3; (B) bagaço de cana termo hidrolisado com a adição de CaCO3, a com 7 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-393
+# text = Figura 8:Cultivo de Pleurotus ostreatus: (A) bagaço de cana termo hidrolisado sem a adição de CaCO; (B) bagaço de cana termo hidrolisado com a adição de CaCO, a com 7 dias de incubação.
+# sent_id = 381-20160602-TESEMSC_0-394
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	8:	8:	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	Cultivo	cultivo	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -10643,7 +10633,7 @@
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	adição	adição	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 19	de	de	ADP	_	_	20	case	_	_
-20	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 21	;	;	PUNCT	_	_	15	punct	_	_
 22	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 23	B)	B)	ADP	_	_	24	case	_	_
@@ -10656,7 +10646,7 @@
 30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	adição	adição	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
 32	de	de	ADP	_	_	33	case	_	_
-33	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	28	punct	_	_
 35	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	11	appos	_	_
 36	com	com	ADP	_	_	38	case	_	_
@@ -10664,10 +10654,10 @@
 38	dias	dia	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
 39	de	de	ADP	_	_	40	case	_	_
 40	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = Figura 9: Cultivo de Pleurotus ostreatus: (A) bagaço de cana termo hidrolisado sem a adição de CaCO3; (B) bagaço de cana termo hidrolisado com a adição de CaCO3, com 7 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-394
+# text = Figura 9: Cultivo de Pleurotus ostreatus: (A) bagaço de cana termo hidrolisado sem a adição de CaCO; (B) bagaço de cana termo hidrolisado com a adição de CaCO, com 7 dias de incubação.
+# sent_id = 381-20160602-TESEMSC_0-395
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	9:	9:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Cultivo	cultivo	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -10687,7 +10677,7 @@
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	adição	adição	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 19	de	de	ADP	_	_	20	case	_	_
-20	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 21	;	;	PUNCT	_	_	1	punct	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	B	B	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
@@ -10701,7 +10691,7 @@
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	adição	adição	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
 33	de	de	ADP	_	_	34	case	_	_
-34	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	29	punct	_	_
 36	com	com	ADP	_	_	38	case	_	_
 37	7	7	NUM	_	NumType=Card	38	nummod	_	_
@@ -10711,7 +10701,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Outra avaliação foi feita com a finalidade de verificar a influência da quantidade de inóculo frente ao desenvolvimento da colonização
-# sent_id = 381-20160602-TESEMSC_0-395
+# sent_id = 381-20160602-TESEMSC_0-396
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -10740,7 +10730,7 @@
 23	colonização	colonização	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 
 # text = Quanto ao Pleurotus ostreatus foram realizados ensaio com 1; 3 e 5% de inoculo, sendo que a diferença de desenvolvimento fungico entre 3 e 5% foi praticamente imperceptível, assumindo-se como 3% a quantidade economicamente mais viável.
-# sent_id = 381-20160602-TESEMSC_0-396
+# sent_id = 381-20160602-TESEMSC_0-397
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -10790,7 +10780,7 @@
 45	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Essa avaliação foi realizada de forma visual, pelo desenvolvimento das hifas como representado na Figura Figura 10: Cultivo de Pleurotus ostreatus:(A) 1% de inoculo; (B) 3% de inoculo; (C) 5% de inoculo, com 7 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-397
+# sent_id = 381-20160602-TESEMSC_0-398
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -10847,10 +10837,10 @@
 51	dias	dia	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
 52	de	de	ADP	_	_	53	case	_	_
 53	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+54	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Quanto ao Lentinula edodes foram realizados ensaios com 1, 3 e 5% de inoculo.
-# sent_id = 381-20160602-TESEMSC_0-398
+# sent_id = 381-20160602-TESEMSC_0-399
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -10872,7 +10862,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Verificou-se que com 5% de inoculo o desenvolvimento fungico foi lento.
-# sent_id = 381-20160602-TESEMSC_0-399
+# sent_id = 381-20160602-TESEMSC_0-400
 1-2	Verificou-se	_	_	_	_	_	_	_	_
 1	Verificou	verificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -10890,7 +10880,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Frente a esta situação aumentou-se a porcentagem do inoculo para 8 e 10%.
-# sent_id = 381-20160602-TESEMSC_0-400
+# sent_id = 381-20160602-TESEMSC_0-401
 1	Frente	frente	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	a	a	ADP	_	_	4	case	_	_
 3	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
@@ -10912,7 +10902,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Observou-se que após o tempo de incubação que a diferença de desenvolvimento fungico entre 8 e 10% de inoculo foi imperceptível assumindo-se como 8% a melhor porcentagem.
-# sent_id = 381-20160602-TESEMSC_0-401
+# sent_id = 381-20160602-TESEMSC_0-402
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -10949,13 +10939,61 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = (Figura11)
-# sent_id = 381-20160602-TESEMSC_0-402
+# sent_id = 381-20160602-TESEMSC_0-403
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Figura11	Figura11	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
+# text = Figura 11: Cultivo de Lentinula edodis: (A) 1% de inoculo;(B) 3% de inoculo; (C) 5% de inoculo;(D) 8% de inoculo;(E) 10% de inoculo, com 7 dias de incubação.
+# sent_id = 381-20160602-TESEMSC_0-404
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	11	11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Cultivo	cultivo	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lentinula	Lentinula	PROPN	_	Number=Sing	4	nmod	_	_
+7	edodis	edodl	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	A	a	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	1	1	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	_	_	1	appos	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	inoculo;(B	inoculo;(B	PROPN	_	Gender=Unsp|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	_
+17	3	3	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	1	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	inoculo	inoculo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	;	;	PUNCT	_	_	1	punct	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	C	c	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	5	5	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	_	_	1	appos	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	inoculo;(D	inoculo;(D	PROPN	_	Gender=Unsp|Number=Sing	26	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	26	punct	_	_
+30	8	8	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
+31	%	%	SYM	_	_	1	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	inoculo	inoculo	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	;(E)	;(E)	ADP	_	_	36	case	_	_
+35	10	10	NUM	_	NumType=Card	36	nummod	_	SpaceAfter=No
+36	%	%	SYM	_	_	1	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	inoculo	inoculo	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	1	punct	_	_
+40	com	com	ADP	_	_	42	case	_	_
+41	7	7	NUM	_	NumType=Card	42	nummod	_	_
+42	dias	dia	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
 # text = Quanto ao tempo de incubação as amostras foram incubadas durante um período de 7 e 45 dias 250C +/- 20C afim de se verificar se haveria algum benefício em aumentar o tempo de incubação com relação a biodegradação, teor proteico e valor nutricional.
-# sent_id = 381-20160602-TESEMSC_0-403
+# sent_id = 381-20160602-TESEMSC_0-405
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -11002,10 +11040,10 @@
 43	e	e	CCONJ	_	_	44	cc	_	_
 44	valor	valor	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	_
 45	nutricional	nutricional	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Foi constatado que o P.ostreatus apresenta crescimento mais rápido e com maior desenvolvimento das hifas quando comparado a L.edodes e, portanto, com apenas 7 dias de incubação foi possível constatar um desenvolvimento completo do substrato (Figura 12 A).
-# sent_id = 381-20160602-TESEMSC_0-404
+# sent_id = 381-20160602-TESEMSC_0-406
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	constatado	constatar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
@@ -11055,7 +11093,7 @@
 45	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Após 45 dias de incubação apresenta-se visualmente bem estabelecido, com o material branco e compactado (Figura 12 B).
-# sent_id = 381-20160602-TESEMSC_0-405
+# sent_id = 381-20160602-TESEMSC_0-407
 1	Após	após	ADP	_	_	3	case	_	_
 2	45	45	NUM	_	NumType=Card	3	nummod	_	_
 3	dias	dia	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
@@ -11082,7 +11120,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O L.edodes por sua vez, apresenta crescimento mais lento, verificado após 7 dias quando comparado com P.ostreatus (Figua 12 C).
-# sent_id = 381-20160602-TESEMSC_0-406
+# sent_id = 381-20160602-TESEMSC_0-408
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	L.edodes	L.edodes	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -11110,7 +11148,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Seu crescimento micelial apresenta-se igualmente completo após 45 dias de incubação (Figura 12 D).
-# sent_id = 381-20160602-TESEMSC_0-407
+# sent_id = 381-20160602-TESEMSC_0-409
 1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	micelial	micelial	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -11132,7 +11170,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = DE Albuquerque (2013) em seu trabalho descreve essa diferença de crescimento micelial entre essas espécies, afirmando que o P.ostreatus possui um tempo mais curto de incubação.
-# sent_id = 381-20160602-TESEMSC_0-408
+# sent_id = 381-20160602-TESEMSC_0-410
 1	DE	de	ADP	_	_	2	case	_	_
 2	Albuquerque	Albuquerque	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -11165,7 +11203,7 @@
 30	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Figura 12: Cultivo dos fungos em bagaço termo hidrolisado:
-# sent_id = 381-20160602-TESEMSC_0-409
+# sent_id = 381-20160602-TESEMSC_0-411
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -11181,7 +11219,7 @@
 12	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = (A) Pleurotus ostreatus durante 7 dias e (B) durante 45 dias; (C) Lentinula edodes durante 7 dias e (D) durante 45 dias:
-# sent_id = 381-20160602-TESEMSC_0-410
+# sent_id = 381-20160602-TESEMSC_0-412
 1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -11215,7 +11253,7 @@
 31	:	:	PUNCT	_	_	19	punct	_	_
 
 # text = Comparando-se o desenvolvimento fungico das duas modalidades do bagaço: um bagaço termo hidrolisado recém produzido e outro exposto a condições ambientais por 45 dias, não houve diferença no desenvolvimento das hifas tanto do L.edodes quanto P.ostreatus 5.2
-# sent_id = 381-20160602-TESEMSC_0-411
+# sent_id = 381-20160602-TESEMSC_0-413
 1-2	Comparando-se	_	_	_	_	_	_	_	_
 1	Comparando	comparar	VERB	_	VerbForm=Ger	31	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -11244,7 +11282,7 @@
 23	a	a	ADP	_	_	24	case	_	_
 24	condições	condição	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
 25	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
-26	por	por	ADP	_	_	28	case	_	_
+26	por	por	ADP	_	_	28	case	_	SpacesAfter=\s\n
 27	45	45	NUM	_	NumType=Card	28	nummod	_	_
 28	dias	dia	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	17	punct	_	_
@@ -11269,7 +11307,7 @@
 45	5.2	5.2	NUM	_	NumType=Card	42	nummod	_	_
 
 # text = Pesagem das amostras
-# sent_id = 381-20160602-TESEMSC_0-412
+# sent_id = 381-20160602-TESEMSC_0-414
 1	Pesagem	Pesagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -11277,7 +11315,7 @@
 4	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = A Tabela 8 mostra a evaporação natural de água, avaliada em duplicata, pelo bagaço termo hidrolisado durante um período de 7 e 45 dias sem a inoculação dos fungos (controle).
-# sent_id = 381-20160602-TESEMSC_0-413
+# sent_id = 381-20160602-TESEMSC_0-415
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	8	8	NUM	_	NumType=Card	4	nsubj	_	_
@@ -11319,13 +11357,13 @@
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 8:
-# sent_id = 381-20160602-TESEMSC_0-414
+# sent_id = 381-20160602-TESEMSC_0-416
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação percentual da diminuição da massa por evaporação hídrica do bagaço de cana termo hidrolisado nos períodos de 7 e 45 dias (controle):
-# sent_id = 381-20160602-TESEMSC_0-415
+# sent_id = 381-20160602-TESEMSC_0-417
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11362,7 +11400,7 @@
 30	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = As Tabelas 9 - 12 indicam a diferença das massas iniciais e finais das amostras após o desenvolvimento fungico descontando-se o controle (perda de massa real).
-# sent_id = 381-20160602-TESEMSC_0-416
+# sent_id = 381-20160602-TESEMSC_0-418
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
@@ -11400,7 +11438,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A amostra completa é aquela que possui tanto o carbonato de cálcio como levedura liofilizada.
-# sent_id = 381-20160602-TESEMSC_0-417
+# sent_id = 381-20160602-TESEMSC_0-419
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	completa	completo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -11419,7 +11457,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A amostra pura representa aquela na qual foi inoculado o fungo em um substrato apenas umedecido.
-# sent_id = 381-20160602-TESEMSC_0-418
+# sent_id = 381-20160602-TESEMSC_0-420
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	pura	puro	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -11440,8 +11478,8 @@
 17	umedecido	umedecido	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = As amostras que tiveram apenas o acréscimo do carbonato de cálcio são representadas por CaCO3 e as amostras apenas com acréscimo de levedura liofilizada são representadas pela legenda Lev.
-# sent_id = 381-20160602-TESEMSC_0-419
+# text = As amostras que tiveram apenas o acréscimo do carbonato de cálcio são representadas por CaCO e as amostras apenas com acréscimo de levedura liofilizada são representadas pela legenda Lev.
+# sent_id = 381-20160602-TESEMSC_0-421
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -11458,7 +11496,7 @@
 13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
 14	representadas	representar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 15	por	por	ADP	_	_	16	case	_	_
-16	CaCO3	CaCO3	PROPN	_	Gender=Fem|Number=Sing	14	obl:agent	_	_
+16	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
 17	e	e	CCONJ	_	_	19	cc	_	_
 18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	_
@@ -11478,7 +11516,7 @@
 32	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Todas as amostras foram realizadas em duplicata representadas pelos números 1 e 2.
-# sent_id = 381-20160602-TESEMSC_0-420
+# sent_id = 381-20160602-TESEMSC_0-422
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -11494,16 +11532,16 @@
 12	1	1	NUM	_	NumType=Card	11	nummod	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
 14	2	2	NUM	_	NumType=Card	12	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 9:
-# sent_id = 381-20160602-TESEMSC_0-421
+# sent_id = 381-20160602-TESEMSC_0-423
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação percentual da diminuição de massa do bagaço de cana termo hidrolisado nos períodos de 7 dias após a inoculação de Lentinula edodes.
-# sent_id = 381-20160602-TESEMSC_0-422
+# sent_id = 381-20160602-TESEMSC_0-424
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11536,13 +11574,13 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 10:
-# sent_id = 381-20160602-TESEMSC_0-423
+# sent_id = 381-20160602-TESEMSC_0-425
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Quantificação percentual da diminuição de massa do bagaço de cana termo hidrolisado após45 dias de inoculação comLentinula edodes.
-# sent_id = 381-20160602-TESEMSC_0-424
+# text = Quantificação percentual da diminuição de massa do bagaço de cana termo hidrolisado após dias de inoculação comLentinula edodes.
+# sent_id = 381-20160602-TESEMSC_0-426
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11559,22 +11597,22 @@
 12	cana	cana	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	termo	termo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 14	hidrolisado	hidrolisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
-15	após45	após45	NUM	_	NumType=Card	16	nummod	_	_
-16	dias	dia	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+15	após	após	ADP	_	_	16	case	_	_
+16	dias	dia	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	inoculação	inoculação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19	comLentinula	comLentinular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 11:
-# sent_id = 381-20160602-TESEMSC_0-425
+# sent_id = 381-20160602-TESEMSC_0-427
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação percentual da diminuição de massa do bagaço de cana termo hidrolisado após 7 dias com de inoculação com Pleurotus ostreatus.
-# sent_id = 381-20160602-TESEMSC_0-426
+# sent_id = 381-20160602-TESEMSC_0-428
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11603,13 +11641,13 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 12:
-# sent_id = 381-20160602-TESEMSC_0-427
+# sent_id = 381-20160602-TESEMSC_0-429
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	12	12	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação percentual da diminuição de massa do bagaço de cana termo hidrolisado após 45 dias de inoculação comPleurotus ostreatus.
-# sent_id = 381-20160602-TESEMSC_0-428
+# sent_id = 381-20160602-TESEMSC_0-430
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11633,10 +11671,10 @@
 19	inoculação	inoculação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 20	comPleurotus	comPleurotus	X	_	_	17	appos	_	_
 21	ostreatus	ostreatus	X	_	_	20	flat:foreign	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Santos et al, (2012) em seu trabalho, expõem como a atividade metabólica aeróbia em grãos de milho reflete na diminuição de matéria seca em virtude da eliminação de água e CO2.
-# sent_id = 381-20160602-TESEMSC_0-429
+# sent_id = 381-20160602-TESEMSC_0-431
 1	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
@@ -11679,12 +11717,12 @@
 38	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Os fungos
-# sent_id = 381-20160602-TESEMSC_0-430
+# sent_id = 381-20160602-TESEMSC_0-432
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = P ostreatus e L. edodes são aeróbios e, portanto, em seu metabolismo absorvem
-# sent_id = 381-20160602-TESEMSC_0-431
+# sent_id = 381-20160602-TESEMSC_0-433
 1	P	P	PROPN	_	Gender=Unsp|Number=Sing	7	nsubj	_	_
 2	ostreatus	ostreatus	PROPN	_	Number=Sing	1	flat:name	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -11702,7 +11740,7 @@
 15	absorvem	absorvir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 
 # text = O2 atmosférico e liberam CO2 e água.
-# sent_id = 381-20160602-TESEMSC_0-432
+# sent_id = 381-20160602-TESEMSC_0-434
 1	O2	O2	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	atmosférico	atmosférico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -11713,7 +11751,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sendo assim, quanto maior a taxa metabólica dos fungos, maior a perda em porcentagem de massa das amostras uma vez que tanto o CO2 como a água são eliminados para a atmosfera.
-# sent_id = 381-20160602-TESEMSC_0-433
+# sent_id = 381-20160602-TESEMSC_0-435
 1	Sendo	ser	VERB	_	VerbForm=Ger	0	root	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -11755,7 +11793,7 @@
 37	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ao se subtrair a evaporação natural da água, observada na tabela relativa ao controle (tabela 8), obtém-se a perda em massa que pode estar relacionada com a eliminação de CO2 e água advindos do metabolismo aeróbio para a atmosfera.
-# sent_id = 381-20160602-TESEMSC_0-434
+# sent_id = 381-20160602-TESEMSC_0-436
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -11814,7 +11852,7 @@
 50	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As tabelas 9 - 12 mostram que em todos os casos houve diminuição da massa das amostras.
-# sent_id = 381-20160602-TESEMSC_0-435
+# sent_id = 381-20160602-TESEMSC_0-437
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
@@ -11839,7 +11877,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Isso é um indicativo de que houve eliminação de água e CO2 induzida pela atividade metabólica dos fungos sobre o substrato.
-# sent_id = 381-20160602-TESEMSC_0-436
+# sent_id = 381-20160602-TESEMSC_0-438
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -11868,7 +11906,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A maior diminuição de massa ocorreu no P. ostreatus indicando que a sua atividade é mais intensa quando comparado com L.edodes no mesmo período de incubação.
-# sent_id = 381-20160602-TESEMSC_0-437
+# sent_id = 381-20160602-TESEMSC_0-439
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -11902,7 +11940,7 @@
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Tal fato confirma a análise visual de formação de hifas apresentadas nesse trabalho desenvolvidas no substrato no mesmo período de tempo.
-# sent_id = 381-20160602-TESEMSC_0-438
+# sent_id = 381-20160602-TESEMSC_0-440
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	confirma	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11933,11 +11971,11 @@
 25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 5.3
-# sent_id = 381-20160602-TESEMSC_0-439
+# sent_id = 381-20160602-TESEMSC_0-441
 1	5.3	5.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Quantificação da proteína bruta
-# sent_id = 381-20160602-TESEMSC_0-440
+# sent_id = 381-20160602-TESEMSC_0-442
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -11946,7 +11984,7 @@
 5	bruta	bruto	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 
 # text = A quantidade de proteína bruta em cada uma das amostras incubadas com P.ostreatus e L.edodes encontra-se nas
-# sent_id = 381-20160602-TESEMSC_0-441
+# sent_id = 381-20160602-TESEMSC_0-443
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11972,15 +12010,15 @@
 20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	fixed	_	_
 
 # text = Tabelas 13 - 18.
-# sent_id = 381-20160602-TESEMSC_0-442
+# sent_id = 381-20160602-TESEMSC_0-444
 1	Tabelas	tabele	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	13	13	NUM	_	NumType=Card	0	root	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	18	18	NUM	_	NumType=Card	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = As amostras completas são aquelas em que foram adicionados CaCO3 e levedura.
-# sent_id = 381-20160602-TESEMSC_0-443
+# text = As amostras completas são aquelas em que foram adicionados CaCO e levedura.
+# sent_id = 381-20160602-TESEMSC_0-445
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	completas	completo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -11990,13 +12028,13 @@
 7	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	9	obl	_	_
 8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
 9	adicionados	adicionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
-10	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
+10	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
 11	e	e	CCONJ	_	_	12	cc	_	_
 12	levedura	leveduro	ADV	_	_	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O bagaço puro corresponde as amostras inoculadas em substrato constituído apenas pelo bagaço termo hidrolisado.
-# sent_id = 381-20160602-TESEMSC_0-444
+# sent_id = 381-20160602-TESEMSC_0-446
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	puro	puro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -12017,7 +12055,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os valores das amostras que contem 1% de levedura e as amostras completas possuem 0,038% de proteína.
-# sent_id = 381-20160602-TESEMSC_0-445
+# sent_id = 381-20160602-TESEMSC_0-447
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -12042,7 +12080,7 @@
 21	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Esse valor foi descontado na porcentagem encontrada em cada uma destas amostras.
-# sent_id = 381-20160602-TESEMSC_0-446
+# sent_id = 381-20160602-TESEMSC_0-448
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -12059,16 +12097,16 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
 14	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 13:
-# sent_id = 381-20160602-TESEMSC_0-447
+# sent_id = 381-20160602-TESEMSC_0-449
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação em porcentagem de proteína bruta em amostra de bagaço de cana termo hidrolisado recém produzido pela indústria, inoculado com Pleurotus ostreatus por 45 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-448
+# sent_id = 381-20160602-TESEMSC_0-450
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12102,7 +12140,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = **As médias seguidas por letras distintas diferem entre si ao nível de 5% indicadas pelo teste de Tukey.
-# sent_id = 381-20160602-TESEMSC_0-449
+# sent_id = 381-20160602-TESEMSC_0-451
 1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -12131,13 +12169,13 @@
 24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Tabela 14:
-# sent_id = 381-20160602-TESEMSC_0-450
+# sent_id = 381-20160602-TESEMSC_0-452
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação em porcentagem de proteína bruta em amostra de bagaço de cana termo hidrolisado recém produzido pela indústria, inoculado com Pleurotus ostreatus por 7 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-451
+# sent_id = 381-20160602-TESEMSC_0-453
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12171,7 +12209,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = **As médias seguidas por letras distintas diferem entre si ao nível de 5% indicadas pelo teste de Tukey Tabela 15:
-# sent_id = 381-20160602-TESEMSC_0-452
+# sent_id = 381-20160602-TESEMSC_0-454
 1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -12196,13 +12234,13 @@
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	teste	teste	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	_
 22	de	de	ADP	_	_	23	case	_	_
-23	Tukey	Tukey	PROPN	_	Gender=Unsp|Number=Sing	21	nmod	_	_
+23	Tukey	Tukey	PROPN	_	Gender=Unsp|Number=Sing	21	nmod	_	SpacesAfter=\s\n
 24	Tabela	Tabela	PROPN	_	Number=Sing	23	flat:name	_	_
 25	15	15	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 26	:	:	PUNCT	_	_	9	punct	_	_
 
 # text = Quantificação em porcentagem de proteína bruta em amostra de bagaço de cana termo hidrolisado exposto a condições ambientais por 45 dias, inoculado com Pleurotus ostreatus durante 45 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-453
+# sent_id = 381-20160602-TESEMSC_0-455
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12237,7 +12275,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = **As médias seguidas por letras distintas diferem entre si ao nível de 5% indicadas pelo teste de Tukey Tabela 16:
-# sent_id = 381-20160602-TESEMSC_0-454
+# sent_id = 381-20160602-TESEMSC_0-456
 1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -12268,7 +12306,7 @@
 26	:	:	PUNCT	_	_	9	punct	_	_
 
 # text = Quantificação em porcentagem de proteína bruta em amostra de bagaço de cana termo hidrolisado recém produzido pela indústria, inoculado com Lentinula edodes durante 45 dias de incubação
-# sent_id = 381-20160602-TESEMSC_0-455
+# sent_id = 381-20160602-TESEMSC_0-457
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12301,7 +12339,7 @@
 29	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 
 # text = **As médias seguidas por letras distintas diferem entre si ao nível de 5% indicadas pelo teste de Tukey Tabela 17:
-# sent_id = 381-20160602-TESEMSC_0-456
+# sent_id = 381-20160602-TESEMSC_0-458
 1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -12326,13 +12364,13 @@
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	teste	teste	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	_
 22	de	de	ADP	_	_	23	case	_	_
-23	Tukey	Tukey	PROPN	_	Gender=Unsp|Number=Sing	21	nmod	_	_
+23	Tukey	Tukey	PROPN	_	Gender=Unsp|Number=Sing	21	nmod	_	SpacesAfter=\s\n
 24	Tabela	Tabela	PROPN	_	Number=Sing	23	flat:name	_	_
 25	17	17	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
 26	:	:	PUNCT	_	_	9	punct	_	_
 
 # text = Quantificação em porcentagem de proteína bruta em amostra de bagaço de cana termo hidrolisado recém produzido pela indústria, inoculado com Lentinula edodes durante 7 dias de incubação
-# sent_id = 381-20160602-TESEMSC_0-457
+# sent_id = 381-20160602-TESEMSC_0-459
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12365,7 +12403,7 @@
 29	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 
 # text = **As médias seguidas por letras distintas diferem entre si ao nível de 5% indicadas pelo teste de Tukey Tabela 18:
-# sent_id = 381-20160602-TESEMSC_0-458
+# sent_id = 381-20160602-TESEMSC_0-460
 1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -12396,7 +12434,7 @@
 26	:	:	PUNCT	_	_	9	punct	_	_
 
 # text = Quantificação em porcentagem de proteína bruta em amostra de bagaço de cana termo hidrolisado exposto a condições ambientais por 45 dias, inoculado com Lentinula edodes durante 45 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-459
+# sent_id = 381-20160602-TESEMSC_0-461
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12431,7 +12469,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = **As médias seguidas por letras distintas diferem entre si ao nível de 5% indicadas pelo teste de Tukey
-# sent_id = 381-20160602-TESEMSC_0-460
+# sent_id = 381-20160602-TESEMSC_0-462
 1	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	*	*	PUNCT	_	_	9	punct	_	SpaceAfter=No
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -12459,7 +12497,7 @@
 23	Tukey	Tukey	PROPN	_	Gender=Unsp|Number=Sing	21	nmod	_	_
 
 # text = O método de Kjeldahl possibilita a determinação indireta de proteínas em várias amostras biológicas (NOGUERA, SOUZA, 2005).
-# sent_id = 381-20160602-TESEMSC_0-461
+# sent_id = 381-20160602-TESEMSC_0-463
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -12484,7 +12522,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Nesse método o nitrogênio existente nas amostras é convertido em amônia pela introdução de ácido sulfúrico em concentrações elevadas.
-# sent_id = 381-20160602-TESEMSC_0-462
+# sent_id = 381-20160602-TESEMSC_0-464
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -12513,7 +12551,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Posteriormente esta amostra é alcalinizada e a amônia passa a ser volátil e é destilada, sendo recolhida em solução receptora e quantificada por titulação com solução padrão.
-# sent_id = 381-20160602-TESEMSC_0-463
+# sent_id = 381-20160602-TESEMSC_0-465
 1	Posteriormente	posteriormente	ADV	_	_	5	advmod	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -12545,7 +12583,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Pelos cálculos demonstrados anteriormente nesse trabalho é possível saber a porcentagem de proteína bruta na amostra de acordo com a quantidade de nitrogênio presente na mesma.
-# sent_id = 381-20160602-TESEMSC_0-464
+# sent_id = 381-20160602-TESEMSC_0-466
 1-2	Pelos	_	_	_	_	_	_	_	_
 1	Por	por	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -12580,10 +12618,10 @@
 28	em	em	ADP	_	_	30	case	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Comparando-se apenas as amostras correspondentes a P.
-# sent_id = 381-20160602-TESEMSC_0-465
+# sent_id = 381-20160602-TESEMSC_0-467
 1-2	Comparando-se	_	_	_	_	_	_	_	_
 1	Comparando	comparar	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -12595,7 +12633,7 @@
 8	P.	P.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = otreatus, tabelas 13,14 e 15 verificou-se que não há diferença significativa entre a quantidade de nitrogênio total das amostras de bagaço recém produzido e de bagaço exposto a condições ambientais por 45 dias.
-# sent_id = 381-20160602-TESEMSC_0-466
+# sent_id = 381-20160602-TESEMSC_0-468
 1	otreatus	otreatu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -12636,8 +12674,8 @@
 36	dias	dia	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Em todos os casos o substrato completo, isto é, aquele composto por CaCO3 e levedura liofilizada resultou em maior quantidade de proteína bruta.Com relação ao tempo de colonização, também não houve diferença significativa entre os resultados obtidos nas amostras com 7 e 45 dias.
-# sent_id = 381-20160602-TESEMSC_0-467
+# text = Em todos os casos o substrato completo, isto é, aquele composto por CaCO e levedura liofilizada resultou em maior quantidade de proteína bruta.Com relação ao tempo de colonização, também não houve diferença significativa entre os resultados obtidos nas amostras com 7 e 45 dias.
+# sent_id = 381-20160602-TESEMSC_0-469
 1	Em	em	ADP	_	_	4	case	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	fixed	_	_
@@ -12652,7 +12690,7 @@
 12	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 13	composto	compor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
 14	por	por	ADP	_	_	15	case	_	_
-15	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
+15	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
 17	levedura	levedura	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 18	liofilizada	liofilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	19	acl	_	_
@@ -12692,7 +12730,7 @@
 50	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Diante desde resultado, considera-se em termos de teores proteicos e econômicos não ser vantajoso aumentar o tempo de colonização do substrato.
-# sent_id = 381-20160602-TESEMSC_0-468
+# sent_id = 381-20160602-TESEMSC_0-470
 1	Diante	diante	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	desde	desde	ADP	_	_	3	case	_	_
 3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -12722,7 +12760,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Comparando-se as amostras de Lentinula edodes, tabelas 16,17 e 18, constatou-se que não houve diferença significativa entre a quantidade de nitrogênio total das amostras de bagaço recém produzidas e de bagaço exposto a condições ambientais por 45 dias.
-# sent_id = 381-20160602-TESEMSC_0-469
+# sent_id = 381-20160602-TESEMSC_0-471
 1-2	Comparando-se	_	_	_	_	_	_	_	_
 1	Comparando	comparar	VERB	_	VerbForm=Ger	14	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -12772,7 +12810,7 @@
 44	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = As amostras que contém o substrato completo foram as que apresentaram melhor resultado e não há diferença significativa na quantidade proteica observada nas amostras com 7 dias e 45 dias, não sendo necessário aumentar o tempo de colonização.
-# sent_id = 381-20160602-TESEMSC_0-470
+# sent_id = 381-20160602-TESEMSC_0-472
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -12819,7 +12857,7 @@
 42	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Com relação a comparação de quantidade de nitrogênio total entre as duas espécies de fungos, pode-se inferir que, ainda que o L.edodes possua crescimento menos mais lento do que P.ostreatus, este apresenta valores de nitrogênio total mais elevados.
-# sent_id = 381-20160602-TESEMSC_0-471
+# sent_id = 381-20160602-TESEMSC_0-473
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
@@ -12868,7 +12906,7 @@
 44	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Carvalho e Aguiar, (2012) em seu estudo demonstraram que a quantidade de nitrogênio total de P ostreatus em diferentes substratos variou de 20 a 34,5%.
-# sent_id = 381-20160602-TESEMSC_0-472
+# sent_id = 381-20160602-TESEMSC_0-474
 1	Carvalho	Carvalho	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Aguiar	Aguiar	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
@@ -12901,7 +12939,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Bonatti et al (2003), utilizando como substrato palhas de folhas de bananeira apresentaram valores de 16%, portanto inferior.
-# sent_id = 381-20160602-TESEMSC_0-473
+# sent_id = 381-20160602-TESEMSC_0-475
 1	Bonatti	Bonatti	PROPN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al	al	ADP	_	_	5	case	_	_
@@ -12928,7 +12966,7 @@
 24	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Com relação a L.edodes , Sales et al (2013) demostraram diferenças na quantidade de proteína bruta em diferentes substratos.
-# sent_id = 381-20160602-TESEMSC_0-474
+# sent_id = 381-20160602-TESEMSC_0-476
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	3	fixed	_	_
 3	a	a	ADP	_	_	4	case	_	_
@@ -12955,7 +12993,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Deste modo, fica evidente que o substrato influencia nos valores de proteína bruta dessas espécies, sendo que o L.edodes apresentou melhores resultados para o bagaço de cana termo hidrolisado.
-# sent_id = 381-20160602-TESEMSC_0-475
+# sent_id = 381-20160602-TESEMSC_0-477
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -12996,7 +13034,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Ao se avaliar a potencialidade de um material para tornar-se ração para ruminantes, é importante saber a quantidade de proteína bruta, uma vez que o alto teor de proteína na dieta desses animais tem por finalidade atender às exigências de nitrogênio para o crescimento microbiano no rúmen, e ainda possuir um excesso que aumentará a disponibilidade de aminoácidos para absorção no intestino dos próprios ruminantes (OLIVEIRA et al, 2015).
-# sent_id = 381-20160602-TESEMSC_0-476
+# sent_id = 381-20160602-TESEMSC_0-478
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -13091,7 +13129,7 @@
 84	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Além disso, para se conseguir melhor eficiência no desenvolvimento de um rebanho, um dos fatores que deve ser cuidadosamente monitorado é a nutrição, sendo a proteína um dos nutrientes de maior importância pois, possui elevado impacto no sistema produtivo, ocasionando ganhos diferenciados no desempenho animal.
-# sent_id = 381-20160602-TESEMSC_0-477
+# sent_id = 381-20160602-TESEMSC_0-479
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -13118,7 +13156,7 @@
 21	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	22	nsubj	_	_
 22	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
 23	ser	ser	AUX	_	VerbForm=Inf	25	aux	_	_
-24	cuidadosamente	cuidadosamente	ADV	_	_	25	advmod	_	_
+24	cuidadosamente	cuidadosamente	ADV	_	_	25	advmod	_	SpacesAfter=\s\n
 25	monitorado	monitorar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	xcomp	_	_
 26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -13157,7 +13195,7 @@
 57	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = (SILVA, 2010).
-# sent_id = 381-20160602-TESEMSC_0-478
+# sent_id = 381-20160602-TESEMSC_0-480
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	SILVA	Silr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -13166,7 +13204,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Considerando os aumentos da quantidade de nitrogênio total para as duas espécies de fungos em substrato completo pode-se inferir que a biotransformação favorece a utilização do bagaço de cana termo explodido na forma de ração para ruminantes.
-# sent_id = 381-20160602-TESEMSC_0-479
+# sent_id = 381-20160602-TESEMSC_0-481
 1	Considerando	considerar	VERB	_	VerbForm=Ger	19	acl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	aumentos	aumento	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -13215,7 +13253,7 @@
 42	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Resultados semelhantes também foram encontrados em trabalhos anteriores (SOUZA, 2013) 5.4
-# sent_id = 381-20160602-TESEMSC_0-480
+# sent_id = 381-20160602-TESEMSC_0-482
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 2	semelhantes	semelhante	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	também	também	ADV	_	_	5	advmod	_	_
@@ -13232,7 +13270,7 @@
 14	5.4	5.4	NUM	_	NumType=Card	5	nummod	_	_
 
 # text = Quantificação de lipídios nas amostras
-# sent_id = 381-20160602-TESEMSC_0-481
+# sent_id = 381-20160602-TESEMSC_0-483
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	lipídios	lipídio	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -13242,7 +13280,7 @@
 6	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = Os resultados das extrações de lipídios das amostras cultivadas nos substratos estão registrados na tabela 19.
-# sent_id = 381-20160602-TESEMSC_0-482
+# sent_id = 381-20160602-TESEMSC_0-484
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -13270,7 +13308,7 @@
 21	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = O bagaço novo representa aquele que foi recém produzido pela indústria e o bagaço velho representa aquele que ficou submetido a condições ambientais por 45 dias.
-# sent_id = 381-20160602-TESEMSC_0-483
+# sent_id = 381-20160602-TESEMSC_0-485
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	novo	novo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -13302,13 +13340,13 @@
 28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 19:
-# sent_id = 381-20160602-TESEMSC_0-484
+# sent_id = 381-20160602-TESEMSC_0-486
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação mediante extração de lipídios nas amostras de bagaço de cana termo hidrolisado inoculados com Pleurotus ostreatus e Lentinula endodes, incubados a 250C.
-# sent_id = 381-20160602-TESEMSC_0-485
+# sent_id = 381-20160602-TESEMSC_0-487
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	mediante	mediante	ADP	_	_	3	case	_	_
 3	extração	extração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -13335,10 +13373,10 @@
 23	incubados	incubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	17	acl	_	_
 24	a	a	ADP	_	_	25	case	_	_
 25	250C	250C	PROPN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Registrou-se que em todas as amostras houve aumento da quantidade de lipídios.
-# sent_id = 381-20160602-TESEMSC_0-486
+# sent_id = 381-20160602-TESEMSC_0-488
 1-2	Registrou-se	_	_	_	_	_	_	_	_
 1	Registrou	registrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -13358,7 +13396,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os resultados de L.edodes indicam quantidade maior de lipídios que no P.ostreatus, e em ambos os casos houve aumento da quantidade de lipídeos quando maior o tempo de incubação.
-# sent_id = 381-20160602-TESEMSC_0-487
+# sent_id = 381-20160602-TESEMSC_0-489
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13396,7 +13434,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No entanto, comparando-se o bagaço recém produzido com o mais antigo, este último apresentou decréscimo nos valores, para os dois espécimes de fungos.
-# sent_id = 381-20160602-TESEMSC_0-488
+# sent_id = 381-20160602-TESEMSC_0-490
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -13432,7 +13470,7 @@
 30	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Ainda que a quantidade de lipídeos tenha aumentado em todas as amostras com relação ao bagaço puro, isto é, sem ser submetido a fermentação, a porcentagem continua baixa.
-# sent_id = 381-20160602-TESEMSC_0-489
+# sent_id = 381-20160602-TESEMSC_0-491
 1	Ainda	ainda	ADV	_	_	8	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -13469,7 +13507,7 @@
 33	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = Isso pode ter ocorrido pelo fato desses fungos possuírem baixa quantidade de lipídeos e gorduras.
-# sent_id = 381-20160602-TESEMSC_0-490
+# sent_id = 381-20160602-TESEMSC_0-492
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ter	ter	AUX	_	VerbForm=Inf	4	aux	_	_
@@ -13492,7 +13530,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Essa informação está presente em diversas literaturas como Bonatti et al, (2004) que descreveram essas duas espécies de fungos como ricas em carboidratos, vitaminas e sais minerais, porém com baixa quantidade de lipídeos.
-# sent_id = 381-20160602-TESEMSC_0-491
+# sent_id = 381-20160602-TESEMSC_0-493
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -13534,7 +13572,7 @@
 39	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Cheung e Peter (2008) afirmam que nas espécies L.. edodes, S. commune, e P.
-# sent_id = 381-20160602-TESEMSC_0-492
+# sent_id = 381-20160602-TESEMSC_0-494
 1	Cheung	Cheung	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Peter	Peter	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -13557,7 +13595,7 @@
 19	P.	P.	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 
 # text = ostreatus, o teor de lípideos pode atingir apenas 2% .
-# sent_id = 381-20160602-TESEMSC_0-493
+# sent_id = 381-20160602-TESEMSC_0-495
 1	ostreatus	ostreatu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -13572,7 +13610,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Vale ressaltar que a gordura existente nos cogumelos comestíveis contém todas as classes de compostos lipídicos, incluindo ácidos graxos livres, mono-, di-, e triglicérideos, esteróis (ergosterol), ésteres de esteróis e fosfolípideos (HELENO et al., 2009).
-# sent_id = 381-20160602-TESEMSC_0-494
+# sent_id = 381-20160602-TESEMSC_0-496
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	11	mark	_	_
@@ -13626,14 +13664,14 @@
 50	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 5.5 Avaliação de toxicidade
-# sent_id = 381-20160602-TESEMSC_0-495
+# sent_id = 381-20160602-TESEMSC_0-497
 1	5.5	5.5	NUM	_	NumType=Card	2	nummod	_	_
 2	Avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	toxicidade	toxicidade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 
 # text = A Daphina é amplamente utilizada em testes ecotoxicológicos pois trata-se de um microcrustáceo com alta sensibilidade a diversos causadores de toxicidade em ambientes aquáticos.
-# sent_id = 381-20160602-TESEMSC_0-496
+# sent_id = 381-20160602-TESEMSC_0-498
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Daphina	Daphina	PROPN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -13663,7 +13701,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Os resultados são expressos em Concentração Efetiva Média (CE 50), que é determinada de acordo com a imobilidade ou mortalidade de 50% dos indivíduos.
-# sent_id = 381-20160602-TESEMSC_0-497
+# sent_id = 381-20160602-TESEMSC_0-499
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -13697,7 +13735,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Isso significa amostras que apresentam valores de (CE 50) menores, são mais tóxicos pois em pequenas concentrações são suficientemente letais ou imobilizar 50% dos indivíduos de D.similis do teste.
-# sent_id = 381-20160602-TESEMSC_0-498
+# sent_id = 381-20160602-TESEMSC_0-500
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -13737,7 +13775,7 @@
 35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Os resultados de toxicidade aguda com Daphinia similis estão descritos nas figuras Figuras:13, e 14.
-# sent_id = 381-20160602-TESEMSC_0-499
+# sent_id = 381-20160602-TESEMSC_0-501
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13756,16 +13794,16 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
 17	14	14	NUM	_	NumType=Card	10	conj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Figura 13:
-# sent_id = 381-20160602-TESEMSC_0-500
+# sent_id = 381-20160602-TESEMSC_0-502
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Toxicidade aguda com Daphinia similis dos bagaços recém produzidos pela indústria e exposto a condições ambientais por 45 dias, antes da colonização fungica
-# sent_id = 381-20160602-TESEMSC_0-501
+# sent_id = 381-20160602-TESEMSC_0-503
 1	Toxicidade	Toxicidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	aguda	agur	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -13798,13 +13836,13 @@
 27	fungica	fungico	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
 
 # text = Figura 14:
-# sent_id = 381-20160602-TESEMSC_0-502
+# sent_id = 381-20160602-TESEMSC_0-504
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Analise comparativa da toxicidade aguda com
-# sent_id = 381-20160602-TESEMSC_0-503
+# sent_id = 381-20160602-TESEMSC_0-505
 1	Analise	Analise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	comparativa	comparativo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -13815,7 +13853,7 @@
 7	com	com	ADP	_	_	6	case	_	_
 
 # text = Daphinia similis dos bagaços recém produzidos pela indústria (novo) e exposto a condições ambientais por 45 dias (velho), por Lentinula edodes e Pleurotus ostreatus
-# sent_id = 381-20160602-TESEMSC_0-504
+# sent_id = 381-20160602-TESEMSC_0-506
 1	Daphinia	Daphinir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	similis	simill	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -13851,7 +13889,7 @@
 31	ostreatus	ostreatus	PROPN	_	Number=Sing	30	flat:name	_	_
 
 # text = A figura 13 indica que os valores de toxicidade aguda entre o bagaço recém produzido e aquele submetido a condições ambientais por 45 dias são próximos.
-# sent_id = 381-20160602-TESEMSC_0-505
+# sent_id = 381-20160602-TESEMSC_0-507
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	13	13	NUM	_	NumType=Card	4	nsubj	_	_
@@ -13881,7 +13919,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Houve diminuição na toxicidade em todos os tratamentos comparando-os com os substratos antes de serem colonizados.
-# sent_id = 381-20160602-TESEMSC_0-506
+# sent_id = 381-20160602-TESEMSC_0-508
 1	Houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -13902,10 +13940,10 @@
 16	de	de	ADP	_	_	15	fixed	_	_
 17	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	18	aux	_	_
 18	colonizados	colonizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	10	advcl	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Analisando-se as espécies de fungos, é possível verificar que em ambos os casos o bagaço recém produzido mostrou valores de CE(50) menor, indicando ser material mais tóxico.
-# sent_id = 381-20160602-TESEMSC_0-507
+# sent_id = 381-20160602-TESEMSC_0-509
 1-2	Analisando-se	_	_	_	_	_	_	_	_
 1	Analisando	analisar	VERB	_	VerbForm=Ger	9	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -13941,7 +13979,7 @@
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O aumento do tempo de inoculação de 7 para 45 dias, permitiu uma detoxificação do material.
-# sent_id = 381-20160602-TESEMSC_0-508
+# sent_id = 381-20160602-TESEMSC_0-510
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -13966,7 +14004,7 @@
 20	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = A CE(50) inicial de 2,29% para P.ostreatus atingiu 2,35%; e a inicial de 2,38% para L.edodes atingiu a 2,52%.
-# sent_id = 381-20160602-TESEMSC_0-509
+# sent_id = 381-20160602-TESEMSC_0-511
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	CE(	CE(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	50	50	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
@@ -13996,7 +14034,7 @@
 27	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # text = Lembrando que quanto menos o CE(50) mais tóxico é o material.
-# sent_id = 381-20160602-TESEMSC_0-510
+# sent_id = 381-20160602-TESEMSC_0-512
 1	Lembrando	lembrar	VERB	_	VerbForm=Ger	0	root	_	_
 2	que	que	SCONJ	_	_	13	mark	_	_
 3	quanto	quanto	ADV	_	_	4	advmod	_	_
@@ -14013,7 +14051,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados semelhantes com utilização de L.edodes em bagaço termo explodido foram encontrados em trabalhos anteriores, (SOUZA,2013).
-# sent_id = 381-20160602-TESEMSC_0-511
+# sent_id = 381-20160602-TESEMSC_0-513
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 2	semelhantes	semelhante	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -14036,7 +14074,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Comparando-se as espécies de fungos, os dados obtidos indicam que o L.edodes tem a capacidade de detoxificar o material com mais eficiência do que o P.ostreatus em todos os casos.
-# sent_id = 381-20160602-TESEMSC_0-512
+# sent_id = 381-20160602-TESEMSC_0-514
 1-2	Comparando-se	_	_	_	_	_	_	_	_
 1	Comparando	comparar	VERB	_	VerbForm=Ger	11	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -14075,7 +14113,7 @@
 34	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Como citado o L.edodes e o P.ostreatus são fungos da podridão branca e, portanto, produtores de lacases, que são capazes de degradar compostos fenólicos como a lignina.
-# sent_id = 381-20160602-TESEMSC_0-513
+# sent_id = 381-20160602-TESEMSC_0-515
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -14110,8 +14148,8 @@
 31	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Devido a sua baixa especificidade de substrato estas enzimas atualmente tem sido empregadas na detoxificação de esgoto degradação de xenobióticos e biorremediação, produção de aglomerados de madeira sem agregantes tóxicos (COUTO; TOCA- HERRERA, 2007).
-# sent_id = 381-20160602-TESEMSC_0-514
+# text = Devido a sua baixa especificidade de substrato estas enzimas atualmente tem sido empregadas na detoxificação de esgoto degradação de xenobióticos e biorremediação, produção de aglomerados de madeira sem agregantes tóxicos (COUTO; TOCA-HERRERA, 2007).
+# sent_id = 381-20160602-TESEMSC_0-516
 1	Devido	devido	ADV	_	_	5	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	det	_	_
@@ -14148,16 +14186,14 @@
 33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	COUTO	Couto	PROPN	_	Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No
 35	;	;	PUNCT	_	_	36	punct	_	_
-36	TOCA	toca	PROPN	_	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
-37	-	-	PUNCT	_	_	38	punct	_	_
-38	HERRERA	HERRERA	PROPN	_	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	40	punct	_	_
-40	2007	2007	NUM	_	NumType=Card	34	conj	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	13	punct	_	_
+36	TOCA-HERRERA	TOCA-HERRERA	PROPN	_	Gender=Fem|Number=Sing	34	appos	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	2007	2007	NUM	_	NumType=Card	34	appos:parataxis	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Esse fato pode explicar porque as duas espécies de fungos diminuíram a taxa de toxicidade aguda nas amostras.
-# sent_id = 381-20160602-TESEMSC_0-515
+# sent_id = 381-20160602-TESEMSC_0-517
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14181,7 +14217,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Apesar de terem apresentado um aumento do CE (50), este dado corresponde a uma diminuição da toxicidade aguda.
-# sent_id = 381-20160602-TESEMSC_0-516
+# sent_id = 381-20160602-TESEMSC_0-518
 1	Apesar	apesar	ADV	_	_	4	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	terem	ter	AUX	_	Number=Plur|Person=3|VerbForm=Inf	4	aux	_	_
@@ -14210,7 +14246,7 @@
 24	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Nas amostras inoculadas, esse valor foi pequeno comparando-se com os substratos sem tratamento.
-# sent_id = 381-20160602-TESEMSC_0-517
+# sent_id = 381-20160602-TESEMSC_0-519
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -14232,7 +14268,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Esse fato pode estar relacionado com a quantidade de nitrogênio disponível no substrato.
-# sent_id = 381-20160602-TESEMSC_0-518
+# sent_id = 381-20160602-TESEMSC_0-520
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14251,7 +14287,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Silva, et al; (2012) em seu trabalho mostraram que a quantidade afeta a produção de lacase.
-# sent_id = 381-20160602-TESEMSC_0-519
+# sent_id = 381-20160602-TESEMSC_0-521
 1	Silva	Silva	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	et	et	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -14275,7 +14311,7 @@
 21	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Quanto menor a quantidade de nitrogênio disponível menor a quantidade de lacase produzida e consequentemente menor a biodegradação de compostos fenólicos.
-# sent_id = 381-20160602-TESEMSC_0-520
+# sent_id = 381-20160602-TESEMSC_0-522
 1	Quanto	quanto	ADV	_	_	2	advmod	_	_
 2	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -14300,7 +14336,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O substrato utilizado neste trabalho apresentou baixo teor de nitrogênio.
-# sent_id = 381-20160602-TESEMSC_0-521
+# sent_id = 381-20160602-TESEMSC_0-523
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -14313,14 +14349,14 @@
 9	teor	teor	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	nitrogênio	nitrogênio	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = 5.6
-# sent_id = 381-20160602-TESEMSC_0-522
+# sent_id = 381-20160602-TESEMSC_0-524
 1	5.6	5.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Demanda quimica de oxigênio (DQO) e demanda bioquímica de oxigênio (DBO)
-# sent_id = 381-20160602-TESEMSC_0-523
+# sent_id = 381-20160602-TESEMSC_0-525
 1	Demanda	demandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	quimica	quimica	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -14338,7 +14374,7 @@
 15	)	)	PUNCT	_	_	14	punct	_	_
 
 # text = Os resultados de DQO e de DBO indicam aumento após o crescimento dos fungos nos substratos.
-# sent_id = 381-20160602-TESEMSC_0-524
+# sent_id = 381-20160602-TESEMSC_0-526
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -14362,7 +14398,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Esses dados significam que o material lignocelulósico solubilizado das amostras submetidas ao tratamento passaram a ter matéria orgânica mais facilmente assimilável do que o solubilizado do bagaço termo hidrolisado puro.
-# sent_id = 381-20160602-TESEMSC_0-525
+# sent_id = 381-20160602-TESEMSC_0-527
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	significam	significar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14404,7 +14440,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = (Figuras 15 e 16)
-# sent_id = 381-20160602-TESEMSC_0-526
+# sent_id = 381-20160602-TESEMSC_0-528
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	15	15	NUM	_	NumType=Card	2	nummod	_	_
@@ -14413,13 +14449,13 @@
 6	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Figura 15:
-# sent_id = 381-20160602-TESEMSC_0-527
+# sent_id = 381-20160602-TESEMSC_0-529
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Análise de DQO do bagaço de cana termo hidrolisado antes e após a inoculação com Pleurotus ostreatus e Lentinula edodes incubados a 25°C +/- 2°C.
-# sent_id = 381-20160602-TESEMSC_0-528
+# sent_id = 381-20160602-TESEMSC_0-530
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	DQO	DQO	PROPN	_	Number=Sing	1	nmod	_	_
@@ -14450,13 +14486,13 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 16:
-# sent_id = 381-20160602-TESEMSC_0-529
+# sent_id = 381-20160602-TESEMSC_0-531
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Analise de DBO do bagaço de cana termo hidrolisado antes e após a inoculação com Pleurotus ostreatus e Lentinula edodes incubados a 25°C +/- 2°C.
-# sent_id = 381-20160602-TESEMSC_0-530
+# sent_id = 381-20160602-TESEMSC_0-532
 1	Analise	Analise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	DBO	DBO	PROPN	_	Number=Sing	1	nmod	_	_
@@ -14484,10 +14520,10 @@
 24	25°C	25°C	PROPN	_	Gender=Masc|Number=Sing	22	obl	_	_
 25	+/-	+/-	PUNCT	_	_	9	punct	_	_
 26	2°C	2°C	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Analisando-se a DQO registrou-se que a quantidade de oxigênio necessária para degradar toda a matéria orgânica aumentou, tanto para P.
-# sent_id = 381-20160602-TESEMSC_0-531
+# sent_id = 381-20160602-TESEMSC_0-533
 1-2	Analisando-se	_	_	_	_	_	_	_	_
 1	Analisando	analisar	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -14515,7 +14551,7 @@
 23	P.	P.	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 
 # text = ostreatus quanto para L.edodes.
-# sent_id = 381-20160602-TESEMSC_0-532
+# sent_id = 381-20160602-TESEMSC_0-534
 1	ostreatus	ostreatu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	quanto	quanto	ADV	_	_	1	advmod	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -14523,7 +14559,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = (Figura 15), o que indica aumento considerável na presença de matéria orgânica solubilizada das amostras.
-# sent_id = 381-20160602-TESEMSC_0-533
+# sent_id = 381-20160602-TESEMSC_0-535
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	15	15	NUM	_	NumType=Card	2	obj	_	SpaceAfter=No
@@ -14549,7 +14585,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Quanto a DBO também houve aumento do consumo de O2 indicando a degradação de matéria orgânica das amostras que foi solubilizada (Figura 16).
-# sent_id = 381-20160602-TESEMSC_0-534
+# sent_id = 381-20160602-TESEMSC_0-536
 1	Quanto	quanto	ADV	_	_	3	case	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	DBO	DBO	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -14582,7 +14618,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os valores da DBO relativamente baixos em relação a DQO, significa que ambos os fungos após período de incubação deixaram de consumir substancias que foram solubilizadas pela água 5.7
-# sent_id = 381-20160602-TESEMSC_0-535
+# sent_id = 381-20160602-TESEMSC_0-537
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -14619,7 +14655,7 @@
 32	5.7	5.7	NUM	_	NumType=Card	31	nummod	_	_
 
 # text = Qualidade proteica pelo método de Enterococcus zymogenes
-# sent_id = 381-20160602-TESEMSC_0-536
+# sent_id = 381-20160602-TESEMSC_0-538
 1	Qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	proteica	proteico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	pelo	_	_	_	_	_	_	_	_
@@ -14631,7 +14667,7 @@
 8	zymogenes	zymogene	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 
 # text = Por meio deste teste obteve-se Valor Nutricional Relativo (VNR) dos alimentos que é importante pois permite a formulação de rações que atendam às exigências nutricionais dos animais e humanos (BOSCOLO et al., 2002).
-# sent_id = 381-20160602-TESEMSC_0-537
+# sent_id = 381-20160602-TESEMSC_0-539
 1	Por	por	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 3-4	deste	_	_	_	_	_	_	_	_
@@ -14683,7 +14719,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Altos teores de VNR são importantes para determinar a qualidade da proteína existente na amostra.
-# sent_id = 381-20160602-TESEMSC_0-538
+# sent_id = 381-20160602-TESEMSC_0-540
 1	Altos	Alto	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	teores	teor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -14706,7 +14742,7 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A caseína é considerada referência, por tratar-se de uma proteína completa, portanto, determina-se em 100% o seu VNR.
-# sent_id = 381-20160602-TESEMSC_0-539
+# sent_id = 381-20160602-TESEMSC_0-541
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	caseína	caseína	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -14736,7 +14772,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Quando as amostras apresentam valores mais próximos ao valor da porcentagem de VNR da caseína, melhor é a sua qualidade proteica (MORALES,2012).
-# sent_id = 381-20160602-TESEMSC_0-540
+# sent_id = 381-20160602-TESEMSC_0-542
 1	Quando	quando	SCONJ	_	_	4	mark	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -14771,7 +14807,7 @@
 29	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Diante destas informações pode-se comparar a qualidade proteica do bagaço após a fermentação com P ostreatus e L.
-# sent_id = 381-20160602-TESEMSC_0-541
+# sent_id = 381-20160602-TESEMSC_0-543
 1	Diante	diante	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2-3	destas	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -14798,7 +14834,7 @@
 21	L.	L.	PROPN	_	Gender=Masc|Number=Sing	16	conj	_	_
 
 # text = edodes e o bagaço puro.
-# sent_id = 381-20160602-TESEMSC_0-542
+# sent_id = 381-20160602-TESEMSC_0-544
 1	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -14807,7 +14843,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O bagaço puro apresenta valor igual a 23,07%, ou seja, inferior ao que registrou-se em todas as amostras após o cultivo dos fungos neste substrato, apontando melhoria no VRN.
-# sent_id = 381-20160602-TESEMSC_0-543
+# sent_id = 381-20160602-TESEMSC_0-545
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	puro	puro	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -14854,7 +14890,7 @@
 39	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Para P.ostreatus, o VRN foi de 34,61% com 7 dias e de 73,07% com 45 dias de incubação.
-# sent_id = 381-20160602-TESEMSC_0-544
+# sent_id = 381-20160602-TESEMSC_0-546
 1	Para	para	ADP	_	_	2	case	_	_
 2	P.ostreatus	P.ostreatus	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -14879,7 +14915,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para L.edodes com 7 dias de incubação o valor foi de 23,07% atingindo 84,61% com 45 dias..
-# sent_id = 381-20160602-TESEMSC_0-545
+# sent_id = 381-20160602-TESEMSC_0-547
 1	Para	para	ADP	_	_	2	case	_	_
 2	L.edodes	L.edodes	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -14902,7 +14938,7 @@
 20	..	..	PUNCT	_	_	13	punct	_	_
 
 # text = A análise comparativa das duas espécies de fungos, com 7 dias de incubação, evidenciou que as amostras de P.ostreatus apresentaram qualidade proteica melhor do que L.edodes.
-# sent_id = 381-20160602-TESEMSC_0-546
+# sent_id = 381-20160602-TESEMSC_0-548
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	comparativa	comparativo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -14938,7 +14974,7 @@
 31	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = No entanto, após maior tempo de cultivo, as amostras com L.edodes passaram a apresentar percentual de VRN mais elevado (84,61%).
-# sent_id = 381-20160602-TESEMSC_0-547
+# sent_id = 381-20160602-TESEMSC_0-549
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	17	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -14969,7 +15005,7 @@
 27	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = A figura 17 evidencia a melhoria na qualidade proteica do bagaço de cana termo hidrolisado após a fermentação fungica.
-# sent_id = 381-20160602-TESEMSC_0-548
+# sent_id = 381-20160602-TESEMSC_0-550
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	17	17	NUM	_	NumType=Card	4	nsubj	_	_
@@ -14996,7 +15032,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nela também fica registrada a importância do tempo de incubação na formação de proteínas com melhor qualidade nutricional.
-# sent_id = 381-20160602-TESEMSC_0-549
+# sent_id = 381-20160602-TESEMSC_0-551
 1-2	Nela	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	2	case	_	_
 2	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
@@ -15021,16 +15057,16 @@
 19	melhor	bom	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 20	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 21	nutricional	nutricional	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 17:
-# sent_id = 381-20160602-TESEMSC_0-550
+# sent_id = 381-20160602-TESEMSC_0-552
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Comparação da qualidade proteica pelo método microbiológico de Enterococcus zymogenes das amostras de bagaço puro e submetidas ao tratamento com Lentinula edodes e Pleurotus ostreatus comparados com a caseína.
-# sent_id = 381-20160602-TESEMSC_0-551
+# sent_id = 381-20160602-TESEMSC_0-553
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -15071,7 +15107,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os fungos possuem uma considerável porcentagem de proteina.
-# sent_id = 381-20160602-TESEMSC_0-552
+# sent_id = 381-20160602-TESEMSC_0-554
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15083,7 +15119,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = No entanto a qualidade proteica de um alimento é, sobretudo, determinada pelo seu valor biológico (ASTUDILLO, 2007).
-# sent_id = 381-20160602-TESEMSC_0-553
+# sent_id = 381-20160602-TESEMSC_0-555
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -15113,7 +15149,7 @@
 25	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Sendo assim para se ter uma qualidade nutricional não basta apenas o material possuir uma alta porcentagem de proteína, mas apresentar significativo VNR Reis (2012) considerou
-# sent_id = 381-20160602-TESEMSC_0-554
+# sent_id = 381-20160602-TESEMSC_0-556
 1	Sendo	ser	VERB	_	VerbForm=Ger	0	root	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	_
 3	para	para	SCONJ	_	_	5	mark	_	_
@@ -15144,7 +15180,7 @@
 28	considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
 
 # text = P.ostreatus como sendo não apenas uma boa fonte de proteína, mas que a sua composição em aminoácidos é comparável com à das proteínas animais.
-# sent_id = 381-20160602-TESEMSC_0-555
+# sent_id = 381-20160602-TESEMSC_0-557
 1	P.ostreatus	P.ostreatu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	como	como	SCONJ	_	_	8	mark	_	_
 3	sendo	ser	AUX	_	VerbForm=Ger	8	cop	_	_
@@ -15177,7 +15213,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sales et al. (2013) também afirmam que L.edodes possui boa qualidade proteica.
-# sent_id = 381-20160602-TESEMSC_0-556
+# sent_id = 381-20160602-TESEMSC_0-558
 1	Sales	Sales	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -15195,7 +15231,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Estes fatos reforçam os dados obtidos com o método microbiológico de Enterococus zymogenes, uma vez que possuem não apenas uma porcentagem significativa de proteína, mas um VRN satisfatório.
-# sent_id = 381-20160602-TESEMSC_0-557
+# sent_id = 381-20160602-TESEMSC_0-559
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	reforçam	reforçar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15229,7 +15265,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Outro fator que favorece a utilização desses fungos para a incorporação do bagaço de cana termo hidrolisado na ração de ruminantes é a ausência de príons (“proteinaceous infectious particles”) no material.
-# sent_id = 381-20160602-TESEMSC_0-558
+# sent_id = 381-20160602-TESEMSC_0-560
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fator	fator	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
@@ -15276,7 +15312,7 @@
 40	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Os prions são proteínas anômalas, com tamanho menor que um vírus cuja disseminação no organismo provoca a rápida degeneração do sistema nervoso.
-# sent_id = 381-20160602-TESEMSC_0-559
+# sent_id = 381-20160602-TESEMSC_0-561
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	prions	priom	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -15302,12 +15338,12 @@
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpacesAfter=\s\n
 25	nervoso	nervoso	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Estes são transmitidos mediante o consumo de material infectado, e não se conhece processo de cocção ou desinfecção que consiga sua inativação.
-# sent_id = 381-20160602-TESEMSC_0-560
+# sent_id = 381-20160602-TESEMSC_0-562
 1	Estes	este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj:pass	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	transmitidos	transmitir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -15334,7 +15370,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os príons possuem período de incubação que pode durar meses ou anos (LÉVI-STRAUSS, 2009;
-# sent_id = 381-20160602-TESEMSC_0-561
+# sent_id = 381-20160602-TESEMSC_0-563
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	príons	príom	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15354,7 +15390,7 @@
 17	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = KECK, 2009).
-# sent_id = 381-20160602-TESEMSC_0-562
+# sent_id = 381-20160602-TESEMSC_0-564
 1	KECK	Keck	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	2009	2009	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
@@ -15362,7 +15398,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Em 1992 houve incidência epidêmica na Inglaterra, chegando a relatos de 1000 novos casos de ruminantes contaminados semanalmente com a doença, conhecida “Vaca Louca”.
-# sent_id = 381-20160602-TESEMSC_0-563
+# sent_id = 381-20160602-TESEMSC_0-565
 1	Em	em	ADP	_	_	2	case	_	_
 2	1992	1992	NUM	_	NumType=Card	3	obl	_	_
 3	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -15396,7 +15432,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Posteriormente o fato foi associado à alimentação das vacas que era constituída há anos com rações “proteinadas”.
-# sent_id = 381-20160602-TESEMSC_0-564
+# sent_id = 381-20160602-TESEMSC_0-566
 1	Posteriormente	posteriormente	ADV	_	_	5	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fato	fato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -15423,7 +15459,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Esta ração preparada a partir de Meat and Bone Meal (MBM), uma farinha de carne e ossos produzida com os restos de outros mamíferos com a finalidade de introduzir uma alimentação com maior teor proteico ao rebanho.
-# sent_id = 381-20160602-TESEMSC_0-565
+# sent_id = 381-20160602-TESEMSC_0-567
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ração	ração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	preparada	preparar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -15469,7 +15505,7 @@
 42	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Segundo DALE, 2002, os prions não são transmitidos por vírus, fungos ou bactérias.
-# sent_id = 381-20160602-TESEMSC_0-566
+# sent_id = 381-20160602-TESEMSC_0-568
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	DALE	Dale	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -15489,7 +15525,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Sabe-se ainda que a sua transmissão não ocorre por matéria vegetal.
-# sent_id = 381-20160602-TESEMSC_0-567
+# sent_id = 381-20160602-TESEMSC_0-569
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -15506,7 +15542,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Por esse motivo, uma ração constituída de bagaço de cana e fungos, não apresentaria risco de contaminação por prions aos rebanhos.
-# sent_id = 381-20160602-TESEMSC_0-568
+# sent_id = 381-20160602-TESEMSC_0-570
 1	Por	por	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
@@ -15532,10 +15568,10 @@
 22	a	a	ADP	_	_	24	case	_	_
 23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	rebanhos	rebanho	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n\n
 
 # text = 6 CONCLUSÃO Lentinula edodoes e Pleurotus ostreatus tem potencial de desenvolvimento em substrato de bagaço de cana termo hidrolisado.
-# sent_id = 381-20160602-TESEMSC_0-569
+# sent_id = 381-20160602-TESEMSC_0-571
 1	6	6	NUM	_	NumType=Card	2	nummod	_	_
 2	CONCLUSÃO	Conclusão	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	Lentinula	Lentinula	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -15558,7 +15594,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = As amostras analisadas, apontam um aumento na quantidade de proteína bruta, de até três vezes comparando-se com o substrato original.
-# sent_id = 381-20160602-TESEMSC_0-570
+# sent_id = 381-20160602-TESEMSC_0-572
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	analisadas	analisar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	SpaceAfter=No
@@ -15588,7 +15624,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O valor nutricional relativo (VNR) das proteínas presentes nas amostras sugere que no substrato completo o P.ostreatus e L.edodes apresentam melhoria na qualidade protéica de 84,61% para L.edodes e 73,07% para P.ostreatus quando comparado ao padrão caseína 100%.
-# sent_id = 381-20160602-TESEMSC_0-571
+# sent_id = 381-20160602-TESEMSC_0-573
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	nutricional	nutricional	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -15645,7 +15681,7 @@
 49	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Estes dados recomendam o aproveitamento do substrato na forma microbiologicamente modificada pelos fungos
-# sent_id = 381-20160602-TESEMSC_0-572
+# sent_id = 381-20160602-TESEMSC_0-574
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	recomendam	recomendar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15667,19 +15703,19 @@
 16	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
 
 # text = P. ostreatus e L.
-# sent_id = 381-20160602-TESEMSC_0-573
+# sent_id = 381-20160602-TESEMSC_0-575
 1	P.	p.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	ostreatus	ostreatu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
 4	L.	L.	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
 
 # text = edodes.
-# sent_id = 381-20160602-TESEMSC_0-574
+# sent_id = 381-20160602-TESEMSC_0-576
 1	edodes	edode	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A análise com toxicidade aguda com D.simlis, apresentou diminuição da toxicidade, .
-# sent_id = 381-20160602-TESEMSC_0-575
+# sent_id = 381-20160602-TESEMSC_0-577
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -15698,7 +15734,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Esta condição favorece tanto a biodegradação do material em condições ambientas como o desenvolvimento e atuação no rumem conferindo ao material com maior potencial de digestibilidade.
-# sent_id = 381-20160602-TESEMSC_0-576
+# sent_id = 381-20160602-TESEMSC_0-578
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	condição	condição	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	favorece	favorecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15734,7 +15770,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = P.ostreatus e L.edodes cultivados em bagaço de cana termo hidrolisado mostraram potencial de tratamento e enriquecimento podendo ser aproveitado, no momento, como ingrediente de ração para ruminantes.
-# sent_id = 381-20160602-TESEMSC_0-577
+# sent_id = 381-20160602-TESEMSC_0-579
 1	P.ostreatus	P.ostreatus	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	L.edodes	L.edodes	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	_

@@ -1,6 +1,6 @@
 # text = INTRODUÇÃO De acordo com o cenário traçado pelo Instituto Internacional de Economia, haverá um aumento de 1,7% ao ano na demanda de energia mundial, o que equivale a um consumo de 15,3 bilhões de toneladas equivalentes de petróleo por ano (EMBRAPA, 2006).
 # sent_id = 328-20140905-MONOGRAFIA_0-1
-1	INTRODUÇÃO	introdução	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+1	INTRODUÇÃO	introdução	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	SpacesBefore=\n\n
 2	De	de	ADP	_	_	3	case	_	_
 3	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	com	com	ADP	_	_	6	case	_	_
@@ -366,22 +366,21 @@
 21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Tabela 1- Rendimento anual e produtividade de óleo de algumas oleaginosas 1.1 Óleo Vegetal
+# text = Tabela 1Rendimento anual e produtividade de óleo de algumas oleaginosas 1.1 Óleo Vegetal
 # sent_id = 328-20140905-MONOGRAFIA_0-9
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	1-	1	PART	_	_	1	appos	_	_
-3	Rendimento	rendimento	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
-4	anual	anual	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-5	e	e	CCONJ	_	_	6	cc	_	_
-6	produtividade	produtividade	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
-11	oleaginosas	oleaginosa	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-12	1.1	1.1	NUM	_	NumType=Card	11	nummod	_	_
-13	Óleo	óleo	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
-14	Vegetal	Vegetal	PROPN	_	Number=Sing	13	flat:name	_	_
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	1Rendimento	1Rendimento	PROPN	_	Number=Sing	1	flat:name	_	_
+3	anual	anual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	produtividade	produtividade	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	oleaginosas	oleaginosa	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpacesAfter=\s\n
+11	1.1	1.1	NUM	_	NumType=Card	10	nummod	_	_
+12	Óleo	óleo	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	Vegetal	Vegetal	PROPN	_	Number=Sing	12	flat:name	_	_
 
 # text = Os óleos e gorduras vegetais podem ser definidos como: “produtos constituídos principalmente de glicerídeos de ácidos graxos de espécies vegetais.
 # sent_id = 328-20140905-MONOGRAFIA_0-10
@@ -548,7 +547,7 @@
 32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	8	punct	_	_
 
-# text = Visando instituir uma política estadual de incentivo, o Governo de Minas Gerais regulamentou a Lei n°19.485/2011 – Pró- Macaúba, que apresenta uma política de fomento a criação de mecanismos para que as comunidades organizadas em cooperativa ou outra forma associativa, possam utilizar as áreas de reserva legal existentes em suas propriedades para a coleta de frutos da macaúba e das demais palmeiras oleaginosas (MINAS GERAIS, 2011).
+# text = Visando instituir uma política estadual de incentivo, o Governo de Minas Gerais regulamentou a Lei n°19.485/2011 – Pró-Macaúba, que apresenta uma política de fomento a criação de mecanismos para que as comunidades organizadas em cooperativa ou outra forma associativa, possam utilizar as áreas de reserva legal existentes em suas propriedades para a coleta de frutos da macaúba e das demais palmeiras oleaginosas (MINAS GERAIS, 2011).
 # sent_id = 328-20140905-MONOGRAFIA_0-19
 1	Visando	visar	VERB	_	VerbForm=Ger	14	advcl	_	_
 2	instituir	instituir	VERB	_	VerbForm=Inf	1	xcomp	_	_
@@ -568,65 +567,64 @@
 16	Lei	Lei	PROPN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17	n°19.485/2011	n°19.485/2011	PROPN	_	Number=Sing	16	flat:name	_	_
 18	–	–	PUNCT	_	_	19	punct	_	_
-19	Pró-	pró-	PROPN	_	Number=Sing	16	flat:name	_	_
-20	Macaúba	Macaúba	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	16	punct	_	_
-22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	nsubj	_	_
-23	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
-24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	política	política	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	fomento	fomento	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	criação	criação	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-32	para	para	SCONJ	_	_	44	mark	_	_
-33	que	que	SCONJ	_	_	44	mark	_	_
-34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
-35	comunidades	comunidade	NOUN	_	Gender=Fem|Number=Plur	44	nsubj	_	_
-36	organizadas	organizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	35	acl	_	_
-37	em	em	ADP	_	_	38	case	_	_
-38	cooperativa	cooperativa	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
-39	ou	ou	CCONJ	_	_	41	cc	_	_
-40	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	41	det	_	_
-41	forma	forma	NOUN	_	Gender=Fem|Number=Sing	38	conj	_	_
-42	associativa	associativo	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	35	punct	_	_
-44	possam	poder	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	_
-45	utilizar	utilizar	VERB	_	VerbForm=Inf	44	xcomp	_	_
-46	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
-47	áreas	área	NOUN	_	Gender=Fem|Number=Plur	45	obj	_	_
-48	de	de	ADP	_	_	49	case	_	_
-49	reserva	reserva	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
-50	legal	legal	ADJ	_	Gender=Fem|Number=Sing	49	amod	_	_
-51	existentes	existir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	47	acl	_	_
-52	em	em	ADP	_	_	54	case	_	_
-53	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	54	det	_	_
-54	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	51	obl	_	_
-55	para	para	ADP	_	_	54	case	_	_
-56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
-57	coleta	coleta	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	_
-58	de	de	ADP	_	_	59	case	_	_
-59	frutos	fruto	NOUN	_	Gender=Masc|Number=Plur	57	nmod	_	_
-60-61	da	_	_	_	_	_	_	_	_
-60	de	de	ADP	_	_	62	case	_	_
-61	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
-62	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	59	nmod	_	_
-63	e	e	CCONJ	_	_	67	cc	_	_
-64-65	das	_	_	_	_	_	_	_	_
-64	de	de	ADP	_	_	67	case	_	_
-65	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
-66	demais	demais	DET	_	Gender=Fem|Number=Plur|PronType=Ind	67	det	_	_
-67	palmeiras	palmeira	NOUN	_	Gender=Fem|Number=Plur	62	conj	_	_
-68	oleaginosas	oleaginoso	ADJ	_	Gender=Fem|Number=Plur	67	amod	_	_
-69	(	(	PUNCT	_	_	70	punct	_	SpaceAfter=No
-70	MINAS	Minas	PROPN	_	Gender=Masc|Number=Sing	57	appos	_	_
-71	GERAIS	Gerais	PROPN	_	Number=Sing	70	flat:name	_	SpaceAfter=No
-72	,	,	PUNCT	_	_	73	punct	_	_
-73	2011	2011	NUM	_	NumType=Card	70	appos:parataxis	_	SpaceAfter=No
-74	)	)	PUNCT	_	_	70	punct	_	SpaceAfter=No
-75	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+19	Pró-Macaúba	Pró-Macaúba	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
+22	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	política	política	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	fomento	fomento	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	criação	criação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+31	para	para	SCONJ	_	_	43	mark	_	_
+32	que	que	SCONJ	_	_	43	mark	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	comunidades	comunidade	NOUN	_	Gender=Fem|Number=Plur	43	nsubj	_	_
+35	organizadas	organizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	34	acl	_	_
+36	em	em	ADP	_	_	37	case	_	_
+37	cooperativa	cooperativa	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
+38	ou	ou	CCONJ	_	_	40	cc	_	_
+39	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	40	det	_	_
+40	forma	forma	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
+41	associativa	associativo	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	34	punct	_	_
+43	possam	poder	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+44	utilizar	utilizar	VERB	_	VerbForm=Inf	43	xcomp	_	_
+45	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	áreas	área	NOUN	_	Gender=Fem|Number=Plur	44	obj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	reserva	reserva	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+49	legal	legal	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	_
+50	existentes	existir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	48	acl	_	_
+51	em	em	ADP	_	_	53	case	_	_
+52	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	53	det	_	_
+53	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	50	obl	_	_
+54	para	para	ADP	_	_	56	case	_	_
+55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	coleta	coleta	NOUN	_	Gender=Fem|Number=Sing	50	obl	_	_
+57	de	de	ADP	_	_	58	case	_	_
+58	frutos	fruto	NOUN	_	Gender=Masc|Number=Plur	56	nmod	_	_
+59-60	da	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
+62	e	e	CCONJ	_	_	66	cc	_	_
+63-64	das	_	_	_	_	_	_	_	_
+63	de	de	ADP	_	_	66	case	_	_
+64	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	66	det	_	_
+65	demais	demais	DET	_	Gender=Fem|Number=Plur|PronType=Ind	66	det	_	_
+66	palmeiras	palmeira	NOUN	_	Gender=Fem|Number=Plur	61	conj	_	_
+67	oleaginosas	oleaginoso	ADJ	_	Gender=Fem|Number=Plur	66	amod	_	_
+68	(	(	PUNCT	_	_	69	punct	_	SpaceAfter=No
+69	MINAS	Minas	PROPN	_	Gender=Masc|Number=Sing	56	appos	_	_
+70	GERAIS	Gerais	PROPN	_	Number=Sing	69	flat:name	_	SpaceAfter=No
+71	,	,	PUNCT	_	_	72	punct	_	_
+72	2011	2011	NUM	_	NumType=Card	69	appos:parataxis	_	SpaceAfter=No
+73	)	)	PUNCT	_	_	69	punct	_	SpaceAfter=No
+74	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = A palmeira bastante resistente a secas e queimadas, figura 2, pode atingir até 15 metros de altura com frutos esféricos com diâmetro variável entre 3,5 a 5 centímetros.
 # sent_id = 328-20140905-MONOGRAFIA_0-20
@@ -678,7 +676,7 @@
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
-13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\n
 14	apresentar	apresentar	VERB	_	VerbForm=Inf	13	xcomp	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	frutificação	frutificação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
@@ -841,17 +839,15 @@
 2	2	2	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 
-# text = Composição em ácidos graxos livres- Macaúba Ácidos Graxos
+# text = Composição em ácidos graxos livres-Macaúba Ácidos Graxos
 # sent_id = 328-20140905-MONOGRAFIA_0-29
 1	Composição	composição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	ácidos	ácido	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 4	graxos	graxo	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-5	livres	livre	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
-6	-	-	PUNCT	_	_	1	punct	_	_
-7	Macaúba	Macaúba	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-8	Ácidos	Ácidos	PROPN	_	Number=Sing	7	flat:name	_	_
-9	Graxos	Graxos	PROPN	_	Number=Sing	7	flat:name	_	_
+5	livres-Macaúba	livres-Macaúba	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6	Ácidos	Ácidos	PROPN	_	Number=Sing	5	flat:name	_	_
+7	Graxos	Graxos	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = Composição em ácidos graxos livres (%) Macaúba(frutos)
 # sent_id = 328-20140905-MONOGRAFIA_0-30
@@ -876,7 +872,7 @@
 5	Amêndoa	Amêndoa	PROPN	_	Number=Sing	2	flat:name	_	_
 6	-	-	PUNCT	_	_	1	punct	_	_
 7	-	-	PUNCT	_	_	1	punct	_	_
-8	6,2	6,2	NUM	_	NumType=Card	1	nummod	_	_
+8	6,2	6,2	NUM	_	NumType=Card	1	nummod	_	SpacesAfter=\s\n
 
 # text = O fruto pode ser consumido in natura.
 # sent_id = 328-20140905-MONOGRAFIA_0-32
@@ -1137,8 +1133,15 @@
 41	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Os frutos do pequizeiro (figura 5) são muito ricos em óleo, proteínas e carotenoides, a polpa fornece teores de óleo de 61,79% e amêndoa 42,2%.
+# text = Figura 4: Pequizeiro
 # sent_id = 328-20140905-MONOGRAFIA_0-41
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Pequizeiro	Pequizeiro	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpacesAfter=\s\n
+
+# text = Os frutos do pequizeiro (figura 5) são muito ricos em óleo, proteínas e carotenoides, a polpa fornece teores de óleo de 61,79% e amêndoa 42,2%.
+# sent_id = 328-20140905-MONOGRAFIA_0-42
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	frutos	fruto	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1174,21 +1177,18 @@
 32	%	%	SYM	_	_	30	obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
-# text = Figura 5:
-# sent_id = 328-20140905-MONOGRAFIA_0-42
+# text = Figura 5: Componentes do fruto de pequi
+# sent_id = 328-20140905-MONOGRAFIA_0-43
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Componentes do fruto de pequi
-# sent_id = 328-20140905-MONOGRAFIA_0-43
-1	Componentes	componente	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	fruto	fruto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+4	Componentes	componentes	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fruto	fruto	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 
 # text = O óleo proveniente do pequi apresenta qualidade elevada devido à alta concentração dos ácidos oleico e palmítico, 54% e 34% respectivamente, como mostra a tabela 3 (VISCONDE).
 # sent_id = 328-20140905-MONOGRAFIA_0-44
@@ -1326,7 +1326,7 @@
 7	para	para	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
-10-11	do	_	_	_	_	_	_	_	_
+10-11	do	_	_	_	_	_	_	_	SpacesAfter=\s\n
 10	de	de	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -1363,17 +1363,15 @@
 40	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = 1.4
+# text = 1.4 Processos Oxidativos
 # sent_id = 328-20140905-MONOGRAFIA_0-50
-1	1.4	1.4	NUM	_	NumType=Card	0	root	_	_
-
-# text = Processos Oxidativos
-# sent_id = 328-20140905-MONOGRAFIA_0-51
-1	Processos	processo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	Oxidativos	Oxidativo	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+1	1.	1.	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+2	4	4	NUM	_	NumType=Card	1	flat	_	_
+3	Processos	Processo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+4	Oxidativos	Oxidativo	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 
 # text = Os óleos vegetais podem sofrer transformações químicas que causam a sua degradação.
-# sent_id = 328-20140905-MONOGRAFIA_0-52
+# sent_id = 328-20140905-MONOGRAFIA_0-51
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	vegetais	vegetal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -1389,7 +1387,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os processos oxidativos podem ocorrer durante o processamento, armazenamento ou pelo estresse térmico.
-# sent_id = 328-20140905-MONOGRAFIA_0-53
+# sent_id = 328-20140905-MONOGRAFIA_0-52
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	oxidativos	oxidativo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -1409,7 +1407,7 @@
 16	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Segundo Hellin e Rueda (HELLÍN, 1984), as modificações nos óleos e gorduras podem ser classificadas como: a) auto-oxidação: oxidação que ocorre a temperatura abaixo de 100°C; b) polimerização térmica: oxidação que ocorre a temperaturas que variam entre 200 e 300°C, na ausência de oxigênio; c) oxidação térmica: oxidação que ocorre na presença de oxigênio a altas temperaturas (oxipolimerização); d) modificações físicas: modificações que ocorrem nas propriedades físicas; e) modificações nutricionais: modificações nos aspectos fisiológicos e nutricionais dos óleos; f) modificações químicas, que podem ser classificadas como: • hidrólise dos triacilgliceróis: resulta na liberação de ácidos graxos, glicerina, mono e diglicerídeos;
-# sent_id = 328-20140905-MONOGRAFIA_0-54
+# sent_id = 328-20140905-MONOGRAFIA_0-53
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Hellin	Hellin	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -1558,7 +1556,7 @@
 138	;	;	PUNCT	_	_	18	punct	_	_
 
 # text = • polimerização: extensa condensação de monômeros de ácidos graxos polinsaturados a altas temperaturas por períodos prolongados;
-# sent_id = 328-20140905-MONOGRAFIA_0-55
+# sent_id = 328-20140905-MONOGRAFIA_0-54
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	polimerização	polimerização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -1579,7 +1577,7 @@
 18	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = • oxidação: ocorre nos ácidos graxos com ligações duplas.
-# sent_id = 328-20140905-MONOGRAFIA_0-56
+# sent_id = 328-20140905-MONOGRAFIA_0-55
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	oxidação	oxidação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -1595,7 +1593,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Dentre as formas citadas, a deterioração dos óleos vegetais ocorrem por hidrólise e oxidação, sendo a última a mais frequente.
-# sent_id = 328-20140905-MONOGRAFIA_0-57
+# sent_id = 328-20140905-MONOGRAFIA_0-56
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	formas	forma	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
@@ -1623,16 +1621,16 @@
 24	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 1.4.1
-# sent_id = 328-20140905-MONOGRAFIA_0-58
+# sent_id = 328-20140905-MONOGRAFIA_0-57
 1	1.4	1.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Hidrólise
-# sent_id = 328-20140905-MONOGRAFIA_0-59
-1	Hidrólise	Hidrólise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+# sent_id = 328-20140905-MONOGRAFIA_0-58
+1	Hidrólise	Hidrólise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n
 
 # text = A hidrólise é uma reação química de quebra da molécula devido a presença de água levando a formação de ácidos graxos (figura 6), ocorrendo principalmente devido a condições ruins de acondicionamento.
-# sent_id = 328-20140905-MONOGRAFIA_0-60
+# sent_id = 328-20140905-MONOGRAFIA_0-59
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1672,13 +1670,13 @@
 36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 6:
-# sent_id = 328-20140905-MONOGRAFIA_0-61
+# sent_id = 328-20140905-MONOGRAFIA_0-60
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Mecanismo de hidrólise de óleos vegetais 1.4.2
-# sent_id = 328-20140905-MONOGRAFIA_0-62
+# sent_id = 328-20140905-MONOGRAFIA_0-61
 1	Mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1688,11 +1686,11 @@
 7	1.4.2	1.4.2	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Oxidação
-# sent_id = 328-20140905-MONOGRAFIA_0-63
+# sent_id = 328-20140905-MONOGRAFIA_0-62
 1	Oxidação	Oxidação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Existem três processos de oxidação, que podem ocorrer por via enzimática (oxidação enzimática) ou por via não enzimática (autoxidação e fotoxidação) a) Oxidação enzimática: o peróxido é formado pela reação dos ácidos graxos com oxigênio numa reação catalisada pela enzima lipoxigenase.
-# sent_id = 328-20140905-MONOGRAFIA_0-64
+# sent_id = 328-20140905-MONOGRAFIA_0-63
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	três	três	NUM	_	NumType=Card	3	nummod	_	_
 3	processos	processo	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -1752,12 +1750,12 @@
 53	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = b)
-# sent_id = 328-20140905-MONOGRAFIA_0-65
+# sent_id = 328-20140905-MONOGRAFIA_0-64
 1	b	bado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = Autoxidação: é uma das principais causas de deterioração dos óleos vegetais.
-# sent_id = 328-20140905-MONOGRAFIA_0-66
+# sent_id = 328-20140905-MONOGRAFIA_0-65
 1	Autoxidação	Autoxidação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -1777,7 +1775,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Ocorre devido a reação dos ácidos graxos insaturados com o oxigênio atmosférico, num mecanismo complexo, indicado pela figura 7.
-# sent_id = 328-20140905-MONOGRAFIA_0-67
+# sent_id = 328-20140905-MONOGRAFIA_0-66
 1	Ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	devido	devido	ADV	_	_	1	advmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1808,7 +1806,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A iniciação é caracterizada pela formação de radicais livres devido à remoção do hidrogênio que está no carbono α-metilênico, ou seja, vizinho ao carbono que contém a dupla ligação.
-# sent_id = 328-20140905-MONOGRAFIA_0-68
+# sent_id = 328-20140905-MONOGRAFIA_0-67
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	iniciação	iniciação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1853,7 +1851,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O radical livre formado fica suscetível ao ataque do oxigênio atmosférico formando-se assim, o radical peróxido livre e novos radicais, caracterizando-se o processo de propagação que pode se repetir uma infinidade de vezes.
-# sent_id = 328-20140905-MONOGRAFIA_0-69
+# sent_id = 328-20140905-MONOGRAFIA_0-68
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	radical	radical	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	livre	livre	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1900,7 +1898,7 @@
 40	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os peróxidos podem se decompor em aldeídos, álcoois, epóxidos, polímeros, hidrocarbonetos e cetonas.
-# sent_id = 328-20140905-MONOGRAFIA_0-70
+# sent_id = 328-20140905-MONOGRAFIA_0-69
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	peróxidos	peróxido	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1921,7 +1919,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Simultaneamente a essas reações ocorre a etapa de terminação em que os compostos radicalares reagem entre si para formarem compostos não reativos, ou seja, estáveis.
-# sent_id = 328-20140905-MONOGRAFIA_0-71
+# sent_id = 328-20140905-MONOGRAFIA_0-70
 1	Simultaneamente	simultaneamente	ADV	_	_	5	advmod	_	_
 2	a	a	ADP	_	_	4	case	_	_
 3	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
@@ -1949,16 +1947,16 @@
 25	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	fixed	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	24	punct	_	_
 27	estáveis	estável	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7:
-# sent_id = 328-20140905-MONOGRAFIA_0-72
+# sent_id = 328-20140905-MONOGRAFIA_0-71
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema geral da oxidação lipídica c)
-# sent_id = 328-20140905-MONOGRAFIA_0-73
+# sent_id = 328-20140905-MONOGRAFIA_0-72
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1969,7 +1967,7 @@
 7	c)	c)	PUNCT	_	_	1	punct	_	_
 
 # text = Fotoxidação: é um mecanismo alternativo à formação de radicais livres.
-# sent_id = 328-20140905-MONOGRAFIA_0-74
+# sent_id = 328-20140905-MONOGRAFIA_0-73
 1	Fotoxidação	Fotoxidação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1986,7 +1984,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Consiste na oxidação dos ácidos graxos insaturados devido a presença de luz e a disponibilidade de oxigênio.
-# sent_id = 328-20140905-MONOGRAFIA_0-75
+# sent_id = 328-20140905-MONOGRAFIA_0-74
 1	Consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -2011,7 +2009,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A fotoxidação pode ocorrer por dois mecanismos diferentes.
-# sent_id = 328-20140905-MONOGRAFIA_0-76
+# sent_id = 328-20140905-MONOGRAFIA_0-75
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fotoxidação	fotoxidação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2023,7 +2021,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O tipo I, em que ocorre a reação com substratos orgânicos com a formação dos radicais em baixas concentrações de oxigênio.
-# sent_id = 328-20140905-MONOGRAFIA_0-77
+# sent_id = 328-20140905-MONOGRAFIA_0-76
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	I	I	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
@@ -2051,7 +2049,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = E o tipo II, ocorre reação com o oxigênio molecular para a formação do oxigênio singleto (1O2) que se adiciona diretamente aos ácidos graxos insaturados.
-# sent_id = 328-20140905-MONOGRAFIA_0-78
+# sent_id = 328-20140905-MONOGRAFIA_0-77
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -2087,12 +2085,12 @@
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 1.5 Antioxidantes
-# sent_id = 328-20140905-MONOGRAFIA_0-79
+# sent_id = 328-20140905-MONOGRAFIA_0-78
 1	1.5	1.5	NUM	_	NumType=Card	2	nummod	_	_
 2	Antioxidantes	Antioxidante	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Os antioxidantes são compostos capazes de inibir a oxidação de outras moléculas, retardando o processo de oxidação, diminuindo a velocidade de reação ou aumentando o período de indução.
-# sent_id = 328-20140905-MONOGRAFIA_0-80
+# sent_id = 328-20140905-MONOGRAFIA_0-79
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	antioxidantes	antioxidante	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2126,7 +2124,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Isso ocorre pois os antioxidantes interrompem as reações em cadeia eliminando os radicais livres através da sua própria oxidação.
-# sent_id = 328-20140905-MONOGRAFIA_0-81
+# sent_id = 328-20140905-MONOGRAFIA_0-80
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pois	pois	SCONJ	_	_	6	mark	_	_
@@ -2151,7 +2149,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os antioxidantes podem ser classificados, de acordo com o seu mecanismo de ação, em primários, sinergistas, removedores de oxigênio, biológicos, agentes quelantes e antioxidantes mistos.
-# sent_id = 328-20140905-MONOGRAFIA_0-82
+# sent_id = 328-20140905-MONOGRAFIA_0-81
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	antioxidantes	antioxidante	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2183,10 +2181,10 @@
 29	e	e	CCONJ	_	_	30	cc	_	_
 30	antioxidantes	antioxidante	ADJ	_	Gender=Masc|Number=Plur	28	conj	_	_
 31	mistos	misto	NOUN	_	Gender=Masc|Number=Plur	27	appos	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Os antioxidantes também podem ser classificados quanto a sua natureza, em naturais ou sintéticos.
-# sent_id = 328-20140905-MONOGRAFIA_0-83
+# sent_id = 328-20140905-MONOGRAFIA_0-82
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	antioxidantes	antioxidante	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -2205,7 +2203,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Entre os antioxidantes naturais mais usados podemos citar os tocoferóis e ácidos fenólicos.
-# sent_id = 328-20140905-MONOGRAFIA_0-84
+# sent_id = 328-20140905-MONOGRAFIA_0-83
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	antioxidantes	antioxidante	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
@@ -2222,7 +2220,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = BHA, BHT, TBHQ são os antioxidantes sintéticos mais utilizados e piche vegetal que vem sendo estudado como um potencial substituto dos antioxidantes convencionais.
-# sent_id = 328-20140905-MONOGRAFIA_0-85
+# sent_id = 328-20140905-MONOGRAFIA_0-84
 1	BHA	BHA	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -2253,16 +2251,16 @@
 27	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 1.5.1
-# sent_id = 328-20140905-MONOGRAFIA_0-86
+# sent_id = 328-20140905-MONOGRAFIA_0-85
 1	1.5	1.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = BHT
-# sent_id = 328-20140905-MONOGRAFIA_0-87
+# sent_id = 328-20140905-MONOGRAFIA_0-86
 1	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O di-terc-butil metil fenol (Butylated hydroxytoluene) figura 8, é um composto orgânico lipossolúvel usado como aditivo alimentar, conservante para cosméticos, remédios, combustível, entre outros.
-# sent_id = 328-20140905-MONOGRAFIA_0-88
+# sent_id = 328-20140905-MONOGRAFIA_0-87
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	di-terc-butil	di-terc-butil	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	metil	metil	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -2296,8 +2294,22 @@
 31	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	15	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = A estrutura fenólica do composto permite a doação de um próton ao radical livre regenerando a molécula de acilglicerol e interrompendo o mecanismo de oxidação.
+# text = Figura 8:
+# sent_id = 328-20140905-MONOGRAFIA_0-88
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Estrutura do BHT
 # sent_id = 328-20140905-MONOGRAFIA_0-89
+1	Estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+
+# text = A estrutura fenólica do composto permite a doação de um próton ao radical livre regenerando a molécula de acilglicerol e interrompendo o mecanismo de oxidação.
+# sent_id = 328-20140905-MONOGRAFIA_0-90
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	fenólica	fenólico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2330,7 +2342,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O composto se tornará um radical livre, entretanto ele se estabiliza sem promover ou propagar as reações de oxidação (RAMALHO, 2006).
-# sent_id = 328-20140905-MONOGRAFIA_0-90
+# sent_id = 328-20140905-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	composto	composto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -2359,17 +2371,17 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 1.5.2
-# sent_id = 328-20140905-MONOGRAFIA_0-91
+# sent_id = 328-20140905-MONOGRAFIA_0-92
 1	1.5	1.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Piche vegetal
-# sent_id = 328-20140905-MONOGRAFIA_0-92
+# sent_id = 328-20140905-MONOGRAFIA_0-93
 1	Piche	Piche	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	vegetal	vegetal	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 
 # text = O piche vegetal, também denominado piche de eucalipto, é obtido como subproduto da carbonização da madeira de eucalipto.
-# sent_id = 328-20140905-MONOGRAFIA_0-93
+# sent_id = 328-20140905-MONOGRAFIA_0-94
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	piche	piche	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 3	vegetal	vegetal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -2397,7 +2409,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Considerando que 20% do parque industrial siderurgico instalado é a base de tecnologia do carvão vegetal, o piche de eucalipto com abundância potencial.
-# sent_id = 328-20140905-MONOGRAFIA_0-94
+# sent_id = 328-20140905-MONOGRAFIA_0-95
 1	Considerando	considerar	VERB	_	VerbForm=Ger	0	root	_	_
 2	que	que	SCONJ	_	_	13	mark	_	_
 3	20	20	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
@@ -2430,7 +2442,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O piche de eucalipto, figura 9, apresenta cor escura, e é um oligômero formado por unidades de cresóis, fenóis e siringóis.
-# sent_id = 328-20140905-MONOGRAFIA_0-95
+# sent_id = 328-20140905-MONOGRAFIA_0-96
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	piche	piche	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2459,7 +2471,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Possui um alto conteúdo de oxigênio devido a presença de hidroxilas, carbonilas e metoxilas (PIMENTA, 1997).
-# sent_id = 328-20140905-MONOGRAFIA_0-96
+# sent_id = 328-20140905-MONOGRAFIA_0-97
 1	Possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	alto	alto	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -2483,7 +2495,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Assim, esse composto apresenta um grande potencial de ação antioxidante.
-# sent_id = 328-20140905-MONOGRAFIA_0-97
+# sent_id = 328-20140905-MONOGRAFIA_0-98
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -2495,30 +2507,15 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	ação	ação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	antioxidante	antioxidante	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
-# text = Figura 9 : Estrutura macromolecular simplificada do piche de alcatrão de Eucalyptus sp 1.6 Biodiesel
-# sent_id = 328-20140905-MONOGRAFIA_0-98
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	9	9	NUM	_	NumType=Card	1	obj	_	_
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5	macromolecular	macromolecular	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-6	simplificada	simplificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	piche	piche	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	alcatrão	alcatrão	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	Eucalyptus	Eucalyptu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	14	det	_	_
-14	sp	sp	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-15	1.6	1.6	NUM	_	NumType=Card	14	nummod	_	_
-16	Biodiesel	Biodiesel	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+# text = 1.6 Biodiesel
+# sent_id = 328-20140905-MONOGRAFIA_0-99
+1	1.6	1.6	NUM	_	NumType=Card	2	nummod	_	_
+2	Biodiesel	Biodiesel	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Para que um composto seja usado em conjunto com outro é necessário que eles apresentem características semelhantes.
-# sent_id = 328-20140905-MONOGRAFIA_0-99
+# sent_id = 328-20140905-MONOGRAFIA_0-100
 1	Para	para	SCONJ	_	_	6	mark	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2539,7 +2536,7 @@
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = No caso dos motores a diesel, o uso direto de óleo vegetal pode acarretar em incrustações no motor devido a combustão incompleta.
-# sent_id = 328-20140905-MONOGRAFIA_0-100
+# sent_id = 328-20140905-MONOGRAFIA_0-101
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2572,7 +2569,7 @@
 27	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Ou seja, para a utilização de um composto misturado ao diesel é necessário que esse tenha características próximas ao do combustível fóssil.
-# sent_id = 328-20140905-MONOGRAFIA_0-101
+# sent_id = 328-20140905-MONOGRAFIA_0-102
 1	Ou	ou	CCONJ	_	_	15	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -2605,7 +2602,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A alta viscosidade e a formação de goma são os principais problemas encontrados para adição direta de óleos vegetais ao diesel (SHARMA, 2008).
-# sent_id = 328-20140905-MONOGRAFIA_0-102
+# sent_id = 328-20140905-MONOGRAFIA_0-103
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	alta	alto	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -2637,7 +2634,7 @@
 28	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Quando o óleo passa pelo processo de transesterificação ocorre uma diminuição da viscosidade e suas propriedades ficam mais próximas àquelas do diesel.
-# sent_id = 328-20140905-MONOGRAFIA_0-103
+# sent_id = 328-20140905-MONOGRAFIA_0-104
 1	Quando	quando	SCONJ	_	_	4	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -2669,7 +2666,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = De acordo com a Resolução ANP
-# sent_id = 328-20140905-MONOGRAFIA_0-104
+# sent_id = 328-20140905-MONOGRAFIA_0-105
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -2678,7 +2675,7 @@
 6	ANP	ANP	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = Nº 7 de 19/3/2008 (ANP, 2008), o biodiesel é um combustível composto de alquil ésteres de ácidos graxos de cadeia longa, derivados de óleos vegetais ou de gorduras animais que deve atender à especificação contida no Regulamento Técnico (ANP, 2008).
-# sent_id = 328-20140905-MONOGRAFIA_0-105
+# sent_id = 328-20140905-MONOGRAFIA_0-106
 1	Nº	nº	NUM	_	NumType=Ord	15	nmod	_	_
 2	7	7	NUM	_	NumType=Card	1	flat	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2704,7 +2701,7 @@
 23	de	de	ADP	_	_	24	case	_	_
 24	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 25	longa	longo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
+26	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
 27	derivados	derivar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	_
@@ -2734,7 +2731,7 @@
 51	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = O biodiesel é obtido através da reação de transesterificação, que é a reação entre um éster e um álcool na presença de um catalisador ácido ou básico (figura 10).
-# sent_id = 328-20140905-MONOGRAFIA_0-106
+# sent_id = 328-20140905-MONOGRAFIA_0-107
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2774,19 +2771,19 @@
 35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 10:
-# sent_id = 328-20140905-MONOGRAFIA_0-107
+# sent_id = 328-20140905-MONOGRAFIA_0-108
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Reação de transesterificação
-# sent_id = 328-20140905-MONOGRAFIA_0-108
+# sent_id = 328-20140905-MONOGRAFIA_0-109
 1	Reação	reação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	transesterificação	transesterificação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = A transesterificação utilizando catalisadores básicos é cerca de 4000 vezes mais rápida do que a catálise ácida.
-# sent_id = 328-20140905-MONOGRAFIA_0-109
+# sent_id = 328-20140905-MONOGRAFIA_0-110
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	transesterificação	transesterificação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	utilizando	utilizar	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -2809,7 +2806,7 @@
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Entretanto, a transesterificação ácida é muito mais apropriada para óleos com maiores teores de ácido graxos livres e água.
-# sent_id = 328-20140905-MONOGRAFIA_0-110
+# sent_id = 328-20140905-MONOGRAFIA_0-111
 1	Entretanto	entretanto	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2833,7 +2830,7 @@
 21	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A presença de umidade no meio reacional é prejudicial no desenvolvimento da transesterificação, bem como os ácidos graxos e fosfolipídios pois pode ocorrer a reação de saponificação, reação paralela, levando a formação de sabão (FUKUDA, 2001).
-# sent_id = 328-20140905-MONOGRAFIA_0-111
+# sent_id = 328-20140905-MONOGRAFIA_0-112
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2885,7 +2882,7 @@
 46	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Assim, o monitoramento da matéria-prima é essencial para a obtenção de altas taxas de conversão bem como a produção de um biodiesel de qualidade elevada.
-# sent_id = 328-20140905-MONOGRAFIA_0-112
+# sent_id = 328-20140905-MONOGRAFIA_0-113
 1	Assim	assim	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2917,11 +2914,11 @@
 28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 2
-# sent_id = 328-20140905-MONOGRAFIA_0-113
+# sent_id = 328-20140905-MONOGRAFIA_0-114
 1	2	2	NUM	_	NumType=Card	0	root	_	_
 
 # text = OBJETIVO Considerando o cenário de busca por fontes alternativas de energia e a possibilidade de se produzir biodiesel a partir de diferentes oleaginosas, este trabalho está relacionado à caracterização e ao estudo da estabilidade oxidativa dos óleos de pequi e de macaúba, frutos provenientes do cerrado.
-# sent_id = 328-20140905-MONOGRAFIA_0-114
+# sent_id = 328-20140905-MONOGRAFIA_0-115
 1	OBJETIVO	objetiver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Considerando	Considerar	VERB	_	VerbForm=Ger	1	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2983,7 +2980,7 @@
 54	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = De forma mais específica, o objetivo é caracterizar os óleos de pequi e da polpa de macaúba, antes e após envelhecimento acelerado.
-# sent_id = 328-20140905-MONOGRAFIA_0-115
+# sent_id = 328-20140905-MONOGRAFIA_0-116
 1	De	de	ADP	_	_	2	case	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -3013,13 +3010,13 @@
 26	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os resultados poderão contribuir para uma proposta de melhoria no processo de estocagem e consequentemente, na qualidade do óleo que será destinado à produção de biodiesel.
-# sent_id = 328-20140905-MONOGRAFIA_0-116
+# sent_id = 328-20140905-MONOGRAFIA_0-117
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	contribuir	contribuir	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	para	para	ADP	_	_	7	case	_	_
-6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpacesAfter=\s\n
 7	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	melhoria	melhoria	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -3052,22 +3049,22 @@
 32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 3
-# sent_id = 328-20140905-MONOGRAFIA_0-117
+# sent_id = 328-20140905-MONOGRAFIA_0-118
 1	3	3	NUM	_	NumType=Card	0	root	_	_
 
 # text = METODOLOGIA 3.1
-# sent_id = 328-20140905-MONOGRAFIA_0-118
+# sent_id = 328-20140905-MONOGRAFIA_0-119
 1	METODOLOGIA	metodologer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	3.1	3.1	NUM	_	NumType=Card	1	obj	_	_
 
 # text = Preparo de amostras
-# sent_id = 328-20140905-MONOGRAFIA_0-119
+# sent_id = 328-20140905-MONOGRAFIA_0-120
 1	Preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
-# text = As amostras de óleo de pequi foram obtidas em diferentes cidades na região de Montes Claros/MG e as de óleo de macaúba foram cedidas pela Universidade Federal de Viçosa- UFV.
-# sent_id = 328-20140905-MONOGRAFIA_0-120
+# text = As amostras de óleo de pequi foram obtidas em diferentes cidades na região de Montes Claros/MG e as de óleo de macaúba foram cedidas pela Universidade Federal de Viçosa-UFV.
+# sent_id = 328-20140905-MONOGRAFIA_0-121
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3102,13 +3099,11 @@
 30	Universidade	Universidade	PROPN	_	Gender=Fem|Number=Sing	27	obl:agent	_	_
 31	Federal	Federal	PROPN	_	Number=Sing	30	flat:name	_	_
 32	de	de	ADP	_	_	33	case	_	_
-33	Viçosa	Viçosa	PROPN	_	Number=Sing	30	nmod	_	SpaceAfter=No
-34	-	-	PUNCT	_	_	35	punct	_	_
-35	UFV	UFV	PROPN	_	Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	27	punct	_	_
+33	Viçosa-UFV	Viçosa-UFV	PROPN	_	Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = As amostras foram, inicialmente, submetidas aos ensaios de índice de acidez (ASTM 664), para verificar se elas atendiam aos parâmetros como matéria prima para biodiesel.
-# sent_id = 328-20140905-MONOGRAFIA_0-121
+# sent_id = 328-20140905-MONOGRAFIA_0-122
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	SpaceAfter=No
@@ -3146,7 +3141,7 @@
 33	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em seguida, os sistemas de estocagem foram montados: adicionou-se cada tipo de óleo (pequi e macaúba) em três frascos âmbar, sendo um com piche vegetal, outro com BHT e outro sem nenhum tipo de antioxidante.
-# sent_id = 328-20140905-MONOGRAFIA_0-122
+# sent_id = 328-20140905-MONOGRAFIA_0-123
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3193,7 +3188,7 @@
 43	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = As amostras foram preparadas para que a concentração de aditivo fosse de 1000 ppm.
-# sent_id = 328-20140905-MONOGRAFIA_0-123
+# sent_id = 328-20140905-MONOGRAFIA_0-124
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3211,7 +3206,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Para facilitar a dissolução do aditivo, os mesmos foram triturados e solubilizados na mínima quantidade de acetona.
-# sent_id = 328-20140905-MONOGRAFIA_0-124
+# sent_id = 328-20140905-MONOGRAFIA_0-125
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	facilitar	facilitar	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3237,7 +3232,7 @@
 21	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Totalizando-se seis sistemas, que ficaram estocados na geladeira até o momento de realização dos ensaios.
-# sent_id = 328-20140905-MONOGRAFIA_0-125
+# sent_id = 328-20140905-MONOGRAFIA_0-126
 1-2	Totalizando-se	_	_	_	_	_	_	_	_
 1	Totalizando	totalizar	VERB	_	VerbForm=Ger	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3263,15 +3258,15 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.2
-# sent_id = 328-20140905-MONOGRAFIA_0-126
+# sent_id = 328-20140905-MONOGRAFIA_0-127
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Ensaios
-# sent_id = 328-20140905-MONOGRAFIA_0-127
+# sent_id = 328-20140905-MONOGRAFIA_0-128
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Os ensaios foram realizados antes e depois do processo de envelhecimento.
-# sent_id = 328-20140905-MONOGRAFIA_0-128
+# sent_id = 328-20140905-MONOGRAFIA_0-129
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3288,7 +3283,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Foram feitos ensaios de Espectroscopia no Infravermelho com Transformada de Fourier (FTIR), Termogravimetria (TG), Cromatografia Líquida de Alta Eficiência (HPLC), Acidez, Densidade, Pirólise acoplada à Espectrometria de Massas (PY-MS) e Estabilidade Oxidativa (Rancimat).
-# sent_id = 328-20140905-MONOGRAFIA_0-129
+# sent_id = 328-20140905-MONOGRAFIA_0-130
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
@@ -3344,7 +3339,7 @@
 51	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O fluxograma 1 resume a metodologia adotada.
-# sent_id = 328-20140905-MONOGRAFIA_0-130
+# sent_id = 328-20140905-MONOGRAFIA_0-131
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fluxograma	fluxograma	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
@@ -3354,16 +3349,19 @@
 7	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = 3.2.1
-# sent_id = 328-20140905-MONOGRAFIA_0-131
-1	3.2.1	3.2.1	NUM	_	NumType=Card	0	root	_	_
+# text = Fluxograma 1: Metodologia 3.2.1
+# sent_id = 328-20140905-MONOGRAFIA_0-132
+1	Fluxograma	Fluxograma	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	1:	1:	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Metodologia	metodologia	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
+4	3.2.1	3.2.1	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Densidade
-# sent_id = 328-20140905-MONOGRAFIA_0-132
+# sent_id = 328-20140905-MONOGRAFIA_0-133
 1	Densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O ensaio de densidade foi realizado de acordo com a ASTM D4052 utilizando um densímetro digital Anton Paar modelo DMA 4500.
-# sent_id = 328-20140905-MONOGRAFIA_0-133
+# sent_id = 328-20140905-MONOGRAFIA_0-134
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3388,19 +3386,19 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Figura 11.
-# sent_id = 328-20140905-MONOGRAFIA_0-134
+# sent_id = 328-20140905-MONOGRAFIA_0-135
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 11:
-# sent_id = 328-20140905-MONOGRAFIA_0-135
+# sent_id = 328-20140905-MONOGRAFIA_0-136
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Densímetro digital 3.2.2 Índice de Acidez
-# sent_id = 328-20140905-MONOGRAFIA_0-136
+# sent_id = 328-20140905-MONOGRAFIA_0-137
 1	Densímetro	Densímetro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	digital	digital	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	3.2.2	3.2.2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -3409,7 +3407,7 @@
 6	Acidez	acidez	PROPN	_	Number=Sing	3	nmod	_	_
 
 # text = O índice de acidez foi determinado por titulação volumétrica, como ilustra a figura 12.
-# sent_id = 328-20140905-MONOGRAFIA_0-137
+# sent_id = 328-20140905-MONOGRAFIA_0-138
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	índice	índice	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3428,7 +3426,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para a determinação foram pesadas, em duplicata, 2 g de óleo de cada amostra, em frasco
-# sent_id = 328-20140905-MONOGRAFIA_0-138
+# sent_id = 328-20140905-MONOGRAFIA_0-139
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -3450,14 +3448,14 @@
 19	frasco	frasco	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 
 # text = Erlenmeyer 125 mL.
-# sent_id = 328-20140905-MONOGRAFIA_0-139
+# sent_id = 328-20140905-MONOGRAFIA_0-140
 1	Erlenmeyer	Erlenmeyer	VERB	_	VerbForm=Inf	0	root	_	_
 2	125	125	NUM	_	NumType=Card	3	nummod	_	_
 3	mL	ml	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Adicionou-se 25 mL de solução éter de petróleo-álcool etílico (2:1) e logo após, duas gotas do indicador fenolftaleína.
-# sent_id = 328-20140905-MONOGRAFIA_0-140
+# sent_id = 328-20140905-MONOGRAFIA_0-141
 1-2	Adicionou-se	_	_	_	_	_	_	_	_
 1	Adicionou	Adicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3486,7 +3484,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As amostras foram tituladas com solução de hidróxido de sódio 0,01 mol/L até o aparecimento de coloração vermelha.
-# sent_id = 328-20140905-MONOGRAFIA_0-141
+# sent_id = 328-20140905-MONOGRAFIA_0-142
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3508,7 +3506,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Foi feito um branco com a solução éter-álcool e o volume de titulante foi subtraído do volume gasto na titulação das amostras.
-# sent_id = 328-20140905-MONOGRAFIA_0-142
+# sent_id = 328-20140905-MONOGRAFIA_0-143
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3537,16 +3535,16 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Figura 12:
-# sent_id = 328-20140905-MONOGRAFIA_0-143
+# sent_id = 328-20140905-MONOGRAFIA_0-144
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Montagem para realização do ensaio de índice de acidez 3.2.3
-# sent_id = 328-20140905-MONOGRAFIA_0-144
+# sent_id = 328-20140905-MONOGRAFIA_0-145
 1	Montagem	montagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	realização	realização	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3561,11 +3559,11 @@
 11	3.2.3	3.2.3	NUM	_	NumType=Card	10	flat	_	_
 
 # text = Infravermelho
-# sent_id = 328-20140905-MONOGRAFIA_0-145
+# sent_id = 328-20140905-MONOGRAFIA_0-146
 1	Infravermelho	Infravermelho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = A espectroscopia no infravermelho está baseada no fato de que as ligações químicas das substâncias possuem frequências de vibração específicas, sendo possível então, identificar os compostos.
-# sent_id = 328-20140905-MONOGRAFIA_0-146
+# sent_id = 328-20140905-MONOGRAFIA_0-147
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	espectroscopia	espectroscopia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -3603,7 +3601,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Neste trabalho foi utilizado um espectrômetro no infravermelho médio ABB Bomem MB Series (figura 13).
-# sent_id = 328-20140905-MONOGRAFIA_0-147
+# sent_id = 328-20140905-MONOGRAFIA_0-148
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -3628,7 +3626,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # text = Os espectros foram gerados numa faixa de 500 a 4.000 cm-1 por meio de um analisador no infravermelho com transformada de Fourier.
-# sent_id = 328-20140905-MONOGRAFIA_0-148
+# sent_id = 328-20140905-MONOGRAFIA_0-149
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	espectros	espectro	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -3658,7 +3656,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Foi empregado um acessório de cristal de diamante da marca Thermo Spectra Tech.
-# sent_id = 328-20140905-MONOGRAFIA_0-149
+# sent_id = 328-20140905-MONOGRAFIA_0-150
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	empregado	empregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3677,7 +3675,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O aparelho operou com temperatura ao redor de 18°C, cada espectro foi obtido com 16 varreduras e resolução de 4 cm-1.
-# sent_id = 328-20140905-MONOGRAFIA_0-150
+# sent_id = 328-20140905-MONOGRAFIA_0-151
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aparelho	aparelho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	operou	operar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3705,24 +3703,24 @@
 24	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 13:
-# sent_id = 328-20140905-MONOGRAFIA_0-151
+# sent_id = 328-20140905-MONOGRAFIA_0-152
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Espectrômetro de Infravermelho 3.2.4
-# sent_id = 328-20140905-MONOGRAFIA_0-152
+# sent_id = 328-20140905-MONOGRAFIA_0-153
 1	Espectrômetro	Espectrômetro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	Infravermelho	Infravermelho	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	Infravermelho	Infravermelho	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 4	3.2.4	3.2.4	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Termogravimetria
-# sent_id = 328-20140905-MONOGRAFIA_0-153
+# sent_id = 328-20140905-MONOGRAFIA_0-154
 1	Termogravimetria	Termogravimetria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A termogravimetria é uma técnica de análise destrutiva na qual se monitora a variação da massa da amostra em função da temperatura.
-# sent_id = 328-20140905-MONOGRAFIA_0-154
+# sent_id = 328-20140905-MONOGRAFIA_0-155
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	termogravimetria	termogravimetria	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3756,7 +3754,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O gráfico da figura 14 mostra a curva TG característica de uma reação de um único estágio.
-# sent_id = 328-20140905-MONOGRAFIA_0-155
+# sent_id = 328-20140905-MONOGRAFIA_0-156
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3779,7 +3777,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 14: Curva TG para reação em um único estágio
-# sent_id = 328-20140905-MONOGRAFIA_0-156
+# sent_id = 328-20140905-MONOGRAFIA_0-157
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	14	14	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -3792,8 +3790,8 @@
 10	único	único	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	estágio	estágio	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
-# text = A análise foi realizada da temperatura ambiente até 700°C numa razão de aquecimento de 12°C/min em atmosfera de nitrogênio na Termobalança TGA50H- Shimadzu, utilizando-se como porta amostras um cadinho de alumina.
-# sent_id = 328-20140905-MONOGRAFIA_0-157
+# text = A análise foi realizada da temperatura ambiente até 700°C numa razão de aquecimento de 12°C/min em atmosfera de nitrogênio na Termobalança TGA50H-Shimadzu, utilizando-se como porta amostras um cadinho de alumina.
+# sent_id = 328-20140905-MONOGRAFIA_0-158
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3813,7 +3811,7 @@
 15	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	12°C	12°C	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-18	/	/	PUNCT	_	_	4	punct	_	SpaceAfter=No
+18	/	/	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	min	min	NOUN	_	Gender=Masc|Number=Plur	4	appos	_	_
 20	em	em	ADP	_	_	21	case	_	_
 21	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
@@ -3822,32 +3820,31 @@
 24-25	na	_	_	_	_	_	_	_	_
 24	em	em	ADP	_	_	26	case	_	_
 25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Termobalança	Termobalança	PROPN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-27	TGA50H-	Tga50h-	PROPN	_	Number=Sing	26	flat:name	_	_
-28	Shimadzu	Shimadzu	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	30	punct	_	_
-30-31	utilizando-se	_	_	_	_	_	_	_	_
-30	utilizando	utilizar	VERB	_	VerbForm=Ger	4	advcl	_	_
-31	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
-32	como	como	ADP	_	_	33	case	_	_
-33	porta	porta	NOUN	_	Gender=Masc|Number=Sing	30	xcomp	_	_
-34	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	30	nsubj	_	_
-35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-36	cadinho	cadinho	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-37	de	de	ADP	_	_	38	case	_	_
-38	alumina	alumina	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+26	Termobalança	Termobalança	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+27	TGA50H-Shimadzu	TGA50H-Shimadzu	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29-30	utilizando-se	_	_	_	_	_	_	_	_
+29	utilizando	utilizar	VERB	_	VerbForm=Ger	4	advcl	_	_
+30	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	expl	_	_
+31	como	como	ADP	_	_	32	case	_	_
+32	porta	porta	NOUN	_	Gender=Masc|Number=Sing	29	xcomp	_	_
+33	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	_
+34	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+35	cadinho	cadinho	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	alumina	alumina	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.2.5
-# sent_id = 328-20140905-MONOGRAFIA_0-158
+# sent_id = 328-20140905-MONOGRAFIA_0-159
 1	3.2.5	3.2.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Pirólise
-# sent_id = 328-20140905-MONOGRAFIA_0-159
+# sent_id = 328-20140905-MONOGRAFIA_0-160
 1	Pirólise	Pirólise	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = A pirólise é uma técnica de caracterização por reações de degradação química através de energia térmica.
-# sent_id = 328-20140905-MONOGRAFIA_0-160
+# sent_id = 328-20140905-MONOGRAFIA_0-161
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pirólise	pirólise	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3867,7 +3864,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A degradação de macromoléculas produzem uma série complexa de moléculas menores, fazendo-se necessário o uso de técnicas hifenadas.
-# sent_id = 328-20140905-MONOGRAFIA_0-161
+# sent_id = 328-20140905-MONOGRAFIA_0-162
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3892,12 +3889,12 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A Cromatografia
-# sent_id = 328-20140905-MONOGRAFIA_0-162
+# sent_id = 328-20140905-MONOGRAFIA_0-163
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Gasosa é utilizada para separar os compostos e com a Espectrometria de Massas é possível identifica-los (SILVÉRIO, 2008).
-# sent_id = 328-20140905-MONOGRAFIA_0-163
+# sent_id = 328-20140905-MONOGRAFIA_0-164
 1	Gasosa	Gasosa	PROPN	_	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3924,21 +3921,21 @@
 23	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figuras 15 e 16.
-# sent_id = 328-20140905-MONOGRAFIA_0-164
+# sent_id = 328-20140905-MONOGRAFIA_0-165
 1	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	15	15	NUM	_	NumType=Card	1	nummod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
 4	16	16	NUM	_	NumType=Card	2	conj	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 15:
-# sent_id = 328-20140905-MONOGRAFIA_0-165
+# sent_id = 328-20140905-MONOGRAFIA_0-166
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Esquema do sistema Pi-CG-EM Figura 16:
-# sent_id = 328-20140905-MONOGRAFIA_0-166
+# sent_id = 328-20140905-MONOGRAFIA_0-167
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3950,12 +3947,12 @@
 8	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema Pi-CG-EM
-# sent_id = 328-20140905-MONOGRAFIA_0-167
+# sent_id = 328-20140905-MONOGRAFIA_0-168
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Pi-CG-EM	Pi-CG-Em	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = A pirólise das amostras foi realizada em um pirolisador do tipo microforno da Shimadzu, modelo Pyr A-4 acoplado a um cromatógrafo a gás associado a uma espectrômetro de massas (CG/EM)
-# sent_id = 328-20140905-MONOGRAFIA_0-168
+# sent_id = 328-20140905-MONOGRAFIA_0-169
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pirólise	pirólise	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3997,7 +3994,7 @@
 36	)	)	PUNCT	_	_	35	punct	_	_
 
 # text = Shimadzu, modelo PQ5050A com modo de ionização por impacto de elétrons de 70eV e faixa de varredura entre 40 e 800 u.m.a.
-# sent_id = 328-20140905-MONOGRAFIA_0-169
+# sent_id = 328-20140905-MONOGRAFIA_0-170
 1	Shimadzu	Shimadzr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -4025,7 +4022,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para os óleos foi adotada a seguinte metodologia: foi pesado cerca de 10 mg do óleo e dissolvido em 1,0 mL de diclorometano, desta solução foi retirado 10 µL e colocado no cadinho, posteriormente o cadinho foi aquecido para a evaporação do diclorometano.
-# sent_id = 328-20140905-MONOGRAFIA_0-170
+# sent_id = 328-20140905-MONOGRAFIA_0-171
 1	Para	para	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
@@ -4083,7 +4080,7 @@
 51	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em seguida a amostra foi pirolisada.
-# sent_id = 328-20140905-MONOGRAFIA_0-171
+# sent_id = 328-20140905-MONOGRAFIA_0-172
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4093,7 +4090,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para que não haja influência nos resultados foram obtidos os pirogramas dos aditivos (BHT e Piche) separadamente.
-# sent_id = 328-20140905-MONOGRAFIA_0-172
+# sent_id = 328-20140905-MONOGRAFIA_0-173
 1	Para	para	SCONJ	_	_	4	mark	_	_
 2	que	que	SCONJ	_	_	4	mark	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -4120,7 +4117,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os espectros de massas obtidos foram comparados com uma base de dados eletrônica.
-# sent_id = 328-20140905-MONOGRAFIA_0-173
+# sent_id = 328-20140905-MONOGRAFIA_0-174
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	espectros	espectro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4137,11 +4134,11 @@
 14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.2.6
-# sent_id = 328-20140905-MONOGRAFIA_0-174
+# sent_id = 328-20140905-MONOGRAFIA_0-175
 1	3.2.6	3.2.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Cromatografia Líquida de Alta Eficiência
-# sent_id = 328-20140905-MONOGRAFIA_0-175
+# sent_id = 328-20140905-MONOGRAFIA_0-176
 1	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4149,7 +4146,7 @@
 5	Eficiência	eficiência	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = A cromatografia líquida é uma técnica de separação muito importante para compostos que não são suficientemente voláteis para serem separados por cromatografia gasosa.
-# sent_id = 328-20140905-MONOGRAFIA_0-176
+# sent_id = 328-20140905-MONOGRAFIA_0-177
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cromatografia	cromatografia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4176,7 +4173,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A cromatografia líquida de alta eficiência usa pressões elevadas para forçar a passagem do solvente por colunas fechadas que contém partículas muito finas que são capazes de tornar a separação muito mais eficiente.
-# sent_id = 328-20140905-MONOGRAFIA_0-177
+# sent_id = 328-20140905-MONOGRAFIA_0-178
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cromatografia	cromatografia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4212,10 +4209,10 @@
 32	muito	muito	ADV	_	_	33	advmod	_	_
 33	mais	mais	ADV	_	_	34	advmod	_	_
 34	eficiente	eficiente	ADJ	_	Gender=Masc|Number=Sing	29	xcomp	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Utilizou-se uma coluna CLC-ODS(M) com comprimento de 25 cm, com diâmetro de 4,6 mm e com partículas de 5 µm e também um cromatográfo a líquido da marca
-# sent_id = 328-20140905-MONOGRAFIA_0-178
+# sent_id = 328-20140905-MONOGRAFIA_0-179
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -4253,7 +4250,7 @@
 33	marca	marca	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 
 # text = Shimadzu acoplado com detector UV-Vis(DAD) SPD-M20A e com detector ELSD –LTII.
-# sent_id = 328-20140905-MONOGRAFIA_0-179
+# sent_id = 328-20140905-MONOGRAFIA_0-180
 1	Shimadzu	Shimadzr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	acoplado	acoplar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4270,7 +4267,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Empregou-se um gradiente de eluição usando como eluentes o metanol – reservatório
-# sent_id = 328-20140905-MONOGRAFIA_0-180
+# sent_id = 328-20140905-MONOGRAFIA_0-181
 1-2	Empregou-se	_	_	_	_	_	_	_	_
 1	Empregou	empregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4287,7 +4284,7 @@
 13	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
 
 # text = A – e uma mistura 5:4 v/v de 2-propanol e hexano – reservatório B.
-# sent_id = 328-20140905-MONOGRAFIA_0-181
+# sent_id = 328-20140905-MONOGRAFIA_0-182
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	–	–	PUNCT	_	_	5	punct	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -4304,7 +4301,7 @@
 14	B.	B.	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpacesAfter=\n
 
 # text = Um gradiente linear iniciando com 100% de A para 50% de A + 50% de B em 15 minutos foi empregado.
-# sent_id = 328-20140905-MONOGRAFIA_0-182
+# sent_id = 328-20140905-MONOGRAFIA_0-183
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gradiente	gradiente	NOUN	_	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
 3	linear	linear	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4332,7 +4329,7 @@
 25	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Posteriormente, o percentual de fase B foi aumentado para 100% em 20 minutos.
-# sent_id = 328-20140905-MONOGRAFIA_0-183
+# sent_id = 328-20140905-MONOGRAFIA_0-184
 1	Posteriormente	posteriormente	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4351,7 +4348,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = E realizou-se uma eluição isocrática com 100% de B por 3 minutos.
-# sent_id = 328-20140905-MONOGRAFIA_0-184
+# sent_id = 328-20140905-MONOGRAFIA_0-185
 1	E	e	CCONJ	_	_	2	cc	_	_
 2-3	realizou-se	_	_	_	_	_	_	_	_
 2	realizou	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4370,7 +4367,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O cromatógrafo líquido utilizado está indicado na figura 17.
-# sent_id = 328-20140905-MONOGRAFIA_0-185
+# sent_id = 328-20140905-MONOGRAFIA_0-186
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cromatógrafo	cromatógrafo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	líquido	líquido	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4385,7 +4382,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 17: Cromatógrafo Líquido de Alta Eficiência 3.2.7
-# sent_id = 328-20140905-MONOGRAFIA_0-186
+# sent_id = 328-20140905-MONOGRAFIA_0-187
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	17	17	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -4397,11 +4394,11 @@
 9	3.2.7	3.2.7	PROPN	_	Number=Sing	7	flat:name	_	_
 
 # text = Rancimat
-# sent_id = 328-20140905-MONOGRAFIA_0-187
+# sent_id = 328-20140905-MONOGRAFIA_0-188
 1	Rancimat	Rancimat	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O método Rancimat é utilizado para determinar a estabilidade oxidativa baseado no aumento de condutividade elétrica.
-# sent_id = 328-20140905-MONOGRAFIA_0-188
+# sent_id = 328-20140905-MONOGRAFIA_0-189
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	Rancimat	Rancimat	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -4423,7 +4420,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O fluxo de ar passa através do óleo, que é mantido sob aquecimento em temperatura que varia entre 100 a 140°C.
-# sent_id = 328-20140905-MONOGRAFIA_0-189
+# sent_id = 328-20140905-MONOGRAFIA_0-190
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4451,7 +4448,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Posteriormente, esse ar é borbulhado em água deionizada, arrastando os ácidos carboxílicos voláteis, gerados na oxidação, que solubilizam, aumentando a condutividade da água.
-# sent_id = 328-20140905-MONOGRAFIA_0-190
+# sent_id = 328-20140905-MONOGRAFIA_0-191
 1	Posteriormente	posteriormente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -4487,7 +4484,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este aumento é continuamente monitorado por um condutivímetro (MELO, 2010).
-# sent_id = 328-20140905-MONOGRAFIA_0-191
+# sent_id = 328-20140905-MONOGRAFIA_0-192
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -4504,7 +4501,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O período de indução, em horas, é registrado quando a condutividade sofre uma variação brusca.
-# sent_id = 328-20140905-MONOGRAFIA_0-192
+# sent_id = 328-20140905-MONOGRAFIA_0-193
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	período	período	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4525,7 +4522,7 @@
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O esquema de funcionamento do Rancimat está ilustrado pela figura 18.
-# sent_id = 328-20140905-MONOGRAFIA_0-193
+# sent_id = 328-20140905-MONOGRAFIA_0-194
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4541,16 +4538,16 @@
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	figura	figura	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 13	18	18	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Figura 18 :
-# sent_id = 328-20140905-MONOGRAFIA_0-194
+# sent_id = 328-20140905-MONOGRAFIA_0-195
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	_
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de funcionamento do Rancimat
-# sent_id = 328-20140905-MONOGRAFIA_0-195
+# sent_id = 328-20140905-MONOGRAFIA_0-196
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -4560,7 +4557,7 @@
 6	Rancimat	Rancimat	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Para o ensaio de período de indução e envelhecimento dos óleos utilizou-se o RANCIMAT modelo 837 da Metrohn (figura 19) com software 837 Biodiesel Rancimat Control.
-# sent_id = 328-20140905-MONOGRAFIA_0-196
+# sent_id = 328-20140905-MONOGRAFIA_0-197
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
@@ -4598,7 +4595,7 @@
 32	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 19 : Rancimat modelo 837 4
-# sent_id = 328-20140905-MONOGRAFIA_0-197
+# sent_id = 328-20140905-MONOGRAFIA_0-198
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	obj	_	_
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4608,11 +4605,11 @@
 7	4	4	NUM	_	NumType=Card	6	flat	_	_
 
 # text = RESULTADOS
-# sent_id = 328-20140905-MONOGRAFIA_0-198
+# sent_id = 328-20140905-MONOGRAFIA_0-199
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = E DISCUSSÃO As amostras de óleo de macaúba e pequi foram envelhecidas no Rancimat para a avaliação do comportamento das mesmas antes e após o processo oxidativo.
-# sent_id = 328-20140905-MONOGRAFIA_0-199
+# sent_id = 328-20140905-MONOGRAFIA_0-200
 1	E	e	CCONJ	_	_	4	cc	_	_
 2	DISCUSSÃO	discussão	ADV	_	_	4	advmod	_	_
 3	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -4649,7 +4646,7 @@
 31	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Os resultados serão discutidos a seguir.
-# sent_id = 328-20140905-MONOGRAFIA_0-200
+# sent_id = 328-20140905-MONOGRAFIA_0-201
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -4659,12 +4656,12 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.1 Rancimat
-# sent_id = 328-20140905-MONOGRAFIA_0-201
+# sent_id = 328-20140905-MONOGRAFIA_0-202
 1	4.1	4.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Rancimat	Rancimat	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O ensaio de estabilidade oxidativa (Rancimat) foi realizado para envelhecer aceleradamente as amostras e também, para avaliar seu período de indução.
-# sent_id = 328-20140905-MONOGRAFIA_0-202
+# sent_id = 328-20140905-MONOGRAFIA_0-203
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4692,9 +4689,9 @@
 25	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Pode- se observar pela tabela 4 e figura 20, que as amostras atenderam a especificação da ANP, que determina um período de indução mínimo de 6 horas (EN 14112, 2003).
-# sent_id = 328-20140905-MONOGRAFIA_0-203
+# sent_id = 328-20140905-MONOGRAFIA_0-204
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	_
+2	-	-	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 3	se	se	SCONJ	_	_	4	mark	_	_
 4	observar	observar	VERB	_	VerbForm=Inf|Voice=Pass	10	advcl	_	_
 5-6	pela	_	_	_	_	_	_	_	_
@@ -4736,7 +4733,7 @@
 39	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Analisando-se os resultados dos óleos puros, pode-se observar a maior estabilidade das amostras de óleo de pequi em relação às amostras de óleo de macaúba.
-# sent_id = 328-20140905-MONOGRAFIA_0-204
+# sent_id = 328-20140905-MONOGRAFIA_0-205
 1-2	Analisando-se	_	_	_	_	_	_	_	_
 1	Analisando	analisar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4776,7 +4773,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Este comportamento pode ser atribuído à maior porcentagem de ácidos graxos saturados no óleo de pequi (Tabela 2), que são mais estáveis em relação aos insaturados.
-# sent_id = 328-20140905-MONOGRAFIA_0-205
+# sent_id = 328-20140905-MONOGRAFIA_0-206
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4815,7 +4812,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Quanto às amostras que continham antioxidantes, pode-se verificar a eficiência dos mesmos, uma vez que aumentaram o período de indução das amostras aproximadamente 2 vezes.
-# sent_id = 328-20140905-MONOGRAFIA_0-206
+# sent_id = 328-20140905-MONOGRAFIA_0-207
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	às	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -4854,7 +4851,7 @@
 32	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Ou seja, as amostras ficaram mais resistentes à oxidação.
-# sent_id = 328-20140905-MONOGRAFIA_0-207
+# sent_id = 328-20140905-MONOGRAFIA_0-208
 1	Ou	ou	CCONJ	_	_	6	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -4870,7 +4867,7 @@
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Destaca-se a amostra de pequi aditivada com piche, para a qual a combinação do antioxidante com óleo estável gerou um período de indução de mais de 72 horas, um aumento de 4 vezes com relação à amostra pura.
-# sent_id = 328-20140905-MONOGRAFIA_0-208
+# sent_id = 328-20140905-MONOGRAFIA_0-209
 1-2	Destaca-se	_	_	_	_	_	_	_	_
 1	Destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -4920,7 +4917,7 @@
 44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = É importante ressaltar que as amostras foram envelhecidas no Rancimat até o período de indução, ou seja, todas foram mantidas sob condições oxidantes até a saída dos compostos voláteis formados por oxidação.
-# sent_id = 328-20140905-MONOGRAFIA_0-209
+# sent_id = 328-20140905-MONOGRAFIA_0-210
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	23	fixed	_	_
 3	ressaltar	ressaltar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -4962,7 +4959,7 @@
 37	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Tabela 4 – Resultados do Rancimat para os óleos de macaúba e pequi Figura 20:
-# sent_id = 328-20140905-MONOGRAFIA_0-210
+# sent_id = 328-20140905-MONOGRAFIA_0-211
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -4977,13 +4974,13 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
-14	pequi	pequir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+14	pequi	pequir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	SpacesAfter=\s\n
 15	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	14	obj	_	_
 16	20	20	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
 17	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Ensaio de estabilidade oxidativa (Rancimat) para as amostras estudadas 4.2
-# sent_id = 328-20140905-MONOGRAFIA_0-211
+# sent_id = 328-20140905-MONOGRAFIA_0-212
 1	Ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4998,11 +4995,11 @@
 12	4.2	4.2	NUM	_	NumType=Card	10	nummod	_	_
 
 # text = Cor
-# sent_id = 328-20140905-MONOGRAFIA_0-212
+# sent_id = 328-20140905-MONOGRAFIA_0-213
 1	Cor	cor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = As amostras de óleo de macaúba e pequi apresentaram cores características (amarelado e alaranjado, respectivamente) antes do processo de envelhecimento.
-# sent_id = 328-20140905-MONOGRAFIA_0-213
+# sent_id = 328-20140905-MONOGRAFIA_0-214
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5031,7 +5028,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Entretanto, após a oxidação observou-se que as mesmas mudaram de cor, como está indicado na figura 21.
-# sent_id = 328-20140905-MONOGRAFIA_0-214
+# sent_id = 328-20140905-MONOGRAFIA_0-215
 1	Entretanto	entretanto	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	após	após	ADP	_	_	5	case	_	_
@@ -5058,13 +5055,13 @@
 22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 21:
-# sent_id = 328-20140905-MONOGRAFIA_0-215
+# sent_id = 328-20140905-MONOGRAFIA_0-216
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	21	21	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Amostras de óleo de macaúba e pequi antes e depois do envelhecimento
-# sent_id = 328-20140905-MONOGRAFIA_0-216
+# sent_id = 328-20140905-MONOGRAFIA_0-217
 1	Amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5081,7 +5078,7 @@
 13	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 
 # text = Segundo Godoy e colaboradores a coloração apresentada pelos óleos está relacionada à presença de pigmentos carotenóides (GODOY, 1994).
-# sent_id = 328-20140905-MONOGRAFIA_0-217
+# sent_id = 328-20140905-MONOGRAFIA_0-218
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Godoy	Godoy	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -5110,7 +5107,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Os carotenóides são moléculas que contêm 40 átomos de carbono, com um número variável de duplas ligações conjugadas (UENOJ, 2007).
-# sent_id = 328-20140905-MONOGRAFIA_0-218
+# sent_id = 328-20140905-MONOGRAFIA_0-219
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	carotenóides	carotenóide	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5138,7 +5135,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A figura 22 exemplifica alguns tipos de carotenóides.
-# sent_id = 328-20140905-MONOGRAFIA_0-219
+# sent_id = 328-20140905-MONOGRAFIA_0-220
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	22	22	NUM	_	NumType=Card	4	nsubj	_	_
@@ -5147,16 +5144,16 @@
 6	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	carotenóides	carotenóide	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 22:
-# sent_id = 328-20140905-MONOGRAFIA_0-220
+# sent_id = 328-20140905-MONOGRAFIA_0-221
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	22	22	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Estrutura de alguns carotenoides.
-# sent_id = 328-20140905-MONOGRAFIA_0-221
+# sent_id = 328-20140905-MONOGRAFIA_0-222
 1	Estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -5164,7 +5161,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = FONTE: InfoEscola Ndjouenkeu e Ngassoum observaram em seus estudos com óleo de palma que, o processo de aquecimento pode levar ao clareamento do óleo, devido à destruição dos carotenóides (NDJOUENKEU, 2002).
-# sent_id = 328-20140905-MONOGRAFIA_0-222
+# sent_id = 328-20140905-MONOGRAFIA_0-223
 1	FONTE:	FONTE:	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	InfoEscola	InfoEscola	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Ndjouenkeu	Ndjouenkeu	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -5212,7 +5209,7 @@
 41	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Portanto, ao serem submetidos ao aquecimento, durante o ensaio de estabilidade oxidativa, a mudança na cor dos óleos pode estar relacionada à quebra dos carotenóides por decomposição térmica.
-# sent_id = 328-20140905-MONOGRAFIA_0-223
+# sent_id = 328-20140905-MONOGRAFIA_0-224
 1	Portanto	portanto	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -5259,15 +5256,15 @@
 38	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 4.3
-# sent_id = 328-20140905-MONOGRAFIA_0-224
+# sent_id = 328-20140905-MONOGRAFIA_0-225
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Densidade
-# sent_id = 328-20140905-MONOGRAFIA_0-225
+# sent_id = 328-20140905-MONOGRAFIA_0-226
 1	Densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Devido aos processos oxidativos, principalmente ao processo de polimerização, esperava-se que houvesse um aumento na densidade dos óleos.
-# sent_id = 328-20140905-MONOGRAFIA_0-226
+# sent_id = 328-20140905-MONOGRAFIA_0-227
 1	Devido	devido	ADV	_	_	4	advmod	_	_
 2-3	aos	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -5301,7 +5298,7 @@
 26	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = De acordo com a tabela 5 e figura 23 , este comportamento foi observado em ambos os óleos.
-# sent_id = 328-20140905-MONOGRAFIA_0-227
+# sent_id = 328-20140905-MONOGRAFIA_0-228
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -5323,7 +5320,7 @@
 19	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = O aumento da densidade pode ser justificado pela perda por evaporação dos compostos mais voláteis e pela formação de compostos de maior massa molar, durante o processo de oxidação.
-# sent_id = 328-20140905-MONOGRAFIA_0-228
+# sent_id = 328-20140905-MONOGRAFIA_0-229
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5362,10 +5359,10 @@
 32	processo	processo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	oxidação	oxidação	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Considerando-se que os antioxidantes previnem a oxidação, seria possível esperar que as amostras de óleos aditivados tivessem menor variação da densidade.
-# sent_id = 328-20140905-MONOGRAFIA_0-229
+# sent_id = 328-20140905-MONOGRAFIA_0-230
 1-2	Considerando-se	_	_	_	_	_	_	_	_
 1	Considerando	considerar	VERB	_	VerbForm=Ger	11	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5395,7 +5392,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Entretanto essa tendência não foi observada, pois todas as amostras foram envelhecidas até o ponto máximo, no Rancimat.
-# sent_id = 328-20140905-MONOGRAFIA_0-230
+# sent_id = 328-20140905-MONOGRAFIA_0-231
 1	Entretanto	entretanto	ADV	_	_	6	advmod	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
@@ -5421,7 +5418,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 5 – Densidade para os óleos de macaúba e pequi antes e depois do envelhecimento
-# sent_id = 328-20140905-MONOGRAFIA_0-231
+# sent_id = 328-20140905-MONOGRAFIA_0-232
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 2	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -5442,13 +5439,13 @@
 17	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 
 # text = Figura 23:
-# sent_id = 328-20140905-MONOGRAFIA_0-232
+# sent_id = 328-20140905-MONOGRAFIA_0-233
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	23	23	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Densidade a 20°C dos óleos de (a) macaúba e (b) pequi antes e após o envelhecimento
-# sent_id = 328-20140905-MONOGRAFIA_0-233
+# sent_id = 328-20140905-MONOGRAFIA_0-234
 1	Densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 2	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	20°C	20°C	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -5473,7 +5470,7 @@
 21	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 
 # text = Uma forma de acompanhar a evolução da formação dos produtos de degradação seria repetir o experimento no Rancimat, recolhendo alíquotas em intervalos de tempo regulares e determinar a densidade e a massa molar média das amostras.
-# sent_id = 328-20140905-MONOGRAFIA_0-234
+# sent_id = 328-20140905-MONOGRAFIA_0-235
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	de	de	SCONJ	_	_	4	mark	_	_
@@ -5522,7 +5519,7 @@
 42	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Entretanto não houve tempo hábil para a inclusão destes resultados.
-# sent_id = 328-20140905-MONOGRAFIA_0-235
+# sent_id = 328-20140905-MONOGRAFIA_0-236
 1	Entretanto	entretanto	ADV	_	_	3	advmod	_	_
 2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 3	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5538,14 +5535,14 @@
 12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4.4 Índice de Acidez
-# sent_id = 328-20140905-MONOGRAFIA_0-236
+# sent_id = 328-20140905-MONOGRAFIA_0-237
 1	4.4	4.4	NUM	_	NumType=Card	2	nummod	_	_
 2	Índice	índice	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Acidez	acidez	PROPN	_	Number=Sing	2	nmod	_	_
 
 # text = Os valores obtidos para o índice de acidez em %m/m de ácido oléico antes do processo de envelhecimento (tabela 6 e figura 24) foram abaixo de 1% em todas as amostras, indicando que as mesmas são adequadas para a síntese de biodiesel por catálise básica.
-# sent_id = 328-20140905-MONOGRAFIA_0-237
+# sent_id = 328-20140905-MONOGRAFIA_0-238
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -5580,7 +5577,7 @@
 31	%	%	SYM	_	_	21	parataxis	_	_
 32	em	em	ADP	_	_	35	case	_	_
 33	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	35	det	_	_
-34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	SpacesAfter=\s\n
 35	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	indicando	indicar	VERB	_	VerbForm=Ger	21	advcl	_	_
@@ -5600,7 +5597,7 @@
 51	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Após o envelhecimento, a acidez dos óleos aumentou aproximadamente 3,5 vezes para os óleos puros e com BHT e 4,0 vezes para os óleos com piche.
-# sent_id = 328-20140905-MONOGRAFIA_0-238
+# sent_id = 328-20140905-MONOGRAFIA_0-239
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -5633,7 +5630,7 @@
 29	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = De fato, esperava-se um aumento da acidez, uma vez que, ao longo do processo de oxidação são formados ácidos graxos devido à reação de hidrólise (figura 6).
-# sent_id = 328-20140905-MONOGRAFIA_0-239
+# sent_id = 328-20140905-MONOGRAFIA_0-240
 1	De	de	ADP	_	_	2	case	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5679,7 +5676,7 @@
 38	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A formação destes ácidos foi confirmada pela identificação através da espectrometria de massas (vide item 4.7).
-# sent_id = 328-20140905-MONOGRAFIA_0-240
+# sent_id = 328-20140905-MONOGRAFIA_0-241
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	destes	_	_	_	_	_	_	_	_
@@ -5707,7 +5704,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Tabela 6 – Índice de acidez para os óleos de macaúba e pequi antes e depois do envelhecimento
-# sent_id = 328-20140905-MONOGRAFIA_0-241
+# sent_id = 328-20140905-MONOGRAFIA_0-242
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -5729,8 +5726,30 @@
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 
+# text = Figura 24: Índice de acidez dos óleos de pequi e macaúba antes e após o envelhecimento
+# sent_id = 328-20140905-MONOGRAFIA_0-243
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	24	24	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Índice	Índice	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	acidez	acidez	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	antes	antes	ADV	_	_	1	advmod	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16	após	após	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+
 # text = Entretanto, esperava-se que a acidez dos óleos aditivados com antioxidantes aumentasse menos em relação aos óleos sem aditivo, o que não foi verificado.
-# sent_id = 328-20140905-MONOGRAFIA_0-242
+# sent_id = 328-20140905-MONOGRAFIA_0-244
 1	Entretanto	entretanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	esperava-se	_	_	_	_	_	_	_	_
@@ -5765,7 +5784,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Mais uma vez isso se justifica porque o processo oxidativo foi levado até o fim.
-# sent_id = 328-20140905-MONOGRAFIA_0-243
+# sent_id = 328-20140905-MONOGRAFIA_0-245
 1	Mais	mais	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 2	uma	uma	ADP	_	_	3	case	_	_
 3	vez	vez	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5784,7 +5803,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Os valores de acidez foram comparados estatisticamente, utilizando-se o teste T. Esta ferramenta estatística é usada para comparar um grupo de medidas com outro, a fim de decidir se eles são ou não “diferentes”.
-# sent_id = 328-20140905-MONOGRAFIA_0-244
+# sent_id = 328-20140905-MONOGRAFIA_0-246
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5812,7 +5831,7 @@
 24	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
 25	com	com	ADP	_	_	26	case	_	_
 26	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	22	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	18	punct	_	_
+27	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
 28	a	a	ADP	_	_	29	case	_	_
 29	fim	fim	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 30	de	de	SCONJ	_	_	31	mark	_	_
@@ -5828,7 +5847,7 @@
 40	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O teste T foi precedido de um teste F para comparação das variâncias, conforme recomendado por Harris (HARRIS, 2005).
-# sent_id = 328-20140905-MONOGRAFIA_0-245
+# sent_id = 328-20140905-MONOGRAFIA_0-247
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teste	teste	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	T	t	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -5857,7 +5876,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os valores de t calculado são apresentados na Tabela 7.
-# sent_id = 328-20140905-MONOGRAFIA_0-246
+# sent_id = 328-20140905-MONOGRAFIA_0-248
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5872,65 +5891,60 @@
 11	7	7	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Tabela 7-
-# sent_id = 328-20140905-MONOGRAFIA_0-247
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Comparação estatística utilizando –se teste T Comparando-se os resultados de acidez dos óleos antes do envelhecimento, os valores de t tabelado são menores que t calculado, então pode-se afirmar que os valores de acidez são estatisticamente iguais.
-# sent_id = 328-20140905-MONOGRAFIA_0-248
-1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	estatística	estatístico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-3	utilizando	utilizar	VERB	_	VerbForm=Ger	1	acl	_	_
-4	–se	–se	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-5	teste	teste	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-6	T	t	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-7-8	Comparando-se	_	_	_	_	_	_	_	_
-7	Comparando	comparando	PROPN	_	Number=Sing	6	flat:name	_	_
-8	se	se	SCONJ	_	_	27	mark	_	_
-9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	acidez	acidez	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13-14	dos	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-16	antes	antes	ADV	_	_	27	advmod	_	_
-17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	16	punct	_	_
-21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	valores	valor	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	t	t	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-25	tabelado	tabelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
-26	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
-27	menores	pequeno	ADJ	_	Gender=Masc|Number=Plur	3	xcomp	_	_
-28	que	que	SCONJ	_	_	29	mark	_	_
-29	t	t	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
-30	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	33	acl	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	_
-32	então	então	ADV	_	_	33	advmod	_	_
-33-34	pode-se	_	_	_	_	_	_	_	_
-33	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
-34	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	35	nsubj	_	_
-35	afirmar	afirmar	VERB	_	VerbForm=Inf	33	xcomp	_	_
-36	que	que	SCONJ	_	_	43	mark	_	_
-37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
-38	valores	valor	NOUN	_	Gender=Masc|Number=Plur	43	nsubj	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	acidez	acidez	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
-41	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
-42	estatisticamente	estatisticamente	ADV	_	_	43	advmod	_	_
-43	iguais	igual	ADJ	_	Gender=Masc|Number=Plur	35	ccomp	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	35	punct	_	_
+# text = Tabela 7-Comparação estatística utilizando –se teste T Comparando-se os resultados de acidez dos óleos antes do envelhecimento, os valores de t tabelado são menores que t calculado, então pode-se afirmar que os valores de acidez são estatisticamente iguais.
+# sent_id = 328-20140905-MONOGRAFIA_0-249
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	7-Comparação	7-Comparação	PROPN	_	Number=Sing	1	flat:name	_	_
+3	estatística	estatístico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+4	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+5	–se	–se	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	teste	teste	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	T	t	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
+8-9	Comparando-se	_	_	_	_	_	_	_	_
+8	Comparando	comparando	PROPN	_	Number=Sing	7	flat:name	_	_
+9	se	se	SCONJ	_	_	28	mark	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	acidez	acidez	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	antes	antes	ADV	_	_	28	advmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	17	punct	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	valores	valor	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	t	t	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	tabelado	tabelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	23	acl	_	_
+27	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	menores	pequeno	ADJ	_	Gender=Masc|Number=Plur	4	advcl	_	_
+29	que	que	SCONJ	_	_	30	mark	_	_
+30	t	t	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
+31	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	34	acl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	então	então	ADV	_	_	34	advmod	_	_
+34-35	pode-se	_	_	_	_	_	_	_	_
+34	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+35	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	36	nsubj	_	_
+36	afirmar	afirmar	VERB	_	VerbForm=Inf	34	xcomp	_	_
+37	que	que	SCONJ	_	_	44	mark	_	_
+38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	valores	valor	NOUN	_	Gender=Masc|Number=Plur	44	nsubj	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	acidez	acidez	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
+42	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+43	estatisticamente	estatisticamente	ADV	_	_	44	advmod	_	_
+44	iguais	igual	ADJ	_	Gender=Masc|Number=Plur	36	ccomp	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	36	punct	_	_
 
 # text = Assim, a presença dos antioxidantes não alterou a acidez do óleo antes do envelhecimento.
-# sent_id = 328-20140905-MONOGRAFIA_0-249
+# sent_id = 328-20140905-MONOGRAFIA_0-250
 1	Assim	assim	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5955,7 +5969,7 @@
 19	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Fazendo-se análise semelhante para os valores de acidez dos óleos após o envelhecimento, verifica-se que os resultados são estatisticamente diferentes.
-# sent_id = 328-20140905-MONOGRAFIA_0-250
+# sent_id = 328-20140905-MONOGRAFIA_0-251
 1-2	Fazendo-se	_	_	_	_	_	_	_	_
 1	Fazendo	fazer	VERB	_	VerbForm=Ger	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5986,7 +6000,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ou seja, mesmo em presença de antioxidantes, ao final do processo de oxidação ocorre a formação dos ácidos graxos.
-# sent_id = 328-20140905-MONOGRAFIA_0-251
+# sent_id = 328-20140905-MONOGRAFIA_0-252
 1	Ou	ou	CCONJ	_	_	6	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -6017,54 +6031,51 @@
 25	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = 4.5
-# sent_id = 328-20140905-MONOGRAFIA_0-252
+# sent_id = 328-20140905-MONOGRAFIA_0-253
 1	4.5	4.5	NUM	_	NumType=Card	0	root	_	_
 
-# text = Espectroscopia no Infravermelho
-# sent_id = 328-20140905-MONOGRAFIA_0-253
+# text = Espectroscopia no Infravermelho Observou-se que todos os espectros obtidos são semelhantes do ponto de vista qualitativo e que apresentam bandas características de óleos vegetais, como bandas de cadeias parafínicas e de ésteres.
+# sent_id = 328-20140905-MONOGRAFIA_0-254
 1	Espectroscopia	Espectroscoper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Infravermelho	Infravermelho	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
-
-# text = Observou-se que todos os espectros obtidos são semelhantes do ponto de vista qualitativo e que apresentam bandas características de óleos vegetais, como bandas de cadeias parafínicas e de ésteres.
-# sent_id = 328-20140905-MONOGRAFIA_0-254
-1-2	Observou-se	_	_	_	_	_	_	_	_
-1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
-3	que	que	SCONJ	_	_	9	mark	_	_
-4	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	espectros	espectro	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
-7	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_
-8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-9	semelhantes	semelhante	ADJ	_	Gender=Fem|Number=Plur	1	ccomp	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	vista	vista	NOUN	_	Gender=Fem|Number=Sing	12	compound	_	_
-15	qualitativo	qualitativo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-16	e	e	CCONJ	_	_	18	cc	_	_
-17	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	_
-18	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-19	bandas	bando	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
-20	características	característica	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
-23	vegetais	vegetal	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	26	punct	_	_
-25	como	como	ADP	_	_	26	case	_	_
-26	bandas	banda	NOUN	_	Gender=Fem|Number=Plur	1	appos:parataxis	_	_
-27	de	de	ADP	_	_	28	case	_	_
-28	cadeias	cadeia	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
-29	parafínicas	parafínico	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
-30	e	e	CCONJ	_	_	32	cc	_	_
+4	Infravermelho	Infravermelho	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5-6	Observou-se	_	_	_	_	_	_	_	_
+5	Observou	Observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+6	se	se	SCONJ	_	_	13	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	10	det	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	espectros	espectro	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+11	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	10	acl	_	_
+12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	semelhantes	semelhante	ADJ	_	Gender=Fem|Number=Plur	5	ccomp	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	vista	vista	NOUN	_	Gender=Fem|Number=Sing	16	compound	_	_
+19	qualitativo	qualitativo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	22	nsubj	_	_
+22	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	bandas	bando	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+24	características	característica	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+27	vegetais	vegetal	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	como	como	ADP	_	_	30	case	_	_
+30	bandas	banda	NOUN	_	Gender=Fem|Number=Plur	13	appos:parataxis	_	_
 31	de	de	ADP	_	_	32	case	_	_
-32	ésteres	éster	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	1	punct	_	_
+32	cadeias	cadeia	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+33	parafínicas	parafínico	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
+34	e	e	CCONJ	_	_	36	cc	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	ésteres	éster	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A figura 25 e a tabela 8 exemplificam a designação das bandas.
 # sent_id = 328-20140905-MONOGRAFIA_0-255
@@ -6082,7 +6093,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	bandas	banda	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Figura 25:
 # sent_id = 328-20140905-MONOGRAFIA_0-256
@@ -6221,7 +6232,7 @@
 3	confirmam	confirmar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	existência	existência	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
-6-7	das	_	_	_	_	_	_	_	_
+6-7	das	_	_	_	_	_	_	_	SpacesAfter=\s\n
 6	de	de	ADP	_	_	8	case	_	_
 7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	cadeias	cadeia	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
@@ -6587,7 +6598,7 @@
 10	presença	presença	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Figura 26:
 # sent_id = 328-20140905-MONOGRAFIA_0-273
@@ -6595,7 +6606,7 @@
 2	26	26	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Espectros no Infravermelho das amostras do óleo de macaúba (a) sem aditivo, (b) com BHT e (c) com piche 4.6
+# text = Espectros no Infravermelho das amostras do óleo de macaúba (a) sem aditivo, (b) com BHT e (c) com piche BHT e (c) com piche 4.6
 # sent_id = 328-20140905-MONOGRAFIA_0-274
 1	Espectros	Espectro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
@@ -6628,33 +6639,43 @@
 26	c	c	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	17	punct	_	_
 28	com	com	ADP	_	_	29	case	_	_
-29	piche	piche	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-30	4.6	4.6	NUM	_	NumType=Card	29	nummod	_	_
+29	piche	piche	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
+30	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	c	c	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	_
+35	com	com	ADP	_	_	36	case	_	_
+36	piche	piche	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
+37	4.6	4.6	NUM	_	NumType=Card	36	nummod	_	_
 
-# text = Termogravimetria Através da curva termogravimétrica foi possível estudar o comportamento termo oxidativo das amostras.
+# text = Termogravimetria
 # sent_id = 328-20140905-MONOGRAFIA_0-275
-1	Termogravimetria	Termogravimetria	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-2	Através	através	PROPN	_	Number=Sing	1	flat:name	_	_
-3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	curva	curva	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-6	termogravimétrica	termogravimétrico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
-8	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-9	estudar	estudar	VERB	_	VerbForm=Inf	8	csubj	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
-12	termo	termo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	oxidativo	oxidativo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-14-15	das	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	_
+1	Termogravimetria	Termogravimetria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+
+# text = Através da curva termogravimétrica foi possível estudar o comportamento termo oxidativo das amostras.
+# sent_id = 328-20140905-MONOGRAFIA_0-276
+1	Através	através	ADV	_	_	4	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	curva	curva	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+5	termogravimétrica	termogravimétrico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+8	estudar	estudar	VERB	_	VerbForm=Inf	7	csubj	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	termo	termo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	oxidativo	oxidativo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+13-14	das	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Utilizando o método de extrapolação, indicado na figura 28, foi possível determinar as temperaturas on e endset, ou seja, a temperatura máxima de resistência à termo oxidação e a temperatura de máxima degradação, respectivamente.
-# sent_id = 328-20140905-MONOGRAFIA_0-276
+# sent_id = 328-20140905-MONOGRAFIA_0-277
 1	Utilizando	utilizar	VERB	_	VerbForm=Ger	14	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	método	método	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -6701,13 +6722,13 @@
 42	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Figura 28:
-# sent_id = 328-20140905-MONOGRAFIA_0-277
+# sent_id = 328-20140905-MONOGRAFIA_0-278
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	28	28	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Método de extrapolação da curva termogravimétrica
-# sent_id = 328-20140905-MONOGRAFIA_0-278
+# sent_id = 328-20140905-MONOGRAFIA_0-279
 1	Método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	extrapolação	extrapolação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6718,7 +6739,7 @@
 7	termogravimétrica	termogravimétrico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 
 # text = Os dados da tabela 9 informam os valores encontrados para as amostras analisadas.
-# sent_id = 328-20140905-MONOGRAFIA_0-279
+# sent_id = 328-20140905-MONOGRAFIA_0-280
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6737,13 +6758,13 @@
 15	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Tabela 9 –
-# sent_id = 328-20140905-MONOGRAFIA_0-280
+# sent_id = 328-20140905-MONOGRAFIA_0-281
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Temperaturas on e endset para as amostras de óleo de macaúba e pequi
-# sent_id = 328-20140905-MONOGRAFIA_0-281
+# sent_id = 328-20140905-MONOGRAFIA_0-282
 1	Temperaturas	Temperaturas	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 2	on	on	PROPN	_	Number=Sing	1	flat:name	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6759,7 +6780,7 @@
 13	pequi	pequir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 
 # text = A curva TG do óleo de macaúba sem aditivo antes do processo de envelhecimento (tabela 9 e figura 29) apresentou estabilidade térmica até aproximadamente 250°C.
-# sent_id = 328-20140905-MONOGRAFIA_0-282
+# sent_id = 328-20140905-MONOGRAFIA_0-283
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	curva	curva	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 3	TG	TG	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -6793,7 +6814,7 @@
 29	250°C.	250°C.	PROPN	_	Gender=Masc|Number=Sing	24	obl	_	_
 
 # text = Observou-se que a perda de massa ocorreu em três estágios: o primeiro até aproximadamente 350°C, com perda de massa de aproximadamente 50% da massa da amostra inicial, o segundo até 435°C e o terceiro, ocorrendo uma queda brusca até 438°C.
-# sent_id = 328-20140905-MONOGRAFIA_0-283
+# sent_id = 328-20140905-MONOGRAFIA_0-284
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -6848,7 +6869,7 @@
 49	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ao analisarmos a curva após o envelhecimento, observou-se que o óleo apresentou maior temperatura de estabilidade térmica, aproximadamente 100°C, ocorrendo uma pequena perda de massa no início e, posteriormente uma perda maior de 95% em massa.
-# sent_id = 328-20140905-MONOGRAFIA_0-284
+# sent_id = 328-20140905-MONOGRAFIA_0-285
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6856,7 +6877,7 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	curva	curva	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 6	após	após	ADP	_	_	8	case	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpacesAfter=\s\n
 8	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
 10-11	observou-se	_	_	_	_	_	_	_	_
@@ -6899,7 +6920,7 @@
 45	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Figura 29: Curva (a) TG e (b)
-# sent_id = 328-20140905-MONOGRAFIA_0-285
+# sent_id = 328-20140905-MONOGRAFIA_0-286
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	29	29	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6914,7 +6935,7 @@
 12	)	)	PUNCT	_	_	8	punct	_	_
 
 # text = DTG para macaúba sem aditivo
-# sent_id = 328-20140905-MONOGRAFIA_0-286
+# sent_id = 328-20140905-MONOGRAFIA_0-287
 1	DTG	Dtg	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6922,7 +6943,7 @@
 5	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Já a curva obtida para o óleo de macaúba aditivado com BTH (figura 30), observou-se uma redução da estabilidade térmica de 250°C para 200°C.
-# sent_id = 328-20140905-MONOGRAFIA_0-287
+# sent_id = 328-20140905-MONOGRAFIA_0-288
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	curva	curva	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
@@ -6953,10 +6974,10 @@
 26	de	de	ADP	_	_	27	case	_	_
 27	250°C	250°C	PROPN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	para	para	ADP	_	_	29	case	_	_
-29	200°C.	200°C.	PROPN	_	Number=Sing	27	nmod	_	SpacesAfter=\n
+29	200°C.	200°C.	PROPN	_	Number=Sing	27	nmod	_	SpacesAfter=\n\n
 
 # text = Figura 30: Curva (a) TG e (b)
-# sent_id = 328-20140905-MONOGRAFIA_0-288
+# sent_id = 328-20140905-MONOGRAFIA_0-289
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	30:	30:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Curva	curva	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6970,7 +6991,7 @@
 11	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = DTG para macaúba com BHT
-# sent_id = 328-20140905-MONOGRAFIA_0-289
+# sent_id = 328-20140905-MONOGRAFIA_0-290
 1	DTG	Dtg	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6978,7 +6999,7 @@
 5	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Já o óleo de pequi (figura 31) antes do envelhecimento apresentou uma temperatura de estabilidade térmica de 339°C, maior em relação ao óleo de macaúba.
-# sent_id = 328-20140905-MONOGRAFIA_0-290
+# sent_id = 328-20140905-MONOGRAFIA_0-291
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -7014,7 +7035,7 @@
 31	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Este comportamento pode ser devido à maior estabilidade do óleo de pequi.
-# sent_id = 328-20140905-MONOGRAFIA_0-291
+# sent_id = 328-20140905-MONOGRAFIA_0-292
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7034,7 +7055,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = É interessante ressaltar que o óleo de pequi após o envelhecimento apresentou temperatura onset menor que o óleo de macaúba.
-# sent_id = 328-20140905-MONOGRAFIA_0-292
+# sent_id = 328-20140905-MONOGRAFIA_0-293
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	interessante	interessante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	ressaltar	ressaltar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -7058,7 +7079,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Para o óleo de pequi aditivado com BHT observou-se um aumento da estabilidade térmica.
-# sent_id = 328-20140905-MONOGRAFIA_0-293
+# sent_id = 328-20140905-MONOGRAFIA_0-294
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -7077,38 +7098,10 @@
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 16	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
-
-# text = Figura 31: Curva (a) TG e (b)
-# sent_id = 328-20140905-MONOGRAFIA_0-294
-1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	31:	31:	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Curva	curva	PROPN	_	Number=Sing	1	flat:name	_	_
-4	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	5	punct	_	_
-7	TG	TG	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-8	e	e	CCONJ	_	_	10	cc	_	_
-9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	b	bado	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	7	punct	_	_
-
-# text = DTG para pequi sem aditivo (a) (b)
-# sent_id = 328-20140905-MONOGRAFIA_0-295
-1	DTG	Dtg	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	para	para	ADP	_	_	3	case	_	_
-3	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4	sem	sem	ADP	_	_	5	case	_	_
-5	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	_
-9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	10	punct	_	_
+17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n\n
 
 # text = Figura 32: Curva (a) TG e (b)
-# sent_id = 328-20140905-MONOGRAFIA_0-296
+# sent_id = 328-20140905-MONOGRAFIA_0-295
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	32:	32:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Curva	curva	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -7122,7 +7115,7 @@
 11	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = DTG para pequi com BHT
-# sent_id = 328-20140905-MONOGRAFIA_0-297
+# sent_id = 328-20140905-MONOGRAFIA_0-296
 1	DTG	Dtg	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7130,12 +7123,12 @@
 5	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Observação:
-# sent_id = 328-20140905-MONOGRAFIA_0-298
+# sent_id = 328-20140905-MONOGRAFIA_0-297
 1	Observação	observação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Os resultados dos óleos aditivados com piche vegetal não ficaram prontos antes da entrega da versão final deste trabalho.
-# sent_id = 328-20140905-MONOGRAFIA_0-299
+# sent_id = 328-20140905-MONOGRAFIA_0-298
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -7163,15 +7156,15 @@
 21	de	de	ADP	_	_	23	case	_	_
 22	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 23	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = 4.7 Pirólise
-# sent_id = 328-20140905-MONOGRAFIA_0-300
+# sent_id = 328-20140905-MONOGRAFIA_0-299
 1	4.7	4.7	NUM	_	NumType=Card	2	nummod	_	_
 2	Pirólise	Pirólise	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Os compostos identificados nos pirogramas obtidos foram identificados para as amostras sem aditivos e estão apresentados nas tabelas 10, 11, 12 e 13 (em anexo).
-# sent_id = 328-20140905-MONOGRAFIA_0-301
+# sent_id = 328-20140905-MONOGRAFIA_0-300
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	identificados	identificado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7208,7 +7201,7 @@
 32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Para o óleo de macaúba sem aditivo antes do envelhecimento foram identificados 26 compostos de um total de 75.
-# sent_id = 328-20140905-MONOGRAFIA_0-302
+# sent_id = 328-20140905-MONOGRAFIA_0-301
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
@@ -7233,7 +7226,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Após o envelhecimento foram identificados 16 compostos de um total de 95.
-# sent_id = 328-20140905-MONOGRAFIA_0-303
+# sent_id = 328-20140905-MONOGRAFIA_0-302
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -7249,7 +7242,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os resultados estão ilustrados na figura 33.
-# sent_id = 328-20140905-MONOGRAFIA_0-304
+# sent_id = 328-20140905-MONOGRAFIA_0-303
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -7262,13 +7255,13 @@
 9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 33:
-# sent_id = 328-20140905-MONOGRAFIA_0-305
+# sent_id = 328-20140905-MONOGRAFIA_0-304
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	33	33	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Funções orgânicas identificadas para o óleo de macaúba sem aditivo
-# sent_id = 328-20140905-MONOGRAFIA_0-306
+# sent_id = 328-20140905-MONOGRAFIA_0-305
 1	Funções	função	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	orgânicas	orgânico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	identificadas	identificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
@@ -7281,7 +7274,7 @@
 10	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 
 # text = Observou-se que após o envelhecimento os dienos, trienos, outros alcenos e alquinos foram, possivelmente, degradados, uma vez que as ligações insaturadas são mais suscetíveis a quebra.
-# sent_id = 328-20140905-MONOGRAFIA_0-307
+# sent_id = 328-20140905-MONOGRAFIA_0-306
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7318,7 +7311,7 @@
 33	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O número de compostos pertencentes à classe dos ácidos carboxílicos aumentaram, o que poderia ser uma consequência da formação dos ácidos graxos livres.
-# sent_id = 328-20140905-MONOGRAFIA_0-308
+# sent_id = 328-20140905-MONOGRAFIA_0-307
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	número	número	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7354,7 +7347,7 @@
 29	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Para o óleo de pequi sem aditivo antes do envelhecimento foram identificados 21 compostos de um total de 73.
-# sent_id = 328-20140905-MONOGRAFIA_0-309
+# sent_id = 328-20140905-MONOGRAFIA_0-308
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
@@ -7379,7 +7372,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Após o envelhecimento foram identificados 20 compostos de um total de 95.
-# sent_id = 328-20140905-MONOGRAFIA_0-310
+# sent_id = 328-20140905-MONOGRAFIA_0-309
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -7395,7 +7388,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os resultados estão ilustrados na figura 34.
-# sent_id = 328-20140905-MONOGRAFIA_0-311
+# sent_id = 328-20140905-MONOGRAFIA_0-310
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -7405,16 +7398,16 @@
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 8	34	34	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 34:
-# sent_id = 328-20140905-MONOGRAFIA_0-312
+# sent_id = 328-20140905-MONOGRAFIA_0-311
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	34	34	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Funções orgânicas identificadas para o óleo de pequi sem aditivo
-# sent_id = 328-20140905-MONOGRAFIA_0-313
+# sent_id = 328-20140905-MONOGRAFIA_0-312
 1	Funções	função	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	orgânicas	orgânico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	identificadas	identificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
@@ -7427,7 +7420,7 @@
 10	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 
 # text = Após a análise da figura 34 observou-se a diminuição dos dienos, como relatado para a amostra de macaúba, entretanto, houve um aumento nos alcenos identificados.
-# sent_id = 328-20140905-MONOGRAFIA_0-314
+# sent_id = 328-20140905-MONOGRAFIA_0-313
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -7467,7 +7460,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Este comportamento pode indicar que o óleo envelhecido apresenta um mecanismo diferente de fragmentação em relação ao óleo não envelhecido.
-# sent_id = 328-20140905-MONOGRAFIA_0-315
+# sent_id = 328-20140905-MONOGRAFIA_0-314
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7493,7 +7486,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.8 Cromatografia Líquida de Alta Eficiência
-# sent_id = 328-20140905-MONOGRAFIA_0-316
+# sent_id = 328-20140905-MONOGRAFIA_0-315
 1	4.8	4.8	NUM	_	NumType=Card	2	nummod	_	_
 2	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	_
@@ -7502,7 +7495,7 @@
 6	Eficiência	eficiência	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = Os cromatogramas obtidos por HLPC indicam que os constituintes eluíram em até 25 minutos e as regiões características estão indicadas nas respectivas figuras.
-# sent_id = 328-20140905-MONOGRAFIA_0-317
+# sent_id = 328-20140905-MONOGRAFIA_0-316
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cromatogramas	cromatograma	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -7531,7 +7524,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Analisando-se os cromatogramas (figuras 35 e 36 ), pode se perceber que os componentes em maior proporção são os triacilglicerídeos (TG), os diglicerídeos (DG) e os monoglicerídeos (MG) e ácidos graxos livres (AGL), que são comuns a todas as amostras e eluíram em 20, 12 e 4,5 minutos, respectivamente.
-# sent_id = 328-20140905-MONOGRAFIA_0-318
+# sent_id = 328-20140905-MONOGRAFIA_0-317
 1-2	Analisando-se	_	_	_	_	_	_	_	_
 1	Analisando	analisar	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -7600,7 +7593,7 @@
 65	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Após o envelhecimento, observa-se uma diminuição considerável nos picos referentes aos trigacilglicerídeos e um aumento na região dos diglicerídeos, monoglicerídeos e ácidos graxos livres devido aos processos de oxidação.
-# sent_id = 328-20140905-MONOGRAFIA_0-319
+# sent_id = 328-20140905-MONOGRAFIA_0-318
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -7647,7 +7640,7 @@
 38	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Este comportamento foi observado em todas as amostras de macaúba.
-# sent_id = 328-20140905-MONOGRAFIA_0-320
+# sent_id = 328-20140905-MONOGRAFIA_0-319
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7661,7 +7654,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Entretanto, a formação de diglicerídeos, monoglicerídeos e ácidos graxos livres foi menor nas amostras que foram aditivadas com antioxidantes, confirmando a eficiência dos mesmos.
-# sent_id = 328-20140905-MONOGRAFIA_0-321
+# sent_id = 328-20140905-MONOGRAFIA_0-320
 1	Entretanto	entretanto	ADV	_	_	14	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7693,10 +7686,10 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	mesmos	mesmo	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = Esse comportamento não foi observado, entretanto, para as amostras de óleo de pequi, possivelmente porque o ensaio de estabilidade oxidativa levou a amostra ao máximo de degradação, não sendo influenciada, portanto pela adição ou não de antioxidantes.
-# sent_id = 328-20140905-MONOGRAFIA_0-322
+# sent_id = 328-20140905-MONOGRAFIA_0-321
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -7746,7 +7739,7 @@
 45	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Um forma de se obter uma melhor avaliação dos resultados seria recolher alíquotas em tempos definidos no ensaio de Rancimat e refazer o ensaio de HLPC para observar o comportamento das amostras.
-# sent_id = 328-20140905-MONOGRAFIA_0-323
+# sent_id = 328-20140905-MONOGRAFIA_0-322
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	de	de	SCONJ	_	_	5	mark	_	_
@@ -7785,71 +7778,40 @@
 33	de	de	ADP	_	_	35	case	_	_
 34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
 35	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n\n
 
-# text = Figura 35 : Cromatogramas das amostras do óleo de macaúba (a) sem aditivo, (b) com BHT e (c) com piche PEQUI Figura 36 : Cromatogramas das amostras do óleo de pequi (a) sem aditivo, (b) com BHT e (c) com piche
-# sent_id = 328-20140905-MONOGRAFIA_0-324
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	35	35	NUM	_	NumType=Card	1	nummod	_	_
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Cromatogramas	Cromatogramas	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-5-6	das	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	macaúba	macaúba	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	a	o	ADP	_	_	17	case	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	14	punct	_	_
-16	sem	sem	ADP	_	_	17	case	_	_
-17	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
-19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	20	punct	_	_
-22	com	com	ADP	_	_	23	case	_	_
-23	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
-24	e	e	CCONJ	_	_	26	cc	_	_
-25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	c	c	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	26	punct	_	_
-28	com	com	ADP	_	_	29	case	_	_
-29	piche	piche	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
-30	PEQUI	PEQUI	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	_
-31	Figura	figura	PROPN	_	Number=Sing	30	flat:name	_	_
-32	36	36	NUM	_	NumType=Card	30	nummod	_	_
-33	:	:	PUNCT	_	_	1	punct	_	_
-34	Cromatogramas	Cromatogramas	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-35-36	das	_	_	_	_	_	_	_	_
-35	de	de	ADP	_	_	37	case	_	_
-36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
-37	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
-38-39	do	_	_	_	_	_	_	_	_
-38	de	de	ADP	_	_	40	case	_	_
-39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
-41	de	de	ADP	_	_	42	case	_	_
-42	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-43	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
-44	a	a	SCONJ	_	_	50	mark	_	SpaceAfter=No
-45	)	)	PUNCT	_	_	44	punct	_	_
-46	sem	sem	ADP	_	_	47	case	_	_
-47	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
-48	,	,	PUNCT	_	_	47	punct	_	_
-49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
-50	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
-51	)	)	PUNCT	_	_	50	punct	_	_
-52	com	com	ADP	_	_	53	case	_	_
-53	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	56	nmod	_	_
-54	e	e	CCONJ	_	_	56	cc	_	_
-55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
-56	c	c	NOUN	_	Gender=Masc|Number=Sing	50	conj	_	SpaceAfter=No
-57	)	)	PUNCT	_	_	56	punct	_	_
-58	com	com	ADP	_	_	59	case	_	_
-59	piche	piche	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	SpacesAfter=\s\n
+# text = PEQUI Figura 36 : Cromatogramas das amostras do óleo de pequi (a) sem aditivo, (b) com BHT e (c) com piche
+# sent_id = 328-20140905-MONOGRAFIA_0-323
+1	PEQUI	PEQUI	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
+3	36	36	NUM	_	NumType=Card	1	appos	_	_
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	Cromatogramas	Cromatogramas	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	das	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	pequi	pequi	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	sem	sem	ADP	_	_	18	case	_	_
+18	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	b	bado	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	com	com	ADP	_	_	24	case	_	_
+24	BHT	BHT	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	c	c	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	18	punct	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	piche	piche	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 

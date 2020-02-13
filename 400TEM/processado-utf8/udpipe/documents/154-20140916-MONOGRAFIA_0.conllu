@@ -1,6 +1,6 @@
 # text = 1
 # sent_id = 154-20140916-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	_
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n
 
 # text = INTRODUÇÃO
 # sent_id = 154-20140916-MONOGRAFIA_0-2
@@ -444,7 +444,7 @@
 41	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 42	geológico	geológico	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 43	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	44	nsubj	_	_
-44	ficam	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+44	ficam	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	SpacesAfter=\s\n
 45	localizadas	localizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	57	acl	_	_
 46-47	na	_	_	_	_	_	_	_	_
 46	em	em	ADP	_	_	48	case	_	_
@@ -753,7 +753,7 @@
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 14	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 2 FUNDAMENTAÇÃO TEÓRICA Neste capítulo serão abordados temas importantes para compreensão deste trabalho, onde partiremos dos conceitos sobre dados sísmicos, a aquisição, o processamento e a interpretação, passando pelos atributos sísmicos de energia e similaridade até chegarmos às funções geoestatísticas e, enfim, o atributo correlograma que é o objeto de estudo dessa monografia.
 # sent_id = 154-20140916-MONOGRAFIA_0-21
@@ -1182,7 +1182,7 @@
 13	e	e	CCONJ	_	_	15	cc	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	tufo	tufo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = uma camada de rochas impermeáveis que retenha o óleo, normalmente folhelho ou sal, formando uma trapa (armadilha), denominada de rocha selante ou capeadora, onde os hidrocarbonetos podem ser trapeados e acumulados.
 # sent_id = 154-20140916-MONOGRAFIA_0-36
@@ -1329,22 +1329,18 @@
 72	discordâncias	discordância	NOUN	_	Gender=Fem|Number=Plur	70	obj	_	SpaceAfter=No
 73	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
-# text = anticlinal.
+# text = Figura 2.3:
 # sent_id = 154-20140916-MONOGRAFIA_0-39
-1	anticlinal	anticlinal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
+1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	2.3:	2.3:	PUNCT	_	_	1	punct	_	_
 
-# text = (TEIXEIRA et al., 2000) discordâncias.
+# text = Trapa Estratigráfica, discordâncias.
 # sent_id = 154-20140916-MONOGRAFIA_0-40
-1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-2	TEIXEIRA	Teixeira	ADV	_	_	4	advmod	_	_
-3	et	et	X	_	Number=Sing	2	flat:name	_	_
-4	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	2000	2000	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	4	punct	_	_
-8	discordâncias	discordância	NOUN	_	Gender=Fem|Number=Plur	4	appos	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+1	Trapa	Trapa	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Estratigráfica	Estratigráfica	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	discordâncias	discordância	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = (TEIXEIRA et al., 2000) 2.1.1
 # sent_id = 154-20140916-MONOGRAFIA_0-41
@@ -1354,7 +1350,7 @@
 4	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	2000	2000	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
+7	)	)	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
 8	2.1.1	2.1.1	NUM	_	NumType=Card	4	nummod	_	_
 
 # text = Sísmica de Reflexão
@@ -1726,7 +1722,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	2008	2008	NUM	_	NumType=Card	8	appos:parataxis	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Essa geometria de base é deslocada ao longo do alinhamento dos geofones a um passo geofônico, a cada energização.
 # sent_id = 154-20140916-MONOGRAFIA_0-53
@@ -1851,7 +1847,7 @@
 26	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
-# text = A definição dos parâmetros, segundo representação da Tabela 2.1, depende da experiência do operador ou dos resultados de um perfil de teste denominado walk- away, realizado com o escopo de testar as características dos terrenos e assim permitir escolher as melhores geometrias e os melhores parâmetros de aquisição.
+# text = A definição dos parâmetros, segundo representação da Tabela 2.1, depende da experiência do operador ou dos resultados de um perfil de teste denominado walk-away, realizado com o escopo de testar as características dos terrenos e assim permitir escolher as melhores geometrias e os melhores parâmetros de aquisição.
 # sent_id = 154-20140916-MONOGRAFIA_0-56
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	definição	definição	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -1861,7 +1857,7 @@
 5	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	segundo	segundo	ADP	_	_	8	case	_	_
-8	representação	representação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	representação	representação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -1872,7 +1868,7 @@
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -1887,36 +1883,35 @@
 27	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	teste	teste	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-30	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_
-31	walk-	walk-	PUNCT	_	_	32	punct	_	_
-32	away	away	NOUN	_	Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_
-35	com	com	ADP	_	_	37	case	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	escopo	escopo	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
-38	de	de	SCONJ	_	_	39	mark	_	_
-39	testar	testar	VERB	_	VerbForm=Inf	37	acl	_	_
-40	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
-41	características	característica	NOUN	_	Gender=Fem|Number=Plur	39	obj	_	_
-42-43	dos	_	_	_	_	_	_	_	_
-42	de	de	ADP	_	_	44	case	_	_
-43	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
-44	terrenos	terreno	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
-45	e	e	CCONJ	_	_	44	cc	_	_
-46	assim	asssim	ADV	_	_	47	advmod	_	_
-47	permitir	permitir	VERB	_	VerbForm=Inf	14	xcomp	_	_
-48	escolher	escolher	VERB	_	VerbForm=Inf	47	xcomp	_	_
-49	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
-50	melhores	bom	ADJ	_	Gender=Fem|Number=Plur	51	amod	_	_
-51	geometrias	geometria	NOUN	_	Gender=Fem|Number=Plur	48	obj	_	_
-52	e	e	CCONJ	_	_	55	cc	_	_
-53	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
-54	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	55	amod	_	_
-55	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	48	conj	_	_
-56	de	de	ADP	_	_	57	case	_	_
-57	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+30	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	31	acl	_	_
+31	walk-away	walk-away	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
+34	com	com	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	escopo	escopo	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+37	de	de	SCONJ	_	_	38	mark	_	_
+38	testar	testar	VERB	_	VerbForm=Inf	36	acl	_	_
+39	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	características	característica	NOUN	_	Gender=Fem|Number=Plur	38	obj	_	_
+41-42	dos	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	terrenos	terreno	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	_
+44	e	e	CCONJ	_	_	46	cc	_	_
+45	assim	asssim	ADV	_	_	46	advmod	_	_
+46	permitir	permitir	VERB	_	VerbForm=Inf	43	conj	_	_
+47	escolher	escolher	VERB	_	VerbForm=Inf	46	xcomp	_	_
+48	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+49	melhores	bom	ADJ	_	Gender=Fem|Number=Plur	50	amod	_	_
+50	geometrias	geometria	NOUN	_	Gender=Fem|Number=Plur	47	obj	_	_
+51	e	e	CCONJ	_	_	54	cc	_	_
+52	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+53	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	54	amod	_	_
+54	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	47	conj	_	_
+55	de	de	ADP	_	_	56	case	_	_
+56	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Tabela 2.1: Parâmetros de aquisição.
 # sent_id = 154-20140916-MONOGRAFIA_0-57
@@ -1940,7 +1935,7 @@
 5	registrar	registrar	VERB	_	VerbForm=Inf	3	advcl	_	_
 6	ondas	onda	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
 7	sísmicas	sísmico	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Além da definição dos parâmetros, outros conceitos são muito importantes para garantir a qualidade dos dados obtidos, como a fonte de energia, o sistema de recepção e o sistema de aquisição.
 # sent_id = 154-20140916-MONOGRAFIA_0-60
@@ -2253,56 +2248,59 @@
 28	canhões	canhão	NOUN	_	Gender=Fem|Number=Plur	19	appos	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	ar	ar	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-31	comprimido	comprimido	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+31	comprimido	comprimido	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
 32	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	33	nsubj	_	_
-33	produzem	produzir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+33	produzem	produzir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
 34	ondas	onda	NOUN	_	Gender=Fem|Number=Plur	33	obj	_	_
 35	acústicas	acústico	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
 36	e	e	CCONJ	_	_	37	cc	_	_
-37	servem	servir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+37	servem	servir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
 38	como	como	ADP	_	_	39	case	_	_
-39	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+39	fonte	fonte	NOUN	_	Gender=Fem|Number=Sing	37	xcomp	_	_
 40	de	de	ADP	_	_	41	case	_	_
 41	energia	energia	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
 42	sísmica	sísmico	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 43-44	no	_	_	_	_	_	_	_	_
 43	em	em	ADP	_	_	45	case	_	_
 44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	mar.	mar.	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpacesAfter=\n
+45	mar	mar	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = (PGS, 2010).
+# text = Figura 2.6: Caminhão vibrador (PGS, 2010).
 # sent_id = 154-20140916-MONOGRAFIA_0-69
-1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	PGS	Pg	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	2010	2010	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	2.6	2.6	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Caminhão	caminhão	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	vibrador	vibrador	PROPN	_	Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	PGS	PGS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	2010	2010	NUM	_	NumType=Card	7	appos:parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Figura 2.7:
+# text = Figura 2.7: Cabos sísmicos flutuantes e canhões de ar (PGS, 2010).
 # sent_id = 154-20140916-MONOGRAFIA_0-70
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2.7	2.7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Cabos sísmicos flutuantes e canhões de ar (PGS, 2010).
-# sent_id = 154-20140916-MONOGRAFIA_0-71
-1	Cabos	Cabos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
-2	sísmicos	sísmico	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-3	flutuantes	flutuante	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-4	e	e	CCONJ	_	_	5	cc	_	_
-5	canhões	canhão	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	ar	ar	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	PGS	PGS	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
-11	2010	2010	NUM	_	NumType=Card	9	appos:parataxis	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+4	Cabos	Cabos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+5	sísmicos	sísmico	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	flutuantes	flutuante	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	canhões	canhão	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	ar	ar	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	PGS	PGS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	2010	2010	NUM	_	NumType=Card	12	appos:parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A onda sísmica ao atingir uma interface entre duas camadas de rocha com valores de impedância acústica (o produto da velocidade sísmica de um intervalo de rochas pela sua densidade) diferentes, parte da onda é refratada e continua viajando para baixo; outra parte é refletida e retorna a superfície (SILVA, 2004).
-# sent_id = 154-20140916-MONOGRAFIA_0-72
+# sent_id = 154-20140916-MONOGRAFIA_0-71
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	onda	onda	NOUN	_	Gender=Fem|Number=Sing	43	nsubj:pass	_	_
 3	sísmica	sísmico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2372,7 +2370,7 @@
 63	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\n
 
 # text = Ao regressar á superfície a parte da onda refletida é captada pelo sistema de recepção, em caso de aquisições terrestres, podem ser utilizados de 12 a 48 geofones ou mais, que medem a velocidade do pulso sísmico que retorna à superfície, em aquisições marinhas utiliza-se hidrofones, que medem a variação de pressão gerada na água.
-# sent_id = 154-20140916-MONOGRAFIA_0-73
+# sent_id = 154-20140916-MONOGRAFIA_0-72
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2450,7 +2448,7 @@
 68	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Após a captura, as formas de onda simultaneamente presentes nos geofones/hidrofones são adquiridas pelo sistema de aquisição com a utilização de um sismógrafo multicanal, como por exemplo, EEG BR-24 ou BISON 9048, que armazena tanto o tempo de chegada da onda quanto à intensidade medida neste momento.
-# sent_id = 154-20140916-MONOGRAFIA_0-74
+# sent_id = 154-20140916-MONOGRAFIA_0-73
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	captura	captura	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
@@ -2515,7 +2513,7 @@
 57	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A Figura 2.8 demostra o esquema de aquisição sísmica terrestre e marítima, à esquerda e à direita, respectivamente (GERHARDT, 1998).
-# sent_id = 154-20140916-MONOGRAFIA_0-75
+# sent_id = 154-20140916-MONOGRAFIA_0-74
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2.8	2.8	NUM	_	NumType=Card	2	nummod	_	_
@@ -2545,10 +2543,10 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	1998	1998	NUM	_	NumType=Card	24	appos:parataxis	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2.8: Aquisição Sísmica (GERHARDT, 1998).
-# sent_id = 154-20140916-MONOGRAFIA_0-76
+# sent_id = 154-20140916-MONOGRAFIA_0-75
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2.8:	2.8:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Aquisição	aquisição	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -2561,7 +2559,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Depois de alterar a posição da fonte de energia, do sistema de recepção e realizar várias detonações, todos os dados armazenados são enviados para a segunda etapa, a de processamento, para que as estruturas geológicas com condições de possuir acumulações de petróleo ou gás possam ser identificadas através da interpretação da energia captada e convertida em sinais elétricos.
-# sent_id = 154-20140916-MONOGRAFIA_0-77
+# sent_id = 154-20140916-MONOGRAFIA_0-76
 1	Depois	depois	ADV	_	_	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	alterar	alterar	VERB	_	VerbForm=Inf	24	advcl	_	_
@@ -2635,15 +2633,15 @@
 67	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
 
 # text = 2.1.3
-# sent_id = 154-20140916-MONOGRAFIA_0-78
+# sent_id = 154-20140916-MONOGRAFIA_0-77
 1	2.1.3	2.1.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Processamento
-# sent_id = 154-20140916-MONOGRAFIA_0-79
+# sent_id = 154-20140916-MONOGRAFIA_0-78
 1	Processamento	Processamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Nesta etapa, os dados adquiridos são submetidos ao chamado processamento sísmico, a fim de aumentar a relação sinal-ruído, aplica-se sobre os dados um conjunto de técnicas que atuam de forma a retirar ou minimizar eventos indesejáveis.
-# sent_id = 154-20140916-MONOGRAFIA_0-80
+# sent_id = 154-20140916-MONOGRAFIA_0-79
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -2692,7 +2690,7 @@
 43	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O objetivo do processamento sísmico é facilitar a interpretação dos dados sísmicos.
-# sent_id = 154-20140916-MONOGRAFIA_0-81
+# sent_id = 154-20140916-MONOGRAFIA_0-80
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2712,7 +2710,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Além da correção de erros, os dados são reorganizados para formarem em caso de imagens 2D, fatias (slice) onde as amostras de amplitude sísmica são representadas pelos pontos do plano, ou no caso de imagens 3D (volume sísmico), uma grade tridimensional onde as amostras de amplitude sísmica são representadas pelos vértices da grade (voxel).
-# sent_id = 154-20140916-MONOGRAFIA_0-82
+# sent_id = 154-20140916-MONOGRAFIA_0-81
 1	Além	além	ADV	_	_	11	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2792,7 +2790,7 @@
 71	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Os dados resultantes correspondem a uma função escalar tridimensional das variáveis discretas espaciais x, y e do tempo t, associado ao tempo decorrido entre a geração do pulso em superfície, sua reflexão por um refletor em subsuperfície e, finalmente, seu registro nos receptores, ou seja, o tempo de cada amostra corresponde ao tempo que a onda leva para viajar até uma interface mais o tempo da volta à superfície.
-# sent_id = 154-20140916-MONOGRAFIA_0-83
+# sent_id = 154-20140916-MONOGRAFIA_0-82
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	resultantes	resultante	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -2888,7 +2886,7 @@
 85	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Cada valor da função, chamada de amplitude sísmica, é proporcional à energia refletida pela interface.
-# sent_id = 154-20140916-MONOGRAFIA_0-84
+# sent_id = 154-20140916-MONOGRAFIA_0-83
 1	Cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2901,7 +2899,7 @@
 9	amplitude	amplitude	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 10	sísmica	sísmico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
-12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpacesAfter=\s\n
 13	proporcional	proporcional	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 14-15	à	_	_	_	_	_	_	_	_
 14	a	a	ADP	_	_	16	case	_	_
@@ -2915,7 +2913,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Um conjunto de amostras de amplitudes como uma função do tempo t para x, y constantes é denominado traço sísmico (SILVA, 2004).
-# sent_id = 154-20140916-MONOGRAFIA_0-85
+# sent_id = 154-20140916-MONOGRAFIA_0-84
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2947,7 +2945,7 @@
 28	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = A Figura 2.9 mostra a função de amplitudes sísmicas do traço sísmico (a), uma linha sísmica (b), extraída de um volume sísmico (c), com duas direções espaciais, que são chamadas de inline (direção das linhas sísmicas) e crossline (direção perpendicular às linhas sísmicas), além de uma direção temporal.
-# sent_id = 154-20140916-MONOGRAFIA_0-86
+# sent_id = 154-20140916-MONOGRAFIA_0-85
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2.9	2.9	NUM	_	NumType=Card	4	nsubj	_	_
@@ -3020,18 +3018,18 @@
 67	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 2.9:
-# sent_id = 154-20140916-MONOGRAFIA_0-87
+# sent_id = 154-20140916-MONOGRAFIA_0-86
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2.9:	2.9:	PUNCT	_	_	1	punct	_	_
 
 # text = Dados sísmicos.
-# sent_id = 154-20140916-MONOGRAFIA_0-88
+# sent_id = 154-20140916-MONOGRAFIA_0-87
 1	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	sísmicos	sísmico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Traço sísmico (a).
-# sent_id = 154-20140916-MONOGRAFIA_0-89
+# sent_id = 154-20140916-MONOGRAFIA_0-88
 1	Traço	traço	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	sísmico	sísmico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3040,7 +3038,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Linha sísmica (b).
-# sent_id = 154-20140916-MONOGRAFIA_0-90
+# sent_id = 154-20140916-MONOGRAFIA_0-89
 1	Linha	linha	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	sísmica	sísmico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3049,7 +3047,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Volume sísmico (c) (MACHADO, 2008).
-# sent_id = 154-20140916-MONOGRAFIA_0-91
+# sent_id = 154-20140916-MONOGRAFIA_0-90
 1	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	sísmico	sísmico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3063,16 +3061,16 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.1.4
-# sent_id = 154-20140916-MONOGRAFIA_0-92
+# sent_id = 154-20140916-MONOGRAFIA_0-91
 1	2.1.	2.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	4	4	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Interpretação
-# sent_id = 154-20140916-MONOGRAFIA_0-93
+# sent_id = 154-20140916-MONOGRAFIA_0-92
 1	Interpretação	Interpretação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Na etapa de interpretação sísmica o intérprete, em geral um geólogo ou geofísico, analisa os dados sísmicos processados a fim de desenvolver um modelo geológico que represente a área onde foi realizado o levantamento.
-# sent_id = 154-20140916-MONOGRAFIA_0-94
+# sent_id = 154-20140916-MONOGRAFIA_0-93
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3114,7 +3112,7 @@
 38	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Para a indústria de petróleo, a interpretação sísmica visa identificar estruturas onde o óleo possa estar aprisionado em um reservatório.
-# sent_id = 154-20140916-MONOGRAFIA_0-95
+# sent_id = 154-20140916-MONOGRAFIA_0-94
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -3139,7 +3137,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A existência de um reservatório só é possível se o óleo, uma vez mais leve do que a água, esteja impedido de escapar.
-# sent_id = 154-20140916-MONOGRAFIA_0-96
+# sent_id = 154-20140916-MONOGRAFIA_0-95
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	existência	existência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -3170,7 +3168,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Para que isso ocorra é necessária à existência de uma camada de rochas impermeáveis, folhelho (rocha de granulação muito fina, formada pela compactação de argila ou silte) ou sal, formando assim uma trapa (armadilha).
-# sent_id = 154-20140916-MONOGRAFIA_0-97
+# sent_id = 154-20140916-MONOGRAFIA_0-96
 1	Para	para	SCONJ	_	_	4	mark	_	_
 2	que	que	SCONJ	_	_	4	mark	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -3219,7 +3217,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A interpretação sísmica pode ser classificada em dois tipos: estrutural e estratigráfica.
-# sent_id = 154-20140916-MONOGRAFIA_0-98
+# sent_id = 154-20140916-MONOGRAFIA_0-97
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	interpretação	interpretação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	sísmica	sísmico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3236,7 +3234,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A interpretação estrutural consiste principalmente em criar horizontes e determinar superfícies de falha.
-# sent_id = 154-20140916-MONOGRAFIA_0-99
+# sent_id = 154-20140916-MONOGRAFIA_0-98
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	interpretação	interpretação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	estrutural	estrutural	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3253,7 +3251,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Um horizonte sísmico ou refletor é uma superfície que separa duas camadas diferentes de rocha, onde tal superfície (mesmo sem ter sido identificada) está associada com uma reflexão que se estende por uma grande área (SHERIFF, 1991).
-# sent_id = 154-20140916-MONOGRAFIA_0-100
+# sent_id = 154-20140916-MONOGRAFIA_0-99
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	horizonte	horizonte	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	sísmico	sísmico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3261,7 +3259,7 @@
 5	refletor	refletor	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n
 9	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	10	nsubj	_	_
 10	separa	separar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 11	duas	dois	NUM	_	NumType=Card	12	nummod	_	_
@@ -3300,7 +3298,7 @@
 44	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A ocorrência de falhas, fraturas de rochas em subsuperfície causada por forças tectônicas, geram descontinuidades na estrutura das camadas tornando assim a criação de horizontes mais difícil.
-# sent_id = 154-20140916-MONOGRAFIA_0-101
+# sent_id = 154-20140916-MONOGRAFIA_0-100
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3337,7 +3335,7 @@
 32	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Quando ocorrem deslocamentos de camadas impermeáveis às falhas podem criar trapas estruturais onde o óleo é aprisionado, ou gerar vazamentos, ao romper a capa selante de uma trapa, por isso falhas são extremamente importantes na identificação de trapas de origem estrutural e possíveis reservatórios.
-# sent_id = 154-20140916-MONOGRAFIA_0-102
+# sent_id = 154-20140916-MONOGRAFIA_0-101
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	ocorrem	ocorr	VERB	_	Number=Plur|Person=3|VerbForm=Inf	10	advcl	_	_
 3	deslocamentos	deslocamento	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -3394,7 +3392,7 @@
 51	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = As falhas também podem atuar no sentido de gerar um selante, bloqueando o fluxo entre diferentes compartimentos de um reservatório ou podem agir como condutores, permitindo a comunicação entre diferentes compartimentos (PEDERSEN, 2005).
-# sent_id = 154-20140916-MONOGRAFIA_0-103
+# sent_id = 154-20140916-MONOGRAFIA_0-102
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	falhas	falha	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -3438,7 +3436,7 @@
 40	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A Figura 2.10 mostra onde uma falha gera um bom selante (a) devido à justaposição de camadas impermeáveis contra o reservatório e um mal selante (b) onde os fluidos podem migrar para fora do reservatório.
-# sent_id = 154-20140916-MONOGRAFIA_0-104
+# sent_id = 154-20140916-MONOGRAFIA_0-103
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2.10	2.10	NUM	_	NumType=Card	2	nummod	_	_
@@ -3484,17 +3482,41 @@
 41	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = (MACHADO, 2008).
+# text = Figura 2.10: Exemplos de falhas.
+# sent_id = 154-20140916-MONOGRAFIA_0-104
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	2.10	2.10	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Exemplos	exemplo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	falhas	falha	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Bom selante (a).
 # sent_id = 154-20140916-MONOGRAFIA_0-105
-1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	MACHADO	Machar	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	2008	2008	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+1	Bom	bom	ADP	_	_	2	case	_	_
+2	selante	selante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	appos:parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Mal selante (b) (MACHADO, 2008).
+# sent_id = 154-20140916-MONOGRAFIA_0-106
+1	Mal	mal	ADV	_	_	2	advmod	_	_
+2	selante	selante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	b	bado	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	MACHADO	Machar	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	2008	2008	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O outro tipo de interpretação sísmica, a estratigráfica visa entender a maneira como as camadas foram se formando ao longo do tempo.
-# sent_id = 154-20140916-MONOGRAFIA_0-106
+# sent_id = 154-20140916-MONOGRAFIA_0-107
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -3522,10 +3544,10 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = O resultado da interpretação sísmica depende de uma série de fatores, como por exemplo, a experiência do intérprete, a qualidade dos dados sísmicos, a complexidade do sistema geológico e etc., embora o rastreamento de horizontes já seja feito de forma automática, a interpretação tridimensional de falhas permanece como uma tarefa manual.
-# sent_id = 154-20140916-MONOGRAFIA_0-107
+# sent_id = 154-20140916-MONOGRAFIA_0-108
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3594,16 +3616,16 @@
 62	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 2.2 Atributos
-# sent_id = 154-20140916-MONOGRAFIA_0-108
+# sent_id = 154-20140916-MONOGRAFIA_0-109
 1	2.2	2.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Sísmicos
-# sent_id = 154-20140916-MONOGRAFIA_0-109
+# sent_id = 154-20140916-MONOGRAFIA_0-110
 1	Sísmicos	sísmico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Atributos sísmicos são todas as informações obtidas de um dado sísmico capazes de revelar de forma mais clara as informações geológicas contida nos sinais sísmicos, seja através de medidas diretas, por lógica (operações matemáticas) ou experimentalmente.
-# sent_id = 154-20140916-MONOGRAFIA_0-110
+# sent_id = 154-20140916-MONOGRAFIA_0-111
 1	Atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 2	sísmicos	sísmico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -3649,7 +3671,7 @@
 42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Existem vários tipos de atributos: pré-empilhados, inversão, velocidade, horizonte, multi-componente e outros, cada um com sua funcionalidade.
-# sent_id = 154-20140916-MONOGRAFIA_0-111
+# sent_id = 154-20140916-MONOGRAFIA_0-112
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -3676,7 +3698,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Por exemplo, para um determinado material geofísico existe um atributo que melhor o identifica, outro para identificar falhas geológicas ou indicadores de hidrocarbonetos e assim por diante, ou seja, dependendo do tipo de análise em questão, deve-se escolher o tipo adequado de atributo (MATOS, 2004).
-# sent_id = 154-20140916-MONOGRAFIA_0-112
+# sent_id = 154-20140916-MONOGRAFIA_0-113
 1	Por	por	ADP	_	_	9	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -3737,7 +3759,7 @@
 56	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Atributos também são usados como filtros para revelar tendências, padrões ou combinado para predizer as características sísmicas.
-# sent_id = 154-20140916-MONOGRAFIA_0-113
+# sent_id = 154-20140916-MONOGRAFIA_0-114
 1	Atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 2	também	também	ADV	_	_	4	advmod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3759,7 +3781,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os atributos utilizados como indicadores de falha partem da suposição de que os horizontes sísmicos podem ser modelados como localmente planares e que as falhas geram perturbações nesse modelo (MACHADO, 2008).
-# sent_id = 154-20140916-MONOGRAFIA_0-114
+# sent_id = 154-20140916-MONOGRAFIA_0-115
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -3801,7 +3823,7 @@
 37	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Utilizam-se técnicas de reconhecimento de padrões e combinações de atributos sísmicos para realizar a análise das características sísmicas e buscar a identificação de características geológicas dos reservatórios.
-# sent_id = 154-20140916-MONOGRAFIA_0-115
+# sent_id = 154-20140916-MONOGRAFIA_0-116
 1-2	Utilizam-se	_	_	_	_	_	_	_	_
 1	Utilizam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -3838,7 +3860,7 @@
 31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O principal objetivo dos atributos sísmicos é ajudar o intérprete a gerar um modelo geológico de uma determinada área sísmica.
-# sent_id = 154-20140916-MONOGRAFIA_0-116
+# sent_id = 154-20140916-MONOGRAFIA_0-117
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -3864,7 +3886,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Quanto mais detalhado for o modelo geológico feito pelo intérprete maior será o índice de sucesso na exploração da área em questão.
-# sent_id = 154-20140916-MONOGRAFIA_0-117
+# sent_id = 154-20140916-MONOGRAFIA_0-118
 1	Quanto	quanto	ADV	_	_	3	advmod	_	_
 2	mais	mais	ADV	_	_	3	advmod	_	_
 3	detalhado	detalhado	ADJ	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -3896,7 +3918,7 @@
 26	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = A Figura 2.11 mostra os atributos sísmicos e suas respectivas configurações de parâmetros para a Rede Neural utilizados nos trabalhos sobre detecção semiautomática de falha em dados sísmicos 3D (TINGDAHL, ROOIJ, 2005).
-# sent_id = 154-20140916-MONOGRAFIA_0-118
+# sent_id = 154-20140916-MONOGRAFIA_0-119
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2.11	2.11	NUM	_	NumType=Card	4	nummod	_	_
@@ -3938,8 +3960,8 @@
 38	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A Figura 2.12 (a) e (b) demostram dados sintéticos com falhas e os atributos da Figura 2.11 calculados ao longo da linha branca.
-# sent_id = 154-20140916-MONOGRAFIA_0-119
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+# sent_id = 154-20140916-MONOGRAFIA_0-120
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\n
 2	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	2.12	2.12	NUM	_	NumType=Card	2	nummod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -3975,7 +3997,7 @@
 31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 2.11: Atributos e as configurações dos parâmetros da Rede Neural (TINGDAHL, ROOIJ, 2005).
-# sent_id = 154-20140916-MONOGRAFIA_0-120
+# sent_id = 154-20140916-MONOGRAFIA_0-121
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	2.11	2.11	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -4002,7 +4024,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 2.12: Dados sintéticos com falhas e os atributos calculados ao longo da linha branca (TINGDAHL, ROOIJ, 2005).
-# sent_id = 154-20140916-MONOGRAFIA_0-121
+# sent_id = 154-20140916-MONOGRAFIA_0-122
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	2.12	2.12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -4033,7 +4055,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A seguir é feita uma breve apresentação de alguns atributos sísmicos citados na literatura como indicadores de falha.
-# sent_id = 154-20140916-MONOGRAFIA_0-122
+# sent_id = 154-20140916-MONOGRAFIA_0-123
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4054,18 +4076,18 @@
 17	indicadores	indicador	NOUN	_	Gender=Masc|Number=Plur	12	xcomp	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	falha	falha	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 2.2.1
-# sent_id = 154-20140916-MONOGRAFIA_0-123
+# sent_id = 154-20140916-MONOGRAFIA_0-124
 1	2.2.1	2.2.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Energia
-# sent_id = 154-20140916-MONOGRAFIA_0-124
+# sent_id = 154-20140916-MONOGRAFIA_0-125
 1	Energia	Energia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O atributo de energia pode ser enunciado pela Equação 2.1 (TINGDAHL, ROOIJ, 2005): (2.1) onde, f representa a amplitude do traço, t0 o limite superior da janela, N o número de amostras na janela e dt o intervalo amostral.
-# sent_id = 154-20140916-MONOGRAFIA_0-125
+# sent_id = 154-20140916-MONOGRAFIA_0-126
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4126,7 +4148,7 @@
 54	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Desta forma, o atributo de energia pode ser definido como o quadrado da soma da amplitude dentro de uma janela (gate) ao redor da amostra de investigação.
-# sent_id = 154-20140916-MONOGRAFIA_0-126
+# sent_id = 154-20140916-MONOGRAFIA_0-127
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4170,17 +4192,17 @@
 36	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 2.2.2
-# sent_id = 154-20140916-MONOGRAFIA_0-127
+# sent_id = 154-20140916-MONOGRAFIA_0-128
 1	2.2	2.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Energia Vertical
-# sent_id = 154-20140916-MONOGRAFIA_0-128
+# sent_id = 154-20140916-MONOGRAFIA_0-129
 1	Energia	Energia	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Vertical	Vertical	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O atributo de energia vertical combina o cálculo da média quadrática em uma janela deslizante sobre cada traço, com um processo de afinamento da imagem em cada fatia de tempo constante (MACHADO et al., 2006a; 2006b).
-# sent_id = 154-20140916-MONOGRAFIA_0-129
+# sent_id = 154-20140916-MONOGRAFIA_0-130
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4229,7 +4251,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A média quadrática ignora as oscilações do sinal da amplitude sísmica além de reforçar o efeito de diminuição de valores de amplitude, enquanto o afinamento preserva os pontos com valores mínimos de média quadrática ao longo de estruturas em forma de linha, funcionando assim como uma restrição geométrica sobre os dados sísmicos, uma vez que, falhas usualmente geram superfícies verticais; tais superfícies, quando vistas em fatias de tempo constante, geram linhas com baixos valores de média quadrática de amplitude sísmica.
-# sent_id = 154-20140916-MONOGRAFIA_0-130
+# sent_id = 154-20140916-MONOGRAFIA_0-131
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	média	média	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	quadrática	quadrático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4326,15 +4348,15 @@
 91	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 2.2.3
-# sent_id = 154-20140916-MONOGRAFIA_0-131
+# sent_id = 154-20140916-MONOGRAFIA_0-132
 1	2.2.3	2.2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Similaridade
-# sent_id = 154-20140916-MONOGRAFIA_0-132
+# sent_id = 154-20140916-MONOGRAFIA_0-133
 1	Similaridade	Similaridade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O atributo de similaridade pode ser enunciado pela expressão mostrada na Equação 2.2 e os respectivos valores para os vetores v e u (TINGDAHL, ROOIJ, 2005).
-# sent_id = 154-20140916-MONOGRAFIA_0-133
+# sent_id = 154-20140916-MONOGRAFIA_0-134
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4372,12 +4394,12 @@
 33	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = (2.2) (2.3) onde t representa o intervalo de tempo considerado, dt o intervalo amostral, t1 e t2 os limites do tempo da janela, (xv, yv) e (xu, yu) as duas posições de traço que serão comparadas, e f é o valor de amplitude no cubo.
-# sent_id = 154-20140916-MONOGRAFIA_0-134
+# sent_id = 154-20140916-MONOGRAFIA_0-135
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	2.2)	2.2)	NUM	_	NumType=Card	41	nsubj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	2.3	2.3	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	4	punct	_	_
+5	)	)	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 6	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	8	obl	_	_
 7	t	t	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 8	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
@@ -4440,7 +4462,7 @@
 62	.	.	PUNCT	_	_	41	punct	_	SpacesAfter=\n
 
 # text = Sendo assim, o atributo de similaridade pode ser definido como a distância no hiperespaço entre os vetores dos segmentos, normalizados à soma dos comprimentos dos vetores, sendo calculado entre dois traços sísmicos.
-# sent_id = 154-20140916-MONOGRAFIA_0-135
+# sent_id = 154-20140916-MONOGRAFIA_0-136
 1	Sendo	ser	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -4489,15 +4511,15 @@
 41	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 2.2.4
-# sent_id = 154-20140916-MONOGRAFIA_0-136
+# sent_id = 154-20140916-MONOGRAFIA_0-137
 1	2.2.4	2.2.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Correlograma
-# sent_id = 154-20140916-MONOGRAFIA_0-137
+# sent_id = 154-20140916-MONOGRAFIA_0-138
 1	Correlograma	Correlograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O método proposto neste trabalho é buscar o reconhecimento de falhas geológicas através da análise de sua textura, logo, é interessante investigar métodos de representação que possam analisar e extrair informações das mesmas.
-# sent_id = 154-20140916-MONOGRAFIA_0-138
+# sent_id = 154-20140916-MONOGRAFIA_0-139
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4542,7 +4564,7 @@
 39	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Estas propriedades, chamadas características, são elementos que fazem a distinção entre classes de objetos (NADLER, SMITH, 1993).
-# sent_id = 154-20140916-MONOGRAFIA_0-139
+# sent_id = 154-20140916-MONOGRAFIA_0-140
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -4569,7 +4591,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = No contexto da estatística, a textura pode ser descrita em termos dos dois componentes principais associados a pixels (ou outra unidade): variabilidade e autocorrelação espacial.
-# sent_id = 154-20140916-MONOGRAFIA_0-140
+# sent_id = 154-20140916-MONOGRAFIA_0-141
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4608,7 +4630,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Sendo assim, utilizaremos a medida geoestatística correlograma, e uma combinação dela com outros atributos sísmicos já existentes na literatura a fim de extrair características para identificar e sugerir possíveis regiões de falhas no dado sísmico.
-# sent_id = 154-20140916-MONOGRAFIA_0-141
+# sent_id = 154-20140916-MONOGRAFIA_0-142
 1	Sendo	ser	VERB	_	VerbForm=Ger	4	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -4655,7 +4677,7 @@
 41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O conceito de geoestatística surgiu em 1951 e pode ser definida como sendo a estatística sobre uma população com endereço conhecido (KRIGE, 1951).
-# sent_id = 154-20140916-MONOGRAFIA_0-142
+# sent_id = 154-20140916-MONOGRAFIA_0-143
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conceito	conceito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4685,7 +4707,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O correlograma, assim como outras funções geoestatísticas tem como principal característica descrever a continuidade espacial entre um conjunto de pares de pontos de uma amostra em função de uma distância e uma direção.
-# sent_id = 154-20140916-MONOGRAFIA_0-143
+# sent_id = 154-20140916-MONOGRAFIA_0-144
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	correlograma	correlograma	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -4723,7 +4745,7 @@
 35	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Esta continuidade é importante, pois determina o relacionamento entre os pontos da amostra, quanto maior a proximidade menor será sua similaridade (ISAACS, SRIVASTAVA, 1990).
-# sent_id = 154-20140916-MONOGRAFIA_0-144
+# sent_id = 154-20140916-MONOGRAFIA_0-145
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4759,7 +4781,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As funções geoestatísticas são aplicadas em diversas áreas, tais como:
-# sent_id = 154-20140916-MONOGRAFIA_0-145
+# sent_id = 154-20140916-MONOGRAFIA_0-146
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	funções	função	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	geoestatísticas	geoestatístico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4774,7 +4796,7 @@
 12	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = Ciências da Terra, Sensoriamento Remoto, Processamento de Imagens, etc.
-# sent_id = 154-20140916-MONOGRAFIA_0-146
+# sent_id = 154-20140916-MONOGRAFIA_0-147
 1	Ciências	ciência	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4792,7 +4814,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A função correlograma ou função de correlação é a relação do coeficiente de correlação de um diagrama de dispersão e uma distância h.
-# sent_id = 154-20140916-MONOGRAFIA_0-147
+# sent_id = 154-20140916-MONOGRAFIA_0-148
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	função	função	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	correlograma	correlogramo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4821,10 +4843,10 @@
 25	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Podendo ser definida como sendo a versão normalizada da função de covariância, onde os coeficientes de correlação estão na faixa de –1 a 1.
-# sent_id = 154-20140916-MONOGRAFIA_0-148
+# sent_id = 154-20140916-MONOGRAFIA_0-149
 1	Podendo	poder	VERB	_	VerbForm=Ger	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
-3	definida	definir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+3	definida	definir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	SpacesAfter=\s\n
 4	como	como	SCONJ	_	_	7	mark	_	_
 5	sendo	ser	AUX	_	VerbForm=Ger	7	cop	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -4853,7 +4875,7 @@
 27	1.	1	NUM	_	NumType=Card	23	nmod	_	SpacesAfter=\n
 
 # text = Um diagrama de dispersão representa todas as possíveis combinações dos pares de valores cuja localização é separada por uma distância e certa direção.
-# sent_id = 154-20140916-MONOGRAFIA_0-149
+# sent_id = 154-20140916-MONOGRAFIA_0-150
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	diagrama	diagrama	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4882,7 +4904,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O correlograma apresenta valores altos para distâncias pequenas, sendo que os mesmos tendem a decrescer à medida que a distância aumenta, ou seja, espera-se que a correlação seja alta para unidades que estão próximas umas das outras (correlação igual a 1 para distância zero) e que tenda a zero quando a distância entre as unidade aumenta.
-# sent_id = 154-20140916-MONOGRAFIA_0-150
+# sent_id = 154-20140916-MONOGRAFIA_0-151
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	correlograma	correlograma	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4953,7 +4975,7 @@
 65	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A Figura 2.13 (a) ilustra um exemplo de amostras correlacionadas, enquanto a Figura 2.13 (b) mostra um exemplo de amostras não-correlacionadas (ALMEIDA, 2010).
-# sent_id = 154-20140916-MONOGRAFIA_0-151
+# sent_id = 154-20140916-MONOGRAFIA_0-152
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	2.13	2.13	NUM	_	NumType=Card	2	nummod	_	_
@@ -4988,13 +5010,13 @@
 32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 2.13:
-# sent_id = 154-20140916-MONOGRAFIA_0-152
+# sent_id = 154-20140916-MONOGRAFIA_0-153
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2.13	2.13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Amostras correlacionadas (a) e amostras não-correlacionadas (b) (ALMEIDA, 2010).
-# sent_id = 154-20140916-MONOGRAFIA_0-153
+# sent_id = 154-20140916-MONOGRAFIA_0-154
 1	Amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	correlacionadas	correlacionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5014,7 +5036,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O correlograma é definido pela Equação 2.4: (2.4) onde C(h) é a correlação, definida por: (2.5) -h é o desvio padrão dos valores das origens dos vetores e o seu valor é mostrado na Equação 2.6: (2.6) e +h é o desvio padrão dos valores das extremidades dos vetores, cujo seu valor é mostrado na Equação 2.7: (2.7) 2.3
-# sent_id = 154-20140916-MONOGRAFIA_0-154
+# sent_id = 154-20140916-MONOGRAFIA_0-155
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	correlograma	correlograma	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -5102,14 +5124,14 @@
 76	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
 77	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	74	obl	_	_
 78	2.7	2.7	NUM	_	NumType=Card	77	nummod	_	SpaceAfter=No
-79	:	:	PUNCT	_	_	4	punct	_	_
+79	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 80	(	(	PUNCT	_	_	81	punct	_	SpaceAfter=No
 81	2.7	2.7	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
 82	)	)	PUNCT	_	_	81	punct	_	_
 83	2.3	2.3	NUM	_	NumType=Card	4	nummod	_	_
 
 # text = Máquina de Vetores de Suporte Máquina de Vetores de Suporte (Support Vector Machines - SVM) são técnicas de Aprendizado de Máquina (AM) embasadas na Teoria de Aprendizado Estatístico (VAPNIK, 1995), que vem recebendo grande atenção nos últimos anos.
-# sent_id = 154-20140916-MONOGRAFIA_0-155
+# sent_id = 154-20140916-MONOGRAFIA_0-156
 1	Máquina	máquina	PROPN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Vetores	Vetores	PROPN	_	Number=Sing	1	nmod	_	_
@@ -5163,7 +5185,7 @@
 49	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = As SVMs vêm sendo utilizadas em diversas tarefas de reconhecimento de padrões, obtendo resultados superiores aos alcançados por técnicas similares em várias aplicações.
-# sent_id = 154-20140916-MONOGRAFIA_0-156
+# sent_id = 154-20140916-MONOGRAFIA_0-157
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	SVMs	Svms	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	vêm	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5193,7 +5215,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Aprendizado de Máquina (AM) é um campo de pesquisa da Inteligência Computacional que estuda o desenvolvimento de métodos capazes de extrair conceitos (conhecimento) a partir de amostras de dados (MITCHELL, 1997).
-# sent_id = 154-20140916-MONOGRAFIA_0-157
+# sent_id = 154-20140916-MONOGRAFIA_0-158
 1	Aprendizado	Aprendizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Máquina	máquina	PROPN	_	Gender=Fem|Number=Sing	1	obl	_	_
@@ -5237,7 +5259,7 @@
 40	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Em geral, os diversos algoritmos de AM são utilizados de forma a gerar classificadores para um conjunto de exemplos.
-# sent_id = 154-20140916-MONOGRAFIA_0-158
+# sent_id = 154-20140916-MONOGRAFIA_0-159
 1	Em	em	ADP	_	_	2	case	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5261,7 +5283,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Por classificação entende-se o processo de atribuir, a uma determinada informação, o rótulo da classe a qual ela pertence (RUSSEL, NORVIG, 1995).
-# sent_id = 154-20140916-MONOGRAFIA_0-159
+# sent_id = 154-20140916-MONOGRAFIA_0-160
 1	Por	por	ADP	_	_	2	case	_	_
 2	classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 3-4	entende-se	_	_	_	_	_	_	_	_
@@ -5297,7 +5319,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Portanto, as técnicas de AM são empregadas na indução (a partir de um conjunto de treinamento) de um classificador, que deve ser capaz (idealmente) de prever a classe de instâncias quaisquer do domínio em que ele foi treinado.
-# sent_id = 154-20140916-MONOGRAFIA_0-160
+# sent_id = 154-20140916-MONOGRAFIA_0-161
 1	Portanto	portanto	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -5349,7 +5371,7 @@
 47	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Três paradigmas podem ser utilizados na geração de um preditor por meio de técnicas de AM: aprendizado supervisionado, aprendizado não-supervisionado e por reforço (HAYKIN, 1999).
-# sent_id = 154-20140916-MONOGRAFIA_0-161
+# sent_id = 154-20140916-MONOGRAFIA_0-162
 1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
 2	paradigmas	paradigma	NOUN	_	Gender=Fem|Number=Plur	3	nsubj:pass	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5385,7 +5407,7 @@
 32	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A escolha de um paradigma de aprendizado determina a maneira como o algoritmo de AM se relaciona com seu meio ambiente, ou seja, o modo como ocorrerá o seu aprendizado por meio de um conjunto de dados.
-# sent_id = 154-20140916-MONOGRAFIA_0-162
+# sent_id = 154-20140916-MONOGRAFIA_0-163
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -5428,7 +5450,7 @@
 40	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A Tabela 2.2 apresenta os três paradigmas de AM, seus conceitos e exemplos de algoritmos que as utilizam.
-# sent_id = 154-20140916-MONOGRAFIA_0-163
+# sent_id = 154-20140916-MONOGRAFIA_0-164
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2.2	2.2	NUM	_	NumType=Card	4	nummod	_	_
@@ -5448,16 +5470,16 @@
 17	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	19	nsubj	_	_
 18	as	elas	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
 19	utilizam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 2.2:
-# sent_id = 154-20140916-MONOGRAFIA_0-164
+# sent_id = 154-20140916-MONOGRAFIA_0-165
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2.2	2.2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Paradigmas de Aprendizado de Máquina.
-# sent_id = 154-20140916-MONOGRAFIA_0-165
+# sent_id = 154-20140916-MONOGRAFIA_0-166
 1	Paradigmas	Paradigmas	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Aprendizado	Aprendizado	PROPN	_	Number=Sing	1	nmod	_	_
@@ -5466,7 +5488,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Este trabalho foca a utilização das SVMs em tarefas de classificação por meio de treinamento supervisionado, algumas das principais características das SVMs que tornam seu uso atrativo são (SMOLA et al., 1999b):  Boa capacidade de generalização: os classificadores gerados por uma SVM em geral alcançam bons resultados de generalização.
-# sent_id = 154-20140916-MONOGRAFIA_0-166
+# sent_id = 154-20140916-MONOGRAFIA_0-167
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	foca	focar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5532,7 +5554,7 @@
 60	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A capacidade de generalização de um classificador é medida por sua eficiência na classificação de dados que não pertençam ao conjunto utilizado em seu treinamento.
-# sent_id = 154-20140916-MONOGRAFIA_0-167
+# sent_id = 154-20140916-MONOGRAFIA_0-168
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5565,7 +5587,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text =  Robustez em grandes dimensões: as SVMs são robustas diante de objetos de grandes dimensões, como, por exemplo, dados sísmicos.
-# sent_id = 154-20140916-MONOGRAFIA_0-168
+# sent_id = 154-20140916-MONOGRAFIA_0-169
 1			PROPN	_	Number=Sing	10	parataxis	_	_
 2	Robustez	Robustez	PROPN	_	Number=Sing	1	flat:name	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -5593,7 +5615,7 @@
 25	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text =  Convexidade da função objetivo: a aplicação das SVMs implica na otimização de uma função quadrática, que possui apenas um mínimo global.
-# sent_id = 154-20140916-MONOGRAFIA_0-169
+# sent_id = 154-20140916-MONOGRAFIA_0-170
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Convexidade	Convexidade	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5624,10 +5646,10 @@
 25	um	um	NUM	_	NumType=Card	26	nummod	_	_
 26	mínimo	mínimo	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
 27	global	global	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text =  Teoria bem definida: as
-# sent_id = 154-20140916-MONOGRAFIA_0-170
+# sent_id = 154-20140916-MONOGRAFIA_0-171
 1			PROPN	_	Number=Sing	6	parataxis	_	_
 2	Teoria	Teoria	PROPN	_	Gender=Fem|Number=Sing	1	flat:name	_	_
 3	bem	bem	ADV	_	_	4	advmod	_	_
@@ -5636,7 +5658,7 @@
 6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	0	root	_	_
 
 # text = SVMs possuem uma base teórica bem estabelecida dentro da Matemática e Estatística.
-# sent_id = 154-20140916-MONOGRAFIA_0-171
+# sent_id = 154-20140916-MONOGRAFIA_0-172
 1	SVMs	SVM	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
 2	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5654,7 +5676,7 @@
 14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Com a utilização do algoritmo supervisionado, assume-se a existência de um conjunto de amostras de padrões cujas classes são conhecidas, conforme: (2.8) onde, Xi representa a i-ésima observação ou padrão, Ki representa a classe, ou rótulo, do padrão acima, e m representa o número de amostras disponíveis.
-# sent_id = 154-20140916-MONOGRAFIA_0-172
+# sent_id = 154-20140916-MONOGRAFIA_0-173
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -5721,7 +5743,7 @@
 61	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O algoritmo gera um preditor ou classificador, capaz de predizer precisamente o rótulo de novos dados, esse processo de indução é denominado treinamento (LORENA, CARVALHO, 2002).
-# sent_id = 154-20140916-MONOGRAFIA_0-173
+# sent_id = 154-20140916-MONOGRAFIA_0-174
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	algoritmo	algoritmo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	gera	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5757,7 +5779,7 @@
 33	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O objetivo do SVM é produzir um classificador que consiga separar os dados de treinamento de forma a efetivamente maximizar a generalização do classificador obtido, ou seja, apresente um bom desempenho junto a amostras não observadas durante o treinamento.
-# sent_id = 154-20140916-MONOGRAFIA_0-174
+# sent_id = 154-20140916-MONOGRAFIA_0-175
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5806,7 +5828,7 @@
 44	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A Figura 2.14 mostra o classificador linear denominado hiperplano ótimo (em vermelho), dentre os vários classificadores lineares possíveis que podem separar as amostras disponíveis sem nenhum erro, somente o hiperplano maximiza a distância entre o classificador e a amostra mais próxima de cada classe e espera-se que ele generalize melhor que os demais classificadores a classificação das amostras não utilizadas durante a fase de treinamento.
-# sent_id = 154-20140916-MONOGRAFIA_0-175
+# sent_id = 154-20140916-MONOGRAFIA_0-176
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2.14	2.14	NUM	_	NumType=Card	2	nummod	_	_
@@ -5883,7 +5905,7 @@
 72	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 2.14: Hiperplano ótimo, margem de separação e vetores-suporte (ALMEIDA, 2007).
-# sent_id = 154-20140916-MONOGRAFIA_0-176
+# sent_id = 154-20140916-MONOGRAFIA_0-177
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2.14	2.14	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5903,7 +5925,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O SVM busca um compromisso entre a minimização do erro de treinamento e a complexidade da função escolhida para separação dos dados em classes.
-# sent_id = 154-20140916-MONOGRAFIA_0-177
+# sent_id = 154-20140916-MONOGRAFIA_0-178
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	SVM	SVM	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5937,8 +5959,8 @@
 28	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Essas condições são alcançadas através do controle da dimensão de Vapnik-Chervonenkis (dimensão VC) do conjunto de funções do qual o classificador deve ser extraído.
-# sent_id = 154-20140916-MONOGRAFIA_0-178
-1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+# sent_id = 154-20140916-MONOGRAFIA_0-179
+1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	SpacesAfter=\s\n
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	alcançadas	alcançar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5975,7 +5997,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A dimensão VC mede a complexidade das hipóteses examinadas pelo algoritmo na busca por uma solução.
-# sent_id = 154-20140916-MONOGRAFIA_0-179
+# sent_id = 154-20140916-MONOGRAFIA_0-180
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	dimensão	dimensão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	VC	VC	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -6000,9 +6022,9 @@
 19	solução	solução	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Considerando um conjunto de treinamento de pares de rótulo (valor objetivo): (2.9) de treinamento e a fronteira de decisão induzida para separação das classes, tem como objetivo encontrar um hiperplano tal que a distância dos vetores-suporte seja maximizada.
-# sent_id = 154-20140916-MONOGRAFIA_0-180
-1	Considerando	considerar	VERB	_	VerbForm=Ger	32	advcl	_	_
+# text = Considerando um conjunto de treinamento de pares de rótulo (valor objetivo): (2.9) onde xi ∈
+# sent_id = 154-20140916-MONOGRAFIA_0-181
+1	Considerando	considerar	VERB	_	VerbForm=Ger	0	root	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 4	de	de	ADP	_	_	5	case	_	_
@@ -6017,43 +6039,73 @@
 13	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	1	punct	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	2.9	2.9	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
+16	2.9	2.9	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	16	punct	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-20	e	e	CCONJ	_	_	22	cc	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	fronteira	fronteira	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-25	induzida	induzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
-26	para	para	ADP	_	_	27	case	_	_
-27	separação	separação	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
-28-29	das	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-30	classes	classes	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	25	punct	_	_
-32	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-33	como	como	ADP	_	_	34	case	_	_
-34	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	32	xcomp	_	_
-35	encontrar	encontrar	VERB	_	VerbForm=Inf	34	acl	_	_
-36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	hiperplano	hiperplano	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
-38	tal	tal	ADV	_	_	46	mark	_	_
-39	que	que	SCONJ	_	_	38	fixed	_	_
-40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	distância	distância	NOUN	_	Gender=Fem|Number=Sing	46	nsubj:pass	_	_
-42-43	dos	_	_	_	_	_	_	_	_
-42	de	de	ADP	_	_	44	case	_	_
-43	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
-44	vetores-suporte	vetores-suporte	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
-45	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux:pass	_	_
-46	maximizada	maximizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	35	advcl	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	32	punct	_	_
+18	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	19	obl	_	_
+19	xi	xir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+20	∈	∈	SYM	_	_	19	obj	_	_
+
+# text = Rn e yi ∈ {1, −1}.
+# sent_id = 154-20140916-MONOGRAFIA_0-182
+1	Rn	Rn	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	yi	yir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	∈	∈	SYM	_	_	3	obj	_	_
+5	{	{	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	1	1	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	−1	−1	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	SpaceAfter=No
+9	}	}	PUNCT	_	_	1	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = A maximização da margem de separação entre os dados de treinamento e a fronteira de decisão induzida para separação das classes, tem como objetivo encontrar um hiperplano tal que a distância dos vetores-suporte seja maximizada.
+# sent_id = 154-20140916-MONOGRAFIA_0-183
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	maximização	maximização	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	margem	margem	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	separação	separação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	entre	entre	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	dados	dado	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fronteira	fronteira	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	induzida	induzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	separação	separação	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	classes	classes	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	2	punct	_	_
+25	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	como	como	ADP	_	_	27	case	_	_
+27	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	25	xcomp	_	_
+28	encontrar	encontrar	VERB	_	VerbForm=Inf	27	acl	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	hiperplano	hiperplano	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31	tal	tal	ADV	_	_	39	mark	_	_
+32	que	que	SCONJ	_	_	31	fixed	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	distância	distância	NOUN	_	Gender=Fem|Number=Sing	39	nsubj:pass	_	_
+35-36	dos	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	vetores-suporte	vetores-suporte	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+38	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
+39	maximizada	maximizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	28	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Na Equação 2.9 para cada ponto x no espaço de entrada é mapeado para o espaço de característica, onde os dados são linearmente separados por um hiperplano, definido pelo ponto z = Φ(x) de alta dimensionalidade.
-# sent_id = 154-20140916-MONOGRAFIA_0-181
+# sent_id = 154-20140916-MONOGRAFIA_0-184
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6102,7 +6154,7 @@
 43	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Uma forma mais simples que o do mapeamento Φ, de se escrever as função de decisão é utilizando as funções Kernel, isso ocorre de maneira geral, pois em grande parte dos casos, Φ assume formas bastante complexas.
-# sent_id = 154-20140916-MONOGRAFIA_0-182
+# sent_id = 154-20140916-MONOGRAFIA_0-185
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -6151,7 +6203,7 @@
 44	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Um Kernel K é uma função que recebe dois pontos xi e xj do espaço de entradas e computa o produto escalar Φ(x)·Φ(xi) no espaço de características, como descrito em: (2.10)
-# sent_id = 154-20140916-MONOGRAFIA_0-183
+# sent_id = 154-20140916-MONOGRAFIA_0-186
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Kernel	Kernel	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	K	k	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -6197,7 +6249,7 @@
 41	)	)	PUNCT	_	_	40	punct	_	_
 
 # text = Sendo assim, a função de decisão é definida pela Equação 2.11: (2.11) onde k(x, xi) é definido pela Equação 2.10, e coeficientes αi e b, são soluções das equações: (2.12) sujeito a: (2.13) onde w representa o vetor de pontos perpendicular no hiperplano de separação, C > 0 é um parâmetro escolhido pelo usuário que corresponde a penalidade do erro e os ξi’s são variáveis de folga que penalizam os erros de treinamento.
-# sent_id = 154-20140916-MONOGRAFIA_0-184
+# sent_id = 154-20140916-MONOGRAFIA_0-187
 1	Sendo	ser	VERB	_	VerbForm=Ger	9	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -6301,10 +6353,10 @@
 95	erros	erro	NOUN	_	Gender=Masc|Number=Plur	93	obj	_	_
 96	de	de	ADP	_	_	97	case	_	_
 97	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	95	nmod	_	SpaceAfter=No
-98	.	.	PUNCT	_	_	89	punct	_	SpacesAfter=\n
+98	.	.	PUNCT	_	_	89	punct	_	SpacesAfter=\n\n
 
 # text = A utilidade dos Kernels está, portanto, na simplicidade de cálculo e na capacidade de representar espaços muito abstratos.
-# sent_id = 154-20140916-MONOGRAFIA_0-185
+# sent_id = 154-20140916-MONOGRAFIA_0-188
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilidade	utilidade	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6334,7 +6386,7 @@
 24	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Alguns dos Kernels mais utilizados são os polinomiais, os Gaussianos ou RBF (Radial-Basis Function) e os Sigmoidais, apresentados na Tabela 2.3.
-# sent_id = 154-20140916-MONOGRAFIA_0-186
+# sent_id = 154-20140916-MONOGRAFIA_0-189
 1	Alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6367,7 +6419,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Tabela 2.3: Principais Kernels utilizados nas SVMs.
-# sent_id = 154-20140916-MONOGRAFIA_0-187
+# sent_id = 154-20140916-MONOGRAFIA_0-190
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2.3:	2.3:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Principais	principais	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6380,7 +6432,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Adaptado de (HAYKIN, 1999).
-# sent_id = 154-20140916-MONOGRAFIA_0-188
+# sent_id = 154-20140916-MONOGRAFIA_0-191
 1	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6391,7 +6443,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A obtenção de um classificador por meio do uso de SVMs envolve a escolha de uma função Kernel, além de parâmetros desta função.
-# sent_id = 154-20140916-MONOGRAFIA_0-189
+# sent_id = 154-20140916-MONOGRAFIA_0-192
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -6423,7 +6475,7 @@
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A escolha do Kernel e dos parâmetros considerados tem efeito no desempenho do classificador obtido (MULLER et al., 2001), pois eles definem a fronteira de decisão induzida.
-# sent_id = 154-20140916-MONOGRAFIA_0-190
+# sent_id = 154-20140916-MONOGRAFIA_0-193
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6466,7 +6518,7 @@
 36	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Há uma grande variedade de implementações de SVMs disponíveis para uso não comercial, como por exemplo: SMO, SVMlight, mySVM, LIBSVM, SVMtoolbox para Matlab e SVMTorch.
-# sent_id = 154-20140916-MONOGRAFIA_0-191
+# sent_id = 154-20140916-MONOGRAFIA_0-194
 1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	grande	grande	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -6501,7 +6553,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No presente trabalho foi utilizado o LIBSVM, uma biblioteca de funções para SVMs.
-# sent_id = 154-20140916-MONOGRAFIA_0-192
+# sent_id = 154-20140916-MONOGRAFIA_0-195
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6521,7 +6573,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Possui fontes em C++ e Java e interface para Matlab.
-# sent_id = 154-20140916-MONOGRAFIA_0-193
+# sent_id = 154-20140916-MONOGRAFIA_0-196
 1	Possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -6535,7 +6587,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As implementações são baseadas nas ferramentas SMO e SVMlight e é utilizado principalmente em problemas de classificação multiclasses e regressão.
-# sent_id = 154-20140916-MONOGRAFIA_0-194
+# sent_id = 154-20140916-MONOGRAFIA_0-197
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	implementações	implementação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6561,7 +6613,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Com o LIBSVM foi utilizado o Kernel RBF com o parâmetro  > 0 definido pelo usuário, sem a necessidade então de se considerar o Kernel Linear (KEERTHI, LIN, 2003).
-# sent_id = 154-20140916-MONOGRAFIA_0-195
+# sent_id = 154-20140916-MONOGRAFIA_0-198
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	LIBSVM	LIBSVM	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -6599,20 +6651,20 @@
 34	,	,	PUNCT	_	_	31	punct	_	_
 35	2003	2003	NUM	_	NumType=Card	31	appos:parataxis	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 2.4
-# sent_id = 154-20140916-MONOGRAFIA_0-196
+# sent_id = 154-20140916-MONOGRAFIA_0-199
 1	2.4	2.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Métrica de Desempenho
-# sent_id = 154-20140916-MONOGRAFIA_0-197
+# sent_id = 154-20140916-MONOGRAFIA_0-200
 1	Métrica	Métrica	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Desempenho	desempenho	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = A validação dos resultados encontrados por meio das técnicas de Aprendizado de Máquina supervisionado utilizadas nas SVMs geralmente se dá através da análise do desempenho do classificador gerado pelo mesmo na classificação das classes de teste.
-# sent_id = 154-20140916-MONOGRAFIA_0-198
+# sent_id = 154-20140916-MONOGRAFIA_0-201
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	validação	validação	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6670,7 +6722,7 @@
 46	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = O presente trabalho utiliza os métodos estatísticos:
-# sent_id = 154-20140916-MONOGRAFIA_0-199
+# sent_id = 154-20140916-MONOGRAFIA_0-202
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	presente	presente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -6681,7 +6733,7 @@
 8	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Sensibilidade ( ), Especificidade ( ) e a Acurácia ( ), para validar os resultados encontrados, para os valores de Acurácia são apresentados ainda a Média ( ) e a medida de dispersão:
-# sent_id = 154-20140916-MONOGRAFIA_0-200
+# sent_id = 154-20140916-MONOGRAFIA_0-203
 1	Sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
 2	(	(	PUNCT	_	_	3	punct	_	_
 3	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -6721,7 +6773,7 @@
 37	:	:	PUNCT	_	_	26	punct	_	_
 
 # text = Desvio Padrão ( ).
-# sent_id = 154-20140916-MONOGRAFIA_0-201
+# sent_id = 154-20140916-MONOGRAFIA_0-204
 1	Desvio	desvio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Padrão	Padrão	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	_
@@ -6729,7 +6781,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na classificação de falhas geológicas em dados sísmicos, os possíveis resultados são positivo e negativo para a existência ou não de falhas nas imagens, podem-se obter erros de precisão ou mesmo de interpretação errada.
-# sent_id = 154-20140916-MONOGRAFIA_0-202
+# sent_id = 154-20140916-MONOGRAFIA_0-205
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6775,7 +6827,7 @@
 40	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Quando o resultado for positivo, os pontos definidos na imagem como Falha foram classificados como tal (verdadeiro positivo - VP) ou os pontos definidos como Falha foram classificados como de Não-Falha (falso positivo - FP).
-# sent_id = 154-20140916-MONOGRAFIA_0-203
+# sent_id = 154-20140916-MONOGRAFIA_0-206
 1	Quando	quando	SCONJ	_	_	5	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -6820,8 +6872,8 @@
 41	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	16	punct	_	_
 
-# text = Da mesma forma, quando o resultado for negativo, os pontos definidos como Não-Falha foram classificados como tal (verdadeiro negativo - VN) ou os pontos definidos como Não- Falha foram classificados como Falha (falso negativo - FN).
-# sent_id = 154-20140916-MONOGRAFIA_0-204
+# text = Da mesma forma, quando o resultado for negativo, os pontos definidos como Não-Falha foram classificados como tal (verdadeiro negativo - VN) ou os pontos definidos como Não-Falha foram classificados como Falha (falso negativo - FN).
+# sent_id = 154-20140916-MONOGRAFIA_0-207
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6851,26 +6903,24 @@
 26	)	)	PUNCT	_	_	22	punct	_	_
 27	ou	ou	CCONJ	_	_	29	cc	_	_
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	_
-30	definidos	definir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	20	acl	_	_
+29	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+30	definidos	definir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	_
 31	como	como	ADP	_	_	32	case	_	_
-32	Não	não	PROPN	_	Gender=Masc|Number=Sing	30	xcomp	_	SpaceAfter=No
-33	-	-	PUNCT	_	_	18	punct	_	_
-34	Falha	falha	PROPN	_	Gender=Masc|Number=Sing	36	nsubj:pass	_	_
-35	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	36	aux:pass	_	_
-36	classificados	classificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	advcl	_	_
-37	como	como	ADP	_	_	38	case	_	_
-38	Falha	falha	PROPN	_	Gender=Masc|Number=Sing	36	xcomp	_	_
-39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	falso	falso	NOUN	_	Gender=Masc|Number=Sing	38	appos:parataxis	_	_
-41	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
-42	-	-	PUNCT	_	_	40	punct	_	_
-43	FN	FN	PROPN	_	Gender=Masc|Number=Sing	40	appos	_	SpaceAfter=No
-44	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+32	Não-Falha	Não-Falha	PROPN	_	Gender=Masc|Number=Sing	34	obl	_	_
+33	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	aux:pass	_	_
+34	classificados	classificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	advcl	_	_
+35	como	como	ADP	_	_	36	case	_	_
+36	Falha	falha	PROPN	_	Gender=Masc|Number=Sing	34	xcomp	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	falso	falso	NOUN	_	Gender=Masc|Number=Sing	36	appos:parataxis	_	_
+39	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+40	-	-	PUNCT	_	_	38	punct	_	_
+41	FN	FN	PROPN	_	Gender=Masc|Number=Sing	38	appos	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = A sensibilidade mede a capacidade do teste em predizer a condição Falha para aqueles casos que realmente a apresentam, ou seja, o quão sensível é o teste.
-# sent_id = 154-20140916-MONOGRAFIA_0-205
+# sent_id = 154-20140916-MONOGRAFIA_0-208
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	mede	meder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6905,7 +6955,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A especificidade mede a capacidade do método de decisão de apontar ausência da condição para aqueles casos que realmente não a têm, ou seja, o quão específico o teste é.
-# sent_id = 154-20140916-MONOGRAFIA_0-206
+# sent_id = 154-20140916-MONOGRAFIA_0-209
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	especificidade	especificidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	mede	meder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6945,7 +6995,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Já a acurácia é a probabilidade de predições corretas, as Equações para os métodos estatísticos utilizados são mostradas na Tabela 2.4.
-# sent_id = 154-20140916-MONOGRAFIA_0-207
+# sent_id = 154-20140916-MONOGRAFIA_0-210
 1	Já	já	ADV	_	_	6	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	acurácia	acurácia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -6970,10 +7020,10 @@
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	19	obl	_	_
 23	2.4	2.4	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 2.4: Equações dos métodos estatísticos utilizados pra validação.
-# sent_id = 154-20140916-MONOGRAFIA_0-208
+# sent_id = 154-20140916-MONOGRAFIA_0-211
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2.4	2.4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6986,19 +7036,19 @@
 9	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 10	pra	pra	ADP	_	_	11	case	_	_
 11	validação	validação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3
-# sent_id = 154-20140916-MONOGRAFIA_0-209
+# sent_id = 154-20140916-MONOGRAFIA_0-212
 1	3	3	NUM	_	NumType=Card	0	root	_	_
 
 # text = METODOLOGIA PROPOSTA
-# sent_id = 154-20140916-MONOGRAFIA_0-210
+# sent_id = 154-20140916-MONOGRAFIA_0-213
 1	METODOLOGIA	metodologia	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	PROPOSTA	proposta	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O objetivo do trabalho é desenvolver um método que auxilie o intérprete na classificação de possíveis falhas geológicas em dados sísmicos utilizando técnicas de aprendizado de máquina.
-# sent_id = 154-20140916-MONOGRAFIA_0-211
+# sent_id = 154-20140916-MONOGRAFIA_0-214
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7033,7 +7083,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A interpretação sísmica visa identificar estruturas onde o óleo possa estar aprisionado em um reservatório.
-# sent_id = 154-20140916-MONOGRAFIA_0-212
+# sent_id = 154-20140916-MONOGRAFIA_0-215
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	interpretação	interpretação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	sísmica	sísmico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7052,7 +7102,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Especificamente pretende-se pesquisar a aplicabilidade do atributo correlograma como descritor de característica.
-# sent_id = 154-20140916-MONOGRAFIA_0-213
+# sent_id = 154-20140916-MONOGRAFIA_0-216
 1	Especificamente	especificamente	ADV	_	_	2	advmod	_	_
 2-3	pretende-se	_	_	_	_	_	_	_	_
 2	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7072,7 +7122,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Para atingir o objetivo seguimos os seguintes passos: 1.
-# sent_id = 154-20140916-MONOGRAFIA_0-214
+# sent_id = 154-20140916-MONOGRAFIA_0-217
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	atingir	atingir	VERB	_	VerbForm=Inf	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7086,7 +7136,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Aquisição, preparação e tratamento das imagens sísmicas; 2.
-# sent_id = 154-20140916-MONOGRAFIA_0-215
+# sent_id = 154-20140916-MONOGRAFIA_0-218
 1	Aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -7102,7 +7152,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Cálculo dos atributos: Energia, Similaridade e Correlograma; 3.
-# sent_id = 154-20140916-MONOGRAFIA_0-216
+# sent_id = 154-20140916-MONOGRAFIA_0-219
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7119,17 +7169,17 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Classificação usando SVM.
-# sent_id = 154-20140916-MONOGRAFIA_0-217
+# sent_id = 154-20140916-MONOGRAFIA_0-220
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	usando	usar	VERB	_	VerbForm=Ger	1	acl	_	_
 3	SVM.	SVM.	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	SpacesAfter=\n
 
 # text = 3.1
-# sent_id = 154-20140916-MONOGRAFIA_0-218
+# sent_id = 154-20140916-MONOGRAFIA_0-221
 1	3.1	3.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Aquisição, preparação e tratamento das imagens sísmicas
-# sent_id = 154-20140916-MONOGRAFIA_0-219
+# sent_id = 154-20140916-MONOGRAFIA_0-222
 1	Aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -7141,8 +7191,8 @@
 8	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 9	sísmicas	sísmico	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
 
-# text = Para o desenvolvimento da metodologia proposta utilizou-se um volume sísmico sintético com as direções espaciais, inline3 e crossline4 definidas de 1 a 256 e a direção temporal de 1 a 255, ou seja, dados de amplitude de 256 x 256 x 255.
-# sent_id = 154-20140916-MONOGRAFIA_0-220
+# text = Para o desenvolvimento da metodologia proposta utilizou-se um volume sísmico sintético com as direções espaciais, inline e crossline definidas de 1 a 256 e a direção temporal de 1 a 255, ou seja, dados de amplitude de 256 x 256 x 255.
+# sent_id = 154-20140916-MONOGRAFIA_0-223
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -7162,18 +7212,18 @@
 15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	direções	direção	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 17	espaciais	espacial	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	inline3	inline3	NUM	_	NumType=Card	8	conj	_	_
-20	e	e	CCONJ	_	_	22	cc	_	_
-21	crossline4	crossline4	NUM	_	NumType=Card	22	nummod	_	_
-22	definidas	definida	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
+18	,	,	PUNCT	_	_	8	punct	_	_
+19	inline	inlinir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	crossline	crosslinir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+22	definidas	definida	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	1	1	NUM	_	NumType=Card	22	nmod	_	_
 25	a	a	ADP	_	_	26	case	_	_
 26	256	256	NUM	_	NumType=Card	22	nmod	_	_
 27	e	e	CCONJ	_	_	29	cc	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	direção	direção	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+29	direção	direção	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
 30	temporal	temporal	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	1	1	NUM	_	NumType=Card	29	nmod	_	_
@@ -7195,7 +7245,7 @@
 48	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A Figura 3.1 mostra o volume sísmico utilizado.
-# sent_id = 154-20140916-MONOGRAFIA_0-221
+# sent_id = 154-20140916-MONOGRAFIA_0-224
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3.1	3.1	NUM	_	NumType=Card	2	nummod	_	_
@@ -7206,8 +7256,17 @@
 8	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
+# text = Figura 3.1: Volume sísmico.
+# sent_id = 154-20140916-MONOGRAFIA_0-225
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	3.1	3.1	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Volume	Volume	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	sísmico	sísmico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
 # text = Na etapa de preparação das imagens sísmicas os dados utilizados armazenados no formato begin-endian5 foram convertidos para little-endian6, por fim o volume sísmico foi dividido em slices (fatias).
-# sent_id = 154-20140916-MONOGRAFIA_0-222
+# sent_id = 154-20140916-MONOGRAFIA_0-226
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7248,7 +7307,7 @@
 35	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Cada fatia foi digitalizada na 3
-# sent_id = 154-20140916-MONOGRAFIA_0-223
+# sent_id = 154-20140916-MONOGRAFIA_0-227
 1	Cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	fatia	fatia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7259,7 +7318,7 @@
 7	3	3	NUM	_	NumType=Card	4	obl	_	_
 
 # text = Direção das linhas sísmicas.
-# sent_id = 154-20140916-MONOGRAFIA_0-224
+# sent_id = 154-20140916-MONOGRAFIA_0-228
 1	Direção	direção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7269,11 +7328,11 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 4
-# sent_id = 154-20140916-MONOGRAFIA_0-225
+# sent_id = 154-20140916-MONOGRAFIA_0-229
 1	4	4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Direção perpendicular às linhas sísmicas.
-# sent_id = 154-20140916-MONOGRAFIA_0-226
+# sent_id = 154-20140916-MONOGRAFIA_0-230
 1	Direção	direção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	perpendicular	perpendicular	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	às	_	_	_	_	_	_	_	_
@@ -7284,11 +7343,11 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 5
-# sent_id = 154-20140916-MONOGRAFIA_0-227
+# sent_id = 154-20140916-MONOGRAFIA_0-231
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Byte menos significativo com o maior endereço.
-# sent_id = 154-20140916-MONOGRAFIA_0-228
+# sent_id = 154-20140916-MONOGRAFIA_0-232
 1	Byte	Byte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	menos	menos	ADV	_	_	3	advmod	_	_
 3	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
@@ -7299,11 +7358,11 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 6
-# sent_id = 154-20140916-MONOGRAFIA_0-229
+# sent_id = 154-20140916-MONOGRAFIA_0-233
 1	6	6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Byte menos significativo no menor endereço.
-# sent_id = 154-20140916-MONOGRAFIA_0-230
+# sent_id = 154-20140916-MONOGRAFIA_0-234
 1	Byte	Byte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	menos	menos	ADV	_	_	3	advmod	_	_
 3	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
@@ -7312,10 +7371,10 @@
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	endereço	endereço	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = resolução 256 x 256 pixels e os dados de amplitude, com valores entre e , quantizados para de 8 bits, gerando imagens conforme a Figura 3.2.
-# sent_id = 154-20140916-MONOGRAFIA_0-231
+# sent_id = 154-20140916-MONOGRAFIA_0-235
 1	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	256	256	NUM	_	NumType=Card	1	nummod	_	_
 3	x	x	ADP	_	_	5	case	_	_
@@ -7347,7 +7406,7 @@
 29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 3.2: Fatia do volume sísmico.
-# sent_id = 154-20140916-MONOGRAFIA_0-232
+# sent_id = 154-20140916-MONOGRAFIA_0-236
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.2	3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -7360,11 +7419,11 @@
 9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 3.2
-# sent_id = 154-20140916-MONOGRAFIA_0-233
+# sent_id = 154-20140916-MONOGRAFIA_0-237
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Cálculo dos atributos
-# sent_id = 154-20140916-MONOGRAFIA_0-234
+# sent_id = 154-20140916-MONOGRAFIA_0-238
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7372,7 +7431,7 @@
 4	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Dentre a centena de atributos sísmicos existentes na literatura, foram escolhidos dois: o de energia e o de similaridade, calculados ao longo do traço sísmico, na vertical da imagem.
-# sent_id = 154-20140916-MONOGRAFIA_0-235
+# sent_id = 154-20140916-MONOGRAFIA_0-239
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	centena	centena	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
@@ -7419,11 +7478,11 @@
 39	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = 3.2.1
-# sent_id = 154-20140916-MONOGRAFIA_0-236
+# sent_id = 154-20140916-MONOGRAFIA_0-240
 1	3.2.1	3.2.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Cálculo da Energia
-# sent_id = 154-20140916-MONOGRAFIA_0-237
+# sent_id = 154-20140916-MONOGRAFIA_0-241
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7431,7 +7490,7 @@
 4	Energia	energia	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = A Figura 3.3 demostra o cálculo da energia vertical, onde para o elemento (pixel) circulado em vermelho, com valor 103, é calculado o quadrado da soma da amplitude, , dentro da janela ao redor da amostra de investigação e dividido por 5, quantidade de elementos da janela, que sempre percorre a imagem na vertical, o tamanho dessa janela é variável e configurado pelo usuário (ALMEIDA, 2007), porém no presente trabalho utilizou-se a janela de tamanho 15.
-# sent_id = 154-20140916-MONOGRAFIA_0-238
+# sent_id = 154-20140916-MONOGRAFIA_0-242
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3.3	3.3	NUM	_	NumType=Card	2	nummod	_	_
@@ -7545,10 +7604,27 @@
 99	de	de	ADP	_	_	100	case	_	_
 100	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	98	nmod	_	_
 101	15	15	NUM	_	NumType=Card	100	nummod	_	SpaceAfter=No
-102	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+102	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# text = Figura 3.3: Cálculo da Energia Vertical (ALMEIDA, 2007).
+# sent_id = 154-20140916-MONOGRAFIA_0-243
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	3.3:	3.3:	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Cálculo	cálculo	PROPN	_	Number=Sing	1	flat:name	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Energia	Energia	PROPN	_	Number=Sing	1	nmod	_	_
+7	Vertical	Vertical	PROPN	_	Number=Sing	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	ALMEIDA	Almeida	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	2007	2007	NUM	_	NumType=Card	9	appos:parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As equações para o cálculo deste atributo foi descrita na Seção 2.2.1 e 2.2.2.
-# sent_id = 154-20140916-MONOGRAFIA_0-239
+# sent_id = 154-20140916-MONOGRAFIA_0-244
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -7570,7 +7646,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A Figura 3.4 mostra um exemplo de uma imagem com o atributo de energia vertical calculado.
-# sent_id = 154-20140916-MONOGRAFIA_0-240
+# sent_id = 154-20140916-MONOGRAFIA_0-245
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3.4	3.4	NUM	_	NumType=Card	2	nummod	_	_
@@ -7589,12 +7665,21 @@
 16	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
+# text = Figura 3.4: Energia Vertical.
+# sent_id = 154-20140916-MONOGRAFIA_0-246
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	3.4	3.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	Energia	Energia	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
+5	Vertical	Vertical	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
 # text = 3.2.2
-# sent_id = 154-20140916-MONOGRAFIA_0-241
+# sent_id = 154-20140916-MONOGRAFIA_0-247
 1	3.2.2	3.2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Cálculo da Similaridade
-# sent_id = 154-20140916-MONOGRAFIA_0-242
+# sent_id = 154-20140916-MONOGRAFIA_0-248
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7602,7 +7687,7 @@
 4	Similaridade	Similaridade	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = A Figura 3.5 mostra o cálculo da similaridade vertical, que é realizado entre dois segmentos de traço, sempre definindo onde está contido o pixel de referência (onde é armazenado o resultado dos cálculos), do vetor e o vetor adjacente , ambos com o mesmo timegate.
-# sent_id = 154-20140916-MONOGRAFIA_0-243
+# sent_id = 154-20140916-MONOGRAFIA_0-249
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3.5	3.5	NUM	_	NumType=Card	2	nummod	_	_
@@ -7662,7 +7747,7 @@
 54	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Na Figura 3.5 para o pixel circulado em vermelho, com valor 103, foi pelo e subtraindo de 1 (ALMEIDA, 2007), o resultado é armazenado no pixel de referência e a janela vai percorrendo a imagem na vertical realizando o cálculo para os demais pixels.
-# sent_id = 154-20140916-MONOGRAFIA_0-244
+# sent_id = 154-20140916-MONOGRAFIA_0-250
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7721,10 +7806,10 @@
 52	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
 53	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	54	det	_	_
 54	pixels	pixel	NOUN	_	Gender=Masc|Number=Plur	48	obl	_	SpaceAfter=No
-55	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
+55	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n\n
 
 # text = Figura 3.5: Cálculo da Similaridade Vertical (ALMEIDA, 2007).
-# sent_id = 154-20140916-MONOGRAFIA_0-245
+# sent_id = 154-20140916-MONOGRAFIA_0-251
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3.5	3.5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7742,7 +7827,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As equações para o cálculo deste atributo foi descrita na Seção 2.2.3.
-# sent_id = 154-20140916-MONOGRAFIA_0-246
+# sent_id = 154-20140916-MONOGRAFIA_0-252
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -7762,7 +7847,7 @@
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A Figura 3.6 mostra um exemplo de uma imagem com o atributo de similaridade vertical calculado.
-# sent_id = 154-20140916-MONOGRAFIA_0-247
+# sent_id = 154-20140916-MONOGRAFIA_0-253
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3.6	3.6	NUM	_	NumType=Card	2	nummod	_	_
@@ -7782,7 +7867,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 3.6: Similaridade Vertical.
-# sent_id = 154-20140916-MONOGRAFIA_0-248
+# sent_id = 154-20140916-MONOGRAFIA_0-254
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3.6	3.6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7791,11 +7876,11 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.2.3
-# sent_id = 154-20140916-MONOGRAFIA_0-249
+# sent_id = 154-20140916-MONOGRAFIA_0-255
 1	3.2.3	3.2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Cálculo do Correlograma
-# sent_id = 154-20140916-MONOGRAFIA_0-250
+# sent_id = 154-20140916-MONOGRAFIA_0-256
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7803,7 +7888,7 @@
 4	Correlograma	Correlograma	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O atributo geoestatístico correlograma é utilizada neste trabalho para descrever a textura de objetos representantes de falhas nas imagens sísmicas.
-# sent_id = 154-20140916-MONOGRAFIA_0-251
+# sent_id = 154-20140916-MONOGRAFIA_0-257
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	geoestatístico	geoestatístico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7831,7 +7916,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = As equações para o cálculo desta função foi descrito na Seção 2.3.1.
-# sent_id = 154-20140916-MONOGRAFIA_0-252
+# sent_id = 154-20140916-MONOGRAFIA_0-258
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -7851,7 +7936,7 @@
 15	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os parâmetros usados pelo correlograma para extração das características em cada amostra foram: 
-# sent_id = 154-20140916-MONOGRAFIA_0-253
+# sent_id = 154-20140916-MONOGRAFIA_0-259
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 3	usados	usar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -7869,11 +7954,11 @@
 13	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	14	det	_	_
 14	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 15	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	17	punct	_	_
+16	:	:	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
 17			PROPN	_	Number=Sing	0	root	_	_
 
 # text = As direções: 0º, 45º, 90º e 135º com tolerância angular de 22.5º.  Incremento de lag (distância): 1, 2 e 3 correspondendo a 15, 8 e 5 lags.  Tolerância de cada distância de lag: 0,5, 1,0 e 1,5, a metade do incremento de lag, escolha mais comum (ISAACS, SRIVASTAVA, 1990).
-# sent_id = 154-20140916-MONOGRAFIA_0-254
+# sent_id = 154-20140916-MONOGRAFIA_0-260
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	direções	direção	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -7947,7 +8032,7 @@
 70	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Considerando uma imagem de 15 x 15 pixels, que é o tamanho da janela utilizada neste trabalho, o número máximo de lags que teremos em qualquer uma das direções será de 15 lags para d = 1, 8 lags para d = 2, e 5 lags para d = 3.
-# sent_id = 154-20140916-MONOGRAFIA_0-255
+# sent_id = 154-20140916-MONOGRAFIA_0-261
 1	Considerando	considerar	VERB	_	VerbForm=Ger	38	advcl	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -8011,7 +8096,7 @@
 58	.	.	PUNCT	_	_	38	punct	_	_
 
 # text = A Figura 3.7 mostra como essas distâncias (lags) e suas direções são utilizadas.
-# sent_id = 154-20140916-MONOGRAFIA_0-256
+# sent_id = 154-20140916-MONOGRAFIA_0-262
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3.7	3.7	NUM	_	NumType=Card	2	nummod	_	_
@@ -8030,13 +8115,13 @@
 16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 3.7:
-# sent_id = 154-20140916-MONOGRAFIA_0-257
+# sent_id = 154-20140916-MONOGRAFIA_0-263
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3.7	3.7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Distâncias e direções dos lags (CAMARGO, 1998).
-# sent_id = 154-20140916-MONOGRAFIA_0-258
+# sent_id = 154-20140916-MONOGRAFIA_0-264
 1	Distâncias	distância	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	direções	direção	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -8052,7 +8137,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A assinatura da amostra é representada pelo Vetor de Características e para a sua criação foram extraídas 112 características por amostra correspondentes as 4 direções de 28 lags (15 + 8 + 5).
-# sent_id = 154-20140916-MONOGRAFIA_0-259
+# sent_id = 154-20140916-MONOGRAFIA_0-265
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	assinatura	assinatura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8095,11 +8180,11 @@
 38	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.3
-# sent_id = 154-20140916-MONOGRAFIA_0-260
+# sent_id = 154-20140916-MONOGRAFIA_0-266
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Classificação usando SVM Nesta etapa fizemos a classificação de cada objeto em Falha e Não-Falha, utilizando o reconhecimento de padrões de acordo com a análise de textura obtida pelo correlograma e os atributos sísmicos Energia e Similaridade.
-# sent_id = 154-20140916-MONOGRAFIA_0-261
+# sent_id = 154-20140916-MONOGRAFIA_0-267
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 2	usando	usar	VERB	_	VerbForm=Ger	1	acl	_	_
 3	SVM	SVM	PROPN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -8145,7 +8230,7 @@
 41	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Utilizamos também a biblioteca LIBSVM, descrito na Seção 2.4, que facilita a aplicação do SVM como uma ferramenta.
-# sent_id = 154-20140916-MONOGRAFIA_0-262
+# sent_id = 154-20140916-MONOGRAFIA_0-268
 1	Utilizamos	Utilizar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	também	também	ADV	_	_	1	advmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8173,7 +8258,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para classificar o dado sísmico usando SVM, seguimos o seguinte fluxo de atividades:
-# sent_id = 154-20140916-MONOGRAFIA_0-263
+# sent_id = 154-20140916-MONOGRAFIA_0-269
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	classificar	classificar	VERB	_	VerbForm=Inf	9	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -8188,15 +8273,15 @@
 12	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	9	punct	_	_
+15	:	:	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 
 # text = Figura 3.8:
-# sent_id = 154-20140916-MONOGRAFIA_0-264
+# sent_id = 154-20140916-MONOGRAFIA_0-270
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3.8:	3.8:	PUNCT	_	_	1	punct	_	_
 
 # text = Fluxo de atividades realizadas durante a etapa de classificação (BRAZ JUNIOR, 2008).
-# sent_id = 154-20140916-MONOGRAFIA_0-265
+# sent_id = 154-20140916-MONOGRAFIA_0-271
 1	Fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -8215,7 +8300,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text =  Geração do arquivo (base de características) no formato LIBSVM;  Utilização do script subset.py que divide a base de características de forma aleatória em duas outras bases, a base de treino e base de teste;  Utilização do svm-scale para normalizar a base de treino e salvar os parâmetros dessa normalização para ser utilizados na base de teste;  Construção do modelo;  Classificação do arquivo de teste, utilizando o svm-predict;
-# sent_id = 154-20140916-MONOGRAFIA_0-266
+# sent_id = 154-20140916-MONOGRAFIA_0-272
 1			PROPN	_	Number=Sing	86	nsubj	_	_
 2	Geração	geração	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8315,7 +8400,7 @@
 89	;	;	PUNCT	_	_	86	punct	_	_
 
 # text = Definimos duas classes, Falha (+1) e Não-Falha (-1) e geramos arquivos de características com 1, 2 e 3 atributos, com todas as combinações possíveis entre o atributo de energia, similaridade e correlograma.
-# sent_id = 154-20140916-MONOGRAFIA_0-267
+# sent_id = 154-20140916-MONOGRAFIA_0-273
 1	Definimos	Definimo	ADV	_	_	2	advmod	_	_
 2	duas	dois	NUM	_	NumType=Card	3	nummod	_	_
 3	classes	classe	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
@@ -8359,7 +8444,7 @@
 41	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Todo o fluxo descrito anteriormente foi aplicado cinco vezes de forma aleatória sobre a base de características para garantir que a SVM não se tornasse viciada, ou seja, foram realizadas cinco análises.
-# sent_id = 154-20140916-MONOGRAFIA_0-268
+# sent_id = 154-20140916-MONOGRAFIA_0-274
 1	Todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
@@ -8397,7 +8482,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O próximo Capítulo apresenta os resultados alcançados com o uso da metodologia proposta.
-# sent_id = 154-20140916-MONOGRAFIA_0-269
+# sent_id = 154-20140916-MONOGRAFIA_0-275
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -8413,15 +8498,15 @@
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	proposta	proposto	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 4 RESULTADOS
-# sent_id = 154-20140916-MONOGRAFIA_0-270
+# sent_id = 154-20140916-MONOGRAFIA_0-276
 1	4	4	NUM	_	NumType=Card	2	nummod	_	_
 2	RESULTADOS	Resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Aplicamos os atributos energia, similaridade e correlograma para 50 fatias, dentro de um volume com 256 fatias e numerosas falhas, para cada fatia foi extraído 25 pontos de Falha e 25 pontos de Não-Falha totalizando 2500 amostras.
-# sent_id = 154-20140916-MONOGRAFIA_0-271
+# sent_id = 154-20140916-MONOGRAFIA_0-277
 1	Aplicamos	Aplicar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -8465,7 +8550,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Com o objetivo de verificar a eficiência do atributo correlograma em comparação com os outros dois atributos sísmicos calculados, indicando a eficiência do método proposto.
-# sent_id = 154-20140916-MONOGRAFIA_0-272
+# sent_id = 154-20140916-MONOGRAFIA_0-278
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -8499,7 +8584,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os atributos de energia, similaridade e correlograma foram calculados utilizando uma janela de tamanho 15.
-# sent_id = 154-20140916-MONOGRAFIA_0-273
+# sent_id = 154-20140916-MONOGRAFIA_0-279
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8519,7 +8604,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Foram realizados testes para cada atributo e para todas as combinações possíveis entre eles, com diferentes quantidades de amostra.
-# sent_id = 154-20140916-MONOGRAFIA_0-274
+# sent_id = 154-20140916-MONOGRAFIA_0-280
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	testes	teste	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
@@ -8543,7 +8628,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Na primeira bateria de testes, separamos 50% (1250) das amostras para treinamento e 50% (1250) para teste.
-# sent_id = 154-20140916-MONOGRAFIA_0-275
+# sent_id = 154-20140916-MONOGRAFIA_0-281
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8575,7 +8660,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Na segunda bateria de testes, separamos 80/20% (2000/500) das amostras para treinamento e teste.
-# sent_id = 154-20140916-MONOGRAFIA_0-276
+# sent_id = 154-20140916-MONOGRAFIA_0-282
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8601,7 +8686,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Cada bateria de testes foi executada cinco vezes de forma aleatória sobre a base de características, ou seja, foram realizadas cinco análises.
-# sent_id = 154-20140916-MONOGRAFIA_0-277
+# sent_id = 154-20140916-MONOGRAFIA_0-283
 1	Cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	bateria	bateria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8629,7 +8714,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A Tabela 4.1 mostra os resultados da acurácia para as amostras calculadas da base de teste para cada atributo separadamente, Correlograma (CR), Energia Vertical (EV) e Similaridade Vertical (SV).
-# sent_id = 154-20140916-MONOGRAFIA_0-278
+# sent_id = 154-20140916-MONOGRAFIA_0-284
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4.1	4.1	NUM	_	NumType=Card	4	nummod	_	_
@@ -8674,7 +8759,7 @@
 40	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 4.1: Resultados da acurácia para cada atributo.
-# sent_id = 154-20140916-MONOGRAFIA_0-279
+# sent_id = 154-20140916-MONOGRAFIA_0-285
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4.1	4.1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8689,7 +8774,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Analisando os resultados apresentados na Tabela 4.1, verificamos que os melhores resultados foram alcançados para análises onde 80% das amostras foram utilizadas no treinamento e 20% nos testes.
-# sent_id = 154-20140916-MONOGRAFIA_0-280
+# sent_id = 154-20140916-MONOGRAFIA_0-286
 1	Analisando	analisar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -8729,10 +8814,10 @@
 33	em	em	ADP	_	_	35	case	_	_
 34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	testes	teste	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = A Tabela 4.2 apresenta os resultados obtidos para as combinações entre os atributos, CR com EV, CR com SV, EV com SV e os três juntos.
-# sent_id = 154-20140916-MONOGRAFIA_0-281
+# sent_id = 154-20140916-MONOGRAFIA_0-287
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4.2	4.2	NUM	_	NumType=Card	4	nsubj	_	_
@@ -8765,13 +8850,13 @@
 30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 4.2:
-# sent_id = 154-20140916-MONOGRAFIA_0-282
+# sent_id = 154-20140916-MONOGRAFIA_0-288
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4.2	4.2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados da acurácia para associação dos atributos.
-# sent_id = 154-20140916-MONOGRAFIA_0-283
+# sent_id = 154-20140916-MONOGRAFIA_0-289
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8786,7 +8871,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Avaliando os resultados apresentados na Tabela 4.2, observamos que os melhores resultados foram os encontrados com a associação dos 3 atributos, sendo que o melhor resultado encontrado atingiu 96.6%, como destacado na Tabela 4.2.
-# sent_id = 154-20140916-MONOGRAFIA_0-284
+# sent_id = 154-20140916-MONOGRAFIA_0-290
 1	Avaliando	avaliar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -8834,7 +8919,7 @@
 42	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = A Tabela 4.3 mostra o cálculo da média (M) e a medida de dispersão: desvio padrão (Dp) para os valores de acurácia dos atributos.
-# sent_id = 154-20140916-MONOGRAFIA_0-285
+# sent_id = 154-20140916-MONOGRAFIA_0-291
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4.3	4.3	NUM	_	NumType=Card	2	nummod	_	_
@@ -8871,7 +8956,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = É mostrado ainda o melhor valor encontrado.
-# sent_id = 154-20140916-MONOGRAFIA_0-286
+# sent_id = 154-20140916-MONOGRAFIA_0-292
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	mostrado	mostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	ainda	ainda	ADV	_	_	6	advmod	_	_
@@ -8879,10 +8964,10 @@
 5	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	valor	valor	NOUN	_	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
 7	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 4.3: Média e desvio padrão para os melhores valores de acurácia.
-# sent_id = 154-20140916-MONOGRAFIA_0-287
+# sent_id = 154-20140916-MONOGRAFIA_0-293
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 2	4.3	4.3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8899,7 +8984,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A Tabela 4.4 mostra os valores de sensibilidade e especificidade para os melhores resultados mostrados na Tabela 4.3.
-# sent_id = 154-20140916-MONOGRAFIA_0-288
+# sent_id = 154-20140916-MONOGRAFIA_0-294
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4.4	4.4	NUM	_	NumType=Card	4	nummod	_	_
@@ -8923,13 +9008,13 @@
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 4.4:
-# sent_id = 154-20140916-MONOGRAFIA_0-289
+# sent_id = 154-20140916-MONOGRAFIA_0-295
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4.4	4.4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sensibilidade, especificidade e acurácia dos melhores resultados.
-# sent_id = 154-20140916-MONOGRAFIA_0-290
+# sent_id = 154-20140916-MONOGRAFIA_0-296
 1	Sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	especificidade	especificidade	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -8940,10 +9025,10 @@
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 8	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 9	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Analisando os dados da Tabela 4.4, podemos observar que o melhor resultado encontrado nos testes foi alcançado associando os atributos energia, similaridade e correlograma, onde a sensibilidade é igual a 96,8% , especificidade é igual a 93,63% , e acurácia 96,6%, indicando a eficiência da utilização do atributo geoestatístico correlograma.
-# sent_id = 154-20140916-MONOGRAFIA_0-291
+# sent_id = 154-20140916-MONOGRAFIA_0-297
 1	Analisando	analisar	VERB	_	VerbForm=Ger	9	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -9009,10 +9094,10 @@
 59	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	_
 60	geoestatístico	geoestatístico	ADJ	_	Gender=Masc|Number=Sing	59	amod	_	_
 61	correlograma	correlograma	NOUN	_	Gender=Masc|Number=Sing	59	appos	_	SpaceAfter=No
-62	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+62	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 5 CONCLUSÃO Para a indústria de petróleo, a interpretação sísmica visa identificar estruturas onde o óleo possa estar aprisionado em um reservatório.
-# sent_id = 154-20140916-MONOGRAFIA_0-292
+# sent_id = 154-20140916-MONOGRAFIA_0-298
 1	5	5	NUM	_	NumType=Card	2	nummod	_	_
 2	CONCLUSÃO	conclusão	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	Para	para	ADP	_	_	5	case	_	_
@@ -9039,7 +9124,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Com a identificação dessas estruturas pode-se evitar prejuízos e aumentar o lucro, além de reduzir o impacto ambiental com perfurações desnecessárias.
-# sent_id = 154-20140916-MONOGRAFIA_0-293
+# sent_id = 154-20140916-MONOGRAFIA_0-299
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -9069,7 +9154,7 @@
 25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Portanto, antes de iniciar a perfuração de um poço é necessário coletar o máximo de informações possíveis sobre as condições geológicas da área em questão.
-# sent_id = 154-20140916-MONOGRAFIA_0-294
+# sent_id = 154-20140916-MONOGRAFIA_0-300
 1	Portanto	portanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	antes	antes	ADV	_	_	5	mark	_	_
@@ -9101,7 +9186,7 @@
 28	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A complexidade do sistema geológico, a qualidade dos dados sísmicos, o bom processamento, e a experiência do intérprete são fatores que influenciam diretamente no resultado da interpretação.
-# sent_id = 154-20140916-MONOGRAFIA_0-295
+# sent_id = 154-20140916-MONOGRAFIA_0-301
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	complexidade	complexidade	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9145,7 +9230,7 @@
 36	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Foi apresentado, neste trabalho, uma investigação sobre a aplicabilidade do atributo geoestatístico correlograma como descritor de característica para a classificação de falhas geológicas em dados sísmicos através do aprendizado de máquina.
-# sent_id = 154-20140916-MONOGRAFIA_0-296
+# sent_id = 154-20140916-MONOGRAFIA_0-302
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -9188,7 +9273,7 @@
 37	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Na busca pela melhor solução, aplicamos ainda os atributos sísmicos de energia e similaridade a fim de comparar com os resultados obtidos pelo correlograma e constatou-se que os melhores resultados foram obtidos com a associação destes dois atributos com o atributo geoestatístico.
-# sent_id = 154-20140916-MONOGRAFIA_0-297
+# sent_id = 154-20140916-MONOGRAFIA_0-303
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -9245,7 +9330,7 @@
 49	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O método apresentado aqui mostra que falhas geológicas podem ser classificadas utilizando os atributos sísmicos existentes na literatura juntamente com o atributo correlograma, como foi fundamentado pelos resultados encontrados, no melhor caso onde a sensibilidade foi igual a 96,8%, a especificidade a 93,63%, e acurácia a 96,6%, indicando a eficiência da utilização do atributo geoestatístico correlograma.
-# sent_id = 154-20140916-MONOGRAFIA_0-298
+# sent_id = 154-20140916-MONOGRAFIA_0-304
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -9323,7 +9408,7 @@
 70	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = No entanto, vê-se necessário a realização de testes mais profundos, com uma quantidade maior de volumes sísmicos, de dados reais, e com diferentes características de falhas, ou seja, para que seja possível comprovar a eficiência da técnica é necessário aplicá-la à imagens mais complexas.
-# sent_id = 154-20140916-MONOGRAFIA_0-299
+# sent_id = 154-20140916-MONOGRAFIA_0-305
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -9387,7 +9472,7 @@
 56	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Observa-se que a indústria petrolífera necessita de um conjunto de ferramentas que dê suporte com precisão a análise de dados sísmicos.
-# sent_id = 154-20140916-MONOGRAFIA_0-300
+# sent_id = 154-20140916-MONOGRAFIA_0-306
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9414,7 +9499,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Com isso a proposta para trabalhos futuros é associação do atributo correlograma com outras funções geoestatísticas (semivariograma, semimadograma e covariograma) e com outros atributos sísmicos, como por exemplo, o semblance, o cubo de variância, o cubo de coerência por autoestrutura e outros.
-# sent_id = 154-20140916-MONOGRAFIA_0-301
+# sent_id = 154-20140916-MONOGRAFIA_0-307
 1	Com	com	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9430,7 +9515,7 @@
 12	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	correlograma	correlogramar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 14	com	com	ADP	_	_	16	case	_	_
-15	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+15	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	SpacesAfter=\s\n
 16	funções	função	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
 17	geoestatísticas	geoestatístico	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -9469,7 +9554,7 @@
 51	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Outra proposta é realizar a análise para volumes de dados sísmicos 3D.
-# sent_id = 154-20140916-MONOGRAFIA_0-302
+# sent_id = 154-20140916-MONOGRAFIA_0-308
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_

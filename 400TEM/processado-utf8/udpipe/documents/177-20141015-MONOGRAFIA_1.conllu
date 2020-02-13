@@ -507,7 +507,7 @@
 5	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	biocombustíveis	biocombustível	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 1.2.
 # sent_id = 177-20141015-MONOGRAFIA_1-19
@@ -803,7 +803,7 @@
 24	adiabáticos	adiabático	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Isto poderia reduzir as emissões e melhorar o desempenho dos motores [8- 10].
+# text = Isto poderia reduzir as emissões e melhorar o desempenho dos motores [8-10].
 # sent_id = 177-20141015-MONOGRAFIA_1-27
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -818,11 +818,10 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	motores	motor	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	8-	8-	SYM	_	_	9	appos	_	_
-15	10	10	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-16	]	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	2	punct	_	_
+13	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+14	8-10	8-10	ADV	_	_	2	advmod	_	SpaceAfter=No
+15	]	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Avanços mais recentes focalizam no uso de materiais com variação gradativa das propriedades termofísicas, de modo a reduzir a descontinuidade entre os materiais diferentes [8].
 # sent_id = 177-20141015-MONOGRAFIA_1-28
@@ -1073,7 +1072,7 @@
 28	gases	gase	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	exaustão	exaustão	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Outra pesquisa [13] com diferentes misturas de biodiesel derivados da soja chegou a conclusão que o retardamento da injeção de combustível diminui a formação de NOx não importando a composição das misturas, assim como a diminuição da temperatura na combustão.
 # sent_id = 177-20141015-MONOGRAFIA_1-33
@@ -1258,7 +1257,7 @@
 37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	fixed	_	_
 38	condições	condição	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	_
 39	testadas	testar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	38	acl	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 2. Biodiesel
 # sent_id = 177-20141015-MONOGRAFIA_1-37
@@ -1422,7 +1421,7 @@
 43	]	_	PUNCT	_	_	42	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = No Brasil as principais matérias-primas são a soja e o sebo, com a região centro- oeste se destacando como a grande produtora nacional.
+# text = No Brasil as principais matérias-primas são a soja e o sebo, com a região centro-oeste se destacando como a grande produtora nacional.
 # sent_id = 177-20141015-MONOGRAFIA_1-43
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
@@ -1433,25 +1432,23 @@
 6	matérias-primas	matéria-primo	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	soja	soja	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+9	soja	soja	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 10	e	e	CCONJ	_	_	12	cc	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	sebo	sebo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	com	com	ADP	_	_	16	case	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	região	região	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-17	centro	centro	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	16	punct	_	_
-19	oeste	oestir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
-21	destacando	destacar	VERB	_	VerbForm=Ger	19	advcl	_	_
-22	como	como	ADP	_	_	25	case	_	_
-23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	grande	grande	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
-25	produtora	produtora	NOUN	_	Gender=Fem|Number=Sing	21	xcomp	_	_
-26	nacional	nacional	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	19	punct	_	_
+16	região	região	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+17	centro-oeste	centro-oeste	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+19	destacando	destacar	VERB	_	VerbForm=Ger	9	advcl	_	_
+20	como	como	ADP	_	_	23	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	grande	grande	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	produtora	produtora	NOUN	_	Gender=Fem|Number=Sing	19	xcomp	_	_
+24	nacional	nacional	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Apesar de o dendê apresentar maior produtividade, a produção com soja se tornou mais economicamente viável e por isso representa mais de 80% da produção nacional [16].
 # sent_id = 177-20141015-MONOGRAFIA_1-44
@@ -1544,7 +1541,7 @@
 46	[	[	PUNCT	_	_	47	punct	_	SpaceAfter=No
 47	17	17	NUM	_	NumType=Card	41	appos	_	SpaceAfter=No
 48	]	_	PUNCT	_	_	47	punct	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+49	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 177-20141015-MONOGRAFIA_1-46
@@ -2009,7 +2006,7 @@
 20	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	18	18	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 22	]	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = 3.2.
 # sent_id = 177-20141015-MONOGRAFIA_1-67
@@ -2466,7 +2463,7 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	grande	grande	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 20	porte	porte	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text =  Injeção indireta (I.D.I.): o combustível é injetado numa pré-câmara de combustão, se mistura com o ar, e inicia a queima para depois entrar na câmara de combustão.
 # sent_id = 177-20141015-MONOGRAFIA_1-84
@@ -2595,7 +2592,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	porte	porte	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 4.
 # sent_id = 177-20141015-MONOGRAFIA_1-89
@@ -3041,7 +3038,7 @@
 33	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 177-20141015-MONOGRAFIA_1-107
@@ -3565,7 +3562,7 @@
 33	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
 34	atribuído	atribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
 35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	número	número	NOUN	_	Gender=Masc|Number=Sing	34	nsubj:pass	_	_
+36	número	número	NOUN	_	Gender=Masc|Number=Sing	34	nsubj:pass	_	SpacesAfter=\s\n
 37	de	de	ADP	_	_	38	case	_	_
 38	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
 39	igual	igual	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
@@ -3795,7 +3792,7 @@
 19	graus	grau	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Os combustíveis de referência são misturas feitas a partir do Cetano (n- hexadecano) e do Heptametilnonano (HMN) ou alternativamente do T-Fuel e do U-Fuel que são combustíveis padrão com número de cetano conhecido.
+# text = Os combustíveis de referência são misturas feitas a partir do Cetano (n-hexadecano) e do Heptametilnonano (HMN) ou alternativamente do T-Fuel e do U-Fuel que são combustíveis padrão com número de cetano conhecido.
 # sent_id = 177-20141015-MONOGRAFIA_1-135
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -3809,40 +3806,39 @@
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	8	fixed	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Cetano	Cetano	PROPN	_	Gender=Masc|Number=Sing	20	conj	_	_
-13	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-14	n-	n-	PUNCT	_	_	15	punct	_	_
-15	hexadecano	hexadecano	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	15	punct	_	_
-17	e	e	CCONJ	_	_	20	cc	_	_
-18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Heptametilnonano	Heptametilnonano	PROPN	_	Gender=Masc|Number=Sing	25	conj	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	HMN	HMN	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	22	punct	_	_
-24	ou	ou	CCONJ	_	_	25	cc	_	_
-25	alternativamente	alternativamente	ADV	_	_	7	conj	_	_
-26-27	do	_	_	_	_	_	_	_	_
-26	de	de	ADP	_	_	28	case	_	_
-27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	T-Fuel	T-Fuel	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
-29	e	e	CCONJ	_	_	32	cc	_	_
-30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	U-Fuel	U-Fuel	PROPN	_	Gender=Masc|Number=Sing	28	conj	_	_
-33	que	que	SCONJ	_	_	35	mark	_	_
-34	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
-35	combustíveis	combustível	ADJ	_	Gender=Masc|Number=Plur	6	advcl	_	_
-36	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
-37	com	com	ADP	_	_	38	case	_	_
-38	número	número	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-41	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	40	acl	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	6	punct	_	_
+12	Cetano	Cetano	PROPN	_	Gender=Masc|Number=Sing	19	conj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	n-hexadecano	n-hexadecano	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Heptametilnonano	Heptametilnonano	PROPN	_	Gender=Masc|Number=Sing	24	conj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	HMN	HMN	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	ou	ou	CCONJ	_	_	24	cc	_	_
+24	alternativamente	alternativamente	ADV	_	_	7	conj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	T-Fuel	T-Fuel	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
+28	e	e	CCONJ	_	_	31	cc	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	U-Fuel	U-Fuel	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	_
+32	que	que	SCONJ	_	_	34	mark	_	_
+33	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	combustíveis	combustível	ADJ	_	Gender=Masc|Number=Plur	6	advcl	_	_
+35	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+36	com	com	ADP	_	_	37	case	_	_
+37	número	número	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+40	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	39	acl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Compara-se a leitura no volante que controla a razão de compressão nas condições padrão e faz-se uma média ponderada para determinar o número de cetano do combustível em questão [19].
 # sent_id = 177-20141015-MONOGRAFIA_1-136
@@ -3890,7 +3886,7 @@
 37	]	_	PUNCT	_	_	36	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = As condições padrões de operação são:  Rotação: 900 9 rpm  Avanço da injeção: 13 graus antes do PMS  Pressão da abertura do injetor: 1500 50 psi (10,3 0,34 MPa)  Vazão de combustível: 13,0 0,2 ml/min 
+# text = As condições padrões de operação são:  Rotação: 900 9 rpm  Avanço da injeção: 13 graus antes do PMS  Pressão da abertura do injetor: 1500 50 psi (10,3 0,34 MPa) 
 # sent_id = 177-20141015-MONOGRAFIA_1-137
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -3933,22 +3929,12 @@
 35	1500	1500	NUM	_	NumType=Card	37	nummod	_	_
 36	50	50	NUM	_	NumType=Card	35	flat	_	_
 37	psi	psi	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
-38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	10,3	10,3	NUM	_	NumType=Card	37	appos	_	_
+38	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+39	10,3	10,3	NUM	_	NumType=Card	41	nummod	_	_
 40	0,34	0,34	NUM	_	NumType=Card	39	flat	_	_
-41	MPa	MPa	PROPN	_	Number=Sing	39	flat:name	_	SpaceAfter=No
-42	)	)	PUNCT	_	_	39	punct	_	_
-43			PROPN	_	Number=Sing	39	flat:name	_	_
-44	Vazão	Vazão	PROPN	_	Number=Sing	39	flat:name	_	_
-45	de	de	ADP	_	_	46	case	_	_
-46	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
-47	:	:	PUNCT	_	_	6	punct	_	_
-48	13,0	13,0	NUM	_	NumType=Card	50	nummod	_	_
-49	0,2	0,2	NUM	_	NumType=Card	48	flat	_	_
-50	ml	ml	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-51	/	/	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	min	min	PROPN	_	Gender=Masc|Number=Sing	50	appos	_	_
-53			PROPN	_	Number=Sing	52	flat:name	_	_
+41	MPa	MPa	PROPN	_	Gender=Fem|Number=Sing	37	appos	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	_
+43			PROPN	_	Number=Sing	41	flat:name	_	_
 
 # text = Temperatura da água de arrefecimento do injetor: 100 5°F (38 3°C)  Temperatura da água de arrefecimento do motor: 212 3°F (100 2°C)  Pressão do óleo lubrificante: 25 a 30 psi (0,17 a 0,20 MPa)  Temperatura do óleo lubrificante: 135 15°F(57 8°C) 
 # sent_id = 177-20141015-MONOGRAFIA_1-138
@@ -4036,7 +4022,7 @@
 9	1°F(	1°F(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	66	66	NUM	_	NumType=Card	11	nummod	_	_
 11	0,5°C	0,5°C	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	1	punct	_	_
+12	)	)	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 
 # text = Uma forma de ganhar agilidade e não precisar usar a cada teste combustíveis de referência, o que encarece tal medição, é fazer uso da curva do comportamento do motor.
 # sent_id = 177-20141015-MONOGRAFIA_1-140
@@ -4156,9 +4142,9 @@
 37	18,7	18,7	NUM	_	NumType=Card	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Depois o engenheiro Nauberto R. Pinto operou o motor CFR- Cetano nas condições padrões de operação com cada mistura de conhecido número de cetano, anotando a leitura correspondente no volante que controla a razão de compressão.
+# text = Depois o engenheiro Nauberto R. Pinto operou o motor CFR-Cetano nas condições padrões de operação com cada mistura de conhecido número de cetano, anotando a leitura correspondente no volante que controla a razão de compressão.
 # sent_id = 177-20141015-MONOGRAFIA_1-143
-1	Depois	depois	ADV	_	_	7	advmod	_	_
+1	Depois	depois	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	Nauberto	Nauberto	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
@@ -4167,40 +4153,38 @@
 7	operou	operar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	motor	motor	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
-10	CFR	CFR	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-11	-	-	PUNCT	_	_	7	punct	_	_
-12	Cetano	Cetano	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
-13-14	nas	_	_	_	_	_	_	_	_
-13	em	em	ADP	_	_	12	case	_	_
-14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	condições	condição	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
-16	padrões	padrão	NOUN	_	Gender=Fem|Number=Plur	15	appos	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	operação	operação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	com	com	ADP	_	_	21	case	_	_
-20	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	21	det	_	_
-21	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-24	número	número	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	anotando	anotar	VERB	_	VerbForm=Ger	7	advcl	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
-31	correspondente	correspondente	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
-32-33	no	_	_	_	_	_	_	_	_
-32	em	em	ADP	_	_	34	case	_	_
-33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	volante	volante	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
-35	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	36	nsubj	_	_
-36	controla	controlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
-37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	razão	razão	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	7	punct	_	_
+10	CFR-Cetano	CFR-Cetano	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
+11-12	nas	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	condições	condição	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+14	padrões	padrão	NOUN	_	Gender=Fem|Number=Plur	13	appos	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	operação	operação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	19	det	_	_
+19	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	conhecido	conhecido	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	número	número	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	anotando	anotar	VERB	_	VerbForm=Ger	7	advcl	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+29	correspondente	correspondente	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	volante	volante	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+33	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	_
+34	controla	controlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	razão	razão	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = De posse de tal dados a engenheira Monique Soriano Vital da Silva, que na época era aluna de doutorado da COPPE/UFRJ, plotou através do sofware MATH uma curva ajustada aos pontos obtidos (figura 4.1).
 # sent_id = 177-20141015-MONOGRAFIA_1-144
@@ -4308,21 +4292,20 @@
 29	%	%	SYM	_	_	26	obl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Figura 4.1- Curva ajustada do motor CFR Cetano/LMT (29/08/2006)
+# text = Figura 4.1-Curva ajustada do motor CFR Cetano/LMT (29/08/2006)
 # sent_id = 177-20141015-MONOGRAFIA_1-147
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	4.1-	4.1	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
-3	Curva	Curva	PROPN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
-4	ajustada	ajustar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
-5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	motor	motor	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-8	CFR	CFR	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
-9	Cetano/LMT	Cetano/LMT	PROPN	_	Number=Sing	8	flat:name	_	_
-10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	29/08/2006	29/08/2006	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	11	punct	_	_
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	4.1-Curva	4.1-curva	PROPN	_	Number=Sing	1	flat:name	_	_
+3	ajustada	ajustar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	motor	motor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+7	CFR	CFR	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
+8	Cetano/LMT	Cetano/LMT	PROPN	_	Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	29/08/2006	29/08/2006	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
 
 # text = A fim de se obter o número de cetano dos combustíveis utilizados no presente projeto (B5, B20 e B60), operou-se o motor CRF-Cetano nas condições padrões para cada um deles.
 # sent_id = 177-20141015-MONOGRAFIA_1-148
@@ -4372,7 +4355,7 @@
 39	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	nmod	_	_
 40	.	.	PUNCT	_	_	26	punct	_	_
 
-# text = De posse das leituras do volante e valendo-se da curva do comportamento do motor (Figura 4.1), os seguintes resultados foram obtidos (Tabela 4.1): Tabela 4.1- Número de cetano dos combustíveis utilizados
+# text = De posse das leituras do volante e valendo-se da curva do comportamento do motor (Figura 4.1), os seguintes resultados foram obtidos (Tabela 4.1):
 # sent_id = 177-20141015-MONOGRAFIA_1-149
 1	De	de	ADP	_	_	2	case	_	_
 2	posse	posse	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
@@ -4415,16 +4398,6 @@
 33	4.1	4.1	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 35	:	:	PUNCT	_	_	30	punct	_	_
-36	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
-37	4.1-	4.1-	PUNCT	_	_	38	punct	_	_
-38	Número	número	PROPN	_	Gender=Masc|Number=Sing	36	appos	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-41-42	dos	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
-43	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	_
-44	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	40	acl	_	_
 
 # text = Tais resultados são importantes pelo número de cetano estar, como visto anteriormente, diretamente ligado a propriedades do combustível como o atraso da ignição.
 # sent_id = 177-20141015-MONOGRAFIA_1-150
@@ -4691,7 +4664,7 @@
 43	[	[	PUNCT	_	_	44	punct	_	SpaceAfter=No
 44	18	18	NUM	_	NumType=Card	40	conj	_	SpaceAfter=No
 45	]	_	PUNCT	_	_	44	punct	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
 
 # text = 5.
 # sent_id = 177-20141015-MONOGRAFIA_1-161
@@ -5274,7 +5247,7 @@
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	material	material	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	material	material	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\s\n
 18	particulado	particular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	acl	_	_
 19	e	e	CCONJ	_	_	21	cc	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -5344,63 +5317,40 @@
 8	2011	2011	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Figura 5.2- Redução dos limites das emissões ao longo das fases do PROCONVE para veículos pesados Fonte:
+# text = do PROCONVE para veículos pesados Fonte:
 # sent_id = 177-20141015-MONOGRAFIA_1-180
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	5.2	5.2	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Redução	Redução	PROPN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5-6	dos	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	limites	limite	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-8-9	das	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-11-12	ao	_	_	_	_	_	_	_	_
-11	a	a	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	longo	longo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
-14-15	das	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	fases	fase	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
-17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	PROCONVE	PROCONVE	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	para	para	ADP	_	_	21	case	_	_
-21	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-22	pesados	pesar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	_
-23	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
-24	:	:	PUNCT	_	_	1	punct	_	_
+1-2	do	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	PROCONVE	PROCONVE	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+6	pesados	pesar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	_
+7	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	3	punct	_	_
 
-# text = A fase
+# text = A fase P7 do PROCONVE e o impacto no setor de transporte.
 # sent_id = 177-20141015-MONOGRAFIA_1-181
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-
-# text = P7 do PROCONVE e o impacto no setor de transporte.
-# sent_id = 177-20141015-MONOGRAFIA_1-182
-1	P7	P7	NUM	_	NumType=Card	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	PROCONVE	PROCONVE	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5	e	e	CCONJ	_	_	7	cc	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-8-9	no	_	_	_	_	_	_	_	_
-8	em	em	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	setor	setor	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	_
+3	P7	P7	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PROCONVE	PROCONVE	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	setor	setor	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = – Brasília: CNT : Sest/Senat, 2011.
-# sent_id = 177-20141015-MONOGRAFIA_1-183
+# sent_id = 177-20141015-MONOGRAFIA_1-182
 1	–	–	PUNCT	_	_	2	punct	_	_
 2	Brasília	Brasília	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -5409,45 +5359,42 @@
 6	Sest/Senat	Sest/Senat	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	2011	2011	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 5.1.
-# sent_id = 177-20141015-MONOGRAFIA_1-184
+# sent_id = 177-20141015-MONOGRAFIA_1-183
 1	5.1	5.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Principais poluentes -Monóxido de carbono (CO)
-# sent_id = 177-20141015-MONOGRAFIA_1-185
-1	Principais	principais	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+# text = Principais poluentes -Monóxido de carbono (CO) Em condições ambientes de temperatura e pressão é um gás incolor, inodoro e insípido.
+# sent_id = 177-20141015-MONOGRAFIA_1-184
+1	Principais	principais	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
 2	poluentes	poluente	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
-3	-Monóxido	-Monóxer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+3	-Monóxido	-Monóxer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	carbono	carbono	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	CO	CO	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
-
-# text = Em condições ambientes de temperatura e pressão é um gás incolor, inodoro e insípido.
-# sent_id = 177-20141015-MONOGRAFIA_1-186
-1	Em	em	ADP	_	_	2	case	_	_
-2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
-3	ambientes	ambiente	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	gás	gás	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-11	incolor	incolor	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	inodoro	inodoro	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
+9	Em	em	ADP	_	_	10	case	_	_
+10	condições	condição	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+11	ambientes	ambiente	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	e	e	CCONJ	_	_	15	cc	_	_
-15	insípido	insípido	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	10	punct	_	_
+15	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gás	gás	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+19	incolor	incolor	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	inodoro	inodoro	ADJ	_	Gender=Masc|Number=Sing	19	conj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	insípido	insíper	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = É formado devido a combustão incompleta [21].
-# sent_id = 177-20141015-MONOGRAFIA_1-187
+# sent_id = 177-20141015-MONOGRAFIA_1-185
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	formado	formar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	devido	devido	ADV	_	_	5	advmod	_	_
@@ -5460,7 +5407,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Em motores de combustão interna pode ocorrer por causa de mistura rica (falta de oxigênio), mistura ineficiente (baixo “swirl”), ou quando a chama encontra as paredes da câmara de combustão numa teperatura mais baixa (“quenching”).
-# sent_id = 177-20141015-MONOGRAFIA_1-188
+# sent_id = 177-20141015-MONOGRAFIA_1-186
 1	Em	em	ADP	_	_	2	case	_	_
 2	motores	motor	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5515,7 +5462,7 @@
 50	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Pode ocorrer também pela dissociação de CO2 a altas temperaturas.
-# sent_id = 177-20141015-MONOGRAFIA_1-189
+# sent_id = 177-20141015-MONOGRAFIA_1-187
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ocorrer	ocorrer	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	também	também	ADV	_	_	2	advmod	_	_
@@ -5531,7 +5478,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sua inalação prolongada pode levar a morte [18].
-# sent_id = 177-20141015-MONOGRAFIA_1-190
+# sent_id = 177-20141015-MONOGRAFIA_1-188
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
 2	inalação	inalação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	prolongada	prolongar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5545,7 +5492,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = -Óxidos de Nitrôgenio( NOx)
-# sent_id = 177-20141015-MONOGRAFIA_1-191
+# sent_id = 177-20141015-MONOGRAFIA_1-189
 1	-Óxidos	-Óxidos	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Nitrôgenio(	nitrôgenio(	PROPN	_	Number=Sing	1	nmod	_	_
@@ -5553,7 +5500,7 @@
 5	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = O NO é incolor, inodoro e insipído e na presença de O2 é rapidamente convertido em NO2.
-# sent_id = 177-20141015-MONOGRAFIA_1-192
+# sent_id = 177-20141015-MONOGRAFIA_1-190
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2-3	NO	_	_	_	_	_	_	_	_
 2	EM	Em	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -5579,7 +5526,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O NO2 é um gás marrom-avermelhado, com odor forte e tóxico que ataca os alvéolos pulmonares[21].
-# sent_id = 177-20141015-MONOGRAFIA_1-193
+# sent_id = 177-20141015-MONOGRAFIA_1-191
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	NO2	NO2	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -5603,7 +5550,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A formação de NO é proporcional a quantidade de O2 e a temperatura [18].
-# sent_id = 177-20141015-MONOGRAFIA_1-194
+# sent_id = 177-20141015-MONOGRAFIA_1-192
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	7	case	_	_
@@ -5624,33 +5571,30 @@
 17	]	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = -Hidrocarbonetos(HC)
-# sent_id = 177-20141015-MONOGRAFIA_1-195
+# text = -Hidrocarbonetos(HC) Tendem a irritar as mucosas e os olhos, podendo ser cancerígenos [21].
+# sent_id = 177-20141015-MONOGRAFIA_1-193
 1	-Hidrocarbonetos(	-Hidrocarbonetos(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	HC	HC	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
-
-# text = Tendem a irritar as mucosas e os olhos, podendo ser cancerígenos [21].
-# sent_id = 177-20141015-MONOGRAFIA_1-196
-1	Tendem	tender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	a	a	SCONJ	_	_	3	mark	_	_
-3	irritar	irritar	VERB	_	VerbForm=Inf	1	xcomp	_	_
-4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	mucosas	mucosa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
-6	e	e	CCONJ	_	_	8	cc	_	_
-7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	podendo	poder	VERB	_	VerbForm=Ger	1	advcl	_	_
-11	ser	ser	AUX	_	VerbForm=Inf	12	cop	_	_
-12	cancerígenos	cancerígeno	ADJ	_	Gender=Masc|Number=Plur	10	xcomp	_	_
-13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	21	21	NUM	_	NumType=Card	12	obl	_	SpaceAfter=No
-15	]	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	_
+4	Tendem	tender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	irritar	irritar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mucosas	mucosa	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	podendo	poder	VERB	_	VerbForm=Ger	4	advcl	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	cop	_	_
+15	cancerígenos	cancerígeno	ADJ	_	Gender=Masc|Number=Plur	13	xcomp	_	_
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	21	21	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+18	]	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Geralmente são originados por uma combustão incompleta ou por partes do combustível que ficaram presas nas folgas entre o pistão e o cilindro durante a compressão.
-# sent_id = 177-20141015-MONOGRAFIA_1-197
+# sent_id = 177-20141015-MONOGRAFIA_1-194
 1	Geralmente	geralmente	ADV	_	_	3	advmod	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	originados	originar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5684,7 +5628,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Podem ser oriundos também de partes do combustível que foram absorvidas pelo óleo ou por depósitos [18].
-# sent_id = 177-20141015-MONOGRAFIA_1-198
+# sent_id = 177-20141015-MONOGRAFIA_1-195
 1	Podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	cop	_	_
 3	oriundos	oriundo	ADJ	_	Gender=Masc|Number=Plur	1	xcomp	_	_
@@ -5711,11 +5655,11 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = -Particulados
-# sent_id = 177-20141015-MONOGRAFIA_1-199
+# sent_id = 177-20141015-MONOGRAFIA_1-196
 1	-Particulados	-Particular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 
 # text = São contaminantes mecânicos que afetam os pulmões, além de serem cancerígenos.
-# sent_id = 177-20141015-MONOGRAFIA_1-200
+# sent_id = 177-20141015-MONOGRAFIA_1-197
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	contaminantes	contaminante	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	mecânicos	mecânico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5731,7 +5675,7 @@
 13	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Tem presença maior em motores Diesel, sendo responsáveis pela fumaça negra dos mesmos.
-# sent_id = 177-20141015-MONOGRAFIA_1-201
+# sent_id = 177-20141015-MONOGRAFIA_1-198
 1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	maior	grande	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5753,7 +5697,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O principal motivo de sua formação é a combustão incompleta [18].
-# sent_id = 177-20141015-MONOGRAFIA_1-202
+# sent_id = 177-20141015-MONOGRAFIA_1-199
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -5767,16 +5711,16 @@
 11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	18	18	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
 13	]	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = -Aldeídos(HCHO)
-# sent_id = 177-20141015-MONOGRAFIA_1-203
+# sent_id = 177-20141015-MONOGRAFIA_1-200
 1	-Aldeídos(	-Aldeídos(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	HCHO	Hchar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = São substâncias formadas devido a combustão imcompleta, principalmente na partida à frio em motores que utilizam álcool.
-# sent_id = 177-20141015-MONOGRAFIA_1-204
+# sent_id = 177-20141015-MONOGRAFIA_1-201
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	formadas	formar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5802,7 +5746,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Possuem cheiro forte, irritam olhos e mucosas [18].
-# sent_id = 177-20141015-MONOGRAFIA_1-205
+# sent_id = 177-20141015-MONOGRAFIA_1-202
 1	Possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	cheiro	cheiro	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	forte	forte	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -5817,7 +5761,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = -Compostos de enxofre (SOx)
-# sent_id = 177-20141015-MONOGRAFIA_1-206
+# sent_id = 177-20141015-MONOGRAFIA_1-203
 1	-Compostos	-Composto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	enxofre	enxofre	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5826,7 +5770,7 @@
 6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = São provenientes do enxofre presente no combustível, constituindo um problema maior no óleo diesel onde o enxofre exerce uma função lubrificante.
-# sent_id = 177-20141015-MONOGRAFIA_1-207
+# sent_id = 177-20141015-MONOGRAFIA_1-204
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	provenientes	proveniente	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5858,7 +5802,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O principal composto formado é o SO2.
-# sent_id = 177-20141015-MONOGRAFIA_1-208
+# sent_id = 177-20141015-MONOGRAFIA_1-205
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	composto	composto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -5869,7 +5813,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ao reagir com vapor d‟água pode formar ácidos [18].
-# sent_id = 177-20141015-MONOGRAFIA_1-209
+# sent_id = 177-20141015-MONOGRAFIA_1-206
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5887,12 +5831,12 @@
 14	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 5.2.
-# sent_id = 177-20141015-MONOGRAFIA_1-210
+# sent_id = 177-20141015-MONOGRAFIA_1-207
 1	5.2	5.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Medição das emissões de poluentes -Analisador Infravermelho Não Dispersivo (NDIR-
-# sent_id = 177-20141015-MONOGRAFIA_1-211
+# text = Medição das emissões de poluentes -Analisador Infravermelho Não Dispersivo (NDIR-Non-dispersive Infrared Analyser)
+# sent_id = 177-20141015-MONOGRAFIA_1-208
 1	Medição	medição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5905,18 +5849,13 @@
 9	Não	Não	PROPN	_	Number=Sing	7	flat:name	_	_
 10	Dispersivo	dispersivo	PROPN	_	Number=Sing	7	flat:name	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	NDIR	NDIR	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
-13	-	-	PUNCT	_	_	12	punct	_	_
-
-# text = Non-dispersive Infrared Analyser)
-# sent_id = 177-20141015-MONOGRAFIA_1-212
-1	Non-dispersive	Non-dispersive	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
-2	Infrared	Infrared	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Analyser	Analyser	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	1	punct	_	_
+12	NDIR-Non-dispersive	NDIR-Non-dispersive	PROPN	_	Number=Sing	7	appos	_	_
+13	Infrared	Infrared	PROPN	_	Number=Sing	12	flat:name	_	_
+14	Analyser	Analyser	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	12	punct	_	_
 
 # text = Usualmente empregado na medição de CO e CO2, se baseia no princípio de que algumas moléculas absorvem radiação em faixas muito específicas do espectro luminoso.
-# sent_id = 177-20141015-MONOGRAFIA_1-213
+# sent_id = 177-20141015-MONOGRAFIA_1-209
 1	Usualmente	Usualmente	ADV	_	_	2	advmod	_	_
 2	empregado	empregar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -5952,7 +5891,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O CO2, por exemplo, tem maior absorção com comprimentos de onda na faixa de 4,2μm enquanto o CO em torno de 4,6μm.
-# sent_id = 177-20141015-MONOGRAFIA_1-214
+# sent_id = 177-20141015-MONOGRAFIA_1-210
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -5982,7 +5921,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim a intensidade e a faixa de absorção indicam o tipo de molécula e a sua concentração.
-# sent_id = 177-20141015-MONOGRAFIA_1-215
+# sent_id = 177-20141015-MONOGRAFIA_1-211
 1	Assim	assim	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	intensidade	intensidade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -6003,7 +5942,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Geralmente a faixa de maior absorção se encontra no infravermelho.
-# sent_id = 177-20141015-MONOGRAFIA_1-216
+# sent_id = 177-20141015-MONOGRAFIA_1-212
 1	Geralmente	geralmente	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -6019,7 +5958,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = É dito não dispersivo, pois toda a luz policromática da fonte passa através da amostra de gás antes de atravessar por um filtro em frente ao sensor, enquanto que em sistemas dispersivos a luz de origem é filtrada para uma estreita faixa de frequência antes da amostra [22].
-# sent_id = 177-20141015-MONOGRAFIA_1-217
+# sent_id = 177-20141015-MONOGRAFIA_1-213
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	dito	dito	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -6083,11 +6022,11 @@
 57	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = -Analisador
-# sent_id = 177-20141015-MONOGRAFIA_1-218
+# sent_id = 177-20141015-MONOGRAFIA_1-214
 1	-Analisador	-Analisador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Infravermelho com Transformada de Fourier (FTIR-Fourier
-# sent_id = 177-20141015-MONOGRAFIA_1-219
+# sent_id = 177-20141015-MONOGRAFIA_1-215
 1	Infravermelho	Infravermelho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	com	com	ADP	_	_	3	case	_	_
 3	Transformada	transformada	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6097,14 +6036,14 @@
 7	FTIR-Fourier	FTIR-Fourier	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Transform Infrared Analyser)
-# sent_id = 177-20141015-MONOGRAFIA_1-220
+# sent_id = 177-20141015-MONOGRAFIA_1-216
 1	Transform	Transform	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Infrared	Infrared	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Analyser	Analyser	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = O analisador infravermelho com transformada de Fourier (FTIR) baseia-se no princípio de que algumas moléculas absorvem radiação em faixas muito específicas do espectro luminoso.
-# sent_id = 177-20141015-MONOGRAFIA_1-221
+# sent_id = 177-20141015-MONOGRAFIA_1-217
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	analisador	analisador	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	infravermelho	infravermelho	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6140,7 +6079,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O mesmo realiza uma análise com a Transformada de Fourier de todo o espectro de absorção infravermelho da amostra de gás.
-# sent_id = 177-20141015-MONOGRAFIA_1-222
+# sent_id = 177-20141015-MONOGRAFIA_1-218
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	realiza	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6167,7 +6106,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Isso faz com que ele seja capaz de medir as emissões de um grande número de componentes.
-# sent_id = 177-20141015-MONOGRAFIA_1-223
+# sent_id = 177-20141015-MONOGRAFIA_1-219
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	com	com	SCONJ	_	_	7	mark	_	_
@@ -6188,11 +6127,11 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O mesmo é útil sobretudo na medição de emissões de motores de combustão usando álcool já que os aldeídos e álcoois não queimados podem ser detectados [22].
-# sent_id = 177-20141015-MONOGRAFIA_1-224
+# sent_id = 177-20141015-MONOGRAFIA_1-220
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	útil	útil	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	útil	útil	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
 5	sobretudo	sobretudo	ADV	_	_	8	advmod	_	_
 6-7	na	_	_	_	_	_	_	_	_
 6	em	em	ADP	_	_	8	case	_	_
@@ -6222,20 +6161,18 @@
 30	]	_	PUNCT	_	_	29	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = -Detector de Quimioluminescência (CLD- Chemiluminescence Detector)
-# sent_id = 177-20141015-MONOGRAFIA_1-225
+# text = -Detector de Quimioluminescência (CLD-Chemiluminescence Detector)
+# sent_id = 177-20141015-MONOGRAFIA_1-221
 1	-Detector	-Detector	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Quimioluminescência	Quimioluminescência	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	CLD	CLD	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-6	-	-	PUNCT	_	_	5	punct	_	_
-7	Chemiluminescence	Chemiluminescence	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-8	Detector	detector	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	5	punct	_	_
+5	CLD-Chemiluminescence	CLD-Chemiluminescence	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+6	Detector	detector	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = É usado para medir as emissões de NOx .
-# sent_id = 177-20141015-MONOGRAFIA_1-226
+# sent_id = 177-20141015-MONOGRAFIA_1-222
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	para	para	SCONJ	_	_	4	mark	_	_
@@ -6247,7 +6184,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A quimioluminescência é o fenomeno pelo qual algumas reações químicas pruduzem luz (fóton).
-# sent_id = 177-20141015-MONOGRAFIA_1-227
+# sent_id = 177-20141015-MONOGRAFIA_1-223
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quimioluminescência	quimioluminescência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -6267,43 +6204,25 @@
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Pelo objetivo ser medir NOx, a reação de interesse é: NO + O3 → NO2 + O2 → NO2 +
-# sent_id = 177-20141015-MONOGRAFIA_1-228
+# text = Pelo objetivo ser medir NOx, a reação de interesse é:
+# sent_id = 177-20141015-MONOGRAFIA_1-224
 1-2	Pelo	_	_	_	_	_	_	_	_
 1	Por	por	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 4	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	5	aux	_	_
-5	medir	medir	VERB	_	VerbForm=Inf	16	csubj	_	_
+5	medir	medir	VERB	_	VerbForm=Inf	0	root	_	_
 6	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	reação	reação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+9	reação	reação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	12	punct	_	_
-14-15	NO	_	_	_	_	_	_	_	_
-14	EM	em	ADP	_	_	16	case	_	_
-15	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	+	+	SYM	_	_	24	nmod	_	_
-17	O3	O3	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	_
-18	→	→	SYM	_	_	17	appos	_	_
-19	NO2	NO2	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-20	+	+	SYM	_	_	18	appos	_	_
-21	O2	O2	PROPN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-22	→	→	SYM	_	_	20	appos	_	_
-23	NO2	NO2	PROPN	_	Gender=Fem|Number=Sing	22	appos	_	_
-24	+	+	SYM	_	_	0	root	_	_
-
-# text = O2 + fóton
-# sent_id = 177-20141015-MONOGRAFIA_1-229
-1	O2	O2	NUM	_	NumType=Card	2	nummod	_	_
-2	+	+	SYM	_	_	0	root	_	_
-3	fóton	fóton	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = No detector, o NO2 é convertido cataliticamente em NO e o ozônio é produzido através de descarga elétrica no oxigênio a baixa pressão numa câmara de vácuo aquecida.
-# sent_id = 177-20141015-MONOGRAFIA_1-230
+# sent_id = 177-20141015-MONOGRAFIA_1-225
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6344,7 +6263,7 @@
 34	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A luz (quantidade de fótons) é medida por um fotomultiplicador que indica a concentração de NOx na amostra [22].
-# sent_id = 177-20141015-MONOGRAFIA_1-231
+# sent_id = 177-20141015-MONOGRAFIA_1-226
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	luz	luz	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6372,22 +6291,21 @@
 24	]	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = -Detector de Ionização de Chama (FID- Flame Ionization Detector)
-# sent_id = 177-20141015-MONOGRAFIA_1-232
+# text = -Detector de Ionização de Chama (FID-Flame Ionization Detector)
+# sent_id = 177-20141015-MONOGRAFIA_1-227
 1	-Detector	-Detector	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ionização	Ionização	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Chama	chama	PROPN	_	Number=Sing	3	nmod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	FID-	Fid-	PROPN	_	Number=Sing	1	appos	_	_
-8	Flame	Flame	PROPN	_	Number=Sing	7	flat:name	_	_
-9	Ionization	Ionization	PROPN	_	Number=Sing	7	flat:name	_	_
-10	Detector	detector	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	7	punct	_	_
+7	FID-Flame	FID-Flame	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+8	Ionization	Ionization	PROPN	_	Number=Sing	7	flat:name	_	_
+9	Detector	detector	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = Por ter uma alta sensibilidade em relação à substâncias que têm presença de carbono, é usada na medição de hidrocarbonetos, porém não é recomendado o seu uso com combustíveis oxigenados, pois a presença de compostos, como os aldeídos, nos gases de descarga pode introduzir erros nas medições.
-# sent_id = 177-20141015-MONOGRAFIA_1-233
+# sent_id = 177-20141015-MONOGRAFIA_1-228
 1	Por	por	ADP	_	_	5	case	_	_
 2	ter	ter	AUX	_	VerbForm=Inf	5	cop	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -6451,7 +6369,7 @@
 57	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Seu funcionamento consiste na queima controlada dos gases a serem analisados com um combustível adicional (hélio ou hidrogênio), produzindo elétrons livres e íons positivos que são detectados por um ânodo e um cátodo, gerando um campo elétrico proporcional à concentração de hidrocarbonetos [22].
-# sent_id = 177-20141015-MONOGRAFIA_1-234
+# sent_id = 177-20141015-MONOGRAFIA_1-229
 1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6510,7 +6428,7 @@
 53	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = -Analisador Paramagnético (PMD-Paramagnetic detection analyser )
-# sent_id = 177-20141015-MONOGRAFIA_1-235
+# sent_id = 177-20141015-MONOGRAFIA_1-230
 1	-Analisador	-Analisador	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Paramagnético	Paramagnético	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6520,7 +6438,7 @@
 7	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = É usado para medir o oxigênio.
-# sent_id = 177-20141015-MONOGRAFIA_1-236
+# sent_id = 177-20141015-MONOGRAFIA_1-231
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	para	para	SCONJ	_	_	4	mark	_	_
@@ -6530,7 +6448,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Seu funcionamento é baseado no fato de que o oxigênio é um gás paramagnético (é atraído por campos magnéticos).
-# sent_id = 177-20141015-MONOGRAFIA_1-237
+# sent_id = 177-20141015-MONOGRAFIA_1-232
 1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6557,7 +6475,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Dentro da célula de medição, as moléculas de oxigênio são levadas por um campo magnético forte e heterogêneo onde elas tendem a se acumular na zona de fluxo mais forte e fisicamente deslocar um detector cuja deformação é proporcional à concentração de oxigênio.
-# sent_id = 177-20141015-MONOGRAFIA_1-238
+# sent_id = 177-20141015-MONOGRAFIA_1-233
 1	Dentro	dentro	ADV	_	_	13	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6611,7 +6529,7 @@
 48	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Como NOx e CO2 mostram algumas características paramagnéticas, o analisador tem que ser capaz de calcular uma compensação para essa interferência [22].
-# sent_id = 177-20141015-MONOGRAFIA_1-239
+# sent_id = 177-20141015-MONOGRAFIA_1-234
 1	Como	como	ADP	_	_	2	case	_	_
 2	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6637,16 +6555,16 @@
 23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	22	22	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
 25	]	_	PUNCT	_	_	24	punct	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = -Sensores Eletroquímicos
-# sent_id = 177-20141015-MONOGRAFIA_1-240
+# sent_id = 177-20141015-MONOGRAFIA_1-235
 1	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Sensores	Sensores	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	Eletroquímicos	Eletroquímicos	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Os sensores eletroquímicos são os sensores mais usados no mundo para medições de concentrações gasosas.
-# sent_id = 177-20141015-MONOGRAFIA_1-241
+# sent_id = 177-20141015-MONOGRAFIA_1-236
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sensores	sensor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	eletroquímicos	eletroquímico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -6667,7 +6585,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Eles se baseiam em reações espontâneas de oxidação e redução do gás a ser medido, as quais geram uma circulação de uma corrente elétrica entre os eletrodos, que é proporcional a concentração do gás.
-# sent_id = 177-20141015-MONOGRAFIA_1-242
+# sent_id = 177-20141015-MONOGRAFIA_1-237
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
 3	baseiam	basear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6711,7 +6629,7 @@
 39	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O eletrólito, os eletrodos e o material a ser oxidado definem qual gás a ser mensurado [23].
-# sent_id = 177-20141015-MONOGRAFIA_1-243
+# sent_id = 177-20141015-MONOGRAFIA_1-238
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	eletrólito	eletrólito	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -6732,20 +6650,20 @@
 18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	23	23	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
 20	]	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = 6.
-# sent_id = 177-20141015-MONOGRAFIA_1-244
+# sent_id = 177-20141015-MONOGRAFIA_1-239
 1	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Aparato experimental
-# sent_id = 177-20141015-MONOGRAFIA_1-245
+# sent_id = 177-20141015-MONOGRAFIA_1-240
 1	Aparato	aparato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = Para este trabalho foi utilizado a bancada de testes do motor ASTM CFR Cetano, fabricado pela WAUKESHA Co., que se encontra no Núcleo de Ensaio de Combustíveis Automotivos do Laboratório de Máquinas Térmicas da Universidade Federal do Rio de Janeiro (LMT – UFRJ).
-# sent_id = 177-20141015-MONOGRAFIA_1-246
+# sent_id = 177-20141015-MONOGRAFIA_1-241
 1	Para	para	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -6808,7 +6726,7 @@
 54	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tal bancada foi escolhida principalmente por seu motor apresentar razões de compressão, débito de combustível, avanço de injeção e temperatura do ar de entrada variáveis.
-# sent_id = 177-20141015-MONOGRAFIA_1-247
+# sent_id = 177-20141015-MONOGRAFIA_1-242
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	bancada	bancado	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6841,16 +6759,16 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 6.1.
-# sent_id = 177-20141015-MONOGRAFIA_1-248
+# sent_id = 177-20141015-MONOGRAFIA_1-243
 1	6.1	6.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Motor
-# sent_id = 177-20141015-MONOGRAFIA_1-249
+# sent_id = 177-20141015-MONOGRAFIA_1-244
 1	Motor	motor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O motor (Figura 6.1) é monocilíndrico de quatro tempos e ignição por compressão, com injeção indireta e taxa de compressão variável.
-# sent_id = 177-20141015-MONOGRAFIA_1-250
+# sent_id = 177-20141015-MONOGRAFIA_1-245
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motor	motor	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6878,7 +6796,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Possui múltiplos sistemas de reservatório de combustível, com válvulas seletoras, montagem de injetor com bico injetor específico, controles elétricos, e uma tubulação de descarga adequada.
-# sent_id = 177-20141015-MONOGRAFIA_1-251
+# sent_id = 177-20141015-MONOGRAFIA_1-246
 1	Possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	múltiplos	múltiplo	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -6911,7 +6829,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O motor opera em rotação fixa controlada por um motor elétrico síncrono.
-# sent_id = 177-20141015-MONOGRAFIA_1-252
+# sent_id = 177-20141015-MONOGRAFIA_1-247
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motor	motor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	opera	operar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6927,7 +6845,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O mesmo é ligado ao motor por correias e funciona como motor de partida para quando quisermos ligar o motor, ou para absorver energia, em uma velocidade constante, enquanto a combustão ocorre.
-# sent_id = 177-20141015-MONOGRAFIA_1-253
+# sent_id = 177-20141015-MONOGRAFIA_1-248
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6968,7 +6886,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Abaixo estão listados dados técnicos e geométricos do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-254
+# sent_id = 177-20141015-MONOGRAFIA_1-249
 1	Abaixo	abaixo	ADV	_	_	3	advmod	_	_
 2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	listados	listado	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -6983,7 +6901,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text =  Diâmetro do cilindro: 83 mm  Curso do pistão: 114 mm  Volume da pré-câmara de combustão: 4,291 x 10-5 m3 
-# sent_id = 177-20141015-MONOGRAFIA_1-255
+# sent_id = 177-20141015-MONOGRAFIA_1-250
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Diâmetro	Diâmetro	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7017,8 +6935,8 @@
 28	m3	m3	NUM	_	NumType=Card	27	flat	_	_
 29			PROPN	_	Number=Sing	27	flat:name	_	_
 
-# text = Velocidade do pistão: 3,42 m/s  Rotação do motor: 900 rpm  Relação biela/manivela: 4,44  Peso do motor aproximado: 399,16 kg (880 lb)  Peso da bancada de testes aproximado: 1247,38 kg (2750 lb)  Variação da razão de compressão: entre 8:1 e 36:1 6.2.
-# sent_id = 177-20141015-MONOGRAFIA_1-256
+# text = Velocidade do pistão: 3,42 m/s  Rotação do motor: 900 rpm  Relação biela/manivela: 4,44  Peso do motor aproximado: 399,16 kg (880 lb)  Peso da bancada de testes aproximado: 1247,38 kg (2750 lb)  Variação da razão de compressão: entre 8:1 e 36:1
+# sent_id = 177-20141015-MONOGRAFIA_1-251
 1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7083,14 +7001,24 @@
 57	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
 58	:	:	PUNCT	_	_	1	punct	_	_
 59	entre	entre	ADP	_	_	60	case	_	_
-60	8:1	8:1	NUM	_	NumType=Card	63	nummod	_	_
+60	8:1	8:1	NUM	_	NumType=Card	1	nummod	_	_
 61	e	e	CCONJ	_	_	62	cc	_	_
-62	36:1	36:1	NUM	_	NumType=Card	60	conj	_	_
-63	6.2	6.2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-64	.	.	PUNCT	_	_	1	punct	_	_
+62	36:1	36:1	NUM	_	NumType=Card	60	conj	_	SpacesAfter=\s\n
+
+# text = Figura 6.1 - Motor ASTM CFR Cetano 6.2.
+# sent_id = 177-20141015-MONOGRAFIA_1-252
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	6.1	6.1	NUM	_	NumType=Card	0	root	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Motor	Motor	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+5	ASTM	astm	PROPN	_	Number=Sing	4	flat:name	_	_
+6	CFR	CFR	PROPN	_	Number=Sing	4	flat:name	_	_
+7	Cetano	Cetano	PROPN	_	Number=Sing	4	flat:name	_	_
+8	6.2	6.2	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Instrumentação e Sistemas de controle 6.2.1.
-# sent_id = 177-20141015-MONOGRAFIA_1-257
+# sent_id = 177-20141015-MONOGRAFIA_1-253
 1	Instrumentação	Instrumentação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Sistemas	sistema	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -7100,13 +7028,13 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Medição de Temperatura
-# sent_id = 177-20141015-MONOGRAFIA_1-258
+# sent_id = 177-20141015-MONOGRAFIA_1-254
 1	Medição	medição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = O próprio motor possui um sensor de temperatura do óleo lubrificante e termômetros para possibilitar o controle da temperatura em alguns pontos do motor, tais como: 
-# sent_id = 177-20141015-MONOGRAFIA_1-259
+# sent_id = 177-20141015-MONOGRAFIA_1-255
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Emp	3	det	_	_
 3	motor	motor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -7144,7 +7072,7 @@
 32			PROPN	_	Number=Sing	16	appos:parataxis	_	_
 
 # text = Temperatura do ar de admissão: pode ser controlada através de um termostato instalado no painel do motor ligado a uma resistência elétrica instalada no duto de admissão;  Temperatura de água de arrefecimento do cabeçote e temperatura da água de arrefecimento do motor: o motor opera com dois circuitos de água de arrefecimento, um aberto para resfriar o bico injetor e outro fechado para o bloco do cabeçote do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-260
+# sent_id = 177-20141015-MONOGRAFIA_1-256
 1	Temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7237,28 +7165,26 @@
 81	de	de	ADP	_	_	83	case	_	_
 82	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
 83	motor	motor	NOUN	_	Gender=Masc|Number=Sing	80	nmod	_	SpaceAfter=No
-84	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+84	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
-# text = 6.2.2- Medição no atraso de ignição e avanço da injeção
-# sent_id = 177-20141015-MONOGRAFIA_1-261
-1	6.2.2	6.2.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	_
-3	Medição	medição	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4-5	no	_	_	_	_	_	_	_	_
-4	em	em	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	e	e	CCONJ	_	_	10	cc	_	_
-10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+# text = 6.2.2-Medição no atraso de ignição e avanço da injeção
+# sent_id = 177-20141015-MONOGRAFIA_1-257
+1	6.2.2-Medição	6.2.2-Medição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 
 # text = O motor é equipado com um medidor transistorizado de atraso de ignição do combustível („Ignition Delay Meter‟) que através de um sensor de pressão instalado na câmara de combustão („pick up‟) e sensores de posição instalados no volante do motor indica o atraso de ignição (Figura 6.2).
-# sent_id = 177-20141015-MONOGRAFIA_1-262
+# sent_id = 177-20141015-MONOGRAFIA_1-258
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motor	motor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -7327,7 +7253,7 @@
 62	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O mesmo instrumento também mede o avanço de injeção através dos sensores de posição instalados no volante do motor e de um sensor instalado no bico injetor que indica o instante de início de injeção de combustível.
-# sent_id = 177-20141015-MONOGRAFIA_1-263
+# sent_id = 177-20141015-MONOGRAFIA_1-259
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	instrumento	instrumento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -7376,7 +7302,7 @@
 42	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A injeção pode ser controlada através de um sistema onde, se ajustando uma alavanca, pode-se aumentar ou diminuir o avanço da injeção.
-# sent_id = 177-20141015-MONOGRAFIA_1-264
+# sent_id = 177-20141015-MONOGRAFIA_1-260
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7408,18 +7334,18 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 6.2.3.
-# sent_id = 177-20141015-MONOGRAFIA_1-265
+# sent_id = 177-20141015-MONOGRAFIA_1-261
 1	6.2.3	6.2.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Vazão de combustível
-# sent_id = 177-20141015-MONOGRAFIA_1-266
+# sent_id = 177-20141015-MONOGRAFIA_1-262
 1	Vazão	Vazão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Os reservatórios de combustível do motor possuem buretas volumétricas anexas aos mesmos e com o auxílio de um cronômetro foi possível fixar o débito de combustível em 13 0,2 ml/min.
-# sent_id = 177-20141015-MONOGRAFIA_1-267
+# sent_id = 177-20141015-MONOGRAFIA_1-263
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7457,7 +7383,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Tal vazão foi escolhida por ser a mesma empregada no teste padrão do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-268
+# sent_id = 177-20141015-MONOGRAFIA_1-264
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7478,8 +7404,8 @@
 16	motor	motor	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Para cada mistura de combustível diferente empregada foi necessária uma verificação dos parâmetros da bomba (Figura 6.3) que são ajustados por uma cremalheira que controla o movimento rotativo do pistão da bomba.
-# sent_id = 177-20141015-MONOGRAFIA_1-269
+# text = Para cada mistura de combustível diferente empregada foi necessária uma verificação dos parâmetros da bomba (Figura 6.3) que são ajustados por uma Figura 6.3 - Elementos da bomba em linha.
+# sent_id = 177-20141015-MONOGRAFIA_1-265
 1	Para	para	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -7488,7 +7414,7 @@
 6	diferente	diferente	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	empregada	empregar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	_
 8	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
-9	necessária	necessário	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+9	necessária	necessário	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n
 10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	verificação	verificação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 12-13	dos	_	_	_	_	_	_	_	_
@@ -7508,65 +7434,41 @@
 24	ajustados	ajustar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
 25	por	por	ADP	_	_	27	case	_	_
 26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	cremalheira	cremalheira	NOUN	_	Gender=Fem|Number=Sing	24	obl:agent	_	_
-28	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	29	nsubj	_	_
-29	controla	controlar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	movimento	movimento	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
-32	rotativo	rotativo	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
-33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	pistão	pistão	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-36-37	da	_	_	_	_	_	_	_	_
-36	de	de	ADP	_	_	38	case	_	_
-37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+27	Figura	figuro	NOUN	_	Gender=Fem|Number=Sing	24	obl:agent	_	_
+28	6.3	6.3	NUM	_	NumType=Card	30	nummod	_	_
+29	-	-	PUNCT	_	_	28	punct	_	_
+30	Elementos	elementos	PROPN	_	Gender=Masc|Number=Plur	27	appos	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	linha	linha	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Figura 6.3 -
-# sent_id = 177-20141015-MONOGRAFIA_1-270
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	6.3	6.3	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Elementos da bomba em linha.
-# sent_id = 177-20141015-MONOGRAFIA_1-271
-1	Elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	em	em	ADP	_	_	6	case	_	_
-6	linha	linha	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = Fonte:
-# sent_id = 177-20141015-MONOGRAFIA_1-272
+# text = Fonte: Apostila técnica Bosch.
+# sent_id = 177-20141015-MONOGRAFIA_1-266
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Apostila técnica Bosch.
-# sent_id = 177-20141015-MONOGRAFIA_1-273
-1	Apostila	Apostila	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	técnica	técnico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-3	Bosch	Bosch	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
+3	Apostila	Apostila	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+4	técnica	técnica	PROPN	_	Number=Sing	3	flat:name	_	_
+5	Bosch	Bosch	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Bombas injetoras
-# sent_id = 177-20141015-MONOGRAFIA_1-274
+# sent_id = 177-20141015-MONOGRAFIA_1-267
 1	Bombas	bomba	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	injetoras	injetor	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 
 # text = PE e PF.
-# sent_id = 177-20141015-MONOGRAFIA_1-275
+# sent_id = 177-20141015-MONOGRAFIA_1-268
 1	PE	PE	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	PF	PF	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O pistão possui externamente uma ranhura longitudinal e uma hélice (ranhura oblíqua fresada).
-# sent_id = 177-20141015-MONOGRAFIA_1-276
+# sent_id = 177-20141015-MONOGRAFIA_1-269
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pistão	pistão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7585,7 +7487,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Uma cremalheira aciona a manga de regulagem que desloca a asa do pistão fazendo o pistão mover-se no sentido horário e anti-horário.
-# sent_id = 177-20141015-MONOGRAFIA_1-277
+# sent_id = 177-20141015-MONOGRAFIA_1-270
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cremalheira	cremalheira	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	aciona	acionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7617,7 +7519,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Girar o pistão no sentido horário ou anti-horário controla o débito de combustível, pois o fim do débito se dá quando a ranhura helicoidal atinge o furo de alimentação.
-# sent_id = 177-20141015-MONOGRAFIA_1-278
+# sent_id = 177-20141015-MONOGRAFIA_1-271
 1	Girar	Girar	VERB	_	VerbForm=Inf	10	acl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	pistão	pistão	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -7655,7 +7557,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Quando a ranhura vertical do pistão coincide com o furo de alimentação, o débito de combustível é nulo, portanto o motor não funciona.
-# sent_id = 177-20141015-MONOGRAFIA_1-279
+# sent_id = 177-20141015-MONOGRAFIA_1-272
 1	Quando	quando	SCONJ	_	_	8	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ranhura	ranhura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -7686,7 +7588,7 @@
 27	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = O funcionamento desse mecanismo de controle exercido pela cremalheira esta representado na Figura 6.4.
-# sent_id = 177-20141015-MONOGRAFIA_1-280
+# sent_id = 177-20141015-MONOGRAFIA_1-273
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -7707,23 +7609,15 @@
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 17	6.4	6.4	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
-
-# text = Fonte: Folder Bosch.
-# sent_id = 177-20141015-MONOGRAFIA_1-281
-1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	Folder	Folder	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	Bosch	Bosch	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 6.2.4.
-# sent_id = 177-20141015-MONOGRAFIA_1-282
+# sent_id = 177-20141015-MONOGRAFIA_1-274
 1	6.2.4	6.2.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de variação na razão de compressão
-# sent_id = 177-20141015-MONOGRAFIA_1-283
+# sent_id = 177-20141015-MONOGRAFIA_1-275
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	variação	variação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7735,7 +7629,7 @@
 8	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 
 # text = Uma das vantagens do motor CFR Cetano é o mesmo possuir sistema de variação da razão de compressão.
-# sent_id = 177-20141015-MONOGRAFIA_1-284
+# sent_id = 177-20141015-MONOGRAFIA_1-276
 1	Uma	um	NUM	_	NumType=Card	13	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7763,7 +7657,7 @@
 22	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Através de um volante, mostrado pela Figura 6.5, pode-se alterar a geometria da pré-câmara de combustão.
-# sent_id = 177-20141015-MONOGRAFIA_1-285
+# sent_id = 177-20141015-MONOGRAFIA_1-277
 1	Através	através	ADV	_	_	6	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7791,7 +7685,7 @@
 22	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Fonte: ASTM, Test Method for Standard, Ignition Quality of Diesel Fuels By the Cetane Method,ASTM D 613, 1985
-# sent_id = 177-20141015-MONOGRAFIA_1-286
+# sent_id = 177-20141015-MONOGRAFIA_1-278
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ASTM	ASTM	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -7814,10 +7708,10 @@
 20	D	D	PROPN	_	Number=Sing	10	flat:name	_	_
 21	613	613	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	1985	1985	NUM	_	NumType=Card	1	appos:parataxis	_	_
+23	1985	1985	NUM	_	NumType=Card	1	appos:parataxis	_	SpacesAfter=\s\n
 
 # text = Diminuindo-se a mesma aumenta-se por conseqüência a razão de compressão.
-# sent_id = 177-20141015-MONOGRAFIA_1-287
+# sent_id = 177-20141015-MONOGRAFIA_1-279
 1-2	Diminuindo-se	_	_	_	_	_	_	_	_
 1	Diminuindo	diminuir	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -7835,7 +7729,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Tal correspondência é dada pela conversão apresentada pela tabela abaixo (Figura 6.6), onde dado o grau de rotação do volante temos a razão de compressão correspondente.
-# sent_id = 177-20141015-MONOGRAFIA_1-288
+# sent_id = 177-20141015-MONOGRAFIA_1-280
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	correspondência	correspondência	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -7874,7 +7768,7 @@
 33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Fonte: ASTM, Test Method for Standard, Ignition Quality of Diesel Fuels By the Cetane Method,ASTM D 613,1985 6.2.5.
-# sent_id = 177-20141015-MONOGRAFIA_1-289
+# sent_id = 177-20141015-MONOGRAFIA_1-281
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ASTM	ASTM	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -7900,13 +7794,13 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Medição de emissões
-# sent_id = 177-20141015-MONOGRAFIA_1-290
+# sent_id = 177-20141015-MONOGRAFIA_1-282
 1	Medição	medição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = Para efetuar as medições de emissões foi introduzida uma sonda (Figura 6.7) no duto de descarga do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-291
+# sent_id = 177-20141015-MONOGRAFIA_1-283
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	efetuar	efetuar	VERB	_	VerbForm=Inf	8	advcl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -7934,7 +7828,7 @@
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A esta sonda foi acoplado um analisador de gases TESTO 350 (Figura 6.8), que através de um analisador infravermelho não dispersivo (NDIR) e de sensores eletroquímicos, é capaz de mensurar NOx, CO2, CO, O2 e SO2.
-# sent_id = 177-20141015-MONOGRAFIA_1-292
+# sent_id = 177-20141015-MONOGRAFIA_1-284
 1	A	a	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	sonda	sonda	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -7983,7 +7877,7 @@
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Informações como a resolução, o tempo de resposta, a faixa de aplicação e a precisão nas medições encontram-se no Apêndice II.
-# sent_id = 177-20141015-MONOGRAFIA_1-293
+# sent_id = 177-20141015-MONOGRAFIA_1-285
 1	Informações	informação	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 2	como	como	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8013,10 +7907,19 @@
 24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Apêndice	Apêndice	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
 26	II	II	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n\n
+
+# text = Figura 6.7 - Sonda de emissões
+# sent_id = 177-20141015-MONOGRAFIA_1-286
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	6.7	6.7	NUM	_	NumType=Card	4	nummod	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Sonda	Sonda	PROPN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 
 # text = Figura 6.8 – Analisador de gases TESTO 350 7.
-# sent_id = 177-20141015-MONOGRAFIA_1-294
+# sent_id = 177-20141015-MONOGRAFIA_1-287
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	6.8	6.8	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -8024,18 +7927,18 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	gases	gase	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 7	TESTO	Ter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
-8	350	350	NUM	_	NumType=Card	7	nummod	_	_
+8	350	350	NUM	_	NumType=Card	7	nummod	_	SpacesAfter=\s\n
 9	7	7	NUM	_	NumType=Card	8	flat	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Experimentos 7.1.
-# sent_id = 177-20141015-MONOGRAFIA_1-295
+# sent_id = 177-20141015-MONOGRAFIA_1-288
 1	Experimentos	Experimento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	7.1	7.1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Preparação das misturas de combustíveis
-# sent_id = 177-20141015-MONOGRAFIA_1-296
+# sent_id = 177-20141015-MONOGRAFIA_1-289
 1	Preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8045,7 +7948,7 @@
 6	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 
 # text = Este trabalho se propôs a testar B5, B20 e B60.
-# sent_id = 177-20141015-MONOGRAFIA_1-297
+# sent_id = 177-20141015-MONOGRAFIA_1-290
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -8060,7 +7963,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Para obté-las foram feitas misturas com diesel comercial metropolitano S500 (B5) e biodiesel de óleo de dendê (B100).
-# sent_id = 177-20141015-MONOGRAFIA_1-298
+# sent_id = 177-20141015-MONOGRAFIA_1-291
 1	Para	para	ADP	_	_	2	case	_	_
 2-3	obté-las	_	_	_	_	_	_	_	_
 2	obté	obté	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -8088,7 +7991,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Análises químicas feitas mostraram que as características do biodiesel utilizado (tabela A III.1), com exceção do índice de acidez (0,7 mg KOH/g onde o limite é 0,5 mg KOH/g), estavam de acordo com as normas da ANP (tabela A III.2).
-# sent_id = 177-20141015-MONOGRAFIA_1-299
+# sent_id = 177-20141015-MONOGRAFIA_1-292
 1	Análises	Análise	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 2	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	feitas	feito	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
@@ -8146,7 +8049,7 @@
 52	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = As referidas norma e análises se encontram no Apêndice III, assim como as especificações para o óleo diesel de uso rodoviário (tabela A III.3).
-# sent_id = 177-20141015-MONOGRAFIA_1-300
+# sent_id = 177-20141015-MONOGRAFIA_1-293
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	referidas	referir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	acl	_	_
 3	norma	norma	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -8179,7 +8082,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Para o B20, calculou-se que a mistura teria que ter aproximadamente 84,2% de B5 e 15,8% de B100 em volume.
-# sent_id = 177-20141015-MONOGRAFIA_1-301
+# sent_id = 177-20141015-MONOGRAFIA_1-294
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	B20	B20	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -8208,7 +8111,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Já o B60 teria que ter 42,1% de B5 e 57,9% de B100.
-# sent_id = 177-20141015-MONOGRAFIA_1-302
+# sent_id = 177-20141015-MONOGRAFIA_1-295
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	B60	B60	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -8227,7 +8130,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Com o intuito de se obter maior precisão foram medidas as massas específicas do B5 e do B100 (Figura 7.1), para passar a proporção de volume para massa e assim poder fazer o uso de uma balança de precisão.
-# sent_id = 177-20141015-MONOGRAFIA_1-303
+# sent_id = 177-20141015-MONOGRAFIA_1-296
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -8277,7 +8180,7 @@
 45	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = A massa específica foi calculada pesando 500 ml do combustível em questão numa bureta calibrada em uma balança de precisão.
-# sent_id = 177-20141015-MONOGRAFIA_1-304
+# sent_id = 177-20141015-MONOGRAFIA_1-297
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	específica	específico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8305,7 +8208,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Com tal procedimento, obteve-se 833,4 g/l de massa específica para o B5 e 865,8 g/l para o B100.
-# sent_id = 177-20141015-MONOGRAFIA_1-305
+# sent_id = 177-20141015-MONOGRAFIA_1-298
 1	Com	com	ADP	_	_	3	case	_	_
 2	tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -8327,10 +8230,10 @@
 18	para	para	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	B100	B100	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7.1 - Cálculo da massa específica do Biodiesel (B100)
-# sent_id = 177-20141015-MONOGRAFIA_1-306
+# sent_id = 177-20141015-MONOGRAFIA_1-299
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7.1	7.1	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -8349,7 +8252,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = De posse de tais valores, chegou-se a conclusão que para três litros de B20 (o necessário para realização dos testes contando com margem de segurança) precisava-se de 2105,3 g de B5 e 410,3 g de B100.
-# sent_id = 177-20141015-MONOGRAFIA_1-307
+# sent_id = 177-20141015-MONOGRAFIA_1-300
 1	De	de	ADP	_	_	2	case	_	_
 2	posse	posse	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -8398,7 +8301,7 @@
 43	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Já para o B60 necessitava-se de 1053,0 g de B5 e 1503,9 g de B100.
-# sent_id = 177-20141015-MONOGRAFIA_1-308
+# sent_id = 177-20141015-MONOGRAFIA_1-301
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -8416,10 +8319,10 @@
 14	g	g	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	B100	B100	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7.2 - Combustíveis utilizados
-# sent_id = 177-20141015-MONOGRAFIA_1-309
+# sent_id = 177-20141015-MONOGRAFIA_1-302
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	7.2	7.2	NUM	_	NumType=Card	0	root	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -8427,7 +8330,7 @@
 5	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
 
 # text = No final obteve-se B20 com massa específica medida de 838,5 g/l e B60 com massa específica medida de 852,3 g/l, além do B5 (Figura 7.2).
-# sent_id = 177-20141015-MONOGRAFIA_1-310
+# sent_id = 177-20141015-MONOGRAFIA_1-303
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8465,7 +8368,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Vale ressaltar que antes do uso de tais misturas no motor, as mesmas foram deixadas em repouso por uma semana para verificar se haveria problemas de estabilidade, como uma possível separação de fases, o que não foi evidenciado.
-# sent_id = 177-20141015-MONOGRAFIA_1-311
+# sent_id = 177-20141015-MONOGRAFIA_1-304
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	18	mark	_	_
@@ -8514,18 +8417,18 @@
 44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 7.2.
-# sent_id = 177-20141015-MONOGRAFIA_1-312
+# sent_id = 177-20141015-MONOGRAFIA_1-305
 1	7.2	7.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Procedimento de teste
-# sent_id = 177-20141015-MONOGRAFIA_1-313
+# sent_id = 177-20141015-MONOGRAFIA_1-306
 1	Procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	teste	teste	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Os testes foram realizados utilizando-se um único combustível por vez.
-# sent_id = 177-20141015-MONOGRAFIA_1-314
+# sent_id = 177-20141015-MONOGRAFIA_1-307
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testes	teste	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8541,7 +8444,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Primeiro foi ajustado o débito de combustível, depois realizaram-se os procedimentos para medição do número de cetano.
-# sent_id = 177-20141015-MONOGRAFIA_1-315
+# sent_id = 177-20141015-MONOGRAFIA_1-308
 1	Primeiro	primeiro	ADV	_	_	3	advmod	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	ajustado	ajustar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	_	_
@@ -8567,7 +8470,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Por fim foram mudadas a razão de compressão e a injeção para valores pré-definidos com o intuito de levantar os demais dados.
-# sent_id = 177-20141015-MONOGRAFIA_1-316
+# sent_id = 177-20141015-MONOGRAFIA_1-309
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -8593,7 +8496,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As medições das emissões foram feitas após os testes iniciais, já de posse de todos os dados e ajustes do motor necessários.
-# sent_id = 177-20141015-MONOGRAFIA_1-317
+# sent_id = 177-20141015-MONOGRAFIA_1-310
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	medições	medição	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8624,7 +8527,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para cada ponto a ser medido, foram reproduzidas as condições dos testes anteriores e esperado o sistema se estabilizar antes da efetiva medição.
-# sent_id = 177-20141015-MONOGRAFIA_1-318
+# sent_id = 177-20141015-MONOGRAFIA_1-311
 1	Para	para	ADP	_	_	6	mark	_	_
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
@@ -8653,12 +8556,12 @@
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	efetiva	efetivo	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
 26	medição	medição	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
-# text = Para simplificação e prevenção de problemas operacionais com o motor CFR- Cetano, as variáveis auxiliares como temperatura do ar admissão e débito de combustível, entre outras, foram mantidas fixas e iguais as usadas no procedimento padrão de uso do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-319
+# text = Para simplificação e prevenção de problemas operacionais com o motor CFR-Cetano, as variáveis auxiliares como temperatura do ar admissão e débito de combustível, entre outras, foram mantidas fixas e iguais as usadas no procedimento padrão de uso do motor.
+# sent_id = 177-20141015-MONOGRAFIA_1-312
 1	Para	para	ADP	_	_	2	case	_	_
-2	simplificação	simplificação	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
+2	simplificação	simplificação	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
 4	prevenção	prevenção	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -8667,50 +8570,48 @@
 8	com	com	ADP	_	_	10	case	_	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	motor	motor	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-11	CFR	CFR	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	11	punct	_	_
-13	Cetano	Cetano	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	2	punct	_	_
-15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-16	variáveis	variável	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
-17	auxiliares	auxiliare	NOUN	_	Gender=Masc|Number=Plur	33	nsubj	_	_
-18	como	como	ADP	_	_	19	case	_	_
-19	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
-20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	ar	ar	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-23	admissão	admissão	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
-25	débito	débito	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	30	punct	_	_
-29	entre	entre	ADP	_	_	30	case	_	_
-30	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	17	obl	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	17	punct	_	_
-32	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	cop	_	_
-33	mantidas	mantida	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-34	fixas	fixo	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	_
-35	e	e	CCONJ	_	_	36	cc	_	_
-36	iguais	igual	ADJ	_	Gender=Fem|Number=Plur	34	conj	_	_
-37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
-38	usadas	usada	NOUN	_	Gender=Fem|Number=Plur	33	appos	_	_
-39-40	no	_	_	_	_	_	_	_	_
-39	em	em	ADP	_	_	41	case	_	_
-40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
-42	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-43	de	de	ADP	_	_	44	case	_	_
-44	uso	uso	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
-45-46	do	_	_	_	_	_	_	_	_
-45	de	de	ADP	_	_	47	case	_	_
-46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	motor	motor	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	33	punct	_	_
+11	CFR-Cetano	CFR-Cetano	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	variáveis	variável	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+15	auxiliares	auxiliare	NOUN	_	Gender=Masc|Number=Plur	31	nsubj	_	_
+16	como	como	ADP	_	_	17	case	_	_
+17	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ar	ar	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	admissão	admissão	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	débito	débito	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	entre	entre	ADP	_	_	28	case	_	_
+28	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	15	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	15	punct	_	_
+30	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+31	mantidas	mantida	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+32	fixas	fixo	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	iguais	igual	ADJ	_	Gender=Fem|Number=Plur	32	conj	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	usadas	usada	NOUN	_	Gender=Fem|Number=Plur	31	appos	_	_
+37-38	no	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+40	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	uso	uso	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	_
+43-44	do	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	motor	motor	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = Já os valores da razão de compressão, do avanço da injeção e da mistura de combustível utilizada foram definidos da seguinte forma:  Mistura de combustível: foram usados nos testes o B5 (diesel com 5% de biodiesel em volume), que é obrigatório por lei no Brasil, o B20 e o B60.
-# sent_id = 177-20141015-MONOGRAFIA_1-320
+# sent_id = 177-20141015-MONOGRAFIA_1-313
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	valores	valor	NOUN	_	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
@@ -8787,7 +8688,7 @@
 67	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\n
 
 # text =  Razão de compressão: para simular com maior precisão os efeitos do uso de Biodiesel nos motores Diesel, priorizamos o uso de razões de compressão típicas de tais motores.
-# sent_id = 177-20141015-MONOGRAFIA_1-321
+# sent_id = 177-20141015-MONOGRAFIA_1-314
 1			PROPN	_	Number=Sing	7	parataxis	_	_
 2	Razão	Razão	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8826,7 +8727,7 @@
 34	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Primeiro utilizamos 15:1, que foi a máxima que conseguimos obter já que encontramos limitações mecânicas no motor ao tentar usar razões de compressão maiores, uma segunda escolha foi 14:1 e por último utilizamos 13:1.
-# sent_id = 177-20141015-MONOGRAFIA_1-322
+# sent_id = 177-20141015-MONOGRAFIA_1-315
 1	Primeiro	primeiro	ADV	_	_	2	advmod	_	_
 2	utilizamos	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	15:1	15:1	NUM	_	NumType=Card	2	obj	_	SpaceAfter=No
@@ -8870,7 +8771,7 @@
 39	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text =  Avanço da injeção: num primeiro momento foi pensado se utilizar os avanços de 13°(o utilizado no teste padrão), 10° e 7° antes do Ponto Morto Superior, pois os mesmos se encontram dentro da faixa utilizada em motores Diesel de injeção indireta [19].
-# sent_id = 177-20141015-MONOGRAFIA_1-323
+# sent_id = 177-20141015-MONOGRAFIA_1-316
 1			PROPN	_	Number=Sing	12	nsubj:pass	_	_
 2	Avanço	avanço	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8933,8 +8834,8 @@
 55	]	_	PUNCT	_	_	54	punct	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	12	punct	_	_
 
-# text = Ao realizarmos testes iniciais com Diesel Marítimo, o qual não possui adição de biodiesel, percebeu-se que essa escolha nos levaria a obtenção de vários pontos com o início da combustão ocorrendo após o Ponto Morto Superior, fato mostrado no gráfico a seguir (Figura7.3), o que seria indesejado do ponto de vista do desempenho do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-324
+# text = Ao realizarmos testes iniciais com Diesel Marítimo, o qual não possui adição de biodiesel, percebeu-se que essa escolha nos levaria a obtenção de vários pontos com o início da combustão ocorrendo após o Ponto Morto Superior, fato mostrado no gráfico a seguir (Figura.3), o que seria indesejado do ponto de vista do desempenho do motor.
+# sent_id = 177-20141015-MONOGRAFIA_1-317
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8991,7 +8892,7 @@
 49	a	a	SCONJ	_	_	50	mark	_	_
 50	seguir	seguir	VERB	_	VerbForm=Inf	45	xcomp	_	_
 51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	Figura7.3	Figura7.3	PROPN	_	Gender=Masc|Number=Sing	50	appos:parataxis	_	SpaceAfter=No
+52	Figura.3	Figura.3	PROPN	_	Gender=Masc|Number=Sing	50	appos:parataxis	_	SpaceAfter=No
 53	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
 54	,	,	PUNCT	_	_	37	punct	_	_
 55	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	appos	_	_
@@ -9015,7 +8916,7 @@
 70	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Por isso, os avanços de injeção foram alterados para 13°, 11° e 9° antes do PMS.
-# sent_id = 177-20141015-MONOGRAFIA_1-325
+# sent_id = 177-20141015-MONOGRAFIA_1-318
 1	Por	por	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -9039,7 +8940,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O uso do Diesel Marítimo nos pré-testes deveu-se sobretudo a sua grande disponibilidade no Laboratório de Máquinas Térmicas da UFRJ.
-# sent_id = 177-20141015-MONOGRAFIA_1-326
+# sent_id = 177-20141015-MONOGRAFIA_1-319
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9070,36 +8971,35 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	UFRJ	UFRJ	PROPN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
-# text = Figura 7.3- Avanço da Injeção X Atraso da Ignição,com Diesel Marítimo a diferentes razões de compressão.
-# sent_id = 177-20141015-MONOGRAFIA_1-327
-1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	7.3-	7.3-	PUNCT	_	_	3	punct	_	_
-3	Avanço	avanço	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Injeção	injeção	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	X	X	PROPN	_	Number=Sing	6	flat:name	_	_
-8	Atraso	atraso	PROPN	_	Number=Sing	6	flat:name	_	_
-9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Ignição	Ignição	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	SpaceAfter=No
-13	com	com	ADP	_	_	14	case	_	_
-14	Diesel	Diesel	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-15	Marítimo	Marítimo	PROPN	_	Number=Sing	14	flat:name	_	_
-16	a	a	ADP	_	_	18	case	_	_
-17	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
-18	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Figura 7.3-Avanço da Injeção X Atraso da Ignição,com Diesel Marítimo a diferentes razões de compressão.
+# sent_id = 177-20141015-MONOGRAFIA_1-320
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	7.3-Avanço	7.3-Avanço	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Injeção	injeção	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	X	X	PROPN	_	Number=Sing	5	flat:name	_	_
+7	Atraso	atraso	PROPN	_	Number=Sing	5	flat:name	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Ignição	Ignição	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	com	com	ADP	_	_	13	case	_	_
+13	Diesel	Diesel	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+14	Marítimo	Marítimo	PROPN	_	Number=Sing	13	flat:name	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Uma observação a ser feita após tal teste é que a razão de compressão de 16:1 é muito difícil de ser alcançada no motor utilizado, já que neste primeiro teste a mesma só foi alcançada com muita dificuldade em se mover o volante que controla a razão de compressão até a posição desejada e nos testes posteriores não se conseguiu alcançá-la.
-# sent_id = 177-20141015-MONOGRAFIA_1-328
+# sent_id = 177-20141015-MONOGRAFIA_1-321
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	observação	observação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	a	a	SCONJ	_	_	5	mark	_	_
@@ -9173,12 +9073,12 @@
 67	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 7.3.
-# sent_id = 177-20141015-MONOGRAFIA_1-329
+# sent_id = 177-20141015-MONOGRAFIA_1-322
 1	7.3	7.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Planejamento dos testes
-# sent_id = 177-20141015-MONOGRAFIA_1-330
+# sent_id = 177-20141015-MONOGRAFIA_1-323
 1	Planejamento	Planejamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9186,7 +9086,7 @@
 4	testes	teste	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Para evitar desperdício de combustível e diminuir os tempos de testes foi feito um estudo inicial do comportamento do motor utilizando-se Diesel Marítimo.
-# sent_id = 177-20141015-MONOGRAFIA_1-331
+# sent_id = 177-20141015-MONOGRAFIA_1-324
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	evitar	evitar	VERB	_	VerbForm=Inf	13	advcl	_	_
 3	desperdício	desperdício	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -9219,7 +9119,7 @@
 27	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Durante esses testes iniciais com Diesel Marítimo algumas observações e consideraçoes foram feitas: 1.
-# sent_id = 177-20141015-MONOGRAFIA_1-332
+# sent_id = 177-20141015-MONOGRAFIA_1-325
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	testes	teste	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
@@ -9238,7 +9138,7 @@
 16	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Chegar a altas taxas de compressão como 15:1 é difícil, então é razoável quando for utlizada, serem feitas todas as medições necessárias antes de trocar de razão de compressão . 2.
-# sent_id = 177-20141015-MONOGRAFIA_1-333
+# sent_id = 177-20141015-MONOGRAFIA_1-326
 1	Chegar	chegar	VERB	_	VerbForm=Inf	0	root	_	_
 2	a	a	ADP	_	_	4	case	_	_
 3	altas	alto	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -9275,7 +9175,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tirando a exceção da razão de compressão de 15:1, é mais fácil e rápido alterar a razão de compressão do que o avanço de injeção.
-# sent_id = 177-20141015-MONOGRAFIA_1-334
+# sent_id = 177-20141015-MONOGRAFIA_1-327
 1	Tirando	Tirar	VERB	_	VerbForm=Ger	14	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	exceção	exceção	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -9309,12 +9209,12 @@
 29	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 3.
-# sent_id = 177-20141015-MONOGRAFIA_1-335
+# sent_id = 177-20141015-MONOGRAFIA_1-328
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = É necessário começar e terminar os testes com razões de compressão mais baixas, assim a razão de compressão inicial escolhida deve ser a do teste padrão de número de cetano e a final a de 13:1.
-# sent_id = 177-20141015-MONOGRAFIA_1-336
+# sent_id = 177-20141015-MONOGRAFIA_1-329
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 3	começar	começar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -9354,10 +9254,10 @@
 36	a	a	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	28	appos	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	13:1	13:1	NUM	_	NumType=Card	36	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n\n
 
 # text = Com base nessas conclusões, a ordem dos testes foi definida da seguinte maneira:  Primeiro utilizar as condições padrão para medição do número de cetano (a mesma utiliza avanço de injeção de 13° e razões de compressão abaixo de 13:1); 
-# sent_id = 177-20141015-MONOGRAFIA_1-337
+# sent_id = 177-20141015-MONOGRAFIA_1-330
 1	Com	com	ADP	_	_	2	case	_	_
 2	base	base	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 3-4	nessas	_	_	_	_	_	_	_	_
@@ -9414,7 +9314,7 @@
 50			PROPN	_	Number=Sing	35	flat:name	_	_
 
 # text = O próximo passo é ir aumentando a razão de compressão para 13:1, depois 14:1 e por último 15:1 com o avanço de injeção fixo em 13°;  Quando em 15:1 alterar os avanços de injeção para 11° e depois 9°; 
-# sent_id = 177-20141015-MONOGRAFIA_1-338
+# sent_id = 177-20141015-MONOGRAFIA_1-331
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	passo	passo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -9461,7 +9361,7 @@
 44			PROPN	_	Number=Sing	32	flat:name	_	_
 
 # text = Após o término das medições com a razão de compressão de 15:1, abaixar a razão de compressão para 14:1, fazendo as medições com avanço de injeção de 9° e depois 11°; 
-# sent_id = 177-20141015-MONOGRAFIA_1-339
+# sent_id = 177-20141015-MONOGRAFIA_1-332
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	término	término	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
@@ -9501,7 +9401,7 @@
 36			PROPN	_	Number=Sing	15	flat:name	_	_
 
 # text = Terminadas tais medições, diminuir a razão de compressão para 13:1 com o avanço de injeção ainda em 9° e por último alterar o avanço para 11°.
-# sent_id = 177-20141015-MONOGRAFIA_1-340
+# sent_id = 177-20141015-MONOGRAFIA_1-333
 1	Terminadas	Terminar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
 2	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	medições	medição	NOUN	_	Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
@@ -9532,7 +9432,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tais passos, quando seguidos corretamente, reduziram drasticamente a duração dos testes.
-# sent_id = 177-20141015-MONOGRAFIA_1-341
+# sent_id = 177-20141015-MONOGRAFIA_1-334
 1	Tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	passos	passo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -9551,7 +9451,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Um diagrama com o passo a passo se encontra no Apêndice IV.
-# sent_id = 177-20141015-MONOGRAFIA_1-342
+# sent_id = 177-20141015-MONOGRAFIA_1-335
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	diagrama	diagrama	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -9566,19 +9466,19 @@
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Apêndice	Apêndice	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	_
 13	IV	IV	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 8.
-# sent_id = 177-20141015-MONOGRAFIA_1-343
+# sent_id = 177-20141015-MONOGRAFIA_1-336
 1	8	8	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados
-# sent_id = 177-20141015-MONOGRAFIA_1-344
+# sent_id = 177-20141015-MONOGRAFIA_1-337
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Nesse tópico serão apresentados e analisados os gráficos do comportamento do atraso da ignição, do início da combustão e das emissões quando variados o avanço da injeção e a razão de compressão para as diferentes misturas de combustíveis.
-# sent_id = 177-20141015-MONOGRAFIA_1-345
+# sent_id = 177-20141015-MONOGRAFIA_1-338
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9637,7 +9537,7 @@
 48	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Cabe ressaltar que não houve análise de reprodutibilidade, ou seja, não houve repetição dos testes.
-# sent_id = 177-20141015-MONOGRAFIA_1-346
+# sent_id = 177-20141015-MONOGRAFIA_1-339
 1	Cabe	caber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
@@ -9660,7 +9560,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os erros nas medições ficaram então baseados no manual do motor [19] ou nas informações técnicas do equipamento no caso o analisador de gases (Apêndice II).
-# sent_id = 177-20141015-MONOGRAFIA_1-347
+# sent_id = 177-20141015-MONOGRAFIA_1-340
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	erros	erro	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3-4	nas	_	_	_	_	_	_	_	_
@@ -9706,7 +9606,7 @@
 37	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para o atraso de ignição e para o início da combustão o erro adotado foi de 0,2 graus para mais e para menos.
-# sent_id = 177-20141015-MONOGRAFIA_1-348
+# sent_id = 177-20141015-MONOGRAFIA_1-341
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
@@ -9735,7 +9635,7 @@
 25	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Já para as emissões o erro adotado foi de 5% sobre o valor medido tanto para NOx quanto para CO. 8.1.
-# sent_id = 177-20141015-MONOGRAFIA_1-349
+# sent_id = 177-20141015-MONOGRAFIA_1-342
 1	Já	já	ADV	_	_	6	advmod	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -9760,7 +9660,7 @@
 22	8.1.	8.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Atraso da ignição
-# sent_id = 177-20141015-MONOGRAFIA_1-350
+# sent_id = 177-20141015-MONOGRAFIA_1-343
 1	Atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9768,7 +9668,7 @@
 4	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = A figura abaixo (Figura 8.1) representa o gráfico do atraso na ignição em função do avanço da injeção para diferentes razões de compressão utilizando B5.
-# sent_id = 177-20141015-MONOGRAFIA_1-351
+# sent_id = 177-20141015-MONOGRAFIA_1-344
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	abaixo	abaixo	ADV	_	_	5	advmod	_	_
@@ -9807,7 +9707,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = para diferentes razões de compressão utilizando B5
-# sent_id = 177-20141015-MONOGRAFIA_1-352
+# sent_id = 177-20141015-MONOGRAFIA_1-345
 1	para	para	ADP	_	_	3	case	_	_
 2	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	razões	razão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
@@ -9817,7 +9717,7 @@
 7	B5	B5	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
 
 # text = Analisando este gráfico, observa-se que, para um mesmo avanço de injeção, quanto maior a razão de compressão menor o atraso da ignição.
-# sent_id = 177-20141015-MONOGRAFIA_1-353
+# sent_id = 177-20141015-MONOGRAFIA_1-346
 1	Analisando	analisar	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -9850,7 +9750,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Isso se deve ao fato do aumento na razão de compressão elevar a temperatura e a pressão na câmara de combustão, o que facilita a atomização do combustível e aumenta a densidade do ar, diminuindo a temperatura mínima de auto-ignição.
-# sent_id = 177-20141015-MONOGRAFIA_1-354
+# sent_id = 177-20141015-MONOGRAFIA_1-347
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9858,7 +9758,7 @@
 4	a	a	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-7-8	do	_	_	_	_	_	_	_	_
+7-8	do	_	_	_	_	_	_	_	SpacesAfter=\s\n
 7	de	de	ADP	_	_	9	case	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -9908,7 +9808,7 @@
 49	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Percebe-se ainda que ao se retardar o avanço de injeção o atraso de ignição cresce.
-# sent_id = 177-20141015-MONOGRAFIA_1-355
+# sent_id = 177-20141015-MONOGRAFIA_1-348
 1-2	Percebe-se	_	_	_	_	_	_	_	_
 1	Percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9931,7 +9831,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tal comportamento se justifica pelo fato que ao injetar o combustível mais cedo, o mesmo encontrará temperatura e pressão menores na câmara de combustão.
-# sent_id = 177-20141015-MONOGRAFIA_1-356
+# sent_id = 177-20141015-MONOGRAFIA_1-349
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -9966,7 +9866,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Neste gráfico, a única exceção ficou por conta dos avanços de injeção de 9° e 11° na razão de compressão de 13:1.
-# sent_id = 177-20141015-MONOGRAFIA_1-357
+# sent_id = 177-20141015-MONOGRAFIA_1-350
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9999,7 +9899,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Um possível motivo seria que por estar numa baixa razão de compressão para motores de ignição por compressão, essa variação não demonstra efeitos na prática.
-# sent_id = 177-20141015-MONOGRAFIA_1-358
+# sent_id = 177-20141015-MONOGRAFIA_1-351
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -10033,7 +9933,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O segundo gráfico (Figura 8.2), traçado de maneira semelhante ao primeiro, contém os dados dos testes com B20.
-# sent_id = 177-20141015-MONOGRAFIA_1-359
+# sent_id = 177-20141015-MONOGRAFIA_1-352
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -10062,88 +9962,87 @@
 24	B20	B20	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
-# text = Figura 8.2- Atraso da ignição em função do avanço da injeção para diferentes razões de compressão utilizando B20 Através deste gráfico, observa-se que o comportamento do atraso de ignição mediante as variações feitas no avanço de injeção e na razão de compressão é semelhante ao do primeiro gráfico que contém os dados para o B5.
-# sent_id = 177-20141015-MONOGRAFIA_1-360
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8.2-	8.2-	SYM	_	_	1	obj	_	_
-3	Atraso	atraso	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	função	função	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-15	para	para	ADP	_	_	17	case	_	_
-16	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
-17	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-20	utilizando	utilizar	VERB	_	VerbForm=Ger	1	acl	_	_
-21	B20	B20	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
-22	Através	através	PROPN	_	Number=Sing	21	flat:name	_	_
-23-24	deste	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
-25	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	20	punct	_	_
-27-28	observa-se	_	_	_	_	_	_	_	_
-27	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-28	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	27	nsubj	_	_
-29	que	que	SCONJ	_	_	53	mark	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	53	nsubj	_	_
-32-33	do	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	34	case	_	_
-33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
-37	mediante	mediante	ADP	_	_	39	case	_	_
-38	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
-39	variações	variação	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
-40	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	39	acl	_	_
-41-42	no	_	_	_	_	_	_	_	_
-41	em	em	ADP	_	_	43	case	_	_
-42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
-44	de	de	ADP	_	_	45	case	_	_
-45	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
-46	e	e	CCONJ	_	_	49	cc	_	_
-47-48	na	_	_	_	_	_	_	_	_
-47	em	em	ADP	_	_	49	case	_	_
-48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	razão	razão	NOUN	_	Gender=Fem|Number=Sing	40	conj	_	_
-50	de	de	ADP	_	_	51	case	_	_
-51	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
-52	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
-53	semelhante	semelhante	ADJ	_	Gender=Fem|Number=Sing	27	ccomp	_	_
-54-55	ao	_	_	_	_	_	_	_	_
-54	a	a	ADP	_	_	55	case	_	_
-55	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	53	obl	_	_
-56-57	do	_	_	_	_	_	_	_	_
-56	de	de	ADP	_	_	59	case	_	_
-57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
-58	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	59	amod	_	_
-59	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	_
-60	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	61	nsubj	_	_
-61	contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	acl:relcl	_	_
-62	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
-63	dados	dado	NOUN	_	Gender=Masc|Number=Plur	61	obj	_	_
-64	para	para	ADP	_	_	66	case	_	_
-65	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
-66	B5	B5	PROPN	_	Gender=Masc|Number=Sing	63	nmod	_	SpaceAfter=No
-67	.	.	PUNCT	_	_	1	punct	_	_
+# text = Figura 8.2-Atraso da ignição em função do avanço da injeção para diferentes razões de compressão utilizando B20 Através deste gráfico, observa-se que o comportamento do atraso de ignição mediante as variações feitas no avanço de injeção e na razão de compressão é semelhante ao do primeiro gráfico que contém os dados para o B5.
+# sent_id = 177-20141015-MONOGRAFIA_1-353
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+2	8.2-Atraso	8.2-Atraso	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	utilizando	utilizar	VERB	_	VerbForm=Ger	26	advcl	_	_
+20	B20	B20	PROPN	_	Gender=Masc|Number=Sing	19	obj	_	_
+21	Através	através	PROPN	_	Number=Sing	20	flat:name	_	_
+22-23	deste	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	19	punct	_	_
+26-27	observa-se	_	_	_	_	_	_	_	_
+26	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	26	nsubj	_	_
+28	que	que	SCONJ	_	_	52	mark	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	52	nsubj	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+36	mediante	mediante	ADP	_	_	38	case	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	variações	variação	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+39	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	38	acl	_	_
+40-41	no	_	_	_	_	_	_	_	_
+40	em	em	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
+45	e	e	CCONJ	_	_	48	cc	_	_
+46-47	na	_	_	_	_	_	_	_	_
+46	em	em	ADP	_	_	48	case	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	razão	razão	NOUN	_	Gender=Fem|Number=Sing	39	conj	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	_
+51	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+52	semelhante	semelhante	ADJ	_	Gender=Fem|Number=Sing	26	ccomp	_	_
+53-54	ao	_	_	_	_	_	_	_	_
+53	a	a	ADP	_	_	54	case	_	_
+54	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	52	obl	_	_
+55-56	do	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	58	case	_	_
+56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+57	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	58	amod	_	_
+58	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	54	nmod	_	_
+59	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	60	nsubj	_	_
+60	contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	acl:relcl	_	_
+61	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
+62	dados	dado	NOUN	_	Gender=Masc|Number=Plur	60	obj	_	_
+63	para	para	ADP	_	_	65	case	_	_
+64	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	B5	B5	PROPN	_	Gender=Masc|Number=Sing	62	nmod	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Analisando ainda conjuntamente o primeiro gráfico com o segundo, nota-se claramente uma diminuição no atraso de ignição para todos os pontos medidos.
-# sent_id = 177-20141015-MONOGRAFIA_1-361
+# sent_id = 177-20141015-MONOGRAFIA_1-354
 1	Analisando	analisar	VERB	_	VerbForm=Ger	11	advcl	_	_
 2	ainda	ainda	ADV	_	_	1	advmod	_	_
 3	conjuntamente	conjuntamente	ADV	_	_	1	advmod	_	_
@@ -10174,7 +10073,7 @@
 26	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Isso se deve ao B20 utilizado possuir um número de cetano maior que o B5.
-# sent_id = 177-20141015-MONOGRAFIA_1-362
+# sent_id = 177-20141015-MONOGRAFIA_1-355
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10192,10 +10091,10 @@
 14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	obj	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	B5	B5	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n\n
 
 # text = O gráfico com os dados do B60 (figura 8.3), como esperado, demonstrou comportamento semelhante aos anteriores e também era previsto que ao usar um combustível com número de cetano maior que os demais, como verificado na Tabela 4.1, o atraso de ignição diminuísse para todos os pontos.
-# sent_id = 177-20141015-MONOGRAFIA_1-363
+# sent_id = 177-20141015-MONOGRAFIA_1-356
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -10259,37 +10158,36 @@
 57	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	53	obl	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = Figura 8.3- Atraso da ignição em função do avanço da injeção para diferentes razões de compressão utilizando B60 8.2.
-# sent_id = 177-20141015-MONOGRAFIA_1-364
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8.3-	8.3-	SYM	_	_	1	obj	_	_
-3	Atraso	atraso	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	função	função	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-15	para	para	ADP	_	_	17	case	_	_
-16	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
-17	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-20	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	_
-21	B60	B60	NUM	_	NumType=Range	20	obj	_	_
-22	8.2	8.2	NUM	_	NumType=Card	21	flat	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	1	punct	_	_
+# text = Figura 8.3-Atraso da ignição em função do avanço da injeção para diferentes razões de compressão utilizando B60 8.2.
+# sent_id = 177-20141015-MONOGRAFIA_1-357
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+2	8.3-Atraso	8.3-Atraso	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ignição	ignição	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+20	B60	B60	NUM	_	NumType=Range	19	obj	_	_
+21	8.2	8.2	NUM	_	NumType=Card	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Início da combustão
-# sent_id = 177-20141015-MONOGRAFIA_1-365
+# sent_id = 177-20141015-MONOGRAFIA_1-358
 1	Início	início	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -10297,7 +10195,7 @@
 4	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = No gráfico seguinte (figura 8.4), que representa o início da combustão em função do avanço da injeção para diferentes razões de compressão utilizando B5, é possível notar que conforme se aumenta a razão de compressão o início da combustão fica antecipado.
-# sent_id = 177-20141015-MONOGRAFIA_1-366
+# sent_id = 177-20141015-MONOGRAFIA_1-359
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10356,7 +10254,7 @@
 51	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
 
 # text = Isto ocorre em conseqüência da diminuição no atraso de ignição mencionada anteriormente.
-# sent_id = 177-20141015-MONOGRAFIA_1-367
+# sent_id = 177-20141015-MONOGRAFIA_1-360
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -10376,7 +10274,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Observa-se que retardar o avanço da injeção pode ser usado como um artifício para antecipar o início da combustão, evitando seu começo após o Ponto Morto Superior.
-# sent_id = 177-20141015-MONOGRAFIA_1-368
+# sent_id = 177-20141015-MONOGRAFIA_1-361
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -10411,20 +10309,36 @@
 29	Ponto	Ponto	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 30	Morto	morto	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	_
 31	Superior	superior	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
-# text = para diferentes razões de compressão utilizando B5
-# sent_id = 177-20141015-MONOGRAFIA_1-369
-1	para	para	ADP	_	_	3	case	_	_
-2	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
-3	razões	razão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
-7	B5	B5	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
+# text = Figura 8.4-Início da combustão em função do avanço da injeção para diferentes razões de compressão utilizando B5
+# sent_id = 177-20141015-MONOGRAFIA_1-362
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+2	8.4-Início	8.4-Início	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	razões	razão	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+20	B5	B5	PROPN	_	Gender=Masc|Number=Sing	19	obj	_	_
 
 # text = Já a Figura 8.5 representa o início da combustão em função do avanço da injeção para diferentes razões de compressão utilizando B20.
-# sent_id = 177-20141015-MONOGRAFIA_1-370
+# sent_id = 177-20141015-MONOGRAFIA_1-363
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -10456,7 +10370,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Através de sua análise, percebe-se que, por consequência de seus menores atrasos de ignição, o B20 apresenta uma antecipação no início da combustão para todos os pontos analisados se comparado com o B5.
-# sent_id = 177-20141015-MONOGRAFIA_1-371
+# sent_id = 177-20141015-MONOGRAFIA_1-364
 1	Através	através	ADV	_	_	6	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
@@ -10502,7 +10416,7 @@
 40	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Nos demais aspectos os comportamentos são semelhantes.
-# sent_id = 177-20141015-MONOGRAFIA_1-372
+# sent_id = 177-20141015-MONOGRAFIA_1-365
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -10512,20 +10426,36 @@
 6	comportamentos	comportamento	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	semelhantes	semelhante	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
-# text = para diferentes razões de compressão utilizando B20
-# sent_id = 177-20141015-MONOGRAFIA_1-373
-1	para	para	ADP	_	_	3	case	_	_
-2	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
-3	razões	razão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
-7	B20	B20	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	_
+# text = Figura 8.5-Início da combustão em função do avanço da injeção para diferentes razões de compressão utilizando B20
+# sent_id = 177-20141015-MONOGRAFIA_1-366
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+2	8.5-Início	8.5-Início	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	razões	razão	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+20	B20	B20	PROPN	_	Gender=Masc|Number=Sing	19	obj	_	_
 
 # text = A antecipação do início da combustão evidenciada quando aumentamos a proporção de Biodiesel na mistura fica ainda mais perceptível quando analisamos os resultados para o B60 (figura 8.6).
-# sent_id = 177-20141015-MONOGRAFIA_1-374
+# sent_id = 177-20141015-MONOGRAFIA_1-367
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	antecipação	antecipação	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -10565,7 +10495,7 @@
 34	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Nota-se ainda que a necessidade de se antecipar o avanço da injeção para evitar um início da combustão tardio diminui a medida que adicionamos mais Biodiesel a mistura, já que como vimos anteriormente para as misturas utilizadas o número de cetano aumentou conforme maior proporção de Biodiesel na mistura (tabela 4.1).
-# sent_id = 177-20141015-MONOGRAFIA_1-375
+# sent_id = 177-20141015-MONOGRAFIA_1-368
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -10628,28 +10558,44 @@
 56	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	54	appos	_	_
 57	4.1	4.1	NUM	_	NumType=Card	56	nummod	_	SpaceAfter=No
 58	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+59	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = para diferentes razões de compressão utilizando B60 8.3.
-# sent_id = 177-20141015-MONOGRAFIA_1-376
-1	para	para	ADP	_	_	3	case	_	_
-2	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
-3	razões	razão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
-7	B60	B60	NUM	_	NumType=Range	6	obj	_	_
-8	8.3	8.3	NUM	_	NumType=Card	7	flat	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	_
+# text = Figura 8.6-Início da combustão em função do avanço da injeção para diferentes razões de compressão utilizando B60 8.3.
+# sent_id = 177-20141015-MONOGRAFIA_1-369
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+2	8.6-Início	8.6-Início	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	razões	razão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+20	B60	B60	NUM	_	NumType=Range	19	obj	_	_
+21	8.3	8.3	NUM	_	NumType=Card	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Emissões de NOx
-# sent_id = 177-20141015-MONOGRAFIA_1-377
+# sent_id = 177-20141015-MONOGRAFIA_1-370
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	NOx	NOx	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O comportamento das emissões de NOx com o débito de combustível fixo em 13 ml/min e com a razão de compressão de 13:1 está representado pela Figura 8.7.
-# sent_id = 177-20141015-MONOGRAFIA_1-378
+# sent_id = 177-20141015-MONOGRAFIA_1-371
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -10686,7 +10632,7 @@
 32	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Através dela verifica-se que o B20 apresentou maiores emissões de NOx em relação ao B5 (crescimento de até 12% no caso do avanço de 9°).
-# sent_id = 177-20141015-MONOGRAFIA_1-379
+# sent_id = 177-20141015-MONOGRAFIA_1-372
 1	Através	através	ADV	_	_	4	advmod	_	_
 2-3	dela	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	3	case	_	_
@@ -10728,7 +10674,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Um motivo para tal comportamento é o mesmo ter uma maior proporção de Biodiesel, o qual contém oxigênio em sua molécula.
-# sent_id = 177-20141015-MONOGRAFIA_1-380
+# sent_id = 177-20141015-MONOGRAFIA_1-373
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -10754,7 +10700,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A antecipação da injeção também fez crescer as emissões de NOx (crescimentos que podem chegar a 41,5%, no caso de se aumentar o avanço de 9° para o de 13° graus com o B20).
-# sent_id = 177-20141015-MONOGRAFIA_1-381
+# sent_id = 177-20141015-MONOGRAFIA_1-374
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	antecipação	antecipação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -10800,7 +10746,7 @@
 41	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Uma possível explicação é o fato de que o aumento do avanço da injeção como visto anteriormente faz com que combustão tenha seu início antecipado o que pode propiciar maiores temperaturas e pressões na câmara de combustão.
-# sent_id = 177-20141015-MONOGRAFIA_1-382
+# sent_id = 177-20141015-MONOGRAFIA_1-375
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	explicação	explicação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -10844,23 +10790,38 @@
 38	câmara	câmara	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 39	de	de	ADP	_	_	40	case	_	_
 40	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
-# text = razão de compressão de 13:1, utilizando B5 e B20
-# sent_id = 177-20141015-MONOGRAFIA_1-383
-1	razão	razão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	13:1	13:1	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	_
-7	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
-8	B5	B5	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	_
-9	e	e	CCONJ	_	_	10	cc	_	_
-10	B20	B20	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
+# text = Figura 8.7-Emissões de NOx em função do avanço da injeção para razão de compressão de 13:1, utilizando B5 e B20
+# sent_id = 177-20141015-MONOGRAFIA_1-376
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	8.7-Emissões	8.7-Emissões	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	NOx	NOx	PROPN	_	Number=Sing	1	nmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	razão	razão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	13:1	13:1	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+21	B5	B5	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	B20	B20	PROPN	_	Gender=Masc|Number=Sing	21	conj	_	_
 
 # text = Os gráficos seguintes (figuras 8.8 e 8.9) representam respectivamente as emissões de NOx em função do avanço da injeção para razão de compressão de 14:1 e para a razão de 15:1, utilizando B5 e B20.
-# sent_id = 177-20141015-MONOGRAFIA_1-384
+# sent_id = 177-20141015-MONOGRAFIA_1-377
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	seguintes	seguinte	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -10905,31 +10866,49 @@
 40	B20	B20	PROPN	_	Gender=Masc|Number=Sing	38	conj	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = razão de compressão de 14:1, utilizando B5 e B20 razão de compressão de 15:1, utilizando B5 e B20
-# sent_id = 177-20141015-MONOGRAFIA_1-385
-1	razão	razão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+# text = razão de compressão de 14:1, utilizando B5 e B20
+# sent_id = 177-20141015-MONOGRAFIA_1-378
+1	razão	razão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	14:1	14:1	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	utilizando	utilizar	VERB	_	VerbForm=Ger	11	acl	_	_
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
 8	B5	B5	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	_
 9	e	e	CCONJ	_	_	10	cc	_	_
-10	B20	B20	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
-11	razão	razão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	15:1	15:1	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
-18	B5	B5	PROPN	_	Gender=Masc|Number=Sing	17	obj	_	_
-19	e	e	CCONJ	_	_	20	cc	_	_
-20	B20	B20	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	_
+10	B20	B20	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	SpacesAfter=\s\n
+
+# text = Figura 8.9-Emissões de NOx em função do avanço da injeção para razão de compressão de 15:1, utilizando B5 e B20
+# sent_id = 177-20141015-MONOGRAFIA_1-379
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	8.9-Emissões	8.9-Emissões	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	NOx	NOx	PROPN	_	Number=Sing	1	nmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	razão	razão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	15:1	15:1	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+21	B5	B5	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	B20	B20	PROPN	_	Gender=Masc|Number=Sing	21	conj	_	_
 
 # text = Observando-os, nota-se que o comportamento das emissões de NOx em função do avanço da injeção a razões de compressão diferentes é semelhante.
-# sent_id = 177-20141015-MONOGRAFIA_1-386
+# sent_id = 177-20141015-MONOGRAFIA_1-380
 1-2	Observando-os	_	_	_	_	_	_	_	SpaceAfter=No
 1	Observando	Observar	VERB	_	VerbForm=Ger	4	advcl	_	_
 2	os	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
@@ -10966,7 +10945,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Verifica-se ainda que ocorre um decréscimo (diminuição de menos de 10% na maioria dos pontos, ao se modificar a razão de 13:1 para 14:1 ou da razão de 14:1 para a de 15:1) nas emissões quando aumentada a razão de compressão.
-# sent_id = 177-20141015-MONOGRAFIA_1-387
+# sent_id = 177-20141015-MONOGRAFIA_1-381
 1-2	Verifica-se	_	_	_	_	_	_	_	_
 1	Verifica	verificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -11027,7 +11006,7 @@
 52	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Era de se esperar que com maiores razões de compressão as emissões aumentassem devido a maior temperatura na combustão, porém provavelmente outros fatores como a duração da combustão influenciaram tal diminuição nas emissões de NOx. 8.4.
-# sent_id = 177-20141015-MONOGRAFIA_1-388
+# sent_id = 177-20141015-MONOGRAFIA_1-382
 1	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
 2	de	de	SCONJ	_	_	4	mark	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	4	nsubj	_	_
@@ -11074,13 +11053,13 @@
 41	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = Emissões de CO
-# sent_id = 177-20141015-MONOGRAFIA_1-389
+# sent_id = 177-20141015-MONOGRAFIA_1-383
 1	Emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	CO	CO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A Figura 8.10 representa o gráfico das emissões de CO em função do avanço da injeção para razão de compressão de 14:1, utilizando B5 e B20, já a Figura 8.11 representa a razão de compressão de 15:1.
-# sent_id = 177-20141015-MONOGRAFIA_1-390
+# sent_id = 177-20141015-MONOGRAFIA_1-384
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	8	8	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
@@ -11128,70 +11107,67 @@
 42	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
 43	de	de	ADP	_	_	44	case	_	_
 44	15:1	15:1	NUM	_	NumType=Card	42	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+45	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
-# text = Figura 8.11- Emissões de CO em função do avanço da injeção para razão de compressão de 14:1, utilizando B5 e B20
-# sent_id = 177-20141015-MONOGRAFIA_1-391
+# text = Figura 8.11-Emissões de CO em função do avanço da injeção para razão de compressão de 14:1, utilizando B5 e B20
+# sent_id = 177-20141015-MONOGRAFIA_1-385
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8.11	8.11	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Emissões	emissões	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	CO	CO	PROPN	_	Number=Sing	4	nmod	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	função	função	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-15	para	para	ADP	_	_	16	case	_	_
-16	razão	razão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	14:1	14:1	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	_
-23	B5	B5	PROPN	_	Gender=Masc|Number=Sing	22	obj	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
-25	B20	B20	PROPN	_	Gender=Masc|Number=Sing	23	conj	_	_
+2	8	8	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+3	.11-Emissões	.11-Emissão	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	CO	Co	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	razão	razão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	14:1	14:1	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	_
+22	B5	B5	PROPN	_	Gender=Masc|Number=Sing	21	obj	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	B20	B20	PROPN	_	Gender=Masc|Number=Sing	22	conj	_	_
 
-# text = Figura 8.12- Emissões de CO em função do avanço da injeção para razão de compressão de 15:1, utilizando B5 e B20
-# sent_id = 177-20141015-MONOGRAFIA_1-392
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8.12	8.12	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Emissões	emissões	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	CO	CO	PROPN	_	Number=Sing	4	nmod	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	função	função	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-15	para	para	ADP	_	_	16	case	_	_
-16	razão	razão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+# text = Figura 8.12-Emissões de CO em função do avanço da injeção para razão de compressão de 15:1, utilizando B5 e B20
+# sent_id = 177-20141015-MONOGRAFIA_1-386
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	8.12-Emissões	8.12-Emissões	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	CO	CO	PROPN	_	Number=Sing	1	nmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	função	função	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	razão	razão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
-18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	15:1	15:1	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	_
-23	B5	B5	PROPN	_	Gender=Masc|Number=Sing	22	obj	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
-25	B20	B20	PROPN	_	Gender=Masc|Number=Sing	23	conj	_	_
+18	15:1	15:1	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+21	B5	B5	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	B20	B20	PROPN	_	Gender=Masc|Number=Sing	21	conj	_	_
 
 # text = Analisando-os, nota-se que as emissões de CO foram maiores para o B5, em média 81% maior para a razão de 14:1 e 52% para a razão de 15:1.
-# sent_id = 177-20141015-MONOGRAFIA_1-393
+# sent_id = 177-20141015-MONOGRAFIA_1-387
 1-2	Analisando-os	_	_	_	_	_	_	_	SpaceAfter=No
 1	Analisando	analisar	VERB	_	VerbForm=Ger	4	advcl	_	_
 2	os	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
@@ -11231,7 +11207,7 @@
 35	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = As justificativas para a queima do B20 produzir menos CO são parecidas com a de ele produzir mais NOx.
-# sent_id = 177-20141015-MONOGRAFIA_1-394
+# sent_id = 177-20141015-MONOGRAFIA_1-388
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	justificativas	justificativa	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -11256,7 +11232,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O fato do B20 utilizado apresentar menor atraso na ignição e conseqüentemente um menor retardo no início de combustão pode propiciar a diminuição da combustão incompleta, sobretudo, pelo já mencionado excesso de oxigênio.
-# sent_id = 177-20141015-MONOGRAFIA_1-395
+# sent_id = 177-20141015-MONOGRAFIA_1-389
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -11274,7 +11250,7 @@
 13	e	e	CCONJ	_	_	17	cc	_	_
 14	conseqüentemente	conseqüentemente	ADV	_	_	17	advmod	_	_
 15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+16	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpacesAfter=\s\n
 17	retardo	retardo	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
 18-19	no	_	_	_	_	_	_	_	_
 18	em	em	ADP	_	_	20	case	_	_
@@ -11305,7 +11281,7 @@
 41	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = O aumento do avanço da injeção também fez decrescer as emissões de CO em até 31,5% em alguns casos (no caso do B5, na razão de 14:1, ao se passar o avanço da injeção de 9° para 13°), já que a combustão tem seu início antecipado o que pode propiciar maiores temperaturas e pressões na câmara de combustão favorecendo uma combustão mais completa.
-# sent_id = 177-20141015-MONOGRAFIA_1-396
+# sent_id = 177-20141015-MONOGRAFIA_1-390
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -11394,7 +11370,7 @@
 78	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Na razão de 15:1 (figura 8.12), nota-se que com o avanço de injeção 13° antes do PMS, as emissões de CO para ambos combustíveis, ao contrário do esperado, não diminuiram.
-# sent_id = 177-20141015-MONOGRAFIA_1-397
+# sent_id = 177-20141015-MONOGRAFIA_1-391
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -11444,7 +11420,7 @@
 42	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Um possível motivo é que como o motor trabalha a baixas rotações (900 rpm), com esse avanço de injeção, a essa razão de compressão, tem-se um início de combustão muito cedo, podendo assim ter ocorrido dissociaçao do CO2.
-# sent_id = 177-20141015-MONOGRAFIA_1-398
+# sent_id = 177-20141015-MONOGRAFIA_1-392
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -11496,7 +11472,7 @@
 47	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Já o gráfico abaixo representa as emissões de CO em função do avanço da injeção para a razão de compressão de 13:1 (Figura 8.10).
-# sent_id = 177-20141015-MONOGRAFIA_1-399
+# sent_id = 177-20141015-MONOGRAFIA_1-393
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -11529,38 +11505,21 @@
 28	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Figura 8.10- Emissões de CO em função do avanço da injeção para razão de compressão de 13:1, utilizando B5 e B20
-# sent_id = 177-20141015-MONOGRAFIA_1-400
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8.10	8.10	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Emissões	emissões	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	CO	CO	PROPN	_	Number=Sing	4	nmod	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	função	função	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-15	para	para	ADP	_	_	16	case	_	_
-16	razão	razão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	13:1	13:1	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	_
-23	B5	B5	PROPN	_	Gender=Masc|Number=Sing	22	obj	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
-25	B20	B20	PROPN	_	Gender=Masc|Number=Sing	23	conj	_	_
+# text = razão de compressão de 13:1, utilizando B5 e B20
+# sent_id = 177-20141015-MONOGRAFIA_1-394
+1	razão	razão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	13:1	13:1	NUM	_	NumType=Card	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
+8	B5	B5	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	B20	B20	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
 
 # text = Neste gráfico não fica evidenciada a tendência dos demais.
-# sent_id = 177-20141015-MONOGRAFIA_1-401
+# sent_id = 177-20141015-MONOGRAFIA_1-395
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -11577,7 +11536,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Uma possível explicação para tal fato é que essa razão de compressão apresenta maiores atrasos de ignição, dificultando a vaporização do combustível pelo mesmo encontrar temperaturas e pressões menores.
-# sent_id = 177-20141015-MONOGRAFIA_1-402
+# sent_id = 177-20141015-MONOGRAFIA_1-396
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	explicação	explicação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -11612,21 +11571,21 @@
 30	e	e	CCONJ	_	_	31	cc	_	_
 31	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
 32	menores	pequeno	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = 9.
-# sent_id = 177-20141015-MONOGRAFIA_1-403
+# sent_id = 177-20141015-MONOGRAFIA_1-397
 1	9	9	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Conclusão e sugestões
-# sent_id = 177-20141015-MONOGRAFIA_1-404
+# sent_id = 177-20141015-MONOGRAFIA_1-398
 1	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	sugestões	sugestão	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 
 # text = Tal trabalho foi de grande valia para se conhecer o comportamento de diferentes misturas de Biodiesel, sujeitas a variações na razão de compressão e no avanço de injeção.
-# sent_id = 177-20141015-MONOGRAFIA_1-405
+# sent_id = 177-20141015-MONOGRAFIA_1-399
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
@@ -11663,7 +11622,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = No mesmo verificou-se que tanto a razão de compressão quanto o avanço de injeção influenciam diretamente na combustão e consequentemente nas emissões para todas as misturas de combustíveis testadas.
-# sent_id = 177-20141015-MONOGRAFIA_1-406
+# sent_id = 177-20141015-MONOGRAFIA_1-400
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -11704,7 +11663,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O atraso de ignição e o início da combustão tiveram um decréscimo conforme a proporção de Biodiesel na mistura foi aumentada, fato já esperado pelo Biodiesel usado ter maior número de cetano que o óleo diesel utilizado.
-# sent_id = 177-20141015-MONOGRAFIA_1-407
+# sent_id = 177-20141015-MONOGRAFIA_1-401
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atraso	atraso	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11752,7 +11711,7 @@
 42	.	.	PUNCT	_	_	41	punct	_	_
 
 # text = O aumento da razão de compressão também propiciou o mesmo efeito no atraso de ignição e no início da combustão.
-# sent_id = 177-20141015-MONOGRAFIA_1-408
+# sent_id = 177-20141015-MONOGRAFIA_1-402
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11784,7 +11743,7 @@
 25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = As emissões de CO tiveram um decréscimo conforme aumentada a proporção de Biodiesel na mistura e também quando aumentado o avanço da injeção.
-# sent_id = 177-20141015-MONOGRAFIA_1-409
+# sent_id = 177-20141015-MONOGRAFIA_1-403
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11815,7 +11774,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Já as emissões de NOx tiveram um acréscimo conforme aumentada a proporção de Biodiesel na mistura e também quando aumentado o avanço da injeção.
-# sent_id = 177-20141015-MONOGRAFIA_1-410
+# sent_id = 177-20141015-MONOGRAFIA_1-404
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -11847,7 +11806,7 @@
 27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tais comportamentos são uteis para mostrar a influência de parâmetros de operação, como a injeção de combustível e taxa de compressão do motor, no atraso de ignição e nas emissões num motor operando com misturas de biocombustíveis.
-# sent_id = 177-20141015-MONOGRAFIA_1-411
+# sent_id = 177-20141015-MONOGRAFIA_1-405
 1	Tais	tal	DET	_	Gender=Fem|PronType=Dem	2	det	_	_
 2	comportamentos	comportamento	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -11898,7 +11857,7 @@
 44	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Em futuros trabalhos pode-se, além de mensurar o atraso de ignição e a emissões, medir também a potencia através de um dinamômetro, a fim de ter o cálculo das emissões por kilowatts gerado e verificar a influência do atraso na ignição na potência do motor.
-# sent_id = 177-20141015-MONOGRAFIA_1-412
+# sent_id = 177-20141015-MONOGRAFIA_1-406
 1	Em	em	ADP	_	_	3	case	_	_
 2	futuros	futuro	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
@@ -11962,7 +11921,7 @@
 55	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Outro possível trabalho seria plotar a curva de pressão na câmara de combustão pelo ângulo de virabrequim, a fim de mensurar além da potência, a influência dos parâmetros na duração da combustão e verificar sua influência nas emissões.
-# sent_id = 177-20141015-MONOGRAFIA_1-413
+# sent_id = 177-20141015-MONOGRAFIA_1-407
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -12020,7 +11979,7 @@
 48	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = De posse dos dados obtidos no presente trabalho pode-se também fazer simulações numéricas que auxiliem a previsão de resultados sem a necessidade de inúmeras horas de testes.
-# sent_id = 177-20141015-MONOGRAFIA_1-414
+# sent_id = 177-20141015-MONOGRAFIA_1-408
 1	De	de	ADP	_	_	2	case	_	_
 2	posse	posse	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -12054,5 +12013,5 @@
 28	horas	horas	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	testes	teste	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 

@@ -458,7 +458,7 @@
 2	de	de	ADP	_	_	4	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
+5	de	de	ADP	_	_	6	case	_	SpacesAfter=\s\n
 6	adulteração	adulteração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	empregada	empregar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -781,7 +781,7 @@
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
-14	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+14	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpacesAfter=\s\n
 
 # text = Em grandes laboratórios de análise de combustíveis (e.g., Instituto Nacional de Tecnologia – RJ [4] e Falcão Bauer –SP [5], existem analisadores portáteis de Gasolina, capazes de detectar a presença do Metanol.
 # sent_id = 12-20150123-MONOGRAFIA_0-26
@@ -1253,7 +1253,7 @@
 41	de	de	ADP	_	_	43	case	_	_
 42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	Petrobras	Petrobras	PROPN	_	Number=Sing	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 2) Objetivos I)
 # sent_id = 12-20150123-MONOGRAFIA_0-40
@@ -1677,7 +1677,7 @@
 2	Aldeído	aldeído	PROPN	_	Number=Sing	4	nsubj	_	_
 3	Fórmico	Fórmico	PROPN	_	Number=Sing	2	flat:name	_	_
 4	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
-5	reagir	reagir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+5	reagir	reagir	VERB	_	VerbForm=Inf	4	xcomp	_	SpacesAfter=\s\n
 6	com	com	ADP	_	_	7	case	_	_
 7	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
 8	aromáticos	aromático	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
@@ -1873,7 +1873,7 @@
 15	tópico	tópico	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 16	Parte	Parte	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	_
 17	Experimental	Experimental	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 2: Variação da coloração da Gasolina com adição de Metanol
 # sent_id = 12-20150123-MONOGRAFIA_0-64
@@ -2079,7 +2079,7 @@
 27	associado	associado	ADJ	_	Gender=Masc|Number=Sing	3	ccomp	_	_
 28	a	a	ADP	_	_	29	case	_	_
 29	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 2ª etapa:
 # sent_id = 12-20150123-MONOGRAFIA_0-73
@@ -2363,7 +2363,7 @@
 23	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 24	coloração	coloração	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
 25	violeta	violeto	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2: Reação da Pirrola com p-dimetilaminobenzaldeído
 # sent_id = 12-20150123-MONOGRAFIA_0-84
@@ -2488,7 +2488,7 @@
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Gasolina	gasolina	PROPN	_	Gender=Fem|Number=Sing	24	obl	_	_
 
-# text = A são bastante semelhantes, foram obtidos os espectros UV- VIS destes compostos.
+# text = A são bastante semelhantes, foram obtidos os espectros UV-VIS destes compostos.
 # sent_id = 12-20150123-MONOGRAFIA_0-90
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	são	são	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -2499,13 +2499,12 @@
 7	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	espectros	espectro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
-10	UV-	UV-	PUNCT	_	_	11	punct	_	_
-11	VIS	VIS	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
-12-13	destes	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
-14	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	7	punct	_	_
+10	UV-VIS	Uv-vil	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11-12	destes	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O resultado está mostrado na figura 3.
 # sent_id = 12-20150123-MONOGRAFIA_0-91
@@ -2547,7 +2546,7 @@
 20	com	com	ADP	_	_	22	case	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Gasolina	gasolina	PROPN	_	Gender=Fem|Number=Sing	18	conj	_	_
-23	A	a	PROPN	_	Number=Sing	22	flat:name	_	_
+23	A	a	PROPN	_	Number=Sing	22	flat:name	_	SpacesAfter=\s\n
 24	A	a	ADP	_	_	25	case	_	_
 25	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 26-27	do	_	_	_	_	_	_	_	_
@@ -2786,7 +2785,7 @@
 26	reagindo	reagir	VERB	_	VerbForm=Ger	24	xcomp	_	_
 27	entre	entre	ADP	_	_	28	case	_	_
 28	si	si	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
-29	para	para	SCONJ	_	_	30	mark	_	_
+29	para	para	SCONJ	_	_	30	mark	_	SpacesAfter=\s\n
 30	formar	formar	VERB	_	VerbForm=Inf	26	advcl	_	_
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	produto	produto	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
@@ -3245,7 +3244,7 @@
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	coloração	coloração	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 25	violeta	violeto	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Como último teste, foi usada uma mistura Metanol-Etanol, e mais uma vez, notou-se o aparecimento da intensa coloração violeta.
 # sent_id = 12-20150123-MONOGRAFIA_0-114
@@ -3405,7 +3404,7 @@
 21	por	por	ADP	_	_	23	case	_	_
 22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	distribuidoras	distribuidor	NOUN	_	Gender=Fem|Number=Plur	20	obl:agent	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Variação da coloração da Gasolina com adição de Metanol 
 # sent_id = 12-20150123-MONOGRAFIA_0-121
@@ -3776,7 +3775,7 @@
 56	laboratório	laboratório	NOUN	_	Gender=Masc|Number=Sing	52	appos	_	_
 57	602	602	NUM	_	NumType=Card	56	nummod	_	SpaceAfter=No
 58	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+59	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n\n
 
 # text =  A análise no Infravermelho foi realizada em um aparelho Violet Magna IR 360, com pastilha de KBr, detetor DTGS KBr e com transmitância variando entre 0 e 55% (Instituto de Química-UFRJ, laboratório 628).
 # sent_id = 12-20150123-MONOGRAFIA_0-136
@@ -4060,7 +4059,7 @@
 20	variação	variação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	cor	cor	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 4.5)
 # sent_id = 12-20150123-MONOGRAFIA_0-145

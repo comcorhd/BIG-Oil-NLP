@@ -469,7 +469,7 @@
 26	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 27	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	nsubj	_	_
 28	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
-29	dimensionar	dimensionar	VERB	_	VerbForm=Inf	28	xcomp	_	_
+29	dimensionar	dimensionar	VERB	_	VerbForm=Inf	28	xcomp	_	SpacesAfter=\s\n
 30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	separador	separador	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
 32	vertical	vertical	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
@@ -502,7 +502,7 @@
 56	de	de	ADP	_	_	58	case	_	_
 57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
 58	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+59	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 2 OBJETIVOS 2.1
 # sent_id = 363-20150326-MONOGRAFIA_0-17
@@ -628,7 +628,7 @@
 73	de	de	ADP	_	_	75	case	_	_
 74	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
 75	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	72	nmod	_	SpaceAfter=No
-76	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+76	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 3
 # sent_id = 363-20150326-MONOGRAFIA_0-21
@@ -834,8 +834,22 @@
 28	especificações	especificação	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Fonte: PETROBRAS, 2011.
+# text = Figura 1.
 # sent_id = 363-20150326-MONOGRAFIA_0-29
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	1	1	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Reservatório típico de petróleo.
+# sent_id = 363-20150326-MONOGRAFIA_0-30
+1	Reservatório	Reservatório	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	típico	típico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Fonte: PETROBRAS, 2011.
+# sent_id = 363-20150326-MONOGRAFIA_0-31
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	PETROBRAS	PETROBRAS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -844,7 +858,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.2 PROCESSAMENTO PRIMÁRIO DE PETRÓLEO
-# sent_id = 363-20150326-MONOGRAFIA_0-30
+# sent_id = 363-20150326-MONOGRAFIA_0-32
 1	3.2	3.2	NUM	_	NumType=Card	2	nummod	_	_
 2	PROCESSAMENTO	Processamento	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	PRIMÁRIO	primário	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -852,7 +866,7 @@
 5	PETRÓLEO	Petróleo	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Ao longo da produção de um campo de petróleo é comum a produção simultânea de gás, óleo e água, além das impurezas.
-# sent_id = 363-20150326-MONOGRAFIA_0-31
+# sent_id = 363-20150326-MONOGRAFIA_0-33
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -883,10 +897,10 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	impurezas	impureza	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Como o interesse econômico é somente na produção de hidrocarbonetos, há necessidade de dotar os campos de “facilidades de produção”, que são instalações destinadas a efetuar o processamento primário dos fluidos (PETROBRAS, 2007).
-# sent_id = 363-20150326-MONOGRAFIA_0-32
+# sent_id = 363-20150326-MONOGRAFIA_0-34
 1	Como	como	SCONJ	_	_	6	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -934,7 +948,7 @@
 43	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Quando dois ou mais poços produzem para uma mesma unidade, as correntes de fluidos de diferentes poços que chegam através dos manifolds de produção até a superfície, em terra ou nas plataformas, não se encontram adequadas à utilização ou exportação, necessitando passar pela planta de processamento como na Figura 2.
-# sent_id = 363-20150326-MONOGRAFIA_0-33
+# sent_id = 363-20150326-MONOGRAFIA_0-35
 1	Quando	quando	SCONJ	_	_	6	mark	_	_
 2	dois	dois	NUM	_	NumType=Card	5	nummod	_	_
 3	ou	ou	CCONJ	_	_	5	cc	_	_
@@ -1002,13 +1016,13 @@
 60	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\n
 
 # text = Figura 2.
-# sent_id = 363-20150326-MONOGRAFIA_0-34
+# sent_id = 363-20150326-MONOGRAFIA_0-36
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema simplificado do processamento primário de petróleo.
-# sent_id = 363-20150326-MONOGRAFIA_0-35
+# sent_id = 363-20150326-MONOGRAFIA_0-37
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	simplificado	simplificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1021,7 +1035,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: PETROBRAS, 2007.
-# sent_id = 363-20150326-MONOGRAFIA_0-36
+# sent_id = 363-20150326-MONOGRAFIA_0-38
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	PETROBRAS	PETROBRAS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -1030,7 +1044,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Sendo o processamento primário de petróleo responsável por:  Separar as fases óleo/água/gás;  Tratar ou condicionar hidrocarbonetos para que possam ser transferidos para refinaria;  Tratar a água produzida para reinjeção ou descarte.
-# sent_id = 363-20150326-MONOGRAFIA_0-37
+# sent_id = 363-20150326-MONOGRAFIA_0-39
 1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -1071,7 +1085,7 @@
 38	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Dependendo do tipo de fluidos produzidos e da viabilidade técnico-econômica, uma planta de processamento pode ser simples ou complexa.
-# sent_id = 363-20150326-MONOGRAFIA_0-38
+# sent_id = 363-20150326-MONOGRAFIA_0-40
 1	Dependendo	depender	VERB	_	VerbForm=Ger	18	advcl	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1099,7 +1113,7 @@
 23	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = As mais simples efetuam a separação gás/óleo/água, enquanto as mais complexas incluem o condicionamento e compressão do gás, tratamento e estabilização do óleo e tratamento da água para reinjeção ou descarte (THOMAS, 2001).
-# sent_id = 363-20150326-MONOGRAFIA_0-39
+# sent_id = 363-20150326-MONOGRAFIA_0-41
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	mais	mais	ADV	_	_	3	advmod	_	_
 3	simples	simples	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -1121,7 +1135,7 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	gás	gás	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
+21	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\n
 22	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
 23	e	e	CCONJ	_	_	24	cc	_	_
 24	estabilização	estabilização	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
@@ -1147,7 +1161,7 @@
 42	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.3 SEPARAÇÃO PRIMÁRIA DE PETRÓLEO
-# sent_id = 363-20150326-MONOGRAFIA_0-40
+# sent_id = 363-20150326-MONOGRAFIA_0-42
 1	3.3	3.3	NUM	_	NumType=Card	2	nummod	_	_
 2	SEPARAÇÃO	separação	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	PRIMÁRIA	primária	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -1155,7 +1169,7 @@
 5	PETRÓLEO	Petróleo	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Ao longo da vida produtiva de um poço de petróleo, água, gás e óleo são produzidos simultaneamente.
-# sent_id = 363-20150326-MONOGRAFIA_0-41
+# sent_id = 363-20150326-MONOGRAFIA_0-43
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1182,7 +1196,7 @@
 22	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Assim, a separação primária de petróleo tem finalidade de separar as fases do fluido produzido para que os produtos de valor econômico possam atender as especificações do mercado.
-# sent_id = 363-20150326-MONOGRAFIA_0-42
+# sent_id = 363-20150326-MONOGRAFIA_0-44
 1	Assim	assim	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1219,7 +1233,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Em uma instalação de processamento primário de fluidos, o gás, por ser menos denso, é incialmente separado do líquido por ação da gravidade em equipamentos denominados separadores (PETROBRAS, 2007).
-# sent_id = 363-20150326-MONOGRAFIA_0-43
+# sent_id = 363-20150326-MONOGRAFIA_0-45
 1	Em	em	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
@@ -1262,7 +1276,7 @@
 38	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Os fluidos produzidos passam por separadores que podem ser bifásicos, realizando a separação líquido/gás; ou trifásicos, separando também óleo e água.
-# sent_id = 363-20150326-MONOGRAFIA_0-44
+# sent_id = 363-20150326-MONOGRAFIA_0-46
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	produzidos	produzer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -1291,7 +1305,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esses equipamentos podem atuar em série ou em paralelo, possuindo geometria vertical ou horizontal.
-# sent_id = 363-20150326-MONOGRAFIA_0-45
+# sent_id = 363-20150326-MONOGRAFIA_0-47
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1310,7 +1324,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Por apresentarem uma maior área superficial de interface (líquido-gás) permitindo uma melhor separação líquido/gás e gás/líquido, os separadores horizontais são normalmente mais eficientes.
-# sent_id = 363-20150326-MONOGRAFIA_0-46
+# sent_id = 363-20150326-MONOGRAFIA_0-48
 1	Por	por	SCONJ	_	_	2	mark	_	_
 2	apresentarem	apresentar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	26	advcl	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -1340,7 +1354,7 @@
 27	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = As desvantagens referem-se ao manuseio de sólidos e a menor capacidade de absorver grandes variações de fluxo (THOMAS, 2001).
-# sent_id = 363-20150326-MONOGRAFIA_0-47
+# sent_id = 363-20150326-MONOGRAFIA_0-49
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3-4	referem-se	_	_	_	_	_	_	_	_
@@ -1370,7 +1384,7 @@
 25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os separadores verticais necessitam de uma menor área para instalação e facilitam a remoção dos sólidos depositados no fundo.
-# sent_id = 363-20150326-MONOGRAFIA_0-48
+# sent_id = 363-20150326-MONOGRAFIA_0-50
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	separadores	separador	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	verticais	vertical	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -1397,7 +1411,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Por outro lado, apresentam desvantagem na utilização offshore devido à sua altura, dificultando operações já que o espaço é limitado nesse ambiente.
-# sent_id = 363-20150326-MONOGRAFIA_0-49
+# sent_id = 363-20150326-MONOGRAFIA_0-51
 1	Por	por	ADP	_	_	5	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -1431,7 +1445,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Na separação líquido/gás, os separadores utilizam-se dos seguintes mecanismos:  Ação da gravidade e diferença de densidades – responsável pela decantação do fluido mais pesado;  Separação inercial – mudanças bruscas de velocidade e de direção de fluxo permitindo ao gás desprender-se da fase líquida devido à inércia que esta fase possui.
-# sent_id = 363-20150326-MONOGRAFIA_0-50
+# sent_id = 363-20150326-MONOGRAFIA_0-52
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1510,7 +1524,7 @@
 66	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text =  Aglutinação das partículas – contato das gotículas de óleo dispersas sobre a superfície, o que facilita sua coalescência, aglutinação e consequente decantação;  Força centrífuga – que aproveita as diferenças de densidade do líquido e do gás (THOMAS, 2001).
-# sent_id = 363-20150326-MONOGRAFIA_0-51
+# sent_id = 363-20150326-MONOGRAFIA_0-53
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Aglutinação	Aglutinação	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -1540,7 +1554,7 @@
 25	e	e	CCONJ	_	_	27	cc	_	_
 26	consequente	consequente	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 27	decantação	decantação	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
-28	;	;	PUNCT	_	_	1	punct	_	_
+28	;	;	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 29			PROPN	_	Number=Sing	1	flat:name	_	_
 30	Força	Força	PROPN	_	Number=Sing	1	flat:name	_	_
 31	centrífuga	centrífuga	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -1568,7 +1582,7 @@
 51	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Um típico separador possui quatro seções distintas, como podem ser vistas nas Figuras 3 e 4:  Seção de separação primária Localizada na entrada do vaso, é responsável pela separação de grande parte do líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-52
+# sent_id = 363-20150326-MONOGRAFIA_0-54
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	típico	típico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	separador	separador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1620,7 +1634,7 @@
 44	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Ao entrar no vaso, o fluido possui uma velocidade considerável e colide contra a placa defletora e, consequentemente, gás se desprende devido à mudança brusca de velocidade e direção do fluxo.
-# sent_id = 363-20150326-MONOGRAFIA_0-53
+# sent_id = 363-20150326-MONOGRAFIA_0-55
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1665,8 +1679,8 @@
 38	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	10	punct	_	_
 
-# text = A força da gravidade também atua nessa seção fazendo com que partículas líquidas mais densas se desprendam da corrente de gás, acumulando- se na seção de acumulação de líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-54
+# text = A força da gravidade também atua nessa seção fazendo com que partículas líquidas mais densas se desprendam da corrente de gás, acumulando-se na seção de acumulação de líquido.
+# sent_id = 363-20150326-MONOGRAFIA_0-56
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1695,21 +1709,21 @@
 23	de	de	ADP	_	_	24	case	_	_
 24	gás	gás	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	acumulando	acumular	VERB	_	VerbForm=Ger	19	advcl	_	SpaceAfter=No
-27	-	-	PUNCT	_	_	26	punct	_	_
-28	se	se	SCONJ	_	_	31	mark	_	_
-29-30	na	_	_	_	_	_	_	_	_
-29	em	em	ADP	_	_	31	case	_	_
-30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	seção	seção	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	acumulação	acumulação	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-34	de	de	ADP	_	_	35	case	_	_
-35	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+26-27	acumulando-se	_	_	_	_	_	_	_	_
+26	acumulando	acumular	VERB	_	VerbForm=Ger	19	advcl	_	_
+27	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	expl	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	seção	seção	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	acumulação	acumulação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text =  Seção de separação secundária Local que permite a circulação da corrente gasosa, em velocidade relativamente baixa e pouco turbulenta, em que gotículas líquidas maiores ainda presentes são desprendidas por ação da gravidade.
-# sent_id = 363-20150326-MONOGRAFIA_0-55
+# sent_id = 363-20150326-MONOGRAFIA_0-57
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Seção	Seção	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1752,7 +1766,7 @@
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text =  Seção de acumulação de líquido Nesta seção, o líquido separado se acumula por um tempo de retenção suficiente para permitir a separação do gás remanescente e, em separadores trifásicos, de grande parte da água.
-# sent_id = 363-20150326-MONOGRAFIA_0-56
+# sent_id = 363-20150326-MONOGRAFIA_0-58
 1			PROPN	_	Number=Sing	15	nsubj	_	_
 2	Seção	Seção	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1800,7 +1814,7 @@
 42	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Em seguida, o líquido retido é drenado do vaso com controle de nível.
-# sent_id = 363-20150326-MONOGRAFIA_0-57
+# sent_id = 363-20150326-MONOGRAFIA_0-59
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1820,16 +1834,16 @@
 16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 
-# sent_id = 363-20150326-MONOGRAFIA_0-58
+# sent_id = 363-20150326-MONOGRAFIA_0-60
 1			PROPN	_	Number=Sing	0	root	_	_
 
 # text = Seção aglutinadora
-# sent_id = 363-20150326-MONOGRAFIA_0-59
+# sent_id = 363-20150326-MONOGRAFIA_0-61
 1	Seção	seção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	aglutinadora	aglutinador	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 
 # text = Região próxima à saída do gás onde as gotículas de líquido arrastadas pela corrente gasosa, não separadas nas seções anteriores, coalescem e decantam para a seção de acumulação de líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-60
+# sent_id = 363-20150326-MONOGRAFIA_0-62
 1	Região	região	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -1873,7 +1887,7 @@
 37	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Em casos de presença de partículas líquidas muito pequenas, são utilizados extratores de névoa na parte superior do vaso.
-# sent_id = 363-20150326-MONOGRAFIA_0-61
+# sent_id = 363-20150326-MONOGRAFIA_0-63
 1	Em	em	ADP	_	_	2	case	_	_
 2	casos	caso	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1898,16 +1912,16 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	vaso	vaso	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Figura 3.
-# sent_id = 363-20150326-MONOGRAFIA_0-62
+# sent_id = 363-20150326-MONOGRAFIA_0-64
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Seções de um vaso separador horizontal bifásico de petróleo.
-# sent_id = 363-20150326-MONOGRAFIA_0-63
+# sent_id = 363-20150326-MONOGRAFIA_0-65
 1	Seções	seção	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1920,7 +1934,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: PETROBRAS, 2007.
-# sent_id = 363-20150326-MONOGRAFIA_0-64
+# sent_id = 363-20150326-MONOGRAFIA_0-66
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	PETROBRAS	PETROBRAS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -1929,13 +1943,13 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 4.
-# sent_id = 363-20150326-MONOGRAFIA_0-65
+# sent_id = 363-20150326-MONOGRAFIA_0-67
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Seções de separação de um separador horizontal trifásico de petróleo.
-# sent_id = 363-20150326-MONOGRAFIA_0-66
+# sent_id = 363-20150326-MONOGRAFIA_0-68
 1	Seções	seção	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	separação	separação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1949,7 +1963,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: PETROBRAS, 2010.
-# sent_id = 363-20150326-MONOGRAFIA_0-67
+# sent_id = 363-20150326-MONOGRAFIA_0-69
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	PETROBRAS	PETROBRAS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -1958,18 +1972,18 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.3.1.
-# sent_id = 363-20150326-MONOGRAFIA_0-68
+# sent_id = 363-20150326-MONOGRAFIA_0-70
 1	3.3.1	3.3.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Vasos separadores verticais
-# sent_id = 363-20150326-MONOGRAFIA_0-69
+# sent_id = 363-20150326-MONOGRAFIA_0-71
 1	Vasos	Vaso	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	separadores	separador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	verticais	vertical	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 
 # text = Separadores verticais geralmente são selecionados quando a razão gás-líquido é alta ou as vazões totais de gases são baixos.
-# sent_id = 363-20150326-MONOGRAFIA_0-70
+# sent_id = 363-20150326-MONOGRAFIA_0-72
 1	Separadores	Separador	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 2	verticais	vertical	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	geralmente	geralmente	ADV	_	_	5	advmod	_	_
@@ -1992,7 +2006,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No separador vertical, os fluidos entram no vaso e se chocam com a placa defletora iniciando a separação primária.
-# sent_id = 363-20150326-MONOGRAFIA_0-71
+# sent_id = 363-20150326-MONOGRAFIA_0-73
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2020,7 +2034,7 @@
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O líquido removido pelo defletor de entrada se desloca para a base do vaso.
-# sent_id = 363-20150326-MONOGRAFIA_0-72
+# sent_id = 363-20150326-MONOGRAFIA_0-74
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	removido	remover	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -2042,7 +2056,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O gás move-se para cima, geralmente passando através de um extrator de névoa para remover a névoa ainda suspensa.
-# sent_id = 363-20150326-MONOGRAFIA_0-73
+# sent_id = 363-20150326-MONOGRAFIA_0-75
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gás	gás	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3-4	move-se	_	_	_	_	_	_	_	_
@@ -2068,7 +2082,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Em seguida, o gás separado deixa o vaso pela parte superior.
-# sent_id = 363-20150326-MONOGRAFIA_0-74
+# sent_id = 363-20150326-MONOGRAFIA_0-76
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2086,7 +2100,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O líquido removido pelo extrator de névoa funde-se em gotículas maiores e decantam para a região de acúmulo de líquido na parte inferior (Figura 5).
-# sent_id = 363-20150326-MONOGRAFIA_0-75
+# sent_id = 363-20150326-MONOGRAFIA_0-77
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	removido	remover	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -2096,7 +2110,7 @@
 6	extrator	extrator	NOUN	_	Gender=Masc|Number=Sing	3	obl:agent	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	névoa	névoa	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9-10	funde-se	_	_	_	_	_	_	_	_
+9-10	funde-se	_	_	_	_	_	_	_	SpacesAfter=\s\n
 9	funde	funder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 11	em	em	ADP	_	_	12	case	_	_
@@ -2123,7 +2137,7 @@
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Controle de nível não é tão rígido, podendo variar o nível do líquido em vários centímetros sem afetar a eficiência operacional.
-# sent_id = 363-20150326-MONOGRAFIA_0-76
+# sent_id = 363-20150326-MONOGRAFIA_0-78
 1	Controle	controle	ADJ	_	Gender=Unsp|Number=Sing	7	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	nível	nível	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
@@ -2150,8 +2164,8 @@
 23	operacional	operacional	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = O uso de extratores de névoa pode reduzir significativamente o diâmetro exigido de separadores verticais.
-# sent_id = 363-20150326-MONOGRAFIA_0-77
+# text = O uso de extratores de névoa pode reduzir Figura 5.
+# sent_id = 363-20150326-MONOGRAFIA_0-79
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2160,23 +2174,12 @@
 6	névoa	névoa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	reduzir	reduzir	VERB	_	VerbForm=Inf	7	xcomp	_	_
-9	significativamente	significativamente	ADV	_	_	8	advmod	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
-12	exigido	exigir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	separadores	separador	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
-15	verticais	vertical	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
-
-# text = Figura 5.
-# sent_id = 363-20150326-MONOGRAFIA_0-78
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	_
+9	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	5	5	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Separador vertical trifásico de petróleo.
-# sent_id = 363-20150326-MONOGRAFIA_0-79
+# sent_id = 363-20150326-MONOGRAFIA_0-80
 1	Separador	Separador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	vertical	vertical	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	trifásico	trifásico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
@@ -2185,7 +2188,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: PETROBRAS, 2007.
-# sent_id = 363-20150326-MONOGRAFIA_0-80
+# sent_id = 363-20150326-MONOGRAFIA_0-81
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	PETROBRAS	PETROBRAS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -2194,17 +2197,17 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.3.2
-# sent_id = 363-20150326-MONOGRAFIA_0-81
+# sent_id = 363-20150326-MONOGRAFIA_0-82
 1	3.3.2	3.3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Vasos separadores horizontais
-# sent_id = 363-20150326-MONOGRAFIA_0-82
+# sent_id = 363-20150326-MONOGRAFIA_0-83
 1	Vasos	Vaso	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	separadores	separador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	horizontais	horizontal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 
 # text = Separadores horizontais são mais eficientes para grandes volumes totais de fluido e grandes quantidades de gás dissolvido.
-# sent_id = 363-20150326-MONOGRAFIA_0-83
+# sent_id = 363-20150326-MONOGRAFIA_0-84
 1	Separadores	Separador	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 2	horizontais	horizontal	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -2225,7 +2228,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A maior área de superfície de líquido nesta configuração oferece as melhores condições para a liberação do gás aprisionado.
-# sent_id = 363-20150326-MONOGRAFIA_0-84
+# sent_id = 363-20150326-MONOGRAFIA_0-85
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	área	área	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -2252,7 +2255,7 @@
 22	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = No separador horizontal, Figura 4, o líquido que foi separado a partir do gás move-se ao longo do fundo do vaso para a saída do líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-85
+# sent_id = 363-20150326-MONOGRAFIA_0-86
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2295,15 +2298,12 @@
 33	de	de	ADP	_	_	35	case	_	_
 34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
-# text = 4
-# sent_id = 363-20150326-MONOGRAFIA_0-86
-1	4	4	NUM	_	NumType=Card	0	root	_	_
-
-# text = METODOLOGIA
+# text = 4 METODOLOGIA
 # sent_id = 363-20150326-MONOGRAFIA_0-87
-1	METODOLOGIA	metodologia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	4	4	NUM	_	NumType=Card	2	nummod	_	_
+2	METODOLOGIA	metodologia	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O dimensionamento de vasos separadores de petróleo capazes de tratar correntes bifásicas ou trifásicas consiste basicamente na determinação do seu diâmetro e da sua altura total.
 # sent_id = 363-20150326-MONOGRAFIA_0-88
@@ -2515,7 +2515,7 @@
 27	separadores	separador	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 4.1 DIMENSIONAMENTO DO VASO SEPARADOR
 # sent_id = 363-20150326-MONOGRAFIA_0-98
@@ -2748,7 +2748,7 @@
 44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	_
 46	6	6	NUM	_	NumType=Card	45	nummod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6.
 # sent_id = 363-20150326-MONOGRAFIA_0-109
@@ -2790,7 +2790,7 @@
 6	matematicamente	matematicamente	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = A força de arraste (F) em uma gota de líquido numa corrente de gás é determinada a partir de: Onde, F = força de arrasto em lbf G = aceleração da gravidade em ft2/s
+# text = A força de arraste (F) em uma gota de líquido numa corrente de gás é determinada a partir de: Onde, F = força de arrasto em lbf G
 # sent_id = 363-20150326-MONOGRAFIA_0-113
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
@@ -2824,19 +2824,22 @@
 29	de	de	ADP	_	_	30	case	_	_
 30	arrasto	arrasto	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 31	em	em	ADP	_	_	32	case	_	_
-32	lbf	lbf	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-33	G	G	PROPN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-34	=	=	SYM	_	_	28	appos	_	_
-35	aceleração	aceleração	NOUN	_	Gender=Fem|Number=Sing	34	appos	_	_
-36-37	da	_	_	_	_	_	_	_	_
-36	de	de	ADP	_	_	38	case	_	_
-37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
-39	em	em	ADP	_	_	40	case	_	_
-40	ft2/s	ft2/	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+32	lbf	lbf	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+33	G	G	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+
+# text = = aceleração da gravidade em ft2/s
+# sent_id = 363-20150326-MONOGRAFIA_0-114
+1	=	=	SYM	_	_	0	root	_	_
+2	aceleração	aceleração	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	ft2/s	ft2/	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 
 # text = ϒg = peso específico da fase gasosa em lbf/ft3
-# sent_id = 363-20150326-MONOGRAFIA_0-114
+# sent_id = 363-20150326-MONOGRAFIA_0-115
 1	ϒg	ϒg	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	appos	_	_
 3	peso	peso	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -2850,11 +2853,11 @@
 10	lbf/ft3	lbf/ft3	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Ap
-# sent_id = 363-20150326-MONOGRAFIA_0-115
+# sent_id = 363-20150326-MONOGRAFIA_0-116
 1	Ap	Ap	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
-# text = = área transversal da partícula em ft2 CD = coeficiente de arrasto da partícula (adimensional)
-# sent_id = 363-20150326-MONOGRAFIA_0-116
+# text = = área transversal da partícula em ft2 CD
+# sent_id = 363-20150326-MONOGRAFIA_0-117
 1	=	=	SYM	_	_	0	root	_	_
 2	área	área	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	transversal	transversal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2865,20 +2868,23 @@
 7	em	em	ADP	_	_	9	case	_	_
 8	ft2	ft2	NUM	_	NumType=Card	9	nummod	_	_
 9	CD	cd	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-10	=	=	SYM	_	_	9	nmod	_	_
-11	coeficiente	coeficiente	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	arrasto	arrasto	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	partícula	partícula	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	adimensional	adimensional	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	18	punct	_	_
+
+# text = = coeficiente de arrasto da partícula (adimensional)
+# sent_id = 363-20150326-MONOGRAFIA_0-118
+1	=	=	SYM	_	_	0	root	_	_
+2	coeficiente	coeficiente	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	arrasto	arrasto	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	partícula	partícula	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	adimensional	adimensional	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
 
 # text = Vt = velocidade terminal em ft/s
-# sent_id = 363-20150326-MONOGRAFIA_0-117
+# sent_id = 363-20150326-MONOGRAFIA_0-119
 1	Vt	Vt	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -2886,34 +2892,39 @@
 5	em	em	ADP	_	_	6	case	_	_
 6	ft/s	ft/	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 
-# text = Assim, (2)
-# sent_id = 363-20150326-MONOGRAFIA_0-118
-1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
+# text = Assim, E da
+# sent_id = 363-20150326-MONOGRAFIA_0-120
+1	Assim	assim	ADV	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	4	punct	_	_
+3	E	e	CCONJ	_	_	1	cc	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 
-# text = E da Segunda Lei de Newton, tem-se: Como:
-# sent_id = 363-20150326-MONOGRAFIA_0-119
-1	E	e	CCONJ	_	_	4	cc	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Segunda	Segunda	PROPN	_	Number=Sing	9	obl	_	_
-5	Lei	Lei	PROPN	_	Number=Sing	4	flat:name	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Newton	Newton	PROPN	_	Number=Sing	4	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	4	punct	_	_
-9-10	tem-se	_	_	_	_	_	_	_	SpaceAfter=No
-9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
-11	:	:	PUNCT	_	_	9	punct	_	_
-12	Como	como	ADV	_	_	9	advmod	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	9	punct	_	_
+# text = Segunda Lei de Newton, tem-se: 𝑤 𝐹 = 𝑔 (3) 𝑔 Como:
+# sent_id = 363-20150326-MONOGRAFIA_0-121
+1	Segunda	Segundar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Lei	Lei	PROPN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Newton	Newton	PROPN	_	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6-7	tem-se	_	_	_	_	_	_	_	SpaceAfter=No
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	𝑤	𝑤	PROPN	_	Number=Sing	6	nsubj	_	_
+10	𝐹	𝐹	PROPN	_	Number=Sing	9	flat:name	_	_
+11	=	=	SYM	_	_	9	appos	_	_
+12	𝑔	𝑔	PROPN	_	Number=Sing	11	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	3	3	NUM	_	NumType=Card	11	appos:parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	𝑔	𝑔	PROPN	_	Number=Sing	11	appos	_	SpacesAfter=\s\n
+17	Como	Como	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Onde, Wp = peso da partícula em lb;
-# sent_id = 363-20150326-MONOGRAFIA_0-120
+# sent_id = 363-20150326-MONOGRAFIA_0-122
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Wp	Wp	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -2928,7 +2939,7 @@
 11	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = ϒL = peso específico da fase líquida em lb/ft3; w
-# sent_id = 363-20150326-MONOGRAFIA_0-121
+# sent_id = 363-20150326-MONOGRAFIA_0-123
 1	ϒL	ϒL	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 2	=	=	SYM	_	_	1	flat:name	_	_
 3	peso	peso	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -2944,7 +2955,7 @@
 12	w	w	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = diferença de peso entre a corrente líquida e gasosa.
-# sent_id = 363-20150326-MONOGRAFIA_0-122
+# sent_id = 363-20150326-MONOGRAFIA_0-124
 1	=	=	SYM	_	_	0	root	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2958,7 +2969,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Substituindo a Equação 3 na 4, e em seguida inserindo a Equação 3 na Equação 1, obtém-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-123
+# sent_id = 363-20150326-MONOGRAFIA_0-125
 1	Substituindo	Substituir	VERB	_	VerbForm=Ger	21	acl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -2987,13 +2998,13 @@
 23	:	:	PUNCT	_	_	21	punct	_	_
 
 # text = Onde, Dp
-# sent_id = 363-20150326-MONOGRAFIA_0-124
+# sent_id = 363-20150326-MONOGRAFIA_0-126
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Dp	Dp	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = diâmetro da gota em ft; ϒL,g = peso específico da fase líquida e fase gasosa em lbf/ft3; CD = coeficiente de arrasto da partícula (adimensional)
-# sent_id = 363-20150326-MONOGRAFIA_0-125
+# sent_id = 363-20150326-MONOGRAFIA_0-127
 1	=	=	SYM	_	_	0	root	_	_
 2	diâmetro	diâmetro	NUM	_	NumType=Card	1	nummod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3034,7 +3045,7 @@
 35	)	)	PUNCT	_	_	34	punct	_	_
 
 # text = O coeficiente de arrasto foi encontrado para ser uma função da forma das partículas e o número de Reynolds do fluxo de gás.
-# sent_id = 363-20150326-MONOGRAFIA_0-126
+# sent_id = 363-20150326-MONOGRAFIA_0-128
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	coeficiente	coeficiente	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3067,7 +3078,7 @@
 27	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para o propósito dessa equação, a forma da partícula é considerada como sendo uma esfera rígida sólida.
-# sent_id = 363-20150326-MONOGRAFIA_0-127
+# sent_id = 363-20150326-MONOGRAFIA_0-129
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	propósito	propósito	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
@@ -3093,7 +3104,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = O número de Reynolds é definido como:
-# sent_id = 363-20150326-MONOGRAFIA_0-128
+# sent_id = 363-20150326-MONOGRAFIA_0-130
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	número	número	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3104,7 +3115,7 @@
 8	:	:	PUNCT	_	_	6	punct	_	_
 
 # text = Onde, µ = viscosidade (cP)
-# sent_id = 363-20150326-MONOGRAFIA_0-129
+# sent_id = 363-20150326-MONOGRAFIA_0-131
 1	Onde	onde	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	µ	µ	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -3115,7 +3126,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = Nesta forma, uma solução de tentativa-e-erro é necessária uma vez que tanto o tamanho de partícula
-# sent_id = 363-20150326-MONOGRAFIA_0-130
+# sent_id = 363-20150326-MONOGRAFIA_0-132
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -3137,7 +3148,7 @@
 18	partícula	partícula	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 
 # text = Dp e a velocidade terminal Vt, estão envolvidos.
-# sent_id = 363-20150326-MONOGRAFIA_0-131
+# sent_id = 363-20150326-MONOGRAFIA_0-133
 1	Dp	Dp	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3150,7 +3161,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para evitar a tentativa e erro, os valores do coeficiente de resistência podem ser obtidos com o auxílio da Figura 7.
-# sent_id = 363-20150326-MONOGRAFIA_0-132
+# sent_id = 363-20150326-MONOGRAFIA_0-134
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	evitar	evitar	VERB	_	VerbForm=Inf	15	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3180,7 +3191,7 @@
 25	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A abcissa da Figura 7 é representada por: Figura 7.
-# sent_id = 363-20150326-MONOGRAFIA_0-133
+# sent_id = 363-20150326-MONOGRAFIA_0-135
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	abcissa	abcissa	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3191,20 +3202,20 @@
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 8	representada	representar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 9	por	por	ADP	_	_	8	advmod	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	8	punct	_	_
+10	:	:	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 11	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	_
 12	7	7	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Coeficiente de resistência.
-# sent_id = 363-20150326-MONOGRAFIA_0-134
+# sent_id = 363-20150326-MONOGRAFIA_0-136
 1	Coeficiente	Coeficiente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: LYONS, 1996.
-# sent_id = 363-20150326-MONOGRAFIA_0-135
+# sent_id = 363-20150326-MONOGRAFIA_0-137
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	LYONS	LYONS	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -3213,7 +3224,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para o projeto de instalação de produção (fluxo turbulento), a seguinte fórmula para o coeficiente de arrasto é adequada:
-# sent_id = 363-20150326-MONOGRAFIA_0-136
+# sent_id = 363-20150326-MONOGRAFIA_0-138
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
@@ -3239,7 +3250,7 @@
 23	:	:	PUNCT	_	_	22	punct	_	_
 
 # text = Onde, Re = número de Reynolds (adimensional) 4.1.3
-# sent_id = 363-20150326-MONOGRAFIA_0-137
+# sent_id = 363-20150326-MONOGRAFIA_0-139
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Re	rir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3254,14 +3265,14 @@
 12	3	3	NUM	_	NumType=Card	11	flat	_	_
 
 # text = Vaso separador bifásico vertical
-# sent_id = 363-20150326-MONOGRAFIA_0-138
+# sent_id = 363-20150326-MONOGRAFIA_0-140
 1	Vaso	Vaso	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	separador	separador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	bifásico	bifásico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	vertical	vertical	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
 # text = O seguinte procedimento de cálculo é utilizado para o dimensionamento de vasos separadores bifásicos verticais.
-# sent_id = 363-20150326-MONOGRAFIA_0-139
+# sent_id = 363-20150326-MONOGRAFIA_0-141
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
@@ -3280,7 +3291,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O dimensionamento deve basear-se na velocidade terminal da gotícula de líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-140
+# sent_id = 363-20150326-MONOGRAFIA_0-142
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	dimensionamento	dimensionamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3301,7 +3312,7 @@
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Em fins práticos, a Equação (5), torna-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-141
+# sent_id = 363-20150326-MONOGRAFIA_0-143
 1	Em	em	ADP	_	_	2	case	_	_
 2	fins	fim	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
 3	práticos	prático	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -3318,7 +3329,7 @@
 13	:	:	PUNCT	_	_	11	punct	_	_
 
 # text = Onde: Vt = velocidade terminal das gotículas de líquido ou máxima velocidade superficial admissível do gás em ft/s; K
-# sent_id = 363-20150326-MONOGRAFIA_0-142
+# sent_id = 363-20150326-MONOGRAFIA_0-144
 1	Onde	onde	ADV	_	_	23	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Vt	Vt	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -3346,7 +3357,7 @@
 23	K	K	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = constante depende do projeto e das condições de separação em ft/s;
-# sent_id = 363-20150326-MONOGRAFIA_0-143
+# sent_id = 363-20150326-MONOGRAFIA_0-145
 1	=	=	SYM	_	_	3	nsubj	_	_
 2	constante	constante	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	depende	depender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3363,10 +3374,10 @@
 12	separação	separação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	em	em	ADP	_	_	12	case	_	_
 14	ft/s	ft/	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
-15	;	;	PUNCT	_	_	3	punct	_	_
+15	;	;	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
 
 # text = Na literatura podem ser encontradas diversas formas para a determinação da constante K. Valores determinados através de diferentes estudos podem ser visualizados na Tabela 3 e na Figura 11, a partir do fator de separação.
-# sent_id = 363-20150326-MONOGRAFIA_0-144
+# sent_id = 363-20150326-MONOGRAFIA_0-146
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3416,13 +3427,13 @@
 42	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = Tabela 3.
-# sent_id = 363-20150326-MONOGRAFIA_0-145
+# sent_id = 363-20150326-MONOGRAFIA_0-147
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Valores típicos da constante K
-# sent_id = 363-20150326-MONOGRAFIA_0-146
+# sent_id = 363-20150326-MONOGRAFIA_0-148
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	típicos	típico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3431,8 +3442,124 @@
 5	constante	constante	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	K	K	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
+# text = Fonte: LYONS, 1996.
+# sent_id = 363-20150326-MONOGRAFIA_0-149
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	LYONS	LYONS	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	1996	1996	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Tipo de separador Constante K (ft/s) Horizontal (c/ extrator vert.) 0,40 a 0,50 0,20 a 0,35 0,18 a 0,35
+# sent_id = 363-20150326-MONOGRAFIA_0-150
+1	Tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	separador	separador	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	Constante	constante	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
+5	K	K	PROPN	_	Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	ft/s)	ft/s)	ADP	_	_	8	case	_	_
+8	Horizontal	Horizontal	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	c	c	ADV	_	_	12	advmod	_	SpaceAfter=No
+11	/	/	PUNCT	_	_	10	punct	_	_
+12	extrator	extrator	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	vert	vert	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	1	punct	_	_
+16	0,40	0,40	NUM	_	NumType=Card	21	nmod	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	0,50	0,50	NUM	_	NumType=Card	16	nmod	_	_
+19	0,20	0,20	NUM	_	NumType=Card	18	flat	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	0,35	0,35	NUM	_	NumType=Card	0	root	_	_
+22	0,18	0,18	NUM	_	NumType=Card	21	flat	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	0,35	0,35	NUM	_	NumType=Card	21	nmod	_	_
+
+# text = Esférico Vert.
+# sent_id = 363-20150326-MONOGRAFIA_0-151
+1	Esférico	Esférico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Vert	Vert	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Ou Horiz.
+# sent_id = 363-20150326-MONOGRAFIA_0-152
+1	Ou	ou	CCONJ	_	_	2	cc	_	_
+2	Horiz	Horiz	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = (c/ extrator horiz.)
+# sent_id = 363-20150326-MONOGRAFIA_0-153
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	c	c	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	/	/	PUNCT	_	_	2	punct	_	_
+4	extrator	extrator	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	horiz	horiz	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	4	punct	_	_
+
+# text = A pressão atmosférica 0,35 0,33 0,30 0,27 0,21 0,25 0,20 0,15
+# sent_id = 363-20150326-MONOGRAFIA_0-154
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	atmosférica	atmosféricar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	0,35	0,35	NUM	_	NumType=Card	3	obj	_	_
+5	0,33	0,33	NUM	_	NumType=Card	4	nummod	_	_
+6	0,30	0,30	NUM	_	NumType=Card	5	nummod	_	_
+7	0,27	0,27	NUM	_	NumType=Card	6	nummod	_	_
+8	0,21	0,21	NUM	_	NumType=Card	7	nummod	_	_
+9	0,25	0,25	NUM	_	NumType=Card	8	nummod	_	_
+10	0,20	0,20	NUM	_	NumType=Card	9	nummod	_	_
+11	0,15	0,15	NUM	_	NumType=Card	10	flat	_	_
+
+# text = A 300 psig
+# sent_id = 363-20150326-MONOGRAFIA_0-155
+1	A	a	ADP	_	_	3	case	_	_
+2	300	300	NUM	_	NumType=Card	3	nummod	_	_
+3	psig	psig	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+
+# text = A 600 psig
+# sent_id = 363-20150326-MONOGRAFIA_0-156
+1	A	a	ADP	_	_	3	case	_	_
+2	600	600	NUM	_	NumType=Card	3	nummod	_	_
+3	psig	psig	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+
+# text = A 900 psig
+# sent_id = 363-20150326-MONOGRAFIA_0-157
+1	A	a	ADP	_	_	3	case	_	_
+2	900	900	NUM	_	NumType=Card	3	nummod	_	_
+3	psig	psig	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+
+# text = A 1500 psig
+# sent_id = 363-20150326-MONOGRAFIA_0-158
+1	A	a	ADP	_	_	3	case	_	_
+2	1500	1500	NUM	_	NumType=Card	3	nummod	_	_
+3	psig	psig	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+
+# text = Vapor úmido Maioria dos vapores ao vácuo Evaporadores de sal e soda cáustica
+# sent_id = 363-20150326-MONOGRAFIA_0-159
+1	Vapor	Vapor	ADV	_	_	2	advmod	_	_
+2	úmido	úmido	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	Maioria	maioria	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	vapores	vapor	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	vácuo	vácuo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Evaporadores	Evaporadores	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	sal	sal	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	soda	soda	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+15	cáustica	cáustico	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+
 # text = Observação: (1) K = 0,35 a 100 psig – Subtrai 0,01 para cada 100 psi acima de 100 psig. (2)
-# sent_id = 363-20150326-MONOGRAFIA_0-147
+# sent_id = 363-20150326-MONOGRAFIA_0-160
 1	Observação	observação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3460,7 +3587,7 @@
 25	)	)	PUNCT	_	_	24	punct	_	_
 
 # text = Para soluções de glicol e amina, multiplica-se K por 0,6 – 0,8.
-# sent_id = 363-20150326-MONOGRAFIA_0-148
+# sent_id = 363-20150326-MONOGRAFIA_0-161
 1	Para	para	ADP	_	_	2	case	_	_
 2	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3479,12 +3606,12 @@
 15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = (3)
-# sent_id = 363-20150326-MONOGRAFIA_0-149
+# sent_id = 363-20150326-MONOGRAFIA_0-162
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	3)	3)	NUM	_	NumType=Card	0	root	_	_
 
 # text = Tipicamente usa-se metade do valor de K para aproximar o dimensionamento de separadores verticais sem extratores de névoa.
-# sent_id = 363-20150326-MONOGRAFIA_0-150
+# sent_id = 363-20150326-MONOGRAFIA_0-163
 1	Tipicamente	tipicamente	ADV	_	_	2	advmod	_	_
 2-3	usa-se	_	_	_	_	_	_	_	_
 2	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3510,7 +3637,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = (4) Para lavadores de compressor de sucção e separadores de expansor de entrada, multiplica-se K por 0,7 – 0,8.
-# sent_id = 363-20150326-MONOGRAFIA_0-151
+# sent_id = 363-20150326-MONOGRAFIA_0-164
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	4	4	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -3538,13 +3665,13 @@
 24	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Figura 8.
-# sent_id = 363-20150326-MONOGRAFIA_0-152
+# sent_id = 363-20150326-MONOGRAFIA_0-165
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Constante K em função do fator de separação para um separador vertical.
-# sent_id = 363-20150326-MONOGRAFIA_0-153
+# sent_id = 363-20150326-MONOGRAFIA_0-166
 1	Constante	constante	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	K	k	PROPN	_	Number=Sing	1	flat:name	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -3562,58 +3689,55 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: GÓIS, 2013.
-# sent_id = 363-20150326-MONOGRAFIA_0-154
+# sent_id = 363-20150326-MONOGRAFIA_0-167
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	GÓIS	GÓIS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	2013	2013	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = (10) Onde, WL,v = vazões mássicas do líquido e do vapor, em lbm/s; ρL,v = massa específica do líquido e do vapor, em lbm/ft³.
-# sent_id = 363-20150326-MONOGRAFIA_0-155
-1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	10	10	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
-3	)	)	PUNCT	_	_	2	punct	_	_
-4	Onde	onde	ADV	_	_	7	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	WL,v	WL,v	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
-7	=	=	SYM	_	_	0	root	_	_
-8	vazões	vazão	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	_
-9	mássicas	mássico	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-13	e	e	CCONJ	_	_	16	cc	_	_
-14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	19	punct	_	_
-18	em	em	ADP	_	_	19	case	_	_
-19	lbm/s	lbm/	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
-20	;	;	PUNCT	_	_	7	punct	_	_
-21	ρL,v	ρL,v	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
-22	=	=	SYM	_	_	21	flat:name	_	_
-23	massa	massa	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-24	específica	específico	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-28	e	e	CCONJ	_	_	31	cc	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	31	case	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	34	punct	_	_
-33	em	em	ADP	_	_	34	case	_	_
-34	lbm/ft³	lbm/ft³	PROPN	_	Number=Sing	23	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+# text = Onde, WL,v = vazões mássicas do líquido e do vapor, em lbm/s; ρL,v = massa específica do líquido e do vapor, em lbm/ft³.
+# sent_id = 363-20150326-MONOGRAFIA_0-168
+1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	WL,v	WL,v	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	=	=	SYM	_	_	16	conj	_	_
+5	vazões	vazão	NOUN	_	Gender=Fem|Number=Plur	4	appos	_	_
+6	mássicas	mássico	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	lbm/s	lbm/	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+17	;	;	PUNCT	_	_	3	punct	_	_
+18	ρL,v	ρL,v	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
+19	=	=	SYM	_	_	18	flat:name	_	_
+20	massa	massa	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+21	específica	específico	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	líquido	líquido	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	lbm/ft³	lbm/ft³	PROPN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Seguindo com o procedimento de cálculo, tem-se que;
-# sent_id = 363-20150326-MONOGRAFIA_0-156
+# sent_id = 363-20150326-MONOGRAFIA_0-169
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3628,13 +3752,13 @@
 11	;	;	PUNCT	_	_	8	punct	_	_
 
 # text = Onde: Q
-# sent_id = 363-20150326-MONOGRAFIA_0-157
+# sent_id = 363-20150326-MONOGRAFIA_0-170
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Q	q	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = vazão do fluido em ft³/s;
-# sent_id = 363-20150326-MONOGRAFIA_0-158
+# sent_id = 363-20150326-MONOGRAFIA_0-171
 1	=	=	SYM	_	_	0	root	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -3646,7 +3770,7 @@
 8	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Ag = área do vaso em ft² Sabe-se, então, que ao relacionar a área do vaso com a vazão do fluido é possível determinar um diâmetro mínimo para o vaso.
-# sent_id = 363-20150326-MONOGRAFIA_0-159
+# sent_id = 363-20150326-MONOGRAFIA_0-172
 1	Ag	Ag	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	appos	_	_
 3	área	área	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -3692,7 +3816,7 @@
 38	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Assim, 𝑉𝑡 = 𝑉𝑔, tem-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-160
+# sent_id = 363-20150326-MONOGRAFIA_0-173
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	𝑉𝑡	𝑉𝑡	PROPN	_	Number=Sing	7	nsubj	_	_
@@ -3705,7 +3829,7 @@
 9	:	:	PUNCT	_	_	7	punct	_	_
 
 # text = Substituindo os parâmetros, obtém-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-161
+# sent_id = 363-20150326-MONOGRAFIA_0-174
 1	Substituindo	Substituir	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
@@ -3716,7 +3840,7 @@
 7	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = Assim, torna-se possível a determinação do valor mínimo do diâmetro do vaso a partir da Equação 13.
-# sent_id = 363-20150326-MONOGRAFIA_0-162
+# sent_id = 363-20150326-MONOGRAFIA_0-175
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	torna-se	_	_	_	_	_	_	_	_
@@ -3748,7 +3872,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Sabendo que os cálculos usados normalmente já consideram o uso de extrator de névoa, já é garantido que gotículas de líquido maiores que 10 µm serão separadas da corrente gasosa.
-# sent_id = 363-20150326-MONOGRAFIA_0-163
+# sent_id = 363-20150326-MONOGRAFIA_0-176
 1	Sabendo	saber	VERB	_	VerbForm=Ger	18	advcl	_	_
 2	que	que	SCONJ	_	_	8	mark	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -3784,8 +3908,8 @@
 32	gasosa	gasoso	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
-# text = Usualmente, os fabricantes produzem vasos separadores de diâmetros pré- determinados.
-# sent_id = 363-20150326-MONOGRAFIA_0-164
+# text = Usualmente, os fabricantes produzem vasos separadores de diâmetros pré-determinados.
+# sent_id = 363-20150326-MONOGRAFIA_0-177
 1	Usualmente	Usualmente	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -3795,12 +3919,11 @@
 7	separadores	separador	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	diâmetros	diâmetro	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-10	pré-	pré-	PUNCT	_	_	11	punct	_	_
-11	determinados	determinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	_
+10	pré-determinados	pré-determinado	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Assim, deve-se escolher um diâmetro que atenda às necessidades do vaso de acordo com dimensionamento prévio.
-# sent_id = 363-20150326-MONOGRAFIA_0-165
+# sent_id = 363-20150326-MONOGRAFIA_0-178
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	deve-se	_	_	_	_	_	_	_	_
@@ -3827,7 +3950,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Esses diâmetros podem ser encontrados em tabelas nas literaturas (LYONS, 1996).
-# sent_id = 363-20150326-MONOGRAFIA_0-166
+# sent_id = 363-20150326-MONOGRAFIA_0-179
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	diâmetros	diâmetro	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3847,7 +3970,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Em seguida, o diâmetro deve ser recalculado para vasos separadores sem extrator de névoa e feita escolha entre os já encontrados.
-# sent_id = 363-20150326-MONOGRAFIA_0-167
+# sent_id = 363-20150326-MONOGRAFIA_0-180
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3873,7 +3996,7 @@
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Assim, usando as Equações 5 e 7 é possível determinar o diâmetro do vaso, assumindo a partícula com 100 µm e 150 µm de diâmetro.
-# sent_id = 363-20150326-MONOGRAFIA_0-168
+# sent_id = 363-20150326-MONOGRAFIA_0-181
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	usando	usar	VERB	_	VerbForm=Ger	0	root	_	_
@@ -3903,10 +4026,10 @@
 26	µm	µm	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Para que ocorra a separação desejada entre as fases líquida e gasosa, faz-se necessária a retenção de um volume de líquido dentro do vaso.
-# sent_id = 363-20150326-MONOGRAFIA_0-169
+# sent_id = 363-20150326-MONOGRAFIA_0-182
 1	Para	para	SCONJ	_	_	3	mark	_	_
 2	que	que	SCONJ	_	_	3	mark	_	_
 3	ocorra	ocorrer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
@@ -3939,7 +4062,7 @@
 28	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = O tempo ideal para essa separação é determinada a partir da vazão e do volume do equipamento.
-# sent_id = 363-20150326-MONOGRAFIA_0-170
+# sent_id = 363-20150326-MONOGRAFIA_0-183
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	ideal	ideal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3966,7 +4089,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Porém, alguns valores são tabelados para separadores bifásicos, como mostra a Tabela 4.
-# sent_id = 363-20150326-MONOGRAFIA_0-171
+# sent_id = 363-20150326-MONOGRAFIA_0-184
 1	Porém	porém	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -3985,13 +4108,13 @@
 16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 4.
-# sent_id = 363-20150326-MONOGRAFIA_0-172
+# sent_id = 363-20150326-MONOGRAFIA_0-185
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tempo de retenção para vasos separadores bifásicos verticais.
-# sent_id = 363-20150326-MONOGRAFIA_0-173
+# sent_id = 363-20150326-MONOGRAFIA_0-186
 1	Tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4003,7 +4126,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Desta forma, torna-se possível relacionar a altura de líquido no vaso com o tempo de retenção:
-# sent_id = 363-20150326-MONOGRAFIA_0-174
+# sent_id = 363-20150326-MONOGRAFIA_0-187
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4030,7 +4153,7 @@
 21	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = Onde, t = tempo de retenção em segundos;
-# sent_id = 363-20150326-MONOGRAFIA_0-175
+# sent_id = 363-20150326-MONOGRAFIA_0-188
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	t	t	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -4043,7 +4166,7 @@
 10	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = Vol = volume do vaso em ft³;
-# sent_id = 363-20150326-MONOGRAFIA_0-176
+# sent_id = 363-20150326-MONOGRAFIA_0-189
 1	Vol	Vol	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -4056,11 +4179,11 @@
 9	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Q
-# sent_id = 363-20150326-MONOGRAFIA_0-177
+# sent_id = 363-20150326-MONOGRAFIA_0-190
 1	Q	q	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = vazão de líquido em ft³/s.
-# sent_id = 363-20150326-MONOGRAFIA_0-178
+# sent_id = 363-20150326-MONOGRAFIA_0-191
 1	=	=	SYM	_	_	0	root	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4070,7 +4193,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A partir do volume do cilindro relacionado com o tempo de retenção, pode-se obter a altura de líquido dentro do vaso:
-# sent_id = 363-20150326-MONOGRAFIA_0-179
+# sent_id = 363-20150326-MONOGRAFIA_0-192
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	16	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4101,16 +4224,16 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	vaso	vaso	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
-27	:	:	PUNCT	_	_	18	punct	_	_
+27	:	:	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
 
 # text = Figura 9.
-# sent_id = 363-20150326-MONOGRAFIA_0-180
+# sent_id = 363-20150326-MONOGRAFIA_0-193
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Geometria usada para o dimensionamento do comprimento do vaso separador bifásico vertical.
-# sent_id = 363-20150326-MONOGRAFIA_0-181
+# sent_id = 363-20150326-MONOGRAFIA_0-194
 1	Geometria	Geometria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -4130,7 +4253,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O próximo procedimento é o cálculo do comprimento total do vaso separador (L), devendo ser determinado a partir da sua geometria, como visto na Figura 9, em caso que tanto a altura de líquido quanto o peso do recipiente é conhecido.
-# sent_id = 363-20150326-MONOGRAFIA_0-182
+# sent_id = 363-20150326-MONOGRAFIA_0-195
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -4190,7 +4313,7 @@
 52	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Logo, tem-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-183
+# sent_id = 363-20150326-MONOGRAFIA_0-196
 1	Logo	logo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	tem-se	_	_	_	_	_	_	_	SpaceAfter=No
@@ -4199,7 +4322,7 @@
 5	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Em busca de uma proporção entre o comprimento e o diâmetro do vaso, utiliza-se da relação (L/D).
-# sent_id = 363-20150326-MONOGRAFIA_0-184
+# sent_id = 363-20150326-MONOGRAFIA_0-197
 1	Em	em	ADP	_	_	2	case	_	_
 2	busca	busca	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -4229,7 +4352,7 @@
 24	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Geralmente essa proporção deve estar entre 3 e 4.
-# sent_id = 363-20150326-MONOGRAFIA_0-185
+# sent_id = 363-20150326-MONOGRAFIA_0-198
 1	Geralmente	geralmente	ADV	_	_	2	advmod	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -4238,21 +4361,21 @@
 6	entre	entre	ADP	_	_	7	case	_	_
 7	3	3	NUM	_	NumType=Card	4	obl	_	_
 8	e	e	CCONJ	_	_	9	cc	_	_
-9	4.	4	NUM	_	NumType=Card	7	conj	_	SpacesAfter=\n
+9	4.	4	NUM	_	NumType=Card	7	conj	_	SpacesAfter=\n\n
 
 # text = 4.1.4
-# sent_id = 363-20150326-MONOGRAFIA_0-186
+# sent_id = 363-20150326-MONOGRAFIA_0-199
 1	4.1.4	4.1.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Vaso separador trifásico vertical
-# sent_id = 363-20150326-MONOGRAFIA_0-187
+# sent_id = 363-20150326-MONOGRAFIA_0-200
 1	Vaso	Vaso	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	separador	separador	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	trifásico	trifásico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	vertical	vertical	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
 # text = O dimensionamento de um separador trifásico para a remoção de água é principalmente uma função de tempo de retenção.
-# sent_id = 363-20150326-MONOGRAFIA_0-188
+# sent_id = 363-20150326-MONOGRAFIA_0-201
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	dimensionamento	dimensionamento	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -4275,7 +4398,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = O tempo de retenção é necessário estar relacionado ao volume do vaso, a quantidade de líquido a ser tratado e as massas específicas relativas da água e óleo.
-# sent_id = 363-20150326-MONOGRAFIA_0-189
+# sent_id = 363-20150326-MONOGRAFIA_0-202
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4314,7 +4437,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O volume efetivo de retenção num vaso é parte do vaso no qual o óleo e a água fiquem em contato mútuo (LYONS, 1996).
-# sent_id = 363-20150326-MONOGRAFIA_0-190
+# sent_id = 363-20150326-MONOGRAFIA_0-203
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	efetivo	efetivo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4351,7 +4474,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os cálculos utilizados para o dimensionamento de um vaso separador trifásico vertical são semelhantes ao separador bifásico vertical já estudado.
-# sent_id = 363-20150326-MONOGRAFIA_0-191
+# sent_id = 363-20150326-MONOGRAFIA_0-204
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4377,7 +4500,7 @@
 22	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Baseando-se também pela velocidade terminal da gotícula de líquido, são considerados os pesos específicos do óleo e do gás para a Equação 9.
-# sent_id = 363-20150326-MONOGRAFIA_0-192
+# sent_id = 363-20150326-MONOGRAFIA_0-205
 1-2	Baseando-se	_	_	_	_	_	_	_	_
 1	Baseando	Basear	VERB	_	VerbForm=Ger	15	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4415,7 +4538,7 @@
 30	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Assim como no vaso bifásico vertical, a velocidade terminal da gotícula é comparada numericamente com a velocidade do gás, obtendo-se a Equação 17, em que pode-se determinar um diâmetro mínimo para o vaso.
-# sent_id = 363-20150326-MONOGRAFIA_0-193
+# sent_id = 363-20150326-MONOGRAFIA_0-206
 1	Assim	assim	SCONJ	_	_	16	mark	_	_
 2	como	como	ADP	_	_	1	fixed	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -4465,7 +4588,7 @@
 42	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\n
 
 # text = Assim, obtém-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-194
+# sent_id = 363-20150326-MONOGRAFIA_0-207
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	obtém-se	_	_	_	_	_	_	_	SpaceAfter=No
@@ -4474,7 +4597,7 @@
 5	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Em caso de valores não fornecidos para diâmetro da gota e µo, usa-se 500 µm e 3 cP, respectivamente.
-# sent_id = 363-20150326-MONOGRAFIA_0-195
+# sent_id = 363-20150326-MONOGRAFIA_0-208
 1	Em	em	ADP	_	_	2	case	_	_
 2	caso	caso	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4503,7 +4626,7 @@
 24	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Após a obtenção do diâmetro mínimo do vaso, deve-se calcular a altura de óleo e de água dentro do separador (ho+ha).
-# sent_id = 363-20150326-MONOGRAFIA_0-196
+# sent_id = 363-20150326-MONOGRAFIA_0-209
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
@@ -4539,7 +4662,7 @@
 29	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = É necessário que um volume de líquido fique armazenado temporariamente dentro do separador para que haja equilíbrio entre a fase líquida e gasosa.
-# sent_id = 363-20150326-MONOGRAFIA_0-197
+# sent_id = 363-20150326-MONOGRAFIA_0-210
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
@@ -4568,7 +4691,7 @@
 25	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Esse tempo de armazenamento é conhecido como tempo de retenção.
-# sent_id = 363-20150326-MONOGRAFIA_0-198
+# sent_id = 363-20150326-MONOGRAFIA_0-211
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4582,7 +4705,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Assim, o tempo de retenção é a relação entre o volume de armazenamento do líquido no recipiente e a vazão de líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-199
+# sent_id = 363-20150326-MONOGRAFIA_0-212
 1	Assim	assim	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4613,7 +4736,7 @@
 26	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Alguns valores de tempo de retenção são tabelados para separadores trifásicos, como mostrado na Tabela 5.
-# sent_id = 363-20150326-MONOGRAFIA_0-200
+# sent_id = 363-20150326-MONOGRAFIA_0-213
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4633,16 +4756,16 @@
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	14	obl	_	_
 18	5	5	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 5.
-# sent_id = 363-20150326-MONOGRAFIA_0-201
+# sent_id = 363-20150326-MONOGRAFIA_0-214
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tempo de retenção para vasos separadores trifásicos.
-# sent_id = 363-20150326-MONOGRAFIA_0-202
+# sent_id = 363-20150326-MONOGRAFIA_0-215
 1	Tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4653,7 +4776,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Lyons, 1996.
-# sent_id = 363-20150326-MONOGRAFIA_0-203
+# sent_id = 363-20150326-MONOGRAFIA_0-216
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Lyons	Lyons	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
@@ -4662,7 +4785,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Da mesma forma que o bifásico vertical, o tempo de retenção é relacionado ao volume do vaso, porém as alturas relativas a cada fase são determinadas separadamente.
-# sent_id = 363-20150326-MONOGRAFIA_0-204
+# sent_id = 363-20150326-MONOGRAFIA_0-217
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4701,7 +4824,7 @@
 33	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
 
 # text = Assim, Onde, D = diâmetro mínimo do vaso, em ft h = altura de líquido, em ft
-# sent_id = 363-20150326-MONOGRAFIA_0-205
+# sent_id = 363-20150326-MONOGRAFIA_0-218
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Onde	onde	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -4727,11 +4850,11 @@
 22	ft	ft	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 
 # text = QL
-# sent_id = 363-20150326-MONOGRAFIA_0-206
+# sent_id = 363-20150326-MONOGRAFIA_0-219
 1	QL	Ql	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = vazão de líquido, em bpd tr = tempo de retenção, em minutos.
-# sent_id = 363-20150326-MONOGRAFIA_0-207
+# sent_id = 363-20150326-MONOGRAFIA_0-220
 1	=	=	SYM	_	_	8	nsubj	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4750,7 +4873,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para o projeto de separação das duas fases líquidas, tem-se:
-# sent_id = 363-20150326-MONOGRAFIA_0-208
+# sent_id = 363-20150326-MONOGRAFIA_0-221
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -4769,7 +4892,7 @@
 14	:	:	PUNCT	_	_	12	punct	_	_
 
 # text = Somando as equações (19) e (20)
-# sent_id = 363-20150326-MONOGRAFIA_0-209
+# sent_id = 363-20150326-MONOGRAFIA_0-222
 1	Somando	somar	VERB	_	VerbForm=Ger	0	root	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	equações	equação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -4781,35 +4904,24 @@
 9	20	20	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	1	punct	_	_
 
-# text = Onde, ho = altura da fase óleo, em ft ha = altura da fase água, em ft
-# sent_id = 363-20150326-MONOGRAFIA_0-210
+# text = Onde, ho = altura da fase óleo, em ft
+# sent_id = 363-20150326-MONOGRAFIA_0-223
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 3	ho	har	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	=	=	SYM	_	_	3	obj	_	_
-5	altura	altura	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+5	altura	altura	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	óleo	óleo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	_
+10	,	,	PUNCT	_	_	5	punct	_	_
 11	em	em	ADP	_	_	12	case	_	_
-12	ft	ft	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-13	ha	ho	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-14	=	=	SYM	_	_	4	appos	_	_
-15	altura	altura	NOUN	_	Gender=Fem|Number=Sing	22	appos	_	_
-16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	fase	fase	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-19	água	águo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	ft	ft	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+12	ft	ft	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 
 # text = Qo = vazão de óleo, em bpd Qa = vazão de água, em bpd.
-# sent_id = 363-20150326-MONOGRAFIA_0-211
+# sent_id = 363-20150326-MONOGRAFIA_0-224
 1	Qo	Qo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -4829,7 +4941,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O último passo no dimensionamento de um vaso separador trifásico vertical recai sobre a altura total do vaso e a relação entre a altura e o diâmetro.
-# sent_id = 363-20150326-MONOGRAFIA_0-212
+# sent_id = 363-20150326-MONOGRAFIA_0-225
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	passo	passo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -4864,7 +4976,7 @@
 30	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Devendo ser determinada a partir da geometria, como na Figura 10, sendo consideradas as duas fases distintas (óleo e água).
-# sent_id = 363-20150326-MONOGRAFIA_0-213
+# sent_id = 363-20150326-MONOGRAFIA_0-226
 1	Devendo	dever	VERB	_	VerbForm=Ger	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
 3	determinada	determinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
@@ -4896,13 +5008,13 @@
 27	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 10.
-# sent_id = 363-20150326-MONOGRAFIA_0-214
+# sent_id = 363-20150326-MONOGRAFIA_0-227
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Geometria usada para o dimensionamento do comprimento do vaso separador trifásico vertical.
-# sent_id = 363-20150326-MONOGRAFIA_0-215
+# sent_id = 363-20150326-MONOGRAFIA_0-228
 1	Geometria	Geometria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -4922,16 +5034,16 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: LYONS, 1996.
-# sent_id = 363-20150326-MONOGRAFIA_0-216
+# sent_id = 363-20150326-MONOGRAFIA_0-229
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	LYONS	LYONS	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	1996	1996	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Em busca de uma proporção admissível entre o comprimento e o diâmetro dos vasos separadores, a relação L/D é usada como parâmetro e deve, em vasos separadores trifásicos verticais, estar entre 15 e 3.
-# sent_id = 363-20150326-MONOGRAFIA_0-217
+# sent_id = 363-20150326-MONOGRAFIA_0-230
 1	Em	em	ADP	_	_	2	case	_	_
 2	busca	busca	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -4970,23 +5082,23 @@
 35	entre	entre	ADP	_	_	36	case	_	_
 36	15	15	NUM	_	NumType=Card	22	obl	_	_
 37	e	e	CCONJ	_	_	38	cc	_	_
-38	3.	3	NUM	_	NumType=Card	36	conj	_	SpacesAfter=\n
+38	3.	3	NUM	_	NumType=Card	36	conj	_	SpacesAfter=\n\n
 
 # text = 5
-# sent_id = 363-20150326-MONOGRAFIA_0-218
+# sent_id = 363-20150326-MONOGRAFIA_0-231
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 
 # text = RESULTADOS
-# sent_id = 363-20150326-MONOGRAFIA_0-219
+# sent_id = 363-20150326-MONOGRAFIA_0-232
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = E DISCUSSÕES
-# sent_id = 363-20150326-MONOGRAFIA_0-220
+# sent_id = 363-20150326-MONOGRAFIA_0-233
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	DISCUSSÕES	discussões	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Com o objetivo de dimensionar um vaso separador de petróleo vertical e bifásico para os parâmetros de operação do Campo A, foi utilizada a Planilha Excel desenvolvida que segue os procedimentos de cálculo já estudados.
-# sent_id = 363-20150326-MONOGRAFIA_0-221
+# sent_id = 363-20150326-MONOGRAFIA_0-234
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
@@ -5028,7 +5140,7 @@
 38	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Assim, a velocidade terminal da gotícula de líquido dentro do separador será de 0,844 ft/s; enquanto o tempo de residência de 1 minuto é necessário para que as partículas de gás ainda presentes na corrente de líquido sejam separadas.
-# sent_id = 363-20150326-MONOGRAFIA_0-222
+# sent_id = 363-20150326-MONOGRAFIA_0-235
 1	Assim	assim	ADV	_	_	18	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5078,38 +5190,35 @@
 44	separadas	separar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	29	advcl	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	18	punct	_	_
 
-# text = Para o Campo
-# sent_id = 363-20150326-MONOGRAFIA_0-223
+# text = Para o Campo A, foram encontradas as dimensões de 24 polegadas de diâmetro, comprimento de 6,72 pés e L/D= 3,36.
+# sent_id = 363-20150326-MONOGRAFIA_0-236
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Campo	Campo	PROPN	_	Number=Sing	0	root	_	_
-
-# text = A, foram encontradas as dimensões de 24 polegadas de diâmetro, comprimento de 6,72 pés e L/D= 3,36.
-# sent_id = 363-20150326-MONOGRAFIA_0-224
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	4	punct	_	_
-3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
-4	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	24	24	NUM	_	NumType=Card	9	nummod	_	_
-9	polegadas	polegada	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	4	punct	_	_
-13	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	6,72	6,72	NUM	_	NumType=Card	16	nummod	_	_
-16	pés	pé	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
-17	e	e	CCONJ	_	_	18	cc	_	_
-18	L/	L/	PROPN	_	Number=Sing	16	conj	_	SpaceAfter=No
-19	D=	D=	PROPN	_	Number=Sing	18	flat:name	_	_
-20	3,36	3,36	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+3	Campo	Campo	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
+4	A	A	PROPN	_	Number=Sing|PronType=Art	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	7	aux:pass	_	_
+7	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	24	24	NUM	_	NumType=Card	12	nummod	_	_
+12	polegadas	polegada	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	6,72	6,72	NUM	_	NumType=Card	19	nummod	_	_
+19	pés	pé	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	L/	L/	PROPN	_	Number=Sing	7	conj	_	SpaceAfter=No
+22	D=	D=	PROPN	_	Number=Sing	21	flat:name	_	_
+23	3,36	3,36	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Seguindo procedimento de cálculo também já descrito e com o uso da Planilha Excel desenvolvida, as dimensões do vaso separador trifásico podem ser conhecidas.
-# sent_id = 363-20150326-MONOGRAFIA_0-225
+# sent_id = 363-20150326-MONOGRAFIA_0-237
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	25	acl	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5142,7 +5251,7 @@
 28	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Sendo solicitado um vaso que separe uma corrente trifásica para os parâmetros do Campo B, a gotícula de líquido deve possuir velocidade terminal de 1,8 ft/s, sendo necessários 5 minutos de tempo de retenção de líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-226
+# sent_id = 363-20150326-MONOGRAFIA_0-238
 1	Sendo	ser	AUX	_	VerbForm=Ger	2	aux:pass	_	_
 2	solicitado	solicitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5186,7 +5295,7 @@
 40	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Assim o equipamento de geometria vertical deve possuir diâmetro de 4,5 pés (54 in), comprimento de14,19 pés e L/D= 3,15.
-# sent_id = 363-20150326-MONOGRAFIA_0-227
+# sent_id = 363-20150326-MONOGRAFIA_0-239
 1	Assim	assim	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -5216,7 +5325,7 @@
 27	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Diante de mudanças dos parâmetros operacionais durante a vida produtiva de poços de petróleo, como por exemplo a quantidade de óleo, água ou gás produzido, o estudo da adequação do vaso separador para possíveis variações futuras é de grande importância.
-# sent_id = 363-20150326-MONOGRAFIA_0-228
+# sent_id = 363-20150326-MONOGRAFIA_0-240
 1	Diante	diante	NOUN	_	Gender=Masc|Number=Sing	46	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	mudanças	mudança	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -5269,7 +5378,7 @@
 47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n
 
 # text = Inclusive para garantir a eficiência necessária para atender às especificações do mercado e até mesmo evitando a troca do equipamento.
-# sent_id = 363-20150326-MONOGRAFIA_0-229
+# sent_id = 363-20150326-MONOGRAFIA_0-241
 1	Inclusive	inclusive	ADV	_	_	3	advmod	_	_
 2	para	para	SCONJ	_	_	3	mark	_	_
 3	garantir	garantir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -5299,7 +5408,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Desta forma, foi realizado o estudo de sensibilidade de alguns parâmetros operacionais para o vaso separador bifásico e trifásico vertical.
-# sent_id = 363-20150326-MONOGRAFIA_0-230
+# sent_id = 363-20150326-MONOGRAFIA_0-242
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5326,7 +5435,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Nesse caso, foram simuladas mudanças na pressão de operação do vaso para separar correntes bifásicas e trifásicas, assim como mudanças da RGL em vaso separador bifásico.
-# sent_id = 363-20150326-MONOGRAFIA_0-231
+# sent_id = 363-20150326-MONOGRAFIA_0-243
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -5366,7 +5475,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Após o procedimento de cálculo do dimensionamento considerando novas pressões de operação e os mesmos parâmetros iniciais, 30, 70 e 100 kgf/cm², constatou-se que as dimensões do vaso permaneceram inalteradas.
-# sent_id = 363-20150326-MONOGRAFIA_0-232
+# sent_id = 363-20150326-MONOGRAFIA_0-244
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -5409,7 +5518,7 @@
 37	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Com a mudança na pressão, variáveis foram alteradas, porém como considera-se uma tabela de diâmetros de vaso oferecidos pelo mercado e um intervalo de razão entre o comprimento e o diâmetro do vaso (L/D), o dimensionamento realizado anteriormente atende às especificações necessárias.
-# sent_id = 363-20150326-MONOGRAFIA_0-233
+# sent_id = 363-20150326-MONOGRAFIA_0-245
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -5470,7 +5579,7 @@
 53	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Entretanto, o equilíbrio termodinâmico das fases dentro do vaso deve ter sofrido alterações, fazendo-se necessário um estudo do caso.
-# sent_id = 363-20150326-MONOGRAFIA_0-234
+# sent_id = 363-20150326-MONOGRAFIA_0-246
 1	Entretanto	entretanto	ADV	_	_	13	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5500,10 +5609,10 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	caso	caso	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Outro estudo de caso foi realizado baseado nos parâmetros operacionais iniciais da quantidade de fluidos produzidos (RGL= 440 m³/m³).
-# sent_id = 363-20150326-MONOGRAFIA_0-235
+# sent_id = 363-20150326-MONOGRAFIA_0-247
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5532,7 +5641,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Seguindo o procedimento de cálculo já citado, em que constatou-se a necessidade da alteração do comprimento do vaso separador bifásico vertical de acordo com eventuais mudanças na razão gás-líquido, como mostrado na Tabela 6.
-# sent_id = 363-20150326-MONOGRAFIA_0-236
+# sent_id = 363-20150326-MONOGRAFIA_0-248
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	0	root	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -5584,7 +5693,7 @@
 43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Já era esperado esse comportamento diante das mudanças do RGL.
-# sent_id = 363-20150326-MONOGRAFIA_0-237
+# sent_id = 363-20150326-MONOGRAFIA_0-249
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 3	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
@@ -5602,7 +5711,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Isso pode ser explicado a partir do princípio que quanto maior a quantidade de gás presente no fluido produzido, mantendo-se os demais parâmetros constantes, maior a necessidade de espaço para que esse gás consiga ser separado da corrente de líquido.
-# sent_id = 363-20150326-MONOGRAFIA_0-238
+# sent_id = 363-20150326-MONOGRAFIA_0-250
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj:pass	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -5656,7 +5765,7 @@
 47	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em contra partida, quanto menor a quantidade de gás dentro do vaso, menor a possibilidade dele ser arrastado pela corrente de líquido, sendo necessário um menor comprimento para garantir a separação eficiente entre as correntes gasosa e líquida.
-# sent_id = 363-20150326-MONOGRAFIA_0-239
+# sent_id = 363-20150326-MONOGRAFIA_0-251
 1	Em	em	ADP	_	_	3	case	_	_
 2	contra	contra	ADP	_	_	3	case	_	_
 3	partida	partida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
@@ -5704,15 +5813,15 @@
 42	gasosa	gasoso	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 43	e	e	CCONJ	_	_	44	cc	_	_
 44	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	42	conj	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+45	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 6 CONCLUSÕES
-# sent_id = 363-20150326-MONOGRAFIA_0-240
+# sent_id = 363-20150326-MONOGRAFIA_0-252
 1	6	6	NUM	_	NumType=Card	0	root	_	_
 2	CONCLUSÕES	conclusão	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Diante da importância da separação das fases do fluido produzido no processamento primário, este trabalho apresentou o procedimento de cálculo para o dimensionamento de vasos separadores verticais bifásicos e trifásicos.
-# sent_id = 363-20150326-MONOGRAFIA_0-241
+# sent_id = 363-20150326-MONOGRAFIA_0-253
 1	Diante	diante	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5757,7 +5866,7 @@
 37	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Fazendo a análise de sensibilidade de alguns parâmetros do dimensionamento como a pressão de operação para ambos os casos e o RGL para vasos capazes de tratar uma corrente bifásica.
-# sent_id = 363-20150326-MONOGRAFIA_0-242
+# sent_id = 363-20150326-MONOGRAFIA_0-254
 1	Fazendo	fazer	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -5793,7 +5902,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Ao realizar os procedimentos para o dimensionamento dos vasos separadores de uma planta de processamento primário e comparando com o estudo da alteração da pressão de operação, observa-se que a variação desse parâmetro não irá interferir diretamente nas dimensões do equipamento.
-# sent_id = 363-20150326-MONOGRAFIA_0-243
+# sent_id = 363-20150326-MONOGRAFIA_0-255
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5855,7 +5964,7 @@
 51	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = Porém, o comportamento termodinâmico dentro do vaso talvez seja alterado.
-# sent_id = 363-20150326-MONOGRAFIA_0-244
+# sent_id = 363-20150326-MONOGRAFIA_0-256
 1	Porém	porém	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5872,7 +5981,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Enquanto que quando comparado ao dimensionamento proposto, a variação do RGL gera a necessidade de novas dimensões do vaso separador de petróleo vertical bifásico.
-# sent_id = 363-20150326-MONOGRAFIA_0-245
+# sent_id = 363-20150326-MONOGRAFIA_0-257
 1	Enquanto	enquanto	SCONJ	_	_	15	mark	_	_
 2	que	que	SCONJ	_	_	15	mark	_	_
 3	quando	quando	ADV	_	_	4	advmod	_	_
@@ -5907,7 +6016,7 @@
 29	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Sendo assim importante a realização de um estudo para prever mudanças futuras nas quantidades dos fluidos produzidos para que não seja necessária a troca de equipamento.
-# sent_id = 363-20150326-MONOGRAFIA_0-246
+# sent_id = 363-20150326-MONOGRAFIA_0-258
 1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
 2	assim	asssim	ADV	_	_	3	advmod	_	_
 3	importante	importante	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -5941,7 +6050,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Vale salientar que para futuros trabalhos ainda é necessário um estudo de caso para o conhecimento do comportamento do equilíbrio termodinâmico das fases diante das variações de parâmetros operacionais realizadas.
-# sent_id = 363-20150326-MONOGRAFIA_0-247
+# sent_id = 363-20150326-MONOGRAFIA_0-259
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	salientar	salientar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	9	mark	_	_
@@ -5983,7 +6092,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Além da necessidade de analisar a sensibilidade do dimensionamento com a variação de outros parâmetros operacionais, de dimensionar os dispositivos internos, bocais de saída e vasos separadores de petróleo com geometria horizontal.
-# sent_id = 363-20150326-MONOGRAFIA_0-248
+# sent_id = 363-20150326-MONOGRAFIA_0-260
 1	Além	além	ADV	_	_	4	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6022,5 +6131,5 @@
 34	com	com	ADP	_	_	35	case	_	_
 35	geometria	geometria	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
 36	horizontal	horizontal	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 

@@ -377,7 +377,7 @@
 12	em	em	ADP	_	_	14	case	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	processo	processo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Para sintetizar uma rede de trocadores de calor, utilizam-se métodos matemáticos, por meio de programações lineares e não lineares, ou métodos baseados em conceitos termodinâmicos, como a Tecnologia Pinch.
 # sent_id = 380-20150505-MONOGRAFIA_0-13
@@ -782,7 +782,7 @@
 11	energia	energia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	menos	pouco	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
-14	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+14	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	SpacesAfter=\s\n
 15	precisará	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
 17	queimado	queimar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	xcomp	_	_
@@ -1066,7 +1066,7 @@
 37	de	de	ADP	_	_	39	case	_	_
 38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	36	obl	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 380-20150505-MONOGRAFIA_0-30
@@ -1493,7 +1493,7 @@
 37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	processo	processo	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	42	punct	_	_
-40	nem	nem	CCONJ	_	_	42	cc	_	_
+40	nem	nem	CCONJ	_	_	42	cc	_	SpacesAfter=\s\n
 41	muito	muito	ADV	_	_	42	advmod	_	_
 42	diluído	diluído	ADJ	_	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
@@ -1944,7 +1944,7 @@
 10	e	e	CCONJ	_	_	15	cc	_	_
 11	entre	entre	ADP	_	_	15	case	_	_
 12	8	8	NUM	_	NumType=Card	15	nummod	_	_
-13	e	e	CCONJ	_	_	15	cc	_	_
+13	e	e	CCONJ	_	_	15	cc	_	SpacesAfter=\s\n
 14	12	12	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 15	%	%	SYM	_	_	8	conj	_	_
 16	em	em	ADP	_	_	17	case	_	_
@@ -2274,22 +2274,21 @@
 26	enzima	enzima	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Existem diversos tipos de pré- tratamento e alguns são apresentados a seguir: 
+# text = Existem diversos tipos de pré-tratamento e alguns são apresentados a seguir: 
 # sent_id = 380-20150505-MONOGRAFIA_0-72
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	pré-	pré	PART	_	_	3	nmod	_	_
-6	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
-7	e	e	CCONJ	_	_	10	cc	_	_
-8	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
-9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-10	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	conj	_	_
-11	a	a	SCONJ	_	_	12	mark	_	_
-12	seguir	seguir	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	10	punct	_	_
-14			PROPN	_	Number=Sing	10	appos	_	_
+5	pré-tratamento	pré-tratamento	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
+7	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	conj	_	_
+10	a	a	SCONJ	_	_	11	mark	_	_
+11	seguir	seguir	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	1	punct	_	_
+13			PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Explosão a vapor:
 # sent_id = 380-20150505-MONOGRAFIA_0-73
@@ -2387,7 +2386,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	hemicelulose	hemicelulose	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = 
 # sent_id = 380-20150505-MONOGRAFIA_0-77
@@ -2818,7 +2817,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	integração	integração	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 18	energética	energético	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = A integração energética visa o aproveitamento da energia térmica das correntes do processo, a partir da utilização de equipamentos denominados trocadores de calor.
 # sent_id = 380-20150505-MONOGRAFIA_0-95
@@ -3245,7 +3244,7 @@
 2	trocadores	trocador	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	tubulares	tubular	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-5	geralmente	geralmente	ADV	_	_	6	advmod	_	_
+5	geralmente	geralmente	ADV	_	_	6	advmod	_	SpacesAfter=\s\n
 6	construídos	construir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 7	com	com	ADP	_	_	8	case	_	_
 8	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
@@ -3684,7 +3683,7 @@
 40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	appos	_	_
 42	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	43	nsubj	_	_
-43	demanda	demandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+43	demanda	demandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	SpacesAfter=\s\n
 44	trocadores	trocador	NOUN	_	Gender=Masc|Number=Plur	43	obj	_	_
 45	menores	pequeno	ADJ	_	Gender=Masc|Number=Plur	44	amod	_	_
 46	e	e	CCONJ	_	_	48	cc	_	_
@@ -4091,7 +4090,7 @@
 4	técnicas	técnico	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 5	heurísticas	heurístico	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 6	têm	ter	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-7	sido	ser	AUX	_	VerbForm=Part	8	aux:pass	_	_
+7	sido	ser	AUX	_	VerbForm=Part	8	aux:pass	_	SpacesAfter=\s\n
 8	propostas	propor	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	como	como	ADP	_	_	11	case	_	_
@@ -4430,7 +4429,7 @@
 9	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Já os métodos simultâneos não utilizam a decomposição do problema e baseiam- se unicamente na definição de superestruturas para a síntese da rede de trocadores de 1 SILVA, A. P., 2003, Síntese de Redes de Trocadores de Calor Utilizando Algoritmos Genéticos.
+# text = Já os métodos simultâneos não utilizam a decomposição do problema e baseiam-se unicamente na definição de superestruturas para a síntese da rede de trocadores de 1 SILVA, A. P., 2003, Síntese de Redes de Trocadores de Calor Utilizando Algoritmos Genéticos.
 # sent_id = 380-20150505-MONOGRAFIA_0-147
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -4445,46 +4444,46 @@
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	problema	problema	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	e	e	CCONJ	_	_	13	cc	_	_
-13	baseiam	basear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	13	punct	_	_
-15	se	se	SCONJ	_	_	36	mark	_	_
-16	unicamente	unicamente	ADV	_	_	19	advmod	_	_
-17-18	na	_	_	_	_	_	_	_	_
-17	em	em	ADP	_	_	19	case	_	_
-18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	definição	definição	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	superestruturas	superestrutura	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
-22	para	para	ADP	_	_	24	case	_	_
-23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	rede	rede	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	trocadores	trocador	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	1	1	NUM	_	NumType=Card	32	nummod	_	_
-32	SILVA	SILVA	PROPN	_	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	19	punct	_	_
-34	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	36	punct	_	_
-36	P.	p.	NOUN	_	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	38	punct	_	_
-38	2003	2003	NUM	_	NumType=Card	36	conj	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	36	punct	_	_
-40	Síntese	síntese	PROPN	_	Gender=Masc|Number=Sing	36	appos	_	_
-41	de	de	ADP	_	_	42	case	_	_
-42	Redes	redes	PROPN	_	Number=Sing	40	nmod	_	_
-43	de	de	ADP	_	_	44	case	_	_
-44	Trocadores	Trocadores	PROPN	_	Number=Sing	42	nmod	_	_
-45	de	de	ADP	_	_	46	case	_	_
-46	Calor	calor	PROPN	_	Number=Sing	44	nmod	_	_
-47	Utilizando	utilizando	PROPN	_	Number=Sing	46	flat:name	_	_
-48	Algoritmos	algoritmos	PROPN	_	Number=Sing	46	flat:name	_	_
-49	Genéticos	Genéticos	PROPN	_	Number=Sing	46	flat:name	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+13-14	baseiam-se	_	_	_	_	_	_	_	_
+13	baseiam	basear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	expl	_	_
+15	unicamente	unicamente	ADV	_	_	13	advmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	definição	definição	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	superestruturas	superestrutura	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	rede	rede	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	trocadores	trocador	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	1	1	NUM	_	NumType=Card	31	nummod	_	_
+31	SILVA	SILVA	PROPN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	6	punct	_	_
+35	P.	p.	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	2003	2003	NUM	_	NumType=Card	39	appos:parataxis	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	Síntese	síntese	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	Redes	redes	PROPN	_	Number=Sing	39	nmod	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	Trocadores	Trocadores	PROPN	_	Number=Sing	41	nmod	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	Calor	calor	PROPN	_	Number=Sing	43	nmod	_	_
+46	Utilizando	utilizando	PROPN	_	Number=Sing	45	flat:name	_	_
+47	Algoritmos	algoritmos	PROPN	_	Number=Sing	45	flat:name	_	_
+48	Genéticos	Genéticos	PROPN	_	Number=Sing	45	flat:name	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Dissertação de Mestrado, Programa de Pós-Graduação em Engenharia Química, Universidade Estadual de Maringá, Maringá, PR, Brasil.
 # sent_id = 380-20150505-MONOGRAFIA_0-148
@@ -4509,7 +4508,7 @@
 19	PR	PR	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = calor.
 # sent_id = 380-20150505-MONOGRAFIA_0-149
@@ -4993,7 +4992,7 @@
 15	consulta	consulta	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	13	punct	_	_
 17	biscaia@peq.coppe.ufrj.br	biscaia@peq.coppe.ufrj.br	VERB	_	VerbForm=Inf	1	acl	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = otimização descrito por um algoritmo.
 # sent_id = 380-20150505-MONOGRAFIA_0-167
@@ -5246,7 +5245,7 @@
 22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
 24	ótimos	ótimo	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 380-20150505-MONOGRAFIA_0-176
@@ -5450,7 +5449,7 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	11	obl	_	_
 15	1	1	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 1 – Cronograma proposto para as atividades a serem realizadas no período a que esse relatório se refere.
 # sent_id = 380-20150505-MONOGRAFIA_0-183
@@ -5597,7 +5596,7 @@
 37	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	_
 38	quase	quase	ADV	_	_	39	advmod	_	_
 39	concluída	concluído	ADJ	_	Gender=Fem|Number=Sing	15	advcl	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = 4.
 # sent_id = 380-20150505-MONOGRAFIA_0-187
@@ -6004,7 +6003,7 @@
 29	custo	custo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = No período coberto pelo relatório, foi iniciada a implementação do modelo que diz respeito à otimização do primeiro critério: custo mínimo de utilidades.
 # sent_id = 380-20150505-MONOGRAFIA_0-200
@@ -6290,7 +6289,7 @@
 26	∆Tmin/2	∆Tmin/2	PROPN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = As quantidades de calor (Qi,k) que cada corrente (i) cede ou elimina em cada intervalo de temperatura (k) foram calculadas por: (1) Onde: CPi: capacidade térmica da corrente i; ∆Tk : incremento de temperatura que forma o intervalo k. 3 PAPOULIAS, S. A.; GROSSMANN, I. E. A structural optimization approach in process synthesis.
+# text = As quantidades de calor (Qi,k) que cada corrente (i) cede ou elimina em cada intervalo de temperatura (k) foram calculadas por:
 # sent_id = 380-20150505-MONOGRAFIA_0-207
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	quantidades	quantidade	NOUN	_	Gender=Fem|Number=Plur	28	nsubj:pass	_	_
@@ -6320,55 +6319,55 @@
 26	)	)	PUNCT	_	_	25	punct	_	_
 27	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	28	aux:pass	_	_
 28	calculadas	calcular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-29	por	por	ADP	_	_	34	case	_	SpaceAfter=No
-30	:	:	PUNCT	_	_	29	punct	_	_
-31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	1	1	NUM	_	NumType=Card	30	appos	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	32	punct	_	_
-34	Onde	onde	ADV	_	_	28	advmod	_	SpaceAfter=No
-35	:	:	PUNCT	_	_	28	punct	_	_
-36	CPi	CPi	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
-37	:	:	PUNCT	_	_	28	punct	_	_
-38	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
-39	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
-40-41	da	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	42	case	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
-43	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	SpaceAfter=No
-44	;	;	PUNCT	_	_	43	punct	_	_
-45	∆Tk	∆Tk	PROPN	_	Gender=Masc|Number=Sing	43	nsubj	_	_
-46	:	:	PUNCT	_	_	43	punct	_	_
-47	incremento	incremento	NOUN	_	Gender=Masc|Number=Sing	43	appos	_	_
-48	de	de	ADP	_	_	49	case	_	_
-49	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
-50	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	51	nsubj	_	_
-51	forma	formar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	_	_
-52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
-53	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	51	obj	_	_
-54	k.	k.	PUNCT	_	_	56	punct	_	SpacesAfter=\n
-55	3	3	NUM	_	NumType=Card	56	nummod	_	_
-56	PAPOULIAS	Papoulia	NOUN	_	Gender=Masc|Number=Plur	59	conj	_	SpaceAfter=No
-57	,	,	PUNCT	_	_	58	punct	_	_
-58	S.	S.	PROPN	_	Gender=Masc|Number=Sing	59	conj	_	_
-59	A.	A.	PROPN	_	Gender=Masc|Number=Sing	43	conj	_	SpaceAfter=No
-60	;	;	PUNCT	_	_	61	punct	_	_
-61	GROSSMANN	GROSSMANN	PROPN	_	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
-62	,	,	PUNCT	_	_	63	punct	_	_
-63	I.	I.	PROPN	_	Gender=Masc|Number=Sing	28	conj	_	_
-64	E	e	CCONJ	_	_	67	cc	_	SpaceAfter=No
-65	.	.	PUNCT	_	_	67	punct	_	_
-66	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
-67	structural	structural	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
-68	optimization	optimization	X	_	_	67	nmod	_	_
-69	approach	approach	X	_	_	68	flat:foreign	_	_
-70	in	in	X	_	_	68	flat:foreign	_	_
-71	process	process	X	_	_	68	flat:foreign	_	_
-72	synthesis	synthesl	ADJ	_	Gender=Masc|Number=Plur	68	amod	_	SpaceAfter=No
-73	.	.	PUNCT	_	_	28	punct	_	_
+29	por	por	ADP	_	_	28	compound	_	SpaceAfter=No
+30	:	:	PUNCT	_	_	28	punct	_	_
+
+# text = Onde: CPi: capacidade térmica da corrente i; ∆Tk : incremento de temperatura que forma o intervalo k. 3 PAPOULIAS, S. A.; GROSSMANN, I. E. A structural optimization approach in process synthesis.
+# sent_id = 380-20150505-MONOGRAFIA_0-208
+1	Onde	onde	ADV	_	_	10	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	CPi	CPi	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	;	;	PUNCT	_	_	10	punct	_	_
+12	∆Tk	∆Tk	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	:	:	PUNCT	_	_	10	punct	_	_
+14	incremento	incremento	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	_
+18	forma	formar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	k.	k.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+22	3	3	NUM	_	NumType=Card	23	nummod	_	_
+23	PAPOULIAS	Papoulia	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	S.	S.	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	_
+26	A.	A.	PROPN	_	Gender=Masc|Number=Sing	25	flat:name	_	SpaceAfter=No
+27	;	;	PUNCT	_	_	28	punct	_	_
+28	GROSSMANN	GROSSMANN	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	I.	I.	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	_
+31	E	e	CCONJ	_	_	10	cc	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	10	punct	_	_
+33	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	structural	structural	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+35	optimization	optimization	X	_	_	34	amod	_	_
+36	approach	approach	X	_	_	35	flat:foreign	_	_
+37	in	in	X	_	_	35	flat:foreign	_	_
+38	process	process	X	_	_	35	flat:foreign	_	_
+39	synthesis	synthesl	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Part II: Heat recovery networks.
-# sent_id = 380-20150505-MONOGRAFIA_0-208
+# sent_id = 380-20150505-MONOGRAFIA_0-209
 1	Part	Part	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	II	II	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6378,7 +6377,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Computers & Chemical Engineering, New York, v.7, no.6, p. 707, 1983.
-# sent_id = 380-20150505-MONOGRAFIA_0-209
+# sent_id = 380-20150505-MONOGRAFIA_0-210
 1	Computers	Computers	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Chemical	Chemical	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6395,10 +6394,10 @@
 14	707	707	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	1983	1983	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Elaborada a tabela problema, a etapa seguinte consistiu na otimização do primeiro critério (custo mínimo de utilidades).
-# sent_id = 380-20150505-MONOGRAFIA_0-210
+# sent_id = 380-20150505-MONOGRAFIA_0-211
 1	Elaborada	elaborar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -6426,7 +6425,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Neste caso, é formulado um problema de programação linear que toma a forma de um problema de transbordo (RAVAGNANI; SUÁREZ, 2012), no qual as correntes quentes são os nós fonte, as frias são os nós destino e o calor pode ser considerado uma mercadoria que deve ser transportada das fontes aos destinos através de armazéns intermediários, que neste caso dizem respeito a cada um dos intervalos de temperatura que garantem uma troca de calor.
-# sent_id = 380-20150505-MONOGRAFIA_0-211
+# sent_id = 380-20150505-MONOGRAFIA_0-212
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -6524,7 +6523,7 @@
 89	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Em determinado intervalo, o calor que não pode ser transferido para uma corrente fria (porque esta corrente já obteve todo calor que precisava) é transferido como calor residual (Rk) ao intervalo de temperatura seguinte.
-# sent_id = 380-20150505-MONOGRAFIA_0-212
+# sent_id = 380-20150505-MONOGRAFIA_0-213
 1	Em	em	ADP	_	_	3	case	_	_
 2	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
 3	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
@@ -6569,7 +6568,7 @@
 41	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Nos intervalos em que esteja disponível uma utilidade quente, se as correntes do processo disponíveis não são capazes de fornecer o calor suficiente para satisfazer termicamente as correntes frias, então a utilidade quente é quem deve fornecer tal calor.
-# sent_id = 380-20150505-MONOGRAFIA_0-213
+# sent_id = 380-20150505-MONOGRAFIA_0-214
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -6618,7 +6617,7 @@
 44	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Se no último intervalo de temperatura existe um calor residual, este deverá ser transferido para a utilidade fria.
-# sent_id = 380-20150505-MONOGRAFIA_0-214
+# sent_id = 380-20150505-MONOGRAFIA_0-215
 1	Se	se	SCONJ	_	_	8	mark	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	5	case	_	_
@@ -6643,7 +6642,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = A Figura 1 mostra a representação matemática do modelo.
-# sent_id = 380-20150505-MONOGRAFIA_0-215
+# sent_id = 380-20150505-MONOGRAFIA_0-216
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	1	1	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -6658,7 +6657,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 1: Balanço de energia no intervalo de temperatura k.
-# sent_id = 380-20150505-MONOGRAFIA_0-216
+# sent_id = 380-20150505-MONOGRAFIA_0-217
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	1	1	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6675,7 +6674,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Reproduzido de RAVAGNANI; SUÁREZ, 2012.
-# sent_id = 380-20150505-MONOGRAFIA_0-217
+# sent_id = 380-20150505-MONOGRAFIA_0-218
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Reproduzido	Reproduzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
@@ -6685,10 +6684,10 @@
 7	SUÁREZ	SUÁREZ	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	2012	2012	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = O objetivo é, portanto, minimizar o custo das utilidades quentes e frias, sujeito aos balanços de energia, como é mostrado nas equações a seguir: (4)
-# sent_id = 380-20150505-MONOGRAFIA_0-218
+# text = O objetivo é, portanto, minimizar o custo das utilidades quentes e frias, sujeito aos balanços de energia, como é mostrado nas equações a seguir:
+# sent_id = 380-20150505-MONOGRAFIA_0-219
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
@@ -6724,17 +6723,14 @@
 30	a	a	ADP	_	_	31	case	_	_
 31	seguir	seguir	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
 32	:	:	PUNCT	_	_	7	punct	_	_
-33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	4	4	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	34	punct	_	_
 
 # text = Onde:
-# sent_id = 380-20150505-MONOGRAFIA_0-219
+# sent_id = 380-20150505-MONOGRAFIA_0-220
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = 𝑄𝐻𝑖, 𝑘: calor cedido pela corrente quente i no intervalo de temperatura k; 𝑄𝐶𝑗, 𝑘: calor retirado pela corrente fria j no intervalo de temperatura k;
-# sent_id = 380-20150505-MONOGRAFIA_0-220
+# sent_id = 380-20150505-MONOGRAFIA_0-221
 1	𝑄𝐻𝑖	𝑄𝐻𝑖	PROPN	_	Number=Sing	11	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	𝑘	𝑘	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -6777,7 +6773,7 @@
 36	;	;	PUNCT	_	_	11	punct	_	_
 
 # text = 𝐶𝑚: custo unitário da utilidade quente m;
-# sent_id = 380-20150505-MONOGRAFIA_0-221
+# sent_id = 380-20150505-MONOGRAFIA_0-222
 1	𝐶𝑚	𝐶𝑚	PROPN	_	Number=Sing	9	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	custo	custo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -6791,7 +6787,7 @@
 10	;	;	PUNCT	_	_	9	punct	_	_
 
 # text = 𝐶𝑛: custo unitário da utilidade fria n; 𝑄𝑆𝑚: calor disponível na utilidade quente m;
-# sent_id = 380-20150505-MONOGRAFIA_0-222
+# sent_id = 380-20150505-MONOGRAFIA_0-223
 1	𝐶𝑛	𝐶𝑛	PROPN	_	Number=Sing	19	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	custo	custo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -6816,7 +6812,7 @@
 20	;	;	PUNCT	_	_	19	punct	_	_
 
 # text = 𝑄𝑊𝑛: calor retirado pela utilidade fria n; 𝑅𝑘: calor residual que abandona o intervalo de temperatura k;
-# sent_id = 380-20150505-MONOGRAFIA_0-223
+# sent_id = 380-20150505-MONOGRAFIA_0-224
 1	𝑄𝑊𝑛	𝑄𝑊𝑛	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	calor	calor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -6842,7 +6838,7 @@
 22	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = 𝐾: número de intervalos de temperatura.
-# sent_id = 380-20150505-MONOGRAFIA_0-224
+# sent_id = 380-20150505-MONOGRAFIA_0-225
 1	𝐾	𝐾	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	número	número	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -6850,22 +6846,22 @@
 5	intervalos	intervalo	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 5.
-# sent_id = 380-20150505-MONOGRAFIA_0-225
+# sent_id = 380-20150505-MONOGRAFIA_0-226
 1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados e discussão:
-# sent_id = 380-20150505-MONOGRAFIA_0-226
+# sent_id = 380-20150505-MONOGRAFIA_0-227
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Para construção da tabela problema deve-se definir o tipo de corrente, deslocar as temperaturas das correntes quentes e frias em menos ∆Tmin/2 e mais ∆Tmin/2, respectivamente, unir as temperaturas deslocadas em um único vetor, eliminar as temperaturas repetidas e ordenar o vetor de maneira decrescente.
-# sent_id = 380-20150505-MONOGRAFIA_0-227
+# sent_id = 380-20150505-MONOGRAFIA_0-228
 1	Para	para	ADP	_	_	2	case	_	_
 2	construção	construção	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6924,7 +6920,7 @@
 53	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Desta maneira, os intervalos de temperatura são definidos e é possível calcular as quantidades de calor que cada corrente absorve ou elimina nestes intervalos, a partir da Equação 1.
-# sent_id = 380-20150505-MONOGRAFIA_0-228
+# sent_id = 380-20150505-MONOGRAFIA_0-229
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -6965,7 +6961,7 @@
 35	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Iniciando a implementação no EMSO, foi encontrado um problema.
-# sent_id = 380-20150505-MONOGRAFIA_0-229
+# sent_id = 380-20150505-MONOGRAFIA_0-230
 1	Iniciando	Iniciar	VERB	_	VerbForm=Ger	9	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	implementação	implementação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -6981,7 +6977,7 @@
 12	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Por ser um simulador orientado a equações (não ser uma linguagem de programação), não seria possível realizar a ordenação do vetor, uma vez que a ordenação de um vetor não descreve um equacionamento.
-# sent_id = 380-20150505-MONOGRAFIA_0-230
+# sent_id = 380-20150505-MONOGRAFIA_0-231
 1	Por	por	ADP	_	_	4	case	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	4	cop	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7024,7 +7020,7 @@
 39	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Por exemplo, a Figura 2 mostra a lógica desenvolvida para ordenar o vetor.
-# sent_id = 380-20150505-MONOGRAFIA_0-231
+# sent_id = 380-20150505-MONOGRAFIA_0-232
 1	Por	por	ADP	_	_	7	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -7042,7 +7038,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Foi criada uma variável denominada Contador
-# sent_id = 380-20150505-MONOGRAFIA_0-232
+# sent_id = 380-20150505-MONOGRAFIA_0-233
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	criada	criar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7051,7 +7047,7 @@
 6	Contador	contador	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 
 # text = A que vai do primeiro elemento do vetor até o penúltimo e outra variável denominada Contador B que vai do segundo elemento do vetor até o último, de maneira que seja possível comparar os valores das posições do vetor 1 e 2, 2 e 3, 3 e 4 e assim por diante.
-# sent_id = 380-20150505-MONOGRAFIA_0-233
+# sent_id = 380-20150505-MONOGRAFIA_0-234
 1	A	o	ADP	_	_	2	case	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
 3	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7122,7 +7118,7 @@
 62	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Como o objetivo é ordenar o vetor de maneira decrescente, se o valor presente na posição superior for menor que o valor presente na posição inferior, então este valor menor será atribuído a uma variável auxiliar, o valor maior à posição superior e o valor menor à posição inferior.
-# sent_id = 380-20150505-MONOGRAFIA_0-234
+# sent_id = 380-20150505-MONOGRAFIA_0-235
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -7186,7 +7182,7 @@
 57	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Caso contrário, os valores são mantidos em suas posições originais.
-# sent_id = 380-20150505-MONOGRAFIA_0-235
+# sent_id = 380-20150505-MONOGRAFIA_0-236
 1	Caso	caso	SCONJ	_	_	7	mark	_	_
 2	contrário	contrário	ADV	_	_	7	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7201,7 +7197,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O EMSO não entende as relações de atribuição, já que não é uma linguagem de programação propriamente dita.
-# sent_id = 380-20150505-MONOGRAFIA_0-236
+# sent_id = 380-20150505-MONOGRAFIA_0-237
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	EMSO	EMSO	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -7224,7 +7220,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Ele não consegue atribuir valores a uma variável e atualizá-los de acordo com a iteração que está se realizando (isto é, a variável auxiliar – aux na Figura 2 – é uma variável de um sistema de equações e as duas linhas de equações acima e abaixo do “else” criam um conflito).
-# sent_id = 380-20150505-MONOGRAFIA_0-237
+# sent_id = 380-20150505-MONOGRAFIA_0-238
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 3	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7288,10 +7284,10 @@
 58	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	conflito	conflito	NOUN	_	Gender=Masc|Number=Sing	57	obj	_	SpaceAfter=No
 60	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+61	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2: Problema no EMSO.
-# sent_id = 380-20150505-MONOGRAFIA_0-238
+# sent_id = 380-20150505-MONOGRAFIA_0-239
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -7303,7 +7299,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal, 2015.
-# sent_id = 380-20150505-MONOGRAFIA_0-239
+# sent_id = 380-20150505-MONOGRAFIA_0-240
 1	Fonte	fonte	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -7313,7 +7309,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Desta maneira, uma possível solução para o problema seria utilizar algum programa que forneça Plug in ao EMSO e resolver no EMSO apenas as etapas de otimização.
-# sent_id = 380-20150505-MONOGRAFIA_0-240
+# sent_id = 380-20150505-MONOGRAFIA_0-241
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7351,7 +7347,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Ao término do período a que esse relatório se refere ainda não havia sido decidida a solução a ser adotada, mas, para resolver a questão, a lógica de programação para elaboração da tabela problema foi desenvolvida e deverá ser adaptada, posteriormente (na continuidade desse trabalho), para a linguagem de programação do programa selecionado.
-# sent_id = 380-20150505-MONOGRAFIA_0-241
+# sent_id = 380-20150505-MONOGRAFIA_0-242
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7427,7 +7423,7 @@
 67	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n
 
 # text = A fim de verificar o funcionamento da lógica desenvolvida, utilizou-se o programa Scilab e um exemplo resolvido pela literatura.
-# sent_id = 380-20150505-MONOGRAFIA_0-242
+# sent_id = 380-20150505-MONOGRAFIA_0-243
 1	A	a	ADP	_	_	4	mark	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	de	de	SCONJ	_	_	1	fixed	_	_
@@ -7457,7 +7453,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Os dados fornecidos pelo usuário são apresentados na Tabela 2.
-# sent_id = 380-20150505-MONOGRAFIA_0-243
+# sent_id = 380-20150505-MONOGRAFIA_0-244
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	fornecidos	fornecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -7472,16 +7468,16 @@
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	8	obl	_	_
 12	2	2	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 2:
-# sent_id = 380-20150505-MONOGRAFIA_0-244
+# sent_id = 380-20150505-MONOGRAFIA_0-245
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Dados fornecidos pelo usuário segundo o exemplo utilizado.
-# sent_id = 380-20150505-MONOGRAFIA_0-245
+# sent_id = 380-20150505-MONOGRAFIA_0-246
 1	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	fornecidos	fornecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
 3-4	pelo	_	_	_	_	_	_	_	_
@@ -7495,7 +7491,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: RAVAGNANI; SUÁREZ, 2012.
-# sent_id = 380-20150505-MONOGRAFIA_0-246
+# sent_id = 380-20150505-MONOGRAFIA_0-247
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	RAVAGNANI	RAVAGNANI	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -7506,7 +7502,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na Figura 3, observam-se os valores de temperaturas de entrada (Tin), saída (Tout), capacidade térmica (CP) e variação mínima de temperatura (DeltaTmin) fornecidos pelo usuário.
-# sent_id = 380-20150505-MONOGRAFIA_0-247
+# sent_id = 380-20150505-MONOGRAFIA_0-248
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7552,7 +7548,7 @@
 40	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Cada posição dos vetores de entrada corresponde aos dados de uma corrente específica.
-# sent_id = 380-20150505-MONOGRAFIA_0-248
+# sent_id = 380-20150505-MONOGRAFIA_0-249
 1	Cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	posição	posição	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -7573,7 +7569,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Observa-se que T, que diz respeito ao vetor de temperaturas deslocadas ordenadas, possui dimensão 8x1 e a tabela envolvendo as quantidades de energia é representada por uma matriz 6x4.
-# sent_id = 380-20150505-MONOGRAFIA_0-249
+# sent_id = 380-20150505-MONOGRAFIA_0-250
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7609,16 +7605,16 @@
 31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	matriz	mator	NOUN	_	Gender=Fem|Number=Sing	29	obl:agent	_	_
 33	6x4	6x4	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 3:
-# sent_id = 380-20150505-MONOGRAFIA_0-250
+# sent_id = 380-20150505-MONOGRAFIA_0-251
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Dados envolvidos no Scilab.
-# sent_id = 380-20150505-MONOGRAFIA_0-251
+# sent_id = 380-20150505-MONOGRAFIA_0-252
 1	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	envolvidos	envolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -7628,12 +7624,12 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:
-# sent_id = 380-20150505-MONOGRAFIA_0-252
+# sent_id = 380-20150505-MONOGRAFIA_0-253
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal, 2015.
-# sent_id = 380-20150505-MONOGRAFIA_0-253
+# sent_id = 380-20150505-MONOGRAFIA_0-254
 1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -7641,7 +7637,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O objetivo é obter a tabela problema que, segundo a referência utilizada, deve assumir a seguinte forma:
-# sent_id = 380-20150505-MONOGRAFIA_0-254
+# sent_id = 380-20150505-MONOGRAFIA_0-255
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -7664,13 +7660,13 @@
 20	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Tabela 3:
-# sent_id = 380-20150505-MONOGRAFIA_0-255
+# sent_id = 380-20150505-MONOGRAFIA_0-256
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tabela problema do exemplo utilizado.
-# sent_id = 380-20150505-MONOGRAFIA_0-256
+# sent_id = 380-20150505-MONOGRAFIA_0-257
 1	Tabela	Tabelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	problema	problema	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7681,7 +7677,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: RAVAGNANI; SUÁREZ, 2012.
-# sent_id = 380-20150505-MONOGRAFIA_0-257
+# sent_id = 380-20150505-MONOGRAFIA_0-258
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	RAVAGNANI	RAVAGNANI	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -7692,7 +7688,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na tabela acima, T* corresponde ao vetor de temperaturas deslocadas ordenado de maneira decrescente, QH as quantidades de energia envolvidas, em cada intervalo de temperatura, para as correntes quentes e QC as quantidades de energia envolvidas, em cada intervalo de temperatura, para as correntes frias.
-# sent_id = 380-20150505-MONOGRAFIA_0-258
+# sent_id = 380-20150505-MONOGRAFIA_0-259
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7749,10 +7745,10 @@
 52	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
 53	correntes	corrente	ADJ	_	Gender=Fem|Number=Plur	54	amod	_	_
 54	frias	fria	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
-55	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+55	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Os resultados obtidos no Scilab são apresentados nas Figuras 4 e 5.
-# sent_id = 380-20150505-MONOGRAFIA_0-259
+# sent_id = 380-20150505-MONOGRAFIA_0-260
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7772,13 +7768,13 @@
 15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 4:
-# sent_id = 380-20150505-MONOGRAFIA_0-260
+# sent_id = 380-20150505-MONOGRAFIA_0-261
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Vetor temperaturas deslocadas e ordenadas de maneira decrescente.
-# sent_id = 380-20150505-MONOGRAFIA_0-261
+# sent_id = 380-20150505-MONOGRAFIA_0-262
 1	Vetor	Vetor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
 3	deslocadas	deslocar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7790,12 +7786,12 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:
-# sent_id = 380-20150505-MONOGRAFIA_0-262
+# sent_id = 380-20150505-MONOGRAFIA_0-263
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal, 2015.
-# sent_id = 380-20150505-MONOGRAFIA_0-263
+# sent_id = 380-20150505-MONOGRAFIA_0-264
 1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -7803,13 +7799,13 @@
 5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 5:
-# sent_id = 380-20150505-MONOGRAFIA_0-264
+# sent_id = 380-20150505-MONOGRAFIA_0-265
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tabela problema gerada no Scilab.
-# sent_id = 380-20150505-MONOGRAFIA_0-265
+# sent_id = 380-20150505-MONOGRAFIA_0-266
 1	Tabela	Tabelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	problema	problema	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	gerada	gerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -7820,7 +7816,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal, 2015.
-# sent_id = 380-20150505-MONOGRAFIA_0-266
+# sent_id = 380-20150505-MONOGRAFIA_0-267
 1	Fonte	fonte	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -7830,7 +7826,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Pode-se verificar que a lógica desenvolvida gera a tabela problema necessária para se iniciar as etapas de otimização.
-# sent_id = 380-20150505-MONOGRAFIA_0-267
+# sent_id = 380-20150505-MONOGRAFIA_0-268
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
@@ -7854,7 +7850,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para que as atividades não fossem interrompidas diante da não decisão de qual programa seria utilizado para fornecer Plug in ao EMSO, iniciou-se a implementação neste ambiente do modelo que diz respeito à primeira etapa de otimização (custo mínimo de utilidades).
-# sent_id = 380-20150505-MONOGRAFIA_0-268
+# sent_id = 380-20150505-MONOGRAFIA_0-269
 1	Para	para	SCONJ	_	_	7	mark	_	_
 2	que	que	SCONJ	_	_	7	mark	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -7914,7 +7910,7 @@
 51	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = O modelo implementado não apresentou erros quanto à linguagem ou sintaxe.
-# sent_id = 380-20150505-MONOGRAFIA_0-269
+# sent_id = 380-20150505-MONOGRAFIA_0-270
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	implementado	implementado	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7922,7 +7918,7 @@
 5	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	erros	erro	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 7	quanto	quanto	ADV	_	_	10	case	_	_
-8-9	à	_	_	_	_	_	_	_	_
+8-9	à	_	_	_	_	_	_	_	SpacesAfter=\s\n
 8	a	a	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	linguagem	linguagem	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -7930,8 +7926,8 @@
 12	sintaxe	sintaxe	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Porém, ao executar o programa, o EMSO não consegue resolvê- lo e acusa que existe um número maior de equações do que de variáveis.
-# sent_id = 380-20150505-MONOGRAFIA_0-270
+# text = Porém, ao executar o programa, o EMSO não consegue resolvê-lo e acusa que existe um número maior de equações do que de variáveis.
+# sent_id = 380-20150505-MONOGRAFIA_0-271
 1	Porém	porém	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -7945,28 +7941,28 @@
 10	EMSO	EMSO	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 11	não	não	ADV	_	Polarity=Neg	12	advmod	_	_
 12	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	resolvê	resolver	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	13	punct	_	_
-15	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
-16	e	e	CCONJ	_	_	17	cc	_	_
-17	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
-18	que	que	SCONJ	_	_	19	mark	_	_
-19	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
-20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	número	número	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
-22	maior	grande	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	equações	equação	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	29	case	_	_
-26	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	fixed	_	_
-27	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	25	fixed	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	12	punct	_	_
+13-14	resolvê-lo	_	_	_	_	_	_	_	_
+13	resolvê	resolver	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	acusa	acusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	que	que	SCONJ	_	_	18	mark	_	_
+18	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	número	número	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+21	maior	grande	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	equações	equação	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	28	case	_	_
+25	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	fixed	_	_
+26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	fixed	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Isto acontece porque estão faltando dados referentes às utilidades utilizadas (uma tabela semelhante à tabela problema apresentada deve ser elaborada para as utilidades).
-# sent_id = 380-20150505-MONOGRAFIA_0-271
+# sent_id = 380-20150505-MONOGRAFIA_0-272
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	acontece	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	porque	porque	SCONJ	_	_	5	mark	_	_
@@ -7999,7 +7995,7 @@
 28	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = É válido ressaltar que, neste caso, os dados da tabela problema foram inseridos diretamente no EMSO.
-# sent_id = 380-20150505-MONOGRAFIA_0-272
+# sent_id = 380-20150505-MONOGRAFIA_0-273
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	válido	válido	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	ressaltar	ressaltar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -8027,7 +8023,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Não foi possível elaborar a tabela necessária para as utilidades e finalizar a primeira etapa de otimização dentro do período que envolve este relatório.
-# sent_id = 380-20150505-MONOGRAFIA_0-273
+# sent_id = 380-20150505-MONOGRAFIA_0-274
 1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -8057,7 +8053,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Porém, todas as atividades planejadas para o exercício de março de 2014 a fevereiro de 2015 foram devidamente executadas.
-# sent_id = 380-20150505-MONOGRAFIA_0-274
+# sent_id = 380-20150505-MONOGRAFIA_0-275
 1	Porém	porém	ADV	_	_	20	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
@@ -8081,7 +8077,7 @@
 21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = As etapas seguintes necessárias para que se possa levantar a RTC ótima para a biorrefinaria de cana-de-açúcar consistem em: otimizar o custo mínimo de utilidades via modelo de transbordo expandido, no qual é possível adicionar restrições ao processo, como trocas proibidas (por motivos de localização, manutenção da integridade de cada uma das seções da planta, risco de contaminação) e limitar a troca de calor entre correntes; minimizar o número de trocadores de calor; e minimizar o custo da rede de trocadores de calor.
-# sent_id = 380-20150505-MONOGRAFIA_0-275
+# sent_id = 380-20150505-MONOGRAFIA_0-276
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
 3	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -8186,20 +8182,20 @@
 96	trocadores	trocador	NOUN	_	Gender=Masc|Number=Plur	94	nmod	_	_
 97	de	de	ADP	_	_	98	case	_	_
 98	calor	calor	NOUN	_	Gender=Masc|Number=Sing	96	nmod	_	SpaceAfter=No
-99	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+99	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n\n
 
 # text = 6.
-# sent_id = 380-20150505-MONOGRAFIA_0-276
+# sent_id = 380-20150505-MONOGRAFIA_0-277
 1	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Considerações finais
-# sent_id = 380-20150505-MONOGRAFIA_0-277
+# sent_id = 380-20150505-MONOGRAFIA_0-278
 1	Considerações	consideração	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	finais	final	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 
 # text = O consumo de energia não só na indústria do etanol, mas como em qualquer outra, é um fator importante na composição final dos custos dos produtos.
-# sent_id = 380-20150505-MONOGRAFIA_0-278
+# sent_id = 380-20150505-MONOGRAFIA_0-279
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8241,7 +8237,7 @@
 34	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Por esse motivo, as empresas procuram de forma intensa a redução no seu consumo energético.
-# sent_id = 380-20150505-MONOGRAFIA_0-279
+# sent_id = 380-20150505-MONOGRAFIA_0-280
 1	Por	por	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
@@ -8263,7 +8259,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Como todo processo industrial apresenta correntes que precisam ser resfriadas e correntes que precisam ser aquecidas, uma possível solução é a integração energética da planta, de maneira que o consumo de utilidades quentes e frias seja reduzido e as necessidades energéticas da planta sejam supridas pelas próprias correntes do processo, a partir de uma rede de trocadores de calor.
-# sent_id = 380-20150505-MONOGRAFIA_0-280
+# sent_id = 380-20150505-MONOGRAFIA_0-281
 1	Como	como	ADP	_	_	3	case	_	_
 2	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -8337,7 +8333,7 @@
 67	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Um dos principais desafios encontrados para se realizar integração energética é a escolha de quais correntes devem ser combinadas e qual deve ser a sequência de trocadores na rede (o problema apresenta uma natureza combinatorial).
-# sent_id = 380-20150505-MONOGRAFIA_0-281
+# sent_id = 380-20150505-MONOGRAFIA_0-282
 1	Um	um	NUM	_	NumType=Card	14	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -8382,7 +8378,7 @@
 40	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Esta dificuldade cresce com o aumento do número de correntes no processo.
-# sent_id = 380-20150505-MONOGRAFIA_0-282
+# sent_id = 380-20150505-MONOGRAFIA_0-283
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dificuldade	dificuldade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	cresce	crescer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8402,7 +8398,7 @@
 15	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Para sintetizar uma rede de trocadores de calor, utilizam-se métodos matemáticos, por meio de programações lineares e não lineares, ou métodos baseados em conceitos termodinâmicos, como a Tecnologia Pinch.
-# sent_id = 380-20150505-MONOGRAFIA_0-283
+# sent_id = 380-20150505-MONOGRAFIA_0-284
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	sintetizar	sintetizar	VERB	_	VerbForm=Inf	10	advcl	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8441,7 +8437,7 @@
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A obtenção de uma rede de trocadores de calor envolve determinar o consumo de utilidades, a área de transferência de calor, o número de trocadores e o custo global anual, bem como as combinações de correntes de processo em cada trocador de calor.
-# sent_id = 380-20150505-MONOGRAFIA_0-284
+# sent_id = 380-20150505-MONOGRAFIA_0-285
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -8491,7 +8487,7 @@
 47	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = O presente trabalho tinha como objetivo final integrar energeticamente uma biorrefinaria de cana-de-açúcar.
-# sent_id = 380-20150505-MONOGRAFIA_0-285
+# sent_id = 380-20150505-MONOGRAFIA_0-286
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	presente	presente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -8508,7 +8504,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Para a síntese da RTC, escolheu-se a metodologia sequencial via programação matemática.
-# sent_id = 380-20150505-MONOGRAFIA_0-286
+# sent_id = 380-20150505-MONOGRAFIA_0-287
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -8529,7 +8525,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Este método divide o problema de síntese em uma série de subproblemas com o objetivo de reduzir o esforço computacional na solução e apresenta as seguintes regras, as quais possuem precedência uma sobre as outras: 1) mínimo consumo de utilidades, 2) mínimo número de trocadores de calor e 3) mínimo custo fixo da rede.
-# sent_id = 380-20150505-MONOGRAFIA_0-287
+# sent_id = 380-20150505-MONOGRAFIA_0-288
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	divide	dividir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8566,7 +8562,7 @@
 33	precedência	precedência	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
 34	uma	um	NUM	_	NumType=Card	33	nummod	_	_
 35	sobre	sobre	ADP	_	_	37	case	_	_
-36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	SpacesAfter=\s\n
 37	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	33	nmod	_	SpaceAfter=No
 38	:	:	PUNCT	_	_	3	punct	_	_
 39	1	1	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
@@ -8597,7 +8593,7 @@
 63	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = No período coberto pelo relatório em questão, foi iniciada a otimização do primeiro critério.
-# sent_id = 380-20150505-MONOGRAFIA_0-288
+# sent_id = 380-20150505-MONOGRAFIA_0-289
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8622,7 +8618,7 @@
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = As etapas seguintes necessárias para que se possa levantar qual a RTC ótima para a biorrefinaria de cana-de-açúcar envolvem otimizar o custo de utilidades via modelo de transbordo expandido, minimizar o número de trocadores de calor; e minimizar o custo fixo da rede.
-# sent_id = 380-20150505-MONOGRAFIA_0-289
+# sent_id = 380-20150505-MONOGRAFIA_0-290
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -8670,5 +8666,5 @@
 44	de	de	ADP	_	_	46	case	_	_
 45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	rede	rede	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 

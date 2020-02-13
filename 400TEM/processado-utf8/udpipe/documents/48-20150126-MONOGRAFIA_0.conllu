@@ -353,7 +353,7 @@
 60	,	,	PUNCT	_	_	61	punct	_	_
 61	2003	2003	NUM	_	NumType=Card	59	appos	_	SpaceAfter=No
 62	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
-63	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+63	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n\n
 
 # text = Dentro deste contexto, o objetivo deste trabalho foi estudar a produção de lipases pelo fungo
 # sent_id = 48-20150126-MONOGRAFIA_0-11
@@ -408,7 +408,7 @@
 21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	rejeito	rejeito	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 23	agroindustrial	agroindustrial	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 48-20150126-MONOGRAFIA_0-13
@@ -432,7 +432,7 @@
 # sent_id = 48-20150126-MONOGRAFIA_0-16
 1	Definição	definição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
-# text = As lipases (glicerol ester hidrolases, E.C. 3.1.1.3) compreendem um grupo de enzimas hidrolíticas que atuam geralmente na interface orgânico-aquosa, catalisando a hidrólise e a síntese de ésteres formados por glicerol e ácidos graxos de cadeia longa
+# text = As lipases (glicerol ester hidrolases, E.C. 3.1.1.3) compreendem um grupo de enzimas hidrolíticas que atuam geralmente na interface orgânico-aquosa, catalisando a hidrólise e a síntese de ésteres formados por glicerol e ácidos graxos de cadeia longa (Sharma et al., 2001).
 # sent_id = 48-20150126-MONOGRAFIA_0-17
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	lipases	lipase	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
@@ -464,7 +464,7 @@
 27	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 28	e	e	CCONJ	_	_	30	cc	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+30	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	ésteres	éster	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
 33	formados	formar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	32	acl	_	_
@@ -476,6 +476,14 @@
 39	de	de	ADP	_	_	40	case	_	_
 40	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
 41	longa	longo	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	Sharma	Sharma	PROPN	_	Gender=Fem|Number=Sing	38	appos	_	_
+44	et	et	X	_	Number=Sing	43	flat:name	_	_
+45	al.	al.	NOUN	_	Gender=Fem|Number=Sing	43	appos	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	_
+47	2001	2001	NUM	_	NumType=Card	43	appos	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = A função biológica destas enzimas é primordialmente catalisar a hidrólise de triglicerídeos insolúveis para gerar ácidos graxos livres, mono e diacilgliceróis e glicerol.
 # sent_id = 48-20150126-MONOGRAFIA_0-18
@@ -748,7 +756,7 @@
 29	esterases	esterase	NOUN	_	Gender=Fem|Number=Plur	30	nsubj	_	_
 30	atuam	atuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 31	em	em	ADP	_	_	32	case	_	_
-32	substratos	substrato	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	_
+32	substratos	substrato	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	SpacesAfter=\s\n
 33	solúveis	solúvel	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	principalmente	principalmente	ADV	_	_	36	advmod	_	_
@@ -932,7 +940,7 @@
 57	,	,	PUNCT	_	_	58	punct	_	_
 58	1991	1991	NUM	_	NumType=Card	54	appos	_	SpaceAfter=No
 59	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
-60	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n
+60	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2.1:
 # sent_id = 48-20150126-MONOGRAFIA_0-29
@@ -1145,7 +1153,7 @@
 41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	sítio	sítio	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
 43	ativo	ativo	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
-44	e	e	CCONJ	_	_	47	cc	_	_
+44	e	e	CCONJ	_	_	47	cc	_	SpacesAfter=\s\n
 45	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 46	grande	grande	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
 47	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	40	conj	_	_
@@ -1378,7 +1386,7 @@
 60	al.	al.	NOUN	_	Gender=Fem|Number=Sing	58	appos	_	SpaceAfter=No
 61	,	,	PUNCT	_	_	62	punct	_	_
 62	2006	2006	NUM	_	NumType=Card	32	conj	_	SpaceAfter=No
-63	)	)	PUNCT	_	_	1	punct	_	_
+63	)	)	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 
 # text = O mecanismo catalítico de reações de hidrólise ou síntese de ésteres é semelhante para as lipases e proteases, devido à semelhança estrutural entre o sítio ativo destas enzimas (presença da tríade catalítica Ser-Asp-Glu/His).
 # sent_id = 48-20150126-MONOGRAFIA_0-40
@@ -1561,7 +1569,7 @@
 # sent_id = 48-20150126-MONOGRAFIA_0-46
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	molécula	molécula	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
-3	de	de	ADP	_	_	4	case	_	_
+3	de	de	ADP	_	_	4	case	_	SpacesAfter=\s\n
 4	álcool	álcool	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	liberada	liberar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -1749,7 +1757,7 @@
 21	cinéticas	cinético	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Do ponto de vista econômico e industrial, as lipases obtidas de microrganismos (bactérias, leveduras e fungos) são as mais utilizadas, devido a sua relativa facilidade de produção e abundância de microrganismos capazes de sintetizá- las.
+# text = Do ponto de vista econômico e industrial, as lipases obtidas de microrganismos (bactérias, leveduras e fungos) são as mais utilizadas, devido a sua relativa facilidade de produção e abundância de microrganismos capazes de sintetizá-las.
 # sent_id = 48-20150126-MONOGRAFIA_0-54
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
@@ -1782,7 +1790,7 @@
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 29	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	31	det	_	_
 30	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
-31	facilidade	facilidade	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
+31	facilidade	facilidade	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	produção	produção	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
 34	e	e	CCONJ	_	_	35	cc	_	_
@@ -1790,11 +1798,11 @@
 36	de	de	ADP	_	_	37	case	_	_
 37	microrganismos	microrganismo	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
 38	capazes	capaz	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	sintetizá	sintetizá	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
-41	-	-	PUNCT	_	_	31	punct	_	_
-42	las	elas	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	23	punct	_	_
+39	de	de	SCONJ	_	_	40	mark	_	_
+40-41	sintetizá-las	_	_	_	_	_	_	_	SpaceAfter=No
+40	sintetizá	sintetizar	VERB	_	VerbForm=Inf	31	acl	_	_
+41	las	elas	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	40	obj	_	_
+42	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Os fungos são especialmente valorizados porque as enzimas por eles produzidas normalmente são extracelulares, o que facilita a sua recuperação do meio de fermentação e também porque a maioria dos fungos não é nociva à saúde humana, sendo reconhecidos como GRAS (Generally Regornized as Safety), (Jaeger et al., 1994).
 # sent_id = 48-20150126-MONOGRAFIA_0-55
@@ -1938,7 +1946,7 @@
 24	,	,	PUNCT	_	_	20	punct	_	_
 25	em	em	ADP	_	_	26	case	_	_
 26	relação	relação	NOUN	_	Gender=Fem|Number=Sing	11	fixed	_	_
-27-28	aos	_	_	_	_	_	_	_	_
+27-28	aos	_	_	_	_	_	_	_	SpacesAfter=\s\n
 27	a	a	ADP	_	_	29	case	_	_
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
@@ -2331,7 +2339,7 @@
 32	e	e	CCONJ	_	_	34	cc	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = A termoestabilidade também é um requerimento importante para o emprego de enzimas na indústria.
 # sent_id = 48-20150126-MONOGRAFIA_0-70
@@ -2679,7 +2687,7 @@
 27	de	de	ADP	_	_	28	case	_	_
 28	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	6	punct	_	_
-30-31	na	_	_	_	_	_	_	_	_
+30-31	na	_	_	_	_	_	_	_	SpacesAfter=\s\n
 30	em	em	ADP	_	_	32	case	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -2984,7 +2992,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2.4: Reação de alcóolise Tabela 2.1: Principais vantagens e desvantagens dos processos químico e enzimático para a produção de biodiesel.
 # sent_id = 48-20150126-MONOGRAFIA_0-89
@@ -3046,7 +3054,7 @@
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	em	em	ADP	_	_	29	case	_	_
 27	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	29	det	_	_
-28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	fixed	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	fixed	_	SpacesAfter=\s\n
 29	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	39	obl	_	_
 30	pesquisados	pesquisado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	_
@@ -3421,7 +3429,7 @@
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	_	_	11	case	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	conversão	conversão	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+11	conversão	conversão	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpacesAfter=\s\n
 12	quanto	quanto	ADV	_	_	15	advmod	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	_	_	15	case	_	_
@@ -3811,7 +3819,7 @@
 2	possibilita	possibilitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
+5	de	de	ADP	_	_	6	case	_	SpacesAfter=\s\n
 6	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 7	agroindustriais	agroindustrial	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 8	como	como	ADP	_	_	9	case	_	_
@@ -4153,7 +4161,7 @@
 31	permitir	permitir	VERB	_	VerbForm=Inf	29	advcl	_	_
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
-34-35	do	_	_	_	_	_	_	_	_
+34-35	do	_	_	_	_	_	_	_	SpacesAfter=\s\n
 34	de	de	ADP	_	_	36	case	_	_
 35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	microrganismo	microrganismo	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
@@ -4563,7 +4571,7 @@
 28	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	29	det	_	_
 29	características	característica	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 30	fisiológicas	fisiológico	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Essa maior adaptação pode estar relacionada à similaridade da FES com o habitat natural dos fungos (Holker et al., 2004).
 # sent_id = 48-20150126-MONOGRAFIA_0-135
@@ -4970,7 +4978,7 @@
 46	com	com	ADP	_	_	48	case	_	_
 47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
-49	de	de	SCONJ	_	_	50	mark	_	_
+49	de	de	SCONJ	_	_	50	mark	_	SpacesAfter=\s\n
 50	enriquecer	enriquecer	VERB	_	VerbForm=Inf	48	acl	_	_
 51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	meio	meio	NOUN	_	Gender=Masc|Number=Sing	50	obj	_	_
@@ -5408,7 +5416,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	2001	2001	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 48-20150126-MONOGRAFIA_0-163
@@ -5614,7 +5622,7 @@
 13	imobilizada	imobilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
 14	em	em	ADP	_	_	15	case	_	_
 15	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
-16	hidrofóbico	hidrofóbico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+16	hidrofóbico	hidrofóbico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpacesAfter=\s\n
 17	4	4	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5780,7 +5788,7 @@
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Tabela	Tabela	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 19	4.2	4.2	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 4.2:Lista de reagentes utilizados de grau analítico 4.1.2.
 # sent_id = 48-20150126-MONOGRAFIA_0-182
@@ -5826,7 +5834,7 @@
 3	Lista	Lista	PROPN	_	Number=Sing	1	flat:name	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-6	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
+6	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	SpacesAfter=\s\n
 7	4.2	4.2	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -5956,7 +5964,7 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	esporos	esporo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 
-# text = A propagação dos esporos foi realizada através do crescimento do fungo a 30ºC por sete dias em meio com a seguinte composição (%m/v): amido solúvel 2,0; MgSO4.7H2O 0,025; KH2PO4 0,05; (NH4)2SO4 0,5;
+# text = A propagação dos esporos foi realizada através do crescimento do fungo a 30ºC por sete dias em meio com a seguinte composição (%m/v): amido solúvel 2,0;
 # sent_id = 48-20150126-MONOGRAFIA_0-193
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	propagação	propagação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -5995,39 +6003,42 @@
 32	solúvel	solúvel	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 33	2,0	2,0	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 34	;	;	PUNCT	_	_	7	punct	_	_
-35	MgSO4.7H2O	MgSO4.7H2O	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
-36	0,025	0,025	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
-37	;	;	PUNCT	_	_	7	punct	_	_
-38	KH2PO4	KH2PO4	NUM	_	NumType=Card	7	appos	_	_
-39	0,05	0,05	NUM	_	NumType=Card	38	flat	_	SpaceAfter=No
-40	;	;	PUNCT	_	_	7	punct	_	_
-41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
-42	NH4)	NH4)	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
-43	2SO4	2SO4	NUM	_	NumType=Card	42	flat	_	_
-44	0,5	0,5	NUM	_	NumType=Card	42	flat	_	SpaceAfter=No
-45	;	;	PUNCT	_	_	7	punct	_	_
 
-# text = CaCO3 0,5; extrato de lêvedo 0,1; óleo de oliva 1,0; ágar 1,0.
+# text = MgSO.7H2O 0,025; KH2PO4 0,05; (NH4)2SO4 0,5;
 # sent_id = 48-20150126-MONOGRAFIA_0-194
-1	CaCO3	CaCO3	NUM	_	NumType=Card	9	nummod	_	_
-2	0,5	0,5	NUM	_	NumType=Card	1	flat	_	SpaceAfter=No
+1	MgSO.7H2O	Mgso.7h2o	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+2	0,025	0,025	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	;	;	PUNCT	_	_	2	punct	_	_
+4	KH2PO4	KH2PO4	NUM	_	NumType=Card	2	flat	_	_
+5	0,05	0,05	NUM	_	NumType=Card	2	flat	_	SpaceAfter=No
+6	;	;	PUNCT	_	_	1	punct	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	NH4)	NH4)	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+9	2SO4	2SO4	NUM	_	NumType=Card	8	flat	_	_
+10	0,5	0,5	NUM	_	NumType=Card	8	flat	_	SpaceAfter=No
+11	;	;	PUNCT	_	_	8	punct	_	_
+
+# text = CaCO 0,5; extrato de lêvedo 0,1; óleo de oliva 1,0; ágar 1,0.
+# sent_id = 48-20150126-MONOGRAFIA_0-195
+1	CaCO	Caco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	0,5	0,5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	;	;	PUNCT	_	_	1	punct	_	_
 4	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	lêvedo	lêvedo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	0,1	0,1	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	1	punct	_	_
-9	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+9	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	oliva	oliva	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	1,0	1,0	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-13	;	;	PUNCT	_	_	9	punct	_	_
-14	ágar	ágar	VERB	_	VerbForm=Inf	0	root	_	_
+13	;	;	PUNCT	_	_	1	punct	_	_
+14	ágar	ágar	VERB	_	VerbForm=Inf	1	parataxis	_	_
 15	1,0	1,0	NUM	_	NumType=Card	14	obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	14	punct	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os esporos foram raspados e suspensos em tampão fosfato (100 mM pH 7,0) estéril, formando a suspensão de esporos.
-# sent_id = 48-20150126-MONOGRAFIA_0-195
+# sent_id = 48-20150126-MONOGRAFIA_0-196
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	esporos	esporo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6053,7 +6064,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A concentração de esporos foi determinada através de contagem ao microscópico óptico em câmara de Neubauer.
-# sent_id = 48-20150126-MONOGRAFIA_0-196
+# sent_id = 48-20150126-MONOGRAFIA_0-197
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6075,12 +6086,12 @@
 18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 4.2.3.
-# sent_id = 48-20150126-MONOGRAFIA_0-197
+# sent_id = 48-20150126-MONOGRAFIA_0-198
 1	4.2.3	4.2.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Preparo da torta da babaçu
-# sent_id = 48-20150126-MONOGRAFIA_0-198
+# sent_id = 48-20150126-MONOGRAFIA_0-199
 1	Preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6092,7 +6103,7 @@
 7	babaçu	babaçu	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Utilizou-se como meio basal para a fermentação no estado sólido a torta de babaçu, triturada e peneirada.
-# sent_id = 48-20150126-MONOGRAFIA_0-199
+# sent_id = 48-20150126-MONOGRAFIA_0-200
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -6118,7 +6129,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Partículas entre 210 e 420µm foram, então, utilizadas para posterior composição do meio de cultivo.
-# sent_id = 48-20150126-MONOGRAFIA_0-200
+# sent_id = 48-20150126-MONOGRAFIA_0-201
 1	Partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 2	entre	entre	ADP	_	_	3	case	_	_
 3	210	210	NUM	_	NumType=Card	1	nmod	_	_
@@ -6141,7 +6152,7 @@
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A torta de babaçu sem suplementação ou suplementada com 3,3 % m/m de melaço ou óleo foi esterilizada a 1 atm por 20 minutos.
-# sent_id = 48-20150126-MONOGRAFIA_0-201
+# sent_id = 48-20150126-MONOGRAFIA_0-202
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	torta	torta	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6166,15 +6177,15 @@
 22	por	por	ADP	_	_	24	case	_	_
 23	20	20	NUM	_	NumType=Card	24	nummod	_	_
 24	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.4.
-# sent_id = 48-20150126-MONOGRAFIA_0-202
+# sent_id = 48-20150126-MONOGRAFIA_0-203
 1	4.2.4	4.2.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fermentação no estado sólido
-# sent_id = 48-20150126-MONOGRAFIA_0-203
+# sent_id = 48-20150126-MONOGRAFIA_0-204
 1	Fermentação	Fermentação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -6183,7 +6194,7 @@
 5	sólido	sólido	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 
 # text = A produção de lipase utilizando a torta de babaçu como meio de cultivo foi realizada em condições pré-determinadas nos trabalhos de Gutarra 2005 e 2007, para o fungo
-# sent_id = 48-20150126-MONOGRAFIA_0-204
+# sent_id = 48-20150126-MONOGRAFIA_0-205
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6217,13 +6228,13 @@
 30	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 
 # text = Penicillium simplicissimum.
-# sent_id = 48-20150126-MONOGRAFIA_0-205
+# sent_id = 48-20150126-MONOGRAFIA_0-206
 1	Penicillium	Penicillium	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	simplicissimum	simplicissimum	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estas condições foram utilizadas como ponto de partida para as fermentações realizadas com o fungo Aspergillus parasiticus.
-# sent_id = 48-20150126-MONOGRAFIA_0-206
+# sent_id = 48-20150126-MONOGRAFIA_0-207
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6244,7 +6255,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # text = A fermentação em meio sólido foi realizada em béqueres de polipropileno de 500 mL, tampados com manta acrílica (Figura 4.1), contendo 10 g de torta em camada de 1 cm de espessura, inoculada com 1,0 x 107 esporos/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-207
+# sent_id = 48-20150126-MONOGRAFIA_0-208
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fermentação	fermentação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -6291,7 +6302,7 @@
 44	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os reatores foram incubados em estufa com temperatura controlada (30ºC) e injeção de ar úmido com 95% de saturação, de forma a manter a umidade inicial do meio (70% m/m).
-# sent_id = 48-20150126-MONOGRAFIA_0-208
+# sent_id = 48-20150126-MONOGRAFIA_0-209
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	reatores	reator	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -6334,7 +6345,7 @@
 39	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A torta de babaçu foi analisada sem suplementação ou suplementada com melaço ou óleo de oliva (3,3 % m/m).
-# sent_id = 48-20150126-MONOGRAFIA_0-209
+# sent_id = 48-20150126-MONOGRAFIA_0-210
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	torta	torta	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6359,7 +6370,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Após o tempo de fermentação determinado, retirou-se, de cada reator, alíquotas de 0,5 g para análises de umidade, pH e atividade de água.
-# sent_id = 48-20150126-MONOGRAFIA_0-210
+# sent_id = 48-20150126-MONOGRAFIA_0-211
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -6392,7 +6403,7 @@
 29	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A extração da preparação enzimática bruta do meio fermentado foi realizada em agitador rotatório a 35oC e velocidade de agitação de 200 rpm por 30 minutos, adicionando-se 45 mL de tampão fosfato (100mM, pH 7,0) à 10 g de torta inicial.
-# sent_id = 48-20150126-MONOGRAFIA_0-211
+# sent_id = 48-20150126-MONOGRAFIA_0-212
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extração	extração	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6449,7 +6460,7 @@
 50	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Posteriormente, a torta foi prensada para a recuperação do extrato enzimático bruto, o qual foi centrifugado a 3000 rpm por 2 minutos para remoção de sólidos mais finos (Gombert et al., 1999).
-# sent_id = 48-20150126-MONOGRAFIA_0-212
+# sent_id = 48-20150126-MONOGRAFIA_0-213
 1	Posteriormente	posteriormente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6492,7 +6503,7 @@
 39	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O sobrenadante foi estocado a -20oC para posterior dosagem das atividades enzimáticas e procedimento de imobilização.
-# sent_id = 48-20150126-MONOGRAFIA_0-213
+# sent_id = 48-20150126-MONOGRAFIA_0-214
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sobrenadante	sobrenadante	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6511,10 +6522,10 @@
 15	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	imobilização	imobilização	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 4.1: Béqueres utilizados para a FES.
-# sent_id = 48-20150126-MONOGRAFIA_0-214
+# sent_id = 48-20150126-MONOGRAFIA_0-215
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4.1:	4.1:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Béqueres	Béqueres	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6525,12 +6536,12 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 4.2.5.
-# sent_id = 48-20150126-MONOGRAFIA_0-215
+# sent_id = 48-20150126-MONOGRAFIA_0-216
 1	4.2.5	4.2.5	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Monitoramento da fermentação no estado sólido 4.2.5.1 Medida de pH
-# sent_id = 48-20150126-MONOGRAFIA_0-216
+# sent_id = 48-20150126-MONOGRAFIA_0-217
 1	Monitoramento	Monitoramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6547,7 +6558,7 @@
 12	pH	ph	PROPN	_	Number=Sing	9	nmod	_	_
 
 # text = Para medida do pH, adicionou-se 5 mL de água destilada a 0,5g de torta fermentada, agitou-se vigorosamente em vortex e verificou-se o pH em potenciômetro (Gombert et al., 1999).
-# sent_id = 48-20150126-MONOGRAFIA_0-217
+# sent_id = 48-20150126-MONOGRAFIA_0-218
 1	Para	para	ADP	_	_	2	case	_	_
 2	medida	medida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6593,7 +6604,7 @@
 39	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 4.2.5.2 Medida do teor de umidade e atividade de água
-# sent_id = 48-20150126-MONOGRAFIA_0-218
+# sent_id = 48-20150126-MONOGRAFIA_0-219
 1	4.2.5.2	4.2.5.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Medida	Medida	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6608,7 +6619,7 @@
 11	água	água	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 
 # text = Para a determinação do teor de umidade, amostras de aproximadamente 0,5g de material sólido fermentado foram colocadas em placas de Petri previamente taradas e pesadas em balança analítica.
-# sent_id = 48-20150126-MONOGRAFIA_0-219
+# sent_id = 48-20150126-MONOGRAFIA_0-220
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
@@ -6643,7 +6654,7 @@
 31	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Após incubação em estufa a 60oC até atingir peso constante, o que ocorria após aproximadamente 48h, as mesmas foram pesadas e o teor de umidade da amostra foi calculado de acordo com a Equação 4.1: (Equação 4.1)
-# sent_id = 48-20150126-MONOGRAFIA_0-220
+# sent_id = 48-20150126-MONOGRAFIA_0-221
 1	Após	após	ADP	_	_	2	case	_	_
 2	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -6690,7 +6701,7 @@
 43	)	)	PUNCT	_	_	41	punct	_	_
 
 # text = Teor de Umidade (%)= (massa úmida - massa seca ) x 100 massa úmida
-# sent_id = 48-20150126-MONOGRAFIA_0-221
+# sent_id = 48-20150126-MONOGRAFIA_0-222
 1	Teor	teor	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Umidade	Umidade	PROPN	_	Number=Sing	1	nmod	_	_
@@ -6708,10 +6719,10 @@
 15	x	x	ADP	_	_	17	case	_	_
 16	100	100	NUM	_	NumType=Card	17	nummod	_	_
 17	massa	massa	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-18	úmida	úmir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
+18	úmida	úmir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	SpacesAfter=\s\n
 
 # text = Para a determinação da atividade de água nos diversos tempos de fermentação, amostras de aproximadamente 1,0g de material fermentado foram analisadas no higrômetro.
-# sent_id = 48-20150126-MONOGRAFIA_0-222
+# sent_id = 48-20150126-MONOGRAFIA_0-223
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
@@ -6745,7 +6756,7 @@
 28	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = 4.2.5.3 Imobilização em Accurel® MP 1000
-# sent_id = 48-20150126-MONOGRAFIA_0-223
+# sent_id = 48-20150126-MONOGRAFIA_0-224
 1	4.2.5.3	4.2.5.3	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
 2	Imobilização	Imobilização	PROPN	_	Number=Sing	1	flat:name	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -6754,7 +6765,7 @@
 6	1000	1000	NUM	_	NumType=Card	5	nummod	_	_
 
 # text = As lipases foram imobilizadas em suporte hidrofóbico de polipropileno microporoso denominado comercialmente de Accurel® MP 1000 segundo metodologia descrita em Olveira et al, 2006, com algumas modificações.
-# sent_id = 48-20150126-MONOGRAFIA_0-224
+# sent_id = 48-20150126-MONOGRAFIA_0-225
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	lipases	lipase	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6787,7 +6798,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, foram pesadas 1000 mg do suporte e a este foi adicionado 10 mL de álcool etílico.
-# sent_id = 48-20150126-MONOGRAFIA_0-225
+# sent_id = 48-20150126-MONOGRAFIA_0-226
 1	Inicialmente	inicialmente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -6811,7 +6822,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O conjunto foi mantido em repouso por 30 min e, em seguida, lavado sucessivas vezes até que todo álcool etílico fosse eliminado.
-# sent_id = 48-20150126-MONOGRAFIA_0-226
+# sent_id = 48-20150126-MONOGRAFIA_0-227
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6839,7 +6850,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após este procedimento, foi adicionado ao suporte 50 mL de meio fermentado livre de células obtido por FES.
-# sent_id = 48-20150126-MONOGRAFIA_0-227
+# sent_id = 48-20150126-MONOGRAFIA_0-228
 1	Após	após	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -6864,7 +6875,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O conjunto foi mantido sob agitação em banho de gelo.
-# sent_id = 48-20150126-MONOGRAFIA_0-228
+# sent_id = 48-20150126-MONOGRAFIA_0-229
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6878,7 +6889,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após 120 minutos, filtrou-se, sob vácuo a enzima imobilizada.
-# sent_id = 48-20150126-MONOGRAFIA_0-229
+# sent_id = 48-20150126-MONOGRAFIA_0-230
 1	Após	após	ADP	_	_	3	case	_	_
 2	120	120	NUM	_	NumType=Card	3	nummod	_	_
 3	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
@@ -6895,7 +6906,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = E dosou-se o extrato de acordo com o método espectrofotométrico (4.2.5.4).
-# sent_id = 48-20150126-MONOGRAFIA_0-230
+# sent_id = 48-20150126-MONOGRAFIA_0-231
 1	E	e	CCONJ	_	_	2	cc	_	_
 2-3	dosou-se	_	_	_	_	_	_	_	_
 2	dosou	dosar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6913,8 +6924,8 @@
 14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = A retenção de imobilização (R) foi calculada pela Equação 4.2.: R (%)
-# sent_id = 48-20150126-MONOGRAFIA_0-231
+# text = A retenção de imobilização (R) foi calculada pela Equação 4.2.: Onde: UIMO = atividade da enzima imobilizada;
+# sent_id = 48-20150126-MONOGRAFIA_0-232
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6930,39 +6941,20 @@
 12	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
 13	4.2.	4.2	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	9	punct	_	_
-15	R	R	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
-16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-17	%	%	SYM	_	_	15	appos	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	17	punct	_	_
-
-# text = = UIMO x 100 (Equação 4.2)
-# sent_id = 48-20150126-MONOGRAFIA_0-232
-1	=	=	SYM	_	_	0	root	_	_
-2	UIMO	Uimo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-3	x	x	ADP	_	_	6	case	_	_
-4	100	100	NUM	_	NumType=Card	6	nummod	_	_
-5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-7	4.2	4.2	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	6	punct	_	_
-
-# text = UTEO Onde: UIMO = atividade da enzima imobilizada;
-# sent_id = 48-20150126-MONOGRAFIA_0-233
-1	UTEO	UTEO	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Onde	onde	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	UIMO	UIMO	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-5	=	=	SYM	_	_	1	appos	_	_
-6	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-7-8	da	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	enzima	enzima	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-10	imobilizada	imobilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	SpaceAfter=No
-11	;	;	PUNCT	_	_	1	punct	_	_
+15	Onde	onde	ADV	_	_	9	advmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	9	punct	_	_
+17	UIMO	UIMO	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
+18	=	=	SYM	_	_	19	nmod	_	_
+19	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	enzima	enzima	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	imobilizada	imobilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	SpaceAfter=No
+24	;	;	PUNCT	_	_	9	punct	_	_
 
 # text = UTEO = UE - US
-# sent_id = 48-20150126-MONOGRAFIA_0-234
+# sent_id = 48-20150126-MONOGRAFIA_0-233
 1	UTEO	Uteo	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	3	conj	_	_
 3	UE	UE	PROPN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -6970,7 +6962,7 @@
 5	US	Us	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = = atividade teórica da enzima na imobilização; UE = atividade de entrada da enzima no início do processo de imobilização; Us = atividade de saída da enzima no final do processo de imobilização.
-# sent_id = 48-20150126-MONOGRAFIA_0-235
+# sent_id = 48-20150126-MONOGRAFIA_0-234
 1	=	=	SYM	_	_	12	nmod	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	teórica	teórico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7022,10 +7014,10 @@
 41	processo	processo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 42	de	de	ADP	_	_	43	case	_	_
 43	imobilização	imobilização	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = E a eficiência da imobilização (Ef ) foi calculada pela Equação 4.3.: Onde: UTEO = UE - US
-# sent_id = 48-20150126-MONOGRAFIA_0-236
+# sent_id = 48-20150126-MONOGRAFIA_0-235
 1	E	e	CCONJ	_	_	11	cc	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
@@ -7052,8 +7044,8 @@
 22	-	-	PUNCT	_	_	21	punct	_	_
 23	US	US	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 
-# text = = atividade teórica da enzima na imobilização UE = atividade da enzima no início do processo de imobilização Us = atividade da enzima no final do processo de imobilização 4.2.5.4 Quantificação da atividade lipásica
-# sent_id = 48-20150126-MONOGRAFIA_0-237
+# text = = atividade teórica da enzima na imobilização UE = atividade da enzima no início do processo de imobilização 4.2.5.4 Quantificação da atividade lipásica
+# sent_id = 48-20150126-MONOGRAFIA_0-236
 1	=	=	SYM	_	_	0	root	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	teórica	teórico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7081,39 +7073,22 @@
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	processo	processo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
-23	imobilização	imobilização	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
-24	Us	Us	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-25	=	=	SYM	_	_	21	appos	_	_
-26	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	25	appos	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	enzima	enzima	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30-31	no	_	_	_	_	_	_	_	_
-30	em	em	ADP	_	_	32	case	_	_
-31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	final	final	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
-33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	processo	processo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
-36	de	de	ADP	_	_	37	case	_	_
-37	imobilização	imobilização	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
-38	4.2.5.4	4.2.5.4	PROPN	_	Gender=Fem|Number=Sing	35	appos	_	_
-39	Quantificação	Quantificação	PROPN	_	Number=Sing	38	flat:name	_	_
-40-41	da	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	42	case	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
-43	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	_
+23	imobilização	imobilização	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+24	4.2.5.4	4.2.5.4	PROPN	_	Gender=Fem|Number=Sing	21	appos	_	_
+25	Quantificação	Quantificação	PROPN	_	Number=Sing	24	flat:name	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+29	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 
 # text = Método titulométrico
-# sent_id = 48-20150126-MONOGRAFIA_0-238
+# sent_id = 48-20150126-MONOGRAFIA_0-237
 1	Método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	titulométrico	titulométrico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = A determinação da atividade lipásica foi realizada utilizando-se como substrato o óleo de oliva (5% m/v) emulsionado por 3 minutos com goma arábica (5% m/v) em tampão fosfato de sódio (100 mM, pH 7,0).
-# sent_id = 48-20150126-MONOGRAFIA_0-239
+# sent_id = 48-20150126-MONOGRAFIA_0-238
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7164,7 +7139,7 @@
 46	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O extrato enzimático (1 mL) foi adicionado a 19 mL de emulsão e incubado por 15 minutos a 35oC em banho com agitação a 200 rpm.
-# sent_id = 48-20150126-MONOGRAFIA_0-240
+# sent_id = 48-20150126-MONOGRAFIA_0-239
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	enzimático	enzimático	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7196,7 +7171,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A reação foi interrompida pela adição de 20 mL uma solução de acetona-etanol (1:1 v/v), que também promove a extração dos ácidos graxos liberados.
-# sent_id = 48-20150126-MONOGRAFIA_0-241
+# sent_id = 48-20150126-MONOGRAFIA_0-240
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7231,7 +7206,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os ácidos graxos foram titulados com solução 0,04
-# sent_id = 48-20150126-MONOGRAFIA_0-242
+# sent_id = 48-20150126-MONOGRAFIA_0-241
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ácidos	ácido	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	graxos	graxo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -7242,7 +7217,7 @@
 8	0,04	0,04	NUM	_	NumType=Card	7	nummod	_	_
 
 # text = N de NaOH em titulador automático até um valor de pH final de 11,0.
-# sent_id = 48-20150126-MONOGRAFIA_0-243
+# sent_id = 48-20150126-MONOGRAFIA_0-242
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	NaOH	Naoh	PROPN	_	Gender=Unsp|Number=Sing	1	nmod	_	_
@@ -7260,7 +7235,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os brancos reacionais foram obtidos adicionando-se o preparado enzimático após a solução acetona-etanol.
-# sent_id = 48-20150126-MONOGRAFIA_0-244
+# sent_id = 48-20150126-MONOGRAFIA_0-243
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	brancos	branco	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	reacionais	reacional	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -7279,7 +7254,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A atividade enzimática no meio de extração líquido (ALT) é definida como a quantidade de enzima que produz 1 μmol de ácido graxo por minuto, nas condições do ensaio (Freire et al., 1997), de modo que o cálculo da atividade enzimática foi feito pela Equação 4.4: (Equação 4.4)
-# sent_id = 48-20150126-MONOGRAFIA_0-245
+# sent_id = 48-20150126-MONOGRAFIA_0-244
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 3	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7314,7 +7289,7 @@
 30	em	em	ADP	_	_	32	case	_	_
 31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	condições	condição	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
-33-34	do	_	_	_	_	_	_	_	_
+33-34	do	_	_	_	_	_	_	_	SpacesAfter=\s\n
 33	de	de	ADP	_	_	35	case	_	_
 34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
@@ -7350,70 +7325,70 @@
 63	4	4	NUM	_	NumType=Card	62	flat	_	SpaceAfter=No
 64	)	)	PUNCT	_	_	61	punct	_	_
 
-# text = Onde: ALT = atividade lipásica titulométrica no meio de extração líquido (U/mL) V = volume de solução de NaOH gasto para a titulação da amostra (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-246
-1	Onde	onde	ADV	_	_	18	advmod	_	SpaceAfter=No
+# text = Onde: ALT
+# sent_id = 48-20150126-MONOGRAFIA_0-245
+1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	ALT	ALT	PROPN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
-4	=	=	SYM	_	_	18	nmod	_	_
-5	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-6	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	titulométrica	titulométrico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-8-9	no	_	_	_	_	_	_	_	_
-8	em	em	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	meio	meio	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	extração	extração	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	líquido	líquido	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	U/mL	U/mL	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	15	punct	_	_
-17	V	V	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-18	=	=	SYM	_	_	0	root	_	_
-19	volume	volume	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	solução	solução	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	NaOH	NaOH	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-24	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_
-25	para	para	ADP	_	_	27	case	_	_
-26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	titulação	titulação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
-28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
-31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	mL	mL	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	32	punct	_	_
+3	ALT	ALT	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
-# text = Vb
-# sent_id = 48-20150126-MONOGRAFIA_0-247
-1	Vb	Vb	ADP	_	_	0	root	_	_
-
-# text = = volume de solução de NaOH gasto para a titulação do branco (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-248
+# text = = atividade lipásica titulométrica no meio de extração líquido (U/mL) V = volume de solução de NaOH gasto para a titulação da amostra (mL)
+# sent_id = 48-20150126-MONOGRAFIA_0-246
 1	=	=	SYM	_	_	0	root	_	_
-2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	solução	solução	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	NaOH	NaOH	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
-8	para	para	ADP	_	_	10	case	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	titulação	titulação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
-11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	branco	branco	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	mL	mL	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	15	punct	_	_
+2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	titulométrica	titulométrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	extração	extração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	líquido	líquido	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	U/mL	U/mL	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	V	V	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+15	=	=	SYM	_	_	14	flat:name	_	_
+16	volume	volume	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	solução	solução	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	NaOH	NaOH	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
+22	para	para	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	titulação	titulação	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	mL	mL	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+
+# text = Vb = volume de solução de NaOH gasto para a titulação do branco (mL)
+# sent_id = 48-20150126-MONOGRAFIA_0-247
+1	Vb	Vb	ADP	_	_	2	case	_	_
+2	=	=	SYM	_	_	0	root	_	_
+3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	solução	solução	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	NaOH	NaOH	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	titulação	titulação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	branco	branco	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	mL	mL	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
 
 # text = M = molaridade da solução de NaOH (mmol/mL) t = tempo de reação (min)
-# sent_id = 48-20150126-MONOGRAFIA_0-249
+# sent_id = 48-20150126-MONOGRAFIA_0-248
 1	M	r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	molaridade	molaridade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
@@ -7437,7 +7412,7 @@
 20	)	)	PUNCT	_	_	19	punct	_	_
 
 # text = Va = volume de amostra (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-250
+# sent_id = 48-20150126-MONOGRAFIA_0-249
 1	Va	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -7448,7 +7423,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = A atividade lipásica no meio fermentado sólido (AST) foi calculada conforme a Equação 4.5 e expressa em U/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-251
+# sent_id = 48-20150126-MONOGRAFIA_0-250
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7473,19 +7448,19 @@
 21	U/g.	U/g.	PROPN	_	Gender=Masc|Number=Sing	19	obl	_	SpacesAfter=\n
 
 # text = (Equação 4.5)
-# sent_id = 48-20150126-MONOGRAFIA_0-252
+# sent_id = 48-20150126-MONOGRAFIA_0-251
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	4.5	4.5	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Onde:
-# sent_id = 48-20150126-MONOGRAFIA_0-253
+# sent_id = 48-20150126-MONOGRAFIA_0-252
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = AST = atividade lipásica titulométrica no meio fermentado sólido(U/g)
-# sent_id = 48-20150126-MONOGRAFIA_0-254
+# sent_id = 48-20150126-MONOGRAFIA_0-253
 1	AST	AST	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -7502,11 +7477,11 @@
 13	)	)	PUNCT	_	_	12	punct	_	_
 
 # text = ALT
-# sent_id = 48-20150126-MONOGRAFIA_0-255
+# sent_id = 48-20150126-MONOGRAFIA_0-254
 1	ALT	Alt	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = atividade lipásica titulométirca no meio de extração líquido(U/mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-256
+# sent_id = 48-20150126-MONOGRAFIA_0-255
 1	=	=	SYM	_	_	0	root	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7521,21 +7496,8 @@
 11	U/mL	U/mL	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	1	punct	_	_
 
-# text = V ext = volume de extração enzimática (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-257
-1	V	V	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	ext	ext	X	_	Number=Sing	1	flat:name	_	_
-3	=	=	SYM	_	_	1	nmod	_	_
-4	volume	volume	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	extração	extração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	mL	mL	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	_
-
 # text = Mi = massa seca de torta inicial (g)
-# sent_id = 48-20150126-MONOGRAFIA_0-258
+# sent_id = 48-20150126-MONOGRAFIA_0-256
 1	Mi	mir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	massa	masso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
@@ -7545,15 +7507,15 @@
 7	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	g	g	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	_
+10	)	)	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 
 # text = Método espectrofotométrico
-# sent_id = 48-20150126-MONOGRAFIA_0-259
+# sent_id = 48-20150126-MONOGRAFIA_0-257
 1	Método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	espectrofotométrico	espectrofotométrico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = Este método se baseia na formação de um produto cromóforo (p-nitro fenol) a partir da reação de hidrólise de ésteres graxos do p-nitrofenil catalisada pelas lipases.
-# sent_id = 48-20150126-MONOGRAFIA_0-260
+# sent_id = 48-20150126-MONOGRAFIA_0-258
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -7593,7 +7555,7 @@
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A solução do substrato foi preparada utilizando-se 0,25 mL de p-nitrofenil butirato 2,5 mM em 2,2 mL de tampão fosfato de sódio 25 mM pH 7,0.
-# sent_id = 48-20150126-MONOGRAFIA_0-261
+# sent_id = 48-20150126-MONOGRAFIA_0-259
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7627,7 +7589,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A reação foi disparada pela adição de 0,05 mL do extrato enzimático.
-# sent_id = 48-20150126-MONOGRAFIA_0-262
+# sent_id = 48-20150126-MONOGRAFIA_0-260
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7647,7 +7609,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O progresso da reação (formação do p-nitrofenol) foi acompanhado em espectrofotômetro com leituras das absorbâncias a 412 nm.
-# sent_id = 48-20150126-MONOGRAFIA_0-263
+# sent_id = 48-20150126-MONOGRAFIA_0-261
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	progresso	progresso	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7676,8 +7638,8 @@
 23	nm	nm	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
-# text = A atividade (ALE) é definida como a quantidade de enzima necessária para hidrolisar 1,0 μmol de p- nitrofenil butirato por minuto nas condições descritas anteriormente.
-# sent_id = 48-20150126-MONOGRAFIA_0-264
+# text = A atividade (ALE) é definida como a quantidade de enzima necessária para hidrolisar 1,0 μmol de p-nitrofenil butirato por minuto nas condições descritas anteriormente.
+# sent_id = 48-20150126-MONOGRAFIA_0-262
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7695,22 +7657,21 @@
 15	hidrolisar	hidrolisar	VERB	_	VerbForm=Inf	10	acl	_	_
 16	1,0	1,0	NUM	_	NumType=Card	17	nummod	_	_
 17	μmol	μmol	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-18	de	de	ADP	_	_	21	case	_	_
-19	p-	p-	PUNCT	_	_	21	punct	_	_
-20	nitrofenil	nitrofenil	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-21	butirato	butirato	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-22	por	por	ADP	_	_	23	case	_	_
-23	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-24-25	nas	_	_	_	_	_	_	_	_
-24	em	em	ADP	_	_	26	case	_	_
-25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	condições	condição	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
-27	descritas	descrito	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
-28	anteriormente	anteriormente	ADV	_	_	26	advmod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	7	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	p-nitrofenil	p-nitrofenil	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	butirato	butirato	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+23-24	nas	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	condições	condição	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+26	descritas	descrito	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+27	anteriormente	anteriormente	ADV	_	_	25	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A atividade lipásica espectrofotométrica (ALE) foi expressa em U/ml.
-# sent_id = 48-20150126-MONOGRAFIA_0-265
+# sent_id = 48-20150126-MONOGRAFIA_0-263
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7725,7 +7686,7 @@
 12	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O cálculo da atividade enzimática foi feito pela Equação 4.6: (Equação 4.6)
-# sent_id = 48-20150126-MONOGRAFIA_0-266
+# sent_id = 48-20150126-MONOGRAFIA_0-264
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7747,12 +7708,12 @@
 17	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = Onde:
-# sent_id = 48-20150126-MONOGRAFIA_0-267
+# sent_id = 48-20150126-MONOGRAFIA_0-265
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = ALE = atividade lipásica espectrofotométrica no meio de extração líquido (U/mL) α = coeficiente angular da reta (Abs / tempo)
-# sent_id = 48-20150126-MONOGRAFIA_0-268
+# sent_id = 48-20150126-MONOGRAFIA_0-266
 1	ALE	aler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -7783,7 +7744,7 @@
 26	)	)	PUNCT	_	_	23	punct	_	_
 
 # text = F = fator (concentração do produto / absorvância)
-# sent_id = 48-20150126-MONOGRAFIA_0-269
+# sent_id = 48-20150126-MONOGRAFIA_0-267
 1	F	F	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	fator	fator	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -7798,11 +7759,11 @@
 11	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Vf
-# sent_id = 48-20150126-MONOGRAFIA_0-270
+# sent_id = 48-20150126-MONOGRAFIA_0-268
 1	Vf	Vf	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = volume final (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-271
+# sent_id = 48-20150126-MONOGRAFIA_0-269
 1	=	=	SYM	_	_	0	root	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	final	final	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7811,7 +7772,7 @@
 6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Va = volume da amostra (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-272
+# sent_id = 48-20150126-MONOGRAFIA_0-270
 1	Va	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -7824,15 +7785,15 @@
 9	)	)	PUNCT	_	_	8	punct	_	_
 
 # text = Fd = fator de diluição
-# sent_id = 48-20150126-MONOGRAFIA_0-273
+# sent_id = 48-20150126-MONOGRAFIA_0-271
 1	Fd	Fd	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	fator	fator	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	diluição	diluição	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 
-# text = Calculou-se o fator, a partir de curva padrão, utilizando- se diferentes concentrações do p-nitrofenol: Fator = 1/coeficiente angular = 1/ 9,682 = 1,0328 mM
-# sent_id = 48-20150126-MONOGRAFIA_0-274
+# text = Calculou-se o fator, a partir de curva padrão, utilizando-se diferentes concentrações do p-nitrofenol: Fator = 1/coeficiente angular = 1/ 9,682 = 1,0328 mM
+# sent_id = 48-20150126-MONOGRAFIA_0-272
 1-2	Calculou-se	_	_	_	_	_	_	_	_
 1	Calculou	Calcular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -7843,32 +7804,32 @@
 7	partir	partir	NOUN	_	_	6	fixed	_	_
 8	de	de	ADP	_	_	6	fixed	_	_
 9	curva	curva	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-10	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+10	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	SpaceAfter=No
-13	-	-	PUNCT	_	_	12	punct	_	_
-14	se	se	SCONJ	_	_	16	mark	_	_
-15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
-16	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
-17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	p-nitrofenol	p-nitrofenol	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
-20	:	:	PUNCT	_	_	1	punct	_	_
-21	Fator	fator	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-22	=	=	SYM	_	_	21	appos	_	_
-23	1/coeficiente	1/coeficiente	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
-24	angular	angular	VERB	_	VerbForm=Inf	22	acl	_	_
-25	=	=	SYM	_	_	24	obj	_	_
-26	1	1	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
-27	/	/	PUNCT	_	_	29	punct	_	_
-28	9,682	9,682	NUM	_	NumType=Card	29	nummod	_	_
-29	=	=	SYM	_	_	24	obl	_	_
-30	1,0328	1,0328	NUM	_	NumType=Card	29	nummod	_	_
-31	mM	mm	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	_
+12-13	utilizando-se	_	_	_	_	_	_	_	_
+12	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+14	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	p-nitrofenol	p-nitrofenol	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
+20	Fator	fator	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+21	=	=	SYM	_	_	20	appos	_	_
+22	1/coeficiente	1/coeficiente	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	angular	angular	VERB	_	VerbForm=Inf	21	acl	_	_
+24	=	=	SYM	_	_	23	obj	_	_
+25	1	1	NUM	_	NumType=Card	24	nummod	_	SpaceAfter=No
+26	/	/	PUNCT	_	_	28	punct	_	_
+27	9,682	9,682	NUM	_	NumType=Card	28	nummod	_	_
+28	=	=	SYM	_	_	23	obl	_	_
+29	1,0328	1,0328	NUM	_	NumType=Card	28	nummod	_	_
+30	mM	mm	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	_
 
 # text = A atividade lipásica espectrofotométrica no meio fermentado sólido (ASE) foi calculada conforme a Equação 4.7 e expressa em U/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-275
+# sent_id = 48-20150126-MONOGRAFIA_0-273
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7894,14 +7855,14 @@
 22	U/g.	U/g.	PROPN	_	Gender=Masc|Number=Sing	20	obl	_	SpacesAfter=\n
 
 # text = (Equação 4.7)
-# sent_id = 48-20150126-MONOGRAFIA_0-276
+# sent_id = 48-20150126-MONOGRAFIA_0-274
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	4.7	4.7	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Onde: ASE = atividade lipásica espectrofotométrica no meio fermentado sólido(U/g) ALE = atividade lipásica espectrofotométrica no meio de extração líquido(U/mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-277
+# sent_id = 48-20150126-MONOGRAFIA_0-275
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ASE	Asar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7934,12 +7895,12 @@
 28	)	)	PUNCT	_	_	3	punct	_	_
 
 # text = V ext
-# sent_id = 48-20150126-MONOGRAFIA_0-278
+# sent_id = 48-20150126-MONOGRAFIA_0-276
 1	V	v	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
 2	ext	ext	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = volume de extração enzimática (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-279
+# sent_id = 48-20150126-MONOGRAFIA_0-277
 1	=	=	SYM	_	_	0	root	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7950,7 +7911,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = Mi = massa seca de torta inicial (g) 4.2.5.5 Caracterização dos parâmetros cinéticos
-# sent_id = 48-20150126-MONOGRAFIA_0-280
+# sent_id = 48-20150126-MONOGRAFIA_0-278
 1	Mi	mir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	massa	masso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
@@ -7960,7 +7921,7 @@
 7	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	g	g	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	_
+10	)	)	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 11	4.2.5.5	4.2.5.5	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
 12	Caracterização	caracterização	PROPN	_	Number=Sing	11	flat:name	_	_
 13-14	dos	_	_	_	_	_	_	_	_
@@ -7969,8 +7930,8 @@
 15	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	cinéticos	cinético	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 
-# text = A determinação dos parâmetros cinéticos dos extratos enzimáticos, frente a diferentes substratos, foi realizada utilizando ésteres do p-nitro fenol com diferentes tamanhos de cadeia: p-nitrofenil-butirato (C4:0); p-nitrofenilcaprilato (C8:0); p-nitrofenil- laurato (C12:0); p-nitrofenil-palmitato, (C16:0) e p-nitrofenil-estearato (C18:0).
-# sent_id = 48-20150126-MONOGRAFIA_0-281
+# text = A determinação dos parâmetros cinéticos dos extratos enzimáticos, frente a diferentes substratos, foi realizada utilizando ésteres do p-nitro fenol com diferentes tamanhos de cadeia: p-nitrofenil-butirato (C4:0); p-nitrofenilcaprilato (C8:0); p-nitrofenil-laurato (C12:0); p-nitrofenil-palmitato, (C16:0) e p-nitrofenil-estearato (C18:0).
+# sent_id = 48-20150126-MONOGRAFIA_0-279
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -8009,32 +7970,30 @@
 33	C4:0	C4:0	PROPN	_	Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	;	;	PUNCT	_	_	31	punct	_	_
-36	p-nitrofenilcaprilato	p-nitrofenilcaprilato	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	_
+36	p-nitrofenilcaprilato	p-nitrofenilcaprilato	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	C8:0	C8:0	PROPN	_	Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
-40	;	;	PUNCT	_	_	41	punct	_	_
-41	p-nitrofenil	p-nitrofenil	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
-42	-	-	PUNCT	_	_	18	punct	_	_
-43	laurato	laurato	NOUN	_	Gender=Masc|Number=Sing	48	conj	_	_
-44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
-45	C12:0	C12:0	PROPN	_	Gender=Masc|Number=Sing	43	appos	_	SpaceAfter=No
-46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
-47	;	;	PUNCT	_	_	48	punct	_	_
-48	p-nitrofenil-palmitato	p-nitrofenil-palmitato	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
-49	,	,	PUNCT	_	_	18	punct	_	_
-50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
-51	C16:0	C16:0	PROPN	_	Gender=Masc|Number=Sing	18	appos:parataxis	_	SpaceAfter=No
-52	)	)	PUNCT	_	_	51	punct	_	_
-53	e	e	CCONJ	_	_	54	cc	_	_
-54	p-nitrofenil-estearato	p-nitrofenil-estearato	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
-55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
-56	C18:0	C18:0	PROPN	_	Gender=Masc|Number=Sing	54	appos	_	SpaceAfter=No
-57	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+40	;	;	PUNCT	_	_	18	punct	_	_
+41	p-nitrofenil-laurato	p-nitrofenil-laurato	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	C12:0	C12:0	PROPN	_	Gender=Masc|Number=Sing	41	appos	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	;	;	PUNCT	_	_	46	punct	_	_
+46	p-nitrofenil-palmitato	p-nitrofenil-palmitato	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	18	punct	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	C16:0	C16:0	PROPN	_	Gender=Masc|Number=Sing	18	appos:parataxis	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	49	punct	_	_
+51	e	e	CCONJ	_	_	52	cc	_	_
+52	p-nitrofenil-estearato	p-nitrofenil-estearato	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
+53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
+54	C18:0	C18:0	PROPN	_	Gender=Masc|Number=Sing	52	appos	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
-# text = Utilizou-se diferentes concentrações de cada substrato: 0- 0,50 – 1,00 – 1,25 – 1,50
-# sent_id = 48-20150126-MONOGRAFIA_0-282
+# text = Utilizou-se diferentes concentrações de cada substrato: 00,50 – 1,00 – 1,25 – 1,50
+# sent_id = 48-20150126-MONOGRAFIA_0-280
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -8044,17 +8003,16 @@
 6	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	7	det	_	_
 7	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 8	:	:	PUNCT	_	_	1	punct	_	_
-9	0-	0-	SYM	_	_	1	appos	_	_
-10	0,50	0,50	NUM	_	NumType=Card	9	nummod	_	_
-11	–	–	PUNCT	_	_	1	punct	_	_
-12	1,00	1,00	NUM	_	NumType=Card	11	nummod	_	_
-13	–	–	PUNCT	_	_	14	punct	_	_
-14	1,25	1,25	NUM	_	NumType=Card	12	flat	_	_
-15	–	–	PUNCT	_	_	14	punct	_	_
-16	1,50	1,50	NUM	_	NumType=Card	12	flat	_	_
+9	00,50	00,50	NUM	_	NumType=Card	1	appos	_	_
+10	–	–	PUNCT	_	_	1	punct	_	_
+11	1,00	1,00	NUM	_	NumType=Card	10	nummod	_	_
+12	–	–	PUNCT	_	_	13	punct	_	_
+13	1,25	1,25	NUM	_	NumType=Card	11	flat	_	_
+14	–	–	PUNCT	_	_	13	punct	_	_
+15	1,50	1,50	NUM	_	NumType=Card	11	flat	_	_
 
 # text = A determinação de Km e Vm foi feita através de um programa específico para cálculos de cinética enzimática, Kinetic.
-# sent_id = 48-20150126-MONOGRAFIA_0-283
+# sent_id = 48-20150126-MONOGRAFIA_0-281
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8078,7 +8036,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = E curvas foram obtidas para cada substrato, conforme modelo abaixo: 4.2.5.6 Determinação da atividade proteásica
-# sent_id = 48-20150126-MONOGRAFIA_0-284
+# sent_id = 48-20150126-MONOGRAFIA_0-282
 1	E	e	CCONJ	_	_	4	cc	_	_
 2	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8100,7 +8058,7 @@
 18	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 
 # text = A atividade proteásica foi determinada utilizando-se o método de Charney e Tomarelli (1947).
-# sent_id = 48-20150126-MONOGRAFIA_0-285
+# sent_id = 48-20150126-MONOGRAFIA_0-283
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8121,7 +8079,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A 2 mL de azocaseína 0,5% foi adicionado igual volume de extrato enzimático e incubados a 37oC.
-# sent_id = 48-20150126-MONOGRAFIA_0-286
+# sent_id = 48-20150126-MONOGRAFIA_0-284
 1	A	a	ADP	_	_	3	case	_	_
 2	2	2	NUM	_	NumType=Card	3	nummod	_	_
 3	mL	ml	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -8139,11 +8097,10 @@
 15	e	e	CCONJ	_	_	16	cc	_	_
 16	incubados	incubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	14	conj	_	_
 17	a	a	ADP	_	_	18	case	_	_
-18	37oC	37oC	PROPN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	9	punct	_	_
+18	37oC.	37oC.	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 
 # text = Alíquotas de 0,5 mL do meio reacional foram retiradas a cada 1 minuto até o 10 minutos e a reação interrompida pela adição de 0,5 mL de TCA 10% gelado.
-# sent_id = 48-20150126-MONOGRAFIA_0-287
+# sent_id = 48-20150126-MONOGRAFIA_0-285
 1	Alíquotas	alíquota	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	0,5	0,5	NUM	_	NumType=Card	4	nummod	_	_
@@ -8175,14 +8132,14 @@
 27	0,5	0,5	NUM	_	NumType=Card	28	nummod	_	_
 28	mL	ml	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 29	de	de	ADP	_	_	30	case	_	_
-30	TCA	TCA	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+30	TCA	TCA	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpacesAfter=\s\n
 31	10	10	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 32	%	%	SYM	_	_	28	appos	_	_
 33	gelado	gelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esperou-se 10 minutos à temperatura ambiente e centrifugou-se 0,5 mL do sobrenadante que foi neutralizado com 0,5 mL de KOH 5N.
-# sent_id = 48-20150126-MONOGRAFIA_0-288
+# sent_id = 48-20150126-MONOGRAFIA_0-286
 1-2	Esperou-se	_	_	_	_	_	_	_	_
 1	Esperou	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8215,7 +8172,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A absorvância foi lida em 436nm.
-# sent_id = 48-20150126-MONOGRAFIA_0-289
+# sent_id = 48-20150126-MONOGRAFIA_0-287
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	absorvância	absorvância	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8226,7 +8183,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para o preparo do branco, procedeu-se como acima, adicionando primeiro o TCA antes da colocação do extrato enzimático.
-# sent_id = 48-20150126-MONOGRAFIA_0-290
+# sent_id = 48-20150126-MONOGRAFIA_0-288
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -8258,7 +8215,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A atividade proteásica no meio fermentado sólido foi definida como a quantidade de enzima que produz uma diferença de 1 unidade na absorbância entre o branco e a amostra, por minuto, nas condições do ensaio.
-# sent_id = 48-20150126-MONOGRAFIA_0-291
+# sent_id = 48-20150126-MONOGRAFIA_0-289
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8307,7 +8264,7 @@
 42	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O cálculo da atividade enzimática foi feito segundo a Equação 4.8: (Equação 4.8)
-# sent_id = 48-20150126-MONOGRAFIA_0-292
+# sent_id = 48-20150126-MONOGRAFIA_0-290
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8328,16 +8285,16 @@
 17	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = Onde:
-# sent_id = 48-20150126-MONOGRAFIA_0-293
+# sent_id = 48-20150126-MONOGRAFIA_0-291
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = APS
-# sent_id = 48-20150126-MONOGRAFIA_0-294
+# sent_id = 48-20150126-MONOGRAFIA_0-292
 1	APS	Ap	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
-# text = = atividade proteásica no meio fermentado sólido (ΔAbs/g ou U/g) Absa
-# sent_id = 48-20150126-MONOGRAFIA_0-295
+# text = = atividade proteásica no meio fermentado sólido (ΔAbs/g ou U/g)
+# sent_id = 48-20150126-MONOGRAFIA_0-293
 1	=	=	SYM	_	_	0	root	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8350,28 +8307,16 @@
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	ΔAbs/g	ΔAbs/g	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 11	ou	ou	CCONJ	_	_	12	cc	_	_
-12	U/g	U/g	PROPN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+12	U/g	U/g	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	10	punct	_	_
-14	Absa	Absa	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 
-# text = = absorvância da amostra no tempo zero Absb =
-# sent_id = 48-20150126-MONOGRAFIA_0-296
-1	=	=	SYM	_	_	0	root	_	_
-2	absorvância	absorvância	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	_	_	8	case	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-9	zero	zero	NUM	_	NumType=Card	8	nummod	_	_
-10	Absb	Absb	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	_
-11	=	=	SYM	_	_	1	nmod	_	_
+# text = Absb =
+# sent_id = 48-20150126-MONOGRAFIA_0-294
+1	Absb	Absb	ADP	_	_	2	case	_	_
+2	=	=	SYM	_	_	0	root	_	_
 
 # text = Absorvãncia da amostra no tempo t Ve = volume de extração (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-297
+# sent_id = 48-20150126-MONOGRAFIA_0-295
 1	Absorvãncia	Absorvãncia	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8392,11 +8337,11 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = Ms
-# sent_id = 48-20150126-MONOGRAFIA_0-298
+# sent_id = 48-20150126-MONOGRAFIA_0-296
 1	Ms	Ms	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = massa seca (g) Va = volume da alíquota do extrato enzimático (mL) t = tempo de reação (min) 4.2.5.7 Efeito do pH e da Temperatura na atividade lipásica
-# sent_id = 48-20150126-MONOGRAFIA_0-299
+# sent_id = 48-20150126-MONOGRAFIA_0-297
 1	=	=	SYM	_	_	7	nsubj	_	_
 2	massa	masso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	1	det	_	_
 3	seca	seca	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -8444,7 +8389,7 @@
 40	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
 
 # text = A atividade lipásica foi determinada em diferentes valores de pH (5,4-7,6) e temperaturas (28-42 oC), utilizando o método titulométrico descrito no item 4.2.5.3 em tampão fosfato ou citrato-fosfato.
-# sent_id = 48-20150126-MONOGRAFIA_0-300
+# sent_id = 48-20150126-MONOGRAFIA_0-298
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8480,10 +8425,10 @@
 32	fosfato	fosfato	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 33	ou	ou	CCONJ	_	_	34	cc	_	_
 34	citrato-fosfato	citrato-fosfato	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.5.8 Atividade de esterificação da lipase
-# sent_id = 48-20150126-MONOGRAFIA_0-301
+# sent_id = 48-20150126-MONOGRAFIA_0-299
 1	4.2.5.8	4.2.5.8	NUM	_	NumType=Card	2	nummod	_	_
 2	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8494,7 +8439,7 @@
 7	lipase	lipase	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = A atividade de esterificação da enzima imobilizada foi quantificada pelo consumo de ácido oléico na reação de esterificação com etanol na razão mássica de ácido: álcool de 6:1.
-# sent_id = 48-20150126-MONOGRAFIA_0-302
+# sent_id = 48-20150126-MONOGRAFIA_0-300
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8535,7 +8480,7 @@
 34	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A reação foi conduzida à temperatura de 35oC utilizando-se 3% (m/m) de enzima imobilizada sob agitação constante.
-# sent_id = 48-20150126-MONOGRAFIA_0-303
+# sent_id = 48-20150126-MONOGRAFIA_0-301
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8563,7 +8508,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A reação foi iniciada pela adição da enzima ao meio reacional, em um reator aberto, provido de agitação magnética e conectado a um banho termostático.
-# sent_id = 48-20150126-MONOGRAFIA_0-304
+# sent_id = 48-20150126-MONOGRAFIA_0-302
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8600,7 +8545,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Alíquotas de 150 L foram retiradas do meio reacional em triplicata, no tempo zero e nos tempos de reação determinados.
-# sent_id = 48-20150126-MONOGRAFIA_0-305
+# sent_id = 48-20150126-MONOGRAFIA_0-303
 1	Alíquotas	alíquota	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	150	150	NUM	_	NumType=Card	4	nummod	_	_
@@ -8631,7 +8576,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A cada amostra foram adicionados 20 mL de uma solução de acetona-etanol (1:1) (v/v) para extração do ácido oléico.
-# sent_id = 48-20150126-MONOGRAFIA_0-306
+# sent_id = 48-20150126-MONOGRAFIA_0-304
 1	A	a	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -8660,7 +8605,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A quantidade de ácido consumido foi determinado por titulação com NaOH 0,02N.
-# sent_id = 48-20150126-MONOGRAFIA_0-307
+# sent_id = 48-20150126-MONOGRAFIA_0-305
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8676,7 +8621,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Uma unidade de atividade enzimática de esterificação foi definida como a quantidade de enzima que esterifica 1μmol de acido graxo por minuto, nas condições do ensaio de modo que o cálculo da atividade enzimática foi feito pela Equação 4.9: (Equação 4.9) onde: AE = atividade de esterificação (μmol/ min.
-# sent_id = 48-20150126-MONOGRAFIA_0-308
+# sent_id = 48-20150126-MONOGRAFIA_0-306
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8743,14 +8688,14 @@
 60	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = MIME ou U/g)
-# sent_id = 48-20150126-MONOGRAFIA_0-309
+# sent_id = 48-20150126-MONOGRAFIA_0-307
 1	MIME	MIME	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	ou	ou	CCONJ	_	_	3	cc	_	_
 3	U/g	U/g	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = Ve = volume de NaOH gasto na titulação da amostra retirada no tempo zero (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-310
+# sent_id = 48-20150126-MONOGRAFIA_0-308
 1	Ve	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -8776,7 +8721,7 @@
 20	)	)	PUNCT	_	_	19	punct	_	_
 
 # text = Vb = volume de NaOH gasto na titulação da amostra retirada após o tempo t (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-311
+# sent_id = 48-20150126-MONOGRAFIA_0-309
 1	Vb	Vb	ADP	_	_	2	case	_	_
 2	=	=	SYM	_	_	0	root	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -8801,7 +8746,7 @@
 20	)	)	PUNCT	_	_	19	punct	_	_
 
 # text = M = molaridade da solução de NaOH (mmol/mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-312
+# sent_id = 48-20150126-MONOGRAFIA_0-310
 1	M	r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	molaridade	molaridade	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -8817,11 +8762,11 @@
 12	)	)	PUNCT	_	_	10	punct	_	_
 
 # text = Vf
-# sent_id = 48-20150126-MONOGRAFIA_0-313
+# sent_id = 48-20150126-MONOGRAFIA_0-311
 1	Vf	Vf	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = volume final de meio reacional (mL)
-# sent_id = 48-20150126-MONOGRAFIA_0-314
+# sent_id = 48-20150126-MONOGRAFIA_0-312
 1	=	=	SYM	_	_	0	root	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	final	final	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -8833,7 +8778,7 @@
 9	)	)	PUNCT	_	_	8	punct	_	_
 
 # text = MIME = massa da enzima imobilizada utilizada na reação (g)
-# sent_id = 48-20150126-MONOGRAFIA_0-315
+# sent_id = 48-20150126-MONOGRAFIA_0-313
 1	MIME	Mimir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	massa	massa	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -8852,7 +8797,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = Ve = volume da alíquota do meio reacional retirada para titulação (mL) t = tempo (min) 5.
-# sent_id = 48-20150126-MONOGRAFIA_0-316
+# sent_id = 48-20150126-MONOGRAFIA_0-314
 1	Ve	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -8876,12 +8821,12 @@
 19	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	min	min	NOUN	_	Gender=Masc|Number=Plur	19	appos	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	21	punct	_	_
+22	)	)	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
 23	5	5	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados e discussão 5.1.
-# sent_id = 48-20150126-MONOGRAFIA_0-317
+# sent_id = 48-20150126-MONOGRAFIA_0-315
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -8889,7 +8834,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Produção da lipase de Aspergillus parasiticus
-# sent_id = 48-20150126-MONOGRAFIA_0-318
+# sent_id = 48-20150126-MONOGRAFIA_0-316
 1	Produção	produção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8900,7 +8845,7 @@
 7	parasiticus	parasiticus	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = A produção de lipase pelo fungo A. parasiticus foi feita por FES utilizando torta de babaçu como meio de cultivo.
-# sent_id = 48-20150126-MONOGRAFIA_0-319
+# sent_id = 48-20150126-MONOGRAFIA_0-317
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8926,7 +8871,7 @@
 22	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = As primeiras fermentações foram realizadas nas condições de cultivo definidas no item 4.2.4.
-# sent_id = 48-20150126-MONOGRAFIA_0-320
+# sent_id = 48-20150126-MONOGRAFIA_0-318
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	primeiras	primeiro	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
 3	fermentações	fermentação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -8946,8 +8891,8 @@
 15	4.2.4	4.2.4	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = A Tabela 5.1 ilustra os resultados da atividade lipásica, segundo o método espectrofotométrico (AST), utilizando-se como substrato o p- nitro fenil butirato (48 horas de fermentação) em função da suplementação do meio basal.
-# sent_id = 48-20150126-MONOGRAFIA_0-321
+# text = A Tabela 5.1 ilustra os resultados da atividade lipásica, segundo o método espectrofotométrico (AST), utilizando-se como substrato o p-nitro fenil butirato (48 horas de fermentação) em função da suplementação do meio basal.
+# sent_id = 48-20150126-MONOGRAFIA_0-319
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5.1	5.1	NUM	_	NumType=Card	4	nsubj	_	_
@@ -8970,40 +8915,39 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20-21	utilizando-se	_	_	_	_	_	_	_	_
 20	utilizando	utilizar	VERB	_	VerbForm=Ger	4	advcl	_	_
-21	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+21	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
 22	como	como	ADP	_	_	23	case	_	_
 23	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	20	xcomp	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-25	p-	p-	PUNCT	_	_	26	punct	_	_
-26	nitro	nitro	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
-27	fenil	fenil	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
-28	butirato	butirato	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
-29	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-30	48	48	NUM	_	NumType=Card	31	nummod	_	_
-31	horas	hora	NOUN	_	Gender=Fem|Number=Plur	23	appos	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	fermentação	fermentação	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
-34	)	)	PUNCT	_	_	31	punct	_	_
-35	em	em	ADP	_	_	36	case	_	_
-36	função	função	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
-37-38	da	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	39	case	_	_
-38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	suplementação	suplementação	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
-40-41	do	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	42	case	_	_
-41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	meio	meio	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
-43	basal	basal	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	p-nitro	p-nitro	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+26	fenil	fenil	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	butirato	butirato	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
+28	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	48	48	NUM	_	NumType=Card	30	nummod	_	_
+30	horas	hora	NOUN	_	Gender=Fem|Number=Plur	25	appos	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	fermentação	fermentação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	30	punct	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	função	função	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+36-37	da	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	suplementação	suplementação	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+39-40	do	_	_	_	_	_	_	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	meio	meio	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+42	basal	basal	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 5.1:
-# sent_id = 48-20150126-MONOGRAFIA_0-322
+# sent_id = 48-20150126-MONOGRAFIA_0-320
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.1:	5.1:	PUNCT	_	_	1	punct	_	_
 
 # text = Atividades lipásicas produzidas pelo fungo A.parasiticus por FES em função da suplementação do meio basal (48 horas de fermentação)
-# sent_id = 48-20150126-MONOGRAFIA_0-323
+# sent_id = 48-20150126-MONOGRAFIA_0-321
 1	Atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	lipásicas	lipásico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	produzidas	produzir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
@@ -9033,7 +8977,7 @@
 24	)	)	PUNCT	_	_	21	punct	_	_
 
 # text = Pôde-se observar que o meio sem suplementação apresenta atividade lipásica semelhante aos meios suplementados.
-# sent_id = 48-20150126-MONOGRAFIA_0-324
+# sent_id = 48-20150126-MONOGRAFIA_0-322
 1-2	Pôde-se	_	_	_	_	_	_	_	_
 1	Pôde	pôder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9055,7 +8999,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A produção de lipase em 48 horas de fermentação não foi alterada com a adição de suplementos.
-# sent_id = 48-20150126-MONOGRAFIA_0-325
+# sent_id = 48-20150126-MONOGRAFIA_0-323
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9076,7 +9020,7 @@
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Esse efeito pode estar relacionado ao fato do babaçu possuir óleo em sua composição, assim nota-se que este rejeito já contém os nutrientes necessários ao crescimento e produção desta enzima pelo fungo
-# sent_id = 48-20150126-MONOGRAFIA_0-326
+# sent_id = 48-20150126-MONOGRAFIA_0-324
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9124,7 +9068,7 @@
 39	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 
 # text = Aspergillus parasiticus, assim como descrito para o fungo
-# sent_id = 48-20150126-MONOGRAFIA_0-327
+# sent_id = 48-20150126-MONOGRAFIA_0-325
 1	Aspergillus	Aspergillu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	det	_	_
 2	parasiticus	parasiticu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -9136,7 +9080,7 @@
 9	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 
 # text = Penicillium retrictum (Palma et al., 2000).
-# sent_id = 48-20150126-MONOGRAFIA_0-328
+# sent_id = 48-20150126-MONOGRAFIA_0-326
 1	Penicillium	Penicillium	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	retrictum	retrictum	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -9149,7 +9093,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Sendo assim, para as fermentações posteriores utilizou-se apenas a torta de babaçu, como meio de fermentação.
-# sent_id = 48-20150126-MONOGRAFIA_0-329
+# sent_id = 48-20150126-MONOGRAFIA_0-327
 1	Sendo	ser	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -9173,7 +9117,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = O perfil cinético de produção da lipase de A. parasiticus em função do tempo de fermentação está apresentado na Figura 5.1.
-# sent_id = 48-20150126-MONOGRAFIA_0-330
+# sent_id = 48-20150126-MONOGRAFIA_0-328
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 3	cinético	cinético	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -9202,10 +9146,10 @@
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
 25	5.1	5.1	NUM	_	NumType=Card	24	nummod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.1: Perfil produção de lipase (ASE – U/g) pelo fungo A. parasiticus em FES utilizando torta de babaçu sem suplementação como meio de cultivo com 70% de umidade e pH inicial igual 7,0.
-# sent_id = 48-20150126-MONOGRAFIA_0-331
+# sent_id = 48-20150126-MONOGRAFIA_0-329
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 2	5.1:	5.1:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -9248,7 +9192,7 @@
 39	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = As duas fermentações realizadas apresentaram uma excelente reprodutibilidade e a atividade máxima encontrada (25,5 U/g) ocorreu em 72h de fermentação com produtividade de 0,35
-# sent_id = 48-20150126-MONOGRAFIA_0-332
+# sent_id = 48-20150126-MONOGRAFIA_0-330
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	duas	dois	NUM	_	NumType=Card	3	nummod	_	_
 3	fermentações	fermentação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -9277,12 +9221,12 @@
 26	0,35	0,35	NUM	_	NumType=Card	24	nmod	_	_
 
 # text = U/g.h.
-# sent_id = 48-20150126-MONOGRAFIA_0-333
+# sent_id = 48-20150126-MONOGRAFIA_0-331
 1	U/g.h	U/g.h	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Observou-se que a atividade lipásica do fungo
-# sent_id = 48-20150126-MONOGRAFIA_0-334
+# sent_id = 48-20150126-MONOGRAFIA_0-332
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9296,7 +9240,7 @@
 9	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 
 # text = A . parasiticus apresentou uma queda bastante acentuada após 80 horas de fermentação, Esta perda de atividade após um máximo já foi observado para os fungos
-# sent_id = 48-20150126-MONOGRAFIA_0-335
+# sent_id = 48-20150126-MONOGRAFIA_0-333
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 2	.	.	PUNCT	_	_	4	punct	_	_
 3	parasiticus	parasiticus	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -9326,7 +9270,7 @@
 27	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
 
 # text = Penicillium restrictum (Gombert et al, 1999 e Palma et al, 2000) e P. simplicissimum (Gutarra et al 2007), no mesmo sistema.
-# sent_id = 48-20150126-MONOGRAFIA_0-336
+# sent_id = 48-20150126-MONOGRAFIA_0-334
 1	Penicillium	Penicillium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	restrictum	restrictum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -9360,7 +9304,7 @@
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Esta diferença de comportamento está possivelmente relacionada a presença de enzimas proteolíticas e/ou a desestabilização da enzima produzida pela alcalinização do meio.
-# sent_id = 48-20150126-MONOGRAFIA_0-337
+# sent_id = 48-20150126-MONOGRAFIA_0-335
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9392,7 +9336,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Deste modo, na etapa de otimização da produção da lipase de A.
-# sent_id = 48-20150126-MONOGRAFIA_0-338
+# sent_id = 48-20150126-MONOGRAFIA_0-336
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9416,7 +9360,7 @@
 17	A.	A.	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	SpacesAfter=\n
 
 # text = parasiticus buscou-se analisar, pela técnica de planejamento de experimentos, o comportamento de duas variáveis de resposta: atividade lipásica e proteásica, de modo a maximizar a primeira e minimizar a segunda.
-# sent_id = 48-20150126-MONOGRAFIA_0-339
+# sent_id = 48-20150126-MONOGRAFIA_0-337
 1	parasiticus	parasiticu	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
 2-3	buscou-se	_	_	_	_	_	_	_	_
 2	buscou	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9455,15 +9399,15 @@
 34	minimizar	minimizar	VERB	_	VerbForm=Inf	32	conj	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	segunda	segunda	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 5.1.1.
-# sent_id = 48-20150126-MONOGRAFIA_0-340
+# sent_id = 48-20150126-MONOGRAFIA_0-338
 1	5.1.1	5.1.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Estudos da produção de lipase e protease pela técnica de planejamento experimental
-# sent_id = 48-20150126-MONOGRAFIA_0-341
+# sent_id = 48-20150126-MONOGRAFIA_0-339
 1	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9482,7 +9426,7 @@
 14	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 
 # text = No procedimento de otimização do sistema utilizou-se um delineamento composto central rotacional (DCCR), onde as variáveis, temperatura (T), teor de umidade inicial (U) e concentração de inoculo (I) foram testadas nos níveis apresentados na Tabela 5.2:.
-# sent_id = 48-20150126-MONOGRAFIA_0-342
+# sent_id = 48-20150126-MONOGRAFIA_0-340
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9544,7 +9488,7 @@
 54	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A análise do planejamento foi realizada utilizando o software Statistica 7.0.
-# sent_id = 48-20150126-MONOGRAFIA_0-343
+# sent_id = 48-20150126-MONOGRAFIA_0-341
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9561,7 +9505,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A Tabela 5.3: mostra as condições experimentais e os valores de atividade lipásica experimentais e preditos pelo modelo gerado e o desvio relativo entre eles.
-# sent_id = 48-20150126-MONOGRAFIA_0-344
+# sent_id = 48-20150126-MONOGRAFIA_0-342
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	5.3	5.3	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
@@ -9593,7 +9537,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A atividade lipásica após 72 horas de fermentação foi medida através do método espectrofotométrico, utilizando-se como substrato o p-nitro fenil butirato.
-# sent_id = 48-20150126-MONOGRAFIA_0-345
+# sent_id = 48-20150126-MONOGRAFIA_0-343
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9623,11 +9567,11 @@
 25	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = .
-# sent_id = 48-20150126-MONOGRAFIA_0-346
+# sent_id = 48-20150126-MONOGRAFIA_0-344
 1	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Tabela 5.2: Valores reais e codificados das variáveis testadas
-# sent_id = 48-20150126-MONOGRAFIA_0-347
+# sent_id = 48-20150126-MONOGRAFIA_0-345
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.2	5.2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -9639,10 +9583,10 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-11	testadas	testar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	_
+11	testadas	testar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	SpacesAfter=\s\n
 
 # text = Tabela 5.3: Valores experimentais e preditos de atividade lipásica para as diferentes condições experimentais do delineamento composto central rotacional
-# sent_id = 48-20150126-MONOGRAFIA_0-348
+# sent_id = 48-20150126-MONOGRAFIA_0-346
 1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5.3:	5.3:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Valores	Valores	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -9666,7 +9610,7 @@
 20	rotacional	rotacional	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 
 # text = O diagrama de Pareto mostra o efeito padronizado (valor de t) das variáveis testadas sobre a atividade lipásica e este parâmetro foi utilizado para avaliar a significância dos efeitos das variáveis (Figura 5.2).
-# sent_id = 48-20150126-MONOGRAFIA_0-349
+# sent_id = 48-20150126-MONOGRAFIA_0-347
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	diagrama	diagrama	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9713,7 +9657,7 @@
 41	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Observou-se que as variáveis, teor de umidade inicial e temperatura apresentaram maior efeito sobre a produção de lipase, assim como a interação entre elas.
-# sent_id = 48-20150126-MONOGRAFIA_0-350
+# sent_id = 48-20150126-MONOGRAFIA_0-348
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9745,7 +9689,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No entanto a variável concentração de inóculo apresentou um efeito marginalmente significativo.
-# sent_id = 48-20150126-MONOGRAFIA_0-351
+# sent_id = 48-20150126-MONOGRAFIA_0-349
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	6	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -9760,10 +9704,10 @@
 11	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	marginalmente	marginalmente	ADV	_	_	13	advmod	_	_
 13	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.2: Diagrama de Pareto
-# sent_id = 48-20150126-MONOGRAFIA_0-352
+# sent_id = 48-20150126-MONOGRAFIA_0-350
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5.2	5.2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -9772,7 +9716,7 @@
 6	Pareto	Pareto	PROPN	_	Number=Sing	4	nmod	_	_
 
 # text = Foi possível construir um modelo empírico para atividade lipásica em função das variáveis temperatura, umidade e concentração de inoculo codificadas (Equação 5.1), incluindo apenas os termos estatisticamente significativos (valor de p < 0,05).
-# sent_id = 48-20150126-MONOGRAFIA_0-353
+# sent_id = 48-20150126-MONOGRAFIA_0-351
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	construir	construir	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -9817,12 +9761,12 @@
 41	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Onde:
-# sent_id = 48-20150126-MONOGRAFIA_0-354
+# sent_id = 48-20150126-MONOGRAFIA_0-352
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = ASE = atividade lipásica espectrofotométrica no meio fermentado sólido(U/g)
-# sent_id = 48-20150126-MONOGRAFIA_0-355
+# sent_id = 48-20150126-MONOGRAFIA_0-353
 1	ASE	Asar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -9839,7 +9783,7 @@
 13	)	)	PUNCT	_	_	12	punct	_	_
 
 # text = T = Variável temperatura codificada
-# sent_id = 48-20150126-MONOGRAFIA_0-356
+# sent_id = 48-20150126-MONOGRAFIA_0-354
 1	T	t	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	Variável	variável	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -9847,7 +9791,7 @@
 5	codificada	codificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = U = Variável teor de umidade codificada
-# sent_id = 48-20150126-MONOGRAFIA_0-357
+# sent_id = 48-20150126-MONOGRAFIA_0-355
 1	U	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	Variável	variável	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -9857,20 +9801,20 @@
 7	codificada	codificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = I =
-# sent_id = 48-20150126-MONOGRAFIA_0-358
+# sent_id = 48-20150126-MONOGRAFIA_0-356
 1	I	i	NUM	_	Gender=Unsp|Number=Sing|NumType=Ord	2	nummod	_	_
 2	=	=	SYM	_	_	0	root	_	_
 
 # text = Variável concentração de inoculo codificada
-# sent_id = 48-20150126-MONOGRAFIA_0-359
+# sent_id = 48-20150126-MONOGRAFIA_0-357
 1	Variável	variável	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	inoculo	inoculo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	codificada	codificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
+5	codificada	codificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	SpacesAfter=\s\n
 
 # text = A análise de variância (ANOVA) foi realizada para avaliar a adequação do modelo.
-# sent_id = 48-20150126-MONOGRAFIA_0-360
+# sent_id = 48-20150126-MONOGRAFIA_0-358
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9891,7 +9835,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O modelo é considerado preditivo se o coeficiente de determinação (R2) é próximo de 1 e se o valor de F calculado for superior ao valor crítico de F.
-# sent_id = 48-20150126-MONOGRAFIA_0-361
+# sent_id = 48-20150126-MONOGRAFIA_0-359
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -9927,7 +9871,7 @@
 32	F.	F.	PROPN	_	Gender=Unsp|Number=Sing	29	nmod	_	_
 
 # text = O modelo apresentado na Equação 5.1 apresentou um F calculado 2,5 vezes maior que o valor crítico de F e o R2 foi 0,95 (Tabela 5.4).
-# sent_id = 48-20150126-MONOGRAFIA_0-362
+# sent_id = 48-20150126-MONOGRAFIA_0-360
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -9961,7 +9905,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Além disso, o modelo gerou atividades lipásicas preditas muito similares aos valores obtidos experimentalmente apresentando desvios relativos altos apenas para os valores mais baixos de atividade, isto é em condições afastadas do ótimo (Tabela 5.4:), indicando um bom ajuste do modelo.
-# sent_id = 48-20150126-MONOGRAFIA_0-363
+# sent_id = 48-20150126-MONOGRAFIA_0-361
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -10020,7 +9964,7 @@
 52	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Este modelo foi utilizado para a construção das superfícies de resposta, mostrando os valores de atividade lipásica preditos para cada condição de temperatura e umidade (Figura 5.3) e de temperatura e concentração de inóculo (Figura 5.4) dentro da faixa estudada.
-# sent_id = 48-20150126-MONOGRAFIA_0-364
+# sent_id = 48-20150126-MONOGRAFIA_0-362
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -10072,14 +10016,56 @@
 47	estudada	estudar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	46	acl	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Valor de F
+# text = Tabela 5.4: Análise de variância (ANOVA) do DCCR.
+# sent_id = 48-20150126-MONOGRAFIA_0-363
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	5.4	5.4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Análise	análise	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	variância	variância	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	ANOVA	ANOVA	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	DCCR	DCCR	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Coeficiente de determinação: R2 = 0,9531;
+# sent_id = 48-20150126-MONOGRAFIA_0-364
+1	Coeficiente	Coeficiente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	R2	R2	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+6	=	=	SYM	_	_	1	appos	_	_
+7	0,9531	0,9531	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
+8	;	;	PUNCT	_	_	1	punct	_	_
+
+# text = F0.05;6.
 # sent_id = 48-20150126-MONOGRAFIA_0-365
+1	F0.05;6	F0.05;6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# text = 10
+# sent_id = 48-20150126-MONOGRAFIA_0-366
+1	10	10	NUM	_	NumType=Card	0	root	_	_
+
+# text = = 3,22
+# sent_id = 48-20150126-MONOGRAFIA_0-367
+1	=	=	SYM	_	_	0	root	_	_
+2	3,22	3,22	NUM	_	NumType=Card	1	nummod	_	_
+
+# text = Valor de F
+# sent_id = 48-20150126-MONOGRAFIA_0-368
 1	Valor	valor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	F	f	PROPN	_	Gender=Unsp|Number=Sing	1	nmod	_	_
 
 # text = = média quadrática da regressão/média quadrática do resíduo Figura 5.3:
-# sent_id = 48-20150126-MONOGRAFIA_0-366
+# sent_id = 48-20150126-MONOGRAFIA_0-369
 1	=	=	SYM	_	_	13	nsubj	_	_
 2	média	médio	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	quadrática	quadrático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -10093,13 +10079,13 @@
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	resíduo	resíduo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	resíduo	resíduo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpacesAfter=\s\n
 13	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	5.3	5.3	NUM	_	NumType=Card	13	obj	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	13	punct	_	_
 
 # text = Superfície de resposta para atividade lipásica em função das variáveis, umidade e da temperatura.
-# sent_id = 48-20150126-MONOGRAFIA_0-367
+# sent_id = 48-20150126-MONOGRAFIA_0-370
 1	Superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -10119,16 +10105,16 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.4:
-# sent_id = 48-20150126-MONOGRAFIA_0-368
+# sent_id = 48-20150126-MONOGRAFIA_0-371
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5.4	5.4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Superfície de resposta para atividade lipásica em função das variáveis, concentração de inóculo e da temperatura.
-# sent_id = 48-20150126-MONOGRAFIA_0-369
+# sent_id = 48-20150126-MONOGRAFIA_0-372
 1	Superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -10153,7 +10139,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os maiores níveis de atividade lipásica foram obtidos na faixa de temperatura de 26 a 32ºC, umidade de 63 a 68% e concentração de inoculo de 5 x 107 a 2 x 108 esporos/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-370
+# sent_id = 48-20150126-MONOGRAFIA_0-373
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
@@ -10195,7 +10181,7 @@
 38	/g.	/g.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Através do modelo gerado, foi possível determinar as condições ótimas para a produção de lipase pelo fungo A.
-# sent_id = 48-20150126-MONOGRAFIA_0-371
+# sent_id = 48-20150126-MONOGRAFIA_0-374
 1	Através	através	ADV	_	_	8	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -10221,7 +10207,7 @@
 21	A.	A.	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	_
 
 # text = parasiticus por FES em torta de babaçu: temperatura de 29°C, teor de umidade inicial de 65 % e concentração de inóculo de 1,25 x 108 esp/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-372
+# sent_id = 48-20150126-MONOGRAFIA_0-375
 1	parasiticus	parasiticus	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	FES	Fe	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -10253,7 +10239,7 @@
 29	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Nestas condições a atividade lipásica predita foi de 19,8 U/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-373
+# sent_id = 48-20150126-MONOGRAFIA_0-376
 1-2	Nestas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
@@ -10269,7 +10255,7 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = No entanto, observou-se na Figura 9 que a variável concentração de inóculo apresentou pouca influência sobre a produção de lipase dentro da faixa estudada.
-# sent_id = 48-20150126-MONOGRAFIA_0-374
+# sent_id = 48-20150126-MONOGRAFIA_0-377
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -10306,7 +10292,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Utilizando a menor concentração de inoculo testada (106 esp/g), 125 vezes menos esporos que a concentração ótima, e mantendo as condições ótimas de temperatura e umidade, uma redução de apenas 1,2 vezes na atividade seria obtida (16,4 U/g).
-# sent_id = 48-20150126-MONOGRAFIA_0-375
+# sent_id = 48-20150126-MONOGRAFIA_0-378
 1	Utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -10333,7 +10319,7 @@
 24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	condições	condição	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
 26	ótimas	ótimo	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
-27	de	de	ADP	_	_	28	case	_	_
+27	de	de	ADP	_	_	28	case	_	SpacesAfter=\s\n
 28	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 29	e	e	CCONJ	_	_	30	cc	_	_
 30	umidade	umidade	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
@@ -10357,7 +10343,7 @@
 47	.	.	PUNCT	_	_	42	punct	_	_
 
 # text = Este resultado é muito interessante visto que a geração de grandes concentrações de esporos é um dos gargalos de escalonamento da FES para escala industrial (Gutarra et al, 2007).
-# sent_id = 48-20150126-MONOGRAFIA_0-376
+# sent_id = 48-20150126-MONOGRAFIA_0-379
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -10397,7 +10383,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A produção de proteases também foi analisada neste planejamento como uma segunda variável de resposta.
-# sent_id = 48-20150126-MONOGRAFIA_0-377
+# sent_id = 48-20150126-MONOGRAFIA_0-380
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10418,7 +10404,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A Tabela 5.5 mostra as condições experimentais e os valores de atividade proteásica experimentais e preditos pelo modelo gerado e o desvio relativo entre eles.
-# sent_id = 48-20150126-MONOGRAFIA_0-378
+# sent_id = 48-20150126-MONOGRAFIA_0-381
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5.5	5.5	NUM	_	NumType=Card	2	nummod	_	_
@@ -10448,34 +10434,21 @@
 26	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Tabela 5.5: Valores experimentais e preditos de atividade proteásica para as diferentes condições experimentais do delineamento composto central rotacional.
-# sent_id = 48-20150126-MONOGRAFIA_0-379
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	5.5	5.5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
-5	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	preditos	predito	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-10	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	para	para	ADP	_	_	14	case	_	_
-12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-13	diferentes	diferente	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
-14	condições	condição	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-15	experimentais	experimental	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
-16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	delineamento	delineamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-19	composto	compor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_
-20	central	central	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-21	rotacional	rotacional	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = condições experimentais do delineamento composto central rotacional.
+# sent_id = 48-20150126-MONOGRAFIA_0-382
+1	condições	condição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	experimentais	experimental	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	delineamento	delineamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	composto	compor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+7	central	central	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+8	rotacional	rotacional	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = No diagrama de Pareto (Figura 5.5), estão apresentados os efeitos padronizados das variáveis testadas sobre a atividade proteásica.
-# sent_id = 48-20150126-MONOGRAFIA_0-380
+# sent_id = 48-20150126-MONOGRAFIA_0-383
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10504,7 +10477,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Observou-se que apenas as variáveis, teor de umidade e temperatura apresentaram efeito estatisticamente significativo sobre a produção de protease.
-# sent_id = 48-20150126-MONOGRAFIA_0-381
+# sent_id = 48-20150126-MONOGRAFIA_0-384
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -10530,7 +10503,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 5.5:Diagrama de Pareto
-# sent_id = 48-20150126-MONOGRAFIA_0-382
+# sent_id = 48-20150126-MONOGRAFIA_0-385
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5.5	5.5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -10539,7 +10512,7 @@
 6	Pareto	Pareto	PROPN	_	Number=Sing	4	nmod	_	_
 
 # text = Foi possível construir um modelo empírico para atividade proteásica em função das variáveis temperatura e umidade codificadas (Equação 5.2), incluindo apenas os termos estatisticamente significativos (valor de p < 0,05).
-# sent_id = 48-20150126-MONOGRAFIA_0-383
+# sent_id = 48-20150126-MONOGRAFIA_0-386
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	construir	construir	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -10580,20 +10553,20 @@
 37	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = (Equação 5.2)
-# sent_id = 48-20150126-MONOGRAFIA_0-384
+# sent_id = 48-20150126-MONOGRAFIA_0-387
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	5.2	5.2	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	2	punct	_	_
+4	)	)	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 
 # text = Onde: APS
-# sent_id = 48-20150126-MONOGRAFIA_0-385
+# sent_id = 48-20150126-MONOGRAFIA_0-388
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	APS	APS	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = = atividade proteásica no meio fermentado sólido (ΔAbs/g ou U/g)
-# sent_id = 48-20150126-MONOGRAFIA_0-386
+# sent_id = 48-20150126-MONOGRAFIA_0-389
 1	=	=	SYM	_	_	0	root	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -10610,7 +10583,7 @@
 13	)	)	PUNCT	_	_	10	punct	_	_
 
 # text = T = Variável temperatura codificada
-# sent_id = 48-20150126-MONOGRAFIA_0-387
+# sent_id = 48-20150126-MONOGRAFIA_0-390
 1	T	t	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	Variável	variável	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -10618,7 +10591,7 @@
 5	codificada	codificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = U = Variável teor de umidade codificada
-# sent_id = 48-20150126-MONOGRAFIA_0-388
+# sent_id = 48-20150126-MONOGRAFIA_0-391
 1	U	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	Variável	variável	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -10628,7 +10601,7 @@
 7	codificada	codificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = O modelo apresentado na Equação 5.2 apesar de ter apresentado um baixo valor de coeficiente de determinação (R2 =0,72), apresentou um F calculado 3,2 vezes maior que o valor crítico de F (Tabela 5.6) e atividades proteásicas preditas pelo modelo, foram muito similares aos valores obtidos experimentalmente apresentando desvios relativos mais altos apenas para os valores mais baixos de atividade, isto é em condições afastadas do ótimo (Tabela 5.6), indicando um bom ajuste do modelo.
-# sent_id = 48-20150126-MONOGRAFIA_0-389
+# sent_id = 48-20150126-MONOGRAFIA_0-392
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
 3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -10727,7 +10700,7 @@
 91	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Este modelo foi utilizado para a construção das superfícies de resposta, mostrando os valores de atividade proteásica preditos para cada condição de temperatura e umidade (Figura 5.6) dentro da faixa estudada.
-# sent_id = 48-20150126-MONOGRAFIA_0-390
+# sent_id = 48-20150126-MONOGRAFIA_0-393
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -10768,25 +10741,8 @@
 36	estudada	estudar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	35	acl	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Tabela 5.6: Análise de variância (ANOVA) do DCCR.
-# sent_id = 48-20150126-MONOGRAFIA_0-391
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	5.6	5.6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Análise	análise	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	variância	variância	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	ANOVA	ANOVA	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	8	punct	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	DCCR	DCCR	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = Coeficiente de determinação: R2 = 0,7196;
-# sent_id = 48-20150126-MONOGRAFIA_0-392
+# sent_id = 48-20150126-MONOGRAFIA_0-394
 1	Coeficiente	Coeficiente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -10797,16 +10753,16 @@
 8	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = F0.05;2.
-# sent_id = 48-20150126-MONOGRAFIA_0-393
+# sent_id = 48-20150126-MONOGRAFIA_0-395
 1	F0.05;2	F0.05;2	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # text = 13
-# sent_id = 48-20150126-MONOGRAFIA_0-394
+# sent_id = 48-20150126-MONOGRAFIA_0-396
 1	13	13	NUM	_	NumType=Card	0	root	_	_
 
 # text = = 3,41 Valor de F
-# sent_id = 48-20150126-MONOGRAFIA_0-395
+# sent_id = 48-20150126-MONOGRAFIA_0-397
 1	=	=	SYM	_	_	0	root	_	_
 2	3,41	3,41	NUM	_	NumType=Card	1	nummod	_	_
 3	Valor	valor	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -10814,7 +10770,7 @@
 5	F	F	PROPN	_	Number=Sing	3	nmod	_	_
 
 # text = = média quadrática da regressão/média quadrática do resíduo Figura 5.6: Superfície de resposta para atividade proteásica em função das variáveis, umidade e da temperatura.
-# sent_id = 48-20150126-MONOGRAFIA_0-396
+# sent_id = 48-20150126-MONOGRAFIA_0-398
 1	=	=	SYM	_	_	13	nsubj	_	_
 2	média	médio	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	quadrática	quadrático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -10828,7 +10784,7 @@
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	resíduo	resíduo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	resíduo	resíduo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpacesAfter=\s\n
 13	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	5.6	5.6	NUM	_	NumType=Card	13	obj	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	13	punct	_	_
@@ -10854,7 +10810,7 @@
 33	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = A maior produção de proteases (20U/g) foi obtida em temperatura e umidade menores que 28 ºC e 70%, respectivamente.
-# sent_id = 48-20150126-MONOGRAFIA_0-397
+# sent_id = 48-20150126-MONOGRAFIA_0-399
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	produção	produção	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
@@ -10882,7 +10838,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Esta atividade proteásica é alta comparada a fungos como o Penicillium restrictum, também produtor de lípases e que possui uma atividade proteásica em torno de 8U/g, nas mesmas condições.
-# sent_id = 48-20150126-MONOGRAFIA_0-398
+# sent_id = 48-20150126-MONOGRAFIA_0-400
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	proteásica	proteásico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -10919,7 +10875,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = (Palma et al., 2000).
-# sent_id = 48-20150126-MONOGRAFIA_0-399
+# sent_id = 48-20150126-MONOGRAFIA_0-401
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Palma	Palma	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -10930,7 +10886,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Apesar das condições ótimas para produção de lipases e proteases do fungo
-# sent_id = 48-20150126-MONOGRAFIA_0-400
+# sent_id = 48-20150126-MONOGRAFIA_0-402
 1	Apesar	apesar	ADV	_	_	4	case	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -10949,12 +10905,12 @@
 14	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = A .
-# sent_id = 48-20150126-MONOGRAFIA_0-401
+# sent_id = 48-20150126-MONOGRAFIA_0-403
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = parasiticus serem bastante semelhantes, utilizando-se temperaturas de incubação maiores, de 30 a 35 ºC, a produção de lipase pode ser favorecida.
-# sent_id = 48-20150126-MONOGRAFIA_0-402
+# sent_id = 48-20150126-MONOGRAFIA_0-404
 1	parasiticus	parasiticu	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 2	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	4	cop	_	_
 3	bastante	bastante	ADV	_	_	4	advmod	_	_
@@ -10981,15 +10937,15 @@
 23	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	ser	ser	AUX	_	VerbForm=Inf	25	aux:pass	_	_
 25	favorecida	favorecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	23	xcomp	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
 
 # text = 5.1.2.
-# sent_id = 48-20150126-MONOGRAFIA_0-403
+# sent_id = 48-20150126-MONOGRAFIA_0-405
 1	5.1.2	5.1.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Acompanhamento dos parâmetros da fermentação
-# sent_id = 48-20150126-MONOGRAFIA_0-404
+# sent_id = 48-20150126-MONOGRAFIA_0-406
 1	Acompanhamento	acompanhamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -11001,7 +10957,7 @@
 7	fermentação	fermentação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = A partir destes resultados, optou-se por realizar uma cinética de fermentação nas condições de cultivo de 30oC, 65 % de umidade e concentração de inoculo de 106 esporos/g., acompanhando diversas variáveis ao longo da fermentação (Figura 5.7).
-# sent_id = 48-20150126-MONOGRAFIA_0-405
+# sent_id = 48-20150126-MONOGRAFIA_0-407
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	destes	_	_	_	_	_	_	_	_
@@ -11057,7 +11013,7 @@
 48	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 5.7: Perfil de produção de lipase e protease por FES do fungo A. parasiticus em torta de babaçu sem suplementação, e acompanhamento dos parâmetros da fermentação em função do tempo.
-# sent_id = 48-20150126-MONOGRAFIA_0-406
+# sent_id = 48-20150126-MONOGRAFIA_0-408
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5.7	5.7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -11102,7 +11058,7 @@
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A atividade da água manteve-se constante ao longo de toda a fermentação em torno de 0,98, e o teor de umidade decresceu apenas 10% após 100 horas de cultivo.
-# sent_id = 48-20150126-MONOGRAFIA_0-407
+# sent_id = 48-20150126-MONOGRAFIA_0-409
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -11143,7 +11099,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Estes resultados indicam o bom funcionamento do sistema de fermentação utilizando reatores do tipo bandeja incubados em câmara de fermentação com umidade controlada (95% de saturação).
-# sent_id = 48-20150126-MONOGRAFIA_0-408
+# sent_id = 48-20150126-MONOGRAFIA_0-410
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11180,7 +11136,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = As atividades lipásicas máximas obtidas pelo método espectrofotométrico e titulométrico foram de 25
-# sent_id = 48-20150126-MONOGRAFIA_0-409
+# sent_id = 48-20150126-MONOGRAFIA_0-411
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3	lipásicas	lipásico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -11198,7 +11154,7 @@
 14	25	25	NUM	_	NumType=Card	0	root	_	_
 
 # text = U/g e 2,7 U/g, respectivamente.
-# sent_id = 48-20150126-MONOGRAFIA_0-410
+# sent_id = 48-20150126-MONOGRAFIA_0-412
 1	U/g	U/g	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	2,7	2,7	NUM	_	NumType=Card	4	nummod	_	_
@@ -11208,7 +11164,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estes valores aparentemente discrepantes estão possivelmente relacionados a uma elevada produção de esterases por este fungo.
-# sent_id = 48-20150126-MONOGRAFIA_0-411
+# sent_id = 48-20150126-MONOGRAFIA_0-413
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	aparentemente	aparentemente	ADV	_	_	4	advmod	_	_
@@ -11222,13 +11178,13 @@
 11	produção	produção	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	esterases	esterase	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-14	por	por	ADP	_	_	16	case	_	_
+14	por	por	ADP	_	_	16	case	_	SpacesAfter=\s\n
 15	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Esta atividade é revelada apenas pelo método espectrofotométrico que utiliza um éster como substrato e não um triacilglicerol (óleo de oliva) como no método titulométrico.
-# sent_id = 48-20150126-MONOGRAFIA_0-412
+# sent_id = 48-20150126-MONOGRAFIA_0-414
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -11263,7 +11219,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Desta forma parece razoável concluir que a enzima de A parasiticus deve produzir concomitantemente as duas enzimas.
-# sent_id = 48-20150126-MONOGRAFIA_0-413
+# sent_id = 48-20150126-MONOGRAFIA_0-415
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	$2e	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -11286,7 +11242,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Apesar dos perfis de atividade lipásica utilizando as duas metodologias serem semelhantes, o decaimento da atividade titulométrica foi mais elevado chegando a zero em 120h de fermentação.
-# sent_id = 48-20150126-MONOGRAFIA_0-414
+# sent_id = 48-20150126-MONOGRAFIA_0-416
 1	Apesar	apesar	ADV	_	_	4	case	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -11322,7 +11278,7 @@
 31	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Este fato reforça a hipótese deste fungo produzir uma maior quantidade de esterases.
-# sent_id = 48-20150126-MONOGRAFIA_0-415
+# sent_id = 48-20150126-MONOGRAFIA_0-417
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11341,7 +11297,7 @@
 15	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O perfil de produção de proteases foi bem distinto, apresentando-se crescente ao longo da fermentação, não sendo observado o pico máximo de produção até 144h de fermentação.
-# sent_id = 48-20150126-MONOGRAFIA_0-416
+# sent_id = 48-20150126-MONOGRAFIA_0-418
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11380,7 +11336,7 @@
 33	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Pode-se observar que a maior inflexão positiva na produção de proteases ocorre justamente com o mesmo comportamento do perfil de pH e no tempo de fermentação onde ocorre o início do decaimento da atividade lipásica.
-# sent_id = 48-20150126-MONOGRAFIA_0-417
+# sent_id = 48-20150126-MONOGRAFIA_0-419
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -11431,7 +11387,7 @@
 42	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estes resultados já foram observados para outros microrganismos em trabalhos do nosso grupo de pesquisa.
-# sent_id = 48-20150126-MONOGRAFIA_0-418
+# sent_id = 48-20150126-MONOGRAFIA_0-420
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	já	já	ADV	_	_	5	advmod	_	_
@@ -11452,7 +11408,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A presença de proteases parece promover o aumento do pH do meio através da desaminação de aminoácidos e liberação de amônia, podendo causar desativação da atividade lipásica quando a enzima não apresenta estabilidade em pHs alcalinos.
-# sent_id = 48-20150126-MONOGRAFIA_0-419
+# sent_id = 48-20150126-MONOGRAFIA_0-421
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11501,7 +11457,7 @@
 42	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Além disso, as proteases podem atuar diretamente na degradação das lipases indicando que em FES o efeito da proteólise é um parâmetro significativo na degradação da lipase produzida e deve ser levado em consideração na etapa de formulação e otimização do meio de cultivo (Freire et al, 1997;
-# sent_id = 48-20150126-MONOGRAFIA_0-420
+# sent_id = 48-20150126-MONOGRAFIA_0-422
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -11572,7 +11528,7 @@
 60	;	;	PUNCT	_	_	7	punct	_	_
 
 # text = Gombert et al, 1999;
-# sent_id = 48-20150126-MONOGRAFIA_0-421
+# sent_id = 48-20150126-MONOGRAFIA_0-423
 1	Gombert	Gombert	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al	al	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -11581,7 +11537,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Palma et al, 2000;
-# sent_id = 48-20150126-MONOGRAFIA_0-422
+# sent_id = 48-20150126-MONOGRAFIA_0-424
 1	Palma	Palmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -11590,7 +11546,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Leal et al, 2002;
-# sent_id = 48-20150126-MONOGRAFIA_0-423
+# sent_id = 48-20150126-MONOGRAFIA_0-425
 1	Leal	Leal	ADJ	_	Gender=Unsp|Number=Sing	2	amod	_	_
 2	et	et	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -11599,7 +11555,7 @@
 6	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = Dilluccio et al, 2004;
-# sent_id = 48-20150126-MONOGRAFIA_0-424
+# sent_id = 48-20150126-MONOGRAFIA_0-426
 1	Dilluccio	Dilluccio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al	al	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -11608,7 +11564,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Soares et al, 2005;
-# sent_id = 48-20150126-MONOGRAFIA_0-425
+# sent_id = 48-20150126-MONOGRAFIA_0-427
 1	Soares	Soares	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al	al	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -11617,7 +11573,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Gutarra et al, 2005 e 2007;
-# sent_id = 48-20150126-MONOGRAFIA_0-426
+# sent_id = 48-20150126-MONOGRAFIA_0-428
 1	Gutarra	Gutarrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -11628,7 +11584,7 @@
 8	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Kempka et al, 2007;
-# sent_id = 48-20150126-MONOGRAFIA_0-427
+# sent_id = 48-20150126-MONOGRAFIA_0-429
 1	Kempka	Kempkar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -11637,22 +11593,22 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Azeredo et al, 2007).
-# sent_id = 48-20150126-MONOGRAFIA_0-428
+# sent_id = 48-20150126-MONOGRAFIA_0-430
 1	Azeredo	Azeredo	ADV	_	_	2	advmod	_	_
 2	et	et	X	_	Number=Sing	3	amod	_	_
 3	al	al	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	2007	2007	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 5.2.
-# sent_id = 48-20150126-MONOGRAFIA_0-429
+# sent_id = 48-20150126-MONOGRAFIA_0-431
 1	5.2	5.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Propriedades das lipases no extrato bruto
-# sent_id = 48-20150126-MONOGRAFIA_0-430
+# sent_id = 48-20150126-MONOGRAFIA_0-432
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -11665,7 +11621,7 @@
 8	bruto	bruto	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 
 # text = Para o estudo das propriedades das lipases presentes no extrato bruto produzido por FES, dois tipos de preparação enzimática foram utilizados.
-# sent_id = 48-20150126-MONOGRAFIA_0-431
+# sent_id = 48-20150126-MONOGRAFIA_0-433
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
@@ -11697,7 +11653,7 @@
 26	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Uma obtida pela fermentação na torta de babaçu sem suplementação e outra obtida com melaço como suplemento.
-# sent_id = 48-20150126-MONOGRAFIA_0-432
+# sent_id = 48-20150126-MONOGRAFIA_0-434
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	obtida	obtida	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	pela	_	_	_	_	_	_	_	_
@@ -11722,7 +11678,7 @@
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = As atividades dos extratos brutos foram determinadas pelo método espectrofotométrico para ésteres de cadeia curta (C4), média (C12) e longa (C16) e frente ao óleo de oliva pelo método titulométrico.
-# sent_id = 48-20150126-MONOGRAFIA_0-433
+# sent_id = 48-20150126-MONOGRAFIA_0-435
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -11771,20 +11727,20 @@
 42	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = (Tabela 5.7)
-# sent_id = 48-20150126-MONOGRAFIA_0-434
+# sent_id = 48-20150126-MONOGRAFIA_0-436
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Tabela	Tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	5.7	5.7	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Tabela 5.7:
-# sent_id = 48-20150126-MONOGRAFIA_0-435
+# sent_id = 48-20150126-MONOGRAFIA_0-437
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.7	5.7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade lipásica dos extratos brutos oriundos da fermentação em torta de babaçu sem suplementação (água) e suplementada com melaço (3,3%) em substratos com diferentes tamanhos de cadeia.
-# sent_id = 48-20150126-MONOGRAFIA_0-436
+# sent_id = 48-20150126-MONOGRAFIA_0-438
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -11824,7 +11780,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Pode-se observar que a adição de suplemento levou a uma diminuição da produção de esterases e um pequeno aumento na produção de lipases (óleo de oliva como substrato).
-# sent_id = 48-20150126-MONOGRAFIA_0-437
+# sent_id = 48-20150126-MONOGRAFIA_0-439
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -11864,7 +11820,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A elevada atividade catalítica destas preparações frente a p-nitrofenil ésteres de cadeia curta indica fortemente que esta preparação bruta deve conter majoritariamente esterases.
-# sent_id = 48-20150126-MONOGRAFIA_0-438
+# sent_id = 48-20150126-MONOGRAFIA_0-440
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	elevada	elevar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
 3	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -11890,15 +11846,15 @@
 22	conter	conter	VERB	_	VerbForm=Inf	21	xcomp	_	_
 23	majoritariamente	majoritariamente	ADV	_	_	24	advmod	_	_
 24	esterases	esterase	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = 5.3.
-# sent_id = 48-20150126-MONOGRAFIA_0-439
+# sent_id = 48-20150126-MONOGRAFIA_0-441
 1	5.3	5.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Determinação dos parâmetros cinéticos da preparação enzimática bruta
-# sent_id = 48-20150126-MONOGRAFIA_0-440
+# sent_id = 48-20150126-MONOGRAFIA_0-442
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -11913,7 +11869,7 @@
 10	bruta	bruto	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 
 # text = Com o objetivo de determinar os parâmetros cinéticos destas enzimas (Km e Vm), optou-se por trabalhar com o extrato enzimático obtido da fermentação em meio basal sem suplementação.
-# sent_id = 48-20150126-MONOGRAFIA_0-441
+# sent_id = 48-20150126-MONOGRAFIA_0-443
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
@@ -11954,7 +11910,7 @@
 35	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = A Figura 5.8 e a Tabela 5.8 descrevem o comportamento destas constantes em função do tamanho de cadeia do éster utilizado como substrato.
-# sent_id = 48-20150126-MONOGRAFIA_0-442
+# sent_id = 48-20150126-MONOGRAFIA_0-444
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	5.8	5.8	NUM	_	NumType=Card	2	nummod	_	_
@@ -11987,7 +11943,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Cada ponto desta figura e tabela foi obtido, utilizando-se diferentes concentrações de substrato com diferentes tamanhos de cadeia.
-# sent_id = 48-20150126-MONOGRAFIA_0-443
+# sent_id = 48-20150126-MONOGRAFIA_0-445
 1	Cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3-4	desta	_	_	_	_	_	_	_	_
@@ -12014,7 +11970,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A determinação destes parâmetros foi realizada utilizando-se um programa característico para o cálculo de constantes cinéticas de enzimas (Programa Kinetic).
-# sent_id = 48-20150126-MONOGRAFIA_0-444
+# sent_id = 48-20150126-MONOGRAFIA_0-446
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	destes	_	_	_	_	_	_	_	_
@@ -12043,8 +11999,8 @@
 24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Figura 5.8: Variação das constantes cinéticas Km e Vm em função do tamanho de cadeia do éster utilizado:1- butirato (C4); 2- Caprilato (C8); 2 – laurato (C12); 4 – palmitato (C16); 5- esterato (C18).
-# sent_id = 48-20150126-MONOGRAFIA_0-445
+# text = Figura 5.8: Variação das constantes cinéticas Km e Vm em função do tamanho de cadeia do éster utilizado:1-butirato (C4); 2-Caprilato (C8); 2 – laurato (C12); 4 – palmitato (C16); 5-esterato (C18).
+# sent_id = 48-20150126-MONOGRAFIA_0-447
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5.8	5.8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -12066,46 +12022,41 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	18	case	_	_
+19	de	de	ADP	_	_	21	case	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	éster	éster	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
-22	utilizado:1	utilizado:1	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
-23	-	-	PUNCT	_	_	24	punct	_	_
-24	butirato	butirato	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	_
-25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	C4	C4	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
-28	;	;	PUNCT	_	_	1	punct	_	_
-29	2-	2-	PUNCT	_	_	1	punct	_	_
-30	Caprilato	Caprilato	PROPN	_	Gender=Masc|Number=Sing	34	conj	_	_
-31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	C8	C8	PROPN	_	Gender=Masc|Number=Sing	30	appos:parataxis	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
-34	;	;	PUNCT	_	_	1	punct	_	_
-35	2	2	NUM	_	NumType=Card	37	nummod	_	_
-36	–	–	PUNCT	_	_	37	punct	_	_
-37	laurato	laurato	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	_
-38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	C12	C12	PROPN	_	Gender=Masc|Number=Sing	37	appos	_	SpaceAfter=No
-40	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
-41	;	;	PUNCT	_	_	1	punct	_	_
-42	4	4	NUM	_	NumType=Card	44	nummod	_	_
-43	–	–	PUNCT	_	_	44	punct	_	_
-44	palmitato	palmitato	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
-46	C16	C16	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
-47	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
-48	;	;	PUNCT	_	_	1	punct	_	_
-49	5	5	NUM	_	NumType=Card	51	nummod	_	SpaceAfter=No
-50	-	-	PUNCT	_	_	51	punct	_	_
-51	esterato	esterato	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
-53	C18	C18	PROPN	_	Gender=Masc|Number=Sing	51	appos	_	SpaceAfter=No
-54	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
-55	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+21	éster	éster	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	utilizado:1-butirato	utilizado:1-butirato	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	C4	C4	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	;	;	PUNCT	_	_	27	punct	_	_
+27	2-Caprilato	2-Caprilato	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	C8	C8	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	;	;	PUNCT	_	_	32	punct	_	_
+32	2	2	NUM	_	NumType=Card	9	appos	_	_
+33	–	–	PUNCT	_	_	34	punct	_	_
+34	laurato	laurato	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	C12	C12	PROPN	_	Gender=Masc|Number=Sing	34	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	;	;	PUNCT	_	_	39	punct	_	_
+39	4	4	NUM	_	NumType=Card	41	nummod	_	_
+40	–	–	PUNCT	_	_	41	punct	_	_
+41	palmitato	palmitato	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	C16	C16	NUM	_	NumType=Card	9	appos:parataxis	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	;	;	PUNCT	_	_	1	punct	_	_
+46	5-esterato	5-esterato	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+47	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
+48	C18	C18	PROPN	_	Gender=Masc|Number=Sing	46	appos	_	SpaceAfter=No
+49	)	)	PUNCT	_	_	48	punct	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A Tabela 5.8 abaixo apresenta os valores dos parâmetros cinéticos da preparação enzimática bruta obtida por FES do fungo Aspergillus parasiticus.
-# sent_id = 48-20150126-MONOGRAFIA_0-446
+# sent_id = 48-20150126-MONOGRAFIA_0-448
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	5.8	5.8	NUM	_	NumType=Card	4	nummod	_	_
@@ -12133,10 +12084,10 @@
 22	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	Aspergillus	Aspergillus	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
 24	parasiticus	parasiticus	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
-# text = Tabela 5.8: Valor das constantes cinéticas Km e Vm em função do tamanho de cadeia do éster utilizado: 1- butirato (C4); 2- Caprilato (C8); 2 – laurato (C12); 4 – palmitato (C16); 5- esterato (C18).
-# sent_id = 48-20150126-MONOGRAFIA_0-447
+# text = Tabela 5.8: Valor das constantes cinéticas Km e Vm em função do tamanho de cadeia do éster utilizado: 1-butirato (C4); 2-Caprilato (C8); 2 – laurato (C12); 4 – palmitato (C16); 5-esterato (C18).
+# sent_id = 48-20150126-MONOGRAFIA_0-449
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	5.8	5.8	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -12163,42 +12114,38 @@
 21	éster	éster	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 22	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	SpaceAfter=No
 23	:	:	PUNCT	_	_	9	punct	_	_
-24	1-	1-	PUNCT	_	_	25	punct	_	_
-25	butirato	butirato	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
-26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	C4	C4	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
-29	;	;	PUNCT	_	_	9	punct	_	_
-30	2-	2-	PUNCT	_	_	31	punct	_	_
-31	Caprilato	Caprilato	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
-32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	C8	C8	PROPN	_	Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No
-34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
-35	;	;	PUNCT	_	_	31	punct	_	_
-36	2	2	NUM	_	NumType=Card	38	nummod	_	_
-37	–	–	PUNCT	_	_	38	punct	_	_
-38	laurato	laurato	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	C12	C12	PROPN	_	Gender=Masc|Number=Sing	38	appos	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
-42	;	;	PUNCT	_	_	43	punct	_	_
-43	4	4	NUM	_	NumType=Card	45	nummod	_	_
-44	–	–	PUNCT	_	_	45	punct	_	_
-45	palmitato	palmitato	NOUN	_	Gender=Masc|Number=Sing	50	conj	_	_
-46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
-47	C16	C16	NOUN	_	Gender=Fem|Number=Plur	45	appos	_	SpaceAfter=No
-48	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
-49	;	;	PUNCT	_	_	50	punct	_	_
-50	5	5	NUM	_	NumType=Card	52	nummod	_	SpaceAfter=No
-51	-	-	PUNCT	_	_	50	punct	_	_
-52	esterato	esterato	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
-54	C18	C18	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-55	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+24	1-butirato	1-butirato	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	C4	C4	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	24	punct	_	_
+29	2-Caprilato	2-Caprilato	PROPN	_	Gender=Masc|Number=Sing	9	conj	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	C8	C8	PROPN	_	Gender=Masc|Number=Sing	29	appos:parataxis	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	;	;	PUNCT	_	_	34	punct	_	_
+34	2	2	NUM	_	NumType=Card	43	nummod	_	_
+35	–	–	PUNCT	_	_	36	punct	_	_
+36	laurato	laurato	NOUN	_	Gender=Masc|Number=Sing	34	appos	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	C12	C12	PROPN	_	Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	;	;	PUNCT	_	_	41	punct	_	_
+41	4	4	NUM	_	NumType=Card	43	nummod	_	_
+42	–	–	PUNCT	_	_	41	punct	_	_
+43	palmitato	palmitato	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	C16	C16	NOUN	_	Gender=Fem|Number=Plur	43	appos	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	;	;	PUNCT	_	_	9	punct	_	_
+48	5-esterato	5-esterato	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	C18	C18	PROPN	_	Gender=Masc|Number=Sing	48	appos	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Os resultados indicados na Figura 5.8 e Tabela 5.8 indicam que esta preparação apresenta o dobro da velocidade máxima e um Km 5 vezes inferior quando o substrato diminui de 18 para 4 carbonos.
-# sent_id = 48-20150126-MONOGRAFIA_0-448
+# sent_id = 48-20150126-MONOGRAFIA_0-450
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	indicados	indicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -12240,7 +12187,7 @@
 37	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Esta tendência de diminuição de Vm com o aumento do tamanho de cadeia está bem evidente na figura 5.8.
-# sent_id = 48-20150126-MONOGRAFIA_0-449
+# sent_id = 48-20150126-MONOGRAFIA_0-451
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -12267,7 +12214,7 @@
 22	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Em relação à afinidade (km) pode-se observar que este permanece constante quando o substrato aumenta de C4 para C8 e ocorre um aumento brusco deste parâmetro quando o substrato é de 12 carbonos.
-# sent_id = 48-20150126-MONOGRAFIA_0-450
+# sent_id = 48-20150126-MONOGRAFIA_0-452
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -12312,7 +12259,7 @@
 39	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Estes resultados indicam claramente que quando se passa de substratos ditos de cadeia pequena (até C8) para o de cadeia média (C12) a afinidade desta enzima diminui drasticamente.
-# sent_id = 48-20150126-MONOGRAFIA_0-451
+# sent_id = 48-20150126-MONOGRAFIA_0-453
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12350,7 +12297,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Isto leva a confirmação da hipótese aventada anteriormente de que esta preparação contém elevadas concentrações de esterases com afinidade por ésteres de cadeia curta.
-# sent_id = 48-20150126-MONOGRAFIA_0-452
+# sent_id = 48-20150126-MONOGRAFIA_0-454
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	leva	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -12380,12 +12327,12 @@
 26	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 5.4.
-# sent_id = 48-20150126-MONOGRAFIA_0-453
+# sent_id = 48-20150126-MONOGRAFIA_0-455
 1	5.4	5.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Efeito da liofilização na atividade enzimática do extrato bruto
-# sent_id = 48-20150126-MONOGRAFIA_0-454
+# sent_id = 48-20150126-MONOGRAFIA_0-456
 1	Efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12403,7 +12350,7 @@
 12	bruto	bruto	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 
 # text = Este ensaio foi realizado com o extrato bruto após 72 horas de fermentação, utilizando-se o liofilizador, a – 46º C, sob vácuo.
-# sent_id = 48-20150126-MONOGRAFIA_0-455
+# sent_id = 48-20150126-MONOGRAFIA_0-457
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -12434,7 +12381,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = E observou-se que as atividades lipásicas (ASE) mantêm-se constantes, antes e depois da liofilização (25 U/g).
-# sent_id = 48-20150126-MONOGRAFIA_0-456
+# sent_id = 48-20150126-MONOGRAFIA_0-458
 1	E	e	CCONJ	_	_	2	cc	_	_
 2-3	observou-se	_	_	_	_	_	_	_	_
 2	observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -12465,7 +12412,7 @@
 25	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A análise abaixo, de determinação do efeito da temperatura e do pH realizada após 3 meses da liofilização comprovou a estabilidade do extrato liofilizado.
-# sent_id = 48-20150126-MONOGRAFIA_0-457
+# sent_id = 48-20150126-MONOGRAFIA_0-459
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 3	abaixo	abaixo	ADV	_	_	17	advmod	_	SpaceAfter=No
@@ -12501,10 +12448,10 @@
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 30	liofilizado	liofilizado	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n\n
 
 # text = Outros autores já observaram que o processo de liofilização mantém a conformação, a estabilidade e a termoestabilidade de outras lipases como a produzida por Candida rugosa.
-# sent_id = 48-20150126-MONOGRAFIA_0-458
+# sent_id = 48-20150126-MONOGRAFIA_0-460
 1	Outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	autores	autor	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	já	já	ADV	_	_	4	advmod	_	_
@@ -12535,21 +12482,21 @@
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = (Yu et al.
-# sent_id = 48-20150126-MONOGRAFIA_0-459
+# sent_id = 48-20150126-MONOGRAFIA_0-461
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Yu	Yr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	et	et	X	_	Number=Sing	2	obj	_	_
 4	al.	al.	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 
 # text = 2005) 5.5.
-# sent_id = 48-20150126-MONOGRAFIA_0-460
+# sent_id = 48-20150126-MONOGRAFIA_0-462
 1	2005	2005	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	1	punct	_	_
 3	5.5	5.5	NUM	_	NumType=Card	1	flat	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Efeito da temperatura e do pH na atividade lipásica
-# sent_id = 48-20150126-MONOGRAFIA_0-461
+# sent_id = 48-20150126-MONOGRAFIA_0-463
 1	Efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12567,7 +12514,7 @@
 12	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 
 # text = O pH e temperatura ótimos de atuação das lipases, presentes no extrato bruto liofilizado obtido por FES, foram determinados variando-se o pH entre 5,4 e 7,6 e a temperatura (T) entre 28 e 42oC.
-# sent_id = 48-20150126-MONOGRAFIA_0-462
+# sent_id = 48-20150126-MONOGRAFIA_0-464
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	ph	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -12615,7 +12562,7 @@
 42	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Os valores das variáveis testadas estão apresentados na Tabela 5.9: e na Figura 5.9.
-# sent_id = 48-20150126-MONOGRAFIA_0-463
+# sent_id = 48-20150126-MONOGRAFIA_0-465
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -12640,7 +12587,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A análise dos dados foi realizada utilizando o software Statistica 6.0.
-# sent_id = 48-20150126-MONOGRAFIA_0-464
+# sent_id = 48-20150126-MONOGRAFIA_0-466
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -12657,7 +12604,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A análise estatística permitiu verificar o efeito das variáveis pH e temperatura na atividade da enzima (Tabela 5.10) e indicar as melhores condições de pH e temperatura de atuação da lipase do fungo Aspergillus parasiticus, na faixa estudada (Figura 5.9).
-# sent_id = 48-20150126-MONOGRAFIA_0-465
+# sent_id = 48-20150126-MONOGRAFIA_0-467
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	estatística	estatístico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -12718,7 +12665,7 @@
 52	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 5.9: Variáveis testadas (temperatura e pH), condições utilizadas nos ensaios e atividades lipásicas (AST) obtidas.
-# sent_id = 48-20150126-MONOGRAFIA_0-466
+# sent_id = 48-20150126-MONOGRAFIA_0-468
 1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5.9:	5.9:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Variáveis	variáveis	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -12745,13 +12692,13 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 5.10:
-# sent_id = 48-20150126-MONOGRAFIA_0-467
+# sent_id = 48-20150126-MONOGRAFIA_0-469
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.10	5.10	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Efeito das variáveis pH e temperatura sobre a atividade lipásica.
-# sent_id = 48-20150126-MONOGRAFIA_0-468
+# sent_id = 48-20150126-MONOGRAFIA_0-470
 1	Efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -12764,10 +12711,10 @@
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 11	lipásica	lipásico	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.9:Gráfico de resposta para atividade lipásica em função das variáveis, pH e da temperatura.
-# sent_id = 48-20150126-MONOGRAFIA_0-469
+# sent_id = 48-20150126-MONOGRAFIA_0-471
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5.9:	5.9:	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	Gráfico	gráfico	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -12792,7 +12739,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As variáveis temperatura e pH apresentaram um efeito positivo sobre a atividade lipásica, isto é, maiores atividades foram obtidas em função do aumento da temperatura e do pH.
-# sent_id = 48-20150126-MONOGRAFIA_0-470
+# sent_id = 48-20150126-MONOGRAFIA_0-472
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	variáveis	variável	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -12831,7 +12778,7 @@
 33	pH.	pH.	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	_
 
 # text = Além disso, observou-se que a variável, pH, apresentou maior efeito sobre a atividade da enzima.
-# sent_id = 48-20150126-MONOGRAFIA_0-471
+# sent_id = 48-20150126-MONOGRAFIA_0-473
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -12859,7 +12806,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No entanto, o valor máximo de atividade lipásica (7,63 U/mL) foi obtido em condições intermediárias (ponto central), em temperatura de 35ºC e pH 6,5, indicando que as condições ótimas estão nesta região, sendo necessários mais ensaios para construção de um modelo de segunda ordem e a determinação das condições ótimas desta enzima.
-# sent_id = 48-20150126-MONOGRAFIA_0-472
+# sent_id = 48-20150126-MONOGRAFIA_0-474
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -12931,7 +12878,7 @@
 65	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Estes resultados indicam que a lipase de A. parasiticus é uma enzima neutra e que atua em condições brandas de temperatura, assim como a lipase do fungo Aspergillus niger e Penicillium restrictum (Carvalho et al., 2005;
-# sent_id = 48-20150126-MONOGRAFIA_0-473
+# sent_id = 48-20150126-MONOGRAFIA_0-475
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12976,17 +12923,17 @@
 41	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = Jesus et al, 1999).
-# sent_id = 48-20150126-MONOGRAFIA_0-474
+# sent_id = 48-20150126-MONOGRAFIA_0-476
 1	Jesus	Jesu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	det	_	_
 2	et	et	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	al	al	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	1999	1999	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Baseando-se neste resultado, os experimentos de obtenção da atividade de esterificação foram realizados sob estas condições.
-# sent_id = 48-20150126-MONOGRAFIA_0-475
+# sent_id = 48-20150126-MONOGRAFIA_0-477
 1-2	Baseando-se	_	_	_	_	_	_	_	_
 1	Baseando	Basear	VERB	_	VerbForm=Ger	17	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -13013,12 +12960,12 @@
 21	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = 5.6.
-# sent_id = 48-20150126-MONOGRAFIA_0-476
+# sent_id = 48-20150126-MONOGRAFIA_0-478
 1	5.6	5.6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade e eficiência de imobilização
-# sent_id = 48-20150126-MONOGRAFIA_0-477
+# sent_id = 48-20150126-MONOGRAFIA_0-479
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -13026,7 +12973,7 @@
 5	imobilização	imobilização	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = As vantagens do uso de enzimas imobilizadas em relação ao uso de preparações de enzimas livres, principalmente em reações de síntese em reações de síntese são muitas, como por exemplo: facilidade de recuperação do biocatalisador e facilidade de separação dos produtos (Benjamin e Pandey, 1998;
-# sent_id = 48-20150126-MONOGRAFIA_0-478
+# sent_id = 48-20150126-MONOGRAFIA_0-480
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	vantagens	vantagen	NOUN	_	Gender=Fem|Number=Plur	30	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -13088,7 +13035,7 @@
 55	;	;	PUNCT	_	_	30	punct	_	_
 
 # text = Villeneuve et al., 2000).
-# sent_id = 48-20150126-MONOGRAFIA_0-479
+# sent_id = 48-20150126-MONOGRAFIA_0-481
 1	Villeneuve	Villeneuver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -13098,7 +13045,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Deste modo, avaliou-se preliminarmente a imobilização da lipase deste fungo no suporte polipropileno microporoso (Accurel MP1000) segundo metodologia desenvolvida em trabalhos anteriores (Oliveira et al, 2006).
-# sent_id = 48-20150126-MONOGRAFIA_0-480
+# sent_id = 48-20150126-MONOGRAFIA_0-482
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -13144,7 +13091,7 @@
 38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A determinação da eficiência e rendimento de imobilização, segundo o método descrito em 4.2.5.3., está apresentada na Tabela 5.11.
-# sent_id = 48-20150126-MONOGRAFIA_0-481
+# sent_id = 48-20150126-MONOGRAFIA_0-483
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -13174,13 +13121,13 @@
 25	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Tabela 5.11:
-# sent_id = 48-20150126-MONOGRAFIA_0-482
+# sent_id = 48-20150126-MONOGRAFIA_0-484
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5.11	5.11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Eficiência e rendimento de imobilização da enzima do fungo Aspergillus parasiticus.
-# sent_id = 48-20150126-MONOGRAFIA_0-483
+# sent_id = 48-20150126-MONOGRAFIA_0-485
 1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
@@ -13196,10 +13143,10 @@
 11	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	Aspergillus	Aspergillus	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
 13	parasiticus	parasiticus	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Os valores de eficiência e rendimento de imobilização são bastante elevados comparativamente a outros trabalhos da literatura.(Oliveira et al, 2007;
-# sent_id = 48-20150126-MONOGRAFIA_0-484
+# sent_id = 48-20150126-MONOGRAFIA_0-486
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13228,7 +13175,7 @@
 25	;	;	PUNCT	_	_	11	punct	_	_
 
 # text = Bernardes et al., 2007;
-# sent_id = 48-20150126-MONOGRAFIA_0-485
+# sent_id = 48-20150126-MONOGRAFIA_0-487
 1	Bernardes	Bernardes	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -13237,7 +13184,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Bevilaqua et al., 2005).
-# sent_id = 48-20150126-MONOGRAFIA_0-486
+# sent_id = 48-20150126-MONOGRAFIA_0-488
 1	Bevilaqua	Bevilaquar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -13247,7 +13194,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Entretanto, cabe ressaltar que estes resultados são preliminares e que uma otimização do procedimento de imobilização faz-se necessária.
-# sent_id = 48-20150126-MONOGRAFIA_0-487
+# sent_id = 48-20150126-MONOGRAFIA_0-489
 1	Entretanto	entretanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	cabe	caber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13274,12 +13221,12 @@
 22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 5.7.
-# sent_id = 48-20150126-MONOGRAFIA_0-488
+# sent_id = 48-20150126-MONOGRAFIA_0-490
 1	5.7	5.7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estudo da atividade de esterificação da lipase
-# sent_id = 48-20150126-MONOGRAFIA_0-489
+# sent_id = 48-20150126-MONOGRAFIA_0-491
 1	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -13293,14 +13240,14 @@
 9	lipase	lipase	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 
 # text = Observando que o fungo
-# sent_id = 48-20150126-MONOGRAFIA_0-490
+# sent_id = 48-20150126-MONOGRAFIA_0-492
 1	Observando	Observar	VERB	_	VerbForm=Ger	0	root	_	_
 2	que	que	SCONJ	_	_	4	mark	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fungo	fungo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 
 # text = Aspergillus parasiticus apresenta-se como um bom produtor de lipases, realizou-se uma avaliação preliminar da potencial aplicação desta enzima em reações de síntese em meio aquo-restrito.
-# sent_id = 48-20150126-MONOGRAFIA_0-491
+# sent_id = 48-20150126-MONOGRAFIA_0-493
 1	Aspergillus	Aspergillu	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	parasiticus	parasiticu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	apresenta-se	_	_	_	_	_	_	_	_
@@ -13338,7 +13285,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A reação de esterificaçãode oleato de etila foi escolhida porque diversos autores na literatura, indicam esta reação interessante para avaliar o potencial de lipases na síntese de biodiesel (Bernardes et al., 2007).
-# sent_id = 48-20150126-MONOGRAFIA_0-492
+# sent_id = 48-20150126-MONOGRAFIA_0-494
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13382,7 +13329,7 @@
 39	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A atividade de esterificação da lipase do fungo A. parasiticus foi realizada com a enzima imobilizada e de acordo com os procedimentos definidos no item 4.2.5.8..
-# sent_id = 48-20150126-MONOGRAFIA_0-493
+# sent_id = 48-20150126-MONOGRAFIA_0-495
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13418,7 +13365,7 @@
 30	..	..	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Os experimentos foram realizados em triplicata, e encontraram-se atividadesreprodutíveis de 300 U/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-494
+# sent_id = 48-20150126-MONOGRAFIA_0-496
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -13437,7 +13384,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Este valor é bastante interessante quando comparado ao de enzimas comerciais de elevado custo como por exemplo a Lipozyme, que apresentam atividade sintéticas que variam 120 a 600
-# sent_id = 48-20150126-MONOGRAFIA_0-495
+# sent_id = 48-20150126-MONOGRAFIA_0-497
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -13471,7 +13418,7 @@
 30	600	600	NUM	_	NumType=Card	28	nmod	_	_
 
 # text = U/g (Castro et al, 1997).
-# sent_id = 48-20150126-MONOGRAFIA_0-496
+# sent_id = 48-20150126-MONOGRAFIA_0-498
 1	U/g	U/g	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	Castro	Castro	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	_
@@ -13480,19 +13427,19 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1997	1997	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 6.
-# sent_id = 48-20150126-MONOGRAFIA_0-497
+# sent_id = 48-20150126-MONOGRAFIA_0-499
 1	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Conclusões
-# sent_id = 48-20150126-MONOGRAFIA_0-498
+# sent_id = 48-20150126-MONOGRAFIA_0-500
 1	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = O rejeito de babaçu demonstrou ter um grande potencial nutricional, possibilitando o bom desenvolvimento do microorganismo em termos de produção de enzimas, uma vez que os resultados obtidos neste trabalho mostraram não haver a necessidade de utilização de fontes suplementares de carbono e nitrogênio, o que pode levar a uma considerável economia com matérias-primas no processo industrial.
-# sent_id = 48-20150126-MONOGRAFIA_0-499
+# sent_id = 48-20150126-MONOGRAFIA_0-501
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rejeito	rejeito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13562,7 +13509,7 @@
 64	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Com a utilização da técnica de planejamento experimental foi possível a determinação das condições de fermentação que permitiram a maximização da produção da atividade lipásica (temperatura de 28°C, umidade de 65 %) e minimização da concentração de inóculo de 106 esporos/g.
-# sent_id = 48-20150126-MONOGRAFIA_0-500
+# sent_id = 48-20150126-MONOGRAFIA_0-502
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -13620,7 +13567,7 @@
 50	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Entretanto, como a variável concentração de inóculo apresentou pouca influência sob a produção de lipase, utilizou-se a menor concentração de inóculo testada, o que significa 125 vezes menos esporos no processo.
-# sent_id = 48-20150126-MONOGRAFIA_0-501
+# sent_id = 48-20150126-MONOGRAFIA_0-503
 1	Entretanto	entretanto	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	como	como	ADP	_	_	6	case	_	_
@@ -13662,7 +13609,7 @@
 37	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A maior produção de proteases foi obtida utilizando-se temperaturas de incubação inferiores a 28ºC e valores de umidade menores que 70%, condições ótimas parecidas com as da lipase.
-# sent_id = 48-20150126-MONOGRAFIA_0-502
+# sent_id = 48-20150126-MONOGRAFIA_0-504
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	produção	produção	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -13700,7 +13647,7 @@
 33	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Mas pôde-se observar que se utilizando temperaturas de incubação maiores, de 30 a 35 ºC, a produção de lipase é favorecida.
-# sent_id = 48-20150126-MONOGRAFIA_0-503
+# sent_id = 48-20150126-MONOGRAFIA_0-505
 1	Mas	mas	CCONJ	_	_	2	cc	_	_
 2-3	pôde-se	_	_	_	_	_	_	_	_
 2	pôde	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -13729,7 +13676,7 @@
 25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Com relação ao efeito do pH e da temperatura de atuação da enzima, as condições ótimas foram obtidas em temperatura de 35ºC e pH 6,5, indicando que esta enzima possui características neutras e mesofilicas.
-# sent_id = 48-20150126-MONOGRAFIA_0-504
+# sent_id = 48-20150126-MONOGRAFIA_0-506
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -13777,7 +13724,7 @@
 41	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = A elevada atividade catalítica da enzima frente aos substratos p-nitrofenil ésteres de cadeia curta indica fortemente que esta preparação bruta contém elevada concentração de esterases, com afinidade por ésteres de cadeia curta.
-# sent_id = 48-20150126-MONOGRAFIA_0-505
+# sent_id = 48-20150126-MONOGRAFIA_0-507
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	elevada	elevar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
 3	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -13805,7 +13752,7 @@
 23	contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 24	elevada	elevada	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 25	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
-26	de	de	ADP	_	_	27	case	_	_
+26	de	de	ADP	_	_	27	case	_	SpacesAfter=\s\n
 27	esterases	esterase	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	com	com	ADP	_	_	30	case	_	_
@@ -13818,7 +13765,7 @@
 36	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Pôde-se verificar que a maior Vmáx e o menor Km foram observados para o éster de cadeia curta (C4).
-# sent_id = 48-20150126-MONOGRAFIA_0-506
+# sent_id = 48-20150126-MONOGRAFIA_0-508
 1-2	Pôde-se	_	_	_	_	_	_	_	_
 1	Pôde	pôder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -13845,7 +13792,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A capacidade desta enzima de apresentar altas atividades de esterificação, em meio aquo-restrito, torna esta preparação um alvo interessante para atuar na produção de biodiesel e/ou biolubrificantes.
-# sent_id = 48-20150126-MONOGRAFIA_0-507
+# sent_id = 48-20150126-MONOGRAFIA_0-509
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3-4	desta	_	_	_	_	_	_	_	_
@@ -13879,20 +13826,20 @@
 29	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 30	e/ou	e/ou	CCONJ	_	_	31	cc	_	_
 31	biolubrificantes	biolubrificante	NOUN	_	Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text = 7.
-# sent_id = 48-20150126-MONOGRAFIA_0-508
+# sent_id = 48-20150126-MONOGRAFIA_0-510
 1	7	7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Trabalhos futuros
-# sent_id = 48-20150126-MONOGRAFIA_0-509
+# sent_id = 48-20150126-MONOGRAFIA_0-511
 1	Trabalhos	Trabalho	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	futuros	futuro	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Com base nos resultados e conclusões obtidos neste estudo, sugere-se como trabalhos futuros: -
-# sent_id = 48-20150126-MONOGRAFIA_0-510
+# sent_id = 48-20150126-MONOGRAFIA_0-512
 1	Com	com	ADP	_	_	2	case	_	_
 2	base	base	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -13917,7 +13864,7 @@
 19	-	-	PUNCT	_	_	13	punct	_	_
 
 # text = A produção e otimização de enzimas lipases, utilizando-se como meio de cultivo outros rejeitos agroindustriais, como por exemplo, a mamona e o pinhão manso; -Otimização da etapa de imobilização da preparação enzimática em suportes comerciais e produzidos na UFRJ;
-# sent_id = 48-20150126-MONOGRAFIA_0-511
+# sent_id = 48-20150126-MONOGRAFIA_0-513
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -13972,7 +13919,7 @@
 48	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = -Caracterização da preparação enzimática bruta produzida em relação as suas características de régio, quimio e estereoespecificidade.;
-# sent_id = 48-20150126-MONOGRAFIA_0-512
+# sent_id = 48-20150126-MONOGRAFIA_0-514
 1	-Caracterização	-Caracterização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -13996,7 +13943,7 @@
 20	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = -Melhoramento da produção utilizando-se técnicas de Biologia Molecular; -Estudos de aplicação da enzima como catalisador de reações (hidrólise e esterificação) de interesse para a indústria do petróleo.
-# sent_id = 48-20150126-MONOGRAFIA_0-513
+# sent_id = 48-20150126-MONOGRAFIA_0-515
 1	-Melhoramento	-Melhoramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -14036,5 +13983,5 @@
 33	de	de	ADP	_	_	35	case	_	_
 34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 

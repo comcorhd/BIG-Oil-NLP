@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 370-20150827-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -570,7 +570,7 @@
 12	realizar	realizar	VERB	_	VerbForm=Inf	4	advcl	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Espera-se obter desde trabalho informações que possibilitem a reavaliação dos parâmetros de processo a um baixo custo em relação a outros sistemas instrumentados já existentes, assim como baixo impacto ambiental e resultados confiáveis através da técnica de ruído eletroquímico.
 # sent_id = 370-20150827-MONOGRAFIA_0-20
@@ -954,7 +954,7 @@
 4	al	al	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	2005	2005	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
+7	)	)	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
 8	3	3	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1322,7 +1322,7 @@
 74	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	70	obj	_	SpaceAfter=No
 75	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = Através da análise da energia de estabilização do campo cristalino (EECC) para o Fe e seu cátion Fe+2 foi possível perceber que estes formam compostos mais estáveis com o ligante R(CH2)nCOO- do que metais como cromo, níquel, molibdênio e seus respectivos íons.
+# text = Através da análise da energia de estabilização do campo cristalino (EECC) para o Fe e seu cátion Fe+2 foi possível perceber que estes formam compostos mais estáveis com o ligante R(CH2)nCOO-do que metais como cromo, níquel, molibdênio e seus respectivos íons.
 # sent_id = 370-20150827-MONOGRAFIA_0-39
 1	Através	através	ADV	_	_	19	cc	_	_
 2-3	da	_	_	_	_	_	_	_	_
@@ -1365,23 +1365,20 @@
 36	R(	r(	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
 37	CH2	CH2	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
 38	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
-39	nCOO-	nCOO-	SYM	_	_	25	appos	_	_
-40-41	do	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	43	case	_	_
-41	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	40	fixed	_	_
-42	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	40	fixed	_	_
-43	metais	metal	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	_
-44	como	como	ADP	_	_	45	case	_	_
-45	cromo	cromo	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+39	nCOO-do	nCOO-r	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	41	acl	_	_
+40	que	que	SCONJ	_	_	41	mark	_	_
+41	metais	metal	NOUN	_	Gender=Fem|Number=Plur	25	appos	_	_
+42	como	como	ADP	_	_	43	case	_	_
+43	cromo	cromo	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	níquel	níquel	NOUN	_	Gender=Masc|Number=Sing	43	conj	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	47	punct	_	_
-47	níquel	níquel	ADJ	_	Gender=Masc|Number=Sing	45	conj	_	SpaceAfter=No
-48	,	,	PUNCT	_	_	49	punct	_	_
-49	molibdênio	molibdênio	ADJ	_	Gender=Masc|Number=Sing	45	conj	_	_
-50	e	e	CCONJ	_	_	53	cc	_	_
-51	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	53	det	_	_
-52	respectivos	respectivo	ADJ	_	Gender=Masc|Number=Plur	53	amod	_	_
-53	íons	íom	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	25	punct	_	_
+47	molibdênio	molibdênio	NOUN	_	Gender=Masc|Number=Sing	43	conj	_	_
+48	e	e	CCONJ	_	_	51	cc	_	_
+49	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	51	det	_	_
+50	respectivos	respectivo	ADJ	_	Gender=Masc|Number=Plur	51	amod	_	SpacesAfter=\s\n
+51	íons	íom	NOUN	_	Gender=Masc|Number=Plur	43	conj	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Dessa forma é possível explicar a vulnerabilidade das ligas que apresentam mais pontos de maior concentração de ferro em suas superfícies (1).
 # sent_id = 370-20150827-MONOGRAFIA_0-40
@@ -1500,18 +1497,8 @@
 59	abaixo	abaixo	ADV	_	_	58	advmod	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
-# text = Fe + H2S  FeS + H2
-# sent_id = 370-20150827-MONOGRAFIA_0-43
-1	Fe	Fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	+	+	SYM	_	_	1	obj	_	_
-3	H2S	H2S	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-4			PROPN	_	Number=Sing	3	flat:name	_	_
-5	FeS	FeS	PROPN	_	Number=Sing	3	flat:name	_	_
-6	+	+	SYM	_	_	1	obj	_	_
-7	H2	H2	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
-
 # text = Este mecanismo é um objeto de estudo recente, tendo em vista que é difícil analisar este tipo de corrosão utilizando técnicas tradicionais de análise.
-# sent_id = 370-20150827-MONOGRAFIA_0-44
+# sent_id = 370-20150827-MONOGRAFIA_0-43
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1540,7 +1527,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Seguindo esta necessidade, surgiu a técnica de ruído eletroquímico, que possibilita o monitoramento deste mecanismo de corrosão.
-# sent_id = 370-20150827-MONOGRAFIA_0-45
+# sent_id = 370-20150827-MONOGRAFIA_0-44
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -1565,7 +1552,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4. RUÍDO ELETROQUÍMICO As técnicas disponíveis para avaliar corrosão não contemplam a corrosão naftênica nas refinarias.
-# sent_id = 370-20150827-MONOGRAFIA_0-46
+# sent_id = 370-20150827-MONOGRAFIA_0-45
 1	4	4	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	RUÍDO	ruir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
@@ -1588,7 +1575,7 @@
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A perda de massa em cupons é um offline e demorada, pois até se obter o resultado, o fluido com as características medidas já está mais a frente no processo e, caso ações sejam tomadas utilizando cupons como ferramenta, podem causar flutuações a mais no processo.
-# sent_id = 370-20150827-MONOGRAFIA_0-47
+# sent_id = 370-20150827-MONOGRAFIA_0-46
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	perda	perda	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1646,7 +1633,7 @@
 53	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Outra técnica bastante utilizada, a resistência elétrica, seria uma boa opção se o meio oleoso não tivesse baixa condutividade elétrica.
-# sent_id = 370-20150827-MONOGRAFIA_0-48
+# sent_id = 370-20150827-MONOGRAFIA_0-47
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	bastante	bastante	ADV	_	_	4	advmod	_	_
@@ -1672,7 +1659,7 @@
 23	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Tendo em vista estas dificuldades, a técnica de ruído eletroquímico, introduzida por Al-Mazeedi e Cottis proporciona a opção de um monitoramento online e sensível, pois os ruídos eletroquímicos são flutuações espontâneas de corrente e potencial que um sistema apresenta devido a um processo corrosivo (2) sendo possível utilizá-lo em meios não ionizantes.
-# sent_id = 370-20150827-MONOGRAFIA_0-49
+# sent_id = 370-20150827-MONOGRAFIA_0-48
 1	Tendo	ter	VERB	_	VerbForm=Ger	18	advcl	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	vista	vista	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
@@ -1734,8 +1721,8 @@
 58	ionizantes	ionizante	ADJ	_	Gender=Masc|Number=Plur	53	amod	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
-# text = O modelo proposto por Al-Mazeedi e Cottis analisa qualitativamente o mecanismo de corrosão, se é corrosçao localizada, generalizada ou se está na região de passivação, como no diagrama abaixo, relacionando a resistência de ruído com a frequência de eventos.
-# sent_id = 370-20150827-MONOGRAFIA_0-50
+# text = O modelo proposto por Al-Mazeedi e Cottis analisa qualitativamente o mecanismo de corrosão, se é corrosçao localizada, generalizada ou se está na região de passivação, como no diagrama abaixo, relacionando a resistência de ruído com a frequência de FIGURA 3 –
+# sent_id = 370-20150827-MONOGRAFIA_0-49
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -1780,105 +1767,33 @@
 40	ruído	ruído	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 41	com	com	ADP	_	_	43	case	_	_
 42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
-44	de	de	ADP	_	_	45	case	_	_
-45	eventos	evento	NOUN	_	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	8	punct	_	_
+43	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+44	de	de	ADP	_	_	46	case	_	SpacesAfter=\s\n
+45	FIGURA	figuro	ADV	_	_	46	advmod	_	_
+46	3	3	NUM	_	NumType=Card	43	nmod	_	_
+47	–	–	PUNCT	_	_	8	punct	_	_
 
-# text = Através de experimentos, os pesquisadores relacionaram a carga característica, associada à massa perdida pelos eletrodos de aço utilizados na medida, calculada pela integral da densidade de corrente em relação ao tempo e a frequencia de eventos, que está relacionada com a velocidade em que os ruídos e picos estão ocorrendo.
-# sent_id = 370-20150827-MONOGRAFIA_0-51
-1	Através	através	ADV	_	_	7	advmod	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
-7	relacionaram	relacionar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	carga	carga	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
-10	característica	característica	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	associada	associar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	26	acl	_	_
-13-14	à	_	_	_	_	_	_	_	_
-13	a	a	ADP	_	_	15	case	_	_
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	massa	massa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-16	perdida	perder	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
-17-18	pelos	_	_	_	_	_	_	_	_
-17	por	por	ADP	_	_	19	case	_	_
-18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	eletrodos	eletrodo	NOUN	_	Gender=Masc|Number=Plur	16	obl:agent	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	aço	aço	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-22	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	_
-23-24	na	_	_	_	_	_	_	_	_
-23	em	em	ADP	_	_	25	case	_	_
-24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	medida	medida	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
-27	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	36	acl	_	_
-28-29	pela	_	_	_	_	_	_	_	_
-28	por	por	ADP	_	_	30	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	integral	integral	NOUN	_	Gender=Fem|Number=Sing	27	obl:agent	_	_
-31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-34	de	de	ADP	_	_	35	case	_	_
-35	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-36	em	em	ADP	_	_	37	case	_	_
-37	relação	relação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
-38-39	ao	_	_	_	_	_	_	_	_
-38	a	a	ADP	_	_	40	case	_	_
-39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
-41	e	e	CCONJ	_	_	43	cc	_	_
-42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	frequencia	frequencia	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-44	de	de	ADP	_	_	45	case	_	_
-45	eventos	evento	NOUN	_	Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
-46	,	,	PUNCT	_	_	7	punct	_	_
-47	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	49	nsubj	_	_
-48	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
-49	relacionada	relacionado	ADJ	_	Gender=Fem|Number=Sing	7	acl:relcl	_	_
-50	com	com	ADP	_	_	52	case	_	_
-51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
-52	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	49	obl	_	_
-53	em	em	ADP	_	_	54	case	_	_
-54	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	60	obl	_	_
-55	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
-56	ruídos	ruído	NOUN	_	Gender=Masc|Number=Plur	60	nsubj	_	_
-57	e	e	CCONJ	_	_	58	cc	_	_
-58	picos	pico	NOUN	_	Gender=Masc|Number=Plur	56	conj	_	_
-59	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
-60	ocorrendo	ocorrer	VERB	_	VerbForm=Ger	49	acl:relcl	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
-
-# text = FIGURA 3 – Diagrama que relaciona a resistência de ruído e frequência de eventos com os tipos de corrosão
-# sent_id = 370-20150827-MONOGRAFIA_0-52
-1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
-2	3	3	NUM	_	NumType=Card	0	root	_	_
-3	–	–	PUNCT	_	_	2	punct	_	_
-4	Diagrama	Diagrama	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-5	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
-6	relaciona	relacionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	ruído	ruído	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	e	e	CCONJ	_	_	12	cc	_	_
-12	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	eventos	evento	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-15	com	com	ADP	_	_	17	case	_	_
-16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	6	iobj	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+# text = Diagrama que relaciona a resistência de ruído e frequência de eventos com os tipos de corrosão
+# sent_id = 370-20150827-MONOGRAFIA_0-50
+1	Diagrama	Diagramar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	3	mark	_	_
+3	relaciona	relacionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ruído	ruído	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	eventos	evento	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 
 # text = Tendo a corrente e a potência aplicada, obtemos a resistência do ruído (Rn) e com a frequência de eventos relacionamos esta resistência com a resistência a corrosão (Rc), de acordo com a equação abaixo, calculado pela divisão dos desvios.
-# sent_id = 370-20150827-MONOGRAFIA_0-53
+# sent_id = 370-20150827-MONOGRAFIA_0-51
 1	Tendo	ter	AUX	_	VerbForm=Ger	3	cop	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -1934,7 +1849,7 @@
 50	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Através da análise do ruído, podemos classificar qualitativamente a corrosão que atinge a metalurgia.
-# sent_id = 370-20150827-MONOGRAFIA_0-54
+# sent_id = 370-20150827-MONOGRAFIA_0-52
 1	Através	através	ADV	_	_	9	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1957,7 +1872,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Um método quantitativo utilizando a carga para calcular a taxa de corrosão foi desenvolvido pela doutoranda Ana Carolina Gomes, que em breve defenderá sua tese.
-# sent_id = 370-20150827-MONOGRAFIA_0-55
+# sent_id = 370-20150827-MONOGRAFIA_0-53
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
 3	quantitativo	quantitativo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1988,16 +1903,19 @@
 27	tese	tese	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = 5. MATERIAIS E MÉTODOS
-# sent_id = 370-20150827-MONOGRAFIA_0-56
+# text = 5.
+# sent_id = 370-20150827-MONOGRAFIA_0-54
 1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	MATERIAIS	material	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
-4	E	e	CCONJ	_	_	5	cc	_	_
-5	MÉTODOS	método	ADJ	_	Gender=Masc|Number=Plur	3	conj	_	_
+
+# text = MATERIAIS E MÉTODOS
+# sent_id = 370-20150827-MONOGRAFIA_0-55
+1	MATERIAIS	material	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	E	e	CCONJ	_	_	3	cc	_	_
+3	MÉTODOS	método	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 
 # text = Os materiais aqui listados compõem o setup experimental completo após o trabalho de adaptação do sistema, divididos em reator e acessórios, reagentes e material utilizado como amostras nos eletrodos.
-# sent_id = 370-20150827-MONOGRAFIA_0-57
+# sent_id = 370-20150827-MONOGRAFIA_0-56
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	materiais	material	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	aqui	aqui	ADV	_	_	4	advmod	_	_
@@ -2036,7 +1954,7 @@
 34	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O reator já existia e foi adaptado para realizar os experimentos com maior frequência, segurança e sem desperdícios.
-# sent_id = 370-20150827-MONOGRAFIA_0-58
+# sent_id = 370-20150827-MONOGRAFIA_0-57
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	reator	reator	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	já	já	ADV	_	_	4	advmod	_	_
@@ -2056,16 +1974,16 @@
 17	e	e	CCONJ	_	_	19	cc	_	_
 18	sem	sem	ADP	_	_	19	case	_	_
 19	desperdícios	desperdício	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 5.1.
-# sent_id = 370-20150827-MONOGRAFIA_0-59
+# sent_id = 370-20150827-MONOGRAFIA_0-58
 1	5.1	5.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Materiais e equipamentos FIGURA 4 – Protótipo inicial do reator antes das alterações A) Reator • • • • Reator de Alumínio Usinado com isolamento térmico Agitador/Aquecedor Bomba Peristáltica Serpentina de Aço Carbono para resfriamento dos gases antes do tratamento 2
-# sent_id = 370-20150827-MONOGRAFIA_0-60
-1	Materiais	material	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+# text = Materiais e equipamentos FIGURA 4 – Protótipo inicial do reator antes das alterações A) Reator • • • • Reator de Alumínio Usinado com isolamento térmico Agitador/Aquecedor Bomba Peristáltica Serpentina de Aço Carbono para resfriamento dos gases antes do tratamento • • • • • • B) Reagentes 2
+# sent_id = 370-20150827-MONOGRAFIA_0-59
+1	Materiais	material	NOUN	_	Gender=Masc|Number=Plur	18	appos	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
 4	FIGURA	figura	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2084,7 +2002,7 @@
 15	alterações	alteração	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
 16	A	A	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	18	punct	_	_
-18	Reator	Reator	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+18	Reator	Reator	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 19	•	•	PUNCT	_	_	18	punct	_	_
 20	•	•	PUNCT	_	_	18	punct	_	_
 21	•	•	PUNCT	_	_	18	punct	_	_
@@ -2094,7 +2012,7 @@
 25	Alumínio	Alumínio	PROPN	_	Number=Sing	23	nmod	_	_
 26	Usinado	Usinado	PROPN	_	Number=Sing	25	flat:name	_	_
 27	com	com	ADP	_	_	28	case	_	_
-28	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+28	isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
 29	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 30	Agitador/Aquecedor	Agitador/Aquecedor	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	_
 31	Bomba	bomba	PROPN	_	Number=Sing	30	flat:name	_	_
@@ -2104,20 +2022,28 @@
 35	Aço	aço	PROPN	_	Number=Sing	30	nmod	_	_
 36	Carbono	Carbono	PROPN	_	Number=Sing	35	flat:name	_	_
 37	para	para	ADP	_	_	38	case	_	_
-38	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+38	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 39-40	dos	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 41	gases	gase	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
-42	antes	antes	ADV	_	_	30	advmod	_	_
+42	antes	antes	ADV	_	_	23	advmod	_	_
 43-44	do	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	_
-46	2	2	NUM	_	NumType=Card	45	nummod	_	_
+46	•	•	PUNCT	_	_	18	punct	_	_
+47	•	•	PUNCT	_	_	18	punct	_	_
+48	•	•	PUNCT	_	_	18	punct	_	_
+49	•	•	PUNCT	_	_	18	punct	_	_
+50	•	•	PUNCT	_	_	18	punct	_	_
+51	•	•	PUNCT	_	_	18	punct	_	_
+52	B)	B)	PROPN	_	Number=Sing	18	flat:name	_	_
+53	Reagentes	Reagentes	PROPN	_	Number=Sing	18	flat:name	_	_
+54	2	2	PROPN	_	Number=Sing	18	flat:name	_	_
 
 # text = Filtros Sensor de Explosividade Sonda de Corrosão Potenciostato/galvanostato/ZRA da Gamry Instruments
-# sent_id = 370-20150827-MONOGRAFIA_0-61
+# sent_id = 370-20150827-MONOGRAFIA_0-60
 1	Filtros	filtro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	Sensor	Sensor	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2134,8 +2060,8 @@
 13	Gamry	Gamry	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	Instruments	Instruments	PROPN	_	Number=Sing	13	flat:name	_	_
 
-# text = Kitasato para stripping dos gases que saem dor reator Tubulações e válvulas • • • • • • B)
-# sent_id = 370-20150827-MONOGRAFIA_0-62
+# text = Kitasato para stripping dos gases que saem dor reator Tubulações e válvulas • • • Vaselina Líquida Mistura comercial de ácidos carboxílicos alquil-ciclopentanos (NAT definido)
+# sent_id = 370-20150827-MONOGRAFIA_0-61
 1	Kitasato	Kitasato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	stripping	stripping	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2153,63 +2079,52 @@
 14	•	•	PUNCT	_	_	1	punct	_	_
 15	•	•	PUNCT	_	_	1	punct	_	_
 16	•	•	PUNCT	_	_	1	punct	_	_
-17	•	•	PUNCT	_	_	1	punct	_	_
-18	•	•	PUNCT	_	_	1	punct	_	_
-19	•	•	PUNCT	_	_	1	punct	_	_
-20	B)	B)	PUNCT	_	_	1	punct	_	_
+17	Vaselina	Vaselina	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+18	Líquida	líquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
+19	Mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+20	comercial	comercial	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	ácidos	ácido	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	carboxílicos	carboxílico	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	alquil-ciclopentanos	alquil-ciclopentano	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	NAT	NAT	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
+27	definido	definido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	26	punct	_	_
 
-# text = Reagentes • • • Vaselina Líquida Mistura comercial de ácidos carboxílicos alquil-ciclopentanos (NAT definido) Butanotiol (butilmercaptana) C) Amostras • • A335P5 (4-6%Cr, 0,45-0,65%Mo)
-# sent_id = 370-20150827-MONOGRAFIA_0-63
-1	Reagentes	Reagente	NOUN	_	Gender=Unsp|Number=Plur	0	root	_	_
-2	•	•	PUNCT	_	_	1	punct	_	_
-3	•	•	PUNCT	_	_	1	punct	_	_
-4	•	•	PUNCT	_	_	1	punct	_	_
-5	Vaselina	Vaselina	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-6	Líquida	líquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
-7	Mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
-8	comercial	comercial	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	ácidos	ácido	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-11	carboxílicos	carboxílico	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
-12	alquil-ciclopentanos	alquil-ciclopentano	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
-13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	NAT	NAT	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
-15	definido	definido	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	14	punct	_	_
-17	Butanotiol	Butanotiol	PROPN	_	Gender=Masc|Number=Sing	21	conj	_	_
-18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	butilmercaptana	butilmercaptana	NOUN	_	Gender=Masc|Number=Sing	17	appos:parataxis	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	19	punct	_	_
-21	C	c	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	21	punct	_	_
-23	Amostras	amostras	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	_
-24	•	•	PUNCT	_	_	1	punct	_	_
-25	•	•	PUNCT	_	_	1	punct	_	_
-26	A335P5	A335P5	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	4-6%	4-6%	SYM	_	_	1	appos	_	SpaceAfter=No
-29	Cr	Cr	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	31	punct	_	_
-31	0,45-0,65%Mo	0,45-0,65%Mo	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	28	punct	_	_
-
-# text = A316 (16-18%Cr, 2-3%Mo, 10-14%Ni)
-# sent_id = 370-20150827-MONOGRAFIA_0-64
-1	A316	A316	NUM	_	NumType=Card	0	root	_	_
+# text = Butanotiol (butilmercaptana) C) Amostras • • A335P5 (4-6%Cr, 0,45-0,65%Mo) A316 (16-18%Cr, 2-3%Mo, 10-14%Ni)
+# sent_id = 370-20150827-MONOGRAFIA_0-62
+1	Butanotiol	Butanotiol	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	16-18%	16-18%	SYM	_	_	1	appos	_	SpaceAfter=No
-4	Cr	Cr	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	2-3%	2-3%	SYM	_	_	3	appos	_	SpaceAfter=No
-7	Mo	Mo	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
-9	10-14	10-14	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
-10	%	%	SYM	_	_	3	conj	_	SpaceAfter=No
-11	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	3	punct	_	_
+3	butilmercaptana	butilmercaptana	NOUN	_	Gender=Fem|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
+5	C	c	NOUN	_	Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	1	punct	_	_
+7	Amostras	amostras	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	_
+8	•	•	PUNCT	_	_	1	punct	_	_
+9	•	•	PUNCT	_	_	1	punct	_	_
+10	A335P5	A335P5	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	4-6%	4-6%	SYM	_	_	1	appos:parataxis	_	SpaceAfter=No
+13	Cr	Cr	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	0,45-0,65%Mo	0,45-0,65%Mo	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	A316	A316	PROPN	_	Number=Sing	15	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	16-18%	16-18%	SYM	_	_	1	appos	_	SpaceAfter=No
+20	Cr	Cr	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	2-3%	2-3%	SYM	_	_	19	appos	_	SpaceAfter=No
+23	Mo	Mo	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	19	punct	_	_
+25	10-14	10-14	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	_	_	19	appos	_	SpaceAfter=No
+27	Ni	Ni	PROPN	_	Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	19	punct	_	_
 
-# text = Após a adaptação com todos os itens acima, o reator foi colocado em uso e manutenção pelos alunos de IC e pela doutoranda.
-# sent_id = 370-20150827-MONOGRAFIA_0-65
+# text = Após a adaptação com todos os itens acima, o reator foi colocado em uso e FIGURA 5 – Reator após alterações
+# sent_id = 370-20150827-MONOGRAFIA_0-63
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	adaptação	adaptação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
@@ -2226,32 +2141,15 @@
 14	em	em	ADP	_	_	15	case	_	_
 15	uso	uso	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
-17	manutenção	manutenção	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
-18-19	pelos	_	_	_	_	_	_	_	_
-18	por	por	ADP	_	_	20	case	_	_
-19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-20	alunos	aluno	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	IC	IC	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-23	e	e	CCONJ	_	_	26	cc	_	_
-24-25	pela	_	_	_	_	_	_	_	_
-24	por	por	ADP	_	_	26	case	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	doutoranda	doutoranda	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
-
-# text = FIGURA 7 – Eletrodo pronto para análise
-# sent_id = 370-20150827-MONOGRAFIA_0-66
-1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
-2	7	7	NUM	_	NumType=Card	4	nummod	_	_
-3	–	–	PUNCT	_	_	2	punct	_	_
-4	Eletrodo	Eletrodo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-5	pronto	pronto	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-6	para	para	ADP	_	_	7	case	_	_
-7	análise	análise	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+17	FIGURA	figura	PROPN	_	Gender=Masc|Number=Sing	20	conj	_	_
+18	5	5	PROPN	_	Number=Sing	17	flat:name	_	_
+19	–	–	PUNCT	_	_	20	punct	_	_
+20	Reator	Reator	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+21	após	após	ADP	_	_	22	case	_	_
+22	alterações	alterações	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	SpacesAfter=\s\n
 
 # text = O procedimento experimental é realizado dentro de um vaso fechado cilíndrico de liga de alumínio com 3,52L de volume interno e o aquecimento é realizado por uma manta térmica e o reator é revestido com lã de rocha para diminuir as trocas de calor com o ambiente, como visto na Figura 5.
-# sent_id = 370-20150827-MONOGRAFIA_0-67
+# sent_id = 370-20150827-MONOGRAFIA_0-64
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2310,7 +2208,7 @@
 55	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O esquema do cabeçote do reator é apresentado na Figura 6, onde existe um manômetro, uma tubulação para a entrada de nitrogênio, uma tubulação para exaustão, um sensor de temperatura e pressão, uma entrada central para o encaixe da sonda e uma entrada extra que é utilizada para efetuar as trocas e limpeza do reator.
-# sent_id = 370-20150827-MONOGRAFIA_0-68
+# sent_id = 370-20150827-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2384,7 +2282,7 @@
 66	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = O nitrogênio é um inerte que evita a combustão da vaselina, circulando os gases gerados no interior do reator e fazendo com que estes saiam do mesmo.
-# sent_id = 370-20150827-MONOGRAFIA_0-69
+# sent_id = 370-20150827-MONOGRAFIA_0-66
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	nitrogênio	nitrogênio	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -2424,7 +2322,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A corrente de exaustão passa por um trocador de calor simples com água para reduzir a temperatura e evitar danos aos equipamentos utilizados no tratamento da mesma.
-# sent_id = 370-20150827-MONOGRAFIA_0-70
+# sent_id = 370-20150827-MONOGRAFIA_0-67
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2461,7 +2359,7 @@
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A corrente segue para tratamento em um filtro de carvão ativado, em seguida é liberado para a atmosfera pela capela.
-# sent_id = 370-20150827-MONOGRAFIA_0-71
+# sent_id = 370-20150827-MONOGRAFIA_0-68
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2488,7 +2386,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Nesta corrente de tratamento, existe um by-pass que passa por um filtro que retira o óleo que tenha sido arrastado pela corrente gasosa para em seguida ir para um sensor de explosividade.
-# sent_id = 370-20150827-MONOGRAFIA_0-72
+# sent_id = 370-20150827-MONOGRAFIA_0-69
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -2529,7 +2427,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para inserir ou retirar a solução do reator e realizar limpezas, uma bomba é utilizada.
-# sent_id = 370-20150827-MONOGRAFIA_0-73
+# sent_id = 370-20150827-MONOGRAFIA_0-70
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	inserir	inserir	VERB	_	VerbForm=Inf	17	advcl	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -2551,7 +2449,7 @@
 18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Após o preparo do equipamento e inserção da solução, o reator é aquecido e agitado até atingir a temperatura desejada, iniciando a medida do ruído com o potenciostato.
-# sent_id = 370-20150827-MONOGRAFIA_0-74
+# sent_id = 370-20150827-MONOGRAFIA_0-71
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
@@ -2588,15 +2486,15 @@
 31	com	com	ADP	_	_	33	case	_	_
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	potenciostato	potenciostato	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n\n
 
 # text = 5.2.
-# sent_id = 370-20150827-MONOGRAFIA_0-75
+# sent_id = 370-20150827-MONOGRAFIA_0-72
 1	5.2	5.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Preparo das soluções
-# sent_id = 370-20150827-MONOGRAFIA_0-76
+# sent_id = 370-20150827-MONOGRAFIA_0-73
 1	Preparo	preparo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2604,7 +2502,7 @@
 4	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = A = Quantidade da solução de KOH necessária para a titulação da amostra (mL)
-# sent_id = 370-20150827-MONOGRAFIA_0-77
+# sent_id = 370-20150827-MONOGRAFIA_0-74
 1	A	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	=	=	SYM	_	_	0	root	_	_
 3	Quantidade	Quantidade	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -2626,13 +2524,16 @@
 17	mL	mL	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	_
 
-# text = B =
-# sent_id = 370-20150827-MONOGRAFIA_0-78
+# text = B
+# sent_id = 370-20150827-MONOGRAFIA_0-75
 1	B	b	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	=	=	SYM	_	_	1	nmod	_	_
+
+# text = =
+# sent_id = 370-20150827-MONOGRAFIA_0-76
+1	=	=	SYM	_	_	0	root	_	_
 
 # text = Quantidade da solução de KOH necessária para a titulação do branco (mL)
-# sent_id = 370-20150827-MONOGRAFIA_0-79
+# sent_id = 370-20150827-MONOGRAFIA_0-77
 1	Quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2653,12 +2554,12 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = M =
-# sent_id = 370-20150827-MONOGRAFIA_0-80
+# sent_id = 370-20150827-MONOGRAFIA_0-78
 1	M	r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 
 # text = Molaridade da solução de KOH (0,1M) W =
-# sent_id = 370-20150827-MONOGRAFIA_0-81
+# sent_id = 370-20150827-MONOGRAFIA_0-79
 1	Molaridade	Molaridade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2673,7 +2574,7 @@
 11	=	=	SYM	_	_	1	nmod	_	_
 
 # text = Massa de amostra utilizada (g)
-# sent_id = 370-20150827-MONOGRAFIA_0-82
+# sent_id = 370-20150827-MONOGRAFIA_0-80
 1	Massa	massa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2683,7 +2584,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = A titulação em branco foi realizada com 100mL do solvente de titulação e 0,5mL do indicador (alaranjado de metila), adicionando KOH até virar.
-# sent_id = 370-20150827-MONOGRAFIA_0-83
+# sent_id = 370-20150827-MONOGRAFIA_0-81
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	titulação	titulação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -2718,7 +2619,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As outras titulações realizadas de maneira semelhante, adicionando a quantidade de ácido em solução com vaselina, de acordo com a tabela abaixo.
-# sent_id = 370-20150827-MONOGRAFIA_0-84
+# sent_id = 370-20150827-MONOGRAFIA_0-82
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	titulações	titulação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -2745,91 +2646,35 @@
 24	abaixo	abaixo	ADV	_	_	23	advmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = FIGURA 8 – Tabela extraída na ASTM D974 que atribui o tamanho da amostra para solução ácida FIGURA 9 – Amostra sendo titulada próxima do ponto de viragem, sob agitação
-# sent_id = 370-20150827-MONOGRAFIA_0-85
-1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
-2	8	8	NUM	_	NumType=Card	4	nummod	_	_
-3	–	–	PUNCT	_	_	4	punct	_	_
-4	Tabela	Tabela	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
-5	extraída	extraído	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-6-7	na	_	_	_	_	_	_	_	_
-6	em	em	ADP	_	_	8	case	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	ASTM	ASTM	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9	D974	D974	PROPN	_	Number=Sing	8	flat:name	_	_
-10	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	nsubj	_	_
-11	atribui	atribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
-14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-17	para	para	ADP	_	_	18	case	_	_
-18	solução	solução	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	ácida	ácer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
-20	FIGURA	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	9	9	NUM	_	NumType=Card	23	nummod	_	_
-22	–	–	PUNCT	_	_	21	punct	_	_
-23	Amostra	amostra	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
-24	sendo	ser	AUX	_	VerbForm=Ger	25	aux:pass	_	_
-25	titulada	titular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	xcomp	_	_
-26	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	25	xcomp	_	_
-27-28	do	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	viragem	viragem	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	26	punct	_	_
-33	sob	sob	ADP	_	_	34	case	_	_
-34	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+# text = FIGURA 8 –
+# sent_id = 370-20150827-MONOGRAFIA_0-83
+1	FIGURA	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	8	8	NUM	_	NumType=Card	1	obj	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
 
-# text = Após testes para diferentes
-# sent_id = 370-20150827-MONOGRAFIA_0-86
-1	Após	após	ADP	_	_	2	case	_	_
-2	testes	teste	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-3	para	para	ADP	_	_	4	case	_	_
-4	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
-
-# text = NATs, foi construída uma relação e comprovou-se a utilização da seguinte tabela para preparo das amostras, em quantidade de ácido naftênico a ser utilizado.
-# sent_id = 370-20150827-MONOGRAFIA_0-87
-1	NATs	NAT	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
-4	construída	construír	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	relação	relação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
-7	e	e	CCONJ	_	_	8	cc	_	_
-8-9	comprovou-se	_	_	_	_	_	_	_	_
-8	comprovou	comprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
-9	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	15	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-15	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-16	para	para	ADP	_	_	17	case	_	_
-17	preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-18-19	das	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-20	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	4	punct	_	_
-22	em	em	ADP	_	_	23	case	_	_
-23	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-26	naftênico	naftênico	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
-27	a	a	SCONJ	_	_	29	mark	_	_
-28	ser	ser	AUX	_	VerbForm=Inf	29	aux:pass	_	_
-29	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+# text = Tabela extraída na ASTM D974 que atribui o tamanho da amostra para solução ácida
+# sent_id = 370-20150827-MONOGRAFIA_0-84
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	extraída	extrair	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ASTM	ASTM	PROPN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	D974	D974	PROPN	_	Number=Sing	5	flat:name	_	_
+7	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	atribui	atribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	solução	solução	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	ácida	ácer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	SpacesAfter=\s\n\n
 
 # text = TABELA 1 – Relação entre o NAT e a quantidade em massa de ácido naftênico 6.
-# sent_id = 370-20150827-MONOGRAFIA_0-88
+# sent_id = 370-20150827-MONOGRAFIA_0-85
 1	TABELA	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	1	1	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -2849,7 +2694,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS E DISCUSSÃO Os dados obtidos foram anteriormente em outros trabalhos (3)(4).
-# sent_id = 370-20150827-MONOGRAFIA_0-89
+# sent_id = 370-20150827-MONOGRAFIA_0-86
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	11	cc	_	_
 3	DISCUSSÃO	discussão	ADV	_	_	11	advmod	_	_
@@ -2869,7 +2714,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Comparando a Figura 10 com a Figura 3, podemos detectar que o material não está isento do processo corrosivo, sofrendo corrosão localizada e a generalizada.
-# sent_id = 370-20150827-MONOGRAFIA_0-90
+# sent_id = 370-20150827-MONOGRAFIA_0-87
 1	Comparando	comparar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -2902,7 +2747,7 @@
 29	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = FIGURA 10 – Análise por ruído eletroquímico antes de tratamento matemático
-# sent_id = 370-20150827-MONOGRAFIA_0-91
+# sent_id = 370-20150827-MONOGRAFIA_0-88
 1	FIGURA	figuro	ADV	_	_	2	advmod	_	_
 2	10	10	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -2916,7 +2761,7 @@
 11	matemático	matemático	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 
 # text = Avaliando a carga de reação do processo de corrosão em diferentes
-# sent_id = 370-20150827-MONOGRAFIA_0-92
+# sent_id = 370-20150827-MONOGRAFIA_0-89
 1	Avaliando	avaliar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	carga	carga	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -2931,40 +2776,40 @@
 11	em	em	ADP	_	_	12	case	_	_
 12	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	_
 
-# text = NATs, pode- se obter uma representação de taxas de corrosão em relação à temperatura.
-# sent_id = 370-20150827-MONOGRAFIA_0-93
-1	NATs	NAT	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+# text = NATs, pode-se obter uma representação de taxas de corrosão em relação à temperatura.
+# sent_id = 370-20150827-MONOGRAFIA_0-90
+1	NATs	NAT	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-	-	PUNCT	_	_	3	punct	_	_
-5	se	se	SCONJ	_	_	6	mark	_	_
-6	obter	obter	VERB	_	VerbForm=Inf	3	advcl	_	_
-7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	representação	representação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	taxas	taxas	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	em	em	ADP	_	_	14	case	_	_
-14	relação	relação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
-15-16	à	_	_	_	_	_	_	_	_
-15	a	a	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	3	punct	_	_
+3-4	pode-se	_	_	_	_	_	_	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	5	nsubj	_	_
+5	obter	obter	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	representação	representação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	taxas	taxas	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	relação	relação	NOUN	_	Gender=Fem|Number=Sing	5	fixed	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O gráfico a seguir foi obtido:
-# sent_id = 370-20150827-MONOGRAFIA_0-94
+# sent_id = 370-20150827-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	a	a	SCONJ	_	_	4	mark	_	_
 4	seguir	seguir	VERB	_	VerbForm=Inf	2	acl	_	_
 5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
 6	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	6	punct	_	_
+7	:	:	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
 
 # text = Inicialmente, podemos confirmar que com aumento da temperatura, a carga de corrosão aumenta, de acordo com o esperado (1)(5).
-# sent_id = 370-20150827-MONOGRAFIA_0-95
+# sent_id = 370-20150827-MONOGRAFIA_0-92
 1	Inicialmente	inicialmente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2996,7 +2841,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Também é perceptível que os valores iniciais de carga de corrosão para o NAT de 2,5 mg KOH/g são maiores do que os valores encontrados para os de acidez superior, mas isto pode ser justificado por ter valores de carga correspondentes muito pequenos, o que pode evidenciar erros associados a medida.
-# sent_id = 370-20150827-MONOGRAFIA_0-96
+# sent_id = 370-20150827-MONOGRAFIA_0-93
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	perceptível	perceptível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3055,7 +2900,7 @@
 55	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Também é possível analisar que não há grandes variações entre os diferentes
-# sent_id = 370-20150827-MONOGRAFIA_0-97
+# sent_id = 370-20150827-MONOGRAFIA_0-94
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3070,7 +2915,7 @@
 12	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 
 # text = NATs a elevadas temperaturas.
-# sent_id = 370-20150827-MONOGRAFIA_0-98
+# sent_id = 370-20150827-MONOGRAFIA_0-95
 1	NATs	NAT	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	a	a	ADP	_	_	4	case	_	_
 3	elevadas	elevada	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -3078,7 +2923,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Isto pode ser explicado devido à dificuldade de movimentação dentro do reator, estagnando a solução no eletrodo, impedindo que novas moléculas de ácido naftênico agissem no eletrodo.
-# sent_id = 370-20150827-MONOGRAFIA_0-99
+# sent_id = 370-20150827-MONOGRAFIA_0-96
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj:pass	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -3119,7 +2964,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 7. CONCLUSÃO A instrumentação do reator e preparação de soluções contribuiu para o desenvolvimento desta pesquisa adicionando qualidade e confiabilidade às medidas executadas, possibilitando um avanço no estudo.
-# sent_id = 370-20150827-MONOGRAFIA_0-100
+# sent_id = 370-20150827-MONOGRAFIA_0-97
 1	7	7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	CONCLUSÃO	Concluser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
@@ -3161,7 +3006,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Futuras ações, como estudo da atuação do enxofre no mecanismo de corrosão naftênicas, agitação controlada e diferença de área/metalurgia da amostra já estão contempladas dentro do arranjo experimental atual.
-# sent_id = 370-20150827-MONOGRAFIA_0-101
+# sent_id = 370-20150827-MONOGRAFIA_0-98
 1	Futuras	futurar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -3206,7 +3051,7 @@
 37	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Será possível assim, futuramente, mapeamento das diversas variáveis que atuam neste complexo mecanismo e mitigação da corrosão.
-# sent_id = 370-20150827-MONOGRAFIA_0-102
+# sent_id = 370-20150827-MONOGRAFIA_0-99
 1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	assim	assim	ADV	_	_	2	advmod	_	SpaceAfter=No

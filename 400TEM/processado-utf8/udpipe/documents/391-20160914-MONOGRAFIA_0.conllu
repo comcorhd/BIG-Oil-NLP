@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 391-20160914-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -605,7 +605,7 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	maior	grande	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
 36	relevância	relevância	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-37	para	para	ADP	_	_	39	case	_	_
+37	para	para	ADP	_	_	39	case	_	SpacesAfter=\s\n
 38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
 40	de	de	ADP	_	_	41	case	_	_
@@ -851,7 +851,7 @@
 25	por	por	ADP	_	_	27	case	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 2. REFERENCIAL TEÓRICO 2.1.
 # sent_id = 391-20160914-MONOGRAFIA_0-22
@@ -1199,7 +1199,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	1995	1995	NUM	_	NumType=Card	20	appos:parataxis	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = 2.1.1.2.
 # sent_id = 391-20160914-MONOGRAFIA_0-38
@@ -1406,7 +1406,7 @@
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	não-iônicos	não-iônico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
-# text = Esta classe de tensoativos, conforme Figura 2, é constituída por substâncias cujas moléculas não se dissociam em solução aquosa e sua hidrofilia vem de grupos tipo éster, R-O- R, álcool, R-OH, carbonil, RCOR, ou mesmo aminas, R-NH-R, na sua estrutura (DE LA SALLES, 2000).
+# text = Esta classe de tensoativos, conforme Figura 2, é constituída por substâncias cujas moléculas não se dissociam em solução aquosa e sua hidrofilia vem de grupos tipo éster, R-O-R, álcool, R-OH, carbonil, RCOR, ou mesmo aminas, R-NH-R, na sua estrutura (DE LA SALLES, 2000).
 # sent_id = 391-20160914-MONOGRAFIA_0-53
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	classe	classe	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
@@ -1420,7 +1420,7 @@
 10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	constituída	constituir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 12	por	por	ADP	_	_	13	case	_	_
-13	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+13	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
 14	cujas	cujo	DET	_	Gender=Fem|Number=Plur|PronType=Rel	15	det	_	_
 15	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
 16	não	não	ADV	_	Polarity=Neg	18	advmod	_	_
@@ -1438,36 +1438,35 @@
 28	tipo	tipar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	27	acl	_	_
 29	éster	éster	VERB	_	VerbForm=Inf	18	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	R-O-	R-O	PART	_	_	32	conj	_	_
-32	R	R	PROPN	_	Gender=Unsp|Number=Sing	29	conj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	álcool	álcool	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	36	punct	_	_
-36	R-OH	R-OH	PROPN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	38	punct	_	_
-38	carbonil	carbonil	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	40	punct	_	_
-40	RCOR	RCOR	PROPN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	44	punct	_	_
-42	ou	ou	CCONJ	_	_	44	cc	_	_
-43	mesmo	mesmo	ADV	_	_	44	advmod	_	_
-44	aminas	amino	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	46	punct	_	_
-46	R-NH-R	R-NH-R	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	11	punct	_	_
-48-49	na	_	_	_	_	_	_	_	_
-48	em	em	ADP	_	_	51	case	_	_
-49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-50	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	51	det	_	_
-51	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
-52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
-53	DE	DE	PROPN	_	Gender=Fem|Number=Sing	51	appos	_	_
-54	LA	La	PROPN	_	Number=Sing	53	flat:name	_	_
-55	SALLES	SALLES	PROPN	_	Number=Sing	53	flat:name	_	SpaceAfter=No
-56	,	,	PUNCT	_	_	57	punct	_	_
-57	2000	2000	NUM	_	NumType=Card	53	appos:parataxis	_	SpaceAfter=No
-58	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+31	R-O-R	R-O-R	PROPN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	álcool	álcool	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	R-OH	R-OH	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	carbonil	carbonil	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	RCOR	RCOR	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41	ou	ou	CCONJ	_	_	43	cc	_	_
+42	mesmo	mesmo	ADV	_	_	43	advmod	_	_
+43	aminas	amino	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	R-NH-R	R-NH-R	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	50	punct	_	_
+47-48	na	_	_	_	_	_	_	_	_
+47	em	em	ADP	_	_	50	case	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+49	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	50	det	_	_
+50	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
+52	DE	DE	PROPN	_	Gender=Fem|Number=Sing	50	appos	_	_
+53	LA	La	PROPN	_	Number=Sing	52	flat:name	_	_
+54	SALLES	SALLES	PROPN	_	Number=Sing	52	flat:name	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	56	punct	_	_
+56	2000	2000	NUM	_	NumType=Card	52	appos:parataxis	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos não-iônicos apresentam características bem particulares, pois são compatíveis quimicamente com a grande maioria dos demais tensoativos e suas propriedades são pouco afetadas pela variação de pH.
 # sent_id = 391-20160914-MONOGRAFIA_0-54
@@ -1546,7 +1545,7 @@
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	2000	2000	NUM	_	NumType=Card	33	appos:parataxis	_	SpaceAfter=No
 38	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2 -
 # sent_id = 391-20160914-MONOGRAFIA_0-56
@@ -1905,7 +1904,7 @@
 16	formando	formar	VERB	_	VerbForm=Ger	10	advcl	_	_
 17	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
 18	em	em	ADP	_	_	19	case	_	_
-19	solventes	solvente	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+19	solventes	solvente	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpacesAfter=\s\n
 20	apolares	apolar	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 21	com	com	ADP	_	_	23	case	_	_
 22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
@@ -2200,7 +2199,7 @@
 21	emulsão	emulsão	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	2	punct	_	_
 23	etc	etc	ADV	_	_	2	advmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Devido ao sistema desenvolvido por Griffin, a seleção de um tensoativo (ou mistura de tensoativos) mais adequado para cada tipo de emulsão, ou seja, água em óleo (A/O) ou óleo em água (O/A) tornou-se mais simples e racional.
 # sent_id = 391-20160914-MONOGRAFIA_0-84
@@ -2374,10 +2373,15 @@
 48	BHL	Bhl	PROPN	_	Gender=Unsp|Number=Sing	46	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
-# text = 2.2.
+# text = Fonte: Paulino, 2007 2.2.
 # sent_id = 391-20160914-MONOGRAFIA_0-88
-1	2.2	2.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
+1	Fonte	fonte	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Paulino	Paulino	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	2007	2007	NUM	_	NumType=Card	3	nummod	_	_
+6	2.2	2.2	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Petróleo
 # sent_id = 391-20160914-MONOGRAFIA_0-89
@@ -2429,7 +2433,7 @@
 42	compõem	compor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 43	não	não	ADV	_	Polarity=Neg	44	advmod	_	_
 44	só	só	ADV	_	_	42	advmod	_	_
-45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	SpacesAfter=\s\n
 46	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	51	punct	_	_
 48	mas	mas	CCONJ	_	_	51	cc	_	_
@@ -2499,7 +2503,7 @@
 24	energia	energia	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	_	_
 
-# text = A palavra petróleo é originada do latim petra (pedra) e oleum (óleo), o petróleo no estado líquido é uma substância oleosa, inflamável, menos densa que a água, com cheiro característico e cor variando entre o negro e o castanho- claro.
+# text = A palavra petróleo é originada do latim petra (pedra) e oleum (óleo), o petróleo no estado líquido é uma substância oleosa, inflamável, menos densa que a água, com cheiro característico e cor variando entre o negro e o castanho-claro.
 # sent_id = 391-20160914-MONOGRAFIA_0-93
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	palavra	palavra	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -2535,7 +2539,7 @@
 30	inflamável	inflamável	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	menos	menos	ADV	_	_	33	advmod	_	_
-33	densa	denso	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	_
+33	densa	denso	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 34	que	que	SCONJ	_	_	43	mark	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	água	água	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	SpaceAfter=No
@@ -2548,13 +2552,11 @@
 43	variando	variar	VERB	_	VerbForm=Ger	33	advcl	_	_
 44	entre	entre	ADP	_	_	46	case	_	_
 45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-46	negro	negro	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	_
+46	negro	negro	NOUN	_	Gender=Masc|Number=Sing	43	obj	_	_
 47	e	e	CCONJ	_	_	49	cc	_	_
 48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	castanho	castanho	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
-50	-	-	PUNCT	_	_	43	punct	_	_
-51	claro	claro	ADV	_	_	43	advmod	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	43	punct	_	_
+49	castanho-claro	castanho-claro	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O petróleo é constituído, basicamente, por uma mistura de compostos químicos orgânicos (hidrocarbonetos).
 # sent_id = 391-20160914-MONOGRAFIA_0-94
@@ -3014,7 +3016,7 @@
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+13	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpacesAfter=\s\n
 14	geral	geral	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	tentam	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
@@ -3518,7 +3520,7 @@
 23	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	gás	gás	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
-26	e	e	CCONJ	_	_	27	cc	_	_
+26	e	e	CCONJ	_	_	27	cc	_	SpacesAfter=\s\n
 27	água	água	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
 28	salina	salino	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	18	punct	_	_
@@ -4112,7 +4114,7 @@
 29	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
 30	orgânicos	orgânico	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
 31	solúveis	solúvel	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
-32	;	;	PUNCT	_	_	33	punct	_	_
+32	;	;	PUNCT	_	_	33	punct	_	SpacesAfter=\s\n
 33	desinfecção	desinfecção	NOUN	_	Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	para	para	ADP	_	_	36	case	_	_
@@ -4630,7 +4632,7 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	substância	substância	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-17	;	;	PUNCT	_	_	12	punct	_	_
+17	;	;	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n
 18			PROPN	_	Number=Sing	12	flat:name	_	_
 19	Concentração	concentração	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
 20	;	;	PUNCT	_	_	12	punct	_	_
@@ -5030,7 +5032,7 @@
 # text = Onde:
 # sent_id = 391-20160914-MONOGRAFIA_0-170
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
+2	:	:	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 
 # text = A - absorbância ε - absortividade molar b - caminho óptico c - concentração da amostra que geralmente é expressa em moles por litro
 # sent_id = 391-20160914-MONOGRAFIA_0-171
@@ -5180,7 +5182,7 @@
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	2013	2013	NUM	_	NumType=Card	20	appos:parataxis	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 391-20160914-MONOGRAFIA_0-176
@@ -5670,7 +5672,7 @@
 31	ser	ser	AUX	_	VerbForm=Inf	32	aux:pass	_	_
 32	apropriada	apropriar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	30	xcomp	_	_
 33	para	para	ADP	_	_	35	case	_	_
-34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	SpacesAfter=\s\n
 35	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	32	obl	_	_
 36	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	_
 37-38	dos	_	_	_	_	_	_	_	_
@@ -6208,7 +6210,7 @@
 35	de	de	ADP	_	_	37	case	_	_
 36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	água	água	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = 4.
 # sent_id = 391-20160914-MONOGRAFIA_0-201
@@ -6316,7 +6318,7 @@
 69	de	de	ADP	_	_	71	case	_	_
 70	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
 71	LOGEN	LOGEN	PROPN	_	Gender=Fem|Number=Sing	68	nmod	_	SpaceAfter=No
-72	;	;	PUNCT	_	_	66	punct	_	_
+72	;	;	PUNCT	_	_	66	punct	_	SpacesAfter=\s\n
 73	5	5	NUM	_	NumType=Card	64	flat	_	SpaceAfter=No
 74	.	.	PUNCT	_	_	30	punct	_	_
 
@@ -6730,7 +6732,7 @@
 9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 11	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5 - Estrutura dos NonilFenol Etoxilados Fonte: Oxiteno (2016) 5.4.
 # sent_id = 391-20160914-MONOGRAFIA_0-230
@@ -7052,7 +7054,7 @@
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	_	_	18	case	_	_
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	TOG.	TOG.	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	SpacesAfter=\n
+18	TOG.	TOG.	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	SpacesAfter=\n\n
 
 # text = 6.
 # sent_id = 391-20160914-MONOGRAFIA_0-243
@@ -7346,7 +7348,7 @@
 22	possibilitou	possibilitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	elaboração	elaboração	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
-25	de	de	ADP	_	_	28	case	_	_
+25	de	de	ADP	_	_	28	case	_	SpacesAfter=\s\n
 26	quatro	quatro	NUM	_	NumType=Card	28	nummod	_	_
 27	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	28	det	_	_
 28	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
@@ -7432,77 +7434,70 @@
 2	8	8	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
 
-# text = Diagrama ternário para o tensoativo Ultranex 60 Fonte:
+# text = Diagrama ternário para o tensoativo Ultranex 60 Figura 9 -
 # sent_id = 391-20160914-MONOGRAFIA_0-264
+1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	ternário	ternário	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	Ultranex	Ultranex	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
+7	60	60	NUM	_	NumType=Card	5	nummod	_	SpacesAfter=\s\n
+8	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	9	9	NUM	_	NumType=Card	8	nummod	_	_
+10	-	-	PUNCT	_	_	8	punct	_	_
+
+# text = Diagrama ternário para o tensoativo Ultranex 100
+# sent_id = 391-20160914-MONOGRAFIA_0-265
 1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	ternário	ternário	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-6	Ultranex	Ultranex	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-7	60	60	NUM	_	NumType=Card	8	nummod	_	_
-8	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	1	punct	_	_
+5	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	Ultranex	Ultranex	ADP	_	_	7	case	_	_
+7	100	100	NUM	_	NumType=Card	5	nmod	_	_
 
-# text = Autoria Própria (2016)
-# sent_id = 391-20160914-MONOGRAFIA_0-265
-1	Autoria	autoria	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	Própria	própria	PROPN	_	Number=Sing	1	flat:name	_	_
-3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	2016	2016	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	4	punct	_	_
-
-# text = Figura 9 - Diagrama ternário para o tensoativo Ultranex 100 Analisando as Figuras 7, 8 e 9 observa-se a diminuição na região de microemulsão da Figura 7 para Figura 8 e o desaparecimento desta na Figura 9.
+# text = Analisando as Figuras 7, 8 e 9 observa-se a diminuição na região de microemulsão da Figura 7 para Figura 8 e o desaparecimento desta na Figura 9.
 # sent_id = 391-20160914-MONOGRAFIA_0-266
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	9	9	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
-4	Diagrama	Diagrama	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
-5	ternário	ternário	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-6	para	para	ADP	_	_	8	case	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	Ultranex	Ultranex	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	_
-10	100	100	NUM	_	NumType=Card	11	nummod	_	_
-11	Analisando	Analisando	PROPN	_	Gender=Fem|Number=Sing	9	flat:name	_	_
-12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	Figuras	figuras	PROPN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
-14	7	7	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	8	8	NUM	_	NumType=Card	19	nsubj	_	_
-17	e	e	CCONJ	_	_	18	cc	_	_
-18	9	9	NUM	_	NumType=Card	16	conj	_	_
-19-20	observa-se	_	_	_	_	_	_	_	_
-19	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
-20	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
-23-24	na	_	_	_	_	_	_	_	_
-23	em	em	ADP	_	_	25	case	_	_
-24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	região	região	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-31	7	7	PROPN	_	Number=Sing	30	flat:name	_	_
-32	para	para	ADP	_	_	33	case	_	_
-33	Figura	figura	PROPN	_	Number=Sing	30	nmod	_	_
-34	8	8	NUM	_	NumType=Card	19	obj	_	_
-35	e	e	CCONJ	_	_	37	cc	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	desaparecimento	desaparecimento	NOUN	_	Gender=Masc|Number=Sing	34	conj	_	_
-38-39	desta	_	_	_	_	_	_	_	_
-38	de	de	ADP	_	_	39	case	_	_
-39	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	37	nmod	_	_
-40-41	na	_	_	_	_	_	_	_	_
-40	em	em	ADP	_	_	42	case	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
-43	9	9	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	1	punct	_	_
+1	Analisando	analisar	VERB	_	VerbForm=Ger	9	acl	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Figuras	figuras	PROPN	_	Gender=Fem|Number=Plur	1	obj	_	_
+4	7	7	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	8	8	NUM	_	NumType=Card	1	conj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	9	9	NUM	_	NumType=Card	1	conj	_	_
+9-10	observa-se	_	_	_	_	_	_	_	_
+9	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	região	região	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	7	7	PROPN	_	Number=Sing	20	flat:name	_	_
+22	para	para	ADP	_	_	23	case	_	_
+23	Figura	figura	PROPN	_	Number=Sing	20	nmod	_	_
+24	8	8	NUM	_	NumType=Card	9	conj	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	desaparecimento	desaparecimento	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+28-29	desta	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	27	nmod	_	_
+30-31	na	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	9	9	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Nota-se também, o aparecimento da região de gel nas Figuras 8 e 9.
 # sent_id = 391-20160914-MONOGRAFIA_0-267
@@ -7830,7 +7825,7 @@
 9	absorbância	absorbância	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	em	em	ADP	_	_	12	case	_	_
-12	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+12	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpacesAfter=\s\n
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 15	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
@@ -7951,7 +7946,7 @@
 37	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
-# text = Tabela 1 - Absorção do óleo da água produzida a 300 ppm com adição de 0%, 0,25%, 0,5%, Tabela 2 - Absorção do óleo da água produzida a 300 ppm com adição de 0%, 0,25%, 0,5%, 7.
+# text = Tabela 1 - Absorção do óleo da água produzida a 300 ppm com adição de 0%, 0,25%, 0,5%, 0,75% e 1,0% de Ultranex 60 pelo clorofórmio no UV-VIS com um λ = 260 nm Tabela 2 - Absorção do óleo da água produzida a 300 ppm com adição de 0%, 0,25%, 0,5%, 7.
 # sent_id = 391-20160914-MONOGRAFIA_0-280
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	1	1	NUM	_	NumType=Card	4	nummod	_	_
@@ -7981,36 +7976,58 @@
 24	0,5	0,5	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
 25	%	%	SYM	_	_	1	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	1	punct	_	_
-27	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-28	2	2	PROPN	_	Number=Sing	27	flat:name	_	_
-29	-	-	PUNCT	_	_	30	punct	_	_
-30	Absorção	Absorção	PROPN	_	Gender=Fem|Number=Sing	27	appos	_	_
-31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	36	case	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	água	água	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-37	produzida	produzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
-38	a	a	ADP	_	_	40	case	_	_
-39	300	300	NUM	_	NumType=Card	40	nummod	_	_
-40	ppm	ppm	NOUN	_	Gender=Masc|Number=Plur	37	obl	_	_
-41	com	com	ADP	_	_	42	case	_	_
-42	adição	adição	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-43	de	de	ADP	_	_	45	case	_	_
-44	0	0	NUM	_	NumType=Card	45	nummod	_	SpaceAfter=No
-45	%	%	SYM	_	_	42	nmod	_	SpaceAfter=No
-46	,	,	PUNCT	_	_	48	punct	_	_
-47	0,25	0,25	NUM	_	NumType=Card	48	nummod	_	SpaceAfter=No
-48	%	%	SYM	_	_	1	appos	_	SpaceAfter=No
-49	,	,	PUNCT	_	_	48	punct	_	_
-50	0,5	0,5	NUM	_	NumType=Card	51	nummod	_	SpaceAfter=No
-51	%	%	SYM	_	_	1	appos	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	53	punct	_	_
-53	7	7	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	1	punct	_	_
+27	0,75	0,75	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	_	_	1	nmod	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	1,0	1,0	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
+31	%	%	SYM	_	_	1	conj	_	_
+32	de	de	ADP	_	_	68	nmod	_	_
+33	Ultranex	Ultranex	ADP	_	_	34	case	_	_
+34	60	60	NUM	_	NumType=Card	32	fixed	_	_
+35-36	pelo	_	_	_	_	_	_	_	_
+35	por	por	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	clorofórmio	clorofórmio	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
+38-39	no	_	_	_	_	_	_	_	_
+38	em	em	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	UV-VIS	UV-VIS	PROPN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+41	com	com	ADP	_	_	43	case	_	_
+42	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	λ	λ	PROPN	_	Number=Sing	40	nmod	_	_
+44	=	=	SYM	_	_	46	nmod	_	_
+45	260	260	NUM	_	NumType=Card	44	nummod	_	_
+46	nm	nm	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+47	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	46	appos	_	_
+48	2	2	PROPN	_	Number=Sing	47	flat:name	_	_
+49	-	-	PUNCT	_	_	50	punct	_	_
+50	Absorção	Absorção	PROPN	_	Gender=Fem|Number=Sing	47	appos	_	_
+51-52	do	_	_	_	_	_	_	_	_
+51	de	de	ADP	_	_	53	case	_	_
+52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	_
+54-55	da	_	_	_	_	_	_	_	_
+54	de	de	ADP	_	_	56	case	_	_
+55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	água	água	NOUN	_	Gender=Fem|Number=Sing	53	nmod	_	_
+57	produzida	produzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	56	acl	_	_
+58	a	a	ADP	_	_	60	case	_	_
+59	300	300	NUM	_	NumType=Card	60	nummod	_	_
+60	ppm	ppm	NOUN	_	Gender=Masc|Number=Plur	57	obl	_	_
+61	com	com	ADP	_	_	62	case	_	_
+62	adição	adição	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+63	de	de	ADP	_	_	65	case	_	_
+64	0	0	NUM	_	NumType=Card	65	nummod	_	SpaceAfter=No
+65	%	%	SYM	_	_	62	nmod	_	SpaceAfter=No
+66	,	,	PUNCT	_	_	68	punct	_	_
+67	0,25	0,25	NUM	_	NumType=Card	68	nummod	_	SpaceAfter=No
+68	%	%	SYM	_	_	31	nmod	_	SpaceAfter=No
+69	,	,	PUNCT	_	_	71	punct	_	_
+70	0,5	0,5	NUM	_	NumType=Card	71	nummod	_	SpaceAfter=No
+71	%	%	SYM	_	_	1	nmod	_	SpaceAfter=No
+72	,	,	PUNCT	_	_	73	punct	_	SpacesAfter=\s\n
+73	7	7	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+74	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONCLUSÃO A realização deste trabalho nos permitiu chegar a algumas conclusões as quais estão descritas a seguir: 1.
 # sent_id = 391-20160914-MONOGRAFIA_0-281

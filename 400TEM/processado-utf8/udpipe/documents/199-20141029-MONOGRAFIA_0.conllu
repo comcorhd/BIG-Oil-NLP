@@ -1,6 +1,6 @@
 # text = 1
 # sent_id = 199-20141029-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	_
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n
 
 # text = INTRODUÇÃO 1.1 SITUAÇÃO ENERGÉTICA DO BRASIL
 # sent_id = 199-20141029-MONOGRAFIA_0-2
@@ -223,7 +223,7 @@
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	2012	2012	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 1.2
 # sent_id = 199-20141029-MONOGRAFIA_0-7
@@ -627,7 +627,7 @@
 65	forma	forma	NOUN	_	Gender=Fem|Number=Sing	62	nmod	_	_
 66	eficiente	eficiente	ADJ	_	Gender=Fem|Number=Sing	65	amod	_	_
 67	e	e	CCONJ	_	_	69	cc	_	_
-68	economicamente	economicamente	ADV	_	_	69	advmod	_	_
+68	economicamente	economicamente	ADV	_	_	69	advmod	_	SpacesAfter=\s\n
 69	viável	viável	ADJ	_	Gender=Fem|Number=Sing	49	conj	_	_
 70	(	(	PUNCT	_	_	71	punct	_	SpaceAfter=No
 71	SANTO	Santo	PROPN	_	Gender=Masc|Number=Sing	69	appos	_	SpaceAfter=No
@@ -657,19 +657,17 @@
 16	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 2- Esquema da parede celular vegetal.
+# text = Figura 2-Esquema da parede celular vegetal.
 # sent_id = 199-20141029-MONOGRAFIA_0-17
-1	Figura	figuro	ADV	_	_	2	advmod	_	_
-2	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Esquema	esquema	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	parede	parede	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	celular	celular	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-9	vegetal	vegetal	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	2-Esquema	2-Esquema	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parede	parede	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	celular	celular	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	vegetal	vegetal	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:WOLF,2011.
 # sent_id = 199-20141029-MONOGRAFIA_0-18
@@ -693,7 +691,7 @@
 9	DE	DE	PROPN	_	Number=Sing	8	flat:name	_	_
 10	AÇUCAR	AÇUCAR	PROPN	_	Number=Sing	8	flat:name	_	_
 
-# text = Segundo Wolf(2011), em sua constituição, o bagaço de cana-de- açúcarcontém entre 32-48% de celulose,19-24% de hemicelulose,23-32% de lignina e 1,5-5% de cinzas.
+# text = Segundo Wolf(2011), em sua constituição, o bagaço de cana-de-açúcarcontém entre 32-48% de celulose,19-24% de hemicelulose,23-32% de lignina e 1,5-5% de cinzas.
 # sent_id = 199-20141029-MONOGRAFIA_0-20
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Wolf(2011	Wolf(2011	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -706,26 +704,24 @@
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 11	de	de	ADP	_	_	12	case	_	_
-12	cana-de	cana-de	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-13	-	-	PUNCT	_	_	10	punct	_	_
-14	açúcarcontém	açúcarcontém	ADV	_	_	17	advmod	_	_
-15	entre	entre	ADP	_	_	17	case	_	_
-16	32-48	32-48	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
-17	%	%	SYM	_	_	10	nmod	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	celulose,19-24	celulose,19-24	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
-20	%	%	SYM	_	_	17	nmod	_	_
-21	de	de	ADP	_	_	23	case	_	_
-22	hemicelulose,23-32	hemicelulose,23-32	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
-23	%	%	SYM	_	_	20	nmod	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
-27	1,5-5	1,5-5	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
-28	%	%	SYM	_	_	17	conj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	cinzas	cinza	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	2	punct	_	_
+12	cana-de-açúcarcontém	cana-de-açúcarcontém	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	entre	entre	ADP	_	_	15	case	_	_
+14	32-48	32-48	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	_	_	10	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	celulose,19-24	celulose,19-24	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	15	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	hemicelulose,23-32	hemicelulose,23-32	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	_	_	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	1,5-5	1,5-5	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	_	_	10	conj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	cinzas	cinza	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Celulose é um polímero de glicose, formado por regiões amorfas e uma região cristalina de difícil acesso por microrganismos e outros agentes de degradação.
 # sent_id = 199-20141029-MONOGRAFIA_0-21
@@ -770,7 +766,7 @@
 9	1.3.1	1.3.1	PROPN	_	Number=Sing	8	flat:name	_	_
 10	a	a	SCONJ	_	_	11	mark	_	_
 11	seguir	seguir	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
-12	:	:	PUNCT	_	_	5	punct	_	_
+12	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
 
 # text = Figura 3 -
 # sent_id = 199-20141029-MONOGRAFIA_0-23
@@ -848,24 +844,19 @@
 12	seguir	seguir	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	5	punct	_	_
 
-# text = Figura 4-
+# text = Figura 4-Representação esquemática da hemicelulose.
 # sent_id = 199-20141029-MONOGRAFIA_0-28
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Representação esquemática da hemicelulose.
-# sent_id = 199-20141029-MONOGRAFIA_0-29
-1	Representação	representação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	esquemática	esquemático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	hemicelulose	hemicelulose	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	4-Representação	4-Representação	PROPN	_	Number=Sing	1	flat:name	_	_
+3	esquemática	esquemático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	hemicelulose	hemicelulose	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: SANTOS et al.,2012 Lignina é uma estrutura macromolecular e amorfa, hidrofóbica e muito complexa, formada por unidades de fenilpropano.
-# sent_id = 199-20141029-MONOGRAFIA_0-30
+# sent_id = 199-20141029-MONOGRAFIA_0-29
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	SANTOS	Santos	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -892,7 +883,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = As ramificações da hemicelulose permiteminterações desse material tanto com a celulose (hidrofílica) quanto com a lignina(hidrofóbica) (WOLF,2011).
-# sent_id = 199-20141029-MONOGRAFIA_0-31
+# sent_id = 199-20141029-MONOGRAFIA_0-30
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	ramificações	ramificação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -923,7 +914,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A representação da molécula da lignina pode ser visualizada na Figura 1.3.3 abaixo a seguir:
-# sent_id = 199-20141029-MONOGRAFIA_0-32
+# sent_id = 199-20141029-MONOGRAFIA_0-31
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	representação	representação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -945,10 +936,10 @@
 16	abaixo	abaixo	ADV	_	_	18	advmod	_	_
 17	a	a	ADP	_	_	16	case	_	_
 18	seguir	seguir	VERB	_	VerbForm=Inf	11	advcl	_	SpaceAfter=No
-19	:	:	PUNCT	_	_	11	punct	_	_
+19	:	:	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 
 # text = Figura 5 – Seção do polímero de lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-33
+# sent_id = 199-20141029-MONOGRAFIA_0-32
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -962,13 +953,13 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:HORST,2013.
-# sent_id = 199-20141029-MONOGRAFIA_0-34
+# sent_id = 199-20141029-MONOGRAFIA_0-33
 1	Fonte:	Fonte:	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	HORST,2013	HORST,2013	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As hemiceluloses sãobiossintetizadas em grandes quantidades pela maioria das plantas e árvores.
-# sent_id = 199-20141029-MONOGRAFIA_0-35
+# sent_id = 199-20141029-MONOGRAFIA_0-34
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	hemiceluloses	hemicelulose	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	sãobiossintetizadas	sãobiossintetizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -988,7 +979,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Estima-se que cerca de 60 bilhões de toneladas são produzidas por ano pelos vegetais,ficando apenas atrás da celulose, representando assim um enorme recurso renovável que permanece quase completamente inutilizado (XU et al.,2006).
-# sent_id = 199-20141029-MONOGRAFIA_0-36
+# sent_id = 199-20141029-MONOGRAFIA_0-35
 1-2	Estima-se	_	_	_	_	_	_	_	_
 1	Estima	estimar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -1036,7 +1027,7 @@
 42	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = De acordo com Auneau et al.(2014),devido à forte interação da Hemicelulose com a celulose e a lignina fica difícil separá-los sem alteração significativa da sua estrutura.Assim, celulose e hemicelulose podem ser despolimerizados por hidrólise controlada em vários monômeros de açúcar (glicose, xilose, arabinose...), que podem ser funcionalizadas por hidrogenação catalítica para osálcoois de açúcares (sorbitol, xilitol, arabitol…).
-# sent_id = 199-20141029-MONOGRAFIA_0-37
+# sent_id = 199-20141029-MONOGRAFIA_0-36
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -1119,7 +1110,7 @@
 76	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
 
 # text = Além disso, a hidrogenólise catalítica destes polióis emfase aquosas alcalinas pode dar acesso aos glicóis, tais como etileno-glicol ,propilenoglicol , e glicerol (AUNEAU et al.,2014; XU etal.
-# sent_id = 199-20141029-MONOGRAFIA_0-38
+# sent_id = 199-20141029-MONOGRAFIA_0-37
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -1160,69 +1151,54 @@
 35	etal.	etal.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # text = ,2006).
-# sent_id = 199-20141029-MONOGRAFIA_0-39
+# sent_id = 199-20141029-MONOGRAFIA_0-38
 1	,2006	,2006	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = A Figura 1.3.4 a seguir ilustra os efeitos do pré-tratamento na complexa estrutura Figura 6-
+# text = estrutura
+# sent_id = 199-20141029-MONOGRAFIA_0-39
+1	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+
+# text = Figura 6Efeito do pré-tratamento em materiais lignocelulósico.
 # sent_id = 199-20141029-MONOGRAFIA_0-40
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-3	1.3.4	1.3.4	PROPN	_	Number=Sing	2	flat:name	_	_
-4	a	a	SCONJ	_	_	5	mark	_	_
-5	seguir	seguir	VERB	_	VerbForm=Inf	6	acl	_	_
-6	ilustra	ilustrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	pré-tratamento	pré-tratamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12-13	na	_	_	_	_	_	_	_	_
-12	em	em	ADP	_	_	15	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	complexa	complexo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-15	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
-16	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-17	6	6	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	6	punct	_	_
-
-# text = Efeito do pré-tratamento em materiais lignocelulósico.
-# sent_id = 199-20141029-MONOGRAFIA_0-41
-1	Efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	pré-tratamento	pré-tratamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5	em	em	ADP	_	_	6	case	_	_
-6	materiais	material	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-7	lignocelulósico	lignocelulósico	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	6Efeito	6Efeito	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pré-tratamento	pré-tratamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	materiais	material	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+8	lignocelulósico	lignocelulósico	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:WOLF,2011.
-# sent_id = 199-20141029-MONOGRAFIA_0-42
+# sent_id = 199-20141029-MONOGRAFIA_0-41
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	WOLF,2011	WOLF,2011	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = 1.4 PROCESSOS DE TRATAMENTO DO BAGAÇO E A OBTENÇÃO DE GLICÓIS
-# sent_id = 199-20141029-MONOGRAFIA_0-43
-1	1.	1.	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+# text = 1.4
+# sent_id = 199-20141029-MONOGRAFIA_0-42
+1	1.	1.	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	4	4	NUM	_	NumType=Card	1	flat	_	_
-3	PROCESSOS	Processo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-4	DE	de	ADP	_	_	5	case	_	_
-5	TRATAMENTO	tratamento	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-6-7	DO	_	_	_	_	_	_	_	_
-6	DE	de	ADP	_	_	8	case	_	_
-7	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	BAGAÇO	BAGAÇO	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-9	E	e	CCONJ	_	_	11	cc	_	_
-10	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	OBTENÇÃO	obtenção	PROPN	_	Gender=Fem|Number=Sing	3	conj	_	_
-12	DE	DE	PROPN	_	Number=Sing	11	flat:name	_	_
-13	GLICÓIS	GLICÓIS	PROPN	_	Number=Sing	11	flat:name	_	_
+
+# text = PROCESSOS DE TRATAMENTO DO BAGAÇO E A OBTENÇÃO DE GLICÓIS
+# sent_id = 199-20141029-MONOGRAFIA_0-43
+1	PROCESSOS	processo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	DE	de	ADP	_	_	3	case	_	_
+3	TRATAMENTO	tratamento	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	DO	_	_	_	_	_	_	_	_
+4	DE	de	ADP	_	_	6	case	_	_
+5	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	BAGAÇO	BAGAÇO	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+7	E	e	CCONJ	_	_	9	cc	_	_
+8	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	OBTENÇÃO	obtenção	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
+10	DE	DE	PROPN	_	Number=Sing	9	flat:name	_	_
+11	GLICÓIS	GLICÓIS	PROPN	_	Number=Sing	9	flat:name	_	_
 
 # text = Devido ao seu grande potencial econômicoe ambiental,diferentestratamentos têm sido aplicados para a extração da hemicelulose.
 # sent_id = 199-20141029-MONOGRAFIA_0-44
@@ -1424,7 +1400,7 @@
 58	,	,	PUNCT	_	_	57	punct	_	_
 59	2014	2014	NUM	_	NumType=Card	57	nummod	_	SpaceAfter=No
 60	)	)	PUNCT	_	_	55	punct	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+61	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = O mono-etilenoglicol (MEG) é comercialmente utilizado principalmente comoanti-congelante,fluido de refrigeração ou como matéria-prima na produção da fibra poliésterou ainda de poli(tereftalato de etileno) (embalagens PET),correspondendo a um consumo de cerca de 18, 55 e 11% de suaprodução em cada um desses setores, respectivamente.
 # sent_id = 199-20141029-MONOGRAFIA_0-49
@@ -1770,7 +1746,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	hemicelulose	hemicelulose	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 2. REVISÃO BIBLIOGRÁFICA 2.1
 # sent_id = 199-20141029-MONOGRAFIA_0-62
@@ -1907,7 +1883,7 @@
 17	lignocelulósicos	lignocelulósico	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Explosão de vapor é um dos métodos mais comuns para o pré- tratamento da biomassa lignocelulósica.
+# text = Explosão de vapor é um dos métodos mais comuns para o pré-tratamento da biomassa lignocelulósica.
 # sent_id = 199-20141029-MONOGRAFIA_0-67
 1	Explosão	explosão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
@@ -1919,17 +1895,16 @@
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	métodos	método	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 9	mais	mais	ADV	_	_	10	advmod	_	_
-10	comuns	comum	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
-11	para	para	ADP	_	_	14	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	pré-	pré-	PUNCT	_	_	14	punct	_	_
-14	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	biomassa	biomassa	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-18	lignocelulósica	lignocelulósico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
+10	comuns	comum	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pré-tratamento	pré-tratamento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	biomassa	biomassa	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	lignocelulósica	lignocelulósico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Nesse método, a biomassa triturada é tratada com alta pressão de vapor saturado com temperaturas variando entre 160 e 260 °C e pressões de 0,69 a 4,83 MPa, e em seguida, a pressão é rapidamente reduzida, o que faz com que o material sofra uma descompressão explosiva.
 # sent_id = 199-20141029-MONOGRAFIA_0-68
@@ -2144,7 +2119,7 @@
 37	;	;	PUNCT	_	_	34	punct	_	_
 38	MATHLOUTHI,2009	MATHLOUTHI,2009	PROPN	_	Gender=Fem|Number=Sing	34	appos	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = 2.1.2.1Água quente
 # sent_id = 199-20141029-MONOGRAFIA_0-74
@@ -2543,7 +2518,7 @@
 49	,	,	PUNCT	_	_	48	punct	_	_
 50	2002	2002	NUM	_	NumType=Card	48	nummod	_	SpaceAfter=No
 51	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+52	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = 2.1.3Tratamentos biológicos
 # sent_id = 199-20141029-MONOGRAFIA_0-87
@@ -2658,7 +2633,7 @@
 43	corretas	correto	ADJ	_	Gender=Fem|Number=Plur	12	advcl	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
-# text = A degradação da Lignina é atribuída principalmente ao metabolismo secundário, ou a disponibilidade de nitrogênio restrito, carbono ou enxofre, e que normalmente não são degradadas como fonte de carbono e energia, exigindo co- substratos adicionais, tais como celulose, hemicelulose ou glicose.
+# text = A degradação da Lignina é atribuída principalmente ao metabolismo secundário, ou a disponibilidade de nitrogênio restrito, carbono ou enxofre, e que normalmente não são degradadas como fonte de carbono e energia, exigindo co-substratos adicionais, tais como celulose, hemicelulose ou glicose.
 # sent_id = 199-20141029-MONOGRAFIA_0-91
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -2700,18 +2675,17 @@
 36	energia	energia	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	exigindo	exigir	VERB	_	VerbForm=Ger	7	advcl	_	_
-39	co-	co-	PUNCT	_	_	38	punct	_	_
-40	substratos	substrato	NOUN	_	Gender=Masc|Number=Plur	38	obj	_	_
-41	adicionais	adicional	ADJ	_	Gender=Masc|Number=Plur	40	amod	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	38	punct	_	_
-43	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	45	det	_	_
-44	como	como	ADP	_	_	43	fixed	_	_
-45	celulose	celulose	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
-46	,	,	PUNCT	_	_	47	punct	_	_
-47	hemicelulose	hemicelulose	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-48	ou	ou	CCONJ	_	_	49	cc	_	_
-49	glicose	glicose	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	7	punct	_	_
+39	co-substratos	co-substrato	NOUN	_	Gender=Masc|Number=Plur	38	obj	_	_
+40	adicionais	adicional	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	38	punct	_	_
+42	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	44	det	_	_
+43	como	como	ADP	_	_	42	fixed	_	_
+44	celulose	celulose	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	46	punct	_	_
+46	hemicelulose	hemicelulose	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+47	ou	ou	CCONJ	_	_	48	cc	_	_
+48	glicose	glicose	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Alguns fungos da podridão branca preferencialmente atacam a lignina mais prontamente do que a hemicelulose e celulose.
 # sent_id = 199-20141029-MONOGRAFIA_0-92
@@ -2973,7 +2947,7 @@
 18	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
 19	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	28	punct	_	_
-21	mas	mas	CCONJ	_	_	28	cc	_	_
+21	mas	mas	CCONJ	_	_	28	cc	_	SpacesAfter=\s\n
 22	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	det	_	_
 23	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
 24	custo	custo	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
@@ -3384,7 +3358,7 @@
 12	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Em seguida o bagaço foi tratado com uma solução 1,0% de HNO3 para remoção de metais que diminuem o desempenho do peróxido, e finalmente o bagaço foi tratado com peróxido de hidrogênio a 45ºC por mais 30 min sob agitação magnética (BAUDEL; ZAROR; ABREU,2005).
+# text = Em seguida o bagaço foi tratado com uma solução 1,0% de HNO para remoção de metais que diminuem o desempenho do peróxido, e finalmente o bagaço foi tratado com peróxido de hidrogênio a 45ºC por mais 30 min sob agitação magnética (BAUDEL; ZAROR; ABREU,2005).
 # sent_id = 199-20141029-MONOGRAFIA_0-114
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -3398,7 +3372,7 @@
 10	1,0	1,0	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 11	%	%	SYM	_	_	9	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	HNO3	HNO3	NUM	_	NumType=Card	11	nmod	_	_
+13	HNO	Hno	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	para	para	ADP	_	_	15	case	_	_
 15	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 16	de	de	ADP	_	_	17	case	_	_
@@ -3438,7 +3412,7 @@
 49	;	;	PUNCT	_	_	46	punct	_	_
 50	ABREU,2005	ABREU,2005	PROPN	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
 51	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+52	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = A desliginficação alcalina oxidativa do bagaço é uma alternativa atraente para a remoção da lignina e produção de celulose uma vez que chega e remover cerca de 85% de lignina e libera celulose com alta pureza.
 # sent_id = 199-20141029-MONOGRAFIA_0-115
@@ -3911,7 +3885,7 @@
 10	a	a	ADP	_	_	13	case	_	_
 11	partir	partir	NOUN	_	_	10	fixed	_	_
 12	de	de	ADP	_	_	10	fixed	_	_
-13	materiais	material	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+13	materiais	material	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpacesAfter=\s\n
 14	lignocelulósicos	lignocelulósico	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 15	mediante	mediante	ADP	_	_	13	case	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -4290,7 +4264,7 @@
 38	principalmente	principalmente	ADV	_	_	40	advmod	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
 40	xilose	xilose	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = 3.METODOLOGIA Os materiais e equipamentos utilizados neste experimento estão descritos a seguir:
 # sent_id = 199-20141029-MONOGRAFIA_0-147
@@ -4401,17 +4375,15 @@
 2	etílico	etílico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	;	;	PUNCT	_	_	1	punct	_	_
 
-# text = Bagaço de cana-de- açúcar(figura 3.3).
+# text = Bagaço de cana-de-açúcar(figura 3.3).
 # sent_id = 199-20141029-MONOGRAFIA_0-152
-1	Bagaço	Bagaço	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	cana-de	cana-de	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-4	-	-	PUNCT	_	_	1	punct	_	_
-5	açúcar(	açúcar(	PUNCT	_	_	1	punct	_	SpaceAfter=No
-6	figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	3.3	3.3	NUM	_	NumType=Card	6	obj	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+1	Bagaço	Bagaço	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	cana-de-açúcar(	cana-de-açúcar(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	figura	figura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	3.3	3.3	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = SHAKER MARCONI.
 # sent_id = 199-20141029-MONOGRAFIA_0-153
@@ -4432,7 +4404,7 @@
 3	vácuo	vácuo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	TECNAL	TECNAL	PROPN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 5	058	058	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 8 - Esquema da aparelhagem da extração Sohxlet.
 # sent_id = 199-20141029-MONOGRAFIA_0-156
@@ -4554,7 +4526,7 @@
 21	ou	ou	CCONJ	_	_	22	cc	_	_
 22	desenvolva	desenvolr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
 23	fungos	fungo	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = - No momento da utilização, o mesmo necessitou ser seco à temperatura ambiente.
 # sent_id = 199-20141029-MONOGRAFIA_0-162
@@ -4919,7 +4891,7 @@
 17	para	para	ADP	_	_	19	case	_	_
 18	30	30	NUM	_	NumType=Card	19	nummod	_	_
 19	rpm	rpm	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = -Selecionou-se a temperatura planejada e deixou-se agitar até o período de tempo determinado.
 # sent_id = 199-20141029-MONOGRAFIA_0-177
@@ -5247,7 +5219,7 @@
 24	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 25	ficar	ficar	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 26	seco	seco	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.2.3
 # sent_id = 199-20141029-MONOGRAFIA_0-192
@@ -5494,7 +5466,7 @@
 30	meia	meia	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = - Após o final da extração, lavou-se o bagaço com água destilada e efetuou- se a filtração do mesmo.
+# text = - Após o final da extração, lavou-se o bagaço com água destilada e efetuou-se a filtração do mesmo.
 # sent_id = 199-20141029-MONOGRAFIA_0-203
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	Após	Após	ADP	_	_	4	case	_	_
@@ -5514,16 +5486,16 @@
 14	água	água	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 15	destilada	destilar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
-17	efetuou	efetuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	9	punct	_	_
-19	se	se	SCONJ	_	_	21	mark	_	_
-20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	filtração	filtração	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
-22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+17-18	efetuou-se	_	_	_	_	_	_	_	_
+17	efetuou	efetuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	filtração	filtração	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 4
 # sent_id = 199-20141029-MONOGRAFIA_0-204
@@ -5692,7 +5664,7 @@
 6	ÁCIDO	ácido	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Após realizada a etapa de extração ácida e obter os sólidos secos realizou- se os cálculos da massa de lignina extraída, os resultados estão resumidos na Tabela 1 apresentada a seguir:
+# text = Após realizada a etapa de extração ácida e obter os sólidos secos realizou-se os cálculos da massa de lignina extraída, os resultados estão resumidos na Tabela 1 apresentada a seguir: Tabela 1-Resultados da extração da lignina com ácido clorídrico.
 # sent_id = 199-20141029-MONOGRAFIA_0-211
 1	Após	após	SCONJ	_	_	2	mark	_	_
 2	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	_
@@ -5705,58 +5677,50 @@
 9	obter	obter	VERB	_	VerbForm=Inf	7	conj	_	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
-12	secos	seco	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
-13	realizou	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	13	punct	_	_
-15	se	se	SCONJ	_	_	17	mark	_	_
-16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
-18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	massa	massa	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-23	extraída	extraído	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	17	punct	_	_
-25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-26	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
-27	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
-28	resumidos	resumido	ADJ	_	Gender=Masc|Number=Plur	13	xcomp	_	_
-29-30	na	_	_	_	_	_	_	_	_
-29	em	em	ADP	_	_	31	case	_	_
-30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	28	obl	_	_
-32	1	1	PROPN	_	Number=Sing	31	flat:name	_	_
-33	apresentada	apresentado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	28	acl	_	_
-34	a	a	SCONJ	_	_	35	mark	_	_
-35	seguir	seguir	VERB	_	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
-36	:	:	PUNCT	_	_	13	punct	_	_
-
-# text = Tabela 1-
-# sent_id = 199-20141029-MONOGRAFIA_0-212
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	1	1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Resultados da extração da lignina com ácido clorídrico.
-# sent_id = 199-20141029-MONOGRAFIA_0-213
-1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	extração	extração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	com	com	ADP	_	_	9	case	_	_
-9	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-10	clorídrico	clorídrico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	secos	seco	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13-14	realizou-se	_	_	_	_	_	_	_	_
+13	realizou	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	advcl	_	_
+14	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	expl	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	massa	massa	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22	extraída	extraído	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	13	punct	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
+26	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	resumidos	resumido	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	27	obl	_	_
+31	1	1	PROPN	_	Number=Sing	30	flat:name	_	_
+32	apresentada	apresentado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	27	acl	_	_
+33	a	a	SCONJ	_	_	34	mark	_	_
+34	seguir	seguir	VERB	_	VerbForm=Inf	32	advcl	_	SpaceAfter=No
+35	:	:	PUNCT	_	_	27	punct	_	_
+36	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	27	appos	_	_
+37	1-Resultados	1-Resultados	PROPN	_	Number=Sing	36	flat:name	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	extração	extração	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+44	com	com	ADP	_	_	45	case	_	_
+45	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+46	clorídrico	clorídrico	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
 
 # text = De acordo com a tabela 1, a massa de lignina extraída,foi calculada pela diferença entre a massa final do bagaço seco e a massa inicial do bagaço.
-# sent_id = 199-20141029-MONOGRAFIA_0-214
+# sent_id = 199-20141029-MONOGRAFIA_0-212
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -5796,7 +5760,7 @@
 34	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Ao longo de todo o procedimento realizou-se medições do peso do papel de filtro antes de receber o bagaço e após despejar-se o bagaço nos erlenmeyers da etapa seguinte para avaliar o quanto de massa do bagaço é perdida por esse procedimento.
-# sent_id = 199-20141029-MONOGRAFIA_0-215
+# sent_id = 199-20141029-MONOGRAFIA_0-213
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5839,7 +5803,7 @@
 33	de	de	ADP	_	_	35	case	_	_
 34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-36	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
+36	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpacesAfter=\s\n
 37	para	para	SCONJ	_	_	38	mark	_	_
 38	avaliar	avaliar	VERB	_	VerbForm=Inf	29	acl	_	_
 39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
@@ -5858,7 +5822,7 @@
 51	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os valores obtidos foram aproximadamente de 1,5% da massa inicial de bagaço.
-# sent_id = 199-20141029-MONOGRAFIA_0-216
+# sent_id = 199-20141029-MONOGRAFIA_0-214
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	obtidos	obtido	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5877,7 +5841,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = De acordo com Wolf (2011) a quantidade de lignina encontrada compondo o bagaço da cana-de-açúcar varia entre 23 a 32 %.
-# sent_id = 199-20141029-MONOGRAFIA_0-217
+# sent_id = 199-20141029-MONOGRAFIA_0-215
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -5905,18 +5869,18 @@
 24	%	%	SYM	_	_	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	19	punct	_	_
 
-# text = Esse valor pode ser até maior uma vez que fatores como variedade da espécie e de solo e características físico- químicas, podem influenciar nos resultados obtidos pelos diversos autores (HOST,2013).
-# sent_id = 199-20141029-MONOGRAFIA_0-218
+# text = Esse valor pode ser até maior uma vez que fatores como variedade da espécie e de solo e características físico-químicas, podem influenciar nos resultados obtidos pelos diversos autores (HOST,2013).
+# sent_id = 199-20141029-MONOGRAFIA_0-216
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ser	ser	AUX	_	VerbForm=Inf	6	cop	_	_
 5	até	até	ADV	_	_	6	advmod	_	_
 6	maior	maior	ADJ	_	Gender=Fem|Number=Sing	3	xcomp	_	_
-7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	mark	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	mark	_	_
 8	vez	vez	NOUN	_	Gender=Fem|Number=Sing	7	fixed	_	_
 9	que	que	SCONJ	_	_	7	fixed	_	_
-10	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+10	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 11	como	como	ADP	_	_	12	case	_	_
 12	variedade	variedade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
@@ -5928,29 +5892,27 @@
 18	solo	solo	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	características	característica	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
-21	físico	físico	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
-22	-	-	PUNCT	_	_	23	punct	_	_
-23	químicas	químico	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	12	punct	_	_
-25	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-26	influenciar	influenciar	VERB	_	VerbForm=Inf	25	xcomp	_	_
-27-28	nos	_	_	_	_	_	_	_	_
-27	em	em	ADP	_	_	29	case	_	_
-28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
-30	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	29	acl	_	_
-31-32	pelos	_	_	_	_	_	_	_	_
-31	por	por	ADP	_	_	34	case	_	_
-32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
-33	diversos	diverso	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
-34	autores	autor	NOUN	_	Gender=Masc|Number=Plur	30	obl:agent	_	_
-35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	HOST,2013	HOST,2013	PROPN	_	Gender=Masc|Number=Sing	34	appos	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+21	físico-químicas	físico-químico	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	12	punct	_	_
+23	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+24	influenciar	influenciar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+25-26	nos	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
+28	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	_
+29-30	pelos	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	32	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	diversos	diverso	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+32	autores	autor	NOUN	_	Gender=Masc|Number=Plur	28	obl:agent	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	HOST,2013	HOST,2013	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = O percentual de remoção de lignina nessa etapa do pré-tratamento pode ser visto na tabela 2 a seguir:
-# sent_id = 199-20141029-MONOGRAFIA_0-219
+# sent_id = 199-20141029-MONOGRAFIA_0-217
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	percentual	percentual	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5977,8 +5939,8 @@
 21	seguir	seguir	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 22	:	:	PUNCT	_	_	15	punct	_	_
 
-# text = Tabela 2-Análise do percentual da massa de lignina extraída no tratamento
-# sent_id = 199-20141029-MONOGRAFIA_0-220
+# text = Tabela 2-Análise do percentual da massa de lignina extraída no tratamento ácido.
+# sent_id = 199-20141029-MONOGRAFIA_0-218
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2-Análise	2-Análise	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5996,9 +5958,11 @@
 12	em	em	ADP	_	_	14	case	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	ácido	ácido	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Como visto na tabela 2 foi considerado para cada 6 gramas de bagaço da cana-de-açúcar tratado 1,92 gramas são referentes a lignina, o que equivale a um percentual de 32%.
-# sent_id = 199-20141029-MONOGRAFIA_0-221
+# sent_id = 199-20141029-MONOGRAFIA_0-219
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -6038,7 +6002,7 @@
 35	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O teor exato de lignina não pôde ser expressado pois não realizou-se a caracterização do bagaço utilizado.
-# sent_id = 199-20141029-MONOGRAFIA_0-222
+# sent_id = 199-20141029-MONOGRAFIA_0-220
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teor	teor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	exato	exato	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6063,7 +6027,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A Figura 10, apresentada a seguir, representa a quantidade de massa extraída ao longo de um tempo de 1,5 horas.
-# sent_id = 199-20141029-MONOGRAFIA_0-223
+# sent_id = 199-20141029-MONOGRAFIA_0-221
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	10	10	NUM	_	NumType=Card	9	nsubj	_	SpaceAfter=No
@@ -6090,8 +6054,23 @@
 23	horas	hora	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
+# text = Figura 10-Massa de lignina extraída x tempo de extração a 70ºC.
+# sent_id = 199-20141029-MONOGRAFIA_0-222
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	10-Massa	10-Massa	PROPN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	extraída	extrair	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
+6	x	x	ADP	_	_	7	case	_	_
+7	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	extração	extração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	70ºC	70ºC	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
+
 # text = Como pode ser observado no gráfico da figura 10 a massa extraída de lignina ao longo do tempo de extração se apresenta de maneira quase linear, significando assim que não se necessita de muito tempo para se remover lignina através do ácido clorídrico.
-# sent_id = 199-20141029-MONOGRAFIA_0-224
+# sent_id = 199-20141029-MONOGRAFIA_0-223
 1	Como	como	ADV	_	_	2	advmod	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -6149,7 +6128,7 @@
 50	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O ataque com ácido sulfúrico na estrutura do bagaço remove em média cerca de 2% da lignina, além de hidrolisar a hemicelulose podendo assim carregar para a parcela de filtrado os polissacarídeos que posteriormente poderiam ser convertidos em xilose (KARP,S.G. et al,2013).
-# sent_id = 199-20141029-MONOGRAFIA_0-225
+# sent_id = 199-20141029-MONOGRAFIA_0-224
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -6207,7 +6186,7 @@
 52	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Contudo o uso ácido clorídrico, utilizado aqui, tem a vantagem de conseguir remover a parcela da lignina que pode ser solubilizada em ácido sem arrastar consigo para a fase líquida muitos polissacarídeos.
-# sent_id = 199-20141029-MONOGRAFIA_0-226
+# sent_id = 199-20141029-MONOGRAFIA_0-225
 1	Contudo	contudo	ADV	_	_	10	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	uso	uso	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -6249,7 +6228,7 @@
 37	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Além disso, o ácido promove um afrouxamento da estrutura tornando a hemicelulose mais exposta para os ataques seguintes.
-# sent_id = 199-20141029-MONOGRAFIA_0-227
+# sent_id = 199-20141029-MONOGRAFIA_0-226
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -6275,16 +6254,19 @@
 21	seguintes	seguinte	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = 4.2 ETAPA DO TRATAMENTO ALCALINO.
+# text = 4.2
+# sent_id = 199-20141029-MONOGRAFIA_0-227
+1	4.2	4.2	NUM	_	NumType=Card	0	root	_	_
+
+# text = ETAPA DO TRATAMENTO ALCALINO.
 # sent_id = 199-20141029-MONOGRAFIA_0-228
-1	4.2	4.2	NUM	_	NumType=Card	2	nummod	_	_
-2	ETAPA	etapa	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3-4	DO	_	_	_	_	_	_	_	_
-3	DE	de	ADP	_	_	5	case	_	_
-4	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	TRATAMENTO	tratamento	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	ALCALINO	ALCALINO	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+1	ETAPA	etapa	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	DO	_	_	_	_	_	_	_	_
+2	DE	de	ADP	_	_	4	case	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	TRATAMENTO	tratamento	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	ALCALINO	ALCALINO	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os resultados do tratamento alcalino são mostrados na Tabela 3 a seguir:
 # sent_id = 199-20141029-MONOGRAFIA_0-229
@@ -6402,7 +6384,7 @@
 19	ocasionando	ocasionar	VERB	_	VerbForm=Ger	9	advcl	_	_
 20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
-22-23	na	_	_	_	_	_	_	_	_
+22-23	na	_	_	_	_	_	_	_	SpacesAfter=\s\n
 22	em	em	ADP	_	_	24	case	_	_
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	perda	perda	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
@@ -6628,7 +6610,7 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	fase	fase	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 15	alcalina	alcalino	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = O gráfico da figura 11 mostra que o tratamento alcalino não apresentou um comportamento linear, após o período de aproximadamente 40 minutos de agitação ocorre uma perda de eficiência do método, seguido de uma leve recuperação mas sem atingir os altos níveis de remoção obtidos nos instantes de 15 e 45 minutos.
 # sent_id = 199-20141029-MONOGRAFIA_0-239
@@ -7028,25 +7010,20 @@
 22	seguir	seguir	VERB	_	VerbForm=Inf	16	acl	_	SpaceAfter=No
 23	:	:	PUNCT	_	_	16	punct	_	_
 
-# text = Tabela 5-
+# text = Tabela 5-Eficiência de remoção da lignina.
 # sent_id = 199-20141029-MONOGRAFIA_0-248
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Eficiência de remoção da lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-249
-1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Tabela	Tabelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	5-Eficiência	5-Eficiência	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Nessa etapa do pré-tratamento o percentual de remoção do bagaço apresentou valores oscilatórios, pode-se presumir que o bagaço tenha chegado nesta etapa com pouca concentração de lignina, ou que a velocidade de arraste do álcool no cartucho de celulose tenha sido rápida demais e a quantidade de ciclos não tenham sido suficiente para promover uma maior extração.
-# sent_id = 199-20141029-MONOGRAFIA_0-250
+# sent_id = 199-20141029-MONOGRAFIA_0-249
 1-2	Nessa	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7123,7 +7100,7 @@
 67	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Segundo Wolf (2011), a dissolução da lignina por processos organossolve é o resultado da hidrólise de ligações do tipo éterda macromolécula de lignina.Além disso pode haver quebras das ligações éter entre os carboidratos e átomos de carbonos alfas das cadeias laterais de lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-251
+# sent_id = 199-20141029-MONOGRAFIA_0-250
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Wolf	Wolf	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7186,7 +7163,7 @@
 54	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Acredita-se que a ruptura do complexo de lignina-carboidrato ocorra devido a catalisadores ácidos liberados na reação.
-# sent_id = 199-20141029-MONOGRAFIA_0-252
+# sent_id = 199-20141029-MONOGRAFIA_0-251
 1-2	Acredita-se	_	_	_	_	_	_	_	_
 1	Acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7212,7 +7189,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = De acordo com Pasquini et al., (2005),esta etapa do processo é importante devido ao fato do solvente orgânico ser o responsável pela dissolução dos fragmentos livres, e também contribuir para a impregnação das camadas do bagaço.
-# sent_id = 199-20141029-MONOGRAFIA_0-253
+# sent_id = 199-20141029-MONOGRAFIA_0-252
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -7272,13 +7249,13 @@
 50	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = 4.4 COMPARAÇÃO GLOBAL
-# sent_id = 199-20141029-MONOGRAFIA_0-254
+# sent_id = 199-20141029-MONOGRAFIA_0-253
 1	4.4	4.4	NUM	_	NumType=Card	2	nummod	_	_
 2	COMPARAÇÃO	comparação	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	GLOBAL	Global	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = ENTRE OS MÉTODOS DE PRÉ-TRATAMENTO.
-# sent_id = 199-20141029-MONOGRAFIA_0-255
+# sent_id = 199-20141029-MONOGRAFIA_0-254
 1	ENTRE	entre	ADP	_	_	3	case	_	_
 2	OS	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	MÉTODOS	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -7287,7 +7264,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O gráfico da Figura 12, a seguir, ilustra e compara a ação dos métodos ácidos e alcalinos ao longo dos 90 minutos de agitação/extração.
-# sent_id = 199-20141029-MONOGRAFIA_0-256
+# sent_id = 199-20141029-MONOGRAFIA_0-255
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7327,7 +7304,7 @@
 33	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 12 - Comparação entre as curvas do pré-tratamento do bagaço da cana-de-açúcar.
-# sent_id = 199-20141029-MONOGRAFIA_0-257
+# sent_id = 199-20141029-MONOGRAFIA_0-256
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -7347,10 +7324,10 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Pode-se ver no gráfico da Figura 12 que até o instante de 45 minutos o tratamento alcalino tem uma maior eficácia na remoção da lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-258
+# sent_id = 199-20141029-MONOGRAFIA_0-257
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7389,7 +7366,7 @@
 31	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na realidade as sequências de métodos auxiliam na eficiência do tratamento alcalino frente ao tratamento ácido observado.
-# sent_id = 199-20141029-MONOGRAFIA_0-259
+# sent_id = 199-20141029-MONOGRAFIA_0-258
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7418,7 +7395,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # text = O tratamento ácido, como já constatado, apresenta uma constante faixa de remoção da lignina equivalente a porção da lignina que é solúvel em ácido, e possivelmente se o método ácido for aplicado antes ou depois do tratamento alcalino apresentará os mesmos níveis de massa extraída.
-# sent_id = 199-20141029-MONOGRAFIA_0-260
+# sent_id = 199-20141029-MONOGRAFIA_0-259
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	ácido	ácido	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -7476,7 +7453,7 @@
 52	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O hidróxido de amônio diluído pode até conseguir penetrar na estrutura da hemicelulose inchar a matéria lignocelulósica e extrair alguma lignina do mesmo se for utilizado antes do tratamento ácido, contudo espera-se níveis mais baixos de deslignificação, devido a rigidez do bagaço que impede a penetração do mesmo.
-# sent_id = 199-20141029-MONOGRAFIA_0-261
+# sent_id = 199-20141029-MONOGRAFIA_0-260
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	hidróxido	hidróxido	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7544,7 +7521,7 @@
 58	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O aumento da concentração do hidróxido ou a substituição por uma base mais forte pode até penetrar na estrutura mastambém irá destruir os demais polissacarídeos que se deseja obter (KARP,S.G. et al, 2013)
-# sent_id = 199-20141029-MONOGRAFIA_0-262
+# sent_id = 199-20141029-MONOGRAFIA_0-261
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7591,7 +7568,7 @@
 41	)	)	PUNCT	_	_	34	punct	_	_
 
 # text = Fica claro portanto, que o ácido clorídrico diluído não só é importante para solubilizar a lignina que não é solúvel em bases e que fica no exterior da estrutura, mas também auxilia no enfraquecimento das ligações entre a lignina e a hemicelulose e consequentemente promove uma maior abertura para o ataque alcalino.
-# sent_id = 199-20141029-MONOGRAFIA_0-263
+# sent_id = 199-20141029-MONOGRAFIA_0-262
 1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	claro	claro	ADV	_	_	1	advmod	_	_
 3	portanto	portanto	CCONJ	_	_	1	cc	_	SpaceAfter=No
@@ -7657,7 +7634,7 @@
 59	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A seguir, na tabela 6 pode-se observar o percentual global de desliginificação após cada amostra seguir por cada etapa do tratamento.
-# sent_id = 199-20141029-MONOGRAFIA_0-264
+# sent_id = 199-20141029-MONOGRAFIA_0-263
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	8	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7689,7 +7666,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Tabela 6 - Percentual Global de remoção da lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-265
+# sent_id = 199-20141029-MONOGRAFIA_0-264
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -7704,7 +7681,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Embora cada tratamento individual tenha produzido resultados diferentes sobre o tempo ideal de remoção da lignina é na combinação dos três métodos de pré-tratamento que obtivemos um satisfatório percentual de deslignificação do bagaço e provavelmente sem degradar a hemicelulose.
-# sent_id = 199-20141029-MONOGRAFIA_0-266
+# sent_id = 199-20141029-MONOGRAFIA_0-265
 1	Embora	embora	SCONJ	_	_	6	mark	_	_
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -7742,7 +7719,7 @@
 32	percentual	percentual	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	deslignificação	deslignificação	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-35-36	do	_	_	_	_	_	_	_	_
+35-36	do	_	_	_	_	_	_	_	SpacesAfter=\s\n
 35	de	de	ADP	_	_	37	case	_	_
 36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
@@ -7755,7 +7732,7 @@
 44	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = A Figura 13 sintetiza de forma global os três tratamentos.
-# sent_id = 199-20141029-MONOGRAFIA_0-267
+# sent_id = 199-20141029-MONOGRAFIA_0-266
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	13	13	NUM	_	NumType=Card	4	nummod	_	_
@@ -7769,7 +7746,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 13 - Percentual de remoção global de lignina x tempo de agitação.
-# sent_id = 199-20141029-MONOGRAFIA_0-268
+# sent_id = 199-20141029-MONOGRAFIA_0-267
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -7786,7 +7763,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = De acordo com o gráfico da figura 13 sob uma visão global o tempo de 15 minutos sob agitação de 30 rpm e 70ºC de temperatura, promove uma alta eficiência de remoção da lignina presente no bagaço.
-# sent_id = 199-20141029-MONOGRAFIA_0-269
+# sent_id = 199-20141029-MONOGRAFIA_0-268
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -7834,7 +7811,7 @@
 42	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
 
 # text = Todos os resultados se fazem satisfatórios, contudo a temperatura de 70ºC pode ser agressiva não somente à lignina, mas também aos demais polissacarídeos.
-# sent_id = 199-20141029-MONOGRAFIA_0-270
+# sent_id = 199-20141029-MONOGRAFIA_0-269
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -7867,7 +7844,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Embora as amostras sejam colocadas para agitar sob a temperatura de 70ºC leva-se um tempo para as mesmas atingirem tal temperatura.
-# sent_id = 199-20141029-MONOGRAFIA_0-271
+# sent_id = 199-20141029-MONOGRAFIA_0-270
 1	Embora	embora	SCONJ	_	_	5	mark	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -7894,7 +7871,7 @@
 23	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A associação da temperatura elevada com o ataque alcalino no tempo certo, explica a maior participação do hidróxido de amônio na remoção da lignina, contudo pode ocorrer também a degradação dos polissacarídeos.
-# sent_id = 199-20141029-MONOGRAFIA_0-272
+# sent_id = 199-20141029-MONOGRAFIA_0-271
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	associação	associação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7944,7 +7921,7 @@
 41	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Do ponto de vista energético elevar a temperatura para 70ºC pode ser mais dispendioso do que trabalhar sob temperatura ambiente por exemplo.
-# sent_id = 199-20141029-MONOGRAFIA_0-273
+# sent_id = 199-20141029-MONOGRAFIA_0-272
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7974,7 +7951,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Estudos sob temperaturas mais baixas mesmo que demandem um acréscimono tempo de extração podem tornar o processo ainda mais vantajoso economicamente.
-# sent_id = 199-20141029-MONOGRAFIA_0-274
+# sent_id = 199-20141029-MONOGRAFIA_0-273
 1	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 2	sob	sob	ADP	_	_	3	case	_	_
 3	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -7996,10 +7973,10 @@
 19	mais	mais	ADV	_	_	20	advmod	_	_
 20	vantajoso	vantajoso	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 21	economicamente	economicamente	ADV	_	_	15	advmod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = A figura 14 a seguir faz uma comparação dos três métodos empregados neste trabalho.
-# sent_id = 199-20141029-MONOGRAFIA_0-275
+# sent_id = 199-20141029-MONOGRAFIA_0-274
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	14	14	NUM	_	NumType=Card	2	nummod	_	_
@@ -8021,13 +7998,13 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 14 -
-# sent_id = 199-20141029-MONOGRAFIA_0-276
+# sent_id = 199-20141029-MONOGRAFIA_0-275
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
 
 # text = Eficiência da extração da lignina pelos métodos de extração àcida, alcalina e organossolve combinados.
-# sent_id = 199-20141029-MONOGRAFIA_0-277
+# sent_id = 199-20141029-MONOGRAFIA_0-276
 1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8052,7 +8029,7 @@
 19	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Os métodos empregados de maneira sequêncial se mostraram altamente eficientes.
-# sent_id = 199-20141029-MONOGRAFIA_0-278
+# sent_id = 199-20141029-MONOGRAFIA_0-277
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	empregados	empregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8066,7 +8043,7 @@
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Analisando as condições ideais obtidas por cada etapa do pré-tratamento obteve-se o gráfico pizza da Figura 14.
-# sent_id = 199-20141029-MONOGRAFIA_0-279
+# sent_id = 199-20141029-MONOGRAFIA_0-278
 1	Analisando	analisar	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	condições	condição	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -8093,7 +8070,7 @@
 21	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Observa-se na Figura 14 que o hidróxido tem papel fundamental na separação da lignina dos demais componentes do bagaço; removendo quase metade da quantidade existente no mesmo.Aextração com solvente comum também se faz muito importante uma vez que consegue remover de maneira economicamente viável parte da quantidade de lignina que os ataques ácidos e alcalinos não conseguiram.
-# sent_id = 199-20141029-MONOGRAFIA_0-280
+# sent_id = 199-20141029-MONOGRAFIA_0-279
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8174,7 +8151,7 @@
 69	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os métodos ácidos e alcalinos utilizados neste trabalho para pré-tratar o bagaço também apresenta vantagens, uma vez que por meio de balanços mássicos simples pode-se determinar a massa removida e por meio de métodos não dispendiosos podem ser bem usuais.
-# sent_id = 199-20141029-MONOGRAFIA_0-281
+# sent_id = 199-20141029-MONOGRAFIA_0-280
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 3	ácidos	ácir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8223,7 +8200,7 @@
 44	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Os resíduos gerados no processo podem ser aproveitados para diversos fins, uma vez que a lignina também tem sua importância econômica para outros ramos químicos.
-# sent_id = 199-20141029-MONOGRAFIA_0-282
+# sent_id = 199-20141029-MONOGRAFIA_0-281
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	gerados	gerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8252,10 +8229,10 @@
 25	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	20	obl	_	_
 26	ramos	rar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
 27	químicos	químico	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Os resultados da quantidade de lignina obtida nos volumes filtrados estão apresentadas nas Tabelas 7 e 8 referentes às amostras do tratamento ácido e alcalino respectivamente.
-# sent_id = 199-20141029-MONOGRAFIA_0-283
+# sent_id = 199-20141029-MONOGRAFIA_0-282
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8294,29 +8271,27 @@
 31	respectivamente	respectivamente	ADV	_	_	14	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = Tabela 7- Massa de lignina obtida no volume filtrado na extração ácida.
-# sent_id = 199-20141029-MONOGRAFIA_0-284
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Massa	massa	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	obtida	obter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
-8-9	no	_	_	_	_	_	_	_	_
-8	em	em	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	volume	volume	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
-11	filtrado	filtrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
-12-13	na	_	_	_	_	_	_	_	_
-12	em	em	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	extração	extração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
-15	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Tabela 7-Massa de lignina obtida no volume filtrado na extração ácida.
+# sent_id = 199-20141029-MONOGRAFIA_0-283
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	7-Massa	7-Massa	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	obtida	obter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	volume	volume	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	filtrado	filtrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	extração	extração	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 8 - Massa de lignina obtida no volume filtrado na extração alcalina.
-# sent_id = 199-20141029-MONOGRAFIA_0-285
+# sent_id = 199-20141029-MONOGRAFIA_0-284
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -8334,10 +8309,10 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	extração	extração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 15	alcalina	alcalino	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = As amostras do filtrado postas na estufa não mostraram quantidades de lignina equivalentes aos obtidos pela diferença de massas do bagaço em cada etapa do processo.
-# sent_id = 199-20141029-MONOGRAFIA_0-286
+# sent_id = 199-20141029-MONOGRAFIA_0-285
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8379,7 +8354,7 @@
 33	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = De acordo com os resultados da tabela 8, após o líquido ser evaporado a quantidade de lignina média obtida foi de 0,20 gramas, enquanto que a média de lignina obtida pela diferença da massa do bagaço antes e após o tratamento ácido foi cerca de 0,64 gramas.
-# sent_id = 199-20141029-MONOGRAFIA_0-287
+# sent_id = 199-20141029-MONOGRAFIA_0-286
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -8440,7 +8415,7 @@
 54	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = No caso do tratamento alcalino a média global de lignina obtida após evaporação foi de 0,60 gramas conforme pode ser observado na Tabela 15
-# sent_id = 199-20141029-MONOGRAFIA_0-288
+# sent_id = 199-20141029-MONOGRAFIA_0-287
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8473,7 +8448,7 @@
 27	15	15	NUM	_	NumType=Card	26	nummod	_	_
 
 # text = A diferença na massa do bagaço referente a quantidade de lignina extraída foi de 0,68 gramas..
-# sent_id = 199-20141029-MONOGRAFIA_0-289
+# sent_id = 199-20141029-MONOGRAFIA_0-288
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8497,7 +8472,7 @@
 19	..	..	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = O gráfico da Figura 15 a seguir, apresenta a concordância entre os valores obtidos através da diferença de massas do bagaço antes e após a extração e da massa de lignina obtida após evaporação do filtrado.
-# sent_id = 199-20141029-MONOGRAFIA_0-290
+# sent_id = 199-20141029-MONOGRAFIA_0-289
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8548,7 +8523,7 @@
 43	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Figura 15 - Análise da obtenção de lignina no filtrado e na polpa retida na extração alcalina.
-# sent_id = 199-20141029-MONOGRAFIA_0-291
+# sent_id = 199-20141029-MONOGRAFIA_0-290
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -8577,7 +8552,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = De acordo com o gráfico da Figura 15, pode-se assegurar que o experimento de extração alcalina foi realizado corretamente e que os resultados são inteiramente confiáveis e reprodutíveis, uma vez que o balanço da equação 1 foi quase que completamente fechado.
-# sent_id = 199-20141029-MONOGRAFIA_0-292
+# sent_id = 199-20141029-MONOGRAFIA_0-291
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -8627,16 +8602,16 @@
 44	que	que	SCONJ	_	_	46	mark	_	_
 45	completamente	completamente	ADV	_	_	46	advmod	_	_
 46	fechado	fechar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Massabagaço inicial-Massabagaço final=
-# sent_id = 199-20141029-MONOGRAFIA_0-293
+# sent_id = 199-20141029-MONOGRAFIA_0-292
 1	Massabagaço	Massabagaço	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	inicial-Massabagaço	inicial-Massabagaço	PROPN	_	Number=Sing	1	flat:name	_	_
 3	final=	final=	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Massa de ligninafiltrado(1)
-# sent_id = 199-20141029-MONOGRAFIA_0-294
+# sent_id = 199-20141029-MONOGRAFIA_0-293
 1	Massa	massa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	ligninafiltrado(	ligninafiltrado(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -8644,7 +8619,7 @@
 5	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = O valor da correlação entre os métodos foi de 99,0%, indicando a equivalência entre os mesmos.
-# sent_id = 199-20141029-MONOGRAFIA_0-295
+# sent_id = 199-20141029-MONOGRAFIA_0-294
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8668,7 +8643,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Assim, é confiável a utilização de ambos os métodos para a determinação de lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-296
+# sent_id = 199-20141029-MONOGRAFIA_0-295
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -8684,19 +8659,19 @@
 13	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 5
-# sent_id = 199-20141029-MONOGRAFIA_0-297
+# sent_id = 199-20141029-MONOGRAFIA_0-296
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 
 # text = CONCLUSÃO.
-# sent_id = 199-20141029-MONOGRAFIA_0-298
+# sent_id = 199-20141029-MONOGRAFIA_0-297
 1	CONCLUSÃO	conclusão	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A metodologia proposta mostrou-se eficiente trazendo resultados satisfatórios.
-# sent_id = 199-20141029-MONOGRAFIA_0-299
+# sent_id = 199-20141029-MONOGRAFIA_0-298
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	proposta	proposto	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8710,7 +8685,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A extração ácida de fato solubiliza uma fração de lignina e extrai essa quantidade para o filtrado separando-a da parte sólida.
-# sent_id = 199-20141029-MONOGRAFIA_0-300
+# sent_id = 199-20141029-MONOGRAFIA_0-299
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extração	extração	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8739,7 +8714,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A sequência dos métodos empregada nessa metodologia também foi fundamental para a obtenção dos resultados uma vez que o ataque ácido facilita o caminho para a penetração do hidróxido de amônio aumentando o seu poder de remoção da Lignina.
-# sent_id = 199-20141029-MONOGRAFIA_0-301
+# sent_id = 199-20141029-MONOGRAFIA_0-300
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sequência	sequência	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -8792,7 +8767,7 @@
 45	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = A fase alcalina apresentou-se como a fase que mais removeu lignina do bagaço, chegando a apresentar valores perto dos 40%.
-# sent_id = 199-20141029-MONOGRAFIA_0-302
+# sent_id = 199-20141029-MONOGRAFIA_0-301
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	alcalina	alcalino	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8824,7 +8799,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A extração soxlet com etanol conseguiu solubilizar e remover uma determinada fração da lignina que ainda não foi extraída pelos métodos anteriores, porém seus valoresoscilaram entre 8 e 30 %, e por isso necessita ser refeita para verificar a possibilidade de erro experimental.
-# sent_id = 199-20141029-MONOGRAFIA_0-303
+# sent_id = 199-20141029-MONOGRAFIA_0-302
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extração	extração	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	soxlet	soxlet	X	_	_	2	amod	_	_
@@ -8877,7 +8852,7 @@
 48	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\n
 
 # text = De uma forma geral, as amostras com tempos de 15 e 45 minutos de extração em cada uma das duas primeiras etapas, apresentaram os maiores índices de remoção chegando a 94,43% na temperatura de 70ºC.
-# sent_id = 199-20141029-MONOGRAFIA_0-304
+# sent_id = 199-20141029-MONOGRAFIA_0-303
 1	De	de	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	forma	forma	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_

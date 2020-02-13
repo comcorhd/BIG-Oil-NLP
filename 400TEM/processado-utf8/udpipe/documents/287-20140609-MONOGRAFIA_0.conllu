@@ -1,6 +1,6 @@
 # text = 1
 # sent_id = 287-20140609-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	_
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n
 
 # text = INTRODUÇÃO
 # sent_id = 287-20140609-MONOGRAFIA_0-2
@@ -86,7 +86,7 @@
 27	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	18	punct	_	_
 
-# text = No entanto, ao longo do tempo, a produção de petróleo diminui pela redução do volume de óleo no mesmo, pela queda de pressão e também pela mudança gradual das propriedades físico- químicas do óleo, como a sua densidade e viscosidade (Santos, 2009).
+# text = No entanto, ao longo do tempo, a produção de petróleo diminui pela redução do volume de óleo no mesmo, pela queda de pressão e também pela mudança gradual das propriedades físico-químicas do óleo, como a sua densidade e viscosidade (Santos, 2009).
 # sent_id = 287-20140609-MONOGRAFIA_0-6
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	7	cc	_	_
@@ -139,26 +139,24 @@
 40	de	de	ADP	_	_	42	case	_	_
 41	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
 42	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	_
-43	físico	físico	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
-44	-	-	PUNCT	_	_	16	punct	_	_
-45	químicas	químico	NOUN	_	Gender=Fem|Number=Plur	16	appos	_	_
-46-47	do	_	_	_	_	_	_	_	_
-46	de	de	ADP	_	_	48	case	_	_
-47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
-49	,	,	PUNCT	_	_	53	punct	_	_
-50	como	como	ADP	_	_	53	case	_	_
-51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-52	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	53	det	_	_
-53	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	_
-54	e	e	CCONJ	_	_	55	cc	_	_
-55	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	53	conj	_	_
-56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
-57	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	53	appos	_	SpaceAfter=No
-58	,	,	PUNCT	_	_	59	punct	_	_
-59	2009	2009	NUM	_	NumType=Card	57	conj	_	SpaceAfter=No
-60	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+43	físico-químicas	físico-químico	ADJ	_	Gender=Fem|Number=Plur	42	amod	_	_
+44-45	do	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	51	punct	_	_
+48	como	como	ADP	_	_	51	case	_	_
+49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+50	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	51	det	_	_
+51	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	16	appos:parataxis	_	_
+52	e	e	CCONJ	_	_	53	cc	_	_
+53	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	51	conj	_	_
+54	(	(	PUNCT	_	_	55	punct	_	SpaceAfter=No
+55	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	51	appos	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	57	punct	_	_
+57	2009	2009	NUM	_	NumType=Card	55	conj	_	SpaceAfter=No
+58	)	)	PUNCT	_	_	55	punct	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Entretanto, a queda de pressão pode ser modificada pelo uso de processos de recuperação que têm por objetivo aumentar a energia do poço.
 # sent_id = 287-20140609-MONOGRAFIA_0-7
@@ -497,7 +495,7 @@
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
 10	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
-11	reduzir	reduzir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+11	reduzir	reduzir	VERB	_	VerbForm=Inf	10	xcomp	_	SpacesAfter=\s\n
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -715,14 +713,14 @@
 29-30	delas	_	_	_	_	_	_	_	SpaceAfter=No
 29	de	de	ADP	_	_	30	case	_	_
 30	elas	elas	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	27	nmod	_	_
-31	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo II REVISÃO BIBLIOGRÁFICA 2
 # sent_id = 287-20140609-MONOGRAFIA_0-20
 1	Capítulo	capítulo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	II	II	PROPN	_	Number=Sing	1	flat:name	_	_
 3	REVISÃO	revisão	PROPN	_	Number=Sing	1	flat:name	_	_
-4	BIBLIOGRÁFICA	BIBLIOGRÁFICA	PROPN	_	Number=Sing	1	flat:name	_	_
+4	BIBLIOGRÁFICA	BIBLIOGRÁFICA	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
 5	2	2	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = REVISÃO BIBLIOGRÁFICA
@@ -953,7 +951,7 @@
 16	b	bado	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	16	punct	_	_
 18	parcialmente	parcialmente	ADV	_	_	19	advmod	_	_
-19	hidrolisada	hidrolisar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
+19	hidrolisada	hidrolisar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	SpacesAfter=\s\n
 20	2.2	2.2	NUM	_	NumType=Card	13	nummod	_	_
 
 # text = Reologia
@@ -1292,7 +1290,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	2005	2005	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Correia et al. (2005) estudaram o comportamento reológico de polímeros isolados e blendas formadas por esses polímeros, visando detectar uma possível interação entre os mesmos.
 # sent_id = 287-20140609-MONOGRAFIA_0-45
@@ -1761,7 +1759,7 @@
 49	de	de	ADP	_	_	51	case	_	_
 50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	Petróleo	Petróleo	PROPN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+52	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = 2.3
 # sent_id = 287-20140609-MONOGRAFIA_0-56
@@ -2008,7 +2006,7 @@
 7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+10	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\s\n
 
 # text = Além destes tipos de porosidade, há ainda a porosidade primária, que é desenvolvida durante a deposição de sedimentos, e a porosidade secundária, resultante de processos geológicos subsequentes à deposição.
 # sent_id = 287-20140609-MONOGRAFIA_0-70
@@ -2443,7 +2441,7 @@
 13	em	em	ADP	_	_	15	case	_	_
 14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	formação	formação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-16	apenas	apenas	ADV	_	_	19	advmod	_	_
+16	apenas	apenas	ADV	_	_	19	advmod	_	SpacesAfter=\s\n
 17	com	com	ADP	_	_	19	case	_	_
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	conhecimento	conhecimento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -2845,7 +2843,7 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	maior	grande	ADJ	_	Gender=Fem|Number=Sing	24	xcomp	_	_
 27	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	cop	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpacesAfter=\s\n
 29	dificuldade	dificuldade	NOUN	_	Gender=Fem|Number=Sing	42	nsubj	_	_
 30-31	dos	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -3140,7 +3138,7 @@
 5-6	tem-se	_	_	_	_	_	_	_	SpaceAfter=No
 5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-7	:	:	PUNCT	_	_	5	punct	_	_
+7	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
 
 # text = Onde: kro –
 # sent_id = 287-20140609-MONOGRAFIA_0-128
@@ -3274,7 +3272,7 @@
 4	Curvas	curvas	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	permeabilidade	permeabilidade	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
-7	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+7	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\s\n
 8	2.3.7	2.3.7	NUM	_	NumType=Card	6	nummod	_	_
 9	Mobilidade	Mobilidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 
@@ -3570,7 +3568,7 @@
 15-16	aos	_	_	_	_	_	_	_	_
 15	a	a	ADP	_	_	14	case	_	_
 16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-17	poços	poço	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	_
+17	poços	poço	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	SpacesAfter=\s\n
 18	produtores	produtor	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	aumentando	aumentar	VERB	_	VerbForm=Ger	6	advcl	_	_
@@ -4103,7 +4101,7 @@
 20	para	para	ADP	_	_	22	case	_	_
 21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	poços	poços	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	_
-23	de	de	ADP	_	_	24	case	_	_
+23	de	de	ADP	_	_	24	case	_	SpacesAfter=\s\n
 24	produção	produção	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	deixando	deixar	VERB	_	VerbForm=Ger	13	advcl	_	_
@@ -4488,7 +4486,7 @@
 21	eficiências	eficiência	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	varrido	varrido	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	18	punct	_	_
+24	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
 25	pois	pois	SCONJ	_	_	32	mark	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	alta	alto	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
@@ -4953,7 +4951,7 @@
 29	modo	modo	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	_
 30	que	que	SCONJ	_	_	27	fixed	_	_
 31	não	não	ADV	_	Polarity=Neg	32	advmod	_	_
-32	existam	existir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+32	existam	existir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	SpacesAfter=\s\n
 33	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
 34	interfaciais	interfacial	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	5	punct	_	_
@@ -5374,7 +5372,7 @@
 19	,	,	PUNCT	_	_	15	punct	_	_
 20	em	em	ADP	_	_	22	case	_	_
 21	geral	geral	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
-22	soda	soda	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+22	soda	soda	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpacesAfter=\s\n
 23	cáustica	cáustico	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	3	punct	_	_
 25	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5818,7 +5816,7 @@
 42	,	,	PUNCT	_	_	43	punct	_	_
 43	2010	2010	NUM	_	NumType=Card	41	appos:parataxis	_	SpaceAfter=No
 44	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+45	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Abidinet et al. (2012) afirmam que a aplicação da tecnologia de Recuperação Avançada de petróleo aumenta a eficiência na recuperação do óleo em cerca de mais 20%.
 # sent_id = 287-20140609-MONOGRAFIA_0-226
@@ -6106,13 +6104,13 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
 30	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo III METODOLOGIA 3
 # sent_id = 287-20140609-MONOGRAFIA_0-233
 1	Capítulo	capítulo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	III	Iii	PROPN	_	Number=Sing	1	flat:name	_	_
-3	METODOLOGIA	metodologia	PROPN	_	Number=Sing	1	flat:name	_	_
+3	METODOLOGIA	metodologia	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
 4	3	3	NUM	_	NumType=Card	1	flat	_	_
 
 # text = METODOLOGIA Neste capítulo, são apresentados os materiais utilizados e os procedimentos adotados para o desenvolvimento experimental do trabalho.
@@ -6184,7 +6182,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
 15	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 06 – Procedimentos experimentais 3.2.1
 # sent_id = 287-20140609-MONOGRAFIA_0-240
@@ -6313,7 +6311,7 @@
 4	Serra	Serra	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	copo	copo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	diamantada	diamantar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
+7	diamantada	diamantar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	SpacesAfter=\s\n
 
 # text = Depois disto, foi feita a calcinação em mufla (Figura 09) à temperatura de 600ºC por 180 minutos.
 # sent_id = 287-20140609-MONOGRAFIA_0-247
@@ -6550,7 +6548,7 @@
 4	AN977SH	AN977SH	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	1500ppm	1500ppm	NOUN	_	Gender=Masc|Number=Plur	4	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
+7	)	)	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
 
 # text = De acordo com o fabricante dos polímeros, os mesmos apresentam as seguintes cargas iônicas:
 # sent_id = 287-20140609-MONOGRAFIA_0-259
@@ -6698,7 +6696,7 @@
 2	de	de	ADP	_	_	3	case	_	_
 3	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
-# text = Para a realização da recuperação do petróleo, foram adotados os seguintes passos: 3.2.4.1 Saturação com solução salina Primeiramente, foi feita a saturação do plug com a solução aquosa com KCl (2,0%) e CaCl2 (0,2%).
+# text = Para a realização da recuperação do petróleo, foram adotados os seguintes passos: 3.2.4.1 Saturação com solução salina Primeiramente, foi feita a saturação do plug com a solução aquosa com KCl (2,0%) e CaCl (0,2%).
 # sent_id = 287-20140609-MONOGRAFIA_0-266
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6722,7 +6720,7 @@
 18	Saturação	Saturação	PROPN	_	Number=Sing	17	flat:name	_	_
 19	com	com	ADP	_	_	20	case	_	_
 20	solução	solução	PROPN	_	Number=Sing	17	nmod	_	_
-21	salina	salinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+21	salina	salinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpacesAfter=\s\n
 22	Primeiramente	primeiramente	ADV	_	_	21	advmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	21	punct	_	_
 24	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
@@ -6744,7 +6742,7 @@
 39	%	%	SYM	_	_	36	appos	_	SpaceAfter=No
 40	)	)	PUNCT	_	_	39	punct	_	_
 41	e	e	CCONJ	_	_	42	cc	_	_
-42	CaCl2	CaCl2	PROPN	_	Gender=Masc|Number=Sing	36	conj	_	_
+42	CaCl	CaCl	PROPN	_	Gender=Masc|Number=Sing	36	conj	_	_
 43	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 44	0,2	0,2	NUM	_	NumType=Card	45	nummod	_	SpaceAfter=No
 45	%	%	SYM	_	_	42	appos	_	SpaceAfter=No
@@ -7070,7 +7068,7 @@
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	e	e	CCONJ	_	_	27	cc	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	25	punct	_	_
-27	manômetro	manômetro	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
+27	manômetro	manômetro	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	SpacesAfter=\s\n
 28	3.2.4.1	3.2.4.1	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	_
 29	Recuperações	Recuperações	PROPN	_	Number=Sing	28	flat:name	_	_
 
@@ -7303,7 +7301,7 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Recuperação	Recuperação	PROPN	_	Number=Sing	18	obl	_	_
 22	Avançada	Avançada	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 14 – (a) plug saturado com petróleo e (b) plug depois da Recuperação Avançada
 # sent_id = 287-20140609-MONOGRAFIA_0-289
@@ -7467,7 +7465,7 @@
 17	e	e	CCONJ	_	_	18	cc	_	_
 18	Avançada	Avançada	PROPN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo IV RESULTADOS
 # sent_id = 287-20140609-MONOGRAFIA_0-296
@@ -7478,7 +7476,7 @@
 # text = E DISCUSSÃO 4
 # sent_id = 287-20140609-MONOGRAFIA_0-297
 1	E	e	CCONJ	_	_	3	cc	_	_
-2	DISCUSSÃO	discussão	ADV	_	_	3	advmod	_	_
+2	DISCUSSÃO	discussão	ADV	_	_	3	advmod	_	SpacesAfter=\s\n
 3	4	4	NUM	_	NumType=Card	0	root	_	_
 
 # text = RESULTADOS
@@ -7578,7 +7576,7 @@
 26	g	g	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
-# text = Como a massa específica (ρ) da água à temperatura de 25ºC é 0,997g/cm3 (Fox et al., 2006), pode- se dizer que o volume ocupado pela água foi 11,50mL (V = m/ρ).
+# text = Como a massa específica (ρ) da água à temperatura de 25ºC é 0,997g/cm3 (Fox et al., 2006), pode-se dizer que o volume ocupado pela água foi 11,50mL (V = m/ρ).
 # sent_id = 287-20140609-MONOGRAFIA_0-304
 1	Como	como	SCONJ	_	_	27	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7607,27 +7605,27 @@
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	2006	2006	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	15	punct	_	_
-27	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-28	-	-	PUNCT	_	_	27	punct	_	_
-29	se	se	SCONJ	_	_	30	mark	_	_
-30	dizer	dizer	VERB	_	VerbForm=Inf	27	xcomp	_	_
-31	que	que	SCONJ	_	_	39	mark	_	_
-32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	volume	volume	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	_
-34	ocupado	ocupar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	33	acl	_	_
-35-36	pela	_	_	_	_	_	_	_	_
-35	por	por	ADP	_	_	37	case	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	água	água	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent	_	_
-38	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	_
-39	11,50mL	11,50mL	PROPN	_	Gender=Fem|Number=Sing	30	ccomp	_	_
-40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
-41	V	V	PROPN	_	Gender=Masc|Number=Sing	39	appos	_	_
-42	=	=	SYM	_	_	41	appos	_	_
-43	m/ρ	m/ρ	PROPN	_	Number=Sing	42	flat:name	_	SpaceAfter=No
-44	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	27	punct	_	_
+26	,	,	PUNCT	_	_	3	punct	_	_
+27-28	pode-se	_	_	_	_	_	_	_	_
+27	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	29	nsubj	_	_
+29	dizer	dizer	VERB	_	VerbForm=Inf	27	xcomp	_	_
+30	que	que	SCONJ	_	_	38	mark	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	volume	volume	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+33	ocupado	ocupar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	acl	_	_
+34-35	pela	_	_	_	_	_	_	_	_
+34	por	por	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	água	água	NOUN	_	Gender=Fem|Number=Sing	33	obl:agent	_	_
+37	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	cop	_	_
+38	11,50mL	11,50mL	PROPN	_	Gender=Fem|Number=Sing	29	ccomp	_	_
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	V	V	PROPN	_	Gender=Masc|Number=Sing	38	appos	_	_
+41	=	=	SYM	_	_	40	appos	_	_
+42	m/ρ	m/ρ	PROPN	_	Number=Sing	41	flat:name	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = O volume do plug era 40,19 mL.
 # sent_id = 287-20140609-MONOGRAFIA_0-305
@@ -7651,11 +7649,11 @@
 5	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	5	punct	_	_
 
-# text = Para o plug usado na Recuperação Avançada com o polímero AN977SH 4.2
+# text = Para o plug usado na Recuperação Avançada com o polímero AN977SH obteve-se Φe = 27,35%.
 # sent_id = 287-20140609-MONOGRAFIA_0-307
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	plug	plug	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	plug	plug	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 4	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
 5-6	na	_	_	_	_	_	_	_	_
 5	em	em	ADP	_	_	7	case	_	_
@@ -7666,15 +7664,26 @@
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 12	AN977SH	AN977SH	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
-13	4.2	4.2	NUM	_	NumType=Card	12	nummod	_	_
+13-14	obteve-se	_	_	_	_	_	_	_	_
+13	obteve	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+15	Φe	Φer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	=	=	SYM	_	_	15	obj	_	_
+17	27,35	27,35	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	16	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# text = 4.2
+# sent_id = 287-20140609-MONOGRAFIA_0-308
+1	4.2	4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Comportamentos Reológicos
-# sent_id = 287-20140609-MONOGRAFIA_0-308
+# sent_id = 287-20140609-MONOGRAFIA_0-309
 1	Comportamentos	comportamentos	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Reológicos	Reológicos	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Os comportamentos reológicos de cada polímero estudado no presente trabalho foram obtidos.
-# sent_id = 287-20140609-MONOGRAFIA_0-309
+# sent_id = 287-20140609-MONOGRAFIA_0-310
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	comportamentos	comportamento	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
 3	reológicos	reológico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -7692,7 +7701,7 @@
 14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = As Figuras 16 a 19 mostram os comportamentos da tensão de cisalhamento em função da taxa de cisalhamento para os polímeros a três diferentes temperaturas: 298, 308 e 318K.
-# sent_id = 287-20140609-MONOGRAFIA_0-310
+# sent_id = 287-20140609-MONOGRAFIA_0-311
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	16	16	NUM	_	NumType=Card	2	nummod	_	_
@@ -7728,25 +7737,22 @@
 31	308	308	NUM	_	NumType=Card	29	conj	_	_
 32	e	e	CCONJ	_	_	33	cc	_	_
 33	318K	318K	PROPN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
-# text = Figura 16 –
-# sent_id = 287-20140609-MONOGRAFIA_0-311
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	16	16	NUM	_	NumType=Card	1	obj	_	_
-3	–	–	PUNCT	_	_	1	punct	_	_
-
-# text = Comportamento reológico do AH912SH (400ppm)
+# text = Figura 16 – Comportamento reológico do AH912SH (400ppm)
 # sent_id = 287-20140609-MONOGRAFIA_0-312
-1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	AH912SH	AH912SH	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	400ppm	400ppm	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	_
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	16	16	NUM	_	NumType=Card	4	nummod	_	_
+3	–	–	PUNCT	_	_	2	punct	_	_
+4	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	AH912SH	AH912SH	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	400ppm	400ppr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
 
 # text = Figura 17 –
 # sent_id = 287-20140609-MONOGRAFIA_0-313
@@ -7764,7 +7770,7 @@
 5	AN977SH	AN977SH	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	400ppm	400ppm	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	_
+8	)	)	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
 
 # text = Figura 18 –
 # sent_id = 287-20140609-MONOGRAFIA_0-315
@@ -7797,7 +7803,7 @@
 8	AN977SH	AN977SH	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	1500ppm	1500ppr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	10	punct	_	_
+11	)	)	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
 
 # text = De acordo com os comportamentos reológicos, pode-se dizer que as soluções poliméricas são fluidos binghamianos, pois os gráficos apresentam comportamento linear e não partem da origem.
 # sent_id = 287-20140609-MONOGRAFIA_0-318
@@ -8016,7 +8022,7 @@
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	AH912SH	AH912SH	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	(400ppm	(400ppr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	13	punct	_	_
+14	)	)	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
 
 # text = Figura 21 – Viscosidade plástica versus taxa de deformação do AN977SH (400ppm)
 # sent_id = 287-20140609-MONOGRAFIA_0-325
@@ -8053,7 +8059,7 @@
 12	AH912SH	AH912SH	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	1500ppm	1500ppr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	14	punct	_	_
+15	)	)	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
 
 # text = Figura 23 – Viscosidade plástica versus taxa de deformação do AN977SH (1500ppm)
 # sent_id = 287-20140609-MONOGRAFIA_0-327
@@ -8134,7 +8140,7 @@
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\s\n
 
 # text = De acordo com o comportamento reológico, pode-se dizer que o petróleo é um fluido newtoniano, pois o gráfico apresenta comportamento linear que parte da origem.
 # sent_id = 287-20140609-MONOGRAFIA_0-331
@@ -8361,7 +8367,7 @@
 9	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	1500ppm	1500ppm	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Também é possível afirmar que a viscosidade é fortemente dependente da temperatura: 
 # sent_id = 287-20140609-MONOGRAFIA_0-342
@@ -8778,7 +8784,7 @@
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	12	obl	_	_
 16	25	25	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Figura 25 – Curva de calibração
 # sent_id = 287-20140609-MONOGRAFIA_0-354
@@ -8826,22 +8832,8 @@
 30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
-# text = Absorbância = 0,0012.
-# sent_id = 287-20140609-MONOGRAFIA_0-356
-1	Absorbância	Absorbânciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	=	=	SYM	_	_	1	obj	_	_
-3	0,0012	0,0012	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Concentração (4.1)
-# sent_id = 287-20140609-MONOGRAFIA_0-357
-1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	4.1	4.1	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
-
 # text = Com as absorbâncias obtidas e com a Equação (4.1), foi possível determinar a concentração de petróleo em cada ponto coletado.
-# sent_id = 287-20140609-MONOGRAFIA_0-358
+# sent_id = 287-20140609-MONOGRAFIA_0-356
 1	Com	com	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	absorbâncias	absorbância	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
@@ -8868,7 +8860,7 @@
 24	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Lembrando-se de quais foram as diluições efetuadas, calcula-se a massa do óleo coletado em cada tubo de ensaio.
-# sent_id = 287-20140609-MONOGRAFIA_0-359
+# sent_id = 287-20140609-MONOGRAFIA_0-357
 1-2	Lembrando-se	_	_	_	_	_	_	_	_
 1	Lembrando	lembrar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -8897,7 +8889,7 @@
 23	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Conhecendo a densidade do óleo, calcula-se seu volume nos tubos de ensaio.
-# sent_id = 287-20140609-MONOGRAFIA_0-360
+# sent_id = 287-20140609-MONOGRAFIA_0-358
 1	Conhecendo	conhecer	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -8920,7 +8912,7 @@
 17	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = O volume de óleo que ficou no plug é calculado pela diferença mostrada na Equação (4.2).
-# sent_id = 287-20140609-MONOGRAFIA_0-361
+# sent_id = 287-20140609-MONOGRAFIA_0-359
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8948,7 +8940,7 @@
 22	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Onde: Vop– volume do óleo no plug (cm3);
-# sent_id = 287-20140609-MONOGRAFIA_0-362
+# sent_id = 287-20140609-MONOGRAFIA_0-360
 1	Onde	onde	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Vop–	Vop–	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -8967,7 +8959,7 @@
 14	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Q – vazão da bomba (cm3/min); t – tempo decorrido durante as recuperações (min);
-# sent_id = 287-20140609-MONOGRAFIA_0-363
+# sent_id = 287-20140609-MONOGRAFIA_0-361
 1	Q	q	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -8992,7 +8984,7 @@
 21	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Op – volume do óleo que ficou nas provetas durante a saturação (cm3);
-# sent_id = 287-20140609-MONOGRAFIA_0-364
+# sent_id = 287-20140609-MONOGRAFIA_0-362
 1	Op	op	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -9015,7 +9007,7 @@
 18	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Ot – volume do óleo que ficou nas tubulações do sistema (cm3).
-# sent_id = 287-20140609-MONOGRAFIA_0-365
+# sent_id = 287-20140609-MONOGRAFIA_0-363
 1	Ot	Ot	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	3	punct	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -9036,10 +9028,10 @@
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	cm3	cm3	NUM	_	NumType=Card	14	appos	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = O volume poroso injetado é expresso pela Equação (4.3).
-# sent_id = 287-20140609-MONOGRAFIA_0-366
+# sent_id = 287-20140609-MONOGRAFIA_0-364
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -9056,7 +9048,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Onde, (Vp)inj – volume poroso injetado;
-# sent_id = 287-20140609-MONOGRAFIA_0-367
+# sent_id = 287-20140609-MONOGRAFIA_0-365
 1	Onde	onde	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -9069,7 +9061,7 @@
 10	;	;	PUNCT	_	_	5	punct	_	_
 
 # text = Q – vazão da bomba (cm3/min); t – tempo decorrido durante as recuperações (min);
-# sent_id = 287-20140609-MONOGRAFIA_0-368
+# sent_id = 287-20140609-MONOGRAFIA_0-366
 1	Q	q	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -9094,7 +9086,7 @@
 21	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = V – volume total do plug (cm3);
-# sent_id = 287-20140609-MONOGRAFIA_0-369
+# sent_id = 287-20140609-MONOGRAFIA_0-367
 1	V	V	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	3	punct	_	_
 3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -9109,7 +9101,7 @@
 11	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Φe – porosidade efetiva.
-# sent_id = 287-20140609-MONOGRAFIA_0-370
+# sent_id = 287-20140609-MONOGRAFIA_0-368
 1	Φe	Φe	ADV	_	_	3	advmod	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	porosidade	porosidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -9117,7 +9109,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O Fator de Recuperação (FR) é calculado pela Equação (4.3).
-# sent_id = 287-20140609-MONOGRAFIA_0-371
+# sent_id = 287-20140609-MONOGRAFIA_0-369
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Fator	fator	PROPN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9137,7 +9129,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Para o caso no qual se utilizou o polímero AH912SH, a recuperação com o uso da solução salina (Recuperação Convencional) apresentou FR = 13,13%.
-# sent_id = 287-20140609-MONOGRAFIA_0-372
+# sent_id = 287-20140609-MONOGRAFIA_0-370
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
@@ -9173,7 +9165,7 @@
 31	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = A Recuperação Avançada obteve FR = 2,96%.
-# sent_id = 287-20140609-MONOGRAFIA_0-373
+# sent_id = 287-20140609-MONOGRAFIA_0-371
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Recuperação	Recuperação	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	Avançada	avançada	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -9185,7 +9177,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A Figura 26 apresenta esta recuperação.
-# sent_id = 287-20140609-MONOGRAFIA_0-374
+# sent_id = 287-20140609-MONOGRAFIA_0-372
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	26	26	NUM	_	NumType=Card	4	nsubj	_	_
@@ -9195,7 +9187,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 26 – Recuperação Avançada com o AH912SH (1500ppm)
-# sent_id = 287-20140609-MONOGRAFIA_0-375
+# sent_id = 287-20140609-MONOGRAFIA_0-373
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	26	26	NUM	_	NumType=Card	10	nsubj	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -9206,10 +9198,10 @@
 8	AH912SH	AH912SH	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	1500ppm	1500ppr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	10	punct	_	_
+11	)	)	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
 
 # text = Desta forma, o volume total recuperado com o AH912SH foi de 16,09%.
-# sent_id = 287-20140609-MONOGRAFIA_0-376
+# sent_id = 287-20140609-MONOGRAFIA_0-374
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -9229,7 +9221,7 @@
 16	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Com a Recuperação Avançada, obteve-se um aumento de 22,54% no valor que foi recuperado pela injeção da solução salina.
-# sent_id = 287-20140609-MONOGRAFIA_0-377
+# sent_id = 287-20140609-MONOGRAFIA_0-375
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Recuperação	Recuperação	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -9262,7 +9254,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Quando o polímero usado foi o AN977SH, a Recuperação Convencional apresentou FR = 15,97%, valor próximo ao do caso em que se utilizou o outro polímero.
-# sent_id = 287-20140609-MONOGRAFIA_0-378
+# sent_id = 287-20140609-MONOGRAFIA_0-376
 1	Quando	quando	SCONJ	_	_	7	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -9299,7 +9291,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = No entanto, a Recuperação Avançada obteve um valor bem superior do polímero AH912SH: FR = 12,04%.
-# sent_id = 287-20140609-MONOGRAFIA_0-379
+# sent_id = 287-20140609-MONOGRAFIA_0-377
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	8	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -9326,7 +9318,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A Figura 27 apresenta esta recuperação.
-# sent_id = 287-20140609-MONOGRAFIA_0-380
+# sent_id = 287-20140609-MONOGRAFIA_0-378
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	27	27	NUM	_	NumType=Card	2	nummod	_	_
@@ -9336,7 +9328,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 27 – Recuperação Avançada com o AN977SH (1500ppm)
-# sent_id = 287-20140609-MONOGRAFIA_0-381
+# sent_id = 287-20140609-MONOGRAFIA_0-379
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	27	27	NUM	_	NumType=Card	10	nsubj	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -9350,7 +9342,7 @@
 11	)	)	PUNCT	_	_	10	punct	_	_
 
 # text = O volume total recuperado foi de 28,01%.
-# sent_id = 287-20140609-MONOGRAFIA_0-382
+# sent_id = 287-20140609-MONOGRAFIA_0-380
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	total	total	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -9362,7 +9354,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Com a Recuperação Avançada, obteve-se um aumento de 75,39% no valor que foi recuperado pela injeção da solução salina.
-# sent_id = 287-20140609-MONOGRAFIA_0-383
+# sent_id = 287-20140609-MONOGRAFIA_0-381
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Recuperação	Recuperação	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -9395,7 +9387,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Os percentuais adicionais de óleo recuperado pelo polímero não-iônico estão de acordo com o que é apresentado por Abidinet et al. (2012), os quais mostram que estes valores com a injeção de polímeros atingem cerca de mais 20%.
-# sent_id = 287-20140609-MONOGRAFIA_0-384
+# sent_id = 287-20140609-MONOGRAFIA_0-382
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	percentuais	percentual	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3	adicionais	adicioonal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -9443,7 +9435,7 @@
 44	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Quando o polímero aniônico foi utilizado, o resultado obtido foi superior ao caso anterior, sendo este resultado maior do que o relatado por Teixeira et al.
-# sent_id = 287-20140609-MONOGRAFIA_0-385
+# sent_id = 287-20140609-MONOGRAFIA_0-383
 1	Quando	quando	SCONJ	_	_	6	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
@@ -9478,7 +9470,7 @@
 30	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = (2005), que afirmam que a correta aplicação da injeção de polímeros pode aumentar as atuais reservas do Recôncavo Baiano em até 50%.
-# sent_id = 287-20140609-MONOGRAFIA_0-386
+# sent_id = 287-20140609-MONOGRAFIA_0-384
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	2005	2005	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -9509,18 +9501,18 @@
 26	até	até	ADP	_	_	28	case	_	_
 27	50	50	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
 28	%	%	SYM	_	_	17	obl	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo V CONCLUSÕES 5 CONCLUSÕES
-# sent_id = 287-20140609-MONOGRAFIA_0-387
+# sent_id = 287-20140609-MONOGRAFIA_0-385
 1	Capítulo	capítulo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	V	V	PROPN	_	Number=Sing	1	flat:name	_	_
-3	CONCLUSÕES	conclusões	PROPN	_	Number=Sing	1	flat:name	_	_
+3	CONCLUSÕES	conclusões	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
 4	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
 5	CONCLUSÕES	conclusões	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = De acordo com os resultados obtidos, pode-se concluir que a adição de polímeros à água garante um aumento da viscosidade, o que é favorável para a Recuperação Avançada do petróleo.
-# sent_id = 287-20140609-MONOGRAFIA_0-388
+# sent_id = 287-20140609-MONOGRAFIA_0-386
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -9564,7 +9556,7 @@
 37	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = É correto afirmar que os polímeros estudados são susceptíveis à degradação mecânica, quando submetidos a altas taxas de cisalhamento.
-# sent_id = 287-20140609-MONOGRAFIA_0-389
+# sent_id = 287-20140609-MONOGRAFIA_0-387
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	correto	correto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	afirmar	afirmar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -9590,7 +9582,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Prova disto, é que as viscosidades plásticas das poliacrilamidas diminuíram consideravelmente quando as taxas deformações atingiram altos valores.
-# sent_id = 287-20140609-MONOGRAFIA_0-390
+# sent_id = 287-20140609-MONOGRAFIA_0-388
 1	Prova	Prova	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -9617,7 +9609,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O polímero aniônico, por apresentar carga iônica, promove viscosidade maior ao meio que o não-iônico, revelando antecipadamente que o mesmo seria o mais indicado para as recuperações avançadas de petróleo.
-# sent_id = 287-20140609-MONOGRAFIA_0-391
+# sent_id = 287-20140609-MONOGRAFIA_0-389
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	aniônico	aniônico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -9656,7 +9648,7 @@
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Além disso, este polímero não sofre considerável mudança em sua viscosidade quando a temperatura alcança valores mais elevados.
-# sent_id = 287-20140609-MONOGRAFIA_0-392
+# sent_id = 287-20140609-MONOGRAFIA_0-390
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -9680,12 +9672,12 @@
 20	elevados	elevar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	18	acl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
-# text = Pôde-se comprovar através das realizações dos experimentos referentes à recuperação do petróleo que o polímero aniônico apresentou maior Fator de Recuperação (FR = 12,04%) do que o não-iônico (FR = 2,96%).
-# sent_id = 287-20140609-MONOGRAFIA_0-393
+# text = Pôde-se comprovar através das realizações dos experimentos referentes à recuperação do petróleo que o polímero aniônico apresentou maior Fator de A Recuperação Avançada pela injeção do AN977SH a 1500ppm obteve valores significativos, pois a mesma representa um aumento de 75,39% no valor que foi recuperado pela injeção da solução salina.
+# sent_id = 287-20140609-MONOGRAFIA_0-391
 1-2	Pôde-se	_	_	_	_	_	_	_	_
 1	Pôde	pôder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
-3	comprovar	comprovar	VERB	_	VerbForm=Inf	44	xcomp	_	_
+3	comprovar	comprovar	VERB	_	VerbForm=Inf	37	advcl	_	_
 4	através	através	ADV	_	_	3	advmod	_	_
 5-6	das	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -9711,76 +9703,53 @@
 22	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
 23	maior	maior	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
 24	Fator	fator	PROPN	_	Gender=Masc|Number=Sing	22	obj	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	Recuperação	Recuperação	PROPN	_	Number=Sing	24	nmod	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	FR	FR	PROPN	_	Gender=Fem|Number=Sing	24	appos	_	_
-29	=	=	SYM	_	_	28	appos	_	_
-30	12,04	12,04	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
-31	%	%	SYM	_	_	29	appos	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	31	punct	_	_
-33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	37	case	_	_
-34	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	33	fixed	_	_
-35	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	fixed	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	não-iônico	não-iônico	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	FR	FR	PROPN	_	Gender=Masc|Number=Sing	37	appos	_	_
-40	=	=	SYM	_	_	39	nmod	_	_
-41	2,96	2,96	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
-42	%	%	SYM	_	_	40	nmod	_	SpaceAfter=No
-43	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = A Recuperação Avançada pela injeção do AN977SH a 1500ppm obteve valores significativos, pois a mesma representa um aumento de 75,39% no valor que foi recuperado pela injeção da solução salina.
-# sent_id = 287-20140609-MONOGRAFIA_0-394
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Recuperação	Recuperação	PROPN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-3	Avançada	avançada	PROPN	_	Number=Sing	2	flat:name	_	_
-4-5	pela	_	_	_	_	_	_	_	_
-4	por	por	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	AN977SH	AN977SH	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	a	a	ADP	_	_	11	case	_	_
-11	1500ppm	1500ppm	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-12	obteve	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	valores	valor	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
-14	significativos	significativo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	12	punct	_	_
-16	pois	pois	SCONJ	_	_	19	mark	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	19	nsubj	_	_
-19	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
-20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	75,39	75,39	NUM	_	NumType=Card	24	nummod	_	SpaceAfter=No
-24	%	%	SYM	_	_	21	nmod	_	_
-25-26	no	_	_	_	_	_	_	_	_
-25	em	em	ADP	_	_	27	case	_	_
-26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	valor	valor	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
-28	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
-29	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
-30	recuperado	recuperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
-31-32	pela	_	_	_	_	_	_	_	_
-31	por	por	ADP	_	_	33	case	_	_
-32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	30	obl:agent	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	36	case	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	solução	solução	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-37	salina	salino	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	12	punct	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Recuperação	Recuperação	PROPN	_	Number=Sing	24	nmod	_	_
+28	Avançada	Avançada	PROPN	_	Number=Sing	27	flat:name	_	_
+29-30	pela	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	AN977SH	AN977SH	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+35	a	a	ADP	_	_	36	case	_	_
+36	1500ppm	1500ppm	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+37	obteve	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	conj	_	_
+38	valores	valor	NOUN	_	Gender=Masc|Number=Plur	37	obj	_	_
+39	significativos	significativo	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	37	punct	_	_
+41	pois	pois	SCONJ	_	_	44	mark	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	44	nsubj	_	_
+44	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+45	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	44	obj	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	75,39	75,39	NUM	_	NumType=Card	49	nummod	_	SpaceAfter=No
+49	%	%	SYM	_	_	46	nmod	_	_
+50-51	no	_	_	_	_	_	_	_	_
+50	em	em	ADP	_	_	52	case	_	_
+51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	valor	valor	NOUN	_	Gender=Masc|Number=Sing	44	obl	_	_
+53	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	55	nsubj:pass	_	_
+54	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	55	aux:pass	_	_
+55	recuperado	recuperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	52	acl:relcl	_	_
+56-57	pela	_	_	_	_	_	_	_	_
+56	por	por	ADP	_	_	58	case	_	_
+57	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	55	obl:agent	_	_
+59-60	da	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	solução	solução	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
+62	salina	salino	ADJ	_	Gender=Fem|Number=Sing	61	amod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Este alto valor mostra que o polímero aniônico é o mais indicado para o processo de Recuperação Avançada de petróleo.
-# sent_id = 287-20140609-MONOGRAFIA_0-395
+# sent_id = 287-20140609-MONOGRAFIA_0-392
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	alto	alto	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	valor	valor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_

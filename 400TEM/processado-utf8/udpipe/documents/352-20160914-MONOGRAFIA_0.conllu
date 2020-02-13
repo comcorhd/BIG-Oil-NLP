@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 352-20160914-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -347,7 +347,7 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	18	obl	_	_
 22	1	1	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Figura 1: Composição química de alguns materiais lignocelulósicos .
 # sent_id = 352-20160914-MONOGRAFIA_0-13
@@ -695,7 +695,7 @@
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
 4	parte	parte	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
-5-6	da	_	_	_	_	_	_	_	_
+5-6	da	_	_	_	_	_	_	_	SpacesAfter=\s\n
 5	de	de	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -783,7 +783,7 @@
 13	orgânicos	orgânico	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Dentre as aplicações dos derivados do furfural, podemos destacar: precursão na produção do álcool tetra- hidrofurfurílico, na manufatura de resinas e como intermediário na produção de fragrâncias e vitamina C; utilização na produção de substâncias com atividades farmacológica e pesticida, bem como no processo de produção de fibras; utilização na síntese de medicamentos e de perfumes; importante intermediário para a síntese de ácido succínico que é usado como aditivo alimentar e na síntese de produtos farmacêuticos, etc.
+# text = Dentre as aplicações dos derivados do furfural, podemos destacar: precursão na produção do álcool tetrahidrofurfurílico, na manufatura de resinas e como intermediário na produção de fragrâncias e vitamina C; utilização na produção de substâncias com atividades farmacológica e pesticida, bem como no processo de produção de fibras; utilização na síntese de medicamentos e de perfumes; importante intermediário para a síntese de ácido succínico que é usado como aditivo alimentar e na síntese de produtos farmacêuticos, etc.
 # sent_id = 352-20160914-MONOGRAFIA_0-29
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -809,88 +809,86 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	álcool	álcool	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-21	tetra	tetra	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
-22	-	-	PUNCT	_	_	21	punct	_	_
-23	hidrofurfurílico	hidrofurfurílico	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	12	punct	_	_
-25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	_	_	27	case	_	_
-26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	manufatura	manufatura	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	resinas	resina	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
-30	e	e	CCONJ	_	_	32	cc	_	_
-31	como	como	ADV	_	_	32	advmod	_	_
-32	intermediário	intermediário	ADJ	_	Gender=Masc|Number=Sing	12	conj	_	_
-33-34	na	_	_	_	_	_	_	_	_
-33	em	em	ADP	_	_	35	case	_	_
-34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	produção	produção	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
-36	de	de	ADP	_	_	37	case	_	_
-37	fragrâncias	fragrância	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
-38	e	e	CCONJ	_	_	39	cc	_	_
-39	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	40	conj	_	_
-40	C	c	PROPN	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
-41	;	;	PUNCT	_	_	12	punct	_	_
-42	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-43-44	na	_	_	_	_	_	_	_	_
-43	em	em	ADP	_	_	42	case	_	_
-44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	produção	produção	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-46	de	de	ADP	_	_	47	case	_	_
-47	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	45	nmod	_	_
-48	com	com	ADP	_	_	49	case	_	_
-49	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
-50	farmacológica	farmacológica	ADJ	_	Gender=Fem|Number=Sing	49	amod	_	_
-51	e	e	CCONJ	_	_	52	cc	_	_
-52	pesticida	pesticido	ADJ	_	Gender=Fem|Number=Sing	50	conj	_	SpaceAfter=No
-53	,	,	PUNCT	_	_	12	punct	_	_
-54	bem	bem	ADP	_	_	58	cc	_	_
-55	como	como	ADV	_	_	54	fixed	_	_
-56-57	no	_	_	_	_	_	_	_	_
-56	em	em	ADP	_	_	58	case	_	_
-57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
-58	processo	processo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+21	tetrahidrofurfurílico	tetrahidrofurfurílico	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	12	punct	_	_
+23-24	na	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	manufatura	manufatura	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	resinas	resina	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	como	como	ADV	_	_	30	advmod	_	_
+30	intermediário	intermediário	ADJ	_	Gender=Masc|Number=Sing	12	conj	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	produção	produção	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	fragrâncias	fragrância	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+36	e	e	CCONJ	_	_	37	cc	_	_
+37	vitamina	vitamina	NOUN	_	Gender=Fem|Number=Sing	38	conj	_	_
+38	C	c	PROPN	_	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+39	;	;	PUNCT	_	_	12	punct	_	_
+40	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+41-42	na	_	_	_	_	_	_	_	_
+41	em	em	ADP	_	_	40	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	produção	produção	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
+46	com	com	ADP	_	_	47	case	_	_
+47	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+48	farmacológica	farmacológica	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
+49	e	e	CCONJ	_	_	50	cc	_	_
+50	pesticida	pesticido	ADJ	_	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	12	punct	_	_
+52	bem	bem	ADP	_	_	56	cc	_	_
+53	como	como	ADV	_	_	52	fixed	_	_
+54-55	no	_	_	_	_	_	_	_	_
+54	em	em	ADP	_	_	56	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	processo	processo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+57	de	de	ADP	_	_	58	case	_	_
+58	produção	produção	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	_
 59	de	de	ADP	_	_	60	case	_	_
-60	produção	produção	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
-61	de	de	ADP	_	_	62	case	_	_
-62	fibras	fibra	NOUN	_	Gender=Fem|Number=Plur	60	nmod	_	SpaceAfter=No
-63	;	;	PUNCT	_	_	12	punct	_	_
-64	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-65-66	na	_	_	_	_	_	_	_	_
-65	em	em	ADP	_	_	64	case	_	_
-66	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
-67	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-68	de	de	ADP	_	_	69	case	_	_
-69	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	67	nmod	_	_
-70	e	e	CCONJ	_	_	72	cc	_	_
-71	de	de	ADP	_	_	72	case	_	_
-72	perfumes	perfume	NOUN	_	Gender=Masc|Number=Plur	69	conj	_	SpaceAfter=No
-73	;	;	PUNCT	_	_	12	punct	_	_
-74	importante	importante	ADJ	_	Gender=Masc|Number=Sing	75	amod	_	_
-75	intermediário	intermediário	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
-76	para	para	ADP	_	_	78	case	_	_
-77	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	78	det	_	_
-78	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	75	nmod	_	_
-79	de	de	ADP	_	_	80	case	_	_
-80	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	78	nmod	_	_
-81	succínico	succínico	ADJ	_	Gender=Masc|Number=Sing	80	amod	_	_
-82	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	84	nsubj:pass	_	_
-83	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	84	aux:pass	_	_
-84	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	75	acl:relcl	_	_
-85	como	como	ADP	_	_	86	case	_	_
-86	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	84	xcomp	_	_
-87	alimentar	alimentar	ADJ	_	Gender=Masc|Number=Sing	86	amod	_	_
-88	e	e	CCONJ	_	_	91	cc	_	_
-89-90	na	_	_	_	_	_	_	_	_
-89	em	em	ADP	_	_	91	case	_	_
-90	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	91	det	_	_
-91	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	87	conj	_	_
-92	de	de	ADP	_	_	93	case	_	_
-93	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	91	nmod	_	_
-94	farmacêuticos	farmacêutico	ADJ	_	Gender=Masc|Number=Plur	93	amod	_	SpaceAfter=No
-95	,	,	PUNCT	_	_	84	punct	_	_
-96	etc.	etc.	ADV	_	_	12	advmod	_	SpacesAfter=\n
+60	fibras	fibra	NOUN	_	Gender=Fem|Number=Plur	58	nmod	_	SpaceAfter=No
+61	;	;	PUNCT	_	_	12	punct	_	_
+62	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+63-64	na	_	_	_	_	_	_	_	_
+63	em	em	ADP	_	_	62	case	_	_
+64	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+66	de	de	ADP	_	_	67	case	_	_
+67	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	65	nmod	_	_
+68	e	e	CCONJ	_	_	70	cc	_	_
+69	de	de	ADP	_	_	70	case	_	_
+70	perfumes	perfume	NOUN	_	Gender=Masc|Number=Plur	67	conj	_	SpaceAfter=No
+71	;	;	PUNCT	_	_	12	punct	_	_
+72	importante	importante	ADJ	_	Gender=Masc|Number=Sing	73	amod	_	_
+73	intermediário	intermediário	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+74	para	para	ADP	_	_	76	case	_	_
+75	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
+76	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	73	nmod	_	_
+77	de	de	ADP	_	_	78	case	_	_
+78	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	76	nmod	_	_
+79	succínico	succínico	ADJ	_	Gender=Masc|Number=Sing	78	amod	_	_
+80	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	82	nsubj:pass	_	_
+81	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	82	aux:pass	_	_
+82	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	73	acl:relcl	_	_
+83	como	como	ADP	_	_	84	case	_	_
+84	aditivo	aditivo	NOUN	_	Gender=Masc|Number=Sing	82	xcomp	_	_
+85	alimentar	alimentar	ADJ	_	Gender=Masc|Number=Sing	84	amod	_	_
+86	e	e	CCONJ	_	_	89	cc	_	_
+87-88	na	_	_	_	_	_	_	_	_
+87	em	em	ADP	_	_	89	case	_	_
+88	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	89	det	_	_
+89	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	85	conj	_	_
+90	de	de	ADP	_	_	91	case	_	_
+91	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	89	nmod	_	_
+92	farmacêuticos	farmacêutico	ADJ	_	Gender=Masc|Number=Plur	91	amod	_	SpaceAfter=No
+93	,	,	PUNCT	_	_	82	punct	_	_
+94	etc.	etc.	ADV	_	_	12	advmod	_	SpacesAfter=\n
 
 # text = Para produzir o furfural realiza-se uma hidrólise alcalina, ou catalisada por ácido ou enzimas.
 # sent_id = 352-20160914-MONOGRAFIA_0-30
@@ -1029,10 +1027,10 @@
 71	)	)	PUNCT	_	_	65	punct	_	SpaceAfter=No
 72	.	.	PUNCT	_	_	9	punct	_	_
 
-# text = A cristalinidade da celulose, a proteção da lignina e as configurações espaciais do complexo celulose-hemicelulos e- lignina tornam este tipo de hidrólise um processo lento e pouco econômico.
+# text = A cristalinidade da celulose, a proteção da lignina e as configurações espaciais do complexo celulose-hemicelulos e-lignina tornam este tipo de hidrólise um processo lento e pouco econômico.
 # sent_id = 352-20160914-MONOGRAFIA_0-33
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	cristalinidade	cristalinidade	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+2	cristalinidade	cristalinidade	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -1053,21 +1051,19 @@
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	complexo	complexo	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 19	celulose-hemicelulos	celulose-hemicelulo	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
-20	e	e	CCONJ	_	_	22	cc	_	SpaceAfter=No
-21	-	-	PUNCT	_	_	20	punct	_	_
-22	lignina	ligninar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-23	tornam	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-24	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
-25	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	processo	processo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-30	lento	lento	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
-31	e	e	CCONJ	_	_	33	cc	_	_
-32	pouco	pouco	ADV	_	_	33	advmod	_	_
-33	econômico	econômico	ADJ	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	23	punct	_	_
+20	e-lignina	e-ligninar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	tornam	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+22	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	processo	processo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+28	lento	lento	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	pouco	pouco	ADV	_	_	31	advmod	_	_
+31	econômico	econômico	ADJ	_	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = A estrutura capilar das fibras de celulose e a presença de metais diminuem a eficiência da hidrólise enzimát ica (CANETTIERE, 2004 apud RODRIGUES 2007).
 # sent_id = 352-20160914-MONOGRAFIA_0-34
@@ -1233,7 +1229,7 @@
 17	oligômeros	oligômero	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	açúcares	açúcar	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
-20	e	e	CCONJ	_	_	21	cc	_	_
+20	e	e	CCONJ	_	_	21	cc	_	SpacesAfter=\s\n
 21	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
 22-23	da	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
@@ -1593,7 +1589,7 @@
 47	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	9	punct	_	_
 
-# text = Neste projeto, canola e milho doce foram testadas a fim de produzir o furfural usando ácido sulfúrico como catalisador em diferentes concentrações e tempos de reação, a uma temperatura de 180 °C. 2.
+# text = Neste projeto, canola e milho doce foram testadas a fim de produzir o furfural usando ácido sulfúrico como catalisador em diferentes concentrações e tempos de reação, a uma temperatura de 180 °C.
 # sent_id = 352-20160914-MONOGRAFIA_0-50
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
@@ -1609,10 +1605,10 @@
 11	a	a	ADP	_	_	14	mark	_	_
 12	fim	fim	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
 13	de	de	ADP	_	_	11	fixed	_	_
-14	produzir	produzir	VERB	_	VerbForm=Inf	10	advcl	_	_
+14	produzir	produzir	VERB	_	VerbForm=Inf	10	xcomp	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
-17	usando	usar	VERB	_	VerbForm=Ger	16	acl	_	_
+16	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+17	usando	usar	VERB	_	VerbForm=Ger	14	advcl	_	_
 18	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
 19	sulfúrico	sulfúrico	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 20	como	como	ADP	_	_	21	case	_	_
@@ -1624,18 +1620,21 @@
 26	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	reação	reação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	30	punct	_	_
+29	,	,	PUNCT	_	_	17	punct	_	_
 30	a	a	ADP	_	_	32	case	_	_
 31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	180	180	NUM	_	NumType=Card	32	nmod	_	_
-35	°C.	°C.	PUNCT	_	_	36	punct	_	SpacesAfter=\n
-36	2	2	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	10	punct	_	_
+35	°C.	°C.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
+
+# text = 2.
+# sent_id = 352-20160914-MONOGRAFIA_0-51
+1	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = ESTADO DA ARTE Segundo Badhan et al.(2007 apud SANTOS & GOUVEIA, 2009, p.27) materia is lignocelulósicos são os mais abundantes complexos orgânicos de carbono na forma de biomassa de planta e consistem principalmente de três componentes: celulose, hemicelulose e lignina.
-# sent_id = 352-20160914-MONOGRAFIA_0-51
+# sent_id = 352-20160914-MONOGRAFIA_0-52
 1	ESTADO	estar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
 2-3	DA	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -1688,7 +1687,7 @@
 48	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A partir de resíduos de biomassa hemicelulósicos, açúcares podem ser recuperados através de diferentes processos hidrotérmicos para obter diversos produtos, como: furfural, xilitol, ácido lático.
-# sent_id = 352-20160914-MONOGRAFIA_0-52
+# sent_id = 352-20160914-MONOGRAFIA_0-53
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -1722,7 +1721,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = O furfural é um solvente químico que tem sido utilizado para a separação de compost os saturados e insaturados no refino de petróleo, gás, óleo combustível, diesel, agricultura, nas indústrias de plástico, alimentos e farmacêutica.
-# sent_id = 352-20160914-MONOGRAFIA_0-53
+# sent_id = 352-20160914-MONOGRAFIA_0-54
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1771,7 +1770,7 @@
 44	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Existe uma literatura considerável sobre a utilização de furfural e sua crescente demanda em diferentes áreas, tais como, refino de petróleo, plástico, farmacêutica e agroquímica.
-# sent_id = 352-20160914-MONOGRAFIA_0-54
+# sent_id = 352-20160914-MONOGRAFIA_0-55
 1	Existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	literatura	literatura	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -1804,7 +1803,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Alguns estudos foram realizados a fim de compreender o efeito de parâmetros (temperatura, pH, matéria-prima, catalisador, tempo de residência, entre outros) sobre a conversão da biomassa em furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-55
+# sent_id = 352-20160914-MONOGRAFIA_0-56
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1845,7 +1844,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O furfural é um químico produzido a partir de material lignocelulósico obtido por hidrólise ácida de biomassa rica em pentoses (como xilose), e a sua produção pode ocorrer por uma ou duas fases.
-# sent_id = 352-20160914-MONOGRAFIA_0-56
+# sent_id = 352-20160914-MONOGRAFIA_0-57
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1885,7 +1884,7 @@
 37	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = O processo de hidrólise ácida consiste numa hidrólise da parte hemicelulósica, a uma temperatura moderada, utilizando ácidos diluídos.
-# sent_id = 352-20160914-MONOGRAFIA_0-57
+# sent_id = 352-20160914-MONOGRAFIA_0-58
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1912,8 +1911,8 @@
 22	diluídos	diluir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = Ácidos frequentemente utilizados como catalisadores são HCl, H2SO4, HF, HNO3 e H3PO4.
-# sent_id = 352-20160914-MONOGRAFIA_0-58
+# text = Ácidos frequentemente utilizados como catalisadores são HCl, H2SO4, HF, HNO e H3PO4.
+# sent_id = 352-20160914-MONOGRAFIA_0-59
 1	Ácidos	Ácir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_
 2	frequentemente	frequentemente	ADV	_	_	3	advmod	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
@@ -1926,13 +1925,13 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	HF	HF	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
+13	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
 14	e	e	CCONJ	_	_	15	cc	_	_
 15	H3PO4	H3PO4	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A produção de furfural em uma etapa é composta por hidrólise de pentosano em xilose e, então, desidratado para furfural, todo o processo utiliza o mesmo reator.
-# sent_id = 352-20160914-MONOGRAFIA_0-59
+# sent_id = 352-20160914-MONOGRAFIA_0-60
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1966,7 +1965,7 @@
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Enquanto que na produção de furfural em dois estágios, dois reatores são utilizados, um reator para hidrólise e um outro para a desidratação.
-# sent_id = 352-20160914-MONOGRAFIA_0-60
+# sent_id = 352-20160914-MONOGRAFIA_0-61
 1	Enquanto	enquanto	SCONJ	_	_	15	mark	_	_
 2	que	que	SCONJ	_	_	15	mark	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -1997,7 +1996,7 @@
 27	.	.	PUNCT	_	_	0	root	_	_
 
 # text = Os reatores podem ser reatores descontínuo ou contínuo.
-# sent_id = 352-20160914-MONOGRAFIA_0-61
+# sent_id = 352-20160914-MONOGRAFIA_0-62
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	reatores	reator	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2008,8 +2007,8 @@
 8	contínuo	contínuo	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Algumas matérias-primas normalmente utilizadas para a sua produção são cana-de- açúcar, sabugo de milho, caule do algodão, caule do girassol, casca de algodão, caule do tabaco, casca de arroz, madeiras, palha de sorgo, canola, etc.
-# sent_id = 352-20160914-MONOGRAFIA_0-62
+# text = Algumas matérias-primas normalmente utilizadas para a sua produção são cana-de-açúcar, sabugo de milho, caule do algodão, caule do girassol, casca de algodão, caule do tabaco, casca de arroz, madeiras, palha de sorgo, canola, etc.
+# sent_id = 352-20160914-MONOGRAFIA_0-63
 1	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	matérias-primas	matéria-primo	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	normalmente	normalmente	ADV	_	_	4	advmod	_	_
@@ -2018,54 +2017,52 @@
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	8	det	_	_
 8	produção	produção	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
-9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-10	cana-de	cana-de	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-11	-	-	PUNCT	_	_	12	punct	_	_
-12	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	sabugo	sabugo	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	milho	milho	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	caule	caule	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	algodão	algodão	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	caule	caule	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	girassol	girassol	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	casca	casca	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	algodão	algodão	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	_
-32	caule	caule	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
-33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	tabaco	tabaco	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	37	punct	_	_
-37	casca	casca	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-38	de	de	ADP	_	_	39	case	_	_
-39	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cana-de-açúcar	cana-de-açúcar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	sabugo	sabugo	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	milho	milho	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	caule	caule	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	algodão	algodão	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	caule	caule	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	girassol	girassol	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	casca	casca	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	algodão	algodão	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	caule	caule	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	tabaco	tabaco	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	casca	casca	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	madeiras	madeira	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
-41	madeiras	madeira	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	43	punct	_	_
-43	palha	palha	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-44	de	de	ADP	_	_	45	case	_	_
-45	sorgo	sorgo	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+41	palha	palha	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	sorgo	sorgo	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	canola	canola	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	47	punct	_	_
-47	canola	canola	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
-48	,	,	PUNCT	_	_	49	punct	_	_
-49	etc	etc	ADV	_	_	10	advmod	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	10	punct	_	_
+47	etc	etc	ADV	_	_	10	advmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Entre todos estes resíduos de biomassa, cana-de-açúcar tem sido amplamente testado numa variedade de condições, a fim de produzir o furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-63
+# sent_id = 352-20160914-MONOGRAFIA_0-64
 1	Entre	entre	ADP	_	_	4	case	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -2094,7 +2091,7 @@
 25	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Por exemplo, Gámez et al. (2006) hidrolisaram amostras de bagaço de cana com ácido fosfórico em condições brandas (H3PO4 de 2-6% (em massa), tempo de 300min e 122°C) com objetivo de estudar a viabilidade do uso da fase líquida como meio de fermentação.
-# sent_id = 352-20160914-MONOGRAFIA_0-64
+# sent_id = 352-20160914-MONOGRAFIA_0-65
 1	Por	por	ADP	_	_	10	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -2155,7 +2152,7 @@
 56	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Os modelos cinéticos foram desenvolvidos para descrever os produtos da hidrólise ácida.
-# sent_id = 352-20160914-MONOGRAFIA_0-65
+# sent_id = 352-20160914-MONOGRAFIA_0-66
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	modelos	modelo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	cinéticos	cinético	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -2173,10 +2170,10 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = As condições ótimas selecionadas foram temperatura de 122°C, H3PO4 6%, tempo de 300min.
-# sent_id = 352-20160914-MONOGRAFIA_0-66
+# sent_id = 352-20160914-MONOGRAFIA_0-67
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-3	ótimas	ótimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+3	ótimas	ótimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpacesAfter=\s\n
 4	selecionadas	selecionado	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 6	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -2194,7 +2191,7 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Usando estas condições, foram obtidos 17,6g/L de xilose, 2,6 g/L de arabinose, 3,0 g/L de glicose, 1,2 g/L de furfural e 4,0 g/L de ácido acético.
-# sent_id = 352-20160914-MONOGRAFIA_0-67
+# sent_id = 352-20160914-MONOGRAFIA_0-68
 1	Usando	usar	VERB	_	VerbForm=Ger	6	advcl	_	_
 2	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	condições	condição	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
@@ -2228,7 +2225,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Estudos feitos por Vázquez et al.
-# sent_id = 352-20160914-MONOGRAFIA_0-68
+# sent_id = 352-20160914-MONOGRAFIA_0-69
 1	Estudos	Estudo	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
 2	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -2237,7 +2234,7 @@
 6	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = (2007) mostraram a produção de furfural por hidrólise da palha de sorgo, tendo o ácido fosfórico como catalisador e uma temperatura de reação de 134°C.
-# sent_id = 352-20160914-MONOGRAFIA_0-69
+# sent_id = 352-20160914-MONOGRAFIA_0-70
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	2007	2007	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -2271,7 +2268,7 @@
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A palha de sorgo é um resíduo da produção da semente de sorgo, um materia l lignocelulósico abundante e de baixo custo, que é ultimamente utilizado em rações.
-# sent_id = 352-20160914-MONOGRAFIA_0-70
+# sent_id = 352-20160914-MONOGRAFIA_0-71
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	palha	palha	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2309,7 +2306,7 @@
 33	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Várias concentrações de H3PO4 em um intervalo de 2-6% (em massa) foram avaliadas e o tempo de reação foi de 300min.
-# sent_id = 352-20160914-MONOGRAFIA_0-71
+# sent_id = 352-20160914-MONOGRAFIA_0-72
 1	Várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2338,7 +2335,7 @@
 26	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Parâmetros cinéticos de modelos matemáticos foram encontrados para prever a concentração de xilose, glicose, arabinose e ácido acético.
-# sent_id = 352-20160914-MONOGRAFIA_0-72
+# sent_id = 352-20160914-MONOGRAFIA_0-73
 1	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 2	cinéticos	cinético	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2362,7 +2359,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = As condições ótimas para a produção de furfural, por hidrólise ácida, foram concentração de H3PO4 de 6%, a 134°C, resultando numa solução com 13,7 g/L de furfural, 4g/L de xilose, 2,9g/L de glicose, 1,1g/L de arabinose e 1,2g/L de ácido acético.
-# sent_id = 352-20160914-MONOGRAFIA_0-73
+# sent_id = 352-20160914-MONOGRAFIA_0-74
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
 3	ótimas	ótimo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -2417,7 +2414,7 @@
 51	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Suxia et al. (2012) estudaram a otimização da produção do furfural utilizando a casca de arroz, a partir de dois estágios: uma hidrólise ácida seguida por desidratação através de um planejamento de ensaios ortogonais e de uma metodologia de resposta.
-# sent_id = 352-20160914-MONOGRAFIA_0-74
+# sent_id = 352-20160914-MONOGRAFIA_0-75
 1	Suxia	Suxia	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -2469,7 +2466,7 @@
 47	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Os resultados mostraram que as condições ótimas foram 177°C, 120 mL de volume de agente de extração, 2,1g de catalisador e um tempo de reação de 4,8h.
-# sent_id = 352-20160914-MONOGRAFIA_0-75
+# sent_id = 352-20160914-MONOGRAFIA_0-76
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
@@ -2502,7 +2499,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Sob condições ideais, o rendimento de furfural atingiu 8,9%.
-# sent_id = 352-20160914-MONOGRAFIA_0-76
+# sent_id = 352-20160914-MONOGRAFIA_0-77
 1	Sob	sob	ADP	_	_	2	case	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
 3	ideais	ideal	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
@@ -2517,7 +2514,7 @@
 12	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Sánchez et al. (2012) utilizaram como matéria-prima licores com alto teor de hemicelulo se proveniente da auto-hidrólise de espigas de milho, usando os ácidos sulfúrico e clorídrico como catalisadores e uma tecnologia de aquecimento por microondas a fim de obter as condições ótimas para a produção de furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-77
+# sent_id = 352-20160914-MONOGRAFIA_0-78
 1	Sánchez	Sánchez	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -2574,7 +2571,7 @@
 53	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Estas condições foram determinadas usando modelos experimenta is em que as concentrações do catalisador, a temperatura e o tempo de reação foram variados.
-# sent_id = 352-20160914-MONOGRAFIA_0-78
+# sent_id = 352-20160914-MONOGRAFIA_0-79
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -2604,7 +2601,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Rendimentos elevados de furfural foram alcançados, 37,06%, usando o HCl como catalisador, em uma temperatura média (180°C) e após um tempo de reação de 5min.
-# sent_id = 352-20160914-MONOGRAFIA_0-79
+# sent_id = 352-20160914-MONOGRAFIA_0-80
 1	Rendimentos	rendimento	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 2	elevados	elevar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2639,7 +2636,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = MESA et al. (2014) tentou reestruturar o processo para a produção de furfural e xilose a partir de cana-de-açúcar em um conceito de biorrefinaria para a produção de etanol, e eles alcançaram uma produção máxima de furfural, quando usaram uma solução de H2SO4 1,25% (w/w de fibra seca) a 175°C durante 40 minutos.
-# sent_id = 352-20160914-MONOGRAFIA_0-80
+# sent_id = 352-20160914-MONOGRAFIA_0-81
 1	MESA	Mender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
 2	et	et	X	_	Number=Sing	1	obj	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -2703,7 +2700,7 @@
 61	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = De acordo com Dias et al. (2010 apud Yemis & Mazza, 2011, p.7373) a temperatura da reação é o fator mais importante de todos os processos de conversão termoquímica.
-# sent_id = 352-20160914-MONOGRAFIA_0-81
+# sent_id = 352-20160914-MONOGRAFIA_0-82
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -2742,9 +2739,9 @@
 35	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Geralmente, uma temperatura entre 153-184°C é usada em lotes industriais ou processos contínuos para a produção de furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-82
+# sent_id = 352-20160914-MONOGRAFIA_0-83
 1	Geralmente	geralmente	ADV	_	_	4	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 5	entre	entre	ADP	_	_	6	case	_	_
@@ -2765,7 +2762,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Yemis & Mazza (2011) realizaram testes com diferentes temperaturas (140, 160, 170, 180, 190°C) e perceberam que ao aumentá-la, o rendimento final de furfural também crescia.
-# sent_id = 352-20160914-MONOGRAFIA_0-83
+# sent_id = 352-20160914-MONOGRAFIA_0-84
 1	Yemis	Yemis	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Mazza	Mazza	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -2808,7 +2805,7 @@
 38	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os estudos de Yemis & Mazza (2011) mostraram que a melhor temperatura para uma conversão de xilose, xilana, e, indiretamente, de biomassa para furfural por uma reação assistida por microondas, foi de 180°C, com um valor de pH 1,12 (0,1M HCl) e um tempo de residência de 30min.
-# sent_id = 352-20160914-MONOGRAFIA_0-84
+# sent_id = 352-20160914-MONOGRAFIA_0-85
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2871,7 +2868,7 @@
 60	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Com relação ao tempo de residência, segundo Hayes (2004 apud Yemis & Mazza, 2011, p. 7374) o curto tempo de processo é uma das principais vantagens da técnica de aquecimento por microondas em relação às técnicas convencionais de aquecimento.
-# sent_id = 352-20160914-MONOGRAFIA_0-85
+# sent_id = 352-20160914-MONOGRAFIA_0-86
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -2927,7 +2924,7 @@
 49	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = Yemis & Mazza (2011) selecionaram cinco tempos de residência (1, 5, 10, 20 e 30min) e observaram que entre 1 e 20min houve um aumento gradual do rendimento de furfural, e após os 30min houve um decréscimo do mesmo, sendo 20min considerado como tempo ótimo.
-# sent_id = 352-20160914-MONOGRAFIA_0-86
+# sent_id = 352-20160914-MONOGRAFIA_0-87
 1	Yemis	Yemis	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Mazza	Mazza	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -2993,7 +2990,7 @@
 61	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Diversos estudos foram realizados a fim de verificar a influência do catalisador ácido.
-# sent_id = 352-20160914-MONOGRAFIA_0-87
+# sent_id = 352-20160914-MONOGRAFIA_0-88
 1	Diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3012,7 +3009,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Yemis & Mazza (2011) compararam o efeito de três ácidos fortes minerais (ácido clorídrico, sulfúrico e nítrico) e três ácidos fracos (ácido fosfórico, acético e fórmico).
-# sent_id = 352-20160914-MONOGRAFIA_0-88
+# sent_id = 352-20160914-MONOGRAFIA_0-89
 1	Yemis	Yemis	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Mazza	Mazza	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -3050,7 +3047,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Dadas as seguintes condições de processo: 180°C, tempo de residência de 20min, proporção líquido-sólido de 1:100 e pH de 1,12.
-# sent_id = 352-20160914-MONOGRAFIA_0-89
+# sent_id = 352-20160914-MONOGRAFIA_0-90
 1	Dadas	dar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 3	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -3077,8 +3074,8 @@
 24	1,12	1,12	NUM	_	NumType=Card	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = O rendimento de furfural obtido da xilose na presença de HCl, H2SO4, HNO3, H3PO4, e HCOOH foram 37.5%, 31.9%, 3.5%, 27.6%, 15.8%, e 23.8%, respectivamente.
-# sent_id = 352-20160914-MONOGRAFIA_0-90
+# text = O rendimento de furfural obtido da xilose na presença de HCl, H2SO4, HNO, H3PO4, e HCOOH foram 37.5%, 31.9%, 3.5%, 27.6%, 15.8%, e 23.8%, respectivamente.
+# sent_id = 352-20160914-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -3097,7 +3094,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	H2SO4	H2SO4	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+17	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	H3PO4	H3PO4	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
@@ -3126,8 +3123,8 @@
 43	respectivamente	respectivamente	ADV	_	_	25	advmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	25	punct	_	_
 
-# text = De modo similar, o rendimento de furfural foi de 34.3%, 29.0%, 29.1%, 25.6%, 22.0%, e 24.6%, obtidos a partir das xilanas na presença de HCl, H2SO4, HNO3, H3PO4, CH3COOH e HCOOH, respectivamente.
-# sent_id = 352-20160914-MONOGRAFIA_0-91
+# text = De modo similar, o rendimento de furfural foi de 34.3%, 29.0%, 29.1%, 25.6%, 22.0%, e 24.6%, obtidos a partir das xilanas na presença de HCl, H2SO4, HNO, H3PO4, CH3COOH e HCOOH, respectivamente.
+# sent_id = 352-20160914-MONOGRAFIA_0-92
 1	De	de	ADP	_	_	2	case	_	_
 2	modo	modo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 3	similar	similar	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -3173,7 +3170,7 @@
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	H2SO4	H2SO4	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
-44	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+44	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
 46	H3PO4	H3PO4	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	48	punct	_	_
@@ -3185,7 +3182,7 @@
 53	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Estes resultados mostraram que o ácido clorídrico é o melhor dos ácidos testados para a conversão de licores de xilose ou xilana em furfural nas condições de processo utilizadas.
-# sent_id = 352-20160914-MONOGRAFIA_0-92
+# sent_id = 352-20160914-MONOGRAFIA_0-93
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
@@ -3222,7 +3219,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = De acordo com Yang et al. (2012), o ácido fórmico pode ser um catalisador eficaz para a desidratação da xilose em furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-93
+# sent_id = 352-20160914-MONOGRAFIA_0-94
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3253,7 +3250,7 @@
 27	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Eles utilizaram a metodologia de superfície de resposta para aperfeiçoar o processo de hidrólise a fim de obter um alto rendimento de furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-94
+# sent_id = 352-20160914-MONOGRAFIA_0-95
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	utilizaram	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3280,7 +3277,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Três parâmetros importantes foram otimizados: a concentração da xilose, a temperatura e a concentração do ácido fórmico.
-# sent_id = 352-20160914-MONOGRAFIA_0-95
+# sent_id = 352-20160914-MONOGRAFIA_0-96
 1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	importantes	importante	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -3307,7 +3304,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Por meio dos resultados apresentados, Yang et al.. (2012) perceberam que a medida que aumentava-se a concentração da xilose (valor adotado 40g/L), e para valores médios de temperatura (180°C) e concentração do ácido fórmico (10g/L) chegou-se a um rendimento máximo de 74% de furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-96
+# sent_id = 352-20160914-MONOGRAFIA_0-97
 1	Por	por	ADP	_	_	5	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -3377,7 +3374,7 @@
 62	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Além disso, testes foram realizados com os ácidos sulfúrico e fosfórico e o rendimento de furfural foi inferior ao obtido pelo ácido fórmico, reforçando a eficácia deste catalisador, 62 e 65%, respectivamente.
-# sent_id = 352-20160914-MONOGRAFIA_0-97
+# sent_id = 352-20160914-MONOGRAFIA_0-98
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3390,7 +3387,7 @@
 9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	ácidos	ácido	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 11	sulfúrico	sulfúrico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-12	e	e	CCONJ	_	_	13	cc	_	_
+12	e	e	CCONJ	_	_	13	cc	_	SpacesAfter=\s\n
 13	fosfórico	fosfórico	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
 14	e	e	CCONJ	_	_	16	cc	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -3426,7 +3423,7 @@
 42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Hoje em dia, a Canola tornou-se uma das mais importantes culturas oleaginosas e a mais rentáveis commodities para os agricultores canadenses (Canola Council of Canada, 2015).
-# sent_id = 352-20160914-MONOGRAFIA_0-98
+# sent_id = 352-20160914-MONOGRAFIA_0-99
 1	Hoje	hoje	ADV	_	_	7	advmod	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
@@ -3464,7 +3461,7 @@
 33	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A produção de canola no Canadá representa 20% da produção mundial.
-# sent_id = 352-20160914-MONOGRAFIA_0-99
+# sent_id = 352-20160914-MONOGRAFIA_0-100
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	produção	produção	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3484,7 +3481,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Além disso, o milho doce é outro produto que é uma das principais culturas vegetais cultivadas naquele país (Agricult ure and Agri-Food Canda, 2014).
-# sent_id = 352-20160914-MONOGRAFIA_0-100
+# sent_id = 352-20160914-MONOGRAFIA_0-101
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3522,7 +3519,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = No entanto, poucas pesquisas as tem utilizado como matéria-prima para a produção de furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-101
+# sent_id = 352-20160914-MONOGRAFIA_0-102
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	9	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -3540,24 +3537,24 @@
 14	produção	produção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 3.
-# sent_id = 352-20160914-MONOGRAFIA_0-102
+# sent_id = 352-20160914-MONOGRAFIA_0-103
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = MATERIAIS
-# sent_id = 352-20160914-MONOGRAFIA_0-103
+# sent_id = 352-20160914-MONOGRAFIA_0-104
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E MÉTODOS
-# sent_id = 352-20160914-MONOGRAFIA_0-104
+# sent_id = 352-20160914-MONOGRAFIA_0-105
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	MÉTODOS	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = A caracterização das matérias-primas utilizadas (bagaço de canola e milho) foram feitas segundo os procedimentos analíticos de laboratório desenvolvidos pelo National Renewable Energy Laboratory (NREL).
-# sent_id = 352-20160914-MONOGRAFIA_0-105
+# sent_id = 352-20160914-MONOGRAFIA_0-106
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	caracterização	caracterização	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3594,7 +3591,7 @@
 32	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Foram determinados teores de umidade, extrativos, carboidratos estruturais (celulose e hemiceluloses) e lignina.
-# sent_id = 352-20160914-MONOGRAFIA_0-106
+# sent_id = 352-20160914-MONOGRAFIA_0-107
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	determinados	determinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	teores	teor	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
@@ -3615,7 +3612,7 @@
 18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Palhas secas de canola e milho doce estavam armazenadas em sacos plásticos na geladeira no laboratório da Lakehead University.
-# sent_id = 352-20160914-MONOGRAFIA_0-107
+# sent_id = 352-20160914-MONOGRAFIA_0-108
 1	Palhas	Palha	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 2	secas	seco	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3644,7 +3641,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Ambos já estavam previamente triturados em um tamanho de cerca de 0.15-0.25cm, datados do ano de 2012.
-# sent_id = 352-20160914-MONOGRAFIA_0-108
+# sent_id = 352-20160914-MONOGRAFIA_0-109
 1	Ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	5	nsubj	_	_
 2	já	já	ADV	_	_	5	advmod	_	_
 3	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
@@ -3669,7 +3666,7 @@
 21	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A Tabela 1 mostrará a composição de umidade, extrativos, hemicelulose, celulose, ácido-solúveis/insolúveis de cada biomassa mencionada.
-# sent_id = 352-20160914-MONOGRAFIA_0-109
+# sent_id = 352-20160914-MONOGRAFIA_0-110
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	1	1	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -3695,7 +3692,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O Ácido Sulfúrico necessário para as reações tinha uma concentração inicial de 72% em massa.
-# sent_id = 352-20160914-MONOGRAFIA_0-110
+# sent_id = 352-20160914-MONOGRAFIA_0-111
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Ácido	ácido	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	Sulfúrico	Sulfúrico	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -3715,7 +3712,7 @@
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = E, em seguida, foi diluído a 1, 3 e 5% em massa.
-# sent_id = 352-20160914-MONOGRAFIA_0-111
+# sent_id = 352-20160914-MONOGRAFIA_0-112
 1	E	e	CCONJ	_	_	7	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -3735,7 +3732,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Para extração das hemiceluloses da biomassa foi utilizado o processo de hidrólise ácida com H2SO4 como catalisador.
-# sent_id = 352-20160914-MONOGRAFIA_0-112
+# sent_id = 352-20160914-MONOGRAFIA_0-113
 1	Para	para	ADP	_	_	2	case	_	_
 2	extração	extração	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3760,7 +3757,7 @@
 20	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Diversas reações foram realizadas a fim de se encontrar a temperatura, concentração de ácido e razão sólido/água ideais para a produção de furfural, ou seja, condições em que se percebia a produção do mesmo.
-# sent_id = 352-20160914-MONOGRAFIA_0-113
+# sent_id = 352-20160914-MONOGRAFIA_0-114
 1	Diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	reações	reação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3804,7 +3801,7 @@
 40	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Testes foram feitos dentro de interva lo de temperatura de 100 a 300°C, com uma razão sólido-ácido diluído de 1:8, e ácidos em diversas concentrações (1, 3, 5, 10%).
-# sent_id = 352-20160914-MONOGRAFIA_0-114
+# sent_id = 352-20160914-MONOGRAFIA_0-115
 1	Testes	teste	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj:pass	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3845,7 +3842,7 @@
 38	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Através destes testes foram encontradas as seguintes condições de reação: razão entre biomassa e ácido diluído de 1:8, sendo 30g da fonte de biomassa (milho ou canola) combinadas com 240 g de ácido sulfúrico diluído (1, 3 e 5% em massa), temperatura ótima de reação de 180°C, durante 10, 20 e 30 minutos para cada biomassa e concentração de ácido considerados.
-# sent_id = 352-20160914-MONOGRAFIA_0-115
+# sent_id = 352-20160914-MONOGRAFIA_0-116
 1	Através	através	ADV	_	_	4	advmod	_	_
 2-3	destes	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3925,7 +3922,7 @@
 75	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A hidrólise ácida foi realizada no reator 4520 Bench Top Parr Instrument Reator.
-# sent_id = 352-20160914-MONOGRAFIA_0-116
+# sent_id = 352-20160914-MONOGRAFIA_0-117
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3944,7 +3941,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O reator utilizado é o maior dos reatores
-# sent_id = 352-20160914-MONOGRAFIA_0-117
+# sent_id = 352-20160914-MONOGRAFIA_0-118
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	reator	reator	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -3957,7 +3954,7 @@
 9	reatores	reator	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 
 # text = Parr que podem ser manipulados em uma bancada.
-# sent_id = 352-20160914-MONOGRAFIA_0-118
+# sent_id = 352-20160914-MONOGRAFIA_0-119
 1	Parr	Parr	VERB	_	VerbForm=Inf	0	root	_	_
 2	que	que	SCONJ	_	_	3	mark	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
@@ -3969,7 +3966,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Este reator está disponível com um vedante O-ring FKM para as temperaturas de funcionamento a 225 ° C, e FFKM O-ring para temperaturas até 300°C, ou com, uma junta de vedação plana de PTFE para temperaturas de funcionamento até 350°C, no máximo.
-# sent_id = 352-20160914-MONOGRAFIA_0-119
+# sent_id = 352-20160914-MONOGRAFIA_0-120
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	reator	reator	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4021,7 +4018,7 @@
 48	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Com o seu diâmetro maior, estes reatores de tamanho médio possuem espaço suficie nte para modificações especiais, tais como: uma serpentina interna de arrefecimento, válvula de drenagem inferior, dispositivos de adição de catalisador, condensadores, alimentação elétrica e muito mais.
-# sent_id = 352-20160914-MONOGRAFIA_0-120
+# sent_id = 352-20160914-MONOGRAFIA_0-121
 1	Com	com	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	4	det	_	_
@@ -4068,10 +4065,10 @@
 44	e	e	CCONJ	_	_	46	cc	_	_
 45	muito	muito	ADV	_	_	46	advmod	_	_
 46	mais	mais	ADV	_	_	12	conj	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = A unidade de agitação magnética padrão nos Modelos 4520 funciona bem para as misturas de reação com viscosidades de até 25.000 centipoises.
-# sent_id = 352-20160914-MONOGRAFIA_0-121
+# sent_id = 352-20160914-MONOGRAFIA_0-122
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4099,7 +4096,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para cargas mais pesadas de agitação, estes reatores podem ser equipados com unidades magnéticas maiores, motores mais potentes e dispositivos que fornecem torque de agitação adicional.
-# sent_id = 352-20160914-MONOGRAFIA_0-122
+# sent_id = 352-20160914-MONOGRAFIA_0-123
 1	Para	para	ADP	_	_	2	case	_	_
 2	cargas	carga	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -4131,7 +4128,7 @@
 29	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Figure 3: 4520 Bench Top Parr Instrument Reator
-# sent_id = 352-20160914-MONOGRAFIA_0-123
+# sent_id = 352-20160914-MONOGRAFIA_0-124
 1	Figure	Figure	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
 2	3:	3:	PUNCT	_	_	4	punct	_	_
 3	4520	4520	NUM	_	NumType=Card	4	nummod	_	_
@@ -4142,7 +4139,7 @@
 8	Reator	Reator	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Os licores residuais, frutos da reação dentro das condições estabelecidas, foram analisados por HPLC, e o material fibroso resultante foi caracterizado segundo os procedimentos analít icos do NREL.
-# sent_id = 352-20160914-MONOGRAFIA_0-124
+# sent_id = 352-20160914-MONOGRAFIA_0-125
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	licores	licor	NOUN	_	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
 3	residuais	residual	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -4175,7 +4172,7 @@
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	procedimentos	procedimento	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
 30	analít	analít	X	_	Number=Sing	29	amod	_	_
-31	icos	ico	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
+31	icos	ico	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpacesAfter=\s\n
 32-33	do	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -4183,7 +4180,7 @@
 35	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Netes licores, advindos da reação de hidrólise, foram realizadas análises dos açúcares produzidos, do rendimento de furfural, da quantidade de ácido acético resultante e ligni na removida do bagaço da matéria-prima estudada.
-# sent_id = 352-20160914-MONOGRAFIA_0-125
+# sent_id = 352-20160914-MONOGRAFIA_0-126
 1	Netes	Nete	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 2	licores	licor	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -4237,7 +4234,7 @@
 44	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Para avaliar o total de furfural e ácido acético formados, foi feita uma espectroscopia de 1H RMN.
-# sent_id = 352-20160914-MONOGRAFIA_0-126
+# sent_id = 352-20160914-MONOGRAFIA_0-127
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	avaliar	avaliar	VERB	_	VerbForm=Inf	13	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4259,7 +4256,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = As amostras para análise de Ressonância Magnética
-# sent_id = 352-20160914-MONOGRAFIA_0-127
+# sent_id = 352-20160914-MONOGRAFIA_0-128
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -4269,7 +4266,7 @@
 7	Magnética	magnética	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Nuclear foram preparadas utilizando 100 µL de cada produto das reações combinados com 600 µl de D2O, o solvente.
-# sent_id = 352-20160914-MONOGRAFIA_0-128
+# sent_id = 352-20160914-MONOGRAFIA_0-129
 1	Nuclear	nuclear	PROPN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	preparadas	preparar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4295,7 +4292,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Todos os espectros de RMN foram registados utilizando Varian Inova 500 RMN.
-# sent_id = 352-20160914-MONOGRAFIA_0-129
+# sent_id = 352-20160914-MONOGRAFIA_0-130
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	espectros	espectro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
@@ -4310,8 +4307,8 @@
 12	RMN	RMN	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = Por meio desta técnica foi possível qualificar e quantificar os produtos da hidrólise ácida, furfural e ácido acético, sendo possível quantificá- los por meio das áreas dos picos gerados pela espectrometria.
-# sent_id = 352-20160914-MONOGRAFIA_0-130
+# text = Por meio desta técnica foi possível qualificar e quantificar os produtos da hidrólise ácida, furfural e ácido acético, sendo possível quantificá-los por meio das áreas dos picos gerados pela espectrometria.
+# sent_id = 352-20160914-MONOGRAFIA_0-131
 1	Por	por	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 3-4	desta	_	_	_	_	_	_	_	_
@@ -4338,28 +4335,28 @@
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	sendo	ser	AUX	_	VerbForm=Ger	24	cop	_	_
 24	possível	possível	ADJ	_	Gender=Masc|Number=Sing	7	advcl	_	_
-25	quantificá	quantificá	ADV	_	_	27	advmod	_	SpaceAfter=No
-26	-	-	PUNCT	_	_	25	punct	_	_
-27	los	lo	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
-28	por	por	ADP	_	_	29	case	_	_
-29	meio	meio	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-30-31	das	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
-32	áreas	área	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
-33-34	dos	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
-35	picos	pico	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
-36	gerados	gerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	35	acl	_	_
-37-38	pela	_	_	_	_	_	_	_	_
-37	por	por	ADP	_	_	39	case	_	_
-38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	espectrometria	espectrometria	NOUN	_	Gender=Fem|Number=Sing	36	obl:agent	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	7	punct	_	_
+25-26	quantificá-los	_	_	_	_	_	_	_	_
+25	quantificá	quantificá	ADV	_	_	26	advmod	_	_
+26	los	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
+27	por	por	ADP	_	_	28	case	_	_
+28	meio	meio	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+29-30	das	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	áreas	área	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
+32-33	dos	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	picos	pico	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+35	gerados	gerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	34	acl	_	_
+36-37	pela	_	_	_	_	_	_	_	_
+36	por	por	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	espectrometria	espectrometria	NOUN	_	Gender=Fem|Number=Sing	35	obl:agent	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A estimativa da produção de furfural foi feita através de um balanceamento químico entre xilose e furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-131
+# sent_id = 352-20160914-MONOGRAFIA_0-132
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	estimativa	estimativa	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4382,7 +4379,7 @@
 19	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Uma vez que uma molécula de xilose produz uma molécula de furfural; sabendo-se que a massa molecular deles 150.13gmol e 96,09 gmol, respectivamente; e a quantidade de xilose que foi removida após a reação de hidrólise (resultado obtido por análise de HPLC), é simples saber a quantidade de furfural que deveria ser produzida.
-# sent_id = 352-20160914-MONOGRAFIA_0-132
+# sent_id = 352-20160914-MONOGRAFIA_0-133
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	mark	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
@@ -4449,7 +4446,7 @@
 62	.	.	PUNCT	_	_	52	punct	_	_
 
 # text = Posteriormente, dividindo-se a massa de furfural alcançada a partir de análise de RMN (experimental) pela quantidade teórica de furfura l, encontramos seu rendimento.
-# sent_id = 352-20160914-MONOGRAFIA_0-133
+# sent_id = 352-20160914-MONOGRAFIA_0-134
 1	Posteriormente	posteriormente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	dividindo-se	_	_	_	_	_	_	_	_
@@ -4484,7 +4481,7 @@
 30	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
 
 # text = Com relação à técnica de RMN - Ressonância Magnética Nuclear, ela é capaz de identificar características químico-físicas de moléculas, sendo possível determinar o ambiente químico das moléculas, estrutura e estado de reação, por exemplo.
-# sent_id = 352-20160914-MONOGRAFIA_0-134
+# sent_id = 352-20160914-MONOGRAFIA_0-135
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -4530,7 +4527,7 @@
 41	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Esta técnica permite conhecer as propriedades químicas e físicas através das propriedades magnéticas dos núcleos atómicos.
-# sent_id = 352-20160914-MONOGRAFIA_0-135
+# sent_id = 352-20160914-MONOGRAFIA_0-136
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4554,7 +4551,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O tamanho das moléculas que pode ser estudado por meio deste método varia desde um metabolito até proteínas com dezenas de kDa de peso molecular.
-# sent_id = 352-20160914-MONOGRAFIA_0-136
+# sent_id = 352-20160914-MONOGRAFIA_0-137
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4587,7 +4584,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A RMN explora as propriedades magnéticas dos núcleos dos átomos.
-# sent_id = 352-20160914-MONOGRAFIA_0-137
+# sent_id = 352-20160914-MONOGRAFIA_0-138
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	RMN	RMN	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	explora	explorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4605,7 +4602,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os núcleos dos átomos podem ser vistos como pequenos piões com carga que rodopiam em torno do seu eixo, gerando o seu próprio pequeno campo magnét ic o (Ressonância Magnética Nuclear – Ferramenta Versátil em Química Farmacêutica e Imagiolo gia Médica, 2016).
-# sent_id = 352-20160914-MONOGRAFIA_0-138
+# sent_id = 352-20160914-MONOGRAFIA_0-139
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	núcleos	núcleo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -4659,7 +4656,7 @@
 49	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este tipo de espectroscopia proporciona a análise de ensaios não-destrutivos e quantitativos de moléculas em solução e em estado sólido.
-# sent_id = 352-20160914-MONOGRAFIA_0-139
+# sent_id = 352-20160914-MONOGRAFIA_0-140
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4680,10 +4677,10 @@
 18	em	em	ADP	_	_	19	case	_	_
 19	estado	estado	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 20	sólido	sólido	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figure 4:Equipamento para análise de RMN
-# sent_id = 352-20160914-MONOGRAFIA_0-140
+# sent_id = 352-20160914-MONOGRAFIA_0-141
 1	Figure	Figure	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	4:	4:	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	Equipamento	Equipamento	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -4693,7 +4690,7 @@
 7	RMN	RMN	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 
 # text = A determinação dos açúcares produzidos e a sua quantidade foram feitas por análises de cromatografia líquida - HPLC.
-# sent_id = 352-20160914-MONOGRAFIA_0-141
+# sent_id = 352-20160914-MONOGRAFIA_0-142
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -4717,7 +4714,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Esta análise é capaz de isolar, reconhecer e avaliar os compostos em misturas apresentadas em amostras.
-# sent_id = 352-20160914-MONOGRAFIA_0-142
+# sent_id = 352-20160914-MONOGRAFIA_0-143
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4738,7 +4735,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em análises em HPLC, uma amostra é injetada numa coluna que está cheia com uma fase estacionária.
-# sent_id = 352-20160914-MONOGRAFIA_0-143
+# sent_id = 352-20160914-MONOGRAFIA_0-144
 1	Em	em	ADP	_	_	2	case	_	_
 2	análises	análises	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -4762,7 +4759,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = É uma técnica de alto desempenho e velocidade.
-# sent_id = 352-20160914-MONOGRAFIA_0-144
+# sent_id = 352-20160914-MONOGRAFIA_0-145
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -4774,7 +4771,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A Cromatografia Líquida de Alto Desempenho é basicamente uma forma altamente melhorada de cromatografia em coluna.
-# sent_id = 352-20160914-MONOGRAFIA_0-145
+# sent_id = 352-20160914-MONOGRAFIA_0-146
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4794,7 +4791,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Trata-se de uma técnica de separação onde uma pequena quantidade de amostra é injetada em um tubo embalado com pequenas partículas (fase estacionária), onde os componentes individuais da mistura são movidos para baixo do tubo com o líquido (fase móvel).
-# sent_id = 352-20160914-MONOGRAFIA_0-146
+# sent_id = 352-20160914-MONOGRAFIA_0-147
 1-2	Trata-se	_	_	_	_	_	_	_	_
 1	Trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -4849,7 +4846,7 @@
 49	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ela também permite que você use um tamanho de partícula muito menor para o material de enchimento da coluna que dá uma superfície muito maior para as interações entre a fase estacionária e as moléculas que fluem.
-# sent_id = 352-20160914-MONOGRAFIA_0-147
+# sent_id = 352-20160914-MONOGRAFIA_0-148
 1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	também	também	ADV	_	_	3	advmod	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4892,7 +4889,7 @@
 39	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Isto permite uma melhor separação dos componentes da mistura.
-# sent_id = 352-20160914-MONOGRAFIA_0-148
+# sent_id = 352-20160914-MONOGRAFIA_0-149
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -4909,7 +4906,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A outra grande melhoria sobre cromatografia em coluna refere-se aos métodos de detecção que podem ser utilizados.
-# sent_id = 352-20160914-MONOGRAFIA_0-149
+# sent_id = 352-20160914-MONOGRAFIA_0-150
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 2	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
 3	grande	grande	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -4934,7 +4931,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Estes métodos são altamente automatizados e extremame nte sensível (http://www.chemguide.co.uk/analysis/chromatography/hplc.html Acessado em Julho 11, 2016)
-# sent_id = 352-20160914-MONOGRAFIA_0-150
+# sent_id = 352-20160914-MONOGRAFIA_0-151
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -4955,7 +4952,7 @@
 18	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Já a análise de lignina removida foi realizada pelo método de espectrometria de UV visíve l a um comprimento de onda de 205 nm.
-# sent_id = 352-20160914-MONOGRAFIA_0-151
+# sent_id = 352-20160914-MONOGRAFIA_0-152
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
@@ -4985,7 +4982,7 @@
 26	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Espectrometria UV visível refere-se a espectroscopia de fotões.
-# sent_id = 352-20160914-MONOGRAFIA_0-152
+# sent_id = 352-20160914-MONOGRAFIA_0-153
 1	Espectrometria	Espectrometria	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	UV	UV	PROPN	_	Number=Sing	1	flat:name	_	_
 3	visível	visível	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
@@ -4999,7 +4996,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Usando a luz na região do visível, da luz ultravioleta (UV) e do infravermelho próximo.
-# sent_id = 352-20160914-MONOGRAFIA_0-153
+# sent_id = 352-20160914-MONOGRAFIA_0-154
 1	Usando	usar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	luz	luz	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -5029,7 +5026,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A espectrofotometria visível e ultravioleta é um dos métodos analíticos aplicado para determinação de compostos inorgânicos e orgânicos, por meio da identificação dos grupos funcionais da molécula.
-# sent_id = 352-20160914-MONOGRAFIA_0-154
+# sent_id = 352-20160914-MONOGRAFIA_0-155
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	espectrofotometria	espectrofotometria	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	visível	visível	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5060,7 +5057,7 @@
 26-27	dos	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-28	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+28	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpacesAfter=\s\n
 29	funcionais	funcional	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 30-31	da	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -5069,7 +5066,7 @@
 33	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = É considerada região do UV visível a faixa entre 400 a 800 nm e energia de 72 a 36 kcal/mol; enquanto a região do ultravioleta, o intervalo entre 200 a 400 nm, e energia ao redor de 150 a 72 kcal/mol.
-# sent_id = 352-20160914-MONOGRAFIA_0-155
+# sent_id = 352-20160914-MONOGRAFIA_0-156
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	região	região	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -5126,7 +5123,7 @@
 51	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A deficiência de elétrons na molécula está ligada a absorção de compostos orgânicos e inorgânicos.
-# sent_id = 352-20160914-MONOGRAFIA_0-156
+# sent_id = 352-20160914-MONOGRAFIA_0-157
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	deficiência	deficiência	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5147,7 +5144,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para os compostos orgânicos, a absorção pelos de dupla ligação ocorre no ultravioleta remoto.
-# sent_id = 352-20160914-MONOGRAFIA_0-157
+# sent_id = 352-20160914-MONOGRAFIA_0-158
 1	Para	para	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
@@ -5170,7 +5167,7 @@
 18	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Enquanto que nos compostos inorgânicos, o metal envolvido, os átomos doadores, a geometria dos grupos coordenados determinam qual comprimento de onda das transações d-d.
-# sent_id = 352-20160914-MONOGRAFIA_0-158
+# sent_id = 352-20160914-MONOGRAFIA_0-159
 1	Enquanto	enquanto	SCONJ	_	_	22	mark	_	_
 2	que	que	SCONJ	_	_	22	mark	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -5207,18 +5204,18 @@
 31	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Figure 5:
-# sent_id = 352-20160914-MONOGRAFIA_0-159
+# sent_id = 352-20160914-MONOGRAFIA_0-160
 1	Figure	Figurar	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Espectrometria uv-vis
-# sent_id = 352-20160914-MONOGRAFIA_0-160
+# sent_id = 352-20160914-MONOGRAFIA_0-161
 1	Espectrometria	Espectrometr	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	cop	_	_
 2	uv-vis	uv-vil	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Assim sendo, por meio de técnicas analíticas foi possível qualificar e quantificar os produtos da reação com relação a presença de açúcares, ácido acético, furfural, lignina, de acordo com as condições de trabalho pré-estabelecidas.
-# sent_id = 352-20160914-MONOGRAFIA_0-161
+# sent_id = 352-20160914-MONOGRAFIA_0-162
 1	Assim	assim	ADV	_	_	2	advmod	_	_
 2	sendo	ser	VERB	_	VerbForm=Ger	10	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5260,21 +5257,21 @@
 38	de	de	ADP	_	_	39	case	_	_
 39	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 40	pré-estabelecidas	pré-estabelecida	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = 4.
-# sent_id = 352-20160914-MONOGRAFIA_0-162
+# sent_id = 352-20160914-MONOGRAFIA_0-163
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS E DISCUSSÕES
-# sent_id = 352-20160914-MONOGRAFIA_0-163
+# sent_id = 352-20160914-MONOGRAFIA_0-164
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	3	cc	_	_
 3	DISCUSSÕES	discussões	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 
 # text = Por meio dos procedimentos analíticos de laboratório desenvolvidos pelo National Renewable Energy Laboratory (NREL), mencionados na seção anterior, foi possível realizar o estudo da composição química da canola e milho, ilustradas na Tabela 2.
-# sent_id = 352-20160914-MONOGRAFIA_0-164
+# sent_id = 352-20160914-MONOGRAFIA_0-165
 1	Por	por	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -5329,13 +5326,13 @@
 46	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
 
 # text = Tabela 2:
-# sent_id = 352-20160914-MONOGRAFIA_0-165
+# sent_id = 352-20160914-MONOGRAFIA_0-166
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Composição química de canola e milho Canola Milho Umidade 10.35% 5.81% Extractivos 3.96% 26.04% Hemicelulose 21.58% 25.31% Celulose 34.88% 30.30% Lignina solúvel em ácido 11.54% 11.69% Lignina insolúvel em ácido 16.13% 14.95% A partir deste resultado podemos verificar que o milho tem um teor de hemicelulose maior que o presente na canola, o que provavelmente influenciará no rendimento de furfural produzido, como será discutido mais a seguir.
-# sent_id = 352-20160914-MONOGRAFIA_0-166
+# sent_id = 352-20160914-MONOGRAFIA_0-167
 1	Composição	composição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	química	químico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5426,7 +5423,7 @@
 85	.	.	PUNCT	_	_	51	punct	_	SpacesAfter=\n
 
 # text = Os rendimentos de furfural produzidos a partir de canola e milho doce, como fontes de biomassa, a 180 °C, durante 10, 20 e 30 minutos, para cada concentração de H2SO4, estão ilustrados, respectivamente, nas Figuras 6 e 7.
-# sent_id = 352-20160914-MONOGRAFIA_0-167
+# sent_id = 352-20160914-MONOGRAFIA_0-168
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	rendimentos	rendimento	NOUN	_	Gender=Masc|Number=Plur	38	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5478,7 +5475,7 @@
 48	.	.	PUNCT	_	_	38	punct	_	_
 
 # text = Os resultados, em detalhe, dos rendimentos de furfural, remoção de açúcares e lignina, a partir de todas as reações realizadas estão apresentadas nas Tabelas 2, 3, 4, 5, 6 e 7 presentes no Apêndice.
-# sent_id = 352-20160914-MONOGRAFIA_0-168
+# sent_id = 352-20160914-MONOGRAFIA_0-169
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	27	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -5530,7 +5527,7 @@
 46	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = As outras reações feitas a fim de se encontrar quais condições de trabalho seriam ideais para a produção de furfural não foram anexadas ao trabalho visto não serem necessárias.
-# sent_id = 352-20160914-MONOGRAFIA_0-169
+# sent_id = 352-20160914-MONOGRAFIA_0-170
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	reações	reação	NOUN	_	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
@@ -5562,10 +5559,10 @@
 28	não	não	ADV	_	Polarity=Neg	30	advmod	_	_
 29	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	30	cop	_	_
 30	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	27	xcomp	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6: Rendimento de Furfural, para cada reação, tempo e concentração de ácido, usando Canola como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-170
+# sent_id = 352-20160914-MONOGRAFIA_0-171
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5590,13 +5587,13 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 7:
-# sent_id = 352-20160914-MONOGRAFIA_0-171
+# sent_id = 352-20160914-MONOGRAFIA_0-172
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Rendimento de Furfural, para cada reação, tempo e concentração de ácido, usando milho como matéria-prima
-# sent_id = 352-20160914-MONOGRAFIA_0-172
+# sent_id = 352-20160914-MONOGRAFIA_0-173
 1	Rendimento	Rendimento	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Furfural	Furfural	PROPN	_	Number=Sing	1	nmod	_	SpaceAfter=No
@@ -5614,10 +5611,10 @@
 15	usando	usar	VERB	_	VerbForm=Ger	1	advcl	_	_
 16	milho	milho	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 17	como	como	ADP	_	_	18	case	_	_
-18	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	15	xcomp	_	_
+18	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	15	xcomp	_	SpacesAfter=\s\n
 
 # text = A partir dos experimentos, e considerando que toda a xilose presente na composição química das matérias-primas estudadas convertaram-se totalmente em furfural, foi possível observar que ao utilizar canola como fonte de biomassa, as melhores condições alcançadas foram: tempo de reação de 10 minutos, concentração de ácido de 1%, a 180°C.
-# sent_id = 352-20160914-MONOGRAFIA_0-173
+# sent_id = 352-20160914-MONOGRAFIA_0-174
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	29	csubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -5688,7 +5685,7 @@
 63	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = Sendo o valor do rendimento igual a 17,07%.
-# sent_id = 352-20160914-MONOGRAFIA_0-174
+# sent_id = 352-20160914-MONOGRAFIA_0-175
 1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	valor	valor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5703,7 +5700,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Enquanto que para milho, o rendimento mais elevado ocorreu quando o tempo de reação também foi de 10 minutos, porém a concentração do ácido foi de 3%, a 180°C.
-# sent_id = 352-20160914-MONOGRAFIA_0-175
+# sent_id = 352-20160914-MONOGRAFIA_0-176
 1	Enquanto	enquanto	SCONJ	_	_	10	mark	_	_
 2	que	que	SCONJ	_	_	10	mark	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -5742,7 +5739,7 @@
 35	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
 
 # text = O rendimento obtido foi igual a 29,71%.
-# sent_id = 352-20160914-MONOGRAFIA_0-176
+# sent_id = 352-20160914-MONOGRAFIA_0-177
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	obtido	obtir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5754,7 +5751,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Este maior rendimento a partir do uso do milho como fonte de biomassa, comparado ao da canola, pode ser explicado pelo fato do mesmo ter, em sua estrutura, uma maior quantidade de xilose disponível para conversão em furfural comparado à outra matéria-prima testada.
-# sent_id = 352-20160914-MONOGRAFIA_0-177
+# sent_id = 352-20160914-MONOGRAFIA_0-178
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	maior	grande	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -5819,7 +5816,7 @@
 55	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Ainda sobre o rendimento de furfural por meio do uso de milho como biomassa, podemos fazer uma analogia com o trabalho realizado por Sánchez et al. (2012) descrito na seção de Estado da Arte.
-# sent_id = 352-20160914-MONOGRAFIA_0-178
+# sent_id = 352-20160914-MONOGRAFIA_0-179
 1	Ainda	ainda	ADV	_	_	4	advmod	_	_
 2	sobre	sobre	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5866,7 +5863,7 @@
 41	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Enquanto neste trabalho obtivemos um rendimento de furfural em torno de 30% usando o ácido sulfúrico como catalisador; o referido autor obteve um rendimento aproximado de 37% utilizando um outro catalisador, ácido clorídrico, na mesma temperatura de reação e durante um curto espaço de tempo.
-# sent_id = 352-20160914-MONOGRAFIA_0-179
+# sent_id = 352-20160914-MONOGRAFIA_0-180
 1	Enquanto	enquanto	SCONJ	_	_	5	mark	_	_
 2-3	neste	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -5924,7 +5921,7 @@
 53	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Assim sendo, pode-se perceber que para um mesmo materia l, catalisadores diferentes rendem o mesmo produto de forma diferente.
-# sent_id = 352-20160914-MONOGRAFIA_0-180
+# sent_id = 352-20160914-MONOGRAFIA_0-181
 1	Assim	assim	ADV	_	_	6	advmod	_	_
 2	sendo	ser	AUX	_	VerbForm=Ger	6	aux	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -5951,7 +5948,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Além disso, pode-se perceber que ao se aplicar um ácido mais forte, como o caso do HCl, um valor maior de furfura l foi observado, observação que foi bastante enfatizado dentro do trabalho de Yemis & Mazza (2011).
-# sent_id = 352-20160914-MONOGRAFIA_0-181
+# sent_id = 352-20160914-MONOGRAFIA_0-182
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -6009,7 +6006,7 @@
 50	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O método de HPLC foi usado a fim de saber qual e quanto açúcar estava presente em cada amostra após as reações.
-# sent_id = 352-20160914-MONOGRAFIA_0-182
+# sent_id = 352-20160914-MONOGRAFIA_0-183
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6035,7 +6032,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os resultados para Canola estão mostrados nas Figuras 8, 9 e 10, de acordo com o tempo de reação.
-# sent_id = 352-20160914-MONOGRAFIA_0-183
+# sent_id = 352-20160914-MONOGRAFIA_0-184
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -6062,7 +6059,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Enquanto as Figuras 11, 12 e 13 estão relacionadas com o milho.
-# sent_id = 352-20160914-MONOGRAFIA_0-184
+# sent_id = 352-20160914-MONOGRAFIA_0-185
 1	Enquanto	enquanto	SCONJ	_	_	3	mark	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -6076,16 +6073,16 @@
 11	com	com	ADP	_	_	13	case	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	milho	milho	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Figura 8:
-# sent_id = 352-20160914-MONOGRAFIA_0-185
+# sent_id = 352-20160914-MONOGRAFIA_0-186
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise de remoção de açúcares após 10min reação, ácido a 1, 3 e 5% de concentração, e Canola como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-186
+# sent_id = 352-20160914-MONOGRAFIA_0-187
 1	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6114,12 +6111,12 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 9:
-# sent_id = 352-20160914-MONOGRAFIA_0-187
+# sent_id = 352-20160914-MONOGRAFIA_0-188
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9:	9:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise de remoção de açúcares após 20min reação, ácido a 1, 3 e 5% de concentração, e Canola como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-188
+# sent_id = 352-20160914-MONOGRAFIA_0-189
 1	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6145,10 +6142,10 @@
 23	Canola	Canola	PROPN	_	Gender=Fem|Number=Sing	25	conj	_	_
 24	como	como	ADP	_	_	25	case	_	_
 25	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = concentração, e Canola como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-189
+# sent_id = 352-20160914-MONOGRAFIA_0-190
 1	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6158,7 +6155,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A partir das Figuras 8, 9 e 10, podemos notar que a quantidade de glicose é a mais alta quando se utiliza ácido 5% durante 10 e 20 min, e ácido 3% durante 30 min.
-# sent_id = 352-20160914-MONOGRAFIA_0-190
+# sent_id = 352-20160914-MONOGRAFIA_0-191
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	5	fixed	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -6204,7 +6201,7 @@
 42	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Enquanto para a xilose, o valor mais elevado aconteceu com ácido a 5% em 10 min, e ácido 3% durante 20 e 30 min de reação.
-# sent_id = 352-20160914-MONOGRAFIA_0-191
+# sent_id = 352-20160914-MONOGRAFIA_0-192
 1	Enquanto	enquanto	SCONJ	_	_	10	mark	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6238,7 +6235,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A quantidade de galactose foi notada apenas com concentração de ácido de 1%.
-# sent_id = 352-20160914-MONOGRAFIA_0-192
+# sent_id = 352-20160914-MONOGRAFIA_0-193
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6256,7 +6253,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Outros açúcares tinham uma quantidade muito baixa e não foram detectados pelo equipamento .
-# sent_id = 352-20160914-MONOGRAFIA_0-193
+# sent_id = 352-20160914-MONOGRAFIA_0-194
 1	Outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	açúcares	açúcar	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	tinham	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -6275,7 +6272,7 @@
 15	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A mesma análise foi feita com os licores provenientes das reações com canola, como ilustrados nas Figuras 11, 12 e 13.
-# sent_id = 352-20160914-MONOGRAFIA_0-194
+# sent_id = 352-20160914-MONOGRAFIA_0-195
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -6303,16 +6300,16 @@
 23	12	12	NUM	_	NumType=Card	5	conj	_	_
 24	e	e	CCONJ	_	_	25	cc	_	_
 25	13	13	NUM	_	NumType=Card	23	conj	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 11:
-# sent_id = 352-20160914-MONOGRAFIA_0-195
+# sent_id = 352-20160914-MONOGRAFIA_0-196
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise de remoção de açúcares após 10min reação, ácido a 1, 3 e 5% de concentração, e Milho como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-196
+# sent_id = 352-20160914-MONOGRAFIA_0-197
 1	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6341,13 +6338,13 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 12:
-# sent_id = 352-20160914-MONOGRAFIA_0-197
+# sent_id = 352-20160914-MONOGRAFIA_0-198
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Análise de remoção de açúcares após 20min reação, ácido a 1, 3 e 5% de concentração, e Milho como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-198
+# sent_id = 352-20160914-MONOGRAFIA_0-199
 1	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6373,16 +6370,16 @@
 23	Milho	Milho	PROPN	_	Gender=Masc|Number=Sing	25	conj	_	_
 24	como	como	ADP	_	_	25	case	_	_
 25	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 13:
-# sent_id = 352-20160914-MONOGRAFIA_0-199
+# sent_id = 352-20160914-MONOGRAFIA_0-200
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise de remoção de açúcares após 30min reação, ácido a 1, 3 e 5% de concentração, e Milho como matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-200
+# sent_id = 352-20160914-MONOGRAFIA_0-201
 1	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	remoção	remoção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6411,7 +6408,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A partir das Figuras 11, 12 e 13, podemos notar que a quantidade de glicose tem seu valor mais alto quando se utilizou ácido 3% e 5% em massa durante 20 minutos.
-# sent_id = 352-20160914-MONOGRAFIA_0-201
+# sent_id = 352-20160914-MONOGRAFIA_0-202
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	12	fixed	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -6453,7 +6450,7 @@
 38	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Enquanto para a xilose, o valor mais elevado aconteceu com ácido 3% em 20min.
-# sent_id = 352-20160914-MONOGRAFIA_0-202
+# sent_id = 352-20160914-MONOGRAFIA_0-203
 1	Enquanto	enquanto	SCONJ	_	_	10	mark	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6474,7 +6471,7 @@
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A quantidade de galactose foi notada apenas com concentração de ácido a 3% em massa durante 10 min.
-# sent_id = 352-20160914-MONOGRAFIA_0-203
+# sent_id = 352-20160914-MONOGRAFIA_0-204
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6497,7 +6494,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Enquanto arabinose e ramnose alcançaram os maiores valores nas seguintes condições: ácido 3% e 10min de reação para arabinose e ácido 5% e 10min de reação para ramnose.
-# sent_id = 352-20160914-MONOGRAFIA_0-204
+# sent_id = 352-20160914-MONOGRAFIA_0-205
 1	Enquanto	enquanto	ADP	_	_	2	case	_	_
 2	arabinose	arabinose	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6536,7 +6533,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Como mencionado antes, a análise da remoção de lignina foi realizada por espectrometria de UV visível.
-# sent_id = 352-20160914-MONOGRAFIA_0-205
+# sent_id = 352-20160914-MONOGRAFIA_0-206
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	mencionado	mencionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
 3	antes	antes	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -6559,7 +6556,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A partir desta análise foi possível saber o quanto de lignina foi removida após cada reação.
-# sent_id = 352-20160914-MONOGRAFIA_0-206
+# sent_id = 352-20160914-MONOGRAFIA_0-207
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	desta	_	_	_	_	_	_	_	_
@@ -6581,7 +6578,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Todos os resultados para cada matéria-prima estão apresentados nas Figuras 14 e 15.
-# sent_id = 352-20160914-MONOGRAFIA_0-207
+# sent_id = 352-20160914-MONOGRAFIA_0-208
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
@@ -6597,17 +6594,57 @@
 12	14	14	NUM	_	NumType=Card	11	nummod	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
 14	15	15	NUM	_	NumType=Card	8	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
-# text = usando Milho como matéria-prima
-# sent_id = 352-20160914-MONOGRAFIA_0-208
-1	usando	usar	VERB	_	VerbForm=Ger	0	root	_	_
-2	Milho	Milho	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-3	como	como	ADP	_	_	4	case	_	_
-4	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	1	xcomp	_	_
+# text = Figura 14: Remoção de Lignina em cada reação por tempo e concentração de ácido, usando Canola como matéria-prima.
+# sent_id = 352-20160914-MONOGRAFIA_0-209
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	14	14	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Remoção	remoção	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lignina	Lignina	PROPN	_	Number=Sing	4	nmod	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	9	det	_	_
+9	reação	reação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	usando	usar	VERB	_	VerbForm=Ger	1	advcl	_	_
+18	Canola	Canola	PROPN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	como	como	ADP	_	_	20	case	_	_
+20	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	17	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Figura 15: Remoção de Lignina em cada reação por tempo e concentração de ácido, usando Milho como matéria-prima
+# sent_id = 352-20160914-MONOGRAFIA_0-210
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	15	15	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Remoção	remoção	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lignina	Lignina	PROPN	_	Number=Sing	4	nmod	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	9	det	_	_
+9	reação	reação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+10	por	por	ADP	_	_	11	case	_	_
+11	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	1	punct	_	_
+17	usando	usar	VERB	_	VerbForm=Ger	1	advcl	_	_
+18	Milho	Milho	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+19	como	como	ADP	_	_	20	case	_	_
+20	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	17	xcomp	_	_
 
 # text = Os resultados acima mostrados por meio das Figuras 14 e 15 mostram que a maior eficiência na remoção de lignina ocorreu durante 30 min de reação, na presença de ácido a 5%, e 10 min com ácido a 1%, para canola e milho, respectivamente.
-# sent_id = 352-20160914-MONOGRAFIA_0-209
+# sent_id = 352-20160914-MONOGRAFIA_0-211
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3	acima	acima	ADV	_	_	4	advmod	_	_
@@ -6667,7 +6704,7 @@
 54	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Além do mais, a alta taxa de remoção de lignina em todas as amostras pós-reação deve-se ao fato de a lignina ser um resíduo que pode ser removida e separada da presença dos açúcares, por isso a sua remoção é de aproximadamente 100%.
-# sent_id = 352-20160914-MONOGRAFIA_0-210
+# sent_id = 352-20160914-MONOGRAFIA_0-212
 1	Além	além	ADV	_	_	8	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6724,15 +6761,15 @@
 49	aproximadamente	aproximadamente	ADV	_	_	51	advmod	_	_
 50	100	100	NUM	_	NumType=Card	51	nummod	_	SpaceAfter=No
 51	%	%	SYM	_	_	30	obj	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+52	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n\n
 
 # text = 5.
-# sent_id = 352-20160914-MONOGRAFIA_0-211
+# sent_id = 352-20160914-MONOGRAFIA_0-213
 1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONCLUSÃO Dentre as muitas aplicações do furfural, este valioso e promissor produto pode ser utilizado em diversas áreas, por exemplo, refinarias de petróleo; agricultura; nas indústrias de plástico, alimentos e farmacêutica.
-# sent_id = 352-20160914-MONOGRAFIA_0-212
+# sent_id = 352-20160914-MONOGRAFIA_0-214
 1	CONCLUSÃO	conclusão	ADV	_	_	14	advmod	_	_
 2	Dentre	Dentre	ADP	_	_	5	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -6777,7 +6814,7 @@
 40	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Após a hidrólise ácida de canola e do milho usando ácido sulfúrico como catalisador, em diferentes concentrações e tempos, à mesma temperatura, os resultados mostraram que o rendimento mais elevado obtido para a produção de furfural ocorreu utilizando milho, numa baixa concentração de ácido (1%), durante pouco tempo (10minutos), sendo esse rendimento cerca de 29,71%.
-# sent_id = 352-20160914-MONOGRAFIA_0-213
+# sent_id = 352-20160914-MONOGRAFIA_0-215
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -6854,7 +6891,7 @@
 71	.	.	PUNCT	_	_	66	punct	_	_
 
 # text = Como o furfural é produzido pela conversão de xilose, o maior valor de rendimento de furfural nas condições descritas, é explicado pelo baixo valor de xilose encontrado após a reação, mostrando que grande parte do açúcar foi convertida em furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-214
+# sent_id = 352-20160914-MONOGRAFIA_0-216
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	furfural	furfural	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -6909,7 +6946,7 @@
 48	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Sobre a relação entre lignina e furfural, a lignina removida aumentou o rendimento de furfural, maior parte da lignina foi removida usando qualquer uma das matérias-primas.
-# sent_id = 352-20160914-MONOGRAFIA_0-215
+# sent_id = 352-20160914-MONOGRAFIA_0-217
 1	Sobre	sobre	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	relação	relação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -6945,7 +6982,7 @@
 31	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Por meio dos resultados obtidos foi possível observar que a hidrólise da mesma biomassa com diferentes ácidos pode interferir no rendimento final de furfural.
-# sent_id = 352-20160914-MONOGRAFIA_0-216
+# sent_id = 352-20160914-MONOGRAFIA_0-218
 1	Por	por	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6979,7 +7016,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Ácidos mais fortes e biomassas ricas em hemicelulose tendem a resultar em um maior rendimento daquela substência.
-# sent_id = 352-20160914-MONOGRAFIA_0-217
+# sent_id = 352-20160914-MONOGRAFIA_0-219
 1	Ácidos	Ácido	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 2	mais	mais	ADV	_	_	3	advmod	_	_
 3	fortes	forte	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
@@ -7002,7 +7039,7 @@
 19	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Para exemplificar o que foi observado, foi realizada uma analogia entre o experimento feito (hidrólise ácida do milho, usando como catalisador o H2SO4) e a pesquisa na literatura onde um ácido mais forte foi empregado (hidrólise ácida do milho, usando como catalisador o HCl).
-# sent_id = 352-20160914-MONOGRAFIA_0-218
+# sent_id = 352-20160914-MONOGRAFIA_0-220
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	exemplificar	exemplificar	VERB	_	VerbForm=Inf	9	advcl	_	_
 3	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
@@ -7063,7 +7100,7 @@
 55	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Contudo não se pôde realizar nenhuma analogia referente ao emprego de canola como fonte lignocelulósica devido ao fato de não haver uma quantidade de pesquisas relacionada a produção de furfural por meio desta matéria-prima.
-# sent_id = 352-20160914-MONOGRAFIA_0-219
+# sent_id = 352-20160914-MONOGRAFIA_0-221
 1	Contudo	contudo	ADV	_	_	4	advmod	_	_
 2	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_

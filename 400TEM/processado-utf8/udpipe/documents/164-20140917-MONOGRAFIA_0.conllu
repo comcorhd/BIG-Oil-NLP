@@ -1214,20 +1214,14 @@
 6	convexa	convexo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Figura 2.2 – Falha Sísmica.
+# text = .
 # sent_id = 164-20140917-MONOGRAFIA_0-39
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	2.2	2.2	NUM	_	NumType=Card	4	nummod	_	_
-3	–	–	PUNCT	_	_	4	punct	_	_
-4	Falha	falha	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	Sísmica	Sísmica	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
-# text = . 2.1.1.
+# text = 2.1.1.
 # sent_id = 164-20140917-MONOGRAFIA_0-40
-1	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
-2	2.1.1	2.1.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
+1	2.1.1	2.1.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Método Sísmico de Reflexão
 # sent_id = 164-20140917-MONOGRAFIA_0-41
@@ -6126,7 +6120,7 @@
 5	ótimo	ótimo	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = A solução ótima a ser encontrada pelo MVS utiliza o princípio de minimização do risco estrutural baseando-se no fato de que a taxa de erro nos dados de teste (taxa de erro de generalização) é limitada pela soma da taxa de erro de treinamento e por um termo que depende da dimensão de Vapnik- Chervonenkis (dimensão 𝑉𝐶)3
+# text = A solução ótima a ser encontrada pelo MVS utiliza o princípio de minimização do risco estrutural baseando-se no fato de que a taxa de erro nos dados de teste (taxa de erro de generalização) é limitada pela soma da taxa de erro de treinamento e por um termo que depende da dimensão de Vapnik-Chervonenkis (dimensão 𝑉𝐶)3
 # sent_id = 164-20140917-MONOGRAFIA_0-214
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -6149,7 +6143,7 @@
 17	risco	risco	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	estrutural	estrutural	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19-20	baseando-se	_	_	_	_	_	_	_	_
-19	baseando	basear	VERB	_	VerbForm=Ger	68	advcl	_	_
+19	baseando	basear	VERB	_	VerbForm=Ger	66	advcl	_	_
 20	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
 21-22	no	_	_	_	_	_	_	_	_
 21	em	em	ADP	_	_	23	case	_	_
@@ -6199,14 +6193,12 @@
 61	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 62	dimensão	dimensão	NOUN	_	Gender=Fem|Number=Sing	59	obj	_	_
 63	de	de	ADP	_	_	64	case	_	_
-64	Vapnik	Vapnik	PROPN	_	Gender=Masc|Number=Sing	62	nmod	_	SpaceAfter=No
-65	-	-	PUNCT	_	_	64	punct	_	_
-66	Chervonenkis	Chervonenkis	PROPN	_	Gender=Masc|Number=Sing	68	nsubj	_	_
-67	(	(	PUNCT	_	_	68	punct	_	SpaceAfter=No
-68	dimensão	dimenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
-69	𝑉𝐶	𝑉𝐶	PROPN	_	Number=Sing	68	flat:name	_	SpaceAfter=No
-70	)	)	PUNCT	_	_	68	punct	_	SpaceAfter=No
-71	3	3	NUM	_	NumType=Card	10	nummod	_	_
+64	Vapnik-Chervonenkis	Vapnik-Chervonenkis	PROPN	_	Gender=Masc|Number=Sing	62	nmod	_	_
+65	(	(	PUNCT	_	_	66	punct	_	SpaceAfter=No
+66	dimensão	dimenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+67	𝑉𝐶	𝑉𝐶	PROPN	_	Number=Sing	66	flat:name	_	SpaceAfter=No
+68	)	)	PUNCT	_	_	66	punct	_	SpaceAfter=No
+69	3	3	NUM	_	NumType=Card	10	nummod	_	_
 
 # text = Sendo dado um conjunto de treinamento de pares de rótulo 𝑥𝑖, 𝑦𝑖 , 𝑖 = 1 … 𝑙 onde 𝑥𝑖 € 𝑅𝑛 e 𝑦𝑖 € {1, −1}.
 # sent_id = 164-20140917-MONOGRAFIA_0-215
@@ -6279,31 +6271,45 @@
 29	maximizada	maximizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = Cada ponto 𝑥 no espaço de denominado espaço de característica, onde os dados são linearmente separados por um hiperplano.
+# text = Cada ponto 𝑥 no espaço de entrada é mapeado para um ponto 𝑧 = Φ(𝑥) de alta dimensionalidade, denominado espaço de característica, onde os dados são linearmente separados por um hiperplano.
 # sent_id = 164-20140917-MONOGRAFIA_0-217
-1	Cada	Cada	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Cada	Cada	PROPN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 2	ponto	ponto	PROPN	_	Number=Sing	1	flat:name	_	_
 3	𝑥	𝑥	PROPN	_	Number=Sing	1	flat:name	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
-9	espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	característica	característica	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	1	punct	_	_
-13	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	18	obl	_	_
-14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	dados	dado	NOUN	_	Gender=Masc|Number=Plur	18	nsubj:pass	_	_
-16	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
-17	linearmente	linearmente	ADV	_	_	18	advmod	_	_
-18	separados	separar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
-19	por	por	ADP	_	_	21	case	_	_
-20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	hiperplano	hiperplano	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	de	de	ADP	_	_	8	case	_	_
+8	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	mapeado	mapear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	𝑧	𝑧	PROPN	_	Number=Sing	13	flat:name	_	_
+15	=	=	SYM	_	_	13	appos	_	_
+16	Φ(𝑥	Φ(𝑥	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	13	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	alta	alto	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	dimensionalidade	dimensionalidade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	23	acl	_	_
+23	espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	característica	característica	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	10	punct	_	_
+27	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	32	obl	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	dados	dado	NOUN	_	Gender=Masc|Number=Plur	32	nsubj:pass	_	_
+30	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+31	linearmente	linearmente	ADV	_	_	32	advmod	_	_
+32	separados	separar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+33	por	por	ADP	_	_	35	case	_	_
+34	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	hiperplano	hiperplano	NOUN	_	Gender=Masc|Number=Sing	32	obl:agent	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Dividido em três categorias, os dados podem ser chamados linearmente separáveis, não linearmente separáveis e não separáveis.
 # sent_id = 164-20140917-MONOGRAFIA_0-218
@@ -6379,7 +6385,7 @@
 4	𝑥𝑖	𝑥𝑖	PROPN	_	Number=Sing	5	nmod	_	_
 5	=	=	SYM	_	_	0	root	_	_
 
-# text = Φ 𝑥 . Φ(𝑥𝑖) , e os coeficientes 𝛼𝑖 e 𝑏, são soluções das equações: sujeito a: onde w é um vetor de pontos perpendicular no hiperplano de separação, C > 0 é um parâmetro escolhido pelo usuário, correspondendo a penalidade do erro e os ξi ’s são variáveis de folga que penalizam os erros de treinamento.
+# text = Φ 𝑥 . Φ(𝑥𝑖) , e os coeficientes 𝛼𝑖 e 𝑏, são soluções das equações: sujeito a: (2.9) onde w é um vetor de pontos perpendicular no hiperplano de separação, C > 0 é um parâmetro escolhido pelo usuário, correspondendo a penalidade do erro e os ξi ’s são variáveis de folga que penalizam os erros de treinamento.
 # sent_id = 164-20140917-MONOGRAFIA_0-221
 1	Φ	Φ	PROPN	_	Number=Sing	16	nsubj	_	_
 2	𝑥	𝑥	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6396,7 +6402,7 @@
 13	𝑏	𝑏	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
-16	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	43	nsubj	_	_
+16	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	46	nsubj	_	_
 17-18	das	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -6405,56 +6411,59 @@
 21	sujeito	sujeitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
 22	a	o	ADP	_	_	21	case	_	SpaceAfter=No
 23	:	:	PUNCT	_	_	16	punct	_	_
-24	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	obl	_	_
-25	w	w	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
-26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
-27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	vetor	vetor	NOUN	_	Gender=Masc|Number=Sing	16	acl:relcl	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	pontos	pontos	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
-31	perpendicular	perpendicular	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
-32-33	no	_	_	_	_	_	_	_	_
-32	em	em	ADP	_	_	34	case	_	_
-33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	hiperplano	hiperplano	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	separação	separação	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	38	punct	_	_
-38	C	c	NOUN	_	Gender=Masc|Number=Sing	39	conj	_	_
-39	>	>	SYM	_	_	16	nmod	_	_
-40	0	0	NUM	_	NumType=Card	39	nummod	_	_
-41	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
-42	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	_
-44	escolhido	escolher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	43	acl	_	_
-45-46	pelo	_	_	_	_	_	_	_	_
-45	por	por	ADP	_	_	47	case	_	_
-46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	usuário	usuário	NOUN	_	Gender=Masc|Number=Sing	44	obl:agent	_	SpaceAfter=No
-48	,	,	PUNCT	_	_	49	punct	_	_
-49	correspondendo	corresponder	VERB	_	VerbForm=Ger	43	conj	_	_
-50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	penalidade	penalidade	NOUN	_	Gender=Fem|Number=Sing	49	obj	_	_
-52-53	do	_	_	_	_	_	_	_	_
-52	de	de	ADP	_	_	54	case	_	_
-53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
-54	erro	erro	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	_
-55	e	e	CCONJ	_	_	57	cc	_	_
-56	os	os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
-57	ξi	ξi	NOUN	_	Gender=Masc|Number=Sing	43	conj	_	_
-58	’	’	PUNCT	_	_	43	punct	_	SpaceAfter=No
-59	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	61	nsubj	_	_
-60	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
-61	variáveis	variável	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-62	de	de	ADP	_	_	63	case	_	_
-63	folga	folga	NOUN	_	Gender=Fem|Number=Sing	61	obl	_	_
-64	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	65	nsubj	_	_
-65	penalizam	penalizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	_	_
-66	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	67	det	_	_
-67	erros	erro	NOUN	_	Gender=Masc|Number=Plur	65	obj	_	_
-68	de	de	ADP	_	_	69	case	_	_
-69	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	67	nmod	_	SpaceAfter=No
-70	.	.	PUNCT	_	_	61	punct	_	SpacesAfter=\n
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	2.9	2.9	NUM	_	NumType=Card	16	appos	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	31	obl	_	_
+28	w	w	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+29	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	vetor	vetor	NOUN	_	Gender=Masc|Number=Sing	16	acl:relcl	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	pontos	pontos	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+34	perpendicular	perpendicular	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	hiperplano	hiperplano	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	separação	separação	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	37	punct	_	_
+41	C	c	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+42	>	>	SYM	_	_	41	nmod	_	_
+43	0	0	NUM	_	NumType=Card	42	nummod	_	_
+44	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+45	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+47	escolhido	escolher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	46	acl	_	_
+48-49	pelo	_	_	_	_	_	_	_	_
+48	por	por	ADP	_	_	50	case	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	usuário	usuário	NOUN	_	Gender=Masc|Number=Sing	47	obl:agent	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	47	punct	_	_
+52	correspondendo	corresponder	VERB	_	VerbForm=Ger	46	advcl	_	_
+53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	penalidade	penalidade	NOUN	_	Gender=Fem|Number=Sing	52	obj	_	_
+55-56	do	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	57	case	_	_
+56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	erro	erro	NOUN	_	Gender=Masc|Number=Sing	54	nmod	_	_
+58	e	e	CCONJ	_	_	60	cc	_	_
+59	os	os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
+60	ξi	ξi	NOUN	_	Gender=Masc|Number=Sing	52	conj	_	_
+61	’	’	PUNCT	_	_	64	punct	_	SpaceAfter=No
+62	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	64	nsubj	_	_
+63	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	64	cop	_	_
+64	variáveis	variável	ADJ	_	Gender=Masc|Number=Plur	60	acl:relcl	_	_
+65	de	de	ADP	_	_	66	case	_	_
+66	folga	folga	NOUN	_	Gender=Fem|Number=Sing	64	obl	_	_
+67	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	68	nsubj	_	_
+68	penalizam	penalizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	66	acl:relcl	_	_
+69	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	70	det	_	_
+70	erros	erro	NOUN	_	Gender=Masc|Number=Plur	68	obj	_	_
+71	de	de	ADP	_	_	72	case	_	_
+72	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	70	nmod	_	SpaceAfter=No
+73	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n
 
 # text = As MVS possuem diferentes kernels que são utilizados para resolver problemas de espaços não lineares, sendo os mais utilizados os tipos Linear, Polinomial (que manipula uma função polinomial cujo grau pode ser definido durante os treinamentos), Sigmoidal (permite que a MVS tenha o comportamento de uma rede MLP4) e Gaussiano (corresponde a um espaço de características de dimensão infinita; a utilização desse tipo de função permite que a MVS se comporte com características de uma rede RBF5).
 # sent_id = 164-20140917-MONOGRAFIA_0-222
@@ -6549,7 +6558,7 @@
 88	)	)	PUNCT	_	_	59	punct	_	SpaceAfter=No
 89	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = Temos as quatro funções básicas de kernel:  Polinomial:
+# text = Temos as quatro funções básicas de kernel:    Função básica radial (RBF): 𝑘 𝑥, 𝑦 = 𝑒−𝛾| 𝑥−𝑦 |2.
 # sent_id = 164-20140917-MONOGRAFIA_0-223
 1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -6560,66 +6569,31 @@
 7	kernel	kernel	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 8	:	:	PUNCT	_	_	4	punct	_	_
 9			PROPN	_	Number=Sing	4	appos	_	_
-10	Polinomial	Polinomial	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = 𝐾 𝑥, 𝑦 = (𝛾𝑥𝑇𝑦 + 𝑟)𝑑 , 𝛾 > 0;  Sigmoidal : 𝐾 𝑥, 𝑦 = 𝑡𝑎𝑛𝑕 (𝛾𝑥𝑇𝑦 + 𝑟) ;  Função básica radial (RBF): 𝑘 𝑥, 𝑦 = 𝑒−𝛾| 𝑥−𝑦 |2.
-# sent_id = 164-20140917-MONOGRAFIA_0-224
-1	𝐾	𝐾	PROPN	_	Number=Sing	0	root	_	_
-2	𝑥	𝑥	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	𝑦	𝑦	PROPN	_	Number=Sing	1	flat:name	_	_
-5	=	=	SYM	_	_	1	conj	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	𝛾𝑥𝑇𝑦	𝛾𝑥𝑇𝑦	PROPN	_	Number=Sing	14	nmod	_	_
-8	+	+	SYM	_	_	7	flat:name	_	_
-9	𝑟	𝑟	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-11	𝑑	𝑑	PROPN	_	Number=Sing	7	flat:name	_	_
-12	,	,	PUNCT	_	_	7	punct	_	_
-13	𝛾	𝛾	PROPN	_	Number=Sing	7	flat:name	_	_
-14	>	>	SYM	_	_	5	appos	_	_
-15	0	0	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-16	;	;	PUNCT	_	_	14	punct	_	_
-17			PROPN	_	Number=Sing	14	appos	_	_
-18	Sigmoidal	Sigmoidal	PROPN	_	Number=Sing	17	flat:name	_	_
-19	:	:	PUNCT	_	_	1	punct	_	_
-20	𝐾	𝐾	PROPN	_	Number=Sing	1	flat:name	_	_
-21	𝑥	𝑥	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	1	punct	_	_
-23	𝑦	𝑦	PROPN	_	Number=Sing	1	flat:name	_	_
-24	=	=	SYM	_	_	1	nmod	_	_
-25	𝑡𝑎𝑛𝑕	𝑡𝑎𝑛𝑕	PROPN	_	Number=Sing	24	flat:name	_	_
-26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	𝛾𝑥𝑇𝑦	𝛾𝑥𝑇𝑦	PROPN	_	Number=Sing	24	appos	_	_
-28	+	+	SYM	_	_	27	flat:name	_	_
-29	𝑟	𝑟	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	27	punct	_	_
-31	;	;	PUNCT	_	_	1	punct	_	_
-32			PROPN	_	Number=Sing	1	flat:name	_	_
-33	Função	função	PROPN	_	Number=Sing	1	flat:name	_	_
-34	básica	básico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-35	radial	radial	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
-37	RBF	RBF	PROPN	_	Gender=Fem|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
-38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
-39	:	:	PUNCT	_	_	1	punct	_	_
-40	𝑘	𝑘	PROPN	_	Number=Sing	1	flat:name	_	_
-41	𝑥	𝑥	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	1	punct	_	_
-43	𝑦	𝑦	PROPN	_	Number=Sing	44	flat:name	_	_
-44	=	=	SYM	_	_	1	appos	_	_
-45	𝑒−𝛾|	𝑒−𝛾|	PROPN	_	Number=Sing	44	appos	_	_
-46	𝑥−𝑦	𝑥−𝑦	PROPN	_	Number=Sing	45	flat:name	_	_
-47	|2	|2	PROPN	_	Number=Sing	45	flat:name	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10			PROPN	_	Number=Sing	9	flat:name	_	_
+11			PROPN	_	Number=Sing	9	flat:name	_	_
+12	Função	função	PROPN	_	Number=Sing	9	flat:name	_	_
+13	básica	básico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+14	radial	radial	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	RBF	RBF	PROPN	_	Gender=Fem|Number=Sing	4	appos:parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	1	punct	_	_
+19	𝑘	𝑘	PROPN	_	Number=Sing	1	appos	_	_
+20	𝑥	𝑥	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	𝑦	𝑦	PROPN	_	Number=Sing	19	flat:name	_	_
+23	=	=	SYM	_	_	19	appos	_	_
+24	𝑒−𝛾|	𝑒−𝛾|	PROPN	_	Number=Sing	23	flat:name	_	_
+25	𝑥−𝑦	𝑥−𝑦	PROPN	_	Number=Sing	23	appos	_	_
+26	|2	|2	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 
-# sent_id = 164-20140917-MONOGRAFIA_0-225
+# sent_id = 164-20140917-MONOGRAFIA_0-224
 1			PROPN	_	Number=Sing	0	root	_	_
 
 # text = As diferentes definições do kernel e seus respectivos parâmetros provocam alterações nos resultados fornecidos por uma MVS.
-# sent_id = 164-20140917-MONOGRAFIA_0-226
+# sent_id = 164-20140917-MONOGRAFIA_0-225
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	diferentes	diferente	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	definições	definição	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
@@ -6644,7 +6618,7 @@
 20	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Utilizamos nesse trabalho o kernel RBF com o parâmetro y > 0 definido pelo usuário.
-# sent_id = 164-20140917-MONOGRAFIA_0-227
+# sent_id = 164-20140917-MONOGRAFIA_0-226
 1	Utilizamos	Utilizar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	nesse	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -6667,23 +6641,23 @@
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.4.1.
-# sent_id = 164-20140917-MONOGRAFIA_0-228
+# sent_id = 164-20140917-MONOGRAFIA_0-227
 1	2.4.1	2.4.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Avaliação dos
-# sent_id = 164-20140917-MONOGRAFIA_0-229
+# sent_id = 164-20140917-MONOGRAFIA_0-228
 1	Avaliação	avaliação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	nmod	_	_
 
 # text = Resultados
-# sent_id = 164-20140917-MONOGRAFIA_0-230
+# sent_id = 164-20140917-MONOGRAFIA_0-229
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Como métricas de avaliação serão utilizadas neste trabalho a Sensibilidade (𝑠), Especificidade (𝑒) e a Acurácia (𝑎), por serem métodos estatísticos comumente utilizados, para validar resultados.
-# sent_id = 164-20140917-MONOGRAFIA_0-231
+# sent_id = 164-20140917-MONOGRAFIA_0-230
 1	Como	como	ADP	_	_	2	case	_	_
 2	métricas	métrica	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6723,7 +6697,7 @@
 36	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A sensibilidade (𝑠) é calculada como a probabilidade de verdadeiros positivos, ou seja, a medida da capacidade do método de decisão de predizer a condição de Falha para aqueles casos que realmente são, segundo a equação: (2.9) em que 𝑉𝑃 é o número de verdadeiros positivos, e 𝐹𝑁 é o número de falso negativo, no qual pontos foram definidos como Falha são classificados como Não-Falhas erroneamente.
-# sent_id = 164-20140917-MONOGRAFIA_0-232
+# sent_id = 164-20140917-MONOGRAFIA_0-231
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6809,7 +6783,7 @@
 80	.	.	PUNCT	_	_	76	punct	_	SpacesAfter=\n
 
 # text = A especificidade (𝑒) é calculada como a probabilidade de verdadeiros negativos, a medida da capacidade do método de decisão apontar ausência de condição de Falha, para aqueles casos que realmente não tem, como apresentado: onde 𝑉𝑁 é o número de verdadeiros negativos, Não-Falha classificado como Não-Falha e 𝐹𝑃 é o número de falsos positivos, Não-Falhas classificados Falhas.
-# sent_id = 164-20140917-MONOGRAFIA_0-233
+# sent_id = 164-20140917-MONOGRAFIA_0-232
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	especificidade	especificidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6882,7 +6856,7 @@
 68	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A acurácia (a) é a probabilidade de predições corretas, e é dada pela Equação abaixo: 3.
-# sent_id = 164-20140917-MONOGRAFIA_0-234
+# sent_id = 164-20140917-MONOGRAFIA_0-233
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	acurácia	acurácia	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6908,7 +6882,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Materiais e Métodos Neste trabalho, o objetivo é o estudo da função geoestatística semivariograma para a detecção de falhas geológicas em dados sísmicos, para isso foi realizado usando os seguintes passos: 1.
-# sent_id = 164-20140917-MONOGRAFIA_0-235
+# sent_id = 164-20140917-MONOGRAFIA_0-234
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Métodos	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	conj	_	_
@@ -6951,7 +6925,7 @@
 38	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = Aquisição e tratamento das imagens sísmicas; 2.
-# sent_id = 164-20140917-MONOGRAFIA_0-236
+# sent_id = 164-20140917-MONOGRAFIA_0-235
 1	Aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -6965,7 +6939,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Marcação dos pontos de Falhas e Não-Falhas das imagens sísmicas; 3.
-# sent_id = 164-20140917-MONOGRAFIA_0-237
+# sent_id = 164-20140917-MONOGRAFIA_0-236
 1	Marcação	marcação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6985,7 +6959,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Cálculo dos atributos sísmico de falha:
-# sent_id = 164-20140917-MONOGRAFIA_0-238
+# sent_id = 164-20140917-MONOGRAFIA_0-237
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6997,7 +6971,7 @@
 8	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Energia Vertical e Similaridade Vertical; 4.
-# sent_id = 164-20140917-MONOGRAFIA_0-239
+# sent_id = 164-20140917-MONOGRAFIA_0-238
 1	Energia	energia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Vertical	Vertical	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -7008,7 +6982,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Cálculo do atributo
-# sent_id = 164-20140917-MONOGRAFIA_0-240
+# sent_id = 164-20140917-MONOGRAFIA_0-239
 1	Cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7016,7 +6990,7 @@
 4	atributo	atributo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Semivariograma como descritores de característica.
-# sent_id = 164-20140917-MONOGRAFIA_0-241
+# sent_id = 164-20140917-MONOGRAFIA_0-240
 1	Semivariograma	Semivariograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	como	como	ADP	_	_	3	case	_	_
 3	descritores	descritor	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -7025,24 +6999,24 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 5.
-# sent_id = 164-20140917-MONOGRAFIA_0-242
+# sent_id = 164-20140917-MONOGRAFIA_0-241
 1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Classificação usando MVS.
-# sent_id = 164-20140917-MONOGRAFIA_0-243
+# sent_id = 164-20140917-MONOGRAFIA_0-242
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	usando	usar	VERB	_	VerbForm=Ger	1	acl	_	_
 3	MVS	MVS	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.1.
-# sent_id = 164-20140917-MONOGRAFIA_0-244
+# sent_id = 164-20140917-MONOGRAFIA_0-243
 1	3.1	3.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Aquisição e Tratamento das Imagens Sísmicas
-# sent_id = 164-20140917-MONOGRAFIA_0-245
+# sent_id = 164-20140917-MONOGRAFIA_0-244
 1	Aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Tratamento	tratamento	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -7053,7 +7027,7 @@
 7	Sísmicas	Sísmicas	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Neste trabalho foi utilizado um volume sísmico sintético de 256 x 256 x 255 dados de amplitude pós-empilhados.
-# sent_id = 164-20140917-MONOGRAFIA_0-246
+# sent_id = 164-20140917-MONOGRAFIA_0-245
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -7077,7 +7051,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No tratamento, os dados foram convertidos para o formato little-endian, em que byte menos significativo é armazenado na memória nos menores endereços, já que os estavam sendo armazenados estavam no formato begin-endian, byte menos significativo nos maiores endereços.
-# sent_id = 164-20140917-MONOGRAFIA_0-247
+# sent_id = 164-20140917-MONOGRAFIA_0-246
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7133,7 +7107,7 @@
 48	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Além disso, a partir do volume, foram obtidas as imagens como fatias (slices) digitalizadas em tons de cinza de 8 bits com resoluções de 256 x 256.
-# sent_id = 164-20140917-MONOGRAFIA_0-248
+# sent_id = 164-20140917-MONOGRAFIA_0-247
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -7172,7 +7146,7 @@
 34	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Os dados de amplitude, que são valores entre -1699.143604 e +1769.342529, são quantizadas para 8 bits gerando imagens como mostrada na Figura 3.1.
-# sent_id = 164-20140917-MONOGRAFIA_0-249
+# sent_id = 164-20140917-MONOGRAFIA_0-248
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7203,7 +7177,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Figura 3.1 – Fatia gerada a partir dos dados de amplitude.
-# sent_id = 164-20140917-MONOGRAFIA_0-250
+# sent_id = 164-20140917-MONOGRAFIA_0-249
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.1	3.1	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -7220,12 +7194,12 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.2.
-# sent_id = 164-20140917-MONOGRAFIA_0-251
+# sent_id = 164-20140917-MONOGRAFIA_0-250
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Marcações de pontos de Falhas e Não – Falhas
-# sent_id = 164-20140917-MONOGRAFIA_0-252
+# sent_id = 164-20140917-MONOGRAFIA_0-251
 1	Marcações	Marcação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -7237,7 +7211,7 @@
 9	Falhas	falhas	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Para facilitar o processo de marcação manual de Falhas e Não-Falhas, que servem de base para o treinamento e teste dos atributos aqui estudados, foi desenvolvida uma ferramenta intuitiva.
-# sent_id = 164-20140917-MONOGRAFIA_0-253
+# sent_id = 164-20140917-MONOGRAFIA_0-252
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	facilitar	facilitar	VERB	_	VerbForm=Inf	29	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7274,7 +7248,7 @@
 33	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n
 
 # text = Os pontos de Falhas foram salvos em um arquivo, nomeado com o número que identifica a fatia, contendo o valor +1 e sua respectiva posição na imagem, continuadamente, com os postos de Não-Falhas com valor -1 e sua respectiva posição.
-# sent_id = 164-20140917-MONOGRAFIA_0-254
+# sent_id = 164-20140917-MONOGRAFIA_0-253
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7324,7 +7298,7 @@
 46	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Ver exemplo na Figura 3.2.
-# sent_id = 164-20140917-MONOGRAFIA_0-255
+# sent_id = 164-20140917-MONOGRAFIA_0-254
 1	Ver	ver	VERB	_	VerbForm=Inf	0	root	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -7335,7 +7309,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 3.2 – Arquivo contendo pontos de Falhas e Não-Falhas.
-# sent_id = 164-20140917-MONOGRAFIA_0-256
+# sent_id = 164-20140917-MONOGRAFIA_0-255
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3.2	3.2	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -7349,12 +7323,12 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.3.
-# sent_id = 164-20140917-MONOGRAFIA_0-257
+# sent_id = 164-20140917-MONOGRAFIA_0-256
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Cálculo de Atributos Sísmicos de Falha.
-# sent_id = 164-20140917-MONOGRAFIA_0-258
+# sent_id = 164-20140917-MONOGRAFIA_0-257
 1	Cálculo	cálculo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Atributos	atributos	PROPN	_	Number=Sing	1	nmod	_	_
@@ -7364,7 +7338,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Características específicas das imagens sísmicas são identificadas através dos atributos sísmicos.
-# sent_id = 164-20140917-MONOGRAFIA_0-259
+# sent_id = 164-20140917-MONOGRAFIA_0-258
 1	Características	característica	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 2	específicas	específico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -7383,7 +7357,7 @@
 14	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Para efeito de comparação e combinação com o atributo de Semivariograma, foram escolhidos os atributos de Energia Vertical (EV) e Similaridade Vertical (SV), ambos são calculados ao longo do traço sísmico, vertical da imagem.
-# sent_id = 164-20140917-MONOGRAFIA_0-260
+# sent_id = 164-20140917-MONOGRAFIA_0-259
 1	Para	para	ADP	_	_	2	case	_	_
 2	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7434,12 +7408,12 @@
 45	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 3.3.1.
-# sent_id = 164-20140917-MONOGRAFIA_0-261
+# sent_id = 164-20140917-MONOGRAFIA_0-260
 1	3.3.1	3.3.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Calculo da Energia Vertical
-# sent_id = 164-20140917-MONOGRAFIA_0-262
+# sent_id = 164-20140917-MONOGRAFIA_0-261
 1	Calculo	Calculo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7448,7 +7422,7 @@
 5	Vertical	Vertical	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = A Energia Vertical é calculada ao longo do traço sísmico, segundo Equação 2.1, o calculo para o pixel em questão é o dado como a soma do quadrado dos valores de amplitude dentro de uma janela definida, dividido pelo tamanho da janela.
-# sent_id = 164-20140917-MONOGRAFIA_0-263
+# sent_id = 164-20140917-MONOGRAFIA_0-262
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Energia	Energia	PROPN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	Vertical	Vertical	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7509,7 +7483,7 @@
 52	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No trabalho, o tamanho da janela utilizada foi o tamanho 15.
-# sent_id = 164-20140917-MONOGRAFIA_0-264
+# sent_id = 164-20140917-MONOGRAFIA_0-263
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7529,7 +7503,7 @@
 15	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = A Figura 3.3, mostra um exemplo de como é calculada o atributo.
-# sent_id = 164-20140917-MONOGRAFIA_0-265
+# sent_id = 164-20140917-MONOGRAFIA_0-264
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	3.3	3.3	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
@@ -7546,7 +7520,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Onde é selecionado o pixel de valor 8 e definida o tamanho da janela, 5.
-# sent_id = 164-20140917-MONOGRAFIA_0-266
+# sent_id = 164-20140917-MONOGRAFIA_0-265
 1	Onde	onde	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	selecionado	selecionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -7568,7 +7542,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = É feita a soma do quadrado dos valores dentro da janela (5² + 2² + 8² + 2² + 7²) e dividido 5, referente ao tamanho da janela.
-# sent_id = 164-20140917-MONOGRAFIA_0-267
+# sent_id = 164-20140917-MONOGRAFIA_0-266
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7613,7 +7587,7 @@
 37	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A janela vai sempre percorrer a imagem na direção vertical.
-# sent_id = 164-20140917-MONOGRAFIA_0-268
+# sent_id = 164-20140917-MONOGRAFIA_0-267
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	janela	janela	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -7629,7 +7603,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O tamanho da janela é definida pelo usuário.
-# sent_id = 164-20140917-MONOGRAFIA_0-269
+# sent_id = 164-20140917-MONOGRAFIA_0-268
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7645,7 +7619,7 @@
 11	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 3.3 – Calculo da Energia Vertical.
-# sent_id = 164-20140917-MONOGRAFIA_0-270
+# sent_id = 164-20140917-MONOGRAFIA_0-269
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3.3	3.3	NUM	_	NumType=Card	1	nsubj	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -7658,7 +7632,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na Figura 3.4 temos um exemplo de uma imagem com o atributo de energia vertical calculado.
-# sent_id = 164-20140917-MONOGRAFIA_0-271
+# sent_id = 164-20140917-MONOGRAFIA_0-270
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7680,7 +7654,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 3.4 – Energia Vertical.
-# sent_id = 164-20140917-MONOGRAFIA_0-272
+# sent_id = 164-20140917-MONOGRAFIA_0-271
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3.4	3.4	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -7689,12 +7663,12 @@
 6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.3.2.
-# sent_id = 164-20140917-MONOGRAFIA_0-273
+# sent_id = 164-20140917-MONOGRAFIA_0-272
 1	3.3.2	3.3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Calculo da Similaridade Vertical
-# sent_id = 164-20140917-MONOGRAFIA_0-274
+# sent_id = 164-20140917-MONOGRAFIA_0-273
 1	Calculo	Calculo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7703,7 +7677,7 @@
 5	Vertical	Vertical	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = A similaridade vertical (SV) é realizada entre dois segmentos de traço, calculadas, segundo a Equação 2.2, fatia por fatia sempre definido o vetor onde está contido o pixel de referência, para a qual será calculado o atributo, de vetor 𝑣 e o vetor adjacente 𝑢, ambos com o mesmo tamanho de janela.
-# sent_id = 164-20140917-MONOGRAFIA_0-275
+# sent_id = 164-20140917-MONOGRAFIA_0-274
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	similaridade	similaridade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	vertical	vertical	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7767,7 +7741,7 @@
 61	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Depois de calculado, o resultado é guardado em uma posição equivalente do pixel de referência.
-# sent_id = 164-20140917-MONOGRAFIA_0-276
+# sent_id = 164-20140917-MONOGRAFIA_0-275
 1	Depois	depois	ADV	_	_	8	advmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	calculado	calculado	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
@@ -7789,7 +7763,7 @@
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A Figura 3.5, exemplifica o calculo.
-# sent_id = 164-20140917-MONOGRAFIA_0-277
+# sent_id = 164-20140917-MONOGRAFIA_0-276
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	3.5	3.5	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
@@ -7800,7 +7774,7 @@
 8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Como podemos ver na Figura 3.5, o cálculo para o elemento 103, a imagem na vertical assim como no calculo da EV.
-# sent_id = 164-20140917-MONOGRAFIA_0-278
+# sent_id = 164-20140917-MONOGRAFIA_0-277
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ver	ver	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -7836,7 +7810,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Na Figura 3.6 um exemplo de imagem gerada após o cálculo de do atributo de SV.
-# sent_id = 164-20140917-MONOGRAFIA_0-279
+# sent_id = 164-20140917-MONOGRAFIA_0-278
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7860,7 +7834,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 3.5 – Calculo da Similaridade Vertical.
-# sent_id = 164-20140917-MONOGRAFIA_0-280
+# sent_id = 164-20140917-MONOGRAFIA_0-279
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3.5	3.5	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -7871,6 +7845,15 @@
 7	Similaridade	Similaridade	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	Vertical	Vertical	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Figura 3.6 – Similaridade Vertical.
+# sent_id = 164-20140917-MONOGRAFIA_0-280
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	3.6	3.6	NUM	_	NumType=Card	1	nummod	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+4	Similaridade	Similaridade	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5	Vertical	Vertical	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.3.3.
 # sent_id = 164-20140917-MONOGRAFIA_0-281
@@ -8539,7 +8522,7 @@
 25	]	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Foram definidas duas classes para essa finalidade, Falha (+1) e Não- Falha (-1).
+# text = Foram definidas duas classes para essa finalidade, Falha (+1) e Não-Falha (-1).
 # sent_id = 164-20140917-MONOGRAFIA_0-300
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	definidas	definir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -8554,13 +8537,11 @@
 11	+1	+1	NUM	_	NumType=Card	9	appos:parataxis	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	11	punct	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
-14	Não	Não	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
-15	-	-	PUNCT	_	_	2	punct	_	_
-16	Falha	falha	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	_
-17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	-1	-1	NUM	_	NumType=Card	16	appos:parataxis	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	2	punct	_	_
+14	Não-Falha	Não-Falha	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	-1	-1	NUM	_	NumType=Card	14	appos:parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Geramos arquivos com 1 atributo de Semivariograma, com 1 atributo de SV e com 1 atributo de EV, em seguida foi gerado com associação de 2 em 2 e com associação dos três .
 # sent_id = 164-20140917-MONOGRAFIA_0-301
@@ -9199,77 +9180,81 @@
 27	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
-# text = Tabela 4.3 – Resultados de sensibilidade e especificidade dos atributos Figura 4.1 – Resultados obtidos nos testes.
+# text = Tabela 4.3 – Resultados de sensibilidade e especificidade dos atributos e suas associações.
 # sent_id = 164-20140917-MONOGRAFIA_0-321
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4.3	4.3	NUM	_	NumType=Card	1	nummod	_	_
-3	–	–	PUNCT	_	_	1	punct	_	_
-4	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+3	–	–	PUNCT	_	_	4	punct	_	_
+4	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	e	e	CCONJ	_	_	8	cc	_	_
-8	especificidade	especificidade	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+8	especificidade	especificidade	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
 9-10	dos	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-11	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-12	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	4.1	4.1	NUM	_	NumType=Card	15	nummod	_	_
-14	–	–	PUNCT	_	_	15	punct	_	_
-15	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
-16	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
-17-18	nos	_	_	_	_	_	_	_	_
-17	em	em	ADP	_	_	19	case	_	_
-18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	testes	teste	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+11	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	14	det	_	_
+14	associações	associação	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = 5. Conclusão
+# text = Figura 4.1 –
 # sent_id = 164-20140917-MONOGRAFIA_0-322
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	4.1	4.1	NUM	_	NumType=Card	1	obj	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+
+# text = Resultados obtidos nos testes.
+# sent_id = 164-20140917-MONOGRAFIA_0-323
+1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
+3-4	nos	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	testes	teste	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = 5. Conclusão Neste trabalho foi apresentada a viabilidade do uso da função geoestatística Semivariograma e a Máquina de Vetores de Suporte para a detecção de falhas geológicas em dados sísmicos.
+# sent_id = 164-20140917-MONOGRAFIA_0-324
 1	5	5	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	Conclusão	Conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-
-# text = Neste trabalho foi apresentada a viabilidade do uso da função geoestatística
-# sent_id = 164-20140917-MONOGRAFIA_0-323
-1-2	Neste	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	3	case	_	_
-2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
-5	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	viabilidade	viabilidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
-8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	uso	uso	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11-12	da	_	_	_	_	_	_	_	_
+3	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4-5	Neste	_	_	_	_	_	_	_	_
+4	Em	em	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	viabilidade	viabilidade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	função	função	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	geoestatística	geoestatístico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-
-# text = Semivariograma e a Máquina de Vetores de Suporte para a detecção de falhas geológicas em dados sísmicos.
-# sent_id = 164-20140917-MONOGRAFIA_0-324
-1	Semivariograma	Semivariograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	e	e	CCONJ	_	_	4	cc	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Máquina	máquina	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	Vetores	Vetores	PROPN	_	Number=Sing	4	nmod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	Suporte	suporte	PROPN	_	Number=Sing	6	nmod	_	_
-9	para	para	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	falhas	falhas	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-14	geológicas	geológicas	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
-15	em	em	ADP	_	_	16	case	_	_
-16	dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-17	sísmicos	sísmico	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	uso	uso	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	função	função	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	geoestatística	geoestatístico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	Semivariograma	Semivariograma	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Máquina	máquina	PROPN	_	Gender=Fem|Number=Sing	26	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Vetores	Vetores	PROPN	_	Number=Sing	21	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Suporte	suporte	PROPN	_	Number=Sing	23	nmod	_	_
+26	para	para	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	falhas	falhas	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
+31	geológicas	geológicas	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	dados	dado	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+34	sísmicos	sísmico	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O fato de que os altos custos que envolvem os métodos diretos de identificação de reservatórios de petróleo, faz com que se busque alternativas mais baratas que possam trazer o maior número de informações possíveis antes de se iniciar a perfuração de um poço.
 # sent_id = 164-20140917-MONOGRAFIA_0-325

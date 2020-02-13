@@ -1045,7 +1045,7 @@
 32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
-# text = A principal matéria-prima empregada nas unidades brasileiras é a cana-de- açúcar devido a sua grande disponibilidade e também ao seu baixo custo.
+# text = A principal matéria-prima empregada nas unidades brasileiras é a cana-de-açúcar devido a sua grande disponibilidade e também ao seu baixo custo.
 # sent_id = 301-20150527-MONOGRAFIA_0-35
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
@@ -1056,25 +1056,23 @@
 6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
 8	brasileiras	brasileiro	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
-9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	cana-de	cana-de	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	11	punct	_	_
-13	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-14	devido	devido	ADV	_	_	13	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-16	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	18	det	_	_
-17	grande	grande	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-18	disponibilidade	disponibilidade	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
-19	e	e	CCONJ	_	_	25	cc	_	_
-20	também	também	ADV	_	_	25	advmod	_	_
-21-22	ao	_	_	_	_	_	_	_	_
-21	a	a	ADP	_	_	25	case	_	_
-22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-23	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	25	det	_	_
-24	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
-25	custo	custo	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	11	punct	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	a	a	ADP	_	_	9	compound	_	_
+11	cana-de-açúcar	cana-de-açúcar	VERB	_	VerbForm=Inf	0	root	_	_
+12	devido	devido	ADV	_	_	11	advmod	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	16	det	_	_
+15	grande	grande	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	disponibilidade	disponibilidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+17	e	e	CCONJ	_	_	23	cc	_	_
+18	também	também	ADV	_	_	23	advmod	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	23	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+21	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	23	det	_	_
+22	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	custo	custo	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Além disso, o consumo de combustíveis fósseis para a produção de etanol é consideravelmente menor quando comparado com quantidade de energia requerida para produzir o etanol a partir do milho.
 # sent_id = 301-20150527-MONOGRAFIA_0-36
@@ -2496,23 +2494,16 @@
 14	1991	1991	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Figura 2 - Formação de Jet Drops Fonte: SANTIAGO E MARVILLET, 1991.
+# text = Fonte: SANTIAGO E MARVILLET, 1991.
 # sent_id = 301-20150527-MONOGRAFIA_0-82
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	2	2	NUM	_	NumType=Card	4	nummod	_	_
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Formação	formação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	Jet	Jet	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	Drops	Drops	PROPN	_	Number=Sing	6	flat:name	_	_
-8	Fonte	Fonte	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	1	punct	_	_
-10	SANTIAGO	Santiago	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-11	E	e	CCONJ	_	_	12	cc	_	_
-12	MARVILLET	MARVILLET	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	1991	1991	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	SANTIAGO	Santiago	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	E	e	CCONJ	_	_	5	cc	_	_
+5	MARVILLET	MARVILLET	PROPN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	1991	1991	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Ainda não há consenso na literatura em relação aos mecanismos do arraste mecânico.
 # sent_id = 301-20150527-MONOGRAFIA_0-83
@@ -2651,7 +2642,7 @@
 21	2.2.2	2.2.2	NUM	_	NumType=Card	19	conj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Quadro 1 - Comparação entre as características do Arraste Termodinâmico e Mecânico 2.3
+# text = Quadro 1 - Comparação entre as características do Arraste Termodinâmico e Mecânico Fonte: Acervo Pessoal.
 # sent_id = 301-20150527-MONOGRAFIA_0-89
 1	Quadro	Quadro	ADV	_	_	2	advmod	_	_
 2	1	1	NUM	_	NumType=Card	4	nummod	_	_
@@ -2667,13 +2658,18 @@
 11	Termodinâmico	Termodinâmico	PROPN	_	Number=Sing	10	flat:name	_	_
 12	e	e	CCONJ	_	_	13	cc	_	_
 13	Mecânico	Mecânico	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	_
-14	2.3	2.3	NUM	_	NumType=Card	7	nummod	_	_
+14	Fonte	Fonte	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	4	punct	_	_
+16	Acervo	Acervo	PROPN	_	Number=Sing	4	appos	_	_
+17	Pessoal	pessoal	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Eliminadores de Névoa
+# text = 2.3 Eliminadores de Névoa
 # sent_id = 301-20150527-MONOGRAFIA_0-90
-1	Eliminadores	Eliminador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Névoa	névoa	PROPN	_	Gender=Unsp|Number=Sing	1	nmod	_	_
+1	2.3	2.3	NUM	_	NumType=Card	2	nummod	_	_
+2	Eliminadores	Eliminador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Névoa	névoa	PROPN	_	Gender=Unsp|Number=Sing	2	nmod	_	_
 
 # text = A inspiração para a instalação de obstáculos no topo superior da dorna como forma de impedir o arraste mecânico surgiu a partir de equipamentos conhecidos como eliminadores de névoa.
 # sent_id = 301-20150527-MONOGRAFIA_0-91
@@ -3222,14 +3218,14 @@
 32	fluir	fluir	VERB	_	VerbForm=Inf	31	xcomp	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	15	punct	_	_
 
-# text = Assim, os gases são capazes de desviar, mas as gotículas são incapazes de seguir essas mudanças bruscas de direção, ficando aderidas até estarem grandes o suficiente para escorrer (AMISTCO, 2004) 2.3.2
+# text = Assim, os gases são capazes de desviar, mas as gotículas são incapazes de seguir essas mudanças bruscas de direção, ficando aderidas até estarem grandes o suficiente para escorrer (AMISTCO, 2004)
 # sent_id = 301-20150527-MONOGRAFIA_0-109
 1	Assim	assim	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	gases	gase	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	capazes	capaz	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
+6	capazes	capaz	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 7	de	de	SCONJ	_	_	8	mark	_	_
 8	desviar	desviar	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
@@ -3250,7 +3246,7 @@
 24	aderidas	aderida	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
 25	até	até	ADV	_	_	27	advmod	_	_
 26	estarem	estar	AUX	_	Number=Plur|Person=3|VerbForm=Inf	27	cop	_	_
-27	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	23	xcomp	_	_
+27	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	23	advcl	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	suficiente	suficiente	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 30	para	para	SCONJ	_	_	31	mark	_	_
@@ -3260,15 +3256,24 @@
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	2004	2004	NUM	_	NumType=Card	33	appos:parataxis	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	33	punct	_	_
-37	2.3.2	2.3.2	NUM	_	NumType=Card	0	root	_	_
+
+# text = Figura 4 - Captura de Gotículas 2.3.2
+# sent_id = 301-20150527-MONOGRAFIA_0-110
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	4	4	NUM	_	NumType=Card	4	nummod	_	_
+3	-	-	PUNCT	_	_	4	punct	_	_
+4	Captura	captura	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Gotículas	Gotículas	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	2.3.2	2.3.2	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Vane Packs
-# sent_id = 301-20150527-MONOGRAFIA_0-110
+# sent_id = 301-20150527-MONOGRAFIA_0-111
 1	Vane	Vane	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Packs	Packs	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O eliminador de névoa do tipo Vane Pack consiste em placas próximas uns às outras e com diversas curvas ao longo do caminho pelo qual o gás irá fluir (Figura 5).
-# sent_id = 301-20150527-MONOGRAFIA_0-111
+# sent_id = 301-20150527-MONOGRAFIA_0-112
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	eliminador	eliminador	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3315,7 +3320,7 @@
 39	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A mudança de direção faz com que as gotículas de líquido, devido ao impacto, fiquem aderidas às placas.
-# sent_id = 301-20150527-MONOGRAFIA_0-112
+# sent_id = 301-20150527-MONOGRAFIA_0-113
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3343,7 +3348,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A inércia das partículas faz com que essas sejam forçadas a coalescer formando gotas maiores, que então se desprendem.
-# sent_id = 301-20150527-MONOGRAFIA_0-113
+# sent_id = 301-20150527-MONOGRAFIA_0-114
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	inércia	inércia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3369,7 +3374,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Vane packs podem ser utilizadas tanto na horizontal, quanto na vertical e sua eficiência é de 95-99,5% para separação de partículas maiores que 10 mícrons (FEATURE-TEC, 2013).
-# sent_id = 301-20150527-MONOGRAFIA_0-114
+# sent_id = 301-20150527-MONOGRAFIA_0-115
 1	Vane	Vanir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	packs	pack	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -3408,23 +3413,16 @@
 34	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n
 
-# text = Figura 5 - Vane Pack Fonte: Supreme Supply Company, 2013
-# sent_id = 301-20150527-MONOGRAFIA_0-115
+# text = Figura 5 - Vane Pack
+# sent_id = 301-20150527-MONOGRAFIA_0-116
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	5	5	NUM	_	NumType=Card	4	nummod	_	_
+2	5	5	NUM	_	NumType=Card	1	obj	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
-4	Vane	Vane	PROPN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Vane	Vane	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 5	Pack	Pack	PROPN	_	Number=Sing	4	flat:name	_	_
-6	Fonte	Fonte	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	1	punct	_	_
-8	Supreme	Supreme	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-9	Supply	Supply	PROPN	_	Number=Sing	8	flat:name	_	_
-10	Company	Company	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	2013	2013	NUM	_	NumType=Card	1	appos:parataxis	_	_
 
 # text = A utilização desse tipo de eliminador de névoa é indicada principalmente para altas velocidades da corrente de vapor, quando é obrigatório que a queda de pressão seja baixa, para líquidos mais viscosos ou com tendência a formar espumas e também quando existe a possibilidade de sólidos também estarem sendo arrastados.
-# sent_id = 301-20150527-MONOGRAFIA_0-116
+# sent_id = 301-20150527-MONOGRAFIA_0-117
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -3484,7 +3482,7 @@
 55	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Em geral, vane packs são mais resistentes em comparação com o mesh pad (AMISTCO, 2004).
-# sent_id = 301-20150527-MONOGRAFIA_0-117
+# sent_id = 301-20150527-MONOGRAFIA_0-118
 1	Em	em	ADP	_	_	2	case	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3507,7 +3505,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = No caso do arranjo vertical (Figura 6), no qual o fluxo de gás é ascendente, as gotículas aderidas, ao coalescerem, vão sendo drenadas para a próxima curva, até caírem devido à gravidade.
-# sent_id = 301-20150527-MONOGRAFIA_0-118
+# sent_id = 301-20150527-MONOGRAFIA_0-119
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3560,7 +3558,7 @@
 45	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Já no caso do arranjo horizontal, as gotas que coalescem se desprendem e deixam o aparato na direção vertical (Figura 6).
-# sent_id = 301-20150527-MONOGRAFIA_0-119
+# sent_id = 301-20150527-MONOGRAFIA_0-120
 1	Já	já	ADV	_	_	4	advmod	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -3593,8 +3591,8 @@
 27	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
-# text = Figura 6 - Captura de Gotículas no Arranjo Vertical e no Arranjo Horizontal 3.
-# sent_id = 301-20150527-MONOGRAFIA_0-120
+# text = Figura 6 - Captura de Gotículas no Arranjo Vertical e no Arranjo Horizontal Fonte: AMISTCO, 2004.
+# sent_id = 301-20150527-MONOGRAFIA_0-121
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -3612,17 +3610,26 @@
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Arranjo	Arranjo	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 15	Horizontal	Horizontal	PROPN	_	Number=Sing	14	flat:name	_	_
-16	3	3	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	_
+16	Fonte	Fonte	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	1	punct	_	_
+18	AMISTCO	AMISTCO	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	2004	2004	NUM	_	NumType=Card	18	appos	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = 3.
+# sent_id = 301-20150527-MONOGRAFIA_0-122
+1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Materiais e Métodos
-# sent_id = 301-20150527-MONOGRAFIA_0-121
+# sent_id = 301-20150527-MONOGRAFIA_0-123
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Métodos	método	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	1	conj	_	_
 
-# text = Os eliminadores de névoa são majoritariamente estudados como simples retentores, mas neste trabalho pretende-se estudá-los também sob o ponto de vista do transporte de massa entre o líquido descendente e o gás ascendente.
-# sent_id = 301-20150527-MONOGRAFIA_0-122
+# text = Os eliminadores de névoa são majoritariamente estudados como simples retentores, mas neste trabalho pretende-se estudá-los também sob o ponto de vista do
+# sent_id = 301-20150527-MONOGRAFIA_0-124
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	eliminadores	eliminador	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3652,23 +3659,11 @@
 24	de	de	ADP	_	_	23	compound	_	_
 25	vista	vista	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 26-27	do	_	_	_	_	_	_	_	_
-26	de	de	ADP	_	_	28	case	_	_
-27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	massa	massa	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-31	entre	entre	ADP	_	_	34	case	_	_
-32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-33	líquido	líquido	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
-34	descendente	descendente	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
-35	e	e	CCONJ	_	_	37	cc	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	gás	gás	NOUN	_	Gender=Masc|Number=Sing	34	conj	_	_
-38	ascendente	ascendente	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+26	de	de	ADP	_	_	27	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 
 # text = Na figura 7 observa-se que o etanol pode ser arrastado de duas formas: a) por dissolução do vapor no gás; b) por arraste de gotículas com concentrações semelhantes às do caldo fermentativo.
-# sent_id = 301-20150527-MONOGRAFIA_0-123
+# sent_id = 301-20150527-MONOGRAFIA_0-125
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3720,7 +3715,7 @@
 43	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A proposta é definir o primeiro caso como arraste termodinâmico e o segundo como arraste mecânico.
-# sent_id = 301-20150527-MONOGRAFIA_0-124
+# sent_id = 301-20150527-MONOGRAFIA_0-126
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3740,7 +3735,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A metodologia e as justificativas para adotá-la são descritas neste capítulo.
-# sent_id = 301-20150527-MONOGRAFIA_0-125
+# sent_id = 301-20150527-MONOGRAFIA_0-127
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -3759,7 +3754,7 @@
 14	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = O diferencial deste trabalho foi identificar as faixas de vazão em que cada tipo de transporte predomina e estudar o potencial de utilização de obstáculos como uma forma de concentrar o etanol que é arrastado mecanicamente.
-# sent_id = 301-20150527-MONOGRAFIA_0-126
+# sent_id = 301-20150527-MONOGRAFIA_0-128
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	diferencial	diferencial	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	deste	_	_	_	_	_	_	_	_
@@ -3801,7 +3796,7 @@
 38	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A base para a utilização dos obstáculos como concentradores está na teoria da parede molhada, a qual estuda troca de massa entre um filme líquido descendente e um gás ascendente.
-# sent_id = 301-20150527-MONOGRAFIA_0-127
+# sent_id = 301-20150527-MONOGRAFIA_0-129
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	base	base	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -3842,11 +3837,11 @@
 35	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 3.1
-# sent_id = 301-20150527-MONOGRAFIA_0-128
+# sent_id = 301-20150527-MONOGRAFIA_0-130
 1	3.1	3.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Estudo do Arraste Mecânico
-# sent_id = 301-20150527-MONOGRAFIA_0-129
+# sent_id = 301-20150527-MONOGRAFIA_0-131
 1	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3855,7 +3850,7 @@
 5	Mecânico	Mecânico	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Os mecanismos envolvendo a ocorrência do arraste mecânico, como definido na seção 2.2.3, não são um consenso na literatura.
-# sent_id = 301-20150527-MONOGRAFIA_0-130
+# sent_id = 301-20150527-MONOGRAFIA_0-132
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 3	envolvendo	envolver	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -3886,7 +3881,7 @@
 25	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Assim, foi necessário estabelecer um experimento, através do qual fosse possível validar a ocorrência do arraste mecânico para o sistema que seria utilizado posteriormente, nos experimentos finais, os quais envolviam o borbulhamento de dióxido de carbono em solução hidroalcoólica.
-# sent_id = 301-20150527-MONOGRAFIA_0-131
+# sent_id = 301-20150527-MONOGRAFIA_0-133
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -3939,7 +3934,7 @@
 47	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Determinou-se que o estudo do arraste mecânico seria feito em relação a diferentes vazões de borbulhamento de dióxido de carbono e que o método empregado seria o de identificar substâncias não voláteis no material arrastado.
-# sent_id = 301-20150527-MONOGRAFIA_0-132
+# sent_id = 301-20150527-MONOGRAFIA_0-134
 1-2	Determinou-se	_	_	_	_	_	_	_	_
 1	Determinou	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3984,7 +3979,7 @@
 39	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Essa estratégia foi utilizada com base na comparação apresentada na seção 2.2.3, a qual caracteriza o arraste mecânico como a única forma possível de arrastar substâncias não voláteis.
-# sent_id = 301-20150527-MONOGRAFIA_0-133
+# sent_id = 301-20150527-MONOGRAFIA_0-135
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4021,7 +4016,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O aparato experimental utilizado foi uma proveta de vidro de 500 mL, um rotâmetro, um vidro de relógio e um tubo de vidro com um borbulhador de vidro sinterizado em uma das pontas.
-# sent_id = 301-20150527-MONOGRAFIA_0-134
+# sent_id = 301-20150527-MONOGRAFIA_0-136
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aparato	aparato	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4062,7 +4057,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Como traçador não volátil foi empregado sacarose.
-# sent_id = 301-20150527-MONOGRAFIA_0-135
+# sent_id = 301-20150527-MONOGRAFIA_0-137
 1	Como	como	ADP	_	_	2	case	_	_
 2	traçador	traçador	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -4073,7 +4068,7 @@
 8	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Soluções de diferentes concentrações foram adicionadas à proveta até que o nível de líquido atingisse uma distância de sete centímetros em relação a borda da proveta.
-# sent_id = 301-20150527-MONOGRAFIA_0-136
+# sent_id = 301-20150527-MONOGRAFIA_0-138
 1	Soluções	solução	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -4107,7 +4102,7 @@
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = No topo da proveta, com o borbulhador já mergulhado na solução e cuja vazão de gás era medida pelo rotâmetro, foi acoplado um vidro de relógio.
-# sent_id = 301-20150527-MONOGRAFIA_0-137
+# sent_id = 301-20150527-MONOGRAFIA_0-139
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4147,7 +4142,7 @@
 33	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = O aparato experimental está apresentado na Figura 8.
-# sent_id = 301-20150527-MONOGRAFIA_0-138
+# sent_id = 301-20150527-MONOGRAFIA_0-140
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aparato	aparato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4160,18 +4155,8 @@
 9	8	8	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Figura 8 - Aparato Experimental Arraste Mecânico
-# sent_id = 301-20150527-MONOGRAFIA_0-139
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8	8	NUM	_	NumType=Card	1	obj	_	_
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Aparato	aparato	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-5	Experimental	Experimental	PROPN	_	Number=Sing	4	flat:name	_	_
-6	Arraste	Arraste	PROPN	_	Number=Sing	4	flat:name	_	_
-7	Mecânico	Mecânico	PROPN	_	Number=Sing	4	flat:name	_	_
-
 # text = As gotículas acumuladas no vidro de relógio, após a vazão de dióxido de carbono ser ligada, eram coletadas e armazenadas em frascos tipo “Eppendorf”.
-# sent_id = 301-20150527-MONOGRAFIA_0-140
+# sent_id = 301-20150527-MONOGRAFIA_0-141
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	gotículas	gotícula	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 3	acumuladas	acumular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4205,7 +4190,7 @@
 30	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Posteriormente o conteúdo armazenado era analisado em um refratômetro digital de marca Reichert, modelo 1394000 e os valore dos índices de refração das frações condensadas no vidro de relógio eram comparados com os valores esperados para a água destilada e assim era possível identificar a presença ou não de sacarose o que caracterizaria o arraste mecânico.
-# sent_id = 301-20150527-MONOGRAFIA_0-141
+# sent_id = 301-20150527-MONOGRAFIA_0-142
 1	Posteriormente	posteriormente	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
@@ -4272,7 +4257,7 @@
 61	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Finalmente, esse experimento foi realizado em três configurações diferentes, como mostrado no quadro 2 e todas foram realizadas em triplicata.
-# sent_id = 301-20150527-MONOGRAFIA_0-142
+# sent_id = 301-20150527-MONOGRAFIA_0-143
 1	Finalmente	finalmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -4300,7 +4285,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As vazões estudadas foram de 1 a 6 L/min, variando de 1 L/min.
-# sent_id = 301-20150527-MONOGRAFIA_0-143
+# sent_id = 301-20150527-MONOGRAFIA_0-144
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	vazões	vazão	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	estudadas	estudado	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4320,7 +4305,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Quadro 2 - Configurações do Experimento de Arraste de Substâncias Não Voláteis
-# sent_id = 301-20150527-MONOGRAFIA_0-144
+# sent_id = 301-20150527-MONOGRAFIA_0-145
 1	Quadro	Quadro	ADV	_	_	2	advmod	_	_
 2	2	2	NUM	_	NumType=Card	0	root	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -4337,7 +4322,7 @@
 13	Voláteis	Voláteis	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = O objetivo dessas variações foi analisar a influência da concentração e da altura de líquido.
-# sent_id = 301-20150527-MONOGRAFIA_0-145
+# sent_id = 301-20150527-MONOGRAFIA_0-146
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dessas	_	_	_	_	_	_	_	_
@@ -4362,11 +4347,11 @@
 19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.2
-# sent_id = 301-20150527-MONOGRAFIA_0-146
+# sent_id = 301-20150527-MONOGRAFIA_0-147
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Estudo do Arraste Termodinâmico
-# sent_id = 301-20150527-MONOGRAFIA_0-147
+# sent_id = 301-20150527-MONOGRAFIA_0-148
 1	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4375,7 +4360,7 @@
 5	Termodinâmico	Termodinâmico	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Após a realização da etapa descrita na seção anterior, foi possível determinar uma vazão de trabalho a ser empregada nos experimentos finais.
-# sent_id = 301-20150527-MONOGRAFIA_0-148
+# sent_id = 301-20150527-MONOGRAFIA_0-149
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	realização	realização	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
@@ -4408,7 +4393,7 @@
 27	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Porém, devido ao interesse desta pesquisa em enriquecer também o arraste termodinâmico, foi importante avaliar também a saturação do gás que está deixando a solução, pois, caso o gás, na vazão estudada, deixasse o sistema saturado não haveria a possibilidade de continuar trocando massa através dos obstáculos.
-# sent_id = 301-20150527-MONOGRAFIA_0-149
+# sent_id = 301-20150527-MONOGRAFIA_0-150
 1	Porém	porém	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	devido	devido	ADV	_	_	1	advmod	_	_
@@ -4475,7 +4460,7 @@
 59	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Assim, realizou-se um experimento no qual o gás era borbulhado em frascos
-# sent_id = 301-20150527-MONOGRAFIA_0-150
+# sent_id = 301-20150527-MONOGRAFIA_0-151
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	realizou-se	_	_	_	_	_	_	_	_
@@ -4495,7 +4480,7 @@
 15	frascos	frasco	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
 
 # text = Dreschel e depois seguia para uma tubulação na qual foram acoplados dois termômetros.
-# sent_id = 301-20150527-MONOGRAFIA_0-151
+# sent_id = 301-20150527-MONOGRAFIA_0-152
 1	Dreschel	Dreschel	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	depois	depois	ADV	_	_	4	advmod	_	_
@@ -4514,7 +4499,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Dessa forma, o método para determinar a saturação do gás foi o do termômetro de bulbo seco e termômetro de bulbo úmido e foi estabelecido que uma diferença igual ou menor a um grau centígrado indicaria a saturação do gás.
-# sent_id = 301-20150527-MONOGRAFIA_0-152
+# sent_id = 301-20150527-MONOGRAFIA_0-153
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4567,7 +4552,7 @@
 46	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Foi utilizado um termômetro de cinco pontas da marca Full Gauge, modelo Penta III.
-# sent_id = 301-20150527-MONOGRAFIA_0-153
+# sent_id = 301-20150527-MONOGRAFIA_0-154
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4588,7 +4573,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O aparato experimental para esta etapa do trabalho utilizou o rotâmetro e o borbulhador de vidro sinterizado empregados na etapa anterior, além de um frasco Dreschel de 500 mL, três frascos Dreschel de 1L e dois termômetros.
-# sent_id = 301-20150527-MONOGRAFIA_0-154
+# sent_id = 301-20150527-MONOGRAFIA_0-155
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aparato	aparato	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4635,7 +4620,7 @@
 42	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A Figura 9 apresenta os equipamentos utilizados.
-# sent_id = 301-20150527-MONOGRAFIA_0-155
+# sent_id = 301-20150527-MONOGRAFIA_0-156
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
@@ -4646,14 +4631,14 @@
 8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 9 - Aparato
-# sent_id = 301-20150527-MONOGRAFIA_0-156
+# sent_id = 301-20150527-MONOGRAFIA_0-157
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
 4	Aparato	aparato	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
 
 # text = Experimental para a Saturação do Gás
-# sent_id = 301-20150527-MONOGRAFIA_0-157
+# sent_id = 301-20150527-MONOGRAFIA_0-158
 1	Experimental	Experimental	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4664,7 +4649,7 @@
 7	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Ao longo do experimento o dióxido de carbono foi borbulhado nos frascos Dreschel, que continham água destilada ou etanol, para estudar a saturação de ambas as substâncias da solução utilizada nos experimentos finais.
-# sent_id = 301-20150527-MONOGRAFIA_0-158
+# sent_id = 301-20150527-MONOGRAFIA_0-159
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4713,7 +4698,7 @@
 41	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Inicialmente, foi utilizado apenas o frasco de 500 ml, em seguida apenas o frasco de 1L e por fim dois e três frascos de 1L em sequencia até que a saturação fosse obtida.
-# sent_id = 301-20150527-MONOGRAFIA_0-159
+# sent_id = 301-20150527-MONOGRAFIA_0-160
 1	Inicialmente	inicialmente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4752,7 +4737,7 @@
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em relação aos termômetros, um deles foi envolto em algodão e embebido em água destilada ou então, dependendo da substância que estava preenchendo os frascos Dreschel.
-# sent_id = 301-20150527-MONOGRAFIA_0-160
+# sent_id = 301-20150527-MONOGRAFIA_0-161
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 3-4	aos	_	_	_	_	_	_	_	_
@@ -4790,7 +4775,7 @@
 32	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A diferença de temperatura entre eles foi utilizada como o indicativo da saturação.
-# sent_id = 301-20150527-MONOGRAFIA_0-161
+# sent_id = 301-20150527-MONOGRAFIA_0-162
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4809,7 +4794,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = E a mesma faixa de vazão de dióxido de carbono testada na etapa anterior foi estudada neste experimento.
-# sent_id = 301-20150527-MONOGRAFIA_0-162
+# sent_id = 301-20150527-MONOGRAFIA_0-163
 1	E	e	CCONJ	_	_	4	cc	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -4835,11 +4820,11 @@
 21	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = 3.3
-# sent_id = 301-20150527-MONOGRAFIA_0-163
+# sent_id = 301-20150527-MONOGRAFIA_0-164
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Estudo dos Obstáculos Concentradores
-# sent_id = 301-20150527-MONOGRAFIA_0-164
+# sent_id = 301-20150527-MONOGRAFIA_0-165
 1	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4848,7 +4833,7 @@
 5	Concentradores	Concentradores	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Com o objetivo de se ter uma geometria análoga a uma dorna de fermentação, optou-se por realizar uma série de experimentos em um barrilete de PVC com capacidade para 10L, que comumente é utilizado para armazenar água destilada em laboratórios.
-# sent_id = 301-20150527-MONOGRAFIA_0-165
+# sent_id = 301-20150527-MONOGRAFIA_0-166
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
@@ -4896,7 +4881,7 @@
 44	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = O barrilete mostrou-se um equipamento versátil, permitindo perfurações em sua tampa para a passagem do borbulhador e também para acoplamento do obstáculo físico.
-# sent_id = 301-20150527-MONOGRAFIA_0-166
+# sent_id = 301-20150527-MONOGRAFIA_0-167
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	barrilete	barrilete	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3-4	mostrou-se	_	_	_	_	_	_	_	_
@@ -4930,7 +4915,7 @@
 28	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A Figura 10 mostra o aparato experimental utilizado, o qual também incluía o rotâmetro e o borbulhador de vidro sinterizado, colocado no interior do barrilete.
-# sent_id = 301-20150527-MONOGRAFIA_0-167
+# sent_id = 301-20150527-MONOGRAFIA_0-168
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	10	10	NUM	_	NumType=Card	4	nsubj	_	_
@@ -4965,7 +4950,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 10 - Aparato Experimental para o Estudo dos Recuperadores Físicos
-# sent_id = 301-20150527-MONOGRAFIA_0-168
+# sent_id = 301-20150527-MONOGRAFIA_0-169
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nsubj	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -4981,7 +4966,7 @@
 12	Físicos	físicos	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = Cada configuração de recuperador físico foi analisada com água destilada e também com solução hidroalcoólica, sendo que a massa total de líquido adicionada ao barrilete foi fixada em 2000,0g.
-# sent_id = 301-20150527-MONOGRAFIA_0-169
+# sent_id = 301-20150527-MONOGRAFIA_0-170
 1	Cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5017,7 +5002,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A concentração da solução hidroalcoólica foi escolhida como sendo 7% em massa, já que esta é a concentração final atingida em uma dorna de fermentação, dada a limitação das leveduras, que são inibidas pela concentração de etanol e em concentrações maiores que 7-8% tem seu metabolismo inibido.
-# sent_id = 301-20150527-MONOGRAFIA_0-170
+# sent_id = 301-20150527-MONOGRAFIA_0-171
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5079,7 +5064,7 @@
 56	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Outro fator também fixado foi o tempo de borbulhamento de seis horas para todos os experimentos.
-# sent_id = 301-20150527-MONOGRAFIA_0-171
+# sent_id = 301-20150527-MONOGRAFIA_0-172
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fator	fator	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -5099,7 +5084,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Além da utilização do mesmo rotâmetro e mesmo borbulhador dos experimentos anteriores.
-# sent_id = 301-20150527-MONOGRAFIA_0-172
+# sent_id = 301-20150527-MONOGRAFIA_0-173
 1	Além	além	ADV	_	_	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5121,7 +5106,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A vazão foi escolhida de forma a ocorrer arraste mecânico conforme metodologias descritas nas seções anteriores.
-# sent_id = 301-20150527-MONOGRAFIA_0-173
+# sent_id = 301-20150527-MONOGRAFIA_0-174
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -5143,7 +5128,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Nos experimentos com água destilada foram medidas as massas inicial e final do sistema, já nos experimentos com solução hidroalcoólica, além da variação de massa, também foram determinadas as concentrações inicial e final de etanol na solução presente no barrilete.
-# sent_id = 301-20150527-MONOGRAFIA_0-174
+# sent_id = 301-20150527-MONOGRAFIA_0-175
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -5202,7 +5187,7 @@
 50	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A variação de massa foi feita através de uma balança analítica da marca Bel Mark 4100
-# sent_id = 301-20150527-MONOGRAFIA_0-175
+# sent_id = 301-20150527-MONOGRAFIA_0-176
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	variação	variação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5223,7 +5208,7 @@
 17	4100	4100	NUM	_	NumType=Card	16	nummod	_	_
 
 # text = Class II e indicava as quantidades efetivamente retiradas do sistema.
-# sent_id = 301-20150527-MONOGRAFIA_0-176
+# sent_id = 301-20150527-MONOGRAFIA_0-177
 1	Class	class	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	II	II	PROPN	_	Number=Sing	1	flat:name	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -5239,7 +5224,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A determinação da concentração foi feita com o auxílio do refratômetro digital.
-# sent_id = 301-20150527-MONOGRAFIA_0-177
+# sent_id = 301-20150527-MONOGRAFIA_0-178
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5259,7 +5244,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Foram avaliadas três diferentes configurações de obstáculos para a passagem do gás: coluna de vigreux vazia (Figura 11a); coluna de vigreux recheada com esferas plásticas de 8 milímetros de diâmetro (Figura 11b); e coluna vigreux recheado com miçangas de vidro de 5 milímetros de diâmetro (Figura 11c).
-# sent_id = 301-20150527-MONOGRAFIA_0-178
+# sent_id = 301-20150527-MONOGRAFIA_0-179
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	avaliadas	avaliar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	três	três	NUM	_	NumType=Card	5	nummod	_	_
@@ -5320,7 +5305,7 @@
 57	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Além disso, também foi realizado um experimento com nenhum obstáculo, para que as comparações pudessem ser feitas.
-# sent_id = 301-20150527-MONOGRAFIA_0-179
+# sent_id = 301-20150527-MONOGRAFIA_0-180
 1	Além	além	ADV	_	_	7	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -5345,7 +5330,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = E todos os experimentos foram realizados em triplicata.
-# sent_id = 301-20150527-MONOGRAFIA_0-180
+# sent_id = 301-20150527-MONOGRAFIA_0-181
 1	E	e	CCONJ	_	_	6	cc	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	fixed	_	_
@@ -5355,22 +5340,6 @@
 7	em	em	ADP	_	_	8	case	_	_
 8	triplicata	triplicata	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
-
-# text = Figura 11 - Diferentes Configurações de Obstáculos Recuperadores Fonte: Acervo Pessoal.
-# sent_id = 301-20150527-MONOGRAFIA_0-181
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	11	11	NUM	_	NumType=Card	4	nummod	_	_
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Diferentes	diferentes	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	Configurações	Configurações	PROPN	_	Number=Sing	4	flat:name	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Obstáculos	obstáculos	PROPN	_	Number=Sing	4	nmod	_	_
-8	Recuperadores	Recuperadores	PROPN	_	Number=Sing	7	flat:name	_	_
-9	Fonte	Fonte	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	1	punct	_	_
-11	Acervo	Acervo	PROPN	_	Number=Sing	1	parataxis	_	_
-12	Pessoal	pessoal	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A variação de massa, portanto, acoplada à redução da concentração de etanol na solução, permite a conclusão de qual obstáculo foi o mais eficiente na remoção do etanol em concentrações mais elevadas.
 # sent_id = 301-20150527-MONOGRAFIA_0-182
@@ -7370,28 +7339,26 @@
 9	obtida	obter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 12- Curva de calibração relacionando o Índice de Refração medido e a concentração mássica da solução
+# text = Figura 12-Curva de calibração relacionando o Índice de Refração medido e a concentração mássica da solução
 # sent_id = 301-20150527-MONOGRAFIA_0-240
-1	Figura	figuro	ADV	_	_	2	advmod	_	_
-2	12	12	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Curva	Curva	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	calibração	calibração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	relacionando	relacionar	VERB	_	VerbForm=Ger	4	acl	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Índice	Índice	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	Refração	Refração	PROPN	_	Number=Sing	9	nmod	_	_
-12	medido	meder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
-13	e	e	CCONJ	_	_	15	cc	_	_
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-16	mássica	mássico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-17-18	da	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	solução	solução	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	12-Curva	12-curva	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	calibração	calibração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	relacionando	relacionar	VERB	_	VerbForm=Ger	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Índice	Índice	PROPN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Refração	Refração	PROPN	_	Number=Sing	7	nmod	_	_
+10	medido	meder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+14	mássica	mássico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	solução	solução	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 
 # text = Para evitar a influência na temperatura na medida do índice de refração, todas as amostras e as soluções padrão foram armazenadas em geladeira, até que sua temperatura estabilizasse.
 # sent_id = 301-20150527-MONOGRAFIA_0-241
@@ -7433,7 +7400,7 @@
 33	estabilizasse	estabilizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
-# text = As Tabelas 9 a 12 apresentam os índices de refração medidos e as respectivas concentrações das soluções iniciais e finais para as quatro configurações citadas na seção 4.3.1 Tabela 9 - Concentração da Solução Inicial e Final sem Recuperador Tabela 10 - Concentração da Solução Inicial e Final com Coluna de Vigreux Vazia Fonte: Acervo Pessoal.
+# text = As Tabelas 9 a 12 apresentam os índices de refração medidos e as respectivas concentrações das soluções iniciais e finais para as quatro configurações citadas na seção 4.3.1
 # sent_id = 301-20150527-MONOGRAFIA_0-242
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -7466,62 +7433,15 @@
 27	em	em	ADP	_	_	29	case	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	seção	seção	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
-30	4.3.1	4.3.1	PROPN	_	Gender=Fem|Number=Sing	29	appos	_	_
-31	Tabela	Tabela	PROPN	_	Number=Sing	30	flat:name	_	_
-32	9	9	NUM	_	NumType=Card	34	nummod	_	_
-33	-	-	PUNCT	_	_	32	punct	_	_
-34	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
-35-36	da	_	_	_	_	_	_	_	_
-35	de	de	ADP	_	_	37	case	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	Solução	Solução	PROPN	_	Number=Sing	34	nmod	_	_
-38	Inicial	inicial	PROPN	_	Number=Sing	37	flat:name	_	_
-39	e	e	CCONJ	_	_	37	flat:name	_	_
-40	Final	Final	PROPN	_	Number=Sing	37	flat:name	_	_
-41	sem	sem	PROPN	_	Number=Sing	37	flat:name	_	_
-42	Recuperador	Recuperador	PROPN	_	Number=Sing	37	flat:name	_	_
-43	Tabela	Tabela	PROPN	_	Number=Sing	37	flat:name	_	_
-44	10	10	NUM	_	NumType=Card	46	nummod	_	_
-45	-	-	PUNCT	_	_	44	punct	_	_
-46	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-47-48	da	_	_	_	_	_	_	_	_
-47	de	de	ADP	_	_	49	case	_	_
-48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	Solução	Solução	PROPN	_	Number=Sing	46	nmod	_	_
-50	Inicial	inicial	PROPN	_	Number=Sing	49	flat:name	_	_
-51	e	e	CCONJ	_	_	52	cc	_	_
-52	Final	final	PROPN	_	Number=Sing	54	flat:name	_	_
-53	com	com	ADP	_	_	54	case	_	_
-54	Coluna	coluna	PROPN	_	Number=Sing	46	nmod	_	_
-55	de	de	ADP	_	_	56	case	_	_
-56	Vigreux	Vigreux	PROPN	_	Number=Sing	54	nmod	_	_
-57	Vazia	Vazia	PROPN	_	Number=Sing	56	flat:name	_	_
-58	Fonte	Fonte	PROPN	_	Number=Sing	56	flat:name	_	SpaceAfter=No
-59	:	:	PUNCT	_	_	46	punct	_	_
-60	Acervo	Acervo	PROPN	_	Number=Sing	46	appos	_	_
-61	Pessoal	pessoal	PROPN	_	Number=Sing	60	flat:name	_	SpaceAfter=No
-62	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+30	4.3.1	4.3.1	NUM	_	NumType=Card	29	nummod	_	_
 
-# text = Tabela 11 - Concentração da Solução Inicial e Final com Coluna de Vigreux e Recheio 1
+# text = Fonte: Acervo Pessoal.
 # sent_id = 301-20150527-MONOGRAFIA_0-243
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	11	11	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
-4	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Solução	Solução	PROPN	_	Number=Sing	4	nmod	_	_
-8	Inicial	inicial	PROPN	_	Number=Sing	7	flat:name	_	_
-9	e	e	PROPN	_	Number=Sing	7	flat:name	_	_
-10	Final	Final	PROPN	_	Number=Sing	7	flat:name	_	_
-11	com	com	ADP	_	_	12	case	_	_
-12	Coluna	coluna	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	Vigreux	Vigreux	PROPN	_	Number=Sing	12	nmod	_	_
-15	e	e	CCONJ	_	_	16	cc	_	_
-16	Recheio	recheio	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-17	1	1	NUM	_	NumType=Card	1	nummod	_	_
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Acervo	Acervo	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	Pessoal	pessoal	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 12 - Concentração da Solução Inicial e Final com Coluna de Vigreux e Recheio 2
 # sent_id = 301-20150527-MONOGRAFIA_0-244
@@ -7743,14 +7663,17 @@
 49	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = 5. Conclusões
+# text = 5.
 # sent_id = 301-20150527-MONOGRAFIA_0-248
-1	5	5	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+
+# text = Conclusões
+# sent_id = 301-20150527-MONOGRAFIA_0-249
+1	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = A realização deste projeto propôs definições precisas tanto para o arraste mecânico quanto para o arraste termodinâmico, as quais não são encontradas na literatura.
-# sent_id = 301-20150527-MONOGRAFIA_0-249
+# sent_id = 301-20150527-MONOGRAFIA_0-250
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	realização	realização	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	deste	_	_	_	_	_	_	_	_
@@ -7783,7 +7706,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Por conseguinte, procedimentos para a caracterização de ambos os arrastes também são inexistentes na literatura e foram desenvolvidos para a realização deste trabalho.
-# sent_id = 301-20150527-MONOGRAFIA_0-250
+# sent_id = 301-20150527-MONOGRAFIA_0-251
 1	Por	por	ADP	_	_	2	case	_	_
 2	conseguinte	conseguinte	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7815,7 +7738,7 @@
 27	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Com o uso do recheio do tipo 2 elevou-se a concentração de etanol arrastado de 36,9% para 85,9%.
-# sent_id = 301-20150527-MONOGRAFIA_0-251
+# sent_id = 301-20150527-MONOGRAFIA_0-252
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	uso	uso	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -7845,7 +7768,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Quando o resultado do arraste sem obstáculos, como é feito na indústria, pode-se inferir que haveria economia de água nas torres de absorção que são utilizadas para recuperar o etanol arrastado.
-# sent_id = 301-20150527-MONOGRAFIA_0-252
+# sent_id = 301-20150527-MONOGRAFIA_0-253
 1	Quando	quando	SCONJ	_	_	12	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
@@ -7890,7 +7813,7 @@
 38	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Assim, comprovou-se que a utilização de obstáculos, aplicação da teoria do filme descendente, promove o enriquecimento da fase gasosa, já que adicionam ao sistema novas interfaces para a troca de massa.
-# sent_id = 301-20150527-MONOGRAFIA_0-253
+# sent_id = 301-20150527-MONOGRAFIA_0-254
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	comprovou-se	_	_	_	_	_	_	_	_

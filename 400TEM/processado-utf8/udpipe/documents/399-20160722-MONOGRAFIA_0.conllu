@@ -1,6 +1,6 @@
 # text = 1
 # sent_id = 399-20160722-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	_
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n
 
 # text = INTRODUÇÃO No Brasil, a sondagem em busca de petróleo começou na última década do século XIX, produzindo os primeiros resultados em 1939, com a perfuração de poço em Lobato, no estado da Bahia.
 # sent_id = 399-20160722-MONOGRAFIA_0-2
@@ -515,7 +515,7 @@
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	água	água	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	água	água	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\s\n
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	geração	geração	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 21	de	de	ADP	_	_	22	case	_	_
@@ -557,7 +557,7 @@
 30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	poços	poço	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
 32	maduros	maduro	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 2 OBJETIVOS
 # sent_id = 399-20160722-MONOGRAFIA_0-17
@@ -721,7 +721,7 @@
 48	de	de	ADP	_	_	50	case	_	_
 49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+51	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3
 # sent_id = 399-20160722-MONOGRAFIA_0-23
@@ -1201,10 +1201,37 @@
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	2009	2009	NUM	_	NumType=Card	36	nummod	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
+
+# text = Figura 1: Fases da vida de um campo de petróleo Fonte: SAMPAIO (2004) apud BORGES (2009).
+# sent_id = 399-20160722-MONOGRAFIA_0-39
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	1:	1:	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Fases	fases	PROPN	_	Number=Sing	1	flat:name	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vida	vida	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	campo	campo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	Fonte	Fonte	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	1	punct	_	_
+14	SAMPAIO	Sampaio	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	2004	2004	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	apud	apud	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+19	BORGES	Borges	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	2009	2009	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Segundo Borges (2009), pode-se definir como campo maduro todo campo que se encontra em avançado estágio de exploração, com índices de produção declinante que já ultrapassaram seu pico de produção, sendo necessária a aplicação de técnicas de recuperação.
-# sent_id = 399-20160722-MONOGRAFIA_0-39
+# sent_id = 399-20160722-MONOGRAFIA_0-40
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Borges	Borges	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -1253,7 +1280,7 @@
 45	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Já os campos marginais são os campos produtores, em geral de pequeno porte, cuja lucratividade encontre-se no limiar da viabilidade econômica, isto é, não são economicamente viáveis para empresas devido ao baixo retorno.
-# sent_id = 399-20160722-MONOGRAFIA_0-40
+# sent_id = 399-20160722-MONOGRAFIA_0-41
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	campos	campo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
@@ -1302,7 +1329,7 @@
 42	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
 
 # text = O desenvolvimento de tecnologias para aumentar a produção dos poços e o fator de recuperação (percentual do volume original do reservatório que se deseja produzir) tem sido uma preocupação constante da indústria petrolífera, pois assegura a maior longevidade das suas operações.
-# sent_id = 399-20160722-MONOGRAFIA_0-41
+# sent_id = 399-20160722-MONOGRAFIA_0-42
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1360,7 +1387,7 @@
 50	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O fator de recuperação de petróleo nos reservatórios assume, em média, baixos índices, especialmente quando a viscosidade do óleo é alta.
-# sent_id = 399-20160722-MONOGRAFIA_0-42
+# sent_id = 399-20160722-MONOGRAFIA_0-43
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fator	fator	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1392,7 +1419,7 @@
 27	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Assim, ao longo da vida produtiva desses campos, geralmente são empregados métodos de recuperação que possibilitam a extração do maior volume possível de petróleo.
-# sent_id = 399-20160722-MONOGRAFIA_0-43
+# sent_id = 399-20160722-MONOGRAFIA_0-44
 1	Assim	assim	ADV	_	_	16	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -1430,7 +1457,7 @@
 31	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = A seguir, serão apresentados os métodos de recuperação mais utilizados na indústria de petróleo.
-# sent_id = 399-20160722-MONOGRAFIA_0-44
+# sent_id = 399-20160722-MONOGRAFIA_0-45
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1451,11 +1478,11 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.2
-# sent_id = 399-20160722-MONOGRAFIA_0-45
+# sent_id = 399-20160722-MONOGRAFIA_0-46
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = MÉTODOS DE RECUPERAÇÃO Após a exaustão de sua energia natural, os reservatórios ainda retêm grandes quantidades de hidrocarbonetos.
-# sent_id = 399-20160722-MONOGRAFIA_0-46
+# sent_id = 399-20160722-MONOGRAFIA_0-47
 1	MÉTODOS	método	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	RECUPERAÇÃO	recuperação	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -1478,7 +1505,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Com o objetivo de manter ou melhorar sua produtividade, são empregados os métodos de recuperação avançada que se baseiam no fornecimento de energia externa para dentro do reservatório, sob a forma de injeção de fluidos.
-# sent_id = 399-20160722-MONOGRAFIA_0-47
+# sent_id = 399-20160722-MONOGRAFIA_0-48
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -1486,7 +1513,7 @@
 5	manter	manter	VERB	_	VerbForm=Inf	3	acl	_	_
 6	ou	ou	CCONJ	_	_	7	cc	_	_
 7	melhorar	melhorar	VERB	_	VerbForm=Inf	5	conj	_	_
-8	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	det	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	det	_	SpacesAfter=\s\n
 9	produtividade	produtividade	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
@@ -1523,7 +1550,7 @@
 40	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Esses processos são chamados de métodos de recuperação (THOMAS, 2001).
-# sent_id = 399-20160722-MONOGRAFIA_0-48
+# sent_id = 399-20160722-MONOGRAFIA_0-49
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1540,7 +1567,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Segundo Thomas (2001), os processos de recuperação do petróleo eram categorizados em três estágios: primário, secundário e terciário de acordo com sua cronologia de aplicação.
-# sent_id = 399-20160722-MONOGRAFIA_0-49
+# sent_id = 399-20160722-MONOGRAFIA_0-50
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Thomas	Thomas	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -1576,7 +1603,7 @@
 32	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Porém, nas últimas décadas, esta classificação tornou-se inadequada à medida que muitas operações de desenvolvimento de campos de petróleo não são conduzidas nesta ordem específica.
-# sent_id = 399-20160722-MONOGRAFIA_0-50
+# sent_id = 399-20160722-MONOGRAFIA_0-51
 1	Porém	porém	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	nas	_	_	_	_	_	_	_	_
@@ -1615,7 +1642,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Com o passar do tempo, os métodos de recuperação secundária e terciária perderam sua conotação cronológica e passaram a designar a natureza do processo.
-# sent_id = 399-20160722-MONOGRAFIA_0-51
+# sent_id = 399-20160722-MONOGRAFIA_0-52
 1	Com	com	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	passar	passar	VERB	_	VerbForm=Inf	15	advcl	_	_
@@ -1648,7 +1675,7 @@
 28	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Assim, as nomenclaturas usadas para os processos de recuperação suplementar foram métodos convencionais e métodos especiais.
-# sent_id = 399-20160722-MONOGRAFIA_0-52
+# sent_id = 399-20160722-MONOGRAFIA_0-53
 1	Assim	assim	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -1669,7 +1696,7 @@
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = São chamados métodos convencionais de recuperação os processos que tem tecnologia bastante conhecida e alto grau de confiabilidade.
-# sent_id = 399-20160722-MONOGRAFIA_0-53
+# sent_id = 399-20160722-MONOGRAFIA_0-54
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	métodos	método	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
@@ -1691,7 +1718,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os métodos especiais de recuperação são aqueles que são muito complexos e que ainda não tem tecnologia suficientemente desenvolvida.
-# sent_id = 399-20160722-MONOGRAFIA_0-54
+# sent_id = 399-20160722-MONOGRAFIA_0-55
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	especiais	especial	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -1714,7 +1741,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A Figura 2 apresenta os processos de recuperação do petróleo.
-# sent_id = 399-20160722-MONOGRAFIA_0-55
+# sent_id = 399-20160722-MONOGRAFIA_0-56
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2	2	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -1729,21 +1756,17 @@
 11	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 2:
-# sent_id = 399-20160722-MONOGRAFIA_0-56
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Processos de recuperação do petróleo
+# text = Fonte: Adaptado de BORGES (2013).
 # sent_id = 399-20160722-MONOGRAFIA_0-57
-1	Processos	processo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	BORGES	Borges	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	2013	2013	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Nos tópicos a seguir serão apresentados de maneira mais detalhada os métodos convencionais e especiais de recuperação.
 # sent_id = 399-20160722-MONOGRAFIA_0-58
@@ -1766,7 +1789,7 @@
 16	especiais	especial	ADJ	_	Gender=Masc|Number=Plur	14	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = 3.1.1
 # sent_id = 399-20160722-MONOGRAFIA_0-59
@@ -1922,57 +1945,43 @@
 11	semelhante	semelhante	ADJ	_	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Figura 3:
+# text = 3.1.2
 # sent_id = 399-20160722-MONOGRAFIA_0-65
-1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	3:	3:	PUNCT	_	_	1	punct	_	_
+1	3.1.2	3.1.2	NUM	_	NumType=Card	0	root	_	_
 
-# text = Injeção de água 3.1.2
+# text = Métodos Especiais de Recuperação Os Métodos Especiais de Recuperação são empregados para atuar nos pontos onde os Métodos Convencionais falharam ou falhariam caso fossem empregados.
 # sent_id = 399-20160722-MONOGRAFIA_0-66
-1	Injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	água	água	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4	3.1.2	3.1.2	NUM	_	NumType=Card	1	nummod	_	_
-
-# text = Métodos Especiais de Recuperação
-# sent_id = 399-20160722-MONOGRAFIA_0-67
 1	Métodos	método	DET	_	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
-2	Especiais	especiais	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	Especiais	especiais	PROPN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	Recuperação	Recuperação	PROPN	_	Number=Sing	2	nmod	_	_
-
-# text = Os Métodos
-# sent_id = 399-20160722-MONOGRAFIA_0-68
-1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Métodos	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-
-# text = Especiais de Recuperação são empregados para atuar nos pontos onde os Métodos Convencionais falharam ou falhariam caso fossem empregados.
-# sent_id = 399-20160722-MONOGRAFIA_0-69
-1	Especiais	especiais	PROPN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Recuperação	Recuperação	PROPN	_	Number=Sing	1	nmod	_	_
-4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	empregados	empregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-6	para	para	SCONJ	_	_	7	mark	_	_
-7	atuar	atuar	VERB	_	VerbForm=Inf	5	advcl	_	_
-8-9	nos	_	_	_	_	_	_	_	_
-8	em	em	ADP	_	_	10	case	_	_
-9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
-11	onde	onde	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	15	obl	_	_
-12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	Métodos	método	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
-14	Convencionais	convencional	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
-15	falharam	falhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
-16	ou	ou	CCONJ	_	_	17	cc	_	_
-17	falhariam	falhar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	15	conj	_	_
-18	caso	caso	SCONJ	_	_	20	mark	_	_
-19	fossem	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	aux:pass	_	_
-20	empregados	empregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	17	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+4	Recuperação	Recuperação	PROPN	_	Number=Sing	6	nmod	_	_
+5	Os	os	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Métodos	método	DET	_	Gender=Masc|Number=Plur|PronType=Tot	7	det	_	_
+7	Especiais	Especiais	PROPN	_	Number=Sing	2	flat:name	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Recuperação	Recuperação	PROPN	_	Number=Sing	2	nmod	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	empregados	empregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+12	para	para	SCONJ	_	_	13	mark	_	_
+13	atuar	atuar	VERB	_	VerbForm=Inf	11	advcl	_	_
+14-15	nos	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	onde	onde	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	21	obl	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Métodos	método	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+20	Convencionais	convencional	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	falharam	falhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+22	ou	ou	CCONJ	_	_	23	cc	_	_
+23	falhariam	falhar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	21	conj	_	_
+24	caso	caso	SCONJ	_	_	26	mark	_	_
+25	fossem	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux:pass	_	_
+26	empregados	empregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	23	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Normalmente, baixas recuperações resultantes de um processo convencional de injeção de fluidos podem ser creditadas basicamente a dois aspectos principais: alta viscosidade do óleo e elevadas tensões interfaciais entre o fluido injetado e o óleo (THOMAS, 2001).
-# sent_id = 399-20160722-MONOGRAFIA_0-70
+# sent_id = 399-20160722-MONOGRAFIA_0-67
 1	Normalmente	normalmente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	baixas	baixo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -1996,7 +2005,7 @@
 21	principais	principal	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
 22	:	:	PUNCT	_	_	16	punct	_	_
 23	alta	alto	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-24	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
+24	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	SpacesAfter=\s\n
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -2020,7 +2029,7 @@
 44	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Os processos especiais de recuperação podem ser divididos em quatro categorias: químicos, miscíveis, térmicos e outros que não se enquadram em nenhum das anteriores, como é o caso da recuperação microbiológica e da recuperação utilizando ondas eletromagnéticas.
-# sent_id = 399-20160722-MONOGRAFIA_0-71
+# sent_id = 399-20160722-MONOGRAFIA_0-68
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	especiais	especial	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -2071,16 +2080,16 @@
 45	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 3.1.2.1 Métodos
-# sent_id = 399-20160722-MONOGRAFIA_0-72
+# sent_id = 399-20160722-MONOGRAFIA_0-69
 1	3.1.2.1	3.1.2.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Métodos	métodos	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Químicos
-# sent_id = 399-20160722-MONOGRAFIA_0-73
+# sent_id = 399-20160722-MONOGRAFIA_0-70
 1	Químicos	químico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Estão agrupados como métodos químicos alguns processos em que se pressupõe uma certa interação química entre o fluido injetado e o fluido do reservatório.
-# sent_id = 399-20160722-MONOGRAFIA_0-74
+# sent_id = 399-20160722-MONOGRAFIA_0-71
 1	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	agrupados	agrupado	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 3	como	como	ADP	_	_	4	case	_	_
@@ -2110,7 +2119,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Entre esses métodos, podem ser destacados a injeção de solução de tensoativos, injeção de solução de polímeros, injeção de soluções alcalinas, etc. (THOMAS, 2001).
-# sent_id = 399-20160722-MONOGRAFIA_0-75
+# sent_id = 399-20160722-MONOGRAFIA_0-72
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	métodos	método	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
@@ -2145,13 +2154,13 @@
 32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.1.2.2 Métodos Miscíveis
-# sent_id = 399-20160722-MONOGRAFIA_0-76
+# sent_id = 399-20160722-MONOGRAFIA_0-73
 1	3.1.2.2	3.1.2.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Métodos	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	Miscíveis	Miscível	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 
 # text = Segundo Thomas (2001), os métodos miscíveis são usados em situações em que o fluido injetado não consegue deslocar o óleo para fora da rocha, devido a altas tensões interfaciais.
-# sent_id = 399-20160722-MONOGRAFIA_0-77
+# sent_id = 399-20160722-MONOGRAFIA_0-74
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Thomas	Thomas	PROPN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2190,7 +2199,7 @@
 35	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Os fluidos normalmente utilizados são o dióxido de carbono, o gás natural e o nitrogênio.
-# sent_id = 399-20160722-MONOGRAFIA_0-78
+# sent_id = 399-20160722-MONOGRAFIA_0-75
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	normalmente	normalmente	ADV	_	_	4	advmod	_	_
@@ -2210,7 +2219,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A Figura 4 ilustra o método miscível utilizando injeção de gás carbônico.
-# sent_id = 399-20160722-MONOGRAFIA_0-79
+# sent_id = 399-20160722-MONOGRAFIA_0-76
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4	4	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -2226,12 +2235,12 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 4: Métodos miscíveis Fonte: Adaptado de SAMPAIO (2004).
-# sent_id = 399-20160722-MONOGRAFIA_0-80
+# sent_id = 399-20160722-MONOGRAFIA_0-77
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	4	4	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 4	Métodos	método	DET	_	Gender=Masc|Number=Plur|PronType=Tot	5	det	_	_
-5	miscíveis	miscível	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+5	miscíveis	miscível	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\s\n
 6	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	5	punct	_	_
 8	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
@@ -2243,13 +2252,13 @@
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.1.2.3 Métodos Térmicos
-# sent_id = 399-20160722-MONOGRAFIA_0-81
+# sent_id = 399-20160722-MONOGRAFIA_0-78
 1	3.1.2.3	3.1.2.3	NUM	_	NumType=Card	2	nummod	_	_
 2	Métodos	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	Térmicos	Térmico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 
 # text = Em reservatórios cujos óleos são muito viscosos, geralmente, o resultado da utilização de um processo convencional de recuperação não é satisfatório.
-# sent_id = 399-20160722-MONOGRAFIA_0-82
+# sent_id = 399-20160722-MONOGRAFIA_0-79
 1	Em	em	ADP	_	_	2	case	_	_
 2	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	cujos	cujo	DET	_	Gender=Masc|Number=Plur|PronType=Rel	4	det	_	_
@@ -2278,7 +2287,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A alta viscosidade do óleo dificulta o seu movimento dentro do meio poroso, enquanto que o fluido injetado, água ou gás, tem uma mobilidade muito maior resultando em baixas eficiências de varrido e, por consequência, uma recuperação convencional normalmente muito baixa.
-# sent_id = 399-20160722-MONOGRAFIA_0-83
+# sent_id = 399-20160722-MONOGRAFIA_0-80
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	alta	alto	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -2332,7 +2341,7 @@
 49	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A ideia de que o óleo tem a sua viscosidade reduzida ao ser aquecido foi uma das motivações para o desenvolvimento dos métodos térmicos.
-# sent_id = 399-20160722-MONOGRAFIA_0-84
+# sent_id = 399-20160722-MONOGRAFIA_0-81
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 3	de	de	SCONJ	_	_	7	mark	_	_
@@ -2366,7 +2375,7 @@
 28	.	.	PUNCT	_	_	0	root	_	_
 
 # text = A Figura 5 mostra a relação entre a viscosidade e a temperatura (QUEIROZ, 2006).
-# sent_id = 399-20160722-MONOGRAFIA_0-85
+# sent_id = 399-20160722-MONOGRAFIA_0-82
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5	5	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -2387,7 +2396,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = De acordo com Queiroz (2006), os métodos de recuperação mais indicados para reservatórios com óleos do tipo pesado são os métodos térmicos.
-# sent_id = 399-20160722-MONOGRAFIA_0-86
+# sent_id = 399-20160722-MONOGRAFIA_0-83
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -2417,7 +2426,7 @@
 26	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Através da Figura 5, pode-se perceber que há um decréscimo da viscosidade do óleo com o aumento da temperatura.
-# sent_id = 399-20160722-MONOGRAFIA_0-87
+# sent_id = 399-20160722-MONOGRAFIA_0-84
 1	Através	através	ADV	_	_	7	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2451,7 +2460,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim, estes métodos consistem basicamente no aumento da temperatura do reservatório através da utilização de uma fonte de calor, provocando a diminuição da viscosidade do óleo e o aumento de sua mobilidade, facilitando sua produção.
-# sent_id = 399-20160722-MONOGRAFIA_0-88
+# sent_id = 399-20160722-MONOGRAFIA_0-85
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -2505,7 +2514,7 @@
 45	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Segundo Santana (2009), há dois tipos de métodos térmicos que diferem na maneira como é feito o aquecimento do fluido do reservatório.
-# sent_id = 399-20160722-MONOGRAFIA_0-89
+# sent_id = 399-20160722-MONOGRAFIA_0-86
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Santana	Santana	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2540,7 +2549,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em um deles, a injeção de fluidos aquecidos (água quente ou vapor), o calor é gerado na superfície e em seguida transportado para o interior da formação, utilizando-se um fluido.
-# sent_id = 399-20160722-MONOGRAFIA_0-90
+# sent_id = 399-20160722-MONOGRAFIA_0-87
 1	Em	em	ADP	_	_	2	case	_	_
 2	um	um	NUM	_	NumType=Card	7	obl	_	_
 3-4	deles	_	_	_	_	_	_	_	SpaceAfter=No
@@ -2587,13 +2596,13 @@
 40	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = No outro, a combustão in Situ, o calor é gerado no interior do próprio reservatório a partir da combustão de parte do óleo ali existente.
-# sent_id = 399-20160722-MONOGRAFIA_0-91
+# sent_id = 399-20160722-MONOGRAFIA_0-88
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpacesAfter=\s\n
 6	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 7	in	in	ADV	_	_	8	advmod	_	_
 8	Situ	Situ	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
@@ -2628,7 +2637,7 @@
 33	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Na injeção de fluidos aquecidos, dois tipos de processos são mais utilizados, a injeção de água quente e a injeção de vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-92
+# sent_id = 399-20160722-MONOGRAFIA_0-89
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2658,7 +2667,7 @@
 26	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Esses fluidos são usados como meio para transportar o calor da superfície até o reservatório.
-# sent_id = 399-20160722-MONOGRAFIA_0-93
+# sent_id = 399-20160722-MONOGRAFIA_0-90
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2679,7 +2688,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O tópico seguinte trata sobre a injeção de vapor, que é o método de recuperação utilizado no campo maduro em estudo, no Rio Grande do Norte, local em que parte dos campos possuem óleo adequado a aplicação dos métodos térmicos, principalmente a injeção de vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-94
+# sent_id = 399-20160722-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tópico	tópico	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2742,14 +2751,68 @@
 55	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.2
-# sent_id = 399-20160722-MONOGRAFIA_0-95
+# sent_id = 399-20160722-MONOGRAFIA_0-92
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = INJEÇÃO DE VAPOR
-# sent_id = 399-20160722-MONOGRAFIA_0-96
+# sent_id = 399-20160722-MONOGRAFIA_0-93
 1	INJEÇÃO	injeção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	VAPOR	VAPOR	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+
+# text = A injeção de vapor é um método complexo de deslocamento de óleo que envolve simultaneamente transporte de calor e massa (SANTANA, 2009).
+# sent_id = 399-20160722-MONOGRAFIA_0-94
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	complexo	complexo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	deslocamento	deslocamento	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	_
+14	envolve	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+15	simultaneamente	simultaneamente	ADV	_	_	14	advmod	_	_
+16	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	calor	calor	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	massa	massa	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	SANTANA	Santana	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	2009	2009	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = Pode ser usada de maneira cíclica ou contínua.
+# sent_id = 399-20160722-MONOGRAFIA_0-95
+1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
+3	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	cíclica	cíclico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = A Figura 6 o processo de injeção de vapor.
+# sent_id = 399-20160722-MONOGRAFIA_0-96
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	6	6	NUM	_	NumType=Card	2	nummod	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	processo	processo	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O processo contínuo, ilustrado na Figura 6, consiste na injeção de vapor em um poço injetor central, com o objetivo de deslocar o óleo na direção dos poços produtores.
 # sent_id = 399-20160722-MONOGRAFIA_0-97
@@ -2813,7 +2876,7 @@
 13	injetores	injetor	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 14	e	e	CCONJ	_	_	15	cc	_	_
 15	produtores	produtor	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	5	punct	_	_
+16	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
 17	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
 18	criadas	criar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 19	várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
@@ -2934,7 +2997,7 @@
 1	Injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	cíclica	cíclico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	SCONJ	_	_	4	mark	_	_
-4	vapor	vapor	VERB	_	VerbForm=Inf	1	acl	_	_
+4	vapor	vapor	VERB	_	VerbForm=Inf	1	acl	_	SpacesAfter=\s\n
 5	3.2.1	3.2.1	NUM	_	NumType=Card	4	obj	_	_
 
 # text = Geração de Vapor
@@ -3199,7 +3262,7 @@
 22	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Segundo Elektro (2016), as caldeiras mais comuns são as que produzem vapor pela queima de combustíveis e podem ser classificadas em dois grandes grupos: caldeiras aquatubulares e caldeiras flamotubulares.
 # sent_id = 399-20160722-MONOGRAFIA_0-112
@@ -3285,17 +3348,8 @@
 7	aquatubular	aquatubular	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Fonte: ELEKTRO (2016).
-# sent_id = 399-20160722-MONOGRAFIA_0-115
-1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	ELEKTRO	ELEKTRO	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	(2016	(2016	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = Nas caldeiras flamotubulares, os gases quentes da combustão circulam no interior de tubos que atravessam o reservatório de água a ser aquecida para produzir vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-116
+# sent_id = 399-20160722-MONOGRAFIA_0-115
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -3331,7 +3385,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Geralmente são de pequeno porte e apresentam baixa eficiência, sendo utilizadas apenas para pressões reduzidas.
-# sent_id = 399-20160722-MONOGRAFIA_0-117
+# sent_id = 399-20160722-MONOGRAFIA_0-116
 1	Geralmente	geralmente	ADV	_	_	5	advmod	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -3351,7 +3405,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Utiliza qualquer tipo de combustível, líquido, sólido ou gasoso, mas é muito comum o seu uso com óleo e gás (ELEKTRO, 2016).
-# sent_id = 399-20160722-MONOGRAFIA_0-118
+# sent_id = 399-20160722-MONOGRAFIA_0-117
 1	Utiliza	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -3383,7 +3437,7 @@
 29	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A Figura 10 ilustra uma caldeira flamotubular.
-# sent_id = 399-20160722-MONOGRAFIA_0-119
+# sent_id = 399-20160722-MONOGRAFIA_0-118
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	10	10	NUM	_	NumType=Card	4	nsubj	_	_
@@ -3391,10 +3445,10 @@
 5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	caldeira	caldeira	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	flamotubular	flamotubular	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Fonte: ELEKTRO (2016).
-# sent_id = 399-20160722-MONOGRAFIA_0-120
+# sent_id = 399-20160722-MONOGRAFIA_0-119
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ELEKTRO	ELEKTRO	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -3404,7 +3458,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Uma caldeira aquatubular pode custar até 50% mais do que uma caldeira flamotubular de capacidade equivalente.
-# sent_id = 399-20160722-MONOGRAFIA_0-121
+# sent_id = 399-20160722-MONOGRAFIA_0-120
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	caldeira	caldeira	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	aquatubular	aquatubular	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3427,7 +3481,7 @@
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em contrapartida, as caldeiras aquatubulares tem valor de investimento baixo e a manutenção é mais fácil.
-# sent_id = 399-20160722-MONOGRAFIA_0-122
+# sent_id = 399-20160722-MONOGRAFIA_0-121
 1	Em	em	ADP	_	_	2	case	_	_
 2	contrapartida	contrapartida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3448,7 +3502,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Além disso, apresentam uma maior capacidade de produção de vapor por unidade de área de troca de calor e a possibilidade de utilizar temperatura superior a 450°C e pressão acima de 60 kgf/cm².
-# sent_id = 399-20160722-MONOGRAFIA_0-123
+# sent_id = 399-20160722-MONOGRAFIA_0-122
 1	Além	além	ADV	_	_	5	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -3488,7 +3542,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As caldeiras industriais podem apresentar desperdícios e elevadas perdas de energia se não forem adequadamente dimensionados e se a sua operação e manutenção não forem praticadas de acordo com certos critérios e cuidados.
-# sent_id = 399-20160722-MONOGRAFIA_0-124
+# sent_id = 399-20160722-MONOGRAFIA_0-123
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	caldeiras	caldeira	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	industriais	industrial	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3525,7 +3579,7 @@
 34	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em geral, o custo dos combustíveis representa uma parcela significativa da conta dos insumos energéticos.
-# sent_id = 399-20160722-MONOGRAFIA_0-125
+# sent_id = 399-20160722-MONOGRAFIA_0-124
 1	Em	em	ADP	_	_	2	case	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3551,7 +3605,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Nesse contexto, a utilização da energia solar pode ser uma alternativa na geração de vapor, podendo contribuir para redução do consumo de energia e para a redução dos custos de produção.
-# sent_id = 399-20160722-MONOGRAFIA_0-126
+# sent_id = 399-20160722-MONOGRAFIA_0-125
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -3598,16 +3652,16 @@
 39	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 3.3
-# sent_id = 399-20160722-MONOGRAFIA_0-127
+# sent_id = 399-20160722-MONOGRAFIA_0-126
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = ENERGIA SOLAR
-# sent_id = 399-20160722-MONOGRAFIA_0-128
+# sent_id = 399-20160722-MONOGRAFIA_0-127
 1	ENERGIA	Energia	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	SOLAR	SOLAR	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Quase todas as fontes de energia – hidráulica, biomassa, eólica, combustíveis fósseis e energia dos oceanos – são formas indiretas de energia solar.
-# sent_id = 399-20160722-MONOGRAFIA_0-129
+# sent_id = 399-20160722-MONOGRAFIA_0-128
 1	Quase	quase	ADV	_	_	4	advmod	_	_
 2	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3639,7 +3693,7 @@
 28	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = O sol é a maior fonte de energia disponível na Terra, fornecendo anualmente para a atmosfera terrestre cerca de 1,5 x1018 kWh de energia.
-# sent_id = 399-20160722-MONOGRAFIA_0-130
+# sent_id = 399-20160722-MONOGRAFIA_0-129
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sol	sol	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -3670,7 +3724,7 @@
 27	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Esse valor corresponde a 104 vezes o consumo mundial de energia neste período (BIANCHINI, 2013).
-# sent_id = 399-20160722-MONOGRAFIA_0-131
+# sent_id = 399-20160722-MONOGRAFIA_0-130
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3694,7 +3748,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A radiação solar pode ser utilizada diretamente como fonte de energia térmica, para aquecimento de fluidos e ambientes e para geração de potência mecânica ou elétrica.
-# sent_id = 399-20160722-MONOGRAFIA_0-132
+# sent_id = 399-20160722-MONOGRAFIA_0-131
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	radiação	radiação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	solar	solar	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3725,7 +3779,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Além disso, pode ser convertida diretamente em energia elétrica (ANEEL, 2002).
-# sent_id = 399-20160722-MONOGRAFIA_0-133
+# sent_id = 399-20160722-MONOGRAFIA_0-132
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3746,7 +3800,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A radiação solar depende das condições climáticas e atmosféricas.
-# sent_id = 399-20160722-MONOGRAFIA_0-134
+# sent_id = 399-20160722-MONOGRAFIA_0-133
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	radiação	radiação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	solar	solar	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3761,7 +3815,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Apenas parte da radiação solar atinge a superfície terrestre, devido à reflexão e absorção dos raios solares pela atmosfera.
-# sent_id = 399-20160722-MONOGRAFIA_0-135
+# sent_id = 399-20160722-MONOGRAFIA_0-134
 1	Apenas	apenas	ADV	_	_	2	advmod	_	_
 2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3793,7 +3847,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Mesmo assim, estima-se que a energia solar incidente sobre a superfície terrestre seja da ordem de 10 mil vezes o consumo energético mundial (CEPEL-CRESESB, 2004).
-# sent_id = 399-20160722-MONOGRAFIA_0-136
+# sent_id = 399-20160722-MONOGRAFIA_0-135
 1	Mesmo	mesmo	ADV	_	_	4	advmod	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -3830,7 +3884,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Porém, a maior parte da radiação solar que chega a terra está dispersa, sujeitando a utilização desta fonte a variações climáticas, como latitude e longitude, período do ano e variáveis de condição atmosférica.
-# sent_id = 399-20160722-MONOGRAFIA_0-137
+# sent_id = 399-20160722-MONOGRAFIA_0-136
 1	Porém	porém	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3874,10 +3928,10 @@
 38	de	de	ADP	_	_	39	case	_	_
 39	condição	condição	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 40	atmosférica	atmosférico	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Em relação a energia solar fotovoltaica, estima-se que o Brasil possua atualmente cerca de 20MW de capacidade de geração instalada, em sua grande maioria destinada ao atendimento de sistemas isolados e remotos, principalmente em situações em que a extensão da rede de distribuição não se mostra economicamente viável (EPE, 2012).
-# sent_id = 399-20160722-MONOGRAFIA_0-138
+# sent_id = 399-20160722-MONOGRAFIA_0-137
 1	Em	em	ADP	_	_	4	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3943,7 +3997,7 @@
 60	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Também há um enorme potencial de utilização de energia solar por meio de sistemas de captação e conversão em energia térmica.
-# sent_id = 399-20160722-MONOGRAFIA_0-139
+# sent_id = 399-20160722-MONOGRAFIA_0-138
 1	Também	também	ADV	_	_	2	advmod	_	_
 2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3968,7 +4022,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O aproveitamento térmico para aquecimento de fluidos é feito com o uso de coletores ou concentradores solares.
-# sent_id = 399-20160722-MONOGRAFIA_0-140
+# sent_id = 399-20160722-MONOGRAFIA_0-139
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aproveitamento	aproveitamento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3989,7 +4043,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os coletores solares são mais usados em aplicações residenciais e comerciais para aquecimento de água.
-# sent_id = 399-20160722-MONOGRAFIA_0-141
+# sent_id = 399-20160722-MONOGRAFIA_0-140
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	coletores	coletor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	solares	solar	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -4008,7 +4062,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os concentradores solares destinam-se a aplicações que requerem temperaturas mais elevadas, como a produção de vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-142
+# sent_id = 399-20160722-MONOGRAFIA_0-141
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	concentradores	concentrador	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	solares	solar	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -4031,7 +4085,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Neste último caso, pode-se gerar energia mecânica com o auxílio de uma turbina a vapor, e, posteriormente, eletricidade, por meio de um gerador.
-# sent_id = 399-20160722-MONOGRAFIA_0-143
+# sent_id = 399-20160722-MONOGRAFIA_0-142
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -4067,7 +4121,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Essa forma de geração de eletricidade é a heliotérmica, também chamada de termo solar ou Concentrated Solar Power (CSP) (OLIVEIRA FILHO, 2014).
-# sent_id = 399-20160722-MONOGRAFIA_0-144
+# sent_id = 399-20160722-MONOGRAFIA_0-143
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4099,7 +4153,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A tecnologia CSP é considerada madura internacionalmente e as primeiras plantas comerciais entraram em operação na Califórnia, nos EUA, entre 1984 e 1991, com uma capacidade instalada de 354 MW.
-# sent_id = 399-20160722-MONOGRAFIA_0-145
+# sent_id = 399-20160722-MONOGRAFIA_0-144
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	CSP	CSP	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -4140,7 +4194,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Atualmente, existe aproximadamente 1 GW de capacidade instalada no mundo e há expectativa de 15 GW em projetos sendo desenvolvidos ou em construção em diversos países, tais como EUA, Espanha, Austrália, Marrocos, China e Índia, motivados por políticas governamentais (PHILIBERT et al., 2010 apud LODI, 2011).
-# sent_id = 399-20160722-MONOGRAFIA_0-146
+# sent_id = 399-20160722-MONOGRAFIA_0-145
 1	Atualmente	atualmente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4203,16 +4257,16 @@
 59	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = 3.3.1
-# sent_id = 399-20160722-MONOGRAFIA_0-147
+# sent_id = 399-20160722-MONOGRAFIA_0-146
 1	3.3.1	3.3.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Coletores Solares
-# sent_id = 399-20160722-MONOGRAFIA_0-148
+# sent_id = 399-20160722-MONOGRAFIA_0-147
 1	Coletores	Coletores	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Solares	Solares	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Segundo Malagueta (2012), coletores solares são trocadores de calor que transformam radiação solar em calor.
-# sent_id = 399-20160722-MONOGRAFIA_0-149
+# sent_id = 399-20160722-MONOGRAFIA_0-148
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Malagueta	Malagueta	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4234,7 +4288,7 @@
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O coletor capta a radiação solar, a converte em calor, e transfere esse calor para um fluido (ar, água ou óleo em geral).
-# sent_id = 399-20160722-MONOGRAFIA_0-150
+# sent_id = 399-20160722-MONOGRAFIA_0-149
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	coletor	coletor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	capta	captar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4266,7 +4320,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Basicamente, os coletores podem ser de dois tipos: não-concentradores e concentradores.
-# sent_id = 399-20160722-MONOGRAFIA_0-151
+# sent_id = 399-20160722-MONOGRAFIA_0-150
 1	Basicamente	basicamente	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -4283,7 +4337,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Os coletores não-concentradores, ou simplesmente coletores solares planos, são aplicáveis em sistemas que precisam de temperaturas baixas, inferiores a 100°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-152
+# sent_id = 399-20160722-MONOGRAFIA_0-151
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	coletores	coletor	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 3	não-concentradores	não-concentrador	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -4310,7 +4364,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Essa tecnologia é empregada predominantemente no setor residencial, mas também é aplicada em outros setores, tais como hotéis, hospitais, edifícios públicos e comerciais e similares.
-# sent_id = 399-20160722-MONOGRAFIA_0-153
+# sent_id = 399-20160722-MONOGRAFIA_0-152
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4340,12 +4394,12 @@
 26	públicos	público	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 27	e	e	CCONJ	_	_	28	cc	_	_
 28	comerciais	comercial	ADJ	_	Gender=Masc|Number=Plur	26	conj	_	_
-29	e	e	CCONJ	_	_	30	cc	_	_
+29	e	e	CCONJ	_	_	30	cc	_	SpacesAfter=\s\n
 30	similares	similar	ADJ	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Outro setor que começa a experimentar os aquecedores é o industrial, mas ainda de forma pontual.
-# sent_id = 399-20160722-MONOGRAFIA_0-154
+# sent_id = 399-20160722-MONOGRAFIA_0-153
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	setor	setor	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
@@ -4366,7 +4420,7 @@
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A Figura 11 ilustra um sistema solar de aquecimento de água.
-# sent_id = 399-20160722-MONOGRAFIA_0-155
+# sent_id = 399-20160722-MONOGRAFIA_0-154
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	11	11	NUM	_	NumType=Card	2	nummod	_	_
@@ -4380,30 +4434,18 @@
 11	água	água	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 11:
-# sent_id = 399-20160722-MONOGRAFIA_0-156
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Sistema solar de aquecimento de água Fonte: ANEEL (2002).
-# sent_id = 399-20160722-MONOGRAFIA_0-157
-1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	solar	solar	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	água	águo	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-7	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	1	punct	_	_
-9	ANEEL	ANEEL	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	2002	2002	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Fonte: ANEEL (2002).
+# sent_id = 399-20160722-MONOGRAFIA_0-155
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	ANEEL	ANEEL	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	2002	2002	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Em sistemas que requerem temperaturas mais elevadas, bem acima de 100°C, é indicado que o aproveitamento da energia seja feito por meio de concentradores solares, pois segundo Malagueta (2012), sistemas sem concentradores ou com baixa taxa de concentração não são eficientes, tanto do ponto de vista térmico quanto econômico.
-# sent_id = 399-20160722-MONOGRAFIA_0-158
+# sent_id = 399-20160722-MONOGRAFIA_0-156
 1	Em	em	ADP	_	_	2	case	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -4467,7 +4509,7 @@
 59	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = O concentrador solar capta a energia solar incidente numa área relativamente grande e concentram-na numa área muito menor, de modo que a temperatura desta última aumente substancialmente.
-# sent_id = 399-20160722-MONOGRAFIA_0-159
+# sent_id = 399-20160722-MONOGRAFIA_0-157
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	solar	solar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	2	acl	_	_
@@ -4507,7 +4549,7 @@
 33	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Geralmente, os coletores concentradores possuem uma superfície refletora que direcionam a radiação direta a um foco, onde há um receptor pelo qual escoa o fluido absorvedor de calor.
-# sent_id = 399-20160722-MONOGRAFIA_0-160
+# sent_id = 399-20160722-MONOGRAFIA_0-158
 1	Geralmente	geralmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -4543,7 +4585,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O funcionamento dos concentradores será ilustrado nos próximos tópicos.
-# sent_id = 399-20160722-MONOGRAFIA_0-161
+# sent_id = 399-20160722-MONOGRAFIA_0-159
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -4560,20 +4602,20 @@
 12	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.3.2
-# sent_id = 399-20160722-MONOGRAFIA_0-162
+# sent_id = 399-20160722-MONOGRAFIA_0-160
 1	3.3.2	3.3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Sistemas
-# sent_id = 399-20160722-MONOGRAFIA_0-163
+# sent_id = 399-20160722-MONOGRAFIA_0-161
 1	Sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Térmicos Solares
-# sent_id = 399-20160722-MONOGRAFIA_0-164
+# sent_id = 399-20160722-MONOGRAFIA_0-162
 1	Térmicos	Térmicos	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Solares	Solares	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Os sistemas industriais ligados aos coletores concentradores não diferem muito de sistemas convencionais que geram calor de processo.
-# sent_id = 399-20160722-MONOGRAFIA_0-165
+# sent_id = 399-20160722-MONOGRAFIA_0-163
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	industriais	industrial	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -4597,7 +4639,7 @@
 20	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A peça chave do sistema é o campo de coletores e o arranjo dos coletores no solo ou em terraços de edifícios.
-# sent_id = 399-20160722-MONOGRAFIA_0-166
+# sent_id = 399-20160722-MONOGRAFIA_0-164
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	peça	peça	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	chave	chave	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4629,7 +4671,7 @@
 26	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Um fluido de calor circula pelo campo.
-# sent_id = 399-20160722-MONOGRAFIA_0-167
+# sent_id = 399-20160722-MONOGRAFIA_0-165
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4642,7 +4684,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Ao medir a temperatura do fluido na saída do coletor, um sistema de controle regula a vazão do fluido em função da radiação.
-# sent_id = 399-20160722-MONOGRAFIA_0-168
+# sent_id = 399-20160722-MONOGRAFIA_0-166
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4682,7 +4724,7 @@
 31	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = O calor absorvido pelo fluido é então transferido em um trocador de calor, de onde é utilizado em algum processo industrial ou armazenado em tanques para uso posterior.
-# sent_id = 399-20160722-MONOGRAFIA_0-169
+# sent_id = 399-20160722-MONOGRAFIA_0-167
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	absorvido	absorver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -4717,9 +4759,9 @@
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A Figura 12 ilustra um sistema que utiliza concentradores solares para a geração de energia elétrica.
-# sent_id = 399-20160722-MONOGRAFIA_0-170
+# sent_id = 399-20160722-MONOGRAFIA_0-168
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	SpacesAfter=\s\n
 3	12	12	NUM	_	NumType=Card	2	nummod	_	_
 4	ilustra	ilustrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -4737,13 +4779,13 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 12:
-# sent_id = 399-20160722-MONOGRAFIA_0-171
+# sent_id = 399-20160722-MONOGRAFIA_0-169
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Sistema de geração de energia elétrica utilizando concentradores solares Fonte: Adaptado de MALAGUETA (2012).
-# sent_id = 399-20160722-MONOGRAFIA_0-172
+# sent_id = 399-20160722-MONOGRAFIA_0-170
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	geração	geração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4764,7 +4806,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.4 CONCENTRADORES SOLARES – TECNOLOGIAS EXISTENTES
-# sent_id = 399-20160722-MONOGRAFIA_0-173
+# sent_id = 399-20160722-MONOGRAFIA_0-171
 1	3.4	3.4	NUM	_	NumType=Card	2	nummod	_	_
 2	CONCENTRADORES	CONCENTRADORES	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	SOLARES	SOLARES	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4773,7 +4815,7 @@
 6	EXISTENTES	existentes	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = Existem quatro tipos demonstrados de sistema CSP: cilíndrico parabólico, Fresnel, disco parabólico (ou prato parabólico) e torre de concentração (ou torre central).
-# sent_id = 399-20160722-MONOGRAFIA_0-174
+# sent_id = 399-20160722-MONOGRAFIA_0-172
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	quatro	quatro	NUM	_	NumType=Card	3	nummod	_	_
 3	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -4806,7 +4848,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A Figura 13 apresenta a configuração básica dessas tecnologias, que serão discutidas nos próximos tópicos.
-# sent_id = 399-20160722-MONOGRAFIA_0-175
+# sent_id = 399-20160722-MONOGRAFIA_0-173
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	13	13	NUM	_	NumType=Card	2	flat:name	_	_
@@ -4830,32 +4872,33 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 13:
-# sent_id = 399-20160722-MONOGRAFIA_0-176
+# sent_id = 399-20160722-MONOGRAFIA_0-174
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tipos de tecnologias de concentradores solares Fonte: BIANCHINI (2013).
-# sent_id = 399-20160722-MONOGRAFIA_0-177
+# sent_id = 399-20160722-MONOGRAFIA_0-175
 1	Tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+3	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	concentradores	concentrador	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-6	solares	solar	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-7	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+5	concentradores	concentrador	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+6	solares	solar	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpacesAfter=\s\n
+7	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 8	:	:	PUNCT	_	_	1	punct	_	_
 9	BIANCHINI	BIANCHINI	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-10	(2013	(2013	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	2013	2013	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.4.1
-# sent_id = 399-20160722-MONOGRAFIA_0-178
+# sent_id = 399-20160722-MONOGRAFIA_0-176
 1	3.4.1	3.4.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Concentrador Cilíndrico Parabólico (Parabolic Trough Collector)
-# sent_id = 399-20160722-MONOGRAFIA_0-179
+# sent_id = 399-20160722-MONOGRAFIA_0-177
 1	Concentrador	Concentrador	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Cilíndrico	Cilíndrico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Parabólico	Parabólico	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -4866,34 +4909,35 @@
 8	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Segundo Kalogirou (2009) apud Malagueta (2012), esse tipo de coletor é revestido por um material refletor em formato parabólico.
-# sent_id = 399-20160722-MONOGRAFIA_0-180
+# sent_id = 399-20160722-MONOGRAFIA_0-178
 1	Segundo	segundo	ADP	_	_	2	case	_	_
-2	Kalogirou	Kalogirou	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	_
+2	Kalogirou	Kalogirou	PROPN	_	Gender=Masc|Number=Sing	17	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	2009	2009	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
-6	apud	apud	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
-7	Malagueta	Malagueta	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
-8	(2012	(2012	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	2	punct	_	_
-11	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
-12	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	coletor	coletor	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	revestido	revester	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-17	por	por	ADP	_	_	20	case	_	_
-18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	material	material	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
-20	refletor	refletor	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	formato	formato	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-23	parabólico	parabólico	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	16	punct	_	_
+6	apud	apud	PROPN	_	Gender=Unsp|Number=Sing	2	appos	_	_
+7	Malagueta	Malagueta	PROPN	_	Number=Sing	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	2012	2012	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	coletor	coletor	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	revestido	revester	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+18	por	por	ADP	_	_	21	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	material	material	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	refletor	refletor	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	formato	formato	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+24	parabólico	parabólico	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = E também é composto por um tubo de metal preto, coberto com um tubo de vidro para reduzir as perdas de calor, é colocado ao longo da linha focal do receptor.
-# sent_id = 399-20160722-MONOGRAFIA_0-181
+# sent_id = 399-20160722-MONOGRAFIA_0-179
 1	E	e	CCONJ	_	_	4	cc	_	_
 2	também	também	ADV	_	_	4	advmod	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4936,7 +4980,7 @@
 37	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Quando a parábola aponta para o sol, os raios solares são refletidos pela superfície e concentrados no receptor.
-# sent_id = 399-20160722-MONOGRAFIA_0-182
+# sent_id = 399-20160722-MONOGRAFIA_0-180
 1	Quando	quando	SCONJ	_	_	4	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	parábola	parábola	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -4963,7 +5007,7 @@
 22	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A radiação concentrada aquece o fluido que circula internamente no tubo (MALAGUETA, 2012).
-# sent_id = 399-20160722-MONOGRAFIA_0-183
+# sent_id = 399-20160722-MONOGRAFIA_0-181
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	radiação	radiação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	concentrada	concentrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4985,7 +5029,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Na Figura 14 é apresentado o esquema da concentração da radiação em um concentrador parabólico.
-# sent_id = 399-20160722-MONOGRAFIA_0-184
+# sent_id = 399-20160722-MONOGRAFIA_0-182
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5010,13 +5054,13 @@
 19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 14:
-# sent_id = 399-20160722-MONOGRAFIA_0-185
+# sent_id = 399-20160722-MONOGRAFIA_0-183
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema da concentração da radiação em um concentrador parabólico
-# sent_id = 399-20160722-MONOGRAFIA_0-186
+# sent_id = 399-20160722-MONOGRAFIA_0-184
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5029,10 +5073,10 @@
 8	em	em	ADP	_	_	10	case	_	_
 9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-11	parabólico	parabólico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+11	parabólico	parabólico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpacesAfter=\s\n
 
 # text = O concentrador cilíndrico parabólico é a tecnologia solar mais madura para gerar calor em temperaturas de até 400°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-187
+# sent_id = 399-20160722-MONOGRAFIA_0-185
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	cilíndrico	cilíndrico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5054,7 +5098,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A energia do fluido pode ser utilizada para geração de eletricidade ou de calor de processo.
-# sent_id = 399-20160722-MONOGRAFIA_0-188
+# sent_id = 399-20160722-MONOGRAFIA_0-186
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	energia	energia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5076,11 +5120,11 @@
 18	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 3.4.2
-# sent_id = 399-20160722-MONOGRAFIA_0-189
+# sent_id = 399-20160722-MONOGRAFIA_0-187
 1	3.4.2	3.4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Concentrador Fresnel (Linear Fresnel Reflector – LFR)
-# sent_id = 399-20160722-MONOGRAFIA_0-190
+# sent_id = 399-20160722-MONOGRAFIA_0-188
 1	Concentrador	Concentrador	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Fresnel	Fresnel	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5092,7 +5136,7 @@
 9	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = O concentrador solar Fresnel é uma tecnologia que se baseia em uma série de faixas de espelhos lineares que concentram a luz para um receptor fixo, montado em uma torre.
-# sent_id = 399-20160722-MONOGRAFIA_0-191
+# sent_id = 399-20160722-MONOGRAFIA_0-189
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	solar	solar	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5127,7 +5171,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os espelhos podem ser alinhados como uma parábola ou dispostos no chão.
-# sent_id = 399-20160722-MONOGRAFIA_0-192
+# sent_id = 399-20160722-MONOGRAFIA_0-190
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	espelhos	espelho	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5145,7 +5189,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = (KALOGIROU, 2009 apud MALAGUETA, 2012).
-# sent_id = 399-20160722-MONOGRAFIA_0-193
+# sent_id = 399-20160722-MONOGRAFIA_0-191
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	KALOGIROU	KALOGIROU	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -5158,7 +5202,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = De acordo com Lodi (2011), a tecnologia de Fresnel é menos eficiente que a tecnologia cilíndrico-parabólica para a conversão de energia solar em energia elétrica, além do fato de ser mais difícil incorporar o armazenamento térmico, uma forte aplicação para esta tecnologia é o fornecimento de calor para processos industriais, tais como recuperação de óleos pesados, refinarias, celulose e papel, alimentos e dessalinização.
-# sent_id = 399-20160722-MONOGRAFIA_0-194
+# sent_id = 399-20160722-MONOGRAFIA_0-192
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -5236,7 +5280,7 @@
 74	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Essa tecnologia ainda não é muito madura e a maior parte das plantas existentes no mundo são plantas pilotos, como a presente na Austrália (10 MW), que foi desenvolvida por uma companhia australiana chamada Ausra.
-# sent_id = 399-20160722-MONOGRAFIA_0-195
+# sent_id = 399-20160722-MONOGRAFIA_0-193
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	ainda	ainda	ADV	_	_	4	advmod	_	_
@@ -5285,7 +5329,7 @@
 43	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Na Figura 15 é mostrado o esquema da concentração da radiação em um sistema com concentrador do tipo Fresnel.
-# sent_id = 399-20160722-MONOGRAFIA_0-196
+# sent_id = 399-20160722-MONOGRAFIA_0-194
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5316,13 +5360,13 @@
 24	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 15:
-# sent_id = 399-20160722-MONOGRAFIA_0-197
+# sent_id = 399-20160722-MONOGRAFIA_0-195
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Esquema da concentração da radiação em sistema com concentrador do tipo Fresnel 3.4.3
-# sent_id = 399-20160722-MONOGRAFIA_0-198
+# sent_id = 399-20160722-MONOGRAFIA_0-196
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5340,11 +5384,11 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15	Fresnel	Fresnel	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
+15	Fresnel	Fresnel	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpacesAfter=\s\n
 16	3.4.3	3.4.3	PROPN	_	Number=Sing	15	flat:name	_	_
 
 # text = Concentrador Disco Parabólico (Parabolic Dish Reflector – PDR)
-# sent_id = 399-20160722-MONOGRAFIA_0-199
+# sent_id = 399-20160722-MONOGRAFIA_0-197
 1	Concentrador	Concentrador	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Disco	disco	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Parabólico	Parabólico	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -5357,7 +5401,7 @@
 10	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = O concentrador disco parabólico é um coletor que segue o sol em dois eixos, concentrando energia solar em um receptor localizado no ponto focal do disco, como mostrado no esquema da Figura 16 (KALOGIROU, 2009 apud MALAGUETA, 2012).
-# sent_id = 399-20160722-MONOGRAFIA_0-200
+# sent_id = 399-20160722-MONOGRAFIA_0-198
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	concentrador	concentrador	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	disco	disco	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -5413,13 +5457,13 @@
 49	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 16:
-# sent_id = 399-20160722-MONOGRAFIA_0-201
+# sent_id = 399-20160722-MONOGRAFIA_0-199
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de um concentrador de disco parabólico Fonte: Adaptado de MALAGUETA, 2012.
-# sent_id = 399-20160722-MONOGRAFIA_0-202
+# sent_id = 399-20160722-MONOGRAFIA_0-200
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5437,7 +5481,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Por possuir uma concentração pontual e sistema de rastreamento em dois eixos, o disco parabólico possui as maiores taxas de concentração e por essa razão é o coletor mais eficiente.
-# sent_id = 399-20160722-MONOGRAFIA_0-203
+# sent_id = 399-20160722-MONOGRAFIA_0-201
 1	Por	por	SCONJ	_	_	2	mark	_	_
 2	possuir	possuir	VERB	_	VerbForm=Inf	17	advcl	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5472,7 +5516,7 @@
 32	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Consequentemente, atinge temperaturas de 100°C a 1500°C, atrás apenas da torre de concentração, que pode atingir até 2000°C. (MALAGUETA, 2012)
-# sent_id = 399-20160722-MONOGRAFIA_0-204
+# sent_id = 399-20160722-MONOGRAFIA_0-202
 1	Consequentemente	consequentemente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	atinge	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5500,10 +5544,10 @@
 24	MALAGUETA	MALAGUETA	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	2012	2012	NUM	_	NumType=Card	24	nummod	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	24	punct	_	_
+27	)	)	PUNCT	_	_	24	punct	_	SpacesAfter=\s\n
 
 # text = Ainda segundo Malagueta (2012), o disco pode operar de forma independente (indicado para uso em regiões isoladas) ou como parte de uma planta composta por vários discos.
-# sent_id = 399-20160722-MONOGRAFIA_0-205
+# sent_id = 399-20160722-MONOGRAFIA_0-203
 1	Ainda	ainda	ADV	_	_	3	advmod	_	_
 2	segundo	segundo	ADP	_	_	3	case	_	_
 3	Malagueta	Malagueta	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -5539,7 +5583,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os raios solares incidem sobre a parábola e são concentrados no ponto focal da parábola, onde aquecem o fluido circulante.
-# sent_id = 399-20160722-MONOGRAFIA_0-206
+# sent_id = 399-20160722-MONOGRAFIA_0-204
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	raios	raio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	solares	solar	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5568,7 +5612,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esse calor pode ser transportado por tubulação para um sistema central ou ser transformado diretamente em eletricidade em um gerador acoplado diretamente no receptor.
-# sent_id = 399-20160722-MONOGRAFIA_0-207
+# sent_id = 399-20160722-MONOGRAFIA_0-205
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5598,11 +5642,11 @@
 26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.4.4
-# sent_id = 399-20160722-MONOGRAFIA_0-208
+# sent_id = 399-20160722-MONOGRAFIA_0-206
 1	3.4.4	3.4.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Torre de Concentração Malagueta (2012) afirma que torre de concentração é um tipo de tecnologia de aquecimento solar composta por um campo de coletores de heliostatos, formada por vários espelhos planos (ou levemente côncavos), que são capazes de rastrear o sol em dois eixos, e que reflete os raios do sol na direção de um receptor central, instalado no alto de uma torre.
-# sent_id = 399-20160722-MONOGRAFIA_0-209
+# sent_id = 399-20160722-MONOGRAFIA_0-207
 1	Torre	Torre	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Concentração	concentração	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -5683,7 +5727,7 @@
 75	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Cada heliostato é composto por quatro espelhos instalados no mesmo pilar, com área refletora total de 50 a 150m².
-# sent_id = 399-20160722-MONOGRAFIA_0-210
+# sent_id = 399-20160722-MONOGRAFIA_0-208
 1	Cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	heliostato	heliostato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -5710,7 +5754,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O calor concentrado absorvido no receptor é transferido para um fluido circulante que pode ser armazenado e/ou utilizado para produzir trabalho.
-# sent_id = 399-20160722-MONOGRAFIA_0-211
+# sent_id = 399-20160722-MONOGRAFIA_0-209
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	concentrado	concentrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5737,7 +5781,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A Figura 17 mostra um sistema de torre de concentração.
-# sent_id = 399-20160722-MONOGRAFIA_0-212
+# sent_id = 399-20160722-MONOGRAFIA_0-210
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	17	17	NUM	_	NumType=Card	4	nsubj	_	_
@@ -5751,13 +5795,13 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 17:
-# sent_id = 399-20160722-MONOGRAFIA_0-213
+# sent_id = 399-20160722-MONOGRAFIA_0-211
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de torre de concentração para geração de energia elétrica Fonte: BIANCHINI (2013).
-# sent_id = 399-20160722-MONOGRAFIA_0-214
+# sent_id = 399-20160722-MONOGRAFIA_0-212
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	torre	torre	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -5774,10 +5818,10 @@
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	2013	2013	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Entre as vantagens da torre de concentração, é possível destacar que as perdas de energia térmica devido ao transporte são mínimas, visto que os espelhos coletam a luz solar e a concentram em um único receptor.
-# sent_id = 399-20160722-MONOGRAFIA_0-215
+# sent_id = 399-20160722-MONOGRAFIA_0-213
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	vantagens	vantagen	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
@@ -5823,7 +5867,7 @@
 41	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Além disso, segundo Malagueta (2013), por rastrear o sol em dois eixos, possui altas taxas de concentração (entre 300 a 1000, menor apenas que o disco).
-# sent_id = 399-20160722-MONOGRAFIA_0-216
+# sent_id = 399-20160722-MONOGRAFIA_0-214
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -5863,7 +5907,7 @@
 36	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Essa tecnologia é indicada para sistemas de maior porte (acima de 10 MW).
-# sent_id = 399-20160722-MONOGRAFIA_0-217
+# sent_id = 399-20160722-MONOGRAFIA_0-215
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -5882,7 +5926,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.5 CONCENTRADORES SOLARES – COMPARATIVO
-# sent_id = 399-20160722-MONOGRAFIA_0-218
+# sent_id = 399-20160722-MONOGRAFIA_0-216
 1	3.5	3.5	NUM	_	NumType=Card	2	nummod	_	_
 2	CONCENTRADORES	CONCENTRADORES	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	SOLARES	SOLARES	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -5890,7 +5934,7 @@
 5	COMPARATIVO	comparativo	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 
 # text = Os principais tipos de sistema encontram-se listados na Tabela 1.
-# sent_id = 399-20160722-MONOGRAFIA_0-219
+# sent_id = 399-20160722-MONOGRAFIA_0-217
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -5907,33 +5951,8 @@
 12	1	1	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Tabela 1: Comparativo entre as tecnologias de coletores solares concentradores
-# sent_id = 399-20160722-MONOGRAFIA_0-220
-1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	1:	1:	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Comparativo	comparativo	PROPN	_	Number=Sing	1	flat:name	_	_
-4	entre	entre	ADP	_	_	6	case	_	_
-5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	coletores	coletor	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-9	solares	solar	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
-10	concentradores	concentrador	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
-
-# text = Fonte: Adaptado de LODI (2011).
-# sent_id = 399-20160722-MONOGRAFIA_0-221
-1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	LODI	LODI	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	2011	2011	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = De acordo com a Tabela 1, os concentradores mais eficientes são os de torre e os de disco parabólico.
-# sent_id = 399-20160722-MONOGRAFIA_0-222
+# sent_id = 399-20160722-MONOGRAFIA_0-218
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -5957,7 +5976,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Segundo Lodi (2011), a tecnologia cilíndrico-parabólica, Fresnel e torre solar podem ser integradas a ciclos de vapor, e terem capacidades de geração elétrica entre 10 a 200 MW.
-# sent_id = 399-20160722-MONOGRAFIA_0-223
+# sent_id = 399-20160722-MONOGRAFIA_0-219
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Lodi	Lodi	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5994,7 +6013,7 @@
 34	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Assim, a eficiência térmica neste ciclo passa a ser entre 30 a 40%.
-# sent_id = 399-20160722-MONOGRAFIA_0-224
+# sent_id = 399-20160722-MONOGRAFIA_0-220
 1	Assim	assim	ADV	_	_	13	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6015,7 +6034,7 @@
 17	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = A tecnologia cilíndrico-parabólica concentra a radiação solar entre 70 a 80 vezes, a tecnologia de Fresnel entre 25 a 100 vezes, a torre solar entre 300 a 1000 vezes e o disco parabólico entre 1000 a 3000 vezes.
-# sent_id = 399-20160722-MONOGRAFIA_0-225
+# sent_id = 399-20160722-MONOGRAFIA_0-221
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	cilíndrico-parabólica	cilíndrico-parabólico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6059,7 +6078,7 @@
 41	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = No disco parabólico, devido à elevada concentração que pode ser obtida, a eficiência costuma ser mais alta do que as das outras tecnologias de concentração (KALOGIROU, 2009 apud LODI, 2011).
-# sent_id = 399-20160722-MONOGRAFIA_0-226
+# sent_id = 399-20160722-MONOGRAFIA_0-222
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6106,8 +6125,8 @@
 40	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = Devido às vantagens apresentadas e ao fato de ser a tecnologia mais consolidada até o momento, para a realização deste trabalho, a tecnologia adotada foi a cilíndrico- parabólica.
-# sent_id = 399-20160722-MONOGRAFIA_0-227
+# text = Devido às vantagens apresentadas e ao fato de ser a tecnologia mais consolidada até o momento, para a realização deste trabalho, a tecnologia adotada foi a cilíndrico-parabólica.
+# sent_id = 399-20160722-MONOGRAFIA_0-223
 1	Devido	devido	ADV	_	_	32	advmod	_	_
 2-3	às	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -6142,26 +6161,24 @@
 29	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	28	acl	_	_
 30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	cop	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	cilíndrico	cilíndrico	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-33	-	-	PUNCT	_	_	32	punct	_	_
-34	parabólica	parabólica	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
+32	cilíndrico-parabólica	cilíndrico-parabólica	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n\n
 
 # text = 4
-# sent_id = 399-20160722-MONOGRAFIA_0-228
+# sent_id = 399-20160722-MONOGRAFIA_0-224
 1	4	4	NUM	_	NumType=Card	0	root	_	_
 
 # text = MATERIAIS
-# sent_id = 399-20160722-MONOGRAFIA_0-229
+# sent_id = 399-20160722-MONOGRAFIA_0-225
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E MÉTODOS
-# sent_id = 399-20160722-MONOGRAFIA_0-230
+# sent_id = 399-20160722-MONOGRAFIA_0-226
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	MÉTODOS	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = No presente Capítulo, serão apresentadas informações referentes à metodologia e aos processos utilizados para determinar a área de concentradores necessária para um sistema de aquecimento solar a ser inserido no sistema de geração de vapor em estudo.
-# sent_id = 399-20160722-MONOGRAFIA_0-231
+# sent_id = 399-20160722-MONOGRAFIA_0-227
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6211,12 +6228,12 @@
 43	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 4.1 METODOLOGIA
-# sent_id = 399-20160722-MONOGRAFIA_0-232
+# sent_id = 399-20160722-MONOGRAFIA_0-228
 1	4.1	4.1	NUM	_	NumType=Card	2	nummod	_	_
 2	METODOLOGIA	metodologia	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Será realizado o dimensionamento do sistema proposto baseando-se na quantidade de calor que é fornecida ao sistema, na configuração convencional.
-# sent_id = 399-20160722-MONOGRAFIA_0-233
+# sent_id = 399-20160722-MONOGRAFIA_0-229
 1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
 2	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6251,7 +6268,7 @@
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Para isso, primeiramente, foi determinada a massa de água utilizada no processo e a quantidade de calor total.
-# sent_id = 399-20160722-MONOGRAFIA_0-234
+# sent_id = 399-20160722-MONOGRAFIA_0-230
 1	Para	para	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6277,7 +6294,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em seguida, foram escolhidas cinco situações para inserir os concentradores solares, de modo a substituir o pré-aquecedor e/ou complementar a quantidade de calor fornecida pela caldeira, bem como determinar a quantidade de calor e, consequentemente, a área necessária para fornecer o calor ao processo em cada uma das configurações.
-# sent_id = 399-20160722-MONOGRAFIA_0-235
+# sent_id = 399-20160722-MONOGRAFIA_0-231
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6341,7 +6358,7 @@
 58	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Por fim, foi definida a área do concentrador.
-# sent_id = 399-20160722-MONOGRAFIA_0-236
+# sent_id = 399-20160722-MONOGRAFIA_0-232
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6356,7 +6373,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4.2 DIMENSIONAMENTO Para realizar o dimensionamento, foi necessário acompanhar o processo de injeção de vapor de uma empresa de petróleo e foi verificado in loco que são necessários 514 m³ de combustível por hora para gerar 145 m³ de vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-237
+# sent_id = 399-20160722-MONOGRAFIA_0-233
 1	4.2	4.2	NUM	_	NumType=Card	2	nummod	_	_
 2	DIMENSIONAMENTO	DIMENSIONAMENTO	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	Para	para	SCONJ	_	_	4	mark	_	_
@@ -6401,7 +6418,7 @@
 42	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O combustível comumente utilizado no processo é o gás natural.
-# sent_id = 399-20160722-MONOGRAFIA_0-238
+# sent_id = 399-20160722-MONOGRAFIA_0-234
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	comumente	comumente	ADV	_	_	4	advmod	_	_
@@ -6417,7 +6434,7 @@
 12	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, será dimensionada a massa de água correspondente a quantidade de vapor solicitado pelo sistema, tomando como base o trabalho de Curinga (2013).
-# sent_id = 399-20160722-MONOGRAFIA_0-239
+# sent_id = 399-20160722-MONOGRAFIA_0-235
 1	Inicialmente	inicialmente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -6450,7 +6467,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A partir desse valor, poderá ser encontrada a quantidade de calor que pode ser fornecida pelo sistema e, consequentemente, a área dos coletores.
-# sent_id = 399-20160722-MONOGRAFIA_0-240
+# sent_id = 399-20160722-MONOGRAFIA_0-236
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -6486,18 +6503,18 @@
 30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 4.2.1
-# sent_id = 399-20160722-MONOGRAFIA_0-241
+# sent_id = 399-20160722-MONOGRAFIA_0-237
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Massa de Água
-# sent_id = 399-20160722-MONOGRAFIA_0-242
+# sent_id = 399-20160722-MONOGRAFIA_0-238
 1	Massa	massa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Água	Água	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = No processo de injeção, são utilizados 145 m³ de vapor de água por hora, com temperatura de 281°C e pressão de 63 kgf/cm².
-# sent_id = 399-20160722-MONOGRAFIA_0-243
+# sent_id = 399-20160722-MONOGRAFIA_0-239
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6528,7 +6545,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A partir dessas informações, é possível encontrar a densidade do vapor gerado, a massa de vapor e, consequentemente, a massa de água necessária no processo, através das Equações 1, 2 e 3.
-# sent_id = 399-20160722-MONOGRAFIA_0-244
+# sent_id = 399-20160722-MONOGRAFIA_0-240
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	dessas	_	_	_	_	_	_	_	_
@@ -6537,7 +6554,7 @@
 5	informações	informação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+8	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
 9	encontrar	encontrar	VERB	_	VerbForm=Inf	8	csubj	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
@@ -6578,7 +6595,7 @@
 43	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Esse valor de massa será utilizado no dimensionamento do receptor.
-# sent_id = 399-20160722-MONOGRAFIA_0-245
+# sent_id = 399-20160722-MONOGRAFIA_0-241
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6596,7 +6613,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = (1) (2) (3)
-# sent_id = 399-20160722-MONOGRAFIA_0-246
+# sent_id = 399-20160722-MONOGRAFIA_0-242
 1	(1)	(1)	NUM	_	NumType=Card	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	2	2	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -6606,7 +6623,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = Onde P = pressão (Pa) V = volume (m³) n = número de moles R
-# sent_id = 399-20160722-MONOGRAFIA_0-247
+# sent_id = 399-20160722-MONOGRAFIA_0-243
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	P	P	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
 3	=	=	SYM	_	_	2	appos	_	_
@@ -6628,7 +6645,7 @@
 19	R	R	PROPN	_	Gender=Unsp|Number=Sing	18	nmod	_	_
 
 # text = = constante dos gases ideais (8,314 J/mol K)
-# sent_id = 399-20160722-MONOGRAFIA_0-248
+# sent_id = 399-20160722-MONOGRAFIA_0-244
 1	=	=	SYM	_	_	0	root	_	_
 2	constante	constante	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6645,7 +6662,7 @@
 13	)	)	PUNCT	_	_	9	punct	_	_
 
 # text = T = temperatura (K) m = massa (kg)
-# sent_id = 399-20160722-MONOGRAFIA_0-249
+# sent_id = 399-20160722-MONOGRAFIA_0-245
 1	T	t	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -6660,7 +6677,7 @@
 12	)	)	PUNCT	_	_	11	punct	_	_
 
 # text = M = massa molar (kg/mol)
-# sent_id = 399-20160722-MONOGRAFIA_0-250
+# sent_id = 399-20160722-MONOGRAFIA_0-246
 1	M	r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	=	=	SYM	_	_	1	obj	_	_
 3	massa	massar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
@@ -6671,11 +6688,11 @@
 8	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = D
-# sent_id = 399-20160722-MONOGRAFIA_0-251
+# sent_id = 399-20160722-MONOGRAFIA_0-247
 1	D	d	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = densidade (kg/m³)
-# sent_id = 399-20160722-MONOGRAFIA_0-252
+# sent_id = 399-20160722-MONOGRAFIA_0-248
 1	=	=	SYM	_	_	0	root	_	_
 2	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6683,7 +6700,7 @@
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = Substituindo as Equações 2 e 3 na Equação 1: (4)
-# sent_id = 399-20160722-MONOGRAFIA_0-253
+# sent_id = 399-20160722-MONOGRAFIA_0-249
 1	Substituindo	Substituir	VERB	_	VerbForm=Ger	0	root	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	Equações	Equação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -6701,7 +6718,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = Para determinar a densidade do vapor, foram utilizados os valores de pressão e temperatura do vapor do processo de injeção e a massa molar da água.
-# sent_id = 399-20160722-MONOGRAFIA_0-254
+# sent_id = 399-20160722-MONOGRAFIA_0-250
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	determinar	determinar	VERB	_	VerbForm=Inf	10	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6739,8 +6756,46 @@
 31	água	água	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
+# text = PV = 63 kgf/cm² = 6178189,5 Pa MV = 18 g/mol = 18˖10-3 kg/mol
+# sent_id = 399-20160722-MONOGRAFIA_0-251
+1	PV	PV	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	=	=	SYM	_	_	1	nmod	_	_
+3	63	63	NUM	_	NumType=Card	2	nummod	_	_
+4	kgf	kgf	PROPN	_	Gender=Unsp|Number=Sing	2	appos	_	SpaceAfter=No
+5	/cm²	/cm²	PROPN	_	Number=Sing	4	flat:name	_	_
+6	=	=	SYM	_	_	1	nmod	_	_
+7	6178189,5	6178189,5	NUM	_	NumType=Card	6	nummod	_	_
+8	Pa	Pa	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
+9	MV	MV	PROPN	_	Number=Sing	8	flat:name	_	_
+10	=	=	SYM	_	_	1	nmod	_	_
+11	18	18	NUM	_	NumType=Card	10	nummod	_	_
+12	g	g	NOUN	_	Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
+13	/	/	ADP	_	_	14	case	_	SpaceAfter=No
+14	mol	mol	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	=	=	SYM	_	_	12	nmod	_	_
+16	18˖10-3	18˖10-3	NUM	_	NumType=Card	17	nummod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	/	/	ADP	_	_	19	case	_	SpaceAfter=No
+19	mol	mol	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+
+# text = R = 8,314 J/mol K TV = 281°C = 554,15 K
+# sent_id = 399-20160722-MONOGRAFIA_0-252
+1	R	r	VERB	_	VerbForm=Inf	0	root	_	_
+2	=	=	SYM	_	_	1	obj	_	_
+3	8,314	8,314	NUM	_	NumType=Card	2	nummod	_	_
+4	J	J	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+5	/	/	PUNCT	_	_	1	punct	_	SpaceAfter=No
+6	mol	mol	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+7	K	K	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
+8	TV	TV	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
+9	=	=	SYM	_	_	8	nmod	_	_
+10	281°C	281°C	PROPN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+11	=	=	SYM	_	_	9	appos	_	_
+12	554,15	554,15	NUM	_	NumType=Card	13	nummod	_	_
+13	K	K	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
+
 # text = A massa de vapor de água, que é igual a massa de água, é: (5)
-# sent_id = 399-20160722-MONOGRAFIA_0-255
+# sent_id = 399-20160722-MONOGRAFIA_0-253
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6763,7 +6818,7 @@
 20	)	)	PUNCT	_	_	19	punct	_	_
 
 # text = Esse valor corresponde a massa de água necessária para gerar 145 m³ de vapor de água, por hora.
-# sent_id = 399-20160722-MONOGRAFIA_0-256
+# sent_id = 399-20160722-MONOGRAFIA_0-254
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6786,16 +6841,16 @@
 20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4.2.2
-# sent_id = 399-20160722-MONOGRAFIA_0-257
+# sent_id = 399-20160722-MONOGRAFIA_0-255
 1	4.2.2	4.2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Área Total
-# sent_id = 399-20160722-MONOGRAFIA_0-258
+# sent_id = 399-20160722-MONOGRAFIA_0-256
 1	Área	área	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Total	total	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A Figura 18 mostra o sistema usual de geração de vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-259
+# sent_id = 399-20160722-MONOGRAFIA_0-257
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	18	18	NUM	_	NumType=Card	2	nummod	_	_
@@ -6810,7 +6865,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nesse sistema, há um pré-aquecedor que eleva a temperatura da água de 35°C a 65°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-260
+# sent_id = 399-20160722-MONOGRAFIA_0-258
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -6834,12 +6889,12 @@
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em seguida, a água entra na caldeira e sai no estado de vapor com temperatura de 281°C e pressão de 63 kgf/cm², condições adequadas para a realização do processo de injeção.
-# sent_id = 399-20160722-MONOGRAFIA_0-261
+# sent_id = 399-20160722-MONOGRAFIA_0-259
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	água	água	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	água	água	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	SpacesAfter=\s\n
 6	entra	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
@@ -6877,13 +6932,13 @@
 37	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 18:
-# sent_id = 399-20160722-MONOGRAFIA_0-262
+# sent_id = 399-20160722-MONOGRAFIA_0-260
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema usual de injeção de vapor
-# sent_id = 399-20160722-MONOGRAFIA_0-263
+# sent_id = 399-20160722-MONOGRAFIA_0-261
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	usual	usual	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6892,7 +6947,7 @@
 6	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = A partir do sistema apresentado na Figura 18, foram estabelecidas cinco situações, nas quais foi alterada a temperatura de entrada na caldeira, devido a inserção dos concentradores solares no sistema.
-# sent_id = 399-20160722-MONOGRAFIA_0-264
+# sent_id = 399-20160722-MONOGRAFIA_0-262
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6941,7 +6996,7 @@
 40	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = No processo de geração de vapor, a temperatura inicial da água é de 35°C e a temperatura final do vapor é de 281°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-265
+# sent_id = 399-20160722-MONOGRAFIA_0-263
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6975,7 +7030,7 @@
 28	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Sabendo disso, foi calculada a quantidade de calor que os concentradores deveriam fornecer para complementar a quantidade de calor fornecida pela caldeira, dependendo das temperaturas de entrada e de saída da água nos concentradores e da massa de água a ser aquecida.
-# sent_id = 399-20160722-MONOGRAFIA_0-266
+# sent_id = 399-20160722-MONOGRAFIA_0-264
 1	Sabendo	saber	VERB	_	VerbForm=Ger	6	advcl	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -7035,7 +7090,7 @@
 51	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Segundo Vieira (2014), as horas de insolação diária média em Mossoró para os meses do ano variam de 6 a 9 horas.
-# sent_id = 399-20160722-MONOGRAFIA_0-267
+# sent_id = 399-20160722-MONOGRAFIA_0-265
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Vieira	Vieira	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7066,7 +7121,7 @@
 27	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Considerando o tempo útil de Sol de 8 horas, a massa de água por dia a ser aquecida pelo concentrador pode ser encontrada utilizando a Equação 6.
-# sent_id = 399-20160722-MONOGRAFIA_0-268
+# sent_id = 399-20160722-MONOGRAFIA_0-266
 1	Considerando	considerar	VERB	_	VerbForm=Ger	11	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -7100,18 +7155,18 @@
 30	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = (6)
-# sent_id = 399-20160722-MONOGRAFIA_0-269
+# sent_id = 399-20160722-MONOGRAFIA_0-267
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Onde mt
-# sent_id = 399-20160722-MONOGRAFIA_0-270
+# sent_id = 399-20160722-MONOGRAFIA_0-268
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	mt	mt	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = = massa total (kg) mA = massa de água por hora (3500 kg/h) ts
-# sent_id = 399-20160722-MONOGRAFIA_0-271
+# sent_id = 399-20160722-MONOGRAFIA_0-269
 1	=	=	SYM	_	_	7	nsubj	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	total	total	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7132,7 +7187,7 @@
 18	ts	t	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
 
 # text = = tempo útil de sol (h) (7)
-# sent_id = 399-20160722-MONOGRAFIA_0-272
+# sent_id = 399-20160722-MONOGRAFIA_0-270
 1	=	=	SYM	_	_	0	root	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 3	útil	útil	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7146,7 +7201,7 @@
 11	)	)	PUNCT	_	_	10	punct	_	_
 
 # text = Assim, a massa de água a ser aquecida por dia é de 28.000 kg. 4.2.2.1 Situação 1
-# sent_id = 399-20160722-MONOGRAFIA_0-273
+# sent_id = 399-20160722-MONOGRAFIA_0-271
 1	Assim	assim	ADV	_	_	17	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7164,10 +7219,10 @@
 15	kg.	kg.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 16	4.2.2.1	4.2.2.1	NUM	_	NumType=Card	17	nummod	_	_
 17	Situação	Situação	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-18	1	1	NUM	_	NumType=Card	17	nummod	_	_
+18	1	1	NUM	_	NumType=Card	17	nummod	_	SpacesAfter=\s\n
 
 # text = Na Situação 1, na qual foi considerado que toda a massa de água a ser aquecida pelo concentrador é de 28.000 kg, o concentrador solar é inserido em série no sistema usual, entre o pré-aquecedor e a caldeira.
-# sent_id = 399-20160722-MONOGRAFIA_0-274
+# sent_id = 399-20160722-MONOGRAFIA_0-272
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7220,7 +7275,7 @@
 46	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A temperatura inicial da água inserida no concentrador é de 65°C e a temperatura final é de 150°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-275
+# sent_id = 399-20160722-MONOGRAFIA_0-273
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7246,7 +7301,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O objetivo dessa situação é diminuir o gasto com energia e com combustível.
-# sent_id = 399-20160722-MONOGRAFIA_0-276
+# sent_id = 399-20160722-MONOGRAFIA_0-274
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
@@ -7265,7 +7320,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A Figura 19 mostra o sistema proposto para a Situação 1.
-# sent_id = 399-20160722-MONOGRAFIA_0-277
+# sent_id = 399-20160722-MONOGRAFIA_0-275
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	19	19	NUM	_	NumType=Card	2	nummod	_	_
@@ -7280,7 +7335,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 19: Configuração 1 para o sistema proposto Fonte:
-# sent_id = 399-20160722-MONOGRAFIA_0-278
+# sent_id = 399-20160722-MONOGRAFIA_0-276
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7294,13 +7349,13 @@
 11	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Autoria própria.
-# sent_id = 399-20160722-MONOGRAFIA_0-279
+# sent_id = 399-20160722-MONOGRAFIA_0-277
 1	Autoria	autoria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para a Situação 1, há mudança de estado da água, então são considerados os calores latente e sensível.
-# sent_id = 399-20160722-MONOGRAFIA_0-280
+# sent_id = 399-20160722-MONOGRAFIA_0-278
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Situação	situação	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -7326,7 +7381,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A quantidade de calor necessária nessa etapa do processo é dada pelas Equações 8, 9 e 10.
-# sent_id = 399-20160722-MONOGRAFIA_0-281
+# sent_id = 399-20160722-MONOGRAFIA_0-279
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7354,7 +7409,7 @@
 22	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = (8) (9) (10)
-# sent_id = 399-20160722-MONOGRAFIA_0-282
+# sent_id = 399-20160722-MONOGRAFIA_0-280
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	8	8	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -7364,12 +7419,12 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = Onde QS
-# sent_id = 399-20160722-MONOGRAFIA_0-283
+# sent_id = 399-20160722-MONOGRAFIA_0-281
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	QS	QS	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = quantidade de calor sensível (cal) m = massa (g) c = calor específico (cal/g °C) ΔT = variação de temperatura (°C)
-# sent_id = 399-20160722-MONOGRAFIA_0-284
+# sent_id = 399-20160722-MONOGRAFIA_0-282
 1	=	=	SYM	_	_	9	nsubj	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7402,7 +7457,7 @@
 30	)	)	PUNCT	_	_	29	punct	_	_
 
 # text = QL = quantidade de calor latente (cal) L = calor latente (cal/g) Q
-# sent_id = 399-20160722-MONOGRAFIA_0-285
+# sent_id = 399-20160722-MONOGRAFIA_0-283
 1	QL	QL	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	nmod	_	_
 3	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -7422,7 +7477,7 @@
 17	Q	q	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
 
 # text = = quantidade de calor total (cal)
-# sent_id = 399-20160722-MONOGRAFIA_0-286
+# sent_id = 399-20160722-MONOGRAFIA_0-284
 1	=	=	SYM	_	_	0	root	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7433,7 +7488,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = O calor específico da água é 1 cal/g °C e que o calor latente de vaporização da água é 539,1 cal/g (HALLIDAY et al., 2006).
-# sent_id = 399-20160722-MONOGRAFIA_0-287
+# sent_id = 399-20160722-MONOGRAFIA_0-285
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	específico	específico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7468,22 +7523,20 @@
 30	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	9	punct	_	_
 
-# text = Assim: (11) (12) (13) (14)
-# sent_id = 399-20160722-MONOGRAFIA_0-288
-1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
+# text = Assim: (11) (12) (14)
+# sent_id = 399-20160722-MONOGRAFIA_0-286
+1	Assim	assim	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	11)	11)	NUM	_	NumType=Card	0	root	_	_
+3	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+4	11)	11)	NUM	_	NumType=Card	6	nummod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	12)	12)	NUM	_	NumType=Card	4	nummod	_	_
+6	12)	12)	NUM	_	NumType=Card	0	root	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	13)	13)	NUM	_	NumType=Card	6	appos	_	_
-9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	14	14	NUM	_	NumType=Card	8	appos:parataxis	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	10	punct	_	_
+8	14	14	NUM	_	NumType=Card	6	appos:parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 
-# text = Essa é a quantidade de calor necessária para aquecer a água a 65°C e transformá- la em vapor a 281°C, ou seja, é a quantidade de calor útil.
-# sent_id = 399-20160722-MONOGRAFIA_0-289
+# text = Essa é a quantidade de calor necessária para aquecer a água a 65°C e transformá-la em vapor a 281°C, ou seja, é a quantidade de calor útil.
+# sent_id = 399-20160722-MONOGRAFIA_0-287
 1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7496,29 +7549,29 @@
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	água	água	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	a	a	ADP	_	_	13	case	_	_
-13	65°C	65°C	PROPN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+13	65°C	65°C	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 14	e	e	CCONJ	_	_	15	cc	_	_
-15	transformá	transformau	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	4	punct	_	_
-17	la	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	4	appos	_	_
-18	em	em	ADP	_	_	19	case	_	_
-19	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-20	a	a	ADP	_	_	21	case	_	_
-21	281°C	281°C	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	4	punct	_	_
-23	ou	ou	CCONJ	_	_	28	cc	_	_
-24	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	23	punct	_	_
-26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	calor	calor	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-31	útil	útil	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+15-16	transformá-la	_	_	_	_	_	_	_	_
+15	transformá	transformar	VERB	_	VerbForm=Inf	9	conj	_	_
+16	la	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	281°C	281°C	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	ou	ou	CCONJ	_	_	27	cc	_	_
+23	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	fixed	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	calor	calor	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+30	útil	útil	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A partir desse valor e através da Equação 15, pode-se encontrar a potência útil (Pu).
-# sent_id = 399-20160722-MONOGRAFIA_0-290
+# sent_id = 399-20160722-MONOGRAFIA_0-288
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -7546,7 +7599,7 @@
 22	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A potência absorvida (Pabs) pode ser encontrada através da Equação 16, na qual a potência perdida (Pperdida) é decorrente de perdas por radiação e convecção.
-# sent_id = 399-20160722-MONOGRAFIA_0-291
+# sent_id = 399-20160722-MONOGRAFIA_0-289
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	potência	potência	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	absorvida	absorvido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7584,7 +7637,7 @@
 33	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para efeito de cálculo e determinação da área do concentrador, foi estipulado que a potência perdida corresponde a 15% da potência útil.
-# sent_id = 399-20160722-MONOGRAFIA_0-292
+# sent_id = 399-20160722-MONOGRAFIA_0-290
 1	Para	para	ADP	_	_	2	case	_	_
 2	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7618,7 +7671,7 @@
 28	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Assim, através da potência absorvida e da Equação 17, a área do receptor pode ser determinada.
-# sent_id = 399-20160722-MONOGRAFIA_0-293
+# sent_id = 399-20160722-MONOGRAFIA_0-291
 1	Assim	assim	ADV	_	_	15	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	através	através	ADV	_	_	1	advmod	_	_
@@ -7646,7 +7699,7 @@
 22	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = (15) (16) (17) Onde Pabs = potência (W) Q = quantidade de calor total (J) t = tempo (s) ID = irradiação solar no ambiente (W/m²) AU = área útil (m²) ρ = refletividade do receptor Krd
-# sent_id = 399-20160722-MONOGRAFIA_0-294
+# sent_id = 399-20160722-MONOGRAFIA_0-292
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	15)	15)	NUM	_	NumType=Card	0	root	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7704,7 +7757,7 @@
 53	Krd	Krd	PROPN	_	Gender=Masc|Number=Sing	52	appos	_	_
 
 # text = = fração da radiação que chega ao tubo absorvedor α = absortividade do absorvedor Considerando o valor para a irradiação em Mossoró – RN aproximadamente 960 W/m² (VIEIRA, 2014), a refletividade do aço inox polido como 90%, que 95% da radiação que chega ao tubo receptor e que a sua absorção seja 90% (CURINGA, 2013): (18) (19) (20) 4.2.2.2 Situação 2
-# sent_id = 399-20160722-MONOGRAFIA_0-295
+# sent_id = 399-20160722-MONOGRAFIA_0-293
 1	=	=	SYM	_	_	0	root	_	_
 2	fração	fração	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7796,7 +7849,7 @@
 83	2	2	NUM	_	NumType=Card	50	nummod	_	_
 
 # text = Na Situação 2, na qual foi considerado que a massa de água a ser aquecida pelo concentrador é de 28.000 kg, o concentrador solar é inserido em série no sistema usual, entre o pré-aquecedor e a caldeira.
-# sent_id = 399-20160722-MONOGRAFIA_0-296
+# sent_id = 399-20160722-MONOGRAFIA_0-294
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7848,7 +7901,7 @@
 45	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A temperatura inicial da água inserida no concentrador é de 65°C e a temperatura final é de 100°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-297
+# sent_id = 399-20160722-MONOGRAFIA_0-295
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7874,14 +7927,14 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O objetivo dessa situação é diminuir o gasto com combustível.
-# sent_id = 399-20160722-MONOGRAFIA_0-298
+# sent_id = 399-20160722-MONOGRAFIA_0-296
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	situação	situação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpacesAfter=\s\n
 7	diminuir	diminuir	VERB	_	VerbForm=Inf	0	root	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	gasto	gasto	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -7890,7 +7943,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Diferentemente da Situação 1, não há mudança de estado da água, sendo necessário calcular apenas o calor sensível, através da Equação 8.
-# sent_id = 399-20160722-MONOGRAFIA_0-299
+# sent_id = 399-20160722-MONOGRAFIA_0-297
 1	Diferentemente	Diferentemente	ADV	_	_	8	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7925,7 +7978,7 @@
 29	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A Figura 20 mostra o sistema proposto para a situação 2.
-# sent_id = 399-20160722-MONOGRAFIA_0-300
+# sent_id = 399-20160722-MONOGRAFIA_0-298
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	20	20	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7939,20 +7992,8 @@
 11	2	2	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 20: Configuração 2 para o sistema proposto
-# sent_id = 399-20160722-MONOGRAFIA_0-301
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	20	20	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5	2	2	NUM	_	NumType=Card	4	nummod	_	_
-6	para	para	ADP	_	_	8	case	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-9	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
-
 # text = Para calcular a área para a Situação 2, também foram utilizadas as Equações 15, 16 e 17, visto que apenas a quantidade de calor foi alterada.
-# sent_id = 399-20160722-MONOGRAFIA_0-302
+# sent_id = 399-20160722-MONOGRAFIA_0-299
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	calcular	calcular	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7985,7 +8026,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = (22) (23) (24) 4.2.2.3 Situação 3
-# sent_id = 399-20160722-MONOGRAFIA_0-303
+# sent_id = 399-20160722-MONOGRAFIA_0-300
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	22	22	NUM	_	NumType=Card	5	appos:parataxis	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -7998,7 +8039,7 @@
 10	3	3	NUM	_	NumType=Card	9	nummod	_	_
 
 # text = Na Situação 3, na qual foi considerado que a massa de água a ser aquecida pelo concentrador é de 28.000 kg, o concentrador solar é inserido em série no sistema usual, substituindo o pré-aquecedor.
-# sent_id = 399-20160722-MONOGRAFIA_0-304
+# sent_id = 399-20160722-MONOGRAFIA_0-301
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8047,7 +8088,7 @@
 42	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A temperatura inicial da água é 35°C e a temperatura final é de 65°C, que é a temperatura na qual a água deve entrar na caldeira.
-# sent_id = 399-20160722-MONOGRAFIA_0-305
+# sent_id = 399-20160722-MONOGRAFIA_0-302
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8084,7 +8125,7 @@
 31	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O objetivo dessa situação é diminuir o gasto com energia.
-# sent_id = 399-20160722-MONOGRAFIA_0-306
+# sent_id = 399-20160722-MONOGRAFIA_0-303
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
@@ -8100,7 +8141,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim como na Situação 2, não há mudança de estado da água, sendo necessário calcular apenas o calor sensível, através da Equação 8.
-# sent_id = 399-20160722-MONOGRAFIA_0-307
+# sent_id = 399-20160722-MONOGRAFIA_0-304
 1	Assim	assim	SCONJ	_	_	5	cc	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8136,7 +8177,7 @@
 30	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = (25) (26)
-# sent_id = 399-20160722-MONOGRAFIA_0-308
+# sent_id = 399-20160722-MONOGRAFIA_0-305
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	25	25	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -8145,7 +8186,7 @@
 6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Na Figura 21 é mostrado o sistema proposto para a Situação 3.
-# sent_id = 399-20160722-MONOGRAFIA_0-309
+# sent_id = 399-20160722-MONOGRAFIA_0-306
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8160,16 +8201,16 @@
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 13	3	3	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 21:
-# sent_id = 399-20160722-MONOGRAFIA_0-310
+# sent_id = 399-20160722-MONOGRAFIA_0-307
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	21	21	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Configuração 3 para o sistema proposto Fonte:
-# sent_id = 399-20160722-MONOGRAFIA_0-311
+# sent_id = 399-20160722-MONOGRAFIA_0-308
 1	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -8180,13 +8221,13 @@
 8	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Autoria própria.
-# sent_id = 399-20160722-MONOGRAFIA_0-312
+# sent_id = 399-20160722-MONOGRAFIA_0-309
 1	Autoria	autoria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para calcular a área para a Situação 3, também foram utilizadas as Equações 15, 16 e 17, visto que apenas a quantidade de calor foi alterada.
-# sent_id = 399-20160722-MONOGRAFIA_0-313
+# sent_id = 399-20160722-MONOGRAFIA_0-310
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	calcular	calcular	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8219,7 +8260,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = (27) (28) (29) 4.2.2.4 Situação 4
-# sent_id = 399-20160722-MONOGRAFIA_0-314
+# sent_id = 399-20160722-MONOGRAFIA_0-311
 1	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	27)	27)	NUM	_	NumType=Card	9	nummod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -8232,7 +8273,7 @@
 10	4	4	NUM	_	NumType=Card	9	nummod	_	_
 
 # text = Na Situação 4, na qual foi considerado que a massa de água a ser aquecida pelo concentrador é de 28.000 kg, o concentrador solar é inserido em série no sistema usual, substituindo o pré-aquecedor e aquecendo a água até a temperatura de 100°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-315
+# sent_id = 399-20160722-MONOGRAFIA_0-312
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8290,7 +8331,7 @@
 51	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O objetivo dessa situação é diminuir o gasto com combustível e com energia.
-# sent_id = 399-20160722-MONOGRAFIA_0-316
+# sent_id = 399-20160722-MONOGRAFIA_0-313
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
@@ -8309,7 +8350,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim como nas Situações 2 e 3, não há mudança de estado da água, sendo necessário calcular apenas o calor sensível, através da Equação 8.
-# sent_id = 399-20160722-MONOGRAFIA_0-317
+# sent_id = 399-20160722-MONOGRAFIA_0-314
 1	Assim	assim	SCONJ	_	_	11	mark	_	_
 2	como	como	ADP	_	_	1	fixed	_	_
 3-4	nas	_	_	_	_	_	_	_	_
@@ -8347,7 +8388,7 @@
 32	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Na Figura 22 é mostrado o sistema proposto para a situação 4.
-# sent_id = 399-20160722-MONOGRAFIA_0-318
+# sent_id = 399-20160722-MONOGRAFIA_0-315
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8364,22 +8405,24 @@
 13	4	4	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Figura 22: Configuração 4 para o sistema proposto (31)
-# sent_id = 399-20160722-MONOGRAFIA_0-319
+# text = Figura 22: Configuração 4 para o sistema proposto (30) (31)
+# sent_id = 399-20160722-MONOGRAFIA_0-316
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	22	22	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-4	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+4	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 5	4	4	NUM	_	NumType=Card	4	nummod	_	_
 6	para	para	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-9	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
-10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	31)	31)	NUM	_	NumType=Card	1	appos	_	_
+8	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+9	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	SpacesAfter=\s\n
+10	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	30)	30)	NUM	_	NumType=Card	13	nummod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	31)	31)	NUM	_	NumType=Card	1	appos	_	_
 
 # text = Para calcular a área para a Situação 4, também foram utilizadas as Equações 15, 16 e 17, visto que apenas a quantidade de calor foi alterada.
-# sent_id = 399-20160722-MONOGRAFIA_0-320
+# sent_id = 399-20160722-MONOGRAFIA_0-317
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	calcular	calcular	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8412,7 +8455,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = (32) (33) (34) 4.2.2.5 Situação 5
-# sent_id = 399-20160722-MONOGRAFIA_0-321
+# sent_id = 399-20160722-MONOGRAFIA_0-318
 1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	32)	32)	NUM	_	NumType=Card	4	nummod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -8424,7 +8467,7 @@
 9	5	5	NUM	_	NumType=Card	8	nummod	_	_
 
 # text = Na Situação 5, na qual foi considerado que a massa de água a ser aquecida pelo concentrador é de 28.000 kg, o concentrador solar é inserido em série no sistema usual, substituindo o pré-aquecedor e aquecendo a água até a temperatura de 150°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-322
+# sent_id = 399-20160722-MONOGRAFIA_0-319
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8482,7 +8525,7 @@
 51	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O objetivo dessa situação é diminuir o gasto com combustível e com energia.
-# sent_id = 399-20160722-MONOGRAFIA_0-323
+# sent_id = 399-20160722-MONOGRAFIA_0-320
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
@@ -8501,7 +8544,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim como na Situação 1, há mudança de estado da água, então são considerados os calores latente e sensível.
-# sent_id = 399-20160722-MONOGRAFIA_0-324
+# sent_id = 399-20160722-MONOGRAFIA_0-321
 1	Assim	assim	SCONJ	_	_	8	mark	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8530,7 +8573,7 @@
 24	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A quantidade de calor necessária nessa etapa do processo é dada pelas Equações 8, 9 e 10.
-# sent_id = 399-20160722-MONOGRAFIA_0-325
+# sent_id = 399-20160722-MONOGRAFIA_0-322
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8558,7 +8601,7 @@
 22	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Na Figura 23 é mostrado o sistema proposto para a situação 5.
-# sent_id = 399-20160722-MONOGRAFIA_0-326
+# sent_id = 399-20160722-MONOGRAFIA_0-323
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8576,24 +8619,29 @@
 14	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 23:
-# sent_id = 399-20160722-MONOGRAFIA_0-327
+# sent_id = 399-20160722-MONOGRAFIA_0-324
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	23	23	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Configuração 5 para o sistema proposto (38)
-# sent_id = 399-20160722-MONOGRAFIA_0-328
-1	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+# text = Configuração 5 para o sistema proposto (36) (37) (38)
+# sent_id = 399-20160722-MONOGRAFIA_0-325
+1	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 3	para	para	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-6	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+6	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	SpacesAfter=\s\n
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	38)	38)	NUM	_	NumType=Card	0	root	_	_
+8	36	36	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	37)	37)	NUM	_	NumType=Card	13	nummod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	38)	38)	NUM	_	NumType=Card	0	root	_	_
 
 # text = Para calcular a área para a Situação 5, também foram utilizadas as Equações 15, 16 e 17, visto que apenas a quantidade de calor foi alterada.
-# sent_id = 399-20160722-MONOGRAFIA_0-329
+# sent_id = 399-20160722-MONOGRAFIA_0-326
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	calcular	calcular	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8626,7 +8674,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = (39) (40) (41)
-# sent_id = 399-20160722-MONOGRAFIA_0-330
+# sent_id = 399-20160722-MONOGRAFIA_0-327
 1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	39)	39)	NUM	_	NumType=Card	4	nummod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -8636,7 +8684,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = A situação 5 representa o máximo de energia que pode ser fornecida através de energia solar, considerando que a temperatura máxima que pode ser alcançada pelo concentrador é de 150°C. 4.2.3
-# sent_id = 399-20160722-MONOGRAFIA_0-331
+# sent_id = 399-20160722-MONOGRAFIA_0-328
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5	5	NUM	_	NumType=Card	2	appos	_	_
@@ -8673,7 +8721,7 @@
 33	4.2.3	4.2.3	PROPN	_	Number=Sing	32	flat:name	_	_
 
 # text = Área do Receptor
-# sent_id = 399-20160722-MONOGRAFIA_0-332
+# sent_id = 399-20160722-MONOGRAFIA_0-329
 1	Área	área	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8681,7 +8729,7 @@
 4	Receptor	Receptor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Para a escolha da área do concentrador, deve ser levada em consideração a área disponível do local.
-# sent_id = 399-20160722-MONOGRAFIA_0-333
+# sent_id = 399-20160722-MONOGRAFIA_0-330
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -8709,7 +8757,7 @@
 22	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Para facilitar a montagem e para obter uma melhor distribuição dos concentradores, foi considerada a área do receptor do concentrador igual a 3 m².
-# sent_id = 399-20160722-MONOGRAFIA_0-334
+# sent_id = 399-20160722-MONOGRAFIA_0-331
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	facilitar	facilitar	VERB	_	VerbForm=Inf	16	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8744,7 +8792,7 @@
 29	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = A Tabela 2 apresenta diferentes valores de largura e comprimento do concentrador que resultam em uma área de 3 m², para facilitar a escolha das dimensões.
-# sent_id = 399-20160722-MONOGRAFIA_0-335
+# sent_id = 399-20160722-MONOGRAFIA_0-332
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2	2	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -8779,7 +8827,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 2: Escolha das dimensões
-# sent_id = 399-20160722-MONOGRAFIA_0-336
+# sent_id = 399-20160722-MONOGRAFIA_0-333
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8787,10 +8835,10 @@
 5-6	das	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+7	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpacesAfter=\s\n
 
 # text = As dimensões escolhidas para largura e comprimento foram L = 1,20 m e B = 2,50 m, respectivamente.
-# sent_id = 399-20160722-MONOGRAFIA_0-337
+# sent_id = 399-20160722-MONOGRAFIA_0-334
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	escolhidas	escolher	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8813,7 +8861,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Para encontrar o foco do concentrador, foi considerada a Equação 42, que é a equação reduzida da parábola (WINTERLE, 2008).
-# sent_id = 399-20160722-MONOGRAFIA_0-338
+# sent_id = 399-20160722-MONOGRAFIA_0-335
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	encontrar	encontrar	VERB	_	VerbForm=Inf	10	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -8846,13 +8894,13 @@
 28	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = (42)
-# sent_id = 399-20160722-MONOGRAFIA_0-339
+# sent_id = 399-20160722-MONOGRAFIA_0-336
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	42	42	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Sabendo que (43) (44)
-# sent_id = 399-20160722-MONOGRAFIA_0-340
+# sent_id = 399-20160722-MONOGRAFIA_0-337
 1	Sabendo	saber	VERB	_	VerbForm=Ger	0	root	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
 3	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -8862,7 +8910,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = Onde y = altura máxima da concavidade da parábola f
-# sent_id = 399-20160722-MONOGRAFIA_0-341
+# sent_id = 399-20160722-MONOGRAFIA_0-338
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	y	y	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	=	=	SYM	_	_	0	root	_	_
@@ -8879,7 +8927,7 @@
 12	f	f	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 
 # text = = altura do ponto focal
-# sent_id = 399-20160722-MONOGRAFIA_0-342
+# sent_id = 399-20160722-MONOGRAFIA_0-339
 1	=	=	SYM	_	_	0	root	_	_
 2	altura	altura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8889,7 +8937,7 @@
 6	focal	focal	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 
 # text = Substituindo as Equações 43 e 44, obtém-se a Equação 45.
-# sent_id = 399-20160722-MONOGRAFIA_0-343
+# sent_id = 399-20160722-MONOGRAFIA_0-340
 1	Substituindo	Substituir	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	Equações	Equação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -8906,13 +8954,13 @@
 13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = (45)
-# sent_id = 399-20160722-MONOGRAFIA_0-344
+# sent_id = 399-20160722-MONOGRAFIA_0-341
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	45	45	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = A partir do valor da largura e do valor de y = 0,2 m aplicados na Equação 36, o foco do concentrador pode ser encontrado.
-# sent_id = 399-20160722-MONOGRAFIA_0-345
+# sent_id = 399-20160722-MONOGRAFIA_0-342
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	29	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8952,7 +9000,7 @@
 32	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = O valor de y foi escolhido e é igual a 0,2 m.
-# sent_id = 399-20160722-MONOGRAFIA_0-346
+# sent_id = 399-20160722-MONOGRAFIA_0-343
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8968,7 +9016,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Substituindo os valores de L e y: A Figura 24 apresenta um esquema com as principais dimensões do concentrador, em metros.
-# sent_id = 399-20160722-MONOGRAFIA_0-347
+# sent_id = 399-20160722-MONOGRAFIA_0-344
 1	Substituindo	Substituir	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	valores	valor	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -8997,29 +9045,21 @@
 25	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Figura 24:
-# sent_id = 399-20160722-MONOGRAFIA_0-348
+# sent_id = 399-20160722-MONOGRAFIA_0-345
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	24	24	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Dimensões do concentrador Fonte:
-# sent_id = 399-20160722-MONOGRAFIA_0-349
+# text = Dimensões do concentrador
+# sent_id = 399-20160722-MONOGRAFIA_0-346
 1	Dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-6	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Autoria própria.
-# sent_id = 399-20160722-MONOGRAFIA_0-350
-1	Autoria	autoria	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+4	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 
 # text = A Tabela 3 mostra a quantidade de concentradores com área
-# sent_id = 399-20160722-MONOGRAFIA_0-351
+# sent_id = 399-20160722-MONOGRAFIA_0-347
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3	3	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -9032,7 +9072,7 @@
 10	área	área	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = A = 3,00 m² necessários para cada uma das situações apresentadas no tópico 4.4.2.
-# sent_id = 399-20160722-MONOGRAFIA_0-352
+# sent_id = 399-20160722-MONOGRAFIA_0-348
 1	A	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	=	=	SYM	_	_	0	root	_	_
 3	3,00	3,00	NUM	_	NumType=Card	2	appos	_	_
@@ -9054,11 +9094,11 @@
 17	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 5
-# sent_id = 399-20160722-MONOGRAFIA_0-353
+# sent_id = 399-20160722-MONOGRAFIA_0-349
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 
 # text = ANÁLISE DOS RESULTADOS
-# sent_id = 399-20160722-MONOGRAFIA_0-354
+# sent_id = 399-20160722-MONOGRAFIA_0-350
 1	ANÁLISE	análise	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	DOS	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	3	case	_	_
@@ -9066,7 +9106,7 @@
 4	RESULTADOS	Resultados	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = No presente capítulo, será realizada a análise de viabilidade técnica dos resultados, que apresenta a quantidade de gás natural deixa de ser queimado e/ou quanto de energia deixa de ser consumida devido à inserção dos concentradores solares no processo de geração de vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-355
+# sent_id = 399-20160722-MONOGRAFIA_0-351
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9125,7 +9165,7 @@
 51	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Também será realizada a análise de viabilidade ambiental dos resultados, que mostra quanto de material particulado e de óxidos de nitrogênio deixam de ser emitidos para a atmosfera.
-# sent_id = 399-20160722-MONOGRAFIA_0-356
+# sent_id = 399-20160722-MONOGRAFIA_0-352
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
 3	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -9160,7 +9200,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Para que seja realizada a análise, é necessário calcular a quantidade de calor que é fornecida para gerar a quantidade total de vapor utilizada no processo.
-# sent_id = 399-20160722-MONOGRAFIA_0-357
+# sent_id = 399-20160722-MONOGRAFIA_0-353
 1	Para	para	SCONJ	_	_	4	mark	_	_
 2	que	que	SCONJ	_	_	4	mark	_	_
 3	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -9193,7 +9233,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Por dia, são gerados 3.480 m³ de vapor a 281°C, utilizando 12.336 m³ de combustível para aquecer 84.000 kg de água.
-# sent_id = 399-20160722-MONOGRAFIA_0-358
+# sent_id = 399-20160722-MONOGRAFIA_0-354
 1	Por	por	ADP	_	_	2	case	_	_
 2	dia	dia	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -9217,10 +9257,10 @@
 21	kg	kg	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	água	água	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = A quantidade de calor obtida através da queima de combustível (caldeira) e a quantidade de calor obtida através de energia elétrica (pré-aquecedor) podem ser obtidas através das Equações 8, 9 e 10.
-# sent_id = 399-20160722-MONOGRAFIA_0-359
+# sent_id = 399-20160722-MONOGRAFIA_0-355
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9265,7 +9305,7 @@
 40	.	.	PUNCT	_	_	30	punct	_	_
 
 # text = A temperatura inicial da água é 65°C e a temperatura final é 281°C, para a caldeira.
-# sent_id = 399-20160722-MONOGRAFIA_0-360
+# sent_id = 399-20160722-MONOGRAFIA_0-356
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9288,7 +9328,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Para o concentrador, as temperaturas inicial e final são, respectivamente, 35°C e 65°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-361
+# sent_id = 399-20160722-MONOGRAFIA_0-357
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	concentrador	concentrador	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
@@ -9304,26 +9344,24 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	35°C	35°C	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 15	e	e	CCONJ	_	_	16	cc	_	_
-16	65°C.	65°C.	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpacesAfter=\n
+16	65°C	65°C	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = (46)
-# sent_id = 399-20160722-MONOGRAFIA_0-362
-1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	46	46	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	)	)	PUNCT	_	_	2	punct	_	_
-
-# text = Para o pré-aquecedor: (47)
-# sent_id = 399-20160722-MONOGRAFIA_0-363
+# text = Para a caldeira: (46) (47)
+# sent_id = 399-20160722-MONOGRAFIA_0-358
 1	Para	para	ADP	_	_	3	case	_	_
-2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	pré-aquecedor	pré-aquecedor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	caldeira	caldeira	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	47	47	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	46	46	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	47	47	NUM	_	NumType=Card	3	appos:parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
 
 # text = A razão entre a quantidade de calor fornecida pelos concentradores para as Situações de 1 a 5, calculadas no tópico 4.2.2, e a quantidade de calor total necessária, apresentada pelas Equações 46 (caldeira) e 47 (pré-aquecedor), informa a porcentagem de combustível e/ou energia que deixa de ser consumido.
-# sent_id = 399-20160722-MONOGRAFIA_0-364
+# sent_id = 399-20160722-MONOGRAFIA_0-359
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	razão	razão	NOUN	_	Gender=Fem|Number=Sing	48	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -9389,7 +9427,7 @@
 60	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\n
 
 # text = 5.1 ANÁLISE DE VIABILIDADE TÉCNICA Nesta seção, será analisado quanto de gás natural deixará de ser queimado e quanto de energia elétrica deixará de ser consumida devido a utilização de energia solar para gerar vapor.
-# sent_id = 399-20160722-MONOGRAFIA_0-365
+# sent_id = 399-20160722-MONOGRAFIA_0-360
 1	5.1	5.1	NUM	_	NumType=Card	2	nummod	_	_
 2	ANÁLISE	Análise	PROPN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3	DE	DE	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -9431,13 +9469,13 @@
 38	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 5.1.1 Situação 1
-# sent_id = 399-20160722-MONOGRAFIA_0-366
+# sent_id = 399-20160722-MONOGRAFIA_0-361
 1	5.1.1	5.1.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Situação	Situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
 
-# text = Para a Situação 1, na qual a temperatura de entrada no sistema de aquecimento é 65°C e a temperatura de saída é 150°C, a quantidade de calor calculada, como mostrado no tópico 4.2.2.1, na Equação 13, foi de:
-# sent_id = 399-20160722-MONOGRAFIA_0-367
+# text = Para a Situação 1, na qual a temperatura de entrada no sistema de aquecimento é 65°C e a temperatura de saída é 150°C, a quantidade de calor calculada, como mostrado no tópico 4.2.2.1, na Equação 13, foi de: (48)
+# sent_id = 399-20160722-MONOGRAFIA_0-362
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Situação	situação	PROPN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -9465,7 +9503,7 @@
 23	de	de	ADP	_	_	24	case	_	_
 24	saída	saída	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
-26	150°C	150°C	PROPN	_	Gender=Masc|Number=Sing	47	nsubj	_	SpaceAfter=No
+26	150°C	150°C	PROPN	_	Gender=Masc|Number=Sing	46	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	26	appos	_	_
@@ -9480,31 +9518,22 @@
 37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	tópico	tópico	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
 39	4.2.2.1	4.2.2.1	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	43	punct	_	_
+40	,	,	PUNCT	_	_	35	punct	_	_
 41-42	na	_	_	_	_	_	_	_	_
 41	em	em	ADP	_	_	43	case	_	_
 42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+43	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 44	13	13	NUM	_	NumType=Card	43	nummod	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	43	punct	_	_
-46	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	cop	_	_
-47	de	de	ADP	_	_	0	root	_	SpaceAfter=No
-48	:	:	PUNCT	_	_	47	punct	_	_
-
-# text = Essa quantidade de calor corresponde a (48)
-# sent_id = 399-20160722-MONOGRAFIA_0-368
-1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	calor	calor	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	a	o	ADP	_	_	8	case	_	_
-7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	48	48	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	5	punct	_	_
+45	,	,	PUNCT	_	_	26	punct	_	_
+46	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+47	de	de	ADP	_	_	46	compound	_	SpaceAfter=No
+48	:	:	PUNCT	_	_	46	punct	_	_
+49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	48	48	NUM	_	NumType=Card	48	appos	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	50	punct	_	_
 
 # text = Nesse caso, 27,55% do calor gerado serão por meio de energia solar, ou seja, há uma redução de 27,55% de combustível.
-# sent_id = 399-20160722-MONOGRAFIA_0-369
+# sent_id = 399-20160722-MONOGRAFIA_0-363
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9538,7 +9567,7 @@
 29	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Não há diminuição do consumo de energia elétrica.
-# sent_id = 399-20160722-MONOGRAFIA_0-370
+# sent_id = 399-20160722-MONOGRAFIA_0-364
 1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
 2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -9549,19 +9578,19 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	energia	energia	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 9	elétrica	elétrico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 5.1.2
-# sent_id = 399-20160722-MONOGRAFIA_0-371
+# sent_id = 399-20160722-MONOGRAFIA_0-365
 1	5.1.2	5.1.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Situação 2
-# sent_id = 399-20160722-MONOGRAFIA_0-372
+# sent_id = 399-20160722-MONOGRAFIA_0-366
 1	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Para a Situação 2, na qual a temperatura de entrada no sistema de aquecimento é 65°C e a temperatura de saída é 100°C, a quantidade de calor calculada, como mostrado no tópico 4.2.2.2, na Equação 21, foi de:
-# sent_id = 399-20160722-MONOGRAFIA_0-373
+# sent_id = 399-20160722-MONOGRAFIA_0-367
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Situação	situação	PROPN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -9616,7 +9645,7 @@
 48	:	:	PUNCT	_	_	47	punct	_	_
 
 # text = Essa quantidade de calor corresponde a (49)
-# sent_id = 399-20160722-MONOGRAFIA_0-374
+# sent_id = 399-20160722-MONOGRAFIA_0-368
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9628,7 +9657,7 @@
 9	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Nesse caso, 1,55% do calor gerado será por meio de energia solar, ou seja, há uma redução de 1,55% de combustível.
-# sent_id = 399-20160722-MONOGRAFIA_0-375
+# sent_id = 399-20160722-MONOGRAFIA_0-369
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9662,7 +9691,7 @@
 29	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Assim como na Situação 1, não há redução no consumo de energia elétrica.
-# sent_id = 399-20160722-MONOGRAFIA_0-376
+# sent_id = 399-20160722-MONOGRAFIA_0-370
 1	Assim	assim	SCONJ	_	_	9	mark	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -9684,16 +9713,16 @@
 17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 5.1.3
-# sent_id = 399-20160722-MONOGRAFIA_0-377
+# sent_id = 399-20160722-MONOGRAFIA_0-371
 1	5.1.3	5.1.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Situação 3
-# sent_id = 399-20160722-MONOGRAFIA_0-378
+# sent_id = 399-20160722-MONOGRAFIA_0-372
 1	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Para a situação 3, na qual a temperatura de entrada no sistema de aquecimento é 35°C e a temperatura de saída é 65°C, a quantidade de calor calculada, como mostrado no tópico 4.2.2.3, na Equação 25 foi de:
-# sent_id = 399-20160722-MONOGRAFIA_0-379
+# sent_id = 399-20160722-MONOGRAFIA_0-373
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	situação	situação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -9747,7 +9776,7 @@
 47	:	:	PUNCT	_	_	26	punct	_	_
 
 # text = Essa quantidade de calor corresponde a (50)
-# sent_id = 399-20160722-MONOGRAFIA_0-380
+# sent_id = 399-20160722-MONOGRAFIA_0-374
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9759,7 +9788,7 @@
 9	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Para a situação 3, não há redução de combustível, apenas de energia elétrica, pois o sistema substitui o pré-aquecedor.
-# sent_id = 399-20160722-MONOGRAFIA_0-381
+# sent_id = 399-20160722-MONOGRAFIA_0-375
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	situação	situação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -9785,7 +9814,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A redução é de 33,34%, pois o sistema funciona durante um terço do dia.
-# sent_id = 399-20160722-MONOGRAFIA_0-382
+# sent_id = 399-20160722-MONOGRAFIA_0-376
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	redução	redução	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -9807,14 +9836,14 @@
 18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 5.1.4 Situação 4
-# sent_id = 399-20160722-MONOGRAFIA_0-383
+# sent_id = 399-20160722-MONOGRAFIA_0-377
 1	5.1.	5.1	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	4	4	NUM	_	NumType=Card	1	flat	_	_
 3	Situação	Situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 4	4	4	NUM	_	NumType=Card	3	nummod	_	_
 
 # text = Para a situação 4, na qual a temperatura de entrada no sistema de aquecimento é 35°C e a temperatura de saída é 100°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-384
+# sent_id = 399-20160722-MONOGRAFIA_0-378
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	situação	situação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -9846,7 +9875,7 @@
 27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Para a caldeira, a quantidade de calor corresponde a: (51) (52)
-# sent_id = 399-20160722-MONOGRAFIA_0-385
+# sent_id = 399-20160722-MONOGRAFIA_0-379
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	caldeira	caldeira	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
@@ -9857,7 +9886,7 @@
 8	calor	calor	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	a	o	ADP	_	_	11	case	_	SpaceAfter=No
-11	:	:	PUNCT	_	_	9	punct	_	_
+11	:	:	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	51	51	NUM	_	NumType=Card	9	appos:parataxis	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
@@ -9866,7 +9895,7 @@
 17	)	)	PUNCT	_	_	16	punct	_	_
 
 # text = Nesse caso, há redução do uso de combustível é de 1,55%, enquanto a redução de energia corresponde a 33,34%.
-# sent_id = 399-20160722-MONOGRAFIA_0-386
+# sent_id = 399-20160722-MONOGRAFIA_0-380
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9897,16 +9926,16 @@
 26	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = 5.1.5
-# sent_id = 399-20160722-MONOGRAFIA_0-387
+# sent_id = 399-20160722-MONOGRAFIA_0-381
 1	5.1.5	5.1.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Situação 5
-# sent_id = 399-20160722-MONOGRAFIA_0-388
+# sent_id = 399-20160722-MONOGRAFIA_0-382
 1	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Para a Situação 5, na qual a temperatura de entrada no sistema de aquecimento é 35°C e a temperatura de saída é 150°C.
-# sent_id = 399-20160722-MONOGRAFIA_0-389
+# sent_id = 399-20160722-MONOGRAFIA_0-383
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Situação	situação	PROPN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -9938,7 +9967,7 @@
 27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Para a caldeira, a quantidade de calor corresponde a: (53)
-# sent_id = 399-20160722-MONOGRAFIA_0-390
+# sent_id = 399-20160722-MONOGRAFIA_0-384
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	caldeira	caldeira	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
@@ -9955,7 +9984,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = Para o pré-aquecedor, a quantidade de calor corresponde a: (54)
-# sent_id = 399-20160722-MONOGRAFIA_0-391
+# sent_id = 399-20160722-MONOGRAFIA_0-385
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	pré-aquecedor	pré-aquecedor	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
@@ -9972,7 +10001,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = Nesse caso, há redução do uso de combustível é de 27,55%, enquanto a redução de energia corresponde a 33,34%.
-# sent_id = 399-20160722-MONOGRAFIA_0-392
+# sent_id = 399-20160722-MONOGRAFIA_0-386
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -10003,7 +10032,7 @@
 26	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = 5.2 ANÁLISE DE VIABILIDADE AMBIENTAL
-# sent_id = 399-20160722-MONOGRAFIA_0-393
+# sent_id = 399-20160722-MONOGRAFIA_0-387
 1	5.2	5.2	NUM	_	NumType=Card	2	nummod	_	_
 2	ANÁLISE	análise	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	DE	de	ADP	_	_	4	case	_	_
@@ -10011,7 +10040,7 @@
 5	AMBIENTAL	ambiental	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Nesta seção, será calculada a quantidade de combustível que pode ser economizada, bem como o quanto pode ser reduzido de emissão de material particulado e NOX nas Situações 1, 2, 4 e 5.
-# sent_id = 399-20160722-MONOGRAFIA_0-394
+# sent_id = 399-20160722-MONOGRAFIA_0-388
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -10056,7 +10085,7 @@
 40	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Não foi realizada análise de viabilidade ambiental para a Situação 3, pois não houve redução no uso de combustível.
-# sent_id = 399-20160722-MONOGRAFIA_0-395
+# sent_id = 399-20160722-MONOGRAFIA_0-389
 1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -10082,7 +10111,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A Tabela 4 apresenta os fatores de emissão para o gás natural em caldeiras, que serão aplicados na Equação 55 para encontrar a massa de poluentes.
-# sent_id = 399-20160722-MONOGRAFIA_0-396
+# sent_id = 399-20160722-MONOGRAFIA_0-390
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4	4	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -10115,7 +10144,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 4: Fatores de emissão Material Fator de Emissão Particulado 0,016 a 0,08 g/m3
-# sent_id = 399-20160722-MONOGRAFIA_0-397
+# sent_id = 399-20160722-MONOGRAFIA_0-391
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -10125,7 +10154,7 @@
 7	Material	material	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
 8	Fator	fator	PROPN	_	Number=Sing	7	flat:name	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	Emissão	emissão	PROPN	_	Number=Sing	7	nmod	_	_
+10	Emissão	emissão	PROPN	_	Number=Sing	7	nmod	_	SpacesAfter=\s\n
 11	Particulado	Particular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 12	0,016	0,016	NUM	_	NumType=Card	11	obj	_	_
 13	a	a	ADP	_	_	15	case	_	_
@@ -10133,28 +10162,42 @@
 15	g	g	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 16	/m3	/m3	NUM	_	NumType=Card	15	nummod	_	_
 
-# text = NOX 4,48 g/m³ (55)
-# sent_id = 399-20160722-MONOGRAFIA_0-398
+# text = NOX 4,48 g/m³ Fonte: CARVALHO JÚNIOR (2003).
+# sent_id = 399-20160722-MONOGRAFIA_0-392
 1	NOX	Nox	ADP	_	_	3	case	_	_
 2	4,48	4,48	NUM	_	NumType=Card	3	nummod	_	_
 3	g	g	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-4	/m³	/m³	PROPN	_	Number=Sing	3	nmod	_	_
-5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	55	55	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
+4	/m³	/m³	PROPN	_	Number=Sing	3	flat:name	_	_
+5	Fonte	Fonte	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	3	punct	_	_
+7	CARVALHO	Carvalho	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
+8	JÚNIOR	Júnior	PROPN	_	Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	2003	2003	NUM	_	NumType=Card	3	appos:parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = Onde mp = massa de poluentes fe
-# sent_id = 399-20160722-MONOGRAFIA_0-399
-1	Onde	onde	ADV	_	_	3	advmod	_	_
-2	mp	mp	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	=	=	SYM	_	_	0	root	_	_
-4	massa	massa	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	poluentes	poluente	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
-7	fe	fe	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+# text = (55)
+# sent_id = 399-20160722-MONOGRAFIA_0-393
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	55	55	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+
+# text = Onde mp
+# sent_id = 399-20160722-MONOGRAFIA_0-394
+1	Onde	onde	ADV	_	_	2	advmod	_	_
+2	mp	mp	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+
+# text = = massa de poluentes fe
+# sent_id = 399-20160722-MONOGRAFIA_0-395
+1	=	=	SYM	_	_	0	root	_	_
+2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	poluentes	poluente	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+5	fe	fe	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = = fator de emissão Vge
-# sent_id = 399-20160722-MONOGRAFIA_0-400
+# sent_id = 399-20160722-MONOGRAFIA_0-396
 1	=	=	SYM	_	_	0	root	_	_
 2	fator	fator	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10162,7 +10205,7 @@
 5	Vge	Vge	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 
 # text = = volume de gás economizado
-# sent_id = 399-20160722-MONOGRAFIA_0-401
+# sent_id = 399-20160722-MONOGRAFIA_0-397
 1	=	=	SYM	_	_	0	root	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10170,7 +10213,7 @@
 5	economizado	economizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 
 # text = O volume de gás natural economizado pode ser encontrado através da Equação 55.
-# sent_id = 399-20160722-MONOGRAFIA_0-402
+# sent_id = 399-20160722-MONOGRAFIA_0-398
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10189,36 +10232,39 @@
 15	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = (56)
-# sent_id = 399-20160722-MONOGRAFIA_0-403
+# sent_id = 399-20160722-MONOGRAFIA_0-399
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	56	56	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Onde rg
-# sent_id = 399-20160722-MONOGRAFIA_0-404
+# sent_id = 399-20160722-MONOGRAFIA_0-400
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	rg	rg	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = = redução de gás natural
-# sent_id = 399-20160722-MONOGRAFIA_0-405
+# sent_id = 399-20160722-MONOGRAFIA_0-401
 1	=	=	SYM	_	_	0	root	_	_
 2	redução	redução	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	gás	gás	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	natural	natural	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 
-# text = Vg = volume de gás natural utilizado
-# sent_id = 399-20160722-MONOGRAFIA_0-406
-1	Vg	Vg	PROPN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
-2	=	=	SYM	_	_	7	nsubj:pass	_	_
-3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	gás	gás	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-6	natural	natural	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-7	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+# text = Vg
+# sent_id = 399-20160722-MONOGRAFIA_0-402
+1	Vg	Vg	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+
+# text = = volume de gás natural utilizado
+# sent_id = 399-20160722-MONOGRAFIA_0-403
+1	=	=	SYM	_	_	6	nsubj:pass	_	_
+2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	gás	gás	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	natural	natural	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 
 # text = O volume de gás natural utilizado por hora é de 514 m³.
-# sent_id = 399-20160722-MONOGRAFIA_0-407
+# sent_id = 399-20160722-MONOGRAFIA_0-404
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10233,8 +10279,8 @@
 12	m³	m³	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
 
-# text = Assim, por dia, são utilizados 12.336 m³. 5.2.1 Situações 1 e 5
-# sent_id = 399-20160722-MONOGRAFIA_0-408
+# text = Assim, por dia, são utilizados 12.336 m³. 5.2.1
+# sent_id = 399-20160722-MONOGRAFIA_0-405
 1	Assim	assim	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -10242,16 +10288,19 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 7	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-8	12.336	12.336	NUM	_	NumType=Card	9	nummod	_	_
-9	m³.	m³.	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	SpacesAfter=\n
-10	5.2.1	5.2.1	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
-11	Situações	situações	PROPN	_	Number=Sing	10	flat:name	_	_
-12	1	1	NUM	_	NumType=Card	7	conj	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	5	5	NUM	_	NumType=Card	12	conj	_	_
+8	12.336	12.336	NUM	_	NumType=Card	7	nsubj:pass	_	_
+9	m³.	m³.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	SpacesAfter=\n
+10	5.2.1	5.2.1	NUM	_	NumType=Card	8	flat	_	_
 
-# text = Para as Situações 1 e 5, utilizando as Equações 55 e 56, a massa de poluentes que deixou de ser emitida foi de: (57) (58) (59)
-# sent_id = 399-20160722-MONOGRAFIA_0-409
+# text = Situações 1 e 5
+# sent_id = 399-20160722-MONOGRAFIA_0-406
+1	Situações	situação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	1	1	NUM	_	NumType=Card	1	nummod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	5	5	NUM	_	NumType=Card	2	conj	_	_
+
+# text = Para as Situações 1 e 5, utilizando as
+# sent_id = 399-20160722-MONOGRAFIA_0-407
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	Situações	situação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
@@ -10259,35 +10308,38 @@
 5	e	e	CCONJ	_	_	6	cc	_	_
 6	5	5	NUM	_	NumType=Card	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
-9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	Equações	Equação	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
-11	55	55	NUM	_	NumType=Card	10	nummod	_	_
-12	e	e	CCONJ	_	_	13	cc	_	_
-13	56	56	NUM	_	NumType=Card	11	conj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	8	punct	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	massa	massa	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	poluentes	poluente	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-19	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	23	nsubj:pass	_	_
-20	deixou	deixar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
-21	de	de	ADP	_	_	20	compound	_	_
-22	ser	ser	AUX	_	VerbForm=Inf	23	aux:pass	_	_
-23	emitida	emitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	28	acl:relcl	_	_
-24	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
-25	de	de	ADP	_	_	28	case	_	SpaceAfter=No
-26	:	:	PUNCT	_	_	25	punct	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	57)	57)	NUM	_	NumType=Card	16	nummod	_	_
-29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	58)	58)	NUM	_	NumType=Card	28	appos	_	_
-31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	59	59	NUM	_	NumType=Card	30	appos:parataxis	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	32	punct	_	_
+8	utilizando	utilizar	VERB	_	VerbForm=Ger	9	acl	_	_
+9	as	as	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	0	root	_	_
+
+# text = Equações 55 e 56, a massa de poluentes que deixou de ser emitida foi de: (57) (58) (59)
+# sent_id = 399-20160722-MONOGRAFIA_0-408
+1	Equações	Equação	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+2	55	55	NUM	_	NumType=Card	1	nummod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	56	56	NUM	_	NumType=Card	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	massa	massa	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	poluentes	poluente	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	14	nsubj:pass	_	_
+11	deixou	deixar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+12	de	de	ADP	_	_	11	compound	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	14	aux:pass	_	_
+14	emitida	emitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+15	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+16	de	de	ADP	_	_	19	case	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	57)	57)	NUM	_	NumType=Card	0	root	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	58)	58)	NUM	_	NumType=Card	19	appos	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	59	59	NUM	_	NumType=Card	21	appos:parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
 
 # text = Desta forma, são economizados 3.398,57 m³ de gás natural, resultando em 271,89 g de material particulado e 15.225,59 g de óxidos de nitrogênio que deixam de ser emitidos na atmosfera, por dia.
-# sent_id = 399-20160722-MONOGRAFIA_0-410
+# sent_id = 399-20160722-MONOGRAFIA_0-409
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -10329,13 +10381,17 @@
 37	dia	dia	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = 5.2.2 Situações 2 e 4
+# text = 5.2.2
+# sent_id = 399-20160722-MONOGRAFIA_0-410
+1	5.2	5.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
+
+# text = Situações 2 e 4
 # sent_id = 399-20160722-MONOGRAFIA_0-411
-1	5.2.2	5.2.2	NUM	_	NumType=Card	2	nummod	_	_
-2	Situações	situações	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-3	2	2	NUM	_	NumType=Card	2	nummod	_	_
-4	e	e	CCONJ	_	_	5	cc	_	_
-5	4	4	NUM	_	NumType=Card	3	conj	_	_
+1	Situações	situação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	2	2	NUM	_	NumType=Card	1	nummod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	4	4	NUM	_	NumType=Card	2	conj	_	_
 
 # text = Para as Situações 2 e 4, a massa de poluentes que deixou de ser emitida foi de: (60) (61) (62)
 # sent_id = 399-20160722-MONOGRAFIA_0-412
@@ -10361,7 +10417,7 @@
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	60)	60)	NUM	_	NumType=Card	9	nummod	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	61)	61)	NUM	_	NumType=Card	21	appos:parataxis	_	_
+23	61)	61)	NUM	_	NumType=Card	21	appos:parataxis	_	SpacesAfter=\s\n
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	62	62	NUM	_	NumType=Card	23	appos:parataxis	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	25	punct	_	_
@@ -10404,7 +10460,7 @@
 32	em	em	ADP	_	_	34	case	_	_
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 6 CONCLUSÃO O presente capítulo apresenta a avaliação geral do sistema proposto, com a inserção de concentradores solares na cadeia de geração de vapor, de acordo com os resultados obtidos nas análises de viabilidade técnica e ambiental.
 # sent_id = 399-20160722-MONOGRAFIA_0-414
@@ -10743,12 +10799,12 @@
 36	%	%	SYM	_	_	28	obl	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	12	punct	_	_
 
-# text = Na Situação 4, além de ter reduzido o uso de energia elétrica em 33,34% devido a substituição do pré- aquecedor, houve redução de 1,55% de uso de gás natural.
+# text = Na Situação 4, além de ter reduzido o uso de energia elétrica em 33,34% devido a substituição do pré-aquecedor, houve redução de 1,55% de uso de gás natural.
 # sent_id = 399-20160722-MONOGRAFIA_0-427
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+3	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
 4	4	4	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	além	além	ADV	_	_	9	mark	_	_
@@ -10767,22 +10823,21 @@
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	substituição	substituição	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 21-22	do	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	24	case	_	_
-22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-23	pré-	pré-	PUNCT	_	_	24	punct	_	_
-24	aquecedor	aquecedor	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	9	punct	_	_
-26	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-27	redução	redução	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	1,55	1,55	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
-30	%	%	SYM	_	_	27	nmod	_	_
-31	de	de	ADP	_	_	32	case	_	_
-32	uso	uso	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-33	de	de	ADP	_	_	34	case	_	_
-34	gás	gás	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
-35	natural	natural	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	26	punct	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	pré-aquecedor	pré-aquecedor	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	9	punct	_	_
+25	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	redução	redução	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	1,55	1,55	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	_	_	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	uso	uso	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	gás	gás	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+34	natural	natural	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Por fim, na Situação 5, a temperatura da água foi elevada de 35°C a 150°C.
 # sent_id = 399-20160722-MONOGRAFIA_0-428
@@ -10952,7 +11007,7 @@
 19	15,30	15,30	NUM	_	NumType=Card	20	nummod	_	_
 20	g	g	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
 21	de	de	ADP	_	_	22	case	_	_
-22	material	material	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+22	material	material	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpacesAfter=\s\n
 23	particulado	particular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
 24	e	e	CCONJ	_	_	26	cc	_	_
 25	856,62	856,62	NUM	_	NumType=Card	26	nummod	_	_

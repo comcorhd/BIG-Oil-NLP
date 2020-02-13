@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 303-20150917-TESEMSC_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO 1.1.
@@ -450,7 +450,7 @@
 9	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	2007	2007	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-12	;	;	PUNCT	_	_	1	punct	_	_
+12	;	;	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 
 # text = DIAS-BRITO, 1987; DIAS-BRITO, 2000;
 # sent_id = 303-20150917-TESEMSC_0-15
@@ -988,7 +988,7 @@
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	2014	2014	NUM	_	NumType=Card	34	appos:parataxis	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Ainda de acordo com Arai (2009) e com a proposta de Dias-Brito (2009), no Aptiano - Albiano, o Atlântico Sul Setentrional era ainda um mar alongado e restrito, com forte influência de águas tetianas; o Atlântico Sul Meridional, por sua vez, apresentava circulação oceânica mais intensa e era banhado por águas austrais, fato este atestado pelo registro sedimentar da Bacia de Pelotas que mostra um ambiente francamente marinho e com assembleia de dinoflagelados de alta diversidade.
 # sent_id = 303-20150917-TESEMSC_0-30
@@ -1409,7 +1409,7 @@
 23	anos	ano	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	exploração	exploração	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 1.
 # sent_id = 303-20150917-TESEMSC_0-42
@@ -1654,7 +1654,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	biota	biota	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	planctônica	planctônico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = O objeto de estudo do presente trabalho é a Supersequência
 # sent_id = 303-20150917-TESEMSC_0-60
@@ -1773,7 +1773,7 @@
 18	Eocretáceo	Eocretáceo	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = Com o desenvolvimento de pesquisas posteriores baseadas em registros sedimentares e fósseis, foram surgindo evidências de que o momento crucial da abertura foi o intervalo compreendido entre o Aptiano e o Albiano (CHANG & KOUSMANN, 1987; DIAS- BRITO, 1987;
+# text = Com o desenvolvimento de pesquisas posteriores baseadas em registros sedimentares e fósseis, foram surgindo evidências de que o momento crucial da abertura foi o intervalo compreendido entre o Aptiano e o Albiano (CHANG & KOUSMANN, 1987; DIAS-BRITO, 1987;
 # sent_id = 303-20150917-TESEMSC_0-64
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1809,7 +1809,7 @@
 31	Aptiano	Aptiano	PROPN	_	Gender=Masc|Number=Sing	28	obl	_	_
 32	e	e	CCONJ	_	_	34	cc	_	_
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	Albiano	Albiano	PROPN	_	Gender=Masc|Number=Sing	44	conj	_	_
+34	Albiano	Albiano	PROPN	_	Gender=Masc|Number=Sing	31	conj	_	_
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
 36	CHANG	Chang	PROPN	_	Gender=Masc|Number=Sing	34	appos	_	_
 37	&	&	PROPN	_	Number=Sing	36	flat:name	_	_
@@ -1817,12 +1817,10 @@
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	1987	1987	NUM	_	NumType=Card	36	appos:parataxis	_	SpaceAfter=No
 41	;	;	PUNCT	_	_	36	punct	_	_
-42	DIAS	Dias	PROPN	_	Gender=Masc|Number=Sing	36	conj	_	SpaceAfter=No
-43	-	-	PUNCT	_	_	36	punct	_	_
-44	BRITO	Brito	PROPN	_	Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	28	punct	_	_
-46	1987	1987	NUM	_	NumType=Card	27	appos	_	SpaceAfter=No
-47	;	;	PUNCT	_	_	15	punct	_	_
+42	DIAS-BRITO	Dias-brito	NOUN	_	Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	28	punct	_	_
+44	1987	1987	NUM	_	NumType=Card	27	appos	_	SpaceAfter=No
+45	;	;	PUNCT	_	_	15	punct	_	_
 
 # text = KENNEDY & COOPER, 1975; KOUTSOUKOS & DIAS-BRITO, 1987).
 # sent_id = 303-20150917-TESEMSC_0-65
@@ -1840,7 +1838,7 @@
 12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Os primeiros sedimentos essencialmente marinhos da Bacia de Campos foram devidamente caracterizados por foraminíferos e nanofósseis calcários de idade albiana, cuja associação denota ambiente deposicional raso e restrito, de águas quentes e bem oxigenadas, concordante com o ambiente esperado para o Atlântico primitivo (DIAS- BRITO, 1982;
+# text = Os primeiros sedimentos essencialmente marinhos da Bacia de Campos foram devidamente caracterizados por foraminíferos e nanofósseis calcários de idade albiana, cuja associação denota ambiente deposicional raso e restrito, de águas quentes e bem oxigenadas, concordante com o ambiente esperado para o Atlântico primitivo (DIAS-BRITO, 1982;
 # sent_id = 303-20150917-TESEMSC_0-66
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
@@ -1885,18 +1883,16 @@
 40	com	com	ADP	_	_	42	case	_	_
 41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
-43	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	51	acl	_	_
+43	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	42	acl	_	_
 44	para	para	ADP	_	_	46	case	_	_
 45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	Atlântico	Atlântico	PROPN	_	Gender=Masc|Number=Sing	43	obl	_	_
 47	primitivo	primitivo	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
 48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
-49	DIAS	Dias	PROPN	_	Gender=Masc|Number=Sing	46	appos	_	SpaceAfter=No
-50	-	-	PUNCT	_	_	49	punct	_	_
-51	BRITO	Brito	PROPN	_	Gender=Masc|Number=Sing	42	appos	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	53	punct	_	_
-53	1982	1982	NUM	_	NumType=Card	13	conj	_	SpaceAfter=No
-54	;	;	PUNCT	_	_	13	punct	_	_
+49	DIAS-BRITO	DIAS-BRITO	PROPN	_	Gender=Masc|Number=Sing	46	appos	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	51	punct	_	_
+51	1982	1982	NUM	_	NumType=Card	49	appos	_	SpaceAfter=No
+52	;	;	PUNCT	_	_	13	punct	_	_
 
 # text = AZEVEDO et al., 1987).
 # sent_id = 303-20150917-TESEMSC_0-67
@@ -2087,7 +2083,7 @@
 44	partir	partir	NOUN	_	_	43	fixed	_	_
 45	de	de	ADP	_	_	46	case	_	_
 46	então	então	ADV	_	_	42	advmod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Figura 2.
 # sent_id = 303-20150917-TESEMSC_0-73
@@ -2130,7 +2126,7 @@
 5	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	2007	2007	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 1.5.
 # sent_id = 303-20150917-TESEMSC_0-76
@@ -2599,7 +2595,7 @@
 10	Lana	lana	PROPN	_	Gender=Masc|Number=Sing	8	obl:agent	_	_
 11	&	&	PROPN	_	Number=Sing	10	flat:name	_	_
 12	Botelho	Botelho	PROPN	_	Number=Sing	10	flat:name	_	_
-13	Neto	Neto	PROPN	_	Number=Sing	10	flat:name	_	_
+13	Neto	Neto	PROPN	_	Number=Sing	10	flat:name	_	SpacesAfter=\s\n
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	1989	1989	NUM	_	NumType=Card	10	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -2839,7 +2835,7 @@
 41	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
 42	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	43	det	_	_
 43	sedimentação	sedimentação	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 1.6.
 # sent_id = 303-20150917-TESEMSC_0-95
@@ -3057,7 +3053,7 @@
 22	Oceano	Oceano	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	Atlântico	Atlântico	PROPN	_	Number=Sing	22	flat:name	_	_
 24	Sul	Sul	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 303-20150917-TESEMSC_0-103
@@ -3343,7 +3339,7 @@
 17	Cretáceo	Cretáceo	PROPN	_	Number=Sing	16	flat:name	_	_
 18	Inferior	inferior	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.
 # sent_id = 303-20150917-TESEMSC_0-114
@@ -3631,7 +3627,7 @@
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+5	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	SpacesAfter=\s\n
 6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
 7	efetuada	efetuar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 8	até	até	ADP	_	_	10	case	_	_
@@ -4111,7 +4107,7 @@
 18	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 19	com	com	ADP	_	_	21	case	_	_
 20	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-21	facilidade	facilidade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	facilidade	facilidade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpacesAfter=\s\n
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	ARAI	ARAI	PROPN	_	Gender=Fem|Number=Sing	21	appos	_	_
 24	&	&	PROPN	_	Number=Sing	23	flat:name	_	_
@@ -4569,7 +4565,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	1996	1996	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6.
 # sent_id = 303-20150917-TESEMSC_0-157
@@ -4945,7 +4941,7 @@
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	1980	1980	NUM	_	NumType=Card	34	appos:parataxis	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7.
 # sent_id = 303-20150917-TESEMSC_0-172
@@ -5149,7 +5145,7 @@
 # sent_id = 303-20150917-TESEMSC_0-180
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dinocistos	dinocisto	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
-3	oferecem	oferecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	oferecem	oferecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\n
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	estratigráfica	estratigráfico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
@@ -5532,7 +5528,7 @@
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 29	dois	dois	NUM	_	NumType=Card	30	nummod	_	_
 30	casos	caso	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 1.
 # sent_id = 303-20150917-TESEMSC_0-198
@@ -5951,7 +5947,7 @@
 11	quantidades	quantidade	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	evaporitos	evaporito	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	16	punct	_	_
+14	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
 15	como	como	ADP	_	_	16	case	_	_
 16	Santos	santo	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -6296,7 +6292,7 @@
 26	esporos	esporo	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 27	e	e	CCONJ	_	_	28	cc	_	_
 28	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Palinomorfos continentais SPORITES
 # sent_id = 303-20150917-TESEMSC_0-231
@@ -6476,7 +6472,7 @@
 3	PFLUG	PFLUG	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	1953	1953	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Espécie-tipo: Classopolis classoides PFLUG, 1953.
 # sent_id = 303-20150917-TESEMSC_0-249
@@ -6691,7 +6687,7 @@
 2	botânica	botânico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 4	Cycadaceae	Cycadaceae	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Cycadopites spp. Estampa I, Foto 3.
 # sent_id = 303-20150917-TESEMSC_0-264
@@ -6906,7 +6902,7 @@
 12	;	;	PUNCT	_	_	1	punct	_	_
 13	1955,45	1955,45	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 14	m	m	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Elaterosporites protensus (STOVER) JARDINÉ, 1967.
 # sent_id = 303-20150917-TESEMSC_0-282
@@ -7127,7 +7123,7 @@
 
 # text = Ephedraceae/Gnetaceae Gnetaceaepollenites spp.
 # sent_id = 303-20150917-TESEMSC_0-299
-1	Ephedraceae/Gnetaceae	Ephedraceae/Gnetaceae	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+1	Ephedraceae/Gnetaceae	Ephedraceae/Gnetaceae	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
 2	Gnetaceaepollenites	Gnetaceaepollenites	PROPN	_	Number=Sing	1	flat:name	_	_
 3	spp.	spp.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
@@ -7353,7 +7349,7 @@
 16	unisserial	unisserial	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 17	e	e	CCONJ	_	_	18	cc	_	_
 18	bisserial	bisserial	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Ocorrência neste trabalho:
 # sent_id = 303-20150917-TESEMSC_0-317
@@ -7542,7 +7538,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
 10	1951,8m	1951,8r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Adnatosphaeridium WILLIAMS & DOWNIE, 1966.
 # sent_id = 303-20150917-TESEMSC_0-330
@@ -7740,7 +7736,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 10	2467,5m	2467,5m	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Caligodinium DRUGG, 1970.
 # sent_id = 303-20150917-TESEMSC_0-350
@@ -7923,7 +7919,7 @@
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 10	1942,75	1942,75	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 11	m	m	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Circulodinium paucispinum (DAVEY, 1969)
 # sent_id = 303-20150917-TESEMSC_0-365
@@ -8115,7 +8111,7 @@
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 10	2469,25	2469,25	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 11	m	m	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Cordosphaeridium EISENACK, 1963b.
 # sent_id = 303-20150917-TESEMSC_0-382
@@ -8282,7 +8278,7 @@
 5	EISENACK	EISENACK	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1974	1974	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Craspedodinium indistinctum COOKSON & EISENACK, 1974.
 # sent_id = 303-20150917-TESEMSC_0-397
@@ -8446,7 +8442,7 @@
 10	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 11	1942,75	1942,75	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 12	m	m	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Cribroperidinium tensiftense BELOW, 1981.
 # sent_id = 303-20150917-TESEMSC_0-409
@@ -8626,7 +8622,7 @@
 13	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 14	1936,1	1936,1	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 15	m	m	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Dapsilidinium BUJAK et al., 1980.
 # sent_id = 303-20150917-TESEMSC_0-424
@@ -8792,7 +8788,7 @@
 3	ISLAM	Islar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	1983	1983	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Downiesphaeridium flexuosum (DAVEY et al., 1966) ISLAM, 1993.
 # sent_id = 303-20150917-TESEMSC_0-440
@@ -8970,7 +8966,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 10	1939,35m	1939,35m	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Escharisphaeridia ERKMEN & SARJEANT, 1980.
 # sent_id = 303-20150917-TESEMSC_0-454
@@ -9160,7 +9156,7 @@
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 10	2695,6m	2695,6r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Florentinia mantellii (DAVEY & WILLIAMS, 1966) DAVEY & VERDIER, 1973.
 # sent_id = 303-20150917-TESEMSC_0-471
@@ -9356,7 +9352,7 @@
 13	;	;	PUNCT	_	_	15	punct	_	_
 14	2466,75	2466,75	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 15	m	m	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Fromea fragilis (COOKSON & EISENACK, 1962)
 # sent_id = 303-20150917-TESEMSC_0-486
@@ -9531,7 +9527,7 @@
 7	COOKSON	COOKSON	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	1960	1960	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Hapsocysta peridictya (EISENACK & COOKSON, 1960) DAVEY, 1979.
 # sent_id = 303-20150917-TESEMSC_0-503
@@ -9711,7 +9707,7 @@
 9	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 10	1939,35	1939,35	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 11	m	m	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Impagidinium STOVER & EVITT, 1978.
 # sent_id = 303-20150917-TESEMSC_0-518
@@ -9900,7 +9896,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	13	appos	_	_
 17	1953,6m	1953,6r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text = Kallosphaeridium romaense (BURGER, 1980a) BURGUER, 1980b.
 # sent_id = 303-20150917-TESEMSC_0-535
@@ -10078,7 +10074,7 @@
 5	EISENACK	EISENACK	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1962	1962	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Leberidocysta chlamydata (COOKSON & EISENACK, 1962)
 # sent_id = 303-20150917-TESEMSC_0-549
@@ -10245,7 +10241,7 @@
 24	1951,8m	1951,8m	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
 25	;	;	PUNCT	_	_	26	punct	_	_
 26	1953,6m	1953,6m	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text = Litosphaeridium conispinum DAVEY & VERDIER, 1973.
 # sent_id = 303-20150917-TESEMSC_0-563
@@ -10430,7 +10426,7 @@
 19	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 20	1936,1	1936,1	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 21	m	m	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Odontochitina DEFLANDRE, 1937b.
 # sent_id = 303-20150917-TESEMSC_0-578
@@ -10604,7 +10600,7 @@
 1	Senoniano	Senoniano	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Localidade-tipo	Localidade-tipo	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-4	Alemanha	Alemanha	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+4	Alemanha	Alemanha	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpacesAfter=\s\n
 5	Ocorrência	ocorrência	PROPN	_	Number=Sing	4	flat:name	_	_
 6-7	neste	_	_	_	_	_	_	_	_
 6	em	em	ADP	_	_	8	case	_	_
@@ -10790,7 +10786,7 @@
 6	Surrey	Surrey	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Inglaterra	Inglaterra	PROPN	_	Gender=Fem|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	8	punct	_	_
+9	)	)	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 
 # text = Ocorrência neste trabalho: poço BO, profundidades 2462,3m; 2466,3m; 2466,75m; 2469,25m; 2476,55m; 2477,5m; 2479,5m; 2688,6m.
 # sent_id = 303-20150917-TESEMSC_0-608
@@ -10959,7 +10955,7 @@
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 19	1953,6m	1953,6r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Ovoidinium DAVEY, 1970.
 # sent_id = 303-20150917-TESEMSC_0-620
@@ -11111,7 +11107,7 @@
 5	EHRENBERG	EHRENBERG	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1838	1838	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Palaeoperidinium cretaceum (POCOCK, 1962)
 # sent_id = 303-20150917-TESEMSC_0-634
@@ -11320,7 +11316,7 @@
 5	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	1966	1966	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Prolixosphaeridium sp.
 # sent_id = 303-20150917-TESEMSC_0-652
@@ -11473,7 +11469,7 @@
 5	EISENACK	EISENACK	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1958	1958	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Pterodinium sp. Estampa III, Foto 6.
 # sent_id = 303-20150917-TESEMSC_0-668
@@ -11693,7 +11689,7 @@
 24	1961,8m	1961,8r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 25	;	;	PUNCT	_	_	1	punct	_	_
 26	1971,3m	1971,3m	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Spiniferites bejui MASURE, RAUSCHER, DEJAX, SCHULER, FERRÉ, 1998.
 # sent_id = 303-20150917-TESEMSC_0-683
@@ -11876,7 +11872,7 @@
 14	;	;	PUNCT	_	_	13	punct	_	_
 15	1950,15	1950,15	NUM	_	NumType=Card	13	flat	_	SpaceAfter=No
 16	m	m	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Gênero Tehamadinium JAN DU CHÊNE et al., 1986.
 # sent_id = 303-20150917-TESEMSC_0-696
@@ -12083,7 +12079,7 @@
 5	MILES	MILES	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1990	1990	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Walvisia wodii MILES, 1990.
 # sent_id = 303-20150917-TESEMSC_0-711
@@ -12167,16 +12163,14 @@
 8	1960	1960	NUM	_	NumType=Card	4	appos:parataxis	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	1	punct	_	_
 
-# text = HELENES & LUCAS- CLARK, 1997.
+# text = HELENES & LUCAS-CLARK, 1997.
 # sent_id = 303-20150917-TESEMSC_0-718
 1	HELENES	HELENES	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
-3	LUCAS	LUCAS	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-4	-	-	PUNCT	_	_	1	punct	_	_
-5	CLARK	CLARK	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	1997	1997	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	LUCAS-CLARK	LUCAS-CLARK	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	1997	1997	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Estampa III, Foto 8.
 # sent_id = 303-20150917-TESEMSC_0-719
@@ -12275,22 +12269,16 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
 12	1951,8m	1951,8r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
-# text = 3.2.
+# text = Estampa 1.
 # sent_id = 303-20150917-TESEMSC_0-727
-1	3.2	3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Estampas Estampa 1.
-# sent_id = 303-20150917-TESEMSC_0-728
-1	Estampas	Estampa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2	Estampa	Estampa	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-3	1	1	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
+1	Estampa	Estampa	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	1	1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Fotomicrografias dos palinomorfos continentais.
-# sent_id = 303-20150917-TESEMSC_0-729
+# sent_id = 303-20150917-TESEMSC_0-728
 1	Fotomicrografias	Fotomicrografia	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12300,7 +12288,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Todas as escalas são de 20 micra, exceto a foto
-# sent_id = 303-20150917-TESEMSC_0-730
+# sent_id = 303-20150917-TESEMSC_0-729
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	escalas	escala	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -12314,7 +12302,7 @@
 11	foto	foto	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 
 # text = M que é de 10 micra.
-# sent_id = 303-20150917-TESEMSC_0-731
+# sent_id = 303-20150917-TESEMSC_0-730
 1	M	m	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -12323,60 +12311,57 @@
 6	micra	micra	NOUN	_	Gender=Fem|Number=Sing	1	acl:relcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = A. Cicatricosisporites sp. B. Callialasporites trilobatus C.
-# sent_id = 303-20150917-TESEMSC_0-732
+# text = A. Cicatricosisporites sp. B.
+# sent_id = 303-20150917-TESEMSC_0-731
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	3	punct	_	_
 3	Cicatricosisporites	Cicatricosisporites	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	sp.	sp.	PROPN	_	Number=Sing	3	flat:name	_	_
 5	B.	B.	PROPN	_	Number=Sing	3	flat:name	_	_
-6	Callialasporites	Callialasporites	PROPN	_	Number=Sing	3	flat:name	_	_
-7	trilobatus	trilobatus	PROPN	_	Number=Sing	3	flat:name	_	_
-8	C.	C.	PROPN	_	Number=Sing	3	flat:name	_	_
 
-# text = Cycadopites sp. D, F. Gnetaceapollenites spp. E, G. Equisetosporites spp. H.
+# text = Callialasporites trilobatus C. Cycadopites sp. D, F. Gnetaceapollenites spp. E, G.
+# sent_id = 303-20150917-TESEMSC_0-732
+1	Callialasporites	Callialasporite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	trilobatus	trilobatu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	C.	C.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	Cycadopites	Cycadopites	PROPN	_	Number=Sing	3	flat:name	_	_
+5	sp.	sp.	PROPN	_	Number=Sing	3	flat:name	_	_
+6	D	D	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	F.	F.	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+9	Gnetaceapollenites	Gnetaceapollenites	PROPN	_	Number=Sing	8	flat:name	_	_
+10	spp.	spp.	PUNCT	_	_	1	punct	_	_
+11	E	e	CCONJ	_	_	13	cc	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	G.	G.	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+
+# text = Equisetosporites spp. H. Steevesipollenites sp. I. Elaterosporites klaszii J.
 # sent_id = 303-20150917-TESEMSC_0-733
-1	Cycadopites	Cycadopites	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	sp.	sp.	PROPN	_	Number=Sing	1	flat:name	_	_
-3	D	D	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	F.	F.	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-6	Gnetaceapollenites	Gnetaceapollenites	PROPN	_	Number=Sing	5	flat:name	_	_
-7	spp.	spp.	PUNCT	_	_	1	punct	_	_
-8	E	e	CCONJ	_	_	10	cc	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	G.	G.	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
-11	Equisetosporites	Equisetosporites	PROPN	_	Number=Sing	10	flat:name	_	_
-12	spp.	spp.	PROPN	_	Number=Sing	10	flat:name	_	SpacesAfter=\n
-13	H.	H.	PROPN	_	Number=Sing	10	flat:name	_	_
-
-# text = Steevesipollenites sp.
-# sent_id = 303-20150917-TESEMSC_0-734
-1	Steevesipollenites	Steevesipollenite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
-
-# text = I. Elaterosporites klaszii J.
-# sent_id = 303-20150917-TESEMSC_0-735
-1	I	i	NUM	_	Gender=Unsp|Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
-3	Elaterosporites	Elaterosporites	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	klaszii	klaszii	PROPN	_	Number=Sing	3	flat:name	_	_
-5	J.	J.	PROPN	_	Number=Sing	3	flat:name	_	_
+1	Equisetosporites	Equisetosporite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	spp.	spp.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	H.	H.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	Steevesipollenites	Steevesipollenites	PROPN	_	Number=Sing	3	flat:name	_	_
+5	sp.	sp.	PROPN	_	Number=Sing	3	flat:name	_	_
+6	I	I	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+8	Elaterosporites	Elaterosporites	PROPN	_	Number=Sing	1	appos	_	_
+9	klaszii	klaszii	PROPN	_	Number=Sing	8	flat:name	_	_
+10	J.	J.	PROPN	_	Number=Sing	8	flat:name	_	_
 
 # text = Elaterosporites protensus K.
-# sent_id = 303-20150917-TESEMSC_0-736
+# sent_id = 303-20150917-TESEMSC_0-734
 1	Elaterosporites	Elaterosporite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	protensus	protensu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	K.	K.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpacesAfter=\n
 
 # text = Elaterosporites verrucatus L.
-# sent_id = 303-20150917-TESEMSC_0-737
+# sent_id = 303-20150917-TESEMSC_0-735
 1	Elaterosporites	Elaterosporite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	verrucatus	verrucatu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	L.	L.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Classopolis classoides M. Circulina sp. N. Tétrade de Classopolis classoides.
-# sent_id = 303-20150917-TESEMSC_0-738
+# sent_id = 303-20150917-TESEMSC_0-736
 1	Classopolis	Classopoli	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	classoides	classoide	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	M.	M.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -12387,16 +12372,16 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	Classopolis	Classopolis	PROPN	_	Number=Sing	3	nmod	_	_
 10	classoides	classoides	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Estampa 2.
-# sent_id = 303-20150917-TESEMSC_0-739
+# sent_id = 303-20150917-TESEMSC_0-737
 1	Estampa	Estampa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Fotomicrografias dos dinoflagelados.
-# sent_id = 303-20150917-TESEMSC_0-740
+# sent_id = 303-20150917-TESEMSC_0-738
 1	Fotomicrografias	Fotomicrografia	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12405,7 +12390,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Todas as escalas são de 20 micra.
-# sent_id = 303-20150917-TESEMSC_0-741
+# sent_id = 303-20150917-TESEMSC_0-739
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	escalas	escala	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -12416,18 +12401,18 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A.
-# sent_id = 303-20150917-TESEMSC_0-742
+# sent_id = 303-20150917-TESEMSC_0-740
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Oligosphaeridium itajaiensis B.
-# sent_id = 303-20150917-TESEMSC_0-743
+# sent_id = 303-20150917-TESEMSC_0-741
 1	Oligosphaeridium	Oligosphaeridium	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	itajaiensis	itajaiensl	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	B.	B.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Spiniferites ramosus C. Cordosphaeridium sp. D, E. Litosphaeridium conispinum F.
-# sent_id = 303-20150917-TESEMSC_0-744
+# sent_id = 303-20150917-TESEMSC_0-742
 1	Spiniferites	Spiniferite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	ramosus	ramosu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	C.	C.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -12441,18 +12426,18 @@
 11	F.	F.	PROPN	_	Number=Sing	8	flat:name	_	_
 
 # text = Litosphaeridium sp. G.
-# sent_id = 303-20150917-TESEMSC_0-745
+# sent_id = 303-20150917-TESEMSC_0-743
 1	Litosphaeridium	Litosphaeridium	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	G.	G.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Impletosphaeridium sp.
-# sent_id = 303-20150917-TESEMSC_0-746
+# sent_id = 303-20150917-TESEMSC_0-744
 1	Impletosphaeridium	Impletosphaeridium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 2	sp.	sp.	PUNCT	_	_	1	punct	_	_
 
 # text = H. Florentinia sp. I. Coronifera oceanica J.
-# sent_id = 303-20150917-TESEMSC_0-747
+# sent_id = 303-20150917-TESEMSC_0-745
 1	H.	H.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
 2	Florentinia	Florentinia	PROPN	_	Number=Sing	1	flat:name	_	_
 3	sp.	sp.	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -12463,28 +12448,28 @@
 8	J.	J.	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Tanyosphaeridium sp. K.
-# sent_id = 303-20150917-TESEMSC_0-748
+# sent_id = 303-20150917-TESEMSC_0-746
 1	Tanyosphaeridium	Tanyosphaeridium	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	sp.	sp.	PROPN	_	Number=Sing	1	flat:name	_	_
 3	K.	K.	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Trichodinium castanea L. Cyclonephelium vannophorum.
-# sent_id = 303-20150917-TESEMSC_0-749
+# sent_id = 303-20150917-TESEMSC_0-747
 1	Trichodinium	Trichodinium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	castanea	castanea	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	L.	L.	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
 4	Cyclonephelium	Cyclonephelium	PROPN	_	Number=Sing	3	flat:name	_	_
 5	vannophorum	vannophorum	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	appos	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Estampa 3.
-# sent_id = 303-20150917-TESEMSC_0-750
+# sent_id = 303-20150917-TESEMSC_0-748
 1	Estampa	Estampa	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Fotomicrografias dos dinoflagelados e outros palinomorfos marinhos.
-# sent_id = 303-20150917-TESEMSC_0-751
+# sent_id = 303-20150917-TESEMSC_0-749
 1	Fotomicrografias	Fotomicrografia	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12497,7 +12482,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Todas as escalas são de 20 micra.
-# sent_id = 303-20150917-TESEMSC_0-752
+# sent_id = 303-20150917-TESEMSC_0-750
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	escalas	escala	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -12508,7 +12493,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A. Cribroperidinium sp. B. Wrevittia helicoidea C. Leptodinium sp.
-# sent_id = 303-20150917-TESEMSC_0-753
+# sent_id = 303-20150917-TESEMSC_0-751
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	3	punct	_	_
 3	Cribroperidinium	Cribroperidinium	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -12521,11 +12506,11 @@
 10	sp.	sp.	PUNCT	_	_	3	punct	_	_
 
 # text = D.
-# sent_id = 303-20150917-TESEMSC_0-754
+# sent_id = 303-20150917-TESEMSC_0-752
 1	D.	D.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Odontochitina operculata (cisto sem opérculo)
-# sent_id = 303-20150917-TESEMSC_0-755
+# sent_id = 303-20150917-TESEMSC_0-753
 1	Odontochitina	Odontochitina	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	operculata	operculatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -12535,7 +12520,7 @@
 7	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = E. Odontochitina operculata (opérculo) F. Fromea amphora G.
-# sent_id = 303-20150917-TESEMSC_0-756
+# sent_id = 303-20150917-TESEMSC_0-754
 1	E.	E.	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Odontochitina	Odontochitina	PROPN	_	Number=Sing	1	flat:name	_	_
 3	operculata	operculatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12548,27 +12533,27 @@
 10	G.	G.	PROPN	_	Gender=Masc|Number=Sing	9	obj	_	_
 
 # text = Palinoforaminífero espiral H.
-# sent_id = 303-20150917-TESEMSC_0-757
+# sent_id = 303-20150917-TESEMSC_0-755
 1	Palinoforaminífero	Palinoforaminífero	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	espiral	espiral	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	H.	H.	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpacesAfter=\n
 
 # text = Pterospermopsis sp. I. Escolecodonte.
-# sent_id = 303-20150917-TESEMSC_0-758
+# sent_id = 303-20150917-TESEMSC_0-756
 1	Pterospermopsis	Pterospermopsis	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	sp.	sp.	PROPN	_	Number=Sing	1	flat:name	_	_
 3	I	I	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 5	Escolecodonte	Escolecodonte	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.3.
-# sent_id = 303-20150917-TESEMSC_0-759
+# sent_id = 303-20150917-TESEMSC_0-757
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição dos palinomorfos pelas profundidades
-# sent_id = 303-20150917-TESEMSC_0-760
+# sent_id = 303-20150917-TESEMSC_0-758
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12580,7 +12565,7 @@
 7	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = No poço BO, as profundidades estudadas foram divididas em duas partes – seção inferior e seção superior – devido à intercalação de arenitos, litologia desfavorável para a preservação de material palinológico.
-# sent_id = 303-20150917-TESEMSC_0-761
+# sent_id = 303-20150917-TESEMSC_0-759
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -12621,7 +12606,7 @@
 36	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = No poço PM, essa intercalação não foi encontrada; contudo, a espessura da coluna sedimentar estudada foi menor, resultando em menor número de amostras do que no poço BO.
-# sent_id = 303-20150917-TESEMSC_0-762
+# sent_id = 303-20150917-TESEMSC_0-760
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -12665,7 +12650,7 @@
 37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Ao se comparar a incidência de palinomorfos continentais e marinhos e suas respectivas distribuições ao longo das seções estudadas dos poços, observou-se que ocorre um incremento de elementos continentais da base para o topo (Figuras 8 e 9).
-# sent_id = 303-20150917-TESEMSC_0-763
+# sent_id = 303-20150917-TESEMSC_0-761
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -12722,7 +12707,7 @@
 48	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esse aumento de palinomorfos continentais é mais notável na seção superior do poço BO.
-# sent_id = 303-20150917-TESEMSC_0-764
+# sent_id = 303-20150917-TESEMSC_0-762
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -12744,7 +12729,7 @@
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Essa tendência é mais discreta no poço PM, que apresentou maior porcentagem de palinomorfos marinhos ao longo de toda sua seção.
-# sent_id = 303-20150917-TESEMSC_0-765
+# sent_id = 303-20150917-TESEMSC_0-763
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -12774,7 +12759,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Na seção superior do poço BO, os palinomorfos continentais e marinhos apresentam frequências parecidas – 51,8% e 48,2%, respectivamente.
-# sent_id = 303-20150917-TESEMSC_0-766
+# sent_id = 303-20150917-TESEMSC_0-764
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -12805,7 +12790,7 @@
 26	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Na seção inferior, contudo, essa proporção muda abruptamente, pois a frequência de palinomorfos continentais cai para 15,1% e a frequência de palinomorfos marinhos sobe para 84,9%.
-# sent_id = 303-20150917-TESEMSC_0-767
+# sent_id = 303-20150917-TESEMSC_0-765
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -12842,7 +12827,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = No poço PM, a mudança nos valores de frequência dos palinomorfos continentais não é tão evidente quanto no poço BO, mas é possível notar um acréscimo nas suas porcentagens da base para o topo da seção – de 11% para 19%, com picos de 37%.
-# sent_id = 303-20150917-TESEMSC_0-768
+# sent_id = 303-20150917-TESEMSC_0-766
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -12908,16 +12893,16 @@
 56	de	de	ADP	_	_	58	case	_	_
 57	37	37	NUM	_	NumType=Card	58	nummod	_	SpaceAfter=No
 58	%	%	SYM	_	_	55	nmod	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+59	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n\n
 
 # text = Figura 8.
-# sent_id = 303-20150917-TESEMSC_0-769
+# sent_id = 303-20150917-TESEMSC_0-767
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Perfil litológico, pontos amostrados e porcentagem de palinomorfos marinhos e continentais ao longo do poço Bonito.
-# sent_id = 303-20150917-TESEMSC_0-770
+# sent_id = 303-20150917-TESEMSC_0-768
 1	Perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	litológico	litológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -12942,7 +12927,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ocorre um aumento na proporção de elementos continentais da base para o topo.
-# sent_id = 303-20150917-TESEMSC_0-771
+# sent_id = 303-20150917-TESEMSC_0-769
 1	Ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -12960,16 +12945,16 @@
 13	para	para	ADP	_	_	15	case	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	topo	topo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 9.
-# sent_id = 303-20150917-TESEMSC_0-772
+# sent_id = 303-20150917-TESEMSC_0-770
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Perfil litológico, pontos amostrados e porcentagem de palinomorfos marinhos e continentais ao longo do poço Pampo.
-# sent_id = 303-20150917-TESEMSC_0-773
+# sent_id = 303-20150917-TESEMSC_0-771
 1	Perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	litológico	litológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -12994,7 +12979,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ocorre discreto aumento de palinomorfos continentais da base para o topo.
-# sent_id = 303-20150917-TESEMSC_0-774
+# sent_id = 303-20150917-TESEMSC_0-772
 1	Ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	discreto	discreto	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -13011,7 +12996,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para uma melhor compreensão sobre o comportamento das espécies ao longo dos horizontes estratigráficos, é fundamental analisá-las individualmente.
-# sent_id = 303-20150917-TESEMSC_0-775
+# sent_id = 303-20150917-TESEMSC_0-773
 1	Para	para	ADP	_	_	4	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	melhor	bom	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -13042,7 +13027,7 @@
 24	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = As Figuras representadas a seguir trazem a distribuição das principais espécies de palinomorfos marinhos e continentais em porcentagem pelas profundidades dos poços e também perfis de diversidade, equabilidade e dominância – respectivamente índices de Shannon (H), Equitability (J) e Dominance (D) representados nos gráficos.
-# sent_id = 303-20150917-TESEMSC_0-776
+# sent_id = 303-20150917-TESEMSC_0-774
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	representadas	representar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_
@@ -13102,19 +13087,19 @@
 53	em	em	ADP	_	_	55	case	_	_
 54	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
 55	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	52	obl	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+56	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 1)
-# sent_id = 303-20150917-TESEMSC_0-777
+# sent_id = 303-20150917-TESEMSC_0-775
 1	1)	1)	NUM	_	NumType=Card	0	root	_	_
 
 # text = Palinomorfos continentais
-# sent_id = 303-20150917-TESEMSC_0-778
+# sent_id = 303-20150917-TESEMSC_0-776
 1	Palinomorfos	Palinomorfo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	continentais	continental	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Nas curvas de distribuição representadas, destaca-se o esporo Cicatricosisporites sp. e os pólens Callialasporites trilobatus, Classopollis classoides, os efedroides Equisetosporites sp., Gnetaceapollenites sp., Steevesipollenites sp. e os pólens elaterados agrupados devido à baixa frequência dos representantes de suas espécies.
-# sent_id = 303-20150917-TESEMSC_0-779
+# sent_id = 303-20150917-TESEMSC_0-777
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -13170,7 +13155,7 @@
 49	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os demais pólens gimnospérmicos mencionados referem-se ao agrupamento de Cycadopites sp., Circulina sp. e Striacolpites reticulatus.
-# sent_id = 303-20150917-TESEMSC_0-780
+# sent_id = 303-20150917-TESEMSC_0-778
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -13195,7 +13180,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = No poço BO (Figuras 10 e 11), os palinomorfos continentais mais representativos são Classopollis classoides, Gnetaceaepollenites sp. e Equisetosporites sp.
-# sent_id = 303-20150917-TESEMSC_0-781
+# sent_id = 303-20150917-TESEMSC_0-779
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -13225,7 +13210,7 @@
 26	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Classopollis classoides é sem dúvida o palinomorfo mais abundante nas amostras, pois sua frequência assume o valor médio de 49,7% na seção superior do poço e 43% na seção inferior.
-# sent_id = 303-20150917-TESEMSC_0-782
+# sent_id = 303-20150917-TESEMSC_0-780
 1	Classopollis	Classopolli	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	classoides	classoide	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13270,7 +13255,7 @@
 38	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Na seção superior do poço, entre as profundidades 2472m e 2474m, Classopollis classoides corresponde a 80% dos palinomorfos continentais e a dominância assume valor de 0,78.
-# sent_id = 303-20150917-TESEMSC_0-783
+# sent_id = 303-20150917-TESEMSC_0-781
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -13309,7 +13294,7 @@
 33	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Pode-se observar comportamento semelhante entre 2686m e 2691,5m na seção inferior, onde o mesmo grão de pólen atinge frequência de 65%, deslocando a curva de dominância para 0,5.
-# sent_id = 303-20150917-TESEMSC_0-784
+# sent_id = 303-20150917-TESEMSC_0-782
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -13348,7 +13333,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Nesses intervalos, a diversidade e a equabilidade da comunidade apresentam valores abaixo da média, pois existe dominância de uma espécie na assembleia de palinomorfos continentais.
-# sent_id = 303-20150917-TESEMSC_0-785
+# sent_id = 303-20150917-TESEMSC_0-783
 1-2	Nesses	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
@@ -13387,7 +13372,7 @@
 32	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Os grãos de pólen efedroides ou poliplicados do gênero Gnetaceaepollenites sp. são o segundo táxon mais frequente dentre os palinomorfos continentais.
-# sent_id = 303-20150917-TESEMSC_0-786
+# sent_id = 303-20150917-TESEMSC_0-784
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	grãos	grão	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -13414,7 +13399,7 @@
 23	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Na seção superior do poço, eles correspondem a 21,7% dos microfósseis de origem terrestre e 17,2% na seção inferior.
-# sent_id = 303-20150917-TESEMSC_0-787
+# sent_id = 303-20150917-TESEMSC_0-785
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -13448,7 +13433,7 @@
 27	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Equisetosporites sp. é encontrado a partir de 2461m na porção superior do poço, com frequência média de 14,2% e um pico de 42,8% em 2479m.
-# sent_id = 303-20150917-TESEMSC_0-788
+# sent_id = 303-20150917-TESEMSC_0-786
 1	Equisetosporites	Equisetosporite	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -13484,7 +13469,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Na seção inferior, sua frequência cai para 5,3%.
-# sent_id = 303-20150917-TESEMSC_0-789
+# sent_id = 303-20150917-TESEMSC_0-787
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -13500,7 +13485,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Como é possível observar, as frequências de Cicatricosisporites sp., Callialasporites sp., e Steevesipollenites sp. são bastante baixas, com valores próximos a zero na seção superior do poço BO.
-# sent_id = 303-20150917-TESEMSC_0-790
+# sent_id = 303-20150917-TESEMSC_0-788
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	possível	possível	ADJ	_	Gender=Masc|Number=Sing	20	advcl	_	_
@@ -13540,7 +13525,7 @@
 35	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Os pólens elaterados são encontrados apenas entre as profundidades 2466m e 2469, 25m, onde atingem frequência de 15%.
-# sent_id = 303-20150917-TESEMSC_0-791
+# sent_id = 303-20150917-TESEMSC_0-789
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	elaterados	elaterar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -13565,7 +13550,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Na seção inferior do poço, não foram encontrados
-# sent_id = 303-20150917-TESEMSC_0-792
+# sent_id = 303-20150917-TESEMSC_0-790
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -13581,7 +13566,7 @@
 11	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 
 # text = Cicatricosisporites sp. e nem pólens elaterados.
-# sent_id = 303-20150917-TESEMSC_0-793
+# sent_id = 303-20150917-TESEMSC_0-791
 1	Cicatricosisporites	Cicatricosisporite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -13591,7 +13576,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No entanto, há um acréscimo na frequência dos demais pólens gimnospérmicos (45%) devido a um pequeno intervalo rico em Cycadopites sp.
-# sent_id = 303-20150917-TESEMSC_0-794
+# sent_id = 303-20150917-TESEMSC_0-792
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -13623,16 +13608,16 @@
 26	em	em	ADP	_	_	27	case	_	_
 27	Cycadopites	Cycadopites	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
 28	sp	sp	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 10.
-# sent_id = 303-20150917-TESEMSC_0-795
+# sent_id = 303-20150917-TESEMSC_0-793
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição em porcentagem dos palinomorfos continentais da seção superior do poço Bonito pelas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-796
+# sent_id = 303-20150917-TESEMSC_0-794
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -13655,16 +13640,16 @@
 16	por	por	ADP	_	_	18	case	_	_
 17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 11.
-# sent_id = 303-20150917-TESEMSC_0-797
+# sent_id = 303-20150917-TESEMSC_0-795
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição em porcentagem dos palinomorfos continentais da seção inferior do poço Bonito pelas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-798
+# sent_id = 303-20150917-TESEMSC_0-796
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -13687,10 +13672,10 @@
 16	por	por	ADP	_	_	18	case	_	_
 17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = No poço PM (Figura 12), os palinomorfos continentais mais representativos são Classopollis classoides, Equisetosporites sp. e Gnetaceaepollenites sp.
-# sent_id = 303-20150917-TESEMSC_0-799
+# sent_id = 303-20150917-TESEMSC_0-797
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -13718,7 +13703,7 @@
 24	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = No entanto, a situação é inversa àquela apresentada pelo poço BO, pois os pólens efedroides
-# sent_id = 303-20150917-TESEMSC_0-800
+# sent_id = 303-20150917-TESEMSC_0-798
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	8	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -13744,7 +13729,7 @@
 20	efedroides	efedroide	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 
 # text = Gnetaceaepollenites sp. são os mais abundantes nas amostras, com média de frequências igual a 42,6%.
-# sent_id = 303-20150917-TESEMSC_0-801
+# sent_id = 303-20150917-TESEMSC_0-799
 1	Gnetaceaepollenites	Gnetaceaepollenite	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -13767,7 +13752,7 @@
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Entre as profundidades 1933m e 1955m, a frequência de Gnetaceapollenites sp. chega a 66%, o que desloca suavemente a curva de dominância para o valor de 0,5.
-# sent_id = 303-20150917-TESEMSC_0-802
+# sent_id = 303-20150917-TESEMSC_0-800
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
@@ -13801,7 +13786,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Classopollis classoides é o segundo palinomorfo mais representativo, com média de frequência igual a 22,5% ao longo de todo o poço e um pico de 44% em 1971,3m.
-# sent_id = 303-20150917-TESEMSC_0-803
+# sent_id = 303-20150917-TESEMSC_0-801
 1	Classopollis	Classopolli	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 2	classoides	classoide	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -13838,7 +13823,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Equisetosporites sp. apresenta frequência mais ou menos uniforme com média de 18,4% para todo o poço.
-# sent_id = 303-20150917-TESEMSC_0-804
+# sent_id = 303-20150917-TESEMSC_0-802
 1	Equisetosporites	Equisetosporite	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 2	sp	sp	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
@@ -13860,7 +13845,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Cicatricosisporites sp., Callialasporites trilobatus e Steevesipollenites sp. apresentam frequências baixas e próximas a zero concentradas em apenas um pequeno intervalo de profundidade.
-# sent_id = 303-20150917-TESEMSC_0-805
+# sent_id = 303-20150917-TESEMSC_0-803
 1	Cicatricosisporites	Cicatricosisporite	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -13888,7 +13873,7 @@
 25	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = De 1950m a 1954m, a equabilidade assume valores baixos e, em contrapartida, a curva de dominância fica próxima à media – não há pico de dominância como era de se esperar.
-# sent_id = 303-20150917-TESEMSC_0-806
+# sent_id = 303-20150917-TESEMSC_0-804
 1	De	de	ADP	_	_	4	case	_	_
 2	1950m	1950m	NUM	_	NumType=Card	4	nummod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -13928,7 +13913,7 @@
 36	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Isso se deve ao fato de que no intervalo em questão, todos os táxons de palinomorfos continentais listados encontram-se presentes, o que força a curva de diversidade para valores levemente acima da média.
-# sent_id = 303-20150917-TESEMSC_0-807
+# sent_id = 303-20150917-TESEMSC_0-805
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13975,7 +13960,7 @@
 40	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Contudo, existe disparidade entre suas frequências:
-# sent_id = 303-20150917-TESEMSC_0-808
+# sent_id = 303-20150917-TESEMSC_0-806
 1	Contudo	contudo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13986,7 +13971,7 @@
 8	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Gnetaceapollenites sp. com 60%, Equisetosporites sp. com 20%, Classopolis classoides com 15 a 18% e Steevesipollenites sp. e Callialasporites trilobatus com frequências próximas a zero.
-# sent_id = 303-20150917-TESEMSC_0-809
+# sent_id = 303-20150917-TESEMSC_0-807
 1	Gnetaceapollenites	Gnetaceapollenite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -14020,7 +14005,7 @@
 31	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Dessa forma, a disparidade nas equabilidades é bastante notável, porém a curva de dominância não se desloca tanto para valores altos.
-# sent_id = 303-20150917-TESEMSC_0-810
+# sent_id = 303-20150917-TESEMSC_0-808
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -14051,7 +14036,7 @@
 26	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = De 1956m a 1959m, a diversidade alcança valores altos.
-# sent_id = 303-20150917-TESEMSC_0-811
+# sent_id = 303-20150917-TESEMSC_0-809
 1	De	de	ADP	_	_	2	case	_	_
 2	1956m	1956m	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -14065,7 +14050,7 @@
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Nesse intervalo, as espécies presentes possuem frequência parecida, o que faz a equabilidade estar acima da média e a dominância assumir valores baixos.
-# sent_id = 303-20150917-TESEMSC_0-812
+# sent_id = 303-20150917-TESEMSC_0-810
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -14098,7 +14083,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A partir de 1971,5m, há um intervalo sem amostras e em 1985,6m, apenas o pólen elaterado Elaterosporites klaszii foi encontrado nas amostras, o que deslocou bastante as curvas de diversidade, equabilidade e dominância para valores extremos.
-# sent_id = 303-20150917-TESEMSC_0-813
+# sent_id = 303-20150917-TESEMSC_0-811
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -14141,16 +14126,16 @@
 39	para	para	ADP	_	_	40	case	_	_
 40	valores	valor	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
 41	extremos	extrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 12.
-# sent_id = 303-20150917-TESEMSC_0-814
+# sent_id = 303-20150917-TESEMSC_0-812
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Distribuição em porcentagem dos palinomorfos continentais do poço Pampo pelas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-815
+# sent_id = 303-20150917-TESEMSC_0-813
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -14168,16 +14153,16 @@
 12	por	por	ADP	_	_	14	case	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 2) Palinomorfos marinhos
-# sent_id = 303-20150917-TESEMSC_0-816
+# sent_id = 303-20150917-TESEMSC_0-814
 1	2)	2)	ADP	_	_	2	case	_	_
 2	Palinomorfos	Palinomorfo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	marinhos	marinho	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 
 # text = Dentre os palinomorfos representados nos gráficos a seguir, destacam-se os palinoforaminíferos, os dinoflagelados
-# sent_id = 303-20150917-TESEMSC_0-817
+# sent_id = 303-20150917-TESEMSC_0-815
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
@@ -14199,7 +14184,7 @@
 17	dinoflagelados	dinoflagelado	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 
 # text = Coronifera oceanica, Litosphaeridium conispinum, Odontochitina operculata, Oligosphaeridium complex, Spiniferites ramosus e Trichodinium castanea.
-# sent_id = 303-20150917-TESEMSC_0-818
+# sent_id = 303-20150917-TESEMSC_0-816
 1	Coronifera	Coronifera	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	oceanica	oceanico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -14220,7 +14205,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os demais palinomorfos marinhos citados correspondem ao agrupamento de dinoflagelados menos representativos e à alga
-# sent_id = 303-20150917-TESEMSC_0-819
+# sent_id = 303-20150917-TESEMSC_0-817
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -14242,13 +14227,13 @@
 17	alga	alga	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 
 # text = Pterospermopsis sp.
-# sent_id = 303-20150917-TESEMSC_0-820
+# sent_id = 303-20150917-TESEMSC_0-818
 1	Pterospermopsis	Pterospermopsis	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	sp	sp	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na seção superior do poço BO (Figura 13), é possível observar uma alta frequência de Odontochitina operculata entre as profundidades 2455,5m e 2464,5m, com valor que atinge 52,5% no topo do poço.
-# sent_id = 303-20150917-TESEMSC_0-821
+# sent_id = 303-20150917-TESEMSC_0-819
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -14297,7 +14282,7 @@
 42	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Nesse mesmo intervalo, a curva de dominância assume valores ligeiramente altos e a curva de equabilidade fica sempre abaixo da média, porém apresenta oscilações.
-# sent_id = 303-20150917-TESEMSC_0-822
+# sent_id = 303-20150917-TESEMSC_0-820
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -14331,7 +14316,7 @@
 29	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Quando a equabilidade está muito baixa, apenas Odontochitina operculata apresenta frequência alta; os demais palinomorfos como Foraminíferos, Coronifera oceanica, Oligosphaeridium complex e Trichodinium castanea possuem frequências muito baixas e próximas a zero.
-# sent_id = 303-20150917-TESEMSC_0-823
+# sent_id = 303-20150917-TESEMSC_0-821
 1	Quando	quando	SCONJ	_	_	6	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	equabilidade	equabilidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -14371,7 +14356,7 @@
 37	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Spiniferites ramosus está presente em toda a seção superior do poço com frequência média de 34%.
-# sent_id = 303-20150917-TESEMSC_0-824
+# sent_id = 303-20150917-TESEMSC_0-822
 1	Spiniferites	Spiniferite	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 2	ramosus	ramosu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -14394,7 +14379,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em 2476,5m e em 2479,5m, contudo, sua frequência sobe para 51%, o que faz surgir dois pequenos picos de dominância nessas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-825
+# sent_id = 303-20150917-TESEMSC_0-823
 1	Em	em	ADP	_	_	2	case	_	_
 2	2476,5m	2476,5m	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -14426,7 +14411,7 @@
 28	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Oligosphaeridium complex foi encontrado com baixa frequência ao longo da seção superior do poço, excetuando-se a profundidade 2466,3m, onde corresponde a 33% dos palinomorfos marinhos.
-# sent_id = 303-20150917-TESEMSC_0-826
+# sent_id = 303-20150917-TESEMSC_0-824
 1	Oligosphaeridium	Oligosphaeridium	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 2	complex	complex	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -14468,7 +14453,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Litosphaeridium conispinum aparece na seção superior do poço a partir de 2462,5m, porém com frequências que não ultrapassam 14%.
-# sent_id = 303-20150917-TESEMSC_0-827
+# sent_id = 303-20150917-TESEMSC_0-825
 1	Litosphaeridium	Litosphaeridium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	conispinum	conispinum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
 3	aparece	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14497,7 +14482,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Coronifera oceanica foi encontrada em algumas profundidades, mas sempre com valores de frequência próximos a zero.
-# sent_id = 303-20150917-TESEMSC_0-828
+# sent_id = 303-20150917-TESEMSC_0-826
 1	Coronifera	Coronifera	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	oceanica	oceanico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -14518,7 +14503,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A frequência de Trichodinium castanea aumenta um pouco na porção basal do poço, chegando a 16% em 2479m.
-# sent_id = 303-20150917-TESEMSC_0-829
+# sent_id = 303-20150917-TESEMSC_0-827
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -14546,7 +14531,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Os demais palinomorfos marinhos – cuja frequência atinge 36% em 2472m – correspondem principalmente aos dinoflagelados
-# sent_id = 303-20150917-TESEMSC_0-830
+# sent_id = 303-20150917-TESEMSC_0-828
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
@@ -14568,7 +14553,7 @@
 18	dinoflagelados	dinoflagelado	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
 
 # text = Florentinia cooksoniae, Leptodinium sp. e Pervosphaeridium cenomaniense.
-# sent_id = 303-20150917-TESEMSC_0-831
+# sent_id = 303-20150917-TESEMSC_0-829
 1	Florentinia	Florentinia	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	cooksoniae	cooksoniaer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -14577,10 +14562,10 @@
 6	e	e	CCONJ	_	_	7	cc	_	_
 7	Pervosphaeridium	Pervosphaeridium	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	_
 8	cenomaniense	cenomaniense	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Na seção inferior do poço BO (Figura 14), os palinomorfos mais representativo são sem dúvida os palinoforaminíferos.
-# sent_id = 303-20150917-TESEMSC_0-832
+# sent_id = 303-20150917-TESEMSC_0-830
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -14608,7 +14593,7 @@
 23	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Em 2686,5m e em 2691,5m, suas frequências correspondem a 75% e 81,5% dos palinomorfos marinhos, respectivamente, o que desloca consideravelmente a curva de dominância, fazendo surgir dois picos nessas profundidades com valores próximos a 0,65.
-# sent_id = 303-20150917-TESEMSC_0-833
+# sent_id = 303-20150917-TESEMSC_0-831
 1	Em	em	ADP	_	_	2	case	_	_
 2	2686,5m	2686,5m	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -14657,7 +14642,7 @@
 44	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Spiniferites ramosus é encontrado em toda a seção inferior do poço, porém com frequências que não ultrapassam 29%.
-# sent_id = 303-20150917-TESEMSC_0-834
+# sent_id = 303-20150917-TESEMSC_0-832
 1	Spiniferites	Spiniferite	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 2	ramosus	ramosu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -14683,7 +14668,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Coronifera oceanica, raramente encontrada na seção superior do poço BO, é mais abundante na seção inferior, com média de frequências igual a 19%.
-# sent_id = 303-20150917-TESEMSC_0-835
+# sent_id = 303-20150917-TESEMSC_0-833
 1	Coronifera	Coronifera	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 2	oceanica	oceanico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -14720,7 +14705,7 @@
 31	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Trichodinium castanea também é encontrado com mais facilidade na seção inferior do poço, principalmente a partir de 2693,5m, chegando a 46,8% de frequência.
-# sent_id = 303-20150917-TESEMSC_0-836
+# sent_id = 303-20150917-TESEMSC_0-834
 1	Trichodinium	Trichodinium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj:pass	_	_
 2	castanea	castanea	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3	também	também	ADV	_	_	5	advmod	_	_
@@ -14754,7 +14739,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Litosphaeridium conispinum e Odontochitina operculata não foram encontrados na seção inferior do poço BO.
-# sent_id = 303-20150917-TESEMSC_0-837
+# sent_id = 303-20150917-TESEMSC_0-835
 1	Litosphaeridium	Litosphaeridium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj:pass	_	_
 2	conispinum	conispinum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	nmod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -14773,16 +14758,16 @@
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	poço	poço	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	BO	BO	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Figura 13.
-# sent_id = 303-20150917-TESEMSC_0-838
+# sent_id = 303-20150917-TESEMSC_0-836
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição em porcentagem dos palinomorfos marinhos da seção superior do poço Bonito pelas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-839
+# sent_id = 303-20150917-TESEMSC_0-837
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -14805,16 +14790,16 @@
 16	por	por	ADP	_	_	18	case	_	_
 17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 14.
-# sent_id = 303-20150917-TESEMSC_0-840
+# sent_id = 303-20150917-TESEMSC_0-838
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição em porcentagem dos palinomorfos marinhos da seção inferior do poço Bonito pelas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-841
+# sent_id = 303-20150917-TESEMSC_0-839
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -14837,10 +14822,10 @@
 16	por	por	ADP	_	_	18	case	_	_
 17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = No poço PM (Figura 15), o dinoflagelado que mais se destacou foi Spiniferites ramosus, cuja frequência média foi de 31,2% subindo para 71% em 1962m, o que gerou um pico na curva de dominância com valor próximo a 0,6.
-# sent_id = 303-20150917-TESEMSC_0-842
+# sent_id = 303-20150917-TESEMSC_0-840
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -14894,7 +14879,7 @@
 49	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Nessa mesma profundidade, contudo, a equabilidade está próxima do valor médio, enquanto a diversidade assume valor baixo.
-# sent_id = 303-20150917-TESEMSC_0-843
+# sent_id = 303-20150917-TESEMSC_0-841
 1-2	Nessa	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
@@ -14921,8 +14906,8 @@
 22	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
-# text = O motivo é que, nesse ponto de amostragem, apenas 3 táxons foram encontrados – palinoforaminíferos, Spiniferites ramosus e Trichodinium castanea – com frequências equabilidade para além da média.
-# sent_id = 303-20150917-TESEMSC_0-844
+# text = O motivo é que, nesse ponto de amostragem, apenas 3 táxons foram encontrados – palinoforaminíferos, Spiniferites ramosus e Trichodinium castanea – com frequências iguais a 21,4%, 71% e 7,2%, o que não foi suficiente para deslocar a curva de equabilidade para além da média.
+# sent_id = 303-20150917-TESEMSC_0-842
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14951,17 +14936,38 @@
 25	–	–	PUNCT	_	_	3	punct	_	_
 26	com	com	ADP	_	_	27	case	_	_
 27	frequências	frequência	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
-28	equabilidade	equabilidade	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
-29	para	para	ADP	_	_	30	case	_	_
-30	além	além	ADV	_	_	3	advmod	_	_
-31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	média	média	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+28	iguais	igual	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	21,4	21,4	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
+31	%	%	SYM	_	_	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	71	71	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
+34	%	%	SYM	_	_	3	conj	_	_
+35	e	e	CCONJ	_	_	37	cc	_	_
+36	7,2	7,2	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
+37	%	%	SYM	_	_	3	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	3	punct	_	_
+39	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	appos	_	_
+40	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	43	nsubj	_	_
+41	não	não	ADV	_	Polarity=Neg	43	advmod	_	_
+42	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	_
+43	suficiente	suficiente	ADJ	_	Gender=Fem|Number=Sing	39	acl:relcl	_	_
+44	para	para	SCONJ	_	_	45	mark	_	_
+45	deslocar	deslocar	VERB	_	VerbForm=Inf	43	advcl	_	_
+46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	curva	curva	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	_
+48	de	de	ADP	_	_	49	case	_	_
+49	equabilidade	equabilidade	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
+50	para	para	ADP	_	_	51	case	_	_
+51	além	além	ADV	_	_	45	advmod	_	_
+52-53	da	_	_	_	_	_	_	_	_
+52	de	de	ADP	_	_	54	case	_	_
+53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	média	média	NOUN	_	Gender=Fem|Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os palinoforaminíferos apresentam frequência média semelhante à de Spiniferites ramosus no poço PM, mas sua distribuição pelas profundidades é diferente.
-# sent_id = 303-20150917-TESEMSC_0-845
+# sent_id = 303-20150917-TESEMSC_0-843
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	palinoforaminíferos	palinoforaminífero	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14992,7 +14998,7 @@
 25	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Até 1962m, eles são encontrados com frequência média de 26%; a partir dessa profundidade, sua frequência começa a subir e chega a 58,6% em 1972m e em 1985m, ele é o único palinomorfo marinho encontrado nas amostras.
-# sent_id = 303-20150917-TESEMSC_0-846
+# sent_id = 303-20150917-TESEMSC_0-844
 1	Até	até	ADP	_	_	2	case	_	_
 2	1962m	1962m	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -15044,7 +15050,7 @@
 47	.	.	PUNCT	_	_	41	punct	_	_
 
 # text = Dessa forma, o índice de dominância assumiu seu valor máximo e os índices de diversidade e equabilidade, seus valores mínimos.
-# sent_id = 303-20150917-TESEMSC_0-847
+# sent_id = 303-20150917-TESEMSC_0-845
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -15072,7 +15078,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Trichodinium castanea é encontrado na maior parte das profundidades do poço PM.
-# sent_id = 303-20150917-TESEMSC_0-848
+# sent_id = 303-20150917-TESEMSC_0-846
 1	Trichodinium	Trichodinium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	castanea	castanea	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -15094,7 +15100,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A média de suas frequências é de 14,5% e em 1942,75m, sua frequência chega a 37%.
-# sent_id = 303-20150917-TESEMSC_0-849
+# sent_id = 303-20150917-TESEMSC_0-847
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	média	média	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -15117,7 +15123,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Litosphaeridium conispinum apresenta frequência igual a 25% no topo do poço PM, porém não é encontrado nas profundidades mais basais.
-# sent_id = 303-20150917-TESEMSC_0-850
+# sent_id = 303-20150917-TESEMSC_0-848
 1	Litosphaeridium	Litosphaeridium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	conispinum	conispinum	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15149,7 +15155,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Padrão semelhante pode ser observado em Coronifera oceanica, mas com valores de frequência que não ultrapassam 6,5%.
-# sent_id = 303-20150917-TESEMSC_0-851
+# sent_id = 303-20150917-TESEMSC_0-849
 1	Padrão	Padrão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	semelhante	semelhante	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15172,7 +15178,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Odontochitina operculata e Oligosphaeridium complex foram encontrados na porção mais superficial do poço, contudo suas frequências apresentam valores baixos próximos a zero.
-# sent_id = 303-20150917-TESEMSC_0-852
+# sent_id = 303-20150917-TESEMSC_0-850
 1	Odontochitina	Odontochitina	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	operculata	operculatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -15203,7 +15209,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os demais palinomorfos marinhos, cuja frequência chega a 40% em 1945,5m, são os dinoflagelados
-# sent_id = 303-20150917-TESEMSC_0-853
+# sent_id = 303-20150917-TESEMSC_0-851
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
@@ -15223,7 +15229,7 @@
 17	dinoflagelados	dinoflagelado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Cribroperidinium tensiftense, Florentinia mantellii, Impletosphaeridium
-# sent_id = 303-20150917-TESEMSC_0-854
+# sent_id = 303-20150917-TESEMSC_0-852
 1	Cribroperidinium	Cribroperidinium	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	tensiftense	tensiftense	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -15233,21 +15239,21 @@
 7	Impletosphaeridium	Impletosphaeridium	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Pervosphaeridium cenomaniense.
-# sent_id = 303-20150917-TESEMSC_0-855
+# sent_id = 303-20150917-TESEMSC_0-853
 1	Pervosphaeridium	Pervosphaeridium	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	cenomaniense	cenomaniense	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = sp. e Figura 15.
-# sent_id = 303-20150917-TESEMSC_0-856
+# sent_id = 303-20150917-TESEMSC_0-854
 1	sp.	sp.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
-2	e	e	CCONJ	_	_	3	cc	_	_
+2	e	e	CCONJ	_	_	3	cc	_	SpacesAfter=\s\n
 3	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 4	15	15	NUM	_	NumType=Card	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição em porcentagem dos palinomorfos marinhos do poço Pampo pelas profundidades.
-# sent_id = 303-20150917-TESEMSC_0-857
+# sent_id = 303-20150917-TESEMSC_0-855
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -15265,10 +15271,10 @@
 12	por	por	ADP	_	_	14	case	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4. DISCUSSÃO 4.1.
-# sent_id = 303-20150917-TESEMSC_0-858
+# sent_id = 303-20150917-TESEMSC_0-856
 1	4	4	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	DISCUSSÃO	discusser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15276,12 +15282,12 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Palinomorfos continentais
-# sent_id = 303-20150917-TESEMSC_0-859
+# sent_id = 303-20150917-TESEMSC_0-857
 1	Palinomorfos	Palinomorfo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	continentais	continental	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
-# text = Lima (1978b) estabeleceu critérios para caracterizar os limites Albo-Aptiano e Albo- Cenomaniano no Brasil com base em palinomorfos continentais, com o objetivo de definir uma associação microflorística fóssil para o Albiano.
-# sent_id = 303-20150917-TESEMSC_0-860
+# text = Lima (1978b) estabeleceu critérios para caracterizar os limites Albo-Aptiano e Albo-Cenomaniano no Brasil com base em palinomorfos continentais, com o objetivo de definir uma associação microflorística fóssil para o Albiano.
+# sent_id = 303-20150917-TESEMSC_0-858
 1	Lima	Lima	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1978b	1978b	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -15294,35 +15300,33 @@
 10	limites	limite	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
 11	Albo-Aptiano	Albo-Aptiano	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
 12	e	e	CCONJ	_	_	13	cc	_	_
-13	Albo	Albo	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	15	punct	_	_
-15	Cenomaniano	Cenomaniano	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
-16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	_	_	18	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
-19	com	com	ADP	_	_	20	case	_	_
-20	base	base	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
-23	continentais	continental	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	5	punct	_	_
-25	com	com	ADP	_	_	27	case	_	_
-26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-28	de	de	SCONJ	_	_	29	mark	_	_
-29	definir	definir	VERB	_	VerbForm=Inf	27	acl	_	_
-30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	associação	associação	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
-32	microflorística	microflorístico	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
-33	fóssil	fóssil	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
-34	para	para	ADP	_	_	36	case	_	_
-35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Albiano	Albiano	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	5	punct	_	_
+13	Albo-Cenomaniano	Albo-Cenomaniano	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	base	base	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+21	continentais	continental	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	5	punct	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+26	de	de	SCONJ	_	_	27	mark	_	_
+27	definir	definir	VERB	_	VerbForm=Inf	25	acl	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	associação	associação	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+30	microflorística	microflorístico	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+31	fóssil	fóssil	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+32	para	para	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Albiano	Albiano	PROPN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = De forma resumida, o autor descreveu os seguintes aspectos florísticos albianos no Brasil: 1.
-# sent_id = 303-20150917-TESEMSC_0-861
+# sent_id = 303-20150917-TESEMSC_0-859
 1	De	de	ADP	_	_	2	case	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3	resumida	resumir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	SpaceAfter=No
@@ -15344,7 +15348,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Porcentagens relativamente altas de Classopollis sp.; 2.
-# sent_id = 303-20150917-TESEMSC_0-862
+# sent_id = 303-20150917-TESEMSC_0-860
 1	Porcentagens	Porcentagem	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	relativamente	relativamente	ADV	_	_	3	advmod	_	_
 3	altas	alto	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
@@ -15356,7 +15360,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ausência de pólens bissacados; 3.
-# sent_id = 303-20150917-TESEMSC_0-863
+# sent_id = 303-20150917-TESEMSC_0-861
 1	Ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -15366,7 +15370,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Presença de esporos triletes em pequenas porcentagens; 4.
-# sent_id = 303-20150917-TESEMSC_0-864
+# sent_id = 303-20150917-TESEMSC_0-862
 1	Presença	presença	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	esporos	esporo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -15379,7 +15383,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Diversidade de pólens poliplicados; 5.
-# sent_id = 303-20150917-TESEMSC_0-865
+# sent_id = 303-20150917-TESEMSC_0-863
 1	Diversidade	diversidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -15389,7 +15393,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ocorrência esporádica de pólens poliporados; 6.
-# sent_id = 303-20150917-TESEMSC_0-866
+# sent_id = 303-20150917-TESEMSC_0-864
 1	Ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	esporádica	esporádico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -15400,7 +15404,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ocorrência de pólens angiospérmicos; 7.
-# sent_id = 303-20150917-TESEMSC_0-867
+# sent_id = 303-20150917-TESEMSC_0-865
 1	Ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -15410,7 +15414,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ocorrência de pólens elaterados, com diversos gêneros e espécies presentes.
-# sent_id = 303-20150917-TESEMSC_0-868
+# sent_id = 303-20150917-TESEMSC_0-866
 1	Ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -15425,7 +15429,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os resultados alcançados neste trabalho vão ao encontro de muitas das afirmações postuladas pelo autor.
-# sent_id = 303-20150917-TESEMSC_0-869
+# sent_id = 303-20150917-TESEMSC_0-867
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	alcançados	alcançar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -15452,7 +15456,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Os grãos de pólen do gênero Classopollis são relacionados a gimnospermas xerófilas da família Cheirolepidiaceae.
-# sent_id = 303-20150917-TESEMSC_0-870
+# sent_id = 303-20150917-TESEMSC_0-868
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	grãos	grão	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -15475,7 +15479,7 @@
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O gênero está bem representado nas amostras pela espécie Classopollis classoides, abundante em toda seção dos poços.
-# sent_id = 303-20150917-TESEMSC_0-871
+# sent_id = 303-20150917-TESEMSC_0-869
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -15503,7 +15507,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Sua ocorrência em altos valores percentuais está relacionada à presença de vegetais bem adaptados a clima seco e árido de baixa paleolatitude, possivelmente afins a solos salinos próximos à costa (POCOCK & JANSONIUS, 1961; UPCHURCH & DOYLE, 1981; VAKHRAMEEV, 1970).
-# sent_id = 303-20150917-TESEMSC_0-872
+# sent_id = 303-20150917-TESEMSC_0-870
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
 2	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -15559,7 +15563,7 @@
 51	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Assim como defende o autor supracitado, os pólens bissacados gimnospérmicos mostraram-se ausentes nas amostras analisadas.
-# sent_id = 303-20150917-TESEMSC_0-873
+# sent_id = 303-20150917-TESEMSC_0-871
 1	Assim	assim	SCONJ	_	_	3	mark	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
@@ -15583,7 +15587,7 @@
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A presença de pólens bissacados é indicativa de regiões montanhosas próximas ao sítio deposicional e clima não tropical (LIMA, 1978a).
-# sent_id = 303-20150917-TESEMSC_0-874
+# sent_id = 303-20150917-TESEMSC_0-872
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -15612,7 +15616,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O único esporo trilete ornamentado encontrado é representado pelo gênero Cicatricosisporites, presente com baixos valores percentuais.
-# sent_id = 303-20150917-TESEMSC_0-875
+# sent_id = 303-20150917-TESEMSC_0-873
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	único	único	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	esporo	esporo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
@@ -15635,7 +15639,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os esporos triletes são produzidos por Pteridófitas, vegetais presentes em ambientes úmidos próximos a rios e corpos d’água, pois são dependentes da água para sua reprodução (ARAI & COELHO, 2001; TRAVERSE, 2007).
-# sent_id = 303-20150917-TESEMSC_0-876
+# sent_id = 303-20150917-TESEMSC_0-874
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	esporos	esporo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	triletes	trilete	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -15652,7 +15656,7 @@
 14	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 15	a	a	ADP	_	_	16	case	_	_
 16	rios	rios	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
-17	e	e	CCONJ	_	_	18	cc	_	_
+17	e	e	CCONJ	_	_	18	cc	_	SpacesAfter=\s\n
 18	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
 19	d’	d’	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
 20	água	água	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
@@ -15681,7 +15685,7 @@
 42	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Levando-se em consideração a baixa abundância do esporo Cicatricosisporites sp. no material palinológico, pode-se deduzir que o ambiente deposicional era majoritariamente seco e desfavorável para o estabelecimento do vegetal.
-# sent_id = 303-20150917-TESEMSC_0-877
+# sent_id = 303-20150917-TESEMSC_0-875
 1-2	Levando-se	_	_	_	_	_	_	_	_
 1	Levando	levar	VERB	_	VerbForm=Ger	18	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -15725,7 +15729,7 @@
 36	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A presença esporádica do táxon ambiente árido pode ser explicada pelo fato de algumas espécies de Cicatricosisporites serem tolerantes a períodos de seca (ALVIN, 1974).
-# sent_id = 303-20150917-TESEMSC_0-878
+# sent_id = 303-20150917-TESEMSC_0-876
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	esporádica	esporádico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -15761,7 +15765,7 @@
 31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Os pólens poliplicados são relacionadas às famílias Ephedraceae e Gnetaceae, representados aqui neste trabalho com alta frequência nas amostras pelos gêneros
-# sent_id = 303-20150917-TESEMSC_0-879
+# sent_id = 303-20150917-TESEMSC_0-877
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	poliplicados	poliplicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -15794,7 +15798,7 @@
 26	gêneros	gênero	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 
 # text = Equisetosporites, Gnetaceapollenites e Steevesipollenites.
-# sent_id = 303-20150917-TESEMSC_0-880
+# sent_id = 303-20150917-TESEMSC_0-878
 1	Equisetosporites	Equisetosporite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	Gnetaceapollenites	Gnetaceapollenites	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -15803,7 +15807,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As plantas produtoras desses grãos de pólen tinham forte caráter xeromórfico; assim sendo, os pólens pertencentes aos três gêneros citados são forte indicativos de aridez (DOYLE et al., 1982;
-# sent_id = 303-20150917-TESEMSC_0-881
+# sent_id = 303-20150917-TESEMSC_0-879
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	plantas	planta	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	produtoras	produtor	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -15844,7 +15848,7 @@
 36	;	;	PUNCT	_	_	9	punct	_	_
 
 # text = ARAI & COELHO, 2001).
-# sent_id = 303-20150917-TESEMSC_0-882
+# sent_id = 303-20150917-TESEMSC_0-880
 1	ARAI	ARAI	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	COELHO	COELHO	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -15854,7 +15858,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Não foram encontrados pólens poliporados e angiospérmicos nas amostras, o que contrapõe a premissa do autor de que esses dois elementos se fazem presentes no Albiano do Brasil de forma esporádica, porém com diversidade considerável.
-# sent_id = 303-20150917-TESEMSC_0-883
+# sent_id = 303-20150917-TESEMSC_0-881
 1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -15903,7 +15907,7 @@
 42	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os pólens elaterados, em contrapartida, foram representados nas amostras com porcentagens baixas – raramente ultrapassavam 20% dos palinomorfos continentais –, porém com diversidade considerável.
-# sent_id = 303-20150917-TESEMSC_0-884
+# sent_id = 303-20150917-TESEMSC_0-882
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pólens	pólem	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	elaterados	elaterar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	SpaceAfter=No
@@ -15939,7 +15943,7 @@
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Eles correspondem a um grupo de pólens com morfologia bastante peculiar, portadores de projeções de variados tamanhos e formatos conhecidas como eláteros (STOVER, 1964).
-# sent_id = 303-20150917-TESEMSC_0-885
+# sent_id = 303-20150917-TESEMSC_0-883
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	correspondem	corresponder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	a	ADP	_	_	5	case	_	_
@@ -15971,7 +15975,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Não se conhece ao certo a afinidade botânica do grupo; ele é restrito ao intervalo Albiano – Cenomaniano nas bacias da América do Sul e África (DINO et al., 1999).
-# sent_id = 303-20150917-TESEMSC_0-886
+# sent_id = 303-20150917-TESEMSC_0-884
 1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	conhece	conhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16021,7 +16025,7 @@
 41	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O pólen inaperturado do gênero Callialasporites é característico de regiões de clima seco e de baixas latitudes (KRASSILOV, 1978) e foi encontrado com baixa frequência nas amostras – apenas uma espécie presente, Callialasporites trilobatus.
-# sent_id = 303-20150917-TESEMSC_0-887
+# sent_id = 303-20150917-TESEMSC_0-885
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pólen	pólen	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	inaperturado	inaperturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
@@ -16067,7 +16071,7 @@
 41	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Dessa forma, em função do material palinológico continental estudado, foi possível efetuar uma interpretação florística e climática resumida para as sequências analisadas.
-# sent_id = 303-20150917-TESEMSC_0-888
+# sent_id = 303-20150917-TESEMSC_0-886
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -16099,7 +16103,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Durante a deposição do Grupo Macaé, a bacia de Campos estava sujeita a um clima quente e árido, sendo circundada predominantemente por vegetação gimnospérmica arbórea com alguns elementos herbáceos e Pteridófitas.
-# sent_id = 303-20150917-TESEMSC_0-889
+# sent_id = 303-20150917-TESEMSC_0-887
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
@@ -16138,12 +16142,12 @@
 35	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Destaca-se a presença esporádica de Callialasporites trilobatus e de vegetais produtores de pólens elaterados.
-# sent_id = 303-20150917-TESEMSC_0-890
+# sent_id = 303-20150917-TESEMSC_0-888
 1-2	Destaca-se	_	_	_	_	_	_	_	_
 1	Destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	presença	presença	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	presença	presença	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	SpacesAfter=\s\n
 5	esporádica	esporádico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	Callialasporites	Callialasporites	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
@@ -16158,7 +16162,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os dados vão ao encontro da premissa de Vakhrameev (1991) de que, durante o Cretáceo, ocorreu a expansão de florestas de coníferas decíduas e semidecíduas ocasionadas pelo clima quente e pelo baixo gradiente latitudinal de temperatura.
-# sent_id = 303-20150917-TESEMSC_0-891
+# sent_id = 303-20150917-TESEMSC_0-889
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16210,12 +16214,12 @@
 45	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4.2.
-# sent_id = 303-20150917-TESEMSC_0-892
+# sent_id = 303-20150917-TESEMSC_0-890
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Interpretações Paleoambientais: palinomorfos marinhos x continentais
-# sent_id = 303-20150917-TESEMSC_0-893
+# sent_id = 303-20150917-TESEMSC_0-891
 1	Interpretações	interpretações	PROPN	_	Number=Sing	0	root	_	_
 2	Paleoambientais	Paleoambientais	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -16225,7 +16229,7 @@
 7	continentais	continental	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 
 # text = Ao se refletir sobre os registros da instalação do Atlântico Sul na Bacia de Campos, o esperado seria que os sedimentos mais profundos e mais antigos apresentassem maior proporção de elementos continentais do que os sedimentos menos profundos e mais recentes – com a constante entrada de água, o local passou de um mar restrito a um oceano; assim, o registro fossilífero deveria seguir a lógica e adquirir caráter progressivamente mais marinho com a evolução da bacia.
-# sent_id = 303-20150917-TESEMSC_0-894
+# sent_id = 303-20150917-TESEMSC_0-892
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -16322,7 +16326,7 @@
 88	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Entretanto, analisando-se a relação entre palinomorfos continentais e palinomorfos marinhos nos poços BO e PM, fica claro que a porção superior de ambos sofreu maior influência de elementos continentais do que a seção inferior.
-# sent_id = 303-20150917-TESEMSC_0-895
+# sent_id = 303-20150917-TESEMSC_0-893
 1	Entretanto	entretanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3-4	analisando-se	_	_	_	_	_	_	_	_
@@ -16368,7 +16372,7 @@
 40	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Uma hipótese possível para explicar esse resultado seria a ocorrência de mudança climática com acréscimo de umidade no local.
-# sent_id = 303-20150917-TESEMSC_0-896
+# sent_id = 303-20150917-TESEMSC_0-894
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	possível	possível	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -16393,7 +16397,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Com mais precipitações, o aporte de material terrígeno para dentro da bacia aumentaria e, dessa forma, a proporção de esporos e pólens aumentaria.
-# sent_id = 303-20150917-TESEMSC_0-897
+# sent_id = 303-20150917-TESEMSC_0-895
 1	Com	com	ADP	_	_	3	case	_	_
 2	mais	mais	ADV	_	_	3	advmod	_	_
 3	precipitações	precipitação	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
@@ -16427,7 +16431,7 @@
 29	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = No entanto, o caráter da assembleia de palinomorfos continentais não permite sustentar essa teoria.
-# sent_id = 303-20150917-TESEMSC_0-898
+# sent_id = 303-20150917-TESEMSC_0-896
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -16450,7 +16454,7 @@
 18	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Os grãos de pólen e esporos encontrados são diagnósticos de aridez e eles se fazem presente nas amostras com porcentagens como Classopollis classoides, Equisetosporites relativamente altas, sp. e Gnetaceaepollenites sp.
-# sent_id = 303-20150917-TESEMSC_0-899
+# sent_id = 303-20150917-TESEMSC_0-897
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	grãos	grão	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -16488,12 +16492,12 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Até mesmo
-# sent_id = 303-20150917-TESEMSC_0-900
+# sent_id = 303-20150917-TESEMSC_0-898
 1	Até	até	ADP	_	_	2	case	_	_
 2	mesmo	mesmo	ADV	_	_	0	root	_	_
 
 # text = Callialasporites sp. e o esporo Cicatricosisporites sp., presentes com baixa abundância, são característicos de climas relativamente secos.
-# sent_id = 303-20150917-TESEMSC_0-901
+# sent_id = 303-20150917-TESEMSC_0-899
 1	Callialasporites	Callialasporite	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 2	sp.	sp.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -16516,7 +16520,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Outra hipótese possível seria a oscilação no nível do mar.
-# sent_id = 303-20150917-TESEMSC_0-902
+# sent_id = 303-20150917-TESEMSC_0-900
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	possível	possível	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -16534,7 +16538,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Dias-Brito (1995) articulou os dados de zoneamento propostos por Arai & Uesugui (1989) a novos dados paleoclimáticos baseados em associações de foraminíferos calcários.
-# sent_id = 303-20150917-TESEMSC_0-903
+# sent_id = 303-20150917-TESEMSC_0-901
 1	Dias-Brito	Dias-Brito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1995	1995	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -16564,7 +16568,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = De acordo com o autor, a Bacia de Campos passou por uma fase marcante de alterações hidrológicas na transição
-# sent_id = 303-20150917-TESEMSC_0-904
+# sent_id = 303-20150917-TESEMSC_0-902
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -16589,14 +16593,14 @@
 21	transição	transição	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 
 # text = Mesoalbiano – Neoalbiano.
-# sent_id = 303-20150917-TESEMSC_0-905
+# sent_id = 303-20150917-TESEMSC_0-903
 1	Mesoalbiano	Mesoalbiano	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	Neoalbiano	Neoalbiano	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Até o Mesoalbiano, a sedimentação da bacia ocorria em grande ecossistema de rampa carbonática, em águas quentes, hipersalinas e ricas em CaCO3.
-# sent_id = 303-20150917-TESEMSC_0-906
+# text = Até o Mesoalbiano, a sedimentação da bacia ocorria em grande ecossistema de rampa carbonática, em águas quentes, hipersalinas e ricas em CaCO.
+# sent_id = 303-20150917-TESEMSC_0-904
 1	Até	até	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Mesoalbiano	Mesoalbiano	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -16623,11 +16627,11 @@
 23	e	e	CCONJ	_	_	24	cc	_	_
 24	ricas	rico	ADJ	_	Gender=Fem|Number=Plur	20	conj	_	_
 25	em	em	ADP	_	_	26	case	_	_
-26	CaCO3	CaCO3	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+26	CaCO	CaCO	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O influxo de terrígenos à bacia era bastante baixo.
-# sent_id = 303-20150917-TESEMSC_0-907
+# sent_id = 303-20150917-TESEMSC_0-905
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -16642,10 +16646,10 @@
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Essa fase foi batizada de α1, cujo intervalo correspondente foi considerado como Albiano inferior a médio.
-# sent_id = 303-20150917-TESEMSC_0-908
+# sent_id = 303-20150917-TESEMSC_0-906
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
-3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	SpacesAfter=\s\n
 4	batizada	batizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	α1	α1	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
@@ -16663,7 +16667,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após esse momento, iniciou-se a fase β0 (Neoalbiano), marcada por uma elevação no nível do mar e início do afogamento da rampa carbonática com a manutenção do clima árido.
-# sent_id = 303-20150917-TESEMSC_0-909
+# sent_id = 303-20150917-TESEMSC_0-907
 1	Após	após	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -16712,7 +16716,7 @@
 40	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Com a subida eustática, mais áreas continentais foram alcançadas, o que trazia material terrígeno para dentro da bacia.
-# sent_id = 303-20150917-TESEMSC_0-910
+# sent_id = 303-20150917-TESEMSC_0-908
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	subida	subida	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -16738,7 +16742,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Dessa forma, as águas, até então límpidas e pobres em nutrientes, tornaram-se férteis.
-# sent_id = 303-20150917-TESEMSC_0-911
+# sent_id = 303-20150917-TESEMSC_0-909
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -16762,7 +16766,7 @@
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Com a continuidade da elevação do nível do mar, a bacia passou por um momento de instabilidade e ciclos de ressurgência, o que determinou a deposição de ritmitos e culminou com o fim do afogamento da rampa carbonática e, consequentemente, o fim da deposição calcária na bacia.
-# sent_id = 303-20150917-TESEMSC_0-912
+# sent_id = 303-20150917-TESEMSC_0-910
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -16831,7 +16835,7 @@
 59	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Esse último ciclo corresponde à fase β1.
-# sent_id = 303-20150917-TESEMSC_0-913
+# sent_id = 303-20150917-TESEMSC_0-911
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -16844,7 +16848,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O aumento na proporção de elementos continentais da base para o topo dos poços poderia ser explicado, então, pelo início da fase β0 na Bacia de Campos.
-# sent_id = 303-20150917-TESEMSC_0-914
+# sent_id = 303-20150917-TESEMSC_0-912
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -16889,7 +16893,7 @@
 36	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = A passagem de Albiano médio para Albiano superior ficou registrada também na diversidade da associação palinológica da Bacia de Campos neste trabalho.
-# sent_id = 303-20150917-TESEMSC_0-915
+# sent_id = 303-20150917-TESEMSC_0-913
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	passagem	passagem	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -16923,7 +16927,7 @@
 27	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = É possível observar que a riqueza aumenta da base para o topo das seções estudadas (Figura 16), o que vai ao encontro do postulado por Arai et al. (2000) e Arai (2009) ao afirmar que a diversidade na assembleia de dinoflagelados das bacias de Campos e Santos atinge valores elevados no Vraconiano.
-# sent_id = 303-20150917-TESEMSC_0-916
+# sent_id = 303-20150917-TESEMSC_0-914
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	observar	observar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -17002,7 +17006,7 @@
 68	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A interpretação para o observado seria o desaparecimento da barreira física existente – alinhamento entre Dorsal de São Paulo e Alto de Florianópolis ou Microcontinente Rio Grande – e a entrada de águas austrais.
-# sent_id = 303-20150917-TESEMSC_0-917
+# sent_id = 303-20150917-TESEMSC_0-915
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	interpretação	interpretação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -17042,7 +17046,7 @@
 36	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O mesmo aumento de diversidade já havia sido observado por Dias-Brito (1995) nas associações de foraminíferos bentônicos e planctônicos das bacias da margem continental brasileira durante a transição citada, o que o autor atribuiu à elevação do nível do mar (passagem de mar restrito para oceano aberto e consequente incremento de contato entre as águas).
-# sent_id = 303-20150917-TESEMSC_0-918
+# sent_id = 303-20150917-TESEMSC_0-916
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
@@ -17115,16 +17119,16 @@
 64	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	65	det	_	_
 65	águas	água	NOUN	_	Gender=Fem|Number=Plur	62	nmod	_	SpaceAfter=No
 66	)	)	PUNCT	_	_	51	punct	_	SpaceAfter=No
-67	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+67	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Figura 16.
-# sent_id = 303-20150917-TESEMSC_0-919
+# sent_id = 303-20150917-TESEMSC_0-917
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição estratigráfica dos palinomorfos do poço Bonito.
-# sent_id = 303-20150917-TESEMSC_0-920
+# sent_id = 303-20150917-TESEMSC_0-918
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	estratigráfica	estratigráfico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -17139,7 +17143,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A linha vermelha representa a passagem de Albiano médio para Albiano superior marcada pela elevação eustática.
-# sent_id = 303-20150917-TESEMSC_0-921
+# sent_id = 303-20150917-TESEMSC_0-919
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	linha	linha	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	vermelha	vermelho	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -17161,7 +17165,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Notar o aumento de diversidade da base para o topo da seção.
-# sent_id = 303-20150917-TESEMSC_0-922
+# sent_id = 303-20150917-TESEMSC_0-920
 1	Notar	notar	VERB	_	VerbForm=Inf	0	root	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -17181,7 +17185,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Além disso, a litologia dos poços corrobora as afirmações supracitadas.
-# sent_id = 303-20150917-TESEMSC_0-923
+# sent_id = 303-20150917-TESEMSC_0-921
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -17200,7 +17204,7 @@
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Em ambos os poços, o incremento de palinomorfos continentais e o aumento da riqueza das amostras coincidem com o surgimento de margas, o que significa que a bacia passou a sofrer maior influência de siliciclásticos a partir de então.
-# sent_id = 303-20150917-TESEMSC_0-924
+# sent_id = 303-20150917-TESEMSC_0-922
 1	Em	em	ADP	_	_	4	case	_	_
 2	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -17249,7 +17253,7 @@
 44	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Os palinomorfos, entre eles os dinocistos, são encontrados em maior quantidade em margas, argilas e limestones (BIGNOT, 1985).
-# sent_id = 303-20150917-TESEMSC_0-925
+# sent_id = 303-20150917-TESEMSC_0-923
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -17277,7 +17281,7 @@
 25	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Nos poços BO e PM, o registro litológico passa de carbonatos para intercalações de carbonatos com margas e folhelhos, diminuindo a influência carbonática da base para o topo dos poços (Figura 17).
-# sent_id = 303-20150917-TESEMSC_0-926
+# sent_id = 303-20150917-TESEMSC_0-924
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -17323,7 +17327,7 @@
 40	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Assim sendo, o material terrígeno juntamente com grãos de pólen e esporos passou a se fazer presente com maior representatividade dentro da bacia.
-# sent_id = 303-20150917-TESEMSC_0-927
+# sent_id = 303-20150917-TESEMSC_0-925
 1	Assim	assim	ADV	_	_	2	advmod	_	_
 2	sendo	ser	VERB	_	VerbForm=Ger	14	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -17350,16 +17354,16 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = Figura 17.
-# sent_id = 303-20150917-TESEMSC_0-928
+# sent_id = 303-20150917-TESEMSC_0-926
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema litológico dos poços Bonito e Pampo.
-# sent_id = 303-20150917-TESEMSC_0-929
+# sent_id = 303-20150917-TESEMSC_0-927
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	litológico	litológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -17372,12 +17376,12 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 4.3.
-# sent_id = 303-20150917-TESEMSC_0-930
+# sent_id = 303-20150917-TESEMSC_0-928
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Palinomorfos marinhos e a assembleia de dinoflagelados
-# sent_id = 303-20150917-TESEMSC_0-931
+# sent_id = 303-20150917-TESEMSC_0-929
 1	Palinomorfos	Palinomorfo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	marinhos	marinho	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -17387,7 +17391,7 @@
 7	dinoflagelados	dinoflagelado	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 
 # text = A maior parte dos dinoflagelados registrados neste trabalho são espécies cosmopolitas e tolerantes a variações latitudinais, o que apoia o cenário de subida eustática, como Coronifera oceanica, Leberidocysta chlamydata, Litosphaeridium siphoniphorum, Odontochitina operculata, Palaeohystricophora infusorioides, Spiniferites ramosus, Trichodinium castanea (BOWMAN et al., 2012;
-# sent_id = 303-20150917-TESEMSC_0-932
+# sent_id = 303-20150917-TESEMSC_0-930
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	parte	parte	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -17448,7 +17452,7 @@
 56	;	;	PUNCT	_	_	13	punct	_	_
 
 # text = OOSTING et al., 2006; WILLIAMS & BUJAK, 1985).
-# sent_id = 303-20150917-TESEMSC_0-933
+# sent_id = 303-20150917-TESEMSC_0-931
 1	OOSTING	Oosting	X	_	_	3	amod	_	_
 2	et	et	X	_	_	1	flat:foreign	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -17464,7 +17468,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Essas espécies estão presentes com abundância em estratos albianos das bacias do Golfo Pérsico, Atlântico Norte e Oceano Glacial Ártico (GHASEMI-NEJAD et al., 2009;
-# sent_id = 303-20150917-TESEMSC_0-934
+# sent_id = 303-20150917-TESEMSC_0-932
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -17499,7 +17503,7 @@
 30	;	;	PUNCT	_	_	4	punct	_	_
 
 # text = OGG, 1994; RADMACHER et al., 2014).
-# sent_id = 303-20150917-TESEMSC_0-935
+# sent_id = 303-20150917-TESEMSC_0-933
 1	OGG	Ogg	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	1994	1994	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
@@ -17513,7 +17517,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A espécie Odontochitina operculata consta na literatura como um táxon de grande amplitude vertical e ampla distribuição biogeográfica; na porção superior do poço BO, ela representa 52,5% dos palinomorfos marinhos, comportamento anômalo que não é observado para as demais profundidades e nem no poço PM.
-# sent_id = 303-20150917-TESEMSC_0-936
+# sent_id = 303-20150917-TESEMSC_0-934
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	Odontochitina	Odontochitina	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -17545,7 +17549,7 @@
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	poço	poço	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 28	BO	BO	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	5	punct	_	_
+29	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
 30	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 31	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 32	52,5	52,5	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
@@ -17576,7 +17580,7 @@
 55	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Não é possível afirmar que a alta porcentagem de Odontochitina operculata seja um caso de superdominância, visto que eventos de blooms são caracterizados quando um único táxon corresponde a 70-99% dos demais (ARAI & COIMBRA, 1990;
-# sent_id = 303-20150917-TESEMSC_0-937
+# sent_id = 303-20150917-TESEMSC_0-935
 1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -17622,7 +17626,7 @@
 42	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = NOE-NYGAARD et al., 1987;
-# sent_id = 303-20150917-TESEMSC_0-938
+# sent_id = 303-20150917-TESEMSC_0-936
 1	NOE-NYGAARD	Noe-nygaard	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -17631,7 +17635,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = PEDRÃO & LANA, 2000).
-# sent_id = 303-20150917-TESEMSC_0-939
+# sent_id = 303-20150917-TESEMSC_0-937
 1	PEDRÃO	PEDRÃO	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	LANA	lana	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -17641,7 +17645,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A curva de dominância para o intervalo em questão alcança o valor de 0,35, o que não é considerado alto para os parâmetros ecológicos.
-# sent_id = 303-20150917-TESEMSC_0-940
+# sent_id = 303-20150917-TESEMSC_0-938
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	curva	curva	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -17670,7 +17674,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Além disso, as superdominâncias de dinoflagelados estão relacionadas a uma grande variação ou estresse ambiental – como, por exemplo, eventos regressivos –, quando uma espécie oportunista se aproveita da situação e prolifera rapidamente (ARAI & VIVIERS, 2013).
-# sent_id = 303-20150917-TESEMSC_0-941
+# sent_id = 303-20150917-TESEMSC_0-939
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -17722,7 +17726,7 @@
 47	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Esse dado não é observado para as amostras em questão, pois o nível do mar continua a subir até o final do Albiano após a transgressão que marcou o início da fase Beta-0, o que está de acordo com a curva paleobatimétrica de Dias-Brito (1995).
-# sent_id = 303-20150917-TESEMSC_0-942
+# sent_id = 303-20150917-TESEMSC_0-940
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	dado	dado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -17781,7 +17785,7 @@
 53	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = É possível que a espécie Odontochitina operculata tenha se beneficiado de alguma maneira pelo aumento de aporte de material terrígeno para dentro da bacia, fator estressante para muitos dinoflagelados e que geralmente favorece a prevalência de poucos táxons tolerantes a essa modificação (ARAI & VIVIERS, 2013).
-# sent_id = 303-20150917-TESEMSC_0-943
+# sent_id = 303-20150917-TESEMSC_0-941
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	que	que	SCONJ	_	_	7	mark	_	_
@@ -17839,7 +17843,7 @@
 53	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = No poço PM, por outro lado, foi possível observar um pico de dominância de Spiniferites ramosus.
-# sent_id = 303-20150917-TESEMSC_0-944
+# sent_id = 303-20150917-TESEMSC_0-942
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -17863,7 +17867,7 @@
 20	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = De acordo com Marret & Zonneveld (2003), os exemplares modernos de Spiniferites ramosus se adaptam a uma ampla variedade de temperatura, salinidade, concentração de fosfatos e nitratos.
-# sent_id = 303-20150917-TESEMSC_0-945
+# sent_id = 303-20150917-TESEMSC_0-943
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -17899,7 +17903,7 @@
 33	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Por serem tão generalistas, é comum observar abundância relativa dessa espécie nas associações de dinoflagelados modernos ao redor do mundo, o que também se observa nas assembleias fósseis.
-# sent_id = 303-20150917-TESEMSC_0-946
+# sent_id = 303-20150917-TESEMSC_0-944
 1	Por	por	SCONJ	_	_	4	mark	_	_
 2	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	4	cop	_	_
 3	tão	tão	ADV	_	_	4	advmod	_	_
@@ -17943,7 +17947,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Essa constante foi observada nesse trabalho –
-# sent_id = 303-20150917-TESEMSC_0-947
+# sent_id = 303-20150917-TESEMSC_0-945
 1	Essa	essa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 2	constante	constante	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -17955,7 +17959,7 @@
 8	–	–	PUNCT	_	_	4	punct	_	_
 
 # text = Spiniferites ramosus está presente em todas as profundidades das seções estudadas dos dois poços e representa aproximadamente 43% dos palinomorfos marinhos.
-# sent_id = 303-20150917-TESEMSC_0-948
+# sent_id = 303-20150917-TESEMSC_0-946
 1	Spiniferites	Spiniferite	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 2	ramosus	ramosu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -17987,7 +17991,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = No poço PM, na profundidade de 1962m, a espécie corresponde a 71% dos palinomorfos marinhos, o que fez o valor de dominância atingir o valor de 0,6.
-# sent_id = 303-20150917-TESEMSC_0-949
+# sent_id = 303-20150917-TESEMSC_0-947
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -18028,7 +18032,7 @@
 35	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Pode-se dizer que foi um pequeno evento de superdominância talvez condicionado pelo aumento de material terrígeno dentro da bacia, assim como no caso de Odontochitina operculata.
-# sent_id = 303-20150917-TESEMSC_0-950
+# sent_id = 303-20150917-TESEMSC_0-948
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
@@ -18067,7 +18071,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na porção inferior do poço BO, destaca-se a superdominância de palinoforaminíferos trocoespirais (Figura 18); entre as profundidades 2690,5m e 2691,5m, a curva de dominância atinge o valor de 0,7 devido à sua predominância na associação de palinomorfos marinhos.
-# sent_id = 303-20150917-TESEMSC_0-951
+# sent_id = 303-20150917-TESEMSC_0-949
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -18101,7 +18105,7 @@
 28	,	,	PUNCT	_	_	10	punct	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	curva	curva	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
-31	de	de	ADP	_	_	32	case	_	_
+31	de	de	ADP	_	_	32	case	_	SpacesAfter=\s\n
 32	dominância	dominância	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 33	atinge	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -18124,7 +18128,7 @@
 49	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esse fato está em acordo com o panorama vigente antes da transgressão albiana, momento em que as condições ambientais eram estressantes: mar restrito com baixa oxigenação e baixo teor de nutrientes (ARTHUR & SCHLANGER, 1979; DIAS-BRITO, 1987, 1995).
-# sent_id = 303-20150917-TESEMSC_0-952
+# sent_id = 303-20150917-TESEMSC_0-950
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -18176,7 +18180,7 @@
 48	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = É provável que, nesse momento, os foraminíferos tenham sido os representantes da microfauna marinha que melhor toleravam as condições adversas em que estavam inseridos e, assim, obtiveram grande sucesso reprodutivo e ocuparam os nichos vagos.
-# sent_id = 303-20150917-TESEMSC_0-953
+# sent_id = 303-20150917-TESEMSC_0-951
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	provável	provável	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
@@ -18223,13 +18227,13 @@
 42	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 18.
-# sent_id = 303-20150917-TESEMSC_0-954
+# sent_id = 303-20150917-TESEMSC_0-952
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Foraminífero trocoespiral superdominante no Intervalo Beta 0 ou Eoalbiano.
-# sent_id = 303-20150917-TESEMSC_0-955
+# sent_id = 303-20150917-TESEMSC_0-953
 1	Foraminífero	Foraminífero	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	trocoespiral	trocoespiral	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	superdominante	superdominante	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -18244,7 +18248,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A distribuição das espécies de dinoflagelados ao longo das seções é um indicativo de como ocorreu a entrada das águas durante a formação do Atlântico Sul.
-# sent_id = 303-20150917-TESEMSC_0-956
+# sent_id = 303-20150917-TESEMSC_0-954
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -18284,7 +18288,7 @@
 32	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = A ausência de dinoflagelados indicativos de águas austrais (Ascodinium acrophorum, Occisucysta victorii e Tenua americana) e a presença de dinoflagelados tipicamente tetianos no (Codoniella campanulata, Cyclonephelium vannophorum, material estudado Endoceratium dettmanniae e Tehamadinium mazaganense) permitem inferir que durante o Albiano, a Bacia de Campos apresentava biota com forte caráter tetiano, o que se opõe ao modelo tradicional de influência austral no início de formação do Atlântico Sul defendida por Bolli (1978).
-# sent_id = 303-20150917-TESEMSC_0-957
+# sent_id = 303-20150917-TESEMSC_0-955
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -18378,7 +18382,7 @@
 87	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Tendo como base a integração dos dados micropaleontológicos citados na introdução do trabalho e, em especial, dados referentes à associação de dinoflagelados do Albiano inferior, é possível confirmar a teoria de Arai (2009) e inferir que a entrada de águas para o estabelecimento do Atlântico Sul não obedeceu à abertura tectônica de sul para norte, em função da existência de uma barreira física que impedia a livre circulação oceânica – o microcontinente Rio Grande.
-# sent_id = 303-20150917-TESEMSC_0-958
+# sent_id = 303-20150917-TESEMSC_0-956
 1	Tendo	ter	VERB	_	VerbForm=Ger	35	advcl	_	_
 2	como	como	ADP	_	_	3	case	_	_
 3	base	base	NOUN	_	Gender=Fem|Number=Sing	1	xcomp	_	_
@@ -18442,7 +18446,7 @@
 55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	Atlântico	Atlântico	PROPN	_	Gender=Masc|Number=Sing	53	nmod	_	_
 57	Sul	sul	PROPN	_	Number=Sing	56	flat:name	_	_
-58	não	não	ADV	_	Polarity=Neg	59	advmod	_	_
+58	não	não	ADV	_	Polarity=Neg	59	advmod	_	SpacesAfter=\s\n
 59	obedeceu	obedecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	ccomp	_	_
 60-61	à	_	_	_	_	_	_	_	_
 60	a	a	ADP	_	_	62	case	_	_
@@ -18478,7 +18482,7 @@
 89	.	.	PUNCT	_	_	35	punct	_	_
 
 # text = Dessa forma, durante a elevação eustática do Aptiano, as águas provenientes do Atlântico Central transbordaram e invadiram as margens equatorial e leste da América do Sul, estabelecendo o início do Atlântico Sul primitivo com forte influência do Mar de Tétis, condição esta que prevaleceu praticamente no decorrer do Albiano.
-# sent_id = 303-20150917-TESEMSC_0-959
+# sent_id = 303-20150917-TESEMSC_0-957
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -18553,7 +18557,7 @@
 63	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Apenas no final do Albiano (Vraconiano) que a diversidade da biota marinha aumenta consideravelmente em um ambiente francamente oceânico; muitas espécies de dinoflagelados passam a ser encontradas no registro sedimentar, entre elas espécies típicas de mares austrais, o que atesta o desaparecimento de barreira efetiva.
-# sent_id = 303-20150917-TESEMSC_0-960
+# sent_id = 303-20150917-TESEMSC_0-958
 1	Apenas	apenas	ADV	_	_	4	advmod	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -18615,12 +18619,12 @@
 55	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\n
 
 # text = 4.4.
-# sent_id = 303-20150917-TESEMSC_0-961
+# sent_id = 303-20150917-TESEMSC_0-959
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Caracterização palinológica do Albiano da Bacia de Campos
-# sent_id = 303-20150917-TESEMSC_0-962
+# sent_id = 303-20150917-TESEMSC_0-960
 1	Caracterização	caracterização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	palinológica	palinológico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -18635,7 +18639,7 @@
 10	Campos	Campos	PROPN	_	Number=Sing	8	nmod	_	_
 
 # text = De acordo com a conjunção de dados palinológicos e paleoambientais, pode-se definir a evolução do Albiano da Bacia de Campos seguindo a variação no seu conteúdo fossilífero da seguinte maneira:
-# sent_id = 303-20150917-TESEMSC_0-963
+# sent_id = 303-20150917-TESEMSC_0-961
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -18680,7 +18684,7 @@
 37	:	:	PUNCT	_	_	12	punct	_	_
 
 # text = Eoalbiano a Mesoalbiano: momento das primeiras incursões marinhas na Bacia.
-# sent_id = 303-20150917-TESEMSC_0-964
+# sent_id = 303-20150917-TESEMSC_0-962
 1	Eoalbiano	Eoalbiano	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	Mesoalbiano	Mesoalbiano	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -18699,7 +18703,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = É caracterizado por ambiente restrito, de mar raso com baixo teor de oxigênio, alta salinidade, baixo nível de nutrientes.
-# sent_id = 303-20150917-TESEMSC_0-965
+# sent_id = 303-20150917-TESEMSC_0-963
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	caracterizado	caracterizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -18725,7 +18729,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A sedimentação ocorria em sistema de rampa carbonática, com presença de calcarenitos e calcilutitos.
-# sent_id = 303-20150917-TESEMSC_0-966
+# sent_id = 303-20150917-TESEMSC_0-964
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sedimentação	sedimentação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	ocorria	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -18744,7 +18748,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As condições eram desfavoráveis à manutenção de biota de alta diversidade.
-# sent_id = 303-20150917-TESEMSC_0-967
+# sent_id = 303-20150917-TESEMSC_0-965
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
@@ -18761,7 +18765,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nos depósitos fossílíferos, ocorre a dominância de palinoforaminíferos trocoespirais na comunidade marinha seguidos por alguns poucos dinoflagelados generalistas e resistentes a variações ambientais (Coronifera oceanica, Oligosphaeridium complex, Spiniferites ramosus) e grãos de pólen com baixa abundância, como Cycadopites sp., Callialasporites trilobatus e Equisetosporites sp.
-# sent_id = 303-20150917-TESEMSC_0-968
+# sent_id = 303-20150917-TESEMSC_0-966
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -18820,7 +18824,7 @@
 54	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Neoalbiano: tem seu início marcado pela elevação eustática.
-# sent_id = 303-20150917-TESEMSC_0-969
+# sent_id = 303-20150917-TESEMSC_0-967
 1	Neoalbiano	Neoalbiano	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
@@ -18835,7 +18839,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A sedimentação carbonática passa a entrar em colapso com o maior aporte de material siliciclástico para dentro da Bacia, o que é possível observar no registro litológico com a presença de folhelhos e margas intercalados com carbonatos.
-# sent_id = 303-20150917-TESEMSC_0-970
+# sent_id = 303-20150917-TESEMSC_0-968
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sedimentação	sedimentação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	carbonática	carbonático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -18881,7 +18885,7 @@
 41	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A abundância de palinoflora continental aumenta significativamente no registro fóssil, o que é marcado por altas porcentagens relativas de grãos de pólen gimnospérmicos – Classopollis classoides, Equisetosporites sp., Gnetaceapollenites sp.
-# sent_id = 303-20150917-TESEMSC_0-971
+# sent_id = 303-20150917-TESEMSC_0-969
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	abundância	abundância	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -18911,7 +18915,7 @@
 26	–	–	PUNCT	_	_	6	punct	_	_
 27	Classopollis	Classopollis	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
 28	classoides	classoides	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	30	punct	_	_
+29	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\n
 30	Equisetosporites	Equisetosporites	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	_
 31	sp.	sp.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	6	punct	_	_
@@ -18920,7 +18924,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As condições ambientais sofrem modificações: o mar começa a deixar de ser restrito com o aumento da coluna d’água, além de ocorrer melhor oxigenação das águas e diminuição da salinidade.
-# sent_id = 303-20150917-TESEMSC_0-972
+# sent_id = 303-20150917-TESEMSC_0-970
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -18963,7 +18967,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esses fatores favorecem a manutenção de maior diversidade microfaunística.
-# sent_id = 303-20150917-TESEMSC_0-973
+# sent_id = 303-20150917-TESEMSC_0-971
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	favorecem	favorecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18976,7 +18980,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os palinoforaminíferos ainda se fazem presentes, porém não dominam mais a associação fóssil.
-# sent_id = 303-20150917-TESEMSC_0-974
+# sent_id = 303-20150917-TESEMSC_0-972
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	palinoforaminíferos	palinoforaminífero	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	ainda	ainda	ADV	_	_	5	advmod	_	_
@@ -18994,7 +18998,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = No Neoalbiano ocorre um rápido evento de dominância da espécie
-# sent_id = 303-20150917-TESEMSC_0-975
+# sent_id = 303-20150917-TESEMSC_0-973
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -19011,7 +19015,7 @@
 12	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 
 # text = Spiniferites ramosus sobre as demais.
-# sent_id = 303-20150917-TESEMSC_0-976
+# sent_id = 303-20150917-TESEMSC_0-974
 1	Spiniferites	Spiniferite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	ramosus	ramosu	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	sobre	sobre	ADP	_	_	5	case	_	_
@@ -19020,7 +19024,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A frequência de dinoflagelados aumenta nesse período e começam a aparecer algumas espécies que não eram observadas no Eoalbiano, como Odontochitina costata, Odontochitina operculata, Litosphaeridium conispinum, Pervosphaeridium cenomaniense e Wrevittia helicoidea.
-# sent_id = 303-20150917-TESEMSC_0-977
+# sent_id = 303-20150917-TESEMSC_0-975
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -19063,7 +19067,7 @@
 38	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O Neoalbiano ou intervalo Beta-0 é delimitado pela extinção do dinoflagelado
-# sent_id = 303-20150917-TESEMSC_0-978
+# sent_id = 303-20150917-TESEMSC_0-976
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Neoalbiano	Neoalbiano	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -19081,7 +19085,7 @@
 13	dinoflagelado	dinoflagelado	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 
 # text = Ovoidinium diversum em seu topo.
-# sent_id = 303-20150917-TESEMSC_0-979
+# sent_id = 303-20150917-TESEMSC_0-977
 1	Ovoidinium	Ovoidinium	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 2	diversum	diversum	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	5	obj	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -19090,7 +19094,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Vraconiano (final do Neoalbiano): intervalo em que se deu o fim da deposição carbonática na bacia.
-# sent_id = 303-20150917-TESEMSC_0-980
+# sent_id = 303-20150917-TESEMSC_0-978
 1	Vraconiano	Vraconiano	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	final	final	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -19119,7 +19123,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No Vraconiano, a modificação ambiental mais marcante é o aumento da espessura na lâmina de água, ponto culminante da passagem de um mar epicontinental restrito para oceano.
-# sent_id = 303-20150917-TESEMSC_0-981
+# sent_id = 303-20150917-TESEMSC_0-979
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -19160,7 +19164,7 @@
 34	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Consequentemente, há maior oxigenação das águas, boa quantidade de nutrientes e salinidade favorável para a biota.
-# sent_id = 303-20150917-TESEMSC_0-982
+# sent_id = 303-20150917-TESEMSC_0-980
 1	Consequentemente	consequentemente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -19184,7 +19188,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Mesmo com o estabelecimento de um ambiente francamente marinho, os palinomorfos continentais (principalmente os pólens gimnospérmicos) são encontrados em abundância no Vraconiano junto com o surgimento de margas e folhelhos.
-# sent_id = 303-20150917-TESEMSC_0-983
+# sent_id = 303-20150917-TESEMSC_0-981
 1	Mesmo	mesmo	ADV	_	_	11	advmod	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -19223,7 +19227,7 @@
 35	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = No final do Neoalbiano – Vraconiano – nota-se um aumento significativo da diversidade na Bacia de Campos devido principalmente ao surgimento de muitas espécies de dinoflagelados, como Cyclonephelium compactum, Dapsilidinium sp., Heterosphaeridium sp., Impagidinium sp.
-# sent_id = 303-20150917-TESEMSC_0-984
+# sent_id = 303-20150917-TESEMSC_0-982
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -19278,7 +19282,7 @@
 46	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Nesse período observa-se alta frequência da espécie Odontochitina operculata, mas esta não chega a dominar a associação fóssil.
-# sent_id = 303-20150917-TESEMSC_0-985
+# sent_id = 303-20150917-TESEMSC_0-983
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -19304,19 +19308,19 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	associação	associação	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 22	fóssil	fóssil	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 5.
-# sent_id = 303-20150917-TESEMSC_0-986
+# sent_id = 303-20150917-TESEMSC_0-984
 1	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONCLUSÕES
-# sent_id = 303-20150917-TESEMSC_0-987
+# sent_id = 303-20150917-TESEMSC_0-985
 1	CONCLUSÕES	conclusão	NUM	_	NumType=Card	0	root	_	_
 
 # text = O estudo integrado dos palinomorfos da Bacia de Campos, em especial a assembleia de dinoflagelados, mostrou-se uma ferramenta útil para se fazer interpretações paleoambientais e paleobiogeográficas do Cretáceo Inferior, em particular do Albiano.
-# sent_id = 303-20150917-TESEMSC_0-988
+# sent_id = 303-20150917-TESEMSC_0-986
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 3	integrado	integrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
@@ -19366,7 +19370,7 @@
 42	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Os resultados oriundos deste trabalho trazem como contribuição maior embasamento para futuras pesquisas de cunho palinológico e possibilitam a formulação das seguintes conclusões:
-# sent_id = 303-20150917-TESEMSC_0-989
+# sent_id = 303-20150917-TESEMSC_0-987
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	oriundos	oriundo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -19397,7 +19401,7 @@
 26	:	:	PUNCT	_	_	7	punct	_	_
 
 # text = Os palinomorfos continentais estão em acordo com os dados contidos na literatura e confirmam que o clima durante o Albiano no Brasil era quente e seco, com a cobertura vegetal próxima à Bacia de Campos dominada por Gimnospermas arbóreas e herbáceas.
-# sent_id = 303-20150917-TESEMSC_0-990
+# sent_id = 303-20150917-TESEMSC_0-988
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	palinomorfos	palinomorfo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	continentais	continental	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -19449,7 +19453,7 @@
 46	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Havia presença pontual de Pteridófitas resistentes à aridez.
-# sent_id = 303-20150917-TESEMSC_0-991
+# sent_id = 303-20150917-TESEMSC_0-989
 1	Havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	pontual	pontual	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -19463,7 +19467,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A comparação entre a distribuição de elementos marinhos e continentais permite inferir que a Bacia de Campos, quando da sedimentação do Grupo Macaé, era caracterizada por ambiente marinho, tendo em vista a predominância de elementos como dinoflagelados e palinoforaminíferos.
-# sent_id = 303-20150917-TESEMSC_0-992
+# sent_id = 303-20150917-TESEMSC_0-990
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -19513,7 +19517,7 @@
 45	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = No entanto, havia influxo constante de material terrígeno, fato este atestado pela presença subordinada de palinomorfos continentais (esporos e grãos de pólen) em todas as amostras.
-# sent_id = 303-20150917-TESEMSC_0-993
+# sent_id = 303-20150917-TESEMSC_0-991
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -19551,7 +19555,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Mesmo com o processo de estabelecimento do Oceano Atlântico Sul e o espessamento da coluna d’água, os palinomorfos continentais se fazem presentes no registro sedimentar e são encontrados em maior quantidade no final do Albiano, quando a litologia passa gradativamente de carbonatos para folhelhos e margas.
-# sent_id = 303-20150917-TESEMSC_0-994
+# sent_id = 303-20150917-TESEMSC_0-992
 1	Mesmo	mesmo	ADV	_	_	21	advmod	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -19614,7 +19618,7 @@
 55	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Dessa forma, é lógico afirmar que o aporte de material terrígeno para dentro da bacia aumentou no final do Albiano.
-# sent_id = 303-20150917-TESEMSC_0-995
+# sent_id = 303-20150917-TESEMSC_0-993
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -19647,7 +19651,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Os gráficos de distribuição dos palinomorfos marinhos pelas profundidades dos poços mostraram eventos de dominância de algumas espécies relacionados à baixa diversidade da comunidade, o que representa paleoambiente estressante.
-# sent_id = 303-20150917-TESEMSC_0-996
+# sent_id = 303-20150917-TESEMSC_0-994
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -19691,7 +19695,7 @@
 36	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = No início do Albiano, o ambiente marinho era ainda inóspito e correspondia a um mar restrito e raso, com biota pouco expressiva caracterizada por alta dominância de palinoforaminíferos e poucas espécies de dinoflagelados presentes.
-# sent_id = 303-20150917-TESEMSC_0-997
+# sent_id = 303-20150917-TESEMSC_0-995
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -19735,7 +19739,7 @@
 39	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Conforme o Oceano Atlântico se desenvolve, a preponderância de palinoforaminíferos diminui e vão sendo encontradas mais espécies de dinoflagelados, o que contribuiu para o aumento da diversidade marinha como um todo.
-# sent_id = 303-20150917-TESEMSC_0-998
+# sent_id = 303-20150917-TESEMSC_0-996
 1	Conforme	conforme	SCONJ	_	_	6	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Oceano	Oceano	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -19753,7 +19757,7 @@
 15	sendo	ser	AUX	_	VerbForm=Ger	16	aux:pass	_	_
 16	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	conj	_	_
 17	mais	mais	ADV	_	_	18	advmod	_	_
-18	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+18	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	SpacesAfter=\s\n
 19	de	de	ADP	_	_	20	case	_	_
 20	dinoflagelados	dinoflagelado	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	12	punct	_	_
@@ -19774,7 +19778,7 @@
 35	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = A assembleia de dinoflagelados da Bacia de Campos serve como indício de como ocorreu o processo de formação do Atlântico Sul.
-# sent_id = 303-20150917-TESEMSC_0-999
+# sent_id = 303-20150917-TESEMSC_0-997
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	assembleia	assembleia	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -19803,7 +19807,7 @@
 24	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Apesar da maioria das espécies de dinoflagelados serem cosmopolitas, algumas espécies provincialistas foram encontradas e trazem consigo informações biogeográficas relevantes.
-# sent_id = 303-20150917-TESEMSC_0-1000
+# sent_id = 303-20150917-TESEMSC_0-998
 1	Apesar	apesar	ADV	_	_	4	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -19834,7 +19838,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A presença de espécies de dinoflagelados tetianos e a ausência de dinoflagelados austrais no Albiano da Bacia de Campos – em adição a dados micropaleontológicos anteriores oriundos de palinoforaminíferos, nanofósseis e amonitas – possibilitam inferir que a entrada de águas durante o estabelecimento do Oceano Atlântico Sul ocorreu de Norte para Sul.
-# sent_id = 303-20150917-TESEMSC_0-1001
+# sent_id = 303-20150917-TESEMSC_0-999
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	37	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_

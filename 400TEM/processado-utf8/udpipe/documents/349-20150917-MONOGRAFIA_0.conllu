@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 349-20150917-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Introdução
@@ -648,7 +648,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = Os resíduos lignocelulósicos, em sua grande maioria, possuem a seguinte composição: celulose (33-51%), hemicelulose (19-34%) e lignina (21- 32%), sendo o restante constituído por cinzas (0-2%) e extrativos (1-5%) (ALMEIDA, 2007)
+# text = Os resíduos lignocelulósicos, em sua grande maioria, possuem a seguinte composição: celulose (33-51%), hemicelulose (19-34%) e lignina (21-32%), sendo o restante constituído por cinzas (0-2%) e extrativos (1-5%) (ALMEIDA, 2007)
 # sent_id = 349-20150917-MONOGRAFIA_0-19
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -677,33 +677,32 @@
 25	)	)	PUNCT	_	_	24	punct	_	_
 26	e	e	CCONJ	_	_	27	cc	_	_
 27	lignina	lignina	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	21-	21-	SYM	_	_	10	appos	_	_
-30	32	32	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
-31	%	%	SYM	_	_	29	nmod	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	36	punct	_	_
-34	sendo	ser	AUX	_	VerbForm=Ger	36	cop	_	_
-35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	restante	restante	NOUN	_	Gender=Masc|Number=Sing	10	advcl	_	_
-37	constituído	constituir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	36	acl	_	_
-38	por	por	ADP	_	_	39	case	_	_
-39	cinzas	cinza	NOUN	_	Gender=Fem|Number=Plur	37	obl:agent	_	_
-40	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
-41	0-2	0-2	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
-42	%	%	SYM	_	_	39	appos	_	SpaceAfter=No
-43	)	)	PUNCT	_	_	42	punct	_	_
-44	e	e	CCONJ	_	_	45	cc	_	_
-45	extrativos	extrativo	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	_
-46	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
-47	1-5	1-5	NUM	_	NumType=Card	48	nummod	_	SpaceAfter=No
-48	%	%	SYM	_	_	39	appos	_	SpaceAfter=No
-49	)	)	PUNCT	_	_	48	punct	_	_
-50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
-51	ALMEIDA	Almeida	PROPN	_	Gender=Masc|Number=Sing	39	appos	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	53	punct	_	_
-53	2007	2007	NUM	_	NumType=Card	51	appos:parataxis	_	SpaceAfter=No
-54	)	)	PUNCT	_	_	51	punct	_	_
+28	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	21-32	21-32	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
+30	%	%	SYM	_	_	10	appos	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	35	punct	_	_
+33	sendo	ser	AUX	_	VerbForm=Ger	35	cop	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	restante	restante	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+36	constituído	constituir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	35	acl	_	_
+37	por	por	ADP	_	_	38	case	_	_
+38	cinzas	cinza	NOUN	_	Gender=Fem|Number=Plur	36	obl:agent	_	_
+39	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+40	0-2	0-2	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
+41	%	%	SYM	_	_	38	appos	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	extrativos	extrativo	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	_
+45	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+46	1-5	1-5	NUM	_	NumType=Card	47	nummod	_	SpaceAfter=No
+47	%	%	SYM	_	_	38	appos	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	_
+49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	ALMEIDA	Almeida	PROPN	_	Gender=Masc|Number=Sing	38	appos	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	2007	2007	NUM	_	NumType=Card	50	appos:parataxis	_	SpaceAfter=No
+53	)	)	PUNCT	_	_	50	punct	_	_
 
 # text = A prospecção e utilização de novas enzimas celulolíticas pode melhorar o quadro, tornando a utilização desse substrato economicamente viável, principal problema na produção de etanol lignocelulósico (MACEDO, 2008).
 # sent_id = 349-20150917-MONOGRAFIA_0-20
@@ -746,34 +745,33 @@
 35	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Com a finalidade de viabilizar o pré- tratamento enzimático, a prospecção de micro-organismos que realizem a hidrólise do material vegetal desperta interesse.
+# text = Com a finalidade de viabilizar o pré-tratamento enzimático, a prospecção de micro-organismos que realizem a hidrólise do material vegetal desperta interesse.
 # sent_id = 349-20150917-MONOGRAFIA_0-21
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	finalidade	finalidade	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+3	finalidade	finalidade	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 4	de	de	SCONJ	_	_	5	mark	_	_
 5	viabilizar	viabilizar	VERB	_	VerbForm=Inf	3	acl	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	pré-	pré-	PUNCT	_	_	8	punct	_	_
-8	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-9	enzimático	enzimático	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	3	punct	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	prospecção	prospecção	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	micro-organismos	micro-organismo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-15	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	16	nsubj	_	_
-16	realizem	realizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	material	material	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	vegetal	vegetal	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-23	desperta	despertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-24	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	23	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pré-tratamento	pré-tratamento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	enzimático	enzimático	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prospecção	prospecção	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	micro-organismos	micro-organismo	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	15	nsubj	_	_
+15	realizem	realizer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	material	material	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	vegetal	vegetal	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	desperta	despertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Os micro-organismos que compõem o jardim de fungos das formigas cortadeiras atuam sobre substrato vegetal fresco.
 # sent_id = 349-20150917-MONOGRAFIA_0-22
@@ -946,7 +944,7 @@
 26	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = Pela natureza do substrato em que são encontrados, os micro- organismos associados às formigas cortadeiras são fortes candidatos à prospecção, quanto à produção de enzimas lignocelulolíticas.
+# text = Pela natureza do substrato em que são encontrados, os micro-organismos associados às formigas cortadeiras são fortes candidatos à prospecção, quanto à produção de enzimas lignocelulolíticas.
 # sent_id = 349-20150917-MONOGRAFIA_0-27
 1-2	Pela	_	_	_	_	_	_	_	_
 1	Por	por	ADP	_	_	3	case	_	_
@@ -959,34 +957,33 @@
 7	em	em	ADP	_	_	8	case	_	_
 8	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	_
 9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-10	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	acl:relcl	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
-12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-13	micro-	micro-	PUNCT	_	_	14	punct	_	_
-14	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
-15	associados	associar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	14	acl	_	_
-16-17	às	_	_	_	_	_	_	_	_
-16	a	a	ADP	_	_	18	case	_	_
-17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	formigas	formiga	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
-19	cortadeiras	cortadeiro	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-20	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
-21	fortes	forte	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-22	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
-23-24	à	_	_	_	_	_	_	_	_
-23	a	a	ADP	_	_	25	case	_	_
-24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	prospecção	prospecção	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
-27	quanto	quanto	ADV	_	_	22	advmod	_	_
-28-29	à	_	_	_	_	_	_	_	_
-28	a	a	ADP	_	_	30	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	produção	produção	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
-31	de	de	ADP	_	_	32	case	_	_
-32	enzimas	enzima	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
-33	lignocelulolíticas	lignocelulolítico	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+10	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	20	punct	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	micro-organismos	micro-organismo	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+14	associados	associar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	13	acl	_	_
+15-16	às	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	formigas	formiga	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+18	cortadeiras	cortadeiro	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	fortes	forte	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+21	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+22-23	à	_	_	_	_	_	_	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	prospecção	prospecção	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	quanto	quanto	ADV	_	_	10	advmod	_	_
+27-28	à	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	produção	produção	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	enzimas	enzima	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
+32	lignocelulolíticas	lignocelulolítico	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 2
 # sent_id = 349-20150917-MONOGRAFIA_0-28
@@ -1119,7 +1116,7 @@
 35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	20	punct	_	_
 
-# text = Tais linhagens foram previamente selecionadas como produtores de enzimas lignocelulolíticas (MELO et al., 2012; ARCURI et al., 2012).
+# text = Tais linhagens foram previamente selecionadas como produtores de enzimas lignocelulolíticas (MELO et al., 2012;
 # sent_id = 349-20150917-MONOGRAFIA_0-35
 1	Tais	tal	DET	_	Gender=Fem|PronType=Dem	2	det	_	_
 2	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -1135,19 +1132,22 @@
 12	MELO	Melo	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
 13	et	et	X	_	Number=Sing	12	flat:name	_	_
 14	al.	al.	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	2012	2012	NUM	_	NumType=Card	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	2012	2012	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 17	;	;	PUNCT	_	_	5	punct	_	_
-18	ARCURI	ARCURI	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-19	et	et	X	_	Number=Sing	18	flat:name	_	_
-20	al.	al.	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	2012	2012	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# text = ARCURI et al., 2012).
+# sent_id = 349-20150917-MONOGRAFIA_0-36
+1	ARCURI	Arcuri	ADV	_	_	2	advmod	_	_
+2	et	et	X	_	Number=Sing	3	amod	_	_
+3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	2012	2012	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = As linhagens estão criopreservadas na CRM-UNESP a - 80 °C, em glicerol 15%.
-# sent_id = 349-20150917-MONOGRAFIA_0-36
+# sent_id = 349-20150917-MONOGRAFIA_0-37
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1168,7 +1168,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A reativação foi realizada em meio Ágar Sabouraud (Acumedia).
-# sent_id = 349-20150917-MONOGRAFIA_0-37
+# sent_id = 349-20150917-MONOGRAFIA_0-38
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reativação	reativação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1183,7 +1183,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As placas foram incubadas a 25 °C durante cinco dias, no escuro.
-# sent_id = 349-20150917-MONOGRAFIA_0-38
+# sent_id = 349-20150917-MONOGRAFIA_0-39
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	placas	placa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1202,7 +1202,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após o período de incubação, as linhagens foram transferidas para uma segunda placa contendo Agar Sabouraud (Acumedia) para checar a pureza.
-# sent_id = 349-20150917-MONOGRAFIA_0-39
+# sent_id = 349-20150917-MONOGRAFIA_0-40
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -1230,7 +1230,7 @@
 25	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Tal checagem foi procedida examinando-se as características morfológicas das colônias e das células.
-# sent_id = 349-20150917-MONOGRAFIA_0-40
+# sent_id = 349-20150917-MONOGRAFIA_0-41
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	checagem	checagem	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1253,12 +1253,12 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.2.
-# sent_id = 349-20150917-MONOGRAFIA_0-41
+# sent_id = 349-20150917-MONOGRAFIA_0-42
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Preparo do meio, inoculação e obtenção de extrato enzimático.
-# sent_id = 349-20150917-MONOGRAFIA_0-42
+# sent_id = 349-20150917-MONOGRAFIA_0-43
 1	Preparo	preparo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1271,10 +1271,10 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	enzimático	enzimático	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Como substratos indutores da produção de enzimas lignocelulolíticas foram utilizados: bagaço de cana-de-açúcar, casca de arroz, casca de café e sabugo de milho, todos in natura, previamente lavados e triturados (GARCIA, 2011).
-# sent_id = 349-20150917-MONOGRAFIA_0-43
+# sent_id = 349-20150917-MONOGRAFIA_0-44
 1	Como	como	ADP	_	_	2	case	_	_
 2	substratos	substrato	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
 3	indutores	indutor	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -1320,7 +1320,7 @@
 42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Frascos de polipropileno de 150 mL de capacidade contendo 2,5g bagaço de cana-de-açúcar e 10 mL de água destilada foram esterilizados a 120°C/15 minutos.
-# sent_id = 349-20150917-MONOGRAFIA_0-44
+# sent_id = 349-20150917-MONOGRAFIA_0-45
 1	Frascos	Frasco	NOUN	_	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	polipropileno	polipropileno	NOUN	_	Gender=Masc	1	nmod	_	_
@@ -1350,7 +1350,7 @@
 27	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = O meio mineral contendo cada 500 mL: 0,4g de cloreto de cálcio dihidratado; 1,25mL de solução traço de sais (0,1 g de sulfato ferroso; 0,1 de cloreto manganoso; 0,1 g de sulfato de zinco em 100 mL de água destilada); 0,25 g de sulfato de magnésio.
-# sent_id = 349-20150917-MONOGRAFIA_0-45
+# sent_id = 349-20150917-MONOGRAFIA_0-46
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	mineral	mineral	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1408,7 +1408,7 @@
 55	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = 1,0 g de peptona; 1,0 mL de Tween 80,foi esterilizado separadamente nas mesmas condições (HOU-RUI, 2009).
-# sent_id = 349-20150917-MONOGRAFIA_0-46
+# sent_id = 349-20150917-MONOGRAFIA_0-47
 1	1,0	1,0	NUM	_	NumType=Card	2	nummod	_	_
 2	g	g	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1434,7 +1434,7 @@
 22	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Após o resfriamento, alíquotas de 25 mL do meio mineral foram adicionadas aos frascos contendo as 2,5 g de bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-47
+# sent_id = 349-20150917-MONOGRAFIA_0-48
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
@@ -1465,7 +1465,7 @@
 26	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Em seguida, os frascos suspensões celulares contendo, ao final, 106 células/mL, (SANHUEZA et al., 2007).
-# sent_id = 349-20150917-MONOGRAFIA_0-48
+# sent_id = 349-20150917-MONOGRAFIA_0-49
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1494,7 +1494,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os frascos foram semeados em quintuplicata e incubados estaticamente, no escuro, a 25 ºC, por 96 horas.
-# sent_id = 349-20150917-MONOGRAFIA_0-49
+# sent_id = 349-20150917-MONOGRAFIA_0-50
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	frascos	frasco	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -1520,7 +1520,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em seguida foram retiradas as alíquotas de 1,5 mL, as quais foram centrifugadas a 10000 rpm/15 minutos, obtendo-se o extrato enzimático.
-# sent_id = 349-20150917-MONOGRAFIA_0-50
+# sent_id = 349-20150917-MONOGRAFIA_0-51
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1549,7 +1549,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os ensaios com o sobrenadante foram realizados em quintuplicata tendo meio mineral mais resíduo lignocelulósico sem inóculo como controle para verificar a produção das enzimas.
-# sent_id = 349-20150917-MONOGRAFIA_0-51
+# sent_id = 349-20150917-MONOGRAFIA_0-52
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -1580,7 +1580,7 @@
 27	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Tal processo será posteriormente detalhado no item 3.5.
-# sent_id = 349-20150917-MONOGRAFIA_0-52
+# sent_id = 349-20150917-MONOGRAFIA_0-53
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
@@ -1594,7 +1594,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O mesmo procedimento foi adotado para os demais resíduos: casca de arroz, sabugo de milho e casca de café.
-# sent_id = 349-20150917-MONOGRAFIA_0-53
+# sent_id = 349-20150917-MONOGRAFIA_0-54
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -1619,11 +1619,11 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.3
-# sent_id = 349-20150917-MONOGRAFIA_0-54
+# sent_id = 349-20150917-MONOGRAFIA_0-55
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Determinação do crescimento e da viabilidade celular
-# sent_id = 349-20150917-MONOGRAFIA_0-55
+# sent_id = 349-20150917-MONOGRAFIA_0-56
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1637,7 +1637,7 @@
 9	celular	celular	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 
 # text = O controle da viabilidade celular foi realizado pela coloração das células com azul de metileno (0,01g de azul de metileno, 2,00 g de citrato de sódio e água deionizada q.s.p.
-# sent_id = 349-20150917-MONOGRAFIA_0-56
+# sent_id = 349-20150917-MONOGRAFIA_0-57
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controle	controle	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1678,7 +1678,7 @@
 35	q.s.p.	q.s.p.	NOUN	_	Gender=Fem|Number=Sing	20	appos	_	_
 
 # text = 100 mL), segundo Antonini (2004), e contagem em câmara de Neubauer (Bright-Line, Precicolor, HBG, Germany).
-# sent_id = 349-20150917-MONOGRAFIA_0-57
+# sent_id = 349-20150917-MONOGRAFIA_0-58
 1	100	100	NUM	_	NumType=Card	2	nummod	_	_
 2	mL	ml	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -1707,18 +1707,18 @@
 26	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 3.4
-# sent_id = 349-20150917-MONOGRAFIA_0-58
+# sent_id = 349-20150917-MONOGRAFIA_0-59
 1	3.4	3.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Quantificação de açúcares redutores
-# sent_id = 349-20150917-MONOGRAFIA_0-59
+# sent_id = 349-20150917-MONOGRAFIA_0-60
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	açúcares	açúcar	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-4	redutores	redutor	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+4	redutores	redutor	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpacesAfter=\s\n
 
 # text = A quantificação de açúcares redutores foi determinada pelo método ADNS (ácido 3,5-dinitro-salicílico) (MILLER, 1959).
-# sent_id = 349-20150917-MONOGRAFIA_0-60
+# sent_id = 349-20150917-MONOGRAFIA_0-61
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1743,7 +1743,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Foram adicionados, em tubos de ensaio, 100 µL de extrato enzimático e 100 µL de ADNS.
-# sent_id = 349-20150917-MONOGRAFIA_0-61
+# sent_id = 349-20150917-MONOGRAFIA_0-62
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	adicionados	adicionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1765,7 +1765,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A solução resultante permaneceu sob banho fervente durante 10 minutos e ao término, adicionou-se 1,0 mL de água deionizada gelada.
-# sent_id = 349-20150917-MONOGRAFIA_0-62
+# sent_id = 349-20150917-MONOGRAFIA_0-63
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	resultante	resultante	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -1794,7 +1794,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A leitura foi efetuada em espectrofotômetro modelo BEL – SP 1105 (SF 325NM) a 575 nm.
-# sent_id = 349-20150917-MONOGRAFIA_0-63
+# sent_id = 349-20150917-MONOGRAFIA_0-64
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1816,7 +1816,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A quantificação foi realizada através de uma curva de calibração, construída com intervalos de 0,0 – 2,5 mg/mL (com incremento de 0,625) de açúcar redutor a partir de uma solução padrão de 1 g/L de glicose.
-# sent_id = 349-20150917-MONOGRAFIA_0-64
+# sent_id = 349-20150917-MONOGRAFIA_0-65
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -1860,17 +1860,17 @@
 41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.5.
-# sent_id = 349-20150917-MONOGRAFIA_0-65
+# sent_id = 349-20150917-MONOGRAFIA_0-66
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ensaios enzimáticos
-# sent_id = 349-20150917-MONOGRAFIA_0-66
+# sent_id = 349-20150917-MONOGRAFIA_0-67
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	enzimáticos	enzimático	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Para determinação das enzimas produzidas foram realizados testes de hidrólise dos polissacarídeos de interesse (amido, carboximetilcelulose, celulose fibrosa, xilana e pectina) os quais foram usados como substratos.
-# sent_id = 349-20150917-MONOGRAFIA_0-67
+# sent_id = 349-20150917-MONOGRAFIA_0-68
 1	Para	para	ADP	_	_	2	case	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -1910,7 +1910,7 @@
 35	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os ensaios foram conduzidos de acordo com a metodologia adaptada de Ghose, (1987).
-# sent_id = 349-20150917-MONOGRAFIA_0-68
+# sent_id = 349-20150917-MONOGRAFIA_0-69
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -1930,7 +1930,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Foram prospectadas as seguintes enzimas: endoamilase, exoamilase, pectinase, endoglucanase (CMase), exoglucanase (CMCase) e xilanase, Os ensaios foram realizados em quintuplicata e a partir dos resultados encontrados foi calculado a média e o desvio padrão.
-# sent_id = 349-20150917-MONOGRAFIA_0-69
+# sent_id = 349-20150917-MONOGRAFIA_0-70
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	prospectadas	prospectar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -1980,18 +1980,18 @@
 46	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 3.5.1
-# sent_id = 349-20150917-MONOGRAFIA_0-70
+# sent_id = 349-20150917-MONOGRAFIA_0-71
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Endoamilase e exoamilase
-# sent_id = 349-20150917-MONOGRAFIA_0-71
+# sent_id = 349-20150917-MONOGRAFIA_0-72
 1	Endoamilase	Endoamilase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	exoamilase	exoamilase	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 
 # text = A atividade das amilases foi determinada utilizando como substrato uma solução de amido (Sigma-Aldrich) em tampão acetato, pH 5,0, na concentração de 0,5% para endoamilase e 1,0% para exoamilase.
-# sent_id = 349-20150917-MONOGRAFIA_0-72
+# sent_id = 349-20150917-MONOGRAFIA_0-73
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -2034,7 +2034,7 @@
 38	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A solução de amido (80 μL ), foi adicionada ao extrato enzimático (20 μL).
-# sent_id = 349-20150917-MONOGRAFIA_0-73
+# sent_id = 349-20150917-MONOGRAFIA_0-74
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2058,7 +2058,7 @@
 20	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Tal reação foi mantida a 25 °C, no escuro, durante 30 minutos.
-# sent_id = 349-20150917-MONOGRAFIA_0-74
+# sent_id = 349-20150917-MONOGRAFIA_0-75
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -2077,35 +2077,35 @@
 15	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Após esse período, adicionou- se 100 µL do reagente ADNS (ácido 3,5-dinitro-salicílico) (MILLER, 1959).
-# sent_id = 349-20150917-MONOGRAFIA_0-75
+# text = Após esse período, adicionou-se 100 µL do reagente ADNS (ácido 3,5-dinitro-salicílico) (MILLER, 1959).
+# sent_id = 349-20150917-MONOGRAFIA_0-76
 1	Após	após	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	adicionou	adicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-	-	PUNCT	_	_	5	punct	_	_
-7	se	se	SCONJ	_	_	9	mark	_	_
-8	100	100	NUM	_	NumType=Card	9	nummod	_	_
-9	µL	µL	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	reagente	reagente	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	ADNS	ADNS	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	_
-14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
-16	3,5-dinitro-salicílico	3,5-dinitro-salicílico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	15	punct	_	_
-18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	MILLER	Miller	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	_
-21	1959	1959	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	5	punct	_	_
+5-6	adicionou-se	_	_	_	_	_	_	_	_
+5	adicionou	adicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7	100	100	NUM	_	NumType=Card	8	nummod	_	_
+8	µL	µL	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	reagente	reagente	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	ADNS	ADNS	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+15	3,5-dinitro-salicílico	3,5-dinitro-salicílico	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	MILLER	Miller	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	1959	1959	NUM	_	NumType=Card	18	appos:parataxis	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em seguida, a reação permaneceu por 10 minutos em banho fervente.
-# sent_id = 349-20150917-MONOGRAFIA_0-76
+# sent_id = 349-20150917-MONOGRAFIA_0-77
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2121,7 +2121,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Após o banho-fervente, a reação foi interrompida adicionando-se 1,0 mL de água deionizada gelada, homogeneizando os ensaios.
-# sent_id = 349-20150917-MONOGRAFIA_0-77
+# sent_id = 349-20150917-MONOGRAFIA_0-78
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	banho-fervente	banho-fervente	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
@@ -2146,7 +2146,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A absorbância foi medida em espectrofotômetro BEL – SP 1105 (SF 325NM) a 575 nm, utilizando-se 80 μL da solução de amido (0,5% ou 1,0%) e 20 μL do extrato enzimático em tempo reacional zero, como branco.
-# sent_id = 349-20150917-MONOGRAFIA_0-78
+# sent_id = 349-20150917-MONOGRAFIA_0-79
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	absorbância	absorbância	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -2198,10 +2198,10 @@
 46	,	,	PUNCT	_	_	48	punct	_	_
 47	como	como	ADP	_	_	48	case	_	_
 48	branco	branco	NOUN	_	Gender=Masc|Number=Sing	4	appos:parataxis	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+49	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = O cálculo da atividade enzimática foi efetuado por meio de uma curva de calibração, construída com intervalos de 0,0 – 5,0 μmol/mL (com incremento de 0,625) de açúcar redutor a partir de uma solução padrão de 1,0 g/L de glicose.
-# sent_id = 349-20150917-MONOGRAFIA_0-79
+# sent_id = 349-20150917-MONOGRAFIA_0-80
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2251,7 +2251,7 @@
 46	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Nesse trabalho, uma unidade de enzima foi definida como a quantidade de enzima necessária para liberar 1,0 μmol de glicose por minuto de reação e por mL de extrato bruto.
-# sent_id = 349-20150917-MONOGRAFIA_0-80
+# sent_id = 349-20150917-MONOGRAFIA_0-81
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2288,16 +2288,16 @@
 33	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 3.5.2
-# sent_id = 349-20150917-MONOGRAFIA_0-81
+# sent_id = 349-20150917-MONOGRAFIA_0-82
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Pectinase
-# sent_id = 349-20150917-MONOGRAFIA_0-82
+# sent_id = 349-20150917-MONOGRAFIA_0-83
 1	Pectinase	Pectinase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A atividade de pectinase foi determinada utilizando como substrato o ácido poligalacturônico (Sigma-Aldrich, P-3889) (2,0 mg/mL de substrato em tampão acetato; pH 5,0).
-# sent_id = 349-20150917-MONOGRAFIA_0-83
+# sent_id = 349-20150917-MONOGRAFIA_0-84
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2329,8 +2329,8 @@
 29	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = Uma unidade dessa enzima foi definida como a quantidade de enzima necessária para liberar 1,0 µmol de ácido D- galacturônico por minuto de reação e por mL de extrato bruto.
-# sent_id = 349-20150917-MONOGRAFIA_0-84
+# text = Uma unidade dessa enzima foi definida como a quantidade de enzima necessária para liberar 1,0 µmol de ácido
+# sent_id = 349-20150917-MONOGRAFIA_0-85
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
@@ -2351,22 +2351,24 @@
 17	µmol	µmol	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	ácido	ácido	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-20	D-	D-	PUNCT	_	_	21	punct	_	_
-21	galacturônico	galacturônico	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-22	por	por	ADP	_	_	23	case	_	_
-23	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	reação	reação	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
-27	por	por	ADP	_	_	28	case	_	_
-28	mL	ml	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-31	bruto	bruto	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = D-galacturônico por minuto de reação e por mL de extrato bruto.
+# sent_id = 349-20150917-MONOGRAFIA_0-86
+1	D-galacturônico	D-galacturônico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	por	por	ADP	_	_	3	case	_	_
+3	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	reação	reação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	mL	ml	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	bruto	bruto	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O processo reacional, bem como leitura dos resultados foram realizados de acordo com o método descrito no item 3.5.1.
-# sent_id = 349-20150917-MONOGRAFIA_0-85
+# sent_id = 349-20150917-MONOGRAFIA_0-87
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 3	reacional	reacional	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -2394,12 +2396,12 @@
 23	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 3.5.3
-# sent_id = 349-20150917-MONOGRAFIA_0-86
+# sent_id = 349-20150917-MONOGRAFIA_0-88
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.3	.3	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Exoglucanase (CMCase) e endoglucanase (CMase)
-# sent_id = 349-20150917-MONOGRAFIA_0-87
+# sent_id = 349-20150917-MONOGRAFIA_0-89
 1	Exoglucanase	Exoglucanase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	CMCase	CMCase	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -2411,7 +2413,7 @@
 9	)	)	PUNCT	_	_	8	punct	_	_
 
 # text = A quantificação da atividade de exoglucanase e endoglucanase foi determinada a partir da reação de 20 µL do extrato enzimático e 80 µL da solução de carboximetilcelulose (para exoglucanase) ou celulose microcristalina (para endoglucanase), ambos os subtratos em concentração de 0,625 % (m/v) em tampão citrato, pH 6.
-# sent_id = 349-20150917-MONOGRAFIA_0-88
+# sent_id = 349-20150917-MONOGRAFIA_0-90
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2479,7 +2481,7 @@
 61	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O processo reacional ocorreu à 25 °C, durante 30 minutos, e após esse período, adicionou-se 100 µL de ADNS (MILLER, 1959).
-# sent_id = 349-20150917-MONOGRAFIA_0-89
+# sent_id = 349-20150917-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	reacional	reacional	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2514,7 +2516,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após 10 minutos em banho fervente, adicionou-se 1,0 mL de água deionizada gelada para interromper a reação.
-# sent_id = 349-20150917-MONOGRAFIA_0-90
+# sent_id = 349-20150917-MONOGRAFIA_0-92
 1	Após	após	ADP	_	_	3	case	_	_
 2	10	10	NUM	_	NumType=Card	3	nummod	_	_
 3	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
@@ -2538,7 +2540,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A leitura dos resultados bem como a definição e quantificação da unidade de enzima, foi realizado de acordo com o método descrito no item 3.5.1.
-# sent_id = 349-20150917-MONOGRAFIA_0-91
+# sent_id = 349-20150917-MONOGRAFIA_0-93
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -2574,12 +2576,12 @@
 30	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = 3.5.4 Xilanase
-# sent_id = 349-20150917-MONOGRAFIA_0-92
+# sent_id = 349-20150917-MONOGRAFIA_0-94
 1	3.5.4	3.5.4	NUM	_	NumType=Card	2	nummod	_	_
 2	Xilanase	Xilanase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Para a determinação da atividade de xilanase, foram adicionados 20 μL do extrato enzimático a 80 μL de solução de xilana Sigma-X0502, from birch wood (2,0 mg/mL de xilana diluída em tampão fosfato 0,1M; pH 6,0).
-# sent_id = 349-20150917-MONOGRAFIA_0-93
+# sent_id = 349-20150917-MONOGRAFIA_0-95
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -2609,7 +2611,7 @@
 25	Sigma-X0502	Sigma-X0502	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	11	punct	_	_
 27	from	from	ADP	_	_	28	case	_	_
-28	birch	birch	X	_	_	11	advmod	_	_
+28	birch	birch	X	_	_	11	advmod	_	SpacesAfter=\s\n
 29	wood	wood	X	_	_	28	flat:foreign	_	_
 30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	2,0	2,0	NUM	_	NumType=Card	32	nummod	_	_
@@ -2628,7 +2630,7 @@
 44	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A reação foi realizada a 25 °C, durante 120 minutos e após esse período adicionou-se 100 µL do reagente ADNS (ácido 3,5-dinitro-salicílico) (MILLER, 1959).
-# sent_id = 349-20150917-MONOGRAFIA_0-94
+# sent_id = 349-20150917-MONOGRAFIA_0-96
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -2666,7 +2668,7 @@
 33	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Após 10 minutos em banho fervente, para interromper a reação, adicionou-se 1,0 mL de água deionizada gelada.
-# sent_id = 349-20150917-MONOGRAFIA_0-95
+# sent_id = 349-20150917-MONOGRAFIA_0-97
 1	Após	após	ADP	_	_	3	case	_	_
 2	10	10	NUM	_	NumType=Card	3	nummod	_	_
 3	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
@@ -2691,7 +2693,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Foi efetuada a leitura da absorbância das amostras em espectrofotômetro BEL – SP 1105 (SF 325NM) a 575 nm.
-# sent_id = 349-20150917-MONOGRAFIA_0-96
+# sent_id = 349-20150917-MONOGRAFIA_0-98
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	efetuada	efetuar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2720,7 +2722,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O branco utilizado para zerar a leitura do espectrofotômetro foi 20 μL do extrato enzimático a 80 μL de solução de xilana Sigma-X0502, from birch wood, em tempo reacional zero.
-# sent_id = 349-20150917-MONOGRAFIA_0-97
+# sent_id = 349-20150917-MONOGRAFIA_0-99
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	branco	branco	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -2760,7 +2762,7 @@
 35	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Para essa enzima, o cálculo da atividade enzimática foi realizado através de uma curva de calibração, estabelecida com intervalos de 0,0 – 5,0 μmol/mL (com incremento de 0,625) a partir de uma solução padrão de 1,0 g/L de xilose.
-# sent_id = 349-20150917-MONOGRAFIA_0-98
+# sent_id = 349-20150917-MONOGRAFIA_0-100
 1	Para	para	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	enzima	enzima	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
@@ -2810,7 +2812,7 @@
 46	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Nesse caso, uma unidade de atividade enzimática (U) foi definida como a quantidade de enzima necessária para liberar 1,0 μmol de xilose por minuto de reação e por mL de extrato bruto.
-# sent_id = 349-20150917-MONOGRAFIA_0-99
+# sent_id = 349-20150917-MONOGRAFIA_0-101
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2851,11 +2853,11 @@
 37	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 3.6
-# sent_id = 349-20150917-MONOGRAFIA_0-100
+# sent_id = 349-20150917-MONOGRAFIA_0-102
 1	3.6	3.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Concentração de sólidos solúveis totais (Grau BRIX)
-# sent_id = 349-20150917-MONOGRAFIA_0-101
+# sent_id = 349-20150917-MONOGRAFIA_0-103
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -2867,7 +2869,7 @@
 9	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = Para avaliar a concentração de sólidos solúveis totais liberados após a inoculação das linhagens nos resíduos da agro-indústria, foi utilizado refratômetro manual portátil (BBL-614), adicionando cerca de 100 μL da amostra para leitura.
-# sent_id = 349-20150917-MONOGRAFIA_0-102
+# sent_id = 349-20150917-MONOGRAFIA_0-104
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	avaliar	avaliar	VERB	_	VerbForm=Inf	24	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2916,11 +2918,11 @@
 42	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = 3.7
-# sent_id = 349-20150917-MONOGRAFIA_0-103
+# sent_id = 349-20150917-MONOGRAFIA_0-105
 1	3.7	3.7	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consórcio das linhagens
-# sent_id = 349-20150917-MONOGRAFIA_0-104
+# sent_id = 349-20150917-MONOGRAFIA_0-106
 1	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2928,7 +2930,7 @@
 4	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = As melhores linhagens produtoras de enzimas lignocelulolíticas (TO 375, TO 356, W7, W3A2 e LB 302.1) segundo a metodologia descrita em 3.5 foram selecionadas e inoculadas sob a forma de consórcio nos quatro resíduos da agroindústria (bagaço de cana-de-açúcar, casca de arroz, casca de café e sabugo de milho).
-# sent_id = 349-20150917-MONOGRAFIA_0-105
+# sent_id = 349-20150917-MONOGRAFIA_0-107
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	melhores	bom	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	_
@@ -2994,7 +2996,7 @@
 61	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = Os procedimentos de inoculação e obtenção de extrato enzimático, bem como quantificação de açúcares redutores e ensaio enzimático, também foram realizados conforme descritos em 3.2, 3.4 e 3.5, respectivamente).
-# sent_id = 349-20150917-MONOGRAFIA_0-106
+# sent_id = 349-20150917-MONOGRAFIA_0-108
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	procedimentos	procedimento	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3032,12 +3034,12 @@
 35	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = 3.8.
-# sent_id = 349-20150917-MONOGRAFIA_0-107
+# sent_id = 349-20150917-MONOGRAFIA_0-109
 1	3.8	3.8	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Hidrólise ácida e enzimática do bagaço de cana-de-açúcar
-# sent_id = 349-20150917-MONOGRAFIA_0-108
+# sent_id = 349-20150917-MONOGRAFIA_0-110
 1	Hidrólise	Hidrólise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -3047,10 +3049,10 @@
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+9	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\s\n
 
 # text = O bagaço de cana-de-açúcar foi tratado por processo de hidrólise ácida, a qual foi realizada em reator de hidrólise de 40L, em que o bagaço foi percolado com ácido sulfúrico (H2SO4) em uma razão de 100 mg de H2SO4/g de matéria seca (bagaço de cana-de-açúcar) durante 20 minutos.
-# sent_id = 349-20150917-MONOGRAFIA_0-109
+# sent_id = 349-20150917-MONOGRAFIA_0-111
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3108,7 +3110,7 @@
 55	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Após este processo, o hidrolisado foi concentrado em concentrador a vácuo.
-# sent_id = 349-20150917-MONOGRAFIA_0-110
+# sent_id = 349-20150917-MONOGRAFIA_0-112
 1	Após	após	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
@@ -3124,7 +3126,7 @@
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A celulignina remanescente foi lavada e colocada para secar ao ar livre.
-# sent_id = 349-20150917-MONOGRAFIA_0-111
+# sent_id = 349-20150917-MONOGRAFIA_0-113
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	celulignina	celulignina	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	remanescente	remanescente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3142,7 +3144,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Após esse processo, foram utilizados 2,5g do resíduo remanescente (celulignina) da hidrólise ácida, e as etapas subsequentes, (preparo do meio, inoculação e obtenção de extrato enzimático), ocorreram conforme descrito no item 3.2.
-# sent_id = 349-20150917-MONOGRAFIA_0-112
+# sent_id = 349-20150917-MONOGRAFIA_0-114
 1	Após	após	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -3195,7 +3197,7 @@
 46	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Foram inoculadas cinco linhagens, sendo elas: TO 375, TO 356, W7, W3A2 e LB 302.1, as quais foram previamente selecionadas, a partir dos resultados encontrados nos resíduos não tratados.
-# sent_id = 349-20150917-MONOGRAFIA_0-113
+# sent_id = 349-20150917-MONOGRAFIA_0-115
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	inoculadas	inocular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	cinco	cinco	NUM	_	NumType=Card	4	nummod	_	_
@@ -3239,16 +3241,16 @@
 39	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 3.9
-# sent_id = 349-20150917-MONOGRAFIA_0-114
+# sent_id = 349-20150917-MONOGRAFIA_0-116
 1	3.9	3.9	NUM	_	NumType=Card	0	root	_	_
 
 # text = Análises estatísticas
-# sent_id = 349-20150917-MONOGRAFIA_0-115
+# sent_id = 349-20150917-MONOGRAFIA_0-117
 1	Análises	Análise	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	estatísticas	estatístico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 
 # text = O software PAST (HAMMER, 2001) foi utilizado como ferramenta para a análise estatística.
-# sent_id = 349-20150917-MONOGRAFIA_0-116
+# sent_id = 349-20150917-MONOGRAFIA_0-118
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	software	software	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 3	PAST	PAST	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -3268,7 +3270,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Em todas as análises foi utilizado o teste de Kruskal-Wallis, após verificar a normalidade e a variância dos dados.
-# sent_id = 349-20150917-MONOGRAFIA_0-117
+# sent_id = 349-20150917-MONOGRAFIA_0-119
 1	Em	em	ADP	_	_	4	case	_	_
 2	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3294,7 +3296,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Tal análise baseia-se em variância não paramétrica, não assumindo distribuição normal, porém, assume distribuição de forma igualitária para todos os grupos.
-# sent_id = 349-20150917-MONOGRAFIA_0-118
+# sent_id = 349-20150917-MONOGRAFIA_0-120
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3-4	baseia-se	_	_	_	_	_	_	_	_
@@ -3324,7 +3326,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os dados foram avaliados separadamente, entretanto sempre entre dois grupos, sendo um deles a amostra (alíquota contendo inóculo após incubação) e um sendo o controle (alíquota sem inóculo).
-# sent_id = 349-20150917-MONOGRAFIA_0-119
+# sent_id = 349-20150917-MONOGRAFIA_0-121
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3364,23 +3366,23 @@
 36	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.
-# sent_id = 349-20150917-MONOGRAFIA_0-120
+# sent_id = 349-20150917-MONOGRAFIA_0-122
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados 4.1
-# sent_id = 349-20150917-MONOGRAFIA_0-121
+# sent_id = 349-20150917-MONOGRAFIA_0-123
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	4.1	4.1	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Gênero Cryptococcus 4.1.1
-# sent_id = 349-20150917-MONOGRAFIA_0-122
+# sent_id = 349-20150917-MONOGRAFIA_0-124
 1	Gênero	gênero	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Cryptococcus	Cryptococcus	PROPN	_	Number=Sing	1	flat:name	_	_
 3	4.1.1	4.1.1	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Meio suplementado com bagaço de cana-de-açúcar
-# sent_id = 349-20150917-MONOGRAFIA_0-123
+# sent_id = 349-20150917-MONOGRAFIA_0-125
 1	Meio	meio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3389,7 +3391,7 @@
 6	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Entre os trinta isolados do gênero Cryptococcus, apenas dois (TO 197 e TO 346) aumentaram significativamente (p<0,05) a concentração de açúcar redutor no meio contendo bagaço de cana-de-açúcar bruto.
-# sent_id = 349-20150917-MONOGRAFIA_0-124
+# sent_id = 349-20150917-MONOGRAFIA_0-126
 1	Entre	entre	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 3	trinta	trinta	NUM	_	NumType=Card	4	nummod	_	_
@@ -3431,7 +3433,7 @@
 37	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Os demais consumiram os eventuais monossacarídeos resultantes do processo de esterilização (autoclavagem), o que nos permite concluir que não conseguiram liberar monossacarídeos a partir do substrato lignocelulósico.
-# sent_id = 349-20150917-MONOGRAFIA_0-125
+# sent_id = 349-20150917-MONOGRAFIA_0-127
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	demais	demal	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	consumiram	consumir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3443,7 +3445,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
+11	de	de	ADP	_	_	12	case	_	SpacesAfter=\s\n
 12	esterilização	esterilização	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	autoclavagem	autoclavagem	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
@@ -3471,7 +3473,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Com relação ao Grau Brix, nove isolados aumentaram significativamente (p<0,05) a concentração de sólidos solúveis totais.
-# sent_id = 349-20150917-MONOGRAFIA_0-126
+# sent_id = 349-20150917-MONOGRAFIA_0-128
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -3496,7 +3498,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Ao observar os valores de crescimento após o período de incubação, é possível inferir que, ao consumirem os açúcares residuais disponíveis no meio, foi possível que os isolados mantivessem o crescimento e a viabilidade celular.
-# sent_id = 349-20150917-MONOGRAFIA_0-127
+# sent_id = 349-20150917-MONOGRAFIA_0-129
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3544,7 +3546,7 @@
 42	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Os valores de atividade máxima em U.mL-1, encontrados no gênero Cryptococcus inoculado em bagaço de cana-de-açúcar, foram os seguintes: xilanase = 0,155 U.mL-1± 0,142 (TO 570); endoamilase = 0,135 U. mL-1± 0,051 (TO 197); carboximetilcelulase = 0, 125 U.mL-1± 0,046 (TO 346); celulase = 0,109 U.mL-1± 0,112 (TO 725)
-# sent_id = 349-20150917-MONOGRAFIA_0-128
+# sent_id = 349-20150917-MONOGRAFIA_0-130
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3617,7 +3619,7 @@
 69	)	)	PUNCT	_	_	67	punct	_	_
 
 # text = ; pectinase = 0,095 U.mL-1± 0,006 (TO 570) e exoamilase = 0,0251
-# sent_id = 349-20150917-MONOGRAFIA_0-129
+# sent_id = 349-20150917-MONOGRAFIA_0-131
 1	;	;	PUNCT	_	_	2	punct	_	_
 2	pectinase	pectinase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	=	=	SYM	_	_	2	appos	_	_
@@ -3635,7 +3637,7 @@
 15	0,0251	0,0251	NUM	_	NumType=Card	3	nummod	_	_
 
 # text = U.mL-1± 0,023 (TO 564).
-# sent_id = 349-20150917-MONOGRAFIA_0-130
+# sent_id = 349-20150917-MONOGRAFIA_0-132
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,023	0,023	NUM	_	NumType=Card	1	appos:parataxis	_	_
@@ -3646,7 +3648,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na Figura 1 é possível observar os valores médios em U.
-# sent_id = 349-20150917-MONOGRAFIA_0-131
+# sent_id = 349-20150917-MONOGRAFIA_0-133
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3662,7 +3664,7 @@
 12	U.	U.	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
 
 # text = mL-1 obtidos para a atividade enzimática.
-# sent_id = 349-20150917-MONOGRAFIA_0-132
+# sent_id = 349-20150917-MONOGRAFIA_0-134
 1	mL-1	mL-1	NUM	_	NumType=Card	2	nummod	_	_
 2	obtidos	obtido	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -3672,12 +3674,12 @@
 7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 1.
-# sent_id = 349-20150917-MONOGRAFIA_0-133
+# sent_id = 349-20150917-MONOGRAFIA_0-135
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	1.	1.	NUM	_	NumType=Card	0	root	_	_
 
 # text = Valores da atividade enzimática (U.mL-1) do gênero Cryptococcus inoculado em bagaço de cana-de-açúcar 4.2
-# sent_id = 349-20150917-MONOGRAFIA_0-134
+# sent_id = 349-20150917-MONOGRAFIA_0-136
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3701,13 +3703,13 @@
 19	4.2	4.2	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Gênero Lecythophora 4.2.1
-# sent_id = 349-20150917-MONOGRAFIA_0-135
+# sent_id = 349-20150917-MONOGRAFIA_0-137
 1	Gênero	gênero	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Lecythophora	Lecythophora	PROPN	_	Number=Sing	1	flat:name	_	_
 3	4.2.1	4.2.1	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Meio suplementado com bagaço de cana
-# sent_id = 349-20150917-MONOGRAFIA_0-136
+# sent_id = 349-20150917-MONOGRAFIA_0-138
 1	Meio	meio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3716,7 +3718,7 @@
 6	cana	cana	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = Após o período de incubação foi confirmado que todos os fungos se multiplicaram durante a incubação, uma vez que a contagem de células viáveis superou a densidade celular inicial.
-# sent_id = 349-20150917-MONOGRAFIA_0-137
+# sent_id = 349-20150917-MONOGRAFIA_0-139
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -3747,10 +3749,10 @@
 28	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
 29	celular	celular	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 30	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Dos onze isolados do gênero Lecythophora, nenhum aumentou significativamente (p<0,05) a concentração de açúcares redutores no meio suplementado com o bagaço de cana-de-açúcar, indicando que, ou esses monossacarídeos não foram produzidos ou, uma vez sendo produzidos, foram em seguida consumidos pelo fungo.
-# sent_id = 349-20150917-MONOGRAFIA_0-138
+# sent_id = 349-20150917-MONOGRAFIA_0-140
 1-2	Dos	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -3811,7 +3813,7 @@
 54	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Esta última hipótese provavelmente ocorreu com cinco (45%) dessas linhagens, pois a quantidade de açúcar redutor encontrada foi inferior ao controle (sem a presença do fungo), (Figura 2).
-# sent_id = 349-20150917-MONOGRAFIA_0-139
+# sent_id = 349-20150917-MONOGRAFIA_0-141
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 2	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -3858,7 +3860,7 @@
 41	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Em relação ao aumento da concentração de sólidos solúveis, com exceção de TO 376, todos os demais diferiram positivamente do controle, ou seja, houve aumento da concentração de sólidos solúveis totais medida através do grau Brix.
-# sent_id = 349-20150917-MONOGRAFIA_0-140
+# sent_id = 349-20150917-MONOGRAFIA_0-142
 1	Em	em	ADP	_	_	5	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -3912,7 +3914,7 @@
 46	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = No entanto, não houve alteração da concentração de açúcares redutores, sugerindo que podem ter atacado o substrato lignocelulósico e utilizado os produtos gerados.
-# sent_id = 349-20150917-MONOGRAFIA_0-141
+# sent_id = 349-20150917-MONOGRAFIA_0-143
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	6	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -3945,7 +3947,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Esta hipótese é suportada pelo crescimento e viabilidade celular terem sido mantidos após o período de incubação.
-# sent_id = 349-20150917-MONOGRAFIA_0-142
+# sent_id = 349-20150917-MONOGRAFIA_0-144
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3968,13 +3970,13 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 2.
-# sent_id = 349-20150917-MONOGRAFIA_0-143
+# sent_id = 349-20150917-MONOGRAFIA_0-145
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Valores médios da liberação de açúcar redutor (mg/mL) dos fungos do gênero Lecythophora em meio suplementado com bagaço de cana-de- açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-144
+# text = Valores médios da liberação de açúcar redutor (mg/mL) dos fungos do gênero Lecythophora em meio suplementado com bagaço de cana-de-açúcar.
+# sent_id = 349-20150917-MONOGRAFIA_0-146
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	médios	médio	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4002,13 +4004,11 @@
 22	com	com	ADP	_	_	23	case	_	_
 23	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 24	de	de	ADP	_	_	25	case	_	_
-25	cana-de	cana-de	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
-26	-	-	PUNCT	_	_	27	punct	_	_
-27	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+25	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Os valores da atividade máxima em U.mL-1, encontrados no gênero Lecythophora inoculado em bagaço de cana-de-açúcar para as enzimas testadas foram: endoamilase = 0,463 U.mL -1 ±0,048; pectinase = 0,437
-# sent_id = 349-20150917-MONOGRAFIA_0-145
+# sent_id = 349-20150917-MONOGRAFIA_0-147
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4049,7 +4049,7 @@
 36	0,437	0,437	NUM	_	NumType=Card	35	nummod	_	_
 
 # text = U.mL -1 ± 0,148 (TO 356); exoamilase com atividade máxima de 0,435
-# sent_id = 349-20150917-MONOGRAFIA_0-146
+# sent_id = 349-20150917-MONOGRAFIA_0-148
 1	U.mL	U.mL	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	-1	-1	NUM	_	NumType=Card	1	nummod	_	_
 3	±	±	SYM	_	_	1	nmod	_	_
@@ -4067,7 +4067,7 @@
 15	0,435	0,435	NUM	_	NumType=Card	12	nmod	_	_
 
 # text = U.mL-1± 0,064 (TO 375); carboximetilcelulase = 0,223
-# sent_id = 349-20150917-MONOGRAFIA_0-147
+# sent_id = 349-20150917-MONOGRAFIA_0-149
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,064	0,064	NUM	_	NumType=Card	9	nummod	_	_
@@ -4081,7 +4081,7 @@
 11	0,223	0,223	NUM	_	NumType=Card	10	nummod	_	_
 
 # text = U.mL-1± 0,083 (W3A2) ; celulase = 0,214
-# sent_id = 349-20150917-MONOGRAFIA_0-148
+# sent_id = 349-20150917-MONOGRAFIA_0-150
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,083	0,083	NUM	_	NumType=Card	5	nummod	_	_
@@ -4094,7 +4094,7 @@
 10	0,214	0,214	NUM	_	NumType=Card	9	nummod	_	_
 
 # text = U.mL-1± 0,023 (W3A2) e xilanase =, 0,020
-# sent_id = 349-20150917-MONOGRAFIA_0-149
+# sent_id = 349-20150917-MONOGRAFIA_0-151
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,023	0,023	NUM	_	NumType=Card	9	nummod	_	_
@@ -4108,7 +4108,7 @@
 11	0,020	0,020	NUM	_	NumType=Card	1	appos:parataxis	_	_
 
 # text = U.mL-1± 0,011 (TO 374).
-# sent_id = 349-20150917-MONOGRAFIA_0-150
+# sent_id = 349-20150917-MONOGRAFIA_0-152
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,011	0,011	NUM	_	NumType=Card	1	appos:parataxis	_	_
@@ -4119,7 +4119,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na figura 3 pode ser visualizado o desempenho médio enzimático de cada isolado em bagaço de cana-de-açúcar, atentando que os maiores valores de atividade enzimática se concentraram nas enzimas: endoamilase; exoamilase e pectinase.
-# sent_id = 349-20150917-MONOGRAFIA_0-151
+# sent_id = 349-20150917-MONOGRAFIA_0-153
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4162,13 +4162,35 @@
 38	pectinase	pectinase	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = 4.2.2
-# sent_id = 349-20150917-MONOGRAFIA_0-152
-1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
+# text = Figura 3.
+# sent_id = 349-20150917-MONOGRAFIA_0-154
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Atividade enzimática (U/mL) do gênero Lecythophora em meio suplementado com bagaço de cana-de-açúcar 4.2.2
+# sent_id = 349-20150917-MONOGRAFIA_0-155
+1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	U/mL	U/mL	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+9	Lecythophora	Lecythophorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	4.2.2	4.2.2	NUM	_	NumType=Card	9	obj	_	_
 
 # text = Meio suplementado com sabugo de milho triturado
-# sent_id = 349-20150917-MONOGRAFIA_0-153
+# sent_id = 349-20150917-MONOGRAFIA_0-156
 1	Meio	meio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4178,7 +4200,7 @@
 7	triturado	triturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = Em meio suplementado com sabugo de milho triturado, todos os onze isolados do gênero Lecythophora diminuíram significativamente (p<0,05) a concentração de açúcar redutor em relação ao controle sem inóculo.
-# sent_id = 349-20150917-MONOGRAFIA_0-154
+# sent_id = 349-20150917-MONOGRAFIA_0-157
 1	Em	em	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4218,7 +4240,7 @@
 35	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Provavelmente os isolados consumiram os monossacarídeos liberados durante o processo de autoclavagem.
-# sent_id = 349-20150917-MONOGRAFIA_0-155
+# sent_id = 349-20150917-MONOGRAFIA_0-158
 1	Provavelmente	provavelmente	ADV	_	_	4	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	isolados	isolado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -4234,7 +4256,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Ao analisar os valores de crescimento após o período de incubação, é possível inferir que todos os isolados mantiveram a viabilidade, podendo ter utilizado os açúcares residuais existentes no meio para o crescimento.
-# sent_id = 349-20150917-MONOGRAFIA_0-156
+# sent_id = 349-20150917-MONOGRAFIA_0-159
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4244,7 +4266,7 @@
 6	de	de	ADP	_	_	7	case	_	_
 7	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	após	após	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpacesAfter=\s\n
 10	período	período	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	incubação	incubação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -4277,7 +4299,7 @@
 38	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Em relação ao Grau Brix, quatro isolados diferiram positivamente do controle sem inóculo, aumentando a concentração de sólidos solúveis totais, embora sem alterarem a concentração de açúcares redutores, sugerindo que podem ter atacado o substrato lignocelulósico e utilizado os produtos gerados.
-# sent_id = 349-20150917-MONOGRAFIA_0-157
+# sent_id = 349-20150917-MONOGRAFIA_0-160
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -4330,7 +4352,7 @@
 48	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Esta hipótese, assim como no inóculo em meio suplementado com bagaço de cana-de-açúcar é suportada pelo crescimento e viabilidade celular terem sido mantidos após o período de incubação.
-# sent_id = 349-20150917-MONOGRAFIA_0-158
+# sent_id = 349-20150917-MONOGRAFIA_0-161
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -4367,7 +4389,7 @@
 32	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Os valores da atividade máxima em U.mL-1 encontrados no gênero
-# sent_id = 349-20150917-MONOGRAFIA_0-159
+# sent_id = 349-20150917-MONOGRAFIA_0-162
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4385,7 +4407,7 @@
 13	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 
 # text = Lecythophora inoculado em sabugo de milho triturado para as enzimas testadas foram: pectinase = 0,728 U.mL-1± 0,222 (TO 352); endoamilase= 0,138 U.mL-1±0,020 (LB 302.1); exoamilase =, 0,130
-# sent_id = 349-20150917-MONOGRAFIA_0-160
+# sent_id = 349-20150917-MONOGRAFIA_0-163
 1	Lecythophora	Lecythophora	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 2	inoculado	inocular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -4425,7 +4447,7 @@
 37	0,130	0,130	NUM	_	NumType=Card	35	nummod	_	_
 
 # text = U.mL-1±0,020 (TO 373); celulase
-# sent_id = 349-20150917-MONOGRAFIA_0-161
+# sent_id = 349-20150917-MONOGRAFIA_0-164
 1	U.mL	U.ml	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±0,020	-1±0,020	NUM	_	NumType=Card	1	nummod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4436,7 +4458,7 @@
 8	celulase	celulase	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 
 # text = = 0,091 U.mL-1±0,049; carboximetilcelulase = 0,057
-# sent_id = 349-20150917-MONOGRAFIA_0-162
+# sent_id = 349-20150917-MONOGRAFIA_0-165
 1	=	=	SYM	_	_	0	root	_	_
 2	0,091	0,091	NUM	_	NumType=Card	3	nummod	_	_
 3	U.mL	U.mL	PROPN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
@@ -4447,7 +4469,7 @@
 8	0,057	0,057	NUM	_	NumType=Card	7	nummod	_	_
 
 # text = U.mL-1±0,008 e xilanase = 0,0096
-# sent_id = 349-20150917-MONOGRAFIA_0-163
+# sent_id = 349-20150917-MONOGRAFIA_0-166
 1	U.mL	U.ml	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±0,008	-1±0,008	NUM	_	NumType=Card	1	nummod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -4456,13 +4478,13 @@
 6	0,0096	0,0096	NUM	_	NumType=Card	5	nummod	_	_
 
 # text = U.mL-1±0,004.
-# sent_id = 349-20150917-MONOGRAFIA_0-164
+# sent_id = 349-20150917-MONOGRAFIA_0-167
 1	U.mL	U.ml	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±0,004	-1±0,004	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os isolados do gênero Lecythophora apresentaram menor produção do pool enzimático em meio suplementado com sabugo de milho em relação ao meio com bagaço-de-cana de açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-165
+# sent_id = 349-20150917-MONOGRAFIA_0-168
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	isolados	isolado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4498,7 +4520,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A figura 4 mostra a produção enzimática média de cada isolado em meio suplementado com sabugo de milho triturado, evidenciando também que a enzima que teve maior atividade enzimática nesse substrato foi a pectinase.
-# sent_id = 349-20150917-MONOGRAFIA_0-166
+# sent_id = 349-20150917-MONOGRAFIA_0-169
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4	4	NUM	_	NumType=Card	2	nmod	_	_
@@ -4536,14 +4558,42 @@
 34	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	pectinase	pectinase	NOUN	_	Gender=Fem|Number=Sing	21	ccomp	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = 4.2.3
-# sent_id = 349-20150917-MONOGRAFIA_0-167
-1	4.2.3	4.2.3	NUM	_	NumType=Card	0	root	_	_
+# text = Figura 4.
+# sent_id = 349-20150917-MONOGRAFIA_0-170
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Atividade enzimática (U/mL) do gênero Lecythophora em meio triturado.
+# sent_id = 349-20150917-MONOGRAFIA_0-171
+1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	U/mL	U/mL	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+9	Lecythophora	Lecythophorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	triturado	triturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# text = suplementado com sabugo de milho 4.2.3
+# sent_id = 349-20150917-MONOGRAFIA_0-172
+1	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	sabugo	sabugo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	milho	milho	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	4.2.3	4.2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Meio suplementado com casca de arroz
-# sent_id = 349-20150917-MONOGRAFIA_0-168
+# sent_id = 349-20150917-MONOGRAFIA_0-173
 1	Meio	meio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4552,7 +4602,7 @@
 6	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Em meio suplementado com casca de arroz, dois dos isolados do gênero Lecythophora (W7 e W3A2), aumentaram significativamente (p<0,05) a concentração de açúcar redutor em relação ao controle sem inóculo, indicando que podem ter liberado açúcar redutor por ação enzimática sobre o substrato.
-# sent_id = 349-20150917-MONOGRAFIA_0-169
+# sent_id = 349-20150917-MONOGRAFIA_0-174
 1	Em	em	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4612,7 +4662,7 @@
 54	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Ambas as linhagens foram as que melhor se adaptaram ao substrato, produzindo uma biomassa celular expressiva (Tabela 1), indicando que também consumiram parcialmente os produtos de hidrólise gerados.
-# sent_id = 349-20150917-MONOGRAFIA_0-170
+# sent_id = 349-20150917-MONOGRAFIA_0-175
 1	Ambas	ambos	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -4650,7 +4700,7 @@
 34	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Curiosamente, a linhagem W7 foi a que demonstrou maior produção de pectinase nesse substrato e a relação disso com a produção de açúcares redutores precisa ser melhor analisada.
-# sent_id = 349-20150917-MONOGRAFIA_0-171
+# sent_id = 349-20150917-MONOGRAFIA_0-176
 1	Curiosamente	curiosamente	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4687,7 +4737,7 @@
 32	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = Em relação ao grau Brix, sete isolados diferiram positivamente do controle, indicando que houve aumento da concentração de sólidos solúveis totais após o período de incubação.
-# sent_id = 349-20150917-MONOGRAFIA_0-172
+# sent_id = 349-20150917-MONOGRAFIA_0-177
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -4725,7 +4775,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Tal aumento ocorreu concomitante ao crescimento celular; entretanto, os quatro isolados que não diferiram do controle em relação ao grau Brix cresceram mais e provavelmente utilizaram algum nutriente que não é detectado pela metodologia empregada, específica para detectar açúcares redutores.
-# sent_id = 349-20150917-MONOGRAFIA_0-173
+# sent_id = 349-20150917-MONOGRAFIA_0-178
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4777,15 +4827,15 @@
 45	detectar	detectar	VERB	_	VerbForm=Inf	37	advcl	_	_
 46	açúcares	açúcar	NOUN	_	Gender=Masc|Number=Plur	45	obj	_	_
 47	redutores	redutor	ADJ	_	Gender=Masc|Number=Plur	46	amod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+48	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 1.
-# sent_id = 349-20150917-MONOGRAFIA_0-174
+# sent_id = 349-20150917-MONOGRAFIA_0-179
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	1.	1	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Crescimento e viabilidade celular do gênero Lecythophora nos diferentes resíduos.
-# sent_id = 349-20150917-MONOGRAFIA_0-175
+# sent_id = 349-20150917-MONOGRAFIA_0-180
 1	Crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	viabilidade	viabilidade	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -4803,7 +4853,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = *Inóculo inicial igual a 4X104 células
-# sent_id = 349-20150917-MONOGRAFIA_0-176
+# sent_id = 349-20150917-MONOGRAFIA_0-181
 1	*Inóculo	*Inóculo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	inicial	inicial	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	igual	igual	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
@@ -4812,7 +4862,7 @@
 6	células	célula	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = Os valores da atividade máxima em Unidades de enzima.mL-1 neste substrato (casca de arroz) foram: pectinase = 1,550 U.mL-1± 0,263 (W7), exoamilase = 0,164
-# sent_id = 349-20150917-MONOGRAFIA_0-177
+# sent_id = 349-20150917-MONOGRAFIA_0-182
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4851,7 +4901,7 @@
 34	0,164	0,164	NUM	_	NumType=Card	33	nummod	_	_
 
 # text = U.mL-1± 0,051 (TO 352); endoamilase = 0, 135 U.mL-1± (LB 302.1); celulase = 0,129
-# sent_id = 349-20150917-MONOGRAFIA_0-178
+# sent_id = 349-20150917-MONOGRAFIA_0-183
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,051	0,051	NUM	_	NumType=Card	9	nummod	_	_
@@ -4877,7 +4927,7 @@
 23	0,129	0,129	NUM	_	NumType=Card	22	nummod	_	_
 
 # text = U.mL-1± 0,059 0,059 (TO 373)
-# sent_id = 349-20150917-MONOGRAFIA_0-179
+# sent_id = 349-20150917-MONOGRAFIA_0-184
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,059	0,059	NUM	_	NumType=Card	1	nummod	_	_
@@ -4888,7 +4938,7 @@
 8	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = ; carboximetilcelulase = 0,061 U.mL-1± 0,004(LB 302.1) e xilanase
-# sent_id = 349-20150917-MONOGRAFIA_0-180
+# sent_id = 349-20150917-MONOGRAFIA_0-185
 1	;	;	PUNCT	_	_	2	punct	_	_
 2	carboximetilcelulase	carboximetilcelulase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	=	=	SYM	_	_	2	appos	_	_
@@ -4904,7 +4954,7 @@
 13	xilanase	xilanase	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 
 # text = = 0,0188 U.mL-1± 0,006 (W3A2).
-# sent_id = 349-20150917-MONOGRAFIA_0-181
+# sent_id = 349-20150917-MONOGRAFIA_0-186
 1	=	=	SYM	_	_	0	root	_	_
 2	0,0188	0,0188	NUM	_	NumType=Card	3	nummod	_	_
 3	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -4916,7 +4966,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na figura 5 encontra-se a atividade enzimática média de cada isolado em meio suplementado com casca de arroz, mostrando que a maior atividade enzimática consistiu na pectinase.
-# sent_id = 349-20150917-MONOGRAFIA_0-182
+# sent_id = 349-20150917-MONOGRAFIA_0-187
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4954,7 +5004,7 @@
 32	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Porém, com relação às demais enzimas (endoamilase, exoamilase, xilanase, carboximetilcelulase e celulase,) os isolados inoculados em casca de arroz tiveram baixa atividade enzimática quando comparados com os resultados obtidos nos outros substratos testados neste trabalho.
-# sent_id = 349-20150917-MONOGRAFIA_0-183
+# sent_id = 349-20150917-MONOGRAFIA_0-188
 1	Porém	porém	ADV	_	_	28	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -5003,16 +5053,16 @@
 43	em	em	ADP	_	_	45	case	_	_
 44	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	45	det	_	_
 45	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n\n
 
 # text = Figura 5.
-# sent_id = 349-20150917-MONOGRAFIA_0-184
+# sent_id = 349-20150917-MONOGRAFIA_0-189
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade enzimática do gênero Lecythophora em meio suplementado com casca de arroz.
-# sent_id = 349-20150917-MONOGRAFIA_0-185
+# sent_id = 349-20150917-MONOGRAFIA_0-190
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5030,11 +5080,11 @@
 14	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 4.2.4
-# sent_id = 349-20150917-MONOGRAFIA_0-186
+# sent_id = 349-20150917-MONOGRAFIA_0-191
 1	4.2.4	4.2.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Meio suplementado com casca de café
-# sent_id = 349-20150917-MONOGRAFIA_0-187
+# sent_id = 349-20150917-MONOGRAFIA_0-192
 1	Meio	meio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -5043,7 +5093,7 @@
 6	café	café	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Em meio suplementado com casca de café, três isolados (TO 373; LB 302.1 e W7) aumentaram significativamente a concentração de açúcar redutor.
-# sent_id = 349-20150917-MONOGRAFIA_0-188
+# sent_id = 349-20150917-MONOGRAFIA_0-193
 1	Em	em	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5073,7 +5123,7 @@
 27	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Na aferição do Grau Brix, dois isolados (LB 302.1 e W7) diminuíram significativamente a concentração de sólidos solúveis totais e ambos os isolados apresentaram elevado crescimento celular, sendo W7 com 3,6 x 10 7 células.
-# sent_id = 349-20150917-MONOGRAFIA_0-189
+# sent_id = 349-20150917-MONOGRAFIA_0-194
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5120,7 +5170,7 @@
 42	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = mL-1 e LB 302.1 com 1,4 x 10 7 células.
-# sent_id = 349-20150917-MONOGRAFIA_0-190
+# sent_id = 349-20150917-MONOGRAFIA_0-195
 1	mL-1	mL-1	NUM	_	NumType=Card	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	LB	LB	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -5134,12 +5184,12 @@
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = mL-1.
-# sent_id = 349-20150917-MONOGRAFIA_0-191
+# sent_id = 349-20150917-MONOGRAFIA_0-196
 1	mL-1	mL-1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Isto sugere que estes isolados podem ter atacado o substrato lignocelulósico e utilizado os produtos gerados para crescimento, fato sustentado pela elevada concentração celular observada após o período de incubação.
-# sent_id = 349-20150917-MONOGRAFIA_0-192
+# sent_id = 349-20150917-MONOGRAFIA_0-197
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
@@ -5176,7 +5226,7 @@
 33	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Ao final do período de incubação, observou-se também que houve a formação de um consistente biofilme, possuindo cerca de 3 mm de espessura como pode ser visualizado na figura 6.
-# sent_id = 349-20150917-MONOGRAFIA_0-193
+# sent_id = 349-20150917-MONOGRAFIA_0-198
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5217,10 +5267,10 @@
 34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	figura	figura	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
 36	6	6	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Os valores da atividade máxima em U.mL-1 encontrados no gênero
-# sent_id = 349-20150917-MONOGRAFIA_0-194
+# sent_id = 349-20150917-MONOGRAFIA_0-199
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5238,7 +5288,7 @@
 13	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 
 # text = Lecythophora inoculado em casca de café foram: exoamilase= 1,485 U.mL-1± 0,183 (TO 376); pectinase = 0,974
-# sent_id = 349-20150917-MONOGRAFIA_0-195
+# sent_id = 349-20150917-MONOGRAFIA_0-200
 1	Lecythophora	Lecythophora	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	inoculado	inocular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -5262,7 +5312,7 @@
 21	0,974	0,974	NUM	_	NumType=Card	20	nummod	_	_
 
 # text = U.mL-1± 0,077 (TO 374); celulase= 0,810 U.mL-1± 0,061 (TO 355); endoamilase= 0,369 U.mL-1± 0,239 (W7); xilanase = 0,207
-# sent_id = 349-20150917-MONOGRAFIA_0-196
+# sent_id = 349-20150917-MONOGRAFIA_0-201
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,077	0,077	NUM	_	NumType=Card	9	nummod	_	_
@@ -5295,7 +5345,7 @@
 30	0,207	0,207	NUM	_	NumType=Card	29	nummod	_	_
 
 # text = U.mL-1± 0,021 (W3A2) e carboximetilcelulase =, 0,193 U.mL-1± 0,073.
-# sent_id = 349-20150917-MONOGRAFIA_0-197
+# sent_id = 349-20150917-MONOGRAFIA_0-202
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
 3	0,021	0,021	NUM	_	NumType=Card	9	nummod	_	_
@@ -5313,7 +5363,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na figura 7, podem ser visualizados os valores médios de cada isolado para cada uma das enzimas em meio suplementado com casca de café, onde se destacam a exoamilase e a pectinase.
-# sent_id = 349-20150917-MONOGRAFIA_0-198
+# sent_id = 349-20150917-MONOGRAFIA_0-203
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5355,13 +5405,13 @@
 37	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 7.
-# sent_id = 349-20150917-MONOGRAFIA_0-199
+# sent_id = 349-20150917-MONOGRAFIA_0-204
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade enzimática (U/mL) do gênero Lecythophora em meio suplementado com casca de café.
-# sent_id = 349-20150917-MONOGRAFIA_0-200
+# sent_id = 349-20150917-MONOGRAFIA_0-205
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5379,16 +5429,16 @@
 14	casca	casca	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	café	café	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Figura 8.
-# sent_id = 349-20150917-MONOGRAFIA_0-201
+# sent_id = 349-20150917-MONOGRAFIA_0-206
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Valores médios da atividade enzimática (U.mL-1) dos fungos do gênero Lecythophora em diferentes substratos lignocelulósicos.
-# sent_id = 349-20150917-MONOGRAFIA_0-202
+# sent_id = 349-20150917-MONOGRAFIA_0-207
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	médios	médio	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5416,7 +5466,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Avaliando todos os substratos concomitantemente, nota-se que a casca de café foi a que melhor contribuiu para uma elevada atividade enzimática quando comparada os demais resíduos.
-# sent_id = 349-20150917-MONOGRAFIA_0-203
+# sent_id = 349-20150917-MONOGRAFIA_0-208
 1	Avaliando	avaliar	VERB	_	VerbForm=Ger	7	advcl	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -5449,7 +5499,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Nota-se também que a pectinase foi a enzima que teve uma melhor atividade em todos os substratos utilizados.
-# sent_id = 349-20150917-MONOGRAFIA_0-204
+# sent_id = 349-20150917-MONOGRAFIA_0-209
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5473,7 +5523,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na figura 8 podemos observar os valores médios de unidades de enzima obtidos em cada um dos resíduos lignocelulósicos utilizados.
-# sent_id = 349-20150917-MONOGRAFIA_0-205
+# sent_id = 349-20150917-MONOGRAFIA_0-210
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5501,11 +5551,11 @@
 23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 4.3
-# sent_id = 349-20150917-MONOGRAFIA_0-206
+# sent_id = 349-20150917-MONOGRAFIA_0-211
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consórcio das linhagens
-# sent_id = 349-20150917-MONOGRAFIA_0-207
+# sent_id = 349-20150917-MONOGRAFIA_0-212
 1	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5513,7 +5563,7 @@
 4	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = O consórcio das linhagens do gênero Lecythophora foi realizado para avaliar se ocorreria o aumento da atividade enzimática de todas as enzimas analisadas nesse trabalho, bem como o aumento do açúcar redutor das alíquotas após o período de incubação.
-# sent_id = 349-20150917-MONOGRAFIA_0-208
+# sent_id = 349-20150917-MONOGRAFIA_0-213
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	consórcio	consórcio	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -5569,7 +5619,7 @@
 47	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = As cinco linhagens selecionadas, sendo elas: TO 356, TO 375, W7, W3a2 e LB 302.1, resultaram em dez consórcios microbianos, sendo eles: TO 375 + LB 302.1; TO 375+ W7; TO 375 +W3A2; TO 375 + TO 356; LB 302.1
-# sent_id = 349-20150917-MONOGRAFIA_0-209
+# sent_id = 349-20150917-MONOGRAFIA_0-214
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	cinco	cinco	NUM	_	NumType=Card	3	nummod	_	_
 3	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
@@ -5624,7 +5674,7 @@
 52	302.1	302.1	NUM	_	NumType=Card	51	nummod	_	_
 
 # text = + W7; LB 302.1
-# sent_id = 349-20150917-MONOGRAFIA_0-210
+# sent_id = 349-20150917-MONOGRAFIA_0-215
 1	+	+	SYM	_	_	0	root	_	_
 2	W7	W7	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 3	;	;	PUNCT	_	_	1	punct	_	_
@@ -5632,7 +5682,7 @@
 5	302.1	302.1	NUM	_	NumType=Card	4	nummod	_	_
 
 # text = + W3A2; LB 302.1
-# sent_id = 349-20150917-MONOGRAFIA_0-211
+# sent_id = 349-20150917-MONOGRAFIA_0-216
 1	+	+	SYM	_	_	0	root	_	_
 2	W3A2	W3A2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 3	;	;	PUNCT	_	_	1	punct	_	_
@@ -5640,7 +5690,7 @@
 5	302.1	302.1	NUM	_	NumType=Card	4	nummod	_	_
 
 # text = + TO 356; W7 + W3A2;
-# sent_id = 349-20150917-MONOGRAFIA_0-212
+# sent_id = 349-20150917-MONOGRAFIA_0-217
 1	+	+	SYM	_	_	6	nmod	_	_
 2	TO	to	ADV	_	_	3	advmod	_	_
 3	356	356	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
@@ -5651,7 +5701,7 @@
 8	;	;	PUNCT	_	_	6	punct	_	_
 
 # text = W3A2 + TO 356.
-# sent_id = 349-20150917-MONOGRAFIA_0-213
+# sent_id = 349-20150917-MONOGRAFIA_0-218
 1	W3A2	W3A2	NUM	_	NumType=Card	2	nummod	_	_
 2	+	+	SYM	_	_	0	root	_	_
 3	TO	TO	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -5659,7 +5709,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Essas linhagens foram selecionadas analisando quais tiveram maiores valores de Unidades de enzima produzidas nos quatro resíduos, a fim de obter um pool enzimático para melhor degradação do resíduo lignocelulósico.
-# sent_id = 349-20150917-MONOGRAFIA_0-214
+# sent_id = 349-20150917-MONOGRAFIA_0-219
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -5667,7 +5717,7 @@
 5	analisando	analisando	ADV	_	_	7	advmod	_	_
 6	quais	qual	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	7	nsubj	_	_
 7	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
-8	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+8	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpacesAfter=\s\n
 9	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
@@ -5698,28 +5748,26 @@
 34	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.3.1
-# sent_id = 349-20150917-MONOGRAFIA_0-215
+# sent_id = 349-20150917-MONOGRAFIA_0-220
 1	4.3.1	4.3.1	NUM	_	NumType=Card	0	root	_	_
 
-# text = Consórcio das linhagens em meio suplementado com bagaço de cana-de- açúcar
-# sent_id = 349-20150917-MONOGRAFIA_0-216
+# text = Consórcio das linhagens em meio suplementado com bagaço de cana-de-açúcar
+# sent_id = 349-20150917-MONOGRAFIA_0-221
 1	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 5	em	em	ADP	_	_	6	case	_	_
-6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-7	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
+6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+7	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 8	com	com	ADP	_	_	9	case	_	_
 9	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	cana-de	cana-de	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	1	punct	_	_
-13	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
+11	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 
 # text = A análise dos dados, conduzida utilizando o software PAST, mostrou que não houve diferença significativa (p < 0,05) ao comparar o açúcar redutor do controle (meio sem inóculo) com o açúcar redutor das alíquotas resultantes do consórcio em meio suplementado com bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-217
+# sent_id = 349-20150917-MONOGRAFIA_0-222
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -5783,7 +5831,7 @@
 56	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Foi verificado também, que, com exceção da xilanase, a qual teve uma atividade enzimática de 0,110 U/mL no consórcio TO375+LB302.1, houve uma diminuição da atividade enzimática de todas as enzimas avaliadas, quando comparamos os resultados das culturas isoladas frente aos resultados dos consórcios (culturas mistas).
-# sent_id = 349-20150917-MONOGRAFIA_0-218
+# sent_id = 349-20150917-MONOGRAFIA_0-223
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	verificado	verificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	também	também	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -5851,7 +5899,7 @@
 59	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Na figura 9 temos a representação dos valores de atividade enzimática em meio suplementado com bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-219
+# sent_id = 349-20150917-MONOGRAFIA_0-224
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5877,13 +5925,13 @@
 21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 9.
-# sent_id = 349-20150917-MONOGRAFIA_0-220
+# sent_id = 349-20150917-MONOGRAFIA_0-225
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade enzimática do consórcio do gênero Lecythophora em meio suplementado com bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-221
+# sent_id = 349-20150917-MONOGRAFIA_0-226
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5902,14 +5950,14 @@
 14	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 4.3.2
-# sent_id = 349-20150917-MONOGRAFIA_0-222
+# sent_id = 349-20150917-MONOGRAFIA_0-227
 1	4.3.2	4.3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consórcio das linhagens em meio suplementado com sabugo de milho triturado
-# sent_id = 349-20150917-MONOGRAFIA_0-223
+# sent_id = 349-20150917-MONOGRAFIA_0-228
 1	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5925,7 +5973,7 @@
 12	triturado	triturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 
 # text = O meio suplementado com sabugo de milho triturado teve cinco consórcios, sendo eles: TO375+LB302.1; TO375+W7; LB302.1+W7; LB302.1+W3A2; W7+TO356, que aumentaram significativamente (p < 0,05) a concentração de açúcar redutor quando comparados com o controle sem inóculo.
-# sent_id = 349-20150917-MONOGRAFIA_0-224
+# sent_id = 349-20150917-MONOGRAFIA_0-229
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5974,7 +6022,7 @@
 46	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O consórcio TO375+LB302, foi o que liberou maior quantidade de açúcar redutor (0,907mg/mL).
-# sent_id = 349-20150917-MONOGRAFIA_0-225
+# sent_id = 349-20150917-MONOGRAFIA_0-230
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	consórcio	consórcio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	TO375+LB302	TO375+LB302	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
@@ -5994,7 +6042,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Entretanto, ao comparar a atividade enzimática do consórcio com a atividade enzimática das culturas sem estarem consorciadas, nota-se que não houve aumento da atividade enzimática de nenhuma das enzimas estudadas.
-# sent_id = 349-20150917-MONOGRAFIA_0-226
+# sent_id = 349-20150917-MONOGRAFIA_0-231
 1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -6042,7 +6090,7 @@
 39	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Na figura 9, pode ser observado que, a maior atividade enzimática foi da enzima pectinase, a partir do consórcio TO375+LB302.1, com 0,273 U/mL.
-# sent_id = 349-20150917-MONOGRAFIA_0-227
+# sent_id = 349-20150917-MONOGRAFIA_0-232
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6080,7 +6128,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Esse consórcio também teve o melhor resultado nos açúcares redutores.
-# sent_id = 349-20150917-MONOGRAFIA_0-228
+# sent_id = 349-20150917-MONOGRAFIA_0-233
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	consórcio	consórcio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -6096,13 +6144,13 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 10.
-# sent_id = 349-20150917-MONOGRAFIA_0-229
+# sent_id = 349-20150917-MONOGRAFIA_0-234
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade enzimática do consórcio do gênero Lecythophora em meio suplementado com sabugo de milho triturado.
-# sent_id = 349-20150917-MONOGRAFIA_0-230
+# sent_id = 349-20150917-MONOGRAFIA_0-235
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6122,14 +6170,14 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	milho	milho	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	triturado	triturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 4.3.3
-# sent_id = 349-20150917-MONOGRAFIA_0-231
+# sent_id = 349-20150917-MONOGRAFIA_0-236
 1	4.3.3	4.3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consórcio das linhagens em meio suplementado com casca de arroz
-# sent_id = 349-20150917-MONOGRAFIA_0-232
+# sent_id = 349-20150917-MONOGRAFIA_0-237
 1	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6144,7 +6192,7 @@
 11	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 
 # text = Os consórcios inoculados em meio suplementado com casca de arroz, em sua grande maioria (5 consórcios), diferiram negativamente do controle (p<0,05) ao analisar a concentração de açúcares redutores, indicando que estes consórcios consumiram os açúcares redutores que ainda estavam disponíveis no meio, utilizando tal recurso, provavelmente, para o aumento de biomassa, algo que foi constatado ao avaliar a viabilidade celular das amostras, que chegou a uma concentração final de 1,2 x 10 7 células.
-# sent_id = 349-20150917-MONOGRAFIA_0-233
+# sent_id = 349-20150917-MONOGRAFIA_0-238
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	consórcios	consórcio	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 3	inoculados	inocular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -6244,7 +6292,7 @@
 92	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = mL-1 (Consórcio TO 356+W7).
-# sent_id = 349-20150917-MONOGRAFIA_0-234
+# sent_id = 349-20150917-MONOGRAFIA_0-239
 1	mL-1	mL-1	NUM	_	NumType=Card	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -6254,7 +6302,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os demais consórcios não apresentaram diferença significativa ao serem comparados com o controle (meio sem inóculo).
-# sent_id = 349-20150917-MONOGRAFIA_0-235
+# sent_id = 349-20150917-MONOGRAFIA_0-240
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	demais	demais	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	consórcios	consórcio	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -6278,7 +6326,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Com relação à atividade enzimática, uma enzima, a xilanase, apresentou aumento em sua produção a partir do inóculo do consórcio (LB302.1+W7) em casca de arroz.
-# sent_id = 349-20150917-MONOGRAFIA_0-236
+# sent_id = 349-20150917-MONOGRAFIA_0-241
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -6318,7 +6366,7 @@
 34	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Tal atividade enzimática atingiu o valor de 0, 048 U.mL (Figura 10), porém, tal valor não foi maior do que o alcançado pelo consórcio TO375+LB302.1 em bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-237
+# sent_id = 349-20150917-MONOGRAFIA_0-242
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6360,7 +6408,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nota-se a presença da linhagem LB302.1 em ambos os consórcios, podendo ela desempenhar alguma função no aumento da produção da xilanase a partir desses resíduos.
-# sent_id = 349-20150917-MONOGRAFIA_0-238
+# sent_id = 349-20150917-MONOGRAFIA_0-243
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -6402,7 +6450,7 @@
 33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Nenhuma outra enzima apresentou aumento em sua produção nesse substrato.
-# sent_id = 349-20150917-MONOGRAFIA_0-239
+# sent_id = 349-20150917-MONOGRAFIA_0-244
 1	Nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Neg	3	det	_	_
 2	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	enzima	enzima	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -6418,13 +6466,13 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 11.
-# sent_id = 349-20150917-MONOGRAFIA_0-240
+# sent_id = 349-20150917-MONOGRAFIA_0-245
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade enzimática do consórcio do gênero Lecythophora em meio suplementado com casca de arroz 4.3.4
-# sent_id = 349-20150917-MONOGRAFIA_0-241
+# sent_id = 349-20150917-MONOGRAFIA_0-246
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6442,11 +6490,11 @@
 13	com	com	ADP	_	_	14	case	_	_
 14	casca	casca	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
-16	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+16	arroz	arroz	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\s\n
 17	4.3.4	4.3.4	NUM	_	NumType=Card	9	obj	_	_
 
 # text = Consórcio das linhagens em meio suplementado com casca de café
-# sent_id = 349-20150917-MONOGRAFIA_0-242
+# sent_id = 349-20150917-MONOGRAFIA_0-247
 1	Consórcio	consórcio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6461,7 +6509,7 @@
 11	café	café	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 
 # text = O meio suplementado com casca de café não apresentou diferença significativa da concentração de açúcares redutores dos meios inoculados com consórcio em relação ao meio sem inóculo (controle).
-# sent_id = 349-20150917-MONOGRAFIA_0-243
+# sent_id = 349-20150917-MONOGRAFIA_0-248
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -6501,7 +6549,7 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Porém, a partir da curva de calibração feita durante os experimentos, nota-se que este meio contem uma grande quantidade de açúcares redutores presente, sendo 3,094 mg/mL a maior concentração encontrada.
-# sent_id = 349-20150917-MONOGRAFIA_0-244
+# sent_id = 349-20150917-MONOGRAFIA_0-249
 1	Porém	porém	ADV	_	_	4	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	a	ADP	_	_	4	fixed	_	_
@@ -6542,7 +6590,7 @@
 36	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Com relação à atividade enzimática, o consórcio TO356+W3A2, entre linhagens do gênero Lecythophora, aumentou os valores de Unidades de enzima.mL-1 em três das seis enzimas analisadas, quando comparadas com os melhores valores de atividade enzimática das linhagens sem estarem consorciadas em meio suplementado com casca de café.
-# sent_id = 349-20150917-MONOGRAFIA_0-245
+# sent_id = 349-20150917-MONOGRAFIA_0-250
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -6606,11 +6654,11 @@
 57	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = .
-# sent_id = 349-20150917-MONOGRAFIA_0-246
+# sent_id = 349-20150917-MONOGRAFIA_0-251
 1	.	.	PUNCT	_	_	0	root	_	_
 
 # text = As enzimas que tiveram aumento na atividade foram: endoamilase, com 1,084 U. mL-1, pectinase, com 1,089 U mL-1 e carboximetilcelulase, com 0,736 U.mL-1, como pode ser visualizado na figura 12.
-# sent_id = 349-20150917-MONOGRAFIA_0-247
+# sent_id = 349-20150917-MONOGRAFIA_0-252
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	enzimas	enzima	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -6655,13 +6703,13 @@
 40	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 12.
-# sent_id = 349-20150917-MONOGRAFIA_0-248
+# sent_id = 349-20150917-MONOGRAFIA_0-253
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Atividade enzimática do consórcio do gênero Lecythophora em meio suplementado com casca de café.
-# sent_id = 349-20150917-MONOGRAFIA_0-249
+# sent_id = 349-20150917-MONOGRAFIA_0-254
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6683,11 +6731,11 @@
 17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 4.4
-# sent_id = 349-20150917-MONOGRAFIA_0-250
+# sent_id = 349-20150917-MONOGRAFIA_0-255
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Hidrólise ácida e enzimática do bagaço de cana-de-açúcar
-# sent_id = 349-20150917-MONOGRAFIA_0-251
+# sent_id = 349-20150917-MONOGRAFIA_0-256
 1	Hidrólise	Hidrólise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	ácida	ácido	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6697,12 +6745,12 @@
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+9	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\s\n
 
-# text = Os valores da atividade máxima em Unidades de enzima.mL-1, encontrados no gênero Lecythophora inoculado em bagaço de cana-de-açúcar hidrolisado foram: endoamilase
-# sent_id = 349-20150917-MONOGRAFIA_0-252
+# text = Os valores da atividade máxima em Unidades de enzima.mL-1, encontrados no gênero Lecythophora inoculado em bagaço de cana-de-açúcar U. mL -1 ± 0,0034 (TO 356); exoamilase com atividade máxima de 0,074
+# sent_id = 349-20150917-MONOGRAFIA_0-257
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -6725,95 +6773,34 @@
 20	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-23	hidrolisado	hidrolisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
-24	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	SpaceAfter=No
-25	:	:	PUNCT	_	_	24	punct	_	_
-26	endoamilase	endoamilase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+23	U.	U.	PUNCT	_	_	24	punct	_	_
+24	mL	mL	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+25	-1	-1	NUM	_	NumType=Card	26	nummod	_	_
+26	±	±	SYM	_	_	24	appos	_	_
+27	0,0034	0,0034	NUM	_	NumType=Card	26	nummod	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	TO	TO	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+30	356	356	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	;	;	PUNCT	_	_	2	punct	_	_
+33	exoamilase	exoamilase	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+34	com	com	ADP	_	_	35	case	_	_
+35	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+36	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	0,074	0,074	NUM	_	NumType=Card	35	nmod	_	_
 
-# text = = 0,089 U.mL -1 ±0,047 (W7); pectinase = 0,054 U. mL -1 ± 0,0034 (TO 356); exoamilase com atividade máxima de 0,074
-# sent_id = 349-20150917-MONOGRAFIA_0-253
-1	=	=	SYM	_	_	0	root	_	_
-2	0,089	0,089	NUM	_	NumType=Card	3	nummod	_	_
-3	U.mL	U.mL	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	_
-4	-1	-1	NUM	_	NumType=Card	1	nummod	_	_
-5	±0,047	±0,047	NUM	_	NumType=Card	4	flat	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	W7	W7	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	1	punct	_	_
-10	pectinase	pectinase	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-11	=	=	SYM	_	_	10	nmod	_	_
-12	0,054	0,054	NUM	_	NumType=Card	13	nummod	_	_
-13	U.	U.	PROPN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-14	mL	mL	PROPN	_	Number=Sing	13	flat:name	_	_
-15	-1	-1	NUM	_	NumType=Card	16	nummod	_	_
-16	±	±	SYM	_	_	17	appos	_	_
-17	0,0034	0,0034	NUM	_	NumType=Card	11	nummod	_	_
-18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	TO	TO	PROPN	_	Gender=Masc|Number=Sing	17	appos	_	_
-20	356	356	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
-22	;	;	PUNCT	_	_	1	punct	_	_
-23	exoamilase	exoamilase	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-24	com	com	ADP	_	_	25	case	_	_
-25	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
-27	de	de	ADP	_	_	28	case	_	_
-28	0,074	0,074	NUM	_	NumType=Card	25	nmod	_	_
-
-# text = U.mL- 1± 0,003 (W7); carboximetilcelulase = 0,0250
-# sent_id = 349-20150917-MONOGRAFIA_0-254
+# text = U.mL- (W3A2).
+# sent_id = 349-20150917-MONOGRAFIA_0-258
 1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	_
-3	1±	1±	PROPN	_	Number=Sing	1	flat:name	_	_
-4	0,003	0,003	NUM	_	NumType=Card	1	nummod	_	_
-5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	W7	W7	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
-8	;	;	PUNCT	_	_	1	punct	_	_
-9	carboximetilcelulase	carboximetilcelulase	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-10	=	=	SYM	_	_	9	nmod	_	_
-11	0,0250	0,0250	NUM	_	NumType=Card	10	nummod	_	_
-
-# text = U.mL-1± 0,0078 (W3A2) ; celulase = 0,040
-# sent_id = 349-20150917-MONOGRAFIA_0-255
-1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
-3	0,0078	0,0078	NUM	_	NumType=Card	5	nummod	_	_
-4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	W3A2	W3A2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	5	punct	_	_
-7	;	;	PUNCT	_	_	1	punct	_	_
-8	celulase	celulase	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-9	=	=	SYM	_	_	8	nmod	_	_
-10	0,040	0,040	NUM	_	NumType=Card	9	nummod	_	_
-
-# text = U.mL-1± 0,039 (LB 302.1) e xilanase
-# sent_id = 349-20150917-MONOGRAFIA_0-256
-1	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	-1±	-1±	PROPN	_	Number=Sing	1	flat:name	_	_
-3	0,039	0,039	NUM	_	NumType=Card	9	nummod	_	_
-4	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-5	LB	Lb	ADP	_	_	6	case	_	_
-6	302.1	302.1	NUM	_	NumType=Card	3	appos:parataxis	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
-8	e	e	CCONJ	_	_	9	cc	_	_
-9	xilanase	xilanase	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-
-# text = = 0,051 U.mL-1± 0,021 (W3A2).
-# sent_id = 349-20150917-MONOGRAFIA_0-257
-1	=	=	SYM	_	_	0	root	_	_
-2	0,051	0,051	NUM	_	NumType=Card	3	nummod	_	_
-3	U.mL	U.mL	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-4	-1±	-1±	PROPN	_	Number=Sing	3	flat:name	_	_
-5	0,021	0,021	NUM	_	NumType=Card	1	nummod	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	W3A2	W3A2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	W3A2	W3A2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Com relação ao açúcar redutor, nenhuma das linhagens diferiu significativamente (p<0,05) do controle, com exceção da linhagem W7, a qual diferiu negativamente.
-# sent_id = 349-20150917-MONOGRAFIA_0-258
+# sent_id = 349-20150917-MONOGRAFIA_0-259
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -6852,7 +6839,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = No entanto, todas as cinco linhagens tiveram um crescimento expressivo, sendo que a W7 foi a linhagem que apresentou o maior crescimento celular, chegando à 5.106 células.
-# sent_id = 349-20150917-MONOGRAFIA_0-259
+# sent_id = 349-20150917-MONOGRAFIA_0-260
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	8	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -6890,12 +6877,12 @@
 33	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = mL-1 .
-# sent_id = 349-20150917-MONOGRAFIA_0-260
+# sent_id = 349-20150917-MONOGRAFIA_0-261
 1	mL-1	mL-1	NUM	_	NumType=Card	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tal evento nos permite inferir as linhagens foram capazes de degradar a celulignina, liberando monossacarídeos que foram utilizados para a sua própria nutrição e crescimento.
-# sent_id = 349-20150917-MONOGRAFIA_0-261
+# sent_id = 349-20150917-MONOGRAFIA_0-262
 1	Tal	tal	ADV	_	_	2	advmod	_	_
 2	evento	evento	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -6927,7 +6914,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Na figura 13 pode ser visualizado o desempenho médio enzimático de cada isolado em bagaço de cana-de-açúcar hidrolisado, atentando para o fato de que a enzima que apresentou maior atividade foi a endoamilase com 0,089 U/mL (W7).
-# sent_id = 349-20150917-MONOGRAFIA_0-262
+# sent_id = 349-20150917-MONOGRAFIA_0-263
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6973,13 +6960,13 @@
 42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 13.
-# sent_id = 349-20150917-MONOGRAFIA_0-263
+# sent_id = 349-20150917-MONOGRAFIA_0-264
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Atividade enzimática (U/mL) do gênero Lecythophora em meio suplementado com bagaço de cana-de-açúcar hidrolisado 5.
-# sent_id = 349-20150917-MONOGRAFIA_0-264
+# sent_id = 349-20150917-MONOGRAFIA_0-265
 1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6997,16 +6984,16 @@
 14	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	cana-de-açúcar	cana-de-açúcar	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-17	hidrolisado	hidrolisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
+17	hidrolisado	hidrolisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	SpacesAfter=\s\n
 18	5	5	NUM	_	NumType=Card	17	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Discussão
-# sent_id = 349-20150917-MONOGRAFIA_0-265
+# sent_id = 349-20150917-MONOGRAFIA_0-266
 1	Discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O jardim de fungos encontrado em ninhos de formigas cortadeiras possui uma ampla fonte de enzimas lignocelulolíticas extracelulares, algo evidenciado nesse estudo e em estudos anteriores, como o de Carreiro (2000).
-# sent_id = 349-20150917-MONOGRAFIA_0-266
+# sent_id = 349-20150917-MONOGRAFIA_0-267
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7047,7 +7034,7 @@
 37	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Todas as linhagens avaliadas apresentaram alguma produção, mesmo que pouco expressiva, de enzimas lignocelulolíticas.
-# sent_id = 349-20150917-MONOGRAFIA_0-267
+# sent_id = 349-20150917-MONOGRAFIA_0-268
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -7067,7 +7054,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O gênero Cryptococcus não se mostrou um bom produtor enzimático quando inoculado no bagaço cana-de-açúcar, diante das condições experimentais utilizadas no presente estudo.
-# sent_id = 349-20150917-MONOGRAFIA_0-268
+# sent_id = 349-20150917-MONOGRAFIA_0-269
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	Cryptococcus	Cryptococcus	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -7101,7 +7088,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Dessa forma, não foi dada continuidade aos experimentos utilizando linhagens desse gênero.
-# sent_id = 349-20150917-MONOGRAFIA_0-269
+# sent_id = 349-20150917-MONOGRAFIA_0-270
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7124,7 +7111,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Dentre os resíduos agro-industriaIs utilizados, a casca de café foi aquele que proporcionou uma maior produção do pool enzimático e isso provavelmente ocorreu devido à elevada concentração de açúcares redutores, influenciando positivamente na produção das enzimas lignocelulolíticas extracelulares.
-# sent_id = 349-20150917-MONOGRAFIA_0-270
+# sent_id = 349-20150917-MONOGRAFIA_0-271
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resíduos	resíduo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
@@ -7176,7 +7163,7 @@
 45	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Esses resultados estão de acordo com o trabalho de Blanco et al. (1999), o qual verificou que a elevada produção enzimática está intimamente relacionada com o crescimento do micro-organismo em elevadas concentrações de açúcares.
-# sent_id = 349-20150917-MONOGRAFIA_0-271
+# sent_id = 349-20150917-MONOGRAFIA_0-272
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -7219,7 +7206,7 @@
 39	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Ademais, os baixos valores enzimáticos também podem estar relacionados às condições de cultivo utilizadas, bem como a temperatura, pH, concentração do substrato e presença de outros compostos que podem influenciar os resultados.
-# sent_id = 349-20150917-MONOGRAFIA_0-272
+# sent_id = 349-20150917-MONOGRAFIA_0-273
 1	Ademais	Ademais	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -7263,7 +7250,7 @@
 39	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A obtenção de maiores valores de produção de enzimas pode ocorrer se esses e outros parâmetros forem otimizados (FLORENCIO, 2011).
-# sent_id = 349-20150917-MONOGRAFIA_0-273
+# sent_id = 349-20150917-MONOGRAFIA_0-274
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -7290,7 +7277,7 @@
 24	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = A hidrólise enzimática é uma reação heterogênea, catalisada pelas celulases, sendo diferenciada por um substrato insolúvel, sendo este o material lignocelulósico e um catalisador solúvel, o qual é representado pelas enzimas.
-# sent_id = 349-20150917-MONOGRAFIA_0-274
+# sent_id = 349-20150917-MONOGRAFIA_0-275
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7333,7 +7320,7 @@
 38	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A completa hidrólise da celulose requer a ação concomitante de inúmeras enzimas (celulases) com diferentes especificidades ao substrato (CARVALHO, 2009).
-# sent_id = 349-20150917-MONOGRAFIA_0-275
+# sent_id = 349-20150917-MONOGRAFIA_0-276
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	completa	completo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -7366,7 +7353,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Dessa forma, foi realizado um consórcio (cultura mista) das melhores linhagens do gênero Lecythophora.
-# sent_id = 349-20150917-MONOGRAFIA_0-276
+# sent_id = 349-20150917-MONOGRAFIA_0-277
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7390,10 +7377,10 @@
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	Lecythophora	Lecythophora	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Em meio suplementado com bagaço de cana-de-açúcar, apenas uma enzima (xilanase) teve aumento na produção quando comparado com os inóculos de cultura pura no mesmo substrato e isso ocorreu pela associação de duas linhagens( TO375+LB302.1).
-# sent_id = 349-20150917-MONOGRAFIA_0-277
+# sent_id = 349-20150917-MONOGRAFIA_0-278
 1	Em	em	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -7442,7 +7429,7 @@
 43	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = O meio suplementado com sabugo de milho triturado não proporcionou o aumento da produção das enzimas avaliadas.
-# sent_id = 349-20150917-MONOGRAFIA_0-278
+# sent_id = 349-20150917-MONOGRAFIA_0-279
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -7467,7 +7454,7 @@
 20	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A casca de arroz resultou no aumento de apenas uma enzima, sendo a xilanase, a partir do consórcio LB302.1+W7.
-# sent_id = 349-20150917-MONOGRAFIA_0-279
+# sent_id = 349-20150917-MONOGRAFIA_0-280
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	casca	casca	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7496,7 +7483,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Porém, tal aumento não foi maior do que a produção constatada no bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-280
+# sent_id = 349-20150917-MONOGRAFIA_0-281
 1	Porém	porém	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -7520,7 +7507,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O melhor substrato para a indução da produção de enzimas lignocelulolíticas a partir das culturas consorciadas foi, mais uma vez, a casca do café, provavelmente por conter maior concentração de açúcar disponível, resultando no aumento da produção de enzimas (BLANCO, 1999).
-# sent_id = 349-20150917-MONOGRAFIA_0-281
+# sent_id = 349-20150917-MONOGRAFIA_0-282
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
@@ -7582,7 +7569,7 @@
 54	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Apenas um dos consórcios (TO356+W3A2) apresentou aumento na produção de enzimas, sendo elas a endoamilase, a carboximetilcelulase e a pectinase, sendo que a pectinase foi a qual obteve maior produção com 1,089 U/mL.
-# sent_id = 349-20150917-MONOGRAFIA_0-282
+# sent_id = 349-20150917-MONOGRAFIA_0-283
 1	Apenas	apenas	ADV	_	_	2	advmod	_	_
 2	um	um	NUM	_	NumType=Card	9	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -7629,7 +7616,7 @@
 42	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
 
 # text = Existem estudos desenvolvidos por Gutierrez-Correa e Tengerdy (1997) e Deshpande (2008) que utilizaram concomitantemente dois fungos filamentosos na produção de enzimas lignocelulolíticas a partir do bagaço de cana-de-açúcar, onde mostraram que houve aumento nas produções dessas enzimas com os fungos consorciados.
-# sent_id = 349-20150917-MONOGRAFIA_0-283
+# sent_id = 349-20150917-MONOGRAFIA_0-284
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 3	desenvolvidos	desenvolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -7687,7 +7674,7 @@
 51	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Porém, os resultados encontrados em nosso trabalho não condizem em sua totalidade com os encontrados por Gutierrez-Correa e Tengerdy(1997) e Deshpande (2008) e isso provavelmente se deve às condições experimentais, sendo que Gutierrez-Correa e Tengerdy(1997) também suplementaram o meio de fermentação com farelo de soja, o que interferiu positivamente no resultado.
-# sent_id = 349-20150917-MONOGRAFIA_0-284
+# sent_id = 349-20150917-MONOGRAFIA_0-285
 1	Porém	porém	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -7755,7 +7742,7 @@
 63	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Em relação ao bagaço de cana-de-açúcar hidrolisado quimicamente, o principal objetivo do pré-tratamento ácido com ácido súlfurico foi solubilizar a fracção hemicelulósica da biomassa a fim de facilitar a acessibilidade das enzimas hidrolíticas ao meterial polimérico (ALVIRA et al., 2010).
-# sent_id = 349-20150917-MONOGRAFIA_0-285
+# sent_id = 349-20150917-MONOGRAFIA_0-286
 1	Em	em	ADP	_	_	5	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -7813,7 +7800,7 @@
 50	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Após a hidrólise ácida era esperada uma maior liberação de açúcares redutores .
-# sent_id = 349-20150917-MONOGRAFIA_0-286
+# sent_id = 349-20150917-MONOGRAFIA_0-287
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	hidrólise	hidrólise	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -7829,7 +7816,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = No entanto, os resultados obtidos foram menores daqueles obtidos no bagaço de cana-de-açúcar in natura.
-# sent_id = 349-20150917-MONOGRAFIA_0-287
+# sent_id = 349-20150917-MONOGRAFIA_0-288
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	9	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -7855,7 +7842,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Tal fato deve-se, provavelmente, às condições experimentais e determinados parâmetros como temperatura, pH e concentração do substrato.
-# sent_id = 349-20150917-MONOGRAFIA_0-288
+# sent_id = 349-20150917-MONOGRAFIA_0-289
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3-4	deve-se	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7876,7 +7863,7 @@
 16	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	14	appos:parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	pH	ph	INTJ	_	_	10	conj	_	_
-19	e	e	CCONJ	_	_	20	cc	_	_
+19	e	e	CCONJ	_	_	20	cc	_	SpacesAfter=\s\n
 20	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 21-22	do	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
@@ -7885,7 +7872,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Ainda, deve haver compatibilidade entre a escolha da tecnologia de pré-tratamento com a etapa de hidrólise enzimática, sendo que a relação entre composição do substrato, tipo de pré-tratamento, e dosagem enzimática possui grande influência sobre a degradação da biomassa lignocelulósica (KUMAR, et al, 2009).
-# sent_id = 349-20150917-MONOGRAFIA_0-289
+# sent_id = 349-20150917-MONOGRAFIA_0-290
 1	Ainda	ainda	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7947,7 +7934,7 @@
 56	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Ao avaliar todos os resíduos, verificamos que as atividades amilolítica e pectinolíca foram as que se sobressaíram, principalmente em meio suplementado com casca de café e casca de arroz.
-# sent_id = 349-20150917-MONOGRAFIA_0-290
+# sent_id = 349-20150917-MONOGRAFIA_0-291
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -7984,7 +7971,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Amilases possuem amplo uso na indústria textil, alimentícia e farmacêutica (SOUZA, 2010).
-# sent_id = 349-20150917-MONOGRAFIA_0-291
+# sent_id = 349-20150917-MONOGRAFIA_0-292
 1	Amilases	Amilase	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
 2	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	amplo	amplo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -8006,7 +7993,7 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Já as pectinases podem ser empregadas nas indústrias de suco, nutrição animal, degomagem de fibras, dentre outras aplicações (UENOJO, 2007).
-# sent_id = 349-20150917-MONOGRAFIA_0-292
+# sent_id = 349-20150917-MONOGRAFIA_0-293
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	pectinases	pectinase	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
@@ -8038,7 +8025,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Dessa forma, as linhagens avaliadas nesse trabalho apresentam um elevado potencial biotecnológico.
-# sent_id = 349-20150917-MONOGRAFIA_0-293
+# sent_id = 349-20150917-MONOGRAFIA_0-294
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -8059,15 +8046,15 @@
 16	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 6
-# sent_id = 349-20150917-MONOGRAFIA_0-294
+# sent_id = 349-20150917-MONOGRAFIA_0-295
 1	6	6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Conclusões
-# sent_id = 349-20150917-MONOGRAFIA_0-295
+# sent_id = 349-20150917-MONOGRAFIA_0-296
 1	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = Os isolados do gênero Cryptococcus, ao contrário do que era esperado, não apresentaram resultados satisfatórios no pool enzimático em meio suplementado com bagaço de cana-de-açúcar.
-# sent_id = 349-20150917-MONOGRAFIA_0-296
+# sent_id = 349-20150917-MONOGRAFIA_0-297
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	isolados	isolado	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8106,7 +8093,7 @@
 32	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Por outro lado, observou-se maior produção enzimática nos diferentes substratos com as linhagens do gênero Lecythophora.
-# sent_id = 349-20150917-MONOGRAFIA_0-297
+# sent_id = 349-20150917-MONOGRAFIA_0-298
 1	Por	por	ADP	_	_	5	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -8133,7 +8120,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O meio suplementado com casca de café foi o que proporcionou a obtenção de maiores valores de unidades de enzima.mL-1 para todas as enzimas estudadas.
-# sent_id = 349-20150917-MONOGRAFIA_0-298
+# sent_id = 349-20150917-MONOGRAFIA_0-299
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	suplementado	suplementar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -8163,7 +8150,7 @@
 27	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Entretanto, nos experimentos de consórcio, independentemente do substrato, nem todos os consórcios de Lecythophora apresentaram um bom desempenho na produção enzimática, como era esperado.
-# sent_id = 349-20150917-MONOGRAFIA_0-299
+# sent_id = 349-20150917-MONOGRAFIA_0-300
 1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -8200,38 +8187,38 @@
 31	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	advcl	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	20	punct	_	_
 
-# text = A partir disto, nota- se que testes de produção enzimática utilizando as linhagens do gênero Lecythophora em casca de café como substrato devem ser otimizados.
-# sent_id = 349-20150917-MONOGRAFIA_0-300
+# text = A partir disto, nota-se que testes de produção enzimática utilizando as linhagens do gênero Lecythophora em casca de café como substrato devem ser otimizados.
+# sent_id = 349-20150917-MONOGRAFIA_0-301
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	disto	_	_	_	_	_	_	_	SpaceAfter=No
 3	de	de	ADP	_	_	1	fixed	_	_
-4	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	nmod	_	_
+4	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	nota	nota	NOUN	_	Gender=Fem|Number=Sing	29	nsubj:pass	_	SpaceAfter=No
-7	-	-	PUNCT	_	_	6	punct	_	_
-8	se	se	SCONJ	_	_	27	mark	_	_
-9	que	que	SCONJ	_	_	27	mark	_	_
-10	testes	teste	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	produção	produção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-14	utilizando	utilizar	VERB	_	VerbForm=Ger	10	acl	_	_
-15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
-17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	Lecythophora	Lecythophora	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	casca	casca	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	café	café	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-25	como	como	ADP	_	_	26	case	_	_
-26	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	_
-27	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-28	ser	ser	AUX	_	VerbForm=Inf	29	aux:pass	_	_
-29	otimizados	otimizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n
+6-7	nota-se	_	_	_	_	_	_	_	_
+6	nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	6	nsubj	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	testes	teste	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	produção	produção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	enzimática	enzimático	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	utilizando	utilizar	VERB	_	VerbForm=Ger	9	acl	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	Lecythophora	Lecythophora	PROPN	_	Gender=Masc|Number=Sing	18	appos	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	casca	casca	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	café	café	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	como	como	ADP	_	_	25	case	_	_
+25	substrato	substrato	NOUN	_	Gender=Masc|Number=Sing	13	xcomp	_	_
+26	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+27	ser	ser	AUX	_	VerbForm=Inf	28	aux:pass	_	_
+28	otimizados	otimizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 

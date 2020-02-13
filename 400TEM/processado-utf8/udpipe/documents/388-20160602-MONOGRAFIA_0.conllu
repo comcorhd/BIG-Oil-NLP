@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 388-20160602-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -540,7 +540,7 @@
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	como	como	ADP	_	_	40	case	_	_
 40	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = A aplicação das técnicas de sensoriamento remoto se mostra fundamental no diagnóstico e monitoramento do processo de uso e ocupação e na detecção das consequências deixadas pelos fenômenos naturais.
 # sent_id = 388-20160602-MONOGRAFIA_0-17
@@ -804,7 +804,7 @@
 14	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = Estas imagens são obtidas por sensores orbitais que possuem capacidade de identificação de objetos de pequena dimensão, como exemplo destes sistemas sensores pode- se citar: GeoEye, RapidEye, Ikonos, Quickbird, Eros e Worldview.
+# text = Estas imagens são obtidas por sensores orbitais que possuem capacidade de identificação de objetos de pequena dimensão, como exemplo destes sistemas sensores pode-se citar: GeoEye, RapidEye, Ikonos, Quickbird, Eros e Worldview.
 # sent_id = 388-20160602-MONOGRAFIA_0-23
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
@@ -825,29 +825,29 @@
 17	dimensão	dimensão	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	9	punct	_	_
 19	como	como	ADP	_	_	20	case	_	_
-20	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+20	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 21-22	destes	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
 23	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
 24	sensores	sensor	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
-25	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
-26	-	-	PUNCT	_	_	25	punct	_	_
-27	se	se	SCONJ	_	_	28	mark	_	_
-28	citar	citar	VERB	_	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
-29	:	:	PUNCT	_	_	4	punct	_	_
-30	GeoEye	GeoEye	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	_
-32	RapidEye	RapidEye	PROPN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	Ikonos	Ikonos	PROPN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	36	punct	_	_
-36	Quickbird	Quickbird	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	38	punct	_	_
-38	Eros	Eros	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	_
-39	e	e	CCONJ	_	_	40	cc	_	_
-40	Worldview	Worldview	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+25-26	pode-se	_	_	_	_	_	_	_	_
+25	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+26	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	25	nsubj	_	_
+27	citar	citar	VERB	_	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	27	punct	_	_
+29	GeoEye	GeoEye	PROPN	_	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	RapidEye	RapidEye	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	Ikonos	Ikonos	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	Quickbird	Quickbird	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	Eros	Eros	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	Worldview	Worldview	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Este trabalho está direcionado ao estudo de um trecho do duto ORBEL, que interliga os Estados do Rio de Janeiro e Belo Horizonte.
 # sent_id = 388-20160602-MONOGRAFIA_0-24
@@ -1133,7 +1133,7 @@
 44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 45	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	46	det	_	_
 46	período	período	NOUN	_	Gender=Masc|Number=Sing	42	obl	_	_
-47	de	de	ADP	_	_	48	case	_	_
+47	de	de	ADP	_	_	48	case	_	SpacesAfter=\s\n
 48	recorrência	recorrência	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
 49	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	18	punct	_	_
@@ -1733,7 +1733,7 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	2014	2014	NUM	_	NumType=Card	26	appos:parataxis	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = A empresa subsidiária da Petrobras, a Petrobras Transporte S.A. – Transpetro, está a cargo de grande parte das atividade de transporte e armazenamento de petróleo e seus derivados, gás natural e biocombustível.
 # sent_id = 388-20160602-MONOGRAFIA_0-51
@@ -2360,7 +2360,7 @@
 32	de	de	ADP	_	_	33	case	_	_
 33	risco	risco	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 34	geotécnico	geotécnico	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Por sua vez, a AII considera os riscos potenciais em relação ao duto, sendo utilizada para estudos do meio físico e biótico.
 # sent_id = 388-20160602-MONOGRAFIA_0-68
@@ -2556,7 +2556,7 @@
 33	paralisação	paralisação	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 34	para	para	ADP	_	_	35	case	_	_
 35	reparos	reparo	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 388-20160602-MONOGRAFIA_0-74
@@ -2708,7 +2708,7 @@
 36	vegetal	vegetal	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	e	e	CCONJ	_	_	38	cc	_	_
 38	declividade	declividade	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 388-20160602-MONOGRAFIA_0-78
@@ -3158,7 +3158,7 @@
 12	material	material	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 13	elétrico	elétrico	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	leve	leve	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 1:
 # sent_id = 388-20160602-MONOGRAFIA_0-97
@@ -3442,7 +3442,7 @@
 30	Zonas	zonas	PROPN	_	Number=Sing	7	conj	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	Cisalhamento	Cisalhamento	PROPN	_	Number=Sing	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Rochas metamórficas com idade de 500 milhões até cerca de 2 bilhões de anos compõem as litologias dominantes no Estado do Rio de Janeiro.
 # sent_id = 388-20160602-MONOGRAFIA_0-108
@@ -3667,7 +3667,7 @@
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	2000	2000	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n\n\n
 
 # text = 3.3
 # sent_id = 388-20160602-MONOGRAFIA_0-118
@@ -3817,7 +3817,7 @@
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	2000	2000	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n\n\n
 
 # text = 3.4
 # sent_id = 388-20160602-MONOGRAFIA_0-127
@@ -3864,95 +3864,18 @@
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
 12	4	4	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
-
-# text = pedogênese, com alta taxa de deposição e baixa tava de erosão.
-# sent_id = 388-20160602-MONOGRAFIA_0-130
-1	pedogênese	pedogênese	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	5	punct	_	_
-3	com	com	ADP	_	_	5	case	_	_
-4	alta	alto	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-5	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	e	e	CCONJ	_	_	9	cc	_	_
-9	baixa	baixa	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-10	tava	tar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
-
-# text = Compreende solos minerais, geralmente hidromórficos, caracterizado por brusca mudança textural ao longo dos horizontes.
-# sent_id = 388-20160602-MONOGRAFIA_0-131
-1	Compreende	compreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	solos	solo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
-3	minerais	mineral	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	geralmente	geralmente	ADV	_	_	6	advmod	_	_
-6	hidromórficos	hidromórfico	ADJ	_	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	caracterizado	caracterizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
-9	por	por	ADP	_	_	11	case	_	_
-10	brusca	brusco	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-11	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
-12	textural	textural	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13-14	ao	_	_	_	_	_	_	_	_
-13	a	a	ADP	_	_	15	case	_	_
-14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	longo	longo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
-16-17	dos	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	horizontes	horizonte	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Ocorrem principalmente em algumas baixadas de Planossolo Háplico relevo aplainado da região litorânea.
-# sent_id = 388-20160602-MONOGRAFIA_0-132
-1	Ocorrem	ocorrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	principalmente	principalmente	ADV	_	_	1	advmod	_	_
-3	em	em	ADP	_	_	5	case	_	_
-4	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
-5	baixadas	baixada	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Planossolo	Planossolo	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	Háplico	Háplico	PROPN	_	Number=Sing	7	flat:name	_	_
-9	relevo	relevo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-10	aplainado	aplainar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
-11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	região	região	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
-14	litorânea	litorâneo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Apresentam baixa fertilidade, com argilas de baixa atividade e são álicos ou distróficos.
-# sent_id = 388-20160602-MONOGRAFIA_0-133
-1	Apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-3	fertilidade	fertilidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	_
-5	com	com	ADP	_	_	6	case	_	_
-6	argilas	argila	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	baixa	baixa	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-9	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-10	e	e	CCONJ	_	_	12	cc	_	_
-11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	álicos	álico	ADJ	_	Gender=Masc|Number=Plur	1	conj	_	_
-13	ou	ou	CCONJ	_	_	14	cc	_	_
-14	distróficos	distrófico	ADJ	_	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n\n
 
 # text = 3.5
-# sent_id = 388-20160602-MONOGRAFIA_0-134
+# sent_id = 388-20160602-MONOGRAFIA_0-130
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Vegetação
-# sent_id = 388-20160602-MONOGRAFIA_0-135
+# sent_id = 388-20160602-MONOGRAFIA_0-131
 1	Vegetação	Vegetação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = De acordo com IBGE (2004), a área de estudo está situada no Bioma Mata Atlântica, no domíno de Floresta Ombrofólia Densa.
-# sent_id = 388-20160602-MONOGRAFIA_0-136
+# sent_id = 388-20160602-MONOGRAFIA_0-132
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3985,7 +3908,7 @@
 28	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os índices pluviométricos são os mais elevados da região litorânea, com precipitação bem distribuída durante o ano todo.
-# sent_id = 388-20160602-MONOGRAFIA_0-137
+# sent_id = 388-20160602-MONOGRAFIA_0-133
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	índices	índice	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	pluviométricos	pluviométrico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -4010,7 +3933,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Na área de estudo, foram observados cinco tipos distintos de vegetação, sendo quatro subdivisões de florestas da Mata Atlântica e campos de várzea, descritos a seguir no Quadro 4.
-# sent_id = 388-20160602-MONOGRAFIA_0-138
+# sent_id = 388-20160602-MONOGRAFIA_0-134
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4052,7 +3975,7 @@
 36	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A Figura 5 exibe o Mapa de Tipos de Vegetação Natural da área.
-# sent_id = 388-20160602-MONOGRAFIA_0-139
+# sent_id = 388-20160602-MONOGRAFIA_0-135
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5	5	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4071,7 +3994,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Devido a utilização do solo para outros fins, como agricultura, pecuária e crescimento urbano, o desmatamento modificou a vegetação do Estado do Rio de Janeiro.
-# sent_id = 388-20160602-MONOGRAFIA_0-140
+# sent_id = 388-20160602-MONOGRAFIA_0-136
 1	Devido	devido	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
@@ -4108,8 +4031,28 @@
 31	Janeiro	Janeiro	PROPN	_	Number=Sing	29	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
-# text = Subcaducifólia comportamento variando entre o apresentado pelas florestas Subperenifólia e Subcaducifólia.
-# sent_id = 388-20160602-MONOGRAFIA_0-141
+# text = Quadro 4:
+# sent_id = 388-20160602-MONOGRAFIA_0-137
+1	Quadro	Quadro	ADV	_	_	2	advmod	_	_
+2	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+
+# text = Tipos de vegetação presentes na área de estudo.
+# sent_id = 388-20160602-MONOGRAFIA_0-138
+1	Tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	vegetação	vegetação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	presentes	presente	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	área	área	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
+
+# text = Subcaducifólia comportamento variando entre o apresentado pelas florestas Figura 5: Mapa de Tipos de Vegetação Natural da área.
+# sent_id = 388-20160602-MONOGRAFIA_0-139
 1	Subcaducifólia	Subcaducifóliar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	variando	variar	VERB	_	VerbForm=Ger	1	advcl	_	_
@@ -4120,76 +4063,45 @@
 7	por	por	ADP	_	_	9	case	_	_
 8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	florestas	floresta	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
-10	Subperenifólia	Subperenifólia	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
-11	e	e	CCONJ	_	_	12	cc	_	_
-12	Subcaducifólia	Subcaducifólia	PROPN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
+11	5	5	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	1	punct	_	_
+13	Mapa	mapa	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Tipos	tipos	PROPN	_	Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Vegetação	Vegetação	PROPN	_	Number=Sing	15	nmod	_	_
+18	Natural	Natural	PROPN	_	Number=Sing	17	flat:name	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	área	área	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Ocorre nas várzeas úmidas e periferia dos cursos de água, Campos de Várzea constituindo-se principalmente por espécies da família das gramíneas e ciperáceas.
-# sent_id = 388-20160602-MONOGRAFIA_0-142
-1	Ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2-3	nas	_	_	_	_	_	_	_	_
-2	em	em	ADP	_	_	4	case	_	_
-3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	várzeas	várzea	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	_
-5	úmidas	úmido	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	periferia	periferia	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-8-9	dos	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	cursos	curso	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	água	água	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	Campos	Campos	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	Várzea	Várzea	PROPN	_	Number=Sing	14	nmod	_	_
-17-18	constituindo-se	_	_	_	_	_	_	_	_
-17	constituindo	constituir	VERB	_	VerbForm=Ger	1	advcl	_	_
-18	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
-19	principalmente	principalmente	ADV	_	_	17	advmod	_	_
-20	por	por	ADP	_	_	21	case	_	_
-21	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
-22-23	da	_	_	_	_	_	_	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	família	família	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
-25-26	das	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
-27	gramíneas	gramínea	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
-28	e	e	CCONJ	_	_	29	cc	_	_
-29	ciperáceas	ciperácea	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Entre outras espécies destacam-se junco, periperi e baronesa.
-# sent_id = 388-20160602-MONOGRAFIA_0-143
-1	Entre	entre	ADP	_	_	3	case	_	_
-2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
-3	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
-4-5	destacam-se	_	_	_	_	_	_	_	_
-4	destacam	destacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	expl	_	_
-6	junco	junco	ADV	_	_	4	advmod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	periperi	periperi	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
-9	e	e	CCONJ	_	_	10	cc	_	_
-10	baronesa	baronês	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+# text = Fonte: adaptado de CPRM (2000).
+# sent_id = 388-20160602-MONOGRAFIA_0-140
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	CPRM	CPRM	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	2000	2000	NUM	_	NumType=Card	5	appos:parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.6
-# sent_id = 388-20160602-MONOGRAFIA_0-144
+# sent_id = 388-20160602-MONOGRAFIA_0-141
 1	3.6	3.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Uso e Ocupação
-# sent_id = 388-20160602-MONOGRAFIA_0-145
+# sent_id = 388-20160602-MONOGRAFIA_0-142
 1	Uso	uso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Ocupação	ocupação	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 
 # text = A partir de técnicas de detecção de mudanças, Ferreira (2009) verificou a evolução do uso e ocupação da região na qual se encontra a área de estudo.
-# sent_id = 388-20160602-MONOGRAFIA_0-146
+# sent_id = 388-20160602-MONOGRAFIA_0-143
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -4229,7 +4141,7 @@
 34	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Para tal, ele utilizou dados referentes à vegetação natural, uso e ocupação atual e mapa geoambiental disponíveis em CPRM (2000).
-# sent_id = 388-20160602-MONOGRAFIA_0-147
+# sent_id = 388-20160602-MONOGRAFIA_0-144
 1	Para	para	ADP	_	_	2	case	_	_
 2	tal	tal	PRON	_	Gender=Unsp|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4259,7 +4171,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Devido ao fato de algumas classes apresentarem mais de uma utilidade, não sendo possível determinar o uso exato da área, o mapa elaborado por Ferreira (2009) deve ser considerado como indicativo.
-# sent_id = 388-20160602-MONOGRAFIA_0-148
+# sent_id = 388-20160602-MONOGRAFIA_0-145
 1	Devido	devido	ADV	_	_	16	advmod	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -4302,7 +4214,7 @@
 38	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
 
 # text = A partir do Mapa de Uso e Ocupação (Figura 6), pode-se observar que a área urbana ocupa planícies fluviais, marinhas e lagunares, seguido pelas áreas de colinas e morros baixos.
-# sent_id = 388-20160602-MONOGRAFIA_0-149
+# sent_id = 388-20160602-MONOGRAFIA_0-146
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	15	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4347,7 +4259,7 @@
 39	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Já a vegetação natural ocupa regiões das escarpas serranas e de maciços alcalinos.
-# sent_id = 388-20160602-MONOGRAFIA_0-150
+# sent_id = 388-20160602-MONOGRAFIA_0-147
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	vegetação	vegetação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -4363,18 +4275,18 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	maciços	maciço	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 14	alcalinos	alcalino	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 3.7
-# sent_id = 388-20160602-MONOGRAFIA_0-151
+# sent_id = 388-20160602-MONOGRAFIA_0-148
 1	3.7	3.7	NUM	_	NumType=Card	0	root	_	_
 
 # text = Declividade
-# sent_id = 388-20160602-MONOGRAFIA_0-152
+# sent_id = 388-20160602-MONOGRAFIA_0-149
 1	Declividade	Declividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A declividade é uma variável geográfica que constitui o principal condicionante da capacidade de uso e ocupação do solo.
-# sent_id = 388-20160602-MONOGRAFIA_0-153
+# sent_id = 388-20160602-MONOGRAFIA_0-150
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	declividade	declividade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4401,7 +4313,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = As classes de declividade determinam, por exemplo, a possibilidade ou não de utilização de maquinários agrícolas e de construção civil (Santos, 2010).
-# sent_id = 388-20160602-MONOGRAFIA_0-154
+# sent_id = 388-20160602-MONOGRAFIA_0-151
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	classes	classes	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4432,7 +4344,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A declividade também está diretamente relacionada ao desenvolvimento de processos do meio físico, como escoamento superficial, com transporte de partículas, além de movimentos de massa (BISPO et al. 2011;
-# sent_id = 388-20160602-MONOGRAFIA_0-155
+# sent_id = 388-20160602-MONOGRAFIA_0-152
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	declividade	declividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	também	também	ADV	_	_	6	advmod	_	_
@@ -4473,7 +4385,7 @@
 36	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = VENANCIO et al. 2013).
-# sent_id = 388-20160602-MONOGRAFIA_0-156
+# sent_id = 388-20160602-MONOGRAFIA_0-153
 1	VENANCIO	Venanciar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	3	amod	_	_
 3	al.	al.	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -4482,7 +4394,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Gandolfi (2000) relatou diversas situações ambientais em que a declividade exerce influência, como o favorecimento do transporte de partículas de solo ao longo do perfil, favorecimento do escoamento de fluxo superficial, variação no tempo de incidência de radiação durante o ano (maior incidência nas áreas elevadas e menor incidência nas inferiores), diferentes gradientes de umidade no solo entre o topo e a base da vertente, entre outros.
-# sent_id = 388-20160602-MONOGRAFIA_0-157
+# sent_id = 388-20160602-MONOGRAFIA_0-154
 1	Gandolfi	_	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	2000	2000	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -4580,7 +4492,7 @@
 86	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O Mapa de Declividade da área de estudo está representado a seguir na Figura 7
-# sent_id = 388-20160602-MONOGRAFIA_0-158
+# sent_id = 388-20160602-MONOGRAFIA_0-155
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Mapa	mapa	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4601,8 +4513,8 @@
 16	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	13	obl	_	_
 17	7	7	PROPN	_	Number=Sing	16	flat:name	_	_
 
-# text = Foram separadas quatro classes de declividade, de acordo com IPT (1991): 0 – 15°, 15 – 30°, observa-se topografia ondulada a forte ondulada, 30 – 45° a topografia é bastante acidentada e acima de 45° a topografia apresenta-se montanhosa.
-# sent_id = 388-20160602-MONOGRAFIA_0-159
+# text = Foram separadas quatro classes de declividade, de acordo com IPT (1991): 0 – 15°, 15 – 30°, 30 – 45° e >45°.
+# sent_id = 388-20160602-MONOGRAFIA_0-156
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	separadas	separar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	quatro	quatro	NUM	_	NumType=Card	4	nummod	_	_
@@ -4620,43 +4532,68 @@
 15	:	:	PUNCT	_	_	2	punct	_	_
 16	0	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	–	–	PUNCT	_	_	18	punct	_	_
-18	15°	15°	PROPN	_	Number=Sing	24	nsubj	_	SpaceAfter=No
+18	15°	15°	PROPN	_	Number=Sing	2	parataxis	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	15	15	NUM	_	NumType=Card	18	conj	_	_
 21	–	–	PUNCT	_	_	18	punct	_	_
 22	30°	30°	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	18	punct	_	_
-24-25	observa-se	_	_	_	_	_	_	_	_
-24	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-25	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	expl	_	_
-26	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
-27	ondulada	ondular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	32	acl	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-29	forte	forte	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
-30	ondulada	ondulada	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	_
-32	30	30	NUM	_	NumType=Card	26	conj	_	_
-33	–	–	PUNCT	_	_	26	punct	_	_
-34	45°	45°	PROPN	_	Number=Sing	33	flat:name	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	_
-37	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
-38	bastante	bastante	ADV	_	_	39	advmod	_	_
-39	acidentada	acidentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	46	acl	_	_
-40	e	e	CCONJ	_	_	41	cc	_	_
-41	acima	acima	ADV	_	_	46	advmod	_	_
-42	de	de	ADP	_	_	43	case	_	_
-43	45°	45°	PROPN	_	Number=Sing	41	obl	_	_
-44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	46	nsubj	_	_
-46-47	apresenta-se	_	_	_	_	_	_	_	_
-46	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	conj	_	_
-47	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	46	obj	_	_
-48	montanhosa	montanhosar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	30	30	NUM	_	NumType=Card	18	conj	_	_
+25	–	–	PUNCT	_	_	18	punct	_	_
+26	45°	45°	PROPN	_	Number=Sing	18	flat:name	_	_
+27	e	e	CCONJ	_	_	18	flat:name	_	_
+28	>45°	>45°	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = A classe 0 – 15° apresenta topografia plana a levemente ondulada, 15 – 30°, observa-se topografia ondulada a forte ondulada, 30 – 45° a topografia é bastante acidentada e acima de 45° a topografia apresenta-se montanhosa.
+# sent_id = 388-20160602-MONOGRAFIA_0-157
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	classe	classe	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	0	0	NUM	_	NumType=Card	6	nsubj	_	_
+4	–	–	PUNCT	_	_	3	punct	_	_
+5	15°	15°	PROPN	_	Number=Sing	3	flat:name	_	_
+6	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+8	plana	plano	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	levemente	levemente	ADV	_	_	11	advmod	_	_
+11	ondulada	ondulada	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	15	15	NUM	_	NumType=Card	6	appos:parataxis	_	_
+14	–	–	PUNCT	_	_	13	punct	_	_
+15	30°	30°	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	13	punct	_	_
+17-18	observa-se	_	_	_	_	_	_	_	_
+17	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+19	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+20	ondulada	ondular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	32	acl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	forte	forte	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	ondulada	ondulada	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	30	30	NUM	_	NumType=Card	27	nummod	_	_
+26	–	–	PUNCT	_	_	25	punct	_	_
+27	45°	45°	PROPN	_	Number=Sing	23	nmod	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
+30	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	bastante	bastante	ADV	_	_	32	advmod	_	_
+32	acidentada	acidentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	39	acl	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	acima	acima	ADV	_	_	39	advmod	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	45°	45°	PROPN	_	Number=Sing	34	obl	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	topografia	topografia	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	_
+39-40	apresenta-se	_	_	_	_	_	_	_	_
+39	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	ccomp	_	_
+40	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	montanhosa	montanhosar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n\n
 
 # text = 3.8 Clima Fatores estáticos e dinâmicos são os principais condicionantes do clima na região Sudeste.
-# sent_id = 388-20160602-MONOGRAFIA_0-160
+# sent_id = 388-20160602-MONOGRAFIA_0-158
 1	3.8	3.8	NUM	_	NumType=Card	2	nummod	_	_
 2	Clima	clima	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	Fatores	fatores	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4679,7 +4616,7 @@
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Os fatores estáticos se relacionam à localização geográfica e topográfica, enquanto os fatores dinâmicos de relacionam às massas de ar (CPRM, 2000).
-# sent_id = 388-20160602-MONOGRAFIA_0-161
+# sent_id = 388-20160602-MONOGRAFIA_0-159
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	estáticos	estático	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -4713,7 +4650,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As massas de ar que regulam o clima do litoral sudeste são equatoriais e tropicais.
-# sent_id = 388-20160602-MONOGRAFIA_0-162
+# sent_id = 388-20160602-MONOGRAFIA_0-160
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	massas	massa	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4734,7 +4671,7 @@
 17	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = As massas de ar tropicais marítimas são carregadas pelos ventos alísios dando origem a estreitas zonas de com chuvas fortes e temperaturas altas.
-# sent_id = 388-20160602-MONOGRAFIA_0-163
+# sent_id = 388-20160602-MONOGRAFIA_0-161
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	massas	massa	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4763,7 +4700,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As massas de ar equatoriais continentais são quentes e úmidas, e o relevo alto propicia chuvas de relevo.
-# sent_id = 388-20160602-MONOGRAFIA_0-164
+# sent_id = 388-20160602-MONOGRAFIA_0-162
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	massas	massa	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4786,7 +4723,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As chuvas demonstram uma forte variação estacional (STRAHLER, 1975).
-# sent_id = 388-20160602-MONOGRAFIA_0-165
+# sent_id = 388-20160602-MONOGRAFIA_0-163
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	chuvas	chuva	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	demonstram	demonstrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4802,7 +4739,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A temperatura média anual, no Estado do Rio de Janeiro, é sempre superior a 22°C.
-# sent_id = 388-20160602-MONOGRAFIA_0-166
+# sent_id = 388-20160602-MONOGRAFIA_0-164
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	média	médio	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4827,7 +4764,7 @@
 20	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A distribuição espacial das chuvas é determinada pela orografia e pelo mecanismo dinâmico.
-# sent_id = 388-20160602-MONOGRAFIA_0-167
+# sent_id = 388-20160602-MONOGRAFIA_0-165
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	espacial	espacial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4850,7 +4787,7 @@
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As escarpas das serras do Mar e da Mantiqueira, por estarem paralelizadas, se opõem frontalmente à direção dos ventos das correntes de circulação atmosférica, resultando em precipitação pluviométrica diretamente proporcional à altitude.
-# sent_id = 388-20160602-MONOGRAFIA_0-168
+# sent_id = 388-20160602-MONOGRAFIA_0-166
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	escarpas	escarpa	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4903,7 +4840,7 @@
 43	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = As médias pluviométricas estão entre 2.000 e 4.500 mm e correspondem aos índices pluviométricos mais altos do Estado (GUIDICINI; IWASA, 1976).
-# sent_id = 388-20160602-MONOGRAFIA_0-169
+# sent_id = 388-20160602-MONOGRAFIA_0-167
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	médias	média	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	pluviométricas	pluviométrico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4936,7 +4873,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Ao sul do Estado, no Vale do Paraíba, o clima é bem menos úmido e chuvoso devido à subtração de umidade do ar realizada pelas serras da Mantiqueira e do Mar, cuja pluviosidade anual atinge de 750 a 1.000 mm.
-# sent_id = 388-20160602-MONOGRAFIA_0-170
+# sent_id = 388-20160602-MONOGRAFIA_0-168
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5001,7 +4938,7 @@
 53	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = A Baixada Litorânea é uma região igualmente menos chuvosa, cuja precipitação anual é inferior a 1.000 mm (CPRM, 2000).
-# sent_id = 388-20160602-MONOGRAFIA_0-171
+# sent_id = 388-20160602-MONOGRAFIA_0-169
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Baixada	Baixada	PROPN	_	Number=Sing	6	nsubj	_	_
 3	Litorânea	Litorânea	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -5028,7 +4965,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Especificamente nos municípios da área de estudo predominam dois períodos: um de chuvas bem definido (verão) que se alterna com um de baixa pluviosidade (inverno).
-# sent_id = 388-20160602-MONOGRAFIA_0-172
+# sent_id = 388-20160602-MONOGRAFIA_0-170
 1	Especificamente	especificamente	ADV	_	_	4	advmod	_	_
 2-3	nos	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -5066,7 +5003,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A pluviosidade média anual varia de 1.200 a 2.200 mm.
-# sent_id = 388-20160602-MONOGRAFIA_0-173
+# sent_id = 388-20160602-MONOGRAFIA_0-171
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pluviosidade	pluviosidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	média	médio	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5080,7 +5017,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As imagens de satélite utilizadas no presente trabalho abrangem cinco meses, de novembro de 2009 a março de 2010.
-# sent_id = 388-20160602-MONOGRAFIA_0-174
+# sent_id = 388-20160602-MONOGRAFIA_0-172
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5106,7 +5043,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Neste período, a precipitação foi de 1.954 mm para o município de Duque de Caxias e região, informação obtida a partir da estação Xerem – Duque de Caxias (INMET, 2009/2010).
-# sent_id = 388-20160602-MONOGRAFIA_0-175
+# sent_id = 388-20160602-MONOGRAFIA_0-173
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -5149,7 +5086,7 @@
 38	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A Figura 8 mostra os gráficos de precipitação nos meses de novembro/2009 a março/2010.
-# sent_id = 388-20160602-MONOGRAFIA_0-176
+# sent_id = 388-20160602-MONOGRAFIA_0-174
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	8	8	NUM	_	NumType=Card	4	nsubj	_	_
@@ -5166,47 +5103,25 @@
 13	novembro/2009	novembro/2009	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	a	a	ADP	_	_	15	case	_	_
 15	março/2010	março/2010	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
-
-# text = Figura 8: Gráficos de precipitação para o município de Duque de Caxias (INMET, 2009/2010).
-# sent_id = 388-20160602-MONOGRAFIA_0-177
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	2	punct	_	_
-4	Gráficos	gráficos	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	precipitação	precipitação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	para	para	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	município	município	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	Duque	duque	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	Caxias	Caxias	PROPN	_	Number=Sing	11	nmod	_	_
-14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	INMET	INMET	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	2009/2010	2009/2010	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n\n
 
 # text = 4.
-# sent_id = 388-20160602-MONOGRAFIA_0-178
+# sent_id = 388-20160602-MONOGRAFIA_0-175
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = FUNDAMENTAÇÃO TEÓRICA 4.1
-# sent_id = 388-20160602-MONOGRAFIA_0-179
+# sent_id = 388-20160602-MONOGRAFIA_0-176
 1	FUNDAMENTAÇÃO	fundamentação	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	TEÓRICA	teóricar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	4.1	4.1	NUM	_	NumType=Card	2	obj	_	_
 
 # text = Erosão
-# sent_id = 388-20160602-MONOGRAFIA_0-180
+# sent_id = 388-20160602-MONOGRAFIA_0-177
 1	Erosão	Erosão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A erosão consiste na desagregação e remoção de partículas de solo e/ou fragmentos e partículas de rocha (IPT 1986, apud SALOMÃO & IWASA 1995).
-# sent_id = 388-20160602-MONOGRAFIA_0-181
+# sent_id = 388-20160602-MONOGRAFIA_0-178
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5239,7 +5154,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O solo consiste em um perfil onde ocorre alteração de rochas, por meio de processos pedogenéticos condicionados por agentes físicos, químicos e orgânicos.
-# sent_id = 388-20160602-MONOGRAFIA_0-182
+# sent_id = 388-20160602-MONOGRAFIA_0-179
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	solo	solo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5268,7 +5183,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Ele cobre quase toda a superfície terrestre sobre a qual se desenvolvem atividades humanas.
-# sent_id = 388-20160602-MONOGRAFIA_0-183
+# sent_id = 388-20160602-MONOGRAFIA_0-180
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	cobre	cobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	quase	quase	ADV	_	_	2	advmod	_	_
@@ -5286,7 +5201,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = A superfície terrestre está sob uma condição de equilíbrio dinâmico, em que diversos processos atuam de forma contraditória, formando e erodindo os solos.
-# sent_id = 388-20160602-MONOGRAFIA_0-184
+# sent_id = 388-20160602-MONOGRAFIA_0-181
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	terrestre	terrestre	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5315,7 +5230,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os processos pedogenéticos ocorrem ao longo de centenas de anos e são contrabalanceados pelos processos de erosão, que remove seus constituintes, principalmente pela ação da chuva.
-# sent_id = 388-20160602-MONOGRAFIA_0-185
+# sent_id = 388-20160602-MONOGRAFIA_0-182
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	pedogenéticos	pedogenético	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5355,7 +5270,7 @@
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Essa é uma situação em que a erosão é considerada normal/geológica/natural, onde esse fenômeno se torna extremamente importante para a formação do relevo de superfície, dos solos aluviais e das rochas sedimentares (WEILL & PIRES NETO, 2007)
-# sent_id = 388-20160602-MONOGRAFIA_0-186
+# sent_id = 388-20160602-MONOGRAFIA_0-183
 1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5406,7 +5321,7 @@
 45	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = No entanto, a erosão pode ser considerada acelerada quando este equilíbrio é rompido e os processos erosivos são intensificados, tornando-se mais intensos que os processos de formação do solo.
-# sent_id = 388-20160602-MONOGRAFIA_0-187
+# sent_id = 388-20160602-MONOGRAFIA_0-184
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	6	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -5447,7 +5362,7 @@
 35	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Os processos erosivos atuam na modelagem do relevo por meio da ação de agentes exógenos (água, ventos, gelo e/ou organismos) que promovem a remoção de partículas ou, até mesmo, de grandes volumes de solo por meio da energia cinética dos agentes erosivos, sendo que na medida em que a energia cinética diminui ocorre a deposição do material removido em outros locais (WEILL & PIRES NETO, 2007).
-# sent_id = 388-20160602-MONOGRAFIA_0-188
+# sent_id = 388-20160602-MONOGRAFIA_0-185
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	erosivos	erosivo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5541,7 +5456,7 @@
 84	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os processos erosivos são difíceis de serem controlados, porém são facilmente acelerados e intensificados pela ação do homem, quando esse interage com o meio ambiente.
-# sent_id = 388-20160602-MONOGRAFIA_0-189
+# sent_id = 388-20160602-MONOGRAFIA_0-186
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	erosivos	erosivo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5576,7 +5491,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Dentre as formas de intervenção antrópica que podem acelerar o processo erosivo estão o desmatamento, uso inadequado de solos agrícolas e urbanos, movimentação de solo.
-# sent_id = 388-20160602-MONOGRAFIA_0-190
+# sent_id = 388-20160602-MONOGRAFIA_0-187
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	formas	forma	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
@@ -5607,7 +5522,7 @@
 28	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = Nas áreas de intensa atividade agropecuária, devido ao revolvimento excessivo do solo às práticas inadequadas e ao superpastejo, ocorrem muitas alterações dos atributos que causam degradação do solo, levando ao esgotamento das características físicas, químicas e biológicas.
-# sent_id = 388-20160602-MONOGRAFIA_0-191
+# sent_id = 388-20160602-MONOGRAFIA_0-188
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -5670,7 +5585,7 @@
 51	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Esses processos são responsáveis por diversos fatores que têm contribuído para a diminuição do potencial produtivo do solo, o que tem afetado a sustentabilidade do sistema (AZEVEDO & SVERZUT, 2007).
-# sent_id = 388-20160602-MONOGRAFIA_0-192
+# sent_id = 388-20160602-MONOGRAFIA_0-189
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5711,14 +5626,14 @@
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	2007	2007	NUM	_	NumType=Card	4	conj	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 4.1.1
-# sent_id = 388-20160602-MONOGRAFIA_0-193
+# sent_id = 388-20160602-MONOGRAFIA_0-190
 1	4.1.1	4.1.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Fatores Naturais da Erosão Segundo Santoro (2009), os principais fatores naturais que controlam o fenômeno de erosão são: o clima, a cobertura vegetal, o relevo e o tipo de solo.
-# sent_id = 388-20160602-MONOGRAFIA_0-194
+# sent_id = 388-20160602-MONOGRAFIA_0-191
 1	Fatores	fator	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
 2	Naturais	natural	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5760,7 +5675,7 @@
 38	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = O Quadro 5 compila os principais atributos de cada fator.
-# sent_id = 388-20160602-MONOGRAFIA_0-195
+# sent_id = 388-20160602-MONOGRAFIA_0-192
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Quadro	Quadro	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	5	5	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -5774,7 +5689,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Quadro 5: Fatores naturais que controlam o fenômeno de erosão e seus atributos.
-# sent_id = 388-20160602-MONOGRAFIA_0-196
+# sent_id = 388-20160602-MONOGRAFIA_0-193
 1	Quadro	Quadro	ADV	_	_	2	advmod	_	_
 2	5	5	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -5789,341 +5704,10 @@
 12	e	e	CCONJ	_	_	14	cc	_	_
 13	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	14	det	_	_
 14	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
-
-# text = Fatores Naturais Atributos
-# sent_id = 388-20160602-MONOGRAFIA_0-197
-1	Fatores	fator	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	Naturais	naturais	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	_
-3	Atributos	atributos	PROPN	_	Number=Sing	2	flat:name	_	_
-
-# text = A precipitação é o fator climático mais importante.
-# sent_id = 388-20160602-MONOGRAFIA_0-198
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	precipitação	precipitação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	fator	fator	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-6	climático	climático	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-7	mais	mais	ADV	_	_	8	advmod	_	_
-8	importante	importante	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	5	punct	_	_
-
-# text = Sua influência está diretamente relacionada com sua distribuição anual e intensidade.
-# sent_id = 388-20160602-MONOGRAFIA_0-199
-1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
-2	influência	influência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	diretamente	diretamente	ADV	_	_	5	advmod	_	_
-5	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
-6	com	com	ADP	_	_	8	case	_	_
-7	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	8	det	_	_
-8	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
-9	anual	anual	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-10	e	e	CCONJ	_	_	11	cc	_	_
-11	intensidade	intensidade	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	_
-
-# text = Nas regiões de chuvas torrenciais ou pancadas de chuvas intensas e distribuídas regularmente, observa-se a formação de solos profundos e permeáveis, bastante resistentes à Clima erosão.
-# sent_id = 388-20160602-MONOGRAFIA_0-200
-1-2	Nas	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	3	case	_	_
-2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	regiões	região	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	chuvas	chuva	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-6	torrenciais	torrencial	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
-7	ou	ou	CCONJ	_	_	8	cc	_	_
-8	pancadas	pancada	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	chuvas	chuva	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-11	intensas	intenso	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
-12	e	e	CCONJ	_	_	13	cc	_	_
-13	distribuídas	distribuir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	11	conj	_	_
-14	regularmente	regularmente	ADV	_	_	13	advmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	3	punct	_	_
-16-17	observa-se	_	_	_	_	_	_	_	_
-16	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
-18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	formação	formação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	solos	solo	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
-22	profundos	profundo	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
-23	e	e	CCONJ	_	_	24	cc	_	_
-24	permeáveis	permeável	ADJ	_	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	27	punct	_	_
-26	bastante	bastante	ADV	_	_	27	advmod	_	_
-27	resistentes	resistente	ADJ	_	Gender=Masc|Number=Plur	16	conj	_	_
-28-29	à	_	_	_	_	_	_	_	_
-28	a	a	ADP	_	_	31	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	Clima	climo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	amod	_	_
-31	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	16	punct	_	_
-
-# text = Já nas regiões que apresentam precipitações mal distribuídas anualmente, os solos encontram-se desprotegidos devido ao período seco e por isso a aceleração da erosão é máxima.
-# sent_id = 388-20160602-MONOGRAFIA_0-201
-1	Já	já	ADV	_	_	4	advmod	_	_
-2-3	nas	_	_	_	_	_	_	_	_
-2	em	em	ADP	_	_	4	case	_	_
-3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	regiões	região	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
-5	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	6	nsubj	_	_
-6	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
-7	precipitações	precipitação	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
-8	mal	mal	ADV	_	_	9	advmod	_	_
-9	distribuídas	distribuir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
-10	anualmente	anualmente	ADV	_	_	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	9	punct	_	_
-12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	solos	solo	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
-14-15	encontram-se	_	_	_	_	_	_	_	_
-14	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	expl	_	_
-16	desprotegidos	desproteger	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	ccomp	_	_
-17	devido	devido	ADV	_	_	16	advmod	_	_
-18-19	ao	_	_	_	_	_	_	_	_
-18	a	a	ADP	_	_	20	case	_	_
-19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	período	período	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-21	seco	seco	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
-22	e	e	CCONJ	_	_	31	cc	_	_
-23	por	por	ADP	_	_	24	case	_	_
-24	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	31	obl	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	aceleração	aceleração	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
-31	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	14	punct	_	_
-
-# text = Os ventos e as variações de temperatura também podem ser considerados significativos (WEILL & PIRES NETO, 2007).
-# sent_id = 388-20160602-MONOGRAFIA_0-202
-1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	ventos	vento	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
-3	e	e	CCONJ	_	_	5	cc	_	_
-4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	variações	variação	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	também	também	ADV	_	_	9	advmod	_	_
-9	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	ser	ser	AUX	_	VerbForm=Inf	11	aux:pass	_	_
-11	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	xcomp	_	_
-12	significativos	significativo	ADJ	_	Gender=Masc|Number=Plur	11	xcomp	_	_
-13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	WEILL	WEILL	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	_
-15	&	&	PROPN	_	Number=Sing	14	flat:name	_	_
-16	PIRES	Pires	PROPN	_	Number=Sing	14	flat:name	_	_
-17	NETO	Neto	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	2007	2007	NUM	_	NumType=Card	14	appos:parataxis	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
-
-# text = Protege o solo contra os processos erosivos, amenizando o impacto direto das gotas de chuva no solo, interceptadas pela folhagem e reduzindo o escoamento superficial.
-# sent_id = 388-20160602-MONOGRAFIA_0-203
-1	Protege	proteger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	solo	solo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-4	contra	contra	ADP	_	_	6	case	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	processos	processo	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-7	erosivos	erosivo	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	amenizando	amenizar	VERB	_	VerbForm=Ger	1	advcl	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
-12	direto	direto	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13-14	das	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	gotas	gota	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	chuva	chuva	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18-19	no	_	_	_	_	_	_	_	_
-18	em	em	ADP	_	_	20	case	_	_
-19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	solo	solo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	1	punct	_	_
-22	interceptadas	interceptar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
-23-24	pela	_	_	_	_	_	_	_	_
-23	por	por	ADP	_	_	25	case	_	_
-24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	folhagem	folhagem	NOUN	_	Gender=Fem|Number=Sing	22	obl:agent	_	_
-26	e	e	CCONJ	_	_	27	cc	_	_
-27	reduzindo	reduzir	VERB	_	VerbForm=Ger	1	conj	_	_
-28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
-30	superficial	superficial	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Está, portanto, diretamente relacionada com o clima.
-# sent_id = 388-20160602-MONOGRAFIA_0-204
-1	Está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	portanto	portanto	CCONJ	_	_	5	cc	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	diretamente	diretamente	ADV	_	_	6	advmod	_	_
-6	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
-7	com	com	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	clima	clima	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	6	punct	_	_
-
-# text = Nas áreas de clima quente Cobertura Vegetal e fortes chuvas, a vegetação natural é mais densa, minizando os efeitos dos agentes erosivos.
-# sent_id = 388-20160602-MONOGRAFIA_0-205
-1-2	Nas	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	3	case	_	_
-2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	áreas	área	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	clima	clima	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	quente	quente	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	Cobertura	cobertura	PROPN	_	Gender=Fem|Number=Sing	3	appos	_	_
-8	Vegetal	Vegetal	PROPN	_	Number=Sing	7	flat:name	_	_
-9	e	e	CCONJ	_	_	11	cc	_	_
-10	fortes	forte	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
-11	chuvas	chuva	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	7	punct	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	vegetação	vegetação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
-15	natural	natural	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
-16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
-17	mais	mais	ADV	_	_	18	advmod	_	_
-18	densa	denso	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	minizando	minizar	VERB	_	VerbForm=Ger	18	advcl	_	_
-21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
-23-24	dos	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-25	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
-26	erosivos	erosivo	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	18	punct	_	_
-
-# text = Em áreas com elevada deficiência hídrica, a vegetação natural é esparsa e de pequeno porte, resultando em uma maior área de solo exposto e pouco protegido,mais vulnerável à erosão.
-# sent_id = 388-20160602-MONOGRAFIA_0-206
-1	Em	em	ADP	_	_	2	case	_	_
-2	áreas	área	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
-3	com	com	ADP	_	_	5	case	_	_
-4	elevada	elevar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	_
-5	deficiência	deficiência	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	hídrica	hídrico	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	vegetação	vegetação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-10	natural	natural	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	esparsa	esparso	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-13	e	e	CCONJ	_	_	16	cc	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	pequeno	pequeno	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-16	porte	porte	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	resultando	resultar	VERB	_	VerbForm=Ger	12	advcl	_	_
-19	em	em	ADP	_	_	22	case	_	_
-20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	maior	grande	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
-22	área	área	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	solo	solo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-25	exposto	expor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
-27	pouco	pouco	ADV	_	_	28	advmod	_	_
-28	protegido	protegir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	conj	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	31	punct	_	SpaceAfter=No
-30	mais	mais	ADV	_	_	31	advmod	_	_
-31	vulnerável	vulnerável	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-32-33	à	_	_	_	_	_	_	_	_
-32	a	a	ADP	_	_	34	case	_	_
-33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
-
-# text = Determina a velocidade dos processos erosivos, controlando a circulação da água pluvial por meio da amplitude e inclinação Relevo das encostas.
-# sent_id = 388-20160602-MONOGRAFIA_0-207
-1	Determina	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-4-5	dos	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	processos	processo	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-7	erosivos	erosivo	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	controlando	controlar	VERB	_	VerbForm=Ger	1	advcl	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	circulação	circulação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
-12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	água	água	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-15	pluvial	pluvial	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
-16	por	por	ADP	_	_	17	case	_	_
-17	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	amplitude	amplitude	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-21	e	e	CCONJ	_	_	22	cc	_	_
-22	inclinação	inclinação	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	Relevo	relevo	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-24-25	das	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	encostas	encosta	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Em relevos mais planos/suaves predomina a infiltração, apresentando menores velocidades de erosão.
-# sent_id = 388-20160602-MONOGRAFIA_0-208
-1	Em	em	ADP	_	_	2	case	_	_
-2	relevos	relevo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
-3	mais	mais	ADV	_	_	4	advmod	_	_
-4	planos	plano	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
-5	/	/	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	suaves	suave	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
-7	predomina	predominar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	infiltração	infiltração	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
-11	apresentando	apresentar	VERB	_	VerbForm=Ger	7	advcl	_	_
-12	menores	menor	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
-13	velocidades	velocidade	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	7	punct	_	_
-
-# text = Já em relevos mais acidentados/inclinados predomina o escoamento superficial das águas, aumentando a capacidade erosiva.
-# sent_id = 388-20160602-MONOGRAFIA_0-209
-1	Já	já	ADV	_	_	3	advmod	_	_
-2	em	em	ADP	_	_	3	case	_	_
-3	relevos	relevo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
-4	mais	mais	ADV	_	_	5	advmod	_	_
-5	acidentados	acidentado	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
-6	/inclinados	/inclinado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
-7	predomina	predominar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
-10	superficial	superficial	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11-12	das	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	águas	água	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	aumentando	aumentar	VERB	_	VerbForm=Ger	7	advcl	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
-18	erosiva	erosivo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Determina a suscetibilidade dos terrenos à erosão, sua maior ou menor resistência à ação das águas.
-# sent_id = 388-20160602-MONOGRAFIA_0-210
+# sent_id = 388-20160602-MONOGRAFIA_0-194
 1	Determina	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	suscetibilidade	suscetibilidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -6152,7 +5736,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As variáveis que conferem ao solo sua erodibilidade são textura, estrutura, permeabilidade, Tipo de Solo profundidade, densidade e suas características químicas, biológicas e mineralógicas (Santoro, 2009).
-# sent_id = 388-20160602-MONOGRAFIA_0-211
+# sent_id = 388-20160602-MONOGRAFIA_0-195
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -6192,7 +5776,7 @@
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Dessa forma, por exemplo, os solos arenosos se degradam mais facilmente que os argilosos.
-# sent_id = 388-20160602-MONOGRAFIA_0-212
+# sent_id = 388-20160602-MONOGRAFIA_0-196
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -6214,17 +5798,17 @@
 18	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 4.1.2
-# sent_id = 388-20160602-MONOGRAFIA_0-213
+# sent_id = 388-20160602-MONOGRAFIA_0-197
 1	4.1.2	4.1.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Tipos de Erosão
-# sent_id = 388-20160602-MONOGRAFIA_0-214
+# sent_id = 388-20160602-MONOGRAFIA_0-198
 1	Tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Erosão	Erosão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Os tipos de erosão são definidos de acordo com o seus agentes modeladores e nos processos de desgaste dos solos.
-# sent_id = 388-20160602-MONOGRAFIA_0-215
+# sent_id = 388-20160602-MONOGRAFIA_0-199
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6252,7 +5836,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Podem ser: eólica, marinha, glacial, biológica ou hídrica (fluvial e pluvial).
-# sent_id = 388-20160602-MONOGRAFIA_0-216
+# sent_id = 388-20160602-MONOGRAFIA_0-200
 1	Podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	4	cop	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	4	punct	_	_
@@ -6273,7 +5857,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O foco deste trabalho é o monitoramento de erosões hídricas, que ocorrem em três etapas: desagregação das partículas, transporte pelo escoamento superficial e deposição do material formando depósitos de assoreamento.
-# sent_id = 388-20160602-MONOGRAFIA_0-217
+# sent_id = 388-20160602-MONOGRAFIA_0-201
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	foco	foco	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3-4	deste	_	_	_	_	_	_	_	_
@@ -6318,7 +5902,7 @@
 38	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A primeira fase da erosão hídrica, a desagregação das partículas (Figura 9), consiste no impacto das gotas de chuva com o solo desprotegido, desintegrando as partículas.
-# sent_id = 388-20160602-MONOGRAFIA_0-218
+# sent_id = 388-20160602-MONOGRAFIA_0-202
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	fase	fase	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
@@ -6361,7 +5945,7 @@
 36	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = A capacidade das gotas de chuva de desprender as partículas depende da energia cinética que elas atingem no movimento de queda e das propriedades do solo.
-# sent_id = 388-20160602-MONOGRAFIA_0-219
+# sent_id = 388-20160602-MONOGRAFIA_0-203
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -6401,7 +5985,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Quanto maior a energia cinética e menor a agregação entre as partículas de solo, maior será o desprendimento.
-# sent_id = 388-20160602-MONOGRAFIA_0-220
+# sent_id = 388-20160602-MONOGRAFIA_0-204
 1	Quanto	quanto	ADV	_	_	2	advmod	_	_
 2	maior	maior	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6424,7 +6008,7 @@
 20	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = A partícula desagregada pode manter-se livre na superfície do solo e ser transportada pelo fluxo de escoamento superficial ou descer através dos poros do solo, podendo colmatar e gerar crostas.
-# sent_id = 388-20160602-MONOGRAFIA_0-221
+# sent_id = 388-20160602-MONOGRAFIA_0-205
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	partícula	partícula	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	desagregada	desagregar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -6471,7 +6055,7 @@
 38	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Essa desintegração costuma ser mais intensa no início da precipitação, tendendo a se amenizar quando uma lâmina de água se forma sobre o solo (JETTEN et al. 2003).
-# sent_id = 388-20160602-MONOGRAFIA_0-222
+# sent_id = 388-20160602-MONOGRAFIA_0-206
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	desintegração	desintegração	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	costuma	costumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6510,7 +6094,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A fase seguinte corresponde ao transporte pelo escoamento superficial.
-# sent_id = 388-20160602-MONOGRAFIA_0-223
+# sent_id = 388-20160602-MONOGRAFIA_0-207
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6527,7 +6111,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = As partículas que foram desprendidas do solo pelo impacto das gotas de chuva são carreadas até grandes distâncias da sua fonte de origem.
-# sent_id = 388-20160602-MONOGRAFIA_0-224
+# sent_id = 388-20160602-MONOGRAFIA_0-208
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	5	nsubj:pass	_	_
@@ -6562,7 +6146,7 @@
 28	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Se a energia do fluxo gravitacional for suficiente para quebrar os agregados naturais do solo, o fluxo superficial também pode causar erosão.
-# sent_id = 388-20160602-MONOGRAFIA_0-225
+# sent_id = 388-20160602-MONOGRAFIA_0-209
 1	Se	se	SCONJ	_	_	9	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	energia	energia	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -6593,7 +6177,7 @@
 26	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Esse aspecto dualista do escoamento superficial, de desagregação e transporte, depende de diversos fatores relacionados às características do escoamento, ao tamanho das partículas do solo, à declividade do terreno, às condições da cobertura vegetal, entre outros (JETTEN et al 2003).
-# sent_id = 388-20160602-MONOGRAFIA_0-226
+# sent_id = 388-20160602-MONOGRAFIA_0-210
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	aspecto	aspecto	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	dualista	dualista	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6665,7 +6249,7 @@
 59	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = A deposição ou assentamento é a etapa final do processo de erosão hídrica.
-# sent_id = 388-20160602-MONOGRAFIA_0-227
+# sent_id = 388-20160602-MONOGRAFIA_0-211
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -6684,7 +6268,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ocorre quando o fluxo de escoamento perde sua velocidade de transporte ou encontra algum obstáculo físico.
-# sent_id = 388-20160602-MONOGRAFIA_0-228
+# sent_id = 388-20160602-MONOGRAFIA_0-212
 1	Ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	quando	quando	ADV	_	_	7	advmod	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6701,16 +6285,16 @@
 14	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	obstáculo	obstáculo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 16	físico	físico	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 9:
-# sent_id = 388-20160602-MONOGRAFIA_0-229
+# sent_id = 388-20160602-MONOGRAFIA_0-213
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Desagregação do solo pelo impacto da gota de chuva.
-# sent_id = 388-20160602-MONOGRAFIA_0-230
+# sent_id = 388-20160602-MONOGRAFIA_0-214
 1	Desagregação	Desagregação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6729,7 +6313,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Fonte: Weill & Pires Neto (2007).
-# sent_id = 388-20160602-MONOGRAFIA_0-231
+# sent_id = 388-20160602-MONOGRAFIA_0-215
 1	Fonte	fonte	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Weill	Weill	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -6742,7 +6326,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = De acordo com a geometria do fluxo do escoamento superficial, o processo erosivo hídrico pode ser caracterizado em erosão laminar ou linear.
-# sent_id = 388-20160602-MONOGRAFIA_0-232
+# sent_id = 388-20160602-MONOGRAFIA_0-216
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -6773,7 +6357,7 @@
 26	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = A erosão hídrica laminar ocorre quando o escoamento da água desliza sobre a superfície do terreno como um lençol, desgastando o solo de forma suave e quase homogênea, sem formar canais preferenciais.
-# sent_id = 388-20160602-MONOGRAFIA_0-233
+# sent_id = 388-20160602-MONOGRAFIA_0-217
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	hídrica	hídrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6815,7 +6399,7 @@
 37	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = É bastante difícil de ser detectada, existindo algumas indicações por meio das quais é possível se constatar sua ocorrência, como o decréscimo da produção das culturas, o aparecimento das raízes ou até mesmo a marca no caule das plantas onde o solo foi arrastado (FENDRICH et al. 1997).
-# sent_id = 388-20160602-MONOGRAFIA_0-234
+# sent_id = 388-20160602-MONOGRAFIA_0-218
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	bastante	bastante	ADV	_	_	3	advmod	_	_
 3	difícil	difícil	ADJ	_	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -6884,7 +6468,7 @@
 60	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = A erosão hídrica linear resulta da ação do escoamento hídrico superficial em fluxo concentrado, portanto, formando vias preferenciais.
-# sent_id = 388-20160602-MONOGRAFIA_0-235
+# sent_id = 388-20160602-MONOGRAFIA_0-219
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	hídrica	hídrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6912,7 +6496,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Pode haver também a ação combinada entre o escoamento superficial concentrado e o escoamento subsuperficial (OLIVEIRA, 1994).
-# sent_id = 388-20160602-MONOGRAFIA_0-236
+# sent_id = 388-20160602-MONOGRAFIA_0-220
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	haver	haver	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	também	também	ADV	_	_	2	advmod	_	_
@@ -6936,7 +6520,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esse tipo específico de erosão constitui as feições analisadas na área de trabalho, desenvolvendo-se em quatro tipos diferentes: sulcos, ravinas, voçoroca e solapamento de margem de rio.
-# sent_id = 388-20160602-MONOGRAFIA_0-237
+# sent_id = 388-20160602-MONOGRAFIA_0-221
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	específico	específico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6975,7 +6559,7 @@
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O Quadro 6 ilustra os tipos de erosão hídrica linear descritos.
-# sent_id = 388-20160602-MONOGRAFIA_0-238
+# sent_id = 388-20160602-MONOGRAFIA_0-222
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Quadro	Quadro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	6	6	NUM	_	NumType=Card	2	appos	_	_
@@ -6990,13 +6574,13 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Quadro 6:
-# sent_id = 388-20160602-MONOGRAFIA_0-239
+# sent_id = 388-20160602-MONOGRAFIA_0-223
 1	Quadro	Quadro	ADV	_	_	2	advmod	_	_
 2	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Tipos de erosão hídrica linear.
-# sent_id = 388-20160602-MONOGRAFIA_0-240
+# sent_id = 388-20160602-MONOGRAFIA_0-224
 1	Tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7005,7 +6589,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Fonte: adaptado de Almeida Fiho & Ridente Jr. (2001) e Santoro (2009).
-# sent_id = 388-20160602-MONOGRAFIA_0-241
+# sent_id = 388-20160602-MONOGRAFIA_0-225
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
@@ -7023,98 +6607,20 @@
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	2009	2009	NUM	_	NumType=Card	14	appos	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = Tipo Descrição
-# sent_id = 388-20160602-MONOGRAFIA_0-242
-1	Tipo	Tipo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Descrição	descrição	PROPN	_	Number=Sing	1	flat:name	_	_
-
-# text = Formam incisões na superfície, em geral, inferiores a 0,5m e suas bordas possuem pequenas aberturas na superfície do Sulcos terreno.
-# sent_id = 388-20160602-MONOGRAFIA_0-243
-1	Formam	formar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	incisões	incisão	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
-3-4	na	_	_	_	_	_	_	_	_
-3	em	em	ADP	_	_	5	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	geral	geral	ADJ	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	inferiores	inferior	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
-11	a	a	ADP	_	_	12	case	_	_
-12	0,5m	0,5m	NUM	_	NumType=Card	10	obl	_	_
-13	e	e	CCONJ	_	_	15	cc	_	_
-14	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	15	det	_	_
-15	bordas	borda	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
-16	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-17	pequenas	pequeno	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-18	aberturas	abertura	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
-19-20	na	_	_	_	_	_	_	_	_
-19	em	em	ADP	_	_	21	case	_	_
-20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
-22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Sulcos	Sulcos	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-25	terreno	terreno	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Pode ser originada de precipitações intensas ou suceder a erosão laminar.
-# sent_id = 388-20160602-MONOGRAFIA_0-244
-1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
-3	originada	originar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	precipitações	precipitação	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
-6	intensas	intenso	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
-7	ou	ou	CCONJ	_	_	5	cc	_	_
-8	suceder	suceder	VERB	_	VerbForm=Inf	3	conj	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
-11	laminar	laminar	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	_
-
-# text = São perpendiculares às curvas de nível.
-# sent_id = 388-20160602-MONOGRAFIA_0-245
-1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	perpendiculares	perpendicular	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-3-4	às	_	_	_	_	_	_	_	_
-3	a	a	ADP	_	_	5	case	_	_
-4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	nível	nível	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	_
-
-# text = Ocorrem associados a trilhas de gado e em solos expostos.
-# sent_id = 388-20160602-MONOGRAFIA_0-246
-1	Ocorrem	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	associados	associado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
-3	a	a	ADP	_	_	4	case	_	_
-4	trilhas	trilha	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	gado	gado	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	e	e	CCONJ	_	_	9	cc	_	_
-8	em	em	ADP	_	_	9	case	_	_
-9	solos	solo	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
-10	expostos	expor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.1.3
-# sent_id = 388-20160602-MONOGRAFIA_0-247
+# sent_id = 388-20160602-MONOGRAFIA_0-226
 1	4.1.3	4.1.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Áreas de Superpastejo
-# sent_id = 388-20160602-MONOGRAFIA_0-248
+# sent_id = 388-20160602-MONOGRAFIA_0-227
 1	Áreas	área	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Superpastejo	Superpastejo	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O superpastejo é uma feição erosiva diretamente relacionada a ação antrópica, dependente do uso e ocupação do solo.
-# sent_id = 388-20160602-MONOGRAFIA_0-249
+# sent_id = 388-20160602-MONOGRAFIA_0-228
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	superpastejo	superpastejo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -7141,7 +6647,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Quando áreas são designadas para pastos e não há manejo correto, como alta densidade de animais, ocorre o pisoteio excessivo do gado em determinadas direções em busca de água (FENDRICH et al., 1997).
-# sent_id = 388-20160602-MONOGRAFIA_0-250
+# sent_id = 388-20160602-MONOGRAFIA_0-229
 1	Quando	quando	SCONJ	_	_	4	mark	_	_
 2	áreas	área	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -7185,7 +6691,7 @@
 40	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = O conceito de superpastejo significa mais gado do que a capacidade do solo pode suportar, o que causará a danificação do mesmo.
-# sent_id = 388-20160602-MONOGRAFIA_0-251
+# sent_id = 388-20160602-MONOGRAFIA_0-230
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conceito	conceito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7218,7 +6724,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Além de consumir ou destruir a vegetação que protege o solo, os animais também podem compactar o solo, pisar e deslocar fragmentos rochosos vertente abaixo.
-# sent_id = 388-20160602-MONOGRAFIA_0-252
+# sent_id = 388-20160602-MONOGRAFIA_0-231
 1	Além	além	ADV	_	_	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	consumir	consumir	VERB	_	VerbForm=Inf	14	acl	_	_
@@ -7246,10 +6752,10 @@
 25	rochosos	rochoso	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
 26	vertente	vertentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	abaixo	abaixo	ADV	_	_	26	advmod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n\n
 
 # text = Segundo Barcellos (1990), o processo de degradação de uma pastagem segue uma sequência cumulativa.
-# sent_id = 388-20160602-MONOGRAFIA_0-253
+# sent_id = 388-20160602-MONOGRAFIA_0-232
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Barcellos	Barcellos	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7270,7 +6776,7 @@
 18	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Inicia-se com a diminuição na produção e quantidade da forragem; diminuição na cobertura do solo e do recrutamento de plantas novas na pastagem; aparecimento de espécies invasoras, processo de competição e erosão pela ação da chuva e, por fim, grande proporção de invasoras e colonização da área por espécies nativas e processos erosivos acelerados.
-# sent_id = 388-20160602-MONOGRAFIA_0-254
+# sent_id = 388-20160602-MONOGRAFIA_0-233
 1-2	Inicia-se	_	_	_	_	_	_	_	_
 1	Inicia	inicer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -7353,7 +6859,7 @@
 70	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A seguir, a Figura 10 ilustra os tipos de erosão descritos nos itens 4.1.1 e 4.1.2: 4.2
-# sent_id = 388-20160602-MONOGRAFIA_0-255
+# sent_id = 388-20160602-MONOGRAFIA_0-234
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7377,11 +6883,11 @@
 20	4.2	4.2	NUM	_	NumType=Card	7	appos	_	_
 
 # text = Geoprocessamento
-# sent_id = 388-20160602-MONOGRAFIA_0-256
+# sent_id = 388-20160602-MONOGRAFIA_0-235
 1	Geoprocessamento	Geoprocessamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O geoprocessamento, ou geotecnologias, constitui o conjunto de técnicas utilizadas para coletar, processar, analisar e oferecer grande quantidade informações com referência geográfica, que seriam inviáveis de serem tratadas utilizando métodos analógicos e/ou tradicionais (MARCELINO, 2008).
-# sent_id = 388-20160602-MONOGRAFIA_0-257
+# sent_id = 388-20160602-MONOGRAFIA_0-236
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	geoprocessamento	geoprocessamento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -7406,7 +6912,7 @@
 22	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
 23	informações	informação	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
 24	com	com	ADP	_	_	25	case	_	_
-25	referência	referência	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+25	referência	referência	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpacesAfter=\s\n
 26	geográfica	geográfico	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	18	punct	_	_
 28	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	30	nsubj	_	_
@@ -7428,7 +6934,7 @@
 44	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O avanço de tecnologias de geoprocessamento trazem melhorias significativas em vários aspectos relacionados à questão espacial, como no desenvolvimento de pesquisas, ações de planejamento e processos de gestão de risco.
-# sent_id = 388-20160602-MONOGRAFIA_0-258
+# sent_id = 388-20160602-MONOGRAFIA_0-237
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7468,7 +6974,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Dentre as principais ferramentas computacionais que representam o geoprocessamento, pode-se citar:  Sensoriamento Remoto;  Sistema de Informação Geográfica (SIG) e  Sistema de Posicionamento Global (GPS).
-# sent_id = 388-20160602-MONOGRAFIA_0-259
+# sent_id = 388-20160602-MONOGRAFIA_0-238
 1	Dentre	Dentre	ADP	_	_	4	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 3	principais	principal	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -7508,7 +7014,7 @@
 36	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Marcelino (2008) descreve diferentes aplicações das geotecnologias na gestão de riscos, apresentadas no Quadro 7: Quadro 7:
-# sent_id = 388-20160602-MONOGRAFIA_0-260
+# sent_id = 388-20160602-MONOGRAFIA_0-239
 1	Marcelino	Marcelino	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 2	(2008	(2008	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	1	punct	_	_
@@ -7538,7 +7044,7 @@
 24	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Diferentes aplicações das geotecnologias na gestão de riscos.
-# sent_id = 388-20160602-MONOGRAFIA_0-261
+# sent_id = 388-20160602-MONOGRAFIA_0-240
 1	Diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -7553,49 +7059,54 @@
 10	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = Fonte: Marcelino, As grandes extensões e a diversidade de atributos físicos e sociais que o dutos atravessam fazem com que o monitoramento da suscetibilidade seja complexo e ineficaz quando realizado somente in loco.
-# sent_id = 388-20160602-MONOGRAFIA_0-262
+# text = Fonte: Marcelino, 2008.
+# sent_id = 388-20160602-MONOGRAFIA_0-241
 1	Fonte	fonte	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Marcelino	Marcelino	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-6	grandes	grande	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
-7	extensões	extensão	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
-8	e	e	CCONJ	_	_	10	cc	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	diversidade	diversidade	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
-13	físicos	físico	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
-14	e	e	CCONJ	_	_	15	cc	_	_
-15	sociais	social	ADJ	_	Gender=Masc|Number=Plur	13	conj	_	_
-16	que	que	SCONJ	_	_	19	mark	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	dutos	duto	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
-19	atravessam	atravessar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
-20	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	xcomp	_	_
-21	com	com	SCONJ	_	_	29	mark	_	_
-22	que	que	SCONJ	_	_	29	mark	_	_
-23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	monitoramento	monitoramento	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	suscetibilidade	suscetibilidade	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-28	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-29	complexo	complexo	ADJ	_	Gender=Masc|Number=Sing	20	ccomp	_	_
-30	e	e	CCONJ	_	_	31	cc	_	_
-31	ineficaz	ineficazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
-32	quando	quando	ADV	_	_	33	advmod	_	_
-33	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	31	advcl	_	_
-34	somente	somente	ADV	_	_	35	advmod	_	_
-35	in	in	ADV	_	_	36	advmod	_	_
-36	loco	loco	ADV	_	_	33	advmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	1	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	2008	2008	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
+
+# text = As grandes extensões e a diversidade de atributos físicos e sociais que o dutos atravessam fazem com que o monitoramento da suscetibilidade seja complexo e ineficaz quando realizado somente in loco.
+# sent_id = 388-20160602-MONOGRAFIA_0-242
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	grandes	grande	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+3	extensões	extensão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	diversidade	diversidade	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	físicos	físico	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	sociais	social	ADJ	_	Gender=Masc|Number=Plur	9	conj	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dutos	duto	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	atravessam	atravessar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+16	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	xcomp	_	_
+17	com	com	SCONJ	_	_	25	mark	_	_
+18	que	que	SCONJ	_	_	25	mark	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	monitoramento	monitoramento	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	suscetibilidade	suscetibilidade	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	complexo	complexo	ADJ	_	Gender=Masc|Number=Sing	16	ccomp	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	ineficaz	ineficazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+28	quando	quando	ADV	_	_	29	advmod	_	_
+29	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	27	advcl	_	_
+30	somente	somente	ADV	_	_	31	advmod	_	_
+31	in	in	ADV	_	_	32	advmod	_	_
+32	loco	loco	ADV	_	_	29	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Dessa forma, o geoprocessamento é uma técnica conveniente para o monitoramento de suscetibilidade ao longo de faixas de dutos, pois permite a analise de grandes áreas em um curto espaço de tempo.
-# sent_id = 388-20160602-MONOGRAFIA_0-263
+# sent_id = 388-20160602-MONOGRAFIA_0-243
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7637,7 +7148,7 @@
 37	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = No presente trabalho, as técnicas utilizadas correspondem ao Sensoriamento Remoto e ao Sistema de Informação Geográfica (SIG), com o objetivo de determinar na área de estudo feições erosivas lineares (sulcos, ravinas, voçorocas e solapamento de margem de rio), identificando as características dos locais onde tais fenômenos acontecem com maior frequência, produzindo um mapa de suscetibilidade.
-# sent_id = 388-20160602-MONOGRAFIA_0-264
+# sent_id = 388-20160602-MONOGRAFIA_0-244
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7716,17 +7227,17 @@
 71	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 4.2.1
-# sent_id = 388-20160602-MONOGRAFIA_0-265
+# sent_id = 388-20160602-MONOGRAFIA_0-245
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Sensoriamento Remoto
-# sent_id = 388-20160602-MONOGRAFIA_0-266
+# sent_id = 388-20160602-MONOGRAFIA_0-246
 1	Sensoriamento	Sensoriamento	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Remoto	Remoto	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O Sensoriamento Remoto pode ser definido como a utilização conjunta de sistemas sensores e demais equipamentos para processamento e transmissão de dados, com a finalidade de analisar eventos, fenômenos e processos que ocorrem na superfície da Terra, por meio das interações entre a radiação eletromagnética e as substâncias que o compõem (NOVO, 2008).
-# sent_id = 388-20160602-MONOGRAFIA_0-267
+# sent_id = 388-20160602-MONOGRAFIA_0-247
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Sensoriamento	Sensoriamento	PROPN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	Remoto	Remoto	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7795,7 +7306,7 @@
 63	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Segundo Novo (2008), os sensores podem ser classificados como passivos ou ativos.
-# sent_id = 388-20160602-MONOGRAFIA_0-268
+# sent_id = 388-20160602-MONOGRAFIA_0-248
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Novo	novo	PROPN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7814,7 +7325,7 @@
 16	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Os sensores passivos ou ópticos detectam a energia originada de uma fonte externa e os sensores ativos ou radares detectam a energia originada de fonte própria.
-# sent_id = 388-20160602-MONOGRAFIA_0-269
+# sent_id = 388-20160602-MONOGRAFIA_0-249
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sensores	sensor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	passivos	passivo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -7844,7 +7355,7 @@
 27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Os sensores possuem características básicas relacionadas às suas resoluções temporais, espaciais, espectrais e radiométricas.
-# sent_id = 388-20160602-MONOGRAFIA_0-270
+# sent_id = 388-20160602-MONOGRAFIA_0-250
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sensores	sensor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7866,7 +7377,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A resolução temporal se refere ao intervalo de tempo que o sensor demora para obter duas imagens da mesma área da superfície terrestre.
-# sent_id = 388-20160602-MONOGRAFIA_0-271
+# sent_id = 388-20160602-MONOGRAFIA_0-251
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	temporal	temporal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7899,7 +7410,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A resolução espacial é o tamanho da menor área imageada no terreno.
-# sent_id = 388-20160602-MONOGRAFIA_0-272
+# sent_id = 388-20160602-MONOGRAFIA_0-252
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	espacial	espacial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7919,7 +7430,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A resolução espectral é a medida da largura das faixas espectrais ou bandas, sendo que quanto mais estreitas, maior a sensibilidade do sensor em distinguir as variações do comportamento espectral.
-# sent_id = 388-20160602-MONOGRAFIA_0-273
+# sent_id = 388-20160602-MONOGRAFIA_0-253
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	espectral	espectral	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7963,7 +7474,7 @@
 37	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A resolução radiométrica é a capacidade em distinguir variações do nível de energia proveniente do alvo (NOVO, 2008).
-# sent_id = 388-20160602-MONOGRAFIA_0-274
+# sent_id = 388-20160602-MONOGRAFIA_0-254
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resolução	resolução	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	radiométrica	radiométrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7992,7 +7503,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = O Sensoriamento Remoto pode ser aplicado no monitoramento de cobertura da terra e de processos geomorfológicos, no mapeamento geológico, no setor de agricultura e de pesquisa mineral.
-# sent_id = 388-20160602-MONOGRAFIA_0-275
+# sent_id = 388-20160602-MONOGRAFIA_0-255
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Sensoriamento	Sensoriamento	PROPN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	Remoto	Remoto	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -8033,7 +7544,7 @@
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Pode, ainda, ser utilizado para identificar e caracterizar feições erosivas, permitindo análise de áreas extensas e obtendo informações à distância, com baixa relação custo/benefício (MARCELINO, 2003).
-# sent_id = 388-20160602-MONOGRAFIA_0-276
+# sent_id = 388-20160602-MONOGRAFIA_0-256
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ainda	ainda	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -8069,10 +7580,10 @@
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	2003	2003	NUM	_	NumType=Card	31	appos:parataxis	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Para analisar a evolução de fenômenos erosivos ao longo do tempo, utilizam-se técnicas de detecção de mudanças que analisam dados adquiridos de maneira multitemporal, levando em consideração atributos como uso e ocupação da terra, vegetação, desmatamento, regeneração e extração seletiva de madeira, alterações em ambientes úmidos, queimadas, mudanças na paisagem e no ambiente urbano, entre outros (LU et al., 2004).
-# sent_id = 388-20160602-MONOGRAFIA_0-277
+# sent_id = 388-20160602-MONOGRAFIA_0-257
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	analisar	analisar	VERB	_	VerbForm=Inf	15	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8160,7 +7671,7 @@
 79	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = De acordo com Ferreira (2009), as fontes dos dados podem ser diversas, entretanto, os produtos advindos de sensores remotos têm se mostrado cada vez mais indispensáveis como fontes de informação para essa aplicação, devido à capacidade de aquisição repetitiva de informação e da visão integradora do espaço.
-# sent_id = 388-20160602-MONOGRAFIA_0-278
+# sent_id = 388-20160602-MONOGRAFIA_0-258
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -8225,7 +7736,7 @@
 58	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Informações originadas de mapas temáticos e cartas topográficas também são usualmente utilizadas no processo de detecção de mudanças.
-# sent_id = 388-20160602-MONOGRAFIA_0-279
+# sent_id = 388-20160602-MONOGRAFIA_0-259
 1	Informações	informação	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
 2	originadas	originar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8249,7 +7760,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = A comparação de feições por meio de interpretação visual é uma das técnicas que pode ser utilizada na análise temporal.
-# sent_id = 388-20160602-MONOGRAFIA_0-280
+# sent_id = 388-20160602-MONOGRAFIA_0-260
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8277,7 +7788,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = É possível identificar áreas que sofreram mudanças observadas em imagens de datas diferentes, através das alterações de padrões de textura, cor, forma e tamanho.
-# sent_id = 388-20160602-MONOGRAFIA_0-281
+# sent_id = 388-20160602-MONOGRAFIA_0-261
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	identificar	identificar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -8310,7 +7821,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A extração das informações é manual e depende principalmente da experiência do interpretador.
-# sent_id = 388-20160602-MONOGRAFIA_0-282
+# sent_id = 388-20160602-MONOGRAFIA_0-262
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extração	extração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8333,7 +7844,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Dentre as desvantagens da utilização desta técnica estão o alto consumo de tempo e a dificuldade em atualizar os resultados, mas mesmo assim, esta técnica é aplicada quando os padrões que devem ser analisados são muito complexos para prática computacional (LU et al., 2004).
-# sent_id = 388-20160602-MONOGRAFIA_0-283
+# sent_id = 388-20160602-MONOGRAFIA_0-263
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
@@ -8390,11 +7901,11 @@
 52	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = 4.2.2
-# sent_id = 388-20160602-MONOGRAFIA_0-284
+# sent_id = 388-20160602-MONOGRAFIA_0-264
 1	4.2.2	4.2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Sistema de Informação Geográfica (SIG) O Sistema de Informação Geográfica constitui uma ferramenta capaz de realizar o tratamento computacional de dados geográficos e a recuperação de informações com base na sua localização espacial e suas características alfanuméricas.
-# sent_id = 388-20160602-MONOGRAFIA_0-285
+# sent_id = 388-20160602-MONOGRAFIA_0-265
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Informação	informação	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8438,8 +7949,8 @@
 40	alfanuméricas	alfanumérico	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	13	punct	_	_
 
-# text = Essa ferramenta permite que o usuário obtenha uma visão única e integrada de seus ambiente de estudo, estando ao seu alcance todas as informações disponíveis sobre um determinado assunto que está inter- relacionado com base na localização geográfica (CÂMARA, 2005).
-# sent_id = 388-20160602-MONOGRAFIA_0-286
+# text = Essa ferramenta permite que o usuário obtenha uma visão única e integrada de seus ambiente de estudo, estando ao seu alcance todas as informações disponíveis sobre um determinado assunto que está inter-relacionado com base na localização geográfica (CÂMARA, 2005).
+# sent_id = 388-20160602-MONOGRAFIA_0-266
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ferramenta	ferramenta	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8473,26 +7984,24 @@
 30	determinado	determinado	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
 31	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	_
-33	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
-34	inter	inter	VERB	_	VerbForm=Inf	31	acl:relcl	_	SpaceAfter=No
-35	-	-	PUNCT	_	_	36	punct	_	_
-36	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	34	xcomp	_	_
-37	com	com	ADP	_	_	38	case	_	_
-38	base	base	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
-39-40	na	_	_	_	_	_	_	_	_
-39	em	em	ADP	_	_	41	case	_	_
-40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	localização	localização	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
-42	geográfica	geográfico	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
-43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
-44	CÂMARA	Câmara	PROPN	_	Gender=Fem|Number=Sing	41	appos	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	46	punct	_	_
-46	2005	2005	NUM	_	NumType=Card	44	nummod	_	SpaceAfter=No
-47	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+33	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	inter-relacionado	inter-relacionado	ADJ	_	Gender=Masc|Number=Sing	31	acl:relcl	_	_
+35	com	com	ADP	_	_	36	case	_	_
+36	base	base	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+37-38	na	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	localização	localização	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+40	geográfica	geográfico	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	CÂMARA	Câmara	PROPN	_	Gender=Fem|Number=Sing	39	appos	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	2005	2005	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Dentre as funcionalidades do SIG estão capturar, armazenar, analisar, transformar, integrar e apresentar os dados geográficos da melhor forma possível, sendo uma ferramenta que automatiza tarefas antes manuais.
-# sent_id = 388-20160602-MONOGRAFIA_0-287
+# sent_id = 388-20160602-MONOGRAFIA_0-267
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	funcionalidades	funcionalidade	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
@@ -8533,7 +8042,7 @@
 36	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Também é responsável por facilitar a realização de análises complexas por meio da integração de dados de diversas fontes.
-# sent_id = 388-20160602-MONOGRAFIA_0-288
+# sent_id = 388-20160602-MONOGRAFIA_0-268
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	responsável	responsável	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -8558,7 +8067,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Como suas principais funções, os SIGs apresentam a produção de mapas, que podem ser utilizados no suporte para análise espacial, e a produção de um banco de dados geográficos (CÂMARA, 2005).
-# sent_id = 388-20160602-MONOGRAFIA_0-289
+# sent_id = 388-20160602-MONOGRAFIA_0-269
 1	Como	como	SCONJ	_	_	8	mark	_	_
 2	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	4	det	_	_
 3	principais	principal	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -8598,10 +8107,10 @@
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	2005	2005	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
 38	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Em suma, o SIG auxilia na sobreposição e interpretação de informações espaciais de uma determinada área, facilitando a gestão de informações e acesso ao banco de dados.
-# sent_id = 388-20160602-MONOGRAFIA_0-290
+# sent_id = 388-20160602-MONOGRAFIA_0-270
 1	Em	em	ADP	_	_	2	case	_	_
 2	suma	suma	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8638,7 +8147,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Auxilia, ainda, fornecendo subsídios para a análise integrada de dados, quando existem diferentes condicionantes que influenciam para a ocorrência de um determinado processo.
-# sent_id = 388-20160602-MONOGRAFIA_0-291
+# sent_id = 388-20160602-MONOGRAFIA_0-271
 1	Auxilia	Auxilia	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ainda	ainda	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -8668,7 +8177,7 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O SIG, aliado aos produtos do Sensoriamento Remoto, possui grande contribuição no monitoramento das faixas de dutos, auxiliando na identificação de áreas com maior suscetibilidade à ocorrência de eventos naturais e consequente setorização das áreas de risco, além de possibilitar o acompanhamento das mudanças do uso da terra no entorno da faixa (FERREIRA, 2009).
-# sent_id = 388-20160602-MONOGRAFIA_0-292
+# sent_id = 388-20160602-MONOGRAFIA_0-272
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	SIG	SIG	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -8757,11 +8266,11 @@
 74	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = 4.3
-# sent_id = 388-20160602-MONOGRAFIA_0-293
+# sent_id = 388-20160602-MONOGRAFIA_0-273
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Suscetibilidade a erosão linear por meio da Análise Multicriterial Ponderada
-# sent_id = 388-20160602-MONOGRAFIA_0-294
+# sent_id = 388-20160602-MONOGRAFIA_0-274
 1	Suscetibilidade	Suscetibilidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	erosão	erosão	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -8776,7 +8285,7 @@
 11	Ponderada	ponderada	PROPN	_	Number=Sing	9	flat:name	_	_
 
 # text = A determinação da suscetibilidade de um ambiente a processos erosivos relaciona-se diretamente aos condicionantes físicos e antrópicos destes processos.
-# sent_id = 388-20160602-MONOGRAFIA_0-295
+# sent_id = 388-20160602-MONOGRAFIA_0-275
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8807,7 +8316,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = As características das rochas, solos, relevo que compõem as encostas, vegetações e clima variam de região para região, resultando em terrenos mais suscetíveis (instáveis) ou menos suscetíveis (estáveis) à ocorrência de erosões lineares.
-# sent_id = 388-20160602-MONOGRAFIA_0-296
+# sent_id = 388-20160602-MONOGRAFIA_0-276
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	características	característica	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8856,7 +8365,7 @@
 44	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Dessa forma, a avaliação de suscetibilidade numa área a ser ocupada ou já ocupada é de fundamental importância (VEDOVELLO & MACEDO, 2007).
-# sent_id = 388-20160602-MONOGRAFIA_0-297
+# sent_id = 388-20160602-MONOGRAFIA_0-277
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -8890,7 +8399,7 @@
 29	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = A análise muticriterial é uma ferramenta matemática que permite comparar diferentes alternativas (ou condicionantes), fundamentada em vários critérios, com o objetivo de direcionar os tomadores de decisão para uma escolha ponderada (ROY, 1996).
-# sent_id = 388-20160602-MONOGRAFIA_0-298
+# sent_id = 388-20160602-MONOGRAFIA_0-278
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	muticriterial	muticriterial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8934,7 +8443,7 @@
 41	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Nesta análise, os pesos de cada condicionante são previamente definidos, comumente, por uma equipe multidisciplinar.
-# sent_id = 388-20160602-MONOGRAFIA_0-299
+# sent_id = 388-20160602-MONOGRAFIA_0-279
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -8958,7 +8467,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Valente (2005) ressalva que no processo de tomada de decisão com a análise multicriterial, os resultados apresentam-se incertos, devido aos componentes que são os fatores, pesos e prioridades.
-# sent_id = 388-20160602-MONOGRAFIA_0-300
+# sent_id = 388-20160602-MONOGRAFIA_0-280
 1	Valente	Valente	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	2005	2005	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -9001,7 +8510,7 @@
 37	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Portanto, as informações a serem cruzadas e os pesos associados, precisam de uma atenta avaliação para que os resultados representem adequadamente a realidade.
-# sent_id = 388-20160602-MONOGRAFIA_0-301
+# sent_id = 388-20160602-MONOGRAFIA_0-281
 1	Portanto	portanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -9030,7 +8539,7 @@
 26	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Atualmente, uma gama variada de estudos relacionados ao planejamento ambiental vem empregando a análise multicriterial ponderada, como a definição de áreas mais adequadas para a instalação de empreendimentos (MALCZEWSKI, 2004), a análise de risco ambiental (EASTMAN, 2003), a análise de sensibilidade ambiental (COLLINS et al., 2001) e o planejamento de uso das terras (JANG & EASTMAN, 2000).
-# sent_id = 388-20160602-MONOGRAFIA_0-302
+# sent_id = 388-20160602-MONOGRAFIA_0-282
 1	Atualmente	atualmente	ADV	_	_	13	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9108,10 +8617,10 @@
 73	,	,	PUNCT	_	_	74	punct	_	_
 74	2000	2000	NUM	_	NumType=Card	70	appos:parataxis	_	SpaceAfter=No
 75	)	)	PUNCT	_	_	70	punct	_	SpaceAfter=No
-76	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+76	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = A integração entre a análise multicriterial ponderada e os SIGs tem sido um avanço na metodologia de sobreposição de mapas, combinando e transformando dados espaciais em uma resposta para a tomada de decisão (CORSEUIL & CAMPOS, 2007).
-# sent_id = 388-20160602-MONOGRAFIA_0-303
+# sent_id = 388-20160602-MONOGRAFIA_0-283
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	integração	integração	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -9158,7 +8667,7 @@
 43	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Marcelino (2004) avaliou a suscetibilidade de uma área a processos de escorregamentos, por meio do zoneamento de sua área de estudo em diferentes classes, que indicam a maior ou menor predisposição de ocorrer um escorregamento naquele local.
-# sent_id = 388-20160602-MONOGRAFIA_0-304
+# sent_id = 388-20160602-MONOGRAFIA_0-284
 1	Marcelino	Marcelino	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	2004)	2004)	PUNCT	_	_	1	punct	_	_
@@ -9206,7 +8715,7 @@
 43	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A mesma metodologia será utilizada na presente monografia, porém aplicada à suscetibilidade de erosões lineares.
-# sent_id = 388-20160602-MONOGRAFIA_0-305
+# sent_id = 388-20160602-MONOGRAFIA_0-285
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -9230,7 +8739,7 @@
 19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Seguindo a técnica utilizada por Marcelino (2004), a elaboração do mapa de suscetibilidade a erosões lineares teve como ponto de partida a análise das ocorrências desses fenômenos em uma determinada área.
-# sent_id = 388-20160602-MONOGRAFIA_0-306
+# sent_id = 388-20160602-MONOGRAFIA_0-286
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	21	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -9274,7 +8783,7 @@
 38	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = A segunda etapa consistiu na elaboração de mapas temáticos contendo informações sobre os condicionantes (geologia, pedologia, declividade, entre outros).
-# sent_id = 388-20160602-MONOGRAFIA_0-307
+# sent_id = 388-20160602-MONOGRAFIA_0-287
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -9304,7 +8813,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A etapa final compreendeu a análise muticriterial, com a sobreposição dos mapas temáticos em ambiente SIG, onde foram definidas as diferentes zonas de suscetibilidade.
-# sent_id = 388-20160602-MONOGRAFIA_0-308
+# sent_id = 388-20160602-MONOGRAFIA_0-288
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	final	final	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9333,10 +8842,10 @@
 25	zonas	zona	NOUN	_	Gender=Fem|Number=Plur	22	nsubj:pass	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	suscetibilidade	suscetibilidade	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 5. MATERIAIS E MÉTODOS 5.1
-# sent_id = 388-20160602-MONOGRAFIA_0-309
+# sent_id = 388-20160602-MONOGRAFIA_0-289
 1	5	5	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	MATERIAIS	material	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
@@ -9346,11 +8855,11 @@
 7	.1	.1	NUM	_	NumType=Card	6	flat	_	_
 
 # text = Materiais
-# sent_id = 388-20160602-MONOGRAFIA_0-310
+# sent_id = 388-20160602-MONOGRAFIA_0-290
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Os materiais utilizados para compor o banco de dados foram imagens de satélite e mapas relativos aos vários condicionantes físicos das feições a serem extraídas.
-# sent_id = 388-20160602-MONOGRAFIA_0-311
+# sent_id = 388-20160602-MONOGRAFIA_0-291
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	materiais	material	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -9383,7 +8892,7 @@
 28	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = As imagens de satélite foram obtidas a partir do sistema sensor GeoEye, com resolução espacial de 0,5m.
-# sent_id = 388-20160602-MONOGRAFIA_0-312
+# sent_id = 388-20160602-MONOGRAFIA_0-292
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9408,7 +8917,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As imagens foram obtidas nos meses de novembro/2009, janeiro/2010 e março/2010.
-# sent_id = 388-20160602-MONOGRAFIA_0-313
+# sent_id = 388-20160602-MONOGRAFIA_0-293
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -9426,7 +8935,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O sistema sensor GeoEye iniciou suas atividades em 06/Set/2008 e está ativo até o momento.
-# sent_id = 388-20160602-MONOGRAFIA_0-314
+# sent_id = 388-20160602-MONOGRAFIA_0-294
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	sensor	sensor	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -9444,8 +8953,8 @@
 15	momento	momento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Os atributos técnicos do sistema e das imagens obtidas estão descritos, respectivamente, nas Tabelas 1 e 2: Tabela 2:
-# sent_id = 388-20160602-MONOGRAFIA_0-315
+# text = Os atributos técnicos do sistema e das imagens obtidas estão descritos, respectivamente, nas Tabelas 1 e 2: Tabela 1: Atributos técnicos do sistema sensor GeoEye.
+# sent_id = 388-20160602-MONOGRAFIA_0-295
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3	técnicos	técnico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -9470,13 +8979,44 @@
 19	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
 20	1	1	NUM	_	NumType=Card	19	nummod	_	_
 21	e	e	CCONJ	_	_	22	cc	_	_
-22	2:	2:	PROPN	_	Gender=Masc|Number=Sing	13	conj	_	_
-23	Tabela	Tabela	PROPN	_	Number=Sing	22	flat:name	_	_
-24	2	2	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
-25	:	:	PUNCT	_	_	13	punct	_	_
+22	2	2	NUM	_	NumType=Card	20	conj	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	13	punct	_	_
+24	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
+25	1:	1:	PROPN	_	Number=Sing	24	flat:name	_	_
+26	Atributos	atributos	PROPN	_	Number=Sing	24	flat:name	_	_
+27	técnicos	técnicos	PROPN	_	Number=Sing	24	flat:name	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+31	sensor	sensor	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+32	GeoEye	GeoEye	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	13	punct	_	_
+
+# text = Fonte: GeoEye, 2009.
+# sent_id = 388-20160602-MONOGRAFIA_0-296
+1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	GeoEye	GeoEye	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	2009	2009	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Sensores Ópticos MS PAN
+# sent_id = 388-20160602-MONOGRAFIA_0-297
+1	Sensores	Sensor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	Ópticos	Óptico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	MS	MS	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	PAN	Pan	PROPN	_	Number=Sing	3	flat:name	_	_
+
+# text = Tabela 2:
+# sent_id = 388-20160602-MONOGRAFIA_0-298
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Atributos técnicos das imagens GeoEye obtidas.
-# sent_id = 388-20160602-MONOGRAFIA_0-316
+# sent_id = 388-20160602-MONOGRAFIA_0-299
 1	Atributos	atributo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	técnicos	técnico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -9487,8 +9027,15 @@
 7	obtidas	obtir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
+# text = Data 07/11/2009 03/01/2010 10/03/2010
+# sent_id = 388-20160602-MONOGRAFIA_0-300
+1	Data	datar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	07/11/2009	07/11/2009	NUM	_	NumType=Card	1	obj	_	_
+3	03/01/2010	03/01/2010	NUM	_	NumType=Card	2	flat	_	_
+4	10/03/2010	10/03/2010	NUM	_	NumType=Card	2	flat	_	SpacesAfter=\s\n
+
 # text = As informações sobre os mapas dos condicionantes físicos, assim como os demais mapas e cartas utilizados no presente trabalho, estão compiladas na Tabela 3:
-# sent_id = 388-20160602-MONOGRAFIA_0-317
+# sent_id = 388-20160602-MONOGRAFIA_0-301
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	informações	informação	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
 3	sobre	sobre	ADP	_	_	5	case	_	_
@@ -9523,13 +9070,13 @@
 29	3:	3:	PROPN	_	Number=Sing	28	flat:name	_	_
 
 # text = Tabela 3:
-# sent_id = 388-20160602-MONOGRAFIA_0-318
+# sent_id = 388-20160602-MONOGRAFIA_0-302
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Mapas e cartas utilizados para compor o banco de dados.
-# sent_id = 388-20160602-MONOGRAFIA_0-319
+# sent_id = 388-20160602-MONOGRAFIA_0-303
 1	Mapas	mapa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	cartas	carta	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -9543,7 +9090,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para o processamento, correção e análise dos dados utilizou-se o software ArcGis 10.2.2 (ESRI, 2014).
-# sent_id = 388-20160602-MONOGRAFIA_0-320
+# sent_id = 388-20160602-MONOGRAFIA_0-304
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
@@ -9570,12 +9117,12 @@
 22	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 5.2 Métodos
-# sent_id = 388-20160602-MONOGRAFIA_0-321
+# sent_id = 388-20160602-MONOGRAFIA_0-305
 1	5.2	5.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Métodos	métodos	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Para o desenvolvimento deste trabalho foram realizadas as seguintes etapas, representadas no fluxograma da Figura 11:
-# sent_id = 388-20160602-MONOGRAFIA_0-322
+# sent_id = 388-20160602-MONOGRAFIA_0-306
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_

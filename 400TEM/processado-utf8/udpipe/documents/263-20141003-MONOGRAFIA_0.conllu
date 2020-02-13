@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 263-20141003-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = INTRODUÇÃO O Brasil foi pioneiro na produção de etanol em larga escala a partir de biomassas, tendo início na década de 1970 com o Programa Nacional do Álcool (Proálcool), que aumentou o uso do etanol no território brasileiro devido à implementação de automóveis movidos a álcool etílico e um maior teor de etanol na mistura com gasolina.
@@ -362,7 +362,7 @@
 48	,	,	PUNCT	_	_	49	punct	_	_
 49	2008	2008	NUM	_	NumType=Card	46	conj	_	SpaceAfter=No
 50	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+51	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Uma alternativa para a separação dos materiais particulados é a utilização do ciclone, sendo este amplamente utilizado no tratamento de efluentes gasosos na indústria, além de apresentar vantagens aos demais purificadores de gases, como o baixo custo e operação e simplificada.
 # sent_id = 263-20141003-MONOGRAFIA_0-10
@@ -474,7 +474,7 @@
 45	em	em	ADP	_	_	47	case	_	_
 46	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	47	det	_	_
 47	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+48	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 2. OBJETIVO O projeto visa obter a eficiência da coleta de material particulado presente em um fluxo de ar através de um ciclone úmido construído.
 # sent_id = 263-20141003-MONOGRAFIA_0-12
@@ -825,7 +825,7 @@
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	dado	dado	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 35	trabalho	trabalho	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = 4. REVISÃO BIBLIOGRÁFICA 4.1.
 # sent_id = 263-20141003-MONOGRAFIA_0-20
@@ -1212,7 +1212,7 @@
 37-38	do	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+39	fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpacesAfter=\s\n
 40	energético	energético	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	_
 41	e	e	CCONJ	_	_	45	cc	_	_
 42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
@@ -1473,7 +1473,7 @@
 11	Campinas-SP	Campinas-SP	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	2008	2008	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.3.
 # sent_id = 263-20141003-MONOGRAFIA_0-38
@@ -1928,7 +1928,7 @@
 2	de	de	ADP	_	_	1	fixed	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	como	como	ADP	_	_	7	case	_	_
+5	como	como	ADP	_	_	7	case	_	SpacesAfter=\s\n
 6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	estimativa	estimativa	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
@@ -1949,8 +1949,26 @@
 20	usinas	usina	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = Fonte: EPA, 19952 apud.
+# text = Tabela 1: Emissão da queima do bagaço em caldeiras.
 # sent_id = 263-20141003-MONOGRAFIA_0-50
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	1	1	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Emissão	emissão	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	queima	queima	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bagaço	bagaço	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	caldeiras	caldeira	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Fonte: EPA, 19952 apud.
+# sent_id = 263-20141003-MONOGRAFIA_0-51
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	EPA	EPA	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -1959,7 +1977,7 @@
 6	apud.	apud.	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 
 # text = LORA, 2000 4.4.
-# sent_id = 263-20141003-MONOGRAFIA_0-51
+# sent_id = 263-20141003-MONOGRAFIA_0-52
 1	LORA	Lor	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	2000	2000	NUM	_	NumType=Card	1	nummod	_	_
@@ -1967,7 +1985,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Controle da Poluição Ambiental
-# sent_id = 263-20141003-MONOGRAFIA_0-52
+# sent_id = 263-20141003-MONOGRAFIA_0-53
 1	Controle	controle	ADJ	_	Gender=Unsp|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1976,7 +1994,7 @@
 5	Ambiental	Ambiental	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = O Conselho Nacional de Meio Ambiente (CONAMA) é o órgão do Ministério do Meio Ambiente que tem por atribuição regulamentar e definir normas para o controle e manutenção da qualidade dos recursos naturais, entre eles, das águas, do solo e do ar.
-# sent_id = 263-20141003-MONOGRAFIA_0-53
+# sent_id = 263-20141003-MONOGRAFIA_0-54
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Conselho	Conselho	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	Nacional	Nacional	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -2041,7 +2059,7 @@
 55	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Desse modo, o CONAMA estabelece padrões nacionais de emissão para processos de geração de calor e conversão de energia térmica, aspecto que engloba o processo de cogeração de energia pela queima do bagaço.
-# sent_id = 263-20141003-MONOGRAFIA_0-54
+# sent_id = 263-20141003-MONOGRAFIA_0-55
 1-2	Desse	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2086,11 +2104,11 @@
 39	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 2
-# sent_id = 263-20141003-MONOGRAFIA_0-55
+# sent_id = 263-20141003-MONOGRAFIA_0-56
 1	2	2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Environmental Protection Agency (EPA), Compilation of air pollutant emission factors.
-# sent_id = 263-20141003-MONOGRAFIA_0-56
+# sent_id = 263-20141003-MONOGRAFIA_0-57
 1	Environmental	Environmental	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 2	Protection	Protection	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Agency	Agency	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -2106,12 +2124,12 @@
 13	factors.	factors.	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 
 # text = 1995.
-# sent_id = 263-20141003-MONOGRAFIA_0-57
+# sent_id = 263-20141003-MONOGRAFIA_0-58
 1	1995	1995	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Ainda, no âmbito estadual, há órgãos cuja função é controlar, fiscalizar e monitorar as fontes de geração de poluentes.
-# sent_id = 263-20141003-MONOGRAFIA_0-58
+# sent_id = 263-20141003-MONOGRAFIA_0-59
 1	Ainda	ainda	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -2139,7 +2157,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = No Estado de São Paulo esse órgão é representado pela Companhia Ambiental do Estado de São Paulo (Cetesb), que apresenta normas próprias, tendo que estar em pleno acordo com as estabelecidas pelo CONAMA ou sendo mais restritivo (www.cetesb.sp.gov.br).
-# sent_id = 263-20141003-MONOGRAFIA_0-59
+# sent_id = 263-20141003-MONOGRAFIA_0-60
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2195,17 +2213,17 @@
 49	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 4.5.
-# sent_id = 263-20141003-MONOGRAFIA_0-60
+# sent_id = 263-20141003-MONOGRAFIA_0-61
 1	4.5	4.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Separadores Ciclônicos
-# sent_id = 263-20141003-MONOGRAFIA_0-61
+# sent_id = 263-20141003-MONOGRAFIA_0-62
 1	Separadores	Separador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Ciclônicos	Ciclônico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = Os ciclones apresentam baixo custo de instalação, construção e dimensionamento simples, além de serem de fácil operação e manutenção.
-# sent_id = 263-20141003-MONOGRAFIA_0-62
+# sent_id = 263-20141003-MONOGRAFIA_0-63
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ciclones	ciclone	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2230,7 +2248,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Além disso, são comumente empregados na coleta de materiais particulado ou fibroso e podem ser usados para gases a elevadas temperaturas (MACINTYRE, 1990).
-# sent_id = 263-20141003-MONOGRAFIA_0-63
+# sent_id = 263-20141003-MONOGRAFIA_0-64
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2265,7 +2283,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = No equipamento, o gás entra tangencialmente ao topo do ciclone e gera um fluxo helicoidal decrescente periférico até atingir ao trecho inferior do cone, a qual em seguida retorna como um fluxo helicoidal ascendente central em direção ao topo, saindo pelo duto de saída como gás limpo (MESQUITA, et al., 1988).
-# sent_id = 263-20141003-MONOGRAFIA_0-64
+# sent_id = 263-20141003-MONOGRAFIA_0-65
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2341,7 +2359,7 @@
 66	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Assim, a força centrífuga decorrente do movimento espiral faz com que as partículas sólidas sejam arremessadas em direção às paredes, e separado do fluxo gasoso escoante.
-# sent_id = 263-20141003-MONOGRAFIA_0-65
+# sent_id = 263-20141003-MONOGRAFIA_0-66
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2379,7 +2397,7 @@
 32	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Nas paredes do ciclone, o material particulado é então depositado e pela ação da gravidade caem na parte inferior do ciclone e são coletadas (MACINTYRE, 1990).
-# sent_id = 263-20141003-MONOGRAFIA_0-66
+# sent_id = 263-20141003-MONOGRAFIA_0-67
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -2425,7 +2443,7 @@
 37	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Segundo Lee, et al. (2008), os ciclones simples são muitos utilizados como pré-limpadores para partículas como diâmetros aerodinâmicas maiores de 10 μm, e de um modo geral, sua eficiência para partículas em torno de 25 μm se aproxima de 90%.
-# sent_id = 263-20141003-MONOGRAFIA_0-67
+# sent_id = 263-20141003-MONOGRAFIA_0-68
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Lee	Lee	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2476,7 +2494,7 @@
 48	.	.	PUNCT	_	_	44	punct	_	_
 
 # text = Já essa eficiência cai consideravelmente, em relação a particulados em torno de 5 μm de diâmetro aerodinâmico.
-# sent_id = 263-20141003-MONOGRAFIA_0-68
+# sent_id = 263-20141003-MONOGRAFIA_0-69
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -2498,7 +2516,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = No mesmo sentido, em Macintyre (1990), os ciclones apresentam um baixo rendimento para tamanhos de partículas pequenas, inferiores a 5 μm, sendo as forças centrífugas suficientes para a purificação dos gases, e muitas vezes, o seu o seu emprego é feito anteriormente a outro separador.
-# sent_id = 263-20141003-MONOGRAFIA_0-69
+# sent_id = 263-20141003-MONOGRAFIA_0-70
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2547,7 +2565,7 @@
 44	,	,	PUNCT	_	_	14	punct	_	_
 45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 46	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	49	det	_	_
-47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	SpacesAfter=\s\n
 48	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	49	det	_	_
 49	emprego	emprego	NOUN	_	Gender=Masc|Number=Sing	51	nsubj:pass	_	_
 50	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux:pass	_	_
@@ -2558,32 +2576,32 @@
 55	separador	separador	NOUN	_	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	51	punct	_	_
 
-# text = Ademais, podem desgastam- se rapidamente com consequência da dureza e alta velocidade da poeira.
-# sent_id = 263-20141003-MONOGRAFIA_0-70
+# text = Ademais, podem desgastam-se rapidamente com consequência da dureza e alta velocidade da poeira.
+# sent_id = 263-20141003-MONOGRAFIA_0-71
 1	Ademais	Ademais	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	desgastam	desgastar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
-5	-	-	PUNCT	_	_	4	punct	_	_
-6	se	se	PRON	_	Case=Acc|Gender=Unsp|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
-7	rapidamente	rapidamente	ADV	_	_	4	advmod	_	_
-8	com	com	ADP	_	_	9	case	_	_
-9	consequência	consequência	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
-10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	dureza	dureza	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	alta	alto	ADJ	_	Gender=Fem|Number=Sing	12	conj	_	_
-15	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	poeira	poeira	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+4-5	desgastam-se	_	_	_	_	_	_	_	_
+4	desgastam	desgastar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl	_	_
+6	rapidamente	rapidamente	ADV	_	_	4	advmod	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	consequência	consequência	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	dureza	dureza	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	alta	alto	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	poeira	poeira	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Entre os de ciclone empregados, três tipos de ciclones são Stairmand, Swift e Lapple, cujas proporções geométricas em função do diâmetro do ciclone (D) são apresentadas na Tabela 2.
-# sent_id = 263-20141003-MONOGRAFIA_0-71
+# sent_id = 263-20141003-MONOGRAFIA_0-72
 1	Entre	entre	ADP	_	_	2	case	_	_
 2	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	12	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2627,7 +2645,7 @@
 38	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = Já o esquema de um ciclone de entrada tangencial é mostrado na Figura 2, descrevendo as dimensões das estruturas do ciclone.
-# sent_id = 263-20141003-MONOGRAFIA_0-72
+# sent_id = 263-20141003-MONOGRAFIA_0-73
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
@@ -2659,7 +2677,7 @@
 26	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Tabela 2: Proporção geométricas para tipos de ciclones.
-# sent_id = 263-20141003-MONOGRAFIA_0-73
+# sent_id = 263-20141003-MONOGRAFIA_0-74
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2672,12 +2690,12 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:
-# sent_id = 263-20141003-MONOGRAFIA_0-74
+# sent_id = 263-20141003-MONOGRAFIA_0-75
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal Figura 2:
-# sent_id = 263-20141003-MONOGRAFIA_0-75
+# sent_id = 263-20141003-MONOGRAFIA_0-76
 1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -2685,7 +2703,7 @@
 5	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema das dimensões geométricas de um ciclone.
-# sent_id = 263-20141003-MONOGRAFIA_0-76
+# sent_id = 263-20141003-MONOGRAFIA_0-77
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2698,28 +2716,28 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:
-# sent_id = 263-20141003-MONOGRAFIA_0-77
+# sent_id = 263-20141003-MONOGRAFIA_0-78
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal.
-# sent_id = 263-20141003-MONOGRAFIA_0-78
+# sent_id = 263-20141003-MONOGRAFIA_0-79
 1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.6.
-# sent_id = 263-20141003-MONOGRAFIA_0-79
+# sent_id = 263-20141003-MONOGRAFIA_0-80
 1	4.6	4.6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ciclone Úmido
-# sent_id = 263-20141003-MONOGRAFIA_0-80
+# sent_id = 263-20141003-MONOGRAFIA_0-81
 1	Ciclone	Ciclone	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Úmido	úmido	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O ciclone úmido se trata de um ciclone simples em que é adaptado um sistema de pulverização de água, visando aumentar a eficiência de coleta do material particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-81
+# sent_id = 263-20141003-MONOGRAFIA_0-82
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ciclone	ciclone	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	úmido	úmido	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2754,7 +2772,7 @@
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Dessa maneira, as partículas sólidas separadas do gás escorrem em direção a porção inferior do ciclone, local em que ocorre a coleta na forma de lama, ou seja, a água mais o material particulado (MACINTYRE, 1990).
-# sent_id = 263-20141003-MONOGRAFIA_0-82
+# sent_id = 263-20141003-MONOGRAFIA_0-83
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -2809,7 +2827,7 @@
 48	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Segundo Majewski (2006), a água injetada no sistema tem por finalidade aglomerar o particulado, o que resulta em uma melhor separação no ciclone úmido, tendo este uma elevada eficiência para partículas menores que 10 μm, podendo ser comparada à de um precipitador eletrostático.
-# sent_id = 263-20141003-MONOGRAFIA_0-83
+# sent_id = 263-20141003-MONOGRAFIA_0-84
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Majewski	Majewski	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2868,7 +2886,7 @@
 53	.	.	PUNCT	_	_	46	punct	_	_
 
 # text = A injeção da água pulverizada no ciclone cria um filme de água nas paredes internas do ciclone e com isso elimina o ricocheteamento das partículas, que podem ocorrer no ciclone simples e diminui a eficiência de coleta.
-# sent_id = 263-20141003-MONOGRAFIA_0-84
+# sent_id = 263-20141003-MONOGRAFIA_0-85
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2922,7 +2940,7 @@
 45	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Ademais, segundo Yang e Yoshida (2004), a eficiência do ciclone úmido depende do método de injeção do líquido, o tamanho da gota, a distribuição espacial do fluxo do líquido e da quantidade de movimento inicial da gota.
-# sent_id = 263-20141003-MONOGRAFIA_0-85
+# sent_id = 263-20141003-MONOGRAFIA_0-86
 1	Ademais	Ademais	ADV	_	_	17	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	segundo	segundo	ADP	_	_	4	case	_	_
@@ -2985,12 +3003,12 @@
 52	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = 4.7.
-# sent_id = 263-20141003-MONOGRAFIA_0-86
+# sent_id = 263-20141003-MONOGRAFIA_0-87
 1	4.7	4.7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Coleta do Material Particulado
-# sent_id = 263-20141003-MONOGRAFIA_0-87
+# sent_id = 263-20141003-MONOGRAFIA_0-88
 1	Coleta	coleta	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2999,7 +3017,7 @@
 5	Particulado	Particulado	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = As forças que atuam na separação das partículas sólidas no fluxo gasoso no ciclone são a força gravitacional e, principalmente, a força inercial centrifuga.
-# sent_id = 263-20141003-MONOGRAFIA_0-88
+# sent_id = 263-20141003-MONOGRAFIA_0-89
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	forças	força	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -3037,7 +3055,7 @@
 31	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Contudo, estas são insuficientes para remover as partículas do fluxo gasoso pelo pequeno tamanho das partículas (MESQUITA, et al., 1988).
-# sent_id = 263-20141003-MONOGRAFIA_0-89
+# sent_id = 263-20141003-MONOGRAFIA_0-90
 1	Contudo	contudo	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	estas	este	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	5	nsubj	_	_
@@ -3072,7 +3090,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Desta forma, segundo Holzer (1985), com aglomeração das partículas em gotas de água pulverizadas, ocorre um aumento da massa e do diâmetro fazendo com que seja elevado a eficiência na separação.
-# sent_id = 263-20141003-MONOGRAFIA_0-90
+# sent_id = 263-20141003-MONOGRAFIA_0-91
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -3122,7 +3140,7 @@
 42	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Os mecanismos de separação do material particulado ocorrem em três etapas, são eles: a condução até o contato das partículas com as gotas do líquido; a retirada das partículas das gotas e a separação em conjunto com as gotas.
-# sent_id = 263-20141003-MONOGRAFIA_0-91
+# sent_id = 263-20141003-MONOGRAFIA_0-92
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3175,10 +3193,10 @@
 45	com	com	ADP	_	_	47	case	_	_
 46	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
 47	gotas	gota	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+48	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = Segundo Mesquita, et al., os mecanismos envolvidos na separação decorrente dos corpos coletores são: a impactação inercial, considerando a massa e portanto a inércia das partículas; a intercepção, no qual é levado em conta somente o tamanho das partículas; e difusão, sendo significante para diâmetros inferiores a 1 μm, pois estes seguem as linhas de fluxo do gás ao redor do corpo coletor.
-# sent_id = 263-20141003-MONOGRAFIA_0-92
+# sent_id = 263-20141003-MONOGRAFIA_0-93
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Mesquita	Mesquita	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3270,7 +3288,7 @@
 81	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Segundo Park e Lee (2009), nos ciclones úmidos, partículas menores que 0,1 μm podem ser coletadas eficientemente através das gotas pela difusão browniana, enquanto que as partículas maiores que 1 μm tem a impactação inercial e a interceptação como os principais mecanismos.
-# sent_id = 263-20141003-MONOGRAFIA_0-93
+# sent_id = 263-20141003-MONOGRAFIA_0-94
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Park	Park	PROPN	_	Gender=Masc|Number=Sing	19	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -3327,7 +3345,7 @@
 51	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\n
 
 # text = Contudo, segundo Holzer, em estudos realizados, a difusão do particulado nas gotas é pouco significativa para a pulverização, sendo o mais relevante a aglomeração em sua superfície.
-# sent_id = 263-20141003-MONOGRAFIA_0-94
+# sent_id = 263-20141003-MONOGRAFIA_0-95
 1	Contudo	contudo	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	segundo	segundo	ADP	_	_	4	case	_	_
@@ -3366,7 +3384,7 @@
 34	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Ademais, os mecanismos de assentamento das partículas nas gotas de líquido são: inercial, agarramento e difusão.
-# sent_id = 263-20141003-MONOGRAFIA_0-95
+# sent_id = 263-20141003-MONOGRAFIA_0-96
 1	Ademais	Ademais	ADV	_	_	17	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -3393,7 +3411,7 @@
 22	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Partículas de poeira conduzidas até o contato com as gotas pulverizadas do líquido, principalmente em um processo de colisão por impacto, onde a força de inércia é um fator preponderante, quanto maior, maior eficiência na retenção.
-# sent_id = 263-20141003-MONOGRAFIA_0-96
+# sent_id = 263-20141003-MONOGRAFIA_0-97
 1	Partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	poeira	poeira	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3441,7 +3459,7 @@
 43	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = De forma oposta, as partículas pequenas seguem o escoamento do fluxo gasoso em torno das gotas, tendo a sua separação majoritária decorrente de efeitos secundários.
-# sent_id = 263-20141003-MONOGRAFIA_0-97
+# sent_id = 263-20141003-MONOGRAFIA_0-98
 1	De	de	ADP	_	_	2	case	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 3	oposta	oposto	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
@@ -3476,7 +3494,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Portanto, ainda segundo Holzer, o assentamento inercial é o principal mecanismo de assentamento na gota e proporciona a separação do particulado e a limpeza do gás.
-# sent_id = 263-20141003-MONOGRAFIA_0-98
+# sent_id = 263-20141003-MONOGRAFIA_0-99
 1	Portanto	portanto	ADV	_	_	13	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ainda	ainda	ADV	_	_	5	advmod	_	_
@@ -3514,7 +3532,7 @@
 32	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = O deslocamento da partícula sólida no fluxo gasoso é visto na Figura 3, em que ocorre o assentamento desta na gota do líquido devido à inercia da partícula.
-# sent_id = 263-20141003-MONOGRAFIA_0-99
+# sent_id = 263-20141003-MONOGRAFIA_0-100
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	deslocamento	deslocamento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3563,12 +3581,12 @@
 38	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Figura 3:
-# sent_id = 263-20141003-MONOGRAFIA_0-100
+# sent_id = 263-20141003-MONOGRAFIA_0-101
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3:	3:	PUNCT	_	_	1	punct	_	_
 
 # text = Assentamento inercial das partículas no fluxo gasoso.
-# sent_id = 263-20141003-MONOGRAFIA_0-101
+# sent_id = 263-20141003-MONOGRAFIA_0-102
 1	Assentamento	assentamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	inercial	inercial	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3583,22 +3601,22 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: MAJEWSKI, 2006 4.8.
-# sent_id = 263-20141003-MONOGRAFIA_0-102
+# sent_id = 263-20141003-MONOGRAFIA_0-103
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	MAJEWSKI	MAJEWSKI	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	2006	2006	NUM	_	NumType=Card	1	appos	_	_
+5	2006	2006	NUM	_	NumType=Card	1	appos	_	SpacesAfter=\s\n
 6	4.8	4.8	NUM	_	NumType=Card	5	flat	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Amostragem Isocinética
-# sent_id = 263-20141003-MONOGRAFIA_0-103
+# sent_id = 263-20141003-MONOGRAFIA_0-104
 1	Amostragem	Amostragem	PROPN	_	Number=Sing	0	root	_	_
 2	Isocinética	Isocinética	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A amostragem isocinética consiste na coleta de material particulado presente no fluxo gasoso, tendo a velocidade de aspiração a ser impressa pelo equipamento de medida igual à velocidade com que os gases passam pelo local onde ocorre a coleta.
-# sent_id = 263-20141003-MONOGRAFIA_0-104
+# sent_id = 263-20141003-MONOGRAFIA_0-105
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	amostragem	amostragem	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	isocinética	isocinético	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3652,7 +3670,7 @@
 46	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A utilização de um conjunto de tubos, sondas, bomba de vácuo e termopares possibilitam o controle das condições nos dutos ou chaminés e a coleta isocinética do particulado, pois, com a área transversal do bocal da sonda e do controle de vazão de gás calcula-se a velocidade da amostragem.
-# sent_id = 263-20141003-MONOGRAFIA_0-105
+# sent_id = 263-20141003-MONOGRAFIA_0-106
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -3725,7 +3743,7 @@
 62	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Desse modo, obtêm-se uma fração representativa do fluxo total de partículas no sistema em análise.
-# sent_id = 263-20141003-MONOGRAFIA_0-106
+# sent_id = 263-20141003-MONOGRAFIA_0-107
 1-2	Desse	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -3753,7 +3771,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Nos sistemas em análise somente poderão ocorrer três situações de amostragem diferentes, velocidade menor, igual ou superior ao registrado no gás no interior do duto (ESMANHOTO, 2010).
-# sent_id = 263-20141003-MONOGRAFIA_0-107
+# sent_id = 263-20141003-MONOGRAFIA_0-108
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -3799,7 +3817,7 @@
 38	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Segundo Almeida Filho (2008), caso a velocidade de sucção do fluxo gasoso seja menor em relação ao fluxo da tubulação as linhas do fluxo divergem do bocal da sonda, mais partículas maiores serão coletadas do que existiria na realidade, isto pois parte do fluxo é desviado do bocal, como pode ser visto na Figura 4.
-# sent_id = 263-20141003-MONOGRAFIA_0-108
+# sent_id = 263-20141003-MONOGRAFIA_0-109
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Almeida	Almeida	PROPN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	Filho	Filho	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -3886,13 +3904,13 @@
 73	.	.	PUNCT	_	_	68	punct	_	SpacesAfter=\n
 
 # text = Figura 4:
-# sent_id = 263-20141003-MONOGRAFIA_0-109
+# sent_id = 263-20141003-MONOGRAFIA_0-110
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Situação de amostragem sub isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-110
+# sent_id = 263-20141003-MONOGRAFIA_0-111
 1	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	amostragem	amostragem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3901,7 +3919,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: ALMEIDA FILHO, 2008
-# sent_id = 263-20141003-MONOGRAFIA_0-111
+# sent_id = 263-20141003-MONOGRAFIA_0-112
 1	Fonte	fonte	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ALMEIDA	Almeida	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -3910,7 +3928,7 @@
 6	2008	2008	NUM	_	NumType=Card	0	root	_	_
 
 # text = Com isso as partículas menores, por ter pouca inércia, seguem melhor os desvios do fluxo gasoso, desse modo, apresentam uma captação mais difícil no bocal.
-# sent_id = 263-20141003-MONOGRAFIA_0-112
+# sent_id = 263-20141003-MONOGRAFIA_0-113
 1	Com	com	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3942,14 +3960,14 @@
 27	captação	captação	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 28	mais	mais	ADV	_	_	29	advmod	_	_
 29	difícil	difícil	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-30-31	no	_	_	_	_	_	_	_	_
+30-31	no	_	_	_	_	_	_	_	SpacesAfter=\s\n
 30	em	em	ADP	_	_	32	case	_	_
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	bocal	bocal	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Já as partículas maiores possuem uma maior massa e inércia, com isso não apresentam uma rápida resposta aos desvios existentes dos gases que os conduzem.
-# sent_id = 263-20141003-MONOGRAFIA_0-113
+# sent_id = 263-20141003-MONOGRAFIA_0-114
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -3983,7 +4001,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Assim, tem-se uma coleta maior proporcionalmente no total da amostra para estas na amostragem sub-isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-114
+# sent_id = 263-20141003-MONOGRAFIA_0-115
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	tem-se	_	_	_	_	_	_	_	_
@@ -4011,7 +4029,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Caso a velocidade de aspiração pela bomba seja maior que a do fluxo na tubulação as linhas do fluxo convergem para dentro do bocal.
-# sent_id = 263-20141003-MONOGRAFIA_0-115
+# sent_id = 263-20141003-MONOGRAFIA_0-116
 1	Caso	caso	SCONJ	_	_	10	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -4049,7 +4067,7 @@
 30	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Esta condição da amostragem super-isocinética é ilustrado pela Figura 5.
-# sent_id = 263-20141003-MONOGRAFIA_0-116
+# sent_id = 263-20141003-MONOGRAFIA_0-117
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	condição	condição	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4067,7 +4085,7 @@
 13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Assim, ainda em Almeida Filho (2008), a composição da amostragem coletada apresenta um número maior de partículas menores, pois estas mudam sua direção mais facilmente devido à menor massa e inércia, em comparação a composição real de material particulado no gás injetado.
-# sent_id = 263-20141003-MONOGRAFIA_0-117
+# sent_id = 263-20141003-MONOGRAFIA_0-118
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ainda	ainda	ADV	_	_	5	advmod	_	_
@@ -4125,7 +4143,7 @@
 52	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Figura 5: Situação de amostragem superior a isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-118
+# sent_id = 263-20141003-MONOGRAFIA_0-119
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4138,7 +4156,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: ALMEIDA FILHO, 2008
-# sent_id = 263-20141003-MONOGRAFIA_0-119
+# sent_id = 263-20141003-MONOGRAFIA_0-120
 1	Fonte	fonte	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ALMEIDA	Almeida	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -4147,7 +4165,7 @@
 6	2008	2008	NUM	_	NumType=Card	0	root	_	_
 
 # text = Por fim, quando a velocidade de aspiração dos gases no bocal, proporcionado pela bomba de vácuo, for igual à velocidade pontual registrada pelo gás na tubulação, ocorrerá a amostragem isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-120
+# sent_id = 263-20141003-MONOGRAFIA_0-121
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4197,7 +4215,7 @@
 41	.	.	PUNCT	_	_	37	punct	_	_
 
 # text = Então, esta amostragem é caracterizada pela coleta do particulado cuja trajetória coincide com a área do bocal da sonda, conforme apresentado pela Figura 6.
-# sent_id = 263-20141003-MONOGRAFIA_0-121
+# sent_id = 263-20141003-MONOGRAFIA_0-122
 1	Então	então	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
@@ -4237,7 +4255,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Portanto, nesta condição, a coleta é representativa para o fluxo real do sistema (ESMANHOTO, 2010).
-# sent_id = 263-20141003-MONOGRAFIA_0-122
+# sent_id = 263-20141003-MONOGRAFIA_0-123
 1	Portanto	portanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	nesta	_	_	_	_	_	_	_	_
@@ -4262,15 +4280,15 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	2010	2010	NUM	_	NumType=Card	19	appos:parataxis	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6:
-# sent_id = 263-20141003-MONOGRAFIA_0-123
+# sent_id = 263-20141003-MONOGRAFIA_0-124
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6:	6:	PUNCT	_	_	1	punct	_	_
 
 # text = Situação de amostragem isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-124
+# sent_id = 263-20141003-MONOGRAFIA_0-125
 1	Situação	situação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	amostragem	amostragem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4278,27 +4296,27 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: ALMEIDA FILHO, 2008 5.
-# sent_id = 263-20141003-MONOGRAFIA_0-125
+# sent_id = 263-20141003-MONOGRAFIA_0-126
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ALMEIDA	Almeida	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	FILHO	Filho	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	2008	2008	NUM	_	NumType=Card	3	appos	_	_
+6	2008	2008	NUM	_	NumType=Card	3	appos	_	SpacesAfter=\s\n
 7	5	5	NUM	_	NumType=Card	6	flat	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = MATERIAIS
-# sent_id = 263-20141003-MONOGRAFIA_0-126
+# sent_id = 263-20141003-MONOGRAFIA_0-127
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E MÉTODOS
-# sent_id = 263-20141003-MONOGRAFIA_0-127
+# sent_id = 263-20141003-MONOGRAFIA_0-128
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	MÉTODOS	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = A seguir estão listados todos os equipamentos e materiais empregados, bem como os métodos empregados na a realização dos experimentos.
-# sent_id = 263-20141003-MONOGRAFIA_0-128
+# sent_id = 263-20141003-MONOGRAFIA_0-129
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4327,17 +4345,17 @@
 24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 5.1.
-# sent_id = 263-20141003-MONOGRAFIA_0-129
+# sent_id = 263-20141003-MONOGRAFIA_0-130
 1	5.1	5.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Unidade Experimental
-# sent_id = 263-20141003-MONOGRAFIA_0-130
+# sent_id = 263-20141003-MONOGRAFIA_0-131
 1	Unidade	Unidade	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Experimental	Experimental	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O sistema experimental montado no Laboratório Didático do Departamento de Engenharia Química (DEQ) da Universidade Federal de São Carlos (UFSCar) constituiu-se basicamente por um sistema de alimentação de material particulado, soprador, ciclone com bicos injetores de água, sistema de aquecimento e conjunto de fornecimento de água, conforme mostra a Figura 7.
-# sent_id = 263-20141003-MONOGRAFIA_0-131
+# sent_id = 263-20141003-MONOGRAFIA_0-132
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4407,22 +4425,12 @@
 63	7	7	PROPN	_	Number=Sing	62	flat:name	_	SpaceAfter=No
 64	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
-# text = Figura 7:
-# sent_id = 263-20141003-MONOGRAFIA_0-132
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Esquema simplificado da unidade experimental.
+# text = Fonte: Acervo pessoal
 # sent_id = 263-20141003-MONOGRAFIA_0-133
-1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	simplificado	simplificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
-3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-6	experimental	experimental	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 
 # text = A Tabela 3 representa as dimensões do ciclone tipo Stairmand e de entrada tangencial que foi empegado no trabalho.
 # sent_id = 263-20141003-MONOGRAFIA_0-134
@@ -4499,7 +4507,7 @@
 38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
 40	8	8	NUM	_	NumType=Card	39	nummod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 3:
 # sent_id = 263-20141003-MONOGRAFIA_0-136
@@ -4519,21 +4527,18 @@
 7	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Fonte: Acervo pessoal
+# text = Fonte: Acervo pessoal Figura 8:
 # sent_id = 263-20141003-MONOGRAFIA_0-138
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-
-# text = Figura 8:
-# sent_id = 263-20141003-MONOGRAFIA_0-139
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
+3	Acervo	Acervo	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	pessoal	pessoal	PROPN	_	Number=Sing	3	flat:name	_	_
+5	Figura	figura	PROPN	_	Number=Sing	3	flat:name	_	_
+6	8	8	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Posições dos bicos injetores de água no ciclone úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-140
+# sent_id = 263-20141003-MONOGRAFIA_0-139
 1	Posições	posição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -4549,39 +4554,42 @@
 11	úmido	úmido	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Fonte: Acervo pessoal Ademais, foi construído um selo hidráulico, uma estrutura cilíndrica em acrílico contendo uma válvula a fim de permitir o acúmulo da lama.
-# sent_id = 263-20141003-MONOGRAFIA_0-141
-1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+# text = Fonte:
+# sent_id = 263-20141003-MONOGRAFIA_0-140
+1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	Acervo	Acervo	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	pessoal	pessoal	PROPN	_	Number=Sing	3	flat:name	_	_
-5	Ademais	ademais	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	_
-7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
-8	construído	construir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	selo	selo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
-11	hidráulico	hidráulico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
-13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
-15	cilíndrica	cilíndrico	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
-16	em	em	ADP	_	_	17	case	_	_
-17	acrílico	acrílico	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18	contendo	conter	VERB	_	VerbForm=Ger	8	advcl	_	_
-19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	válvula	válvula	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21	a	a	ADP	_	_	24	mark	_	_
-22	fim	fim	NOUN	_	Gender=Masc|Number=Sing	21	fixed	_	_
-23	de	de	SCONJ	_	_	21	fixed	_	_
-24	permitir	permitir	VERB	_	VerbForm=Inf	18	acl	_	_
-25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	acúmulo	acúmulo	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	lama	lama	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# text = Acervo pessoal Ademais, foi construído um selo hidráulico, uma estrutura cilíndrica em acrílico contendo uma válvula a fim de permitir o acúmulo da lama.
+# sent_id = 263-20141003-MONOGRAFIA_0-141
+1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	Ademais	Ademais	ADV	_	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	construído	construir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	selo	selo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+9	hidráulico	hidráulico	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
+13	cilíndrica	cilíndrico	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	acrílico	acrílico	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	contendo	conter	VERB	_	VerbForm=Ger	8	acl	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	válvula	válvula	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	a	a	ADP	_	_	22	mark	_	_
+20	fim	fim	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	_
+21	de	de	SCONJ	_	_	19	fixed	_	_
+22	permitir	permitir	VERB	_	VerbForm=Inf	16	advcl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	acúmulo	acúmulo	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	lama	lama	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = O ciclone úmido montado no laboratório está apresentado na Figura 9 a seguir:
 # sent_id = 263-20141003-MONOGRAFIA_0-142
@@ -4602,7 +4610,7 @@
 13	9	9	NUM	_	NumType=Card	12	nummod	_	_
 14	a	a	SCONJ	_	_	15	mark	_	_
 15	seguir	seguir	VERB	_	VerbForm=Inf	9	advcl	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	9	punct	_	_
+16	:	:	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 
 # text = Figura 9: Ciclone modificado com os bicos pulverizadores e o selo hidráulico.
 # sent_id = 263-20141003-MONOGRAFIA_0-143
@@ -4629,69 +4637,72 @@
 5	5.2	5.2	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Alimentação de Ar A vazão corrente de ar foi fornecida pelo soprador da marca WEG de 60 Hz, 3500 rpm e 5,5 kW, cuja vazão pode ser calculada através de uma placa de orifício situada da tubulação que conduzirá ao ciclone, anteriormente ao aquecimento.
+# text = Alimentação de Ar
 # sent_id = 263-20141003-MONOGRAFIA_0-145
-1	Alimentação	alimentação	PROPN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+1	Alimentação	alimentação	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ar	ar	PROPN	_	Number=Sing	1	nmod	_	_
-4	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
-6	corrente	corrente	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	ar	ar	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
-10	fornecida	fornecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-11-12	pelo	_	_	_	_	_	_	_	_
-11	por	por	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	soprador	soprador	NOUN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
-14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	marca	marca	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-17	WEG	WEG	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	60	60	NUM	_	NumType=Card	20	nummod	_	_
-20	Hz	Hz	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
-22	3500	3500	NUM	_	NumType=Card	23	nummod	_	_
-23	rpm	rpm	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
-24	e	e	CCONJ	_	_	26	cc	_	_
-25	5,5	5,5	NUM	_	NumType=Card	26	nummod	_	_
-26	kW	kW	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	10	punct	_	_
-28	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	29	det	_	_
-29	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	30	nsubj:pass	_	_
-30	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
-31	ser	ser	AUX	_	VerbForm=Inf	32	aux:pass	_	_
-32	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	30	xcomp	_	_
-33	através	através	ADV	_	_	49	advmod	_	_
-34	de	de	ADP	_	_	36	case	_	_
-35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	placa	placa	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
-37	de	de	ADP	_	_	38	case	_	_
-38	orifício	orifício	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
-39	situada	situar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	42	acl	_	_
-40-41	da	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	42	case	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	tubulação	tubulação	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
-43	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	44	nsubj	_	_
-44	conduzirá	conduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	42	acl:relcl	_	_
-45-46	ao	_	_	_	_	_	_	_	_
-45	a	a	ADP	_	_	47	case	_	_
-46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	ciclone	ciclone	NOUN	_	Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No
-48	,	,	PUNCT	_	_	44	punct	_	_
-49	anteriormente	anteriormente	ADV	_	_	32	advmod	_	_
-50-51	ao	_	_	_	_	_	_	_	_
-50	a	a	ADP	_	_	52	case	_	_
-51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
-53	.	.	PUNCT	_	_	10	punct	_	_
+
+# text = A vazão corrente de ar foi fornecida pelo soprador da marca WEG de 60 Hz, 3500 rpm e 5,5 kW, cuja vazão pode ser calculada através de uma placa de orifício situada da tubulação que conduzirá ao ciclone, anteriormente ao aquecimento.
+# sent_id = 263-20141003-MONOGRAFIA_0-146
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	corrente	corrente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	ar	ar	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	fornecida	fornecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	soprador	soprador	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	marca	marca	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	WEG	WEG	PROPN	_	Gender=Fem|Number=Sing	13	appos	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	60	60	NUM	_	NumType=Card	17	nummod	_	_
+17	Hz	Hz	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	3500	3500	NUM	_	NumType=Card	20	nummod	_	_
+20	rpm	rpm	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	5,5	5,5	NUM	_	NumType=Card	23	nummod	_	_
+23	kW	kW	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	7	punct	_	_
+25	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	26	det	_	_
+26	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	27	nsubj:pass	_	_
+27	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+28	ser	ser	AUX	_	VerbForm=Inf	29	aux:pass	_	_
+29	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	xcomp	_	_
+30	através	através	ADV	_	_	46	advmod	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	placa	placa	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	orifício	orifício	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36	situada	situar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	39	acl	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	tubulação	tubulação	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+40	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	41	nsubj	_	_
+41	conduzirá	conduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	39	acl:relcl	_	_
+42-43	ao	_	_	_	_	_	_	_	_
+42	a	a	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	ciclone	ciclone	NOUN	_	Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	41	punct	_	_
+46	anteriormente	anteriormente	ADV	_	_	29	advmod	_	_
+47-48	ao	_	_	_	_	_	_	_	_
+47	a	a	ADP	_	_	49	case	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A Figura 10 retrata o sistema de alimentação do gás, bem como a unidade experimental.
-# sent_id = 263-20141003-MONOGRAFIA_0-146
+# sent_id = 263-20141003-MONOGRAFIA_0-147
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	10	10	NUM	_	NumType=Card	4	nsubj	_	_
@@ -4713,7 +4724,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os ajustes na vazão do ar são feitos com o auxílio de válvulas na tubulação de entrada e usando o anemômetro KIMO tipo MP200 para medir as quedas de pressão, sendo os valores estabelecidos no trabalho de 100, 300 e 500 mmH2O.
-# sent_id = 263-20141003-MONOGRAFIA_0-147
+# sent_id = 263-20141003-MONOGRAFIA_0-148
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ajustes	ajuste	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -4769,7 +4780,7 @@
 49	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Além disso, a calibração da placa de orifício para a vazão volumétrica a temperatura ambiente tinha uma equação ajustada dado por: onde
-# sent_id = 263-20141003-MONOGRAFIA_0-148
+# sent_id = 263-20141003-MONOGRAFIA_0-149
 1	Além	além	ADV	_	_	6	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -4796,11 +4807,11 @@
 22	ajustada	ajustado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	23	acl	_	_
 23	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	_
 24	por	por	ADP	_	_	26	case	_	SpaceAfter=No
-25	:	:	PUNCT	_	_	24	punct	_	_
+25	:	:	PUNCT	_	_	24	punct	_	SpacesAfter=\s\n
 26	onde	onde	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 
 # text = 𝑄𝑎𝑟 é a vazão volumétrica do ar em m3.min-1 e ∆ℎ é a variação da altura da coluna de um manômetro de água em cm.
-# sent_id = 263-20141003-MONOGRAFIA_0-149
+# sent_id = 263-20141003-MONOGRAFIA_0-150
 1	𝑄𝑎𝑟	𝑄𝑎𝑟	PROPN	_	Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4836,19 +4847,19 @@
 30	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Figura 10:
-# sent_id = 263-20141003-MONOGRAFIA_0-150
+# sent_id = 263-20141003-MONOGRAFIA_0-151
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Unidade experimental.
-# sent_id = 263-20141003-MONOGRAFIA_0-151
+# sent_id = 263-20141003-MONOGRAFIA_0-152
 1	Unidade	Unidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal 5.3.
-# sent_id = 263-20141003-MONOGRAFIA_0-152
+# sent_id = 263-20141003-MONOGRAFIA_0-153
 1	Fonte	fonte	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -4857,13 +4868,13 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de Aquecimento
-# sent_id = 263-20141003-MONOGRAFIA_0-153
+# sent_id = 263-20141003-MONOGRAFIA_0-154
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O sistema de aquecimento é composto por dois transformadores variadores de voltagem da marca
-# sent_id = 263-20141003-MONOGRAFIA_0-154
+# sent_id = 263-20141003-MONOGRAFIA_0-155
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4882,7 +4893,7 @@
 15	marca	marca	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 
 # text = STP tipo VM-230, que por intermédio de resistências promove o aquecimento do fluxo gasoso até a temperatura desejada.
-# sent_id = 263-20141003-MONOGRAFIA_0-155
+# sent_id = 263-20141003-MONOGRAFIA_0-156
 1	STP	STP	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 2	tipo	tipo	PROPN	_	Number=Sing	1	flat:name	_	_
 3	VM-230	VM-230	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -4907,7 +4918,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A ilustração do sistema é apresentada na Figura 11.
-# sent_id = 263-20141003-MONOGRAFIA_0-156
+# sent_id = 263-20141003-MONOGRAFIA_0-157
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ilustração	ilustração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4924,7 +4935,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Nos experimentos, com o objetivo de aproximar as condições encontradas nas indústrias, a temperatura do fluxo de ar na entrada do ciclone foi fixada em 90°C, cuja temperatura e umidade foram mensuradas com o equipamento HygroPalm da marca Rotronic.
-# sent_id = 263-20141003-MONOGRAFIA_0-157
+# sent_id = 263-20141003-MONOGRAFIA_0-158
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -4979,16 +4990,16 @@
 46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	marca	marca	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
 48	Rotronic	Rotronic	PROPN	_	Gender=Fem|Number=Sing	47	appos	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
+49	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n\n
 
 # text = Figura 11:
-# sent_id = 263-20141003-MONOGRAFIA_0-158
+# sent_id = 263-20141003-MONOGRAFIA_0-159
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de aquecimento do fluxo gasoso.
-# sent_id = 263-20141003-MONOGRAFIA_0-159
+# sent_id = 263-20141003-MONOGRAFIA_0-160
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5000,7 +5011,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal 5.4.
-# sent_id = 263-20141003-MONOGRAFIA_0-160
+# sent_id = 263-20141003-MONOGRAFIA_0-161
 1	Fonte	fonte	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -5009,7 +5020,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de Fornecimento de Material Particulado
-# sent_id = 263-20141003-MONOGRAFIA_0-161
+# sent_id = 263-20141003-MONOGRAFIA_0-162
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Fornecimento	fornecimento	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5018,7 +5029,7 @@
 6	Particulado	Particulado	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = O sistema alimentação de material particulado é composto por um prato rotatório contendo uma canaleta, um controlador de rotação da marca Varired modelo D0510/65 que permite regular a vazão do particulado injetado no sistema, e um reservatório cônico contendo um vibrador.
-# sent_id = 263-20141003-MONOGRAFIA_0-162
+# sent_id = 263-20141003-MONOGRAFIA_0-163
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -5071,7 +5082,7 @@
 47	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Definiram-se três porcentagens da rotação máxima para o prato (100%) a serem analisadas nos experimentos, de 45, 50 e 65%.
-# sent_id = 263-20141003-MONOGRAFIA_0-163
+# sent_id = 263-20141003-MONOGRAFIA_0-164
 1-2	Definiram-se	_	_	_	_	_	_	_	_
 1	Definiram	Definir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -5107,7 +5118,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Além destes equipamentos, é empregado ainda uma fonte de ar comprimido em que a pressão manométrica é mantida como um padrão para todos os experimentos de 50 kgf/cm² a fim de assegurar as mesmas condições e sendo suficiente para arrastar o particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-164
+# sent_id = 263-20141003-MONOGRAFIA_0-165
 1	Além	além	ADV	_	_	7	advmod	_	_
 2-3	destes	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5156,7 +5167,7 @@
 45	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Como é observado na Figura 12, o material particulado é mantido no reservatório e a canaleta é preenchida através do movimento de vibração e do deslocamento do prato rotatório.
-# sent_id = 263-20141003-MONOGRAFIA_0-165
+# sent_id = 263-20141003-MONOGRAFIA_0-166
 1	Como	como	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	observado	observar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5200,7 +5211,7 @@
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Deste modo, ao atingir a região de sucção, o material é arrastado pela diferença de pressão causada pelo ar comprimido na mangueira, sendo então ambos enviados para dentro do duto de entrada do ciclone.
-# sent_id = 263-20141003-MONOGRAFIA_0-166
+# sent_id = 263-20141003-MONOGRAFIA_0-167
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -5215,7 +5226,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	sucção	sucção	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	SpacesAfter=\s\n
 14	material	material	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 16	arrastado	arrastar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5255,13 +5266,13 @@
 45	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Figura 12:
-# sent_id = 263-20141003-MONOGRAFIA_0-167
+# sent_id = 263-20141003-MONOGRAFIA_0-168
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Sistema de alimentação de material particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-168
+# sent_id = 263-20141003-MONOGRAFIA_0-169
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -5271,7 +5282,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal 5.5.
-# sent_id = 263-20141003-MONOGRAFIA_0-169
+# sent_id = 263-20141003-MONOGRAFIA_0-170
 1	Fonte	fonte	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -5280,7 +5291,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de Fornecimento de Água
-# sent_id = 263-20141003-MONOGRAFIA_0-170
+# sent_id = 263-20141003-MONOGRAFIA_0-171
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5288,7 +5299,7 @@
 5	Água	Água	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 
 # text = O sistema de fornecimento de água para o sistema constituirá de uma bomba WEG modelo 56B0382 – 0,75CV, regime contínuo, um reservatório de água, rotâmetro para água Applitech modelo
-# sent_id = 263-20141003-MONOGRAFIA_0-171
+# sent_id = 263-20141003-MONOGRAFIA_0-172
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5323,7 +5334,7 @@
 32	modelo	modelo	PROPN	_	Number=Sing	31	flat:name	_	_
 
 # text = AP3500 e oito tubos, contendo em cada uma válvula para distribuição da água para os oito bicos pulverizadores.
-# sent_id = 263-20141003-MONOGRAFIA_0-172
+# sent_id = 263-20141003-MONOGRAFIA_0-173
 1	AP3500	AP3500	NUM	_	NumType=Card	4	nummod	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	oito	oito	NUM	_	NumType=Card	1	conj	_	_
@@ -5348,7 +5359,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim, pela regulagem das válvulas e do reciclo é possível se estabelecer a vazão de água que é enviado aos bicos através do rotâmetro, como representado pela Figura 13.
-# sent_id = 263-20141003-MONOGRAFIA_0-173
+# sent_id = 263-20141003-MONOGRAFIA_0-174
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	pela	_	_	_	_	_	_	_	_
@@ -5392,16 +5403,16 @@
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	33	obl:agent	_	_
 37	13	13	NUM	_	NumType=Card	36	nummod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = Figura 13:
-# sent_id = 263-20141003-MONOGRAFIA_0-174
+# sent_id = 263-20141003-MONOGRAFIA_0-175
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de fornecimento de água.
-# sent_id = 263-20141003-MONOGRAFIA_0-175
+# sent_id = 263-20141003-MONOGRAFIA_0-176
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5410,19 +5421,19 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte:
-# sent_id = 263-20141003-MONOGRAFIA_0-176
+# sent_id = 263-20141003-MONOGRAFIA_0-177
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal 5.6.
-# sent_id = 263-20141003-MONOGRAFIA_0-177
+# sent_id = 263-20141003-MONOGRAFIA_0-178
 1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	5.6	5.6	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Material Particulado e Distribuição Granulométrica
-# sent_id = 263-20141003-MONOGRAFIA_0-178
+# sent_id = 263-20141003-MONOGRAFIA_0-179
 1	Material	Material	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Particulado	Particulado	PROPN	_	Number=Sing	1	flat:name	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -5430,7 +5441,7 @@
 5	Granulométrica	Granulométrica	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Nos experimentos, a princípio seriam utilizados somente a fuligem proveniente da combustão do bagaço da cana-de-açúcar nas caldeiras da indústria sucroalcooleira.
-# sent_id = 263-20141003-MONOGRAFIA_0-179
+# sent_id = 263-20141003-MONOGRAFIA_0-180
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -5468,7 +5479,7 @@
 29	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Contudo, devido à baixa disponibilidades do material no laboratório e as dificuldades encontradas em obtê-lo diretamente das usinas, optou-se por usar também o pó de rocha fosfática como material particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-180
+# sent_id = 263-20141003-MONOGRAFIA_0-181
 1	Contudo	contudo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	devido	devido	ADV	_	_	26	advmod	_	_
@@ -5516,7 +5527,7 @@
 39	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Desse modo, os materiais foram cominuídos em um moinho de bolas, sendo a fuligem reduzida a um diâmetro de corte de 50% por difusão a laser de cerca de 9 μm e a rocha fosfática em dois diferentes diâmetros, de 25 e 5 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-181
+# sent_id = 263-20141003-MONOGRAFIA_0-182
 1-2	Desse	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -5570,7 +5581,7 @@
 50	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para a mediação da granulometria foi utilizado o Malvern Mastersizer Microplus, localizado no Laboratório de Controle Ambiental do DEQ/UFSCar.
-# sent_id = 263-20141003-MONOGRAFIA_0-182
+# sent_id = 263-20141003-MONOGRAFIA_0-183
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	mediação	mediação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -5600,7 +5611,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O equipamento utiliza a difração a laser para medir a distribuição de tamanho das partículas, consistindo em um feixe de laser emitido e, ao atingir as partículas em suspensão, ocorre uma variação angular na intensidade da luz.
-# sent_id = 263-20141003-MONOGRAFIA_0-183
+# sent_id = 263-20141003-MONOGRAFIA_0-184
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	utiliza	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5652,13 +5663,13 @@
 45	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O valor da dispersão é medido pela técnica de espalhamento de luz laser de baixo ângulo (LALLS – Low Angle Laser Scattering) e está relacionado ao tamanho das partículas, sendo o diâmetro calculado como o de uma esfera de volume equivalente aos dados obtidos (ROCHA, 2010).
-# sent_id = 263-20141003-MONOGRAFIA_0-184
+# sent_id = 263-20141003-MONOGRAFIA_0-185
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	dispersão	dispersão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	dispersão	dispersão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\n
 6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 7	medido	medir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 8-9	pela	_	_	_	_	_	_	_	_
@@ -5718,7 +5729,7 @@
 58	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Assim, nas análises granulométricas das partículas coletas para cada condição pelo ciclone úmido, foram retiradas alíquotas da lama em um béquer e enviadas ao Malvern.
-# sent_id = 263-20141003-MONOGRAFIA_0-185
+# sent_id = 263-20141003-MONOGRAFIA_0-186
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	nas	_	_	_	_	_	_	_	_
@@ -5759,7 +5770,7 @@
 33	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = O resultado gerado é a distribuição granulométrica conforme exemplificado pela Figura 14, e determina também o diâmetro de corte de 50% (D0,5) dado pela intersecção da linha da distribuição acumulativa (azul) com a linha tracejada equivalente a 50%.
-# sent_id = 263-20141003-MONOGRAFIA_0-186
+# sent_id = 263-20141003-MONOGRAFIA_0-187
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5816,13 +5827,13 @@
 50	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 14:
-# sent_id = 263-20141003-MONOGRAFIA_0-187
+# sent_id = 263-20141003-MONOGRAFIA_0-188
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Distribuição granulométrica do material particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-188
+# sent_id = 263-20141003-MONOGRAFIA_0-189
 1	Distribuição	Distribuição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	granulométrica	granulométrico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5832,18 +5843,22 @@
 6	particulado	particulado	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = 5.7.
-# sent_id = 263-20141003-MONOGRAFIA_0-189
-1	5.7	5.7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
+# text = Fonte: Acervo pessoal 5.7.
+# sent_id = 263-20141003-MONOGRAFIA_0-190
+1	Fonte	fonte	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	5.7	5.7	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Amostragem Isocinética
-# sent_id = 263-20141003-MONOGRAFIA_0-190
+# sent_id = 263-20141003-MONOGRAFIA_0-191
 1	Amostragem	Amostragem	PROPN	_	Number=Sing	0	root	_	_
 2	Isocinética	Isocinética	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A pesquisa utilizará a amostragem isocinética a fim os dados representem o fluxo real com maior exatidão e assim obter o teor de material particulado no gás.
-# sent_id = 263-20141003-MONOGRAFIA_0-191
+# sent_id = 263-20141003-MONOGRAFIA_0-192
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	utilizará	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -5876,7 +5891,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O sistema conta com duas bombas de vácuo da marca Milipore de 60 Hz, com tubos conectores para sua interligação, e com a auxílio de um suporte universal e um rotâmetro de vidro para ar, da marca Gilmont modelo 40136, é feito o ajuste da vazão aspirada no interior das tubulações e garantir a condição isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-192
+# sent_id = 263-20141003-MONOGRAFIA_0-193
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5908,7 +5923,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-31	universal	universal	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+31	universal	universal	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpacesAfter=\s\n
 32	e	e	CCONJ	_	_	34	cc	_	_
 33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	rotâmetro	rotâmetro	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -5950,7 +5965,7 @@
 66	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A coleta do material é feita por uma sonda de amostragem de bocal circular, cujo diâmetro era igual a 𝜑𝑠𝑜𝑛𝑑𝑎 = 4 𝑚𝑚, como é mostrado na Figura 15.
-# sent_id = 263-20141003-MONOGRAFIA_0-193
+# sent_id = 263-20141003-MONOGRAFIA_0-194
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	coleta	coleta	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5989,7 +6004,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Acoplada a ela tem-se um suporte para filtro de membrana com vedações de plástico e parafusos para afixação, impedindo o ar de escapar, conforme indicado pela Figura 16.
-# sent_id = 263-20141003-MONOGRAFIA_0-194
+# sent_id = 263-20141003-MONOGRAFIA_0-195
 1	Acoplada	Acoplar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
@@ -6026,21 +6041,34 @@
 32	16	16	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Fonte: Acervo pessoal
-# sent_id = 263-20141003-MONOGRAFIA_0-195
+# text = Figura 15:
+# sent_id = 263-20141003-MONOGRAFIA_0-196
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+
+# text = Sonda de amostragem.
+# sent_id = 263-20141003-MONOGRAFIA_0-197
+1	Sonda	Sonda	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	amostragem	amostragem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Fonte:
+# sent_id = 263-20141003-MONOGRAFIA_0-198
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 
-# text = Figura 16:
-# sent_id = 263-20141003-MONOGRAFIA_0-196
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
+# text = Acervo pessoal Figura 16:
+# sent_id = 263-20141003-MONOGRAFIA_0-199
+1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	16	16	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Conjunto de suporte para o filtro de membrana.
-# sent_id = 263-20141003-MONOGRAFIA_0-197
+# sent_id = 263-20141003-MONOGRAFIA_0-200
 1	Conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -6052,15 +6080,15 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Cerda, 2004
-# sent_id = 263-20141003-MONOGRAFIA_0-198
+# sent_id = 263-20141003-MONOGRAFIA_0-201
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Cerda	Cerda	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	2004	2004	NUM	_	NumType=Card	1	appos:parataxis	_	_
+5	2004	2004	NUM	_	NumType=Card	1	appos:parataxis	_	SpacesAfter=\s\n
 
 # text = Segundo Cerda (2004), para ajustar a velocidade no bocal da sonda, calculou-se a vazão de sucção do gás pela bomba de vácuo de modo a atingir a condição isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-199
+# sent_id = 263-20141003-MONOGRAFIA_0-202
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Cerda	Cerda	PROPN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6107,7 +6135,7 @@
 39	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Para isso, utilizou-se a relação:
-# sent_id = 263-20141003-MONOGRAFIA_0-200
+# sent_id = 263-20141003-MONOGRAFIA_0-203
 1	Para	para	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6119,7 +6147,7 @@
 8	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Onde 𝑣𝑡𝑢𝑏𝑜 corresponde à velocidade pontual do gás na tubulação, podendo ser referente a entrada ou a saída superior.
-# sent_id = 263-20141003-MONOGRAFIA_0-201
+# sent_id = 263-20141003-MONOGRAFIA_0-204
 1	Onde	onde	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	𝑣𝑡𝑢𝑏𝑜	𝑣𝑡𝑢𝑏𝑜	PROPN	_	Number=Sing	1	flat:name	_	_
 3	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6148,8 +6176,8 @@
 23	superior	superior	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Esta velocidade foi determinada pelo micro manômetro da marca Furness Controls modelo FCO12 com a auxílio de um tubo de Pitot posicionado e fixado por um suporte existente nas tubulações em um ponto determinado da amostragem isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-202
+# text = Esta velocidade foi determinada pelo micro manômetro da marca Furness Controls modelo
+# sent_id = 263-20141003-MONOGRAFIA_0-205
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6165,40 +6193,43 @@
 11	marca	marca	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	Furness	Furness	PROPN	_	Gender=Fem|Number=Sing	11	appos	_	_
 13	Controls	Controls	PROPN	_	Number=Sing	12	flat:name	_	_
-14	modelo	modelo	PROPN	_	Number=Sing	12	flat:name	_	_
-15	FCO12	FCO12	PROPN	_	Number=Sing	12	flat:name	_	_
-16	com	com	ADP	_	_	18	case	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	auxílio	auxílio	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	Pitot	Pitot	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-24	posicionado	posicionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_
-25	e	e	CCONJ	_	_	26	cc	_	_
-26	fixado	fixar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	36	conj	_	_
-27	por	por	ADP	_	_	29	case	_	_
-28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	26	obl:agent	_	_
-30	existente	existente	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
-31-32	nas	_	_	_	_	_	_	_	_
-31	em	em	ADP	_	_	33	case	_	_
-32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	tubulações	tubulação	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
-34	em	em	ADP	_	_	36	case	_	_
-35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
-37	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	36	acl	_	_
-38-39	da	_	_	_	_	_	_	_	_
-38	de	de	ADP	_	_	40	case	_	_
-39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	amostragem	amostragem	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
-41	isocinética	isocinético	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+14	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = FCO com a auxílio de um tubo de Pitot posicionado e fixado por um suporte existente nas tubulações em um ponto determinado da amostragem isocinética.
+# sent_id = 263-20141003-MONOGRAFIA_0-206
+1	FCO	Fco	ADV	_	_	4	advmod	_	_
+2	com	com	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	auxílio	auxílio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Pitot	Pitot	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	posicionado	posicionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	fixado	fixar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	existente	existente	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	nas	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	tubulações	tubulação	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+23	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	amostragem	amostragem	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+27	isocinética	isocinético	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Por sua vez, 𝑣𝑠𝑜𝑛𝑑𝑎 corresponde à velocidade de sucção na seção transversal do bocal da sonda.
-# sent_id = 263-20141003-MONOGRAFIA_0-203
+# sent_id = 263-20141003-MONOGRAFIA_0-207
 1	Por	por	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 2	sua	sua	ADP	_	_	3	case	_	_
 3	vez	vez	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -6227,7 +6258,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Como este valor já estava definido segundo a velocidade pontual do fluxo gasoso, calculou-se a vazão volumétrica que deveria ser empregada no bocal da sonda (𝑄𝑠𝑜𝑛𝑑𝑎) segundo a equação 3, uma vez que se conhece a área transversal do bocal da sonda (𝐴𝑠𝑜𝑛𝑑𝑎).
-# sent_id = 263-20141003-MONOGRAFIA_0-204
+# sent_id = 263-20141003-MONOGRAFIA_0-208
 1	Como	como	SCONJ	_	_	6	mark	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	valor	valor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -6292,21 +6323,21 @@
 56	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = 𝑄𝑠𝑜𝑛𝑑𝑎 = 𝑣𝑠𝑜𝑛𝑑𝑎.
-# sent_id = 263-20141003-MONOGRAFIA_0-205
+# sent_id = 263-20141003-MONOGRAFIA_0-209
 1	𝑄𝑠𝑜𝑛𝑑𝑎	𝑄𝑠𝑜𝑛𝑑𝑎	PROPN	_	Number=Sing	0	root	_	_
 2	=	=	SYM	_	_	1	parataxis	_	_
 3	𝑣𝑠𝑜𝑛𝑑𝑎	𝑣𝑠𝑜𝑛𝑑𝑎	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = 𝐴𝑠𝑜𝑛𝑑𝑎 (3)
-# sent_id = 263-20141003-MONOGRAFIA_0-206
+# sent_id = 263-20141003-MONOGRAFIA_0-210
 1	𝐴𝑠𝑜𝑛𝑑𝑎	𝐴𝑠𝑜𝑛𝑑𝑎	PROPN	_	Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	3	3	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
 # text = Desse modo, a sonda foi inserida até o ponto de amostragem isocinética e afixada, na entrada do ciclone e na saída superior do gás tratado.
-# sent_id = 263-20141003-MONOGRAFIA_0-207
+# sent_id = 263-20141003-MONOGRAFIA_0-211
 1-2	Desse	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -6347,7 +6378,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Então, o fluxo de gás aspirado passa pelo conjunto de filtração ocorrendo a retenção do material particulado na membrana e deixando passar ar livre do sólido.
-# sent_id = 263-20141003-MONOGRAFIA_0-208
+# sent_id = 263-20141003-MONOGRAFIA_0-212
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6386,7 +6417,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os experimentos foram realizados em duplicata tanto na entrada quanto na saída, e a membrana utilizada foi da marca Millipore tipo GS em éster de celulose 0,22 μm de poro e 47 mm de diâmetro e o tempo das amostragens foi de 5 minutos para todos os ensaios experimentais.
-# sent_id = 263-20141003-MONOGRAFIA_0-209
+# sent_id = 263-20141003-MONOGRAFIA_0-213
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -6448,7 +6479,7 @@
 55	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Anteriormente as pesagens das membranas, tanto antes quanto após as amostragens, os filtros de membranas foram mantidos em uma estufa com temperatura de 60ºC por um intervalo de 24 horas.
-# sent_id = 263-20141003-MONOGRAFIA_0-210
+# sent_id = 263-20141003-MONOGRAFIA_0-214
 1	Anteriormente	anteriormente	ADV	_	_	20	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	pesagens	pesagem	NOUN	_	Gender=Fem|Number=Plur	20	nsubj:pass	_	_
@@ -6486,7 +6517,7 @@
 34	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Isto a fim de secar a umidade absorvida pela membrana pelo próprio ambiente e pelo fluxo gasoso no ciclone, e também, para aplicar a mesma metodologia para todos os ensaios.
-# sent_id = 263-20141003-MONOGRAFIA_0-211
+# sent_id = 263-20141003-MONOGRAFIA_0-215
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	fim	fim	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
@@ -6527,10 +6558,10 @@
 34	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	36	det	_	_
 35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
 36	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Nas pesagens foi utilizado a balança analítica de cinco casas decimais da marca Mettler
-# sent_id = 263-20141003-MONOGRAFIA_0-212
+# sent_id = 263-20141003-MONOGRAFIA_0-216
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -6551,7 +6582,7 @@
 16	Mettler	Mettler	PROPN	_	Gender=Fem|Number=Sing	15	appos	_	_
 
 # text = Toledo tipo XS205 dual range.
-# sent_id = 263-20141003-MONOGRAFIA_0-213
+# sent_id = 263-20141003-MONOGRAFIA_0-217
 1	Toledo	Toledo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	tipo	tipo	PROPN	_	Number=Sing	1	flat:name	_	_
 3	XS205	XS205	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6560,7 +6591,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ainda, visando reduzir a influência da eletricidade estática existente na superfície da membrana, também foi empregado o eliminador de cargas estáticas da marca HAUG tipo PRX
-# sent_id = 263-20141003-MONOGRAFIA_0-214
+# sent_id = 263-20141003-MONOGRAFIA_0-218
 1	Ainda	ainda	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	visando	visar	VERB	_	VerbForm=Ger	21	advcl	_	_
@@ -6599,14 +6630,14 @@
 32	PRX	PRX	PROPN	_	Number=Sing	30	flat:name	_	_
 
 # text = U SET small.
-# sent_id = 263-20141003-MONOGRAFIA_0-215
+# sent_id = 263-20141003-MONOGRAFIA_0-219
 1	U	r	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	SET	Set	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	small	small	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Com este excesso de cargas removido anteriormente a cada pesagem, obteve-se medidas mas precisa das massas desejadas.
-# sent_id = 263-20141003-MONOGRAFIA_0-216
+# sent_id = 263-20141003-MONOGRAFIA_0-220
 1	Com	com	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	excesso	excesso	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -6632,16 +6663,16 @@
 21	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 5.8.
-# sent_id = 263-20141003-MONOGRAFIA_0-217
+# sent_id = 263-20141003-MONOGRAFIA_0-221
 1	5.8	5.8	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Eficiência
-# sent_id = 263-20141003-MONOGRAFIA_0-218
+# sent_id = 263-20141003-MONOGRAFIA_0-222
 1	Eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Segundo Almeida Filho (2008), o cálculo da eficiência total do equipamento (𝜂) na limpeza de efluentes gasosos é dado pela equação 5, a seguir: onde
-# sent_id = 263-20141003-MONOGRAFIA_0-219
+# sent_id = 263-20141003-MONOGRAFIA_0-223
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Almeida	Almeida	PROPN	_	Gender=Masc|Number=Sing	27	obl	_	_
 3	Filho	Filho	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -6684,7 +6715,7 @@
 36	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
 
 # text = 𝐶0 é a concentração inicial de particulados no fluxo gasoso de entrada (g.m-3);
-# sent_id = 263-20141003-MONOGRAFIA_0-220
+# sent_id = 263-20141003-MONOGRAFIA_0-224
 1	𝐶0	𝐶0	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6705,7 +6736,7 @@
 17	;	;	PUNCT	_	_	4	punct	_	_
 
 # text = 𝐶𝑠 é a concentração final de particulados no fluxo gasoso de saída (g.m-3).
-# sent_id = 263-20141003-MONOGRAFIA_0-221
+# sent_id = 263-20141003-MONOGRAFIA_0-225
 1	𝐶𝑠	𝐶𝑠	PROPN	_	Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6726,7 +6757,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Considerando a definição da concentração (𝐶) dentro das tubulações, pela seguinte equação 6.
-# sent_id = 263-20141003-MONOGRAFIA_0-222
+# sent_id = 263-20141003-MONOGRAFIA_0-226
 1	Considerando	considerar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	definição	definição	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -6752,7 +6783,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = onde 𝑚 é a massa coleta durante a amostragem (g);
-# sent_id = 263-20141003-MONOGRAFIA_0-223
+# sent_id = 263-20141003-MONOGRAFIA_0-227
 1	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	5	nsubj	_	_
 2	𝑚	𝑚	PROPN	_	Number=Sing	1	flat:name	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -6768,7 +6799,7 @@
 13	;	;	PUNCT	_	_	5	punct	_	_
 
 # text = 𝑄 é a vazão volumétrica do fluxo (m-3.s-1); e 𝑡 é o tempo de amostragem (s).
-# sent_id = 263-20141003-MONOGRAFIA_0-224
+# sent_id = 263-20141003-MONOGRAFIA_0-228
 1	𝑄	𝑄	PROPN	_	Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6794,8 +6825,8 @@
 22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = As equações das concentrações na entrada e na saída superior do ciclone são dadas pelas equações 7 e 8. onde ∆𝑚𝑠𝑜𝑛𝑑𝑎 0 e ∆𝑚𝑠𝑜𝑛𝑑𝑎𝑠 são as diferenças de massa das amostragens antes e após as amostragens isocinéticas, respectivamente na entrada e na saída superior do ciclone (g);
-# sent_id = 263-20141003-MONOGRAFIA_0-225
+# text = As equações das concentrações na entrada e na saída superior do ciclone são dadas pelas equações 7 e 8.
+# sent_id = 263-20141003-MONOGRAFIA_0-229
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -6825,50 +6856,53 @@
 22	7	7	NUM	_	NumType=Card	21	nummod	_	_
 23	e	e	CCONJ	_	_	24	cc	_	_
 24	8	8	NUM	_	NumType=Card	22	conj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
-26	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	_	_
-27	∆𝑚𝑠𝑜𝑛𝑑𝑎	∆𝑚𝑠𝑜𝑛𝑑𝑎	PROPN	_	Number=Sing	26	flat:name	_	_
-28	0	0	NUM	_	NumType=Card	27	conj	_	_
-29	e	e	CCONJ	_	_	30	cc	_	_
-30	∆𝑚𝑠𝑜𝑛𝑑𝑎𝑠	∆𝑚𝑠𝑜𝑛𝑑𝑎𝑠	PROPN	_	Number=Sing	28	conj	_	_
-31	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
-32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	18	acl:relcl	_	_
-34	de	de	ADP	_	_	35	case	_	_
-35	massa	massa	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-36-37	das	_	_	_	_	_	_	_	_
-36	de	de	ADP	_	_	38	case	_	_
-37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
-38	amostragens	amostragem	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
-39	antes	antes	ADV	_	_	33	advmod	_	_
-40	e	e	CCONJ	_	_	43	cc	_	_
-41	após	após	ADP	_	_	43	case	_	_
-42	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
-43	amostragens	amostragem	NOUN	_	Gender=Fem|Number=Plur	39	conj	_	_
-44	isocinéticas	isocinético	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	18	punct	_	_
-46	respectivamente	respectivamente	ADV	_	_	49	advmod	_	_
-47-48	na	_	_	_	_	_	_	_	_
-47	em	em	ADP	_	_	49	case	_	_
-48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
-50	e	e	CCONJ	_	_	53	cc	_	_
-51-52	na	_	_	_	_	_	_	_	_
-51	em	em	ADP	_	_	53	case	_	_
-52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	saída	saída	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
-54	superior	alto	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	_
-55-56	do	_	_	_	_	_	_	_	_
-55	de	de	ADP	_	_	57	case	_	_
-56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
-57	ciclone	ciclone	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	_
-58	(	(	PUNCT	_	_	59	punct	_	SpaceAfter=No
-59	g	g	NOUN	_	Gender=Masc|Number=Plur	57	appos	_	SpaceAfter=No
-60	)	)	PUNCT	_	_	59	punct	_	SpaceAfter=No
-61	;	;	PUNCT	_	_	18	punct	_	_
+25	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n\n
+
+# text = onde ∆𝑚𝑠𝑜𝑛𝑑𝑎 0 e ∆𝑚𝑠𝑜𝑛𝑑𝑎𝑠 são as diferenças de massa das amostragens antes e após as amostragens isocinéticas, respectivamente na entrada e na saída superior do ciclone (g);
+# sent_id = 263-20141003-MONOGRAFIA_0-230
+1	onde	onde	PRON	_	PronType=Rel	8	nsubj	_	_
+2	∆𝑚𝑠𝑜𝑛𝑑𝑎	∆𝑚𝑠𝑜𝑛𝑑𝑎	PROPN	_	Number=Sing	1	flat:name	_	_
+3	0	0	NUM	_	NumType=Card	5	nummod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	∆𝑚𝑠𝑜𝑛𝑑𝑎𝑠	∆𝑚𝑠𝑜𝑛𝑑𝑎𝑠	PROPN	_	Number=Sing	1	nmod	_	_
+6	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	massa	massa	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	amostragens	amostragem	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14	antes	antes	ADV	_	_	8	advmod	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
+16	após	após	ADP	_	_	18	case	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	amostragens	amostragem	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+19	isocinéticas	isocinético	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	8	punct	_	_
+21	respectivamente	respectivamente	ADV	_	_	24	advmod	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	saída	saída	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
+29	superior	alto	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ciclone	ciclone	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	g	g	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	;	;	PUNCT	_	_	8	punct	_	_
 
 # text = 𝑄𝑠𝑜𝑛𝑑𝑎 0 e 𝑄𝑠𝑜𝑛𝑑𝑎 𝑠 são as vazões volumétricas de gás no fluxo na entrada e na saída superior, respectivamente (m3.s-1).
-# sent_id = 263-20141003-MONOGRAFIA_0-226
+# sent_id = 263-20141003-MONOGRAFIA_0-231
 1	𝑄𝑠𝑜𝑛𝑑𝑎	𝑄𝑠𝑜𝑛𝑑𝑎	PROPN	_	Number=Sing	8	nsubj	_	_
 2	0	0	NUM	_	NumType=Card	4	nummod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6902,7 +6936,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Por sua vez, como os tempos de amostragem são mesmos nos experimentos efetuados, resulta na equação da eficiência do equipamento na coleta de material particulado, dada por: 6.
-# sent_id = 263-20141003-MONOGRAFIA_0-227
+# sent_id = 263-20141003-MONOGRAFIA_0-232
 1	Por	por	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 2	sua	sua	ADP	_	_	3	case	_	_
 3	vez	vez	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -6943,18 +6977,18 @@
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
 35	por	por	ADP	_	_	37	case	_	SpaceAfter=No
-36	:	:	PUNCT	_	_	37	punct	_	_
+36	:	:	PUNCT	_	_	37	punct	_	SpacesAfter=\s\n
 37	6	6	NUM	_	NumType=Card	34	obl:agent	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = RESULTADOS 6.1.
-# sent_id = 263-20141003-MONOGRAFIA_0-228
+# sent_id = 263-20141003-MONOGRAFIA_0-233
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	6.1	6.1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Adaptações do Duto de Saída
-# sent_id = 263-20141003-MONOGRAFIA_0-229
+# sent_id = 263-20141003-MONOGRAFIA_0-234
 1	Adaptações	Adaptação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6964,7 +6998,7 @@
 6	Saída	saída	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = Para que a metodologia da amostragem isocinética fosse possível de ser empregada, foi necessário avaliar o perfil de velocidades tanto no duto de entrada quanto no duto de saída superior.
-# sent_id = 263-20141003-MONOGRAFIA_0-230
+# sent_id = 263-20141003-MONOGRAFIA_0-235
 1	Para	para	SCONJ	_	_	10	mark	_	_
 2	que	que	SCONJ	_	_	10	mark	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7005,7 +7039,7 @@
 35	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Dessa maneira, foi analisado o comportamento do fluxo de gás, principalmente em relação ao duto superior e as configurações deste testados, como apresentado na Figura 17.
-# sent_id = 263-20141003-MONOGRAFIA_0-231
+# sent_id = 263-20141003-MONOGRAFIA_0-236
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7047,18 +7081,36 @@
 34	17	17	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Fonte:
-# sent_id = 263-20141003-MONOGRAFIA_0-232
+# text = Figura 17:
+# sent_id = 263-20141003-MONOGRAFIA_0-237
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Configurações testadas para o duto de saída do ciclone.
+# sent_id = 263-20141003-MONOGRAFIA_0-238
+1	Configurações	Configuração	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	testadas	testar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	duto	duto	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	saída	saída	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ciclone	ciclone	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Fonte: Acervo pessoal
+# sent_id = 263-20141003-MONOGRAFIA_0-239
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Acervo pessoal
-# sent_id = 263-20141003-MONOGRAFIA_0-233
-1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 
 # text = A configuração inicial proposta para o duto superior foi um cilindro uniforme com o mesmo diâmetro da saída superior do ciclone de 12 cm, conforme ilustrada através da Figura 17 (a).
-# sent_id = 263-20141003-MONOGRAFIA_0-234
+# sent_id = 263-20141003-MONOGRAFIA_0-240
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7102,7 +7154,7 @@
 38	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Contudo, após levantar o perfil de velocidades através de um tubo de Pitot, notou-se a existência de vórtex em decorrência do movimento ciclônico do fluxo gasoso que se manteve ao longo no duto.
-# sent_id = 263-20141003-MONOGRAFIA_0-235
+# sent_id = 263-20141003-MONOGRAFIA_0-241
 1	Contudo	contudo	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	após	após	SCONJ	_	_	4	mark	_	_
@@ -7112,7 +7164,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	velocidades	velocidade	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 9	através	através	ADV	_	_	4	advmod	_	_
-10	de	de	ADP	_	_	12	case	_	_
+10	de	de	ADP	_	_	12	case	_	SpacesAfter=\s\n
 11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 13	de	de	ADP	_	_	14	case	_	_
@@ -7151,7 +7203,7 @@
 41	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Portanto, tal comportamento não era apropriado para a metodologia da amostragem isocinética e buscou-se outra alternativa.
-# sent_id = 263-20141003-MONOGRAFIA_0-236
+# sent_id = 263-20141003-MONOGRAFIA_0-242
 1	Portanto	portanto	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -7176,7 +7228,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Uma segunda configuração testada, sendo construído outro duto com uma redução do diâmetro interno do tubo para 6 cm, equivalente à metade da saída superior do ciclone, conforme mostrado na Figura 17 (b).
-# sent_id = 263-20141003-MONOGRAFIA_0-237
+# sent_id = 263-20141003-MONOGRAFIA_0-243
 1	Uma	um	NUM	_	NumType=Card	3	nummod	_	_
 2	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -7230,7 +7282,7 @@
 45	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Na análise do perfil de velocidades, mais uma vez foi registrado a existência de vórtex ao longo da tubulação.
-# sent_id = 263-20141003-MONOGRAFIA_0-238
+# sent_id = 263-20141003-MONOGRAFIA_0-244
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7262,7 +7314,7 @@
 25	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Por fim, optou-se por aumentar o comprimento do duto e também implementar um cotovelo de 90°, conforme ilustrado pela configuração final na Figura 18.
-# sent_id = 263-20141003-MONOGRAFIA_0-239
+# sent_id = 263-20141003-MONOGRAFIA_0-245
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7300,7 +7352,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Desta configuração, não houve a formação de vórtex e o perfil de velocidades encontrado foi adequado à amostragem isocinética.
-# sent_id = 263-20141003-MONOGRAFIA_0-240
+# sent_id = 263-20141003-MONOGRAFIA_0-246
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7328,13 +7380,13 @@
 23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 18:
-# sent_id = 263-20141003-MONOGRAFIA_0-241
+# sent_id = 263-20141003-MONOGRAFIA_0-247
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Configuração final do duto de saída superior do ciclone.
-# sent_id = 263-20141003-MONOGRAFIA_0-242
+# sent_id = 263-20141003-MONOGRAFIA_0-248
 1	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	final	final	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7351,14 +7403,14 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal
-# sent_id = 263-20141003-MONOGRAFIA_0-243
+# sent_id = 263-20141003-MONOGRAFIA_0-249
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 
 # text = O duto horizontal construído teve 11 cm de diâmetro interno e 130 cm de comprimento.
-# sent_id = 263-20141003-MONOGRAFIA_0-244
+# sent_id = 263-20141003-MONOGRAFIA_0-250
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	duto	duto	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	horizontal	horizontal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7377,7 +7429,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Além disso, o orifício de amostragem foi situado a 112 cm do cotovelo de 90° devido ao estudo dos perfis de velocidade ao longo da distância, estando completamente desenvolvido neste ponto.
-# sent_id = 263-20141003-MONOGRAFIA_0-245
+# sent_id = 263-20141003-MONOGRAFIA_0-251
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -7425,21 +7477,21 @@
 38	em	em	ADP	_	_	40	case	_	_
 39	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
 40	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = 6.2.
-# sent_id = 263-20141003-MONOGRAFIA_0-246
+# sent_id = 263-20141003-MONOGRAFIA_0-252
 1	6.2	6.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Perfis de Velocidade
-# sent_id = 263-20141003-MONOGRAFIA_0-247
+# sent_id = 263-20141003-MONOGRAFIA_0-253
 1	Perfis	Perfis	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Velocidade	velocidade	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Para a configuração final do equipamento, mediu-se as velocidades pontuais do fluxo gasoso em função da posição, com o auxílio de um anemômetro e um tubo de Pitot.
-# sent_id = 263-20141003-MONOGRAFIA_0-248
+# sent_id = 263-20141003-MONOGRAFIA_0-254
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -7481,7 +7533,7 @@
 35	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Assim, obteve-se o perfil de velocidades no duto de entrada, cujo diâmetro era de 5,5 cm, na posição imediatamente anterior a conexão ao ciclone.
-# sent_id = 263-20141003-MONOGRAFIA_0-249
+# sent_id = 263-20141003-MONOGRAFIA_0-255
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	obteve-se	_	_	_	_	_	_	_	_
@@ -7520,7 +7572,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O passo empregando foi de 1 cm, da extremidade do tubo contendo o orifício até o seu oposto a 5,5 cm.
-# sent_id = 263-20141003-MONOGRAFIA_0-250
+# sent_id = 263-20141003-MONOGRAFIA_0-256
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	passo	passo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	empregando	empregar	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -7550,7 +7602,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Então, foram medidas as velocidades para as vazões dadas pelas perdas de carga de 100, 300 e 500 mmH2O, e para as temperaturas ambientes e a temperatura de 90°C.
-# sent_id = 263-20141003-MONOGRAFIA_0-251
+# sent_id = 263-20141003-MONOGRAFIA_0-257
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -7587,7 +7639,7 @@
 33	90°C.	90°C.	PROPN	_	Gender=Unsp|Number=Sing	31	nmod	_	_
 
 # text = Os resultados encontrados são apresentados na Figura 19 a seguir:
-# sent_id = 263-20141003-MONOGRAFIA_0-252
+# sent_id = 263-20141003-MONOGRAFIA_0-258
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7603,13 +7655,13 @@
 12	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = Figura 19:
-# sent_id = 263-20141003-MONOGRAFIA_0-253
+# sent_id = 263-20141003-MONOGRAFIA_0-259
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Perfil de velocidades no duto de entrada.
-# sent_id = 263-20141003-MONOGRAFIA_0-254
+# sent_id = 263-20141003-MONOGRAFIA_0-260
 1	Perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	velocidades	velocidade	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -7622,14 +7674,14 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal
-# sent_id = 263-20141003-MONOGRAFIA_0-255
+# sent_id = 263-20141003-MONOGRAFIA_0-261
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 
 # text = O mesmo procedimento foi realizado para o duto de saída, do orifício de amostragem até a extremidade oposta a 11 cm, tendo 1 cm de passo.
-# sent_id = 263-20141003-MONOGRAFIA_0-256
+# sent_id = 263-20141003-MONOGRAFIA_0-262
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -7663,7 +7715,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os resultados obtidos são apresentados na Figura 20.
-# sent_id = 263-20141003-MONOGRAFIA_0-257
+# sent_id = 263-20141003-MONOGRAFIA_0-263
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7674,10 +7726,10 @@
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	obl	_	_
 9	20	20	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 20: Perfil de velocidades no duto de saída superior.
-# sent_id = 263-20141003-MONOGRAFIA_0-258
+# sent_id = 263-20141003-MONOGRAFIA_0-264
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	20	20	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7694,14 +7746,14 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal
-# sent_id = 263-20141003-MONOGRAFIA_0-259
+# sent_id = 263-20141003-MONOGRAFIA_0-265
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 
 # text = Desse modo foi possível determinar o ponto de amostragem, como sendo pertence a um trecho com velocidade constante, resultando em um menor erro no procedimento de amostragem.
-# sent_id = 263-20141003-MONOGRAFIA_0-260
+# sent_id = 263-20141003-MONOGRAFIA_0-266
 1-2	Desse	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -7738,7 +7790,7 @@
 32	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Portanto, pela análise dos dois gráficos plotados, assumiu-se como ponto de amostragem no duto de entrada o ponto a 2 cm do orifício, e para o duto de saída superior, a 9 cm do orifício de amostragem.
-# sent_id = 263-20141003-MONOGRAFIA_0-261
+# sent_id = 263-20141003-MONOGRAFIA_0-267
 1	Portanto	portanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	pela	_	_	_	_	_	_	_	_
@@ -7795,18 +7847,18 @@
 48	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 6.3.
-# sent_id = 263-20141003-MONOGRAFIA_0-262
+# sent_id = 263-20141003-MONOGRAFIA_0-268
 1	6.3	6.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Operação a Seco
-# sent_id = 263-20141003-MONOGRAFIA_0-263
+# sent_id = 263-20141003-MONOGRAFIA_0-269
 1	Operação	operação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	Seco	seco	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A partir da metodologia descrita anteriormente, realizou-se as coletas do material particulado a fim de se obter a eficiência.
-# sent_id = 263-20141003-MONOGRAFIA_0-264
+# sent_id = 263-20141003-MONOGRAFIA_0-270
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	5	fixed	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7836,7 +7888,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A Figura 21 ilustra o procedimento, na entrada (a) em que há uma maior concentração do material na membrana, e na saída (b) no qual a concentração retida é consideravelmente menor.
-# sent_id = 263-20141003-MONOGRAFIA_0-265
+# sent_id = 263-20141003-MONOGRAFIA_0-271
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	21	21	NUM	_	NumType=Card	2	nummod	_	_
@@ -7884,16 +7936,16 @@
 40	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 41	consideravelmente	consideravelmente	ADV	_	_	42	advmod	_	_
 42	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	30	acl:relcl	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 21:
-# sent_id = 263-20141003-MONOGRAFIA_0-266
+# sent_id = 263-20141003-MONOGRAFIA_0-272
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	21	21	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Membranas após as coletas na entrada (a) e saída (b) do ciclone.
-# sent_id = 263-20141003-MONOGRAFIA_0-267
+# sent_id = 263-20141003-MONOGRAFIA_0-273
 1	Membranas	Membranas	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	após	após	ADP	_	_	4	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -7917,7 +7969,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Acervo pessoal Primeiramente, foram feitos os ensaios experimentais em duplicara para a condição a seco no ciclone, isto para se encontrar o ponto ótimo de dois parâmetros definidos: a vazão de ar na entrada do ciclone, dada pela queda de pressão na placa de orifício; e a vazão de do particulado, dada pela porcentagem da rotação máxima do prato rotativo.
-# sent_id = 263-20141003-MONOGRAFIA_0-268
+# sent_id = 263-20141003-MONOGRAFIA_0-274
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -8007,7 +8059,7 @@
 78	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A temperatura foi mantida constante e igual a 90°C em todos os ensaios.
-# sent_id = 263-20141003-MONOGRAFIA_0-269
+# sent_id = 263-20141003-MONOGRAFIA_0-275
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8024,7 +8076,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para isto, utilizou-se a rocha fosfática com diâmetro volumétrico de 25 μm, e então pela amostragem isocinética foi calculado a eficiência da limpeza da corrente gasosa pelo equipamento.
-# sent_id = 263-20141003-MONOGRAFIA_0-270
+# sent_id = 263-20141003-MONOGRAFIA_0-276
 1	Para	para	ADP	_	_	2	case	_	_
 2	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8068,7 +8120,7 @@
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os resultados estão apresentados nas Tabelas 4, 5 e 6.
-# sent_id = 263-20141003-MONOGRAFIA_0-271
+# sent_id = 263-20141003-MONOGRAFIA_0-277
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -8085,7 +8137,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 4: Rocha fosfática, 25 μm, perda de carga na entrada de 100 mmH2O.
-# sent_id = 263-20141003-MONOGRAFIA_0-272
+# sent_id = 263-20141003-MONOGRAFIA_0-278
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8105,10 +8157,10 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	100	100	NUM	_	NumType=Card	18	nummod	_	_
 18	mmH2O	mmh2o	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 5: Rocha fosfática, 25 μm, perda de carga na entrada de 300 mmH2O.
-# sent_id = 263-20141003-MONOGRAFIA_0-273
+# sent_id = 263-20141003-MONOGRAFIA_0-279
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	4	punct	_	_
@@ -8131,13 +8183,13 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 6:
-# sent_id = 263-20141003-MONOGRAFIA_0-274
+# sent_id = 263-20141003-MONOGRAFIA_0-280
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Rocha fosfática, 25 μm, perda de carga na entrada de 500 mmH2O.
-# sent_id = 263-20141003-MONOGRAFIA_0-275
+# sent_id = 263-20141003-MONOGRAFIA_0-281
 1	Rocha	Rocha	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	fosfática	fosfático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -8157,7 +8209,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Contudo, as eficiências foram muito próximas para as condições de 300 mmH2O, 35, e 65%, com eficiência de respectivamente 0,899 e 0,906, bem como para a de 500 mmH2O, 35, e 65%, com eficiência de 0,886 e 0,905, respectivamente.
-# sent_id = 263-20141003-MONOGRAFIA_0-276
+# sent_id = 263-20141003-MONOGRAFIA_0-282
 1	Contudo	contudo	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -8211,7 +8263,7 @@
 51	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Assim, fez-se novas coletas isocinéticas para estes valores dos parâmetros e empregando um particulado de menor diâmetro, a fuligem.
-# sent_id = 263-20141003-MONOGRAFIA_0-277
+# sent_id = 263-20141003-MONOGRAFIA_0-283
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	fez-se	_	_	_	_	_	_	_	_
@@ -8240,7 +8292,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os valores das eficiências estão apresentados nas Figuras 7 e 8.
-# sent_id = 263-20141003-MONOGRAFIA_0-278
+# sent_id = 263-20141003-MONOGRAFIA_0-284
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8256,10 +8308,10 @@
 11	7	7	NUM	_	NumType=Card	10	nummod	_	_
 12	e	e	CCONJ	_	_	13	cc	_	_
 13	8	8	NUM	_	NumType=Card	11	conj	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 7: Fuligem, perda de carga na entrada de 300 mmH2O.
-# sent_id = 263-20141003-MONOGRAFIA_0-279
+# sent_id = 263-20141003-MONOGRAFIA_0-285
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8278,7 +8330,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 8: Fuligem, perda de carga na entrada de 500 mmH2O.
-# sent_id = 263-20141003-MONOGRAFIA_0-280
+# sent_id = 263-20141003-MONOGRAFIA_0-286
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8:	8:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Fuligem	Fuligem	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -8296,7 +8348,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Assim, através destas análises complementares, foi possível determinar os parâmetros para a condição ótima da eficiência para o equipamento operando a seco.
-# sent_id = 263-20141003-MONOGRAFIA_0-281
+# sent_id = 263-20141003-MONOGRAFIA_0-287
 1	Assim	assim	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	através	através	ADV	_	_	1	advmod	_	_
@@ -8328,7 +8380,7 @@
 27	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O qual foi uma vazão de ar na entrada dada pela perda de carga de 500 mmH2O, e a vazão de material particulado dado pela rotação de 65% da máxima para o prato de alimentação do particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-282
+# sent_id = 263-20141003-MONOGRAFIA_0-288
 1	O	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
@@ -8381,18 +8433,18 @@
 45	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 6.4.
-# sent_id = 263-20141003-MONOGRAFIA_0-283
+# sent_id = 263-20141003-MONOGRAFIA_0-289
 1	6.4	6.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Operação a Úmido
-# sent_id = 263-20141003-MONOGRAFIA_0-284
+# sent_id = 263-20141003-MONOGRAFIA_0-290
 1	Operação	operação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	Úmido	Úmido	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O passo seguinte foi realizar experimentos com o ciclone operando a úmido, com o acionamento dos bicos pulverizadores de água.
-# sent_id = 263-20141003-MONOGRAFIA_0-285
+# sent_id = 263-20141003-MONOGRAFIA_0-291
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	passo	passo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -8419,7 +8471,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Dessa forma, a etapa visa analisar a vazão volumétrica de água enviada ao sistema.
-# sent_id = 263-20141003-MONOGRAFIA_0-286
+# sent_id = 263-20141003-MONOGRAFIA_0-292
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -8442,7 +8494,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Com a condição ótima a seco fixada, ou seja, 500 mmH2O na entrada e 65% da rotação do prato de alimentação do particulado, além da temperatura de 90°C e mantendo as válvulas de todos os bicos pulverizadores de água abertos.
-# sent_id = 263-20141003-MONOGRAFIA_0-287
+# sent_id = 263-20141003-MONOGRAFIA_0-293
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	condição	condição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -8500,7 +8552,7 @@
 50	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Então, foram feitas coletas isocinéticas em duplicatas para as vazões de água de 150, 200, 250 e 300 L.h-1 e também a operação a seco (0 L.h-1) a fim de preservar as mesmas condições ambientais registradas para a operação a úmido e se ter um resultado comparativo mais preciso.
-# sent_id = 263-20141003-MONOGRAFIA_0-288
+# sent_id = 263-20141003-MONOGRAFIA_0-294
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -8538,7 +8590,7 @@
 35	de	de	ADP	_	_	33	fixed	_	_
 36	preservar	preservar	VERB	_	VerbForm=Inf	4	advcl	_	_
 37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
-38	mesmas	mesmo	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	_
+38	mesmas	mesmo	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	SpacesAfter=\s\n
 39	condições	condição	NOUN	_	Gender=Fem|Number=Plur	36	obj	_	_
 40	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	_
 41	registradas	registrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	39	acl	_	_
@@ -8558,7 +8610,7 @@
 55	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Assim, utilizou-se três materiais particulados de diâmetros volumétricos distintos, as rochas fosfáticas de 25 μm e 5 μm, e a fuligem com 9 μm de diâmetro.
-# sent_id = 263-20141003-MONOGRAFIA_0-289
+# sent_id = 263-20141003-MONOGRAFIA_0-295
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	utilizou-se	_	_	_	_	_	_	_	_
@@ -8593,7 +8645,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os valores obtidos para as condições do fluxo gasoso, na entrada e saída, e a eficiência calculada dos experimentos são exibidos nas Tabelas 9, 10 e 11.
-# sent_id = 263-20141003-MONOGRAFIA_0-290
+# sent_id = 263-20141003-MONOGRAFIA_0-296
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	26	nsubj:pass	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8634,19 +8686,8 @@
 34	11	11	NUM	_	NumType=Card	32	conj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
-# text = Tabela 9: Rocha fosfática, 25 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-291
-1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	9:	9:	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Rocha	rocha	PROPN	_	Number=Sing	1	flat:name	_	_
-4	fosfática	fosfático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	25	25	NUM	_	NumType=Card	7	nummod	_	_
-7	μm	μm	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = Tabela 10: Fuligem, 9 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-292
+# sent_id = 263-20141003-MONOGRAFIA_0-297
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8654,16 +8695,16 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	9	9	NUM	_	NumType=Card	7	nummod	_	_
 7	μm	μm	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 11:
-# sent_id = 263-20141003-MONOGRAFIA_0-293
+# sent_id = 263-20141003-MONOGRAFIA_0-298
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Rocha fosfática, 5 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-294
+# sent_id = 263-20141003-MONOGRAFIA_0-299
 1	Rocha	Rocha	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	fosfática	fosfático	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -8672,7 +8713,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para os particulados maiores, a rocha fosfática de 25 e a fuligem de 9 μm, as eficiências de coleta foram superiores para os ensaios a úmido em relação aos a seco, o que comprova o melhor desempenho da limpeza de gases pelo ciclone úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-295
+# sent_id = 263-20141003-MONOGRAFIA_0-300
 1	Para	para	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	particulados	particulado	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
@@ -8729,7 +8770,7 @@
 51	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Em relação à rocha fosfática, a eficiência teve um pequeno incremento, passando de 89% a 93% com a menor vazão de água de 150 L.h-1, até o máximo de 94% alcançado na maior vazão de 300 L.h-1.
-# sent_id = 263-20141003-MONOGRAFIA_0-296
+# sent_id = 263-20141003-MONOGRAFIA_0-301
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -8780,7 +8821,7 @@
 46	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Em relação à fuligem, houve um aumento considerável da eficiência das operações com a introdução da água, passando de 75% a seco para 86% na vazão mínima usada até um máximo de 92% na maior vazão, ou seja, um aumento na eficiência de 16%.
-# sent_id = 263-20141003-MONOGRAFIA_0-297
+# sent_id = 263-20141003-MONOGRAFIA_0-302
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -8850,7 +8891,7 @@
 60	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Já para a rocha fosfática de 5 μm apresentou um comportamento distinto, pois a introdução da água no ciclone apresentou pouca influência na separação das partículas.
-# sent_id = 263-20141003-MONOGRAFIA_0-298
+# sent_id = 263-20141003-MONOGRAFIA_0-303
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8889,7 +8930,7 @@
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Como visto na Tabela 11, o aumento da eficiência foi de 68% a seco para 70% na máxima da operação a úmido, tendo um incremento de apenas 2,5%.
-# sent_id = 263-20141003-MONOGRAFIA_0-299
+# sent_id = 263-20141003-MONOGRAFIA_0-304
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8934,7 +8975,7 @@
 38	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Portanto, em todos os conjuntos de experimentos, a máxima da eficiência foi atingida na maior vazão de água empregada, 300 L.h-1.
-# sent_id = 263-20141003-MONOGRAFIA_0-300
+# sent_id = 263-20141003-MONOGRAFIA_0-305
 1	Portanto	portanto	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	em	em	ADP	_	_	6	case	_	_
@@ -8966,7 +9007,7 @@
 27	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Ademais, para o particulado com maiores diâmetros médios, a introdução da água na vazão mínima estudada, ou seja 150 L.h-1, elevou a eficiência em 3,9% para a rocha fosfática de 25 μm e em 10,7% para a fuligem.
-# sent_id = 263-20141003-MONOGRAFIA_0-301
+# sent_id = 263-20141003-MONOGRAFIA_0-306
 1	Ademais	Ademais	ADV	_	_	27	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -9015,10 +9056,10 @@
 44	para	para	ADP	_	_	46	case	_	_
 45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	fuligem	fuligem	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n\n
 
 # text = Nesta etapa no trabalho, também foram feitas análises da granulometria do particulado em todas as condições.
-# sent_id = 263-20141003-MONOGRAFIA_0-302
+# sent_id = 263-20141003-MONOGRAFIA_0-307
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -9047,7 +9088,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Com o auxílio do equipamento Malvern Mastersizer, obteve-se a distribuição granulométrica em triplicata, sendo possível o diâmetro volumétrico de corte de 50% (D0,5), correspondente ao tamanho do diâmetro em que metade das partículas ficariam retidas.
-# sent_id = 263-20141003-MONOGRAFIA_0-303
+# sent_id = 263-20141003-MONOGRAFIA_0-308
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	auxílio	auxílio	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -9102,7 +9143,7 @@
 47	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Dessa maneira, pela média destes três valores encontrou-se o diâmetro volumétrico de corte de 50% médio (D0,5 médio) das partículas, através da coleta de uma alíquota da lama escoante na saída inferior do ciclone úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-304
+# sent_id = 263-20141003-MONOGRAFIA_0-309
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -9164,7 +9205,7 @@
 50	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Assim, foram realizadas as análises da granulometria do material particulado inicial, ou seja na entrada, e na saída inferior após o processo de separação na denominada lama.
-# sent_id = 263-20141003-MONOGRAFIA_0-305
+# sent_id = 263-20141003-MONOGRAFIA_0-310
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -9208,7 +9249,7 @@
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os resultados estão apresentados nas Tabelas 12, 13 e 14 a seguir, para os três materiais estudados.
-# sent_id = 263-20141003-MONOGRAFIA_0-306
+# sent_id = 263-20141003-MONOGRAFIA_0-311
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -9233,13 +9274,13 @@
 21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 12:
-# sent_id = 263-20141003-MONOGRAFIA_0-307
+# sent_id = 263-20141003-MONOGRAFIA_0-312
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	12	12	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise granulométrica e eficiência para a rocha fosfática, 25 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-308
+# sent_id = 263-20141003-MONOGRAFIA_0-313
 1	Análise	Análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	granulométrica	granulométrico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -9254,13 +9295,13 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 13:
-# sent_id = 263-20141003-MONOGRAFIA_0-309
+# sent_id = 263-20141003-MONOGRAFIA_0-314
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise granulométrica e eficiência para a fuligem, 9 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-310
+# sent_id = 263-20141003-MONOGRAFIA_0-315
 1	Análise	Análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	granulométrica	granulométrico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -9271,16 +9312,16 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	9	9	NUM	_	NumType=Card	10	nummod	_	_
 10	μm	μm	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 14:
-# sent_id = 263-20141003-MONOGRAFIA_0-311
+# sent_id = 263-20141003-MONOGRAFIA_0-316
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise granulométrica e eficiência para a rocha fosfática, 5 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-312
+# sent_id = 263-20141003-MONOGRAFIA_0-317
 1	Análise	Análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	granulométrica	granulométrico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -9295,7 +9336,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Analisando os resultados, é possível notar que nos experimentos a úmido registraram um diâmetro médio volumétrico menor em relação ao encontrado para a operação a seco.
-# sent_id = 263-20141003-MONOGRAFIA_0-313
+# sent_id = 263-20141003-MONOGRAFIA_0-318
 1	Analisando	analisar	VERB	_	VerbForm=Ger	6	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
@@ -9330,7 +9371,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Tal fato indica que um maior número de partículas menores foi separado da corrente gasosa com a introdução da água pelo ciclone úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-314
+# sent_id = 263-20141003-MONOGRAFIA_0-319
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9363,7 +9404,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Assim, no fluxo de saída, emitido ao ambiente, há uma menor quantidade das partículas com menor diâmetro, as quais são mais danosas à saúde humana.
-# sent_id = 263-20141003-MONOGRAFIA_0-315
+# sent_id = 263-20141003-MONOGRAFIA_0-320
 1	Assim	assim	ADV	_	_	14	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -9404,7 +9445,7 @@
 34	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Para a rocha fosfática de maior granulometria, apresentada na Tabela 12, na operação a seco o diâmetro médio da distribuição das partículas coletadas foi de 40,7 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-316
+# sent_id = 263-20141003-MONOGRAFIA_0-321
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -9445,7 +9486,7 @@
 34	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = Já com a introdução da água, os diâmetros variaram entre 22,1 e 31,7 μm, comprovando uma melhora na coleta das partículas menores.
-# sent_id = 263-20141003-MONOGRAFIA_0-317
+# sent_id = 263-20141003-MONOGRAFIA_0-322
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9479,7 +9520,7 @@
 28	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = O mesmo pode se notar para fuligem, a qual passou do diâmetro médio volumétrico de 15,2 μm na operação a seco, para 14,2 a 14,7 nas operações a úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-318
+# sent_id = 263-20141003-MONOGRAFIA_0-323
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mesmo	mesmo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9520,7 +9561,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = E também para a rocha fosfática de menor granulometria, de 16,0 μm na operação a seco, para 9,3 a 10,2 μm nas operações a úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-319
+# sent_id = 263-20141003-MONOGRAFIA_0-324
 1	E	e	CCONJ	_	_	5	cc	_	_
 2	também	também	ADV	_	_	5	advmod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -9555,7 +9596,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Contudo, através das análises de granulometria nos experimentos, não foi observada uma relação direta entre a maior vazão de água injetada no ciclone e a diminuição do diâmetro médio coletado.
-# sent_id = 263-20141003-MONOGRAFIA_0-320
+# sent_id = 263-20141003-MONOGRAFIA_0-325
 1	Contudo	contudo	ADV	_	_	15	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	através	através	ADV	_	_	1	advmod	_	_
@@ -9599,12 +9640,12 @@
 37	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = 6.5.
-# sent_id = 263-20141003-MONOGRAFIA_0-321
+# sent_id = 263-20141003-MONOGRAFIA_0-326
 1	6.5	6.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Análise dos Bicos
-# sent_id = 263-20141003-MONOGRAFIA_0-322
+# sent_id = 263-20141003-MONOGRAFIA_0-327
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9612,13 +9653,13 @@
 4	Bicos	Bicos	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Injetores de Água
-# sent_id = 263-20141003-MONOGRAFIA_0-323
+# sent_id = 263-20141003-MONOGRAFIA_0-328
 1	Injetores	Injetor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Água	Água	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Por fim, visando determinar a influência do número de bicos injetores e assim como de suas posições, foram feitos ensaios para obter a eficiência e a distribuição granulométrica da coleta.
-# sent_id = 263-20141003-MONOGRAFIA_0-324
+# sent_id = 263-20141003-MONOGRAFIA_0-329
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -9648,7 +9689,7 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 28	e	e	CCONJ	_	_	30	cc	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpacesAfter=\s\n
 30	distribuição	distribuição	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
 31	granulométrica	granulométrico	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 32-33	da	_	_	_	_	_	_	_	_
@@ -9658,7 +9699,7 @@
 35	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Para isso aplicou-se três configurações para os bicos, foram elas: todos os oito bicos pulverizadores de água abertos (todos); somente os quatros situados na porção superior (superiores); e apenas os quatros bicos presentes no cilindro lateral que compõem o ciclone (laterais).
-# sent_id = 263-20141003-MONOGRAFIA_0-325
+# sent_id = 263-20141003-MONOGRAFIA_0-330
 1	Para	para	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
 3-4	aplicou-se	_	_	_	_	_	_	_	_
@@ -9719,7 +9760,7 @@
 55	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Ademais, empregou-se os mesmos valores dos parâmetros fixados anteriormente além de utilizar a fuligem, pois este é o particulado com necessidade de controle pelas usinas sucroalcooleiras.
-# sent_id = 263-20141003-MONOGRAFIA_0-326
+# sent_id = 263-20141003-MONOGRAFIA_0-331
 1	Ademais	Ademais	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	empregou-se	_	_	_	_	_	_	_	_
@@ -9757,7 +9798,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Além disso, foi usado também a vazão de água de 150 L.h-1, uma vez que apresentou um bom resultado de eficiência e corresponde ao menor consumo de água.
-# sent_id = 263-20141003-MONOGRAFIA_0-327
+# sent_id = 263-20141003-MONOGRAFIA_0-332
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -9795,7 +9836,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os resultados encontrados então indicados na Tabela 15 e 16.
-# sent_id = 263-20141003-MONOGRAFIA_0-328
+# sent_id = 263-20141003-MONOGRAFIA_0-333
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	_
@@ -9811,13 +9852,13 @@
 12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Tabela 15:
-# sent_id = 263-20141003-MONOGRAFIA_0-329
+# sent_id = 263-20141003-MONOGRAFIA_0-334
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	15	15	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise dos bicos injetores de água para a fuligem.
-# sent_id = 263-20141003-MONOGRAFIA_0-330
+# sent_id = 263-20141003-MONOGRAFIA_0-335
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -9832,13 +9873,13 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 16:
-# sent_id = 263-20141003-MONOGRAFIA_0-331
+# sent_id = 263-20141003-MONOGRAFIA_0-336
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise granulométrica e eficiência para a fuligem.
-# sent_id = 263-20141003-MONOGRAFIA_0-332
+# sent_id = 263-20141003-MONOGRAFIA_0-337
 1	Análise	Análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	granulométrica	granulométrico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -9849,7 +9890,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Dessa forma, avaliando a eficiência através da Tabela 15, esta foi maior enquanto todos as válvulas dos bicos injetores de água estavam abertos, como esperado e mantendo 86% da eficiência.
-# sent_id = 263-20141003-MONOGRAFIA_0-333
+# sent_id = 263-20141003-MONOGRAFIA_0-338
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -9895,12 +9936,12 @@
 39	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para o equipamento operando somente com os bicos superiores e laterais, obtiveram eficiências muito próximas, com 80,7 e 80% respectivamente.
-# sent_id = 263-20141003-MONOGRAFIA_0-334
+# sent_id = 263-20141003-MONOGRAFIA_0-339
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 4	operando	operar	VERB	_	VerbForm=Ger	3	acl	_	_
-5	somente	somente	ADV	_	_	4	advmod	_	_
+5	somente	somente	ADV	_	_	4	advmod	_	SpacesAfter=\s\n
 6	com	com	ADP	_	_	8	case	_	_
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	bicos	bico	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
@@ -9922,7 +9963,7 @@
 24	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Tal fato indica que nos experimentos, as posições dos bicos superiores e laterais tiveram contribuições semelhantes na eficiência.
-# sent_id = 263-20141003-MONOGRAFIA_0-335
+# sent_id = 263-20141003-MONOGRAFIA_0-340
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9951,7 +9992,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Contudo, pode-se aferir que estes atingiram volumes no interior do ciclone distintos, e assim, as impactações das partículas sólidas causadas pelas gotas de água pulverizadas foram somadas para atingir a eficiência de coleta obtida para o ciclone operando com todos os bicos abertos.
-# sent_id = 263-20141003-MONOGRAFIA_0-336
+# sent_id = 263-20141003-MONOGRAFIA_0-341
 1	Contudo	contudo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	pode-se	_	_	_	_	_	_	_	_
@@ -10011,7 +10052,7 @@
 52	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Em relação a análise granulométrica, as partículas coletadas na saída inferior do ciclone apresentaram um diâmetro médio superior ao original da fuligem de 8,8 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-337
+# sent_id = 263-20141003-MONOGRAFIA_0-342
 1	Em	em	ADP	_	_	4	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -10049,7 +10090,7 @@
 31	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Isso significa que a separação das partículas menores do fluxo gasoso é menos eficiente, como pode ser visto pelo diâmetro médio na configuração com todos os bicos abertos, cujo valor foi de 14,2 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-338
+# sent_id = 263-20141003-MONOGRAFIA_0-343
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	16	mark	_	_
@@ -10097,7 +10138,7 @@
 41	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Para a configuração com somente os bicos superiores abertos, obteve-se um diâmetro na lama de 15,1 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-339
+# sent_id = 263-20141003-MONOGRAFIA_0-344
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -10123,7 +10164,7 @@
 21	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Já para apenas os bicos laterais abertos, observou-se um comportamento distinto, pois foi medido um diâmetro menor, de 13,0 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-340
+# sent_id = 263-20141003-MONOGRAFIA_0-345
 1	Já	já	ADV	_	_	5	advmod	_	_
 2	para	para	ADP	_	_	5	case	_	_
 3	apenas	apenas	ADV	_	_	5	advmod	_	_
@@ -10149,10 +10190,10 @@
 22	de	de	ADP	_	_	24	case	_	_
 23	13,0	13,0	NUM	_	NumType=Card	24	nummod	_	_
 24	μm	μm	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 7. CONCLUSÃO Primeiramente, foi necessário realizar modificações no ciclone úmido, principalmente em relação a saída superior, a fim de torná-la adequada a metodologia da amostragem isocinética, conforme obtido pelo perfil de velocidade.
-# sent_id = 263-20141003-MONOGRAFIA_0-341
+# sent_id = 263-20141003-MONOGRAFIA_0-346
 1	7	7	NUM	_	NumType=Card	7	nsubj	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 3	CONCLUSÃO	Concluser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
@@ -10201,7 +10242,7 @@
 42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Através das amostragens isocinéticas, obteve-se que a condição ótima para a eficiência do ciclone operando a seco e a temperatura de 90°C, a qual foi a vazão de ar dada pela perda de carga de 500 mmH2O e da vazão de material particulado dada pela rotação de prato de alimentação de 65%.
-# sent_id = 263-20141003-MONOGRAFIA_0-342
+# sent_id = 263-20141003-MONOGRAFIA_0-347
 1	Através	através	ADV	_	_	7	advmod	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -10272,7 +10313,7 @@
 62	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Nos experimentos a úmido, mantidas estas condições encontradas, variou-se a vazão de água injetada no ciclone pelos oito bicos e o tamanho do particulado.
-# sent_id = 263-20141003-MONOGRAFIA_0-343
+# sent_id = 263-20141003-MONOGRAFIA_0-348
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -10312,7 +10353,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Assim, comparando os experimentos a seco e a úmido, a eficiência do ciclone úmido registrou um aumento para os particulados com diâmetro de corte de 50% médio (D0,5) de 25 e 9 μm, se elevando em 3,9 e 10,7% respectivamente com a introdução da água a 150 L.h-1.
-# sent_id = 263-20141003-MONOGRAFIA_0-344
+# sent_id = 263-20141003-MONOGRAFIA_0-349
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	comparando	comparar	VERB	_	VerbForm=Ger	18	advcl	_	_
@@ -10375,7 +10416,7 @@
 58	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Contudo para o menor particulado estudado, de 5 μm, tal fato não foi observado, sendo que sua eficiência oscilou em torno no valor registrado a seco, portanto a água pulverizada teve menos influência na impactação das partículas.
-# sent_id = 263-20141003-MONOGRAFIA_0-345
+# sent_id = 263-20141003-MONOGRAFIA_0-350
 1	Contudo	contudo	ADV	_	_	5	advmod	_	_
 2	para	para	ADP	_	_	5	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -10426,7 +10467,7 @@
 45	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Ademais, a eficiência aumentou quanto maior o tamanho do particulado, isto nas duas operações.
-# sent_id = 263-20141003-MONOGRAFIA_0-346
+# sent_id = 263-20141003-MONOGRAFIA_0-351
 1	Ademais	Ademais	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -10450,7 +10491,7 @@
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A seco para os diâmetros de 25, 9 e 5 μm, obteve-se eficiências de 88,6; 75,3 e 67,8% respectivamente.
-# sent_id = 263-20141003-MONOGRAFIA_0-347
+# sent_id = 263-20141003-MONOGRAFIA_0-352
 1	A	a	ADP	_	_	2	case	_	_
 2	seco	seco	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -10479,7 +10520,7 @@
 25	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = E a úmido, os maiores valores da eficiência de coleta foram encontrados para a maior vazão de água, 300
-# sent_id = 263-20141003-MONOGRAFIA_0-348
+# sent_id = 263-20141003-MONOGRAFIA_0-353
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	úmido	úmido	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
@@ -10505,7 +10546,7 @@
 22	300	300	NUM	_	NumType=Card	14	fixed	_	_
 
 # text = L.h-1, para os três diâmetros, com 93,8; 91,6 e 70,3% respectivamente.
-# sent_id = 263-20141003-MONOGRAFIA_0-349
+# sent_id = 263-20141003-MONOGRAFIA_0-354
 1	L.h-1	L.h-1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	6	case	_	_
@@ -10523,8 +10564,8 @@
 15	respectivamente	respectivamente	ADV	_	_	14	advmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Por estes dados, a injeção de água no ciclone teve uma maior relevância fosfática com D0,5 ≈ 5 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-350
+# text = Por estes dados, a injeção de água no ciclone teve uma maior relevância para a fuligem de D0,5
+# sent_id = 263-20141003-MONOGRAFIA_0-355
 1	Por	por	ADP	_	_	3	case	_	_
 2	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	dados	dado	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
@@ -10541,16 +10582,40 @@
 13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	maior	grande	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	relevância	relevância	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fuligem	fuligem	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	D0,5	D0,5	NUM	_	NumType=Card	18	nmod	_	_
+
+# text = ≈ 9 μm, e uma menor relevância em relação ao pó de rocha fosfática com D0,5 ≈ 5 μm.
+# sent_id = 263-20141003-MONOGRAFIA_0-356
+1	≈	≈	SYM	_	_	0	root	_	_
+2	9	9	NUM	_	NumType=Card	1	nummod	_	_
+3	μm	μm	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	relevância	relevância	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	relação	relação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pó	pó	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	fosfática	fosfático	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	com	com	ADP	_	_	19	case	_	_
-18	D0,5	D0,5	NUM	_	NumType=Card	19	nummod	_	_
-19	≈	≈	SYM	_	_	15	nmod	_	_
-20	5	5	NUM	_	NumType=Card	21	nummod	_	_
+18	D0,5	D0,5	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+19	≈	≈	SYM	_	_	1	nmod	_	_
+20	5	5	NUM	_	NumType=Card	19	nummod	_	_
 21	μm	μm	NOUN	_	Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	12	punct	_	_
+22	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Por este motivo e pela distribuição granulométrica feita no material coletado, que diminuiu na lama, pode-se concluir que a impactação das partículas nas gotas formadas pela pulverização da água teve uma maior eficácia para partículas em torno de 9 μm.
-# sent_id = 263-20141003-MONOGRAFIA_0-351
+# sent_id = 263-20141003-MONOGRAFIA_0-357
 1	Por	por	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
@@ -10609,10 +10674,10 @@
 48	de	de	ADP	_	_	46	fixed	_	_
 49	9	9	NUM	_	NumType=Card	50	nummod	_	_
 50	μm	μm	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+51	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
 
 # text = Ademais, a posição dos bicos injetores teve influência na eficiência do ciclone úmido.
-# sent_id = 263-20141003-MONOGRAFIA_0-352
+# sent_id = 263-20141003-MONOGRAFIA_0-358
 1	Ademais	Ademais	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -10636,7 +10701,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Empregou-se a fuligem e a vazão mínima de água, e tanto com somente os quatro bicos situados na parte superior abertos quanto os quatro no cilindro lateral tiveram eficiências de coleta muito próximos, de 80,7 e 80,2% respectivamente, mas foram inferiores ao resultado obtido com os oito bicos abertos, cuja eficiência foi de 86,2%.
-# sent_id = 263-20141003-MONOGRAFIA_0-353
+# sent_id = 263-20141003-MONOGRAFIA_0-359
 1-2	Empregou-se	_	_	_	_	_	_	_	_
 1	Empregou	empregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -10708,7 +10773,7 @@
 65	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tal fato indica que, para os dois conjuntos de bicos, as pulverizações da água tiveram contribuições semelhantes na coleta, e se somaram para atingir uma eficiência superior quando abertos simultaneamente.
-# sent_id = 263-20141003-MONOGRAFIA_0-354
+# sent_id = 263-20141003-MONOGRAFIA_0-360
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

@@ -340,39 +340,78 @@
 29	especificações	especificação	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	26	punct	_	_
 
-# text = De acordo com a
+# text = De acordo com a Resolução da ANP-Nº 7, de 19/03/2008, as quantidades máximas permitida para as somas de (Na+ + K +) e (Ca2+ + Mg2+) não deve exceder 5 mg kg-1.
 # sent_id = 224-20141023-MONOGRAFIA_0-15
 1	De	de	ADP	_	_	2	case	_	_
-2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	com	com	ADP	_	_	4	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Resolução	resolução	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ANP-Nº	ANP-Nº	PROPN	_	Number=Sing	5	nmod	_	_
+9	7	7	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	19/03/2008	19/03/2008	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	quantidades	quantidade	NOUN	_	Gender=Fem|Number=Plur	35	nsubj	_	_
+16	máximas	máximo	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
+17	permitida	permitir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	somas	soma	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Na+	Na+	PROPN	_	Number=Sing	20	nmod	_	_
+24	+	+	SYM	_	_	15	conj	_	_
+25	K	K	PROPN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+26	+	+	SYM	_	_	24	appos	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Ca2+	Ca2+	PROPN	_	Number=Sing	15	conj	_	_
+31	+	+	SYM	_	_	15	appos	_	_
+32	Mg2+	Mg2+	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	31	punct	_	_
+34	não	não	ADV	_	Polarity=Neg	35	advmod	_	_
+35	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	exceder	exceder	VERB	_	VerbForm=Inf	35	xcomp	_	_
+37	5	5	NUM	_	NumType=Card	38	nummod	_	_
+38	mg	mg	NOUN	_	Gender=Masc|Number=Plur	36	obj	_	_
+39	kg-1.	kg-1.	NUM	_	NumType=Card	38	nummod	_	_
 
-# text = Em amostras de biodiesel, os íons sódio e potássio são, frequentemente, provenientes do processo de catálise homogênea básica.
+# text = [7] Em amostras de biodiesel, os íons sódio e potássio são, frequentemente, provenientes do processo de catálise homogênea básica.
 # sent_id = 224-20141023-MONOGRAFIA_0-16
-1	Em	em	ADP	_	_	2	case	_	_
-2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	2	punct	_	_
-6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	íons	íom	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
-8	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-9	e	e	CCONJ	_	_	10	cc	_	_
-10	potássio	potássio	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
-11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	frequentemente	frequentemente	ADV	_	_	15	advmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	_
-15	provenientes	proveniente	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
-16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	processo	processo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	catálise	catálise	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-21	homogênea	homogêneo	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-22	básica	básico	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	15	punct	_	_
+1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	7	7	NUM	_	NumType=Card	18	obl	_	SpaceAfter=No
+3	]	_	PUNCT	_	_	2	punct	_	_
+4	Em	em	ADP	_	_	5	case	_	_
+5	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	íons	íom	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+11	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	potássio	potássio	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+14	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	frequentemente	frequentemente	ADV	_	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	provenientes	proveniente	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	processo	processo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	catálise	catálise	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	homogênea	homogêneo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	básica	básico	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A presença de cálcio e magnésio, normalmente, é oriunda da matéria-prima, como macronutriente das oleaginosas, ou da água empregada na lavagem do biodiesel na etapa de purificação.
 # sent_id = 224-20141023-MONOGRAFIA_0-17
@@ -391,7 +430,7 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	matéria-prima	matéria-prima	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	11	punct	_	_
+15	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 16	como	como	ADP	_	_	17	case	_	_
 17	macronutriente	macronutriente	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 18-19	das	_	_	_	_	_	_	_	_
@@ -597,7 +636,7 @@
 24	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	14	punct	_	_
 
-# text = A metodologia padrão descrita de acordo com as normas ABNT- NBR- 15556 e ABNT- NBR- 15553 emprega espectrometria de absorção atômica (AAS) e espectrometria de emissão atômica com plasma indutivamente acoplado (ICP-OES) para a determinação de sódio, potássio, cálcio e magnésio em biodiesel.
+# text = A metodologia padrão descrita de acordo com as normas ABNT-NBR-15556 e ABNT-NBR- 15553 emprega espectrometria de absorção atômica (AAS) e espectrometria de emissão atômica com plasma indutivamente acoplado (ICP-OES) para a determinação de sódio, potássio, cálcio e magnésio em biodiesel.
 # sent_id = 224-20141023-MONOGRAFIA_0-22
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -607,49 +646,45 @@
 6	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	com	com	ADP	_	_	9	case	_	_
 8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-9	normas	norma	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
-10	ABNT-	Abnt-	PROPN	_	Number=Sing	9	flat:name	_	_
-11	NBR	NBR	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	9	punct	_	_
-13	15556	15556	NUM	_	NumType=Card	16	nummod	_	_
-14	e	e	CCONJ	_	_	15	cc	_	_
-15	ABNT-	Abnt-	PROPN	_	Number=Sing	16	flat:name	_	_
-16	NBR-	Nbr-	PROPN	_	Number=Sing	18	nmod	_	_
-17	15553	15553	NUM	_	NumType=Card	18	nummod	_	_
-18	emprega	empregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
-19	espectrometria	espectrometria	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-22	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	AAS	AAS	PROPN	_	Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	24	punct	_	_
-26	e	e	CCONJ	_	_	27	cc	_	_
-27	espectrometria	espectrometria	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	emissão	emissão	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
-30	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
-31	com	com	ADP	_	_	32	case	_	_
-32	plasma	plasma	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
-33	indutivamente	indutivamente	ADV	_	_	34	advmod	_	_
-34	acoplado	acoplar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_
-35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	ICP-OES	ICP-OES	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	36	punct	_	_
-38	para	para	ADP	_	_	40	case	_	_
-39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
-41	de	de	ADP	_	_	42	case	_	_
-42	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	44	punct	_	_
-44	potássio	potássio	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	46	punct	_	_
-46	cálcio	cálcio	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
-47	e	e	CCONJ	_	_	48	cc	_	_
-48	magnésio	magnésio	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
-49	em	em	ADP	_	_	50	case	_	_
-50	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	3	punct	_	_
+9	normas	norma	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+10	ABNT-NBR-15556	ABNT-NBR-15556	NUM	_	NumType=Card	9	nummod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	ABNT-NBR-	ABNT-NBR-	SYM	_	_	14	nsubj	_	_
+13	15553	15553	NUM	_	NumType=Card	12	nummod	_	_
+14	emprega	empregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	espectrometria	espectrometria	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	AAS	AAS	PROPN	_	Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	espectrometria	espectrometria	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	emissão	emissão	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	plasma	plasma	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+29	indutivamente	indutivamente	ADV	_	_	30	advmod	_	_
+30	acoplado	acoplar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	ICP-OES	ICP-OES	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	para	para	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	potássio	potássio	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	cálcio	cálcio	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	magnésio	magnésio	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+45	em	em	ADP	_	_	46	case	_	_
+46	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = [9] A espectrometria de absorção atômica é muito usada na determinação de metais em combustíveis, embora a introdução direta de amostras de combustível possa ocasionar interferências nas medidas.
 # sent_id = 224-20141023-MONOGRAFIA_0-23
@@ -851,7 +886,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-28
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	9	9	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	4	punct	_	_
+3	]	_	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 4	1.3	1.3	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1281,7 +1316,7 @@
 14	descarte	descarte	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	9	punct	_	_
+17	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 18	enquanto	enquanto	ADV	_	_	24	advmod	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	microcanal	microcanal	NOUN	_	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
@@ -1589,7 +1624,7 @@
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	campo	campo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	campo	campo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpacesAfter=\s\n
 22	elétrico	elétrico	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -2115,7 +2150,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-68
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	19	19	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	2	punct	_	_
+3	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 4	1.3.3	1.3.3	NUM	_	NumType=Card	2	flat	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -2583,7 +2618,7 @@
 23	controlado	controlar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	22	punct	_	_
 25	em	em	ADP	_	_	27	case	_	_
-26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpacesAfter=\s\n
 27	câmara	câmara	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	reação	reação	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
@@ -3014,7 +3049,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-99
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	28	28	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	2	punct	_	_
+3	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 4	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
 5	2	2	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -3257,7 +3292,7 @@
 5	C4D	C4D	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	_
 
-# text = A detecção condutométrica sem contato C4D (do inglês capacitively- coupled contactless conductivity detection) é bastante atrativa para microchips devido, principalmente, à alta compatibilidade com a microfabricação.
+# text = A detecção condutométrica sem contato C4D (do inglês capacitively-coupled contactless conductivity detection) é bastante atrativa para microchips devido, principalmente, à alta compatibilidade com a microfabricação.
 # sent_id = 224-20141023-MONOGRAFIA_0-110
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -3270,30 +3305,29 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	inglês	inglês	NOUN	_	Gender=Masc|Number=Sing	3	appos:parataxis	_	_
-11	capacitively-	capacitively-	PUNCT	_	_	12	punct	_	_
-12	coupled	coupled	X	_	_	10	appos	_	_
-13	contactless	contactless	X	_	_	10	nmod	_	_
-14	conductivity	conductivity	X	_	_	13	flat:foreign	_	_
-15	detection	detection	X	_	_	13	flat:foreign	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	10	punct	_	_
-17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
-18	bastante	bastante	ADV	_	_	19	advmod	_	_
-19	atrativa	atrativo	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
-20	para	para	ADP	_	_	21	case	_	_
-21	microchips	microchip	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
-22	devido	devido	ADV	_	_	19	advmod	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	principalmente	principalmente	ADV	_	_	29	advmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	24	punct	_	_
-26-27	à	_	_	_	_	_	_	_	_
-26	a	a	ADP	_	_	29	case	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-28	alta	alto	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
-29	compatibilidade	compatibilidade	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
-30	com	com	ADP	_	_	32	case	_	_
-31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	microfabricação	microfabricação	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	3	punct	_	_
+11	capacitively-coupled	capacitively-coupled	X	_	_	10	nmod	_	_
+12	contactless	contactless	X	_	_	11	flat:foreign	_	_
+13	conductivity	conductivity	X	_	_	11	flat:foreign	_	_
+14	detection	detection	X	_	_	11	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	10	punct	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	bastante	bastante	ADV	_	_	18	advmod	_	_
+18	atrativa	atrativo	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	microchips	microchip	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+21	devido	devido	ADV	_	_	18	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	principalmente	principalmente	ADV	_	_	28	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25-26	à	_	_	_	_	_	_	_	_
+25	a	a	ADP	_	_	28	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	alta	alto	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+28	compatibilidade	compatibilidade	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	microfabricação	microfabricação	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = [29] tecnologia de O modo de detecção C4D baseia-se no isolamento elétrico dos eletrodos em relação à solução eletrolítica por um dielétrico, de forma que esses eletrodos podem ser posicionados de dois modos: no mesmo plano ou fora do plano com relação aos microcanais.
 # sent_id = 224-20141023-MONOGRAFIA_0-111
@@ -3301,7 +3335,7 @@
 2	29	29	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
 4	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-5	de	de	ADP	_	_	7	case	_	_
+5	de	de	ADP	_	_	7	case	_	SpacesAfter=\s\n
 6	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	modo	modo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
@@ -3751,7 +3785,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-122
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	30-32	30-32	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	2	punct	_	_
+3	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 4	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	3	3	NUM	_	NumType=Card	4	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -4038,7 +4072,7 @@
 23	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 24	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	volatilizada	volatilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	18	acl:relcl	_	_
-26	e	e	CCONJ	_	_	27	cc	_	_
+26	e	e	CCONJ	_	_	27	cc	_	SpacesAfter=\s\n
 27	decomposta	decompor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	31	conj	_	_
 28	a	a	ADP	_	_	31	mark	_	_
 29	fim	fim	NOUN	_	Gender=Masc|Number=Sing	28	fixed	_	_
@@ -4527,7 +4561,7 @@
 11-12	dos	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	componentes	componente	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	componentes	componente	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpacesAfter=\s\n
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -4887,7 +4921,7 @@
 20	solução	solução	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	17	punct	_	_
 
-# text = [39] Na separação de íons metálicos alcalinos, soluções de ácidos minerais tais como HCl ou HNO3 são muito usadas como fase móvel (eluente).
+# text = [39] Na separação de íons metálicos alcalinos, soluções de ácidos minerais tais como HCl ou HNO são muito usadas como fase móvel (eluente).
 # sent_id = 224-20141023-MONOGRAFIA_0-158
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	39	39	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
@@ -4909,7 +4943,7 @@
 17	como	como	ADP	_	_	18	case	_	_
 18	HCl	HCl	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 19	ou	ou	CCONJ	_	_	20	cc	_	_
-20	HNO3	HNO3	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	_
+20	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	_
 21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
 22	muito	muito	ADV	_	_	23	advmod	_	_
 23	usadas	usar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5042,7 +5076,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-163
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	40	40	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	2	punct	_	_
+3	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 4	Em	em	ADP	_	_	5	case	_	_
 5	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -5566,7 +5600,7 @@
 15	com	com	ADP	_	_	17	case	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	diluição	diluição	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text =  Para íons com a mesma carga, a afinidade diminui com o aumento do raio do íon hidratado.
 # sent_id = 224-20141023-MONOGRAFIA_0-179
@@ -5908,10 +5942,10 @@
 20	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text =  Utilizar a técnica de Espectrometria de Absorção Atômica (FAAS) para determinar sódio, potássio, cálcio e magnésio em amostras de biodiesel empregando o método padrão da ABNT (NBR- 15556).
+# text =  Utilizar a técnica de Espectrometria de Absorção Atômica (FAAS) para determinar sódio, potássio, cálcio e magnésio em amostras de biodiesel empregando o método padrão da ABNT (NBR-15556).
 # sent_id = 224-20141023-MONOGRAFIA_0-196
 1			PROPN	_	Number=Sing	2	nsubj	_	_
-2	Utilizar	utilizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	acl	_	_
+2	Utilizar	utilizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -5920,35 +5954,33 @@
 8	Absorção	Absorção	PROPN	_	Number=Sing	6	nmod	_	_
 9	Atômica	Atômica	PROPN	_	Number=Sing	8	flat:name	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	FAAS	FAAS	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+11	FAAS	FAAS	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	11	punct	_	_
 13	para	para	SCONJ	_	_	14	mark	_	_
-14	determinar	determinar	VERB	_	VerbForm=Inf	2	advcl	_	_
+14	determinar	determinar	VERB	_	VerbForm=Inf	2	acl	_	_
 15	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	potássio	potássio	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	cálcio	cálcio	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	_
+19	cálcio	cálcio	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	_
 20	e	e	CCONJ	_	_	21	cc	_	_
-21	magnésio	magnésio	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	_
+21	magnésio	magnésio	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	_
 22	em	em	ADP	_	_	23	case	_	_
-23	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+23	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-26	empregando	empregar	VERB	_	VerbForm=Ger	29	acl	_	_
+26	empregando	empregar	VERB	_	VerbForm=Ger	2	acl	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	método	método	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
-29	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+29	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
 30-31	da	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	ABNT	ABNT	PROPN	_	Gender=Fem|Number=Sing	29	obl	_	_
 33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	NBR	NBR	PROPN	_	Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
-35	-	-	PUNCT	_	_	34	punct	_	_
-36	15556	15556	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n
+34	NBR-15556	NBR-15556	NUM	_	NumType=Card	32	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text =  Determinar sódio, potássio, cálcio e magnésio em amostras de biodiesel utilizando Cromatografia de Troca Iônica (CTI) com detecção condutométrica.
 # sent_id = 224-20141023-MONOGRAFIA_0-197
@@ -6115,7 +6147,7 @@
 11	rota	rota	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.2.
 # sent_id = 224-20141023-MONOGRAFIA_0-206
@@ -6130,57 +6162,57 @@
 4	3.2.1	3.2.1	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Fabricação dos microchips analíticos
+# text = Fabricação dos microchips analíticos fabricação dos microchips analíticos para eletroforese com detecção C4D utilizou-se os processos de fotolitografia, corrosão química via
 # sent_id = 224-20141023-MONOGRAFIA_0-208
-1	Fabricação	Fabricação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Fabricação	Fabricação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	microchips	microchip	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 5	analíticos	analítico	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	fabricação	fabricação	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	microchips	microchip	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	analíticos	analítico	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	para	para	ADP	_	_	12	case	_	_
+12	eletroforese	eletroforese	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	C4D	C4D	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	_
+16-17	utilizou-se	_	_	_	_	_	_	_	_
+16	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	se	se	SCONJ	_	_	25	mark	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	processos	processo	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	fotolitografia	fotolitografia	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	19	appos	_	_
+24	química	químico	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	via	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
 
-# text = Para fabricação dos microchips analíticos para eletroforese com detecção C4D utilizou-se os processos de fotolitografia, corrosão química via úmida e deposição física a partir da fase vapor (PVD, sputtering).
+# text = Para úmida e deposição física a partir da fase vapor (PVD, sputtering).
 # sent_id = 224-20141023-MONOGRAFIA_0-209
 1	Para	para	ADP	_	_	2	case	_	_
-2	fabricação	fabricação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-3-4	dos	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	5	case	_	_
-4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	microchips	microchip	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	analíticos	analítico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-7	para	para	ADP	_	_	8	case	_	_
-8	eletroforese	eletroforese	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-9	com	com	ADP	_	_	10	case	_	_
-10	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-11	C4D	C4D	PROPN	_	Gender=Fem|Number=Sing	10	appos	_	_
-12-13	utilizou-se	_	_	_	_	_	_	_	_
-12	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	se	se	SCONJ	_	_	21	mark	_	_
-14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	processos	processo	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	fotolitografia	fotolitografia	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
-20	química	químico	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
-21	via	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
-22	úmida	úmida	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
-23	e	e	CCONJ	_	_	24	cc	_	_
-24	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
-25	física	físico	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
-26	a	a	ADP	_	_	27	case	_	_
-27	partir	partir	VERB	_	VerbForm=Inf	21	obl	_	_
-28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	fase	fase	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
-31	vapor	_	ADP	_	_	33	case	_	_
-32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	PVD	PVD	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	35	punct	_	_
-35	sputtering	sputtering	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
-36	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	12	punct	_	_
+2	úmida	úmida	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+5	física	físico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	partir	partir	VERB	_	VerbForm=Inf	0	root	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fase	fase	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	vapor	_	ADP	_	_	13	case	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	PVD	PVD	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	sputtering	sputtering	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Esses procedimentos foram executados no Laboratório de Microfabricação (LM) do Laboratório Nacional de Luz Síncrotron (LNLS).
 # sent_id = 224-20141023-MONOGRAFIA_0-210
@@ -6458,7 +6490,7 @@
 
 # text = Os eletrodos para C4D foram fabricados com 1,0 mm de largura, sendo que a distância entre eles foi de 1,0 mm.
 # sent_id = 224-20141023-MONOGRAFIA_0-218
-1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	SpacesAfter=\s\n
 2	eletrodos	eletrodo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	para	para	ADP	_	_	4	case	_	_
 4	C4D	C4D	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -6818,7 +6850,7 @@
 8-9	das	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	ligações	ligação	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpacesAfter=\s\n
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -6977,7 +7009,7 @@
 20	processo	processo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = As áreas do fotorresiste onde não houve exposição à radiação não são solubilizadas.
 # sent_id = 224-20141023-MONOGRAFIA_0-240
@@ -7063,7 +7095,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-242
 1	Revelação	revelação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
-# text = Após o layout dos canais e dos eletrodos serem gravados no fotorresiste aplicado sobre os substratos de vidro, prosseguiu-se com a revelação destes utilizando uma solução reveladora AZK400 (1 K2B4O7.10H2O : 3H2O).
+# text = Após o layout dos canais e dos eletrodos serem gravados no fotorresiste aplicado sobre os substratos de vidro, prosseguiu-se com a revelação destes utilizando uma solução reveladora AZK (1 K2B4O7.10H2O : 3H2O).
 # sent_id = 224-20141023-MONOGRAFIA_0-243
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7103,7 +7135,7 @@
 31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	solução	solução	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
 33	reveladora	revelador	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
-34	AZK400	AZK400	PROPN	_	Gender=Fem|Number=Sing	32	appos	_	_
+34	AZK	AZK	PROPN	_	Gender=Fem|Number=Sing	32	appos	_	_
 35	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 36	1	1	NUM	_	NumType=Card	37	nummod	_	_
 37	K2B4O7.10H2O	K2B4O7.10H2O	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	_
@@ -7433,7 +7465,7 @@
 14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	comumente	comumente	ADV	_	_	16	advmod	_	_
 16	plasma	plasmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	11	appos	_	_
-17	de	de	ADP	_	_	18	case	_	_
+17	de	de	ADP	_	_	18	case	_	SpacesAfter=\s\n
 18	argônio	argônio	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -7863,7 +7895,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	microchips	microchip	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 3.2.2.
 # sent_id = 224-20141023-MONOGRAFIA_0-271
@@ -8342,7 +8374,7 @@
 14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
 16	ME-C4D	ME-C4D	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6.
 # sent_id = 224-20141023-MONOGRAFIA_0-289
@@ -8584,7 +8616,7 @@
 # sent_id = 224-20141023-MONOGRAFIA_0-303
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	fenda	fenda	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	fenda	fenda	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	SpacesAfter=\s\n
 4	espectral	espectral	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	especificada	especificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
 6	para	para	ADP	_	_	8	case	_	_
@@ -9036,7 +9068,7 @@
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Shimadzu	Shimadzu	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 8.
 # sent_id = 224-20141023-MONOGRAFIA_0-321
@@ -9140,7 +9172,7 @@
 30	oC	oc	PROPN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Os eluentes utilizados foram soluções de HNO3 a 5 mM para a análise de Na+ e K+, e uma mistura de ácido tartárico 4 mM / etilenodiamina 1 mM para as análise de Ca2+ e Mg2+.
+# text = Os eluentes utilizados foram soluções de HNO a 5 mM para a análise de Na+ e K+, e uma mistura de ácido tartárico 4 mM / etilenodiamina 1 mM para as análise de Ca2+ e Mg2+.
 # sent_id = 224-20141023-MONOGRAFIA_0-327
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	eluentes	eluente	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -9148,7 +9180,7 @@
 4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 5	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	HNO3	HNO3	PROPN	_	Gender=Unsp|Number=Sing	5	nmod	_	_
+7	HNO	HNO	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	a	a	ADP	_	_	10	case	_	_
 9	5	5	NUM	_	NumType=Card	10	nummod	_	_
 10	mM	mm	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
@@ -9181,7 +9213,7 @@
 37	Mg2+	Mg2+	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Todas as soluções padrão foram preparadas com reagentes salinos (NaCl, KCl, CaCl2 e MgCl2) da Sigma-Aldrich com 99% de pureza e água deionizada.
+# text = Todas as soluções padrão foram preparadas com reagentes salinos (NaCl, KCl, CaCl e MgCl) da Sigma-Aldrich com 99% de pureza e água deionizada.
 # sent_id = 224-20141023-MONOGRAFIA_0-328
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -9193,13 +9225,13 @@
 8	reagentes	reagente	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 9	salinos	salino	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	NaCl	NaCl	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No
+11	NaCl	NaCl	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	KCl	KCl	PROPN	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+13	KCl	KCl	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	CaCl2	CaCl2	PROPN	_	Gender=Fem|Number=Sing	11	conj	_	_
+15	CaCl	CaCl	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
-17	MgCl2	MgCl2	PROPN	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+17	MgCl	MgCl	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	11	punct	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
@@ -9305,7 +9337,7 @@
 32	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Como foram desenvolvidos dois métodos diferentes, um para os íons monovalentes e outra para os divalentes, as soluções estoque foram preparadas como misturas NaCl/KCl e CaCl2/MgCl2.
+# text = Como foram desenvolvidos dois métodos diferentes, um para os íons monovalentes e outra para os divalentes, as soluções estoque foram preparadas como misturas NaCl/KCl e CaCl/MgCl.
 # sent_id = 224-20141023-MONOGRAFIA_0-331
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
@@ -9334,7 +9366,7 @@
 25	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	23	xcomp	_	_
 26	NaCl/KCl	NaCl/KCl	PROPN	_	Gender=Fem|Number=Sing	25	appos	_	_
 27	e	e	CCONJ	_	_	28	cc	_	_
-28	CaCl2/MgCl2	CaCl2/MgCl2	PROPN	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+28	CaCl/MgCl	CaCl/MgCl	PROPN	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Realizou-se as análises de cada padrão em triplicata.
@@ -9382,7 +9414,7 @@
 26	para	para	ADP	_	_	28	case	_	_
 27	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	28	det	_	_
 28	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Como preparo de amostra, foi realizada uma extração líquido-líquido, utilizando-se 5 mL de biodiesel (medindo-se a massa correspondente a 5 mL) e 5 mL de água deionizada.
 # sent_id = 224-20141023-MONOGRAFIA_0-334
@@ -9809,7 +9841,7 @@
 22	de	de	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	microcanal	microcanal	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 9.
 # sent_id = 224-20141023-MONOGRAFIA_0-351
@@ -9922,7 +9954,7 @@
 5	por	por	ADP	_	_	6	case	_	_
 6	microscopia	microscopia	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
 7	ótica	ótico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 11.
 # sent_id = 224-20141023-MONOGRAFIA_0-358
@@ -10059,7 +10091,7 @@
 16	fabricante	fabricante	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = O sistema de detecção C4D (Portable C4D) foi adquirido recentemente da empresa Laiatech, São Paulo, Brasil, que tem como sócios-proprietários ex- alunos do grupo de pesquisa do Prof.
+# text = O sistema de detecção C4D (Portable C4D) foi adquirido recentemente da empresa Laiatech, São Paulo, Brasil, que tem como sócios-proprietários ex-alunos do grupo de pesquisa do Prof.
 # sent_id = 224-20141023-MONOGRAFIA_0-363
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
@@ -10087,19 +10119,18 @@
 23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
 24	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 25	como	como	ADP	_	_	26	case	_	_
-26	sócios-proprietários	sócios-proprietário	NOUN	_	Gender=Masc|Number=Plur	24	xcomp	_	_
-27	ex-	ex-	PUNCT	_	_	28	punct	_	_
-28	alunos	aluno	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	31	case	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-34-35	do	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	36	case	_	_
-35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Prof.	Prof.	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+26	sócios-proprietários	sócios-proprietário	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
+27	ex-alunos	ex-aluno	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Prof.	Prof.	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 
 # text = Dr. Claudimir Lúcio do Lago (IQ/USP).
 # sent_id = 224-20141023-MONOGRAFIA_0-364
@@ -10338,7 +10369,7 @@
 11	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 12	analítica	analítico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14-15	no	_	_	_	_	_	_	_	_
+14-15	no	_	_	_	_	_	_	_	SpacesAfter=\s\n
 14	em	em	ADP	_	_	16	case	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	caso	caso	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -10449,7 +10480,7 @@
 13	2x	2x	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = A Figura 12 mostra as curvas analíticas obtidas para os quatro íons em estudo, com suas respectivas equações da reta e coeficientes de correlação.
+# text = A Figura 12 mostra as curvas analíticas obtidas para os quatro íons em estudo, com Figura 12.
 # sent_id = 224-20141023-MONOGRAFIA_0-377
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -10466,28 +10497,13 @@
 13	em	em	ADP	_	_	14	case	_	_
 14	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
-16	com	com	ADP	_	_	19	case	_	_
-17	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	19	det	_	_
-18	respectivas	respectivo	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
-19	equações	equação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	reta	reta	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-23	e	e	CCONJ	_	_	24	cc	_	_
-24	coeficientes	coeficiente	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	correlação	correlação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
-
-# text = Figura 12.
-# sent_id = 224-20141023-MONOGRAFIA_0-378
-1	Figura	figuro	ADV	_	_	2	advmod	_	_
-2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+18	12	12	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Curvas analíticas para os cátions Na+, K+, Mg2+ e Ca2+ e suas respectivas equações da reta.
-# sent_id = 224-20141023-MONOGRAFIA_0-379
+# sent_id = 224-20141023-MONOGRAFIA_0-378
 1	Curvas	curva	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -10508,96 +10524,64 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	reta	reta	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = O limite de detecção (LD = 3s/b) e o limite de quantificação (LQ =10s/b) foram calculados a partir do desvio padrão (s) de dez brancos representativos e da sensibilidade (b) das curvas analíticas, conforme mostram as equações 2 e 3. LD = (3,33 s)/ b .............................................
+# text = foram calculados a partir do desvio padrão (s) de dez brancos representativos e da sensibilidade (b) das curvas analíticas, conforme mostram as equações 2 e 3. LD = (3,33 s)/ b .............................................
+# sent_id = 224-20141023-MONOGRAFIA_0-379
+1	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
+2	calculados	calcular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	partir	partir	VERB	_	VerbForm=Inf	2	obl	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	desvio	desvio	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	dez	dez	NUM	_	NumType=Card	14	nummod	_	_
+14	brancos	branco	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+15	representativos	representativo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	b	bado	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23-24	das	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+26	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	2	punct	_	_
+28	conforme	conforme	ADV	_	_	29	advmod	_	_
+29	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	equações	equação	NOUN	_	Gender=Fem|Number=Plur	29	obj	_	_
+32	2	2	NUM	_	NumType=Card	31	nummod	_	_
+33	e	e	CCONJ	_	_	35	cc	_	_
+34	3.	3	NUM	_	NumType=Card	35	nummod	_	SpacesAfter=\n
+35	LD	LD	PROPN	_	Gender=Masc|Number=Sing	31	conj	_	_
+36	=	=	SYM	_	_	29	conj	_	_
+37	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+38	3,33	3,33	NUM	_	NumType=Card	39	nummod	_	_
+39	s	s	NOUN	_	Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	/	/	PUNCT	_	_	36	punct	_	_
+42	b	bado	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	_
+43	.............................................	.............................................	PUNCT	_	_	2	punct	_	_
+
+# text = Equação 2
 # sent_id = 224-20141023-MONOGRAFIA_0-380
-1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	limite	limite	NOUN	_	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	LD	LD	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
-7	=	=	SYM	_	_	6	appos	_	_
-8	3s/b	3s/b	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	6	punct	_	_
-10	e	e	CCONJ	_	_	12	cc	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	limite	limite	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	LQ	Lq	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
-17	=10s/b	=10s/b	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	16	punct	_	_
-19	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	20	aux:pass	_	_
-20	calculados	calcular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-21	a	a	ADP	_	_	22	case	_	_
-22	partir	partir	VERB	_	VerbForm=Inf	20	obl	_	_
-23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	26	case	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	desvio	desvio	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
-26	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	appos	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	28	punct	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	dez	dez	NUM	_	NumType=Card	32	nummod	_	_
-32	brancos	branco	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
-33	representativos	representativo	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
-34	e	e	CCONJ	_	_	37	cc	_	_
-35-36	da	_	_	_	_	_	_	_	_
-35	de	de	ADP	_	_	37	case	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
-38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	b	bado	NOUN	_	Gender=Masc|Number=Sing	37	appos	_	SpaceAfter=No
-40	)	)	PUNCT	_	_	39	punct	_	_
-41-42	das	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
-43	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
-44	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	20	punct	_	_
-46	conforme	conforme	ADV	_	_	47	advmod	_	_
-47	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
-48	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
-49	equações	equação	NOUN	_	Gender=Fem|Number=Plur	47	obj	_	_
-50	2	2	NUM	_	NumType=Card	49	nummod	_	_
-51	e	e	CCONJ	_	_	53	cc	_	_
-52	3.	3	NUM	_	NumType=Card	53	nummod	_	SpacesAfter=\n
-53	LD	LD	PROPN	_	Gender=Masc|Number=Sing	49	conj	_	_
-54	=	=	SYM	_	_	47	conj	_	_
-55	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
-56	3,33	3,33	NUM	_	NumType=Card	57	nummod	_	_
-57	s	s	NOUN	_	Gender=Masc|Number=Sing	54	appos	_	SpaceAfter=No
-58	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
-59	/	/	PUNCT	_	_	54	punct	_	_
-60	b	bado	NOUN	_	Gender=Masc|Number=Sing	54	conj	_	_
-61	.............................................	.............................................	PUNCT	_	_	20	punct	_	_
-
-# text = Equação 2 LQ = (10 s)/ b ...............................................
-# sent_id = 224-20141023-MONOGRAFIA_0-381
 1	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	_
-3	LQ	Lq	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-4	=	=	SYM	_	_	1	appos	_	_
-5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-6	10	10	NUM	_	NumType=Card	7	nummod	_	_
-7	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	/	/	ADP	_	_	10	case	_	_
-10	b	bado	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-11	...............................................	...............................................	PUNCT	_	_	1	punct	_	_
-
-# text = Equação 3
-# sent_id = 224-20141023-MONOGRAFIA_0-382
-1	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Onde LD é o limite de detecção, LQ o limite de quantificação, s o desvio padrão de dez brancos representativos e b o coeficiente angular da reta de calibração.
-# sent_id = 224-20141023-MONOGRAFIA_0-383
+# sent_id = 224-20141023-MONOGRAFIA_0-381
 1	Onde	onde	ADV	_	_	5	advmod	_	_
 2	LD	LD	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -10634,7 +10618,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os limites de detecção e quantificação para os íons em estudo são mostrados na Tabela 2.
-# sent_id = 224-20141023-MONOGRAFIA_0-384
+# sent_id = 224-20141023-MONOGRAFIA_0-382
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	limites	limite	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10656,13 +10640,13 @@
 18	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Tabela 2.
-# sent_id = 224-20141023-MONOGRAFIA_0-385
+# sent_id = 224-20141023-MONOGRAFIA_0-383
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Limites de detecção (LD) e de quantificação (LQ) para os cátions Na+, K+, Ca2+ e Mg2+ em mg Kg-1.
-# sent_id = 224-20141023-MONOGRAFIA_0-386
+# sent_id = 224-20141023-MONOGRAFIA_0-384
 1	Limites	limite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -10691,7 +10675,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A partir das curvas analíticas obtidas, determinou-se as concentrações dos íons em estudo para cada amostra.
-# sent_id = 224-20141023-MONOGRAFIA_0-387
+# sent_id = 224-20141023-MONOGRAFIA_0-385
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -10717,8 +10701,8 @@
 20	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
 
-# text = Por exemplo, para a amostra A02 a concentração de Na pode ser calculada por:
-# sent_id = 224-20141023-MONOGRAFIA_0-388
+# text = Por exemplo, para a amostra A02 a concentração de Na pode ser calculada por: Sendo [Na+] a concentração de sódio e *Y a absorbância média das triplicatas realizadas para essa amostra.
+# sent_id = 224-20141023-MONOGRAFIA_0-386
 1	Por	por	ADP	_	_	15	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -10736,36 +10720,33 @@
 14	ser	ser	AUX	_	Number=Sing|Person=3|VerbForm=Inf	15	aux:pass	_	_
 15	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 16	por	por	ADP	_	_	17	case	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	15	punct	_	_
-
-# text = Sendo [Na+] a concentração de sódio e *Y a absorbância média das triplicatas realizadas para essa amostra.
-# sent_id = 224-20141023-MONOGRAFIA_0-389
-1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
-2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	Na+	Na+	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
-4	]	_	PUNCT	_	_	3	punct	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	e	e	CCONJ	_	_	11	cc	_	_
-10	*	*	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	Y	Y	PROPN	_	Gender=Masc|Number=Sing	3	conj	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	absorbância	absorbância	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
-14	média	médio	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-15-16	das	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	triplicatas	triplicata	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
-18	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	17	acl	_	_
-19	para	para	ADP	_	_	21	case	_	_
-20	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
-21	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+17	:	:	PUNCT	_	_	15	obl:agent	_	_
+18	Sendo	ser	AUX	_	VerbForm=Ger	20	cop	_	_
+19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Na+	Na+	PROPN	_	Number=Sing	23	nmod	_	SpaceAfter=No
+21	]	_	PUNCT	_	_	20	punct	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	*	*	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Y	Y	PROPN	_	Gender=Masc|Number=Sing	17	conj	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	absorbância	absorbância	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
+31	média	médio	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32-33	das	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	triplicatas	triplicata	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+35	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	34	acl	_	_
+36	para	para	ADP	_	_	38	case	_	_
+37	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
+38	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = As Tabelas 3 e 4 mostram para cada amostra a concentração dos metais Na, K, Ca e Mg.
-# sent_id = 224-20141023-MONOGRAFIA_0-390
+# sent_id = 224-20141023-MONOGRAFIA_0-387
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	3	3	NUM	_	NumType=Card	2	nummod	_	_
@@ -10793,13 +10774,13 @@
 23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 3.
-# sent_id = 224-20141023-MONOGRAFIA_0-391
+# sent_id = 224-20141023-MONOGRAFIA_0-388
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentração de Na e K nas amostras de biodiesel e o intervalo de de confiança a um nível de 95%.
-# sent_id = 224-20141023-MONOGRAFIA_0-392
+# sent_id = 224-20141023-MONOGRAFIA_0-389
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	6	case	_	_
 3-4	Na	_	_	_	_	_	_	_	_
@@ -10828,18 +10809,18 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Observação: *
-# sent_id = 224-20141023-MONOGRAFIA_0-393
+# sent_id = 224-20141023-MONOGRAFIA_0-390
 1	Observação	observação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	*	*	PUNCT	_	_	1	punct	_	_
 
 # text = A amostra
-# sent_id = 224-20141023-MONOGRAFIA_0-394
+# sent_id = 224-20141023-MONOGRAFIA_0-391
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A02 foi diluída 10x, pois sua concentração estava acima da faixa ótima de trabalho.
-# sent_id = 224-20141023-MONOGRAFIA_0-395
+# sent_id = 224-20141023-MONOGRAFIA_0-392
 1	A02	A02	PROPN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	diluída	diluir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -10857,15 +10838,15 @@
 14	ótima	ótimo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 4.3.
-# sent_id = 224-20141023-MONOGRAFIA_0-396
+# sent_id = 224-20141023-MONOGRAFIA_0-393
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Determinação de Na+, K+, Ca2+ e Mg2+ por CTI
-# sent_id = 224-20141023-MONOGRAFIA_0-397
+# sent_id = 224-20141023-MONOGRAFIA_0-394
 1	Determinação	determinação	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Na+	Na+	PROPN	_	Number=Sing	1	nmod	_	SpaceAfter=No
@@ -10879,7 +10860,7 @@
 11	CTI	CTI	PROPN	_	Number=Sing	5	nmod	_	_
 
 # text = Para elucidação dos cromatogramas avaliou-se o tempo de retenção característico de cada pico cromatográfico, pois esse parâmetro depende de fatores como carga e raio do íon hidratado dos analitos.
-# sent_id = 224-20141023-MONOGRAFIA_0-398
+# sent_id = 224-20141023-MONOGRAFIA_0-395
 1	Para	para	ADP	_	_	2	case	_	_
 2	elucidação	elucidação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -10921,7 +10902,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Como foram feitas duas corridas separadamente para cada grupo de íons (monovalente e divalentes), a carga não foi um parâmetro de maior influência nos tempos de retenção.
-# sent_id = 224-20141023-MONOGRAFIA_0-399
+# sent_id = 224-20141023-MONOGRAFIA_0-396
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	23	advcl	_	_
@@ -10957,7 +10938,7 @@
 32	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Um parâmetro importante para analisar qual dos íons é mais fortemente atraído pela fase estacionária (ou seja, que possui maior interação com a resina de troca iônica), é o raio do íon hidratado.
-# sent_id = 224-20141023-MONOGRAFIA_0-400
+# sent_id = 224-20141023-MONOGRAFIA_0-397
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 3	importante	importante	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -11004,7 +10985,7 @@
 41	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Quanto maior o raio do íon hidratado, menor sua afinidade pela fase estacionária e menor seu tempo de retenção.
-# sent_id = 224-20141023-MONOGRAFIA_0-401
+# sent_id = 224-20141023-MONOGRAFIA_0-398
 1	Quanto	quanto	ADV	_	_	2	advmod	_	_
 2	maior	grande	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -11032,7 +11013,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A Figura 13 mostra os raios dos íons hidratados para os íons Na+, K+, Ca2+, Mg2+ e H+.
-# sent_id = 224-20141023-MONOGRAFIA_0-402
+# sent_id = 224-20141023-MONOGRAFIA_0-399
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	13	13	NUM	_	NumType=Card	2	flat:name	_	_
@@ -11059,7 +11040,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = De acordo com os raios dos íons hidratados, o menor tempo de retenção para a análise dos íons monovalentes corresponde à eluição do íon Na+, e para a análise dos íons divalentes o menor tempo de retenção corresponde à eluição do íon Mg2+.
-# sent_id = 224-20141023-MONOGRAFIA_0-403
+# sent_id = 224-20141023-MONOGRAFIA_0-400
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -11122,7 +11103,7 @@
 53	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = A Tabela 5 mostra o tempo de retenção médio para cada um dos analitos.
-# sent_id = 224-20141023-MONOGRAFIA_0-404
+# sent_id = 224-20141023-MONOGRAFIA_0-401
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5	5	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -11139,16 +11120,16 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	analitos	analito	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 5.
-# sent_id = 224-20141023-MONOGRAFIA_0-405
+# sent_id = 224-20141023-MONOGRAFIA_0-402
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tempo de retenção médio para os íons Na+, K+, Mg2+ e Ca2+ nas corridas cromatográficas.
-# sent_id = 224-20141023-MONOGRAFIA_0-406
+# sent_id = 224-20141023-MONOGRAFIA_0-403
 1	Tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -11171,7 +11152,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As Figuras 14 e 15 a seguir mostram alguns cromatogramas sobrepostos com seus respectivos níveis de concentração.
-# sent_id = 224-20141023-MONOGRAFIA_0-407
+# sent_id = 224-20141023-MONOGRAFIA_0-404
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	14	14	NUM	_	NumType=Card	2	nummod	_	_
@@ -11192,7 +11173,7 @@
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = E a Figura 16 mostra um dos cromatogramas obtidos para a amostra A02.
-# sent_id = 224-20141023-MONOGRAFIA_0-408
+# sent_id = 224-20141023-MONOGRAFIA_0-405
 1	E	e	CCONJ	_	_	5	cc	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -11211,13 +11192,13 @@
 15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 14.
-# sent_id = 224-20141023-MONOGRAFIA_0-409
+# sent_id = 224-20141023-MONOGRAFIA_0-406
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Cromatogramas obtidos para soluções padrão contendo diferentes níveis de concentração para Na+ e K+.
-# sent_id = 224-20141023-MONOGRAFIA_0-410
+# sent_id = 224-20141023-MONOGRAFIA_0-407
 1	Cromatogramas	Cromatograma	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -11232,16 +11213,16 @@
 12	Na+	Na+	PROPN	_	Number=Sing	10	nmod	_	_
 13	e	e	CCONJ	_	_	12	flat:name	_	_
 14	K+	K+	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 15.
-# sent_id = 224-20141023-MONOGRAFIA_0-411
+# sent_id = 224-20141023-MONOGRAFIA_0-408
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Cromatogramas obtidos para soluções padrão contendo diferentes níveis de concentração para Mg2+ e Ca2+.
-# sent_id = 224-20141023-MONOGRAFIA_0-412
+# sent_id = 224-20141023-MONOGRAFIA_0-409
 1	Cromatogramas	Cromatograma	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -11258,20 +11239,19 @@
 14	Ca2+	Ca2+	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Ca2+ para a amostra
-# sent_id = 224-20141023-MONOGRAFIA_0-413
-1	Ca2+	Ca2+	PROPN	_	Number=Sing	0	root	_	_
-2	para	para	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-
-# text = A02.
-# sent_id = 224-20141023-MONOGRAFIA_0-414
-1	A02	A02	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = A) Ca2+ para a amostra A02.
+# sent_id = 224-20141023-MONOGRAFIA_0-410
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	)	)	PUNCT	_	_	3	punct	_	_
+3	Ca2+	Ca2+	PROPN	_	Number=Sing	0	root	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	A02	A02	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = As Figuras 17 e 18 mostram a curva analítica para cada um dos íons em estudo.
-# sent_id = 224-20141023-MONOGRAFIA_0-415
+# sent_id = 224-20141023-MONOGRAFIA_0-411
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	17	17	NUM	_	NumType=Card	2	nummod	_	_
@@ -11290,10 +11270,10 @@
 15	íons	íom	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	em	em	ADP	_	_	17	case	_	_
 17	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Curva Analítica para o Na+ Curva Analítica para o K+ equações da reta.
-# sent_id = 224-20141023-MONOGRAFIA_0-416
+# sent_id = 224-20141023-MONOGRAFIA_0-412
 1	Curva	Curva	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Analítica	Analítica	PROPN	_	Number=Sing	1	flat:name	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -11311,24 +11291,14 @@
 14	reta	reta	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Curva Analítica para o Mg2+ Curva Analítica para o Ca2+ Figura 18.
-# sent_id = 224-20141023-MONOGRAFIA_0-417
-1	Curva	Curva	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	Analítica	Analítica	PROPN	_	Number=Sing	1	flat:name	_	_
-3	para	para	ADP	_	_	5	case	_	_
-4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Mg2+	Mg2+	PROPN	_	Number=Sing	1	nmod	_	_
-6	Curva	curva	PROPN	_	Number=Sing	5	flat:name	_	_
-7	Analítica	Analítica	PROPN	_	Number=Sing	5	flat:name	_	_
-8	para	para	ADP	_	_	10	case	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Ca2+	Ca2+	PROPN	_	Number=Sing	12	nmod	_	_
-11	Figura	figura	PROPN	_	Number=Sing	10	flat:name	_	_
-12	18	18	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	_
+# text = Figura 18.
+# sent_id = 224-20141023-MONOGRAFIA_0-413
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	18	18	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Curvas analíticas para os cátions Mg2+ e Ca2+ e suas respectivas equações da reta.
-# sent_id = 224-20141023-MONOGRAFIA_0-418
+# sent_id = 224-20141023-MONOGRAFIA_0-414
 1	Curvas	curva	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -11345,71 +11315,52 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	reta	reta	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = O limite de detecção (LD = 3s/b) e o limite de quantificação (LQ = 10s/b) foram calculados de maneira convencional, a partir do desvio padrão (s) de dez brancos representativos e da sensibilidade (b) das curvas analíticas, conforme citado em 4.2.
-# sent_id = 224-20141023-MONOGRAFIA_0-419
-1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	limite	limite	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+# text = foram calculados de maneira convencional, a partir do desvio padrão (s) de dez brancos representativos e da sensibilidade (b) das curvas analíticas, conforme citado em 4.2.
+# sent_id = 224-20141023-MONOGRAFIA_0-415
+1	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
+2	calculados	calcular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	LD	LD	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
-7	=	=	SYM	_	_	6	appos	_	_
-8	3s/b	3s/b	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	6	punct	_	_
-10	e	e	CCONJ	_	_	12	cc	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	limite	limite	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	LQ	Lq	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-17	=	=	SYM	_	_	16	appos	_	_
-18	10s/b	10s/b	ADP	_	_	19	case	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	17	punct	_	_
-20	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	21	aux:pass	_	_
-21	calculados	calcular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
-24	convencional	convencional	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	21	punct	_	_
-26	a	a	ADP	_	_	27	case	_	_
-27	partir	partir	VERB	_	VerbForm=Inf	21	obl	_	_
-28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	31	case	_	_
-29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	desvio	desvio	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
-31	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	appos	_	SpaceAfter=No
-34	)	)	PUNCT	_	_	33	punct	_	_
-35	de	de	ADP	_	_	37	case	_	_
-36	dez	dez	NUM	_	NumType=Card	37	nummod	_	_
-37	brancos	branco	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
-38	representativos	representativo	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
-39	e	e	CCONJ	_	_	42	cc	_	_
-40-41	da	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	42	case	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
-43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
-44	b	bado	NOUN	_	Gender=Masc|Number=Sing	42	appos	_	SpaceAfter=No
-45	)	)	PUNCT	_	_	44	punct	_	_
-46-47	das	_	_	_	_	_	_	_	_
-46	de	de	ADP	_	_	48	case	_	_
-47	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
-48	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
-49	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	48	amod	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	21	punct	_	_
-51	conforme	conforme	SCONJ	_	_	52	mark	_	_
-52	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_
-53	em	em	ADP	_	_	54	case	_	_
-54	4.2	4.2	NUM	_	NumType=Card	52	obl	_	SpaceAfter=No
-55	.	.	PUNCT	_	_	21	punct	_	_
+4	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+5	convencional	convencional	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	partir	partir	VERB	_	VerbForm=Inf	2	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	desvio	desvio	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	dez	dez	NUM	_	NumType=Card	18	nummod	_	_
+18	brancos	branco	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+19	representativos	representativo	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	b	bado	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27-28	das	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+30	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	2	punct	_	_
+32	conforme	conforme	SCONJ	_	_	33	mark	_	_
+33	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	4.2	4.2	NUM	_	NumType=Card	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os limites de detecção e quantificação para os íons em estudo são mostrados na Tabela 6.
-# sent_id = 224-20141023-MONOGRAFIA_0-420
+# sent_id = 224-20141023-MONOGRAFIA_0-416
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	limites	limite	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11431,13 +11382,13 @@
 18	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Tabela 6.
-# sent_id = 224-20141023-MONOGRAFIA_0-421
+# sent_id = 224-20141023-MONOGRAFIA_0-417
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Limites de detecção (LD) e de quantificação (LQ) para os cátions Na+, K+, Ca2+ e Mg2+ em mg Kg-1.
-# sent_id = 224-20141023-MONOGRAFIA_0-422
+# sent_id = 224-20141023-MONOGRAFIA_0-418
 1	Limites	limite	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	detecção	detecção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -11466,7 +11417,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Por meio das curvas analíticas, determinou–se as concentrações dos íons Na+, K+, Ca2+ e Mg2+ para cada amostra.
-# sent_id = 224-20141023-MONOGRAFIA_0-423
+# sent_id = 224-20141023-MONOGRAFIA_0-419
 1	Por	por	ADP	_	_	2	case	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -11494,8 +11445,8 @@
 23	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	8	punct	_	_
 
-# text = Por exemplo, para a amostra A02 a concentração de Na+ pode ser calculada por: Sendo [Na+] a concentração de sódio, *Y a área média dos picos de nove leituras realizadas para essa amostra e 0,00171Kg a massa de biodiesel correspondente a 5 mL do mesmo.
-# sent_id = 224-20141023-MONOGRAFIA_0-424
+# text = Por exemplo, para a amostra A02 a concentração de Na+ pode ser calculada por:
+# sent_id = 224-20141023-MONOGRAFIA_0-420
 1	Por	por	ADP	_	_	9	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -11511,52 +11462,55 @@
 13	ser	ser	AUX	_	VerbForm=Inf	14	aux:pass	_	_
 14	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	xcomp	_	_
 15	por	por	ADP	_	_	16	case	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	22	punct	_	_
-17	Sendo	ser	AUX	_	VerbForm=Ger	19	cop	_	_
-18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	Na+	Na+	PROPN	_	Number=Sing	22	nmod	_	SpaceAfter=No
-20	]	_	PUNCT	_	_	19	punct	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	27	punct	_	_
-26	*	*	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	Y	Y	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	área	área	NOUN	_	Gender=Fem|Number=Sing	22	appos	_	_
-30	média	médio	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
-31-32	dos	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	picos	pico	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-34	de	de	ADP	_	_	36	case	_	_
-35	nove	nove	NUM	_	NumType=Card	36	nummod	_	_
-36	leituras	leitura	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
-37	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	44	acl	_	_
-38	para	para	ADP	_	_	40	case	_	_
-39	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	40	det	_	_
-40	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
-41	e	e	CCONJ	_	_	42	cc	_	_
-42	0,00171Kg	0,00171Kg	PROPN	_	Gender=Unsp|Number=Sing	40	conj	_	_
-43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	massa	massa	NOUN	_	Gender=Fem|Number=Sing	36	appos	_	_
-45	de	de	ADP	_	_	46	case	_	_
-46	biodiesel	biodiesel	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	_
-47	correspondente	correspondente	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	_
-48	a	a	ADP	_	_	50	case	_	_
-49	5	5	NUM	_	NumType=Card	50	nummod	_	_
-50	mL	mL	PROPN	_	Gender=Masc|Number=Sing	47	obl	_	_
-51-52	do	_	_	_	_	_	_	_	_
-51	de	de	ADP	_	_	53	case	_	_
-52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
-53	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	50	nmod	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	:	:	PUNCT	_	_	14	punct	_	_
 
-# text = [Na+] = (*Y _ 616,10)/1709.63 +
-# sent_id = 224-20141023-MONOGRAFIA_0-425
+# text = Sendo [Na+] a concentração de sódio, *Y a área média dos picos de nove leituras realizadas para essa amostra e 0,00171Kg a massa de biodiesel correspondente a 5 mL do mesmo.
+# sent_id = 224-20141023-MONOGRAFIA_0-421
+1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
+2	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Na+	Na+	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
+4	]	_	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	*	*	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	Y	Y	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	área	área	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	média	médio	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	picos	pico	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	nove	nove	NUM	_	NumType=Card	20	nummod	_	_
+20	leituras	leitura	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	28	acl	_	_
+22	para	para	ADP	_	_	24	case	_	_
+23	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	0,00171Kg	0,00171Kg	PROPN	_	Gender=Unsp|Number=Sing	24	conj	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	massa	massa	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	biodiesel	biodiesel	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+31	correspondente	correspondente	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
+32	a	a	ADP	_	_	33	case	_	_
+33	5	5	NUM	_	NumType=Card	34	nummod	_	_
+34	mL	mL	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# text = [Na+] = (*Y _ 616,10)/1709.63
+# sent_id = 224-20141023-MONOGRAFIA_0-422
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Na+	Na+	PROPN	_	Number=Sing	11	parataxis	_	SpaceAfter=No
+2	Na+	Na+	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
 4	=	=	SYM	_	_	2	parataxis	_	_
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -11564,12 +11518,14 @@
 7	Y	Y	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
 8	_	_	PUNCT	_	_	7	punct	_	_
 9	616,10	616,10	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-11	/1709.63	/1709.63	NUM	_	NumType=Card	12	nummod	_	_
-12	+	+	SYM	_	_	0	root	_	_
+10	)/1709.63	)/1709.63	NUM	_	NumType=Card	9	flat	_	_
+
+# text = +
+# sent_id = 224-20141023-MONOGRAFIA_0-423
+1	+	+	SYM	_	_	0	root	_	_
 
 # text = Na *Y= 13131,86 [Na+] em mg/L
-# sent_id = 224-20141023-MONOGRAFIA_0-426
+# sent_id = 224-20141023-MONOGRAFIA_0-424
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -11583,12 +11539,12 @@
 10	mg/L	mg/L	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 
 # text = = 7,32
-# sent_id = 224-20141023-MONOGRAFIA_0-427
+# sent_id = 224-20141023-MONOGRAFIA_0-425
 1	=	=	SYM	_	_	0	root	_	_
 2	7,32	7,32	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Massa em mg de Na+ na amostra = [Na+] em mg/L x 0,0005L [Na+] em ppm =
-# sent_id = 224-20141023-MONOGRAFIA_0-428
+# sent_id = 224-20141023-MONOGRAFIA_0-426
 1	Massa	massa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	mg	mg	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -11614,7 +11570,7 @@
 22	=	=	SYM	_	_	1	nmod	_	_
 
 # text = Massa em mg de Na+ na amostra/ 0,00171 kg [Na+] em ppm = 2,10 ppm Y
-# sent_id = 224-20141023-MONOGRAFIA_0-429
+# sent_id = 224-20141023-MONOGRAFIA_0-427
 1	Massa	massa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	mg	mg	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -11638,7 +11594,7 @@
 20	Y	Y	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	_
 
 # text = = a + bx a = 616, 10 b = 1709, 63 = 0,9999 R
-# sent_id = 224-20141023-MONOGRAFIA_0-430
+# sent_id = 224-20141023-MONOGRAFIA_0-428
 1	=	=	SYM	_	_	15	nmod	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	+	+	SYM	_	_	1	nmod	_	_
@@ -11652,13 +11608,13 @@
 11	=	=	SYM	_	_	3	nmod	_	_
 12	1709	1709	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	3	punct	_	_
-14	63	63	NUM	_	NumType=Card	1	nummod	_	_
+14	63	63	NUM	_	NumType=Card	1	nummod	_	SpacesAfter=\s\n
 15	=	=	SYM	_	_	0	root	_	_
 16	0,9999	0,9999	NUM	_	NumType=Card	15	nummod	_	_
 17	R	R	PROPN	_	Gender=Unsp|Number=Sing	15	appos	_	_
 
 # text = As Tabelas 7 e 8 apresentam as concentrações dos íons Na+ e K+ e Mg2+ e Ca2+ encontradas em cada uma das amostras.
-# sent_id = 224-20141023-MONOGRAFIA_0-431
+# sent_id = 224-20141023-MONOGRAFIA_0-429
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	7	7	NUM	_	NumType=Card	2	nummod	_	_
@@ -11686,16 +11642,16 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 7.
-# sent_id = 224-20141023-MONOGRAFIA_0-432
+# sent_id = 224-20141023-MONOGRAFIA_0-430
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentração de Na e K nas amostras de biodiesel e o intervalo de confiança a um nível de 95%.
-# sent_id = 224-20141023-MONOGRAFIA_0-433
+# sent_id = 224-20141023-MONOGRAFIA_0-431
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	6	case	_	_
 3-4	Na	_	_	_	_	_	_	_	_
@@ -11723,20 +11679,20 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 8.
-# sent_id = 224-20141023-MONOGRAFIA_0-434
+# sent_id = 224-20141023-MONOGRAFIA_0-432
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentração de Ca e
-# sent_id = 224-20141023-MONOGRAFIA_0-435
+# sent_id = 224-20141023-MONOGRAFIA_0-433
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ca	Ca	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	e	e	CCONJ	_	_	1	cc	_	_
 
 # text = Mg nas amostras de biodiesel e o intervalo de confiança a um nível de 95%.
-# sent_id = 224-20141023-MONOGRAFIA_0-436
+# sent_id = 224-20141023-MONOGRAFIA_0-434
 1	Mg	Mg	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	nas	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -11758,12 +11714,12 @@
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 4.4.
-# sent_id = 224-20141023-MONOGRAFIA_0-437
+# sent_id = 224-20141023-MONOGRAFIA_0-435
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Discussão dos Resultados
-# sent_id = 224-20141023-MONOGRAFIA_0-438
+# sent_id = 224-20141023-MONOGRAFIA_0-436
 1	Discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -11771,7 +11727,7 @@
 4	Resultados	Resultados	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Como observado, as curvas analíticas obtidas em ambos os métodos apresentaram um R2 > 0,999, o que indica que há uma correlação linear satisfatória entre as áreas de pico e concentrações dos analitos para CTI, bem como entre absorbâncias e concentrações dos analitos para a FAAS.
-# sent_id = 224-20141023-MONOGRAFIA_0-439
+# sent_id = 224-20141023-MONOGRAFIA_0-437
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	observado	observar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -11828,7 +11784,7 @@
 52	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = O método de pré-concentração empregado como alternativa para determinar estes metais em baixas concentrações no biodiesel foi eficaz para deixar as concentrações próximas do centro da curva analítica, uma vez que é nessa região que a linearidade é mais seguramente obedecida.
-# sent_id = 224-20141023-MONOGRAFIA_0-440
+# sent_id = 224-20141023-MONOGRAFIA_0-438
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11879,10 +11835,10 @@
 44	mais	mais	ADV	_	_	45	advmod	_	_
 45	seguramente	seguramente	ADV	_	_	46	advmod	_	_
 46	obedecida	obedecidir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	advcl	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = O procedimento de extração empregado no trabalho utiliza os princípios básicos da extração por solventes explorando a grande afinidade dos cátions inorgânicos pelo meio aquoso em relação ao meio orgânico (biodiesel).
-# sent_id = 224-20141023-MONOGRAFIA_0-441
+# sent_id = 224-20141023-MONOGRAFIA_0-439
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -11929,7 +11885,7 @@
 39	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Dessa forma, a extração líquido-líquido mostrou-se um bom método de preparo de amostra.
-# sent_id = 224-20141023-MONOGRAFIA_0-442
+# sent_id = 224-20141023-MONOGRAFIA_0-440
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -11951,7 +11907,7 @@
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Porém, estudos de adição e recuperação ainda devem ser realizados para melhor avaliar o preparo da amostra.
-# sent_id = 224-20141023-MONOGRAFIA_0-443
+# sent_id = 224-20141023-MONOGRAFIA_0-441
 1	Porém	porém	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
@@ -11975,7 +11931,7 @@
 20	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Durante o processo de extração líquido-líquido observou-se a formação de sabão na mistura água/biodiesel para as amostras A02, A05 e A08.
-# sent_id = 224-20141023-MONOGRAFIA_0-444
+# sent_id = 224-20141023-MONOGRAFIA_0-442
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -12005,7 +11961,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ou seja, observou-se uma mistura com três fases: biodiesel/sólido (coloração branca)/água.
-# sent_id = 224-20141023-MONOGRAFIA_0-445
+# sent_id = 224-20141023-MONOGRAFIA_0-443
 1	Ou	ou	CCONJ	_	_	4	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -12027,8 +11983,8 @@
 18	/água	/água	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Comparando os resultados obtidos por FAAS e por CTI observa- se que as amostras A02, A05 e A08 pelo método cromatográfico apresentam concentrações menores que pelo método de absorção atômica.
-# sent_id = 224-20141023-MONOGRAFIA_0-446
+# text = Comparando os resultados obtidos por FAAS e por CTI observa-se que as amostras A02, A05 e A08 pelo método cromatográfico apresentam concentrações menores que pelo método de absorção atômica.
+# sent_id = 224-20141023-MONOGRAFIA_0-444
 1	Comparando	comparar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -12038,37 +11994,37 @@
 7	e	e	CCONJ	_	_	9	cc	_	_
 8	por	por	ADP	_	_	9	case	_	_
 9	CTI	CTI	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	_
-10	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	-	-	PUNCT	_	_	10	punct	_	_
-12	se	se	SCONJ	_	_	25	mark	_	_
-13	que	que	SCONJ	_	_	12	fixed	_	_
-14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
-16	A02	A02	PROPN	_	Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	A05	A05	PROPN	_	Gender=Masc|Number=Sing	15	conj	_	_
-19	e	e	CCONJ	_	_	20	cc	_	_
-20	A08	A08	PROPN	_	Gender=Masc|Number=Sing	15	conj	_	_
-21-22	pelo	_	_	_	_	_	_	_	_
-21	por	por	ADP	_	_	23	case	_	_
-22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	método	método	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-24	cromatográfico	cromatográfico	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
-25	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
-26	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
-27	menores	pequeno	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
-28	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	25	obj	_	_
-29-30	pelo	_	_	_	_	_	_	_	_
-29	por	por	ADP	_	_	31	case	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	método	método	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-34	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	10	punct	_	_
+10-11	observa-se	_	_	_	_	_	_	_	_
+10	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	se	se	SCONJ	_	_	24	mark	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
+15	A02	A02	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	A05	A05	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	A08	A08	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	método	método	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+23	cromatográfico	cromatográfico	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+25	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+26	menores	pequeno	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+27	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	30	obj	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	método	método	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A formação de sabão dificultou a separação das fases nessas amostras e isso pode ter influenciado o resultado nas quantificações dessas amostras.
-# sent_id = 224-20141023-MONOGRAFIA_0-447
+# sent_id = 224-20141023-MONOGRAFIA_0-445
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -12102,7 +12058,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Para verificar a eficiência do método proposto
-# sent_id = 224-20141023-MONOGRAFIA_0-448
+# sent_id = 224-20141023-MONOGRAFIA_0-446
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	verificar	verificar	VERB	_	VerbForm=Inf	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -12113,8 +12069,8 @@
 7	método	método	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 8	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
 
-# text = Foram realizados os testes de hipótese, testes F de homogeneidade de variâncias e o teste t- Student com dados pareados, dentro de um intervalo de confiança de 95 %.
-# sent_id = 224-20141023-MONOGRAFIA_0-449
+# text = Foram realizados os testes de hipótese, testes F de homogeneidade de variâncias e o teste t-Student com dados pareados, dentro de um intervalo de confiança de 95 %.
+# sent_id = 224-20141023-MONOGRAFIA_0-447
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -12131,25 +12087,24 @@
 14	e	e	CCONJ	_	_	16	cc	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	teste	teste	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
-17	t-	t-	PUNCT	_	_	18	punct	_	_
-18	Student	Student	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	_
-19	com	com	ADP	_	_	20	case	_	_
-20	dados	dado	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-21	pareados	pareado	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	dentro	dentro	ADV	_	_	2	advmod	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
-27	de	de	ADP	_	_	28	case	_	_
-28	confiança	confiança	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-29	de	de	ADP	_	_	31	case	_	_
-30	95	95	NUM	_	NumType=Card	31	nummod	_	_
-31	%	%	SYM	_	_	28	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+17	t-Student	t-Student	X	_	_	19	case	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	dados	dado	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	pareados	pareado	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	dentro	dentro	ADV	_	_	2	advmod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	confiança	confiança	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	95	95	NUM	_	NumType=Card	30	nummod	_	_
+30	%	%	SYM	_	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Com os valores do t calculado e o t tabelado (2,22) ao nível de confiança de 95 %, bem como os valores do F calculado e o F tabelado (6,04) avaliou-se se os dois resultados são considerados diferentes (teste t: t calculado
-# sent_id = 224-20141023-MONOGRAFIA_0-450
+# text = Com os valores do t calculado e o t tabelado (2,22) ao nível de confiança de 95 %, bem como os valores do F calculado e o F tabelado (6,04) avaliou-se se os dois resultados são considerados diferentes (teste t: t calculado > t tabelado) e se os desvios padrão são significativamente diferentes entre si (teste F: F calculado > F tabelado).
+# sent_id = 224-20141023-MONOGRAFIA_0-448
 1	Com	com	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	valores	valor	NOUN	_	Gender=Masc|Number=Plur	39	obl	_	_
@@ -12199,44 +12154,41 @@
 43	dois	dois	NUM	_	NumType=Card	44	nummod	_	_
 44	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	46	nsubj:pass	_	_
 45	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux:pass	_	_
-46	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	39	ccomp	_	_
-47	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	50	det	_	_
+46	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	65	advcl	_	_
+47	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	61	det	_	_
 48	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
 49	teste	teste	ADJ	_	Gender=Fem|Number=Sing	50	amod	_	_
-50	t	t	NOUN	_	Gender=Fem|Number=Sing	46	nsubj:pass	_	SpaceAfter=No
+50	t	t	NOUN	_	Gender=Fem|Number=Sing	47	appos	_	SpaceAfter=No
 51	:	:	PUNCT	_	_	50	punct	_	_
 52	t	t	NOUN	_	Gender=Fem|Number=Sing	50	appos	_	_
-53	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	50	acl	_	_
+53	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	54	acl	_	_
+54	>	>	SYM	_	_	52	appos	_	_
+55	t	t	NOUN	_	Gender=Fem|Number=Sing	54	appos	_	_
+56	tabelado	tabelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	55	acl	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	50	punct	_	_
+58	e	e	CCONJ	_	_	61	cc	_	_
+59	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	61	det	_	_
+60	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	61	det	_	_
+61	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	46	conj	_	_
+62	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	_
+63	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	65	cop	_	_
+64	significativamente	significativamente	ADV	_	_	65	advmod	_	_
+65	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	39	xcomp	_	_
+66	entre	entre	ADP	_	_	67	case	_	_
+67	si	si	PRON	_	Number=Sing|Person=3|PronType=Prs	65	obl	_	_
+68	(	(	PUNCT	_	_	69	punct	_	SpaceAfter=No
+69	teste	teste	NOUN	_	Gender=Masc|Number=Sing	67	appos	_	_
+70	F:	F:	PROPN	_	Gender=Masc|Number=Sing	69	appos	_	_
+71	F	F	PROPN	_	Number=Sing	70	flat:name	_	_
+72	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	73	acl	_	_
+73	>	>	SYM	_	_	69	appos	_	_
+74	F	F	PROPN	_	Gender=Masc|Number=Sing	73	appos	_	_
+75	tabelado	tabelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	74	acl	_	SpaceAfter=No
+76	)	)	PUNCT	_	_	69	punct	_	SpaceAfter=No
+77	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\n
 
-# text = > t tabelado) e se os desvios padrão são significativamente diferentes entre si (teste F: F calculado > F tabelado).
-# sent_id = 224-20141023-MONOGRAFIA_0-451
-1	>	>	SYM	_	_	12	nsubj	_	_
-2	t	t	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-3	tabelado	tabelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	2	punct	_	_
-5	e	e	CCONJ	_	_	8	cc	_	_
-6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	det	_	_
-7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	desvios	desvio	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
-9	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
-10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-11	significativamente	significativamente	ADV	_	_	12	advmod	_	_
-12	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-13	entre	entre	ADP	_	_	14	case	_	_
-14	si	si	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obl	_	_
-15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	teste	teste	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
-17	F:	F:	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	_
-18	F	F	PROPN	_	Number=Sing	17	flat:name	_	_
-19	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_
-20	>	>	SYM	_	_	16	appos	_	_
-21	F	F	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	_
-22	tabelado	tabelar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
-
-# text = As Tabelas 9, 10, 11 e 12 mostram os resultados das concentrações dos íons Na+, K+, Ca2+ e Mg2+ obtidos por ambas as técnicas utilizadas com os resultados dos testes t e teste F. Tabela 9.
-# sent_id = 224-20141023-MONOGRAFIA_0-452
+# text = As Tabelas 9, 10, 11 e 12 mostram os resultados das concentrações dos íons Na+, K+, Ca2+ e Mg2+ obtidos por ambas as técnicas utilizadas com os resultados dos testes t e teste F.
+# sent_id = 224-20141023-MONOGRAFIA_0-449
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
@@ -12256,15 +12208,15 @@
 16-17	dos	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	íons	íons	PROPN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	íons	íons	PROPN	_	Gender=Masc|Number=Plur	26	nmod	_	_
 19	Na+	Na+	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	K+	K+	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	Ca2+	Ca2+	PROPN	_	Number=Sing	18	flat:name	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
+24	e	e	CCONJ	_	_	18	flat:name	_	_
 25	Mg2+	Mg2+	PROPN	_	Number=Sing	18	flat:name	_	_
-26	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
+26	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	_
 27	por	por	ADP	_	_	30	case	_	_
 28	ambas	ambos	DET	_	Gender=Fem|Number=Plur|PronType=Tot	30	det	_	_
 29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
@@ -12272,7 +12224,7 @@
 31	utilizadas	utilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	30	acl	_	_
 32	com	com	ADP	_	_	34	case	_	_
 33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
-34	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	_
+34	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	_
 35-36	dos	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
@@ -12280,13 +12232,16 @@
 38	t	t	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 39	e	e	CCONJ	_	_	40	cc	_	_
 40	teste	teste	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
-41	F.	F.	PROPN	_	Gender=Fem|Number=Sing	30	appos	_	SpacesAfter=\n
-42	Tabela	Tabela	PROPN	_	Number=Sing	41	flat:name	_	_
-43	9	9	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	10	punct	_	_
+41	F.	F.	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	SpacesAfter=\n\n
+
+# text = Tabela 9.
+# sent_id = 224-20141023-MONOGRAFIA_0-450
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	9	9	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentração de Na nas amostras de biodiesel determinadas por absorção atômica (AA) e cromatografia de troca iônica (CTI) expressas com IC 95% e os resultados dos testes F e t. Tabela 10.
-# sent_id = 224-20141023-MONOGRAFIA_0-453
+# sent_id = 224-20141023-MONOGRAFIA_0-451
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
 2	de	de	ADP	_	_	7	case	_	_
 3-4	Na	_	_	_	_	_	_	_	_
@@ -12333,8 +12288,8 @@
 41	10	10	NUM	_	NumType=Card	40	nummod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	40	punct	_	_
 
-# text = Concentração de K nas amostras de biodiesel determinadas por absorção atômica (AA) e cromatografia de troca iônica (CTI) expressas com IC 95% e os resultados dos testes F e t. Tabela 11.
-# sent_id = 224-20141023-MONOGRAFIA_0-454
+# text = Concentração de K nas amostras de biodiesel determinadas por absorção atômica (AA) e cromatografia de troca iônica (CTI) expressas com IC 95% e os resultados dos testes F e t.
+# sent_id = 224-20141023-MONOGRAFIA_0-452
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	K	K	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -12366,21 +12321,24 @@
 28	%	%	SYM	_	_	26	nmod	_	_
 29	e	e	CCONJ	_	_	31	cc	_	_
 30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
-31	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	_
+31	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
 32-33	dos	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
-34	testes	teste	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
-35	F	F	PROPN	_	Gender=Masc|Number=Sing	26	conj	_	_
+34	testes	teste	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+35	F	F	PROPN	_	Gender=Masc|Number=Sing	34	appos	_	_
 36	e	e	CCONJ	_	_	37	cc	_	_
 37	t	t	NOUN	_	Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-39	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-40	11	11	NUM	_	NumType=Card	39	nummod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	1	punct	_	_
+38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = Concentração de Ca nas amostras de biodiesel determinadas por absorção atômica (AA) e cromatografia de troca iônica (CTI) expressas com IC 95% e os resultados dos testes F e t. Tabela 12.
-# sent_id = 224-20141023-MONOGRAFIA_0-455
+# text = Tabela 11.
+# sent_id = 224-20141023-MONOGRAFIA_0-453
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	11	11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Concentração de Ca nas amostras de biodiesel determinadas por absorção atômica (AA) e cromatografia de troca iônica (CTI) expressas com IC Tabela 12.
+# sent_id = 224-20141023-MONOGRAFIA_0-454
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ca	Ca	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -12408,49 +12366,39 @@
 24	expressas	esprimir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	11	acl	_	_
 25	com	com	ADP	_	_	26	case	_	_
 26	IC	IC	PROPN	_	Gender=Masc|Number=Sing	24	obl	_	_
-27	95	95	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
-28	%	%	SYM	_	_	26	nmod	_	_
-29	e	e	CCONJ	_	_	31	cc	_	_
-30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
-31	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	_
-32-33	dos	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	34	case	_	_
-33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
-34	testes	teste	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
-35	F	F	PROPN	_	Gender=Masc|Number=Sing	26	conj	_	_
-36	e	e	CCONJ	_	_	37	cc	_	_
-37	t	t	NOUN	_	Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-39	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-40	12	12	NUM	_	NumType=Card	39	nummod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	1	punct	_	_
+27	Tabela	Tabela	PROPN	_	Number=Sing	26	flat:name	_	_
+28	12	12	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Concentração de Mg nas amostras de biodiesel determinadas por absorção atômica e cromatografia de troca iônica expressas com IC 95%.
-# sent_id = 224-20141023-MONOGRAFIA_0-456
+# text = Concentração de
+# sent_id = 224-20141023-MONOGRAFIA_0-455
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Mg	Mg	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4-5	nas	_	_	_	_	_	_	_	_
-4	em	em	ADP	_	_	6	case	_	_
-5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-9	determinadas	determinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
-10	por	por	ADP	_	_	11	case	_	_
-11	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
-12	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	cromatografia	cromatografia	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	troca	troca	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-17	iônica	iônico	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-18	expressas	esprimir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	_
-19	com	com	ADP	_	_	20	case	_	_
-20	IC	IC	PROPN	_	Gender=Masc|Number=Sing	18	obl	_	_
-21	95	95	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
-22	%	%	SYM	_	_	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+2	de	de	ADP	_	_	1	case	_	_
+
+# text = Mg nas amostras de biodiesel determinadas por absorção atômica e cromatografia de troca iônica expressas com IC 95%.
+# sent_id = 224-20141023-MONOGRAFIA_0-456
+1	Mg	Mg	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	nas	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	determinadas	determinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
+8	por	por	ADP	_	_	9	case	_	_
+9	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
+10	atômica	atômico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	cromatografia	cromatografia	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	troca	troca	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	iônica	iônico	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	expressas	esprimir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	14	acl	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	IC	IC	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	_
+19	95	95	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	_	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Empregando o teste t verificou-se que os resultados, nos quais foram possíveis realizar a comparação das concentrações por ambas as técnicas empregadas, mostram que alguns valores são estatisticamente iguais.
 # sent_id = 224-20141023-MONOGRAFIA_0-457
@@ -12543,7 +12491,7 @@
 6	K	K	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	somente	somente	ADV	_	_	10	advmod	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpacesAfter=\s\n
 10	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -12870,19 +12818,19 @@
 37	microchips	microchip	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	10	punct	_	_
 
-# text = Entretanto mostra- se uma técnica atraente para tais análises.
+# text = Entretanto mostra-se uma técnica atraente para tais análises.
 # sent_id = 224-20141023-MONOGRAFIA_0-469
 1	Entretanto	entretanto	ADV	_	_	2	advmod	_	_
-2	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	se	se	SCONJ	_	_	6	mark	_	_
-5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
-7	atraente	atraente	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-8	para	para	ADP	_	_	10	case	_	_
-9	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
-10	análises	análise	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+2-3	mostra-se	_	_	_	_	_	_	_	_
+2	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	atraente	atraente	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	análises	análise	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Comparada com a técnica de absorção atômica, a cromatografia de troca iônica não apresenta menor tempo de análise, porém é possível a programação das corridas cromatográficas de tal maneira que a análise não demande de tempo operacional.
 # sent_id = 224-20141023-MONOGRAFIA_0-470

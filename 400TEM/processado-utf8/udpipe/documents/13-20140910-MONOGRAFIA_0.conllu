@@ -505,7 +505,7 @@
 34	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = A tensão superficial absoluta deve ser medida no vácuo, mas é mais conveniente medi- la em uma atmosfera de seu próprio vapor, ou em ar.
+# text = A tensão superficial absoluta deve ser medida no vácuo, mas é mais conveniente medi-la em uma atmosfera de seu próprio vapor, ou em ar.
 # sent_id = 13-20140910-MONOGRAFIA_0-20
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -523,11 +523,12 @@
 13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	mais	mais	ADV	_	_	15	advmod	_	_
 15	conveniente	conveniente	ADJ	_	Gender=Fem|Number=Sing	7	conj	_	_
-16	medi-	medi-	PUNCT	_	_	15	punct	_	_
-17	la	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+16-17	medi-la	_	_	_	_	_	_	_	_
+16	medi	medir	VERB	_	VerbForm=Inf	15	csubj	_	_
+17	la	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 18	em	em	ADP	_	_	20	case	_	_
 19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+20	atmosfera	atmosfera	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 21	de	de	ADP	_	_	24	case	_	_
 22	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	det	_	_
 23	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Emp	24	det	_	_
@@ -1406,12 +1407,33 @@
 24	]	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = 2.2
+# text = Tabela 1:
 # sent_id = 13-20140910-MONOGRAFIA_0-53
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	1	1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Tensão superficial de algumas substâncias em função da temperatura.
+# sent_id = 13-20140910-MONOGRAFIA_0-54
+1	Tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	superficial	superficial	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	substâncias	substância	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	função	função	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = 2.2
+# sent_id = 13-20140910-MONOGRAFIA_0-55
 1	2.2	2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Método do Anel (Du Noüy)
-# sent_id = 13-20140910-MONOGRAFIA_0-54
+# sent_id = 13-20140910-MONOGRAFIA_0-56
 1	Método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1423,7 +1445,7 @@
 8	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = O tensiômetro Du Nouy (Figura 2) é um instrumento de precisão usado para medidas de tensão superficial ou interfacial de líquidos como soros, óleos, cosméticos, detergentes, suspensões coloidais, proteínas em solução, etc.
-# sent_id = 13-20140910-MONOGRAFIA_0-55
+# sent_id = 13-20140910-MONOGRAFIA_0-57
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tensiômetro	tensiômetro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	Du	du	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -1466,7 +1488,7 @@
 40	etc.	etc.	ADV	_	_	11	advmod	_	_
 
 # text = Os valores medidos são reprodutíveis dentro de ± 0,05 dyna/cm e podem ser obtidos pela leitura direta na escala do aparelho.
-# sent_id = 13-20140910-MONOGRAFIA_0-56
+# sent_id = 13-20140910-MONOGRAFIA_0-58
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	medidos	medir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -1499,7 +1521,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A força do desprendimento é relacionada à tensão superficial ou à tensão interfacial pela Equação 1, em que F é a tração no anel, R é o raio médio do anel e β é um fator de correção.
-# sent_id = 13-20140910-MONOGRAFIA_0-57
+# sent_id = 13-20140910-MONOGRAFIA_0-59
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1555,13 +1577,13 @@
 47	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
 
 # text = (1)
-# sent_id = 13-20140910-MONOGRAFIA_0-58
+# sent_id = 13-20140910-MONOGRAFIA_0-60
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = O tensiômetro consiste, basicamente, de uma balança de torção que usa um fio para aplicar a força necessária para remover um anel de platina da superfície do líquido a ser testado.
-# sent_id = 13-20140910-MONOGRAFIA_0-59
+# sent_id = 13-20140910-MONOGRAFIA_0-61
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tensiômetro	tensiômetro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1602,7 +1624,7 @@
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O anel é facilmente removido para a limpeza e deve ser guardado numa embalagem especial sempre que não estiver em uso, pois qualquer descuido poderá inutilizá-lo.
-# sent_id = 13-20140910-MONOGRAFIA_0-60
+# sent_id = 13-20140910-MONOGRAFIA_0-62
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	anel	anel	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1637,7 +1659,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O mecanismo de determinação da tensão superficial de líquidos segue os seguintes passos, ilustrados pela Figura 3: 1.
-# sent_id = 13-20140910-MONOGRAFIA_0-61
+# sent_id = 13-20140910-MONOGRAFIA_0-63
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1663,7 +1685,7 @@
 21	1.	1.	NUM	_	NumType=Card	11	obj	_	_
 
 # text = O anel é colocado acima da superfície do líquido e a força é zerada; 2.
-# sent_id = 13-20140910-MONOGRAFIA_0-62
+# sent_id = 13-20140910-MONOGRAFIA_0-64
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	anel	anel	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1687,7 +1709,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O anel toca a superfície e há uma ligeira força positiva, devido à força adesiva entre o anel e a superfície; 3.
-# sent_id = 13-20140910-MONOGRAFIA_0-63
+# sent_id = 13-20140910-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	anel	anel	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	toca	tocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1717,7 +1739,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O anel é empurrado através da superfície (devido à tensão de superfície), o que causa uma pequena força negativa; 4.
-# sent_id = 13-20140910-MONOGRAFIA_0-64
+# sent_id = 13-20140910-MONOGRAFIA_0-66
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	anel	anel	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1749,7 +1771,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A ruptura da superfície pelo anel e uma pequena força positiva na superfície são medidas através do fio que suporta o anel; 5.
-# sent_id = 13-20140910-MONOGRAFIA_0-65
+# sent_id = 13-20140910-MONOGRAFIA_0-67
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ruptura	ruptura	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1785,7 +1807,7 @@
 29	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Quando o anel é levantado de encontro à superfície, a força medida começa aumentar; 6.
-# sent_id = 13-20140910-MONOGRAFIA_0-66
+# sent_id = 13-20140910-MONOGRAFIA_0-68
 1	Quando	quando	SCONJ	_	_	5	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	anel	anel	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -1808,7 +1830,7 @@
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = A força aumenta continuamente; 7.
-# sent_id = 13-20140910-MONOGRAFIA_0-67
+# sent_id = 13-20140910-MONOGRAFIA_0-69
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1818,7 +1840,7 @@
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Até que uma força máxima é alcançada; 8.
-# sent_id = 13-20140910-MONOGRAFIA_0-68
+# sent_id = 13-20140910-MONOGRAFIA_0-70
 1	Até	até	ADV	_	_	7	advmod	_	_
 2	que	que	SCONJ	_	_	7	mark	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1831,7 +1853,7 @@
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Depois que a força máxima é alcançada, há uma pequena diminuição até que a membrana se rompe.
-# sent_id = 13-20140910-MONOGRAFIA_0-69
+# sent_id = 13-20140910-MONOGRAFIA_0-71
 1	Depois	depois	ADV	_	_	7	advmod	_	_
 2	que	que	SCONJ	_	_	7	mark	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1853,12 +1875,12 @@
 19	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Figura 3:
-# sent_id = 13-20140910-MONOGRAFIA_0-70
+# sent_id = 13-20140910-MONOGRAFIA_0-72
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3:	3:	PUNCT	_	_	1	punct	_	_
 
 # text = Mecanismo de funcionamento do anel de Du Noüy [http://www.che.uah.edu].
-# sent_id = 13-20140910-MONOGRAFIA_0-71
+# sent_id = 13-20140910-MONOGRAFIA_0-73
 1	Mecanismo	mecanismo	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -1875,12 +1897,12 @@
 13	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = . 2.3
-# sent_id = 13-20140910-MONOGRAFIA_0-72
+# sent_id = 13-20140910-MONOGRAFIA_0-74
 1	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 2	2.3	2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Tensoativos Tensoativos, ou muitas vezes denominados surfactantes, são moléculas anfifílicas caracterizadas por possuírem regiões estruturais com características hidrofílica e hidrofóbica.
-# sent_id = 13-20140910-MONOGRAFIA_0-73
+# sent_id = 13-20140910-MONOGRAFIA_0-75
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 2	Tensoativos	Tensoativo	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -1906,7 +1928,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A região hidrofílica é constituída por grupos iônicos ou não-iônicos polares ligados à cadeia carbônica, sendo normalmente denominada de cabeça ou grupo polar do tensoativo.
-# sent_id = 13-20140910-MONOGRAFIA_0-74
+# sent_id = 13-20140910-MONOGRAFIA_0-76
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	região	região	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	hidrofílica	hidrofílico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -1940,7 +1962,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A região hidrofóbica é constituída normalmente de uma ou mais cadeias alquílicas ou alquilfenílicas, com oito ou dezesseis átomos de carbono.
-# sent_id = 13-20140910-MONOGRAFIA_0-75
+# sent_id = 13-20140910-MONOGRAFIA_0-77
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	região	região	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	hidrofóbica	hidrofóbico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -1966,7 +1988,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = É denominada de cauda do tensoativo.
-# sent_id = 13-20140910-MONOGRAFIA_0-76
+# sent_id = 13-20140910-MONOGRAFIA_0-78
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1978,7 +2000,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = É possível ter grupos não-ionicos hidrofílicos que exibem também uma afinidade forte com as moléculas de água; por exemplo, cada unidade do monômero em um poli (óxido de etileno) mostra uma afinidade modesta por água e o efeito da soma de diversas destas unidades na cadeia do polímero apresentam forte afinidade com as moléculas de água.
-# sent_id = 13-20140910-MONOGRAFIA_0-77
+# sent_id = 13-20140910-MONOGRAFIA_0-79
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	ter	ter	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -2052,7 +2074,7 @@
 66	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos são classificados como aniônicos, catiônicos, não-iônicos ou anfifílicos, de acordo com a carga na parte ativa da superfície em uma molécula.
-# sent_id = 13-20140910-MONOGRAFIA_0-78
+# sent_id = 13-20140910-MONOGRAFIA_0-80
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2086,7 +2108,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Alguns exemplos comuns são dados na Tabela 2.
-# sent_id = 13-20140910-MONOGRAFIA_0-79
+# sent_id = 13-20140910-MONOGRAFIA_0-81
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	exemplos	exemplo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	comuns	comum	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -2100,7 +2122,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os tensoativos são frequentemente nomeados com relação a sua aplicação tecnológica.
-# sent_id = 13-20140910-MONOGRAFIA_0-80
+# sent_id = 13-20140910-MONOGRAFIA_0-82
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -2115,7 +2137,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Eles são usados em fluidos de perfuração como emulsificantes, umectantes, espumantes, desespumantes e para reduzir a hidratação nas superfícies das argilas (inibidor).
-# sent_id = 13-20140910-MONOGRAFIA_0-81
+# sent_id = 13-20140910-MONOGRAFIA_0-83
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	usados	usar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2150,7 +2172,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos aniônicos são os mais usados, devido ao custo e o desempenho.
-# sent_id = 13-20140910-MONOGRAFIA_0-82
+# sent_id = 13-20140910-MONOGRAFIA_0-84
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	aniônicos	aniônico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -2170,7 +2192,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os catiônicos são caros, mas sua ação germicida torna-os úteis para algumas aplicações.
-# sent_id = 13-20140910-MONOGRAFIA_0-83
+# sent_id = 13-20140910-MONOGRAFIA_0-85
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	catiônicos	catiônico	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2190,7 +2212,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Uma vantagem apresentada pelos não-iônicos é que o comprimento dos grupos hidrofílicos e hidrofóbicos pode ser variado [Duncan J.
-# sent_id = 13-20140910-MONOGRAFIA_0-84
+# sent_id = 13-20140910-MONOGRAFIA_0-86
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -2217,167 +2239,41 @@
 22	J.	J.	PROPN	_	Number=Sing	21	flat:name	_	_
 
 # text = Shaw, 1992].
-# sent_id = 13-20140910-MONOGRAFIA_0-85
+# sent_id = 13-20140910-MONOGRAFIA_0-87
 1	Shaw	Shaw	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	1992	1992	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 4	]	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Tabela 2:
-# sent_id = 13-20140910-MONOGRAFIA_0-86
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Agentes tensoativos [Duncan J. Shaw, 1992].
-# sent_id = 13-20140910-MONOGRAFIA_0-87
-1	Agentes	agente	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
-3	[	[	PUNCT	_	_	1	punct	_	SpaceAfter=No
-4	Duncan	Duncan	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-5	J.	J.	PROPN	_	Number=Sing	4	flat:name	_	_
-6	Shaw	Shaw	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	1992	1992	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-9	]	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = ____________________________ Aniônico Estearato de sódio Oleato de sódio -Na+
+# text = +Cl-CH3(CH2)11NH3 CH3(CH2)15N(CH3)3 +Br-CH3(CH2)1(OCH2CH2)6OH * C12H25N+ (CH3)2 CH2COO-2.4
 # sent_id = 13-20140910-MONOGRAFIA_0-88
-1	____________________________	____________________________	PUNCT	_	_	2	punct	_	_
-2	Aniônico	Aniônico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	Estearato	Estearato	PROPN	_	Number=Sing	2	flat:name	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	sódio	sódio	PROPN	_	Number=Sing	2	nmod	_	_
-6	Oleato	Oleato	PROPN	_	Number=Sing	5	flat:name	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	sódio	sódio	PROPN	_	Number=Sing	5	nmod	_	_
-9	-Na+	-Na+	PROPN	_	Number=Sing	8	flat:name	_	_
-
-# text = Dodecil sulfato de sódio Dodecil benzeno sulfonato de sódio CH3(CH2)11C6H4SO3
-# sent_id = 13-20140910-MONOGRAFIA_0-89
-1	Dodecil	Dodecil	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	sulfato	sulfato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	Dodecil	Dodecil	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-6	benzeno	benzeno	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-7	sulfonato	sulfonato	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	CH3(	CH3(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-11	CH2	CH2	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
-12	)11C6H4SO3	)11C6H4SO3	PROPN	_	Number=Sing	11	flat:name	_	_
-
-# text = Catiônico
-# sent_id = 13-20140910-MONOGRAFIA_0-90
-1	Catiônico	Catiônico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-
-# text = Hidrocloreto de dodecilamina Brometo de hexadeciltrimetil amônio Não-iônico Poli (óxido de etileno)
-# sent_id = 13-20140910-MONOGRAFIA_0-91
-1	Hidrocloreto	Hidrocloreto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	dodecilamina	dodecilamina	PROPN	_	Number=Sing	1	nmod	_	_
-4	Brometo	Brometo	PROPN	_	Number=Sing	3	flat:name	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	hexadeciltrimetil	hexadeciltrimetil	PROPN	_	Number=Sing	3	nmod	_	_
-7	amônio	amônio	PROPN	_	Number=Sing	6	flat:name	_	_
-8	Não-iônico	Não-iônico	PROPN	_	Number=Sing	6	flat:name	_	_
-9	Poli	Poli	PROPN	_	Number=Sing	6	flat:name	_	_
-10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	óxido	óxer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	etileno	etileno	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	11	punct	_	_
-
-# text = Spans (esters de sorbitan)
-# sent_id = 13-20140910-MONOGRAFIA_0-92
-1	Spans	Spans	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	esters	esters	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	sorbitan	sorbitan	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	3	punct	_	_
-
-# text = Tweens (Poli (óxido de etileno) ésteres de sorbitan)
-# sent_id = 13-20140910-MONOGRAFIA_0-93
-1	Tweens	Tweens	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	Poli	Poli	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	óxido	óxido	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	etileno	etileno	NOUN	_	Gender=Masc	5	nmod	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	5	punct	_	_
-9	ésteres	éster	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	sorbitan	sorbitan	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	3	punct	_	_
-
-# text = Anfifílico Dodecil betaína ____________________________ * Abreviação C12E6 para denominar as cadeias hidrocarbônicas e etilênicas.
-# sent_id = 13-20140910-MONOGRAFIA_0-94
-1	Anfifílico	Anfifílico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Dodecil	Dodecil	PROPN	_	Number=Sing	1	flat:name	_	_
-3	betaína	betaína	PROPN	_	Number=Sing	1	flat:name	_	_
-4	____________________________	____________________________	PUNCT	_	_	1	punct	_	_
-5	*	*	PUNCT	_	_	1	punct	_	_
-6	Abreviação	Abreviação	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-7	C12E6	C12E6	PROPN	_	Number=Sing	6	flat:name	_	_
-8	para	para	SCONJ	_	_	9	mark	_	_
-9	denominar	denominar	VERB	_	VerbForm=Inf	1	acl	_	_
-10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	cadeias	cadeia	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
-12	hidrocarbônicas	hidrocarbônico	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	etilênicas	etilênico	ADJ	_	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = CH3(CH2)16COO-Na+ CH3(CH2)7CH=CH(CH2)7COO-Na+ CH3(CH2)11SO4 -Na+ +Cl- CH3(CH2)11NH3 CH3(CH2)15N(CH3)3 +Br- CH3(CH2)1(OCH2CH2)6OH * C12H25N+ (CH3)2 CH2COO- 2.4
-# sent_id = 13-20140910-MONOGRAFIA_0-95
-1	CH3(	Ch3(	PROPN	_	Number=Sing	39	nmod	_	SpaceAfter=No
+1	+Cl-CH3(	+cl-ch3(	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	CH2	CH2	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-4	16COO-Na+	16COO-Na+	PROPN	_	Number=Sing	1	parataxis	_	_
+4	11NH3	11NH3	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 5	CH3(	Ch3(	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
 6	CH2	CH2	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-7	)7CH=CH(	)7ch=ch(	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-8	CH2	CH2	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
-10	7COO-Na+	7COO-Na+	PROPN	_	Number=Sing	1	flat:name	_	_
-11	CH3(	Ch3(	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-12	CH2)11SO4	CH2)11SO4	PROPN	_	Number=Sing	1	flat:name	_	_
-13	-Na+	-Na+	PROPN	_	Number=Sing	1	flat:name	_	_
-14	+Cl-	+cl-	PROPN	_	Number=Sing	1	flat:name	_	_
-15	CH3(	Ch3(	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-16	CH2	CH2	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-18	11NH3	11NH3	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-19	CH3(	Ch3(	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-20	CH2	CH2	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
-22	15N(	15n(	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-23	CH3)	CH3)	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-24	3	3	PROPN	_	Number=Sing	18	flat:name	_	_
-25	+Br	+Br	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-26	-	-	PUNCT	_	_	18	punct	_	_
-27	CH3(	Ch3(	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-28	CH2	CH2	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
-30	1(	1(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	OCH2CH2	OCH2CH2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
-33	6OH	6OH	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-34	*	*	PUNCT	_	_	35	punct	_	_
-35	C12H25N+	C12H25N+	PROPN	_	Number=Sing	33	flat:name	_	_
-36	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-37	CH3)	CH3)	NUM	_	NumType=Card	39	nummod	_	SpaceAfter=No
-38	2	2	NUM	_	NumType=Card	37	flat	_	_
-39	CH2COO-	CH2COO	PART	_	_	0	root	_	_
-40	2.4	2.4	NUM	_	NumType=Card	39	nummod	_	_
+7	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+8	15N(	15n(	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+9	CH3)	CH3)	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+10	3	3	PROPN	_	Number=Sing	4	flat:name	_	_
+11	+Br-CH3(	+br-ch3(	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+12	CH2	CH2	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+14	1(	1(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	OCH2CH2	OCH2CH2	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	6OH	6OH	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+18	*	*	PUNCT	_	_	19	punct	_	_
+19	C12H25N+	C12H25N+	PROPN	_	Number=Sing	17	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	CH3)	CH3)	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+22	2	2	NUM	_	NumType=Card	21	flat	_	_
+23	CH2COO-2.4	CH2COO-2.4	NUM	_	NumType=Card	21	flat	_	_
 
 # text = Processo de micelação — Concentração Micelar Crítica (CMC) As moléculas dos produtos tensoativos são constituídas por um grupo lipofílico e um grupo hidrofílico.
-# sent_id = 13-20140910-MONOGRAFIA_0-96
+# sent_id = 13-20140910-MONOGRAFIA_0-89
 1	Processo	processo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	micelação	micelação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2408,7 +2304,7 @@
 27	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Quando em solução aquosa, devido à presença do grupo líquido, diminuindo a força de coesão entre as moléculas do solvente e, conseqüentemente, diminuindo a tensão superficial.
-# sent_id = 13-20140910-MONOGRAFIA_0-97
+# sent_id = 13-20140910-MONOGRAFIA_0-90
 1	Quando	quando	SCONJ	_	_	15	mark	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	solução	solução	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -2448,7 +2344,7 @@
 34	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Entretanto, após saturar a superfície, a colisão de novas moléculas de tensoativo tem pouco efeito sobre o valor da tensão superficial, principalmente após atingirem certa concentração crítica (CMC), onde se formam espontaneamente agregados moleculares de dimensões coloidais, chamados micelas.
-# sent_id = 13-20140910-MONOGRAFIA_0-98
+# sent_id = 13-20140910-MONOGRAFIA_0-91
 1	Entretanto	entretanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	após	após	SCONJ	_	_	4	mark	_	_
@@ -2500,7 +2396,7 @@
 48	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A CMC depende da estrutura do tensoativo (tamanho da cadeia do hidrocarboneto) e das condições experimentais (força iônica, contra-íons, temperatura, etc) [JACQUIER e DESBÉNE, 1995; LIN et al 1999, TESAROVÁ et al 2001].
-# sent_id = 13-20140910-MONOGRAFIA_0-99
+# sent_id = 13-20140910-MONOGRAFIA_0-92
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	CMC	CMC	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	depende	depender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2560,7 +2456,7 @@
 52	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = lipofílico, ocupam preferencialmente a superfície do A principal razão que leva os monômeros de um surfactante a se associarem sob a forma de micelas é a diminuição da área de contato entre as cadeias hidrocarbônicas do surfactante e a água.
-# sent_id = 13-20140910-MONOGRAFIA_0-100
+# sent_id = 13-20140910-MONOGRAFIA_0-93
 1	lipofílico	lipofílico	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ocupam	ocupar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -2611,7 +2507,7 @@
 45	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A formação do agregado, porém, leva o surfactante a uma situação onde os grupos hidrofílicos (cabeças) estão muito próximos, gerando uma repulsão eletrostática que se opõe ao processo de micelização.
-# sent_id = 13-20140910-MONOGRAFIA_0-101
+# sent_id = 13-20140910-MONOGRAFIA_0-94
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2654,7 +2550,7 @@
 38	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Aqui os contra-íons desempenham um papel fundamental quando em concentração suficiente (provenientes da própria ionização do surfactante ou, ainda, de eletrólitos adicionados à solução).
-# sent_id = 13-20140910-MONOGRAFIA_0-102
+# sent_id = 13-20140910-MONOGRAFIA_0-95
 1	Aqui	aqui	ADV	_	_	4	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	contra-íons	contra-íom	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -2692,7 +2588,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Eles blindam a carga do agregado, diminuindo o potencial elétrico e a repulsão entre as cabeças dos monômeros.
-# sent_id = 13-20140910-MONOGRAFIA_0-103
+# sent_id = 13-20140910-MONOGRAFIA_0-96
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	blindam	blindar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2719,7 +2615,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os surfactantes iônicos se dissociam, em solução aquosa, resultando em duas espécies hidratadas: um cátion e um ânion, ou seja, o monômero do surfactante e seu respectivo contra-íon.
-# sent_id = 13-20140910-MONOGRAFIA_0-104
+# sent_id = 13-20140910-MONOGRAFIA_0-97
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	surfactantes	surfactante	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	iônicos	iônico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -2758,7 +2654,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O dodecil sulfato de sódio (Figura 4), por exemplo, é um surfactante aniônico, e seu contra-íon é o cátion Na+.
-# sent_id = 13-20140910-MONOGRAFIA_0-105
+# sent_id = 13-20140910-MONOGRAFIA_0-98
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	dodecil	dodecil	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	sulfato	sulfato	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -2786,8 +2682,24 @@
 25	Na+	Na+	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
+# text = Figura 4:
+# sent_id = 13-20140910-MONOGRAFIA_0-99
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Formação do agregado SDS.
+# sent_id = 13-20140910-MONOGRAFIA_0-100
+1	Formação	formação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	agregado	agregado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	SDS	SDS	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
 # text = A deterrminação da CMC pode ser efetuada a partir de uma técnica que usa a medida da tensão superficial em função da concentração do surfactante, como mostra a Figura 5.
-# sent_id = 13-20140910-MONOGRAFIA_0-106
+# sent_id = 13-20140910-MONOGRAFIA_0-101
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	deterrminação	deterrminação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2830,7 +2742,7 @@
 36	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A CMC é encontrada no ponto indicado pela seta.
-# sent_id = 13-20140910-MONOGRAFIA_0-107
+# sent_id = 13-20140910-MONOGRAFIA_0-102
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	CMC	CMC	PROPN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2846,28 +2758,8 @@
 11	seta	seta	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 5:
-# sent_id = 13-20140910-MONOGRAFIA_0-108
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Esquema de determinação da CMC [http://www.che.uah.edu].
-# sent_id = 13-20140910-MONOGRAFIA_0-109
-1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	CMC	CMC	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-7	[	[	PUNCT	_	_	1	punct	_	SpaceAfter=No
-8	http://www.che.uah.edu	http://www.che.uah.edr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	]	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
-
 # text = Na Figura 5 pode-se observar três fases distintas: 1) em concentrações muito baixas do surfactante, nenhuma mudança brusca na tensão superficial é detectada, pois as moléculas estão rearranjando-se na superfície.
-# sent_id = 13-20140910-MONOGRAFIA_0-110
+# sent_id = 13-20140910-MONOGRAFIA_0-103
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2917,12 +2809,12 @@
 41	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 2)
-# sent_id = 13-20140910-MONOGRAFIA_0-111
+# sent_id = 13-20140910-MONOGRAFIA_0-104
 1	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = Com o aumento da concentração do surfactante, ocorre um declínio na tensão superficial, devido ao início da formação e aglomeração das micelas.
-# sent_id = 13-20140910-MONOGRAFIA_0-112
+# sent_id = 13-20140910-MONOGRAFIA_0-105
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -2962,12 +2854,12 @@
 31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 3)
-# sent_id = 13-20140910-MONOGRAFIA_0-113
+# sent_id = 13-20140910-MONOGRAFIA_0-106
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = A aglomeração de micelas é intensa nesta fase.
-# sent_id = 13-20140910-MONOGRAFIA_0-114
+# sent_id = 13-20140910-MONOGRAFIA_0-107
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aglomeração	aglomeração	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2981,7 +2873,7 @@
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A adição de mais surfactante é desnecessária, visto que a tensão superficial do meio não se altera mais.
-# sent_id = 13-20140910-MONOGRAFIA_0-115
+# sent_id = 13-20140910-MONOGRAFIA_0-108
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	adição	adição	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -3006,7 +2898,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 2.5 Fluidos de Perfuração [JOSÉ E.
-# sent_id = 13-20140910-MONOGRAFIA_0-116
+# sent_id = 13-20140910-MONOGRAFIA_0-109
 1	2.5	2.5	NUM	_	NumType=Card	2	nummod	_	_
 2	Fluidos	Fluidos	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3016,7 +2908,7 @@
 7	E.	E.	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = THOMAS, 2001] Os fluidos de perfuração são misturas complexas de sólidos, líquidos, produtos químicos e, por vezes, até gases.
-# sent_id = 13-20140910-MONOGRAFIA_0-117
+# sent_id = 13-20140910-MONOGRAFIA_0-110
 1	THOMAS	Thoma	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	2001	2001	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
@@ -3045,7 +2937,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Do ponto de vista químico, eles podem assumir aspectos de suspensão, dispersão coloidal ou emulsão, dependendo do estado físico dos componentes.
-# sent_id = 13-20140910-MONOGRAFIA_0-118
+# sent_id = 13-20140910-MONOGRAFIA_0-111
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3079,7 +2971,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Os fluidos de perfuração devem ser especificados de forma a garantir uma perfuração rápida e segura.
-# sent_id = 13-20140910-MONOGRAFIA_0-119
+# sent_id = 13-20140910-MONOGRAFIA_0-112
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3099,7 +2991,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Assim, é desejável que o fluido apresente as seguintes características: - seja estável quimicamente; - estabilize as paredes do poço, mecânica e quimicamente; - facilite a separação dos cascalhos na superfície; - mantenha os sólidos em suspensão quando estiver em repouso; - seja inerte em relação a danos às rochas produtoras; - aceite qualquer tratamento, físico ou químico; - seja bombeável; - apresente baixo grau de corrosão e de abrasão em relação à coluna de perfuração e demais equipamentos do sistema de circulação; - facilite as interpretações geológicas do material retirado do poço; - apresente custo compatível com a operação; - provoque o menor impacto possível ao meio ambiente.
-# sent_id = 13-20140910-MONOGRAFIA_0-120
+# sent_id = 13-20140910-MONOGRAFIA_0-113
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3244,7 +3136,7 @@
 133	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os fluidos de perfuração possuem, basicamente, as seguintes funções: - limpar o fundo do poço dos cascalhos gerados pela broca e transportá-los até a superfície; - exercer pressão hidrostática sobre as formações, de modo a evitar o influxo de fluidos indesejáveis (kick) e estabilizar as paredes do poço; - resfriar e lubrificar a coluna de perfuração e a broca.
-# sent_id = 13-20140910-MONOGRAFIA_0-121
+# sent_id = 13-20140910-MONOGRAFIA_0-114
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3325,12 +3217,12 @@
 73	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 2.5.1
-# sent_id = 13-20140910-MONOGRAFIA_0-122
+# sent_id = 13-20140910-MONOGRAFIA_0-115
 1	2.5	2.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Propriedades dos fluidos de perfuração [JOSÉ E. THOMAS, 2001] As propriedades de controle dos fluidos podem ser físicas ou químicas.
-# sent_id = 13-20140910-MONOGRAFIA_0-123
+# sent_id = 13-20140910-MONOGRAFIA_0-116
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3361,7 +3253,7 @@
 26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = As propriedades físicas são mais genéricas e são medidas em qualquer tipo de fluido, enquanto que as químicas são mais específicas e são determinadas para distinguir certos tipos de fluidos e propiciar informações para programas de tratamentos de fluidos contaminados.
-# sent_id = 13-20140910-MONOGRAFIA_0-124
+# sent_id = 13-20140910-MONOGRAFIA_0-117
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3406,7 +3298,7 @@
 42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = As propriedades físicas mais importantes e freqüentemente medidas nas sondas são a densidade, os parâmetros reológicos, as forças géis (inicial e final), os parâmetros de filtração e o teor de sólidos.
-# sent_id = 13-20140910-MONOGRAFIA_0-125
+# sent_id = 13-20140910-MONOGRAFIA_0-118
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3448,7 +3340,7 @@
 38	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Outras propriedades físicas importantes são a resistividade elétrica, o índice de lubricidade e a estabilidade elétrica.
-# sent_id = 13-20140910-MONOGRAFIA_0-126
+# sent_id = 13-20140910-MONOGRAFIA_0-119
 1	Outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3469,7 +3361,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = As propriedades químicas determinadas com maior freqüência nos laboratórios de sondas são o pH, os teores de cloreto e de bentonita e a alcalinidade.
-# sent_id = 13-20140910-MONOGRAFIA_0-127
+# sent_id = 13-20140910-MONOGRAFIA_0-120
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
 3	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3500,7 +3392,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Outras propriedades químicas são o excesso de cal (determinada nos fluidos tratados por cal hidratada), o teor de cálcio e de magnésio, a concentração de H2S e a concentração de potássio (testada nos fluidos inibidos por gesso).
-# sent_id = 13-20140910-MONOGRAFIA_0-128
+# sent_id = 13-20140910-MONOGRAFIA_0-121
 1	Outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3551,12 +3443,12 @@
 46	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Parâmetros reológicos
-# sent_id = 13-20140910-MONOGRAFIA_0-129
+# sent_id = 13-20140910-MONOGRAFIA_0-122
 1	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	reológicos	reológico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = O comportamento de fluxo de um fluido é definido pelos parâmetros reológicos.
-# sent_id = 13-20140910-MONOGRAFIA_0-130
+# sent_id = 13-20140910-MONOGRAFIA_0-123
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3574,7 +3466,7 @@
 14	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para isto considera-se que o fluido segue um modelo reológico, cujos parâmetros vão influenciar diretamente no cálculo de perdas de carga na tubulação e velocidade de transporte dos cascalhos.
-# sent_id = 13-20140910-MONOGRAFIA_0-131
+# sent_id = 13-20140910-MONOGRAFIA_0-124
 1	Para	para	ADP	_	_	2	case	_	_
 2	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
 3-4	considera-se	_	_	_	_	_	_	_	_
@@ -3616,7 +3508,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A reologia é a ciência da deformação e fluxo da matéria.
-# sent_id = 13-20140910-MONOGRAFIA_0-132
+# sent_id = 13-20140910-MONOGRAFIA_0-125
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reologia	reologia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3635,7 +3527,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Fazendo certas medidas do fluido é possível determinar como o fluido escoará sob variadas condições de temperatura, pressão e taxa de cisalhamento.
-# sent_id = 13-20140910-MONOGRAFIA_0-133
+# sent_id = 13-20140910-MONOGRAFIA_0-126
 1	Fazendo	fazer	VERB	_	VerbForm=Ger	8	advcl	_	_
 2	certas	certo	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -3664,7 +3556,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Em termos reológicos, a viscosidade é o parâmetro mais conhecido, sendo definida como a resistência que uma substância apresenta ao fluxo.
-# sent_id = 13-20140910-MONOGRAFIA_0-134
+# sent_id = 13-20140910-MONOGRAFIA_0-127
 1	Em	em	ADP	_	_	2	case	_	_
 2	termos	termos	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 3	reológicos	reológico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -3693,7 +3585,7 @@
 25	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = No campo, as principais propriedades reológicas de interesse para o desempenho de um fluido são: - Índice de comportamento; - Índice de consistência (lbf/ft2, sn); -
-# sent_id = 13-20140910-MONOGRAFIA_0-135
+# sent_id = 13-20140910-MONOGRAFIA_0-128
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3731,7 +3623,7 @@
 34	-	-	PUNCT	_	_	17	punct	_	_
 
 # text = Viscosidade aparente (cP ou mPa.s); -
-# sent_id = 13-20140910-MONOGRAFIA_0-136
+# sent_id = 13-20140910-MONOGRAFIA_0-129
 1	Viscosidade	Viscosidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	aparente	aparente	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3743,7 +3635,7 @@
 9	-	-	PUNCT	_	_	1	punct	_	_
 
 # text = Viscosidade plástica (cP ou mPa.s); - Limite de escoamento (lb/100ft2 ou Pa); - Força gel (lb/100ft2 ou Pa).
-# sent_id = 13-20140910-MONOGRAFIA_0-137
+# sent_id = 13-20140910-MONOGRAFIA_0-130
 1	Viscosidade	Viscosidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	plástica	plástico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3773,7 +3665,7 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = É importante controlar as propriedades reológicas do fluido visando otimizar a operação de perfuração, maximizar a limpeza do poço, minimizar a pressão de bombas, evitar influxo da formação e prevenir perda de circulação para a formação perfurada.
-# sent_id = 13-20140910-MONOGRAFIA_0-138
+# sent_id = 13-20140910-MONOGRAFIA_0-131
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	controlar	controlar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -3823,7 +3715,7 @@
 44	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Todos os fluidos possuem viscosidade e, conseqüentemente, apresentam fenômenos de atrito quando ocorre o movimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-139
+# sent_id = 13-20140910-MONOGRAFIA_0-132
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -3844,7 +3736,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A força de atrito, ou de cisalhamento, existe entre duas camadas de um fluido, podendo ser expressa como tensão de atrito ou cisalhamento por unidade de área comum aos dois fluidos.
-# sent_id = 13-20140910-MONOGRAFIA_0-140
+# sent_id = 13-20140910-MONOGRAFIA_0-133
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3884,7 +3776,7 @@
 36	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Designa-se por “τ” a tensão de cisalhamento que, para o escoamento laminar, é proporcional à razão de deformação relativa, ou seja, é proporcional ao gradiente de velocidade ∆V/∆γ, com o coeficiente de proporcionalidade “µ” definido como coeficiente de viscosidade.
-# sent_id = 13-20140910-MONOGRAFIA_0-141
+# sent_id = 13-20140910-MONOGRAFIA_0-134
 1-2	Designa-se	_	_	_	_	_	_	_	_
 1	Designa	Designar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -3942,7 +3834,7 @@
 52	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Então temos: (2)
-# sent_id = 13-20140910-MONOGRAFIA_0-142
+# sent_id = 13-20140910-MONOGRAFIA_0-135
 1	Então	então	ADV	_	_	2	advmod	_	_
 2	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -3951,7 +3843,7 @@
 6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Nos líquidos, a transferência de quantidade de movimento devido à atividade molecular é pequena em comparação com a força de coesão entre as moléculas, e, por isso, a tensão de cisalhamento (τ) e a viscosidade (µ) dependem principalmente da ordem de grandeza destas forças de coesão que tendem a manter as moléculas adjacentes em uma posição fixa e a resistir ao movimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-143
+# sent_id = 13-20140910-MONOGRAFIA_0-136
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -4035,7 +3927,7 @@
 76	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Como estas forças diminuem rapidamente com o aumento da temperatura, a viscosidade dos líquidos diminui com o aumento da temperatura [Venard e Street, 1978].
-# sent_id = 13-20140910-MONOGRAFIA_0-144
+# sent_id = 13-20140910-MONOGRAFIA_0-137
 1	Como	como	ADP	_	_	3	case	_	_
 2	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	forças	força	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
@@ -4073,7 +3965,7 @@
 32	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = A viscosidade aparente é a viscosidade do fluido quando medida a uma taxa de cisalhamento fixada pelo American Petroleum Institute (API).
-# sent_id = 13-20140910-MONOGRAFIA_0-145
+# sent_id = 13-20140910-MONOGRAFIA_0-138
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	aparente	aparente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4103,8 +3995,8 @@
 25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = No modelo reológico plástico de Bingham, a viscosidade aparente é o valor da metade da leitura executada em um viscosímetro rotacional a 600 rpm (1022 s- 1).
-# sent_id = 13-20140910-MONOGRAFIA_0-146
+# text = No modelo reológico plástico de Bingham, a viscosidade aparente é o valor da metade da leitura executada em um viscosímetro rotacional a 600 rpm (1022 s-1).
+# sent_id = 13-20140910-MONOGRAFIA_0-139
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4138,13 +4030,12 @@
 28	rpm	rpm	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	1022	1022	NUM	_	NumType=Card	28	appos	_	_
-31	s-	s-	PUNCT	_	_	30	punct	_	_
-32	1	1	NUM	_	NumType=Card	30	flat	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+31	s-1	s-1	NUM	_	NumType=Card	30	flat	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = A viscosidade plástica é a medida da resistência interna exercida por um fluido para fluir, resultando da interação dos sólidos presentes em um fluido de perfuração.
-# sent_id = 13-20140910-MONOGRAFIA_0-147
+# sent_id = 13-20140910-MONOGRAFIA_0-140
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	plástica	plástico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4181,7 +4072,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Ela tem um efeito mecânico, indicativo de número, tipo e tamanho das partículas sólidas.
-# sent_id = 13-20140910-MONOGRAFIA_0-148
+# sent_id = 13-20140910-MONOGRAFIA_0-141
 1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4203,7 +4094,7 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Quando o teor de sólidos aumenta, a fricção entre as partículas aumenta [OILFIELD, 2002].
-# sent_id = 13-20140910-MONOGRAFIA_0-149
+# sent_id = 13-20140910-MONOGRAFIA_0-142
 1	Quando	quando	SCONJ	_	_	6	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	teor	teor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -4225,7 +4116,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Forças géis Alguns fluidos de perfuração são tixotrópicos, isto é, adquirem um estado semi-rígido quando estão em repouso e voltam a adquirir um estado de fluidez quando estão novamente em movimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-150
+# sent_id = 13-20140910-MONOGRAFIA_0-143
 1	Forças	força	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 2	géis	gel	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -4262,7 +4153,7 @@
 34	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A força gel é um parâmetro também de natureza reológica que indica o grau de gelificação devido à interação elétrica entre partículas dispersas.
-# sent_id = 13-20140910-MONOGRAFIA_0-151
+# sent_id = 13-20140910-MONOGRAFIA_0-144
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	gel	gel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4291,7 +4182,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A força gel inicial mede a resistência para colocar o fluido em fluxo.
-# sent_id = 13-20140910-MONOGRAFIA_0-152
+# sent_id = 13-20140910-MONOGRAFIA_0-145
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	gel	gel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4308,7 +4199,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A força gel final mede a resistênca do fluido para reiniciar o fluxo quando este fica certo tempo em repouso.
-# sent_id = 13-20140910-MONOGRAFIA_0-153
+# sent_id = 13-20140910-MONOGRAFIA_0-146
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	gel	gel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4334,7 +4225,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A diferença entre elas indica o grau de tixotropia do fluido.
-# sent_id = 13-20140910-MONOGRAFIA_0-154
+# sent_id = 13-20140910-MONOGRAFIA_0-147
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	entre	entre	ADP	_	_	4	case	_	_
@@ -4351,13 +4242,13 @@
 13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Parâmetros de filtração
-# sent_id = 13-20140910-MONOGRAFIA_0-155
+# sent_id = 13-20140910-MONOGRAFIA_0-148
 1	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	filtração	filtração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = A capacidade do fluido de perfuração em formar uma camada de partículas sólidas úmidas, denominada reboco, sobre as rochas permeáveis expostas pela broca é de fundamental importância para o sucesso da perfuração e da completação do poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-156
+# sent_id = 13-20140910-MONOGRAFIA_0-149
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4410,7 +4301,7 @@
 45	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = Para formar o reboco, deve haver o influxo da fase líquida do fluido do poço para a formação.
-# sent_id = 13-20140910-MONOGRAFIA_0-157
+# sent_id = 13-20140910-MONOGRAFIA_0-150
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	formar	formar	VERB	_	VerbForm=Inf	6	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4439,7 +4330,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Este processo é conhecido como filtração.
-# sent_id = 13-20140910-MONOGRAFIA_0-158
+# sent_id = 13-20140910-MONOGRAFIA_0-151
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4449,7 +4340,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = É essencial que o fluido tenha uma fração razoável de partículas com dimensões ligeiramente menores que as dimensões dos poros das rochas expostas.
-# sent_id = 13-20140910-MONOGRAFIA_0-159
+# sent_id = 13-20140910-MONOGRAFIA_0-152
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	essencial	essencial	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
@@ -4480,7 +4371,7 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Quando existem partículas sólidas com dimensões adequadas, a obstrução dos poros é rápida e somente a fase líquida do fluido, o filtrado, invade a rocha.
-# sent_id = 13-20140910-MONOGRAFIA_0-160
+# sent_id = 13-20140910-MONOGRAFIA_0-153
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 3	partículas	partícula	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -4516,7 +4407,7 @@
 31	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = O filtrado e a espessura do reboco são dois parâmetros medidos rotineiramente para definir o comportamento do fluido quanto à filtração.
-# sent_id = 13-20140910-MONOGRAFIA_0-161
+# sent_id = 13-20140910-MONOGRAFIA_0-154
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -4547,14 +4438,14 @@
 25	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Concentração hidrogeniônica – pH
-# sent_id = 13-20140910-MONOGRAFIA_0-162
+# sent_id = 13-20140910-MONOGRAFIA_0-155
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
 2	hidrogeniônica	hidrogeniônico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 4	pH	ph	INTJ	_	_	0	root	_	_
 
 # text = O pH dos fluidos de perfuração é medido através de papéis indicadores ou de potenciômetros, e é geralmente mantido no intervalo alcalino baixo, isto é, de 7 a 10.
-# sent_id = 13-20140910-MONOGRAFIA_0-163
+# sent_id = 13-20140910-MONOGRAFIA_0-156
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	pH	PROPN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -4594,7 +4485,7 @@
 35	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O objetivo principal é reduzir a taxa de corrosão dos equipamentos e evitar a dispersão das formações argilosas.
-# sent_id = 13-20140910-MONOGRAFIA_0-164
+# sent_id = 13-20140910-MONOGRAFIA_0-157
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	principal	principal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4620,11 +4511,11 @@
 21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Alcalinidades
-# sent_id = 13-20140910-MONOGRAFIA_0-165
+# sent_id = 13-20140910-MONOGRAFIA_0-158
 1	Alcalinidades	Alcalinidade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = O pH determina apenas uma alcalinidade ou acidez relativa à concentração de H+, empregando métodos comparativos.
-# sent_id = 13-20140910-MONOGRAFIA_0-166
+# sent_id = 13-20140910-MONOGRAFIA_0-159
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	ph	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	determina	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4647,7 +4538,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A determinação das alcalinidades por métodos diretos de titulação volumétrica de neutralização 3) dissolvidos no considera as espécies carbonato (CO3 fluido, além dos íons hidroxila (OH-) dissolvidos e não dissolvidos.
-# sent_id = 13-20140910-MONOGRAFIA_0-167
+# sent_id = 13-20140910-MONOGRAFIA_0-160
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4693,7 +4584,7 @@
 40	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Nos testes de rotina são registrados os seguintes tipos de alcalinidades: alcalinidade parcial do filtrado, alcalinidade da lama e alcalinidade total do filtrado.
-# sent_id = 13-20140910-MONOGRAFIA_0-168
+# sent_id = 13-20140910-MONOGRAFIA_0-161
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -4729,22 +4620,21 @@
 29	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = --) e bicarbonato (HCO- Teor de cloretos ou salinidade
-# sent_id = 13-20140910-MONOGRAFIA_0-169
+# text = --) e bicarbonato (HCO-Teor de cloretos ou salinidade
+# sent_id = 13-20140910-MONOGRAFIA_0-162
 1	--	--	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	4	punct	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
 4	bicarbonato	bicarbonato	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	HCO-	HCO	PART	_	_	0	root	_	_
-7	Teor	teor	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	cloretos	cloreto	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-10	ou	ou	CCONJ	_	_	11	cc	_	_
-11	salinidade	salinidade	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+6	HCO-Teor	HCO-Teor	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cloretos	cloreto	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	ou	ou	CCONJ	_	_	10	cc	_	_
+10	salinidade	salinidade	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 
 # text = O teste de salinidade de um fluido é também uma análise volumétrica de precipitação feita por titulação dos íons cloreto.
-# sent_id = 13-20140910-MONOGRAFIA_0-170
+# sent_id = 13-20140910-MONOGRAFIA_0-163
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teste	teste	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4770,7 +4660,7 @@
 22	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Esta salinidade é expressa em mg/L de cloretos, mg/L de NaCl equivalente ou ppm de NaCl equivalente.
-# sent_id = 13-20140910-MONOGRAFIA_0-171
+# sent_id = 13-20140910-MONOGRAFIA_0-164
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	salinidade	salinidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4792,7 +4682,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Nas determinações de campo, os resultados de salinidade são usados, principalmente, para identificar o teor salino da água de preparo do fluido, controlar a salinidade de fluidos inibidos com sal, identificar influxos de água salgada e identificar a perfuração de uma rocha ou domo salino.
-# sent_id = 13-20140910-MONOGRAFIA_0-172
+# sent_id = 13-20140910-MONOGRAFIA_0-165
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -4852,12 +4742,12 @@
 54	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 2.5.2
-# sent_id = 13-20140910-MONOGRAFIA_0-173
+# sent_id = 13-20140910-MONOGRAFIA_0-166
 1	2.5	2.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Classificação dos fluidos de perfuração [JOSÉ E. THOMAS, 2001] A classificação de um fluido de perfuração é feita em função de sua composição.
-# sent_id = 13-20140910-MONOGRAFIA_0-174
+# sent_id = 13-20140910-MONOGRAFIA_0-167
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4889,7 +4779,7 @@
 28	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Embora ocorram divergências, o principal critério se baseia no constituinte principal da fase contínua ou dispersante.
-# sent_id = 13-20140910-MONOGRAFIA_0-175
+# sent_id = 13-20140910-MONOGRAFIA_0-168
 1	Embora	embora	SCONJ	_	_	2	mark	_	_
 2	ocorram	ocorrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 3	divergências	divergência	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
@@ -4914,7 +4804,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Neste critério, os fluidos são classificados em fluidos à base de água, fluidos à base de óleo e fluidos à base de ar ou de gás.
-# sent_id = 13-20140910-MONOGRAFIA_0-176
+# sent_id = 13-20140910-MONOGRAFIA_0-169
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -4954,7 +4844,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A natureza das fases contínua e dispersa, bem como os componentes básicos e as suas quantidades definem não apenas o tipo de fluido, mas também as suas características e propriedades.
-# sent_id = 13-20140910-MONOGRAFIA_0-177
+# sent_id = 13-20140910-MONOGRAFIA_0-170
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4992,7 +4882,7 @@
 34	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = Fluidos à base de água
-# sent_id = 13-20140910-MONOGRAFIA_0-178
+# sent_id = 13-20140910-MONOGRAFIA_0-171
 1	Fluidos	Fluir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -5002,7 +4892,7 @@
 6	água	água	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = A definição de um fluido à base água considera principalmente a natureza da água e os aditivos químicos empregados no preparo do fluido.
-# sent_id = 13-20140910-MONOGRAFIA_0-179
+# sent_id = 13-20140910-MONOGRAFIA_0-172
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	definição	definição	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -5037,7 +4927,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A proporção entre os componentes básicos e as interações entre eles provocam sensíveis modificações fluido.
-# sent_id = 13-20140910-MONOGRAFIA_0-180
+# sent_id = 13-20140910-MONOGRAFIA_0-173
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -5055,8 +4945,8 @@
 15	fluido	fluido	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
-# text = Conseqüentemente, a composição é o principal fator a considerar no controle das suas propriedades propriedades químicas físicas nas do e
-# sent_id = 13-20140910-MONOGRAFIA_0-181
+# text = Conseqüentemente, a composição é o principal fator a considerar no controle das suas propriedades nas propriedades físicas e químicas do A água é a fase contínua e o principal componente de qualquer fluido à base de água, podendo ser doce, dura ou salgada.
+# sent_id = 13-20140910-MONOGRAFIA_0-174
 1	Conseqüentemente	Conseqüentemente	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5064,7 +4954,7 @@
 5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	principal	principal	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
-8	fator	fator	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	fator	fator	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
 9	a	a	SCONJ	_	_	10	mark	_	_
 10	considerar	considerar	VERB	_	VerbForm=Inf	8	acl	_	_
 11-12	no	_	_	_	_	_	_	_	_
@@ -5076,50 +4966,47 @@
 15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	17	det	_	_
 17	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
-18	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	_
-19	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-20	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-21-22	nas	_	_	_	_	_	_	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	as	o	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	25	nmod	_	_
-23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	e	e	CCONJ	_	_	17	cc	_	_
-
-# text = A água é a fase contínua e o principal componente de qualquer fluido à base de água, podendo ser doce, dura ou salgada.
-# sent_id = 13-20140910-MONOGRAFIA_0-182
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	água	água	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	fase	fase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-6	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	e	e	CCONJ	_	_	10	cc	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	principal	principal	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-10	componente	componente	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
-13	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-14-15	à	_	_	_	_	_	_	_	_
-14	a	a	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	base	base	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	água	água	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	podendo	poder	VERB	_	VerbForm=Ger	5	advcl	_	_
-21	ser	ser	AUX	_	VerbForm=Inf	22	cop	_	_
-22	doce	doce	ADJ	_	Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	dura	duro	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
-25	ou	ou	CCONJ	_	_	26	cc	_	_
-26	salgada	salgada	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+21	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	químicas	químico	ADJ	_	Gender=Fem|Number=Plur	21	conj	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	27	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	água	água	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fase	fase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+31	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32	e	e	CCONJ	_	_	35	cc	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	principal	principal	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
+35	componente	componente	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	38	det	_	_
+38	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+39-40	à	_	_	_	_	_	_	_	_
+39	a	a	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	base	base	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	água	água	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	podendo	poder	VERB	_	VerbForm=Ger	30	advcl	_	_
+46	ser	ser	AUX	_	VerbForm=Inf	47	cop	_	_
+47	doce	doce	ADJ	_	Gender=Masc|Number=Sing	45	xcomp	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	49	punct	_	_
+49	dura	duro	NOUN	_	Gender=Fem|Number=Sing	47	conj	_	_
+50	ou	ou	CCONJ	_	_	51	cc	_	_
+51	salgada	salgada	NOUN	_	Gender=Fem|Number=Sing	49	conj	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
 
 # text = Estes fluidos apresentam baixo custo, alto desempenho e fácil manuseio.
-# sent_id = 13-20140910-MONOGRAFIA_0-183
+# sent_id = 13-20140910-MONOGRAFIA_0-175
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5134,7 +5021,7 @@
 12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Possuem a desvantagem de causar dano em formações rochosas sensíveis à água ou no pacote de agente de sustentação, devido a polímeros não quebrados, resíduos insolúveis ou aditivos [Economides e Nolte, 1989].
-# sent_id = 13-20140910-MONOGRAFIA_0-184
+# sent_id = 13-20140910-MONOGRAFIA_0-176
 1	Possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	desvantagem	desvantagem	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -5179,7 +5066,7 @@
 40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fluidos à base de ar ou gás
-# sent_id = 13-20140910-MONOGRAFIA_0-185
+# sent_id = 13-20140910-MONOGRAFIA_0-177
 1	Fluidos	Fluir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -5191,7 +5078,7 @@
 8	gás	gás	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
 
 # text = A utilização de um fluido circulante de ar, gás natural, gás inerte ou misturado com água, tem vantagem econômica em áreas de rochas duras, onde há pouca chance de encontrar grandes quantidades de água.
-# sent_id = 13-20140910-MONOGRAFIA_0-186
+# sent_id = 13-20140910-MONOGRAFIA_0-178
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -5233,7 +5120,7 @@
 39	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = O ar seco ou gás irá prover uma rápida taxa de penetração, reduzindo a deposição de cascalhos no poço [BAROID LIMITED, 1985].
-# sent_id = 13-20140910-MONOGRAFIA_0-187
+# sent_id = 13-20140910-MONOGRAFIA_0-179
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ar	ar	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	seco	seco	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5265,14 +5152,14 @@
 28	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Fluidos a base óleo
-# sent_id = 13-20140910-MONOGRAFIA_0-188
+# sent_id = 13-20140910-MONOGRAFIA_0-180
 1	Fluidos	Fluir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	base	base	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 4	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Os fluidos a base de óleo são aqueles em que um óleo constitui a fase contínua ou dispersante, geralmente composta de hidrocarbonetos líquidos.
-# sent_id = 13-20140910-MONOGRAFIA_0-189
+# sent_id = 13-20140910-MONOGRAFIA_0-181
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5300,7 +5187,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Pequenas gotículas de água ou de solução aquosa constituem a fase descontínua desses fluidos.
-# sent_id = 13-20140910-MONOGRAFIA_0-190
+# sent_id = 13-20140910-MONOGRAFIA_0-182
 1	Pequenas	Pequena	NUM	_	Gender=Fem|Number=Plur	2	nummod	_	_
 2	gotículas	gotícula	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5320,7 +5207,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Alguns sólidos coloidais, de natureza inorgânica e/ou orgânica, podem compor a fase dispersa.
-# sent_id = 13-20140910-MONOGRAFIA_0-191
+# sent_id = 13-20140910-MONOGRAFIA_0-183
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	coloidais	coloidal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -5339,7 +5226,7 @@
 16	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Os fluidos podem ser emulsões água/óleo propriamente dita (teor de água < 10%) ou emulsão inversa (10% a 45% de água).
-# sent_id = 13-20140910-MONOGRAFIA_0-192
+# sent_id = 13-20140910-MONOGRAFIA_0-184
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5371,7 +5258,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Estes fluidos possuem viscosidade superior aos fluidos base água, no entanto, são fluidos caros e de difícil manuseio (Howard e Fast, 1970).
-# sent_id = 13-20140910-MONOGRAFIA_0-193
+# sent_id = 13-20140910-MONOGRAFIA_0-185
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5406,7 +5293,7 @@
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = São utilizados em formações rochosas sensíveis à água.
-# sent_id = 13-20140910-MONOGRAFIA_0-194
+# sent_id = 13-20140910-MONOGRAFIA_0-186
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -5420,7 +5307,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os óleos vegetais (Tabela 3) representam uma alternativa real para aplicação em fluidos de perfuração e como substitutos do óleo diesel e da parafina.
-# sent_id = 13-20140910-MONOGRAFIA_0-195
+# sent_id = 13-20140910-MONOGRAFIA_0-187
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	vegetais	vegetal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5454,7 +5341,7 @@
 29	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Sendo um recurso renovável de origem agrícola ou florestal, a implementação do uso energético dos óleos vegetais implica em vantagens nos aspectos ambientais, sociais e econômicos e pode ser considerado como um importante fator de viabilização do desenvolvimento sustentável.
-# sent_id = 13-20140910-MONOGRAFIA_0-196
+# sent_id = 13-20140910-MONOGRAFIA_0-188
 1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
@@ -5507,12 +5394,12 @@
 46	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
 
 # text = Tabela 3:
-# sent_id = 13-20140910-MONOGRAFIA_0-197
+# sent_id = 13-20140910-MONOGRAFIA_0-189
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3:	3:	PUNCT	_	_	1	punct	_	_
 
 # text = Principais componentes do óleo vegetal.
-# sent_id = 13-20140910-MONOGRAFIA_0-198
+# sent_id = 13-20140910-MONOGRAFIA_0-190
 1	Principais	principal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	componentes	componente	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5523,11 +5410,11 @@
 7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 2.6
-# sent_id = 13-20140910-MONOGRAFIA_0-199
+# sent_id = 13-20140910-MONOGRAFIA_0-191
 1	2.6	2.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Emulsão inversa [Patent 5830830].
-# sent_id = 13-20140910-MONOGRAFIA_0-200
+# sent_id = 13-20140910-MONOGRAFIA_0-192
 1	Emulsão	Emulsão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	inversa	inverso	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	[	[	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5537,7 +5424,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Cerca de 10-20% dos poços existentes no mundo são perfurados com fluidos de emulsão inversa.
-# sent_id = 13-20140910-MONOGRAFIA_0-201
+# sent_id = 13-20140910-MONOGRAFIA_0-193
 1	Cerca	cerca	ADV	_	_	4	advmod	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	10-20	10-20	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
@@ -5561,7 +5448,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Muitos fluidos de perfuração a base de água, que são chamados fluidos de perfuração emulsionados, recebem a adição de óleos a fim de melhorar certas propriedades, tais como a lubricidade.
-# sent_id = 13-20140910-MONOGRAFIA_0-202
+# sent_id = 13-20140910-MONOGRAFIA_0-194
 1	Muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5598,7 +5485,7 @@
 34	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A mudança para fluidos de emulsão inversa ocorre quando os fluidos emulsionados a base de água alcançam o limite de seu desempenho, ou quando formações sensíveis ao filtrado do FBA devem ser perfuradas.
-# sent_id = 13-20140910-MONOGRAFIA_0-203
+# sent_id = 13-20140910-MONOGRAFIA_0-195
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -5640,7 +5527,7 @@
 37	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os fluidos de emulsão inversa são vantajosos quanto à estabilidade, às formações sensíveis à água e os poços inclinados.
-# sent_id = 13-20140910-MONOGRAFIA_0-204
+# sent_id = 13-20140910-MONOGRAFIA_0-196
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5670,7 +5557,7 @@
 24	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Além disso, alguns FBO são estáveis a altas temperaturas e todos fornecem excelente proteção contra a corrosão.
-# sent_id = 13-20140910-MONOGRAFIA_0-205
+# sent_id = 13-20140910-MONOGRAFIA_0-197
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -5694,7 +5581,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As principais desvantagens são: preço relativamente mais elevado; maior risco na perfuração de zonas portadoras de gás, maior grau de dificuldade para a equipe responsável pela perfuração - plataformistas, torrista, sondador, etc; e, finalmente, maior risco de contaminação ambiental.
-# sent_id = 13-20140910-MONOGRAFIA_0-206
+# sent_id = 13-20140910-MONOGRAFIA_0-198
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -5750,7 +5637,7 @@
 51	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Para fluidos de emulsão inversa, onde o óleo é a fase contínua, muitos tipos de óleo, tais como: óleo diesel; óleo diesel purificado com menos de 0,5% de aromáticos – conhecido como óleo limpo; óleo branco; olefinas e alquilbenzenos são empregados.
-# sent_id = 13-20140910-MONOGRAFIA_0-207
+# sent_id = 13-20140910-MONOGRAFIA_0-199
 1	Para	para	ADP	_	_	2	case	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5803,7 +5690,7 @@
 50	.	.	PUNCT	_	_	49	punct	_	_
 
 # text = Esses são constituídos por hidrocarbonetos puros que não são degradáveis nas condições anaeróbicas reinantes no fundo do mar.
-# sent_id = 13-20140910-MONOGRAFIA_0-208
+# sent_id = 13-20140910-MONOGRAFIA_0-200
 1	Esses	esse	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj:pass	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	constituídos	constituir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5831,7 +5718,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os fluidos de emulsão inversa contêm reagentes que, além de estabilizarem a emulsão, devem garantir molhabilidade ao óleo de todos os sólidos do próprio fluido de perfuração e dos cascalhos cortados pela broca.
-# sent_id = 13-20140910-MONOGRAFIA_0-209
+# sent_id = 13-20140910-MONOGRAFIA_0-201
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5878,7 +5765,7 @@
 40	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Portanto, os cascalhos separados nos extratores de sólidos na superfície estão impregnados com óleo e devem ser dispensados separadamente.
-# sent_id = 13-20140910-MONOGRAFIA_0-210
+# sent_id = 13-20140910-MONOGRAFIA_0-202
 1	Portanto	portanto	ADV	_	_	15	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -5906,7 +5793,7 @@
 23	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Prejuízos consideráveis ao meio ambiente ocorrem quando cascalhos e/ou fluidos oleosos são jogados ao mar.
-# sent_id = 13-20140910-MONOGRAFIA_0-211
+# sent_id = 13-20140910-MONOGRAFIA_0-203
 1	Prejuízos	prejuízo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 2	consideráveis	considerável	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -5929,7 +5816,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os cascalhos oleosos e a parte pesada dos fluidos afundam nas imediações da plataforma e a parte mais leve é arrastada pelas ondas e correntes marinhas para a costa.
-# sent_id = 13-20140910-MONOGRAFIA_0-212
+# sent_id = 13-20140910-MONOGRAFIA_0-204
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cascalhos	cascalho	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	oleosos	oleoso	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5970,7 +5857,7 @@
 34	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Por onde passa, a parte oleosa dos fluidos e cascalhos pode provocar a morte de seres vivos por hidrofobização.
-# sent_id = 13-20140910-MONOGRAFIA_0-213
+# sent_id = 13-20140910-MONOGRAFIA_0-205
 1	Por	por	ADP	_	_	2	case	_	_
 2	onde	onde	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 3	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
@@ -5996,7 +5883,7 @@
 22	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = O óleo diesel foi originalmente a base de fluidos de emulsão inversa.
-# sent_id = 13-20140910-MONOGRAFIA_0-214
+# sent_id = 13-20140910-MONOGRAFIA_0-206
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	diesel	diesel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6012,7 +5899,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Óleo diesel purificado com menos de 0,5% de aromáticos – conhecido como óleo limpo; óleo branco; olefinas e alquilbenzenos têm sido mais empregados, recentemente.
-# sent_id = 13-20140910-MONOGRAFIA_0-215
+# sent_id = 13-20140910-MONOGRAFIA_0-207
 1	Óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
 2	diesel	diesel	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	purificado	purificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
@@ -6044,7 +5931,7 @@
 29	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Nenhum desses hidrocarbonetos, bem como os estabilizadores de emulsão e agentes de molhabilidade, contém oxigênio e, conforme já mencionado, não são degradavéis no fundo do mar.
-# sent_id = 13-20140910-MONOGRAFIA_0-216
+# sent_id = 13-20140910-MONOGRAFIA_0-208
 1	Nenhum	nenhum	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	_	_
 2-3	desses	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6084,7 +5971,7 @@
 34	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = O uso de triglicerídeos biodegradáveis de origem animal e vegetal em fluidos de perfuração a base de óleo é explanado nas patentes americanas
-# sent_id = 13-20140910-MONOGRAFIA_0-217
+# sent_id = 13-20140910-MONOGRAFIA_0-209
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6112,16 +5999,16 @@
 24	americanas	americano	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
 
 # text = U.S.
-# sent_id = 13-20140910-MONOGRAFIA_0-218
+# sent_id = 13-20140910-MONOGRAFIA_0-210
 1	U.S.	U.S.	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Pat.
-# sent_id = 13-20140910-MONOGRAFIA_0-219
+# sent_id = 13-20140910-MONOGRAFIA_0-211
 1	Pat	Pat	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No 4.374.737 e U.S.
-# sent_id = 13-20140910-MONOGRAFIA_0-220
+# sent_id = 13-20140910-MONOGRAFIA_0-212
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6130,12 +6017,12 @@
 5	U.S.	U.S.	PROPN	_	Gender=Masc|Number=Sing	3	conj	_	_
 
 # text = Pat.
-# sent_id = 13-20140910-MONOGRAFIA_0-221
+# sent_id = 13-20140910-MONOGRAFIA_0-213
 1	Pat	Pat	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = No 4.481.121.
-# sent_id = 13-20140910-MONOGRAFIA_0-222
+# sent_id = 13-20140910-MONOGRAFIA_0-214
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6143,7 +6030,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O uso de base oleosa formada de éster simples para utilização em poços profundos é descrito em DE-A-3842659 e DE-A-3842703.
-# sent_id = 13-20140910-MONOGRAFIA_0-223
+# sent_id = 13-20140910-MONOGRAFIA_0-215
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6167,7 +6054,7 @@
 21	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Estes útimos surgem no mercado de fluidos de perfuração como opções mais convenientes do ponto de vista ambiental.
-# sent_id = 13-20140910-MONOGRAFIA_0-224
+# sent_id = 13-20140910-MONOGRAFIA_0-216
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	útimos	útimo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	surgem	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6193,7 +6080,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.7 Aditivos de fluidos de perfuração
-# sent_id = 13-20140910-MONOGRAFIA_0-225
+# sent_id = 13-20140910-MONOGRAFIA_0-217
 1	2.7	2.7	NUM	_	NumType=Card	2	nummod	_	_
 2	Aditivos	Aditivo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6202,7 +6089,7 @@
 6	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = Os aditivos são substâncias químicas que, quando adicionadas ao fluido, conferem-lhe propriedades especiais, requeridas durante as atividades de perfuração.
-# sent_id = 13-20140910-MONOGRAFIA_0-226
+# sent_id = 13-20140910-MONOGRAFIA_0-218
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	aditivos	aditivo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6232,7 +6119,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esses aditivos podem desempenhar uma série de funções no fluido de perfuração, como mostradas na Tabela 4.
-# sent_id = 13-20140910-MONOGRAFIA_0-227
+# sent_id = 13-20140910-MONOGRAFIA_0-219
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	aditivos	aditivo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6258,7 +6145,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Atualmente, encontram-se disponíveis no mercado uma variedade de aditivos, que possuem diferentes funções, em decorrência da variedade de situações encontradas durante a perfuração de poços [World oil, 2002].
-# sent_id = 13-20140910-MONOGRAFIA_0-228
+# sent_id = 13-20140910-MONOGRAFIA_0-220
 1	Atualmente	atualmente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	encontram-se	_	_	_	_	_	_	_	_
@@ -6302,12 +6189,12 @@
 38	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.8 Viscosificantes
-# sent_id = 13-20140910-MONOGRAFIA_0-229
+# sent_id = 13-20140910-MONOGRAFIA_0-221
 1	2.8	2.8	NUM	_	NumType=Card	2	nummod	_	_
 2	Viscosificantes	Viscosificante	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Os principais agentes viscosificantes são as argilas organofílicas que consistem de materiais sintetizados pela troca de cátions inorgânicos de um mineral argiloso (bentonita) por cátions orgânicos portadores de nitrogênio quartenário.
-# sent_id = 13-20140910-MONOGRAFIA_0-230
+# sent_id = 13-20140910-MONOGRAFIA_0-222
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -6345,7 +6232,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A intercalação de surfactantes orgânicos entre as camadas das argilas não somente muda as propriedades da superfície de hidrofílica para hidrofóbica, como também aumenta significativamente o espaço basal entre as camadas.
-# sent_id = 13-20140910-MONOGRAFIA_0-231
+# sent_id = 13-20140910-MONOGRAFIA_0-223
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	intercalação	intercalação	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6385,7 +6272,7 @@
 35	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = A argila modificada organicamente torna-se organofílica, onde a energia superficial é diminuída e é mais compatível com líquidos orgânicos ou matrizes poliméricas, em que estas argilas organofílicas podem ser agentes reforçantes efetivos na síntese de nanocompósitos argilo-polímeros.
-# sent_id = 13-20140910-MONOGRAFIA_0-232
+# sent_id = 13-20140910-MONOGRAFIA_0-224
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	argila	argila	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -6432,7 +6319,7 @@
 42	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = As argilas modificadas têm sido aplicadas nas indústrias de lubrificantes, papel e celulose, cosméticos, medicamentos, tintas, fluidos de perfuração de poços de petróleo, adesivos, fundição de metais, etc [Arthur C. Gonzaga, 2005].
-# sent_id = 13-20140910-MONOGRAFIA_0-233
+# sent_id = 13-20140910-MONOGRAFIA_0-225
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	argilas	argila	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	modificadas	modificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -6481,21 +6368,21 @@
 45	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 3
-# sent_id = 13-20140910-MONOGRAFIA_0-234
+# sent_id = 13-20140910-MONOGRAFIA_0-226
 1	3	3	NUM	_	NumType=Card	0	root	_	_
 
 # text = MATERIAIS
-# sent_id = 13-20140910-MONOGRAFIA_0-235
+# sent_id = 13-20140910-MONOGRAFIA_0-227
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E MÉTODOS 3.1
-# sent_id = 13-20140910-MONOGRAFIA_0-236
+# sent_id = 13-20140910-MONOGRAFIA_0-228
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	MÉTODOS	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 3	3.1	3.1	NUM	_	NumType=Card	2	obj	_	_
 
 # text = Materiais e Equipamentos Óleo vegetal
-# sent_id = 13-20140910-MONOGRAFIA_0-237
+# sent_id = 13-20140910-MONOGRAFIA_0-229
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Equipamentos	equipamentos	PROPN	_	Gender=Masc|Number=Plur	1	conj	_	_
@@ -6503,7 +6390,7 @@
 5	vegetal	vegetal	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 
 # text = Tensoativos Aditivos (emulsificantes, afinantes, viscosificantes, redutor de filtrado, estabilizante)
-# sent_id = 13-20140910-MONOGRAFIA_0-238
+# sent_id = 13-20140910-MONOGRAFIA_0-230
 1	Tensoativos	Tensoativos	PROPN	_	Number=Sing	0	root	_	_
 2	Aditivos	Aditivos	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6521,7 +6408,7 @@
 15	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = Agitador Hamilton Beach Filtrado HPHT FANN Forno Roller Over FANN
-# sent_id = 13-20140910-MONOGRAFIA_0-239
+# sent_id = 13-20140910-MONOGRAFIA_0-231
 1	Agitador	Agitador	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Hamilton	Hamilton	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Beach	Beach	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6533,8 +6420,8 @@
 9	Over	Over	PROPN	_	Number=Sing	1	flat:name	_	_
 10	FANN	FANN	PROPN	_	Number=Sing	1	flat:name	_	_
 
-# text = Frascos para armazenamento dos fluidos Reômetro Haake Tensiômetro TERMO CAHN Viscosímetro FANN 35A
-# sent_id = 13-20140910-MONOGRAFIA_0-240
+# text = Frascos para armazenamento dos fluidos Reômetro Haake Tensiômetro TERMO CAHN Viscosímetro FANN 35A já comprovada, mas seus nomes e fórmulas serão omitidos nesta monografia pelo fato da formulação do fluido de perfuração tratar-se, hoje, de uma patente da PETROBRAS
+# sent_id = 13-20140910-MONOGRAFIA_0-232
 1	Frascos	Frasco	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	armazenamento	armazenamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -6550,62 +6437,50 @@
 12	Viscosímetro	Viscosímetro	PROPN	_	Number=Sing	6	flat:name	_	_
 13	FANN	FANN	PROPN	_	Number=Sing	6	flat:name	_	_
 14	35A	35A	PROPN	_	Number=Sing	6	flat:name	_	_
-
-# text = Os trabalho apresentam ação tensoativos utilizados neste já comprovada, mas seus nomes e fórmulas serão omitidos nesta monografia pelo fato da formulação do fluido de perfuração tratar-se, hoje, de uma patente da PETROBRAS
-# sent_id = 13-20140910-MONOGRAFIA_0-241
-1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
-3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ação	ação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
-5	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
-6	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
-7-8	neste	_	_	_	_	_	_	_	_
-7	em	em	ADP	_	_	10	case	_	_
-8	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
-9	já	já	ADV	_	_	10	advmod	_	_
-10	comprovada	comprovar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	xcomp	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	18	punct	_	_
-12	mas	mas	CCONJ	_	_	18	cc	_	_
-13	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	14	det	_	_
-14	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	18	nsubj:pass	_	_
-15	e	e	CCONJ	_	_	16	cc	_	_
-16	fórmulas	fórmula	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
-17	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	18	aux:pass	_	_
-18	omitidos	omiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	conj	_	_
-19-20	nesta	_	_	_	_	_	_	_	_
-19	em	em	ADP	_	_	21	case	_	_
-20	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
-21	monografia	monografia	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
-22-23	pelo	_	_	_	_	_	_	_	_
-22	por	por	ADP	_	_	24	case	_	_
-23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	fato	fato	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	SCONJ	_	_	33	mark	_	_
-26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
-28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
+15	já	já	ADV	_	_	16	advmod	_	_
+16	comprovada	comprovar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	24	punct	_	_
+18	mas	mas	CCONJ	_	_	24	cc	_	_
+19	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	20	det	_	_
+20	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	fórmulas	fórmula	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+23	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	24	aux:pass	_	_
+24	omitidos	omiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	conj	_	_
+25-26	nesta	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	monografia	monografia	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	30	case	_	_
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-31	de	de	ADP	_	_	32	case	_	_
-32	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-33-34	tratar-se	_	_	_	_	_	_	_	SpaceAfter=No
-33	tratar	tratar	VERB	_	VerbForm=Inf	24	acl	_	_
-34	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	expl	_	_
-35	,	,	PUNCT	_	_	36	punct	_	_
-36	hoje	hoje	ADV	_	_	33	advmod	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	33	punct	_	_
-38	de	de	ADP	_	_	40	case	_	_
-39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	patente	patente	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
-41-42	da	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	PETROBRAS	PETROBRAS	PROPN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+30	fato	fato	NOUN	_	Gender=Masc|Number=Sing	24	obl:agent	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	SCONJ	_	_	39	mark	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+39-40	tratar-se	_	_	_	_	_	_	_	SpaceAfter=No
+39	tratar	tratar	VERB	_	VerbForm=Inf	30	acl	_	_
+40	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	,	,	PUNCT	_	_	24	punct	_	_
+42	hoje	hoje	ADV	_	_	24	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	24	punct	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	patente	patente	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+47-48	da	_	_	_	_	_	_	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	PETROBRAS	PETROBRAS	PROPN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 
 # text = [Desenvolvimento de formulações a base de óleo vegetal, Relatório confidencial da PETROBRAS].
-# sent_id = 13-20140910-MONOGRAFIA_0-242
+# sent_id = 13-20140910-MONOGRAFIA_0-233
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Desenvolvimento	Desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6625,23 +6500,32 @@
 16	]	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = 3.2
-# sent_id = 13-20140910-MONOGRAFIA_0-243
-1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
+# text = Os tensoativos utilizados neste trabalho apresentam ação 3.2
+# sent_id = 13-20140910-MONOGRAFIA_0-234
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
+4-5	neste	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ação	ação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	3.2	3.2	NUM	_	NumType=Card	8	nummod	_	_
 
 # text = Métodos 3.2.1
-# sent_id = 13-20140910-MONOGRAFIA_0-244
+# sent_id = 13-20140910-MONOGRAFIA_0-235
 1	Métodos	método	DET	_	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
 2	3.2.1	3.2.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Seleção de tensoativos
-# sent_id = 13-20140910-MONOGRAFIA_0-245
+# sent_id = 13-20140910-MONOGRAFIA_0-236
 1	Seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Vários tensoativos foram utilizados neste trabalho visando selecionar um aditivo que resultasse em maior estabilidade de emulsão inversa com razão óleo/água igual a 70/30.
-# sent_id = 13-20140910-MONOGRAFIA_0-246
+# sent_id = 13-20140910-MONOGRAFIA_0-237
 1	Vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6671,7 +6555,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Esta seleção foi feita a partir de testes nos quais se determinou a concentração micelar crítica de cada tensoativo a fim de conhecer uma concentração a ser aplicada na formulação de um fluido de perfuração.
-# sent_id = 13-20140910-MONOGRAFIA_0-247
+# sent_id = 13-20140910-MONOGRAFIA_0-238
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6714,11 +6598,11 @@
 38	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.2.2
-# sent_id = 13-20140910-MONOGRAFIA_0-248
+# sent_id = 13-20140910-MONOGRAFIA_0-239
 1	3.2.2	3.2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Determinação da concentração micelar crítica (CMC) para diferentes misturas óleo-tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-249
+# sent_id = 13-20140910-MONOGRAFIA_0-240
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6735,7 +6619,7 @@
 13	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 
 # text = As misturas óleo-tensoativo foram preparadas adicionando crescentes quantidades em massa do tensoativo ao óleo.
-# sent_id = 13-20140910-MONOGRAFIA_0-250
+# sent_id = 13-20140910-MONOGRAFIA_0-241
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6757,7 +6641,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Depois de misturadas, as suspensões permaneceram em agitação (agitador magnético) por 24hs.
-# sent_id = 13-20140910-MONOGRAFIA_0-251
+# sent_id = 13-20140910-MONOGRAFIA_0-242
 1	Depois	depois	ADV	_	_	7	advmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	misturadas	misturada	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
@@ -6776,7 +6660,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Com uma alíquota desta mistura mediu-se a tensão superficial antes da simulação de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-252
+# sent_id = 13-20140910-MONOGRAFIA_0-243
 1	Com	com	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	alíquota	alíquota	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -6800,7 +6684,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em seguida, as amostras foram submetidas ao envelhecimento, por 16h, em estufa rotativa a 250°F e, depois de resfriadas, foram submetidas mais uma vez a medidas de tensão superficial.
-# sent_id = 13-20140910-MONOGRAFIA_0-253
+# sent_id = 13-20140910-MONOGRAFIA_0-244
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6840,7 +6724,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = A determinação da CMC de cada tensoativo foi realizada plotando-se os valores de tensão superficial em função da concentração do tensoativo.
-# sent_id = 13-20140910-MONOGRAFIA_0-254
+# sent_id = 13-20140910-MONOGRAFIA_0-245
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6873,76 +6757,73 @@
 26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 3.2.3
-# sent_id = 13-20140910-MONOGRAFIA_0-255
+# sent_id = 13-20140910-MONOGRAFIA_0-246
 1	3.2.3	3.2.3	NUM	_	NumType=Card	0	root	_	_
 
-# text = Estudo reológico para as misturas óleo-tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-256
-1	Estudo	Estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+# text = Estudo reológico para as misturas óleo-tensoativo (curvas de viscosidade versus taxa de cisalhamento), antes e após o envelhecimento, foram realizadas em temperatura ambiente com o reômetro digital RheoStress RS-150, acoplado a um banho termostático K20, ambos da Haake.
+# sent_id = 13-20140910-MONOGRAFIA_0-247
+1	Estudo	Estudo	NOUN	_	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
 2	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
 4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 6	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	5	appos	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	12	det	_	_
+12	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	antes	antes	ADV	_	_	24	advmod	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19	após	após	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	17	punct	_	_
+23	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	24	aux:pass	_	_
+24	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+25	em	em	ADP	_	_	26	case	_	_
+26	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+27	ambiente	ambiente	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	com	com	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	reômetro	reômetro	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+31	digital	digital	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+32	RheoStress	RheoStress	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+33	RS-150	RS-150	PROPN	_	Number=Sing	32	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	acoplado	acoplar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
+36	a	a	ADP	_	_	38	case	_	_
+37	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	banho	banho	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
+39	termostático	termostático	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+40	K20	K20	PROPN	_	Gender=Masc|Number=Sing	38	appos	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	35	punct	_	_
+42	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	24	obj	_	_
+43-44	da	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	Haake	Haake	PROPN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
-# text = As medidas reológicas das misturas óleo-tensoativo (curvas de viscosidade versus taxa de cisalhamento), antes e após o envelhecimento, foram realizadas em temperatura ambiente com o reômetro digital RheoStress RS-150, acoplado a um banho termostático K20, ambos da Haake.
-# sent_id = 13-20140910-MONOGRAFIA_0-257
+# text = As medidas reológicas das misturas óleo-tensoativo 3.2.4
+# sent_id = 13-20140910-MONOGRAFIA_0-248
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	25	nsubj:pass	_	_
+2	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	reológicas	reológico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4-5	das	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 7	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	6	appos	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-12	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	13	det	_	_
-13	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	antes	antes	ADV	_	_	25	advmod	_	_
-19	e	e	CCONJ	_	_	22	cc	_	_
-20	após	após	ADP	_	_	22	case	_	_
-21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	18	punct	_	_
-24	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	25	aux:pass	_	_
-25	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-26	em	em	ADP	_	_	27	case	_	_
-27	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
-28	ambiente	ambiente	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-29	com	com	ADP	_	_	31	case	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	reômetro	reômetro	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
-32	digital	digital	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
-33	RheoStress	RheoStress	PROPN	_	Gender=Masc|Number=Sing	31	appos	_	_
-34	RS-150	RS-150	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	36	punct	_	_
-36	acoplado	acoplar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	_
-37	a	a	ADP	_	_	39	case	_	_
-38	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	banho	banho	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	_
-40	termostático	termostático	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	_
-41	K20	K20	PROPN	_	Gender=Masc|Number=Sing	39	appos	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	36	punct	_	_
-43	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	25	obj	_	_
-44-45	da	_	_	_	_	_	_	_	_
-44	de	de	ADP	_	_	46	case	_	_
-45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	Haake	Haake	PROPN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
-
-# text = 3.2.4
-# sent_id = 13-20140910-MONOGRAFIA_0-258
-1	3.2.4	3.2.4	NUM	_	NumType=Card	0	root	_	_
+8	3.2.4	3.2.4	NUM	_	NumType=Card	6	nummod	_	_
 
 # text = Determinação da influência do estabilizante nos fluidos de perfuração
-# sent_id = 13-20140910-MONOGRAFIA_0-259
+# sent_id = 13-20140910-MONOGRAFIA_0-249
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6960,7 +6841,7 @@
 12	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 
 # text = As formulações de fluidos de perfuração foram confeccionadas através de um agitador Hamilton Beach a 15.000 rpm, onde cada aditivo foi adicionado com tempos distintos de agitação (Tabela 5).
-# sent_id = 13-20140910-MONOGRAFIA_0-260
+# sent_id = 13-20140910-MONOGRAFIA_0-250
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	formulações	formulação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6996,7 +6877,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Depois de confeccionados, os fluidos permaneceram em repouso por cerca de 25 dias, antes das medições de separações de fases (ver figuras no apêndice B).
-# sent_id = 13-20140910-MONOGRAFIA_0-261
+# sent_id = 13-20140910-MONOGRAFIA_0-251
 1	Depois	depois	ADV	_	_	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	confeccionados	confeccionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	7	advcl	_	SpaceAfter=No
@@ -7033,7 +6914,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em seguida, as amostras foram envelhecidas em estufa rotativa por 16h a 250°F, a fim de simular condições de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-262
+# sent_id = 13-20140910-MONOGRAFIA_0-252
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7059,7 +6940,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Foi verificada a separação de fases depois de 1h em repouso após o envelhecimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-263
+# sent_id = 13-20140910-MONOGRAFIA_0-253
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 2	verificada	verificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7077,7 +6958,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os valores reológicos das formulações foram medidos a uma temperatura padrão de 250 °F, usando o viscosímetro rotativo FANN modelo 35A.
-# sent_id = 13-20140910-MONOGRAFIA_0-264
+# sent_id = 13-20140910-MONOGRAFIA_0-254
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	reológicos	reológico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -7105,7 +6986,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As análises dos filtrados e dos rebocos foram realizadas após 10 dias das leituras reológicas com o auxílio de um filtro prensa HTHP da FANN.
-# sent_id = 13-20140910-MONOGRAFIA_0-265
+# sent_id = 13-20140910-MONOGRAFIA_0-255
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	análises	análise	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -7142,7 +7023,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Foram confeccionados cinco fluidos para cada tipo de formulação, para averiguação da reprodutibilidade dos valores das propriedades de interesse.
-# sent_id = 13-20140910-MONOGRAFIA_0-266
+# sent_id = 13-20140910-MONOGRAFIA_0-256
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	confeccionados	confeccionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	cinco	cinco	NUM	_	NumType=Card	4	nummod	_	_
@@ -7172,7 +7053,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Em todos os casos, dados de reologia (L600, força gel, viscosidade plástica, limite de escoamento), estabilidade elétrica e filtrado, bem como o grau de separação de fases foram avaliados.
-# sent_id = 13-20140910-MONOGRAFIA_0-267
+# sent_id = 13-20140910-MONOGRAFIA_0-257
 1	Em	em	ADP	_	_	4	case	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	fixed	_	_
@@ -7213,18 +7094,18 @@
 38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\n
 
 # text = 4 RESULTADOS
-# sent_id = 13-20140910-MONOGRAFIA_0-268
+# sent_id = 13-20140910-MONOGRAFIA_0-258
 1	4	4	NUM	_	NumType=Card	2	nummod	_	_
 2	RESULTADOS	Resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = E DISCUSSÃO 4.1
-# sent_id = 13-20140910-MONOGRAFIA_0-269
+# sent_id = 13-20140910-MONOGRAFIA_0-259
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	DISCUSSÃO	discussão	ADV	_	_	3	advmod	_	_
 3	4.1	4.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Seleção dos tensoativos em função de sua tensão superficial
-# sent_id = 13-20140910-MONOGRAFIA_0-270
+# sent_id = 13-20140910-MONOGRAFIA_0-260
 1	Seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7238,7 +7119,7 @@
 10	superficial	superficial	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 
 # text = A tensão superficial de cada mistura óleo-tensoativo foi comparada à tensão superficial do óleo vegetal, como mostrado na Tabela 6.
-# sent_id = 13-20140910-MONOGRAFIA_0-271
+# sent_id = 13-20140910-MONOGRAFIA_0-261
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	superficial	superficial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7269,12 +7150,12 @@
 25	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-272
+# sent_id = 13-20140910-MONOGRAFIA_0-262
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = C apresentou melhor desempenho, provavelmente em função de sua maior solubilidade na fase óleo.
-# sent_id = 13-20140910-MONOGRAFIA_0-273
+# sent_id = 13-20140910-MONOGRAFIA_0-263
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -7295,7 +7176,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Para averiguar a influência da temperatura sobre a tensão superficial das misturas, foram realizadas medidas a três temperaturas.
-# sent_id = 13-20140910-MONOGRAFIA_0-274
+# sent_id = 13-20140910-MONOGRAFIA_0-264
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	averiguar	averiguar	VERB	_	VerbForm=Inf	17	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7322,7 +7203,7 @@
 22	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Conforme mostrado na Tabela 7, o aumento de temperatura causa uma queda nos valores da tensão, o que era esperado em função do maior agrupamento das moléculas da mistura.
-# sent_id = 13-20140910-MONOGRAFIA_0-275
+# sent_id = 13-20140910-MONOGRAFIA_0-265
 1	Conforme	conforme	SCONJ	_	_	2	mark	_	_
 2	mostrado	mostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -7368,9 +7249,9 @@
 37	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
-# text = Tabela 7: Influência da temperatura sobre a tensão superficial de uma mistura óleo- tensoativo C. Como mostra a Figura 6, o comportamento da curva para os tensoativos B e D indica que não houve uma tendência de queda e estabilização dos valores de tensão superficial em níveis mais baixos, como ocorrido para o tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-276
-1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+# text = Tabela 7: Influência da temperatura sobre a tensão superficial de uma mistura óleo-tensoativo C. Como mostra a Figura 6, o comportamento da curva para os tensoativos B e D indica que não houve uma tendência de queda e estabilização dos valores de tensão superficial em níveis mais baixos, como ocorrido para o tensoativo
+# sent_id = 13-20140910-MONOGRAFIA_0-266
+1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 2	7	7	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 4	Influência	influência	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -7385,58 +7266,56 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-15	óleo	óleo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	14	punct	_	_
-17	tensoativo	tensoativo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
-18	C.	C.	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpacesAfter=\n
-19	Como	como	PROPN	_	Number=Sing	18	flat:name	_	_
-20	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
-23	6	6	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	20	punct	_	_
-25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	curva	curva	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30	para	para	ADP	_	_	32	case	_	_
-31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
-32	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
-33	B	B	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	_
-34	e	e	CCONJ	_	_	35	cc	_	_
-35	D	d	PROPN	_	Gender=Masc|Number=Sing	33	conj	_	_
-36	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
-37	que	que	SCONJ	_	_	39	mark	_	_
-38	não	não	ADV	_	Polarity=Neg	39	advmod	_	_
-39	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	ccomp	_	_
-40	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
-42	de	de	ADP	_	_	43	case	_	_
-43	queda	queda	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
-44	e	e	CCONJ	_	_	45	cc	_	_
-45	estabilização	estabilização	NOUN	_	Gender=Fem|Number=Sing	43	conj	_	_
-46-47	dos	_	_	_	_	_	_	_	_
-46	de	de	ADP	_	_	48	case	_	_
-47	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
-48	valores	valor	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
-49	de	de	ADP	_	_	50	case	_	_
-50	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	_
-51	superficial	superficial	ADJ	_	Gender=Fem|Number=Sing	50	amod	_	_
-52	em	em	ADP	_	_	53	case	_	_
-53	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	_
-54	mais	mais	ADV	_	_	55	advmod	_	_
-55	baixos	baixo	ADJ	_	Gender=Masc|Number=Plur	53	amod	_	SpaceAfter=No
-56	,	,	PUNCT	_	_	58	punct	_	_
-57	como	como	ADV	_	_	58	advmod	_	_
-58	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	39	acl	_	_
-59	para	para	ADP	_	_	61	case	_	_
-60	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
-61	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	58	obl	_	_
+15	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	C.	C.	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpacesAfter=\n
+17	Como	como	PROPN	_	Number=Sing	16	flat:name	_	_
+18	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	6	6	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	18	punct	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	curva	curva	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28	para	para	ADP	_	_	30	case	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+31	B	B	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	D	d	PROPN	_	Gender=Masc|Number=Sing	31	conj	_	_
+34	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+35	que	que	SCONJ	_	_	37	mark	_	_
+36	não	não	ADV	_	Polarity=Neg	37	advmod	_	_
+37	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	ccomp	_	_
+38	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	queda	queda	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
+42	e	e	CCONJ	_	_	43	cc	_	_
+43	estabilização	estabilização	NOUN	_	Gender=Fem|Number=Sing	41	conj	_	_
+44-45	dos	_	_	_	_	_	_	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	valores	valor	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+49	superficial	superficial	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	_
+50	em	em	ADP	_	_	51	case	_	_
+51	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
+52	mais	mais	ADV	_	_	53	advmod	_	_
+53	baixos	baixo	ADJ	_	Gender=Masc|Number=Plur	51	amod	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	56	punct	_	_
+55	como	como	ADV	_	_	56	advmod	_	_
+56	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	37	acl	_	_
+57	para	para	ADP	_	_	59	case	_	_
+58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	56	obl	_	_
 
 # text = A e para o tensoativo C.
-# sent_id = 13-20140910-MONOGRAFIA_0-277
+# sent_id = 13-20140910-MONOGRAFIA_0-267
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	e	e	CCONJ	_	_	5	cc	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -7445,7 +7324,7 @@
 6	C.	C.	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpacesAfter=\n
 
 # text = O desempenho do tensoativo C, face ao tensoativo B, apesar de ambos serem da mesma linhagem, pode ser explicado em termos de interações moleculares, uma vez que existe uma insaturação na estrutura do tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-278
+# sent_id = 13-20140910-MONOGRAFIA_0-268
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7496,7 +7375,7 @@
 43	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
 
 # text = C e que 95% das moléculas constituintes do óleo utilizado neste estudo são triglicerídeos insaturados, como pode ser visto na Tabela 3.
-# sent_id = 13-20140910-MONOGRAFIA_0-279
+# sent_id = 13-20140910-MONOGRAFIA_0-269
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 2	e	e	CCONJ	_	_	18	cc	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	_
@@ -7532,7 +7411,7 @@
 29	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Além disso, a presença dessa insaturação no tensoativo C faz com que o mesmo se apresente no estado líquido, o que facilita sua solubilização no óleo; enquanto que o tensoativo B apresenta-se no estado sólido.
-# sent_id = 13-20140910-MONOGRAFIA_0-280
+# sent_id = 13-20140910-MONOGRAFIA_0-270
 1	Além	além	ADV	_	_	6	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -7588,7 +7467,7 @@
 46	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = O melhor desempenho do tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-281
+# sent_id = 13-20140910-MONOGRAFIA_0-271
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -7598,7 +7477,7 @@
 6	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 
 # text = C comparativamente ao tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-282
+# sent_id = 13-20140910-MONOGRAFIA_0-272
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	comparativamente	comparativamente	ADV	_	_	1	advmod	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -7607,7 +7486,7 @@
 5	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 
 # text = A pode estar associado ao fato do tensoativo C ser constituído por moléculas não-iônicas, enquanto que o tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-283
+# sent_id = 13-20140910-MONOGRAFIA_0-273
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pode	pode	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	estar	estar	AUX	_	Number=Sing|Person=3|VerbForm=Inf	4	aux	_	_
@@ -7633,15 +7512,15 @@
 21	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 
 # text = A apresenta grupos iônicos.
-# sent_id = 13-20140910-MONOGRAFIA_0-284
+# sent_id = 13-20140910-MONOGRAFIA_0-274
 1	A	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 4	iônicos	iônico	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = Como o óleo é um produto não-iônico, tende a solubilizar melhor o tensoativo não- iônico.
-# sent_id = 13-20140910-MONOGRAFIA_0-285
+# text = Como o óleo é um produto não-iônico, tende a solubilizar melhor o tensoativo não-iônico.
+# sent_id = 13-20140910-MONOGRAFIA_0-275
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -7656,13 +7535,11 @@
 12	melhor	melhor	ADV	_	_	11	advmod	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
-15	não	não	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	15	punct	_	_
-17	iônico	iônico	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+15	não-iônico	não-iônico	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = concentração do tensoativo.
-# sent_id = 13-20140910-MONOGRAFIA_0-286
+# sent_id = 13-20140910-MONOGRAFIA_0-276
 1	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7671,11 +7548,11 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 4.2
-# sent_id = 13-20140910-MONOGRAFIA_0-287
+# sent_id = 13-20140910-MONOGRAFIA_0-277
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Determinação da concentração micelar crítica (CMC) para diferentes misturas óleo-tensoativo Conforme indicado pelas linhas tracejadas da Figura 7, a CMC para o tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-288
+# sent_id = 13-20140910-MONOGRAFIA_0-278
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7710,7 +7587,7 @@
 29	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 
 # text = A encontra-se no intervalo de 4,26% a 4,67% em massa, para a mistura óleo-tensoativo à temperatura ambiente (25°C).
-# sent_id = 13-20140910-MONOGRAFIA_0-289
+# sent_id = 13-20140910-MONOGRAFIA_0-279
 1	A	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2-3	encontra-se	_	_	_	_	_	_	_	_
 2	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7743,7 +7620,7 @@
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A leitura de tensão superficial para as misturas após 250°F não apresentou CMC nas concentrações estudadas, havendo, tensão superficial da mistura após 4% de tensoativo.
-# sent_id = 13-20140910-MONOGRAFIA_0-290
+# sent_id = 13-20140910-MONOGRAFIA_0-280
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7779,7 +7656,7 @@
 31	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Como os fluidos são sempre submetidos a altas temperaturas, o ideal é utilizar o tensoativo A, a concentrações inferiores a 4%.
-# sent_id = 13-20140910-MONOGRAFIA_0-291
+# sent_id = 13-20140910-MONOGRAFIA_0-281
 1	Como	como	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
@@ -7806,18 +7683,40 @@
 24	%	%	SYM	_	_	21	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
-# text = inclusive, um aumento da
-# sent_id = 13-20140910-MONOGRAFIA_0-292
+# text = inclusive, um aumento da Figura 7: Determinação da Concentração Micelar Crítica para o tensoativo
+# sent_id = 13-20140910-MONOGRAFIA_0-282
 1	inclusive	inclusive	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	7	7	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	4	punct	_	_
+10	Determinação	determinação	PROPN	_	Gender=Fem|Number=Sing	4	appos	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Concentração	concentração	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	Micelar	Micelar	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Crítica	crítica	PROPN	_	Number=Sing	13	flat:name	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+
+# text = A à 25°C.
+# sent_id = 13-20140910-MONOGRAFIA_0-283
+1	A	o	ADP	_	_	4	case	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	25°C	25°C	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Com o uso do tensoativo B não foi possível observar a CMC nas concentrações estudadas.
-# sent_id = 13-20140910-MONOGRAFIA_0-293
+# sent_id = 13-20140910-MONOGRAFIA_0-284
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	uso	uso	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -7839,8 +7738,8 @@
 17	estudadas	estudar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	10	punct	_	_
 
-# text = Visto que a tensão superficial da mistura manteve- se em torno de 32 mN/m (Figura 8).
-# sent_id = 13-20140910-MONOGRAFIA_0-294
+# text = Visto que a tensão superficial da mistura manteve-se em torno de 32 mN/m (Figura 8).
+# sent_id = 13-20140910-MONOGRAFIA_0-285
 1	Visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 2	que	que	SCONJ	_	_	9	mark	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7850,22 +7749,47 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-10	-	-	PUNCT	_	_	9	punct	_	_
-11	se	se	SCONJ	_	_	16	mark	_	_
-12	em	em	ADP	_	_	13	case	_	_
-13	torno	torno	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	32	32	NUM	_	NumType=Card	16	nummod	_	_
-16	mN/m	mN/m	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
-17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	_
-19	8	8	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+9-10	manteve-se	_	_	_	_	_	_	_	_
+9	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl	_	_
+11	em	em	ADP	_	_	15	case	_	_
+12	torno	torno	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
+13	de	de	ADP	_	_	11	fixed	_	_
+14	32	32	NUM	_	NumType=Card	15	nummod	_	_
+15	mN/m	mN/m	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	15	appos	_	_
+18	8	8	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Figura 8:
+# sent_id = 13-20140910-MONOGRAFIA_0-286
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Determinação da Concentração Micelar Crítica para o tensoativo B à 25°C.
+# sent_id = 13-20140910-MONOGRAFIA_0-287
+1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Concentração	concentração	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	Micelar	Micelar	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Crítica	crítica	PROPN	_	Number=Sing	4	flat:name	_	_
+7	para	para	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	tensoativo	tensoativo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	B	b	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	25°C	25°C	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A Figura 9 revela que a CMC do tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-295
+# sent_id = 13-20140910-MONOGRAFIA_0-288
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
@@ -7879,7 +7803,7 @@
 10	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 
 # text = C está no intervalo de 4,67% a 5,07% em massa em ambas as situações, antes e após a simulação das condições de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-296
+# sent_id = 13-20140910-MONOGRAFIA_0-289
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -7913,7 +7837,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Isto mostra que exposição da mistura a 250°F não alterou o desempenho do tensoativo, o que pode representar uma vantagem frente a outros produtos termodegradáveis.
-# sent_id = 13-20140910-MONOGRAFIA_0-297
+# sent_id = 13-20140910-MONOGRAFIA_0-290
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	11	mark	_	_
@@ -7947,12 +7871,12 @@
 29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 9:
-# sent_id = 13-20140910-MONOGRAFIA_0-298
+# sent_id = 13-20140910-MONOGRAFIA_0-291
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9:	9:	PUNCT	_	_	1	punct	_	_
 
 # text = Determinação da Concentração Micelar Crítica para o tensoativo C à 25°C.
-# sent_id = 13-20140910-MONOGRAFIA_0-299
+# sent_id = 13-20140910-MONOGRAFIA_0-292
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7971,7 +7895,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O uso do tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-300
+# sent_id = 13-20140910-MONOGRAFIA_0-293
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7980,7 +7904,7 @@
 5	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = D em concentrações inferiores a 2% em massa resultou em um aumento de tensão superficial após submeter-se à mistura a 250°F.
-# sent_id = 13-20140910-MONOGRAFIA_0-301
+# sent_id = 13-20140910-MONOGRAFIA_0-294
 1	D	D	PROPN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	concentrações	concentrações	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -8010,7 +7934,7 @@
 25	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Após 2% do tensoativo, o envelhecimento não apresentou diminuição do desempenho em comparação às misturas não envelhecidas.
-# sent_id = 13-20140910-MONOGRAFIA_0-302
+# sent_id = 13-20140910-MONOGRAFIA_0-295
 1	Após	após	ADP	_	_	3	case	_	_
 2	2	2	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	11	obl	_	_
@@ -8039,7 +7963,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Portanto, a utilização deste tensoativo deve ser realizada em concentração superior a 2% em massa (Figura 10).
-# sent_id = 13-20140910-MONOGRAFIA_0-303
+# sent_id = 13-20140910-MONOGRAFIA_0-296
 1	Portanto	portanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8065,12 +7989,33 @@
 22	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = 4.3
-# sent_id = 13-20140910-MONOGRAFIA_0-304
-1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
+# text = Figura 10:
+# sent_id = 13-20140910-MONOGRAFIA_0-297
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Determinação da Concentração Micelar Crítica para o tensoativo D à 25°C. 4.3
+# sent_id = 13-20140910-MONOGRAFIA_0-298
+1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Concentração	concentração	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	Micelar	Micelar	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Crítica	crítica	PROPN	_	Number=Sing	4	flat:name	_	_
+7	para	para	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	tensoativo	tensoativo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	D	D	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	25°C.	25°C.	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n
+14	4.3	4.3	NUM	_	NumType=Card	13	nummod	_	_
 
 # text = Estudo reológico para as misturas óleo-tensoativo antes e depois do envelhecimento
-# sent_id = 13-20140910-MONOGRAFIA_0-305
+# sent_id = 13-20140910-MONOGRAFIA_0-299
 1	Estudo	Estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -8086,7 +8031,7 @@
 12	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 
 # text = As misturas óleo-tensoativo apresentaram comportamento newtoniano na faixa de cisalhamento analisada (0 à 970 s-1), com viscosidades de 0,05 à 0,10 Pa.s antes e após o envelhecimento a 250°F, como pode ser observado nas Figuras 11-13.
-# sent_id = 13-20140910-MONOGRAFIA_0-306
+# sent_id = 13-20140910-MONOGRAFIA_0-300
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -8138,7 +8083,7 @@
 45	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Com isso, pode-se concluir que essas misturas apresentam desempenhos favoráveis à aplicação em fluidos que necessitem resistir a altas temperaturas com viscosidades aceitáveis em condições de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-307
+# sent_id = 13-20140910-MONOGRAFIA_0-301
 1	Com	com	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8173,44 +8118,66 @@
 30	poço	poço	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = antes (AE) e após envelhecimento (DE) a 250°F . antes (AE) e após envelhecimento (DE) a 250°F .
-# sent_id = 13-20140910-MONOGRAFIA_0-308
-1	antes	antes	ADV	_	_	24	advmod	_	_
+# text = antes (AE) e após envelhecimento (DE) a 250°F .
+# sent_id = 13-20140910-MONOGRAFIA_0-302
+1	antes	antes	ADV	_	_	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	AE	AE	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	AE	AE	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	e	e	CCONJ	_	_	7	cc	_	_
 6	após	após	ADP	_	_	7	case	_	_
-7	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+7	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	DE	de	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
+9	DE	de	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	250°F	250°F	PROPN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
+12	250°F	250°F	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-14	antes	antes	ADV	_	_	1	advmod	_	_
-15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	AE	AE	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	16	punct	_	_
-18	e	e	CCONJ	_	_	20	cc	_	_
-19	após	após	ADP	_	_	20	case	_	_
-20	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	DE	de	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	22	punct	_	_
-24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	250°F	250°F	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+
+# text = Figura 12:
+# sent_id = 13-20140910-MONOGRAFIA_0-303
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+
+# text = Comportamento reológico para diferentes misturas de óleo-tensoativo C à 25°C, antes (AE) e após envelhecimento (DE) a 250°F .
+# sent_id = 13-20140910-MONOGRAFIA_0-304
+1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	óleo-tensoativo	óleo-tensoativo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	C	c	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	à	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	25°C	25°C	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	antes	antes	ADV	_	_	15	advmod	_	_
+14	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	AE	AE	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	1	punct	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	após	após	ADP	_	_	19	case	_	_
+19	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	DE	de	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	250°F	250°F	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 13:
-# sent_id = 13-20140910-MONOGRAFIA_0-309
+# sent_id = 13-20140910-MONOGRAFIA_0-305
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Comportamento reológico para diferentes misturas de óleo-tensoativo D à 25°C, antes (AE) e após envelhecimento (DE) a 250°F . 4.4
-# sent_id = 13-20140910-MONOGRAFIA_0-310
-1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+# text = Comportamento reológico para diferentes misturas de óleo-tensoativo D à 25°C, antes (AE) e após envelhecimento (DE) a 250°F .
+# sent_id = 13-20140910-MONOGRAFIA_0-306
+1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
 4	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
@@ -8229,17 +8196,20 @@
 16	)	)	PUNCT	_	_	1	punct	_	_
 17	e	e	CCONJ	_	_	19	cc	_	_
 18	após	após	ADP	_	_	19	case	_	_
-19	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
+19	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	DE	de	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	_
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	250°F	250°F	PROPN	_	Gender=Fem|Number=Sing	19	appos	_	_
-25	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
-26	4.4	4.4	NUM	_	NumType=Card	0	root	_	_
+24	250°F	250°F	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = 4.4
+# sent_id = 13-20140910-MONOGRAFIA_0-307
+1	4.4	4.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Influência do estabilizante na presença de diferentes afinantes
-# sent_id = 13-20140910-MONOGRAFIA_0-311
+# sent_id = 13-20140910-MONOGRAFIA_0-308
 1	Influência	influência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8254,7 +8224,7 @@
 10	afinantes	afinante	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 
 # text = Os fluidos foram estabilizados com o tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-312
+# sent_id = 13-20140910-MONOGRAFIA_0-309
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -8264,7 +8234,7 @@
 7	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 
 # text = C e afinados com os redutores de viscosidades 1 e 2.
-# sent_id = 13-20140910-MONOGRAFIA_0-313
+# sent_id = 13-20140910-MONOGRAFIA_0-310
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	afinados	afinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	conj	_	_
@@ -8279,7 +8249,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os dados estão listados na Tabela 10 (Apêndice A).
-# sent_id = 13-20140910-MONOGRAFIA_0-314
+# sent_id = 13-20140910-MONOGRAFIA_0-311
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -8296,7 +8266,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O estudo mostra a influência do estabilizante, cuja concentração variou de 0 a 2 lb/bbl, sobre as propriedades dos fluidos de perfuração.
-# sent_id = 13-20140910-MONOGRAFIA_0-315
+# sent_id = 13-20140910-MONOGRAFIA_0-312
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8328,7 +8298,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As Figuras 14 a 17 resumem os dados reológicos contidos na Tabela 10, propiciando uma comparação entre o desempenho do estabilizante em fluidos afinados com os redutores de viscosidade 1 e 2.
-# sent_id = 13-20140910-MONOGRAFIA_0-316
+# sent_id = 13-20140910-MONOGRAFIA_0-313
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	14	14	NUM	_	NumType=Card	2	nummod	_	_
@@ -8369,7 +8339,7 @@
 36	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Conforme mostrado nas Figuras 14 e 15, os fluidos afinados exibiram uma forte sensibilidade ao estabilizante.
-# sent_id = 13-20140910-MONOGRAFIA_0-317
+# sent_id = 13-20140910-MONOGRAFIA_0-314
 1	Conforme	conforme	SCONJ	_	_	2	mark	_	_
 2	mostrado	mostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
 3-4	nas	_	_	_	_	_	_	_	_
@@ -8394,7 +8364,7 @@
 20	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Os valores de L3 e LE em concentrações iguais ou inferiores a 1,0 lb/bbl do estabilizante foram muito baixos, o que implica em má limpeza de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-318
+# sent_id = 13-20140910-MONOGRAFIA_0-315
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8428,7 +8398,7 @@
 30	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Apenas quando a concentração atingiu 2,0 lb/bbl, é que os fluidos apresentam valores de L3 e LE compatíveis com uma boa limpeza de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-319
+# sent_id = 13-20140910-MONOGRAFIA_0-316
 1	Apenas	apenas	ADV	_	_	5	advmod	_	_
 2	quando	quando	ADV	_	_	5	advmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8457,7 +8427,7 @@
 26	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Observou-se ainda que os fluidos afinados com o redutor de viscosidade 2 (RV 2) apresentam melhor desempenho, pois resultaram em valores de LE e L3 ligeiramente superiores aos obtidos com fluidos afinados com o redutor de viscosidade 1 (RV 1).
-# sent_id = 13-20140910-MONOGRAFIA_0-320
+# sent_id = 13-20140910-MONOGRAFIA_0-317
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8509,20 +8479,41 @@
 47	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = diferentes afinantes.
-# sent_id = 13-20140910-MONOGRAFIA_0-321
-1	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
-2	afinantes	afinante	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+# text = Figura 14:
+# sent_id = 13-20140910-MONOGRAFIA_0-318
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Leitura reológica em L3 com variação da concentração do estabilizante usando diferentes afinantes.
+# sent_id = 13-20140910-MONOGRAFIA_0-319
+1	Leitura	leitura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	reológica	reológico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	L3	L3	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	com	com	ADP	_	_	6	case	_	_
+6	variação	variação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	estabilizante	estabilizante	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	usando	usar	VERB	_	VerbForm=Ger	1	acl	_	_
+14	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	afinantes	afinante	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 15:
-# sent_id = 13-20140910-MONOGRAFIA_0-322
+# sent_id = 13-20140910-MONOGRAFIA_0-320
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Valores do limite de escoamento com variação da concentração do estabilizante usando diferentes afinantes.
-# sent_id = 13-20140910-MONOGRAFIA_0-323
+# sent_id = 13-20140910-MONOGRAFIA_0-321
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8546,7 +8537,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Conforme se vê na Figura 16, os fluidos afinados com o redutor de viscosidade 1 apresentam menores valores de L600, significando menores perdas de carga durante as operações de campo, entretanto, as diferenças são pequenas.
-# sent_id = 13-20140910-MONOGRAFIA_0-324
+# sent_id = 13-20140910-MONOGRAFIA_0-322
 1	Conforme	Conforme	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	vê	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
@@ -8591,7 +8582,7 @@
 41	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Observou-se ainda que os valores de L600 e de viscosidade plástica (Figura 17) dos fluidos apresentaram um acentuado crescimento quando a concentração do estabilizante variou de 0,0 para 1,0 lb/bbl, diminuindo um pouco entre 1,0 e 2,0 lb/bbl.
-# sent_id = 13-20140910-MONOGRAFIA_0-325
+# sent_id = 13-20140910-MONOGRAFIA_0-323
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8642,7 +8633,7 @@
 45	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Do exposto acima, pode-se concluir que, do ponto de vista reológico, os fluidos afinados com o redutor 1 necessitam de 2,0 lb/bbl do estabilizante a fim de atingir valores relógicos compatíveis com uma limpeza de poço.
-# sent_id = 13-20140910-MONOGRAFIA_0-326
+# sent_id = 13-20140910-MONOGRAFIA_0-324
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8693,7 +8684,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 16: Variação de L600 com a concentração do estabilizante usando diferentes afinantes.
-# sent_id = 13-20140910-MONOGRAFIA_0-327
+# sent_id = 13-20140910-MONOGRAFIA_0-325
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8713,13 +8704,13 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 17:
-# sent_id = 13-20140910-MONOGRAFIA_0-328
+# sent_id = 13-20140910-MONOGRAFIA_0-326
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Valores de viscosidade plástica com variação da concentração do estabilizante usando diferentes afinantes.
-# sent_id = 13-20140910-MONOGRAFIA_0-329
+# sent_id = 13-20140910-MONOGRAFIA_0-327
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8740,7 +8731,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Com o intuito de aprofundar a investigação à cerca da influência do estabilizante sobre os fluidos, foram realizadas medidas de estabilidade elétrica, após o envelhecimento, e da separação de fases durante repouso, antes e após o envelhecimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-330
+# sent_id = 13-20140910-MONOGRAFIA_0-328
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
@@ -8793,7 +8784,7 @@
 46	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Conforme se vê na Figura 18, a estabilidade elétrica dos fluidos se mostrou sensível à presença do estabilizante, crescendo com o aumento da concentração do mesmo.
-# sent_id = 13-20140910-MONOGRAFIA_0-331
+# sent_id = 13-20140910-MONOGRAFIA_0-329
 1	Conforme	Conforme	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	vê	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
@@ -8837,7 +8828,7 @@
 35	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = É possível observar que os fluidos que não continham estabilizantes apresentaram valores muito baixos de estabilidade elétrica e que, a partir de 1,0 lb/bbl, os valores de estabilidade superaram os 100 volts, valor mínimo requerido.
-# sent_id = 13-20140910-MONOGRAFIA_0-332
+# sent_id = 13-20140910-MONOGRAFIA_0-330
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	observar	observar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -8879,7 +8870,7 @@
 39	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = As Figuras 18 e 19 revelam que a presença do redutor de viscosidade 1 resultou em maior estabilidade elétrica e menor segregação de fase óleo, o que caracteriza emulsões mais estáveis.
-# sent_id = 13-20140910-MONOGRAFIA_0-333
+# sent_id = 13-20140910-MONOGRAFIA_0-331
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	18	18	NUM	_	NumType=Card	2	nummod	_	_
@@ -8917,7 +8908,7 @@
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O redutor de viscosidade, por apresentar características de tensoativo, pode estar interagindo sinergicamente com o tensoativo principal, ajudando a formar emulsões mais estáveis, em comparação às emulsões resultantes em fluidos afinados com o redutor de viscosidade 2.
-# sent_id = 13-20140910-MONOGRAFIA_0-334
+# sent_id = 13-20140910-MONOGRAFIA_0-332
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	redutor	redutor	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8964,13 +8955,13 @@
 43	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Figura 18:
-# sent_id = 13-20140910-MONOGRAFIA_0-335
+# sent_id = 13-20140910-MONOGRAFIA_0-333
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Valores da estabilidade elétrica com variação da concentração do estabilizante usando diferentes afinantes.
-# sent_id = 13-20140910-MONOGRAFIA_0-336
+# sent_id = 13-20140910-MONOGRAFIA_0-334
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8993,7 +8984,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Observando as Figuras 19 e 20 é possível notar que a adição do estabilizante promove um aumento considerável na estabilidade das emulsões a partir de uma concentração igual a 1,0 lb/bbl.
-# sent_id = 13-20140910-MONOGRAFIA_0-337
+# sent_id = 13-20140910-MONOGRAFIA_0-335
 1	Observando	Observar	VERB	_	VerbForm=Ger	0	root	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -9034,7 +9025,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Nesta concentração, os fluidos apresentaram água livre, e a porcentagem volumétrica de óleo separado tendeu a estabilizar, mesmo que em uma proporção menor.
-# sent_id = 13-20140910-MONOGRAFIA_0-338
+# sent_id = 13-20140910-MONOGRAFIA_0-336
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -9066,7 +9057,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A partir de 1,0 lb/bbl do estabilizante, nota-se claramente que o envelhecimento foi muito favorável ao aumento da estabilidade das emulsões.
-# sent_id = 13-20140910-MONOGRAFIA_0-339
+# sent_id = 13-20140910-MONOGRAFIA_0-337
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -9102,7 +9093,7 @@
 28	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = A separação de fase água em repouso, antes e após o envelhecimento é mostrada na Figura 19.
-# sent_id = 13-20140910-MONOGRAFIA_0-340
+# sent_id = 13-20140910-MONOGRAFIA_0-338
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	separação	separação	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9126,7 +9117,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Percebe-se que os fluidos afinados com o redutor de viscosidade 1 apresentaram resultados favoráveis à estabilidade da emulsão.
-# sent_id = 13-20140910-MONOGRAFIA_0-341
+# sent_id = 13-20140910-MONOGRAFIA_0-339
 1-2	Percebe-se	_	_	_	_	_	_	_	_
 1	Percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9154,7 +9145,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Nota-se, ainda, que a partir de 1,0 lb/bbl do estabilizante os fluidos não exibiram água livre em repouso nem antes e nem após o envelhecimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-342
+# sent_id = 13-20140910-MONOGRAFIA_0-340
 1-2	Nota-se	_	_	_	_	_	_	_	SpaceAfter=No
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9189,13 +9180,13 @@
 30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 19:
-# sent_id = 13-20140910-MONOGRAFIA_0-343
+# sent_id = 13-20140910-MONOGRAFIA_0-341
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Porcentagem da separação de fase água à temperatura ambiente com uso de diferentes redutores de viscosidade e efeito do estabilizante.
-# sent_id = 13-20140910-MONOGRAFIA_0-344
+# sent_id = 13-20140910-MONOGRAFIA_0-342
 1	Porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9225,7 +9216,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A separação de fases em repouso, antes e após o envelhecimento, Figura 20, mostra que o envelhecimento foi favorável ao aumento da estabilidade da emulsão na presença do estabilizante, no que se refere à separação de fase óleo.
-# sent_id = 13-20140910-MONOGRAFIA_0-345
+# sent_id = 13-20140910-MONOGRAFIA_0-343
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	separação	separação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9285,7 +9276,7 @@
 50	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Os fluidos que utilizaram como afinante em sua composição o redutor de viscosidade 1, obtiveram menores porcentagens de separação de fases após envelhecimento.
-# sent_id = 13-20140910-MONOGRAFIA_0-346
+# sent_id = 13-20140910-MONOGRAFIA_0-344
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -9313,7 +9304,7 @@
 25	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Observa-se que os fluidos apresentaram diminuição de separação de fase óleo com o aumento da concentração do estabilizante, o que demonstra a necessidade de acrescentar este aditivo aos fluidos a base de óleo vegetal.
-# sent_id = 13-20140910-MONOGRAFIA_0-347
+# sent_id = 13-20140910-MONOGRAFIA_0-345
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9360,13 +9351,13 @@
 40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 20:
-# sent_id = 13-20140910-MONOGRAFIA_0-348
+# sent_id = 13-20140910-MONOGRAFIA_0-346
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	20	20	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Porcentagem da separação de fase óleo à temperatura ambiente com uso de diferentes redutores de viscosidade e efeito do estabilizante.
-# sent_id = 13-20140910-MONOGRAFIA_0-349
+# sent_id = 13-20140910-MONOGRAFIA_0-347
 1	Porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9395,8 +9386,8 @@
 23	estabilizante	estabilizante	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Os valores de volume de filtrado estão apresentados nas Figuras 21 e 22, onde se observa que os fluidos sentiram uma forte influência da presença do estabilizante, sendo requerida a adição de pelo menos 1,0 lb/bbl para obterem- se volumes de filtrados aceitáveis e 2,0 lb/bbl para ser aplicável a situações de campo.
-# sent_id = 13-20140910-MONOGRAFIA_0-350
+# text = Os valores de volume de filtrado estão apresentados nas Figuras 21 e 22, onde se observa que os fluidos sentiram uma forte influência da presença do estabilizante, sendo requerida a adição de pelo menos 1,0 lb/bbl para obterem-se volumes de filtrados aceitáveis e 2,0 lb/bbl para ser aplicável a situações de campo.
+# sent_id = 13-20140910-MONOGRAFIA_0-348
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9435,7 +9426,7 @@
 33	sendo	ser	AUX	_	VerbForm=Ger	34	aux:pass	_	_
 34	requerida	requerir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	advcl	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	adição	adição	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+36	adição	adição	NOUN	_	Gender=Fem|Number=Sing	34	nsubj:pass	_	_
 37	de	de	ADP	_	_	42	case	_	_
 38-39	pelo	_	_	_	_	_	_	_	_
 38	por	por	ADP	_	_	40	case	_	_
@@ -9444,27 +9435,27 @@
 41	1,0	1,0	NUM	_	NumType=Card	42	nummod	_	_
 42	lb/bbl	lb/bbl	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
 43	para	para	SCONJ	_	_	44	mark	_	_
-44	obterem	obter	VERB	_	Number=Plur|Person=3|VerbForm=Inf	34	advcl	_	SpaceAfter=No
-45	-	-	PUNCT	_	_	44	punct	_	_
-46	se	se	SCONJ	_	_	47	mark	_	_
-47	volumes	volume	NOUN	_	Gender=Masc|Number=Plur	44	obj	_	_
-48	de	de	ADP	_	_	49	case	_	_
-49	filtrados	filtrado	NOUN	_	Gender=Masc|Number=Plur	47	nmod	_	_
-50	aceitáveis	aceitável	ADJ	_	Gender=Masc|Number=Plur	49	amod	_	_
-51	e	e	CCONJ	_	_	53	cc	_	_
-52	2,0	2,0	NUM	_	NumType=Card	53	nummod	_	_
-53	lb/bbl	lb/bbl	NOUN	_	Gender=Masc|Number=Sing	47	conj	_	_
-54	para	para	SCONJ	_	_	56	mark	_	_
-55	ser	ser	AUX	_	VerbForm=Inf	56	cop	_	_
-56	aplicável	aplicável	ADJ	_	Gender=Masc|Number=Sing	47	advcl	_	_
-57	a	a	ADP	_	_	58	case	_	_
-58	situações	situação	NOUN	_	Gender=Fem|Number=Plur	56	obl	_	_
-59	de	de	ADP	_	_	60	case	_	_
-60	campo	campo	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+44-45	obterem-se	_	_	_	_	_	_	_	_
+44	obterem	obter	VERB	_	Number=Plur|Person=3|VerbForm=Inf	34	advcl	_	_
+45	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	44	expl	_	_
+46	volumes	volume	NOUN	_	Gender=Masc|Number=Plur	52	conj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	filtrados	filtrado	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
+49	aceitáveis	aceitável	ADJ	_	Gender=Masc|Number=Plur	48	amod	_	_
+50	e	e	CCONJ	_	_	52	cc	_	_
+51	2,0	2,0	NUM	_	NumType=Card	52	nummod	_	_
+52	lb/bbl	lb/bbl	NOUN	_	Gender=Masc|Number=Sing	44	conj	_	_
+53	para	para	SCONJ	_	_	55	mark	_	_
+54	ser	ser	AUX	_	VerbForm=Inf	55	cop	_	_
+55	aplicável	aplicável	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	_
+56	a	a	ADP	_	_	57	case	_	_
+57	situações	situação	NOUN	_	Gender=Fem|Number=Plur	55	obl	_	_
+58	de	de	ADP	_	_	59	case	_	_
+59	campo	campo	NOUN	_	Gender=Masc|Number=Sing	57	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = O uso do redutor de viscosidade 1 apresentou menores volumes de óleo no filtrado do que quando foi utilizado o redutor de viscosidade 2.
-# sent_id = 13-20140910-MONOGRAFIA_0-351
+# sent_id = 13-20140910-MONOGRAFIA_0-349
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9497,28 +9488,81 @@
 27	2	2	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = estabilizante.
-# sent_id = 13-20140910-MONOGRAFIA_0-352
-1	estabilizante	estabilizante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Figura 21:
+# sent_id = 13-20140910-MONOGRAFIA_0-350
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	21	21	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = estabilizante.
+# text = Volume do filtrado ATAP com uso do afinante 1 em diferentes concentrações do estabilizante.
+# sent_id = 13-20140910-MONOGRAFIA_0-351
+1	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	ATAP	Atap	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	uso	uso	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	afinante	afinante	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	1	1	NUM	_	NumType=Card	10	nummod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	estabilizante	estabilizante	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Figura 22:
+# sent_id = 13-20140910-MONOGRAFIA_0-352
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	22	22	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Volume do filtrado
 # sent_id = 13-20140910-MONOGRAFIA_0-353
-1	estabilizante	estabilizante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+
+# text = ATAP com uso do afinante 2 em diferentes concentrações do estabilizante.
+# sent_id = 13-20140910-MONOGRAFIA_0-354
+1	ATAP	Atap	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	uso	uso	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	afinante	afinante	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	2	2	NUM	_	NumType=Card	6	nummod	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	estabilizante	estabilizante	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 5 CONCLUSÕES
-# sent_id = 13-20140910-MONOGRAFIA_0-354
+# sent_id = 13-20140910-MONOGRAFIA_0-355
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 2	CONCLUSÕES	conclusão	NUM	_	NumType=Card	1	flat	_	_
 
 # text = O surfactante
-# sent_id = 13-20140910-MONOGRAFIA_0-355
+# sent_id = 13-20140910-MONOGRAFIA_0-356
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	surfactante	surfactante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = C apresentou melhor desempenho, provavelmente em função de sua maior solubilidade na fase óleo e maior estabilidade térmica.
-# sent_id = 13-20140910-MONOGRAFIA_0-356
+# sent_id = 13-20140910-MONOGRAFIA_0-357
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -9543,7 +9587,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os fluidos afinados com o redutor de viscosidade 1 apresentaram desempenho ligeiramente superior aos fluidos afinados com o redutor de viscosidade 2, em termos de L600, separação de fase óleo, estabilidade elétrica e filtrado.
-# sent_id = 13-20140910-MONOGRAFIA_0-357
+# sent_id = 13-20140910-MONOGRAFIA_0-358
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	afinados	afinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -9586,7 +9630,7 @@
 39	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Por sua vez, os fluidos afinados com o redutor 2 apresentam maiores valores de LE e L3 e são, provavelmente, menos tóxicos e mais biodegradáveis.
-# sent_id = 13-20140910-MONOGRAFIA_0-358
+# sent_id = 13-20140910-MONOGRAFIA_0-359
 1	Por	por	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 2	sua	sua	ADP	_	_	3	case	_	_
 3	vez	vez	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -9618,7 +9662,7 @@
 29	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Os fluidos estudados requerem no mínimo 2,0 lb/bbl do estabilizante, para atenderem todos os requisitos típicos de um fluido de perfuração.
-# sent_id = 13-20140910-MONOGRAFIA_0-359
+# sent_id = 13-20140910-MONOGRAFIA_0-360
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estudados	estudar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -9648,7 +9692,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O envelhecimento dos fluidos foi favorável ao aumento de estabilidade de emulsões do tipo água/óleo vegetal que utilizam tensoativo
-# sent_id = 13-20140910-MONOGRAFIA_0-360
+# sent_id = 13-20140910-MONOGRAFIA_0-361
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	envelhecimento	envelhecimento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -9676,7 +9720,7 @@
 22	tensoativo	tensoativo	ADJ	_	Gender=Masc|Number=Sing	21	xcomp	_	_
 
 # text = C como agente emulsificante.
-# sent_id = 13-20140910-MONOGRAFIA_0-361
+# sent_id = 13-20140910-MONOGRAFIA_0-362
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	como	como	ADP	_	_	3	case	_	_
 3	agente	agente	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_

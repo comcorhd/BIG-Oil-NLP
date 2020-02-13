@@ -307,7 +307,7 @@
 17	eficiência	eficiência	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = - Gerar uma ferramenta para ajudar na tomada de decisão da escolha da melhor maneira de recuperação do óleo, quando o interesse se concentra em uma determinada região do reservatório; instrumento de extrema 2- Revisão Bibliográfica 2.1
+# text = - Gerar uma ferramenta para ajudar na tomada de decisão da escolha da melhor maneira de recuperação do óleo, quando o interesse se concentra em uma determinada região do reservatório; instrumento de extrema 2-Revisão Bibliográfica 2.1
 # sent_id = 182-20140922-MONOGRAFIA_0-10
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Gerar	gerar	VERB	_	VerbForm=Inf	0	root	_	_
@@ -351,13 +351,12 @@
 35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 37	;	;	PUNCT	_	_	2	punct	_	_
-38	instrumento	instrumento	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	extrema	extrema	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-41	2-	2-	PUNCT	_	_	2	punct	_	_
-42	Revisão	revisão	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
-43	Bibliográfica	Bibliográfica	PROPN	_	Number=Sing	42	flat:name	_	_
-44	2.1	2.1	NUM	_	NumType=Card	42	nummod	_	_
+38	instrumento	instrumento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	extrema	extremo	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
+41	2-Revisão	2-Revisão	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+42	Bibliográfica	Bibliográfica	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+43	2.1	2.1	NUM	_	NumType=Card	42	nummod	_	_
 
 # text = Fluxo em meios porosos
 # sent_id = 182-20140922-MONOGRAFIA_0-11
@@ -791,18 +790,17 @@
 8	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Figura 1- Elemento de um meio poroso.
+# text = Figura 1-Elemento de um meio poroso.
 # sent_id = 182-20140922-MONOGRAFIA_0-21
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	1-	1	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-3	Elemento	elemento	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	_
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	1-Elemento	1-Elemento	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = (Fonte: ROSA et al., 2006) (3) (4) onde qx, qy e qz são as vazões de entrada e de saída nas três direções.
+# text = (Fonte: ROSA et al., 2006) (2) (3) (4) onde qx, qy e qz são as vazões de entrada e de saída nas três direções.
 # sent_id = 182-20140922-MONOGRAFIA_0-22
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -814,30 +812,33 @@
 8	2006	2006	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	6	punct	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	3)	3)	NUM	_	NumType=Card	23	nummod	_	_
-12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	4	4	NUM	_	NumType=Card	11	appos:parataxis	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	13	punct	_	_
-15	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	23	obl	_	_
-16	qx	qx	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	qy	qy	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-19	e	e	CCONJ	_	_	20	cc	_	_
-20	qz	qz	ADJ	_	Gender=Fem|Number=Sing	18	conj	_	_
-21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
-23	vazões	vazão	NOUN	_	Gender=Fem|Number=Plur	2	acl:relcl	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
+11	2	2	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	3)	3)	NUM	_	NumType=Card	26	nummod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	4	4	NUM	_	NumType=Card	14	appos:parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	26	obl	_	_
+19	qx	qx	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	qy	qy	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	qz	qz	ADJ	_	Gender=Fem|Number=Sing	21	conj	_	_
+24	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	vazões	vazão	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
-28	saída	saída	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
-29-30	nas	_	_	_	_	_	_	_	_
-29	em	em	ADP	_	_	32	case	_	_
-30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
-31	três	três	NUM	_	NumType=Card	32	nummod	_	_
-32	direções	direção	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+28	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	saída	saída	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
+32-33	nas	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	35	case	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	três	três	NUM	_	NumType=Card	35	nummod	_	_
+35	direções	direção	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 2.3
 # sent_id = 182-20140922-MONOGRAFIA_0-23
@@ -1090,7 +1091,7 @@
 24	líquidos	líquido	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = A compressibilidade dos fluidos é dada por: (7) e a compressibilidade da rocha é dada por: total do meio é dada pela soma dessas duas (9)
+# text = A compressibilidade dos fluidos é dada por: (7) e a compressibilidade da rocha é dada por: (8) total do meio é dada pela soma dessas duas (9)
 # sent_id = 182-20140922-MONOGRAFIA_0-32
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	compressibilidade	compressibilidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -1114,26 +1115,29 @@
 18	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
 20	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	_
-21	por	por	ADP	_	_	28	case	_	SpaceAfter=No
-22	:	:	PUNCT	_	_	28	punct	_	_
-23	total	total	NOUN	_	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	meio	meio	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
-28	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	obl:agent	_	_
-29-30	pela	_	_	_	_	_	_	_	_
-29	por	por	ADP	_	_	31	case	_	_
-30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	soma	soma	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
-32-33	dessas	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	34	case	_	_
-33	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	34	det	_	_
-34	duas	dois	NUM	_	NumType=Card	31	nmod	_	_
-35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	9	9	NUM	_	NumType=Card	34	appos	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	36	punct	_	_
+21	por	por	ADP	_	_	22	case	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	20	obl:agent	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	8	8	NUM	_	NumType=Card	22	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	total	total	PRON	_	Gender=Unsp|Number=Sing|PronType=Ind	31	nsubj:pass	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	meio	meio	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+32-33	pela	_	_	_	_	_	_	_	_
+32	por	por	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	soma	soma	NOUN	_	Gender=Fem|Number=Sing	31	obl:agent	_	_
+35-36	dessas	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	37	det	_	_
+37	duas	dois	NUM	_	NumType=Card	34	nmod	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	9	9	NUM	_	NumType=Card	37	appos	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
 
 # text = A equação (10) pode ser também escrita em termos da pressão do fluido no reservatório:
 # sent_id = 182-20140922-MONOGRAFIA_0-33
@@ -1275,7 +1279,7 @@
 33	incompressível	incompressível	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = Assim, a equação da difusividade hidráulica pode ser escrita de forma mais compacta como: onde η é a constante de difusividade hidráulica e é dada por: 2.5.1
+# text = Assim, a equação da difusividade hidráulica pode ser escrita de forma mais compacta como: (12) 2.5
 # sent_id = 182-20140922-MONOGRAFIA_0-37
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -1293,31 +1297,144 @@
 13	forma	forma	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 14	mais	mais	ADV	_	_	15	advmod	_	_
 15	compacta	compacto	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-16	como	como	ADV	_	_	11	fixed	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	9	punct	_	_
-18	onde	onde	PROPN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
-19	η	η	PROPN	_	Number=Sing	18	flat:name	_	_
-20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	constante	constante	NOUN	_	Gender=Fem|Number=Sing	9	parataxis	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	difusividade	difusividade	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-25	hidráulica	hidráulico	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
-27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
-28	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	30	conj	_	_
-29	por	por	ADP	_	_	30	case	_	SpaceAfter=No
-30	:	:	PUNCT	_	_	22	punct	_	_
-31	2.5	2.5	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
-32	.1	.1	NUM	_	NumType=Card	31	flat	_	_
+16	como	como	ADV	_	_	13	advmod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	11	punct	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	12	12	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	2.5	2.5	NUM	_	NumType=Card	11	nummod	_	_
 
-# text = Fluxo Linear
+# text = Soluções da Equação da Difusividade
 # sent_id = 182-20140922-MONOGRAFIA_0-38
-1	Fluxo	fluxo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Linear	linear	PROPN	_	Number=Sing	1	flat:name	_	_
+1	Soluções	solução	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Difusividade	Difusividade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+
+# text = As soluções da equação da difusividade podem ser dadas para sistemas lineares e radiais.
+# sent_id = 182-20140922-MONOGRAFIA_0-39
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	equação	equação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	difusividade	difusividade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	11	aux:pass	_	_
+11	dadas	dar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+14	lineares	linear	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	radiais	radial	ADJ	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# text = Nesse trabalho, o único regime de fluxo tratado é o permanente, assim só serão apresentadas soluções nesse regime.
+# sent_id = 182-20140922-MONOGRAFIA_0-40
+1-2	Nesse	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	único	único	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	regime	regime	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	tratado	tratar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	permanente	permanente	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	assim	assim	ADV	_	_	16	advmod	_	_
+16	só	só	ADV	_	_	18	advmod	_	_
+17	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	18	aux:pass	_	_
+18	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+19	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+20-21	nesse	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	regime	regime	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# text = Deve ser salientado que as soluções a serem apresentadas foram todas obtidas considerando-se que a vazão no ponto de coordenada x
+# sent_id = 182-20140922-MONOGRAFIA_0-41
+1	Deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
+3	salientado	salientar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	soluções	soluções	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+7	a	a	SCONJ	_	_	9	mark	_	_
+8	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	9	aux:pass	_	_
+9	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
+10	foram	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+11	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	12	det	_	_
+12	obtidas	obtida	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+13-14	considerando-se	_	_	_	_	_	_	_	_
+13	considerando	considerar	VERB	_	VerbForm=Ger	3	advcl	_	_
+14	se	se	SCONJ	_	_	17	mark	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	23	advcl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	coordenada	coordenada	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	x	x	ADP	_	_	13	case	_	_
+
+# text = = 0 para o caso de fluxo linear, ou r = rw (raio do poço) no fluxo radial, é constante.
+# sent_id = 182-20140922-MONOGRAFIA_0-42
+1	=	=	SYM	_	_	13	nmod	_	_
+2	0	0	NUM	_	NumType=Card	1	nummod	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caso	caso	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	linear	linear	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	ou	ou	CCONJ	_	_	11	cc	_	_
+11	r	r	VERB	_	VerbForm=Inf	13	conj	_	_
+12	=	=	SYM	_	_	11	obj	_	_
+13	rw	rw	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	raio	raio	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	poço	poço	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	15	punct	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+23	radial	radial	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	13	punct	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	constante	constante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+
+# text = 2.5.1 Fluxo Linear
+# sent_id = 182-20140922-MONOGRAFIA_0-43
+1	2.5	2.5	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
+3	Fluxo	fluxo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	Linear	linear	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Para um sistema de fluxo linear, ou seja, quando há apenas uma direção de fluxo, a direção x, por exemplo, os termos referentes às direções y e z são iguais a zero e a equação da difusividade se reduz a:
-# sent_id = 182-20140922-MONOGRAFIA_0-39
+# sent_id = 182-20140922-MONOGRAFIA_0-44
 1	Para	para	ADP	_	_	3	case	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -1369,8 +1486,8 @@
 47	a	o	ADP	_	_	48	case	_	SpaceAfter=No
 48	:	:	PUNCT	_	_	46	punct	_	_
 
-# text = As equações para fluxo linear permanente descrevem o movimento de um fluido em um meio poroso linear limitado, de comprimento L e área aberta ao fluxo A.
-# sent_id = 182-20140922-MONOGRAFIA_0-40
+# text = As equações para fluxo linear permanente descrevem o movimento de um fluido em um meio poroso linear limitado, de comprimento L e área aberta ao fluxo
+# sent_id = 182-20140922-MONOGRAFIA_0-45
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -1389,10 +1506,10 @@
 16	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	linear	linear	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 18	limitado	limitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	18	punct	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_
 20	de	de	ADP	_	_	21	case	_	_
-21	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
-22	L	L	PROPN	_	Gender=Masc|Number=Plur	21	appos	_	_
+21	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+22	L	L	PROPN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 23	e	e	CCONJ	_	_	24	cc	_	_
 24	área	área	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
 25	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	24	acl	_	_
@@ -1400,11 +1517,16 @@
 26	a	a	ADP	_	_	28	case	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
-29	A	a	ADP	_	_	28	case	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Assim, inserindo as condições de contorno para as pressões e resolvendo para pressão e para a vazão, a solução da equação da difusividade para regime de fluxo linear e permanente pode ser escrita, de forma reduzida, como:
-# sent_id = 182-20140922-MONOGRAFIA_0-41
+# text = A. (15)
+# sent_id = 182-20140922-MONOGRAFIA_0-46
+1	A.	A.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	15	15	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Assim, inserindo as condições de contorno para as pressões e resolvendo para pressão e para a vazão, a solução da equação da difusividade para regime de fluxo linear e permanente pode ser escrita, de forma reduzida, como: (17) 2.5.2
+# sent_id = 182-20140922-MONOGRAFIA_0-47
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	inserindo	inserir	VERB	_	VerbForm=Ger	0	root	_	_
@@ -1445,66 +1567,100 @@
 36	ser	ser	AUX	_	VerbForm=Inf	37	aux:pass	_	_
 37	escrita	escrever	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	35	xcomp	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	forma	forma	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	_
+39	de	de	ADP	_	_	38	case	_	_
+40	forma	forma	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	_
 41	reduzida	reduzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	40	acl	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	37	punct	_	_
-43	como	como	ADV	_	_	37	fixed	_	SpaceAfter=No
-44	:	:	PUNCT	_	_	37	punct	_	_
+42	,	,	PUNCT	_	_	40	punct	_	_
+43	como	como	ADV	_	_	37	advmod	_	SpaceAfter=No
+44	:	:	PUNCT	_	_	3	punct	_	_
+45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	17	17	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+47	)	)	PUNCT	_	_	46	punct	_	_
+48	2.5.2	2.5.2	NUM	_	NumType=Card	3	obj	_	_
 
-# text = Onde: P =Δ Pe Pw − (17) 2.5.2
-# sent_id = 182-20140922-MONOGRAFIA_0-42
-1	Onde	onde	ADV	_	_	11	advmod	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	P	P	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	=Δ	=Δ	PROPN	_	Number=Sing	3	flat:name	_	_
-5	Pe	Pe	PROPN	_	Number=Sing	3	flat:name	_	_
-6	Pw	Pw	PROPN	_	Number=Sing	3	flat:name	_	_
-7	−	−	SYM	_	_	3	appos	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	17	17	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	_
-11	2.5.2	2.5.2	NUM	_	NumType=Card	0	root	_	_
-
-# text = Fluxo Radial
-# sent_id = 182-20140922-MONOGRAFIA_0-43
-1	Fluxo	fluxo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+# text = Fluxo Radial Admitindo-se que não há fluxo no sentido vertical, a equação da difusividade pode ser escrita, em coordenadas cilíndricas, como:
+# sent_id = 182-20140922-MONOGRAFIA_0-48
+1	Fluxo	fluxo	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 2	Radial	Radial	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	Admitindo-se	_	_	_	_	_	_	_	_
+3	Admitindo	admitir	VERB	_	VerbForm=Ger	19	advcl	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	não	não	ADV	_	Polarity=Neg	7	advmod	_	_
+7	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+12	vertical	vertical	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	equação	equação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	difusividade	difusividade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	escrita	escrever	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	coordenadas	coordenada	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+25	cilíndricas	cilíndrico	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	21	punct	_	_
+27	como	como	ADV	_	_	21	fixed	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	21	punct	_	_
 
-# text = Admitindo-se que não há fluxo no sentido vertical, a equação da difusividade pode ser escrita, em coordenadas cilíndricas, como:
-# sent_id = 182-20140922-MONOGRAFIA_0-44
-1-2	Admitindo-se	_	_	_	_	_	_	_	_
-1	Admitindo	admitir	VERB	_	VerbForm=Ger	17	advcl	_	_
-2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
-3	que	que	SCONJ	_	_	5	mark	_	_
-4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
-5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
-6	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-7-8	no	_	_	_	_	_	_	_	_
-7	em	em	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-10	vertical	vertical	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	5	punct	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	equação	equação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	difusividade	difusividade	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-17	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-18	ser	ser	AUX	_	VerbForm=Inf	19	aux:pass	_	_
-19	escrita	escrever	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	xcomp	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	coordenadas	coordenada	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
-23	cilíndricas	cilíndrico	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	25	punct	_	_
-25	como	como	ADV	_	_	22	advmod	_	SpaceAfter=No
-26	:	:	PUNCT	_	_	19	punct	_	_
+# text = As equações para regime permanente descrevem o movimento do fluido em um meio poroso cilíndrico, de raio da base igual a re e altura h, com um poço de raio rw situado no seu centro.
+# sent_id = 182-20140922-MONOGRAFIA_0-49
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	regime	regime	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	permanente	permanente	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	descrevem	descrever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	movimento	movimento	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	meio	meio	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+15	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	cilíndrico	cilíndrico	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	raio	raio	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	base	base	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	igual	igual	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	re	re	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	altura	altura	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
+28	h	h	INTJ	_	_	6	appos	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	com	com	ADP	_	_	32	case	_	_
+31	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	poço	poço	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	raio	raio	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+35	rw	rw	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+36	situado	situar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	35	acl	_	_
+37-38	no	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	40	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	40	det	_	_
+40	centro	centro	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 3 - Fluxo radial permanente.
-# sent_id = 182-20140922-MONOGRAFIA_0-45
+# sent_id = 182-20140922-MONOGRAFIA_0-50
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -1514,7 +1670,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = (Fonte: ROSA et al., 2006)
-# sent_id = 182-20140922-MONOGRAFIA_0-46
+# sent_id = 182-20140922-MONOGRAFIA_0-51
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -1526,7 +1682,7 @@
 9	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Novamente, em regime de fluxo permanente, tanto a vazão quanto a pressão não variam com o tempo.
-# sent_id = 182-20140922-MONOGRAFIA_0-47
+# sent_id = 182-20140922-MONOGRAFIA_0-52
 1	Novamente	novamente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -1549,7 +1705,7 @@
 20	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Assim, a equação da difusividade toma o aspecto: (20) 2.6
-# sent_id = 182-20140922-MONOGRAFIA_0-48
+# sent_id = 182-20140922-MONOGRAFIA_0-53
 1	Assim	assim	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1568,13 +1724,13 @@
 15	2.6	2.6	NUM	_	NumType=Card	8	obj	_	_
 
 # text = Condições de contorno
-# sent_id = 182-20140922-MONOGRAFIA_0-49
+# sent_id = 182-20140922-MONOGRAFIA_0-54
 1	Condições	condição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	contorno	contorno	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Para que as equações de Darcy e da continuidade sejam utilizadas é necessário estabelecer as condições de contorno inicias e de contorno.
-# sent_id = 182-20140922-MONOGRAFIA_0-50
+# sent_id = 182-20140922-MONOGRAFIA_0-55
 1	Para	para	SCONJ	_	_	12	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -1602,7 +1758,7 @@
 24	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Para modelar o reservatório, o estado inicial (condições iniciais) e a interação deste com a sua vizinhança devem ser conhecidos (Aziz e Settari,1979).
-# sent_id = 182-20140922-MONOGRAFIA_0-51
+# sent_id = 182-20140922-MONOGRAFIA_0-56
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	modelar	modelar	VERB	_	VerbForm=Inf	22	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1636,7 +1792,7 @@
 30	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Em muitas situações um conhecimento detalhado destas condições é requerido para obter estimativas reais.
-# sent_id = 182-20140922-MONOGRAFIA_0-52
+# sent_id = 182-20140922-MONOGRAFIA_0-57
 1	Em	em	ADP	_	_	3	case	_	_
 2	muitas	muito	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	situações	situação	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
@@ -1656,7 +1812,7 @@
 16	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = As condições de contorno podem ser de dois tipos: • Condições de contorno Dirichlet: quando a pressão de fluido é especificada na fronteira do reservatório ou no poço.
-# sent_id = 182-20140922-MONOGRAFIA_0-53
+# sent_id = 182-20140922-MONOGRAFIA_0-58
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1696,7 +1852,7 @@
 34	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = • Condições de contorno Neumann: neste caso a taxa de fluxo na fronteira é conhecida.
-# sent_id = 182-20140922-MONOGRAFIA_0-54
+# sent_id = 182-20140922-MONOGRAFIA_0-59
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Condições	condição	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1720,18 +1876,18 @@
 19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = 2.7
-# sent_id = 182-20140922-MONOGRAFIA_0-55
+# sent_id = 182-20140922-MONOGRAFIA_0-60
 1	2.7	2.7	NUM	_	NumType=Card	0	root	_	_
 
 # text = Simulação numérica de reservatórios
-# sent_id = 182-20140922-MONOGRAFIA_0-56
+# sent_id = 182-20140922-MONOGRAFIA_0-61
 1	Simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	numérica	numérico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = O principal objetivo de um estudo de engenharia de reservatório é prever o desempenho futuro da jazida, definindo métodos e meios para aumentar, da forma mais econômica possível, sua recuperação final.
-# sent_id = 182-20140922-MONOGRAFIA_0-57
+# sent_id = 182-20140922-MONOGRAFIA_0-62
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -1773,7 +1929,7 @@
 37	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Os métodos clássicos, empregados desde os primórdios da Engenharia de Petróleo e ainda importantes nos dias de hoje, tratavam o reservatório como um todo homogêneo através da utilização de propriedades médias, não levando em consideração variações espaciais e temporais.
-# sent_id = 182-20140922-MONOGRAFIA_0-58
+# sent_id = 182-20140922-MONOGRAFIA_0-63
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 3	clássicos	clássico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -1825,7 +1981,7 @@
 46	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = O advento da simulação numérica proporcionou a possibilidade de detalhar-se esta análise através da subdivisão do reservatório em blocos menores com propriedades individualizadas.
-# sent_id = 182-20140922-MONOGRAFIA_0-59
+# sent_id = 182-20140922-MONOGRAFIA_0-64
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	advento	advento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1860,7 +2016,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Este fato propiciou a incorporação do modelo geológico permitindo a definição de regiões com propriedades de fluido e rocha distintas.
-# sent_id = 182-20140922-MONOGRAFIA_0-60
+# sent_id = 182-20140922-MONOGRAFIA_0-65
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	propiciou	propiciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1886,7 +2042,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Dentro deste enfoque a resposta do problema passou a ser obtida pela solução das equações de fluxo para cada elemento.
-# sent_id = 182-20140922-MONOGRAFIA_0-61
+# sent_id = 182-20140922-MONOGRAFIA_0-66
 1	Dentro	dentro	ADV	_	_	6	advmod	_	_
 2-3	deste	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1918,7 +2074,7 @@
 25	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Esta tecnologia encontra-se em constante evolução de modo a propiciar uma melhoria da caracterização dos reservatórios estudados.
-# sent_id = 182-20140922-MONOGRAFIA_0-62
+# sent_id = 182-20140922-MONOGRAFIA_0-67
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	tecnologia	tecnologia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3-4	encontra-se	_	_	_	_	_	_	_	_
@@ -1945,7 +2101,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Este ganho de qualidade é obtido a partir do desenvolvimento de simuladores mais completos, técnicas computacionais otimizadas, computadores mais rápidos, facilidades gráficas, etc.
-# sent_id = 182-20140922-MONOGRAFIA_0-63
+# sent_id = 182-20140922-MONOGRAFIA_0-68
 1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	ganho	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1977,7 +2133,7 @@
 28	etc.	etc.	ADV	_	_	2	advmod	_	SpacesAfter=\n
 
 # text = (Pizarro, 1992).
-# sent_id = 182-20140922-MONOGRAFIA_0-64
+# sent_id = 182-20140922-MONOGRAFIA_0-69
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Pizarro	Pizarro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -1986,7 +2142,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os simuladores de reservatórios são programas de computador para a resolução de equações de fluxo de massa e calor em meios porosos, que obedecem a determinadas condições iniciais e de contorno.
-# sent_id = 182-20140922-MONOGRAFIA_0-65
+# sent_id = 182-20140922-MONOGRAFIA_0-70
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	simuladores	simulador	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2022,7 +2178,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A Simulação de Reservatórios é uma ferramenta muito importante para modelar fluxo em meios porosos, auxiliar na caracterização de reservatórios e identificação de barreiras e de propriedades próximas aos poços.
-# sent_id = 182-20140922-MONOGRAFIA_0-66
+# sent_id = 182-20140922-MONOGRAFIA_0-71
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Simulação	simulação	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2061,7 +2217,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Deste modo, através do uso de um simulador pode-se obter um ajuste de histórico e uma previsão de produção para o reservatório.
-# sent_id = 182-20140922-MONOGRAFIA_0-67
+# sent_id = 182-20140922-MONOGRAFIA_0-72
 1-2	Deste	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2094,7 +2250,7 @@
 27	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A análise dos resultados de uma simulação permite definir um plano de desenvolvimento para o reservatório que aperfeiçoe uma função-objetivo econômica ou técnica.
-# sent_id = 182-20140922-MONOGRAFIA_0-68
+# sent_id = 182-20140922-MONOGRAFIA_0-73
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -2123,7 +2279,7 @@
 25	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Possibilita também avaliar o comportamento do reservatório com maior confiabilidade.
-# sent_id = 182-20140922-MONOGRAFIA_0-69
+# sent_id = 182-20140922-MONOGRAFIA_0-74
 1	Possibilita	Possibilitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	também	também	ADV	_	_	1	advmod	_	_
 3	avaliar	avaliar	VERB	_	VerbForm=Inf	1	xcomp	_	_
@@ -2139,7 +2295,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O número e tipo de equações que serão resolvidas pelo simulador são função de: características geológicas do reservatório, características do fluido, processo de recuperação, do tempo e capacidade computacional disponíveis e dos recursos financeiros disponíveis.
-# sent_id = 182-20140922-MONOGRAFIA_0-70
+# sent_id = 182-20140922-MONOGRAFIA_0-75
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	número	número	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -2192,7 +2348,7 @@
 45	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Ao construir o modelo de simulação devem ser considerados os seguintes fatores: objetivos do estudo, complexidade do problema, qualidade desejada para a descrição, quantidade e qualidade dos dados de produção, precisão requerida, tempo e custo.
-# sent_id = 182-20140922-MONOGRAFIA_0-71
+# sent_id = 182-20140922-MONOGRAFIA_0-76
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -2245,7 +2401,7 @@
 46	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = As principais limitações impostas são: capacidade computacional (número e tamanho dos blocos e número de componentes) e quantidade e qualidade das informações disponíveis (dados geológicos e de produção).
-# sent_id = 182-20140922-MONOGRAFIA_0-72
+# sent_id = 182-20140922-MONOGRAFIA_0-77
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	limitações	limitação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -2286,7 +2442,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O modelo de simulação resulta da combinação de 4 modelos que serão descritos a seguir.
-# sent_id = 182-20140922-MONOGRAFIA_0-73
+# sent_id = 182-20140922-MONOGRAFIA_0-78
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2307,7 +2463,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = · Modelo Físico: engloba as características do reservatório (rochas/fluidos), o processo de recuperação, a aplicação da conservação de massa, energia e quantidade de movimento, o número de componentes presentes; · Modelo Matemático: representa através de equações os processos observados no modelo físico;
-# sent_id = 182-20140922-MONOGRAFIA_0-74
+# sent_id = 182-20140922-MONOGRAFIA_0-79
 1	·	·	PUNCT	_	_	2	punct	_	_
 2	Modelo	Modelo	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Físico	físico	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
@@ -2369,7 +2525,7 @@
 56	;	;	PUNCT	_	_	5	punct	_	_
 
 # text = · Modelo Numérico: que será aplicado para a discretização, solução aproximada, das equações matemáticas;
-# sent_id = 182-20140922-MONOGRAFIA_0-75
+# sent_id = 182-20140922-MONOGRAFIA_0-80
 1	·	·	PUNCT	_	_	2	punct	_	_
 2	Modelo	Modelo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	Numérico	Numérico	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
@@ -2392,7 +2548,7 @@
 19	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = · Modelo Computacional: tradução do modelo numérico em linguagem de máquina.
-# sent_id = 182-20140922-MONOGRAFIA_0-76
+# sent_id = 182-20140922-MONOGRAFIA_0-81
 1	·	·	PUNCT	_	_	2	punct	_	_
 2	Modelo	Modelo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	Computacional	Computacional	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
@@ -2410,7 +2566,7 @@
 14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = (Schiozer, 1995).
-# sent_id = 182-20140922-MONOGRAFIA_0-77
+# sent_id = 182-20140922-MONOGRAFIA_0-82
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Schiozer	Schiozer	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2419,11 +2575,11 @@
 6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 2.7.1
-# sent_id = 182-20140922-MONOGRAFIA_0-78
+# sent_id = 182-20140922-MONOGRAFIA_0-83
 1	2.7.1	2.7.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Etapas da Simulação Numérica de Reservatórios
-# sent_id = 182-20140922-MONOGRAFIA_0-79
+# sent_id = 182-20140922-MONOGRAFIA_0-84
 1	Etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2434,7 +2590,7 @@
 7	Reservatórios	Reservatórios	PROPN	_	Number=Sing	4	nmod	_	_
 
 # text = Antes de qualquer sistema físico ser modelado ele deve ser adequadamente definido.
-# sent_id = 182-20140922-MONOGRAFIA_0-80
+# sent_id = 182-20140922-MONOGRAFIA_0-85
 1	Antes	antes	ADV	_	_	7	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -2450,7 +2606,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os principais passos neste sentido são: • Caracterização do Modelo Geológico:
-# sent_id = 182-20140922-MONOGRAFIA_0-81
+# sent_id = 182-20140922-MONOGRAFIA_0-86
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	passos	passo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -2470,7 +2626,7 @@
 15	:	:	PUNCT	_	_	7	punct	_	_
 
 # text = Utilização de dados sísmicos, mapas, perfis, testemunhos, conhecimento dos sistemas posicionais, estudo de afloramentos, etc.
-# sent_id = 182-20140922-MONOGRAFIA_0-82
+# sent_id = 182-20140922-MONOGRAFIA_0-87
 1	Utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	dados	dado	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -2496,7 +2652,7 @@
 22	etc.	etc.	ADV	_	_	1	advmod	_	SpacesAfter=\n
 
 # text = • Caracterização do Modelo Hidráulico:
-# sent_id = 182-20140922-MONOGRAFIA_0-83
+# sent_id = 182-20140922-MONOGRAFIA_0-88
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Caracterização	caracterização	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2507,7 +2663,7 @@
 7	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Investigação da continuidade dos reservatórios, existência de fraturas, direções preferenciais de fluxo, barreiras de transmissibilidade, etc.
-# sent_id = 182-20140922-MONOGRAFIA_0-84
+# sent_id = 182-20140922-MONOGRAFIA_0-89
 1	Investigação	Investigação	PROPN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2534,7 +2690,7 @@
 22	etc.	etc.	ADV	_	_	0	root	_	_
 
 # text = Grande parte destas informações pode ser obtida pela análise dos dados de produção e pressão e através de testes de formação planejados e interpretados.
-# sent_id = 182-20140922-MONOGRAFIA_0-85
+# sent_id = 182-20140922-MONOGRAFIA_0-90
 1	Grande	grande	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3-4	destas	_	_	_	_	_	_	_	_
@@ -2568,7 +2724,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = • Coleta e Tratamento dos dados de rocha e fluidos.
-# sent_id = 182-20140922-MONOGRAFIA_0-86
+# sent_id = 182-20140922-MONOGRAFIA_0-91
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Coleta	coleta	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -2584,7 +2740,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = De posse destas informações pode-se passar para a etapa seguinte: • Escolha do simulador mais apropriado.
-# sent_id = 182-20140922-MONOGRAFIA_0-87
+# sent_id = 182-20140922-MONOGRAFIA_0-92
 1	De	de	ADP	_	_	2	case	_	_
 2	posse	posse	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 3-4	destas	_	_	_	_	_	_	_	_
@@ -2611,7 +2767,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = • Definição da modelagem a ser adotada:
-# sent_id = 182-20140922-MONOGRAFIA_0-88
+# sent_id = 182-20140922-MONOGRAFIA_0-93
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Definição	definição	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2624,7 +2780,7 @@
 9	:	:	PUNCT	_	_	8	punct	_	_
 
 # text = Malha de simulação, número de camadas, regiões de fluido e rocha, etc.
-# sent_id = 182-20140922-MONOGRAFIA_0-89
+# sent_id = 182-20140922-MONOGRAFIA_0-94
 1	Malha	malha	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -2642,7 +2798,7 @@
 15	etc.	etc.	ADV	_	_	13	advmod	_	SpacesAfter=\n
 
 # text = • Ajuste do histórico de produção e pressões:
-# sent_id = 182-20140922-MONOGRAFIA_0-90
+# sent_id = 182-20140922-MONOGRAFIA_0-95
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Ajuste	Ajuste	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2656,7 +2812,7 @@
 10	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = São realizados ajustes no modelo de simulação, de modo que os resultados obtidos por meio da simulação se tornem bem próximos dos dados reais de produção do reservatório.
-# sent_id = 182-20140922-MONOGRAFIA_0-91
+# sent_id = 182-20140922-MONOGRAFIA_0-96
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	ajustes	ajuste	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
@@ -2697,7 +2853,7 @@
 34	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = • Previsão do comportamento futuro:
-# sent_id = 182-20140922-MONOGRAFIA_0-92
+# sent_id = 182-20140922-MONOGRAFIA_0-97
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Previsão	previsão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2708,7 +2864,7 @@
 7	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Tem como principal objetivo determinar as condições de operação ótimas que serão utilizadas na recuperação de hidrocarbonetos do reservatório.
-# sent_id = 182-20140922-MONOGRAFIA_0-93
+# sent_id = 182-20140922-MONOGRAFIA_0-98
 1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	como	como	ADP	_	_	4	case	_	_
 3	principal	principal	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -2735,7 +2891,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.8 Classificações do óleo
-# sent_id = 182-20140922-MONOGRAFIA_0-94
+# sent_id = 182-20140922-MONOGRAFIA_0-99
 1	2.8	2.8	NUM	_	NumType=Card	2	nummod	_	_
 2	Classificações	classificações	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2744,7 +2900,7 @@
 5	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = O Grau API é uma escala hidrométrica criada pelo American Petroleum Institute (API), ela é utilizada para medir a densidade relativa de óleos e derivados, e como o petróleo se trata de um óleo viscoso, podemos usá-la para classificá-lo.
-# sent_id = 182-20140922-MONOGRAFIA_0-95
+# sent_id = 182-20140922-MONOGRAFIA_0-100
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grau	grau	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	API	API	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -2798,7 +2954,7 @@
 48	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A escala API é medida como: • Petróleo leve: Possui ºAPI maior que 30, constituído basicamente por alcanos, e uma porcentagem cicloalcanos.
-# sent_id = 182-20140922-MONOGRAFIA_0-96
+# sent_id = 182-20140922-MONOGRAFIA_0-101
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	escala	escala	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	API	API	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -2829,7 +2985,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = • Petróleo médio: Grau ºAPI de 22 a 30.
-# sent_id = 182-20140922-MONOGRAFIA_0-97
+# sent_id = 182-20140922-MONOGRAFIA_0-102
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	médio	médio	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -2844,7 +3000,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Além de alcanos, contém de 25 a 30% de hidrocarbonetos aromáticos.
-# sent_id = 182-20140922-MONOGRAFIA_0-98
+# sent_id = 182-20140922-MONOGRAFIA_0-103
 1	Além	além	ADV	_	_	5	advmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	alcanos	alcano	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
@@ -2860,68 +3016,69 @@
 13	aromáticos	aromático	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = em graus petróleo permite definir e o 25% de de a ado: Possui i ºAPI men or que 22 e é compo osto só de hidrocarbo netos tróleo pesa máticos.
-# sent_id = 182-20140922-MONOGRAFIA_0-99
+# text = em graus e permite definir o petróleo de a 25% de • Pet arom • Pet de Qu quan é ma Bioco
+# sent_id = 182-20140922-MONOGRAFIA_0-104
 1	em	em	ADP	_	_	2	case	_	_
-2	graus	grau	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
-3	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-4	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	definir	definir	VERB	_	VerbForm=Inf	4	xcomp	_	_
-6	e	e	CCONJ	_	_	9	cc	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	25	25	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
-9	%	%	SYM	_	_	5	obj	_	_
-10	de	de	ADP	_	_	13	case	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	ado	ado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-14	:	:	PUNCT	_	_	5	punct	_	_
-15	Possui	possui	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-16	i	i	PROPN	_	Number=Sing	15	flat:name	_	_
-17	ºAPI	ºAPI	PROPN	_	Number=Sing	15	flat:name	_	_
-18	men	men	PROPN	_	Number=Sing	15	flat:name	_	_
-19	or	or	PROPN	_	Number=Sing	15	flat:name	_	_
-20	que	que	PROPN	_	Number=Sing	24	nsubj	_	_
-21	22	22	PROPN	_	Number=Sing	20	flat:name	_	_
-22	e	e	CCONJ	_	_	24	cc	_	_
-23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
-24	compo	compo	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
-25	osto	osto	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-26	só	só	ADV	_	_	28	advmod	_	_
-27	de	de	ADP	_	_	28	case	_	_
-28	hidrocarbo	hidrocarbo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
-29	netos	neto	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
-30	tróleo	tróleo	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
-31	pesa	pesa	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
-32	máticos	mático	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+2	graus	grau	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	definir	definir	VERB	_	VerbForm=Inf	22	csubj	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	_	11	case	_	SpacesAfter=\s\n
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	25	25	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	_	_	7	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	•	•	PUNCT	_	_	14	punct	_	_
+14	Pet	Pet	PROPN	_	Gender=Unsp|Number=Sing	11	nmod	_	_
+15	arom	arom	ADP	_	_	17	case	_	_
+16	•	•	PUNCT	_	_	17	punct	_	_
+17	Pet	Pet	PROPN	_	Gender=Unsp|Number=Sing	5	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Qu	qu	PROPN	_	Gender=Unsp|Number=Sing	17	nmod	_	_
+20	quan	quan	PROPN	_	Gender=Unsp|Number=Sing	22	nsubj	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	ma	mo	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+23	Bioco	Bioco	PROPN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 
-# text = • Pet arom • Pet de Qu quan é ma Bioco
-# sent_id = 182-20140922-MONOGRAFIA_0-100
-1	•	•	PUNCT	_	_	2	punct	_	_
-2	Pet	Pet	PROPN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
-3	arom	arom	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-4	•	•	PUNCT	_	_	2	punct	_	_
-5	Pet	Pet	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Qu	qu	PROPN	_	Number=Sing	5	nmod	_	_
-8	quan	quan	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-10	ma	mo	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-11	Bioco	Bioco	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+# text = Pa foram tróleo pesa máticos.
+# sent_id = 182-20140922-MONOGRAFIA_0-105
+1	Pa	Pa	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	tróleo	tróleo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	pesa	pesa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	máticos	mático	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Pa foram tróleo extra cad apesado:
-# sent_id = 182-20140922-MONOGRAFIA_0-101
-1	Pa	Pa	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-3	tróleo	tróleo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	extra	extra	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-5	cad	cad	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-6	apesado	apesar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	3	punct	_	_
+# text = ado: Possui i ºAPI men or que 22 e é compo osto só de hidrocarbo netos tróleo extra cad apesado:
+# sent_id = 182-20140922-MONOGRAFIA_0-106
+1	ado	ado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Possui	possui	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	i	i	PROPN	_	Number=Sing	3	flat:name	_	_
+5	º	º	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+6	API	API	PROPN	_	Number=Sing	3	flat:name	_	_
+7	men	men	PROPN	_	Number=Sing	3	flat:name	_	_
+8	or	or	PROPN	_	Number=Sing	3	flat:name	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	obj	_	_
+10	22	22	NUM	_	NumType=Card	13	nsubj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	compo	compo	ADJ	_	Gender=Masc|Number=Sing	3	acl:relcl	_	_
+14	osto	or	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
+15	só	só	ADV	_	_	18	advmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	hidrocarbo	hidrocarbo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	netos	neto	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+19	tróleo	tróleo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	extra	extra	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	cad	cad	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
+22	apesado	apesar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Po deia ossui ºAPI menor que (su e 10, é cons perior stituído de hidrocarbo pent netos tano).
-# sent_id = 182-20140922-MONOGRAFIA_0-102
+# sent_id = 182-20140922-MONOGRAFIA_0-107
 1	Po	Po	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	deia	dear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ossui	ossui	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -2947,7 +3104,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = longa ao uanto maio ndo o petról ais caro q ombustíveis or o grau
-# sent_id = 182-20140922-MONOGRAFIA_0-103
+# sent_id = 182-20140922-MONOGRAFIA_0-108
 1	longa	longo	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -2966,7 +3123,7 @@
 15	grau	grau	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 
 # text = A leo é mais l ue o pesa s.
-# sent_id = 182-20140922-MONOGRAFIA_0-104
+# sent_id = 182-20140922-MONOGRAFIA_0-109
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	leo	leo	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -2979,7 +3136,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Disponíve API, maior o leve, como ado (ANP.
-# sent_id = 182-20140922-MONOGRAFIA_0-105
+# sent_id = 182-20140922-MONOGRAFIA_0-110
 1	Disponíve	Disponíve	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	API	API	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2993,7 +3150,7 @@
 11	ANP.	ANP.	PROPN	_	Gender=Masc|Number=Sing	6	xcomp	_	SpacesAfter=\n
 
 # text = el em: <http o valor do por exemp Agência
-# sent_id = 182-20140922-MONOGRAFIA_0-106
+# sent_id = 182-20140922-MONOGRAFIA_0-111
 1	el	el	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 2	em	em	ADP	_	_	1	case	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -3008,7 +3165,7 @@
 11	Agência	Agência	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 
 # text = N p://www.anp produto no lo, o petróle Nacional de p.gov.br>
-# sent_id = 182-20140922-MONOGRAFIA_0-107
+# sent_id = 182-20140922-MONOGRAFIA_0-112
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	p://	p://	ADP	_	_	3	case	_	SpaceAfter=No
 3	www.anp	www.anp	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3026,14 +3183,14 @@
 14	>	>	SYM	_	_	13	obj	_	_
 
 # text = A o mercado.
-# sent_id = 182-20140922-MONOGRAFIA_0-108
+# sent_id = 182-20140922-MONOGRAFIA_0-113
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = eo classifica e Petróleo, Acesso em:
-# sent_id = 182-20140922-MONOGRAFIA_0-109
+# sent_id = 182-20140922-MONOGRAFIA_0-114
 1	eo	eo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	classifica	classificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -3044,7 +3201,7 @@
 8	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = O API é m ado como m Gás Natu 13 junho 20 maior médio ural e 012).
-# sent_id = 182-20140922-MONOGRAFIA_0-110
+# sent_id = 182-20140922-MONOGRAFIA_0-115
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	API	API	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3066,7 +3223,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = ara este tra m para o óle balho foi ad eo leve, ou dotado essa seja, possu a classificaç ui Grau ºAP ção, e toda PI ≥ 30.
-# sent_id = 182-20140922-MONOGRAFIA_0-111
+# sent_id = 182-20140922-MONOGRAFIA_0-116
 1	ara	ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	19	conj	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 3	tra	tra	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -3101,7 +3258,7 @@
 32	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = as as simula ações realiz zadas 3­ D
-# sent_id = 182-20140922-MONOGRAFIA_0-112
+# sent_id = 182-20140922-MONOGRAFIA_0-117
 1	as	as	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 2	as	as	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 3	simula	simulo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -3111,8 +3268,8 @@
 7	3­	3­	PROPN	_	Number=Sing	4	flat:name	_	_
 8	D	D	PROPN	_	Number=Sing	4	flat:name	_	_
 
-# text = Discretiza ação das variávei s de fluxo
-# sent_id = 182-20140922-MONOGRAFIA_0-113
+# text = Discretiza ação das variávei s de fluxo 3.1 D
+# sent_id = 182-20140922-MONOGRAFIA_0-118
 1	Discretiza	Discretizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3122,55 +3279,52 @@
 6	s	s	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-
-# text = Discretiza ação das e equações 3.1 D
-# sent_id = 182-20140922-MONOGRAFIA_0-114
-1	Discretiza	Discretizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-3-4	das	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	6	case	_	_
-4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-5	e	e	CCONJ	_	_	6	cc	_	_
-6	equações	equação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-7	3.1	3.1	NUM	_	NumType=Card	8	nummod	_	_
-8	D	D	PROPN	_	Gender=Fem|Number=Plur	1	nsubj	_	_
+9	3.1	3.1	NUM	_	NumType=Card	6	nummod	_	_
+10	D	D	PROPN	_	Gender=Fem|Number=Plur	1	obj	_	_
 
 # text = A equa aprox (ROZ
-# sent_id = 182-20140922-MONOGRAFIA_0-115
+# sent_id = 182-20140922-MONOGRAFIA_0-119
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	equa	equa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	aprox	aprox	ADP	_	_	5	case	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	ROZ	ROZ	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
-# text = A asce Aproximaçõe ações de flu ximações ZON, B. J., es de dife uxo pode s por todos 1989).
-# sent_id = 182-20140922-MONOGRAFIA_0-116
+# text = A asce Discretiza ação das e equações Aproximaçõe ações de flu ximações ZON, B. J., es de dife uxo pode s por todos 1989).
+# sent_id = 182-20140922-MONOGRAFIA_0-120
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	asce	asce	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
-3	Aproximaçõe	Aproximaçor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ações	ação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	flu	flu	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	ximações	ximação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8	ZON	ZON	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	B.	B.	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
-11	J.	J.	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	es	e	NOUN	_	Gender=Masc|Number=Plur	10	appos	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	dife	dife	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
-16	uxo	uxo	ADV	_	_	17	advmod	_	_
-17	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-18	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
-19	por	por	ADP	_	_	21	case	_	_
-20	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	21	det	_	_
-21	1989	1989	NUM	_	NumType=Card	17	obl	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+3	Discretiza	Discretizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ação	ação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	equações	equação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+9	Aproximaçõe	Aproximaçor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	ações	ação	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	flu	flu	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	ximações	ximação	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+14	ZON	ZON	PROPN	_	Gender=Fem|Number=Sing	13	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	B.	B.	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
+17	J.	J.	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	es	e	NOUN	_	Gender=Masc|Number=Plur	16	appos	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	dife	dife	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22	uxo	uxo	ADV	_	_	23	advmod	_	_
+23	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+24	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	27	det	_	_
+27	1989	1989	NUM	_	NumType=Card	23	obl	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = renças finit er obtido a os termos tas das de a partir de e s necessá erivadas pa expansões rios na si arciais que série de Ta mulação d e aparecem aylor, para de reservat m nas obter tórios
-# sent_id = 182-20140922-MONOGRAFIA_0-117
+# sent_id = 182-20140922-MONOGRAFIA_0-121
 1	renças	rença	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	finit	finit	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	er	er	VERB	_	Number=Sing|Person=3|VerbForm=Inf	1	acl	_	_
@@ -3218,8 +3372,8 @@
 42	obter	obter	VERB	_	VerbForm=Inf	25	advcl	_	_
 43	tórios	tório	NOUN	_	Gender=Masc|Number=Plur	42	obj	_	_
 
-# text = A aproximaç endente e de ção da segu escendente unda deriva e para a pre da de press essão: são podem ser obtidas s por expan nsões obter: guir: se aplica ao o sistema d e malha se m as expans ões Taylor tornar-se: importante ntes tamanh é que ago ra o termo hos de bloco o. de erro é a apenas de primeira or rdem, a diferença do à diferen o entanto, normalmen nte os term mos de flux xo em noss sa equaçõe es de simu lação serão o do tipo , aonde inclui á área de mo obilidade, p permeabilida ade e o.
-# sent_id = 182-20140922-MONOGRAFIA_0-118
+# text = A aproximaç endente e de ção da segu escendente unda deriva e para a pre da de press essão: são podem ser obtidas s por expan nsões obter: guir: se aplica ao o sistema d e malha se m as expans a obter: importante ntes tamanh é que ago ra o termo hos de bloco o. a diferença do à diferen de erro é a apenas de primeira or rdem, o entanto, normalmen nte os term mos de flux xo em noss sa equaçõe es de simu lação serão o do tipo , aonde inclui á área de mo obilidade, p permeabilida ade e fluxo deriv o.
+# sent_id = 182-20140922-MONOGRAFIA_0-122
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aproximaç	aproximaç	PROPN	_	Number=Sing	11	nsubj	_	_
 3	endente	endente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3244,157 +3398,154 @@
 20	press	pres	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 21	essão	essão	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 22	:	:	PUNCT	_	_	11	punct	_	_
-23	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
-24	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+23	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 25	ser	ser	AUX	_	VerbForm=Inf	26	aux:pass	_	_
 26	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	xcomp	_	_
-27	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	75	obl:agent	_	_
+27	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
 28	por	por	ADP	_	_	27	case	_	_
 29	expan	expan	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-30	nsões	nsão	NOUN	_	Gender=Fem|Number=Plur	75	nsubj	_	_
-31	obter	obter	VERB	_	VerbForm=Inf	75	conj	_	SpaceAfter=No
+30	nsões	nsão	NOUN	_	Gender=Fem|Number=Plur	31	nsubj	_	_
+31	obter	obter	VERB	_	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
 32	:	:	PUNCT	_	_	31	punct	_	_
-33	guir	guir	VERB	_	VerbForm=Inf	75	advcl	_	SpaceAfter=No
-34	:	:	PUNCT	_	_	33	punct	_	_
-35	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	expl	_	_
-36	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	75	acl:relcl	_	_
+33	guir	guir	VERB	_	VerbForm=Inf	31	xcomp	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	31	punct	_	_
+35	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	expl	_	_
+36	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	xcomp	_	_
 37-38	ao	_	_	_	_	_	_	_	_
 37	a	a	ADP	_	_	40	case	_	_
 38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
 41	d	d	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
-42	e	e	CCONJ	_	_	43	cc	_	_
-43	malha	malha	NOUN	_	Gender=Fem|Number=Sing	40	conj	_	_
+42	e	e	CCONJ	_	_	45	cc	_	_
+43	malha	malha	NOUN	_	Gender=Fem|Number=Sing	45	nsubj	_	_
 44	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	45	expl	_	_
-45	m	r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+45	m	r	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
 46	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
-47	expans	expam	NOUN	_	Gender=Fem|Number=Plur	45	nsubj	_	_
-48	ões	ões	PROPN	_	Gender=Fem|Number=Plur	47	appos	_	_
-49	Taylor	Taylor	PROPN	_	Number=Sing	48	flat:name	_	_
-50-51	tornar-se	_	_	_	_	_	_	_	SpaceAfter=No
-50	tornar	tornar	VERB	_	VerbForm=Inf	45	xcomp	_	_
-51	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	obj	_	_
-52	:	:	PUNCT	_	_	50	punct	_	_
-53	importante	importante	ADV	_	_	54	advmod	_	_
-54	ntes	nte	ADJ	_	Gender=Fem|Number=Plur	55	amod	_	_
-55	tamanh	tamanh	NOUN	_	Gender=Fem|Number=Plur	50	appos	_	_
-56	é	ser	AUX	_	_	59	discourse	_	_
-57	que	que	SCONJ	_	_	56	fixed	_	_
-58	ago	agar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	59	acl	_	_
-59	ra	rar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	acl:relcl	_	_
-60	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
-61	termo	termo	NOUN	_	Gender=Masc|Number=Sing	59	obj	_	_
-62	hos	ho	NOUN	_	Gender=Masc|Number=Plur	74	nsubj	_	_
-63	de	de	ADP	_	_	64	case	_	_
-64	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	_
-65	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	74	obj	_	SpaceAfter=No
-66	.	.	PUNCT	_	_	65	punct	_	SpacesAfter=\n
-67	de	de	ADP	_	_	68	case	_	_
-68	erro	erro	NOUN	_	Gender=Masc|Number=Sing	65	nmod	_	_
-69	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	cop	_	_
-70	a	o	ADP	_	_	74	case	_	_
-71	apenas	apenas	ADV	_	_	74	advmod	_	_
-72	de	de	ADP	_	_	74	case	_	_
-73	primeira	primeira	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	74	amod	_	_
-74	or	or	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	_
-75	rdem	rder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No
-76	,	,	PUNCT	_	_	75	punct	_	_
-77	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	78	det	_	_
-78	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	75	obj	_	_
-79-80	do	_	_	_	_	_	_	_	_
-79	de	de	ADP	_	_	81	case	_	_
-80	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	_	_
-81-82	à	_	_	_	_	_	_	_	_
-81	a	a	NOUN	_	Gender=Masc|Number=Sing	78	nmod	_	_
-82	a	a	ADP	_	_	83	case	_	_
-83	diferen	diferen	NOUN	_	Gender=Masc|Number=Sing	75	obl	_	_
-84	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
-85	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	75	obl	_	SpaceAfter=No
-86	,	,	PUNCT	_	_	87	punct	_	_
-87	normalmen	normalmen	NOUN	_	Gender=Masc|Number=Sing	85	appos	_	_
-88	nte	nte	ADJ	_	Gender=Masc|Number=Sing	87	amod	_	_
-89	os	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	90	obj	_	_
-90	term	terr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	85	acl:relcl	_	_
-91	mos	mo	NOUN	_	Gender=Masc|Number=Plur	90	nsubj	_	_
-92	de	de	ADP	_	_	93	case	_	_
-93	flux	flux	NOUN	_	Gender=Masc|Number=Sing	91	nmod	_	_
-94	xo	xo	ADJ	_	Gender=Masc|Number=Sing	93	amod	_	_
-95	em	em	ADP	_	_	96	case	_	_
-96	noss	nos	NOUN	_	Gender=Fem|Number=Plur	91	nmod	_	_
-97	sa	so	ADJ	_	Gender=Fem|Number=Sing	96	amod	_	_
-98	equaçõe	equaçor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	90	conj	_	_
-99	es	e	NOUN	_	Gender=Fem|Number=Plur	98	obj	_	_
-100	de	de	ADP	_	_	101	case	_	_
-101	simu	simu	NOUN	_	Gender=Masc|Number=Sing	99	nmod	_	_
-102	lação	lação	NOUN	_	Gender=Fem|Number=Sing	99	nmod	_	_
-103	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	104	cop	_	_
-104	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	98	nsubj	_	_
-105-106	do	_	_	_	_	_	_	_	_
-105	de	de	ADP	_	_	107	case	_	_
-106	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	107	det	_	_
-107	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	104	nmod	_	_
-108	,	,	PUNCT	_	_	98	punct	_	_
-109	aonde	aonde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	110	nsubj	_	_
-110	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	98	acl:relcl	_	_
-111	á	á	ADV	_	_	110	advmod	_	_
-112	área	área	NOUN	_	Gender=Fem|Number=Sing	110	obj	_	_
-113	de	de	ADP	_	_	114	case	_	_
-114	mo	mo	NOUN	_	Gender=Masc|Number=Sing	115	nmod	_	_
-115	obilidade	obilidade	NOUN	_	Gender=Fem|Number=Sing	112	appos	_	SpaceAfter=No
-116	,	,	PUNCT	_	_	117	punct	_	_
-117	p	p	NOUN	_	Gender=Fem|Number=Sing	115	appos	_	_
-118	permeabilida	permeabiliar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	117	acl	_	_
-119	ade	ade	NOUN	_	Gender=Fem|Number=Sing	118	obj	_	_
-120	e	e	CCONJ	_	_	121	cc	_	_
-121	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	119	conj	_	SpaceAfter=No
-122	.	.	PUNCT	_	_	75	punct	_	_
+47	expans	expam	NOUN	_	Gender=Fem|Number=Plur	45	obj	_	_
+48	a	a	SCONJ	_	_	49	mark	_	_
+49	obter	obter	VERB	_	VerbForm=Inf	45	xcomp	_	SpaceAfter=No
+50	:	:	PUNCT	_	_	49	punct	_	_
+51	importante	importante	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	_
+52	ntes	nte	ADJ	_	Gender=Fem|Number=Plur	53	amod	_	_
+53	tamanh	tamanh	NOUN	_	Gender=Fem|Number=Plur	49	appos	_	_
+54	é	ser	AUX	_	_	57	discourse	_	_
+55	que	que	SCONJ	_	_	54	fixed	_	_
+56	ago	agar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	57	acl	_	_
+57	ra	rar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl:relcl	_	_
+58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	termo	termo	NOUN	_	Gender=Masc|Number=Sing	57	obj	_	_
+60	hos	ho	NOUN	_	Gender=Masc|Number=Plur	59	appos	_	_
+61	de	de	ADP	_	_	62	case	_	_
+62	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	_
+63	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	66	punct	_	SpacesAfter=\n
+65	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	79	nsubj	_	_
+67-68	do	_	_	_	_	_	_	_	_
+67	de	de	ADP	_	_	71	case	_	_
+68	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+69-70	à	_	_	_	_	_	_	_	_
+69	a	a	ADP	_	_	71	case	_	_
+70	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
+71	diferen	diferen	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	_
+72	de	de	ADP	_	_	73	case	_	_
+73	erro	erro	NOUN	_	Gender=Masc|Number=Sing	71	nmod	_	_
+74	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	79	cop	_	_
+75	a	o	ADP	_	_	79	case	_	_
+76	apenas	apenas	ADV	_	_	79	advmod	_	_
+77	de	de	ADP	_	_	79	case	_	_
+78	primeira	primeira	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	79	amod	_	_
+79	or	or	NOUN	_	Gender=Masc|Number=Sing	57	nmod	_	_
+80	rdem	rder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	79	acl:relcl	_	SpaceAfter=No
+81	,	,	PUNCT	_	_	80	punct	_	_
+82	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
+83	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	80	obj	_	SpaceAfter=No
+84	,	,	PUNCT	_	_	85	punct	_	_
+85	normalmen	normalmen	NOUN	_	Gender=Masc|Number=Sing	83	appos	_	_
+86	nte	nte	ADJ	_	Gender=Masc|Number=Sing	85	amod	_	_
+87	os	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	88	obj	_	_
+88	term	terr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	83	acl:relcl	_	_
+89	mos	mo	NOUN	_	Gender=Masc|Number=Plur	88	nsubj	_	_
+90	de	de	ADP	_	_	91	case	_	_
+91	flux	flux	NOUN	_	Gender=Masc|Number=Sing	89	nmod	_	_
+92	xo	xo	ADJ	_	Gender=Masc|Number=Sing	91	amod	_	_
+93	em	em	ADP	_	_	94	case	_	_
+94	noss	nos	NOUN	_	Gender=Fem|Number=Plur	89	nmod	_	_
+95	sa	so	ADJ	_	Gender=Fem|Number=Sing	94	amod	_	_
+96	equaçõe	equaçor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	88	conj	_	_
+97	es	e	NOUN	_	Gender=Fem|Number=Plur	96	obj	_	_
+98	de	de	ADP	_	_	99	case	_	_
+99	simu	simu	NOUN	_	Gender=Masc|Number=Sing	97	nmod	_	_
+100	lação	lação	NOUN	_	Gender=Fem|Number=Sing	97	nmod	_	_
+101	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	102	cop	_	_
+102	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	96	nsubj	_	_
+103-104	do	_	_	_	_	_	_	_	_
+103	de	de	ADP	_	_	105	case	_	_
+104	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	105	det	_	_
+105	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	102	nmod	_	_
+106	,	,	PUNCT	_	_	96	punct	_	_
+107	aonde	aonde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	108	nsubj	_	_
+108	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	96	acl:relcl	_	_
+109	á	á	ADV	_	_	108	advmod	_	_
+110	área	área	NOUN	_	Gender=Fem|Number=Sing	108	obj	_	_
+111	de	de	ADP	_	_	112	case	_	_
+112	mo	mo	NOUN	_	Gender=Masc|Number=Sing	113	nmod	_	_
+113	obilidade	obilidade	NOUN	_	Gender=Fem|Number=Sing	110	appos	_	SpaceAfter=No
+114	,	,	PUNCT	_	_	115	punct	_	_
+115	p	p	NOUN	_	Gender=Fem|Number=Sing	121	appos	_	_
+116	permeabilida	permeabiliar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	121	acl	_	_
+117	ade	ade	NOUN	_	Gender=Fem|Number=Sing	116	obj	_	_
+118	e	e	CCONJ	_	_	119	cc	_	_
+119	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	117	conj	_	_
+120	deriv	deriv	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	119	amod	_	_
+121	o	ele	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	113	appos	_	SpaceAfter=No
+122	.	.	PUNCT	_	_	31	punct	_	_
 
-# text = Portanto, vada, e aplic , em vez cá-lo duas v fluxo deriv var uma a este termo aproximaçã de fluxo (R o central p ROZON, B. para a prim J., 1989).
-# sent_id = 182-20140922-MONOGRAFIA_0-119
+# text = Portanto, vada, e aplic , em vez cá-lo duas v var uma a este termo aproximaçã de fluxo (R o central p ROZON, B. para a prim J., 1989).
+# sent_id = 182-20140922-MONOGRAFIA_0-123
 1	Portanto	portanto	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	vada	var	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	e	e	CCONJ	_	_	16	cc	_	_
+5	e	e	CCONJ	_	_	14	cc	_	_
 6	aplic	aplic	ADV	_	_	9	advmod	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	em	em	ADP	_	_	9	case	_	_
-9	vez	vez	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+9	vez	vez	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 10-11	cá-lo	_	_	_	_	_	_	_	_
-10	cá	cá	ADV	_	_	11	advmod	_	_
-11	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-12	duas	dois	NUM	_	NumType=Card	14	nummod	_	_
-13	v	v	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
-14	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
-15	deriv	deriv	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
-16	var	var	VERB	_	VerbForm=Inf	0	root	_	_
-17	uma	um	NUM	_	NumType=Card	16	obj	_	_
-18	a	a	ADP	_	_	20	case	_	_
-19	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
-20	termo	termo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-21	aproximaçã	aproximação	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	R	R	PROPN	_	Gender=Unsp|Number=Sing	20	appos	_	_
-26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	central	central	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
-28	p	p	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
-29	ROZON	ROZON	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	27	punct	_	_
-31	B.	B.	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	SpacesAfter=\n
-32	para	para	ADP	_	_	34	case	_	_
-33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	prim	prim	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-35	J.	J.	PROPN	_	Gender=Masc|Number=Sing	34	appos	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	25	punct	_	_
-37	1989	1989	NUM	_	NumType=Card	25	appos:parataxis	_	SpaceAfter=No
-38	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+10	cá	cá	ADV	_	_	14	advmod	_	_
+11	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+12	duas	dois	NUM	_	NumType=Card	14	nsubj	_	_
+13	v	v	NUM	_	NumType=Card	12	flat	_	_
+14	var	var	VERB	_	VerbForm=Inf	0	root	_	_
+15	uma	um	NUM	_	NumType=Card	14	obj	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	termo	termo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	aproximaçã	aproximação	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	R	R	PROPN	_	Gender=Unsp|Number=Sing	18	appos	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	central	central	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
+26	p	p	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	ROZON	ROZON	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	25	punct	_	_
+29	B.	B.	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpacesAfter=\n
+30	para	para	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	prim	prim	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+33	J.	J.	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	23	punct	_	_
+35	1989	1989	NUM	_	NumType=Card	23	appos:parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = meira disso, deri vezes para obtem: mesma form ma, podemo s obter as s seguintes e xpressões: iferentes ta nte aproxim ação anteri
-# sent_id = 182-20140922-MONOGRAFIA_0-120
+# sent_id = 182-20140922-MONOGRAFIA_0-124
 1	meira	meira	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -3426,7 +3577,7 @@
 28	anteri	anteri	ADV	_	_	5	advmod	_	_
 
 # text = Como podem mos ver, d últimos sã s expressõe e fluxo: evido às d o novamen es na equa amanhos de mações de or, obtemo e bloco, os e primeira os a seguin s termos de ordem ape nte aproxim e erro enas.
-# sent_id = 182-20140922-MONOGRAFIA_0-121
+# sent_id = 182-20140922-MONOGRAFIA_0-125
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	podem	podir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mos	mo	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
@@ -3480,108 +3631,104 @@
 49	enas	eno	ADJ	_	Gender=Fem|Number=Plur	48	amod	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	41	punct	_	SpacesAfter=\n
 
-# text = mação os dois rindo estas o termo de dição de co ntorno:
-# sent_id = 182-20140922-MONOGRAFIA_0-122
+# text = mação os dois rindo estas o termo de Cond dição de co
+# sent_id = 182-20140922-MONOGRAFIA_0-126
 1	mação	mação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	dois	dois	NUM	_	NumType=Card	1	nummod	_	_
-4	rindo	rir	VERB	_	VerbForm=Ger	3	advcl	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	dois	dois	NUM	_	NumType=Card	4	nummod	_	_
+4	rindo	rir	VERB	_	VerbForm=Ger	1	acl	_	_
 5	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	termo	termo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	dição	dição	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	co	co	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	ntorno	ntorno	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	1	punct	_	_
+9	Cond	Cond	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+10	dição	dição	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	co	co	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 
-# text = E esqu difere
-# sent_id = 182-20140922-MONOGRAFIA_0-123
+# text = E esqu difere Então vamo uerda, i = ença centra s ter que m 1 / 2, para al: modificar a n a tornar-se nossa apro uma difer oximação da rença para a primeira d a frente e derivada na em vez de a face uma o do termo aproximaçã fluxo torna -se assim:
+# sent_id = 182-20140922-MONOGRAFIA_0-127
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	esqu	esqr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	difere	difere	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
-
-# text = Então vamo uerda, i = ença centra s ter que m 1 / 2, para al: modificar a n a tornar-se nossa apro uma difer oximação da rença para a primeira d a frente e derivada na em vez de a face uma o do termo fluxo torna -se assim: aproximaçã
-# sent_id = 182-20140922-MONOGRAFIA_0-124
-1	Então	então	ADV	_	_	2	advmod	_	_
-2	vamo	var	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	uerda	uerda	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	_
-5	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-6	=	=	SYM	_	_	5	obj	_	_
-7	ença	ença	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-8	centra	centrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
-9	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
-10	ter	ter	VERB	_	VerbForm=Inf	8	xcomp	_	_
-11	que	que	SCONJ	_	_	12	mark	_	_
-12	m	m	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
-13	1	1	NUM	_	NumType=Card	12	nummod	_	_
-14	/	/	PUNCT	_	_	12	punct	_	_
-15	2	2	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	12	punct	_	_
-17	para	para	ADP	_	_	18	case	_	_
-18	al	al	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-19	:	:	PUNCT	_	_	8	punct	_	_
-20	modificar	modificar	VERB	_	VerbForm=Inf	8	xcomp	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	n	n	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
-23	a	a	SCONJ	_	_	24	mark	_	_
-24-25	tornar-se	_	_	_	_	_	_	_	_
-24	tornar	tornar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	20	advcl	_	_
-25	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
-26	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	27	det	_	_
-27	apro	apro	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
-28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
-29	difer	difer	VERB	_	VerbForm=Inf	55	acl	_	_
-30	oximação	oximação	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
-31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	rença	rença	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-34	para	para	ADP	_	_	37	case	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-36	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	37	amod	_	_
-37	d	d	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
-38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	frente	frente	NOUN	_	Gender=Fem|Number=Sing	55	nsubj	_	_
-40	e	e	CCONJ	_	_	41	cc	_	_
-41	derivada	derivar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	55	conj	_	_
-42-43	na	_	_	_	_	_	_	_	_
-42	em	em	ADP	_	_	48	case	_	_
-43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-44	em	em	ADP	_	_	45	case	_	_
-45	vez	vez	NOUN	_	Gender=Fem|Number=Sing	48	fixed	_	_
-46	de	de	ADP	_	_	48	case	_	_
-47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	face	face	NOUN	_	Gender=Fem|Number=Sing	41	obl	_	_
-49	uma	umo	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	55	nsubj	_	_
-51-52	do	_	_	_	_	_	_	_	_
-51	de	de	ADP	_	_	53	case	_	_
-52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
-53	termo	termo	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	_
-54	fluxo	fluxo	ADJ	_	Gender=Masc|Number=Sing	53	amod	_	_
-55	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
-56	-se	-se	NOUN	_	Gender=Masc|Number=Sing	55	xcomp	_	_
-57	assim	assim	ADV	_	_	56	advmod	_	SpaceAfter=No
-58	:	:	PUNCT	_	_	55	punct	_	_
-59	aproximaçã	aproximaçã	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+4	Então	Então	ADV	_	_	5	advmod	_	_
+5	vamo	vamo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+6	uerda	uerda	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	=	=	SYM	_	_	8	obj	_	_
+10	ença	ença	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	centra	centrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	ter	ter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	que	que	SCONJ	_	_	15	mark	_	_
+15	m	m	NOUN	_	Gender=Masc|Number=Sing	13	ccomp	_	_
+16	1	1	NUM	_	NumType=Card	15	nummod	_	_
+17	/	/	PUNCT	_	_	15	punct	_	_
+18	2	2	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	al	al	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	2	punct	_	_
+23	modificar	modificar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	n	n	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	a	a	SCONJ	_	_	27	mark	_	_
+27-28	tornar-se	_	_	_	_	_	_	_	_
+27	tornar	tornar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	23	xcomp	_	_
+28	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	expl	_	_
+29	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	30	det	_	_
+30	apro	apro	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+32	difer	difer	VERB	_	VerbForm=Inf	59	acl	_	_
+33	oximação	oximação	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	rença	rença	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+37	para	para	ADP	_	_	40	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	40	amod	_	_
+40	d	d	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	frente	frente	NOUN	_	Gender=Fem|Number=Sing	59	nsubj	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	derivada	derivar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	59	conj	_	_
+45-46	na	_	_	_	_	_	_	_	_
+45	em	em	ADP	_	_	51	case	_	_
+46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+47	em	em	ADP	_	_	48	case	_	_
+48	vez	vez	NOUN	_	Gender=Fem|Number=Sing	51	fixed	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	face	face	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
+52	uma	umo	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	59	nsubj	_	_
+54-55	do	_	_	_	_	_	_	_	_
+54	de	de	ADP	_	_	57	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+56	termo	termo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	57	amod	_	_
+57	aproximaçã	aproximaçã	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	_
+58	fluxo	fluxo	ADJ	_	Gender=Masc|Number=Sing	57	amod	_	_
+59	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+60	-se	-se	NOUN	_	Gender=Masc|Number=Sing	59	obj	_	_
+61	assim	assim	ADV	_	_	60	advmod	_	SpaceAfter=No
+62	:	:	PUNCT	_	_	59	punct	_	_
 
 # text = C seme
-# sent_id = 182-20140922-MONOGRAFIA_0-125
+# sent_id = 182-20140922-MONOGRAFIA_0-128
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	seme	semer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # text = Com uma elhante par
-# sent_id = 182-20140922-MONOGRAFIA_0-126
+# sent_id = 182-20140922-MONOGRAFIA_0-129
 1	Com	com	ADP	_	_	4	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	elhante	elhante	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 4	par	par	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = R especific pressão PR a o bloco N
-# sent_id = 182-20140922-MONOGRAFIA_0-127
+# sent_id = 182-20140922-MONOGRAFIA_0-130
 1	R	R	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
 2	especific	especific	ADV	_	_	3	advmod	_	_
 3	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -3591,8 +3738,8 @@
 7	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8	N	n	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 
-# text = N: cada na fa ce direita, temos um ma aproxim mação especificad
-# sent_id = 182-20140922-MONOGRAFIA_0-128
+# text = N: cada na fa ce direita, temos um ma aproxim mação
+# sent_id = 182-20140922-MONOGRAFIA_0-131
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	cada	cada	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -3608,79 +3755,52 @@
 12	ma	ma	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 13	aproxim	aproxim	ADV	_	_	14	advmod	_	_
 14	mação	mação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	especificad	especificad	X	_	_	14	flat:foreign	_	_
 
-# text = Para uma ta xa de fluxo do no lado e esquerdo (i njeção / pro odução), fazem mos uso da a equação d de Darcy:
-# sent_id = 182-20140922-MONOGRAFIA_0-129
-1	Para	para	ADP	_	_	3	case	_	_
-2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	ta	ta	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
-4	xa	xo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	11	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-9-10	no	_	_	_	_	_	_	_	_
-9	em	em	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	lado	lado	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-12	e	e	CCONJ	_	_	13	cc	_	_
-13	esquerdo	esquerdo	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
-14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
-16	njeção	njeção	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
-17	/	/	PUNCT	_	_	15	punct	_	_
-18	pro	prar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
-19	odução	odução	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	15	punct	_	_
-22	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	mos	mo	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
-24	uso	uso	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	28	case	_	_
-26	a	a	ADP	_	_	28	case	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	equação	equação	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-29	d	d	NOUN	_	Gender=Fem|Number=Sing	24	appos	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	Darcy	Darcy	PROPN	_	Gender=Unsp|Number=Sing	29	nmod	_	SpaceAfter=No
-32	:	:	PUNCT	_	_	22	punct	_	_
-
-# text = Entã o, substituin ndo na apro oximação, o obtemos:
-# sent_id = 182-20140922-MONOGRAFIA_0-130
-1	Entã	Entã	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
-2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	substituin	substituin	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
-5	ndo	r	VERB	_	VerbForm=Ger	12	advcl	_	_
-6-7	na	_	_	_	_	_	_	_	_
-6	em	em	ADP	_	_	9	case	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	apro	apro	ADV	_	_	9	advmod	_	_
-9	oximação	oximação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	5	punct	_	_
-11	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
-12	obtemos	obter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	12	punct	_	_
+# text = Para uma ta odução), fazem mos uso da Entã o, substituin ndo na apro oximação, o obtemos:
+# sent_id = 182-20140922-MONOGRAFIA_0-132
+1	Para	para	ADP	_	_	4	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	ta	to	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	odução	odução	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	mos	mo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+9	uso	uso	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Entã	Entã	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	substituin	substituin	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+16	ndo	r	VERB	_	VerbForm=Ger	7	advcl	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	apro	apro	ADV	_	_	20	advmod	_	_
+20	oximação	oximação	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	16	punct	_	_
+22	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	obtemos	obter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	7	punct	_	_
 
 # text = C seme
-# sent_id = 182-20140922-MONOGRAFIA_0-131
+# sent_id = 182-20140922-MONOGRAFIA_0-133
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	seme	semer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # text = Com uma t elhante par
-# sent_id = 182-20140922-MONOGRAFIA_0-132
+# sent_id = 182-20140922-MONOGRAFIA_0-134
 1	Com	com	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	t	t	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 4	elhante	elhante	ADP	_	_	5	case	_	_
 5	par	par	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 
-# text = R especific taxa de Q a o bloco N N: cado na fa ace direita, temos um ma aproxim mação
-# sent_id = 182-20140922-MONOGRAFIA_0-133
-1	R	R	PROPN	_	Gender=Unsp|Number=Sing	19	nsubj	_	_
+# text = R especific taxa de Q a o bloco N
+# sent_id = 182-20140922-MONOGRAFIA_0-135
+1	R	R	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
 2	especific	especific	ADV	_	_	3	advmod	_	_
 3	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 4	de	de	ADP	_	_	5	case	_	_
@@ -3688,25 +3808,28 @@
 6	a	a	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-9	N	N	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	_
-10	N	n	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	:	:	PUNCT	_	_	1	punct	_	_
-12	cado	car	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
-13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	_	_	15	case	_	_
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	fa	fa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-16	ace	ace	ADV	_	_	17	advmod	_	_
-17	direita	direito	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	12	punct	_	_
-19	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	ma	ma	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
-22	aproxim	aproxim	ADV	_	_	23	advmod	_	_
-23	mação	mação	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+9	N	n	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+
+# text = N: cado na fa ace direita, temos um ma aproxim mação
+# sent_id = 182-20140922-MONOGRAFIA_0-136
+1	N	n	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	cado	car	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fa	fa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	ace	ace	ADV	_	_	8	advmod	_	_
+8	direita	direito	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ma	ma	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	aproxim	aproxim	ADV	_	_	12	advmod	_	_
+14	mação	mação	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 
 # text = P fluxo ite de ausê cam:
-# sent_id = 182-20140922-MONOGRAFIA_0-134
+# sent_id = 182-20140922-MONOGRAFIA_0-137
 1	P	P	PROPN	_	Gender=Unsp|Number=Sing	6	nsubj	_	_
 2	fluxo	fluxo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	ite	ite	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -3715,8 +3838,8 @@
 6	cam	car	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	6	punct	_	_
 
-# text = Para o caso o para os do o de um lim ois blocos fi ência de flux xo entre blo ocos e i i + 1, os termo os de Discretiz zação do T Tempo 3.2
-# sent_id = 182-20140922-MONOGRAFIA_0-135
+# text = Para o caso o para os do o de um lim ois blocos fi ência de flux xo entre blo ocos e i i + 1, os termo os de 3.2
+# sent_id = 182-20140922-MONOGRAFIA_0-138
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
@@ -3747,24 +3870,24 @@
 27	1	1	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
 29	os	os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
-30	termo	termo	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
-31	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	30	appos	_	_
+30	termo	termo	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
+31	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	25	conj	_	_
 32	de	de	ADP	_	_	33	case	_	_
-33	Discretiz	Discretiz	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-34	zação	zação	PROPN	_	Number=Sing	33	flat:name	_	_
-35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	_	_	37	case	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	T	t	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	_
-38	Tempo	Tempo	PROPN	_	Number=Sing	37	flat:name	_	_
-39	3.2	3.2	NUM	_	NumType=Card	31	nummod	_	_
+33	3.2	3.2	NUM	_	NumType=Card	31	nmod	_	_
 
-# text = C
-# sent_id = 182-20140922-MONOGRAFIA_0-136
+# text = C Discretiz zação do T Tempo
+# sent_id = 182-20140922-MONOGRAFIA_0-139
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Discretiz	Discretiz	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+3	zação	zação	PROPN	_	Number=Sing	2	flat:name	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	T	t	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	Tempo	Tempo	PROPN	_	Number=Sing	6	flat:name	_	_
 
-# text = Como foi vis sto anteriorm mente que p pela expans são descen dênte: à ap obtid proximação do: seguinte d iferença pa ara trás com m termo de e primeira o ordem de e erro é ascendente e no tempo : a expansão prod termo m de uz uma ap o do erro: proximação ascendent te, novame ente com a a primeira o ordem a fi Final lmente, a ex xpansão em m ambos os s sentidos: emos uma a aproximação o central, co om uma se gunda orde em a fim do erro:
-# sent_id = 182-20140922-MONOGRAFIA_0-137
+# text = Como foi vis sto anteriorm mente que p pela expans são descen dênte: proximação do: seguinte d iferença pa ara trás com m termo de e primeira o ordem de e erro é a expansão ascendente e no tempo : prod termo m de uz uma ap o do erro: proximação ascendent te, novame ente com a a primeira o ordem a fi Final lmente, a ex xpansão em m ambos os s sentidos: emos uma a aproximação o central, co om uma se gunda orde em a fim do erro:
+# sent_id = 182-20140922-MONOGRAFIA_0-140
 1	Como	como	ADV	_	_	4	advmod	_	_
 2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	vis	vil	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
@@ -3781,121 +3904,116 @@
 13	descen	descen	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	_
 14	dênte	dênte	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	5	punct	_	_
-16-17	à	_	_	_	_	_	_	_	_
-16	a	a	ADP	_	_	18	case	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	ap	ap	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
-19	obtid	obtid	X	_	_	20	amod	_	_
-20	proximação	proximação	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
-21-22	do	_	_	_	_	_	_	_	SpaceAfter=No
-21	de	de	ADP	_	_	25	case	_	_
-22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-23	:	:	PUNCT	_	_	22	punct	_	_
-24	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
-25	d	d	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-26	iferença	iferencer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-27	pa	pa	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
-28	ara	ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	26	conj	_	_
-29	trás	trás	ADV	_	_	28	advmod	_	_
-30	com	com	ADP	_	_	31	case	_	_
-31	m	m	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
-32	termo	termo	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-33	de	de	ADP	_	_	37	case	_	_
-34	e	e	CCONJ	_	_	37	cc	_	_
-35	primeira	primeira	ADP	_	_	37	case	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	ordem	ordem	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
-38	de	de	ADP	_	_	42	case	_	_
-39	e	e	CCONJ	_	_	42	cc	_	_
-40	erro	erro	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
-41	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
-42	ascendente	ascendente	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	_
-43	e	e	CCONJ	_	_	46	cc	_	_
-44-45	no	_	_	_	_	_	_	_	_
-44	em	em	ADP	_	_	46	case	_	_
-45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-46	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	_
-47	:	:	PUNCT	_	_	42	punct	_	_
-48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	37	appos	_	_
-50	prod	prod	ADJ	_	Gender=Masc|Number=Sing	49	amod	_	_
-51	termo	termo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	52	amod	_	_
-52	m	m	NOUN	_	Gender=Masc|Number=Sing	49	nmod	_	_
-53	de	de	ADP	_	_	54	case	_	_
-54	uz	uz	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	_
-55	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
-56	ap	ap	NOUN	_	Gender=Fem|Number=Sing	49	appos	_	_
-57	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Dem	60	det	_	_
-58-59	do	_	_	_	_	_	_	_	_
-58	de	de	ADP	_	_	60	case	_	_
-59	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
-60	erro	erro	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
-61	:	:	PUNCT	_	_	49	punct	_	_
-62	proximação	proximação	NOUN	_	Gender=Fem|Number=Sing	64	nmod	_	_
-63	ascendent	ascendent	NOUN	_	Gender=Masc|Number=Sing	64	nmod	_	_
-64	te	tu	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	49	appos	_	SpaceAfter=No
-65	,	,	PUNCT	_	_	66	punct	_	_
-66	novame	novame	NOUN	_	Gender=Masc|Number=Sing	64	appos	_	_
-67	ente	ente	ADJ	_	Gender=Masc|Number=Sing	66	amod	_	_
-68	com	com	ADP	_	_	73	case	_	_
-69	a	a	ADP	_	_	73	case	_	_
-70	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
-71	primeira	primeira	ADP	_	_	73	case	_	_
-72	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
-73	ordem	ordem	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	_
-74	a	a	ADP	_	_	75	case	_	_
-75	fi	fi	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	_
-76	Final	final	ADJ	_	Gender=Masc|Number=Sing	75	amod	_	_
-77	lmente	lmente	ADV	_	_	66	advmod	_	SpaceAfter=No
-78	,	,	PUNCT	_	_	66	punct	_	_
-79	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	81	det	_	_
-80	ex	ex	ADP	_	_	81	case	_	_
-81	xpansão	xpansão	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	_
-82	em	em	ADP	_	_	83	case	_	_
-83	m	m	NOUN	_	Gender=Masc|Number=Sing	81	nmod	_	_
-84	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	87	det	_	_
-85	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	86	det	_	_
-86	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	87	obj	_	_
-87	sentidos	sentir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	83	acl	_	SpaceAfter=No
-88	:	:	PUNCT	_	_	87	punct	_	_
-89	emos	er	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	87	parataxis	_	_
-90	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	92	det	_	_
-91	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	92	det	_	_
-92	aproximação	aproximação	NOUN	_	Gender=Fem|Number=Sing	89	obj	_	_
-93	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	94	det	_	_
-94	central	central	NOUN	_	Gender=Masc|Number=Sing	100	nsubj	_	SpaceAfter=No
-95	,	,	PUNCT	_	_	96	punct	_	_
-96	co	co	NOUN	_	Gender=Masc|Number=Sing	94	appos	_	_
-97	om	om	ADP	_	_	100	case	_	_
-98	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	99	det	_	_
-99	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	100	expl	_	_
-100	gunda	gundir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	89	advcl	_	_
-101	orde	orda	NOUN	_	Gender=Fem|Number=Sing	100	obj	_	_
-102	em	em	ADP	_	_	104	case	_	_
-103	a	o	DET	_	Definite=Def|PronType=Art	104	det	_	_
-104	fim	fim	NOUN	_	Gender=Masc|Number=Sing	101	nmod	_	_
-105-106	do	_	_	_	_	_	_	_	_
-105	de	de	ADP	_	_	107	case	_	_
-106	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	107	det	_	_
-107	erro	erro	NOUN	_	Gender=Masc|Number=Sing	104	nmod	_	SpaceAfter=No
-108	:	:	PUNCT	_	_	100	punct	_	_
+16	proximação	proximação	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+17-18	do	_	_	_	_	_	_	_	SpaceAfter=No
+17	de	de	ADP	_	_	21	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	:	:	PUNCT	_	_	18	punct	_	_
+20	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	d	d	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+22	iferença	iferencer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+23	pa	pa	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+24	ara	ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	22	advcl	_	_
+25	trás	trás	ADV	_	_	24	advmod	_	_
+26	com	com	ADP	_	_	27	case	_	_
+27	m	m	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+28	termo	termo	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+29	de	de	ADP	_	_	33	case	_	_
+30	e	e	CCONJ	_	_	33	cc	_	_
+31	primeira	primeira	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ordem	ordem	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	erro	erro	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+40	ascendente	ascendente	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
+41	e	e	CCONJ	_	_	44	cc	_	_
+42-43	no	_	_	_	_	_	_	_	_
+42	em	em	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	39	conj	_	_
+45	:	:	PUNCT	_	_	5	punct	_	_
+46	prod	prod	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+47	termo	termo	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+48	m	m	NOUN	_	Gender=Masc|Number=Sing	47	appos	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	uz	uz	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+51	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	ap	ap	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	_
+53	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Dem	56	det	_	_
+54-55	do	_	_	_	_	_	_	_	_
+54	de	de	ADP	_	_	56	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	erro	erro	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+57	:	:	PUNCT	_	_	5	punct	_	_
+58	proximação	proximação	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+59	ascendent	ascendent	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	_
+60	te	tu	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	58	appos	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	62	punct	_	_
+62	novame	novame	NOUN	_	Gender=Masc|Number=Sing	60	appos	_	_
+63	ente	ente	ADJ	_	Gender=Masc|Number=Sing	62	amod	_	_
+64	com	com	ADP	_	_	69	case	_	_
+65	a	a	ADP	_	_	69	case	_	_
+66	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+67	primeira	primeira	ADP	_	_	69	case	_	_
+68	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+69	ordem	ordem	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	_
+70	a	a	ADP	_	_	71	case	_	_
+71	fi	fi	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	_
+72	Final	final	ADJ	_	Gender=Masc|Number=Sing	71	amod	_	_
+73	lmente	lmente	ADV	_	_	62	advmod	_	SpaceAfter=No
+74	,	,	PUNCT	_	_	62	punct	_	_
+75	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
+76	ex	ex	ADP	_	_	77	case	_	_
+77	xpansão	xpansão	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	_
+78	em	em	ADP	_	_	79	case	_	_
+79	m	m	NOUN	_	Gender=Masc|Number=Sing	77	nmod	_	_
+80	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	83	det	_	_
+81	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	82	det	_	_
+82	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	83	obj	_	_
+83	sentidos	sentir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	79	acl	_	SpaceAfter=No
+84	:	:	PUNCT	_	_	83	punct	_	_
+85	emos	er	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	83	parataxis	_	_
+86	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
+87	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
+88	aproximação	aproximação	NOUN	_	Gender=Fem|Number=Sing	85	obj	_	_
+89	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	90	det	_	_
+90	central	central	NOUN	_	Gender=Masc|Number=Sing	96	nsubj	_	SpaceAfter=No
+91	,	,	PUNCT	_	_	92	punct	_	_
+92	co	co	NOUN	_	Gender=Masc|Number=Sing	90	appos	_	_
+93	om	om	ADP	_	_	96	case	_	_
+94	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	95	det	_	_
+95	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	96	expl	_	_
+96	gunda	gundir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	85	advcl	_	_
+97	orde	orda	NOUN	_	Gender=Fem|Number=Sing	96	obj	_	_
+98	em	em	ADP	_	_	100	case	_	_
+99	a	o	DET	_	Definite=Def|PronType=Art	100	det	_	_
+100	fim	fim	NOUN	_	Gender=Masc|Number=Sing	96	obl	_	_
+101-102	do	_	_	_	_	_	_	_	_
+101	de	de	ADP	_	_	103	case	_	_
+102	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	103	det	_	_
+103	erro	erro	NOUN	_	Gender=Masc|Number=Sing	100	nmod	_	SpaceAfter=No
+104	:	:	PUNCT	_	_	96	punct	_	_
 
 # text = A equa como caso
-# sent_id = 182-20140922-MONOGRAFIA_0-138
+# sent_id = 182-20140922-MONOGRAFIA_0-141
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	equa	equa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	como	como	ADP	_	_	4	case	_	_
 4	caso	caso	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = A aproximaç ações.
-# sent_id = 182-20140922-MONOGRAFIA_0-139
+# sent_id = 182-20140922-MONOGRAFIA_0-142
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aproximaç	aproximaç	PROPN	_	Number=Sing	0	root	_	_
 3	ações	ações	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Usan o exemplo, os acima (PE ção do tem ndo o caso , podemos EACEMAN mpo usado simples da escrever a , 1977;
-# sent_id = 182-20140922-MONOGRAFIA_0-140
+# sent_id = 182-20140922-MONOGRAFIA_0-143
 1	Usan	Usan	PROPN	_	Gender=Masc|Number=Sing	17	obl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -3928,7 +4046,7 @@
 28	;	;	PUNCT	_	_	17	punct	_	_
 
 # text = YOS como gran a equação d a forma da SHIAKI, 198 nde influênc de fluxo e ta a diferença 82;
-# sent_id = 182-20140922-MONOGRAFIA_0-141
+# sent_id = 182-20140922-MONOGRAFIA_0-144
 1	YOS	Yo	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
 2	como	como	ADP	_	_	3	case	_	_
 3	gran	gran	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3954,13 +4072,13 @@
 22	82	82	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 23	;	;	PUNCT	_	_	14	punct	_	_
 
-# text = WOLCO cia sobre a amanho do da equaçã
-# sent_id = 182-20140922-MONOGRAFIA_0-142
+# text = WOLCO cia sobre a amanho do da equaçã OTT et al., 1 as soluções bloco cons ão para os 1996).
+# sent_id = 182-20140922-MONOGRAFIA_0-145
 1	WOLCO	Wolco	ADV	_	_	2	advmod	_	_
 2	cia	cer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	sobre	sobre	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	amanho	amanho	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	amanho	amanho	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
@@ -3968,48 +4086,45 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	equaçã	equaçã	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	OTT	OTT	PROPN	_	Gender=Fem|Number=Sing	10	appos	_	_
+12	et	et	X	_	Number=Sing	11	flat:name	_	_
+13	al.	al.	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	1	1	NUM	_	NumType=Card	13	nummod	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+18	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+19	cons	cons	ADP	_	_	20	case	_	_
+20	ão	ão	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	1996	1996	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = OTT et al., 1 as soluções bloco cons ão para os 1996).
-# sent_id = 182-20140922-MONOGRAFIA_0-143
-1	OTT	OTT	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	et	et	X	_	Number=Sing	1	flat:name	_	_
-3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	1	1	NUM	_	NumType=Card	3	nummod	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-8	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-9	cons	cons	ADP	_	_	10	case	_	_
-10	ão	ão	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	para	para	ADP	_	_	13	case	_	_
-12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	1996	1996	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = s das stante s três Formulaç ção Explic cita 3.3
-# sent_id = 182-20140922-MONOGRAFIA_0-144
-1	s	s	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+# text = s das stante s três 3.3
+# sent_id = 182-20140922-MONOGRAFIA_0-146
+1	s	s	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	5	case	_	_
-3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-4	stante	stante	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-5	s	s	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-6	três	três	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-7	Formulaç	Formulaç	PROPN	_	Number=Sing	5	flat:name	_	_
-8	ção	ção	PROPN	_	Number=Sing	5	flat:name	_	_
-9	Explic	Explic	PROPN	_	Number=Sing	5	flat:name	_	_
-10	cita	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	3.3	3.3	NUM	_	NumType=Card	10	obj	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	stante	stante	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
+6	três	três	NUM	_	NumType=Card	5	nummod	_	_
+7	3.3	3.3	NUM	_	NumType=Card	6	flat	_	_
 
-# text = U esqu expli
-# sent_id = 182-20140922-MONOGRAFIA_0-145
-1	U	U	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
-2	esqu	esqr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	expli	expli	ADV	_	_	2	advmod	_	_
+# text = U esqu expli Formulaç ção Explic cita
+# sent_id = 182-20140922-MONOGRAFIA_0-147
+1	U	u	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	esqu	esque	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	3	nsubj	_	_
+3	expli	explir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	Formulaç	Formulaç	PROPN	_	Number=Sing	3	obj	_	_
+5	ção	ção	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Explic	Explic	PROPN	_	Number=Sing	4	flat:name	_	_
+7	cita	citar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # text = Usamos a uerdo tamb citamente: aproximaçã bém está ão ascende em função ente da d o de t, e erivada do e podemos o tempo t. s resolver
-# sent_id = 182-20140922-MONOGRAFIA_0-146
+# sent_id = 182-20140922-MONOGRAFIA_0-148
 1	Usamos	usar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	uerdo	uerdo	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -4046,7 +4161,7 @@
 32	resolver	resolver	VERB	_	VerbForm=Inf	23	xcomp	_	_
 
 # text = Assim, o para pres lado ssões
-# sent_id = 182-20140922-MONOGRAFIA_0-147
+# sent_id = 182-20140922-MONOGRAFIA_0-149
 1	Assim	assim	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -4056,7 +4171,7 @@
 7	ssões	ssão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 
 # text = Esta formulação o tem uma e estabilidade e limitada.
-# sent_id = 182-20140922-MONOGRAFIA_0-148
+# sent_id = 182-20140922-MONOGRAFIA_0-150
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
@@ -4068,222 +4183,222 @@
 9	limitada	limitar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Matriz de e transmis ssibilidad de 3.4
-# sent_id = 182-20140922-MONOGRAFIA_0-149
-1	Matriz	Matriz	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	5	case	_	_
-3	e	e	CCONJ	_	_	5	cc	_	_
-4	transmis	transml	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
-5	ssibilidad	ssibilidad	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	3.4	3.4	NUM	_	NumType=Card	5	nmod	_	_
-
-# text = M F Figura 4: Vol lume de Con ntrole para o escoamento o unidimensio ).
-# sent_id = 182-20140922-MONOGRAFIA_0-150
-1	M	m	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	F	F	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
-4	4	4	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	1	punct	_	_
-6	Vol	Vol	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-7	lume	lume	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	Con	con	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	ntrole	ntrole	PROPN	_	Number=Sing	9	flat:name	_	_
-11	para	para	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	unidimensio	unidimensio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-16	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = a o termo de e fluxo:
+# text = 3.4
 # sent_id = 182-20140922-MONOGRAFIA_0-151
+1	3.4	3.4	NUM	_	NumType=Card	0	root	_	_
+
+# text = M Matriz de e transmis ssibilidad de F Figura 4: Vol lume de Con ntrole para o escoamento o unidimensio ).
+# sent_id = 182-20140922-MONOGRAFIA_0-152
+1	M	m	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Matriz	Matriz	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	transmis	transml	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	ssibilidad	ssibilidad	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	F	F	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	Figura	figura	PROPN	_	Number=Sing	8	flat:name	_	_
+10	4	4	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	1	punct	_	_
+12	Vol	Vol	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+13	lume	lume	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Con	con	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	ntrole	ntrole	PROPN	_	Number=Sing	15	flat:name	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	unidimensio	unidimensio	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+22	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = a o termo de e fluxo: a o termo de e acumulaçã ão: uação discr retizada ser rá: iplicando endo: e Tem mos: orma matric cial temos: é a matriz de é a matriz do é e transmiss os termos d ibilidade (tr de acumula ridiagonal) ção (diagon nal) ma explicita a da equaç ção de Flu xo 3.5
+# sent_id = 182-20140922-MONOGRAFIA_0-153
 1	a	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	termo	termo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	termo	termo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	e	e	CCONJ	_	_	6	cc	_	_
 6	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	3	punct	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	termo	termo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	acumulaçã	acumulação	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	ão	ão	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	3	punct	_	_
+16	uação	uação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+17	discr	discr	VERB	_	Number=Sing|Person=3|VerbForm=Inf	36	csubj	_	_
+18	retizada	retizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	aux	_	_
+20	rá	rar	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	22	punct	_	_
+22	iplicando	iplicar	VERB	_	VerbForm=Ger	17	advcl	_	_
+23	endo	er	VERB	_	VerbForm=Ger	22	advcl	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	17	punct	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+27	mos	mo	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	17	punct	_	_
+29	orma	orma	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+30	matric	matric	ADV	_	_	31	advmod	_	_
+31	cial	cial	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+32	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	parataxis	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	17	punct	_	_
+34	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	62	nsubj	_	_
+37	de	de	SCONJ	_	_	40	mark	_	_
+38	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	é	é	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+44	e	e	CCONJ	_	_	45	cc	_	_
+45	transmiss	transmis	NOUN	_	Gender=Masc|Number=Plur	43	conj	_	_
+46	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	termos	termo	NOUN	_	Gender=Masc|Number=Plur	36	nsubj	_	_
+48	d	d	X	_	_	49	amod	_	_
+49	ibilidade	ibilidade	NOUN	_	Gender=Fem|Number=Sing	47	appos	_	_
+50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
+51	tr	tr	NOUN	_	Gender=Masc|Number=Sing	49	appos	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	acumula	acumula	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
+54	ridiagonal	ridiagonal	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	51	punct	_	_
+56	ção	ção	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
+57	(	(	PUNCT	_	_	58	punct	_	SpaceAfter=No
+58	diagon	diagon	NOUN	_	Gender=Masc|Number=Sing	56	appos	_	_
+59	nal	nal	ADJ	_	Gender=Masc|Number=Sing	58	amod	_	SpaceAfter=No
+60	)	)	PUNCT	_	_	58	punct	_	_
+61	ma	ma	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	_
+62	explicita	explicitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+63	a	a	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	62	obj	_	_
+64-65	da	_	_	_	_	_	_	_	_
+64	de	de	ADP	_	_	66	case	_	_
+65	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	equaç	equaç	PROPN	_	Number=Sing	67	nmod	_	_
+67	ção	ção	NOUN	_	Gender=Fem|Number=Sing	63	nmod	_	_
+68	de	de	ADP	_	_	69	case	_	_
+69	Flu	Flu	PROPN	_	Gender=Unsp|Number=Sing	67	nmod	_	_
+70	xo	xo	ADV	_	_	62	advmod	_	_
+71	3.5	3.5	NUM	_	NumType=Card	62	nummod	_	_
 
-# text = Para a o termo de e acumulaçã ão: uação discr retizada ser rá: iplicando endo: e Tem mos: orma matric cial temos: é a matriz de é a matriz do é e transmiss os termos d ibilidade (tr de acumula ridiagonal) ção (diagon nal) ma explicita a da equaç ção de Flu xo Resoluçõe es das equ uações de e transmi ssibilidad de: 3.5
-# sent_id = 182-20140922-MONOGRAFIA_0-152
-1	Para	para	ADP	_	_	4	case	_	_
-2	a	a	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	termo	termo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
-5	de	de	ADP	_	_	8	case	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	acumulaçã	acumulação	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-8	ão	ão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	4	punct	_	_
-10	uação	uação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-11	discr	discr	VERB	_	Number=Sing|Person=3|VerbForm=Inf	30	csubj	_	_
-12	retizada	retizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
-13	ser	ser	AUX	_	VerbForm=Inf	14	aux	_	_
-14	rá	rar	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	16	punct	_	_
-16	iplicando	iplicar	VERB	_	VerbForm=Ger	11	advcl	_	_
-17	endo	er	VERB	_	VerbForm=Ger	16	advcl	_	SpaceAfter=No
-18	:	:	PUNCT	_	_	11	punct	_	_
-19	e	e	CCONJ	_	_	20	cc	_	_
-20	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
-21	mos	mo	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
-22	:	:	PUNCT	_	_	11	punct	_	_
-23	orma	orma	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
-24	matric	matric	ADV	_	_	25	advmod	_	_
-25	cial	cial	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-26	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
-27	:	:	PUNCT	_	_	11	punct	_	_
-28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	56	nsubj	_	_
-31	de	de	SCONJ	_	_	34	mark	_	_
-32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
-33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	_	_	37	case	_	_
-36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	é	é	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-38	e	e	CCONJ	_	_	39	cc	_	_
-39	transmiss	transmis	NOUN	_	Gender=Masc|Number=Plur	37	conj	_	_
-40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
-41	termos	termo	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
-42	d	d	X	_	_	43	amod	_	_
-43	ibilidade	ibilidade	NOUN	_	Gender=Fem|Number=Sing	41	appos	_	_
-44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
-45	tr	tr	NOUN	_	Gender=Masc|Number=Sing	43	appos	_	_
-46	de	de	ADP	_	_	47	case	_	_
-47	acumula	acumula	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	_
-48	ridiagonal	ridiagonal	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
-49	)	)	PUNCT	_	_	45	punct	_	_
-50	ção	ção	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
-51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	diagon	diagon	NOUN	_	Gender=Masc|Number=Sing	50	appos	_	_
-53	nal	nal	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	SpaceAfter=No
-54	)	)	PUNCT	_	_	52	punct	_	_
-55	ma	ma	NOUN	_	Gender=Fem|Number=Sing	50	nmod	_	_
-56	explicita	explicitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-57	a	a	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	56	obj	_	_
-58-59	da	_	_	_	_	_	_	_	_
-58	de	de	ADP	_	_	60	case	_	_
-59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
-60	equaç	equaç	PROPN	_	Number=Sing	57	nmod	_	_
-61	ção	ção	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
-62	de	de	ADP	_	_	63	case	_	_
-63	Flu	Flu	PROPN	_	Gender=Masc|Number=Sing	61	nmod	_	_
-64	xo	xo	PROPN	_	Number=Sing	63	flat:name	_	_
-65	Resoluçõe	Resoluçõe	PROPN	_	Number=Sing	63	flat:name	_	_
-66	es	e	ADJ	_	Gender=Fem|Number=Plur	63	amod	_	_
-67-68	das	_	_	_	_	_	_	_	_
-67	de	de	ADP	_	_	69	case	_	_
-68	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	69	det	_	_
-69	equ	eque	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	63	nmod	_	_
-70	uações	uação	NOUN	_	Gender=Fem|Number=Plur	69	nmod	_	_
-71	de	de	ADP	_	_	77	case	_	_
-72	e	e	CCONJ	_	_	73	cc	_	_
-73	transmi	transmir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	conj	_	_
-74	ssibilidad	ssibilidad	NOUN	_	Gender=Fem|Number=Sing	73	obj	_	_
-75	de	de	ADP	_	_	76	case	_	SpaceAfter=No
-76	:	:	PUNCT	_	_	74	punct	_	_
-77	3.5	3.5	NUM	_	NumType=Card	70	nmod	_	_
-
-# text = R
-# sent_id = 182-20140922-MONOGRAFIA_0-153
-1	R	R	PROPN	_	Gender=Unsp|Number=Sing	0	root	_	_
-
-# text = Equ ação da dif fusividade: pecto: ando os se guintes asp condições d de contorn no são dad as por:
+# text = R Equ Resoluçõe es das equ uações de e transmi ssibilidad de: ação da dif fusividade: pecto: ando os se guintes asp condições d de contorn no são dad as por:
 # sent_id = 182-20140922-MONOGRAFIA_0-154
-1	Equ	Eqr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	6	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	dif	dif	X	_	_	6	amod	_	_
-6	fusividade	fusividade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	1	punct	_	_
-8	pecto	pecto	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	1	punct	_	_
-10	ando	ar	VERB	_	VerbForm=Ger	1	advcl	_	_
-11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-12	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	expl	_	_
-13	guintes	guinte	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
-14	asp	asp	X	_	_	15	amod	_	_
-15	condições	condição	NOUN	_	Gender=Fem|Number=Plur	13	appos	_	_
-16	d	d	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	contorn	contorn	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-19-20	no	_	_	_	_	_	_	_	_
-19	em	em	ADP	_	_	22	case	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-22	dad	dad	X	_	_	24	nmod	_	_
-23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
-24	por	_	ADP	_	_	16	nmod	_	SpaceAfter=No
-25	:	:	PUNCT	_	_	1	punct	_	_
+1	R	R	PROPN	_	Gender=Unsp|Number=Sing	7	nsubj	_	_
+2	Equ	Equ	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Resoluçõe	Resoluçõe	PROPN	_	Number=Sing	1	flat:name	_	_
+4	es	e	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	as	a	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	4	obl	_	_
+7	equ	eqr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	uações	uação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	transmi	transmilhão	NUM	_	NumType=Card	12	nummod	_	_
+12	ssibilidad	ssibilidad	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+13	de	de	ADP	_	_	15	case	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	15	punct	_	_
+15	ação	ação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	dif	dif	X	_	_	19	amod	_	_
+19	fusividade	fusividade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	7	punct	_	_
+21	pecto	pecto	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	7	punct	_	_
+23	ando	ar	VERB	_	VerbForm=Ger	7	advcl	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	expl	_	_
+26	guintes	guinte	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+27	asp	asp	X	_	_	28	amod	_	_
+28	condições	condição	NOUN	_	Gender=Fem|Number=Plur	26	appos	_	_
+29	d	d	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	contorn	contorn	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32-33	no	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	35	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	dad	dad	X	_	_	37	nmod	_	_
+36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	por	_	ADP	_	_	29	nmod	_	SpaceAfter=No
+38	:	:	PUNCT	_	_	7	punct	_	_
 
-# text = Vazã o produto d da velocidad de aparente e Ux pela ár ea aberta aao fluxo ão é igual a
+# text = Vazã o produto d ão é igual a da velocidad de aparente e Ux pela ár ea aberta aao fluxo
 # sent_id = 182-20140922-MONOGRAFIA_0-155
-1	Vazã	Vazã	PROPN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+1	Vazã	Vazã	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	produto	produto	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+3	produto	produto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	d	d	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	velocidad	velocidad	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	aparente	aparente	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	e	e	CCONJ	_	_	11	cc	_	_
-11	Ux	Ux	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
-12-13	pela	_	_	_	_	_	_	_	_
-12	por	por	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	ár	ár	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-15	ea	eo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
-16	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
-17	aao	aao	ADP	_	_	18	case	_	_
-18	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-19	ão	ão	ADV	_	_	18	advmod	_	_
-20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
-21	igual	igual	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-22	a	a	ADP	_	_	21	compound	_	_
+5	ão	ão	ADV	_	_	7	advmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	igual	igual	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+8	a	a	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	velocidad	velocidad	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	aparente	aparente	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Ux	Ux	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ár	ár	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+19	ea	eo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	18	acl	_	_
+21	aao	aao	ADP	_	_	22	case	_	_
+22	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 
-# text = A ve locidade ap parente Ux é D
+# text = A ve locidade ap parente Ux é é dada pela a equação d de Darcy D Denominand do 4­ Estudo de Caso ­ Montagem de um reservatório sintético e homogêneo
 # sent_id = 182-20140922-MONOGRAFIA_0-156
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	ve	ve	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	ve	ve	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	locidade	locidade	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
-4	ap	ap	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+4	ap	ap	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 5	parente	parente	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	Ux	Ux	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
-7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	D	D	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-
-# text = Denominand do 4­ Estudo de Caso ­ Montagem de um reservatório sintético e homogêneo
-# sent_id = 182-20140922-MONOGRAFIA_0-157
-1	Denominand	Denominand	CCONJ	_	_	5	cc	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	4­	4­	PROPN	_	Number=Sing	5	nmod	_	_
-5	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Caso	Caso	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	­	­	PROPN	_	Number=Sing	7	flat:name	_	_
-9	Montagem	montagem	PROPN	_	Number=Sing	7	flat:name	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-13	sintético	sintético	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	e	e	CCONJ	_	_	15	cc	_	_
-15	homogêneo	homogêneo	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	13	case	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	equação	equação	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
+14	d	d	X	_	_	13	amod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Darcy	Darcy	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	D	D	PROPN	_	Number=Sing	16	flat:name	_	_
+18	Denominand	Denominand	PROPN	_	Number=Sing	16	flat:name	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	4­	4­	PROPN	_	Number=Sing	16	nmod	_	_
+22	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Caso	Caso	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	­	­	PROPN	_	Number=Sing	24	flat:name	_	_
+26	Montagem	montagem	PROPN	_	Number=Sing	24	flat:name	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+30	sintético	sintético	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	homogêneo	homogêneo	ADJ	_	Gender=Masc|Number=Sing	30	conj	_	_
 
 # text = Este capítulo tem como objetivo a aplicação das equações de escoamento bifásico em um reservatório de petróleo bidimensional e hipotético.
-# sent_id = 182-20140922-MONOGRAFIA_0-158
+# sent_id = 182-20140922-MONOGRAFIA_0-157
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4309,7 +4424,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Para reproduzir o fenômeno físico do escoamento de fluidos em meio poroso de forma similar aos reservatórios reais, para avaliar a eficiência de simuladores e seus resultados, o modelo criado para este projeto leva em consideração um grande número de homogeneidades nos seus parâmetros, como espessura das camadas, porosidade, permeabilidade, produtividade entre outros.
-# sent_id = 182-20140922-MONOGRAFIA_0-159
+# sent_id = 182-20140922-MONOGRAFIA_0-158
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	reproduzir	reproduzir	VERB	_	VerbForm=Inf	38	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4380,11 +4495,11 @@
 64	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\n
 
 # text = 4.1
-# sent_id = 182-20140922-MONOGRAFIA_0-160
+# sent_id = 182-20140922-MONOGRAFIA_0-159
 1	4.1	4.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Dados de entrada do modelo de simulação
-# sent_id = 182-20140922-MONOGRAFIA_0-161
+# sent_id = 182-20140922-MONOGRAFIA_0-160
 1	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4396,7 +4511,7 @@
 8	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 
 # text = As propriedades do fluido e da rocha utilizadas neste modelo têm como objetivo validar o simulador criado.
-# sent_id = 182-20140922-MONOGRAFIA_0-162
+# sent_id = 182-20140922-MONOGRAFIA_0-161
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4423,22 +4538,22 @@
 21	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 4.2
-# sent_id = 182-20140922-MONOGRAFIA_0-163
+# sent_id = 182-20140922-MONOGRAFIA_0-162
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Propriedades da Rocha
-# sent_id = 182-20140922-MONOGRAFIA_0-164
+# sent_id = 182-20140922-MONOGRAFIA_0-163
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Rocha	Rocha	PROPN	_	Number=Sing	1	nmod	_	_
 
-# text = A tabela 1 abaixo representa as propriedades mais importantes relativas à rocha reservatório que foram modelo utilizado pelo simulador: 5­ Análises de Resultados 5.1
-# sent_id = 182-20140922-MONOGRAFIA_0-165
+# text = A tabela 1 abaixo representa as propriedades mais importantes relativas à rocha reservatório que foram modelo utilizado pelo simulador: 4.3
+# sent_id = 182-20140922-MONOGRAFIA_0-164
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	1	1	NUM	_	NumType=Card	2	nummod	_	_
+3	1	1	NUM	_	NumType=Card	5	nsubj	_	_
 4	abaixo	abaixo	ADV	_	_	5	advmod	_	_
 5	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -4453,22 +4568,67 @@
 14	reservatório	reservatório	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_
 16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
-17	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	13	acl:relcl	_	_
 18	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
 19-20	pelo	_	_	_	_	_	_	_	_
 19	por	por	ADP	_	_	21	case	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	simulador	simulador	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	SpaceAfter=No
-22	:	:	PUNCT	_	_	17	punct	_	_
-23	5­	5­	PROPN	_	Number=Sing	17	appos	_	_
-24	Análises	Análises	PROPN	_	Number=Sing	23	flat:name	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	Resultados	Resultados	PROPN	_	Number=Sing	23	nmod	_	_
-27	5	5	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
-28	.1	.1	NUM	_	NumType=Card	27	flat	_	_
+22	:	:	PUNCT	_	_	5	punct	_	_
+23	4.3	4.3	NUM	_	NumType=Card	5	appos	_	_
+
+# text = Propriedades do Fluido
+# sent_id = 182-20140922-MONOGRAFIA_0-165
+1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+
+# text = A tabela abaixo apresenta as propriedades do fluido que foram utilizadas para inicializar o modelo, considerando que as mesmas variam com o tempo e a produção.
+# sent_id = 182-20140922-MONOGRAFIA_0-166
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	abaixo	abaixo	ADV	_	_	4	advmod	_	_
+4	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	nsubj:pass	_	_
+11	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	utilizadas	utilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+13	para	para	SCONJ	_	_	14	mark	_	_
+14	inicializar	inicializar	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	considerando	considerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+19	que	que	SCONJ	_	_	22	mark	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	mesmas	mesmo	ADJ	_	Gender=Fem|Number=Plur	22	nsubj	_	_
+22	variam	variar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	produção	produção	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# text = 5­ Análises de Resultados 5.1
+# sent_id = 182-20140922-MONOGRAFIA_0-167
+1	5­	5­	PROPN	_	Number=Sing	0	root	_	_
+2	Análises	Análises	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Resultados	Resultados	PROPN	_	Number=Sing	1	nmod	_	_
+5	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+6	.1	.1	NUM	_	NumType=Card	5	flat	_	_
 
 # text = Analises e resultados do simulador BPrh­43
-# sent_id = 182-20140922-MONOGRAFIA_0-166
+# sent_id = 182-20140922-MONOGRAFIA_0-168
 1	Analises	Analise	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
@@ -4479,7 +4639,7 @@
 7	BPrh­43	BPrh­43	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
 
 # text = O histórico de produção apresentado na Figura 5 abaixo mostra que, após os 10 anos de produção, a vazão de óleo cai quase que 100% do seu valor inicial, declinando de 800 bbl/d para 4.37 bbl/d.
-# sent_id = 182-20140922-MONOGRAFIA_0-167
+# sent_id = 182-20140922-MONOGRAFIA_0-169
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4527,7 +4687,7 @@
 43	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Tal resultado já mostra certa coerência em relação ao conhecimento teórico sobre declínio.
-# sent_id = 182-20140922-MONOGRAFIA_0-168
+# sent_id = 182-20140922-MONOGRAFIA_0-170
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	já	já	ADV	_	_	4	advmod	_	_
@@ -4545,8 +4705,8 @@
 14	declínio	declínio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 6 – Produção acumulada óleo durante 10 anos
-# sent_id = 182-20140922-MONOGRAFIA_0-169
+# text = Figura 6 – Produção acumulada óleo durante 10 anos Figura 7 – Etapas realizadas
+# sent_id = 182-20140922-MONOGRAFIA_0-171
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -4556,9 +4716,14 @@
 7	durante	durante	ADP	_	_	9	case	_	_
 8	10	10	NUM	_	NumType=Card	9	nummod	_	_
 9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+10	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
+11	7	7	PROPN	_	Number=Sing	10	flat:name	_	_
+12	–	–	PUNCT	_	_	13	punct	_	_
+13	Etapas	etapas	PROPN	_	Gender=Fem|Number=Plur	1	appos	_	_
+14	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	13	acl	_	_
 
 # text = No caso do BPRh-43, a entrada de dados, bem como a simulação é feita no próprio programa.
-# sent_id = 182-20140922-MONOGRAFIA_0-170
+# sent_id = 182-20140922-MONOGRAFIA_0-172
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4587,7 +4752,7 @@
 23	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Vale ressaltar ainda que, o ECLIPSE simula pelo método das diferenças finitas o mesmo método utilizado na programação feita no BPRh-43.
-# sent_id = 182-20140922-MONOGRAFIA_0-171
+# sent_id = 182-20140922-MONOGRAFIA_0-173
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	ainda	ainda	ADV	_	_	2	advmod	_	_
@@ -4621,7 +4786,7 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Entretanto, a solução das diferenças finitas utilizada na programação do BPRh-43 foi a solução explicita, já no simulador comercial, é utilizado o método das diferenças finitas de solução implícita.
-# sent_id = 182-20140922-MONOGRAFIA_0-172
+# sent_id = 182-20140922-MONOGRAFIA_0-174
 1	Entretanto	entretanto	ADV	_	_	18	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4666,8 +4831,8 @@
 37	implícita	implícito	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
-# text = As simulações realizadas em ambos simuladores foram baseadas na estrutura do reservatório, nas propriedades do fluido, da rocha e nas condições iniciais pré- estabelecidas.
-# sent_id = 182-20140922-MONOGRAFIA_0-173
+# text = As simulações realizadas em ambos simuladores foram baseadas na estrutura do reservatório, nas propriedades do fluido, da rocha e nas condições iniciais pré-estabelecidas.
+# sent_id = 182-20140922-MONOGRAFIA_0-175
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	simulações	simulação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4702,14 +4867,13 @@
 27-28	nas	_	_	_	_	_	_	_	_
 27	em	em	ADP	_	_	29	case	_	_
 28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	condições	condição	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	_
+29	condições	condição	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
 30	iniciais	inicial	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
-31	pré-	pré-	PUNCT	_	_	32	punct	_	_
-32	estabelecidas	estabelecida	NOUN	_	Gender=Fem|Number=Plur	8	appos	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+31	pré-estabelecidas	pré-estabelecir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	29	acl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Todavia, a validação será feita comparando a coerência dos resultados em cinco anos de simulação.
-# sent_id = 182-20140922-MONOGRAFIA_0-174
+# sent_id = 182-20140922-MONOGRAFIA_0-176
 1	Todavia	todavia	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4731,7 +4895,7 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Serão mostrados os resultados obtidos no BPRh-43 e no Eclipse, respectivamente.
-# sent_id = 182-20140922-MONOGRAFIA_0-175
+# sent_id = 182-20140922-MONOGRAFIA_0-177
 1	Serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
 2	mostrados	mostrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -4751,7 +4915,7 @@
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = As comparações aqui feitas serão com base: • Vazão de produção Óleo;
-# sent_id = 182-20140922-MONOGRAFIA_0-176
+# sent_id = 182-20140922-MONOGRAFIA_0-178
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	comparações	comparação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	aqui	aqui	ADV	_	_	4	advmod	_	_
@@ -4768,7 +4932,7 @@
 14	;	;	PUNCT	_	_	7	punct	_	_
 
 # text = • Produção Acumulada de Óleo
-# sent_id = 182-20140922-MONOGRAFIA_0-177
+# sent_id = 182-20140922-MONOGRAFIA_0-179
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Produção	produção	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	Acumulada	Acumulada	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4776,7 +4940,7 @@
 5	Óleo	óleo	PROPN	_	Number=Sing	2	nmod	_	_
 
 # text = Na figura 8 abaixo que representa a Vazão de óleo versus Tempo entre os dois simuladores, podemos perceber que ocorre uma diferença numérica entre as vazões, porém as curvas simuladas possuem comportamentos similares, divergindo apenas por uma queda de vazão após o segundo ano de simulação do Eclipse que depois se mantém em um patamar constante, assim como no BPRh-43.
-# sent_id = 182-20140922-MONOGRAFIA_0-178
+# sent_id = 182-20140922-MONOGRAFIA_0-180
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4850,7 +5014,7 @@
 68	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = A figura 9 acima compara a coerência dos resultados entre o simulados BPRh-43 e o simulador comercial.
-# sent_id = 182-20140922-MONOGRAFIA_0-179
+# sent_id = 182-20140922-MONOGRAFIA_0-181
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
@@ -4873,7 +5037,7 @@
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A comparação entre as curvas geradas pelo ECLIPSE e pelo BPRh-43 nos mostra uma tendência de comportamento similar, levando-se em consideração a diferença no método de diferenças finitas empregado nos simuladores.
-# sent_id = 182-20140922-MONOGRAFIA_0-180
+# sent_id = 182-20140922-MONOGRAFIA_0-182
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -4921,7 +5085,7 @@
 39	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Podemos então perceber uma coerência relevante nos resultados obtidos no programa criado, chamado de BPRh-43, como pudemos ver na análise de vazão e produção acumulada de óleo.
-# sent_id = 182-20140922-MONOGRAFIA_0-181
+# sent_id = 182-20140922-MONOGRAFIA_0-183
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	então	então	ADV	_	_	1	advmod	_	_
 3	perceber	perceber	VERB	_	VerbForm=Inf	1	xcomp	_	_
@@ -4960,12 +5124,12 @@
 33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 6­ Conclusões
-# sent_id = 182-20140922-MONOGRAFIA_0-182
+# sent_id = 182-20140922-MONOGRAFIA_0-184
 1	6­	6­	PROPN	_	Number=Sing	0	root	_	_
 2	Conclusões	conclusões	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A simulação de reservatórios é sem duvida um importante passo para a exploração de campos de petróleo.
-# sent_id = 182-20140922-MONOGRAFIA_0-183
+# sent_id = 182-20140922-MONOGRAFIA_0-185
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4986,7 +5150,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O modelo proposto por este presente projeto mostrou resultados extremamente positivos no que diz respeito à resultados de vazão e produção acumulada de óleo.
-# sent_id = 182-20140922-MONOGRAFIA_0-184
+# sent_id = 182-20140922-MONOGRAFIA_0-186
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5018,7 +5182,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Existem muitos desafios para a continuação deste projeto, como: reservatório anisotrópico, grid tridimensional.
-# sent_id = 182-20140922-MONOGRAFIA_0-185
+# sent_id = 182-20140922-MONOGRAFIA_0-187
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	desafios	desafio	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -5040,7 +5204,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Este é o início de um trabalho.
-# sent_id = 182-20140922-MONOGRAFIA_0-186
+# sent_id = 182-20140922-MONOGRAFIA_0-188
 1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5051,7 +5215,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O modelo matemático (método das diferenças finitas) é coerente como pode se verificar e agora as sofisticações podem começar a ser feitas, já que, na Engenharia de Petróleo os aperfeiçoamentos devem ser contínuos, tendo em vista o melhoramento do simulador para tornar os resultados cada vez mais precisos e confiáveis.
-# sent_id = 182-20140922-MONOGRAFIA_0-187
+# sent_id = 182-20140922-MONOGRAFIA_0-189
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	matemático	matemático	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5116,7 +5280,7 @@
 59	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = Após comparar dois parâmetros vazão e produção acumulada de óleo, podemos concluir que o simulador denominado BPRh – 43 e válido, tendo poucas variações nos resultados quando comparado com um simulador comercial.
-# sent_id = 182-20140922-MONOGRAFIA_0-188
+# sent_id = 182-20140922-MONOGRAFIA_0-190
 1	Após	após	SCONJ	_	_	2	mark	_	_
 2	comparar	comparar	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	dois	dois	NUM	_	NumType=Card	4	nummod	_	_
@@ -5156,7 +5320,7 @@
 36	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Para estudos mais precisos, é necessário realizar um estudo de estabilidade do método de diferenças finitas, com a solução explícita, para avaliar as limitações do simulador criado.
-# sent_id = 182-20140922-MONOGRAFIA_0-189
+# sent_id = 182-20140922-MONOGRAFIA_0-191
 1	Para	para	ADP	_	_	2	case	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_

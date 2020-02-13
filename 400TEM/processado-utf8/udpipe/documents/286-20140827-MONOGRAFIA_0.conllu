@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 286-20140827-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO
@@ -472,10 +472,20 @@
 74	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	71	obl	_	_
 75	1	1	PROPN	_	Number=Sing	74	flat:name	_	SpaceAfter=No
 76	)	)	PUNCT	_	_	70	punct	_	SpaceAfter=No
-77	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+77	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
+
+# text = Fonte: RIZZON (2006).
+# sent_id = 286-20140827-MONOGRAFIA_0-14
+1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	RIZZON	RIZZON	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	2006	2006	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O cascalho poderia ser tratado utilizando soluções bastante ácidas.
-# sent_id = 286-20140827-MONOGRAFIA_0-14
+# sent_id = 286-20140827-MONOGRAFIA_0-15
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -488,7 +498,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Essas soluções se tornam bastante inviáveis, pois, apesar de remover os cloretos com eficiência, impossibilitam a reutilização do cascalho e geram um resíduo ainda mais prejudicial ao meio ambiente, e não pode ser desprezado em qualquer lugar, visto que poderá poluir mananciais subterrâneos com metais pesados e alterar o pH do lençol freático.
-# sent_id = 286-20140827-MONOGRAFIA_0-15
+# sent_id = 286-20140827-MONOGRAFIA_0-16
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	expl	_	_
@@ -556,7 +566,7 @@
 62	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Visando evitar problemas ambientais, procura-se a utilização de produtos biodegradáveis, de forma a manter a sustentabilidade do processo no geral.
-# sent_id = 286-20140827-MONOGRAFIA_0-16
+# sent_id = 286-20140827-MONOGRAFIA_0-17
 1	Visando	visar	VERB	_	VerbForm=Ger	0	root	_	_
 2	evitar	evitar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -588,7 +598,7 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Com o tratamento desse cascalho, as empresas de petróleo, que estão gastando para armazená-lo sem utilidade, passarão à ter uma possibilidade de venda desse subproduto para a indústria de construção civil.
-# sent_id = 286-20140827-MONOGRAFIA_0-17
+# sent_id = 286-20140827-MONOGRAFIA_0-18
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
@@ -634,7 +644,7 @@
 39	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Baseado nos argumentos apresentados anteriormente, a motivação principal desse trabalho é a de propor um método de tratamento para o cascalho rico em cloretos, utilizando para esse fim uma solução microemulsionada.
-# sent_id = 286-20140827-MONOGRAFIA_0-18
+# sent_id = 286-20140827-MONOGRAFIA_0-19
 1	Baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
 2-3	nos	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -672,15 +682,15 @@
 33	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	solução	solução	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
 35	microemulsionada	microemulsionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	34	acl	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = CAPÍTULO 2
-# sent_id = 286-20140827-MONOGRAFIA_0-19
+# sent_id = 286-20140827-MONOGRAFIA_0-20
 1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Aspectos Teóricos e Estado da Arte 2.
-# sent_id = 286-20140827-MONOGRAFIA_0-20
+# sent_id = 286-20140827-MONOGRAFIA_0-21
 1	Aspectos	aspecto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Teóricos	Teórico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -688,17 +698,17 @@
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Arte	arte	PROPN	_	Number=Sing	4	nmod	_	_
+7	Arte	arte	PROPN	_	Number=Sing	4	nmod	_	SpacesAfter=\s\n
 8	2	2	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = ASPECTOS TEÓRICOS
-# sent_id = 286-20140827-MONOGRAFIA_0-21
+# sent_id = 286-20140827-MONOGRAFIA_0-22
 1	ASPECTOS	aspecto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	TEÓRICOS	Teórico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # text = E ESTADO DA ARTE 2.1
-# sent_id = 286-20140827-MONOGRAFIA_0-22
+# sent_id = 286-20140827-MONOGRAFIA_0-23
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	ESTADO	estar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 3-4	DA	_	_	_	_	_	_	_	_
@@ -708,13 +718,13 @@
 6	2.1	2.1	NUM	_	NumType=Card	5	nummod	_	_
 
 # text = Cascalho de Petróleo
-# sent_id = 286-20140827-MONOGRAFIA_0-23
+# sent_id = 286-20140827-MONOGRAFIA_0-24
 1	Cascalho	Cascalho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Petróleo	Petróleo	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O cascalho de petróleo é originado da fragmentação das camadas rochosas no subsolo, devido à perfuração do poço de petróleo pela broca, mostrado na Figura 1
-# sent_id = 286-20140827-MONOGRAFIA_0-24
+# sent_id = 286-20140827-MONOGRAFIA_0-25
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -759,7 +769,7 @@
 35	1	1	NUM	_	NumType=Card	34	nummod	_	_
 
 # text = Esses cascalhos são carregados para a superfície pelo fluido de perfuração utilizado no poço, colocados em uma esteira, onde se inicia o processo de tratamento desses resíduos.
-# sent_id = 286-20140827-MONOGRAFIA_0-25
+# sent_id = 286-20140827-MONOGRAFIA_0-26
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	cascalhos	cascalho	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -798,7 +808,7 @@
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Sua composição física e química varia, pois será de acordo com as características das rochas que foram fragmentadas durante a perfuração.
-# sent_id = 286-20140827-MONOGRAFIA_0-26
+# sent_id = 286-20140827-MONOGRAFIA_0-27
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
 2	composição	composição	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	física	físico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -826,7 +836,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Ele é utilizado principalmente na indústria de construção civil para pavimentação de ruas e fabricação de concreto.
-# sent_id = 286-20140827-MONOGRAFIA_0-27
+# sent_id = 286-20140827-MONOGRAFIA_0-28
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -849,7 +859,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = No entanto, ele não pode ser utilizado para construção de edifícios e residências.
-# sent_id = 286-20140827-MONOGRAFIA_0-28
+# sent_id = 286-20140827-MONOGRAFIA_0-29
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	9	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -869,7 +879,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Figura 1 – Esquema de geração de cascalho de perfuração:
-# sent_id = 286-20140827-MONOGRAFIA_0-29
+# sent_id = 286-20140827-MONOGRAFIA_0-30
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	1	1	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -883,7 +893,7 @@
 11	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = A broca vai desgastando a rocha por atrito e reduzindo-a a tamanhos menores durante a perfuração.
-# sent_id = 286-20140827-MONOGRAFIA_0-30
+# sent_id = 286-20140827-MONOGRAFIA_0-31
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	broca	broca	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -905,7 +915,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O fluido de perfuração, por sua vez, carreará esses sólidos de volta para a superfície, conforme é indicado pela seta ascendente.
-# sent_id = 286-20140827-MONOGRAFIA_0-31
+# sent_id = 286-20140827-MONOGRAFIA_0-32
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -934,8 +944,8 @@
 25	ascendente	ascendente	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = Fonte: Fluido de perfuração, pesquisado em <<http://www.ebah.com.br/content/ABAAAAVAoAE/fluidos- perfuracao>>, acessado em 31 de março de 2014.
-# sent_id = 286-20140827-MONOGRAFIA_0-32
+# text = Fonte: Fluido de perfuração, pesquisado em <<http://www.ebah.com.br/content/ABAAAAVAoAE/fluidos-perfuracao>>, acessado em 31 de março de 2014.
+# sent_id = 286-20140827-MONOGRAFIA_0-33
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -945,28 +955,34 @@
 7	pesquisado	pesquisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
 8	em	em	ADP	_	_	10	case	_	_
 9	<<http://	<<http://	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	www.ebah.com.br/content/ABAAAAVAoAE/fluidos-	www.ebah.com.br/content/abaaaavaoae/fluidos-	PROPN	_	Number=Sing	7	obl	_	_
-11	perfuracao>>	perfuracao>>	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	7	punct	_	_
-13	acessado	acessado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+10	www.ebah.com.br/content/ABAAAAVAoAE/fluidos-perfuracao	www.ebah.com.br/content/ABAAAAVAoAE/fluidos-perfuracao	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	>>	>>	SYM	_	_	3	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	acessado	acessado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
 14	em	em	ADP	_	_	15	case	_	_
 15	31	31	NUM	_	NumType=Card	13	obl	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	março	março	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	2014	2014	NUM	_	NumType=Card	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
-# text = 2.2 Extração Sólido-Líquido: Lixiviação
-# sent_id = 286-20140827-MONOGRAFIA_0-33
-1	2.2	2.2	NUM	_	NumType=Card	2	nummod	_	_
-2	Extração	extração	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-3	Sólido-Líquido	Sólido-líquido	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
-4	:	:	PUNCT	_	_	2	punct	_	_
-5	Lixiviação	Lixiviação	PROPN	_	Number=Sing	2	flat:name	_	_
+# text = 2.2
+# sent_id = 286-20140827-MONOGRAFIA_0-34
+1	2.2	2.2	NUM	_	NumType=Card	0	root	_	_
+
+# text = Extração Sólido-Líquido:
+# sent_id = 286-20140827-MONOGRAFIA_0-35
+1	Extração	extração	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Sólido-Líquido	Sólido-líquido	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Lixiviação
+# sent_id = 286-20140827-MONOGRAFIA_0-36
+1	Lixiviação	Lixiviação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Segundo MCCABE et al. (1993), lixiviação é uma operação de transferência de massa, a qual é utilizada para dissolver uma substância solúvel da sua mistura com um sólido insolúvel.
-# sent_id = 286-20140827-MONOGRAFIA_0-34
+# sent_id = 286-20140827-MONOGRAFIA_0-37
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	MCCABE	MCCABE	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -1005,7 +1021,7 @@
 35	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A quantidade de material solúvel removível é geralmente maior que o filtrado, podendo as propriedades do sólido serem alteradas consideravelmente durante a operação.
-# sent_id = 286-20140827-MONOGRAFIA_0-35
+# sent_id = 286-20140827-MONOGRAFIA_0-38
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1035,7 +1051,7 @@
 26	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Sólidos que formam um leito impermeável, seja antes ou durante a lixiviação, são imersos na solução do solvente extrator e submetidos a agitação mecânica feita em um tanque ou em qualquer recipiente misturador.
-# sent_id = 286-20140827-MONOGRAFIA_0-36
+# sent_id = 286-20140827-MONOGRAFIA_0-39
 1	Sólidos	Sólido	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	formam	formar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
@@ -1078,7 +1094,7 @@
 38	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = O soluto contido no inerte se dissolverá no solvente a partir da agitação do sistema.
-# sent_id = 286-20140827-MONOGRAFIA_0-37
+# sent_id = 286-20140827-MONOGRAFIA_0-40
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	soluto	soluto	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	contido	conter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
@@ -1105,7 +1121,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Segundo OCON e TOJO (1978), a quantidade de soluto que o solvente dissolverá depende da saturação da mistura, a qual depende da temperatura e pressão.
-# sent_id = 286-20140827-MONOGRAFIA_0-38
+# sent_id = 286-20140827-MONOGRAFIA_0-41
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	OCON	OCON	PROPN	_	Gender=Masc|Number=Sing	17	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -1144,7 +1160,7 @@
 33	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Após a agitação mecânica, o inerte é separado da solução concentrada por filtração ou sedimentação.
-# sent_id = 286-20140827-MONOGRAFIA_0-39
+# sent_id = 286-20140827-MONOGRAFIA_0-42
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -1166,7 +1182,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Existem diversos parâmetros que podem ser analisados, a fim de se obter melhores resultados em uma lixiviação.
-# sent_id = 286-20140827-MONOGRAFIA_0-40
+# sent_id = 286-20140827-MONOGRAFIA_0-43
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -1188,7 +1204,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = São eles: a.
-# sent_id = 286-20140827-MONOGRAFIA_0-41
+# sent_id = 286-20140827-MONOGRAFIA_0-44
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -1196,7 +1212,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Granulometria do sólido; b.
-# sent_id = 286-20140827-MONOGRAFIA_0-42
+# sent_id = 286-20140827-MONOGRAFIA_0-45
 1	Granulometria	Granulometria	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1206,22 +1222,25 @@
 6	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Tempo de extração; c. Velocidade de agitação; d.
-# sent_id = 286-20140827-MONOGRAFIA_0-43
-1	Tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+# text = Tempo de extração; c.
+# sent_id = 286-20140827-MONOGRAFIA_0-46
+1	Tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	extração	extração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 4	;	;	PUNCT	_	_	1	punct	_	_
-5	c.	c.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-6	Velocidade	velocidade	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-9	;	;	PUNCT	_	_	10	punct	_	_
-10	d	d	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	_
+5	c.	c.	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+
+# text = Velocidade de agitação; d.
+# sent_id = 286-20140827-MONOGRAFIA_0-47
+1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	;	;	PUNCT	_	_	5	punct	_	_
+5	d	d	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentração do solvente; e.
-# sent_id = 286-20140827-MONOGRAFIA_0-44
+# sent_id = 286-20140827-MONOGRAFIA_0-48
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1232,7 +1251,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Razão inerte:solvente; f.
-# sent_id = 286-20140827-MONOGRAFIA_0-45
+# sent_id = 286-20140827-MONOGRAFIA_0-49
 1	Razão	razão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	inerte:	inerte:	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	solvente	solvente	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
@@ -1240,7 +1259,7 @@
 5	f.	f.	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = pH de extração; g. Pressão; h.
-# sent_id = 286-20140827-MONOGRAFIA_0-46
+# sent_id = 286-20140827-MONOGRAFIA_0-50
 1	pH	ph	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	extração	extração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -1252,12 +1271,12 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Temperatura.
-# sent_id = 286-20140827-MONOGRAFIA_0-47
+# sent_id = 286-20140827-MONOGRAFIA_0-51
 1	Temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Além da escolha dos parâmetros para extração, é preciso escolher a técnica empregada para se extrair o soluto.
-# sent_id = 286-20140827-MONOGRAFIA_0-48
+# sent_id = 286-20140827-MONOGRAFIA_0-52
 1	Além	além	ADV	_	_	12	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1284,7 +1303,7 @@
 22	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Para se realizar a extração sólido-líquido, há várias técnicas de operação, as quais variam de acordo com o objetivo final que se deseja.
-# sent_id = 286-20140827-MONOGRAFIA_0-49
+# sent_id = 286-20140827-MONOGRAFIA_0-53
 1	Para	para	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	realizar	realizar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	8	advcl	_	_
@@ -1313,7 +1332,7 @@
 26	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Entre esses métodos estão: a.
-# sent_id = 286-20140827-MONOGRAFIA_0-50
+# sent_id = 286-20140827-MONOGRAFIA_0-54
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	métodos	método	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
@@ -1323,11 +1342,11 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Extração
-# sent_id = 286-20140827-MONOGRAFIA_0-51
+# sent_id = 286-20140827-MONOGRAFIA_0-55
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Sólido-Líquido em batelada; b.
-# sent_id = 286-20140827-MONOGRAFIA_0-52
+# sent_id = 286-20140827-MONOGRAFIA_0-56
 1	Sólido-Líquido	Sólido-Líquir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	batelada	batelada	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
@@ -1336,11 +1355,11 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Extração
-# sent_id = 286-20140827-MONOGRAFIA_0-53
+# sent_id = 286-20140827-MONOGRAFIA_0-57
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Sólido-Líquido por corrente contínua, em n-etapas; c.
-# sent_id = 286-20140827-MONOGRAFIA_0-54
+# sent_id = 286-20140827-MONOGRAFIA_0-58
 1	Sólido-Líquido	Sólido-Líquir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	1	obl:agent	_	_
@@ -1352,7 +1371,7 @@
 9	c.	c.	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Extração Sólido-Líquido por corrente alternada, em n-etapas; d.
-# sent_id = 286-20140827-MONOGRAFIA_0-55
+# sent_id = 286-20140827-MONOGRAFIA_0-59
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 2	Sólido-Líquido	Sólido-Líquir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -1366,11 +1385,11 @@
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Extração
-# sent_id = 286-20140827-MONOGRAFIA_0-56
+# sent_id = 286-20140827-MONOGRAFIA_0-60
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Sólido-Líquido por Corrente Cruzada, em n-etapas.
-# sent_id = 286-20140827-MONOGRAFIA_0-57
+# sent_id = 286-20140827-MONOGRAFIA_0-61
 1	Sólido-Líquido	Sólido-Líquir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	Corrente	corrente	PROPN	_	Gender=Masc|Number=Sing	1	obl:agent	_	_
@@ -1378,10 +1397,10 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	em	em	ADP	_	_	7	case	_	_
 7	n-etapas	n-etapa	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = As extrações em diversas etapas são feitas em equipamentos específicos para extração sólido - líquido.
-# sent_id = 286-20140827-MONOGRAFIA_0-58
+# sent_id = 286-20140827-MONOGRAFIA_0-62
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	extrações	extração	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -1400,7 +1419,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Entre os mais conhecidos, estão os extratores Bollman e os extratores Hildebrandt, conforme ilustrado na Figura 2.
-# sent_id = 286-20140827-MONOGRAFIA_0-59
+# sent_id = 286-20140827-MONOGRAFIA_0-63
 1	Entre	entre	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -1425,7 +1444,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Fonte: MCCABE, SMITH e HARRIOT (1993), Unit Operations of Chemical Engineering.
-# sent_id = 286-20140827-MONOGRAFIA_0-60
+# sent_id = 286-20140827-MONOGRAFIA_0-64
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	MCCABE	MCCABE	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -1445,7 +1464,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Nesse trabalho, será testada a lixiviação em batelada, utilizando um único estágio, sendo o solvente uma solução de microemulsão, e o inerte sendo o cascalho de perfuração de petróleo.
-# sent_id = 286-20140827-MONOGRAFIA_0-61
+# sent_id = 286-20140827-MONOGRAFIA_0-65
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -1484,7 +1503,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A escolha dessa técnica de lixiviação foi motivada para tornar o processo de extração de cloreto mais barato, visto que aquisição de um dos extratores da Figura 2 tornaria o estudo bem mais dispendioso.
-# sent_id = 286-20140827-MONOGRAFIA_0-62
+# sent_id = 286-20140827-MONOGRAFIA_0-66
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	dessa	_	_	_	_	_	_	_	_
@@ -1529,15 +1548,15 @@
 39	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 2.3
-# sent_id = 286-20140827-MONOGRAFIA_0-63
+# sent_id = 286-20140827-MONOGRAFIA_0-67
 1	2.3	2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Tensoativos
-# sent_id = 286-20140827-MONOGRAFIA_0-64
+# sent_id = 286-20140827-MONOGRAFIA_0-68
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Tensoativos são moléculas de caráter anfifílico, ou seja, possuem em sua estrutura uma parte de caráter hidrofílico (possui afinidade com moléculas polares) e outra de caráter hidrofóbico (possui afinidade com moléculas apolares).
-# sent_id = 286-20140827-MONOGRAFIA_0-65
+# sent_id = 286-20140827-MONOGRAFIA_0-69
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -1579,7 +1598,7 @@
 39	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A Figura 3 é uma ilustração geral de uma molécula de tensoativo.
-# sent_id = 286-20140827-MONOGRAFIA_0-66
+# sent_id = 286-20140827-MONOGRAFIA_0-70
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	3	3	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -1592,10 +1611,10 @@
 10	molécula	molécula	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 3 – Representação ilustrativa de uma molécula de tensoativo.
-# sent_id = 286-20140827-MONOGRAFIA_0-67
+# sent_id = 286-20140827-MONOGRAFIA_0-71
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -1609,7 +1628,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Ao inserir um tensoativo em um meio contendo uma substância polar e outra apolar, a região hidrofílica do tensoativo ficará em contato com a substância polar, enquanto que a região hidrofóbica ficará em contato com a substância apolar.
-# sent_id = 286-20140827-MONOGRAFIA_0-68
+# sent_id = 286-20140827-MONOGRAFIA_0-72
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1657,7 +1676,7 @@
 43	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Esse fenômeno, denominado de adsorção, forma um filme molecular, que vai gerar diminuição da tensão superficial da mistura, possibilitando a mistura dessas duas fases anteriormente imiscíveis.
-# sent_id = 286-20140827-MONOGRAFIA_0-69
+# sent_id = 286-20140827-MONOGRAFIA_0-73
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -1697,7 +1716,7 @@
 34	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos podem ser diferenciados em iônicos e não iônicos (conforme ilustrado na Figura 4), dependendo da carga elétrica que eles possuem na região polar da molécula: a.
-# sent_id = 286-20140827-MONOGRAFIA_0-70
+# sent_id = 286-20140827-MONOGRAFIA_0-74
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1741,13 +1760,13 @@
 37	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Tensoativos iônicos:
-# sent_id = 286-20140827-MONOGRAFIA_0-71
+# sent_id = 286-20140827-MONOGRAFIA_0-75
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	iônicos	iônico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = São tensoativos que ao se dissociarem, geram carga na sua região polar.
-# sent_id = 286-20140827-MONOGRAFIA_0-72
+# sent_id = 286-20140827-MONOGRAFIA_0-76
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 3	que	que	SCONJ	_	_	9	mark	_	_
@@ -1768,7 +1787,7 @@
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Eles podem ser caracterizados em três grupos diferentes:  Tensoativos catiônicos:
-# sent_id = 286-20140827-MONOGRAFIA_0-73
+# sent_id = 286-20140827-MONOGRAFIA_0-77
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj:pass	_	_
 2	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -1784,7 +1803,7 @@
 13	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Tensoativos que geram carga positiva em sua região polar;  Tensoativos aniônicos:
-# sent_id = 286-20140827-MONOGRAFIA_0-74
+# sent_id = 286-20140827-MONOGRAFIA_0-78
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
@@ -1801,7 +1820,7 @@
 14	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tensoativos que geram carga negativa em sua região polar;  Tensoativos anfóteros:
-# sent_id = 286-20140827-MONOGRAFIA_0-75
+# sent_id = 286-20140827-MONOGRAFIA_0-79
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
@@ -1818,7 +1837,7 @@
 14	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tensoativos que geram carga positiva e negativa em sua região polar; b.
-# sent_id = 286-20140827-MONOGRAFIA_0-76
+# sent_id = 286-20140827-MONOGRAFIA_0-80
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	geram	gerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
@@ -1835,13 +1854,13 @@
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tensoativos não-iônicos:
-# sent_id = 286-20140827-MONOGRAFIA_0-77
+# sent_id = 286-20140827-MONOGRAFIA_0-81
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	não-iônicos	não-iônico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = São tensoativos que não geram carga alguma ao se dissociarem em solução aquosa.
-# sent_id = 286-20140827-MONOGRAFIA_0-78
+# sent_id = 286-20140827-MONOGRAFIA_0-82
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	5	nsubj	_	_
@@ -1860,13 +1879,13 @@
 15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 4 –
-# sent_id = 286-20140827-MONOGRAFIA_0-79
+# sent_id = 286-20140827-MONOGRAFIA_0-83
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Ilustração de tensoativos iônicos e não-iônicos.
-# sent_id = 286-20140827-MONOGRAFIA_0-80
+# sent_id = 286-20140827-MONOGRAFIA_0-84
 1	Ilustração	ilustração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -1875,60 +1894,63 @@
 6	não-iônicos	não-iônico	ADJ	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Fonte: Tensoativos iônicos, pesquisado em <<http://blog.newtonpaiva.br/pos/e6-farm-23-biotensoativos-uma- alternativa-mais-limpa-para-as-industrias-de-cosmeticos/>>, acessado em 31 de março de 2014.
-# sent_id = 286-20140827-MONOGRAFIA_0-81
+# text = Fonte: Tensoativos iônicos, pesquisado em <<http://blog.newtonpaiva.br/pos/e6-farm-23-biotensoativos-uma-alternativa-mais-limpa-para-as-industrias-de-cosmeticos/>>, acessado em 31 de março de 2014.
+# sent_id = 286-20140827-MONOGRAFIA_0-85
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 4	iônicos	iônico	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	pesquisado	pesquisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
-7	em	em	ADP	_	_	9	case	_	_
-8	<<http://	<<http://	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	blog.newtonpaiva.br/pos/e6-farm-23-biotensoativos-uma-	blog.newtonpaiva.br/pos/e6-farm-23-biotensoativos-uma-	SYM	_	_	6	obl	_	_
-10	alternativa-mais-limpa-para-as-industrias-de-cosmeticos/>>	alternativa-mais-limpa-para-as-industrias-de-cosmeticos/>>	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	acessado	acessado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	<<http://	<<http://	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	blog.newtonpaiva.br/pos/e6-farm-23-biotensoativos-uma-alternativa-mais-limpa-para-as-industrias-de-cosmeticos/	blog.newtonpaiva.br/pos/e6-farm-23-biotensoativos-uma-alternativa-mais-limpa-para-as-industrias-de-cosmeticos/	CCONJ	_	_	10	cc	_	SpaceAfter=No
+10	>>	>>	SYM	_	_	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	acessado	acessado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
 13	em	em	ADP	_	_	14	case	_	_
 14	31	31	NUM	_	NumType=Card	12	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	março	março	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	2014	2014	NUM	_	NumType=Card	16	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 2.4
-# sent_id = 286-20140827-MONOGRAFIA_0-82
+# sent_id = 286-20140827-MONOGRAFIA_0-86
 1	2.4	2.4	NUM	_	NumType=Card	0	root	_	_
 
-# text = Microemulsão Segundo NAJJAR (2012), microemulsão é uma mistura homogênea que contém três, ou até mesmo quatro fases distintas:
-# sent_id = 286-20140827-MONOGRAFIA_0-83
-1	Microemulsão	Microemulsão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-2	Segundo	segundo	ADP	_	_	3	case	_	_
-3	NAJJAR	NAJJAR	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	2012	2012	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-12	homogênea	homogêneo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
-14	contém	contir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
-15	três	três	NUM	_	NumType=Card	14	obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	21	punct	_	_
-17	ou	ou	CCONJ	_	_	21	cc	_	_
-18	até	até	ADP	_	_	21	case	_	_
-19	mesmo	mesmo	ADV	_	_	20	advmod	_	_
-20	quatro	quatro	NUM	_	NumType=Card	21	nummod	_	_
-21	fases	fase	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
-22	distintas	distinto	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	11	punct	_	_
+# text = Microemulsão
+# sent_id = 286-20140827-MONOGRAFIA_0-87
+1	Microemulsão	Microemulsão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+
+# text = Segundo NAJJAR (2012), microemulsão é uma mistura homogênea que contém três, ou até mesmo quatro fases distintas:
+# sent_id = 286-20140827-MONOGRAFIA_0-88
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	NAJJAR	NAJJAR	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	2012	2012	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	homogênea	homogêneo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
+13	contém	contir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	três	três	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	ou	ou	CCONJ	_	_	20	cc	_	_
+17	até	até	ADP	_	_	20	case	_	_
+18	mesmo	mesmo	ADV	_	_	19	advmod	_	_
+19	quatro	quatro	NUM	_	NumType=Card	20	nummod	_	_
+20	fases	fase	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+21	distintas	distinto	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	10	punct	_	_
 
 # text = Uma fase óleo, uma fase aquosa e uma fase formada por tensoativos, ou surfactantes (podendo haver também uma quarta fase, formada por um cotensoativo, ou cosurfactante).
-# sent_id = 286-20140827-MONOGRAFIA_0-84
+# sent_id = 286-20140827-MONOGRAFIA_0-89
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
@@ -1964,73 +1986,74 @@
 33	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = ROSSI (2007) diz que dependendo da fração dos constituintes da mistura, uma microemulsão pode ser classificada como microemulsão água/óleo (gotas de água dispersas na fase óleo), microemulsão óleo/água (gotas de óleo dispersas na fase aquosa), conforme esquematizado na Figura 5.
-# sent_id = 286-20140827-MONOGRAFIA_0-85
-1	ROSSI	Rosse	PRON	_	Gender=Unsp|PronType=Prs	4	nsubj	_	_
-2	(2007	(2007	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	)	)	PUNCT	_	_	1	punct	_	_
-4	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	que	que	SCONJ	_	_	6	mark	_	_
-6	dependendo	depender	VERB	_	VerbForm=Ger	19	advcl	_	_
-7-8	da	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	fração	fração	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-10-11	dos	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	constituintes	constituinte	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-13-14	da	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	6	punct	_	_
-17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
-19	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
-20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
-21	classificada	classificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	xcomp	_	_
-22	como	como	ADP	_	_	23	case	_	_
-23	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	21	xcomp	_	_
-24	água	águo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
-25	/	/	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	37	conj	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	gotas	gota	NOUN	_	Gender=Fem|Number=Plur	26	appos	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	água	água	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
-31	dispersas	dispernder	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	35	acl	_	_
-32-33	na	_	_	_	_	_	_	_	_
-32	em	em	ADP	_	_	34	case	_	_
-33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	fase	fase	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
-35	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
-36	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	38	punct	_	_
-38	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
-39	óleo/água	óleo/águo	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
-40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
-41	gotas	gota	NOUN	_	Gender=Fem|Number=Plur	38	appos	_	_
-42	de	de	ADP	_	_	43	case	_	_
-43	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
-44	dispersas	dispernder	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	43	acl	_	_
-45-46	na	_	_	_	_	_	_	_	_
-45	em	em	ADP	_	_	47	case	_	_
-46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	fase	fase	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
-48	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
-49	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	21	punct	_	_
-51	conforme	conforme	SCONJ	_	_	52	mark	_	_
-52	esquematizado	esquematizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_
-53-54	na	_	_	_	_	_	_	_	_
-53	em	em	ADP	_	_	55	case	_	_
-54	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
-55	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	52	obl	_	_
-56	5	5	PROPN	_	Number=Sing	55	flat:name	_	SpaceAfter=No
-57	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+# sent_id = 286-20140827-MONOGRAFIA_0-90
+1	ROSSI	Rosse	PRON	_	Gender=Unsp|PronType=Prs	5	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	2007	2007	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	7	mark	_	_
+7	dependendo	depender	VERB	_	VerbForm=Ger	20	advcl	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fração	fração	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	constituintes	constituinte	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+20	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+21	ser	ser	AUX	_	VerbForm=Inf	22	aux:pass	_	_
+22	classificada	classificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+23	como	como	ADP	_	_	24	case	_	_
+24	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	22	xcomp	_	_
+25	água	águo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	/	/	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	gotas	gota	NOUN	_	Gender=Fem|Number=Plur	27	appos	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	água	água	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+32	dispersas	dispernder	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	36	acl	_	_
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	fase	fase	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+36	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	22	appos	_	_
+40	óleo/água	óleo/águo	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	gotas	gota	NOUN	_	Gender=Fem|Number=Plur	39	appos	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+45	dispersas	dispernder	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	44	acl	_	_
+46-47	na	_	_	_	_	_	_	_	_
+46	em	em	ADP	_	_	48	case	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	fase	fase	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
+49	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	22	punct	_	_
+52	conforme	conforme	SCONJ	_	_	53	mark	_	_
+53	esquematizado	esquematizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
+54-55	na	_	_	_	_	_	_	_	_
+54	em	em	ADP	_	_	56	case	_	_
+55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	53	obl	_	_
+57	5	5	PROPN	_	Number=Sing	56	flat:name	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 5 – Esquema ilustrativo de microemulsão água/óleo (à esquerda) e microemulsão óleo/água (à direita).
-# sent_id = 286-20140827-MONOGRAFIA_0-86
+# sent_id = 286-20140827-MONOGRAFIA_0-91
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -2060,7 +2083,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: ROSSI (2007).
-# sent_id = 286-20140827-MONOGRAFIA_0-87
+# sent_id = 286-20140827-MONOGRAFIA_0-92
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ROSSI	Rossi	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -2070,7 +2093,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Segundo NAJJAR (2012), as microemulsões, diferentes das emulsões, são termodinamicamente estáveis.
-# sent_id = 286-20140827-MONOGRAFIA_0-88
+# sent_id = 286-20140827-MONOGRAFIA_0-93
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	NAJJAR	NAJJAR	PROPN	_	Gender=Masc|Number=Sing	17	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2092,7 +2115,7 @@
 18	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Além disso, as gotículas da microemulsão são bem menores que as das emulsões, estando na ordem de 1-500 nm.
-# sent_id = 286-20140827-MONOGRAFIA_0-89
+# sent_id = 286-20140827-MONOGRAFIA_0-94
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2125,7 +2148,7 @@
 26	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = OLIVEIRA et al (2004) diz a estabilidade termodinâmica da microemulsão é alcançada depois de se reduzir a quase zero a tensão superficial na interface dos líquidos.
-# sent_id = 286-20140827-MONOGRAFIA_0-90
+# sent_id = 286-20140827-MONOGRAFIA_0-95
 1	OLIVEIRA	Oliveira	ADV	_	_	2	advmod	_	_
 2	et	et	X	_	Number=Sing	7	nsubj	_	_
 3	al	al	ADP	_	_	5	case	_	_
@@ -2163,7 +2186,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Os sistemas microemulsionados são classificados segundo WINSOR de quatro formas (Figura 6): a.
-# sent_id = 286-20140827-MONOGRAFIA_0-91
+# sent_id = 286-20140827-MONOGRAFIA_0-96
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	microemulsionados	microemulsionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -2183,7 +2206,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Winsor-IV (WIV):
-# sent_id = 286-20140827-MONOGRAFIA_0-92
+# sent_id = 286-20140827-MONOGRAFIA_0-97
 1	Winsor-IV	Winsor-iv	NUM	_	NumType=Card	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	WIV	WIV	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
@@ -2191,7 +2214,7 @@
 5	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema monofásico, composto somente por microemulsão.
-# sent_id = 286-20140827-MONOGRAFIA_0-93
+# sent_id = 286-20140827-MONOGRAFIA_0-98
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	monofásico	monofásico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2202,7 +2225,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = b. Winsor-II (WII):
-# sent_id = 286-20140827-MONOGRAFIA_0-94
+# sent_id = 286-20140827-MONOGRAFIA_0-99
 1	b	bado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	Winsor-II	Winsor-II	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -2212,7 +2235,7 @@
 7	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema bifásico, composto por uma fase de microemulsão em equilíbrio com uma fase aquosa em excesso; c. Winsor-III (WIII):
-# sent_id = 286-20140827-MONOGRAFIA_0-95
+# sent_id = 286-20140827-MONOGRAFIA_0-100
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	bifásico	bifásico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2230,7 +2253,7 @@
 15	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 16	em	em	ADP	_	_	17	case	_	_
 17	excesso	excesso	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-18	;	;	PUNCT	_	_	1	punct	_	_
+18	;	;	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 19	c.	c.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 20	Winsor-III	Winsor-III	PROPN	_	Gender=Fem|Number=Sing	19	appos	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
@@ -2239,7 +2262,7 @@
 24	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema trifásico, composto por fase microemulsão em equilíbrio com uma fase óleo uma fase aquosa em excesso; d.
-# sent_id = 286-20140827-MONOGRAFIA_0-96
+# sent_id = 286-20140827-MONOGRAFIA_0-101
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	trifásico	trifásico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2262,7 +2285,7 @@
 20	d.	d.	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Winsor-I (WI):
-# sent_id = 286-20140827-MONOGRAFIA_0-97
+# sent_id = 286-20140827-MONOGRAFIA_0-102
 1	Winsor-I	Winsor-I	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	WI	WI	PROPN	_	Gender=Masc|Number=Sing	1	appos:parataxis	_	SpaceAfter=No
@@ -2270,7 +2293,7 @@
 5	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema bifásico, formado por uma fase microemulsão em equilíbrio com uma fase óleo em excesso.
-# sent_id = 286-20140827-MONOGRAFIA_0-98
+# sent_id = 286-20140827-MONOGRAFIA_0-103
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	bifásico	bifásico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2290,7 +2313,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 6-Comportamento de fases de uma microemulsão, segundo Winsor.
-# sent_id = 286-20140827-MONOGRAFIA_0-99
+# sent_id = 286-20140827-MONOGRAFIA_0-104
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	6-Comportamento	6-Comportamento	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2304,7 +2327,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: NAJJAR (2012).
-# sent_id = 286-20140827-MONOGRAFIA_0-100
+# sent_id = 286-20140827-MONOGRAFIA_0-105
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	NAJJAR	NAJJAR	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -2314,7 +2337,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Esses comportamentos de fases segundo Winsor são observados experimentalmente durante a elaboração do diagrama ternário que se vai utilizar nos experimentos.
-# sent_id = 286-20140827-MONOGRAFIA_0-101
+# sent_id = 286-20140827-MONOGRAFIA_0-106
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	comportamentos	comportamento	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2343,12 +2366,12 @@
 24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 2.5.
-# sent_id = 286-20140827-MONOGRAFIA_0-102
+# sent_id = 286-20140827-MONOGRAFIA_0-107
 1	2.5	2.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estado da Arte Atualmente, há diversos estudos a respeito de lixiviação, porém não se encontra estudos a respeito da extração de cloretos utilizando microemulsão como solvente.
-# sent_id = 286-20140827-MONOGRAFIA_0-103
+# sent_id = 286-20140827-MONOGRAFIA_0-108
 1	Estado	estado	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2384,7 +2407,7 @@
 31	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = ALEX et al. (2014), estudaram a reatividade da boemita, analisando a influência da velocidade de agitação, tempo de agitação, razão inerte-solvente e granulometria do sólido, a pressão e temperatura ambiente.
-# sent_id = 286-20140827-MONOGRAFIA_0-104
+# sent_id = 286-20140827-MONOGRAFIA_0-109
 1	ALEX	Alex	ADP	_	_	2	case	_	_
 2	et	et	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 3	al.	al.	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
@@ -2431,7 +2454,7 @@
 41	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Já ZÁRATE-GUTIÉRREZ e LAPIDUS (2014) estudaram a termodinâmica e a cinética de lixiviação da anglesita, alterando a granulometria do minério, velocidade de agitação e pH do meio.
-# sent_id = 286-20140827-MONOGRAFIA_0-105
+# sent_id = 286-20140827-MONOGRAFIA_0-110
 1	Já	já	ADV	_	_	2	advmod	_	_
 2	ZÁRATE-GUTIÉRREZ	ZÁRATE-GUTIÉRREZ	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -2472,7 +2495,7 @@
 35	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Por outro lado, RADOJKOVIĆ et al. (2012) estudaram a influência da concentração de álcool (solvente) em água, temperatura e razão inerte: solvente na extração de compostos fenólicos da folha de amora, um composto orgânico, diferente dos outros dois trabalhos.
-# sent_id = 286-20140827-MONOGRAFIA_0-106
+# sent_id = 286-20140827-MONOGRAFIA_0-111
 1	Por	por	ADP	_	_	11	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
@@ -2532,7 +2555,7 @@
 53	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = O tema extração utilizando microemulsões já vem sendo estudado há algum tempo.
-# sent_id = 286-20140827-MONOGRAFIA_0-107
+# sent_id = 286-20140827-MONOGRAFIA_0-112
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tema	tema	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	extração	extração	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -2548,7 +2571,7 @@
 13	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = SONG, LU e LIN (2007) estudaram a uso de microemulsões na extração de pireno e fenantreno (dois compostos orgânicos) de solo contaminado.
-# sent_id = 286-20140827-MONOGRAFIA_0-108
+# sent_id = 286-20140827-MONOGRAFIA_0-113
 1	SONG	Song	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	LU	Lu	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -2581,7 +2604,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Já ROMERO, KEUNCHKARIAN e RETA (2006) estudaram o uso de microemulsões para extração aminas biogênicas (extração do tipo líquido-líquido de compostos orgânicos).
-# sent_id = 286-20140827-MONOGRAFIA_0-109
+# sent_id = 286-20140827-MONOGRAFIA_0-114
 1	Já	já	ADV	_	_	2	advmod	_	_
 2	ROMERO	ROMERO	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2611,10 +2634,10 @@
 26	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 27	orgânicos	orgânico	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Baseando-se nos parâmetros de análise da lixiviação escolhidos por ALEX et al. (2014), os quais coincidem com os de OCON e TOJO (1978), sugere-se que os mesmos parâmetros sejam utilizados nesse estudo.
-# sent_id = 286-20140827-MONOGRAFIA_0-110
+# sent_id = 286-20140827-MONOGRAFIA_0-115
 1-2	Baseando-se	_	_	_	_	_	_	_	_
 1	Baseando	Basear	VERB	_	VerbForm=Ger	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -2663,38 +2686,38 @@
 41	em	em	ADP	_	_	43	case	_	_
 42	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	43	det	_	_
 43	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = CAPÍTULO 3
-# sent_id = 286-20140827-MONOGRAFIA_0-111
+# sent_id = 286-20140827-MONOGRAFIA_0-116
 1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Materiais e Métodos 3.
-# sent_id = 286-20140827-MONOGRAFIA_0-112
+# sent_id = 286-20140827-MONOGRAFIA_0-117
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
-3	Métodos	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	conj	_	_
+3	Métodos	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	conj	_	SpacesAfter=\s\n
 4	3	3	NUM	_	NumType=Card	1	flat	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = MATERIAIS
-# sent_id = 286-20140827-MONOGRAFIA_0-113
+# sent_id = 286-20140827-MONOGRAFIA_0-118
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E MÉTODOS 3.1
-# sent_id = 286-20140827-MONOGRAFIA_0-114
+# sent_id = 286-20140827-MONOGRAFIA_0-119
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	MÉTODOS	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 3	3.1	3.1	NUM	_	NumType=Card	2	obj	_	_
 
 # text = Materiais utilizados
-# sent_id = 286-20140827-MONOGRAFIA_0-115
+# sent_id = 286-20140827-MONOGRAFIA_0-120
 1	Materiais	material	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 
 # text = O cascalho utilizado (Figura 7) na pesquisa foi retirado de um campo de produção de Mossoró durante uma operação de perfuração.
-# sent_id = 286-20140827-MONOGRAFIA_0-116
+# sent_id = 286-20140827-MONOGRAFIA_0-121
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -2723,7 +2746,7 @@
 25	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Ele possui granulometria variada.
-# sent_id = 286-20140827-MONOGRAFIA_0-117
+# sent_id = 286-20140827-MONOGRAFIA_0-122
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	granulometria	granulometria	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -2731,7 +2754,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Faz-se necessário realizar o seu peneiramento para realizar o estudo de extração de cloretos com uma granulometria fixa.
-# sent_id = 286-20140827-MONOGRAFIA_0-118
+# sent_id = 286-20140827-MONOGRAFIA_0-123
 1-2	Faz-se	_	_	_	_	_	_	_	_
 1	Faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -2755,7 +2778,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 7 – Foto do cascalho de perfuração utilizado durante o trabalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-119
+# sent_id = 286-20140827-MONOGRAFIA_0-124
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -2773,14 +2796,14 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-120
+# sent_id = 286-20140827-MONOGRAFIA_0-125
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Nesse trabalho, foi estudado o uso de um tensoativo catiônico, o brometo de cetil trimetilamônio (CTAB-16).
-# sent_id = 286-20140827-MONOGRAFIA_0-121
+# sent_id = 286-20140827-MONOGRAFIA_0-126
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2806,7 +2829,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A Figura 8 ilustra a molécula do tensoativo em questão.
-# sent_id = 286-20140827-MONOGRAFIA_0-122
+# sent_id = 286-20140827-MONOGRAFIA_0-127
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	8	8	NUM	_	NumType=Card	4	nsubj	_	_
@@ -2822,7 +2845,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 8 – Molécula do brometo de cetil trimetilamônio.
-# sent_id = 286-20140827-MONOGRAFIA_0-123
+# sent_id = 286-20140827-MONOGRAFIA_0-128
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -2837,7 +2860,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Barbosa et al. (2006).
-# sent_id = 286-20140827-MONOGRAFIA_0-124
+# sent_id = 286-20140827-MONOGRAFIA_0-129
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Barbosa	Barbosa	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -2849,7 +2872,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Como cotensoativo, fase óleo e fase aquosa, foram utilizados, respectivamente, butanol, querosene e água deionizada.
-# sent_id = 286-20140827-MONOGRAFIA_0-125
+# sent_id = 286-20140827-MONOGRAFIA_0-130
 1	Como	como	ADP	_	_	2	case	_	_
 2	cotensoativo	cotensoativo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -2872,8 +2895,8 @@
 20	deionizada	deionizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	19	acl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = Para os testes de determinação do teor de cloretos, as seguintes vidrarias foram utilizadas:  Um erlenmeyer de 125 mL;  Centrífuga Microprocessada (Marca Quimis);  Agitador magnético de  Solução de AgNO3 0,05 N; velocidade variável;  Barra Magnética;  Indicador de KCrO4;  Funil de vidro;  Pipetas de 5 mL;  Tubo de ensaio;  Pipetador;  Bureta de 25 mL; 3.2
-# sent_id = 286-20140827-MONOGRAFIA_0-126
+# text = Para os testes de determinação do teor de cloretos, as seguintes vidrarias foram utilizadas:  Um erlenmeyer de 125 mL;  Centrífuga Microprocessada (Marca Quimis);  Agitador magnético de  Solução de AgNO 0,05 N; velocidade variável;  Barra Magnética;  Indicador de KCrO4;  Funil de vidro;  Pipetas de 5 mL;  Tubo de ensaio;  Pipetador;  Bureta de 25 mL; 3.2
+# sent_id = 286-20140827-MONOGRAFIA_0-131
 1	Para	para	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	testes	teste	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
@@ -2891,7 +2914,7 @@
 14	vidrarias	vidraria	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 15	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
 16	utilizadas	utilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	20	punct	_	_
+17	:	:	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
 18			PROPN	_	Number=Sing	20	nsubj	_	_
 19	Um	um	PROPN	_	Number=Sing	18	flat:name	_	_
 20	erlenmeyer	erlenmeyer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	16	advcl	_	_
@@ -2914,7 +2937,7 @@
 37			PROPN	_	Number=Sing	23	nmod	_	_
 38	Solução	solução	PROPN	_	Number=Sing	37	flat:name	_	_
 39	de	de	ADP	_	_	40	case	_	_
-40	AgNO3	AgNO3	PROPN	_	Number=Sing	23	nmod	_	_
+40	AgNO	AgNO	PROPN	_	Number=Sing	23	nmod	_	_
 41	0,05	0,05	NUM	_	NumType=Card	42	nummod	_	_
 42	N	n	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
 43	;	;	PUNCT	_	_	44	punct	_	_
@@ -2958,7 +2981,7 @@
 81	3.2	3.2	NUM	_	NumType=Card	20	obl	_	_
 
 # text = Elaboração dos diagramas pseudoternários
-# sent_id = 286-20140827-MONOGRAFIA_0-127
+# sent_id = 286-20140827-MONOGRAFIA_0-132
 1	Elaboração	elaboração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2967,7 +2990,7 @@
 5	pseudoternários	pseudoternário	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 
 # text = A elaboração de diagramas pseudoternários foi iniciada na escolha do Tensoativo (Brometo de Cetiltrimetilamônio – CTAB 16), Cotensoativo (Butanol), Fase Óleo (Querosene) e Fase Água (Água deionizada), constituintes do diagrama.
-# sent_id = 286-20140827-MONOGRAFIA_0-128
+# sent_id = 286-20140827-MONOGRAFIA_0-133
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	elaboração	elaboração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3018,7 +3041,7 @@
 45	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = As soluções iniciais consistiam apenas da mistura de tensoativo e cotensoativo em proporções fixas, e fase óleo.
-# sent_id = 286-20140827-MONOGRAFIA_0-129
+# sent_id = 286-20140827-MONOGRAFIA_0-134
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	iniciais	inicial	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3042,7 +3065,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esses pontos iniciais, então, eram titulados com água deionizada.
-# sent_id = 286-20140827-MONOGRAFIA_0-130
+# sent_id = 286-20140827-MONOGRAFIA_0-135
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3	iniciais	inicial	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -3057,7 +3080,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As composições das soluções iniciais podem ser observadas na Tabela 2.
-# sent_id = 286-20140827-MONOGRAFIA_0-131
+# sent_id = 286-20140827-MONOGRAFIA_0-136
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	composições	composição	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -3075,28 +3098,8 @@
 13	2	2	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Tabela 2 -
-# sent_id = 286-20140827-MONOGRAFIA_0-132
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	2	2	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Composições escolhidas para a elaboração dos diagramas pseudoternários.
-# sent_id = 286-20140827-MONOGRAFIA_0-133
-1	Composições	Composição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2	escolhidas	escolher	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
-3	para	para	ADP	_	_	5	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	elaboração	elaboração	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
-6-7	dos	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	8	case	_	_
-7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-9	pseudoternários	pseudoternário	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = A metodologia empregada para a elaboração desses diagramas foi a mesma utilizada por DANTAS et al. (2003).
-# sent_id = 286-20140827-MONOGRAFIA_0-134
+# sent_id = 286-20140827-MONOGRAFIA_0-137
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	empregada	empregar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3121,7 +3124,7 @@
 21	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = As etapas de execução dessa metodologia estão descritas no fluxograma da Figura 9.
-# sent_id = 286-20140827-MONOGRAFIA_0-135
+# sent_id = 286-20140827-MONOGRAFIA_0-138
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3144,7 +3147,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Figura 9 - Fluxograma esquemático para obtenção dos pontos dos diagramas pseudoternários.
-# sent_id = 286-20140827-MONOGRAFIA_0-136
+# sent_id = 286-20140827-MONOGRAFIA_0-139
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -3161,17 +3164,17 @@
 12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 14	pseudoternários	pseudoternário	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-137
+# sent_id = 286-20140827-MONOGRAFIA_0-140
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Todos os dados para construção desses diagramas foram tratados utilizando o software Origin
-# sent_id = 286-20140827-MONOGRAFIA_0-138
+# sent_id = 286-20140827-MONOGRAFIA_0-141
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	dados	dado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
@@ -3189,14 +3192,14 @@
 14	Origin	Origin	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
 
 # text = Pro 8.5. 3.3
-# sent_id = 286-20140827-MONOGRAFIA_0-139
+# sent_id = 286-20140827-MONOGRAFIA_0-142
 1	Pro	Pro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	8.5	8.5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 4	3.3	3.3	NUM	_	NumType=Card	1	appos	_	_
 
 # text = Peneiramento do cascalho;
-# sent_id = 286-20140827-MONOGRAFIA_0-140
+# sent_id = 286-20140827-MONOGRAFIA_0-143
 1	Peneiramento	Peneiramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3205,7 +3208,7 @@
 5	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = O cascalho a ser tratado possuía granulometria variada.
-# sent_id = 286-20140827-MONOGRAFIA_0-141
+# sent_id = 286-20140827-MONOGRAFIA_0-144
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	a	a	SCONJ	_	_	5	mark	_	_
@@ -3217,7 +3220,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A fim de se estudar a extração de cloretos utilizando uma granulometria conhecida, ele foi colocado em uma série de peneiras para que fosse possível realizar essa separação.
-# sent_id = 286-20140827-MONOGRAFIA_0-142
+# sent_id = 286-20140827-MONOGRAFIA_0-145
 1	A	a	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 3	de	de	SCONJ	_	_	5	mark	_	_
@@ -3250,7 +3253,7 @@
 30	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, o cascalho, ainda muito úmido, foi colocado na estufa, onde ficou secando por 4h à 300°C.
-# sent_id = 286-20140827-MONOGRAFIA_0-143
+# sent_id = 286-20140827-MONOGRAFIA_0-146
 1	Inicialmente	inicialmente	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3279,7 +3282,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Após a secagem, ele foi conduzido a uma série de peneiras (Figura 10) dispostas conforme Tabela 3.
-# sent_id = 286-20140827-MONOGRAFIA_0-144
+# sent_id = 286-20140827-MONOGRAFIA_0-147
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	secagem	secagem	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
@@ -3303,13 +3306,13 @@
 21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Tabela 3 –
-# sent_id = 286-20140827-MONOGRAFIA_0-145
+# sent_id = 286-20140827-MONOGRAFIA_0-148
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Disposição de peneiras para separação do cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-146
+# sent_id = 286-20140827-MONOGRAFIA_0-149
 1	Disposição	disposição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	peneiras	peneira	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -3321,8 +3324,15 @@
 8	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
+# text = Fonte: Autor.
+# sent_id = 286-20140827-MONOGRAFIA_0-150
+1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
+
 # text = Figura 10 – Conjunto de peneiras utilizado para separação das diferentes granulometrias do cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-147
+# sent_id = 286-20140827-MONOGRAFIA_0-151
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -3344,14 +3354,14 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-148
+# sent_id = 286-20140827-MONOGRAFIA_0-152
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Para que o processo possua uma maior aplicabilidade industrial, foi decidido não continuar a peneirar o sistema após 28 mesh.
-# sent_id = 286-20140827-MONOGRAFIA_0-149
+# sent_id = 286-20140827-MONOGRAFIA_0-153
 1	Para	para	SCONJ	_	_	4	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3376,7 +3386,7 @@
 22	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Isso se deve ao fato de quanto mais próximo for o diâmetro médio dos fragmentos de cascalho da realidade, menor será o gasto na separação dos grãos de cascalho quando se fizer o processo de extração em escala industrial.
-# sent_id = 286-20140827-MONOGRAFIA_0-150
+# sent_id = 286-20140827-MONOGRAFIA_0-154
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
@@ -3430,7 +3440,7 @@
 46	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = As bandejas foram agitadas mecanicamente por 30 min e o cascalho separado nessas diferentes frações.
-# sent_id = 286-20140827-MONOGRAFIA_0-151
+# sent_id = 286-20140827-MONOGRAFIA_0-155
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	bandejas	bandeja	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3451,11 +3461,11 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.4
-# sent_id = 286-20140827-MONOGRAFIA_0-152
+# sent_id = 286-20140827-MONOGRAFIA_0-156
 1	3.4	3.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Métodos de determinação do Teor inicial de Cloreto no cascalho
-# sent_id = 286-20140827-MONOGRAFIA_0-153
+# sent_id = 286-20140827-MONOGRAFIA_0-157
 1	Métodos	método	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3472,7 +3482,7 @@
 12	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Para aferir o teor inicial de cloretos na amostra, foram utilizadas duas metodologias distintas.
-# sent_id = 286-20140827-MONOGRAFIA_0-154
+# sent_id = 286-20140827-MONOGRAFIA_0-158
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	aferir	aferir	VERB	_	VerbForm=Inf	13	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3493,7 +3503,7 @@
 17	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A primeira foi encontrada no Manual de Análises de Solo da EMBRAPA (EMBRAPA, 1997).
-# sent_id = 286-20140827-MONOGRAFIA_0-155
+# sent_id = 286-20140827-MONOGRAFIA_0-159
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	0	root	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3518,7 +3528,7 @@
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Essa técnica consiste em pesar 2 g de cascalho e 10 g de água deionizada em um erlenmeyer.
-# sent_id = 286-20140827-MONOGRAFIA_0-156
+# sent_id = 286-20140827-MONOGRAFIA_0-160
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3540,7 +3550,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Em seguida, coloca-se o sistema em agitação, a temperatura ambiente, por 30 min.
-# sent_id = 286-20140827-MONOGRAFIA_0-157
+# sent_id = 286-20140827-MONOGRAFIA_0-161
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3562,7 +3572,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Após esse tempo, o extrato é transferido para um tubo de ensaio, o qual é levado para a centrífuga por 5 min à velocidade de 3000 rpm.
-# sent_id = 286-20140827-MONOGRAFIA_0-158
+# sent_id = 286-20140827-MONOGRAFIA_0-162
 1	Após	após	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
@@ -3596,8 +3606,8 @@
 30	rpm	rpm	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	8	punct	_	_
 
-# text = Retira-se, então, uma alíquota de 1 mL desse extrato, que será titulado com AgNO3 0,05
-# sent_id = 286-20140827-MONOGRAFIA_0-159
+# text = Retira-se, então, uma alíquota de 1 mL desse extrato, que será titulado com AgNO 0,05
+# sent_id = 286-20140827-MONOGRAFIA_0-163
 1-2	Retira-se	_	_	_	_	_	_	_	SpaceAfter=No
 1	Retira	retirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3618,11 +3628,11 @@
 16	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux:pass	_	_
 17	titulado	titular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
 18	com	com	ADP	_	_	19	case	_	_
-19	AgNO3	AgNO3	NUM	_	NumType=Card	17	obl	_	_
-20	0,05	0,05	NUM	_	NumType=Card	19	flat	_	_
+19	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	0,05	0,05	NUM	_	NumType=Card	19	nummod	_	_
 
 # text = N na presença de KCrO4 como indicador.
-# sent_id = 286-20140827-MONOGRAFIA_0-160
+# sent_id = 286-20140827-MONOGRAFIA_0-164
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -3635,7 +3645,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Adiciona-se nitrato de prata até que o sistema adquira coloração vermelha tijolo.
-# sent_id = 286-20140827-MONOGRAFIA_0-161
+# sent_id = 286-20140827-MONOGRAFIA_0-165
 1-2	Adiciona-se	_	_	_	_	_	_	_	_
 1	Adiciona	Adicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3652,8 +3662,8 @@
 13	tijolo	tijolo	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Deve-se também realizar a titulação do branco com a mesma solução de AgNO3 e indicador.
-# sent_id = 286-20140827-MONOGRAFIA_0-162
+# text = Deve-se também realizar a titulação do branco com a mesma solução de AgNO e indicador.
+# sent_id = 286-20140827-MONOGRAFIA_0-166
 1-2	Deve-se	_	_	_	_	_	_	_	_
 1	Deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3670,13 +3680,13 @@
 12	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	solução	solução	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 14	de	de	ADP	_	_	15	case	_	_
-15	AgNO3	AgNO3	PROPN	_	Gender=Unsp|Number=Sing	13	nmod	_	_
+15	AgNO	AgNO	PROPN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
 17	indicador	indicador	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = A concentração de cloreto é então calculada pela Equação 1, sendo “Vs” o volume de AgNO3 gasto na titulação do extrato, e “Vb” o volume de AgNO3 gasto na titulação do branco.
-# sent_id = 286-20140827-MONOGRAFIA_0-163
+# text = A concentração de cloreto é então calculada pela Equação 1, sendo “Vs” o volume de AgNO gasto na titulação do extrato, e “Vb” o volume de AgNO gasto na titulação do branco.
+# sent_id = 286-20140827-MONOGRAFIA_0-167
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3687,17 +3697,17 @@
 8-9	pela	_	_	_	_	_	_	_	_
 8	por	por	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
+10	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 11	1	1	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	sendo	ser	AUX	_	VerbForm=Ger	15	cop	_	_
 14	“	“	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	Vs	Vs	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	Vs	Vs	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
 16	”	”	PUNCT	_	_	15	punct	_	_
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	volume	volume	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 19	de	de	ADP	_	_	20	case	_	_
-20	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+20	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
 22-23	na	_	_	_	_	_	_	_	_
 22	em	em	ADP	_	_	24	case	_	_
@@ -3715,8 +3725,8 @@
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	volume	volume	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
 35	de	de	ADP	_	_	36	case	_	_
-36	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-37	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	34	acl	_	_
+36	AgNO	Agno	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+37	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	36	acl	_	_
 38-39	na	_	_	_	_	_	_	_	_
 38	em	em	ADP	_	_	40	case	_	_
 39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
@@ -3725,10 +3735,10 @@
 41	de	de	ADP	_	_	43	case	_	_
 42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	branco	branco	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = O segundo método, a titulometria potenciométrica (HARRIS, 2008), é conduzida inicialmente pesando-se 0,5 g do cascalho em um erlenmeyer e adicionando-se 100 mL de água deionizada ultrapura ao cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-164
+# sent_id = 286-20140827-MONOGRAFIA_0-168
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	método	método	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	SpaceAfter=No
@@ -3773,8 +3783,8 @@
 38	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	15	punct	_	_
 
-# text = Em seguida, coloca-se o sistema em agitação, com aquecimento (70°C), por 1 hora, resfria-se o sistema e completa-se o volume, com água, para 100 mL de água e titula-se com AgNO3 0,01
-# sent_id = 286-20140827-MONOGRAFIA_0-165
+# text = Em seguida, coloca-se o sistema em agitação, com aquecimento (70°C), por 1 hora, resfria-se o sistema e completa-se o volume, com água, para 100 mL de água e titula-se com AgNO 0,01
+# sent_id = 286-20140827-MONOGRAFIA_0-169
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3821,11 +3831,11 @@
 40	titula	titular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
 41	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	expl	_	_
 42	com	com	ADP	_	_	43	case	_	_
-43	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	40	obj	_	_
+43	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	40	obj	_	_
 44	0,01	0,01	NUM	_	NumType=Card	43	nummod	_	_
 
 # text = N uma alíquota de precisamente 10 mL, em um titulador potenciométrico.
-# sent_id = 286-20140827-MONOGRAFIA_0-166
+# sent_id = 286-20140827-MONOGRAFIA_0-170
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	alíquota	alíquota	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -3840,8 +3850,8 @@
 12	potenciométrico	potenciométrico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = A concentração de cloretos então é determinada a partir da equação 2, sendo “Va” o volume da alíquota, “N” a concentração de AgNO3, “D” a diluição inicial da amostra (100 mL) e “Ma” a massa da amostra (0,5 g).
-# sent_id = 286-20140827-MONOGRAFIA_0-167
+# text = A concentração de cloretos então é determinada a partir da equação 2, sendo “Va” o volume da alíquota, “N” a concentração de AgNO, “D” a diluição inicial da amostra (100 mL) e “Ma” a massa da amostra (0,5 g).
+# sent_id = 286-20140827-MONOGRAFIA_0-171
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3874,7 +3884,7 @@
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 30	de	de	ADP	_	_	31	case	_	_
-31	AgNO3	AgNO3	PROPN	_	Gender=Unsp|Number=Sing	29	nmod	_	SpaceAfter=No
+31	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	29	punct	_	_
 33	“	“	PUNCT	_	_	29	punct	_	SpaceAfter=No
 34	D	D	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
@@ -3907,7 +3917,7 @@
 59	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Uma análise comparativa entre os dois métodos foi feita, a fim de saber qual seria o método de análise escolhido para realização das análises do teor de cloretos.
-# sent_id = 286-20140827-MONOGRAFIA_0-168
+# sent_id = 286-20140827-MONOGRAFIA_0-172
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	comparativa	comparativo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3944,11 +3954,11 @@
 32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 3.5
-# sent_id = 286-20140827-MONOGRAFIA_0-169
+# sent_id = 286-20140827-MONOGRAFIA_0-173
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Extração sólido-líquido em simples etapa
-# sent_id = 286-20140827-MONOGRAFIA_0-170
+# sent_id = 286-20140827-MONOGRAFIA_0-174
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	sólido-líquido	sólido-líquido	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -3956,7 +3966,7 @@
 5	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Para realização da extração sólido-líquido, é necessário escolher qual diagrama pseudoternário será utilizado, bem como quais as regiões do diagrama serão mais adequadas a realização do estudo.
-# sent_id = 286-20140827-MONOGRAFIA_0-171
+# sent_id = 286-20140827-MONOGRAFIA_0-175
 1	Para	para	ADP	_	_	2	case	_	_
 2	realização	realização	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3995,7 +4005,7 @@
 33	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Essas regiões foram escolhidas a partir da Rede de Scheffé (SCHEFFÉ, 1999), a qual consiste em 7 pontos igualmente espaçados contidos em um triângulo equilátero dentro do diagrama e da região escolhidos.
-# sent_id = 286-20140827-MONOGRAFIA_0-172
+# sent_id = 286-20140827-MONOGRAFIA_0-176
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	regiões	região	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4041,7 +4051,7 @@
 40	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esses pontos possibilitarão a fazer uma análise de qual será o melhor ponto para se realizar a extração.
-# sent_id = 286-20140827-MONOGRAFIA_0-173
+# sent_id = 286-20140827-MONOGRAFIA_0-177
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possibilitarão	possibilitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	_
@@ -4063,7 +4073,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Todos os detalhes sobre escolha da região e dos pontos estudados estão descritas no capítulo Resultados e Discussões desse trabalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-174
+# sent_id = 286-20140827-MONOGRAFIA_0-178
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	fixed	_	_
 3	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -4095,7 +4105,7 @@
 25	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = As condições escolhidas para realização das extrações nos pontos da rede de Scheffé possuíam os seguintes parâmetros fixos:  Pressão da extração: 1 atm;  Temperatura de extração: 25°C;  Tempo de agitação: 30 min;  Razão
-# sent_id = 286-20140827-MONOGRAFIA_0-175
+# sent_id = 286-20140827-MONOGRAFIA_0-179
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
 3	escolhidas	escolher	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4150,7 +4160,7 @@
 48	Razão	Razão	PROPN	_	Number=Sing	45	flat:name	_	_
 
 # text = Cascalho:microemulsão: 1:5;  pH da utilizado na extração: 7,0.
-# sent_id = 286-20140827-MONOGRAFIA_0-176
+# sent_id = 286-20140827-MONOGRAFIA_0-180
 1	Cascalho	Cascalho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -4169,10 +4179,10 @@
 14	extração	extração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	1	punct	_	_
 16	7,0	7,0	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = É importante ressaltar que é esperado o melhor desempenho de extração utilizando microemulsão em comparação com a água.
-# sent_id = 286-20140827-MONOGRAFIA_0-177
+# sent_id = 286-20140827-MONOGRAFIA_0-181
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	ressaltar	ressaltar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -4194,7 +4204,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Ou seja, espera-se que a extração com microemulsão consiga obter um teor de cloretos livres maior que o teor de cloretos livres obtido utilizando somente água.
-# sent_id = 286-20140827-MONOGRAFIA_0-178
+# sent_id = 286-20140827-MONOGRAFIA_0-182
 1	Ou	ou	CCONJ	_	_	4	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -4227,7 +4237,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As etapas de execução da extração são descritas no fluxograma da Figura 11.
-# sent_id = 286-20140827-MONOGRAFIA_0-179
+# sent_id = 286-20140827-MONOGRAFIA_0-183
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4249,13 +4259,13 @@
 16	11	11	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Com os volumes de AgNO3 do branco e da amostra obtidos, foi possível calcular a quantidade de cloreto extraído a partir da Equação 1.
-# sent_id = 286-20140827-MONOGRAFIA_0-180
+# text = Com os volumes de AgNO do branco e da amostra obtidos, foi possível calcular a quantidade de cloreto extraído a partir da Equação 1.
+# sent_id = 286-20140827-MONOGRAFIA_0-184
 1	Com	com	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	volumes	volume	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+5	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -4285,7 +4295,7 @@
 29	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Outra análise comparativa realizada nesse estudo foi o estudo do aumento da capacidade de extração quando se utiliza microemulsão ao invés de água como solvente.
-# sent_id = 286-20140827-MONOGRAFIA_0-181
+# sent_id = 286-20140827-MONOGRAFIA_0-185
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	comparativa	comparativo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4322,7 +4332,7 @@
 30	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Essa análise compreende em estabelecer o ganho de capacidade extrativa, em porcentagem, dos pontos escolhidos no diagrama de Scheffé em relação à extração com água.
-# sent_id = 286-20140827-MONOGRAFIA_0-182
+# sent_id = 286-20140827-MONOGRAFIA_0-186
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	compreende	compreender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4359,7 +4369,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Para tal, foram comparados os resultados de extração da água com os da microemulsão utilizando a Equação 3:
-# sent_id = 286-20140827-MONOGRAFIA_0-183
+# sent_id = 286-20140827-MONOGRAFIA_0-187
 1	Para	para	ADP	_	_	2	case	_	_
 2	tal	tal	PRON	_	Gender=Unsp|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4385,7 +4395,7 @@
 21	3:	3:	PUNCT	_	_	5	punct	_	_
 
 # text = Figura 11 – Fluxograma esquemático das etapas executadas para extração de cloreto no cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-184
+# sent_id = 286-20140827-MONOGRAFIA_0-188
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -4407,7 +4417,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Pesava-se 2g de cascalho e 10g de microemulsão em um erlenmeyer de 125 mL;
-# sent_id = 286-20140827-MONOGRAFIA_0-185
+# sent_id = 286-20140827-MONOGRAFIA_0-189
 1-2	Pesava-se	_	_	_	_	_	_	_	_
 1	Pesava	Pesar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4426,14 +4436,14 @@
 15	mL	mL	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	;	;	PUNCT	_	_	1	punct	_	_
 
-# text = A microemulsão era titulada com AgNO3 0,05 N, sendo o seu volume (volume de AgNO3 do branco) anotado.
-# sent_id = 286-20140827-MONOGRAFIA_0-186
+# text = A microemulsão era titulada com AgNO 0,05 N, sendo o seu volume (volume de AgNO do branco) anotado.
+# sent_id = 286-20140827-MONOGRAFIA_0-190
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	microemulsão	microemulsão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
 4	titulada	titular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5	com	com	ADP	_	_	6	case	_	_
-6	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	4	obl	_	_
+6	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	4	obl	_	_
 7	0,05	0,05	NUM	_	NumType=Card	8	nummod	_	_
 8	N	n	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	22	punct	_	_
@@ -4444,7 +4454,7 @@
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	volume	volume	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
 16	de	de	ADP	_	_	17	case	_	_
-17	AgNO3	AgNO3	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+17	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -4454,7 +4464,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O sistema era colocado em agitação com auxílio do agitador magnético e da barra magnética.
-# sent_id = 286-20140827-MONOGRAFIA_0-187
+# sent_id = 286-20140827-MONOGRAFIA_0-191
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
@@ -4477,7 +4487,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O tempo de agitação variava de acordo com o experimento realizado;
-# sent_id = 286-20140827-MONOGRAFIA_0-188
+# sent_id = 286-20140827-MONOGRAFIA_0-192
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4492,7 +4502,7 @@
 12	;	;	PUNCT	_	_	5	punct	_	_
 
 # text = O extrato era transferido para um tubo de ensaio através de um funil de vidro e, em seguida, conduzido à centrífuga;
-# sent_id = 286-20140827-MONOGRAFIA_0-189
+# sent_id = 286-20140827-MONOGRAFIA_0-193
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	extrato	extrato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
@@ -4520,8 +4530,8 @@
 24	centrífuga	centrífuga	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
 25	;	;	PUNCT	_	_	4	punct	_	_
 
-# text = Do extrato centrifugado (Figura 12), eram retirados 1 mL de cada fase , as quais eram tituladas com AgNO3 0,05 N. Anotava-se então o volume de AgNO3 gasto na titulação da amostra.
-# sent_id = 286-20140827-MONOGRAFIA_0-190
+# text = Do extrato centrifugado (Figura 12), eram retirados 1 mL de cada fase , as quais eram tituladas com AgNO 0,05 N. Anotava-se então o volume de AgNO gasto na titulação da amostra.
+# sent_id = 286-20140827-MONOGRAFIA_0-194
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4545,9 +4555,9 @@
 20	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux:pass	_	_
 21	tituladas	titular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
 22	com	com	ADP	_	_	23	case	_	_
-23	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
+23	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
 24	0,05	0,05	NUM	_	NumType=Card	25	nummod	_	_
-25	N.	N.	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
+25	N.	N.	PROPN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 26-27	Anotava-se	_	_	_	_	_	_	_	_
 26	Anotava	anotava	PROPN	_	Number=Sing	25	flat:name	_	_
 27	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
@@ -4555,7 +4565,7 @@
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	volume	volume	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 31	de	de	ADP	_	_	32	case	_	_
-32	AgNO3	AgNO3	PROPN	_	Gender=Unsp|Number=Sing	30	nmod	_	_
+32	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 33	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	acl	_	_
 34-35	na	_	_	_	_	_	_	_	_
 34	em	em	ADP	_	_	36	case	_	_
@@ -4568,14 +4578,14 @@
 40	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-191
+# sent_id = 286-20140827-MONOGRAFIA_0-195
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A Figura 12 representa o sistema de extração pós-centrifugação.
-# sent_id = 286-20140827-MONOGRAFIA_0-192
+# sent_id = 286-20140827-MONOGRAFIA_0-196
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	12	12	NUM	_	NumType=Card	2	nummod	_	_
@@ -4585,21 +4595,21 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	extração	extração	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 9	pós-centrifugação	pós-centrifugação	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 3.6
-# sent_id = 286-20140827-MONOGRAFIA_0-193
+# sent_id = 286-20140827-MONOGRAFIA_0-197
 1	3.6	3.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Curva cinética de Extração
-# sent_id = 286-20140827-MONOGRAFIA_0-194
+# sent_id = 286-20140827-MONOGRAFIA_0-198
 1	Curva	Curva	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	cinética	cinético	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Foi gerada uma Curva cinética de Extração para o processo.
-# sent_id = 286-20140827-MONOGRAFIA_0-195
+# sent_id = 286-20140827-MONOGRAFIA_0-199
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	gerada	gerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4613,7 +4623,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A partir da composição escolhida para estudo da Rede de Scheffé, foi analisado o efeito do tempo de extração de cloretos.
-# sent_id = 286-20140827-MONOGRAFIA_0-196
+# sent_id = 286-20140827-MONOGRAFIA_0-200
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	16	advcl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4645,7 +4655,7 @@
 26	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Para tal, os tempos escolhidos foram: 15 min, 30 min, 1 h, 2 h, 4 h e 5 h. 3.7
-# sent_id = 286-20140827-MONOGRAFIA_0-197
+# sent_id = 286-20140827-MONOGRAFIA_0-201
 1	Para	para	ADP	_	_	2	case	_	_
 2	tal	tal	PRON	_	Gender=Unsp|Number=Sing|PronType=Ind	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4675,7 +4685,7 @@
 27	3.7	3.7	NUM	_	NumType=Card	10	nummod	_	_
 
 # text = Otimização das condições de extração
-# sent_id = 286-20140827-MONOGRAFIA_0-198
+# sent_id = 286-20140827-MONOGRAFIA_0-202
 1	Otimização	Otimização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4685,7 +4695,7 @@
 6	extração	extração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = A otimização das condições de extração consiste em eleger um ponto ótimo de extração (a partir dos resultados da extração dos pontos escolhidos pelo Diagrama de Scheffé) e, a partir dele, determinar a melhor condição de extração variando alguns dos seus parâmetros.
-# sent_id = 286-20140827-MONOGRAFIA_0-199
+# sent_id = 286-20140827-MONOGRAFIA_0-203
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	otimização	otimização	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4749,7 +4759,7 @@
 54	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para tal, foi feito um planejamento fatorial 23, com razão cascalho:microemulsão de 1:10.
-# sent_id = 286-20140827-MONOGRAFIA_0-200
+# sent_id = 286-20140827-MONOGRAFIA_0-204
 1	Para	para	ADP	_	_	2	case	_	_
 2	tal	tal	PRON	_	Gender=Unsp|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4771,7 +4781,7 @@
 19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Cada experimento foi feito em duplicata e os parâmetros a serem variados foram os que seguem:  Granulometria do cascalho:
-# sent_id = 286-20140827-MONOGRAFIA_0-201
+# sent_id = 286-20140827-MONOGRAFIA_0-205
 1	Cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4798,7 +4808,7 @@
 23	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Entre 16 e 28 Mesh; maior que 28 mesh.
-# sent_id = 286-20140827-MONOGRAFIA_0-202
+# sent_id = 286-20140827-MONOGRAFIA_0-206
 1	Entre	entre	ADP	_	_	5	case	_	_
 2	16	16	NUM	_	NumType=Card	5	nummod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -4812,7 +4822,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text =  Tempo de contato do solvente com o cascalho: 15 minutos e 2 horas.
-# sent_id = 286-20140827-MONOGRAFIA_0-203
+# sent_id = 286-20140827-MONOGRAFIA_0-207
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Tempo	tempo	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4833,7 +4843,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text =  Agitação do sistema:
-# sent_id = 286-20140827-MONOGRAFIA_0-204
+# sent_id = 286-20140827-MONOGRAFIA_0-208
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Agitação	agitação	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4843,15 +4853,15 @@
 6	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Com ou sem agitação.
-# sent_id = 286-20140827-MONOGRAFIA_0-205
+# sent_id = 286-20140827-MONOGRAFIA_0-209
 1	Com	com	ADP	_	_	0	root	_	_
 2	ou	ou	CCONJ	_	_	4	cc	_	_
 3	sem	sem	ADP	_	_	4	case	_	_
 4	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = As etapas de execução desses experimentos foram iguais as utilizadas nas extrações em simples etapa, conforme visto no fluxograma da Figura 11.
-# sent_id = 286-20140827-MONOGRAFIA_0-206
+# sent_id = 286-20140827-MONOGRAFIA_0-210
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4886,7 +4896,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os dados foram tratados através do software Statistica 10.
-# sent_id = 286-20140827-MONOGRAFIA_0-207
+# sent_id = 286-20140827-MONOGRAFIA_0-211
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4901,18 +4911,18 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.8
-# sent_id = 286-20140827-MONOGRAFIA_0-208
+# sent_id = 286-20140827-MONOGRAFIA_0-212
 1	3.8	3.8	NUM	_	NumType=Card	0	root	_	_
 
 # text = Extração sólido-líquido em n-etapas
-# sent_id = 286-20140827-MONOGRAFIA_0-209
+# sent_id = 286-20140827-MONOGRAFIA_0-213
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	sólido-líquido	sólido-líquido	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	4	case	_	_
 4	n-etapas	n-etapa	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = A extração sólido-líquido em n-etapas teste foi realizada visando verificar o máximo de íons cloretos que podem ser extraídos por um solvente.
-# sent_id = 286-20140827-MONOGRAFIA_0-210
+# sent_id = 286-20140827-MONOGRAFIA_0-214
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extração	extração	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	sólido-líquido	sólido-líquir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4938,7 +4948,7 @@
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A água deionizada e o ponto escolhido da Rede de Scheffé foram os solventes estudados nesses experimentos.
-# sent_id = 286-20140827-MONOGRAFIA_0-211
+# sent_id = 286-20140827-MONOGRAFIA_0-215
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	água	água	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	deionizada	deionizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4962,8 +4972,8 @@
 19	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	16	punct	_	_
 
-# text = O método de análise de cloretos utilizado para tal foi o da titulometria com AgNO3, citada no item c.
-# sent_id = 286-20140827-MONOGRAFIA_0-212
+# text = O método de análise de cloretos utilizado para tal foi o da titulometria com AgNO, citada no item c.
+# sent_id = 286-20140827-MONOGRAFIA_0-216
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4980,7 +4990,7 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	com	com	ADP	_	_	16	case	_	_
-16	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	citada	citar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_
 19-20	no	_	_	_	_	_	_	_	_
@@ -4990,7 +5000,7 @@
 22	c.	c.	ADV	_	_	11	advmod	_	_
 
 # text = dessa metodologia.
-# sent_id = 286-20140827-MONOGRAFIA_0-213
+# sent_id = 286-20140827-MONOGRAFIA_0-217
 1-2	dessa	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4998,7 +5008,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A execução desses experimentos segue, inicialmente, as mesmas etapas da extração em simples etapa, mostrada na Figura 11, com a exceção do recipiente de extração (tubo de ensaio) e esquema de agitação (agitador de tubos).
-# sent_id = 286-20140827-MONOGRAFIA_0-214
+# sent_id = 286-20140827-MONOGRAFIA_0-218
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	execução	execução	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	desses	_	_	_	_	_	_	_	_
@@ -5053,7 +5063,7 @@
 48	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Após a titulação da amostra, todo o líquido saturado que está no tubo de ensaio é substituído pelo mesmo solvente para que se dê inicio a uma nova etapa de extração.
-# sent_id = 286-20140827-MONOGRAFIA_0-215
+# sent_id = 286-20140827-MONOGRAFIA_0-219
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	titulação	titulação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -5094,8 +5104,8 @@
 35	extração	extração	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	20	punct	_	_
 
-# text = Esse processo se repete até que o volume de AgNO3 gasto na titulação da amostra seja igual ao volume gasto na titulação do branco.
-# sent_id = 286-20140827-MONOGRAFIA_0-216
+# text = Esse processo se repete até que o volume de AgNO gasto na titulação da amostra seja igual ao volume gasto na titulação do branco.
+# sent_id = 286-20140827-MONOGRAFIA_0-220
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -5105,7 +5115,7 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	volume	volume	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+10	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	gasto	gar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	_	_	14	case	_	_
@@ -5130,23 +5140,23 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	branco	branco	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = CAPITULO 4
-# sent_id = 286-20140827-MONOGRAFIA_0-217
+# sent_id = 286-20140827-MONOGRAFIA_0-221
 1	CAPITULO	Capitulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Resultados e Discussões 4.
-# sent_id = 286-20140827-MONOGRAFIA_0-218
+# sent_id = 286-20140827-MONOGRAFIA_0-222
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
-3	Discussões	discussão	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
+3	Discussões	discussão	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpacesAfter=\s\n
 4	4	4	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS E DISCUSSÕES 4.1.
-# sent_id = 286-20140827-MONOGRAFIA_0-219
+# sent_id = 286-20140827-MONOGRAFIA_0-223
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	4	cc	_	_
 3	DISCUSSÕES	discussão	NUM	_	NumType=Card	4	nummod	_	_
@@ -5154,7 +5164,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Obtenção dos Diagramas Pseudoternários
-# sent_id = 286-20140827-MONOGRAFIA_0-220
+# sent_id = 286-20140827-MONOGRAFIA_0-224
 1	Obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5163,7 +5173,7 @@
 5	Pseudoternários	Pseudoternários	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Para a obtenção dos diagramas pseudoternários, representados na Figura 13, utilizou-se o sistema constituído de CTAB-16 (tensoativo - T), butanol (cotensoativo - C), querosene (fase óleo) e água deionizada (fase aquosa), em diferentes razões C/T (2, 3 e 4).
-# sent_id = 286-20140827-MONOGRAFIA_0-221
+# sent_id = 286-20140827-MONOGRAFIA_0-225
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
@@ -5228,7 +5238,7 @@
 59	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Esses diagramas apresentam duas grandes fases distintas: Winsor IV e Winsor I.
-# sent_id = 286-20140827-MONOGRAFIA_0-222
+# sent_id = 286-20140827-MONOGRAFIA_0-226
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5245,7 +5255,7 @@
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A pequena fase localizada na aresta esquerda de todos os diagramas representa o início da titulação do sistema, quando o tensoativo ainda não se encontra totalmente solubilizado na mistura.
-# sent_id = 286-20140827-MONOGRAFIA_0-223
+# sent_id = 286-20140827-MONOGRAFIA_0-227
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	fase	fase	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -5287,13 +5297,13 @@
 35	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 13 –
-# sent_id = 286-20140827-MONOGRAFIA_0-224
+# sent_id = 286-20140827-MONOGRAFIA_0-228
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Diagramas pseudoternários do sistema CTAB 16, Butanol, Querosene e Água deionizada, variando a razão C/T entre 2 (diagrama a), 3 (diagrama b) e 4 (diagrama c).
-# sent_id = 286-20140827-MONOGRAFIA_0-225
+# sent_id = 286-20140827-MONOGRAFIA_0-229
 1	Diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	pseudoternários	pseudoternário	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5335,14 +5345,14 @@
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-226
+# sent_id = 286-20140827-MONOGRAFIA_0-230
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Analisando os diagramas da Figura 13, é possível notar um aumento da região de Winsor I (região com uma fase microemulsão em equilíbrio com uma fase óleo em excesso) na medida em que se aumenta a razão cotensoativo:tensoativo.
-# sent_id = 286-20140827-MONOGRAFIA_0-227
+# sent_id = 286-20140827-MONOGRAFIA_0-231
 1	Analisando	analisar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -5395,7 +5405,7 @@
 47	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Em outras palavras, a região na qual todo o sistema se encontra homogêneo (Winsor IV) reduz na medida em que a quantidade de tensoativo utilizado diminui.
-# sent_id = 286-20140827-MONOGRAFIA_0-228
+# sent_id = 286-20140827-MONOGRAFIA_0-232
 1	Em	em	ADP	_	_	3	case	_	_
 2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
@@ -5426,13 +5436,13 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
 28	de	de	ADP	_	_	29	case	_	_
-29	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+29	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpacesAfter=\s\n
 30	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	27	acl	_	_
 31	diminui	diminuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Dessa forma, a fim de se garantir uma maior interação de todos os constituintes da microemulsão com o cascalho durante a realização da extração de cloretos, foi decidido que se estudaria uma região de Winsor IV (sistema microemulsionado homogêneo), sendo, portanto, o diagrama 13.a da Figura 13 (Razão C/T = 2) o escolhido para realização do estudo de extração.
-# sent_id = 286-20140827-MONOGRAFIA_0-229
+# sent_id = 286-20140827-MONOGRAFIA_0-233
 1-2	Dessa	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5514,12 +5524,12 @@
 74	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\n
 
 # text = 4.2.
-# sent_id = 286-20140827-MONOGRAFIA_0-230
+# sent_id = 286-20140827-MONOGRAFIA_0-234
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Peneiramento do cascalho
-# sent_id = 286-20140827-MONOGRAFIA_0-231
+# sent_id = 286-20140827-MONOGRAFIA_0-235
 1	Peneiramento	Peneiramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5527,7 +5537,7 @@
 4	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Uma massa de 200 g de cascalho foi utilizada para o peneiramento.
-# sent_id = 286-20140827-MONOGRAFIA_0-232
+# sent_id = 286-20140827-MONOGRAFIA_0-236
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -5543,7 +5553,7 @@
 13	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O resultado aproximado das frações mássicas são foram:  Cerca de 80% (160 g) para a fração com cascalho maior que 28 Mesh;  Cerca de 10% para a fração com cascalho entre Mesh 16 e Mesh 28;  Cerca de 10% para as demais frações.
-# sent_id = 286-20140827-MONOGRAFIA_0-233
+# sent_id = 286-20140827-MONOGRAFIA_0-237
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	aproximado	aproximar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5603,7 +5613,7 @@
 56	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Esse peneiramento foi feito somente para se ter uma fração homogênea para realizar as extrações.
-# sent_id = 286-20140827-MONOGRAFIA_0-234
+# sent_id = 286-20140827-MONOGRAFIA_0-238
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	peneiramento	peneiramento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -5622,7 +5632,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A granulometria do cascalho variará sempre pois dependerá da formação da rocha, da broca utilizada para fragmentar a rocha, do tratamento inicial feito no cascalho entre outros.
-# sent_id = 286-20140827-MONOGRAFIA_0-235
+# sent_id = 286-20140827-MONOGRAFIA_0-239
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	granulometria	granulometria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5667,12 +5677,12 @@
 36	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 4.3.
-# sent_id = 286-20140827-MONOGRAFIA_0-236
+# sent_id = 286-20140827-MONOGRAFIA_0-240
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Teor inicial de íons cloreto no cascalho
-# sent_id = 286-20140827-MONOGRAFIA_0-237
+# sent_id = 286-20140827-MONOGRAFIA_0-241
 1	Teor	teor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	inicial	inicial	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5683,8 +5693,8 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	cascalho	cascalho	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
-# text = Os resultados da titulometria por AgNO3 e da titulometria potenciométrica expressam o resultado equivalente a uma extração em simples etapa realizada apenas com água.
-# sent_id = 286-20140827-MONOGRAFIA_0-238
+# text = Os resultados da titulometria por AgNO e da titulometria potenciométrica expressam o resultado equivalente a uma extração em simples etapa realizada apenas com água.
+# sent_id = 286-20140827-MONOGRAFIA_0-242
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5692,7 +5702,7 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	por	por	ADP	_	_	7	case	_	_
-7	AgNO3	AgNO3	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+7	AgNO	AgNO	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	e	e	CCONJ	_	_	11	cc	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -5716,7 +5726,7 @@
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Os resultados da primeira foram calculados de acordo com a Equação 1 e podem ser encontrados na Tabela 4.
-# sent_id = 286-20140827-MONOGRAFIA_0-239
+# sent_id = 286-20140827-MONOGRAFIA_0-243
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5742,8 +5752,8 @@
 21	4	4	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Tabela 4 - Teor de cloretos livres (em g de cloreto/kg de cascalho) a partir da titulometria com AgNO3.
-# sent_id = 286-20140827-MONOGRAFIA_0-240
+# text = Tabela 4 - Teor de cloretos livres (em g de cloreto/kg de cascalho) a partir da titulometria com AgNO.
+# sent_id = 286-20140827-MONOGRAFIA_0-244
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -5768,11 +5778,18 @@
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 23	com	com	ADP	_	_	24	case	_	_
-24	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
+# text = Fonte: Autor.
+# sent_id = 286-20140827-MONOGRAFIA_0-245
+1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
+
 # text = Os resultados da titulometria potenciométrica foram obtidos utilizando a equação 2.
-# sent_id = 286-20140827-MONOGRAFIA_0-241
+# sent_id = 286-20140827-MONOGRAFIA_0-246
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5789,7 +5806,7 @@
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os valores de cloretos livres podem ser observados na Tabela 5.
-# sent_id = 286-20140827-MONOGRAFIA_0-242
+# sent_id = 286-20140827-MONOGRAFIA_0-247
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5806,7 +5823,7 @@
 13	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Tabela 5 - Teor de cloretos livres (em g de cloreto/kg de cascalho) a partir da titulometria potenciométrica.
-# sent_id = 286-20140827-MONOGRAFIA_0-243
+# sent_id = 286-20140827-MONOGRAFIA_0-248
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -5834,14 +5851,14 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-244
+# sent_id = 286-20140827-MONOGRAFIA_0-249
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = É possível afirmar que, a partir da análise comparativa feita entre os teores de cloretos livres encontrados elucidados nas Tabelas 4 e 5, o teor de cloretos livres medidos pelos dois métodos não diferem muito um do outro, apesar das diferentes condições de temperatura empregadas no experimento.
-# sent_id = 286-20140827-MONOGRAFIA_0-245
+# sent_id = 286-20140827-MONOGRAFIA_0-250
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	afirmar	afirmar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -5907,7 +5924,7 @@
 57	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Esse fato sugere que a temperatura empregada durante a extração sólido-líquido será um parâmetro que não influenciará de forma considerável o processo.
-# sent_id = 286-20140827-MONOGRAFIA_0-246
+# sent_id = 286-20140827-MONOGRAFIA_0-251
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5933,7 +5950,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A comparação entre os resultados obtidos pode ser observada na Tabela 6.
-# sent_id = 286-20140827-MONOGRAFIA_0-247
+# sent_id = 286-20140827-MONOGRAFIA_0-252
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -5951,7 +5968,7 @@
 14	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Tabela 6 - Análise comparativa entre as diferentes técnicas de titulometria.
-# sent_id = 286-20140827-MONOGRAFIA_0-248
+# sent_id = 286-20140827-MONOGRAFIA_0-253
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -5966,14 +5983,14 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-249
+# sent_id = 286-20140827-MONOGRAFIA_0-254
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Conforme a proximidade encontrada entre os dois resultados e os baixos desvios padrões experimentais, é possível concluir que o teor inicial de cloretos livres está em torno de 14,68 g/kg (média entre os dois resultados).
-# sent_id = 286-20140827-MONOGRAFIA_0-250
+# sent_id = 286-20140827-MONOGRAFIA_0-255
 1	Conforme	conforme	SCONJ	_	_	17	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	proximidade	proximidade	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -5986,7 +6003,7 @@
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 11	baixos	baixo	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 12	desvios	desvios	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
-13	padrões	padrão	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+13	padrões	padrão	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	SpacesAfter=\s\n
 14	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
 16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
@@ -6015,8 +6032,8 @@
 39	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	17	punct	_	_
 
-# text = Portanto, para os estudos posteriores, será utilizado o método da titulometria por AgNO3, devido a maior praticidade e simplicidade do método.
-# sent_id = 286-20140827-MONOGRAFIA_0-251
+# text = Portanto, para os estudos posteriores, será utilizado o método da titulometria por AgNO, devido a maior praticidade e simplicidade do método.
+# sent_id = 286-20140827-MONOGRAFIA_0-256
 1	Portanto	portanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -6033,7 +6050,7 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	por	por	ADP	_	_	16	case	_	_
-16	AgNO3	AgNO3	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	AgNO	AgNO	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	9	punct	_	_
 18	devido	devido	ADV	_	_	21	advmod	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -6048,43 +6065,71 @@
 27	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 4.4.
-# sent_id = 286-20140827-MONOGRAFIA_0-252
+# sent_id = 286-20140827-MONOGRAFIA_0-257
 1	4.4	4.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Extração sólido-líquido em simples etapa Scheffé foram escolhidos na região do diagrama que apresentava maior quantidade de água e menor quantidade de querosene.
-# sent_id = 286-20140827-MONOGRAFIA_0-253
-1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+# text = Extração sólido-líquido em simples etapa
+# sent_id = 286-20140827-MONOGRAFIA_0-258
+1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	sólido-líquido	sólido-líquido	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	5	case	_	_
 4	simples	simples	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-5	etapa	etapa	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-6	Scheffé	Scheffé	PROPN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
-7	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	8	aux:pass	_	_
-8	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-9-10	na	_	_	_	_	_	_	_	_
-9	em	em	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	região	região	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	diagrama	diagrama	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
-16	apresentava	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
-17	maior	grande	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-18	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	água	água	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-21	e	e	CCONJ	_	_	23	cc	_	_
-22	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-23	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	querosene	querosene	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	8	punct	_	_
+5	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+
+# text = A partir da escolha do diagrama pseudoternário com razão C/T = 2, os sete pontos da Rede de Scheffé foram escolhidos na região do diagrama que apresentava maior quantidade de água e menor quantidade de querosene.
+# sent_id = 286-20140827-MONOGRAFIA_0-259
+1	A	a	ADP	_	_	2	case	_	_
+2	partir	partir	VERB	_	VerbForm=Inf	25	obl	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	diagrama	diagrama	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	pseudoternário	pseudoternário	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	razão	razão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+12	C/T	C/T	PROPN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+13	=	=	SYM	_	_	2	obj	_	_
+14	2	2	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	2	punct	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	sete	sete	NUM	_	NumType=Card	18	nummod	_	_
+18	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Rede	rede	PROPN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Scheffé	Scheffé	PROPN	_	Number=Sing	21	nmod	_	_
+24	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	região	região	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	diagrama	diagrama	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	_	_
+33	apresentava	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+34	maior	grande	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
+35	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	água	água	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+38	e	e	CCONJ	_	_	40	cc	_	_
+39	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+40	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	33	conj	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	querosene	querosene	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Essa escolha se deve ao fato de buscar a sustentabilidade do processo de extração, procurando sempre usar uma quantidade de óleo baixa para realização dos estudos.
-# sent_id = 286-20140827-MONOGRAFIA_0-254
+# sent_id = 286-20140827-MONOGRAFIA_0-260
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -6121,7 +6166,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os pontos escolhidos na Rede de Scheffé podem ser vistos na Figura 14 e os valores dos pontos mostrados na Tabela 7.
-# sent_id = 286-20140827-MONOGRAFIA_0-255
+# sent_id = 286-20140827-MONOGRAFIA_0-261
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -6154,8 +6199,8 @@
 26	7	7	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = Figura 14 – Rede de Scheffé sendo representada no Diagrama C/T = 2 (à esquerda) e os pontos da rede que foram analisados (à direita), indicados pelos números de 1 a 7.
-# sent_id = 286-20140827-MONOGRAFIA_0-256
+# text = Figura 14 – Rede de Scheffé sendo representada no Diagrama C/T = 2 (à esquerda) e os pontos da rede que Fonte: Autor.
+# sent_id = 286-20140827-MONOGRAFIA_0-262
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -6169,51 +6214,29 @@
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Diagrama	Diagrama	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
 12	C/T	C/T	PROPN	_	Number=Sing	11	flat:name	_	_
-13	=	=	SYM	_	_	8	appos	_	_
+13	=	=	SYM	_	_	8	obj	_	_
 14	2	2	NUM	_	NumType=Card	13	nummod	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16-17	à	_	_	_	_	_	_	_	_
 16	a	a	ADP	_	_	18	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	13	punct	_	_
+19	)	)	PUNCT	_	_	18	punct	_	_
 20	e	e	CCONJ	_	_	22	cc	_	_
 21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+22	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
 23-24	da	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	rede	rede	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-26	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	28	nsubj:pass	_	_
-27	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
-28	analisados	analisar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
-29	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-30-31	à	_	_	_	_	_	_	_	_
-30	a	a	ADP	_	_	32	case	_	_
-31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	direita	direita	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	35	punct	_	_
-35	indicados	indicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
-36-37	pelos	_	_	_	_	_	_	_	_
-36	por	por	ADP	_	_	38	case	_	_
-37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
-38	números	número	NOUN	_	Gender=Masc|Number=Plur	35	obl:agent	_	_
-39	de	de	ADP	_	_	40	case	_	_
-40	1	1	NUM	_	NumType=Card	38	nmod	_	_
-41	a	a	ADP	_	_	42	case	_	_
-42	7	7	NUM	_	NumType=Card	40	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
-# text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-257
-1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+26	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	27	obj	_	_
+27	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	27	punct	_	_
+29	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
 
 # text = Tabela 7 - Composições, em fração mássica, dos pontos de microemulsão escolhidos na rede de Scheffé.
-# sent_id = 286-20140827-MONOGRAFIA_0-258
+# sent_id = 286-20140827-MONOGRAFIA_0-263
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	PROPN	_	Number=Sing	1	flat:name	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -6236,17 +6259,17 @@
 18	rede	rede	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	Scheffé	Scheffé	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = Através da titulometria por AgNO3 e da Equação 1, foi possível calcular a concentração Figura 15 - Resultados da lixiviação (em g de cloreto/kg de cascalho), sendo o ponto 0 o valor do teor de cloreto livre pela lixiviação feita somente com água a temperatura ambiente (titulometria por AgNO 3).
-# sent_id = 286-20140827-MONOGRAFIA_0-259
+# text = Através da titulometria por AgNO e da Equação 1, foi possível calcular a concentração Figura 15 - Resultados da lixiviação (em g de cloreto/kg de cascalho), sendo o ponto 0 o valor do teor de cloreto livre pela lixiviação feita somente com água a temperatura ambiente (titulometria por AgNO 3).
+# sent_id = 286-20140827-MONOGRAFIA_0-264
 1	Através	através	ADV	_	_	14	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
 5	por	por	ADP	_	_	6	case	_	_
-6	AgNO3	AgNO3	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+6	AgNO	AgNO	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	e	e	CCONJ	_	_	10	cc	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -6311,7 +6334,7 @@
 64	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Os valores abaixo das barras são o teor de cloreto no meio (em g de cloreto/kg de cascalho).
-# sent_id = 286-20140827-MONOGRAFIA_0-260
+# sent_id = 286-20140827-MONOGRAFIA_0-265
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	abaixo	abaixo	ADV	_	_	2	advmod	_	_
@@ -6341,14 +6364,14 @@
 25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-261
+# sent_id = 286-20140827-MONOGRAFIA_0-266
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Analisando os resultados, observa-se que o sistema de extração utilizando microemulsão é melhor que o da água deionizada.
-# sent_id = 286-20140827-MONOGRAFIA_0-262
+# sent_id = 286-20140827-MONOGRAFIA_0-267
 1	Analisando	analisar	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
@@ -6375,7 +6398,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A partir da Figura 15 e da tabela 7, observa-se que os primeiros pontos que contêm mais água (pontos 1, 2 e 3) e os pontos 4 e 7 foram os que obtiveram melhor resultado de extração.
-# sent_id = 286-20140827-MONOGRAFIA_0-263
+# sent_id = 286-20140827-MONOGRAFIA_0-268
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	13	fixed	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6426,7 +6449,7 @@
 45	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Mediante esses resultados, o ponto ótimo escolhido para a extração sólido-líquido foi o ponto 1, devido a ele possuir uma maior quantidade de água e uma menor quantidade de tensoativo, cotensoativo e óleo, além de possuir capacidade de extração equivalente aos demais.
-# sent_id = 286-20140827-MONOGRAFIA_0-264
+# sent_id = 286-20140827-MONOGRAFIA_0-269
 1	Mediante	mediante	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
@@ -6478,7 +6501,7 @@
 48	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = O uso desse ponto 1 usar mais água justifica-se também pela busca da maior sustentabilidade do processo, visto que o teor de óleo utilizado nesse ponto é menor que todos os outros.
-# sent_id = 286-20140827-MONOGRAFIA_0-265
+# sent_id = 286-20140827-MONOGRAFIA_0-270
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	uso	uso	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -6527,7 +6550,7 @@
 40	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Ainda em relação à extração em simples etapa, o aumento na capacidade de extração com microemulsão em relação à água foi calculado através da Equação 3 e pode ser observado no gráfico de barras da Figura 16 e na Tabela 8.
-# sent_id = 286-20140827-MONOGRAFIA_0-266
+# sent_id = 286-20140827-MONOGRAFIA_0-271
 1	Ainda	ainda	ADV	_	_	9	advmod	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	relação	relação	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	_
@@ -6587,7 +6610,7 @@
 50	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Sabendo que o valor extraído pela água em estágio é de 14,60 g de cloretos/kg de cascalho, observa-se que o aumento na capacidade da extração em uma etapa utilizando microemulsão chega a ser de aproximadamente 72% em relação à água.
-# sent_id = 286-20140827-MONOGRAFIA_0-267
+# sent_id = 286-20140827-MONOGRAFIA_0-272
 1	Sabendo	saber	VERB	_	VerbForm=Ger	22	advcl	_	_
 2	que	que	SCONJ	_	_	14	mark	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6642,10 +6665,10 @@
 47	a	a	ADP	_	_	49	case	_	_
 48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	água	água	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+50	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n\n
 
-# text = Figura 16 – Aumento na capacidade de extração da microemulsão em relação à água deionizada (em porcentagem).
-# sent_id = 286-20140827-MONOGRAFIA_0-268
+# text = Figura 16 – Aumento na capacidade de extração da microemulsão em relação à água deionizada (em Fonte: Autor.
+# sent_id = 286-20140827-MONOGRAFIA_0-273
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	16	16	PROPN	_	Number=Sing	1	flat:name	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -6669,67 +6692,13 @@
 18	deionizada	deionizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
 19	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 20	em	em	ADP	_	_	21	case	_	_
-21	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = As barras azuis representam o ganho em relação ao teor de cloretos livres através do método da titulometria potenciométrica, o vermelho, da titulometria por AgNO3 e o verde, a média entre os dois.
-# sent_id = 286-20140827-MONOGRAFIA_0-269
-1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	barras	barra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
-3	azuis	azul	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	representam	representar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	ganho	ganho	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	relação	relação	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	_
-9-10	ao	_	_	_	_	_	_	_	_
-9	a	a	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	teor	teor	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	cloretos	cloreto	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-14	livres	livre	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
-15	através	através	ADV	_	_	4	advmod	_	_
-16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	método	método	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
-19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-22	potenciométrica	potenciométrico	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	4	punct	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	vermelho	vermelho	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	29	punct	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	titulometria	titulometria	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-30	por	por	ADP	_	_	31	case	_	_
-31	AgNO3	AgNO3	PROPN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-32	e	e	CCONJ	_	_	34	cc	_	_
-33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	verde	verde	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	37	punct	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	média	média	NOUN	_	Gender=Fem|Number=Sing	25	appos	_	_
-38	entre	entre	ADP	_	_	40	case	_	_
-39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
-40	dois	dois	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
-
-# text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-270
-1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+21	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 8 - Valores do aumento percentual da extração utilizando os pontos da rede de Scheffé (microemulsão) em relação à água.
-# sent_id = 286-20140827-MONOGRAFIA_0-271
+# sent_id = 286-20140827-MONOGRAFIA_0-274
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -6761,22 +6730,22 @@
 25	a	a	ADP	_	_	27	case	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	água	água	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.5.
-# sent_id = 286-20140827-MONOGRAFIA_0-272
+# sent_id = 286-20140827-MONOGRAFIA_0-275
 1	4.5	4.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Curva Cinética de Extração
-# sent_id = 286-20140827-MONOGRAFIA_0-273
+# sent_id = 286-20140827-MONOGRAFIA_0-276
 1	Curva	Curva	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Cinética	Cinética	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Extração	extração	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Os valores de concentração da curva cinética foram obtidos da mesma maneira que foi a extração em simples etapa.
-# sent_id = 286-20140827-MONOGRAFIA_0-274
+# sent_id = 286-20140827-MONOGRAFIA_0-277
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6803,7 +6772,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O ponto da rede de Scheffé utilizado para a elaboração da curva foi o ponto 1, conforme explicado no item 3.4.
-# sent_id = 286-20140827-MONOGRAFIA_0-275
+# sent_id = 286-20140827-MONOGRAFIA_0-278
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6835,7 +6804,7 @@
 26	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A Figura 17 e a Tabela 9 mostram os resultados obtidos para a curva cinética.
-# sent_id = 286-20140827-MONOGRAFIA_0-276
+# sent_id = 286-20140827-MONOGRAFIA_0-279
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	17	17	NUM	_	NumType=Card	2	nummod	_	_
@@ -6854,7 +6823,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Através da Figura 17, é possível observar que, a partir de 2h de extração, a microemulsão não consegue extrair mais cloreto algum do cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-277
+# sent_id = 286-20140827-MONOGRAFIA_0-280
 1	Através	através	ADV	_	_	8	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6889,7 +6858,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A explicação disso se encontra no fato da microemulsão atingir o seu coeficiente de solubilidade à temperatura ambiente nesse tempo.
-# sent_id = 286-20140827-MONOGRAFIA_0-278
+# sent_id = 286-20140827-MONOGRAFIA_0-281
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	explicação	explicação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	disso	_	_	_	_	_	_	_	_
@@ -6923,7 +6892,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = É possível ainda afirmar, através da Tabela 9, que a variação entre a extração feita em 15 min e a de 5 h é de somente 1,59 g de cloreto/kg de cascalho, aproximadamente, concluindo-se que o tempo de contato do solvente com o inerte nessa extração pode ser curto, já que o resultado final será praticamente o mesmo.
-# sent_id = 286-20140827-MONOGRAFIA_0-279
+# sent_id = 286-20140827-MONOGRAFIA_0-282
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	ainda	ainda	ADV	_	_	4	advmod	_	_
@@ -6999,38 +6968,15 @@
 69	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	59	advcl	_	SpaceAfter=No
 70	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
-# text = Figura 17 – Curva cinética de extração de cloreto para o Ponto 1 da Rede de Scheffé.
-# sent_id = 286-20140827-MONOGRAFIA_0-280
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	17	17	NUM	_	NumType=Card	4	nummod	_	_
-3	–	–	PUNCT	_	_	4	punct	_	_
-4	Curva	Curva	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5	cinética	cinético	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	extração	extração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	cloreto	cloreto	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	para	para	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Ponto	Ponto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-13	1	1	NUM	_	NumType=Card	12	nummod	_	_
-14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Rede	rede	PROPN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	Scheffé	Scheffé	PROPN	_	Number=Sing	16	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-281
+# sent_id = 286-20140827-MONOGRAFIA_0-283
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Tabela 9 – Valores de concentração de cloreto livre no meio da curva cinética feita para o Ponto 1 da Rede de Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-282
+# sent_id = 286-20140827-MONOGRAFIA_0-284
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -7062,10 +7008,10 @@
 26	Fonte	Fonte	PROPN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 27	:	:	PUNCT	_	_	1	punct	_	_
 28	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Através da curva obtida na Figura 17, foi possível sugerir um modelo para extração utilizando o ponto 1 da rede de Scheffé.
-# sent_id = 286-20140827-MONOGRAFIA_0-283
+# sent_id = 286-20140827-MONOGRAFIA_0-285
 1	Através	através	ADV	_	_	12	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7098,7 +7044,7 @@
 27	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Dentre os modelos testados, o modelo mais aplicável foi o polinomial de 3° grau, obtendo o valor 0,894 para R².
-# sent_id = 286-20140827-MONOGRAFIA_0-284
+# sent_id = 286-20140827-MONOGRAFIA_0-286
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	modelos	modelo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
@@ -7124,7 +7070,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A Equação 4 mostra esse modelo, com t sendo o tempo de extração em horas.
-# sent_id = 286-20140827-MONOGRAFIA_0-285
+# sent_id = 286-20140827-MONOGRAFIA_0-287
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4	4	NUM	_	NumType=Card	2	nummod	_	_
@@ -7144,12 +7090,12 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.6.
-# sent_id = 286-20140827-MONOGRAFIA_0-286
+# sent_id = 286-20140827-MONOGRAFIA_0-288
 1	4.6	4.6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Otimização dos parâmetros de extração
-# sent_id = 286-20140827-MONOGRAFIA_0-287
+# sent_id = 286-20140827-MONOGRAFIA_0-289
 1	Otimização	Otimização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7159,7 +7105,7 @@
 6	extração	extração	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = Os parâmetros escolhidos para compor os níveis +1 e -1 da matriz do planejamento fatorial 2³ estão descritos na Tabela 10.
-# sent_id = 286-20140827-MONOGRAFIA_0-288
+# sent_id = 286-20140827-MONOGRAFIA_0-290
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
 3	escolhidos	escolher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7190,7 +7136,7 @@
 25	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = A matriz planejamento 2³ com as variáveis resposta (em duplicatas) encontradas para cada uma das combinações, realizadas para a razão mássica de cascalho:microemulsão de 1:10, estão indicadas na Tabela 11.
-# sent_id = 286-20140827-MONOGRAFIA_0-289
+# sent_id = 286-20140827-MONOGRAFIA_0-291
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	35	nsubj:pass	_	_
 3	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -7235,7 +7181,7 @@
 40	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
 
 # text = A partir da análise do diagrama de Pareto da Figura 18, é possível afirmar que os três parâmetros, quando analisados individualmente, bem como o tempo de contato e a agitação juntos, influenciam significativamente a extração de cloretos.
-# sent_id = 286-20140827-MONOGRAFIA_0-290
+# sent_id = 286-20140827-MONOGRAFIA_0-292
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	17	csubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7274,7 +7220,7 @@
 33	contato	contato	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 34	e	e	CCONJ	_	_	36	cc	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
+36	agitação	agitação	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	SpacesAfter=\s\n
 37	juntos	junto	ADV	_	_	36	advmod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	25	punct	_	_
 39	influenciam	influenciar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
@@ -7286,7 +7232,7 @@
 45	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Observa-se também que o tempo de contato é a variável resposta que mais interfere no processo.
-# sent_id = 286-20140827-MONOGRAFIA_0-291
+# sent_id = 286-20140827-MONOGRAFIA_0-293
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7310,7 +7256,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Quanto maior for o tempo de contato (até 2 h, conforme visto no resultado da Curva Cinética de Extração), maior também será a quantidade de cloreto extraída.
-# sent_id = 286-20140827-MONOGRAFIA_0-292
+# sent_id = 286-20140827-MONOGRAFIA_0-294
 1	Quanto	quanto	ADV	_	_	5	mark	_	_
 2	maior	maior	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
@@ -7349,7 +7295,7 @@
 34	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Em se fazendo uma análise quantitativa, conclui-se que o processo sem agitação não apresenta resultados expressivos, ao se comparar com o processo com agitação.
-# sent_id = 286-20140827-MONOGRAFIA_0-293
+# sent_id = 286-20140827-MONOGRAFIA_0-295
 1	Em	em	ADP	_	_	2	case	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	8	obl	_	_
 3	fazendo	fazer	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -7383,7 +7329,7 @@
 29	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Já analisando a granulometria, quanto menor for o tamanho do diâmetro médio do cascalho, maior será a quantidade extraída de íons cloretos, visto que a superfície de contato entre a microemulsão e o sólido aumenta.
-# sent_id = 286-20140827-MONOGRAFIA_0-294
+# sent_id = 286-20140827-MONOGRAFIA_0-296
 1	Já	já	ADV	_	_	2	advmod	_	_
 2	analisando	analisar	VERB	_	VerbForm=Ger	19	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7429,7 +7375,7 @@
 41	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = Figura 18 - Diagrama de Pareto para planejaento com razão cascalho:microemulsão de 1:10.
-# sent_id = 286-20140827-MONOGRAFIA_0-295
+# sent_id = 286-20140827-MONOGRAFIA_0-297
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -7448,14 +7394,14 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-296
+# sent_id = 286-20140827-MONOGRAFIA_0-298
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Foram construídas as superfícies de respostas, as quais mostram as combinações dos resultados indicados pelo diagrama de Pareto.
-# sent_id = 286-20140827-MONOGRAFIA_0-297
+# sent_id = 286-20140827-MONOGRAFIA_0-299
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	construídas	construír	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -7482,7 +7428,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A Figura 19 mostra que quando existir agitação e quanto maior for o tempo de contato, maior será a quantidade de cloretos a serem extraídos do sistema.
-# sent_id = 286-20140827-MONOGRAFIA_0-298
+# sent_id = 286-20140827-MONOGRAFIA_0-300
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	19	19	NUM	_	NumType=Card	2	nummod	_	_
@@ -7513,17 +7459,17 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-299
+# sent_id = 286-20140827-MONOGRAFIA_0-301
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Quanto à superfície de contato da granulometria com o tempo de contato (Figura 20.a), observa-se melhores extrações quando há um maior tempo de contato da microemulsão com o cascalho com granulometria menor.
-# sent_id = 286-20140827-MONOGRAFIA_0-300
+# sent_id = 286-20140827-MONOGRAFIA_0-302
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -7570,7 +7516,7 @@
 40	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Por fim, é possível observar um leve aumento na extração de cloreto quando existe agitação e se utiliza as menores granulometrias, conforme Figura 20.b.
-# sent_id = 286-20140827-MONOGRAFIA_0-301
+# sent_id = 286-20140827-MONOGRAFIA_0-303
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7602,7 +7548,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 20 - Superfície de Resposta (a) Granulometria X
-# sent_id = 286-20140827-MONOGRAFIA_0-302
+# sent_id = 286-20140827-MONOGRAFIA_0-304
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	20	20	NUM	_	NumType=Card	8	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -7616,7 +7562,7 @@
 11	X	X	PROPN	_	Number=Sing	10	flat:name	_	_
 
 # text = Tempo de contato e (b)
-# sent_id = 286-20140827-MONOGRAFIA_0-303
+# sent_id = 286-20140827-MONOGRAFIA_0-305
 1	Tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	contato	contato	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7625,21 +7571,21 @@
 6	b)	b)	NUM	_	NumType=Card	1	conj	_	_
 
 # text = Granulometria X Agitação.
-# sent_id = 286-20140827-MONOGRAFIA_0-304
+# sent_id = 286-20140827-MONOGRAFIA_0-306
 1	Granulometria	Granulometria	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	X	X	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Agitação	Agitação	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-305
+# sent_id = 286-20140827-MONOGRAFIA_0-307
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Sugere-se, portanto, a partir das análises das superfícies de respostas, que a extração de cloretos utilizando microemulsão seja realizada com agitação, nos maiores tempos de agitação e com as menores granulometrias.
-# sent_id = 286-20140827-MONOGRAFIA_0-306
+# sent_id = 286-20140827-MONOGRAFIA_0-308
 1-2	Sugere-se	_	_	_	_	_	_	_	SpaceAfter=No
 1	Sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7683,22 +7629,22 @@
 37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
 38	menores	pequeno	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	_
 39	granulometrias	granulometria	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 4.7.
-# sent_id = 286-20140827-MONOGRAFIA_0-307
+# sent_id = 286-20140827-MONOGRAFIA_0-309
 1	4.7	4.7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Extração sólido-líquido em n-etapas
-# sent_id = 286-20140827-MONOGRAFIA_0-308
+# sent_id = 286-20140827-MONOGRAFIA_0-310
 1	Extração	extração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	sólido-líquido	sólido-líquido	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	4	case	_	_
 4	n-etapas	n-etapa	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = As extrações sólido-líquido foram realizadas em 3 etapas, utilizando água deionizada e o ponto 1 da rede de Scheffé como solventes.
-# sent_id = 286-20140827-MONOGRAFIA_0-309
+# sent_id = 286-20140827-MONOGRAFIA_0-311
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	extrações	extração	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	sólido-líquido	sólido-líquido	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7726,7 +7672,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O resultado obtido para a água nessas 3 etapas foi de 18,855 g de cloreto/kg de cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-310
+# sent_id = 286-20140827-MONOGRAFIA_0-312
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -7751,7 +7697,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Já para a microemulsão, o resultado obtido foi de 32,7 g de cloreto/kg de cascalho.
-# sent_id = 286-20140827-MONOGRAFIA_0-311
+# sent_id = 286-20140827-MONOGRAFIA_0-313
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7773,7 +7719,7 @@
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O detalhamento do resultado dessa extração por etapas pode ser observado na Figura 21 e na Tabela 12.
-# sent_id = 286-20140827-MONOGRAFIA_0-312
+# sent_id = 286-20140827-MONOGRAFIA_0-314
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	detalhamento	detalhamento	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7803,7 +7749,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 21 – Detalhamento da extração sólido líquido em 3 etapas realizada com microemulsão.
-# sent_id = 286-20140827-MONOGRAFIA_0-313
+# sent_id = 286-20140827-MONOGRAFIA_0-315
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	21	21	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -7823,20 +7769,14 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-314
+# sent_id = 286-20140827-MONOGRAFIA_0-316
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = Fonte: Autor
-# sent_id = 286-20140827-MONOGRAFIA_0-315
-1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	Autor	Autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-
 # text = Os resultados obtidos para essa extração mostram que a água deionizada, mesmo em três etapas de extração consecutivas, não é capaz de extrair o que a microemulsão consegue em apenas uma etapa.
-# sent_id = 286-20140827-MONOGRAFIA_0-316
+# sent_id = 286-20140827-MONOGRAFIA_0-317
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7874,7 +7814,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A utilização da microemulsão representa não somente um ganho na extração, mas também uma economia no tempo de realização desse processo.
-# sent_id = 286-20140827-MONOGRAFIA_0-317
+# sent_id = 286-20140827-MONOGRAFIA_0-318
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7905,15 +7845,15 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
 26	processo	processo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 4.8.
-# sent_id = 286-20140827-MONOGRAFIA_0-318
+# sent_id = 286-20140827-MONOGRAFIA_0-319
 1	4.8	4.8	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sugestão de um modelo de reator para futuro scale-up do processo
-# sent_id = 286-20140827-MONOGRAFIA_0-319
+# sent_id = 286-20140827-MONOGRAFIA_0-320
 1	Sugestão	sugestão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7929,7 +7869,7 @@
 12	processo	processo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 
 # text = A partir dos resultados obtidos e caso deseje-se aumentar a escala de extração do processo, sugere-se que seja usado um processo em batelada, em um tanque cilíndrico com agitação mecânica.
-# sent_id = 286-20140827-MONOGRAFIA_0-320
+# sent_id = 286-20140827-MONOGRAFIA_0-321
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	20	fixed	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -7973,7 +7913,7 @@
 37	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = A Figura 22 ilustra o esquema que deve ser testado.
-# sent_id = 286-20140827-MONOGRAFIA_0-321
+# sent_id = 286-20140827-MONOGRAFIA_0-322
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	22	22	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7987,7 +7927,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 22 – Esquema do modelo do separador proposto para extração de cloretos em maior escala.
-# sent_id = 286-20140827-MONOGRAFIA_0-322
+# sent_id = 286-20140827-MONOGRAFIA_0-323
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	22	22	PROPN	_	Number=Sing	1	flat:name	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -8011,14 +7951,14 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Autor.
-# sent_id = 286-20140827-MONOGRAFIA_0-323
+# sent_id = 286-20140827-MONOGRAFIA_0-324
 1	Fonte	fonte	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O funcionamento desse separador iniciaria colocando a quantidade desejada de cascalho dentro dele e, em seguida, alimentando o reator com a quantidade de microemulsão (corrente F) necessária para que se atinja a razão entre cascalho:microemulsão desejada, encerrando essa alimentação após atingir esse valor.
-# sent_id = 286-20140827-MONOGRAFIA_0-324
+# sent_id = 286-20140827-MONOGRAFIA_0-325
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -8075,7 +8015,7 @@
 52	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Em seguida, o sistema deve ser colocado em agitação mecânica por 30 min.
-# sent_id = 286-20140827-MONOGRAFIA_0-325
+# sent_id = 286-20140827-MONOGRAFIA_0-326
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8093,7 +8033,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Ao fim desse processo, o sistema deve permanecer em repouso por cerca de 1 h ~ 2 h, ou até que todo o cascalho sedimente para o fundo do tanque cilíndrico.
-# sent_id = 286-20140827-MONOGRAFIA_0-326
+# sent_id = 286-20140827-MONOGRAFIA_0-327
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8136,7 +8076,7 @@
 37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Depois disso, o extrato dessa extração será retirado do tanque (corrente P) e, caso se deseje, uma nova etapa de extração pode ser iniciada.
-# sent_id = 286-20140827-MONOGRAFIA_0-327
+# sent_id = 286-20140827-MONOGRAFIA_0-328
 1	Depois	depois	ADV	_	_	11	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -8175,7 +8115,7 @@
 33	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Caso não, o cascalho deve ser retirado do tanque e posto para secar.
-# sent_id = 286-20140827-MONOGRAFIA_0-328
+# sent_id = 286-20140827-MONOGRAFIA_0-329
 1	Caso	caso	SCONJ	_	_	8	mark	_	_
 2	não	não	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8192,21 +8132,21 @@
 13	posto	pôr	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	conj	_	_
 14	para	para	SCONJ	_	_	15	mark	_	_
 15	secar	secar	VERB	_	VerbForm=Inf	8	acl	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = CAPITULO 5
-# sent_id = 286-20140827-MONOGRAFIA_0-329
+# sent_id = 286-20140827-MONOGRAFIA_0-330
 1	CAPITULO	Capitulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Conclusão 5.
-# sent_id = 286-20140827-MONOGRAFIA_0-330
-1	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+# sent_id = 286-20140827-MONOGRAFIA_0-331
+1	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = CONCLUSÃO A partir dos resultados obtidos, chega-se a conclusão que a microemulsão proposta possui capacidade extrativa de cloretos bastante significativa.
-# sent_id = 286-20140827-MONOGRAFIA_0-331
+# sent_id = 286-20140827-MONOGRAFIA_0-332
 1	CONCLUSÃO	concluser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	A	a	ADP	_	_	1	compound	_	_
 3	partir	partir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8235,7 +8175,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Com a extração em simples estágio, a microemulsão foi capaz de extrair aproximadamente 31% (24,73 g de cloreto/kg de cascalho) a mais que máxima capacidade de extração da água deionizada, atingida com uma extração de três estágios (18,855 g de cloreto/kg de cascalho).
-# sent_id = 286-20140827-MONOGRAFIA_0-332
+# sent_id = 286-20140827-MONOGRAFIA_0-333
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	extração	extração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -8295,7 +8235,7 @@
 56	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Tal resultado aumenta para aproximadamente 73% ao se realizar uma extração em três etapas com a microemulsão.
-# sent_id = 286-20140827-MONOGRAFIA_0-333
+# sent_id = 286-20140827-MONOGRAFIA_0-334
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	aumenta	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8319,7 +8259,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Essa vantagem de extração da microemulsão em relação a água pode ser explicada devido ao fato que a primeira é capaz até de solubilizar íons cloretos intrínsecos a estrutura do cascalho, ou até mesmo outros tipos de cloretos (tais como cloretos orgânicos), enquanto que a água somente consegue extrair os íons cloretos que estão na superfície do material.
-# sent_id = 286-20140827-MONOGRAFIA_0-334
+# sent_id = 286-20140827-MONOGRAFIA_0-335
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8395,7 +8335,7 @@
 68	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Além disso, através da análise dos parâmetros para otimização da extração (agitação, tempo de contato e granulometria), foi possível concluir que as menores granulometrias, a existência de agitação no sistema e os maiores tempos de agitação fornecerão uma melhor extração para o sistema.
-# sent_id = 286-20140827-MONOGRAFIA_0-335
+# sent_id = 286-20140827-MONOGRAFIA_0-336
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -8458,7 +8398,7 @@
 55	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = O tempo de contato da solução com o inerte (o cascalho), no entanto é limitado pelo coeficiente de solubilidade da microemulsão, visto que a partir de 2h com agitação, o solvente não mais consegue extrair cloretos do cascalho, devido a alcançá-lo.
-# sent_id = 286-20140827-MONOGRAFIA_0-336
+# sent_id = 286-20140827-MONOGRAFIA_0-337
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8521,7 +8461,7 @@
 54	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Por fim, baseando-se nessas conclusões, sugere-se que esse cascalho tratado seja estudado na confecção de concreto, realizando testes de resistência à tensão, tração, torção e elasticidade do novo material para que assim seja verificado se o cascalho sem cloretos atende as necessidades do mercado de construção civil.
-# sent_id = 286-20140827-MONOGRAFIA_0-337
+# sent_id = 286-20140827-MONOGRAFIA_0-338
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8591,7 +8531,7 @@
 60	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Desse modo, poderá ser comprovada a utilidade do cascalho tratado e sua venda poderá ser iniciada.
-# sent_id = 286-20140827-MONOGRAFIA_0-338
+# sent_id = 286-20140827-MONOGRAFIA_0-339
 1-2	Desse	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_

@@ -1408,7 +1408,7 @@
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
-# text = A seguir, tem-se um gráfico que mostra o efeito do glicerol na mistura etanol- água.
+# text = A seguir, tem-se um gráfico que mostra o efeito do glicerol na mistura etanol-água.
 # sent_id = 378-20150430-MONOGRAFIA_0-46
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
@@ -1430,10 +1430,8 @@
 15	em	em	ADP	_	_	17	case	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
-18	etanol	etanol	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
-19	-	-	PUNCT	_	_	20	punct	_	_
-20	água	água	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	etanol-água	etanol-águo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 3:
 # sent_id = 378-20150430-MONOGRAFIA_0-47
@@ -1781,17 +1779,24 @@
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Ensaios experimentais com aquecedor e béquer
+# text = Ensaios experimentais com aquecedor e béquer Fonte:
 # sent_id = 378-20150430-MONOGRAFIA_0-63
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_
 4	aquecedor	aquecedor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 5	e	e	CCONJ	_	_	6	cc	_	_
-6	béquer	béquer	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+6	béquer	béquerer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Acervo pessoal
+# sent_id = 378-20150430-MONOGRAFIA_0-64
+1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O procedimento experimental nesta etapa consistia em aquecer a solução a ser analisada até que se atingisse o ponto de ebulição.
-# sent_id = 378-20150430-MONOGRAFIA_0-64
+# sent_id = 378-20150430-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1818,7 +1823,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A temperatura era registrada e cronometrava-se 15 minutos para se verificar a massa de solução evaporada nesse tempo.
-# sent_id = 378-20150430-MONOGRAFIA_0-65
+# sent_id = 378-20150430-MONOGRAFIA_0-66
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
@@ -1844,7 +1849,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para os cálculos de entalpia de vaporização da solução, utilizou-se a equação de Clausius-Clapeyron, representada pela relação 1. disponível no Korea Data Bank (KDB).
-# sent_id = 378-20150430-MONOGRAFIA_0-66
+# sent_id = 378-20150430-MONOGRAFIA_0-67
 1	Para	para	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
@@ -1884,35 +1889,35 @@
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
-# text = mostrada na equação 3:
-# sent_id = 378-20150430-MONOGRAFIA_0-67
-1	mostrada	mostrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+# text = mostrada na equação 3: (3)
+# sent_id = 378-20150430-MONOGRAFIA_0-68
+1	mostrada	mostrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	equação	equação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
 5	3:	3:	PUNCT	_	_	1	punct	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
 
-# text = Sendo
-# sent_id = 378-20150430-MONOGRAFIA_0-68
-1	Sendo	ser	AUX	_	VerbForm=Ger	0	root	_	_
-
-# text = A, B, C e D coeficientes da correlação KDB.
+# text = Sendo A, B, C e D coeficientes da correlação KDB.
 # sent_id = 378-20150430-MONOGRAFIA_0-69
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	B	bado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	C	C	PROPN	_	Gender=Masc|Number=Sing	3	conj	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	D	d	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
-8	coeficientes	coeficiente	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	correlação	correlação	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-12	KDB	KDB	PROPN	_	Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+1	Sendo	ser	AUX	_	VerbForm=Ger	4	cop	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	B	bado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	C	C	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	D	d	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	_
+9	coeficientes	coeficiente	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	correlação	correlação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+13	KDB	KDB	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A temperatura é em Kelvin e a pressão em kiloPascal.
 # sent_id = 378-20150430-MONOGRAFIA_0-70
@@ -2350,29 +2355,17 @@
 11	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 5:
+# text = 3.3.
 # sent_id = 378-20150430-MONOGRAFIA_0-88
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Ensaios experimentais com trap de destilação 3.3.
-# sent_id = 378-20150430-MONOGRAFIA_0-89
-1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
-3	com	com	ADP	_	_	4	case	_	_
-4	trap	trap	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	destilação	destilação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	3.3	3.3	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	3.3	3.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Ensaios
-# sent_id = 378-20150430-MONOGRAFIA_0-90
+# sent_id = 378-20150430-MONOGRAFIA_0-89
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Experimentais com Coluna de Destilação Extrativa
-# sent_id = 378-20150430-MONOGRAFIA_0-91
+# sent_id = 378-20150430-MONOGRAFIA_0-90
 1	Experimentais	experimental	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	com	com	ADP	_	_	3	case	_	_
 3	Coluna	coluna	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2381,7 +2374,7 @@
 6	Extrativa	Extrativa	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = Na terceira etapa do projeto, os ensaios experimentais passaram a ser realizados em uma coluna de destilação extrativa operada em modo contínuo, projetada pelo Prof.
-# sent_id = 378-20150430-MONOGRAFIA_0-92
+# sent_id = 378-20150430-MONOGRAFIA_0-91
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2416,18 +2409,21 @@
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Prof.	Prof.	PROPN	_	Gender=Masc|Number=Sing	27	obl:agent	_	_
 
-# text = Dr. Luiz Fernando de Moura (DEQ/UFSCar).
-# sent_id = 378-20150430-MONOGRAFIA_0-93
+# text = Dr.
+# sent_id = 378-20150430-MONOGRAFIA_0-92
 1	Dr	Dr	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	Luiz	Luiz	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	Fernando	fernando	PROPN	_	Number=Sing	3	flat:name	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	Moura	Moura	PROPN	_	Number=Sing	3	nmod	_	_
-7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	DEQ/UFSCar	DEQ/UFSCar	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Luiz Fernando de Moura (DEQ/UFSCar).
+# sent_id = 378-20150430-MONOGRAFIA_0-93
+1	Luiz	Luiz	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Fernando	fernando	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Moura	Moura	PROPN	_	Number=Sing	1	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	DEQ/UFSCar	DEQ/UFSCar	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O sistema não contava com uma coluna de recuperação.
 # sent_id = 378-20150430-MONOGRAFIA_0-94
@@ -2541,8 +2537,24 @@
 19	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Cada módulo da coluna tem diâmetro interno de 3,5 cm e cada estágio apresenta altura de 10 cm.
+# text = Figura 6:
 # sent_id = 378-20150430-MONOGRAFIA_0-97
+1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	6:	6:	PUNCT	_	_	1	punct	_	_
+
+# text = Ilustração do sistema de destilação extrativa
+# sent_id = 378-20150430-MONOGRAFIA_0-98
+1	Ilustração	ilustração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	destilação	destilação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	extrativa	extrativo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+
+# text = Cada módulo da coluna tem diâmetro interno de 3,5 cm e cada estágio apresenta altura de 10 cm.
+# sent_id = 378-20150430-MONOGRAFIA_0-99
 1	Cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	módulo	módulo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2566,7 +2578,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os módulos são interligados externamente por juntas 24/40 do tipo macho e fêmea.
-# sent_id = 378-20150430-MONOGRAFIA_0-98
+# sent_id = 378-20150430-MONOGRAFIA_0-100
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	módulos	módulo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2585,7 +2597,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Inicialmente, a coluna apresentava “downcomer” externo, o que foi alterado posteriormente, tópico que será abordado posteriormente.
-# sent_id = 378-20150430-MONOGRAFIA_0-99
+# sent_id = 378-20150430-MONOGRAFIA_0-101
 1	Inicialmente	inicialmente	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2610,7 +2622,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A seguir, tem-se ilustrações dos módulos da coluna.
-# sent_id = 378-20150430-MONOGRAFIA_0-100
+# sent_id = 378-20150430-MONOGRAFIA_0-102
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2629,13 +2641,13 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 8:
-# sent_id = 378-20150430-MONOGRAFIA_0-101
+# sent_id = 378-20150430-MONOGRAFIA_0-103
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Módulos de vidro da coluna
-# sent_id = 378-20150430-MONOGRAFIA_0-102
+# sent_id = 378-20150430-MONOGRAFIA_0-104
 1	Módulos	Módulo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	vidro	vidro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2645,7 +2657,7 @@
 6	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Fonte: JARDIM (2014)
-# sent_id = 378-20150430-MONOGRAFIA_0-103
+# sent_id = 378-20150430-MONOGRAFIA_0-105
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	JARDIM	Jardim	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -2654,7 +2666,7 @@
 6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = A seguir, serão descritos os principais componentes da coluna.
-# sent_id = 378-20150430-MONOGRAFIA_0-104
+# sent_id = 378-20150430-MONOGRAFIA_0-106
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2670,7 +2682,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Então, serão abordadas as mudanças de configuração da coluna que se fizeram necessárias durante o desenvolvimento do projeto.
-# sent_id = 378-20150430-MONOGRAFIA_0-105
+# sent_id = 378-20150430-MONOGRAFIA_0-107
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -2697,7 +2709,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Primeiramente, o refervedor da coluna era composto pela manta de aquecimento, com potência nominal de 570 W, na qual havia inserido um balão de fundo redondo com volume de dois litros e três saídas, sendo a central conectada na coluna para passagem do vapor gerado, uma das laterais conectada em uma bomba peristáltica para retirada de produto de fundo, e a outra lateral também ligada na coluna para passagem do líquido descendente da coluna.
-# sent_id = 378-20150430-MONOGRAFIA_0-106
+# sent_id = 378-20150430-MONOGRAFIA_0-108
 1	Primeiramente	primeiramente	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2799,7 +2811,7 @@
 90	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = A manta de aquecimento apresenta 8 possíveis níveis de potência, que regulam o fornecimento de vapor para a coluna.
-# sent_id = 378-20150430-MONOGRAFIA_0-107
+# sent_id = 378-20150430-MONOGRAFIA_0-109
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	manta	manta	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2823,7 +2835,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O condensador da coluna era composto por três equipamentos, sendo eles um condensador do tipo serpentina e um distribuidor de vapor, ambos de vidro, assim como um banho térmico que resfriava e bombeava a água usada no condensador.
-# sent_id = 378-20150430-MONOGRAFIA_0-108
+# sent_id = 378-20150430-MONOGRAFIA_0-110
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	condensador	condensador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2874,7 +2886,7 @@
 45	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O vapor proveniente do distribuidor de vapor, vindo da coluna, segue para o condensador, onde troca calor com a água resfriada em circulação no condensador, o que faz com que o vapor condense.
-# sent_id = 378-20150430-MONOGRAFIA_0-109
+# sent_id = 378-20150430-MONOGRAFIA_0-111
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	proveniente	proveniente	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2921,7 +2933,7 @@
 41	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Então, o vapor condensado volta para o distribuidor, que apresenta um pequeno reservatório, análogo à um tanque pulmão, e pode ser retirado por uma saída lateral que o encaminha para ser dividido entre refluxo e destilado.
-# sent_id = 378-20150430-MONOGRAFIA_0-110
+# sent_id = 378-20150430-MONOGRAFIA_0-112
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2967,7 +2979,7 @@
 42	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = A seguir, tem-se uma imagem do sistema de condensação da coluna.
-# sent_id = 378-20150430-MONOGRAFIA_0-111
+# sent_id = 378-20150430-MONOGRAFIA_0-113
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2988,45 +3000,10 @@
 15	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 9:
-# sent_id = 378-20150430-MONOGRAFIA_0-112
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Sistema de condensação da coluna extrativa
-# sent_id = 378-20150430-MONOGRAFIA_0-113
-1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	condensação	condensação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-7	extrativa	extrativo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-
-# text = Pode-se observar que logo embaixo do condensador, tem-se o distribuidor de vapor.
+# text = vapor.
 # sent_id = 378-20150430-MONOGRAFIA_0-114
-1-2	Pode-se	_	_	_	_	_	_	_	_
-1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
-3	observar	observar	VERB	_	VerbForm=Inf	1	ccomp	_	_
-4	que	que	SCONJ	_	_	11	mark	_	_
-5	logo	logo	ADV	_	_	6	advmod	_	_
-6	embaixo	embaixo	ADV	_	_	11	advmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	condensador	condensador	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	6	punct	_	_
-11-12	tem-se	_	_	_	_	_	_	_	_
-11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-12	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	distribuidor	distribuidor	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	_
+1	vapor	vapor	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Não é possível visualizá-lo já que está revestido por um material isolante.
 # sent_id = 378-20150430-MONOGRAFIA_0-115
@@ -3260,11 +3237,29 @@
 21	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 10:
+# text = Pode-se observar que logo embaixo do condensador, tem-se o distribuidor de Figura 10:
 # sent_id = 378-20150430-MONOGRAFIA_0-121
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
+1-2	Pode-se	_	_	_	_	_	_	_	_
+1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
+3	observar	observar	VERB	_	VerbForm=Inf	1	ccomp	_	_
+4	que	que	SCONJ	_	_	11	mark	_	_
+5	logo	logo	ADV	_	_	6	advmod	_	_
+6	embaixo	embaixo	ADV	_	_	11	advmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	condensador	condensador	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11-12	tem-se	_	_	_	_	_	_	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+12	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	distribuidor	distribuidor	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	10	10	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de refluxo da coluna Fonte: JARDIM (2014)
 # sent_id = 378-20150430-MONOGRAFIA_0-122
@@ -3582,7 +3577,7 @@
 18	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Como já dito anteriormente, o produto de fundo do balão é retirado por uma
+# text = Como já dito anteriormente, o produto de fundo do balão é retirado por uma Figura 11:
 # sent_id = 378-20150430-MONOGRAFIA_0-132
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	já	já	ADV	_	_	3	advmod	_	_
@@ -3599,11 +3594,30 @@
 12	balão	balão	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
 14	retirado	retirar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-15	por	por	ADP	_	_	16	case	_	_
-16	uma	um	NUM	_	NumType=Card	14	obl	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Figura	figuro	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	11	11	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	14	punct	_	_
+
+# text = Coluna de destilação com novos módulos Fonte:
+# sent_id = 378-20150430-MONOGRAFIA_0-133
+1	Coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	destilação	destilação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	novos	novo	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	módulos	módulo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+7	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Acervo pessoal
+# sent_id = 378-20150430-MONOGRAFIA_0-134
+1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Na sequência, trocou-se a bomba de retirada de produto de fundo por uma bomba dosadora, para que se pudesse retirar o produto de fundo com uma maior vazão.
-# sent_id = 378-20150430-MONOGRAFIA_0-133
+# sent_id = 378-20150430-MONOGRAFIA_0-135
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3641,7 +3655,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O objetivo dos ensaios era colocar a coluna em regime estacionário sem a alimentação de glicerina e, em seguida, retirar amostras do líquido de cada prato para análise com refratômetro repetidas vezes.
-# sent_id = 378-20150430-MONOGRAFIA_0-134
+# sent_id = 378-20150430-MONOGRAFIA_0-136
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -3683,7 +3697,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = As amostras eram retiradas com a utilização de uma seringa, que era inserida na mangueira que tampava as olivas de cada prato no nível do líquido, e eram alocadas em Eppendorfs.
-# sent_id = 378-20150430-MONOGRAFIA_0-135
+# sent_id = 378-20150430-MONOGRAFIA_0-137
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
@@ -3726,7 +3740,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Após esperar as amostras esfriarem, para análises na mesma temperatura, as análises eram feitas.
-# sent_id = 378-20150430-MONOGRAFIA_0-136
+# sent_id = 378-20150430-MONOGRAFIA_0-138
 1	Após	após	SCONJ	_	_	2	mark	_	_
 2	esperar	esperar	VERB	_	VerbForm=Inf	17	acl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3748,7 +3762,7 @@
 18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Quando se tivesse índices de refração constantes em cada prato, a coluna estaria em regime estacionário.
-# sent_id = 378-20150430-MONOGRAFIA_0-137
+# sent_id = 378-20150430-MONOGRAFIA_0-139
 1	Quando	quando	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	tivesse	tiver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
@@ -3769,7 +3783,7 @@
 18	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Então, seria realizado o mesmo procedimento com alimentação de glicerina, de forma a comparar-se valores do índice de refração para cada prato e analisar o efeito da glicerina na destilação.
-# sent_id = 378-20150430-MONOGRAFIA_0-138
+# sent_id = 378-20150430-MONOGRAFIA_0-140
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -3813,12 +3827,12 @@
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.4.
-# sent_id = 378-20150430-MONOGRAFIA_0-139
+# sent_id = 378-20150430-MONOGRAFIA_0-141
 1	3.4	3.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Simulação do Processo
-# sent_id = 378-20150430-MONOGRAFIA_0-140
+# sent_id = 378-20150430-MONOGRAFIA_0-142
 1	Simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3826,7 +3840,7 @@
 4	Processo	processo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Por fim, foram feitas simulações no simulador comercial Aspen Plus para análise do efeito da glicerina.
-# sent_id = 378-20150430-MONOGRAFIA_0-141
+# sent_id = 378-20150430-MONOGRAFIA_0-143
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3853,7 +3867,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O modelo termodinâmico adotado foi o modelo UNIQUAC.
-# sent_id = 378-20150430-MONOGRAFIA_0-142
+# sent_id = 378-20150430-MONOGRAFIA_0-144
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	termodinâmico	termodinâmico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3865,7 +3879,7 @@
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Primeiramente, montou-se um sistema de destilação fracionada de uma solução etanol-água, com 7% de etanol em massa na alimentação, com retirada de produto de fundo e destilado, sem condensador e sem “reboiler”, com entrada de vapor no fundo da coluna – borbotagem.
-# sent_id = 378-20150430-MONOGRAFIA_0-143
+# sent_id = 378-20150430-MONOGRAFIA_0-145
 1	Primeiramente	primeiramente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	montou-se	_	_	_	_	_	_	_	_
@@ -3927,7 +3941,7 @@
 55	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Então, buscou-se a melhor configuração do sistema de forma a se obter a maior concentração de etanol no destilado, mantendo a recuperação de etanol – razão entre a vazão de etanol no destilado e a vazão de etanol na alimentação - maior do que 99%.
-# sent_id = 378-20150430-MONOGRAFIA_0-144
+# sent_id = 378-20150430-MONOGRAFIA_0-146
 1	Então	então	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	buscou-se	_	_	_	_	_	_	_	_
@@ -3991,7 +4005,7 @@
 55	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A seguir, tem-se a ilustração da configuração utilizada no simulador para tal processo.
-# sent_id = 378-20150430-MONOGRAFIA_0-145
+# sent_id = 378-20150430-MONOGRAFIA_0-147
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4015,13 +4029,13 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 12:
-# sent_id = 378-20150430-MONOGRAFIA_0-146
+# sent_id = 378-20150430-MONOGRAFIA_0-148
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
-# text = Configuração utilizada na destilação etanol-água Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-147
+# text = Configuração utilizada na destilação etanol-água
+# sent_id = 378-20150430-MONOGRAFIA_0-149
 1	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -4029,16 +4043,9 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	destilação	destilação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 6	etanol-água	etanol-águo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Acervo pessoal
-# sent_id = 378-20150430-MONOGRAFIA_0-148
-1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-
-# text = No esquema acima, F representa a corrente de alimentação, D representa a corrente de destilado, B representa a corrente de produto de fundo e S representa a corrente de vapor – borbotagem.
-# sent_id = 378-20150430-MONOGRAFIA_0-149
+# text = No esquema acima, F representa a corrente de alimentação, D representa a corrente de destilado, B representa a corrente de produto de fundo e
+# sent_id = 378-20150430-MONOGRAFIA_0-150
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4067,19 +4074,22 @@
 25	produto	produto	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-28	e	e	CCONJ	_	_	30	cc	_	_
-29	S	s	PROPN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
-30	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
-33	de	de	ADP	_	_	34	case	_	_
-34	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
-35	–	–	PUNCT	_	_	36	punct	_	_
-36	borbotagem	borbotagem	NOUN	_	Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+28	e	e	CCONJ	_	_	7	cc	_	_
+
+# text = S representa a corrente de vapor – borbotagem.
+# sent_id = 378-20150430-MONOGRAFIA_0-151
+1	S	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	–	–	PUNCT	_	_	8	punct	_	_
+8	borbotagem	borbotagem	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Assim que tal configuração foi alcançada, acrescentou-se uma corrente de glicerina no sistema, corrente G, de modo a se simular um processo de destilação extrativa com glicerina, adotando como base a configuração do sistema anterior.
-# sent_id = 378-20150430-MONOGRAFIA_0-150
+# sent_id = 378-20150430-MONOGRAFIA_0-152
 1	Assim	assim	SCONJ	_	_	6	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
@@ -4128,7 +4138,7 @@
 43	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Para efeito de comparação, buscou-se a melhor configuração do sistema com alimentação de glicerina, com o mínimo de alterações possíveis em relação ao sistema anterior.
-# sent_id = 378-20150430-MONOGRAFIA_0-151
+# sent_id = 378-20150430-MONOGRAFIA_0-153
 1	Para	para	ADP	_	_	2	case	_	_
 2	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4165,7 +4175,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Logo, pode-se comparar a concentração de etanol no destilado no sistema com e sem alimentação de glicerina.
-# sent_id = 378-20150430-MONOGRAFIA_0-152
+# sent_id = 378-20150430-MONOGRAFIA_0-154
 1	Logo	logo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	pode-se	_	_	_	_	_	_	_	_
@@ -4193,7 +4203,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Abaixo, tem-se a ilustração da configuração utilizada no simulador para o novo processo.
-# sent_id = 378-20150430-MONOGRAFIA_0-153
+# sent_id = 378-20150430-MONOGRAFIA_0-155
 1	Abaixo	abaixo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	tem-se	_	_	_	_	_	_	_	_
@@ -4216,13 +4226,26 @@
 17	processo	processo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = 4.
-# sent_id = 378-20150430-MONOGRAFIA_0-154
-1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
+# text = Figura 13:
+# sent_id = 378-20150430-MONOGRAFIA_0-156
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Configuração utilizada na destilação água-etanol-glicerina 4.
+# sent_id = 378-20150430-MONOGRAFIA_0-157
+1	Configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	destilação	destilação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	água-etanol-glicerina	água-etanol-glicerino	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	4	4	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS E DISCUSSÃO 4.1.
-# sent_id = 378-20150430-MONOGRAFIA_0-155
+# sent_id = 378-20150430-MONOGRAFIA_0-158
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	E	e	CCONJ	_	_	3	cc	_	_
 3	DISCUSSÃO	discusser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4230,15 +4253,15 @@
 5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Ensaios
-# sent_id = 378-20150430-MONOGRAFIA_0-156
+# sent_id = 378-20150430-MONOGRAFIA_0-159
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Experimentais
-# sent_id = 378-20150430-MONOGRAFIA_0-157
+# sent_id = 378-20150430-MONOGRAFIA_0-160
 1	Experimentais	experimental	DET	_	Gender=Fem|PronType=Dem	0	root	_	_
 
 # text = Serão abordados agora resultados dos ensaios experimentais realizados em todas as etapas do projeto, assim como a discussão dos mesmos.
-# sent_id = 378-20150430-MONOGRAFIA_0-158
+# sent_id = 378-20150430-MONOGRAFIA_0-161
 1	Serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	aux:pass	_	_
 2	abordados	abordar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	agora	agora	ADV	_	_	4	advmod	_	_
@@ -4269,7 +4292,7 @@
 25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Primeiramente, tem-se os resultados dos ensaios experimentais realizados com aquecedor e béquer para água pura, etanol puro, água e glicerina e etanol e glicerina:
-# sent_id = 378-20150430-MONOGRAFIA_0-159
+# sent_id = 378-20150430-MONOGRAFIA_0-162
 1	Primeiramente	primeiramente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	tem-se	_	_	_	_	_	_	_	_
@@ -4304,13 +4327,13 @@
 30	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Tabela 3:
-# sent_id = 378-20150430-MONOGRAFIA_0-160
+# sent_id = 378-20150430-MONOGRAFIA_0-163
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Ensaio experimental com aquecedor e béquer para água pura Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-161
+# sent_id = 378-20150430-MONOGRAFIA_0-164
 1	Ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4324,12 +4347,12 @@
 11	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal
-# sent_id = 378-20150430-MONOGRAFIA_0-162
+# sent_id = 378-20150430-MONOGRAFIA_0-165
 1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Tabela 5: Potência calculada para experimentos com água pura Tabela 6:
-# sent_id = 378-20150430-MONOGRAFIA_0-163
+# sent_id = 378-20150430-MONOGRAFIA_0-166
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4345,7 +4368,7 @@
 13	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Ensaio experimental com aquecedor e béquer para etanol puro Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-164
+# sent_id = 378-20150430-MONOGRAFIA_0-167
 1	Ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4358,36 +4381,26 @@
 10	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 11	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Acervo pessoal Tabela 8:
-# sent_id = 378-20150430-MONOGRAFIA_0-165
-1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-3	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	8	8	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Potência calculada para experimentos com etanol puro Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-166
-1	Potência	potência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
-3	para	para	ADP	_	_	4	case	_	_
-4	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
-5	com	com	ADP	_	_	6	case	_	_
-6	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
-7	puro	puro	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-8	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Acervo pessoal Tabela 9:
-# sent_id = 378-20150430-MONOGRAFIA_0-167
-1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-3	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	9	9	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Ensaio experimental com aquecedor e béquer para água e glicerina Tabela 10:
+# text = Acervo pessoal Fonte:
 # sent_id = 378-20150430-MONOGRAFIA_0-168
+1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	Fonte	Fonte	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Acervo pessoal
+# sent_id = 378-20150430-MONOGRAFIA_0-169
+1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+
+# text = Tabela 9:
+# sent_id = 378-20150430-MONOGRAFIA_0-170
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	9	9	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Ensaio experimental com aquecedor e béquer para água e glicerina Fonte:
+# sent_id = 378-20150430-MONOGRAFIA_0-171
 1	Ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4395,15 +4408,22 @@
 5	e	e	CCONJ	_	_	6	cc	_	_
 6	béquer	béquerer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 7	para	para	ADP	_	_	8	case	_	_
-8	água	água	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+8	água	água	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 9	e	e	CCONJ	_	_	10	cc	_	_
-10	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-11	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	6	obj	_	_
-12	10	10	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	1	punct	_	_
+10	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+11	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Acervo pessoal Tabela 10:
+# sent_id = 378-20150430-MONOGRAFIA_0-172
+1	Acervo	Acervo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	pessoal	pessoal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	Tabela	Tabela	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	10	10	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Potência calculada para experimentos com água e glicerina
-# sent_id = 378-20150430-MONOGRAFIA_0-169
+# sent_id = 378-20150430-MONOGRAFIA_0-173
 1	Potência	potência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -4414,13 +4434,13 @@
 8	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 
 # text = Tabela 11:
-# sent_id = 378-20150430-MONOGRAFIA_0-170
+# sent_id = 378-20150430-MONOGRAFIA_0-174
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Ensaio experimental com aquecedor e béquer para etanol e glicerina
-# sent_id = 378-20150430-MONOGRAFIA_0-171
+# sent_id = 378-20150430-MONOGRAFIA_0-175
 1	Ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4433,13 +4453,13 @@
 10	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 
 # text = Tabela 12:
-# sent_id = 378-20150430-MONOGRAFIA_0-172
+# sent_id = 378-20150430-MONOGRAFIA_0-176
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	12	12	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Potência calculada para experimentos com etanol e glicerina Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-173
+# text = Potência calculada para experimentos com etanol e glicerina
+# sent_id = 378-20150430-MONOGRAFIA_0-177
 1	Potência	potência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	calculada	calcular	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -4447,17 +4467,10 @@
 5	com	com	ADP	_	_	6	case	_	_
 6	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 7	e	e	CCONJ	_	_	8	cc	_	_
-8	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
-9	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Acervo pessoal
-# sent_id = 378-20150430-MONOGRAFIA_0-174
-1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 
 # text = Os cálculos foram feitos a partir do uso das equações citadas na seção 3.1.
-# sent_id = 378-20150430-MONOGRAFIA_0-175
+# sent_id = 378-20150430-MONOGRAFIA_0-178
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -4480,7 +4493,7 @@
 17	3.1.	3.1	NUM	_	NumType=Card	16	nummod	_	SpacesAfter=\n
 
 # text = Como pode ser observado, a presença da glicerina nas soluções fez com que a temperatura de ebulição fosse superior nos dois casos em comparação com as substâncias puras.
-# sent_id = 378-20150430-MONOGRAFIA_0-176
+# sent_id = 378-20150430-MONOGRAFIA_0-179
 1	Como	como	ADV	_	_	2	advmod	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -4519,7 +4532,7 @@
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Para o cálculo das entalpias de vaporização, desconsiderou-se a presença da glicerina nos dois últimos casos, o que nos leva a um determinado erro nos resultados de tal parâmetro.
-# sent_id = 378-20150430-MONOGRAFIA_0-177
+# sent_id = 378-20150430-MONOGRAFIA_0-180
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -4566,7 +4579,7 @@
 38	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Observa-se também, no caso do etanol, que o aumento na temperatura de ebulição – em torno de 3,5ºC – levou à evaporação de uma maior massa no mesmo tempo, o que compensou a aproximação na entalpia de vaporização e forneceu valores de potência real maiores, já que é necessário o fornecimento de mais energia para o sistema.
-# sent_id = 378-20150430-MONOGRAFIA_0-178
+# sent_id = 378-20150430-MONOGRAFIA_0-181
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4645,7 +4658,7 @@
 69	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Enquanto isso, no caso da água, a presença de glicerina aumentou as temperaturas de ebulição em cerca de 1ºC, e as potências calculadas na presença da glicerina foram menores do que as obtidas para a água pura, mesmo o sistema demandando mais energia para a evaporação.
-# sent_id = 378-20150430-MONOGRAFIA_0-179
+# sent_id = 378-20150430-MONOGRAFIA_0-182
 1	Enquanto	enquanto	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4709,7 +4722,7 @@
 56	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Isso explica-se pelo arredondamento no cálculo das entalpias de vaporização, já que a massa evaporada no caso não foi superior à da água pura.
-# sent_id = 378-20150430-MONOGRAFIA_0-180
+# sent_id = 378-20150430-MONOGRAFIA_0-183
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2-3	explica-se	_	_	_	_	_	_	_	_
 2	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4752,7 +4765,7 @@
 33	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = No caso dos ensaios experimentais com “trap” de destilação, destilou-se soluções com concentrações de 350g/50g, 300g/100g e 200g/200g de água/etanol, respectivamente.
-# sent_id = 378-20150430-MONOGRAFIA_0-181
+# sent_id = 378-20150430-MONOGRAFIA_0-184
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4788,7 +4801,7 @@
 30	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Os resultados das análises com refratômetro encontram-se nas tabelas a seguir:
-# sent_id = 378-20150430-MONOGRAFIA_0-182
+# sent_id = 378-20150430-MONOGRAFIA_0-185
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4808,8 +4821,28 @@
 14	seguir	seguir	VERB	_	VerbForm=Inf	8	advcl	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	8	punct	_	_
 
+# text = Tabela 15:
+# sent_id = 378-20150430-MONOGRAFIA_0-186
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	15	15	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Análises da solução água-etanol na proporção 200g-200g
+# sent_id = 378-20150430-MONOGRAFIA_0-187
+1	Análises	Análise	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	solução	solução	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	água-etanol	água-etanol	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+9	200g-200g	200g-200g	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+
 # text = Observa-se que, no decorrer da destilação, o destilado passa por um processo de diluição, ou seja, as primeiras amostras são as mais puras em etanol, sendo diluídas com a adição das amostras seguintes, que levam consigo água e etanol para o destilado.
-# sent_id = 378-20150430-MONOGRAFIA_0-183
+# sent_id = 378-20150430-MONOGRAFIA_0-188
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4871,7 +4904,7 @@
 54	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Além disso, quanto mais concentrada em etanol é a solução a ser destilada, mais pura em etanol é a primeira amostra.
-# sent_id = 378-20150430-MONOGRAFIA_0-184
+# sent_id = 378-20150430-MONOGRAFIA_0-189
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -4900,7 +4933,7 @@
 25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = Quando os experimentos foram realizados na coluna de destilação fracionada, após a coluna estar supostamente em regime estacionário, com níveis constantes nos pratos, as amostras retiradas em cada prato apresentaram os seguintes índices de refração:
-# sent_id = 378-20150430-MONOGRAFIA_0-185
+# sent_id = 378-20150430-MONOGRAFIA_0-190
 1	Quando	quando	SCONJ	_	_	5	mark	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
@@ -4946,13 +4979,13 @@
 41	:	:	PUNCT	_	_	35	punct	_	_
 
 # text = Tabela 16:
-# sent_id = 378-20150430-MONOGRAFIA_0-186
+# sent_id = 378-20150430-MONOGRAFIA_0-191
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados das análises na coluna extrativa Nota-se que os valores do índice de refração oscilam em torno de uma média para cada prato.
-# sent_id = 378-20150430-MONOGRAFIA_0-187
+# sent_id = 378-20150430-MONOGRAFIA_0-192
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4987,7 +5020,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Portanto, se o regime estacionário não foi atingido, chegou-se muito próximo disso.
-# sent_id = 378-20150430-MONOGRAFIA_0-188
+# sent_id = 378-20150430-MONOGRAFIA_0-193
 1	Portanto	portanto	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	se	se	SCONJ	_	_	9	mark	_	_
@@ -5009,7 +5042,7 @@
 17	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Como não foi possível realizar outros ensaios experimentais após a obtenção de tais resultados, a hipótese não pôde ser confirmada para tais valores.
-# sent_id = 378-20150430-MONOGRAFIA_0-189
+# sent_id = 378-20150430-MONOGRAFIA_0-194
 1	Como	como	SCONJ	_	_	4	mark	_	_
 2	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -5037,7 +5070,7 @@
 25	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, o projeto tinha duração de dois anos.
-# sent_id = 378-20150430-MONOGRAFIA_0-190
+# sent_id = 378-20150430-MONOGRAFIA_0-195
 1	Inicialmente	inicialmente	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5050,7 +5083,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Devido à problemas internos do Programa de Recursos Humanos (PRH), o mesmo foi cortado para apenas um ano.
-# sent_id = 378-20150430-MONOGRAFIA_0-191
+# sent_id = 378-20150430-MONOGRAFIA_0-196
 1	Devido	devido	ADV	_	_	4	advmod	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -5079,7 +5112,7 @@
 24	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Tal mudança de cronograma afetou o desenvolvimento experimental do projeto em sua última fase, visto que o trabalho com a coluna de destilação extrativa demanda um longo tempo, tanto para familiarização com a operação, quanto para possíveis manutenções e mudanças necessárias no sistema.
-# sent_id = 378-20150430-MONOGRAFIA_0-192
+# sent_id = 378-20150430-MONOGRAFIA_0-197
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5133,7 +5166,7 @@
 49	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Além disso, o processo de colocar a coluna em regime estacionário é extremamente delicado, uma vez que o tempo de resposta das variações em parâmetros como vazão das correntes e potência da manta – ou seja, vazão de vapor, é longo e não é constante.
-# sent_id = 378-20150430-MONOGRAFIA_0-193
+# sent_id = 378-20150430-MONOGRAFIA_0-198
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -5194,7 +5227,7 @@
 54	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Portanto, para que a coluna entre em regime estacionário, demanda-se muito tempo de operação da mesma.
-# sent_id = 378-20150430-MONOGRAFIA_0-194
+# sent_id = 378-20150430-MONOGRAFIA_0-199
 1	Portanto	portanto	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	SCONJ	_	_	12	mark	_	_
@@ -5220,7 +5253,7 @@
 21	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Logo, não foi possível atingir a etapa de operação com a corrente de glicerina na coluna de destilação extrativa.
-# sent_id = 378-20150430-MONOGRAFIA_0-195
+# sent_id = 378-20150430-MONOGRAFIA_0-200
 1	Logo	logo	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -5246,16 +5279,16 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4.2.
-# sent_id = 378-20150430-MONOGRAFIA_0-196
+# sent_id = 378-20150430-MONOGRAFIA_0-201
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Simulações
-# sent_id = 378-20150430-MONOGRAFIA_0-197
+# sent_id = 378-20150430-MONOGRAFIA_0-202
 1	Simulações	Simulação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = Nessa etapa do projeto, simulou-se um processo de destilação no simulador Aspen Plus da solução etanol/água, em uma coluna do tipo RadFrac com 25 estágios, sem condensador e sem “reboiler”, com alimentação acontecendo no primeiro prato e entrada de vapor no último prato – borbotagem.
-# sent_id = 378-20150430-MONOGRAFIA_0-198
+# sent_id = 378-20150430-MONOGRAFIA_0-203
 1-2	Nessa	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5326,7 +5359,7 @@
 60	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A corrente de alimentação era composta por 7 kg/h de etanol e 93 kg/h de água, pressão de 1 bar e entrava como líquido saturado.
-# sent_id = 378-20150430-MONOGRAFIA_0-199
+# sent_id = 378-20150430-MONOGRAFIA_0-204
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5356,7 +5389,7 @@
 27	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A borbotagem era alimentada com vazão de 13 kg/h, pressão de 1,7 bar e entrava como vapor saturado.
-# sent_id = 378-20150430-MONOGRAFIA_0-200
+# sent_id = 378-20150430-MONOGRAFIA_0-205
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	borbotagem	borbotagem	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
@@ -5379,7 +5412,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A seguir, encontram-se os valores obtidos para essa simulação.
-# sent_id = 378-20150430-MONOGRAFIA_0-201
+# sent_id = 378-20150430-MONOGRAFIA_0-206
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5395,13 +5428,13 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 17:
-# sent_id = 378-20150430-MONOGRAFIA_0-202
+# sent_id = 378-20150430-MONOGRAFIA_0-207
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados para a simulação da destilação etanol/água Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-203
+# sent_id = 378-20150430-MONOGRAFIA_0-208
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5417,12 +5450,12 @@
 12	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal
-# sent_id = 378-20150430-MONOGRAFIA_0-204
+# sent_id = 378-20150430-MONOGRAFIA_0-209
 1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Então, para que se pudesse analisar o efeito da glicerina na destilação etanol/água, colocou-se a corrente G no processo, como descrito anteriormente.
-# sent_id = 378-20150430-MONOGRAFIA_0-205
+# sent_id = 378-20150430-MONOGRAFIA_0-210
 1	Então	então	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	SCONJ	_	_	6	mark	_	_
@@ -5459,7 +5492,7 @@
 30	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = A operação foi realizada também em uma coluna do tipo RadFrac com 25 estágios, sem condensador e sem “reboiler”, com alimentação de 7 kg/h de etanol e 93 kg/h de água acontecendo no quarto prato no estado de líquido saturado, entrada da borbotagem no último prato com vazão de 13 kg/h, pressão de 1,7 bar e no estado de vapor saturado e entrada de glicerol no primeiro prato com vazão de 12 kg/h.
-# sent_id = 378-20150430-MONOGRAFIA_0-206
+# sent_id = 378-20150430-MONOGRAFIA_0-211
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	operação	operação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -5556,7 +5589,7 @@
 87	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Para se atingir essa configuração do processo, foram realizadas diversas análises com diferentes configurações de modo a se obter a maior pureza de etanol no destilado e manter a recuperação de etanol maior do que 99%.
-# sent_id = 378-20150430-MONOGRAFIA_0-207
+# sent_id = 378-20150430-MONOGRAFIA_0-212
 1	Para	para	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	atingir	atingir	VERB	_	Number=Sing|Person=3|VerbForm=Inf	11	advcl	_	_
@@ -5604,7 +5637,7 @@
 42	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A seguir, tem-se os valores obtidos para essa simulação.
-# sent_id = 378-20150430-MONOGRAFIA_0-208
+# sent_id = 378-20150430-MONOGRAFIA_0-213
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5620,7 +5653,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Tem-se disponível nos anexos os resultados completos das simulações, assim como a composição em cada estágio de equilíbrio das mesmas.
-# sent_id = 378-20150430-MONOGRAFIA_0-209
+# sent_id = 378-20150430-MONOGRAFIA_0-214
 1-2	Tem-se	_	_	_	_	_	_	_	_
 1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5653,13 +5686,13 @@
 26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 18:
-# sent_id = 378-20150430-MONOGRAFIA_0-210
+# sent_id = 378-20150430-MONOGRAFIA_0-215
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados para a simulação da destilação extrativa etanol/água com uso do glicerol como solvente Fonte:
-# sent_id = 378-20150430-MONOGRAFIA_0-211
+# sent_id = 378-20150430-MONOGRAFIA_0-216
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5684,12 +5717,12 @@
 20	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Acervo pessoal
-# sent_id = 378-20150430-MONOGRAFIA_0-212
+# sent_id = 378-20150430-MONOGRAFIA_0-217
 1	Acervo	Acervo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	pessoal	pessoal	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Nota-se que a presença do glicerol como solvente alimentado no primeiro prato com vazão de 12 kg/h faz com que a concentração de etanol no destilado aumente, mantendo a recuperação de etanol acima de 99%, o que torna interessante seu uso em tal processo.
-# sent_id = 378-20150430-MONOGRAFIA_0-213
+# sent_id = 378-20150430-MONOGRAFIA_0-218
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5748,7 +5781,7 @@
 52	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 5. CONCLUSÕES Sobre as medidas das potências efetivas, pôde-se concluir que a potência real necessária para evaporar a massa evaporada de solução nos casos com e sem glicerina de água e etanol é praticamente a mesma para cada substância.
-# sent_id = 378-20150430-MONOGRAFIA_0-214
+# sent_id = 378-20150430-MONOGRAFIA_0-219
 1	5	5	NUM	_	NumType=Card	12	nsubj	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	CONCLUSÕES	conclusões	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -5799,7 +5832,7 @@
 45	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Constata-se tal fato ao se dividir a potência em cada caso pela massa evaporada, obtendo-se então uma relação de Watt consumido por grama de solução evaporada.
-# sent_id = 378-20150430-MONOGRAFIA_0-215
+# sent_id = 378-20150430-MONOGRAFIA_0-220
 1-2	Constata-se	_	_	_	_	_	_	_	_
 1	Constata	constatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5838,7 +5871,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Por outro lado, a presença da glicerina mostrou-se mais significativa quando misturada com água, já que aumentou mais sua temperatura de ebulição frente ao etanol.
-# sent_id = 378-20150430-MONOGRAFIA_0-216
+# sent_id = 378-20150430-MONOGRAFIA_0-221
 1	Por	por	ADP	_	_	10	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -5875,7 +5908,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Quanto aos dados experimentais da destilação, só foi possível constatar que o processo de se atingir o regime estacionário na coluna de destilação extrativa é extremamente delicado.
-# sent_id = 378-20150430-MONOGRAFIA_0-217
+# sent_id = 378-20150430-MONOGRAFIA_0-222
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	aos	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -5913,7 +5946,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A vazão de vapor – controlada pela potência da manta de aquecimento, mostrou-se o parâmetro mais delicado do processo, já que apresenta um tempo de resposta mais lento do que a variação da vazão de alimentação.
-# sent_id = 378-20150430-MONOGRAFIA_0-218
+# sent_id = 378-20150430-MONOGRAFIA_0-223
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5967,7 +6000,7 @@
 45	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Quanto às simulações no Aspen Plus, constatou-se que a glicerina é um solvente adequado para o processo de destilação extrativa, visto que ao se comparar os dados do destilado em uma situação sem glicerina e posteriormente com glicerina, com a configuração inicial do processo preservada ao máximo, o processo com alimentação de glicerina apresentou maior concentração de etanol.
-# sent_id = 378-20150430-MONOGRAFIA_0-219
+# sent_id = 378-20150430-MONOGRAFIA_0-224
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	às	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -6047,19 +6080,19 @@
 70	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = 6.
-# sent_id = 378-20150430-MONOGRAFIA_0-220
+# sent_id = 378-20150430-MONOGRAFIA_0-225
 1	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = SUGESTÕES PARA TRABALHOS FUTUROS
-# sent_id = 378-20150430-MONOGRAFIA_0-221
+# sent_id = 378-20150430-MONOGRAFIA_0-226
 1	SUGESTÕES	sugestão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	PARA	para	ADP	_	_	3	case	_	_
 3	TRABALHOS	Trabalhos	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	FUTUROS	Futuros	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Ø Realizar ensaios experimentais com glicerina na coluna de destilação extrativa;
-# sent_id = 378-20150430-MONOGRAFIA_0-222
+# sent_id = 378-20150430-MONOGRAFIA_0-227
 1	Ø	Ø	PROPN	_	Number=Sing	2	nsubj	_	_
 2	Realizar	realizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -6076,7 +6109,7 @@
 13	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = Implementação da coluna de recuperação no sistema de destilação extrativa;
-# sent_id = 378-20150430-MONOGRAFIA_0-223
+# sent_id = 378-20150430-MONOGRAFIA_0-228
 1	Implementação	Implementação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6094,7 +6127,7 @@
 13	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Ø Ø Comparação dos índices de refração da destilação extrativa com os valores da destilação sem glicerina.
-# sent_id = 378-20150430-MONOGRAFIA_0-224
+# sent_id = 378-20150430-MONOGRAFIA_0-229
 1	Ø	Ø	PROPN	_	Number=Sing	0	root	_	_
 2	Ø	Ø	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Comparação	comparação	PROPN	_	Number=Sing	1	flat:name	_	_

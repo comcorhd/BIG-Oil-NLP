@@ -1,6 +1,6 @@
 # text = INTRODUÇÃO Emulsões asfálticas, também conhecidas como hidrasfaltos, são misturas de Cimento Asfáltico de Petróleo (CAP) dispersos em uma fase aquosa.
 # sent_id = 241-20140227-MONOGRAFIA_0-1
-1	INTRODUÇÃO	introdução	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+1	INTRODUÇÃO	introdução	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpacesBefore=\n
 2	Emulsões	Emulsões	PROPN	_	Number=Sing	1	flat:name	_	_
 3	asfálticas	asfáltico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -309,15 +309,14 @@
 8	emulsão	emulsão	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 9	asfáltica	asfáltico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	convencional	convencional	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = CAPÍTULO 2 OBJETIVOS 2- OBJETIVOS
+# text = CAPÍTULO 2 OBJETIVOS 2-OBJETIVOS
 # sent_id = 241-20140227-MONOGRAFIA_0-10
-1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	2	2	NUM	_	NumType=Card	3	nummod	_	_
-3	OBJETIVOS	objetivo	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-4	2-	2	PART	_	_	1	appos	_	_
-5	OBJETIVOS	objetivo	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+1	CAPÍTULO	capítulo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	2	2	PROPN	_	Number=Sing	1	flat:name	_	_
+3	OBJETIVOS	objetivos	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
+4	2-OBJETIVOS	2-OBJETIVOS	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Este trabalho tem como objetivo o desenvolvimento de emulsões asfálticas modificadas com vermiculita e estudar suas propriedades.
 # sent_id = 241-20140227-MONOGRAFIA_0-11
@@ -420,29 +419,26 @@
 29	e	e	CCONJ	_	_	30	cc	_	_
 30	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
 31	Saybolt-Furol	Saybolt-Furol	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = CAPÍTULO 3
 # sent_id = 241-20140227-MONOGRAFIA_0-16
 1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 
-# text = REVISÃO BIBLIOGRÁFICA 3- REVISÃO BIBLIOGRÁFICA 3-1- Cimento Asfáltico de Petróleo (CAP)
+# text = REVISÃO BIBLIOGRÁFICA 3-REVISÃO BIBLIOGRÁFICA 3-1-Cimento Asfáltico de Petróleo (CAP)
 # sent_id = 241-20140227-MONOGRAFIA_0-17
-1	REVISÃO	revisão	ADV	_	_	2	advmod	_	_
-2	BIBLIOGRÁFICA	BIBLIOGRÁFICA	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	3-	3	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
-4	REVISÃO	reviser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	BIBLIOGRÁFICA	BIBLIOGRÁFICA	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-6	3-1	3-1	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
-7	-	-	PUNCT	_	_	5	punct	_	_
-8	Cimento	cimento	PROPN	_	Number=Sing	5	appos	_	_
-9	Asfáltico	Asfáltico	PROPN	_	Number=Sing	8	flat:name	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	Petróleo	Petróleo	PROPN	_	Number=Sing	8	nmod	_	_
-12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	CAP	CAP	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	13	punct	_	_
+1	REVISÃO	revisão	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	BIBLIOGRÁFICA	BIBLIOGRÁFICA	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n
+3	3-REVISÃO	3-REVISÃO	PROPN	_	Number=Sing	1	flat:name	_	_
+4	BIBLIOGRÁFICA	BIBLIOGRÁFICA	PROPN	_	Number=Sing	1	flat:name	_	_
+5	3-1-Cimento	3-1-Cimento	PROPN	_	Number=Sing	1	flat:name	_	_
+6	Asfáltico	Asfáltico	PROPN	_	Number=Sing	1	flat:name	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Petróleo	Petróleo	PROPN	_	Number=Sing	1	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	CAP	CAP	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
 
 # text = O Cimento Asfáltico de Petróleo é considerado o principal constituinte da emulsão asfáltica, podendo variar de 40 até 75% em volume.
 # sent_id = 241-20140227-MONOGRAFIA_0-18
@@ -816,7 +812,7 @@
 26	e	e	CCONJ	_	_	27	cc	_	_
 27	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 28	não-iônicos	não-iônico	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Tensoativos catiônicos possuem, em solução aquosa, um ou vários grupos ionizáveis que produzem íons carregados positivamente na superfície ativa.
 # sent_id = 241-20140227-MONOGRAFIA_0-31
@@ -974,7 +970,7 @@
 16	ionizam	ionizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = O seu poder hidrofílico se origina de grupos polares do tipo éter (R-O-R), álcool (R-OH), carbonila (R-CO-R) ou mesmo amina (R-NH- R).
+# text = O seu poder hidrofílico se origina de grupos polares do tipo éter (R-O-R), álcool (R-OH), carbonila (R-CO-R) ou mesmo amina (R-NHR).
 # sent_id = 241-20140227-MONOGRAFIA_0-38
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	det	_	_
@@ -1007,11 +1003,9 @@
 28	mesmo	mesmo	ADV	_	_	29	advmod	_	_
 29	amina	aminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	R-NH	R-NH	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
-32	-	-	PUNCT	_	_	31	punct	_	_
-33	R	R	PROPN	_	Gender=Unsp|Number=Sing	31	appos	_	SpaceAfter=No
-34	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	6	punct	_	_
+31	R-NHR	R-NHR	PROPN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A maioria desses tensoativos é obtida através da policondensação de moléculas de óxido de etileno sobre um composto lipófilo com hidrogênio móvel (Viana, 1994).
 # sent_id = 241-20140227-MONOGRAFIA_0-39
@@ -1048,11 +1042,10 @@
 29	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = 3-3- Emulsões Asfálticas
+# text = 3-3-Emulsões Asfálticas
 # sent_id = 241-20140227-MONOGRAFIA_0-40
-1	3-3-	3-3	PART	_	_	0	root	_	_
-2	Emulsões	Emulsões	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-3	Asfálticas	Asfálticas	PROPN	_	Number=Sing	2	flat:name	_	_
+1	3-3-Emulsões	3-3-Emulsões	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Asfálticas	Asfálticas	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = As emulsões asfálticas podem ser definidas como misturas de cimento asfáltico de petróleo dispersos na fase aquosa, produzidas, normalmente, através de um processo mecânico em equipamentos de alta capacidade de cisalhamento, denominados moinhos coloidais.
 # sent_id = 241-20140227-MONOGRAFIA_0-41
@@ -1281,7 +1274,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	2002	2002	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpacesAfter=\s\n
 7	moinho	moinho	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	coloidal	coloidal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	divide	dividir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1800,7 +1793,7 @@
 2	dispersões	dispersão	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	preparadas	preparar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-5	em	em	ADP	_	_	6	case	_	_
+5	em	em	ADP	_	_	6	case	_	SpacesAfter=\s\n
 6	misturadores	misturador	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	baixa	baixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
@@ -2370,7 +2363,7 @@
 34	NBR	NBR	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	_
 35	6297/2003	6297/2003	PROPN	_	Number=Sing	34	flat:name	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Dependendo da quantidade de cimento asfáltico envolvida na fabricação das emulsões, elas podem ser classificadas em 1C e 2C.
 # sent_id = 241-20140227-MONOGRAFIA_0-78
@@ -2859,7 +2852,7 @@
 24	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Os polímeros mais comuns utilizados em emulsões asfálticas são: o látex natural e sintético e co-polímeros de estireno-b-butadieno (SBS) e butadieno-b- acrilonitrila (SBR).
+# text = Os polímeros mais comuns utilizados em emulsões asfálticas são: o látex natural e sintético e co-polímeros de estireno-b-butadieno (SBS) e butadieno-b-acrilonitrila (SBR).
 # sent_id = 241-20140227-MONOGRAFIA_0-93
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	polímeros	polímero	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -2872,7 +2865,7 @@
 9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 10	:	:	PUNCT	_	_	9	punct	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	látex	látex	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+12	látex	látex	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
 13	natural	natural	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	e	e	CCONJ	_	_	15	cc	_	_
 15	sintético	sintético	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	_
@@ -2883,13 +2876,12 @@
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	SBS	SBS	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	_
-23	e	e	CCONJ	_	_	25	cc	_	_
-24	butadieno-b-	butadieno-b	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
-25	acrilonitrila	acrilonitrilar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
-26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	SBR	SBR	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	12	punct	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	butadieno-b-acrilonitrila	butadieno-b-acrilonitrila	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	SBR	SBR	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Geralmente são adicionados de 2,5 a 3% de polímeros sobre o peso da emulsão.
 # sent_id = 241-20140227-MONOGRAFIA_0-94
@@ -2982,20 +2974,17 @@
 31	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
-# text = 3-3-3-Benefícios das Emulsões
+# text = 3-3-3-Benefícios das Emulsões Asfálticas
 # sent_id = 241-20140227-MONOGRAFIA_0-97
 1	3-3-3-Benefícios	3-3-3-Benefício	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	Emulsões	Emulsões	PROPN	_	Number=Sing	1	nmod	_	_
-
-# text = Asfálticas
-# sent_id = 241-20140227-MONOGRAFIA_0-98
-1	Asfálticas	Asfáltica	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	Emulsões	Emulsões	PROPN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+5	Asfálticas	Asfálticas	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Segundo Petrucci (1998), qualquer que seja o tipo, as emulsões asfálticas apresentam os seguintes benefícios: • Possuem viscosidade bastante inferior a viscosidade do asfalto (CAP), permitindo sua utilização em temperaturas baixas;
-# sent_id = 241-20140227-MONOGRAFIA_0-99
+# sent_id = 241-20140227-MONOGRAFIA_0-98
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Petrucci	Petrucci	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3040,7 +3029,7 @@
 41	;	;	PUNCT	_	_	16	punct	_	_
 
 # text = • Possibilitam o uso de equipamentos simples, pois dispensam sistemas de aquecimento e secador de agregados, reduzindo o consumo de energia;
-# sent_id = 241-20140227-MONOGRAFIA_0-100
+# sent_id = 241-20140227-MONOGRAFIA_0-99
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Possibilitam	Possibilitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3067,7 +3056,7 @@
 24	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = • Eliminam riscos de incêndios e acidentes devido à possibilidade das emulsões serem utilizadas em temperaturas baixas, oferecendo maior segurança aos operários;
-# sent_id = 241-20140227-MONOGRAFIA_0-101
+# sent_id = 241-20140227-MONOGRAFIA_0-100
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Eliminam	eliminar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	riscos	riscos	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -3100,7 +3089,7 @@
 27	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = • Por serem aplicadas sem necessidade de aquecimento, há uma redução da poluição atmosférica, por emitirem menos voláteis, e, também evitam a oxidação do asfalto;
-# sent_id = 241-20140227-MONOGRAFIA_0-102
+# sent_id = 241-20140227-MONOGRAFIA_0-101
 1	•	•	PUNCT	_	_	4	punct	_	_
 2	Por	por	ADV	_	_	4	advmod	_	_
 3	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	4	aux:pass	_	_
@@ -3137,7 +3126,7 @@
 32	;	;	PUNCT	_	_	10	punct	_	_
 
 # text = • São fáceis de manusear, facilitando o trabalho em campo.
-# sent_id = 241-20140227-MONOGRAFIA_0-103
+# sent_id = 241-20140227-MONOGRAFIA_0-102
 1	•	•	PUNCT	_	_	3	punct	_	_
 2	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	fáceis	fácil	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -3152,11 +3141,11 @@
 12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 3-4-Nanomateriais
-# sent_id = 241-20140227-MONOGRAFIA_0-104
+# sent_id = 241-20140227-MONOGRAFIA_0-103
 1	3-4-Nanomateriais	3-4-Nanomaterial	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Materiais inorgânicos, orgânicos e biológicos nanoestruturados existem na natureza desde que a evolução da vida na Terra começou.
-# sent_id = 241-20140227-MONOGRAFIA_0-105
+# sent_id = 241-20140227-MONOGRAFIA_0-104
 1	Materiais	material	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 2	inorgânicos	inorgânico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -3185,7 +3174,7 @@
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Alguns exemplos evidentes são os microorganismos, minerais de granulometria fina nas rochas, e partículas de tamanho nanométrico nas bactérias e fumaça (Nalwa, 2000).
-# sent_id = 241-20140227-MONOGRAFIA_0-106
+# sent_id = 241-20140227-MONOGRAFIA_0-105
 1	Alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	exemplos	exemplo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	evidentes	evidente	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -3221,7 +3210,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Duas categorias de materiais podem ser desenvolvidas com a utilização da nanotecnologia: os nanomateriais e os materiais nanoestruturados.
-# sent_id = 241-20140227-MONOGRAFIA_0-107
+# sent_id = 241-20140227-MONOGRAFIA_0-106
 1	Duas	dois	NUM	_	NumType=Card	2	nummod	_	_
 2	categorias	categoria	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3246,7 +3235,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = De acordo com Grajales (2011) os materiais nanoestruturados são sólidos que apresentam microestruturas nanométricas, sejam elas ordenadas ou desordenadas.
-# sent_id = 241-20140227-MONOGRAFIA_0-108
+# sent_id = 241-20140227-MONOGRAFIA_0-107
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3272,8 +3261,8 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Já os nanomateriais são partículas com tamanho inferior a 100 nm em pelo menos uma de suas dimensões, que conferem novas propriedades e novos comportamentos às estruturas com elas construídas.
-# sent_id = 241-20140227-MONOGRAFIA_0-109
-1	Já	já	ADV	_	_	3	advmod	_	_
+# sent_id = 241-20140227-MONOGRAFIA_0-108
+1	Já	já	ADV	_	_	3	advmod	_	SpacesAfter=\s\n
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	nanomateriais	nanomaterial	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3311,13 +3300,13 @@
 34	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3-5-Vermiculita
-# sent_id = 241-20140227-MONOGRAFIA_0-110
+# sent_id = 241-20140227-MONOGRAFIA_0-109
 1	3-5	3-5	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Vermiculita	Vermiculita	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A vermiculita ou vermiculite é um mineral formado por hidratação de certos minerais basálticos.
-# sent_id = 241-20140227-MONOGRAFIA_0-111
+# sent_id = 241-20140227-MONOGRAFIA_0-110
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vermiculita	vermiculita	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -3335,7 +3324,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Sofre expansão quando lhe é aplicado calor.
-# sent_id = 241-20140227-MONOGRAFIA_0-112
+# sent_id = 241-20140227-MONOGRAFIA_0-111
 1	Sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	quando	quando	ADV	_	_	6	advmod	_	_
@@ -3346,7 +3335,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Possui alta capacidade de troca catiônica e é utilizada comercialmente, principalmente em sua forma expandida na construção civil e na agricultura.
-# sent_id = 241-20140227-MONOGRAFIA_0-113
+# sent_id = 241-20140227-MONOGRAFIA_0-112
 1	Possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	alta	alto	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -3376,7 +3365,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A vermiculita é um mineral semelhante à mica, formado essencialmente por silicatos hidratados de alumínio e magnésio.
-# sent_id = 241-20140227-MONOGRAFIA_0-114
+# sent_id = 241-20140227-MONOGRAFIA_0-113
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vermiculita	vermiculita	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3400,7 +3389,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Quando submetida a um aquecimento adequado a água contida entre as suas milhares de lâminas se transforma em vapor fazendo com que as partículas explodam e se transformem em flocos sanfonados.
-# sent_id = 241-20140227-MONOGRAFIA_0-115
+# sent_id = 241-20140227-MONOGRAFIA_0-114
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	submetida	submetido	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
 3	a	a	ADP	_	_	5	case	_	_
@@ -3435,7 +3424,7 @@
 32	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Cada floco expandido aprisiona consigo células de ar inerte, o que confere ao material excepcional capacidade de isolação.
-# sent_id = 241-20140227-MONOGRAFIA_0-116
+# sent_id = 241-20140227-MONOGRAFIA_0-115
 1	Cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	floco	floco	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	expandido	expander	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3462,7 +3451,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O produto obtido é inífugo, inodoro, não irrita a pele nem os pulmões, apresenta baixa condutividade elétrica, é isolante térmico e absorvente acústico; não se decompõe, deteriora ou apodrece; não atrai cupins ou insetos; é somente atacado pelo ácido fluorídrico a quente; pode absorver até cinco vezes o seu peso em água, é lubrificante e tem as características necessárias aos materiais filtrantes.
-# sent_id = 241-20140227-MONOGRAFIA_0-117
+# sent_id = 241-20140227-MONOGRAFIA_0-116
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	produto	produto	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	obtido	obtir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3542,7 +3531,7 @@
 75	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Essas propriedades tornam a vermiculita expandida um produto de larga aplicação nos seguintes setores: • Construção Civil • • • • • • • • Isolante térmico para lajes e paredes;
-# sent_id = 241-20140227-MONOGRAFIA_0-118
+# sent_id = 241-20140227-MONOGRAFIA_0-117
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	tornam	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3580,7 +3569,7 @@
 34	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = Agregado leve para concreto estrutural;
-# sent_id = 241-20140227-MONOGRAFIA_0-119
+# sent_id = 241-20140227-MONOGRAFIA_0-118
 1	Agregado	Agregado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	leve	leve	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -3589,7 +3578,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Proteção de impermeabilização em lajes de cobertura;
-# sent_id = 241-20140227-MONOGRAFIA_0-120
+# sent_id = 241-20140227-MONOGRAFIA_0-119
 1	Proteção	Proteção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	impermeabilização	impermeabilização	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3600,7 +3589,7 @@
 8	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Miolo de divisórias e portas "corta-fogo";
-# sent_id = 241-20140227-MONOGRAFIA_0-121
+# sent_id = 241-20140227-MONOGRAFIA_0-120
 1	Miolo	Miolo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	divisórias	divisória	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -3612,7 +3601,7 @@
 9	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Câmaras a prova de fogo;
-# sent_id = 241-20140227-MONOGRAFIA_0-122
+# sent_id = 241-20140227-MONOGRAFIA_0-121
 1	Câmaras	câmara	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	a	o	ADP	_	_	3	case	_	_
 3	prova	prova	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3621,7 +3610,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Forro decorativo e acústico, a prova de fogo.
-# sent_id = 241-20140227-MONOGRAFIA_0-123
+# sent_id = 241-20140227-MONOGRAFIA_0-122
 1	Forro	Forro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	decorativo	decorativo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -3634,7 +3623,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Proteção interna dos recuperadores de calor a lenha Isolamento, quando necessário em hottes de lareiras e recuperadores.
-# sent_id = 241-20140227-MONOGRAFIA_0-124
+# sent_id = 241-20140227-MONOGRAFIA_0-123
 1	Proteção	Proteção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	interna	interno	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -3655,10 +3644,10 @@
 17	lareiras	lareira	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
 18	e	e	CCONJ	_	_	19	cc	_	_
 19	recuperadores	recuperador	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = • Indústria • • • • • Tijolos e argamassas isolantes;
-# sent_id = 241-20140227-MONOGRAFIA_0-125
+# sent_id = 241-20140227-MONOGRAFIA_0-124
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Indústria	Indústria	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	•	•	PUNCT	_	_	2	punct	_	_
@@ -3673,7 +3662,7 @@
 12	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = Isolante térmico e anticorrosivo;
-# sent_id = 241-20140227-MONOGRAFIA_0-126
+# sent_id = 241-20140227-MONOGRAFIA_0-125
 1	Isolante	Isolante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -3681,7 +3670,7 @@
 5	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Isolante térmico para construção naval;
-# sent_id = 241-20140227-MONOGRAFIA_0-127
+# sent_id = 241-20140227-MONOGRAFIA_0-126
 1	Isolante	Isolante	ADP	_	_	2	case	_	_
 2	térmico	térmico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -3690,7 +3679,7 @@
 6	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = Embalagens à prova de choques e fogo;
-# sent_id = 241-20140227-MONOGRAFIA_0-128
+# sent_id = 241-20140227-MONOGRAFIA_0-127
 1	Embalagens	embalagem	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -3703,13 +3692,13 @@
 9	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Elemento filtrante.
-# sent_id = 241-20140227-MONOGRAFIA_0-129
+# sent_id = 241-20140227-MONOGRAFIA_0-128
 1	Elemento	elemento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	filtrante	filtrante	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = • Agricultura • • Condicionador de solos;
-# sent_id = 241-20140227-MONOGRAFIA_0-130
+# sent_id = 241-20140227-MONOGRAFIA_0-129
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Agricultura	Agricultura	ADV	_	_	5	advmod	_	_
 3	•	•	PUNCT	_	_	2	punct	_	_
@@ -3720,7 +3709,7 @@
 8	;	;	PUNCT	_	_	5	punct	_	_
 
 # text = Veículo e contentor para nutrientes, inseticidas, herbicidas, fungicidas;
-# sent_id = 241-20140227-MONOGRAFIA_0-131
+# sent_id = 241-20140227-MONOGRAFIA_0-130
 1	Veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	contentor	contentor	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -3735,7 +3724,7 @@
 12	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = • • Retentor de água em solos permeáveis (arenosos);
-# sent_id = 241-20140227-MONOGRAFIA_0-132
+# sent_id = 241-20140227-MONOGRAFIA_0-131
 1	•	•	PUNCT	_	_	3	punct	_	_
 2	•	•	PUNCT	_	_	3	punct	_	_
 3	Retentor	Retentor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3750,7 +3739,7 @@
 12	;	;	PUNCT	_	_	3	punct	_	_
 
 # text = Isolamento da superfície do solo preparado com sementeiras.
-# sent_id = 241-20140227-MONOGRAFIA_0-133
+# sent_id = 241-20140227-MONOGRAFIA_0-132
 1	Isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3763,20 +3752,19 @@
 8	preparado	preparar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 9	com	com	ADP	_	_	10	case	_	_
 10	sementeiras	sementeira	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = CAPÍTULO 4 METODOLOGIA EXPERIMENTAL 4- METODOLOGIA EXPERIMENTAL
-# sent_id = 241-20140227-MONOGRAFIA_0-134
+# text = CAPÍTULO 4 METODOLOGIA EXPERIMENTAL 4METODOLOGIA EXPERIMENTAL
+# sent_id = 241-20140227-MONOGRAFIA_0-133
 1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 3	METODOLOGIA	metodologia	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-4	EXPERIMENTAL	Experimental	PROPN	_	Number=Sing	3	flat:name	_	_
-5	4-	4-	PUNCT	_	_	3	punct	_	_
-6	METODOLOGIA	metodologia	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-7	EXPERIMENTAL	Experimental	PROPN	_	Number=Sing	6	flat:name	_	_
+4	EXPERIMENTAL	Experimental	PROPN	_	Number=Sing	3	flat:name	_	SpacesAfter=\s\n
+5	4METODOLOGIA	4METODOLOGIA	PROPN	_	Number=Sing	3	flat:name	_	_
+6	EXPERIMENTAL	Experimental	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Nesta seção, será descrita a metodologia utilizada para a obtenção das emulsões asfálticas convencionais e modificadas com nanomateriais, constituintes dessas emulsões, equipamentos necessários para obtenção e metodologia de caracterização das mesmas.
-# sent_id = 241-20140227-MONOGRAFIA_0-135
+# sent_id = 241-20140227-MONOGRAFIA_0-134
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -3822,7 +3810,7 @@
 39	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Também serão apresentadas as técnicas utilizadas para tratar a vermiculita utilizada como nanomaterial.
-# sent_id = 241-20140227-MONOGRAFIA_0-136
+# sent_id = 241-20140227-MONOGRAFIA_0-135
 1	Também	também	ADV	_	_	3	advmod	_	_
 2	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
 3	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3839,11 +3827,11 @@
 14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4-1-Materiais
-# sent_id = 241-20140227-MONOGRAFIA_0-137
+# sent_id = 241-20140227-MONOGRAFIA_0-136
 1	4-1-Materiais	4-1-Material	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Para a obtenção da emulsão asfáltica são necessários os seguintes constituintes: asfalto, solvente, emulsificante, ácido, água e, em alguns casos, aditivos.
-# sent_id = 241-20140227-MONOGRAFIA_0-138
+# sent_id = 241-20140227-MONOGRAFIA_0-137
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -3877,7 +3865,7 @@
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para a emulsão asfáltica modificada, inclui-se, nesse caso, a vermiculita.
-# sent_id = 241-20140227-MONOGRAFIA_0-139
+# sent_id = 241-20140227-MONOGRAFIA_0-138
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	emulsão	emulsão	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -3898,7 +3886,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A seguir será feita uma breve discussão sobre cada constituinte presente na emulsão asfáltica.
-# sent_id = 241-20140227-MONOGRAFIA_0-140
+# sent_id = 241-20140227-MONOGRAFIA_0-139
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -3918,7 +3906,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = • Asfalto: o asfalto é considerado o principal constituinte da emulsão asfáltica, podendo variar na proporção de 40 até 70% em volume.
-# sent_id = 241-20140227-MONOGRAFIA_0-141
+# sent_id = 241-20140227-MONOGRAFIA_0-140
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Asfalto	Asfalto	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -3951,7 +3939,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O asfalto empregado no desenvolvimento desta pesquisa será o Cimento Asfáltico de Petróleo (CAP 50-70), cedido pela Lubrificantes e Derivados de Petróleo do Nordeste (LUBNOR - Fortaleza-CE).
-# sent_id = 241-20140227-MONOGRAFIA_0-142
+# sent_id = 241-20140227-MONOGRAFIA_0-141
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	asfalto	asfalto	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	empregado	empregado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3995,7 +3983,7 @@
 37	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = • Solvente: o solvente é utilizado na obtenção da emulsão para diminuir a viscosidade do asfalto, facilitando assim o processo de emulsificação.
-# sent_id = 241-20140227-MONOGRAFIA_0-143
+# sent_id = 241-20140227-MONOGRAFIA_0-142
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Solvente	Solvente	ADV	_	_	7	advmod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -4029,7 +4017,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ao escolher um solvente, é necessário observar sua compatibilidade com o asfalto, para que se produza uma mistura homogênea e sem sinais de separação e, também, que o mesmo seja suficientemente volátil para não deixar resíduos no asfalto depositado.
-# sent_id = 241-20140227-MONOGRAFIA_0-144
+# sent_id = 241-20140227-MONOGRAFIA_0-143
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4080,7 +4068,7 @@
 46	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Geralmente o solvente utilizado é o querosene.
-# sent_id = 241-20140227-MONOGRAFIA_0-145
+# sent_id = 241-20140227-MONOGRAFIA_0-144
 1	Geralmente	geralmente	ADV	_	_	7	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	solvente	solvente	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -4091,7 +4079,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para este trabalho será utilizado o querosene comercial (Petrobras).
-# sent_id = 241-20140227-MONOGRAFIA_0-146
+# sent_id = 241-20140227-MONOGRAFIA_0-145
 1	Para	para	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -4106,13 +4094,13 @@
 12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = • Água:
-# sent_id = 241-20140227-MONOGRAFIA_0-147
+# sent_id = 241-20140227-MONOGRAFIA_0-146
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Água	Água	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = A água é considerada o segundo principal constituinte da emulsão asfáltica.
-# sent_id = 241-20140227-MONOGRAFIA_0-148
+# sent_id = 241-20140227-MONOGRAFIA_0-147
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	água	água	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4129,7 +4117,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O teor de água presente na emulsão asfáltica pode variar na proporção de 30 até 60% em volume, interagindo com o emulsificante.
-# sent_id = 241-20140227-MONOGRAFIA_0-149
+# sent_id = 241-20140227-MONOGRAFIA_0-148
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teor	teor	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4161,13 +4149,13 @@
 27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = • Emulsificante:
-# sent_id = 241-20140227-MONOGRAFIA_0-150
+# sent_id = 241-20140227-MONOGRAFIA_0-149
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Emulsificante	Emulsificante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = O emulsificante presente na fase aquosa é o responsável por garantir uma dispersão estável das partículas de asfalto em meio aquoso.
-# sent_id = 241-20140227-MONOGRAFIA_0-151
+# sent_id = 241-20140227-MONOGRAFIA_0-150
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	emulsificante	emulsificante	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	presente	presente	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4196,7 +4184,7 @@
 24	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Devido a sua estrutura molecular (parte lipofílica e hidrofílica), ele reduz a tensão interfacial entre as fases aquosa e óleo.
-# sent_id = 241-20140227-MONOGRAFIA_0-152
+# sent_id = 241-20140227-MONOGRAFIA_0-151
 1	Devido	devido	ADV	_	_	4	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
@@ -4223,26 +4211,26 @@
 24	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Nesta pesquisa serão utilizados apenas emulsificantes catiônicos.
-# sent_id = 241-20140227-MONOGRAFIA_0-153
+# sent_id = 241-20140227-MONOGRAFIA_0-152
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 4	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
-5	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\s\n
 6	apenas	apenas	ADV	_	_	7	advmod	_	_
 7	emulsificantes	emulsificante	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 8	catiônicos	catiônico	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = • Ácido:
-# sent_id = 241-20140227-MONOGRAFIA_0-154
+# sent_id = 241-20140227-MONOGRAFIA_0-153
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Ácido	ácido	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Os ácidos utilizados na emulsão asfáltica têm a função de formar sais solúveis com o emulsificante e reduzir o potencial hidrogeniônico (pH) até o nível desejado.
-# sent_id = 241-20140227-MONOGRAFIA_0-155
+# sent_id = 241-20140227-MONOGRAFIA_0-154
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ácidos	ácido	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4276,7 +4264,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A adição do ácido é necessária devido a alguns emulsificantes não apresentarem boa solubilidade em água, sendo necessário convertê-los em sais para dissolvê-los na fase dispersante.
-# sent_id = 241-20140227-MONOGRAFIA_0-156
+# sent_id = 241-20140227-MONOGRAFIA_0-155
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	adição	adição	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4315,7 +4303,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Freqüentemente, para fabricação de emulsões asfálticas, é utilizado o ácido clorídrico (Baumgardner, 2006).
-# sent_id = 241-20140227-MONOGRAFIA_0-157
+# sent_id = 241-20140227-MONOGRAFIA_0-156
 1	Freqüentemente	Freqüentemente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -4337,13 +4325,13 @@
 19	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = • Aditivo:
-# sent_id = 241-20140227-MONOGRAFIA_0-158
+# sent_id = 241-20140227-MONOGRAFIA_0-157
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Aditivo	Aditivo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Os aditivos mais utilizados nas emulsões asfálticas são o cloreto de cálcio e o cloreto de sódio.
-# sent_id = 241-20140227-MONOGRAFIA_0-159
+# sent_id = 241-20140227-MONOGRAFIA_0-158
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	aditivos	aditivo	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -4366,7 +4354,7 @@
 19	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Segundo Hermadi e Sterling (1998), o cloreto de cálcio é adicionado à fase aquosa da emulsão asfáltica com o objetivo de aumentar a gravidade específica desta fase para que a mesma apresente gravidade específica próxima a da fase asfalto, reduzindo a taxa de sedimentação da emulsão, aumentando sua estabilidade ao armazenamento.
-# sent_id = 241-20140227-MONOGRAFIA_0-160
+# sent_id = 241-20140227-MONOGRAFIA_0-159
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Hermadi	Hermadi	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -4438,7 +4426,7 @@
 63	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = O cloreto de cálcio também atua como um estabilizante.
-# sent_id = 241-20140227-MONOGRAFIA_0-161
+# sent_id = 241-20140227-MONOGRAFIA_0-160
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cloreto	cloreto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4451,7 +4439,7 @@
 10	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = • Nanomaterial: o nanomaterial é um agente modificador da emulsão asfáltica, que tem como função alterar algumas de suas propriedades.
-# sent_id = 241-20140227-MONOGRAFIA_0-162
+# sent_id = 241-20140227-MONOGRAFIA_0-161
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Nanomaterial	Nanomaterial	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -4479,7 +4467,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = As propriedades a serem modificadas na emulsão asfáltica dependem do tipo e da quantidade de nanomaterial utilizado.
-# sent_id = 241-20140227-MONOGRAFIA_0-163
+# sent_id = 241-20140227-MONOGRAFIA_0-162
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	a	o	PRON	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	nsubj:pass	_	_
@@ -4506,7 +4494,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Nessa pesquisa, a vermiculita foi utilizada como agente modificador.
-# sent_id = 241-20140227-MONOGRAFIA_0-164
+# sent_id = 241-20140227-MONOGRAFIA_0-163
 1-2	Nessa	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4522,7 +4510,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 4-2-Obtenção da vermiculita modificada
-# sent_id = 241-20140227-MONOGRAFIA_0-165
+# sent_id = 241-20140227-MONOGRAFIA_0-164
 1	4-2-Obtenção	4-2-Obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4531,7 +4519,7 @@
 5	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = Nessa pesquisa, a vermiculita, nanomaterial escolhido, foi utilizada de três formas distintas: em sua forma bruta, tratada com solução de emulsificante catiônico e tratada com solução de emulsificante catiônico em meio ácido.
-# sent_id = 241-20140227-MONOGRAFIA_0-166
+# sent_id = 241-20140227-MONOGRAFIA_0-165
 1-2	Nessa	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4574,7 +4562,7 @@
 39	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Para a obtenção da vermiculita modificada, utilizou-se a seguinte metodologia: 1.
-# sent_id = 241-20140227-MONOGRAFIA_0-167
+# sent_id = 241-20140227-MONOGRAFIA_0-166
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -4594,7 +4582,7 @@
 15	1.	1.	NUM	_	NumType=Card	9	nummod	_	_
 
 # text = Preparou-se uma solução a 3% de emulsificante catiônico.
-# sent_id = 241-20140227-MONOGRAFIA_0-168
+# sent_id = 241-20140227-MONOGRAFIA_0-167
 1-2	Preparou-se	_	_	_	_	_	_	_	_
 1	Preparou	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -4609,7 +4597,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tal solução é preparada pesando-se 30g de emulsificante para 1 litro de água e introduzindo esses componentes no moinho coloidal e deixando tal solução permanecer por 30 minutos.
-# sent_id = 241-20140227-MONOGRAFIA_0-169
+# sent_id = 241-20140227-MONOGRAFIA_0-168
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4645,12 +4633,12 @@
 31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 2.
-# sent_id = 241-20140227-MONOGRAFIA_0-170
+# sent_id = 241-20140227-MONOGRAFIA_0-169
 1	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ao obter a solução de emulsificante, pesa-se 50g de vermiculita e coloca-se esse nanomaterial em contato com 0,5L dessa solução, deixando tal mistura em sob rotação constante durante 24hrs.
-# sent_id = 241-20140227-MONOGRAFIA_0-171
+# sent_id = 241-20140227-MONOGRAFIA_0-170
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4680,7 +4668,7 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
 25	solução	solução	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
+26	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
 27	deixando	deixar	VERB	_	VerbForm=Ger	15	advcl	_	_
 28	tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
 29	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
@@ -4692,12 +4680,12 @@
 35	24hrs.	24hrs.	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	SpacesAfter=\n
 
 # text = 3.
-# sent_id = 241-20140227-MONOGRAFIA_0-172
+# sent_id = 241-20140227-MONOGRAFIA_0-171
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Após as 24hrs, filtra-se a solução da vermiculita e coloca-se o nanomaterial para secar sob o sol durante 12hrs.
-# sent_id = 241-20140227-MONOGRAFIA_0-173
+# sent_id = 241-20140227-MONOGRAFIA_0-172
 1	Após	após	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	24hrs	24hr	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
@@ -4726,12 +4714,12 @@
 23	12hrs.	12hrs.	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpacesAfter=\n
 
 # text = 4.
-# sent_id = 241-20140227-MONOGRAFIA_0-174
+# sent_id = 241-20140227-MONOGRAFIA_0-173
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O procedimento de obtenção da vermiculita tratada com solução de emulsificante em meio ácido é o mesmo, no entanto, ao obter-se a solução de tensoativo, adiciona-se o equivalente a 0,3% em peso de ácido clorídrico na solução.
-# sent_id = 241-20140227-MONOGRAFIA_0-175
+# sent_id = 241-20140227-MONOGRAFIA_0-174
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4788,7 +4776,7 @@
 48	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = Somente após adicionar tal ácido, pesa-se a vermiculita e a deixa em contato com a solução por 24hrs.
-# sent_id = 241-20140227-MONOGRAFIA_0-176
+# sent_id = 241-20140227-MONOGRAFIA_0-175
 1	Somente	somente	ADV	_	_	3	advmod	_	_
 2	após	após	ADP	_	_	3	case	_	_
 3	adicionar	adicionar	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4813,7 +4801,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4-3-Obtenção da emulsão asfáltica modificada
-# sent_id = 241-20140227-MONOGRAFIA_0-177
+# sent_id = 241-20140227-MONOGRAFIA_0-176
 1	4-3-Obtenção	4-3-Obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4823,7 +4811,7 @@
 6	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = Para a obtenção da emulsão asfáltica catiônica convencional faz-se necessário preparar a fase óleo e a fase aquosa separadamente.
-# sent_id = 241-20140227-MONOGRAFIA_0-178
+# sent_id = 241-20140227-MONOGRAFIA_0-177
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -4850,7 +4838,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Somente ao misturar as duas fases é que se adiciona o agente modificador.
-# sent_id = 241-20140227-MONOGRAFIA_0-179
+# sent_id = 241-20140227-MONOGRAFIA_0-178
 1	Somente	somente	ADV	_	_	4	advmod	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	SCONJ	_	_	4	mark	_	_
@@ -4869,7 +4857,7 @@
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A metodologia desenvolvida para a obtenção destas fases e a obtenção da emulsão asfáltica será descrita a seguir.
-# sent_id = 241-20140227-MONOGRAFIA_0-180
+# sent_id = 241-20140227-MONOGRAFIA_0-179
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
 3	desenvolvida	desenvolver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4895,7 +4883,7 @@
 21	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = 4-3-1-Obtenção da fase óleo
-# sent_id = 241-20140227-MONOGRAFIA_0-181
+# sent_id = 241-20140227-MONOGRAFIA_0-180
 1	4-3-1-Obtenção	4-3-1-Obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4904,7 +4892,7 @@
 5	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A fase asfalto é composta do asfalto (CAP 50-70) e do solvente.
-# sent_id = 241-20140227-MONOGRAFIA_0-182
+# sent_id = 241-20140227-MONOGRAFIA_0-181
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	asfalto	asfalto	ADV	_	_	5	advmod	_	_
@@ -4926,7 +4914,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para preparar a fase asfalto, é necessário aquecer o asfalto a uma temperatura de 120 °C e mantê-lo no estado líquido para facilitar o processo de emulsificação, já que o mesmo, na temperatura ambiente, apresenta consistência semissólida.
-# sent_id = 241-20140227-MONOGRAFIA_0-183
+# sent_id = 241-20140227-MONOGRAFIA_0-182
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	preparar	preparar	VERB	_	VerbForm=Inf	8	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4977,7 +4965,7 @@
 45	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O CAP 50-70 será utilizado neste trabalho na proporção mássica de 50%.
-# sent_id = 241-20140227-MONOGRAFIA_0-184
+# sent_id = 241-20140227-MONOGRAFIA_0-183
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	CAP	CAP	PROPN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	50-70	50-70	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4998,7 +4986,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em seguida, será adicionado o solvente ao asfalto (querosene – 20%), e a mistura será agitada até que ocorra a homogeneização.
-# sent_id = 241-20140227-MONOGRAFIA_0-185
+# sent_id = 241-20140227-MONOGRAFIA_0-184
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5030,7 +5018,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4-3-2-Obtenção da fase aquosa
-# sent_id = 241-20140227-MONOGRAFIA_0-186
+# sent_id = 241-20140227-MONOGRAFIA_0-185
 1	4-3-2-Obtenção	4-3-2-Obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5039,7 +5027,7 @@
 5	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 
 # text = A fase aquosa é composta de água, emulsificante (tensoativo), ácido e aditivo.
-# sent_id = 241-20140227-MONOGRAFIA_0-187
+# sent_id = 241-20140227-MONOGRAFIA_0-186
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5059,7 +5047,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Para preparar esta fase, serão adicionados à água (26,4%) o emulsificante (3%), o ácido (0,3%) e o aditivo (0,3%) e, em seguida a solução aquosa será aquecida em uma chapa aquecedora (60 °C).
-# sent_id = 241-20140227-MONOGRAFIA_0-188
+# sent_id = 241-20140227-MONOGRAFIA_0-187
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	preparar	preparar	VERB	_	VerbForm=Inf	7	advcl	_	_
 3	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
@@ -5112,10 +5100,10 @@
 49	60	60	NUM	_	NumType=Card	50	nummod	_	_
 50	°C	°C	PROPN	_	Gender=Masc|Number=Sing	46	appos	_	SpaceAfter=No
 51	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+52	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = 4-3-3-Obtenção da emulsão asfáltica modificada
-# sent_id = 241-20140227-MONOGRAFIA_0-189
+# sent_id = 241-20140227-MONOGRAFIA_0-188
 1	4-3-3-Obtenção	4-3-3-Obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5125,7 +5113,7 @@
 6	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = Segundo Santana (1993), para emulsificar o cimento asfáltico de petróleo deve-se dividi-lo em partículas muito pequenas e envolvê-las com um agente emulsificante, de modo a impedir a união dessas partículas dispersas na fase aquosa, ou seja, a ruptura prematura da emulsão asfáltica.
-# sent_id = 241-20140227-MONOGRAFIA_0-190
+# sent_id = 241-20140227-MONOGRAFIA_0-189
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Santana	Santana	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5189,7 +5177,7 @@
 55	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = O equipamento mais adequado para a produção da emulsão asfáltica é o moinho coloidal.
-# sent_id = 241-20140227-MONOGRAFIA_0-191
+# sent_id = 241-20140227-MONOGRAFIA_0-190
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -5209,7 +5197,7 @@
 16	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Segundo Harlan (2002) o moinho coloidal divide o asfalto em glóbulos com tamanho de aproximadamente 0,025 a 0,125 mm.
-# sent_id = 241-20140227-MONOGRAFIA_0-192
+# sent_id = 241-20140227-MONOGRAFIA_0-191
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Harlan	Harlan	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5234,7 +5222,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Nesta etapa, as fases anteriormente desenvolvidas serão adicionadas ao moinho coloidal, com temperatura de 95oC e, após 5 minutos de emulsificação, adiciona-se o agente modificador, em proporções mássicas de 1% e 4% em relação a quantidade de CAP na emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-193
+# sent_id = 241-20140227-MONOGRAFIA_0-192
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5293,7 +5281,7 @@
 52	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = As proporções mássicas diferentes e os diferentes tipos de tratamento do agente modificador são aplicados para avaliar as propriedades físicas das emulsões.
-# sent_id = 241-20140227-MONOGRAFIA_0-194
+# sent_id = 241-20140227-MONOGRAFIA_0-193
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	proporções	proporção	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 3	mássicas	mássico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -5323,7 +5311,7 @@
 25	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = 4-4-Caracterização da emulsão asfáltica modificada
-# sent_id = 241-20140227-MONOGRAFIA_0-195
+# sent_id = 241-20140227-MONOGRAFIA_0-194
 1	4-4-Caracterização	4-4-Caracterização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5333,7 +5321,7 @@
 6	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = Para caracterizar as emulsões asfálticas, pode-se realizar ensaios com a emulsão e, também, com o resíduo resultante da evaporação da água ou água e solvente.
-# sent_id = 241-20140227-MONOGRAFIA_0-196
+# sent_id = 241-20140227-MONOGRAFIA_0-195
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	caracterizar	caracterizar	VERB	_	VerbForm=Inf	7	advcl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -5371,7 +5359,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Segundo James (2006), as análises com emulsões podem ser divididas em três grupos: (1) os que analisam as propriedades da emulsão (como, por exemplo: teor de resíduo, viscosidade, estabilidade ao armazenamento, resíduo de peneiramento); (2) as análises que classificam a emulsão em quebra rápida, média ou lenta (como, por exemplo: desemulsibilidade, testes de mistura com cimento e testes de adesão); e (3) as análises sobre o resíduo recuperado pela evaporação (tais como penetração, ductilidade e ponto de amolecimento).
-# sent_id = 241-20140227-MONOGRAFIA_0-197
+# sent_id = 241-20140227-MONOGRAFIA_0-196
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	James	James	PROPN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5487,7 +5475,7 @@
 110	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Os ensaios para caracterização das emulsões asfálticas convencionais e modificadas realizados nesta pesquisa compreenderam: peneiramento; viscosidade Saybolt Furol; potencial hidrogeniônico (pH); adesividade; sedimentação e resíduo asfáltico por evaporação.
-# sent_id = 241-20140227-MONOGRAFIA_0-198
+# sent_id = 241-20140227-MONOGRAFIA_0-197
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -5527,14 +5515,14 @@
 35	asfáltico	asfáltico	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 36	por	por	ADP	_	_	37	case	_	_
 37	evaporação	evaporação	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n\n
 
 # text = 4-4-1-Peneiramento
-# sent_id = 241-20140227-MONOGRAFIA_0-199
+# sent_id = 241-20140227-MONOGRAFIA_0-198
 1	4-4-1-Peneiramento	4-4-1-Peneiramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O ensaio de peneiramento será realizado de acordo com a ABNT 14393 (2006).
-# sent_id = 241-20140227-MONOGRAFIA_0-200
+# sent_id = 241-20140227-MONOGRAFIA_0-199
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5553,7 +5541,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este ensaio tem como objetivo determinar a porcentagem, em massa, de resíduo asfáltico que fica retido na peneira de abertura 841µm, quando uma alíquota de 1000 g de emulsão asfáltica é vertida nesta peneira.
-# sent_id = 241-20140227-MONOGRAFIA_0-201
+# sent_id = 241-20140227-MONOGRAFIA_0-200
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5598,14 +5586,14 @@
 40	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 4-4-2-Viscosidade Saybolt-Furol
-# sent_id = 241-20140227-MONOGRAFIA_0-202
+# sent_id = 241-20140227-MONOGRAFIA_0-201
 1	4-4-2	4-4-2	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Viscosidade	Viscosidade	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	Saybolt-Furol	Saybolt-Furol	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = O ensaio da viscosidade Saybolt-Furol será realizado de acordo com a ABNT NBR 14491(2000).
-# sent_id = 241-20140227-MONOGRAFIA_0-203
+# sent_id = 241-20140227-MONOGRAFIA_0-202
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5627,7 +5615,7 @@
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Este ensaio tem como objetivo determinar a consistência da emulsão asfáltica, através do tempo, em segundos, necessário para escoar 60 mL da amostra em fluxo contínuo, através do orifício Furol, sob condições específicas.
-# sent_id = 241-20140227-MONOGRAFIA_0-204
+# sent_id = 241-20140227-MONOGRAFIA_0-203
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5677,7 +5665,7 @@
 43	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A viscosidade Saybolt-Furol é um método empírico onde a unidade é expressa em
-# sent_id = 241-20140227-MONOGRAFIA_0-205
+# sent_id = 241-20140227-MONOGRAFIA_0-204
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	Saybolt-Furol	Saybolt-Furol	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -5693,7 +5681,7 @@
 13	em	em	ADP	_	_	12	case	_	_
 
 # text = Segundo Saybolt-Furol (SSF) e as temperaturas indicadas, pela norma citada, para a realização deste ensaio, com emulsão asfáltica, são a 25 e 50 °C.
-# sent_id = 241-20140227-MONOGRAFIA_0-206
+# sent_id = 241-20140227-MONOGRAFIA_0-205
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Saybolt-Furol	Saybolt-Furol	PROPN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5731,7 +5719,7 @@
 33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
 
 # text = A emulsão asfáltica é agitada e transferida para um béquer, devendo ficar em banho-maria até atingir a temperatura de 52 °C.
-# sent_id = 241-20140227-MONOGRAFIA_0-207
+# sent_id = 241-20140227-MONOGRAFIA_0-206
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	emulsão	emulsão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	asfáltica	asfáltico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5757,7 +5745,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Após isso, a emulsão é transferida para o viscosímetro, verificando-se a estabilidade da temperatura no aparelho.
-# sent_id = 241-20140227-MONOGRAFIA_0-208
+# sent_id = 241-20140227-MONOGRAFIA_0-207
 1	Após	após	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5785,7 +5773,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em sequencia, retira-se a rolha do orifício Furol, acionando-se ao mesmo tempo o cronômetro, sendo a viscosidade da emulsão asfáltica dada pelo tempo de escoamento em fluxo contínuo, registrado em segundos.
-# sent_id = 241-20140227-MONOGRAFIA_0-209
+# sent_id = 241-20140227-MONOGRAFIA_0-208
 1	Em	em	ADP	_	_	2	case	_	_
 2	sequencia	sequencia	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5836,7 +5824,7 @@
 42	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nesta pesquisa, os ensaios foram realizados a 50°C e o equipamento utilizado foi um viscosímetro Saybolt-Furol Pavitest Novus N480D.
-# sent_id = 241-20140227-MONOGRAFIA_0-210
+# sent_id = 241-20140227-MONOGRAFIA_0-209
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5861,15 +5849,15 @@
 21	N480D.	N480D.	PROPN	_	Number=Sing	18	flat:name	_	SpacesAfter=\n
 
 # text = 4-4-3-Potencial
-# sent_id = 241-20140227-MONOGRAFIA_0-211
+# sent_id = 241-20140227-MONOGRAFIA_0-210
 1	4-4-3-Potencial	4-4-3-Potencial	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Hidrogeniônico
-# sent_id = 241-20140227-MONOGRAFIA_0-212
+# sent_id = 241-20140227-MONOGRAFIA_0-211
 1	Hidrogeniônico	Hidrogeniônico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O ensaio de pH será realizado de acordo com a ABNT NBR 6299 (2005).
-# sent_id = 241-20140227-MONOGRAFIA_0-213
+# sent_id = 241-20140227-MONOGRAFIA_0-212
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5889,7 +5877,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este ensaio tem por objetivo determinar o pH das emulsões asfálticas.
-# sent_id = 241-20140227-MONOGRAFIA_0-214
+# sent_id = 241-20140227-MONOGRAFIA_0-213
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5906,7 +5894,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Conforme a norma, este ensaio pode ser realizado entre 20 e 30 °C.
-# sent_id = 241-20140227-MONOGRAFIA_0-215
+# sent_id = 241-20140227-MONOGRAFIA_0-214
 1	Conforme	conforme	SCONJ	_	_	3	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	norma	norma	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
@@ -5924,7 +5912,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O equipamento indicado para a realização deste ensaio é um potenciômetro com eletrodos de referência, de vidro, do tipo platina/calomelano/solução aquosa saturada de KCl, possibilitando leitura de pH de 1 a 14.
-# sent_id = 241-20140227-MONOGRAFIA_0-216
+# sent_id = 241-20140227-MONOGRAFIA_0-215
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5967,7 +5955,7 @@
 38	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O potenciômetro utilizado na pesquisa foi o Tec -3MP-Tecnal.
-# sent_id = 241-20140227-MONOGRAFIA_0-217
+# sent_id = 241-20140227-MONOGRAFIA_0-216
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	potenciômetro	potenciômetro	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5979,14 +5967,14 @@
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Tec	Tec	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	-3MP-Tecnal	-3MP-Tecnal	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 4-4-4-Adesividade
-# sent_id = 241-20140227-MONOGRAFIA_0-218
+# sent_id = 241-20140227-MONOGRAFIA_0-217
 1	4-4-4-Adesividade	4-4-4-Adesividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O ensaio de adesividade foi realizado de acordo com a ABNT NBR 6300 (2009).
-# sent_id = 241-20140227-MONOGRAFIA_0-219
+# sent_id = 241-20140227-MONOGRAFIA_0-218
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6006,7 +5994,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este ensaio tem como objetivo determinar a resistência à água (adesividade) do asfalto residual, proveniente da ruptura das emulsões asfálticas catiônicas aplicadas sobre agregados graúdos.
-# sent_id = 241-20140227-MONOGRAFIA_0-220
+# sent_id = 241-20140227-MONOGRAFIA_0-219
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6046,7 +6034,7 @@
 33	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O resultado é obtido através da análise visual do agregado, estimando-se a porcentagem da área que se manteve recoberta com a película asfáltica após o ensaio.
-# sent_id = 241-20140227-MONOGRAFIA_0-221
+# sent_id = 241-20140227-MONOGRAFIA_0-220
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6085,12 +6073,12 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4-4-5-Sedimentação
-# sent_id = 241-20140227-MONOGRAFIA_0-222
+# sent_id = 241-20140227-MONOGRAFIA_0-221
 1	4-4-5	4-4-5	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 2	-Sedimentação	-Sedimentação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = O ensaio de sedimentação será realizado de acordo com a ABNT NBR 6570 (2000).
-# sent_id = 241-20140227-MONOGRAFIA_0-223
+# sent_id = 241-20140227-MONOGRAFIA_0-222
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6110,7 +6098,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este ensaio tem como objetivo verificar a susceptibilidade da emulsão asfáltica quanto a sedimentação, verificando se a emulsão apresenta estabilidade quanto a estocagem (não haver separação das fases constituintes).
-# sent_id = 241-20140227-MONOGRAFIA_0-224
+# sent_id = 241-20140227-MONOGRAFIA_0-223
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6150,7 +6138,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Uma amostra de emulsão asfáltica é colocada em uma proveta especial (com abertura lateral no fundo e no topo) e, após cinco dias, são determinados os resíduos asfálticos de porções da amostra retiradas do topo e do fundo da proveta.
-# sent_id = 241-20140227-MONOGRAFIA_0-225
+# sent_id = 241-20140227-MONOGRAFIA_0-224
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6210,13 +6198,13 @@
 51	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 4-4-6-Resíduo por Evaporação
-# sent_id = 241-20140227-MONOGRAFIA_0-226
+# sent_id = 241-20140227-MONOGRAFIA_0-225
 1	4-4-6-Resíduo	4-4-6-Resíduo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	Evaporação	Evaporação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = O ensaio de resíduo por evaporação será realizado de acordo com a ABNT NBR 14376 (2007).
-# sent_id = 241-20140227-MONOGRAFIA_0-227
+# sent_id = 241-20140227-MONOGRAFIA_0-226
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6238,7 +6226,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Este ensaio tem por objetivo determinar a quantidade de ligante asfáltico contido em emulsões asfálticas.
-# sent_id = 241-20140227-MONOGRAFIA_0-228
+# sent_id = 241-20140227-MONOGRAFIA_0-227
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6257,7 +6245,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A emulsão é aquecida, de forma branda e com agitação contínua a fim de evitar a ocorrência de respingos, até a total evaporação da água ou da água e solvente.
-# sent_id = 241-20140227-MONOGRAFIA_0-229
+# sent_id = 241-20140227-MONOGRAFIA_0-228
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	emulsão	emulsão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6297,7 +6285,7 @@
 35	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = No decorrer do ensaio observa-se a formação de uma fase pastosa devido à evaporação da água ou água/solvente.
-# sent_id = 241-20140227-MONOGRAFIA_0-230
+# sent_id = 241-20140227-MONOGRAFIA_0-229
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6331,7 +6319,7 @@
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O ensaio deve ser interrompido no momento em que esta fase pastosa se transforma em um fluido de superfície espelhada, constituído pelo resíduo asfáltico, e, em seguida, a amostra deve ser pesada.
-# sent_id = 241-20140227-MONOGRAFIA_0-231
+# sent_id = 241-20140227-MONOGRAFIA_0-230
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6372,22 +6360,22 @@
 36	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 37	ser	ser	AUX	_	VerbForm=Inf	38	aux:pass	_	_
 38	pesada	pesar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	36	xcomp	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = CAPÍTULO 5
-# sent_id = 241-20140227-MONOGRAFIA_0-232
+# sent_id = 241-20140227-MONOGRAFIA_0-231
 1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = RESULTADOS E DISCUSSÃO 5-RESULTADOS
-# sent_id = 241-20140227-MONOGRAFIA_0-233
+# sent_id = 241-20140227-MONOGRAFIA_0-232
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	3	cc	_	_
-3	DISCUSSÃO	discussão	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	_
+3	DISCUSSÃO	discussão	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	SpacesAfter=\s\n
 4	5-RESULTADOS	5-RESULTADOS	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = E DISCUSSÃO Nesta seção, são apresentados e discutidos os resultados referentes à caracterização das emulsões asfálticas modificadas com vermiculita, nanomaterial utilizado como agente modificador.
-# sent_id = 241-20140227-MONOGRAFIA_0-234
+# sent_id = 241-20140227-MONOGRAFIA_0-233
 1	E	e	CCONJ	_	_	8	cc	_	_
 2	DISCUSSÃO	discussão	ADV	_	_	5	advmod	_	_
 3-4	Nesta	_	_	_	_	_	_	_	_
@@ -6423,7 +6411,7 @@
 30	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Foram desenvolvidos seis emulsões, variando-se o tipo e quantidade de vermiculita utilizada na composição da emulsão, com o intuito de encontrar, através da análise de resultados da caracterização, a emulsão mais padrão de acordo com os requisitos exigidos pela norma (DNER-EM-369/97).
-# sent_id = 241-20140227-MONOGRAFIA_0-235
+# sent_id = 241-20140227-MONOGRAFIA_0-234
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	desenvolvidos	desenvolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	seis	seis	NUM	_	NumType=Card	4	nummod	_	_
@@ -6486,7 +6474,7 @@
 54	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Após a obtenção das emulsões asfálticas modificadas, foram feitos os ensaios de caracterização.
-# sent_id = 241-20140227-MONOGRAFIA_0-236
+# sent_id = 241-20140227-MONOGRAFIA_0-235
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -6506,7 +6494,7 @@
 16	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Devido à falta de uma especificação técnica para emulsões modificadas com os resíduos utilizados neste trabalho, as propriedades físicas das emulsões modificadas foram analisadas tendo como parâmetro a especificação para emulsões asfálticas catiônicas (DNER-EM 369/97).
-# sent_id = 241-20140227-MONOGRAFIA_0-237
+# sent_id = 241-20140227-MONOGRAFIA_0-236
 1	Devido	devido	ADV	_	_	21	advmod	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -6554,7 +6542,7 @@
 42	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = 5-1-Caracterização da emulsão asfáltica modificada
-# sent_id = 241-20140227-MONOGRAFIA_0-238
+# sent_id = 241-20140227-MONOGRAFIA_0-237
 1	5-1-Caracterização	5-1-Caracterização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6564,7 +6552,7 @@
 6	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 
 # text = Nesta etapa, foram realizados os ensaios de caracterização das emulsões asfálticas modificadas.
-# sent_id = 241-20140227-MONOGRAFIA_0-239
+# sent_id = 241-20140227-MONOGRAFIA_0-238
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -6585,7 +6573,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A tabela 01 apresenta a composição detalhada das emulsões e a tabela 02 apresenta os resultados obtidos com os ensaios de caracterização das emulsões.
-# sent_id = 241-20140227-MONOGRAFIA_0-240
+# sent_id = 241-20140227-MONOGRAFIA_0-239
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	01	01	NUM	_	NumType=Card	4	nsubj	_	_
@@ -6616,22 +6604,20 @@
 26	emulsões	emulsão	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Tabela 01- Composição das Emulsões Tabela 02 –
-# sent_id = 241-20140227-MONOGRAFIA_0-241
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	01	01	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-4	Composição	composição	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-5-6	das	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	Emulsões	Emulsão	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-9	02	02	NUM	_	NumType=Card	8	nummod	_	_
-10	–	–	PUNCT	_	_	1	punct	_	_
+# text = Tabela 01-Composição das Emulsões Tabela 02 –
+# sent_id = 241-20140227-MONOGRAFIA_0-240
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	01-Composição	01-Composição	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	das	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Emulsões	Emulsão	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpacesAfter=\s\n
+6	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	_
+7	02	02	NUM	_	NumType=Card	6	nummod	_	_
+8	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Caracterização das emulsões asfálticas modificadas com a vermiculita
-# sent_id = 241-20140227-MONOGRAFIA_0-242
+# sent_id = 241-20140227-MONOGRAFIA_0-241
 1	Caracterização	caracterização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6641,10 +6627,10 @@
 6	modificadas	modificar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
 7	com	com	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	vermiculita	vermiculita	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9	vermiculita	vermiculita	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\s\n\n
 
 # text = As propriedades físicas das emulsões asfálticas modificadas com a vermiculita, conforme a tabela 02, serão analisadas a seguir.
-# sent_id = 241-20140227-MONOGRAFIA_0-243
+# sent_id = 241-20140227-MONOGRAFIA_0-242
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
 3	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -6669,14 +6655,12 @@
 21	seguir	seguir	VERB	_	VerbForm=Inf	19	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
-# text = 5-2- Peneiramento
-# sent_id = 241-20140227-MONOGRAFIA_0-244
-1	5-2	5-2	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	_
-3	Peneiramento	Peneiramento	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+# text = 5-2-Peneiramento
+# sent_id = 241-20140227-MONOGRAFIA_0-243
+1	5-2-Peneiramento	5-2-Peneiramento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Observa-se que as emulsões asfálticas modificadas com vermiculita não apresentaram partículas retidas na peneira ASTM 20, mostrando a eficiência do processo de moagem realizado no moinho coloidal durante a obtenção da emulsão asfáltica.
-# sent_id = 241-20140227-MONOGRAFIA_0-245
+# sent_id = 241-20140227-MONOGRAFIA_0-244
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -6724,7 +6708,7 @@
 40	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esse parâmetro é importante para fornecer indicações quanto a estabilidade e qualidade da emulsão, tendo em vista que partículas menores apresentam maiores resistências a floculação, coalescência e, consequentemente, sedimentação.
-# sent_id = 241-20140227-MONOGRAFIA_0-246
+# sent_id = 241-20140227-MONOGRAFIA_0-245
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6762,30 +6746,30 @@
 34	sedimentação	sedimentação	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Salienta- se no entanto, que esse ensaio nos fornece apenas uma indicação.
-# sent_id = 241-20140227-MONOGRAFIA_0-247
-1	Salienta	salienta	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	_
-3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
-4-5	no	_	_	_	_	_	_	_	_
-4	em	em	ADP	_	_	1	cc	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
-6	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	1	punct	_	_
-8	que	que	SCONJ	_	_	10	mark	_	_
-9	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
-10	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
-11-12	nos	_	_	_	_	_	_	_	_
-11	em	em	ADP	_	_	12	case	_	_
-12	os	o	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	obl	_	_
-13	fornece	fornecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
-14	apenas	apenas	ADV	_	_	15	advmod	_	_
-15	uma	um	NUM	_	NumType=Card	16	nummod	_	_
-16	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	_
+# text = Salienta-se no entanto, que esse ensaio nos fornece apenas uma indicação.
+# sent_id = 241-20140227-MONOGRAFIA_0-246
+1-2	Salienta-se	_	_	_	_	_	_	_	_
+1	Salienta	salientar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	1	cc	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	_
+5	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	que	que	SCONJ	_	_	9	mark	_	_
+8	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	ensaio	ensaio	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+10-11	nos	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	fornece	fornece	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	apenas	apenas	ADV	_	_	15	advmod	_	_
+14	uma	um	NUM	_	NumType=Card	15	nummod	_	_
+15	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Outros ensaios são realizados para caracterizar a ruptura da emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-248
+# sent_id = 241-20140227-MONOGRAFIA_0-247
 1	Outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6801,7 +6785,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 5-3-Potencial Hidrogênionico (pH)
-# sent_id = 241-20140227-MONOGRAFIA_0-249
+# sent_id = 241-20140227-MONOGRAFIA_0-248
 1	5-3-Potencial	5-3-Potencial	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Hidrogênionico	Hidrogênionico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6809,7 +6793,7 @@
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = De acordo com a tabela 02, observa-se que as emulsões asfálticas modificadas com vermiculita apresentam pH no intervalo de 1,98 a 2,38, com valores próximos ao pH das emulsões asfálticas convencionais.
-# sent_id = 241-20140227-MONOGRAFIA_0-250
+# sent_id = 241-20140227-MONOGRAFIA_0-249
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -6854,7 +6838,7 @@
 38	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = De acordo com Baungardner (2006), as emulsões asfálticas catiônicas devem apresentar pH na faixa de 1 a 7, mais especificamente entre 2 a 4.
-# sent_id = 241-20140227-MONOGRAFIA_0-251
+# sent_id = 241-20140227-MONOGRAFIA_0-250
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -6888,7 +6872,7 @@
 30	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = De acordo com este mesmo autor, a dosagem de ácido adicionado a emulsão é o fator determinante no valor final do pH da emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-252
+# sent_id = 241-20140227-MONOGRAFIA_0-251
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 3	com	com	ADP	_	_	6	case	_	_
@@ -6923,14 +6907,14 @@
 29	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = 5-4-Resíduo Asfáltico por Evaporação
-# sent_id = 241-20140227-MONOGRAFIA_0-253
+# sent_id = 241-20140227-MONOGRAFIA_0-252
 1	5-4-Resíduo	5-4-Resíduo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Asfáltico	Asfáltico	PROPN	_	Number=Sing	1	flat:name	_	_
 3	por	por	ADP	_	_	4	case	_	_
 4	Evaporação	Evaporação	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = As emulsões asfálticas modificadas apresentaram comportamento semelhante ao das emulsões asfálticas convencionais, ou seja, os valores dos resíduos asfálticos obtidos foram superiores ao teor de asfalto adicionado.
-# sent_id = 241-20140227-MONOGRAFIA_0-254
+# sent_id = 241-20140227-MONOGRAFIA_0-253
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	emulsões	emulsão	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	asfálticas	asfáltico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -6971,7 +6955,7 @@
 34	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Atribui-se este aumento no percentual de resíduo por evaporação, quando comparado à massa inicial de asfalto utilizado, a traços do nanomaterial, do solvente, do emulsificante ou do aditivo que podem ter permanecido na amostra.
-# sent_id = 241-20140227-MONOGRAFIA_0-255
+# sent_id = 241-20140227-MONOGRAFIA_0-254
 1-2	Atribui-se	_	_	_	_	_	_	_	_
 1	Atribui	atribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7029,7 +7013,7 @@
 47	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = De acordo com Shafii et al. (2011), com base no “Transportation Research Board”, o principal propósito do processo de recuperação do resíduo asfáltico é determinar a quantidade de fase não aquosa na emulsão e obter o resíduo asfáltico para outros testes.
-# sent_id = 241-20140227-MONOGRAFIA_0-256
+# sent_id = 241-20140227-MONOGRAFIA_0-255
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -7081,14 +7065,14 @@
 45	obter	obter	VERB	_	VerbForm=Inf	34	conj	_	_
 46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	resíduo	resíduo	NOUN	_	Gender=Masc|Number=Sing	45	obj	_	_
-48	asfáltico	asfáltico	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+48	asfáltico	asfáltico	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	SpacesAfter=\s\n
 49	para	para	ADP	_	_	51	case	_	_
 50	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	51	det	_	_
 51	testes	teste	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	34	punct	_	_
 
 # text = Em geral, as técnicas de recuperação do resíduo são baseadas na destilação ou evaporação.
-# sent_id = 241-20140227-MONOGRAFIA_0-257
+# sent_id = 241-20140227-MONOGRAFIA_0-256
 1	Em	em	ADP	_	_	2	case	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7111,7 +7095,7 @@
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Estes autores verificaram os protocolos utilizados pelos Estados Unidos e diversos países da Europa para realização deste ensaio.
-# sent_id = 241-20140227-MONOGRAFIA_0-258
+# sent_id = 241-20140227-MONOGRAFIA_0-257
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	autores	autor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	verificaram	verificar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -7139,7 +7123,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A ausência de um único protocolo tem levado a aplicação de várias técnicas, e estas técnicas podem alterar as propriedades reológicas do asfalto recuperado, tendo em vista variações na temperatura do ensaio, que pode modificar a morfologia do polímero adicionado e, consequentemente, da rede polimérica existente na emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-259
+# sent_id = 241-20140227-MONOGRAFIA_0-258
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	6	case	_	_
@@ -7208,7 +7192,7 @@
 60	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = De acordo com estes autores as altas temperaturas utilizadas para obter o resíduo não representam as reais temperaturas quando a emulsão é aplicada no campo.
-# sent_id = 241-20140227-MONOGRAFIA_0-260
+# sent_id = 241-20140227-MONOGRAFIA_0-259
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -7239,7 +7223,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = 5-5-Viscosidade Saybolt Furol
-# sent_id = 241-20140227-MONOGRAFIA_0-261
+# sent_id = 241-20140227-MONOGRAFIA_0-260
 1	5-5	5-5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Viscosidade	Viscosidade	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -7247,7 +7231,7 @@
 5	Furol	Furol	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Na literatura, nota-se que a viscosidade da emulsão asfáltica tende a aumentar de acordo com o aumento da interação do nanomaterial ou polímero com o asfalto e de acordo com o aumento da quantidade de nanomaterial ou polímero inserida na emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-262
+# sent_id = 241-20140227-MONOGRAFIA_0-261
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7307,7 +7291,7 @@
 50	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Em relação a quantidade de vermiculita inserida na emulsão, quanto maior a quantidade, maior será a homogeneidade dessa emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-263
+# sent_id = 241-20140227-MONOGRAFIA_0-262
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7336,7 +7320,7 @@
 24	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = A vermiculita ficará, então, mais bem distribuída na matriz da emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-264
+# sent_id = 241-20140227-MONOGRAFIA_0-263
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vermiculita	vermiculita	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -7357,7 +7341,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Havendo maior interação por saturação, a viscosidade da emulsão tende a aumentar.
-# sent_id = 241-20140227-MONOGRAFIA_0-265
+# sent_id = 241-20140227-MONOGRAFIA_0-264
 1	Havendo	haver	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	interação	interação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -7376,7 +7360,7 @@
 15	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = No entanto, esperava-se, devido aos dados e informações encontrados na literatura, que o tratamento da vermiculita com a solução de emulsificante e solução de emulsificante em meio ácido viessem a aumentar a interação do nanomaterial com o asfalto, mas, o observado foi uma diminuição na viscosidade das emulsões com vermiculita modificada.
-# sent_id = 241-20140227-MONOGRAFIA_0-266
+# sent_id = 241-20140227-MONOGRAFIA_0-265
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -7452,7 +7436,7 @@
 65	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Acredita-se que, ao tratar a vermiculita com solução de emulsificante e solução de emulsificante em meio ácido, não só houve a expansão do nanomaterial, mas também a deterioração do mesmo, impedindo a formação de uma rede homogênea, diminuindo a interação nanomaterial-asfalto e, conseqüentemente, a viscosidade das emulsões.
-# sent_id = 241-20140227-MONOGRAFIA_0-267
+# sent_id = 241-20140227-MONOGRAFIA_0-266
 1-2	Acredita-se	_	_	_	_	_	_	_	_
 1	Acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7520,7 +7504,7 @@
 60	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Para comprovar tal hipótese, seriam necessários ensaios de MEV (Microscopia Eletrônica por Varredura), para averiguar a mudança na estrutura da vermiculita após a sua modificação.
-# sent_id = 241-20140227-MONOGRAFIA_0-268
+# sent_id = 241-20140227-MONOGRAFIA_0-267
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	comprovar	comprovar	VERB	_	VerbForm=Inf	7	advcl	_	_
 3	tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
@@ -7554,19 +7538,15 @@
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	31	det	_	_
 31	modificação	modificação	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
-# text = 5-6-
-# sent_id = 241-20140227-MONOGRAFIA_0-269
-1	5-6	5-6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Sedimentação
-# sent_id = 241-20140227-MONOGRAFIA_0-270
-1	Sedimentação	Sedimentação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+# text = 5-6-Sedimentação
+# sent_id = 241-20140227-MONOGRAFIA_0-268
+1	5-6	5-6	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
+2	-Sedimentação	-Sedimentação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Para as emulsões modificadas com vermiculita, não foi possível determinar a sedimentação, pois os resíduos calculados correspondentes ao fundo da proveta foram inferiores aos resíduos calculados no topo da proveta.
-# sent_id = 241-20140227-MONOGRAFIA_0-271
+# sent_id = 241-20140227-MONOGRAFIA_0-269
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	emulsões	emulsão	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
@@ -7612,7 +7592,7 @@
 38	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Acredita-se que o tempo de emulsificação não tenha sido o bastante para homogeneizar a mistura 100%, fazendo com que a sedimentação tenha sido fora do padrão.
-# sent_id = 241-20140227-MONOGRAFIA_0-272
+# sent_id = 241-20140227-MONOGRAFIA_0-270
 1-2	Acredita-se	_	_	_	_	_	_	_	_
 1	Acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -7648,7 +7628,7 @@
 31	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Ao realizar ensaios com tempo de emulsificação maior, o teste ficou entre os padrões estabelecidos pela norma.
-# sent_id = 241-20140227-MONOGRAFIA_0-273
+# sent_id = 241-20140227-MONOGRAFIA_0-271
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7674,7 +7654,7 @@
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Apesar de ter ocorrido tal comportamento, não houve efetivamente separação entre as fases óleo e aquosa, e sim apenas a concentração de tais resíduos no topo da proveta.
-# sent_id = 241-20140227-MONOGRAFIA_0-274
+# sent_id = 241-20140227-MONOGRAFIA_0-272
 1	Apesar	apesar	ADV	_	_	4	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	ter	ter	AUX	_	VerbForm=Inf	4	aux	_	_
@@ -7712,7 +7692,7 @@
 33	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Neste trabalho, a vermiculita foi adicionada durante o processo de moagem da emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-275
+# sent_id = 241-20140227-MONOGRAFIA_0-273
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -7734,7 +7714,7 @@
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Tal decisão foi baseada na natureza do nanomaterial.
-# sent_id = 241-20140227-MONOGRAFIA_0-276
+# sent_id = 241-20140227-MONOGRAFIA_0-274
 1	Tal	tal	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7750,7 +7730,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os resultados experimentais mostraram que a vermiculita, por ser um nanomaterial termorrígido, quando submetido ao aquecimento não reage com o asfalto para produzir uma matriz homogênea.
-# sent_id = 241-20140227-MONOGRAFIA_0-277
+# sent_id = 241-20140227-MONOGRAFIA_0-275
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -7784,11 +7764,11 @@
 30	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 5-7-Penetração
-# sent_id = 241-20140227-MONOGRAFIA_0-278
+# sent_id = 241-20140227-MONOGRAFIA_0-276
 1	5-7-Penetração	5-7-Penetração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = De acordo com Oda (2000), o comportamento esperado é que a adição de nanomateriais torne o ligante mais consistente, resultando em valores mais baixos de penetração, proporcionalmente ao teor de nanomaterial inserido.
-# sent_id = 241-20140227-MONOGRAFIA_0-279
+# sent_id = 241-20140227-MONOGRAFIA_0-277
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -7831,7 +7811,7 @@
 39	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = De acordo com a especificação técnica (DNER-EM 369/97) as emulsões asfálticas catiônicas de ruptura rápida, média e lenta devem apresentar penetração no intervalo de 50 - 250 (1/10 mm).
-# sent_id = 241-20140227-MONOGRAFIA_0-280
+# sent_id = 241-20140227-MONOGRAFIA_0-278
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -7871,7 +7851,7 @@
 36	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = De acordo com os resultados apresentados na Tabela 02, todos os valores obtidos encontram-se dentro da faixa especificada.
-# sent_id = 241-20140227-MONOGRAFIA_0-281
+# sent_id = 241-20140227-MONOGRAFIA_0-279
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -7900,7 +7880,7 @@
 23	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = O asfalto modificado, quando utilizado em pavimentação, deve fornecer ao pavimento maior rigidez e/ou elasticidade.
-# sent_id = 241-20140227-MONOGRAFIA_0-282
+# sent_id = 241-20140227-MONOGRAFIA_0-280
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	asfalto	asfalto	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	modificado	modificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	SpaceAfter=No
@@ -7923,7 +7903,7 @@
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A diminuição da penetração é uma indicação do aumento da rigidez.
-# sent_id = 241-20140227-MONOGRAFIA_0-283
+# sent_id = 241-20140227-MONOGRAFIA_0-281
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diminuição	diminuição	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7944,7 +7924,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Conforme observado em alguns casos, o aumento da penetração pode ser atribuído principalmente a traços de solvente não eliminado durante a obtenção do resíduo por evaporação, deixando o asfalto com uma menor consistência.
-# sent_id = 241-20140227-MONOGRAFIA_0-284
+# sent_id = 241-20140227-MONOGRAFIA_0-282
 1	Conforme	conforme	SCONJ	_	_	2	mark	_	_
 2	observado	observado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -7987,7 +7967,7 @@
 38	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Deve-se ressaltar que a metodologia utilizada para a obtenção dos resíduos asfálticos obedeceu rigorosamente à norma ABNT NBR 14376 (2007), ensaio este utilizado em campo para determinação do resíduo asfáltico.
-# sent_id = 241-20140227-MONOGRAFIA_0-285
+# sent_id = 241-20140227-MONOGRAFIA_0-283
 1-2	Deve-se	_	_	_	_	_	_	_	_
 1	Deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8029,18 +8009,17 @@
 35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	resíduo	resíduo	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 37	asfáltico	asfáltico	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
-# text = CAPÍTULO 6 CONCLUSÃO 6- Conclusões
-# sent_id = 241-20140227-MONOGRAFIA_0-286
+# text = CAPÍTULO 6 CONCLUSÃO 6-Conclusões
+# sent_id = 241-20140227-MONOGRAFIA_0-284
 1	CAPÍTULO	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	3	nummod	_	_
-3	CONCLUSÃO	Conclusão	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-4	6-	6	PART	_	_	5	amod	_	_
-5	Conclusões	conclusões	PROPN	_	Gender=Fem|Number=Plur	1	appos	_	_
+3	CONCLUSÃO	Conclusão	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpacesAfter=\s\n
+4	6-Conclusões	6-Conclusões	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Nesta seção, são apresentadas as conclusões relacionadas ao desenvolvimento da pesquisa.
-# sent_id = 241-20140227-MONOGRAFIA_0-287
+# sent_id = 241-20140227-MONOGRAFIA_0-285
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -8062,7 +8041,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = • O nanomaterial utilizado para obtenção das emulsões asfálticas modificadas, a vermiculita, pode ser adicionado/incorporado à emulsão.
-# sent_id = 241-20140227-MONOGRAFIA_0-288
+# sent_id = 241-20140227-MONOGRAFIA_0-286
 1	•	•	PUNCT	_	_	16	punct	_	_
 2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	nanomaterial	nanomaterial	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -8089,7 +8068,7 @@
 22	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = De acordo com as propriedades físicas das emulsões asfálticas modificadas, conclui-se que esta argila pode ocasionar melhorias nas propriedades da emulsão e, por consequência, do asfalto.
-# sent_id = 241-20140227-MONOGRAFIA_0-289
+# sent_id = 241-20140227-MONOGRAFIA_0-287
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -8132,7 +8111,7 @@
 35	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = • Todas as emulsões convencionais desenvolvidas apresentaram resultados no ensaio de peneiramento e sedimentação de acordo com os requisitos presentes na especificação (DNER-EM 369/97), comprovando a obtenção de emulsões estáveis.
-# sent_id = 241-20140227-MONOGRAFIA_0-290
+# sent_id = 241-20140227-MONOGRAFIA_0-288
 1	•	•	PUNCT	_	_	7	punct	_	_
 2	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	fixed	_	_
@@ -8173,7 +8152,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = • Os resultados de viscosidade mostraram-se contra ao presente na literatura.
-# sent_id = 241-20140227-MONOGRAFIA_0-291
+# sent_id = 241-20140227-MONOGRAFIA_0-289
 1	•	•	PUNCT	_	_	6	punct	_	_
 2	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -8194,7 +8173,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Acredita-se, então, que o nanomaterial, ao ser tratado, tenha se deteriorado, ocasionando uma menor interação com o asfalto e conseqüente menor viscosidade.
-# sent_id = 241-20140227-MONOGRAFIA_0-292
+# sent_id = 241-20140227-MONOGRAFIA_0-290
 1-2	Acredita-se	_	_	_	_	_	_	_	SpaceAfter=No
 1	Acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_

@@ -1,6 +1,6 @@
 # text = Introdução
 # sent_id = 30-20140327-TESEMSC_0-1
-1	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesBefore=\n
 
 # text = A água de produção (AP) é um efluente da extração de petróleo que consiste de água de formação (água naturalmente presente no reservatório) e fluidos utilizados durante o processo de extração, principalmente anticorrosivos, além de água do mar injetada no poço para manutenção da pressão (Neff, 2002).
 # sent_id = 30-20140327-TESEMSC_0-2
@@ -331,7 +331,7 @@
 54	,	,	PUNCT	_	_	55	punct	_	_
 55	1993	1993	NUM	_	NumType=Card	53	appos:parataxis	_	SpaceAfter=No
 56	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
-57	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+57	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Recentemente, Ji et al. (2007) encontraram alta eficiência na redução da DQO, da DBO e na remoção de nitrogênio de água de produção de petróleo utilizando um sistema de banhado contruído colonizado com macrófitas, no entanto a salinidade do efluente, assim como a espécie utilizada, não são mencionadas.
 # sent_id = 30-20140327-TESEMSC_0-9
@@ -709,7 +709,7 @@
 # text = Quando maiores concentrações de nitrogênio são observadas, particularmente nitrogênio amoniacal, S.
 # sent_id = 30-20140327-TESEMSC_0-21
 1	Quando	quando	SCONJ	_	_	7	mark	_	_
-2	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+2	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	SpacesAfter=\s\n
 3	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	nitrogênio	nitrogênio	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -1037,7 +1037,7 @@
 39	hidropônico	hidropônico	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
 40	em	em	ADP	_	_	41	case	_	_
 41	mesocosmo	mesocosmo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n\n
 
 # text = Materiais e Métodos Montagem do experimento Propágulos vegetativos de S. alterniflora foram coletados em uma marisma natural na Ilha do Terrapleno (32°02’37’’
 # sent_id = 30-20140327-TESEMSC_0-33
@@ -1419,7 +1419,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	água	água	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
-18	e	e	CCONJ	_	_	20	cc	_	_
+18	e	e	CCONJ	_	_	20	cc	_	SpacesAfter=\s\n
 19	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	20	det	_	_
 20	folhas	folha	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 21	acima	acima	ADV	_	_	20	advmod	_	_
@@ -1711,7 +1711,7 @@
 4	bióticos	biótico	ADJ	_	Gender=Masc|Number=Plur	2	conj	_	_
 5	monitorados	monitorado	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
 
-# text = As temperaturas máximas e mínimas dentro da casa de vegetação foram medidas diariamente com um termômetro de mercúrio e o pH da AP diluída dos tanques monitorado nos dias ‘0’, ‘4’, ‘7’, ‘14’ e ‘21’, com um pHmetro digital Cole- Parmer®.
+# text = As temperaturas máximas e mínimas dentro da casa de vegetação foram medidas diariamente com um termômetro de mercúrio e o pH da AP diluída dos tanques monitorado nos dias ‘0’, ‘4’, ‘7’, ‘14’ e ‘21’, com um pHmetro digital Cole-Parmer®.
 # sent_id = 30-20140327-TESEMSC_0-56
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
@@ -1772,12 +1772,10 @@
 53	,	,	PUNCT	_	_	51	punct	_	_
 54	com	com	ADP	_	_	56	case	_	_
 55	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-56	pHmetro	pHmetro	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	_
-57	digital	digital	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	_
-58	Cole	Cole	PROPN	_	Gender=Masc|Number=Sing	56	appos	_	SpaceAfter=No
-59	-	-	PUNCT	_	_	58	punct	_	_
-60	Parmer®	Parmer®	PROPN	_	Number=Sing	58	flat:name	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+56	pHmetro	pHmetro	PROPN	_	Gender=Masc|Number=Sing	51	nmod	_	_
+57	digital	digital	PROPN	_	Number=Sing	56	flat:name	_	_
+58	Cole-Parmer®	Cole-Parmer®	PROPN	_	Number=Sing	56	flat:name	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Ao longo do mesmo período do experimento, foram avaliadas na AP dos +), tanques as concentrações de nitrogênio amoniacal dissolvido (N-NH3 + N-NH4 Nitrato (NO3), Nitrito (NO2) e óleo e graxas (O&G) na AP diluída.
 # sent_id = 30-20140327-TESEMSC_0-57
@@ -2193,7 +2191,7 @@
 43	a	a	ADP	_	_	45	case	_	_
 44	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
 45	bandejas	bandeja	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
-46	de	de	ADP	_	_	47	case	_	_
+46	de	de	ADP	_	_	47	case	_	SpacesAfter=\s\n
 47	isopor	isopor	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	26	punct	_	_
 49	por	por	ADP	_	_	50	case	_	_
@@ -2556,7 +2554,7 @@
 22	fluorímetro	fluorímetro	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 23	Turner	Turner	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
 24	Designs	Designs	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	7	punct	_	_
+25	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
 26	modelo	modelo	ADP	_	_	27	case	_	_
 27	TD-700	TD-700	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	7	punct	_	_
@@ -2957,7 +2955,7 @@
 2	análises	análise	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
 4	efetuadas	efetuar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-5-6	no	_	_	_	_	_	_	_	_
+5-6	no	_	_	_	_	_	_	_	SpacesAfter=\s\n
 5	em	em	ADP	_	_	7	case	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Departamento	Departamento	PROPN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -3279,39 +3277,24 @@
 51	repetidas	repetir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	50	acl	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	44	punct	_	_
 
-# text = Quando constatadas diferenças significativas nas ANOVAS foram realizadas análises a posteriori de Fisher – LSD – a um nível de significância de 0,05 (Zar, 1984).
+# text = Quando constatadas diferenças significativas nas significância de 0,05 (Zar, 1984).
 # sent_id = 30-20140327-TESEMSC_0-101
-1	Quando	quando	SCONJ	_	_	9	mark	_	_
-2	constatadas	constatar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	acl	_	_
-3	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	constatadas	constatar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	15	acl	_	_
+3	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
 4	significativas	significativo	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 5-6	nas	_	_	_	_	_	_	_	_
 5	em	em	ADP	_	_	7	case	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	ANOVAS	Anova	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-8	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
-9	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-10	análises	análise	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
-11	a	a	ADP	_	_	14	case	_	_
-12	posteriori	posteriori	ADV	_	_	14	advmod	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	Fisher	Fisher	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-15	–	–	PUNCT	_	_	16	punct	_	_
-16	LSD	LSD	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
-17	–	–	PUNCT	_	_	16	punct	_	_
-18	a	a	ADP	_	_	20	case	_	_
-19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	nível	nível	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	significância	significância	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	0,05	0,05	NUM	_	NumType=Card	22	nmod	_	_
-25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	Zar	Zar	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	1984	1984	NUM	_	NumType=Card	26	appos:parataxis	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	9	punct	_	_
+6	as	o	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	significância	significância	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	0,05	0,05	NUM	_	NumType=Card	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Zar	Zar	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	1984	1984	NUM	_	NumType=Card	11	appos:parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	0	root	_	_
 
 # text = Todos os dados ambientais apresentaram normalidade (Kolmogorov-Smirnov; p > 0,20) e homocedasticidade (Levene´s; p > 0,05), com exceção da concentração de cl-a no dia ‘7’, no qual o teste de Levene´s (homocedasticidade) apontou p < 0,05.
 # sent_id = 30-20140327-TESEMSC_0-102
@@ -3319,7 +3302,7 @@
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	dados	dado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	ambientais	ambiental	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-5	apresentaram	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	apresentaram	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=\s\n
 6	normalidade	normalidade	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Kolmogorov-Smirnov	Kolmogorov-Smirnov	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
@@ -3482,7 +3465,7 @@
 20	dados	dado	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	_
 
-# text = Para as variáveis onde não foi possível atingir a normalidade (número de folhas vivas inicial e final, número de folhas mortas e número de brotos), foram efetuadas Análises de Variância não- paramétricas de Kruskal-Wallis (Siegel, 1975), todas considerando um nível de significância de 0,05.
+# text = Para as variáveis onde não foi possível atingir a normalidade (número de folhas vivas inicial e final, número de folhas mortas e número de brotos), foram efetuadas Análises de Variância não-paramétricas de Kruskal-Wallis (Siegel, 1975), todas considerando um nível de significância de 0,05.
 # sent_id = 30-20140327-TESEMSC_0-107
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -3518,28 +3501,26 @@
 32	Análises	Análises	PROPN	_	Number=Sing	31	nsubj	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	Variância	Variância	PROPN	_	Number=Sing	32	nmod	_	_
-35	não	não	ADV	_	Polarity=Neg	31	advmod	_	SpaceAfter=No
-36	-	-	PUNCT	_	_	37	punct	_	_
-37	paramétricas	paramétrico	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	_
-38	de	de	ADP	_	_	39	case	_	_
-39	Kruskal	Kruskal	PROPN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
-40	-	-	PUNCT	_	_	39	punct	_	SpaceAfter=No
-41	Wallis	Wallis	PROPN	_	Gender=Masc|Number=Sing	31	obj	_	_
-42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	Siegel	Siegel	PROPN	_	Gender=Masc|Number=Sing	41	appos	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	45	punct	_	_
-45	1975	1975	NUM	_	NumType=Card	43	appos:parataxis	_	SpaceAfter=No
-46	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	31	punct	_	_
-48	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	56	det	_	_
-49	considerando	considerar	VERB	_	VerbForm=Ger	56	acl	_	_
-50	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	nível	nível	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
+35	não-paramétricas	não-paramétricas	PROPN	_	Number=Sing	34	flat:name	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	Kruskal	Kruskal	PROPN	_	Number=Sing	34	nmod	_	SpaceAfter=No
+38	-	-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+39	Wallis	Wallis	PROPN	_	Gender=Masc|Number=Sing	31	conj	_	_
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	Siegel	Siegel	PROPN	_	Gender=Masc|Number=Sing	39	appos:parataxis	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	1975	1975	NUM	_	NumType=Card	41	appos:parataxis	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	31	punct	_	_
+46	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	54	det	_	_
+47	considerando	considerar	VERB	_	VerbForm=Ger	54	acl	_	_
+48	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	nível	nível	NOUN	_	Gender=Masc|Number=Sing	47	obj	_	_
+50	de	de	ADP	_	_	51	case	_	_
+51	significância	significância	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
 52	de	de	ADP	_	_	53	case	_	_
-53	significância	significância	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
-54	de	de	ADP	_	_	55	case	_	_
-55	0,05	0,05	NUM	_	NumType=Card	53	nmod	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
+53	0,05	0,05	NUM	_	NumType=Card	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
 
 # text = As diferenças entre as biomassas inicial e final de folhas vivas e raízes foram comparadas através do teste ‘t’ para amostras independentes, enquanto para o comprimento das 15 plantas monitoradas em cada tanque foi utilizado o teste ‘t’ para amostras dependentes (Zar, 1984), após a validação do pré-requisito de normalidade (Kolmogorov-Smirnov; p > 0,05) dos dados.
 # sent_id = 30-20140327-TESEMSC_0-108
@@ -3655,7 +3636,7 @@
 28	Wilcoxon	Wilcoxon	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	Siegel	Siegel	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	_
+31	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\n
 32	1975	1975	NUM	_	NumType=Card	30	appos:parataxis	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	22	punct	_	_
@@ -3959,7 +3940,7 @@
 39	dias	dia	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	_
 40	amostrados	amostrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	25	acl	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = No início do experimento a AP diluída dos tanques possuía uma concentração média de OD de 5,2 ± 0,2 mg L-1 (média
 # sent_id = 30-20140327-TESEMSC_0-120
@@ -4207,20 +4188,16 @@
 39	Fig.	Fig.	PROPN	_	Gender=Masc|Number=Sing	37	appos	_	_
 40	3D	3D	PROPN	_	Number=Sing	39	flat:name	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
-# text = Spartina Spartina Spartina Controle Controle Controle Tempo (dias)
+# text = Spartina Spartina Spartina Controle Controle Controle
 # sent_id = 30-20140327-TESEMSC_0-128
 1	Spartina	Spartina	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Spartina	Spartina	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Spartina	Spartina	PROPN	_	Number=Sing	1	flat:name	_	_
 4	Controle	Controle	PROPN	_	Number=Sing	1	flat:name	_	_
 5	Controle	Controle	PROPN	_	Number=Sing	1	flat:name	_	_
-6	Controle	Controle	PROPN	_	Number=Sing	1	flat:name	_	_
-7	Tempo	Tempo	PROPN	_	Number=Sing	1	flat:name	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	_
+6	Controle	Controle	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n\n\n\n\n\n\n\n\n
 
 # text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-129
@@ -4236,8 +4213,15 @@
 3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
-# text = Spartina Spartina Spartina Controle Controle Controle 7,2 7,2 7,2 Spartina Spartina Spartina Controle Controle Controle l l l 6,8 6,8 6,8 Tempo (dias)
+# text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-131
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Spartina Spartina Spartina Controle Controle Controle 7,2 7,2 7,2 Spartina Spartina Spartina Controle Controle Controle l l l
+# sent_id = 30-20140327-TESEMSC_0-132
 1	Spartina	Spartina	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Spartina	Spartina	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Spartina	Spartina	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -4255,28 +4239,13 @@
 15	Controle	Controle	PROPN	_	Number=Sing	13	flat:name	_	_
 16	l	l	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 17	l	l	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
-18	l	l	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-19	6,8	6,8	NUM	_	NumType=Card	22	nummod	_	_
-20	6,8	6,8	NUM	_	NumType=Card	22	nummod	_	_
-21	6,8	6,8	NUM	_	NumType=Card	22	nummod	_	_
-22	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
-23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	dias	dias	NOUN	_	Gender=Masc|Number=Plur	22	appos	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	24	punct	_	_
+18	l	l	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpacesAfter=\s\n\n\n
 
-# text = Tempo (dias)
-# sent_id = 30-20140327-TESEMSC_0-132
-1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
-
-# text = Tempo (dias)
+# text = 6,8 6,8 6,8
 # sent_id = 30-20140327-TESEMSC_0-133
-1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
+1	6,8	6,8	NUM	_	NumType=Card	0	root	_	_
+2	6,8	6,8	NUM	_	NumType=Card	1	flat	_	_
+3	6,8	6,8	NUM	_	NumType=Card	1	flat	_	SpacesAfter=\s\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 
 # text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-134
@@ -4299,14 +4268,35 @@
 3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
-# text = Figura 3.
+# text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-137
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-138
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-139
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Figura 3.
+# sent_id = 30-20140327-TESEMSC_0-140
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Variações nas temperaturas máximas, médias e mínimas diárias do ar dentro da casa de vegetação (A), pH (B), oxigênio dissolvido (C) e concentração de clorofila-a (D) da água de produção diluída dos tanques contendo S. alterniflora e sem plantas (controle) ao longo do período experimental.
-# sent_id = 30-20140327-TESEMSC_0-138
+# sent_id = 30-20140327-TESEMSC_0-141
 1	Variações	variação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	nas	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -4381,10 +4371,10 @@
 64	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
 65	período	período	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	_
 66	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	65	amod	_	SpaceAfter=No
-67	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+67	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Nitrogênio Amoniacal, Nitrato e Nitrito
-# sent_id = 30-20140327-TESEMSC_0-139
+# sent_id = 30-20140327-TESEMSC_0-142
 1	Nitrogênio	Nitrogênio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Amoniacal	Amoniacal	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -4393,7 +4383,7 @@
 6	Nitrito	Nitrito	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 
 # text = As concentrações médias de nitrogênio amoniacal dissolvido variaram ao redor de 100 mg L-1 durante os 21 dias de experimento.
-# sent_id = 30-20140327-TESEMSC_0-140
+# sent_id = 30-20140327-TESEMSC_0-143
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	médias	médio	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4419,7 +4409,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Tanques com e sem plantas de S. alterniflora demonstraram uma oscilação temporal sincronizada na + L-1), com concentração de nitrogênio amoniacal (~50 a ~140 mg N-NH3 +
-# sent_id = 30-20140327-TESEMSC_0-141
+# sent_id = 30-20140327-TESEMSC_0-144
 1	Tanques	tanque	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 2	com	com	ADP	_	_	9	case	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -4454,7 +4444,7 @@
 31	+	+	SYM	_	_	9	nmod	_	_
 
 # text = N-NH4 magnitude muito maior do que as diferenças entre eles (Fig. 4A).
-# sent_id = 30-20140327-TESEMSC_0-142
+# sent_id = 30-20140327-TESEMSC_0-145
 1	N-NH4	N-NH4	NUM	_	NumType=Card	2	nummod	_	_
 2	magnitude	magnitude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	muito	muito	ADV	_	_	4	advmod	_	_
@@ -4474,7 +4464,7 @@
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Estes valores foram cerca de 1000 vezes superiores as quantificadas de nitrogênio na forma de nitrato, que oscilaram entre 0 e 200 µg L-1.
-# sent_id = 30-20140327-TESEMSC_0-143
+# sent_id = 30-20140327-TESEMSC_0-146
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
@@ -4505,7 +4495,7 @@
 27	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A concentração de nitrito ficou sempre abaixo do limite de detecção (> 1 µg L-1).
-# sent_id = 30-20140327-TESEMSC_0-144
+# sent_id = 30-20140327-TESEMSC_0-147
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4527,8 +4517,8 @@
 18	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = A Análise de Variância para medidas repetidas demonstrou que a concentração média de nitrogênio amoniacal dissolvido foi significativamente menor nos tanques com S. alterniflora do que nos tanques controle sem plantas (F
-# sent_id = 30-20140327-TESEMSC_0-145
+# text = A Análise de Variância para medidas repetidas demonstrou que a concentração média de nitrogênio amoniacal dissolvido foi significativamente menor nos tanques com S. alterniflora do que nos tanques controle sem plantas (F = 9,5; p < 0,05).
+# sent_id = 30-20140327-TESEMSC_0-148
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4563,14 +4553,22 @@
 29	em	em	ADP	_	_	31	case	_	_
 30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	tanques	tanque	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
-32	controle	controle	NOUN	_	Gender=Masc|Number=Sing	36	appos	_	_
+32	controle	controle	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 33	sem	sem	ADP	_	_	34	case	_	_
 34	plantas	planta	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	_
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	F	F	PROPN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+36	F	F	PROPN	_	Gender=Fem|Number=Sing	32	appos	_	_
+37	=	=	SYM	_	_	36	appos	_	_
+38	9,5	9,5	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
+39	;	;	PUNCT	_	_	36	punct	_	_
+40	p	p	NOUN	_	Gender=Masc|Number=Plur	36	conj	_	_
+41	<	<	SYM	_	_	40	nmod	_	_
+42	0,05	0,05	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A diferença percentual na concentração média entre os tratamentos aumentou ao longo do experimento.
-# sent_id = 30-20140327-TESEMSC_0-146
+# sent_id = 30-20140327-TESEMSC_0-149
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4594,7 +4592,7 @@
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A análise de contraste (LSD) mostrou que apenas após 21 dias pôde ser constatada uma diferença significativa entre os tratamentos.
-# sent_id = 30-20140327-TESEMSC_0-147
+# sent_id = 30-20140327-TESEMSC_0-150
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4619,8 +4617,8 @@
 22	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	8	punct	_	_
 
-# text = Neste dia (21), a concentração de nitrogênio amoniacal foi 19,3% podia ser observada diferença marginal ao nível de significância (p = 0,06) entre os tratamentos; nesta data a diferença na concentração de nitrogênio amoniacal dissolvido entre os tratamentos já era maior do que o dobro da semana anterior.
-# sent_id = 30-20140327-TESEMSC_0-148
+# text = Neste dia (21), a concentração de nitrogênio amoniacal foi 19,3% menor nos tanques contendo S. alterniflora (Tab. 4).
+# sent_id = 30-20140327-TESEMSC_0-151
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -4636,68 +4634,94 @@
 12	amoniacal	amoniacal	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 14	19,3	19,3	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
-15	%	%	SYM	_	_	13	appos	_	_
-16	podia	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
-17	ser	ser	AUX	_	VerbForm=Inf	18	aux:pass	_	_
-18	observada	observar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
-19	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
-20	marginal	marginal	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
-21-22	ao	_	_	_	_	_	_	_	_
-21	a	a	ADP	_	_	23	case	_	_
-22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	nível	nível	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	significância	significância	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	p	p	NOUN	_	Gender=Masc|Number=Plur	18	appos	_	_
-28	=	=	SYM	_	_	27	nmod	_	_
-29	0,06	0,06	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	27	punct	_	_
-31	entre	entre	ADP	_	_	33	case	_	_
-32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
-34	;	;	PUNCT	_	_	13	punct	_	_
-35-36	nesta	_	_	_	_	_	_	_	_
-35	em	em	ADP	_	_	37	case	_	_
-36	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	37	det	_	_
-37	data	data	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
-38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
-40-41	na	_	_	_	_	_	_	_	_
-40	em	em	ADP	_	_	42	case	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
-43	de	de	ADP	_	_	44	case	_	_
-44	nitrogênio	nitrogênio	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
-45	amoniacal	amoniacal	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	_
-46	dissolvido	dissolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
-47	entre	entre	ADP	_	_	49	case	_	_
-48	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
-49	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	46	obl	_	_
-50	já	já	ADV	_	_	52	advmod	_	_
-51	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	cop	_	_
-52	maior	grande	ADJ	_	Gender=Masc|Number=Sing	13	ccomp	_	_
-53-54	do	_	_	_	_	_	_	_	_
-53	de	de	ADP	_	_	57	case	_	_
-54	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	53	fixed	_	_
-55	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	53	fixed	_	_
-56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
-57	dobro	dobro	NOUN	_	Gender=Masc|Number=Sing	52	obl	_	_
-58-59	da	_	_	_	_	_	_	_	_
-58	de	de	ADP	_	_	60	case	_	_
-59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
-60	semana	semana	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
-61	anterior	anterior	ADJ	_	Gender=Fem|Number=Sing	60	amod	_	SpaceAfter=No
-62	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	%	%	SYM	_	_	13	obj	_	_
+16	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	nos	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	tanques	tanque	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+20	contendo	conter	VERB	_	VerbForm=Ger	13	advcl	_	_
+21	S.	S.	PROPN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	alterniflora	alterniflora	ADV	_	_	24	advmod	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	Tab.	Tab.	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
+25	4	4	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+
+# text = Entretanto, no dia ‘14’ já podia ser observada diferença marginal ao nível de significância (p = 0,06) entre os tratamentos; nesta data a diferença na concentração de nitrogênio amoniacal dissolvido entre os tratamentos já era maior do que o dobro da semana anterior.
+# sent_id = 30-20140327-TESEMSC_0-152
+1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dia	dia	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+6	‘	‘	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	14	14	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+8	’	’	PUNCT	_	_	5	punct	_	_
+9	já	já	ADV	_	_	10	advmod	_	_
+10	podia	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	46	advcl	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	observada	observar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+13	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+14	marginal	marginal	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	nível	nível	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	significância	significância	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	p	p	NOUN	_	Gender=Masc|Number=Plur	12	appos	_	_
+22	=	=	SYM	_	_	21	nmod	_	_
+23	0,06	0,06	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	21	punct	_	_
+25	entre	entre	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	10	punct	_	_
+29-30	nesta	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	data	data	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+34-35	na	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	nitrogênio	nitrogênio	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+39	amoniacal	amoniacal	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+40	dissolvido	dissolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
+41	entre	entre	ADP	_	_	43	case	_	_
+42	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	40	obl	_	_
+44	já	já	ADV	_	_	46	advmod	_	_
+45	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	cop	_	_
+46	maior	grande	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+47-48	do	_	_	_	_	_	_	_	_
+47	de	de	ADP	_	_	51	case	_	_
+48	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	47	fixed	_	_
+49	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	47	fixed	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	dobro	dobro	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	_
+52-53	da	_	_	_	_	_	_	_	_
+52	de	de	ADP	_	_	54	case	_	_
+53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	semana	semana	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
+55	anterior	anterior	ADJ	_	Gender=Fem|Number=Sing	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 4.
-# sent_id = 30-20140327-TESEMSC_0-149
+# sent_id = 30-20140327-TESEMSC_0-153
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Diferença percentual entre as concentrações médias de nitrogênio amoniacal dissolvido (N-NH3 + N-NH4+) dos tratamentos controle e com S. alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-150
+# sent_id = 30-20140327-TESEMSC_0-154
 1	Diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -4725,7 +4749,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Valores negativos indicam redução do nitrogênio amoniacal na presença de S.
-# sent_id = 30-20140327-TESEMSC_0-151
+# sent_id = 30-20140327-TESEMSC_0-155
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	negativos	negativo	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4743,12 +4767,12 @@
 13	S.	S.	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 
 # text = alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-152
+# sent_id = 30-20140327-TESEMSC_0-156
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = - Não foram encontradas diferenças significativas na concentração de NO3 concentração do composto não apresentou um padrão definido (Fig. 4B).
-# sent_id = 30-20140327-TESEMSC_0-153
+# sent_id = 30-20140327-TESEMSC_0-157
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	Não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4778,13 +4802,13 @@
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Óleos e Graxas
-# sent_id = 30-20140327-TESEMSC_0-154
+# sent_id = 30-20140327-TESEMSC_0-158
 1	Óleos	Óleo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Graxas	Graxas	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 
 # text = A concentração de O&G na AP diluída caiu marcadamente ao longo do experimento, mas não apresentou diferenças significativas entre os tratamentos (F = 1,2; p = 0,56).
-# sent_id = 30-20140327-TESEMSC_0-155
+# sent_id = 30-20140327-TESEMSC_0-159
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4825,7 +4849,7 @@
 35	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Entretanto, estes compostos estiveram sempre em menor concentração no tratamento com S. alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-156
+# sent_id = 30-20140327-TESEMSC_0-160
 1	Entretanto	entretanto	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -4845,7 +4869,7 @@
 16	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A Tabela 5 apresenta a diferença na concentração de O&G entre os tratamentos controle e com S.
-# sent_id = 30-20140327-TESEMSC_0-157
+# sent_id = 30-20140327-TESEMSC_0-161
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	5	5	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4867,23 +4891,23 @@
 18	S.	S.	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	_
 
 # text = alterniflora, para cada dia amostrado.
-# sent_id = 30-20140327-TESEMSC_0-158
+# sent_id = 30-20140327-TESEMSC_0-162
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
 4	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
 5	dia	dia	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 6	amostrado	amostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 5.
-# sent_id = 30-20140327-TESEMSC_0-159
+# sent_id = 30-20140327-TESEMSC_0-163
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Diferença percentual entre as concentrações médias de óleos e graxas (O&G) entre os tratamentos controle e com S.
-# sent_id = 30-20140327-TESEMSC_0-160
+# sent_id = 30-20140327-TESEMSC_0-164
 1	Diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	percentual	percentual	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -4906,12 +4930,12 @@
 20	S.	S.	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 
 # text = alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-161
+# sent_id = 30-20140327-TESEMSC_0-165
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Valores negativos indicam redução na presença de S. alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-162
+# sent_id = 30-20140327-TESEMSC_0-166
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	negativos	negativo	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4926,7 +4950,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = *Não foi possível estimar, visto que no tratamento com plantas a concentração era igual a zero.
-# sent_id = 30-20140327-TESEMSC_0-163
+# sent_id = 30-20140327-TESEMSC_0-167
 1	*	*	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -4950,7 +4974,7 @@
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A concentração de O&G diminuiu de 48,2 ± 12 mg L-1 (média
-# sent_id = 30-20140327-TESEMSC_0-164
+# sent_id = 30-20140327-TESEMSC_0-168
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4966,7 +4990,7 @@
 13	média	médio	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 
 # text = ± erro padrão) a zero no tratamento com Spartina e de 55,3 ± 11,3 mg L-1 (média
-# sent_id = 30-20140327-TESEMSC_0-165
+# sent_id = 30-20140327-TESEMSC_0-169
 1	±	±	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4990,7 +5014,7 @@
 20	média	médio	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
 
 # text = ± erro padrão) a 2,4 ± 2,3 mg L-1 (média
-# sent_id = 30-20140327-TESEMSC_0-166
+# sent_id = 30-20140327-TESEMSC_0-170
 1	±	±	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5005,7 +5029,7 @@
 12	média	médio	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 
 # text = ± erro padrão) no controle sem plantas, ao longo dos 21 dias do experimento.
-# sent_id = 30-20140327-TESEMSC_0-167
+# sent_id = 30-20140327-TESEMSC_0-171
 1	±	±	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5033,7 +5057,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Apesar da ausência de diferença significativa entre os tratamentos, enquanto na primeira semana a redução na concentração de O&G no tratamento com S. alterniflora foi de 44,5%, no tratamento controle esta foi de apenas 17,8 %.
-# sent_id = 30-20140327-TESEMSC_0-168
+# sent_id = 30-20140327-TESEMSC_0-172
 1	Apesar	apesar	ADV	_	_	4	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -5086,7 +5110,7 @@
 45	.	.	PUNCT	_	_	44	punct	_	_
 
 # text = Nas duas semanas subseqüentes, para ambos os tratamentos, a redução de O&G foi sempre maior que 65% (Fig. 4C).
-# sent_id = 30-20140327-TESEMSC_0-169
+# sent_id = 30-20140327-TESEMSC_0-173
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -5113,46 +5137,14 @@
 23	Fig.	Fig.	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
 24	4C	4C	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n\n
 
-# text = B B B B Tempo (dias)
-# sent_id = 30-20140327-TESEMSC_0-170
+# text = B B B B
+# sent_id = 30-20140327-TESEMSC_0-174
 1	B	B	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	B	b	PROPN	_	Number=Sing	1	flat:name	_	_
 3	B	B	PROPN	_	Number=Sing	1	flat:name	_	_
-4	B	B	PROPN	_	Number=Sing	1	flat:name	_	_
-5	Tempo	Tempo	PROPN	_	Number=Sing	1	flat:name	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	_
-
-# text = Tempo (dias)
-# sent_id = 30-20140327-TESEMSC_0-171
-1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
-
-# text = Tempo (dias)
-# sent_id = 30-20140327-TESEMSC_0-172
-1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
-
-# text = Tempo (dias)
-# sent_id = 30-20140327-TESEMSC_0-173
-1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
-
-# text = Tempo (dias)
-# sent_id = 30-20140327-TESEMSC_0-174
-1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	3	punct	_	_
+4	B	B	PROPN	_	Number=Sing	1	flat:name	_	SpacesAfter=\s\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 
 # text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-175
@@ -5161,16 +5153,12 @@
 3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
-# text = C C C C Tempo (dias)
+# text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-176
-1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	C	c	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-3	C	c	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
-4	C	C	PROPN	_	Number=Sing	3	flat:name	_	_
-5	Tempo	Tempo	PROPN	_	Number=Sing	3	flat:name	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	dias	dias	NOUN	_	Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	_
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
 
 # text = Tempo (dias)
 # sent_id = 30-20140327-TESEMSC_0-177
@@ -5200,21 +5188,69 @@
 3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
-# text = Tempo (dias)
+# text = C C C C l l l l l l
 # sent_id = 30-20140327-TESEMSC_0-181
+1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	C	c	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+3	C	c	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+4	C	c	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+5	l	l	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+6	l	l	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+7	l	l	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+8	l	l	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	l	l	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	l	l	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-182
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-183
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-184
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-185
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-186
+1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+
+# text = Tempo (dias)
+# sent_id = 30-20140327-TESEMSC_0-187
 1	Tempo	Tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	dias	dias	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
 # text = Figura 4.
-# sent_id = 30-20140327-TESEMSC_0-182
+# sent_id = 30-20140327-TESEMSC_0-188
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentração de nitrogênio amoniacal dissolvido, nitrato e óleos e graxas (média ± erro-padrão) ao longo do tempo, em tanques de água de produção contendo S. alterniflora e sem plantas (controle).
-# sent_id = 30-20140327-TESEMSC_0-183
+# sent_id = 30-20140327-TESEMSC_0-189
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	nitrogênio	nitrogênio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5258,7 +5294,7 @@
 39	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = * indica que houve diferença significativa entre os tratamentos no dia amostral.
-# sent_id = 30-20140327-TESEMSC_0-184
+# sent_id = 30-20140327-TESEMSC_0-190
 1	*	*	PUNCT	_	_	2	punct	_	_
 2	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	4	mark	_	_
@@ -5273,17 +5309,17 @@
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	dia	dia	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 13	amostral	amostral	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Desenvolvimento de Spartina alterniflora
-# sent_id = 30-20140327-TESEMSC_0-185
+# sent_id = 30-20140327-TESEMSC_0-191
 1	Desenvolvimento	Desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Spartina	Spartina	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	alterniflora	alterniflora	ADV	_	_	1	advmod	_	_
 
 # text = Do total de plantas utilizadas no experimento (150), 6,7% (10) morreram.
-# sent_id = 30-20140327-TESEMSC_0-186
+# sent_id = 30-20140327-TESEMSC_0-192
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5307,7 +5343,7 @@
 19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Entre as plantas sobreviventes (140), 27% (38) produziram brotos.
-# sent_id = 30-20140327-TESEMSC_0-187
+# sent_id = 30-20140327-TESEMSC_0-193
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	plantas	planta	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
@@ -5326,7 +5362,7 @@
 16	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = No início e no final do experimento não foram observadas diferenças significativas quando comparadas as biomassas e as medidas de crescimento não-destrutivas entre os tanques (réplicas) do tratamento contendo S. alterniflora (Tab. 6).
-# sent_id = 30-20140327-TESEMSC_0-188
+# sent_id = 30-20140327-TESEMSC_0-194
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5375,13 +5411,13 @@
 42	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Tabela 6.
-# sent_id = 30-20140327-TESEMSC_0-189
+# sent_id = 30-20140327-TESEMSC_0-195
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Testes de diferenças entre réplicas (tanques) das variáveis de crescimento das plantas de S. alterniflora cultivada em água de produção de petróleo salina.
-# sent_id = 30-20140327-TESEMSC_0-190
+# sent_id = 30-20140327-TESEMSC_0-196
 1	Testes	teste	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	27	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -5414,7 +5450,7 @@
 28	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Número de réplicas (n), F e H (ANOVA e Kruskal-Wallis, respectivamente) calculados e nível de significância ‘p’ são apresentados.
-# sent_id = 30-20140327-TESEMSC_0-191
+# sent_id = 30-20140327-TESEMSC_0-197
 1	Número	número	NOUN	_	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	réplicas	réplica	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -5445,7 +5481,7 @@
 28	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = * = utilizada Análise de Variância não paramétrica de Kruskal-Wallis.
-# sent_id = 30-20140327-TESEMSC_0-192
+# sent_id = 30-20140327-TESEMSC_0-198
 1	*	*	PUNCT	_	_	2	punct	_	_
 2	=	=	SYM	_	_	0	root	_	_
 3	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5456,16 +5492,16 @@
 8	paramétrica	paramétrico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Kruskal-Wallis	Kruskal-Wallis	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Biomassa
-# sent_id = 30-20140327-TESEMSC_0-193
+# sent_id = 30-20140327-TESEMSC_0-199
 1	Biomassa	Biomasso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	0	root	_	_
 
-# text = A biomassa de folhas vivas e de raízes (Fig. 5A e 5B, respectivamente) não entre o início e o final do experimento.
-# sent_id = 30-20140327-TESEMSC_0-194
+# text = A biomassa de folhas vivas e de raízes (Fig. 5A e 5B, respectivamente) não diferiram significativamente (t = 0,91, p = 0,35; t = 0,30, p = 0,77; respectivamente) entre o início e o final do experimento.
+# sent_id = 30-20140327-TESEMSC_0-200
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	biomassa	biomassa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	biomassa	biomassa	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	folhas	folha	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 5	vivas	vivo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -5476,25 +5512,46 @@
 10	Fig.	Fig.	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 11	5A	5A	PROPN	_	Number=Sing	10	flat:name	_	_
 12	e	e	CCONJ	_	_	13	cc	_	_
-13	5B	5B	PROPN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	10	punct	_	_
-15	respectivamente	respectivamente	ADV	_	_	20	advmod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	15	punct	_	_
-17	não	não	ADV	_	Polarity=Neg	20	advmod	_	_
-18	entre	entre	ADP	_	_	20	case	_	_
-19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	início	início	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
-21	e	e	CCONJ	_	_	23	cc	_	_
-22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	final	final	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	2	punct	_	_
+13	5B	5B	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	respectivamente	respectivamente	ADV	_	_	10	conj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	10	punct	_	_
+17	não	não	ADV	_	Polarity=Neg	18	advmod	_	_
+18	diferiram	diferir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+19	significativamente	significativamente	ADV	_	_	18	advmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	t	t	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	=	=	SYM	_	_	21	nmod	_	_
+23	0,91	0,91	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	21	punct	_	_
+25	p	p	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
+26	=	=	SYM	_	_	21	appos	_	_
+27	0,35	0,35	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	21	punct	_	_
+29	t	t	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
+30	=	=	SYM	_	_	29	nmod	_	_
+31	0,30	0,30	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	p	p	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
+34	=	=	SYM	_	_	33	nmod	_	_
+35	0,77	0,77	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
+36	;	;	PUNCT	_	_	21	punct	_	_
+37	respectivamente	respectivamente	ADV	_	_	21	advmod	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	21	punct	_	_
+39	entre	entre	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	início	início	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+42	e	e	CCONJ	_	_	44	cc	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	final	final	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Após três semanas em hidroponia na AP diluída, as biomassas médias finais de folhas mortas e de brotos produzidos por tanque foram, nesta ordem, de 180,8 ± 12,5 mg e 7,0 ± 2,6 mg (média ± erro padrão).
-# sent_id = 30-20140327-TESEMSC_0-195
+# sent_id = 30-20140327-TESEMSC_0-201
 1	Após	após	ADP	_	_	3	case	_	_
 2	três	três	NUM	_	NumType=Card	3	nummod	_	_
 3	semanas	semana	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
@@ -5545,7 +5602,7 @@
 46	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
 
 # text = alterniflora no início (Dia ‘0’) e no final (Dia ‘21’) do experimento.
-# sent_id = 30-20140327-TESEMSC_0-196
+# sent_id = 30-20140327-TESEMSC_0-202
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -5575,12 +5632,12 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Medidas não-destrutivas
-# sent_id = 30-20140327-TESEMSC_0-197
+# sent_id = 30-20140327-TESEMSC_0-203
 1	Medidas	medida	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	não-destrutivas	não-destrutivo	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 
 # text = Não ocorreram diferenças significativas entre o início e o final do experimento para o comprimento das hastes (teste ‘t’ para amostras dependentes; 0,66) (Fig. 6A e 6B).
-# sent_id = 30-20140327-TESEMSC_0-198
+# sent_id = 30-20140327-TESEMSC_0-204
 1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
 2	ocorreram	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -5622,7 +5679,7 @@
 37	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Entretanto, ocorreu a produção média de 1,00 ± 0,09 novas folhas por planta (média ± erro padrão), número bastante semelhante a mortalidade foliar no período que foi de 1,05 ± 0,05 (média
-# sent_id = 30-20140327-TESEMSC_0-199
+# sent_id = 30-20140327-TESEMSC_0-205
 1	Entretanto	entretanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5647,7 +5704,7 @@
 22	número	número	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 23	bastante	bastante	ADV	_	_	24	advmod	_	_
 24	semelhante	semelhante	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpacesAfter=\s\n
 26	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
 27	foliar	foliar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	22	acl	_	_
 28-29	no	_	_	_	_	_	_	_	_
@@ -5664,7 +5721,7 @@
 38	média	médio	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
 
 # text = ± erro padrão) folhas por planta.
-# sent_id = 30-20140327-TESEMSC_0-200
+# sent_id = 30-20140327-TESEMSC_0-206
 1	±	±	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5675,13 +5732,13 @@
 8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 6.
-# sent_id = 30-20140327-TESEMSC_0-201
+# sent_id = 30-20140327-TESEMSC_0-207
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Comprimento da haste (A) e número de folhas (B) (média
-# sent_id = 30-20140327-TESEMSC_0-202
+# sent_id = 30-20140327-TESEMSC_0-208
 1	Comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5701,7 +5758,7 @@
 16	média	médio	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = + erro padrão) de S.
-# sent_id = 30-20140327-TESEMSC_0-203
+# sent_id = 30-20140327-TESEMSC_0-209
 1	+	+	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5710,7 +5767,7 @@
 6	S.	S.	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
 
 # text = alterniflora no início (Dia ‘0’) e no final (Dia ‘21’) do experimento.
-# sent_id = 30-20140327-TESEMSC_0-204
+# sent_id = 30-20140327-TESEMSC_0-210
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -5740,12 +5797,12 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Concentração de
-# sent_id = 30-20140327-TESEMSC_0-205
+# sent_id = 30-20140327-TESEMSC_0-211
 1	Concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	1	case	_	_
 
 # text = N no tecido
-# sent_id = 30-20140327-TESEMSC_0-206
+# sent_id = 30-20140327-TESEMSC_0-212
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -5753,7 +5810,7 @@
 4	tecido	tecido	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A concentração de N no tecido das folhas vivas de S. alterniflora subiu de 1,22% no início do experimento para 1,75 ± 0,06% (média
-# sent_id = 30-20140327-TESEMSC_0-207
+# sent_id = 30-20140327-TESEMSC_0-213
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5791,7 +5848,7 @@
 31	média	médio	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 
 # text = ± erro padrão) ao final de 21 dias na AP.
-# sent_id = 30-20140327-TESEMSC_0-208
+# sent_id = 30-20140327-TESEMSC_0-214
 1	±	±	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5810,7 +5867,7 @@
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O IC-99% da concentração final de N nas folhas vivas ficou entre 1,29% e 2,01% (média ± erro padrão), possibilitando afirmar que a concentração foliar final de N foi significativamente maior do que a inicial, tendo aumentado 39%.
-# sent_id = 30-20140327-TESEMSC_0-209
+# sent_id = 30-20140327-TESEMSC_0-215
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	IC-99	IC-99	PROPN	_	Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
 3	%	%	SYM	_	_	2	appos	_	_
@@ -5866,7 +5923,7 @@
 50	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Nas raízes, a concentração inicial de N saltou de 0,88% para 1,66 ± 0,05% (média
-# sent_id = 30-20140327-TESEMSC_0-210
+# sent_id = 30-20140327-TESEMSC_0-216
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -5890,7 +5947,7 @@
 20	média	médio	NOUN	_	Gender=Fem|Number=Sing	10	appos:parataxis	_	_
 
 # text = ± erro padrão), com o IC-99% final ficando entre 1,42% e 1,90%, permitindo a afirmação de que a concentração de N final nas raízes foi também significativamente superior que a inicial, com um incremento de 88%.
-# sent_id = 30-20140327-TESEMSC_0-211
+# sent_id = 30-20140327-TESEMSC_0-217
 1	±	±	SYM	_	_	3	nsubj	_	_
 2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5908,7 +5965,7 @@
 15	e	e	CCONJ	_	_	17	cc	_	_
 16	1,90	1,90	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 17	%	%	SYM	_	_	14	conj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
+18	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\n
 19	permitindo	permitir	VERB	_	VerbForm=Ger	11	advcl	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
@@ -5940,7 +5997,7 @@
 46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A concentração de N nas folhas mortas, ao final do experimento, foi de 0,52
-# sent_id = 30-20140327-TESEMSC_0-212
+# sent_id = 30-20140327-TESEMSC_0-218
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5965,7 +6022,7 @@
 19	0,52	0,52	NUM	_	NumType=Card	0	root	_	_
 
 # text = ± 0,02 % (média ± erro padrão) e significativamente menor (teste ‘t’; p < 0,01) do que das folhas vivas; cerca de 30% da concentração das folhas vivas.
-# sent_id = 30-20140327-TESEMSC_0-213
+# sent_id = 30-20140327-TESEMSC_0-219
 1	±	±	SYM	_	_	31	nmod	_	_
 2	0,02	0,02	NUM	_	NumType=Card	3	nummod	_	_
 3	%	%	SYM	_	_	1	appos	_	_
@@ -6014,7 +6071,7 @@
 42	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
 
 # text = Os maiores teores de N nos tecidos foram encontrados nos brotos produzidos ao longo do experimento.
-# sent_id = 30-20140327-TESEMSC_0-214
+# sent_id = 30-20140327-TESEMSC_0-220
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	maiores	grande	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	teores	teor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
@@ -6042,7 +6099,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Da biomassa total de brotos, 3,6 ± 0,5 % (média ± erro-padrão) era composta por N, o dobro do teor encontrado nas folhas vivas e raízes.
-# sent_id = 30-20140327-TESEMSC_0-215
+# sent_id = 30-20140327-TESEMSC_0-221
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6082,7 +6139,7 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Entretanto, como a biomassa de brotos produzidos foi baixa, o N contido nos brotos não contribui muito quando considerada a quantidade total de N acumulado na planta.
-# sent_id = 30-20140327-TESEMSC_0-216
+# sent_id = 30-20140327-TESEMSC_0-222
 1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	como	como	ADP	_	_	5	case	_	_
@@ -6119,7 +6176,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os valores em miligramas da quantidade de N total em cada componente da biomassa de S. alterniflora (teor de N multiplicado pela biomassa média do componente), no início e no fim do experimento, são apresentados na Tabela 7, assim como a contribuição percentual de cada componente para o somatório do N total na planta.
-# sent_id = 30-20140327-TESEMSC_0-217
+# sent_id = 30-20140327-TESEMSC_0-223
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	46	nsubj:pass	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -6199,16 +6256,16 @@
 67	em	em	ADP	_	_	69	case	_	_
 68	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
 69	planta	planta	NOUN	_	Gender=Fem|Number=Sing	62	nmod	_	SpaceAfter=No
-70	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n
+70	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 7.
-# sent_id = 30-20140327-TESEMSC_0-218
+# sent_id = 30-20140327-TESEMSC_0-224
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Quantidade total de N (mg) no tecido de cada componente da biomassa das plantas de S. alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-219
+# sent_id = 30-20140327-TESEMSC_0-225
 1	Quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	total	total	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6237,7 +6294,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A Figura 7 apresenta as concentrações totais de N dos diferentes componentes da biomassa no início e após os 21 dias de cultivo das plantas na AP, em ambos os tratamentos.
-# sent_id = 30-20140327-TESEMSC_0-220
+# sent_id = 30-20140327-TESEMSC_0-226
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	7	7	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -6283,7 +6340,7 @@
 38	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Enquanto no tratamento com S. alterniflora a redução na concentração total de N nos 50 L de AP diluída foi de 51,4% (de 4,99 g para 2,43 g de N), no tratamento controle (sem plantas) a redução na concentração deste elemento na AP foi de 42,9% (de 5,26 g para 3,0 g de N).
-# sent_id = 30-20140327-TESEMSC_0-221
+# sent_id = 30-20140327-TESEMSC_0-227
 1	Enquanto	enquanto	SCONJ	_	_	7	mark	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -6364,7 +6421,7 @@
 71	.	.	PUNCT	_	_	60	punct	_	SpacesAfter=\n
 
 # text = Do total de redução na concentração de N da AP no tratamento com S. alterniflora (2,57 g), 25% (0,65 g de N) pode ser explicado pela incorporação pela planta.
-# sent_id = 30-20140327-TESEMSC_0-222
+# sent_id = 30-20140327-TESEMSC_0-228
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6415,7 +6472,7 @@
 42	.	.	PUNCT	_	_	35	punct	_	_
 
 # text = Os tecidos foliares em conjunto (folhas vivas
-# sent_id = 30-20140327-TESEMSC_0-223
+# sent_id = 30-20140327-TESEMSC_0-229
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tecidos	tecido	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	foliares	foliar	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -6426,7 +6483,7 @@
 8	vivas	vivo	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
 
 # text = + folhas mortas + brotos) tiveram sua concentração de N incrementada em 58,3% (0,39 g de N), o que representa em torno de 15% da diferença entre as concentrações inicial e final na AP neste tratamento.
-# sent_id = 30-20140327-TESEMSC_0-224
+# sent_id = 30-20140327-TESEMSC_0-230
 1	+	+	SYM	_	_	7	nsubj	_	_
 2	folhas	folha	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
 3	mortas	matar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
@@ -6478,7 +6535,7 @@
 46	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O incremento de N no tecido das raízes foi de 88,3% (0,26 g de N), representando cerca de 10% da redução entre as concentrações inicial e final de N na AP.
-# sent_id = 30-20140327-TESEMSC_0-225
+# sent_id = 30-20140327-TESEMSC_0-231
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	incremento	incremento	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6497,7 +6554,7 @@
 14	%	%	SYM	_	_	0	root	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	0,26	0,26	NUM	_	NumType=Card	17	nummod	_	_
-17	g	g	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	_
+17	g	g	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	SpacesAfter=\s\n
 18	de	de	ADP	_	_	19	case	_	_
 19	N	n	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
@@ -6526,7 +6583,7 @@
 41	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = A partir da conversão de cl-a em N, foi observado que, no tratamento com S.
-# sent_id = 30-20140327-TESEMSC_0-226
+# sent_id = 30-20140327-TESEMSC_0-232
 1	A	a	ADP	_	_	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6550,7 +6607,7 @@
 19	S.	S.	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 
 # text = alterniflora, o nitrogênio contido na biomassa fitoplanctônica seria de no máximo 10,7 mg N, representando 0,44 % da redução observada na concentração de N da AP.
-# sent_id = 30-20140327-TESEMSC_0-227
+# sent_id = 30-20140327-TESEMSC_0-233
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6592,7 +6649,7 @@
 34	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = No tratamento controle, a concentração máxima de N estimada na biomassa fitoplanctônica ficou em 2,88 mg N, o que representou 0,13 % da redução na concentração de N observada na AP.
-# sent_id = 30-20140327-TESEMSC_0-228
+# sent_id = 30-20140327-TESEMSC_0-234
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6636,16 +6693,16 @@
 36	em	em	ADP	_	_	38	case	_	_
 37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	AP	AP	PROPN	_	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7.
-# sent_id = 30-20140327-TESEMSC_0-229
+# sent_id = 30-20140327-TESEMSC_0-235
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Concentrações inicial e final de N nos tratamentos de AP com e sem a presença de S. alterniflora, tanto na água quanto nos tecidos da planta.
-# sent_id = 30-20140327-TESEMSC_0-230
+# sent_id = 30-20140327-TESEMSC_0-236
 1	Concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -6684,7 +6741,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os valores entre parênteses indicam o percentual de aumento (+) ou redução (-) na concentração de N. * As caixas pretas simbolizam o N contido na biomassa dos microorganismos presentes na água adicionado ao que foi perdido por volatilização; estas se encontram fora de escala (valor não determinado no experimento).
-# sent_id = 30-20140327-TESEMSC_0-231
+# sent_id = 30-20140327-TESEMSC_0-237
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	entre	entre	ADP	_	_	4	case	_	_
@@ -6754,14 +6811,14 @@
 61	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	59	obl	_	SpaceAfter=No
 63	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
-64	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+64	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Discussão
-# sent_id = 30-20140327-TESEMSC_0-232
+# sent_id = 30-20140327-TESEMSC_0-238
 1	Discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A grama de marisma Spartina alterniflora reduziu significativamente a concentração de N e acelerou a redução dos O&G da água de produção de petróleo salina ao longo dos 21 dias de experimento.
-# sent_id = 30-20140327-TESEMSC_0-233
+# sent_id = 30-20140327-TESEMSC_0-239
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	grama	grama	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6805,7 +6862,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Apesar do pequeno desenvolvimento, possivelmente devido ao curto período e época do ano do experimento (outono-inverno), a redução na concentração de N na AP pode ser relacionada a um aumento significativo da concentração de N em seus tecidos.
-# sent_id = 30-20140327-TESEMSC_0-234
+# sent_id = 30-20140327-TESEMSC_0-240
 1	Apesar	apesar	ADV	_	_	5	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -6865,7 +6922,7 @@
 50	.	.	PUNCT	_	_	37	punct	_	_
 
 # text = A redução na concentração de O&G, apesar de não-significativa, caiu de forma mais abrupta nos tanques com S.
-# sent_id = 30-20140327-TESEMSC_0-235
+# sent_id = 30-20140327-TESEMSC_0-241
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	redução	redução	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -6892,7 +6949,7 @@
 22	S.	S.	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	_
 
 # text = alterniflora que nos tanques controle.
-# sent_id = 30-20140327-TESEMSC_0-236
+# sent_id = 30-20140327-TESEMSC_0-242
 1	alterniflora	alterniflora	SCONJ	_	_	5	mark	_	_
 2	que	que	SCONJ	_	_	5	mark	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -6903,7 +6960,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O pH e o OD da água onde a planta foi cultivada foram significativamente menores do que no controle durante a maior parte do experimento.
-# sent_id = 30-20140327-TESEMSC_0-237
+# sent_id = 30-20140327-TESEMSC_0-243
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	ph	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -6940,7 +6997,7 @@
 30	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = + e baixas concentrações de NO3 - As altas concentrações de N-NH4 encontradas no presente trabalho corroboram os valores encontrados por outros autores.
-# sent_id = 30-20140327-TESEMSC_0-238
+# sent_id = 30-20140327-TESEMSC_0-244
 1	+	+	SYM	_	_	18	obl	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	baixas	baixo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -6969,7 +7026,7 @@
 25	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Segundo Neff (2002), a concentração de amônia na AP pode variar de 0,1 a 650 mg L-1, enquanto a de nitrato geralmente é menor que 1,0 mg L-1 (Myers et al., 2001; Sirivedhin & Dallbauman, 2004;
-# sent_id = 30-20140327-TESEMSC_0-239
+# sent_id = 30-20140327-TESEMSC_0-245
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Neff	Neff	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -7019,7 +7076,7 @@
 46	;	;	PUNCT	_	_	14	punct	_	_
 
 # text = OGP, 2005).
-# sent_id = 30-20140327-TESEMSC_0-240
+# sent_id = 30-20140327-TESEMSC_0-246
 1	OGP	Ogp	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	2005	2005	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
@@ -7027,7 +7084,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Dentre os trabalhos revisados, nenhum apresenta concentração de nitrito em AP.
-# sent_id = 30-20140327-TESEMSC_0-241
+# sent_id = 30-20140327-TESEMSC_0-247
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
@@ -7043,7 +7100,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O acúmulo de N no tecido de S. alterniflora observado no experimento era esperado frente às quantidades de N elevadas na AP.
-# sent_id = 30-20140327-TESEMSC_0-242
+# sent_id = 30-20140327-TESEMSC_0-248
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	acúmulo	acúmulo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7077,7 +7134,7 @@
 27	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = S. alterniflora absorve mais rapidamente
-# sent_id = 30-20140327-TESEMSC_0-243
+# sent_id = 30-20140327-TESEMSC_0-249
 1	S.	S.	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	alterniflora	alterniflora	ADV	_	_	3	advmod	_	_
 3	absorve	absorvir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7085,7 +7142,7 @@
 5	rapidamente	rapidamente	ADV	_	_	3	advmod	_	_
 
 # text = N na forma de amônia do que na forma de nitrato (Mendelssohn, 1979; Morris, 1980) e, visto que a principal forma de N em AP é na forma de +, a capacidade de S.
-# sent_id = 30-20140327-TESEMSC_0-244
+# sent_id = 30-20140327-TESEMSC_0-250
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -7137,7 +7194,7 @@
 45	S.	S.	PROPN	_	Gender=Masc|Number=Sing	43	nmod	_	_
 
 # text = alterniflora reduzir o N neste efluente é maximizada.
-# sent_id = 30-20140327-TESEMSC_0-245
+# sent_id = 30-20140327-TESEMSC_0-251
 1	alterniflora	alterniflora	SCONJ	_	_	2	mark	_	_
 2	reduzir	reduzir	VERB	_	VerbForm=Inf	9	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7151,8 +7208,8 @@
 10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = N-NH4 Woodhouse (1976 apud Mendelssohn, 1979) também observou que a taxa de - é mais lenta do que a do N-NH4 + em S. alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-246
-1	N-NH4	N-NH4	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+# sent_id = 30-20140327-TESEMSC_0-252
+1	N-NH4	N-NH4	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpacesAfter=\s\n
 2	Woodhouse	Woodhouse	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	1976	1976	NUM	_	NumType=Card	5	nummod	_	_
@@ -7187,13 +7244,13 @@
 31	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = assimilação de NO3
-# sent_id = 30-20140327-TESEMSC_0-247
+# sent_id = 30-20140327-TESEMSC_0-253
 1	assimilação	assimilação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	NO3	NO3	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Segundo Hopkinson & Schubauer (1984), macrófitas emergentes, como S. alterniflora, absorvem nutrientes do solo/água intersticial e os translocam para todas as partes da planta.
-# sent_id = 30-20140327-TESEMSC_0-248
+# sent_id = 30-20140327-TESEMSC_0-254
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Hopkinson	Hopkinson	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	_
 3	&	&	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7230,14 +7287,14 @@
 32	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Uma vez que S.
-# sent_id = 30-20140327-TESEMSC_0-249
+# sent_id = 30-20140327-TESEMSC_0-255
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	mark	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
 4	S.	S.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = alterniflora é uma espécie que apresenta grande demanda por N (Smart & Barko, 1980), limitações de crescimento pelo N foram observadas no ambiente natural (Valiela & Teal, 1974;
-# sent_id = 30-20140327-TESEMSC_0-250
+# sent_id = 30-20140327-TESEMSC_0-256
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7279,7 +7336,7 @@
 37	;	;	PUNCT	_	_	26	punct	_	_
 
 # text = Valiela et al., 1975;
-# sent_id = 30-20140327-TESEMSC_0-251
+# sent_id = 30-20140327-TESEMSC_0-257
 1	Valiela	Valielar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -7288,21 +7345,21 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Chalmers, 1979;
-# sent_id = 30-20140327-TESEMSC_0-252
+# sent_id = 30-20140327-TESEMSC_0-258
 1	Chalmers	Chalmers	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	1979	1979	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 4	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Mendelssohn, 1979;
-# sent_id = 30-20140327-TESEMSC_0-253
+# sent_id = 30-20140327-TESEMSC_0-259
 1	Mendelssohn	Mendelssohn	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	1979	1979	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 4	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Smart & Barko, 1980;
-# sent_id = 30-20140327-TESEMSC_0-254
+# sent_id = 30-20140327-TESEMSC_0-260
 1	Smart	Smart	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Barko	Barko	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -7311,7 +7368,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Dai & Wiegert, 1997).
-# sent_id = 30-20140327-TESEMSC_0-255
+# sent_id = 30-20140327-TESEMSC_0-261
 1	Dai	Dai	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Wiegert	Wiegert	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -7321,7 +7378,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O acúmulo de N em tecidos de S. alterniflora, quando da adição deste nutriente, já havia sido demonstrado por alguns autores (Valiela et al., 1973;
-# sent_id = 30-20140327-TESEMSC_0-256
+# sent_id = 30-20140327-TESEMSC_0-262
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	acúmulo	acúmulo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7358,7 +7415,7 @@
 32	;	;	PUNCT	_	_	9	punct	_	_
 
 # text = Valiela & Teal, 1974;
-# sent_id = 30-20140327-TESEMSC_0-257
+# sent_id = 30-20140327-TESEMSC_0-263
 1	Valiela	Valiela	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Teal	Teal	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -7367,7 +7424,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Smart & Barko, 1980;
-# sent_id = 30-20140327-TESEMSC_0-258
+# sent_id = 30-20140327-TESEMSC_0-264
 1	Smart	Smart	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Barko	Barko	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -7376,7 +7433,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Dai & Wiegert, 1997), bem como esta capacidade relacionada a um mecanismo fisiológico da planta que permite a estocagem de nutrientes para utilização em condições de crescimento mais favoráveis.
-# sent_id = 30-20140327-TESEMSC_0-259
+# sent_id = 30-20140327-TESEMSC_0-265
 1	Dai	Dai	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Wiegert	Wiegert	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -7414,7 +7471,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Morris (1982) e Biudes & Camargo (2006) mostraram que em áreas de marismas banhadas por água com maior concentração de N as concentrações deste elemento nos tecidos das plantas também são mais altas.
-# sent_id = 30-20140327-TESEMSC_0-260
+# sent_id = 30-20140327-TESEMSC_0-266
 1	Morris	Morris	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1982	1982	NUM	_	NumType=Card	1	appos:parataxis	_	SpaceAfter=No
@@ -7461,7 +7518,7 @@
 41	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\n
 
 # text = O fato da concentração de N nos tecidos vivos, ao final do experimento, ser bastante superior à dos tecidos mortos demonstra a capacidade desta planta de translocar
-# sent_id = 30-20140327-TESEMSC_0-261
+# sent_id = 30-20140327-TESEMSC_0-267
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7507,7 +7564,7 @@
 36	translocar	translocar	VERB	_	VerbForm=Inf	29	xcomp	_	_
 
 # text = N das partes senescentes para as porções mais jovens, reduzindo assim sua dependência ao N externo, que pode ser limitante no ambiente natural (Chalmers, 1979; Morris, 1980; Hopkinson & Schubauer, 1984).
-# sent_id = 30-20140327-TESEMSC_0-262
+# sent_id = 30-20140327-TESEMSC_0-268
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7557,7 +7614,7 @@
 44	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Entre as partes vivas, observou-se que os brotos apresentavam concentração de N duas vezes maior do que a dos outros componentes da biomassa, corroborando a observação de Hopkinson & Schubauer (1984), de maiores concentrações de N nos tecidos mais jovens.
-# sent_id = 30-20140327-TESEMSC_0-263
+# sent_id = 30-20140327-TESEMSC_0-269
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	partes	parte	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
@@ -7574,7 +7631,7 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	N	n	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 15	duas	dois	NUM	_	NumType=Card	16	nummod	_	_
-16	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+16	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpacesAfter=\s\n
 17	maior	grande	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	21	case	_	_
@@ -7616,19 +7673,19 @@
 51	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = + entre
-# sent_id = 30-20140327-TESEMSC_0-264
+# sent_id = 30-20140327-TESEMSC_0-270
 1	+	+	SYM	_	_	0	root	_	_
 2	entre	entre	ADP	_	_	1	case	_	_
 
 # text = Apesar de ter acumulado
-# sent_id = 30-20140327-TESEMSC_0-265
+# sent_id = 30-20140327-TESEMSC_0-271
 1	Apesar	apesar	ADV	_	_	4	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	ter	ter	AUX	_	VerbForm=Inf	4	aux	_	_
 4	acumulado	acumular	VERB	_	VerbForm=Part	0	root	_	_
 
 # text = N, a diferença na concentração de N-NH4 os tratamentos com S. alterniflora e sem a presença de plantas (controle) ao final do experimento, mesmo que significativa, foi relativamente pequena (19,3%), em relação à concentração total deste composto.
-# sent_id = 30-20140327-TESEMSC_0-266
+# sent_id = 30-20140327-TESEMSC_0-272
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7688,7 +7745,7 @@
 52	.	.	PUNCT	_	_	37	punct	_	_
 
 # text = A flutuação na concentração média do nitrogênio amoniacal na ordem de 100 mg N L-1 ao longo do experimento leva a concluir que outros fatores biótico e/ou abióticos exerceram maior influência sobre os compostos nitrogenados do que a presença da planta.
-# sent_id = 30-20140327-TESEMSC_0-267
+# sent_id = 30-20140327-TESEMSC_0-273
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	flutuação	flutuação	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -7747,7 +7804,7 @@
 49	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = A quantidade de N acumulada na biomassa fitoplanctônica, em ambos os tratamentos, foi ínfima (menor que 0,5%) quando comparada à redução total na concentração deste elemento.
-# sent_id = 30-20140327-TESEMSC_0-268
+# sent_id = 30-20140327-TESEMSC_0-274
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7790,7 +7847,7 @@
 36	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Este resultado sugere que o N reduzido da AP, mas não acumulado pelas plantas de S. alterniflora, pode ter sido estocado como biomassa bacteriana ou, o mais provável, ter volatilizado para a atmosfera na forma de amônia (NH3+).
-# sent_id = 30-20140327-TESEMSC_0-269
+# sent_id = 30-20140327-TESEMSC_0-275
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7844,7 +7901,7 @@
 48	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O pH levemente básico do efluente estimula a conversão do íon amônio (NH4+), solúvel, em amônia gasosa (Esteves, 1988), que tende a volatilizar.
-# sent_id = 30-20140327-TESEMSC_0-270
+# sent_id = 30-20140327-TESEMSC_0-276
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	ph	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	levemente	levemente	ADV	_	_	4	advmod	_	_
@@ -7883,7 +7940,7 @@
 34	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A conversão do nitrogênio amoniacal dissolvido em nitrogênio livre por bactérias desnitrificantes não parece ter ocorrido de forma expressiva, visto que esta via ocorre em condições anaeróbicas, o que não foi o caso do presente experimento, e passa pela formação de nitrato (Esteves, 1988) e este composto foi encontrado em baixíssimas concentrações ao longo de todo período experimental.
-# sent_id = 30-20140327-TESEMSC_0-271
+# sent_id = 30-20140327-TESEMSC_0-277
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	conversão	conversão	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7956,10 +8013,10 @@
 66	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	67	det	_	_
 67	período	período	NOUN	_	Gender=Masc|Number=Sing	64	nmod	_	_
 68	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	67	amod	_	SpaceAfter=No
-69	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+69	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = Processos de fixação de nitrogênio e desnitrificação são empreendidos majoritariamente por microorganismos (Begon et al., 2006) e, provavelmente, bactérias, fungos e microalgas livres e aderidos contribuíram para as oscilações observadas na concentração de nitrogênio amoniacal dissolvido ao longo do experimento, fixando nitrogênio atmosférico na forma de nitrogênio amoniacal.
-# sent_id = 30-20140327-TESEMSC_0-272
+# sent_id = 30-20140327-TESEMSC_0-278
 1	Processos	processo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fixação	fixação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8026,7 +8083,7 @@
 60	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = As menores concentrações de nitrogênio amoniacal no tratamento com S. alterniflora podem estar relacionadas a uma combinação de absorção pelas plantas e oxidação da rizosfera pelo aerênquima destas, com conseqüente estímulo da atividade microbiana (Olson et al., 2003).
-# sent_id = 30-20140327-TESEMSC_0-273
+# sent_id = 30-20140327-TESEMSC_0-279
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	menores	pequeno	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
@@ -8084,7 +8141,7 @@
 49	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O aumento do substrato para desenvolvimento de biofilme pela presença de raízes e absorção/conversão do nitrogênio amoniacal dissolvido por este também são fatores a considerar.
-# sent_id = 30-20140327-TESEMSC_0-274
+# sent_id = 30-20140327-TESEMSC_0-280
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8121,7 +8178,7 @@
 31	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Olson et al. (2003) enfatizam que, independente do contaminante, a vegetação e os microorganismos associados à rizosfera agem conjuntamente para determinar seu destino final em sistemas de fitorremediação.
-# sent_id = 30-20140327-TESEMSC_0-275
+# sent_id = 30-20140327-TESEMSC_0-281
 1	Olson	Olson	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -8161,7 +8218,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Sabe-se ainda que o papel dos microorganismos na biodegradação de compostos orgânicos presentes na água de produção é variável, porém geralmente expressivo (OGP, 2005) e que a degradação microbiana do petróleo em ambientes aquáticos é limitada primariamente por nutrientes, como o N (Leahy & Colwell, 1990).
-# sent_id = 30-20140327-TESEMSC_0-276
+# sent_id = 30-20140327-TESEMSC_0-282
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8229,7 +8286,7 @@
 60	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A redução na concentração de N em AP tratada por banhados construídos já havia sido observada por Ji et al. (2007), que encontraram reduções maiores do que 80% na concentração total de nitrogênio da AP.
-# sent_id = 30-20140327-TESEMSC_0-277
+# sent_id = 30-20140327-TESEMSC_0-283
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	redução	redução	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8280,7 +8337,7 @@
 44	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Anteriormente, Knight et al. (1999) também encontraram redução de nitrogênio amoniacal, entre 40%-98%, revisando a utilização de banhados para tratar outros efluentes da indústria do petróleo.
-# sent_id = 30-20140327-TESEMSC_0-278
+# sent_id = 30-20140327-TESEMSC_0-284
 1	Anteriormente	anteriormente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Knight	Knight	X	_	Number=Sing	5	amod	_	_
@@ -8302,7 +8359,7 @@
 19	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 20	98	98	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 21	%	%	SYM	_	_	10	obj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
+22	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
 23	revisando	revisar	VERB	_	VerbForm=Ger	10	advcl	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
@@ -8322,8 +8379,8 @@
 37	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = A baixa mortalidade de S. alterniflora (6,7%) sugere que a concentração inicial de O&G no tratamento com a planta (48,2 ± 12,0 mg L-1; média ± erro- padrão; 30% da AP bruta) não foi tóxica para a mesma.
-# sent_id = 30-20140327-TESEMSC_0-279
+# text = A baixa mortalidade de S. alterniflora (6,7%) sugere que a concentração padrão; 30% da AP bruta) não foi tóxica para a mesma.
+# sent_id = 30-20140327-TESEMSC_0-285
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	baixa	baixa	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -8335,49 +8392,29 @@
 9	%	%	SYM	_	_	3	appos	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
 11	sugere	sugerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	que	que	SCONJ	_	_	14	mark	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
-15	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	O&G	O&G	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18-19	no	_	_	_	_	_	_	_	_
-18	em	em	ADP	_	_	20	case	_	_
-19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-21	com	com	ADP	_	_	23	case	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	planta	planta	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-24	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-25	48,2	48,2	NUM	_	NumType=Card	26	nummod	_	_
-26	±	±	SYM	_	_	23	appos	_	_
-27	12,0	12,0	NUM	_	NumType=Card	28	nummod	_	_
-28	mg	mg	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
-29	L-1	L-1	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
-30	;	;	PUNCT	_	_	31	punct	_	_
-31	média	médio	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
-32	±	±	SYM	_	_	34	nsubj	_	_
-33	erro-	erro	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
-34	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	31	acl:relcl	_	SpaceAfter=No
-35	;	;	PUNCT	_	_	34	punct	_	_
-36	30	30	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
-37	%	%	SYM	_	_	35	appos	_	_
-38-39	da	_	_	_	_	_	_	_	_
-38	de	de	ADP	_	_	40	case	_	_
-39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	AP	AP	PROPN	_	Gender=Fem|Number=Sing	37	nmod	_	_
-41	bruta	bruta	PROPN	_	Number=Sing	40	flat:name	_	SpaceAfter=No
-42	)	)	PUNCT	_	_	37	punct	_	_
-43	não	não	ADV	_	Polarity=Neg	45	advmod	_	_
-44	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	cop	_	_
-45	tóxica	tóxico	ADJ	_	Gender=Fem|Number=Sing	11	advcl	_	_
-46	para	para	ADP	_	_	48	case	_	_
-47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	45	obl	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	11	punct	_	_
+14	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	11	punct	_	_
+17	30	30	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	16	appos	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	AP	AP	PROPN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	bruta	bruta	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	18	punct	_	_
+24	não	não	ADV	_	Polarity=Neg	26	advmod	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	tóxica	tóxico	ADJ	_	Gender=Fem|Number=Sing	11	parataxis	_	_
+27	para	para	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O valor médio de O&G na AP bruta utilizada no experimento, em torno de 190 mg L-1, encontra-se entre as concentrações de O&G encontradas em outras AP, variando de 14 mg L-1 (Doran et al., 1998) a 283 mg L-1 (Freire et al., 2001).
-# sent_id = 30-20140327-TESEMSC_0-280
+# sent_id = 30-20140327-TESEMSC_0-286
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 3	médio	médio	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -8440,7 +8477,7 @@
 57	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Em um trabalho utilizando AP proveniente da Bacia de Campos, as concentrações de O&G foi estimada entre 58,8-85,0 mg L-1, com média de 71,9 mg L-1 (Badaró-Pedroso, 1999).
-# sent_id = 30-20140327-TESEMSC_0-281
+# sent_id = 30-20140327-TESEMSC_0-287
 1	Em	em	ADP	_	_	3	case	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
@@ -8479,7 +8516,7 @@
 35	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Quanto às reduções na concentração de O&G, S. alterniflora parece ter exercido uma influência maior durante a primeira semana do experimento, embora diferenças significativas não tenham sido encontradas.
-# sent_id = 30-20140327-TESEMSC_0-282
+# sent_id = 30-20140327-TESEMSC_0-288
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	às	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -8519,7 +8556,7 @@
 34	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Já na segunda semana a queda na concentração de O&G foi expressiva em ambos os tratamentos.
-# sent_id = 30-20140327-TESEMSC_0-283
+# sent_id = 30-20140327-TESEMSC_0-289
 1	Já	já	ADV	_	_	5	advmod	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	5	case	_	_
@@ -8542,62 +8579,59 @@
 18	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	14	punct	_	_
 
-# text = No tratamento com S.
-# sent_id = 30-20140327-TESEMSC_0-284
+# text = No tratamento com S. alterniflora, durante a primeira semana do experimento, provavelmente ocorreu por estímulo da ação microbiana, podendo também estar relacionado à aderência dos O&G às raízes das plantas.
+# sent_id = 30-20140327-TESEMSC_0-290
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 4	com	com	ADP	_	_	5	case	_	_
 5	S.	S.	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-
-# text = alterniflora, durante a primeira semana do experimento, provavelmente ocorreu por estímulo da ação microbiana, podendo também estar relacionado à aderência dos O&G às raízes das plantas.
-# sent_id = 30-20140327-TESEMSC_0-285
-1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	6	punct	_	_
-3	durante	durante	ADP	_	_	6	case	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
-6	semana	semana	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	6	punct	_	_
-11	provavelmente	provavelmente	ADV	_	_	12	advmod	_	_
-12	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	por	por	ADP	_	_	14	case	_	_
-14	estímulo	estímulo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	ação	ação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-18	microbiana	microbiano	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	podendo	poder	VERB	_	VerbForm=Ger	12	advcl	_	_
-21	também	também	ADV	_	_	23	advmod	_	_
-22	estar	estar	AUX	_	VerbForm=Inf	23	aux	_	_
-23	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	xcomp	_	_
-24-25	à	_	_	_	_	_	_	_	_
-24	a	a	ADP	_	_	26	case	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	aderência	aderência	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
-27-28	dos	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	O&G	O&G	PROPN	_	Number=Sing	26	nmod	_	_
-30-31	às	_	_	_	_	_	_	_	_
-30	a	a	ADP	_	_	32	case	_	_
-31	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
-32	raízes	raíz	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
-33-34	das	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
-35	plantas	planta	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	12	punct	_	_
+6	alterniflora	alterniflora	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	durante	durante	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	semana	semana	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	provavelmente	provavelmente	ADV	_	_	17	advmod	_	_
+17	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	por	por	ADP	_	_	19	case	_	_
+19	estímulo	estímulo	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	ação	ação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	microbiana	microbiano	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	podendo	poder	VERB	_	VerbForm=Ger	17	advcl	_	_
+26	também	também	ADV	_	_	28	advmod	_	_
+27	estar	estar	AUX	_	VerbForm=Inf	28	aux	_	_
+28	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	37	acl	_	_
+29-30	à	_	_	_	_	_	_	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	aderência	aderência	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+32-33	dos	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	O&G	O&G	PROPN	_	Number=Sing	31	nmod	_	_
+35-36	às	_	_	_	_	_	_	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	raízes	raíz	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
+38-39	das	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	plantas	planta	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A redução mais expressiva na concentração de O&G na segunda semana, em ambos os tratamentos, pode estar relacionada a um atraso na resposta da microbiota, que precisou de algum tempo para se adaptar no tratamento controle, enquanto a presença de S.
-# sent_id = 30-20140327-TESEMSC_0-286
+# sent_id = 30-20140327-TESEMSC_0-291
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	redução	redução	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -8655,7 +8689,7 @@
 50	S.	S.	PROPN	_	Gender=Masc|Number=Sing	48	nmod	_	_
 
 # text = alterniflora estimulou a ação dos microorganismos desde o início.
-# sent_id = 30-20140327-TESEMSC_0-287
+# sent_id = 30-20140327-TESEMSC_0-292
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	estimulou	estimular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8670,7 +8704,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Segundo Olson et al. (2003), a rizosfera (zona sobre influência direta das raízes de uma planta), em solos, cria um micro-habitat para microorganismos com potencial para a biodegradação de contaminantes orgânicos, não apenas fornecendo substrato, mas também liberando compostos, como exudatos (liberação passiva) e secreções (liberação ativa) que sustentam o crescimento destes.
-# sent_id = 30-20140327-TESEMSC_0-288
+# sent_id = 30-20140327-TESEMSC_0-293
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Olson	Olson	PROPN	_	Gender=Masc|Number=Sing	27	obl	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -8703,7 +8737,7 @@
 29	micro-habitat	micro-habitat	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
 30	para	para	ADP	_	_	31	case	_	_
 31	microorganismos	microorganismo	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-32	com	com	ADP	_	_	33	case	_	_
+32	com	com	ADP	_	_	33	case	_	SpacesAfter=\s\n
 33	potencial	potencial	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 34	para	para	ADP	_	_	36	case	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
@@ -8744,7 +8778,7 @@
 69	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = A provável liberação destas substâncias por S. alterniflora, em conjunto com a oxigenação da rizosfera pelo aerênquima, ao longo dos dez dias de aclimatação da planta antes da adição da AP, pode ter estimulado a microbiota desde a montagem do experimento, permitindo que os microorganismos, na presença da planta, apresentassem uma resposta mais imediata à AP após sua posterior adição.
-# sent_id = 30-20140327-TESEMSC_0-289
+# sent_id = 30-20140327-TESEMSC_0-294
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	provável	provável	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	liberação	liberação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -8838,7 +8872,7 @@
 79	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Hutchinson et al. (2003) afirmam que, em solos, o fator de maior influência na fitorremediação de hidrocarbonetos de petróleo é a atividade microbiana, estimulada pela presença das plantas.
-# sent_id = 30-20140327-TESEMSC_0-290
+# sent_id = 30-20140327-TESEMSC_0-295
 1	Hutchinson	Hutchinson	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -8881,7 +8915,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Lin et al. (2003), testando o efeito fitorremediador de S. alterniflora em mesocosmo contaminado com petróleo cru variedade ‘South Louisiana’, provaram que a planta, ao aumentar significativamente o potencial redox do solo onde foi cultivada, pode aumentar a degradação aeróbica do óleo, principalmente quando os nutrientes fósforo e nitrogênio não são limitantes para seu crescimento.
-# sent_id = 30-20140327-TESEMSC_0-291
+# sent_id = 30-20140327-TESEMSC_0-296
 1	Lin	Lin	PROPN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -8955,7 +8989,7 @@
 68	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Os autores supracitados também afirmam que processos de adsorção deste contaminante orgânico à superfície das raízes, com sua subseqüente absorção e/ou degradação possivelmente também contribuíram para a redução de sua concentração no solo.
-# sent_id = 30-20140327-TESEMSC_0-292
+# sent_id = 30-20140327-TESEMSC_0-297
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	autores	autor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	supracitados	supracitar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -9001,7 +9035,7 @@
 39	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Nas duas últimas semanas do experimento, a concentração de O&G caiu marcadamente em ambos os tratamentos o que pode ser explicado tanto pelo intemperismo, uma vez que o efluente nos tanques encontrava-se em contato direto com a atmosfera e recebendo luz solar (foto degradação), quanto também por ação microbiana.
-# sent_id = 30-20140327-TESEMSC_0-293
+# sent_id = 30-20140327-TESEMSC_0-298
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	5	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -9047,7 +9081,7 @@
 38	encontrava	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
 39	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	expl	_	_
 40	em	em	ADP	_	_	41	case	_	_
-41	contato	contato	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
+41	contato	contato	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpacesAfter=\s\n
 42	direto	direto	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 43	com	com	ADP	_	_	45	case	_	_
 44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
@@ -9069,7 +9103,7 @@
 60	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Segundo Knight et al. (1999) vários processos contribuem na remoção, conversão ou acúmulo de hidrocarbonetos e outros compostos químicos em banhados construídos; estes processos incluem a volatilização, acúmulo no sedimento ou biofilme, biodegradação, foto degradação ou assimilação por plantas e animais.
-# sent_id = 30-20140327-TESEMSC_0-294
+# sent_id = 30-20140327-TESEMSC_0-299
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Knight	Knight	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -9125,7 +9159,7 @@
 51	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Pode-se ainda ressaltar que algas e protozoários são membros importantes da comunidade microbiana em ambientes aquáticos e terrestres, porém o papel destes organismos na biodegradação de hidrocarbonetos é amplamente desconhecido (Leahy & Colwell, 1990).
-# sent_id = 30-20140327-TESEMSC_0-295
+# sent_id = 30-20140327-TESEMSC_0-300
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9175,7 +9209,7 @@
 43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Como, no presente experimento, as temperaturas foram as mesmas para ambos os tratamentos, o metabolismo microbiano foi afetado de forma semelhante, resultando na ausência de diferença significativa para a concentração de O&G entre os tratamentos, reforçando o proposto de que o papel dos microorganismos foi mais expressivo que o de S. alterniflora nas alterações químicas ocorridas na AP.
-# sent_id = 30-20140327-TESEMSC_0-296
+# sent_id = 30-20140327-TESEMSC_0-301
 1	Como	como	SCONJ	_	_	12	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -9252,7 +9286,7 @@
 69	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = A temperatura é um fator que influencia a biodegradação do petróleo (Leahy & Colwell, 1990) e, por conseguinte, dos O&G constantes na AP.
-# sent_id = 30-20140327-TESEMSC_0-297
+# sent_id = 30-20140327-TESEMSC_0-302
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -9290,7 +9324,7 @@
 32	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A temperatura afeta a condição físico-química do petróleo, a taxa de metabolização de hidrocarbonetos por microorganismos e a composição da comunidade microbiana.
-# sent_id = 30-20140327-TESEMSC_0-298
+# sent_id = 30-20140327-TESEMSC_0-303
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	afeta	afetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9321,7 +9355,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Baixas temperaturas tendem a reduzir as taxas de degradação, enquanto altas temperaturas, até um máximo de 30-40 ºC, aumentam estas taxas.
-# sent_id = 30-20140327-TESEMSC_0-299
+# sent_id = 30-20140327-TESEMSC_0-304
 1	Baixas	baixo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 2	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	tendem	tender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9349,7 +9383,7 @@
 25	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O pH da AP diluída deste experimento, próximo do neutro, também pode ter favorecido a ação microbiana (Leahy & Colwell, 1990).
-# sent_id = 30-20140327-TESEMSC_0-300
+# sent_id = 30-20140327-TESEMSC_0-305
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pH	pH	PROPN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -9382,10 +9416,10 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	1990	1990	NUM	_	NumType=Card	24	appos:parataxis	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = A concentração de OD na água de produção quando de sua chegada da refinaria foi igual à zero.
-# sent_id = 30-20140327-TESEMSC_0-301
+# sent_id = 30-20140327-TESEMSC_0-306
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9413,7 +9447,7 @@
 22	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Segundo Stephenson (1992), a ausência de OD é inerente da AP, pois, uma vez que o oxigênio pode causar corrosão às tubulações do sistema de produção, a entrada deste elemento é evitada.
-# sent_id = 30-20140327-TESEMSC_0-302
+# sent_id = 30-20140327-TESEMSC_0-307
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Stephenson	Stephenson	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -9463,7 +9497,7 @@
 43	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Após a diluição inicial da AP nos tanques a concentração média de OD já era 5,2 ± 0,2 mg L-1 e o aumento ao longo do tempo na concentração de OD pode ser associado ao crescimento da biomassa fitoplanctônica nos dois tratamentos (mais expressiva no controle ao longo da segunda semana).
-# sent_id = 30-20140327-TESEMSC_0-303
+# sent_id = 30-20140327-TESEMSC_0-308
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	diluição	diluição	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -9542,7 +9576,7 @@
 65	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = O aumento acoplado do fitoplâncton e do OD é uma explicação plausível para a queda mais acentuada na concentração de O&G no controle durante este intervalo.
-# sent_id = 30-20140327-TESEMSC_0-304
+# sent_id = 30-20140327-TESEMSC_0-309
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	acoplado	acoplar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -9580,7 +9614,7 @@
 31	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O catabolismo de hidrocarbonetos alifáticos e aromáticos por bactérias e fungos envolve a oxidação do substrato por oxigenases, que requerem a presença de oxigênio molecular (Leahy & Colwell, 1990).
-# sent_id = 30-20140327-TESEMSC_0-305
+# sent_id = 30-20140327-TESEMSC_0-310
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	catabolismo	catabolismo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9619,7 +9653,7 @@
 35	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = As baixas temperaturas certamente foram grandes responsáveis pelo pequeno desempenho de crescimento das plantas de S. alterniflora no presente experimento.
-# sent_id = 30-20140327-TESEMSC_0-306
+# sent_id = 30-20140327-TESEMSC_0-311
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	baixas	baixo	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -9649,7 +9683,7 @@
 24	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Cunha (1994) enfatiza que a produção primária de S.
-# sent_id = 30-20140327-TESEMSC_0-307
+# sent_id = 30-20140327-TESEMSC_0-312
 1	Cunha	Cunha	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1994	1994	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -9663,7 +9697,7 @@
 11	S.	S.	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 
 # text = alterniflora apresenta uma relação linear com a temperatura até 35 ºC, valor bastante superior à média das máximas ao longo do experimento (24 ºC).
-# sent_id = 30-20140327-TESEMSC_0-308
+# sent_id = 30-20140327-TESEMSC_0-313
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9702,7 +9736,7 @@
 32	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Morris (1980; 1982) também enfatizou que variações temporais na taxa de crescimento de S. alterniflora são, em grande parte, dependentes deste e outros fatores climáticos.
-# sent_id = 30-20140327-TESEMSC_0-309
+# sent_id = 30-20140327-TESEMSC_0-314
 1	Morris	Morris	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1980	1980	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -9740,7 +9774,7 @@
 33	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Por outro lado, a concentração de sal da água na qual a planta foi cultivada (10 g NaCl L-1) certamente não foi o fator responsável pelo baixo desempenho de crescimento da planta, uma vez que já foi comprovado que esta salinidade é ótima para o desenvolvimento de S. alterniflora (Bradley & Morris, 1992;
-# sent_id = 30-20140327-TESEMSC_0-310
+# sent_id = 30-20140327-TESEMSC_0-315
 1	Por	por	ADP	_	_	6	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -9795,7 +9829,7 @@
 48	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	49	det	_	_
 49	salinidade	salinidade	NOUN	_	Gender=Fem|Number=Sing	51	nsubj	_	_
 50	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
-51	ótima	ótimo	ADJ	_	Gender=Fem|Number=Sing	46	advcl	_	_
+51	ótima	ótimo	ADJ	_	Gender=Fem|Number=Sing	46	advcl	_	SpacesAfter=\s\n
 52	para	para	ADP	_	_	54	case	_	_
 53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	51	obl	_	_
@@ -9811,7 +9845,7 @@
 64	;	;	PUNCT	_	_	6	punct	_	_
 
 # text = Cunha et al., 2005;
-# sent_id = 30-20140327-TESEMSC_0-311
+# sent_id = 30-20140327-TESEMSC_0-316
 1	Cunha	Cunha	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -9820,14 +9854,14 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Capítulo 2).
-# sent_id = 30-20140327-TESEMSC_0-312
+# sent_id = 30-20140327-TESEMSC_0-317
 1	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Smart & Barko (1980), inclusive, encontraram que a absorção de N por S. alterniflora é maior em salinidades em torno de 9 - 10 g NaCl L-1 do que em salinidades de 3 ou entre 26-31 g NaCl L-1.
-# sent_id = 30-20140327-TESEMSC_0-313
+# sent_id = 30-20140327-TESEMSC_0-318
 1	Smart	Smart	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Barko	Barko	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -9876,7 +9910,7 @@
 45	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Mendelssohn & Morris (2000)
-# sent_id = 30-20140327-TESEMSC_0-314
+# sent_id = 30-20140327-TESEMSC_0-319
 1	Mendelssohn	Mendelssohn	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	&	&	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Morris	Morris	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -9884,7 +9918,7 @@
 5	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = + por também observaram que o aumento da salinidade reduz a absorção de NH4 S.
-# sent_id = 30-20140327-TESEMSC_0-315
+# sent_id = 30-20140327-TESEMSC_0-320
 1	+	+	SYM	_	_	4	nsubj	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -9904,12 +9938,12 @@
 16	S.	S.	PROPN	_	Number=Sing	15	flat:name	_	_
 
 # text = alterniflora.
-# sent_id = 30-20140327-TESEMSC_0-316
+# sent_id = 30-20140327-TESEMSC_0-321
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Uma vez que a tolerância ao sal por esta espécie é em parte relacionada à produção celular de compostos osmo-regulatórios baseados em N (prolina e glicinabetaína), o aumento da salinidade pode aumentar a concentração crítica de N na planta (concentração mínima no tecido para sustentar o crescimento), aumentando assim sua demanda por este elemento (Mendelssohn & Morris, 2000).
-# sent_id = 30-20140327-TESEMSC_0-317
+# sent_id = 30-20140327-TESEMSC_0-322
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	mark	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
@@ -9990,7 +10024,7 @@
 73	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\n
 
 # text = Testes futuros da eficiência na redução de nitrogênio amoniacal da AP por sistemas de fitorremediação com S. alterniflora devem considerar o impacto da concentração salina sobre o metabolismo do nitrogênio nesta espécie.
-# sent_id = 30-20140327-TESEMSC_0-318
+# sent_id = 30-20140327-TESEMSC_0-323
 1	Testes	teste	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
 2	futuros	futuro	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -10035,22 +10069,22 @@
 36	em	em	ADP	_	_	38	case	_	_
 37	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
 38	espécie	espécie	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo 4
-# sent_id = 30-20140327-TESEMSC_0-319
+# sent_id = 30-20140327-TESEMSC_0-324
 1	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = CONSIDERAÇÕES FINAIS CONSIDERAÇÕES FINAIS
-# sent_id = 30-20140327-TESEMSC_0-320
+# sent_id = 30-20140327-TESEMSC_0-325
 1	CONSIDERAÇÕES	consideração	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	FINAIS	final	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+2	FINAIS	final	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpacesAfter=\s\n
 3	CONSIDERAÇÕES	considerações	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	FINAIS	finais	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = No primeiro experimento, que determinou o potencial tóxico da água de produção de petróleo salina sobe Spartina alterniflora, esta planta sobreviveu e cresceu no efluente em questão diluído, demonstrando sua capacidade de utilização em banhados construídos para o tratamento secundário/terciário deste e outros efluentes oriundos da indústria petrolífera.
-# sent_id = 30-20140327-TESEMSC_0-321
+# sent_id = 30-20140327-TESEMSC_0-326
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -10116,7 +10150,7 @@
 58	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = O segundo experimento, um teste piloto para avaliar o potencial de fitorremediação da água de produção de petróleo salina por S.
-# sent_id = 30-20140327-TESEMSC_0-322
+# sent_id = 30-20140327-TESEMSC_0-327
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
@@ -10143,7 +10177,7 @@
 23	S.	S.	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
 
 # text = alterniflora, a redução na concentração de nitrogênio (amoniacal) da água de produção foi maior na presença de S. alterniflora; entretanto, a volatilização, estimulada pelo pH levemente alcalino, e a microbiota parecem ter exercido uma maior influência que as plantas neste processo.
-# sent_id = 30-20140327-TESEMSC_0-323
+# sent_id = 30-20140327-TESEMSC_0-328
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -10205,11 +10239,11 @@
 54	.	.	PUNCT	_	_	42	punct	_	_
 
 # text = S.
-# sent_id = 30-20140327-TESEMSC_0-324
+# sent_id = 30-20140327-TESEMSC_0-329
 1	S.	S.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = alterniflora ainda absorveu e acumulou
-# sent_id = 30-20140327-TESEMSC_0-325
+# sent_id = 30-20140327-TESEMSC_0-330
 1	alterniflora	alterniflora	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 2	ainda	ainda	ADV	_	_	3	advmod	_	_
 3	absorveu	absorver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10217,7 +10251,7 @@
 5	acumulou	acumular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 
 # text = N em seus tecidos.
-# sent_id = 30-20140327-TESEMSC_0-326
+# sent_id = 30-20140327-TESEMSC_0-331
 1	N	n	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	em	em	ADP	_	_	4	case	_	_
 3	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -10225,7 +10259,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Já a concentração de óleos e graxas não foi influenciada pela presença de S. alterniflora ao final de 21 dias, porém a redução da concentração destes componentes foi mais rápida onde havia plantas na primeira semana de experimento.
-# sent_id = 30-20140327-TESEMSC_0-327
+# sent_id = 30-20140327-TESEMSC_0-332
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
@@ -10278,7 +10312,7 @@
 45	.	.	PUNCT	_	_	35	punct	_	_
 
 # text = Processos microbiológicos, físicos e químicos, e não apenas os mediados pela planta, controlaram também a degradação destes compostos.
-# sent_id = 30-20140327-TESEMSC_0-328
+# sent_id = 30-20140327-TESEMSC_0-333
 1	Processos	processo	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 2	microbiológicos	microbiológico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -10307,7 +10341,7 @@
 24	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Um experimento de fitorremediação de água de produção com maior concentração de plantas, aumentando assim a área de ação direta da rizosfera, e utilizando um substrato sólido, como areia grossa, para fornecer mais superfície de colonização para a microbiota, provavelmente possibilitaria uma maior eficiência na redução do nitrogênio do efluente pelo sistema.
-# sent_id = 30-20140327-TESEMSC_0-329
+# sent_id = 30-20140327-TESEMSC_0-334
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10347,7 +10381,7 @@
 36	para	para	SCONJ	_	_	37	mark	_	_
 37	fornecer	fornecer	VERB	_	VerbForm=Inf	15	advcl	_	_
 38	mais	mais	ADV	_	_	39	advmod	_	_
-39	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+39	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	SpacesAfter=\s\n
 40	de	de	ADP	_	_	41	case	_	_
 41	colonização	colonização	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
 42	para	para	ADP	_	_	44	case	_	_
@@ -10378,7 +10412,7 @@
 63	.	.	PUNCT	_	_	47	punct	_	SpacesAfter=\n
 
 # text = Por fim, enfatiza-se que os resultados deste trabalho não mensuram todo o potencial de fitorremediação da água de produção salina do petróleo por banhados construídos contendo plantas de S. alterniflora, entretanto comprovam a capacidade de uso desta halófita de marismas na construção deste tipo de sistema de tratamento.
-# sent_id = 30-20140327-TESEMSC_0-330
+# sent_id = 30-20140327-TESEMSC_0-335
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -10446,7 +10480,7 @@
 58	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Experimentos pilotos com banhados construídos deverão ser realizados para uma avaliação adequada dos custos/benefícios destes sistemas para a indústria do petróleo.
-# sent_id = 30-20140327-TESEMSC_0-331
+# sent_id = 30-20140327-TESEMSC_0-336
 1	Experimentos	Experimento	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 2	pilotos	piloto	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	com	com	ADP	_	_	4	case	_	_

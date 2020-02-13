@@ -386,7 +386,7 @@
 
 # text = O mesmo tende a ser usado em temperaturas entre 80 e 120ºC, a poliamida 11 até temperaturas de 80ºC e o PE como barreira térmica e anti-corrosiva (temperatura inferior a 50ºC) [1].
 # sent_id = 51-20140924-MONOGRAFIA_0-13
-1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\n
 2	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	tende	tender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	a	SCONJ	_	_	6	mark	_	_
@@ -625,7 +625,7 @@
 14	em	em	ADP	_	_	16	case	_	_
 15	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	setor	setor	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 2. REVISÃO BIBLIOGRÁFICA 2.1
 # sent_id = 51-20140924-MONOGRAFIA_0-20
@@ -988,7 +988,7 @@
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	fundido	fundido	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	seguido	seguido	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
-17	de	de	ADP	_	_	19	case	_	_
+17	de	de	ADP	_	_	19	case	_	SpacesAfter=\s\n
 18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	super-resfriamento	super-resfriamento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
@@ -1274,7 +1274,7 @@
 32	[	[	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	6	6	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
 34	]	_	PUNCT	_	_	33	punct	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 1: Transição entre as diferentes fases do PVDF [2].
 # sent_id = 51-20140924-MONOGRAFIA_0-38
@@ -1413,7 +1413,7 @@
 42	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
 43	como	como	ADP	_	_	44	case	_	_
 44	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
-45	de	de	ADP	_	_	46	case	_	_
+45	de	de	ADP	_	_	46	case	_	SpacesAfter=\s\n
 46	adição	adição	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	22	punct	_	_
 
@@ -1690,31 +1690,45 @@
 47	molde	molde	ADJ	_	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	9	punct	_	_
 
-# text = Já na técnica de transferido para o molde, sob pressão, a uma temperatura de 190 a 195 ºC.
+# text = Já na técnica de compressão o polímero sofre um pré-aquecimento inicial entre 215 a 235 ºC e é transferido para o molde, sob pressão, a uma temperatura de 190 a 195 ºC.
 # sent_id = 51-20140924-MONOGRAFIA_0-50
 1	Já	já	ADV	_	_	4	advmod	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	transferido	transferido	ADJ	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	para	para	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	molde	molde	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	4	punct	_	_
-11	sob	sob	ADP	_	_	12	case	_	_
-12	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	4	punct	_	_
-14	a	a	ADP	_	_	16	case	_	_
-15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	190	190	NUM	_	NumType=Card	16	nmod	_	_
-19	a	a	ADP	_	_	21	case	_	_
-20	195	195	NUM	_	NumType=Card	21	nummod	_	_
-21	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	sofre	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pré-aquecimento	pré-aquecimento	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	inicial	inicial	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	entre	entre	ADP	_	_	14	case	_	_
+14	215	215	NUM	_	NumType=Card	9	obl	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	235	235	NUM	_	NumType=Card	17	nummod	_	_
+17	ºC	ºc	PROPN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	transferido	transferir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	molde	molde	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	9	punct	_	_
+25	sob	sob	ADP	_	_	26	case	_	_
+26	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	9	punct	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	190	190	NUM	_	NumType=Card	30	nmod	_	_
+33	a	a	ADP	_	_	35	case	_	_
+34	195	195	NUM	_	NumType=Card	35	nummod	_	_
+35	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Posteriormente ao processo de moldagem por compressão, recomenda-se um recozimento das peças moldadas (entre 140 a 150 ºC), para a obtenção de uma estabilidade dimensional boa, uma vez que o PVDF tem alta cristalinidade, em comparação com outros polímeros, e pode apresentar alta contração no molde.
 # sent_id = 51-20140924-MONOGRAFIA_0-51
@@ -1750,7 +1764,7 @@
 27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 29	de	de	ADP	_	_	31	case	_	_
-30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpacesAfter=\s\n
 31	estabilidade	estabilidade	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 32	dimensional	dimensional	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33	boa	bom	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
@@ -2112,78 +2126,62 @@
 21	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	10	10	NUM	_	NumType=Card	20	conj	_	SpaceAfter=No
 23	]	_	PUNCT	_	_	22	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n\n
 
-# text = Tabela 1:
+# text = Frente a sua boa resistência a produtos químicos e a sua capacidade de operar em uma grande faixa de temperatura sem alteração significativa das suas propriedades, o PVDF é muitas vezes utilizado como revestimento de tubos metálicos, na prevenção contra agentes corrosivos.
 # sent_id = 51-20140924-MONOGRAFIA_0-63
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	1:	1:	PUNCT	_	_	1	punct	_	_
-
-# text = Propriedades físicas e mecânicas do PVDF [11] Frente a sua boa resistência a produtos químicos e a sua capacidade de operar em uma grande faixa de temperatura sem alteração significativa das suas propriedades, o PVDF é muitas vezes utilizado como revestimento de tubos metálicos, na prevenção contra agentes corrosivos.
-# sent_id = 51-20140924-MONOGRAFIA_0-64
-1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	44	nsubj:pass	_	_
-2	físicas	físico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
-3	e	e	CCONJ	_	_	4	cc	_	_
-4	mecânicas	mecânico	ADJ	_	Gender=Fem|Number=Plur	2	conj	_	_
-5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	11	11	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-10	]	_	PUNCT	_	_	9	punct	_	_
-11	Frente	Frente	ADV	_	_	44	advmod	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-13	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	det	_	_
-14	boa	bom	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-15	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
-16	a	a	ADP	_	_	17	case	_	_
-17	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
-18	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
-19	e	e	CCONJ	_	_	22	cc	_	_
-20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	22	det	_	_
-22	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
-23	de	de	SCONJ	_	_	24	mark	_	_
-24	operar	operar	VERB	_	VerbForm=Inf	22	acl	_	_
-25	em	em	ADP	_	_	28	case	_	_
-26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-27	grande	grande	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
-28	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-31	sem	sem	ADP	_	_	32	case	_	_
-32	alteração	alteração	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-33	significativa	significativo	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
-34-35	das	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	37	case	_	_
-35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
-36	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	37	det	_	_
-37	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	_	_	24	punct	_	_
-39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	44	nsubj:pass	_	_
-41	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux:pass	_	_
-42	muitas	muitas	ADP	_	_	43	case	_	_
-43	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	44	obl	_	_
-44	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-45	como	como	ADP	_	_	46	case	_	_
-46	revestimento	revestimento	NOUN	_	Gender=Masc|Number=Sing	44	obl	_	_
-47	de	de	ADP	_	_	48	case	_	_
-48	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
-49	metálicos	metálico	ADJ	_	Gender=Masc|Number=Plur	48	amod	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	44	punct	_	_
-51-52	na	_	_	_	_	_	_	_	_
-51	em	em	ADP	_	_	53	case	_	_
-52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	prevenção	prevenção	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
-54	contra	contra	ADP	_	_	55	case	_	_
-55	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	53	nmod	_	_
-56	corrosivos	corrosivo	ADJ	_	Gender=Masc|Number=Plur	55	amod	_	SpaceAfter=No
-57	.	.	PUNCT	_	_	44	punct	_	_
+1	Frente	Frente	ADV	_	_	5	advmod	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	det	_	_
+4	boa	bom	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+6	a	a	ADP	_	_	7	case	_	_
+7	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+8	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	det	_	_
+12	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+13	de	de	SCONJ	_	_	14	mark	_	_
+14	operar	operar	VERB	_	VerbForm=Inf	12	acl	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	grande	grande	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	sem	sem	ADP	_	_	22	case	_	_
+22	alteração	alteração	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	significativa	significativo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24-25	das	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	27	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	27	det	_	_
+27	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	5	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	34	nsubj:pass	_	_
+31	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+32	muitas	muitas	ADP	_	_	33	case	_	_
+33	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	34	obl	_	_
+34	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+35	como	como	ADP	_	_	36	case	_	_
+36	revestimento	revestimento	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	_
+39	metálicos	metálico	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41-42	na	_	_	_	_	_	_	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	prevenção	prevenção	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
+44	contra	contra	ADP	_	_	45	case	_	_
+45	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	43	nmod	_	_
+46	corrosivos	corrosivo	ADJ	_	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	34	punct	_	_
 
 # text = Outra aplicação do polímero é na recuperação dos dutos, já deteriorados pelo meio corrosivo, através da inserção de um novo tubo, liner, dentro do tubo hospedeiro (Figura 3).
-# sent_id = 51-20140924-MONOGRAFIA_0-65
+# sent_id = 51-20140924-MONOGRAFIA_0-64
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2233,7 +2231,7 @@
 41	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O polímero apresenta baixa permeação para a maioria dos meios químicos, com exceção dos ácidos a base de cloro, flúor e bromo, como também para o transporte de partículas abrasivas em suspensão, que podem em situações adversas danificar o mesmo.
-# sent_id = 51-20140924-MONOGRAFIA_0-66
+# sent_id = 51-20140924-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2285,7 +2283,7 @@
 47	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Essa capacidade de resistir ao meio reforça sua aplicação como camada protetora [12], [13].
-# sent_id = 51-20140924-MONOGRAFIA_0-67
+# sent_id = 51-20140924-MONOGRAFIA_0-66
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	SCONJ	_	_	4	mark	_	_
@@ -2310,7 +2308,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 3: (a)
-# sent_id = 51-20140924-MONOGRAFIA_0-68
+# sent_id = 51-20140924-MONOGRAFIA_0-67
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3:	3:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2318,7 +2316,7 @@
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = Duto corroído internamente; (b)
-# sent_id = 51-20140924-MONOGRAFIA_0-69
+# sent_id = 51-20140924-MONOGRAFIA_0-68
 1	Duto	Duto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	corroído	corroir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
 3	internamente	internamente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -2328,7 +2326,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = Duto protegido pela inserção de liner em seu interior [14].
-# sent_id = 51-20140924-MONOGRAFIA_0-70
+# sent_id = 51-20140924-MONOGRAFIA_0-69
 1	Duto	Duto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	protegido	proteger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3-4	pela	_	_	_	_	_	_	_	_
@@ -2346,7 +2344,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Quando selecionamos um material para determinada aplicação, fatores como disponibilidade, confiabilidade, durabilidade, histórico de desempenho e custo, devem ser levados em conta.
-# sent_id = 51-20140924-MONOGRAFIA_0-71
+# sent_id = 51-20140924-MONOGRAFIA_0-70
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	selecionamos	selecionar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2377,7 +2375,7 @@
 28	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Para um bom desempenho na prevenção à corrosão, polímeros a base de flúor estão entre os primeiros da lista de seleção, graças ao seu baixo custo e sua grande disponibilidade quando comparado às ligas metálicas anti-corrosivas [13].
-# sent_id = 51-20140924-MONOGRAFIA_0-72
+# sent_id = 51-20140924-MONOGRAFIA_0-71
 1	Para	para	ADP	_	_	4	case	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	bom	bom	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -2429,10 +2427,10 @@
 44	[	[	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	13	13	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
 46	]	_	PUNCT	_	_	20	punct	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n\n
 
 # text = As condições de processo podem favorecer a maior ou a menor concentração de uma fase presente no PVDF, assim como visto anteriormente.
-# sent_id = 51-20140924-MONOGRAFIA_0-73
+# sent_id = 51-20140924-MONOGRAFIA_0-72
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2461,7 +2459,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Sua forma cristalina também pode influenciar as propriedades finais do polímero, por isso, é aconselhável um controle das condições de fabricação.
-# sent_id = 51-20140924-MONOGRAFIA_0-74
+# sent_id = 51-20140924-MONOGRAFIA_0-73
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	cristalina	cristalino	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2492,7 +2490,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Logo, propriedades características como o comportamento piezoelétrico, favorecido pela presença da fase β e a fase α, dominante no PVDF, responsável pela rigidez do polímero, são obtidas por conseqüência dessas etapas [2].
-# sent_id = 51-20140924-MONOGRAFIA_0-75
+# sent_id = 51-20140924-MONOGRAFIA_0-74
 1	Logo	logo	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	37	nsubj:pass	_	_
@@ -2547,7 +2545,7 @@
 46	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\n
 
 # text = O peso molecular e a disposição espacial simétrica dos átomos de hidrogênio e de flúor ao longo da cadeia polimérica produzem efeitos de polaridade que influenciam na resposta eletromecânica do polímero, na sua solubilidade, nas suas propriedades dielétricas e na morfologia dos cristais.
-# sent_id = 51-20140924-MONOGRAFIA_0-76
+# sent_id = 51-20140924-MONOGRAFIA_0-75
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	peso	peso	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
 3	molecular	molecular	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2614,7 +2612,7 @@
 55	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = A temperatura é função do processamento, além de afetar sensivelmente a distribuição de massa, podendo alterar as propriedades do polímero por exposição a diferentes temperaturas e tratamentos térmicos, caracterizando um processo de degradação de suas propriedades.
-# sent_id = 51-20140924-MONOGRAFIA_0-77
+# sent_id = 51-20140924-MONOGRAFIA_0-76
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2661,7 +2659,7 @@
 42	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O tempo de exposição é outro fator determinante para que se acelere esse processo degradativo.
-# sent_id = 51-20140924-MONOGRAFIA_0-78
+# sent_id = 51-20140924-MONOGRAFIA_0-77
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2680,7 +2678,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Na Tabela 2 podemos ver variação de algumas dessas propriedades com a temperatura [7], [15].
-# sent_id = 51-20140924-MONOGRAFIA_0-79
+# sent_id = 51-20140924-MONOGRAFIA_0-78
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2708,7 +2706,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tabela 2: Variação de algumas propriedades com a temperatura para o PVDF [16].
-# sent_id = 51-20140924-MONOGRAFIA_0-80
+# sent_id = 51-20140924-MONOGRAFIA_0-79
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2725,18 +2723,18 @@
 14	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	16	16	NUM	_	NumType=Card	10	appos	_	SpaceAfter=No
 16	]	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 2.1.2
-# sent_id = 51-20140924-MONOGRAFIA_0-81
+# sent_id = 51-20140924-MONOGRAFIA_0-80
 1	2.1.2	2.1.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Aplicações
-# sent_id = 51-20140924-MONOGRAFIA_0-82
+# sent_id = 51-20140924-MONOGRAFIA_0-81
 1	Aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = Como dito anteriormente o PVDF é um polímero com boas propriedades e requisitado para as mais diversas aplicações.
-# sent_id = 51-20140924-MONOGRAFIA_0-83
+# sent_id = 51-20140924-MONOGRAFIA_0-82
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	dito	dizer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	_
@@ -2758,7 +2756,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Suas aplicações são favorecidas pela facilidade de processamento na forma de filmes altamente flexíveis, com excelentes propriedades mecânicas, térmicas e ópticas, de acordo com as propriedades requeridas, e sua seleção pode ser na forma de homopolímero ou estar associada a uma copolimerização, quando necessário uma combinação de efeitos.
-# sent_id = 51-20140924-MONOGRAFIA_0-84
+# sent_id = 51-20140924-MONOGRAFIA_0-83
 1	Suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	2	det	_	_
 2	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2821,7 +2819,7 @@
 57	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Muito utilizado em sistemas de transporte de fluidos, por resistir à ambientes hostis e não contaminar o meio, também encontra aplicação em setores como a indústria de semicondutores, produção farmacêutica, indústria alimentícia, extração e distribuição de petróleo e gás, refino metálico, acabamento superficial e na indústria química entre outras [10].
-# sent_id = 51-20140924-MONOGRAFIA_0-85
+# sent_id = 51-20140924-MONOGRAFIA_0-84
 1	Muito	muito	ADV	_	_	2	advmod	_	_
 2	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -2888,7 +2886,7 @@
 62	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Reconhecido pela sua incrível propriedade piezoéletrica, não comum na maioria dos polímeros, são incorporados a sensores e dispositivos de atuação entre eles estão dispositivos médicos de instrumentação e computadores.
-# sent_id = 51-20140924-MONOGRAFIA_0-86
+# sent_id = 51-20140924-MONOGRAFIA_0-85
 1	Reconhecido	reconhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
 2-3	pela	_	_	_	_	_	_	_	_
 2	por	por	ADP	_	_	6	case	_	_
@@ -2929,7 +2927,7 @@
 35	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Uma importante área de aplicação de polímeros eletroativos está no campo biomédico, onde os polímeros são explorados como robôs médicos invasivos para diagnóstico e microcirurgia, como implantes atuador para estimular o tecido ao crescimento do osso ou como sensores para monitorar enxertos vasculares e para evitar bloqueios [10], [15].
-# sent_id = 51-20140924-MONOGRAFIA_0-87
+# sent_id = 51-20140924-MONOGRAFIA_0-86
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	importante	importante	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	área	área	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -2995,7 +2993,7 @@
 60	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = O polímero tem na indústria de semicondutores aplicação como isolamento primário de espessura fina e como capa de instalação elétrica industrial (Figura 4), dado ao seu alto coeficiente dielétrico e suas boas propriedades mecânicas e térmicas.
-# sent_id = 51-20140924-MONOGRAFIA_0-88
+# sent_id = 51-20140924-MONOGRAFIA_0-87
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3042,7 +3040,7 @@
 42	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Está presente na indústria alimentícia, na área de embalagens, devido as suas boas propriedades de permeação, onde se exige o mínimo de permeação de moléculas do ambiente para o produto (ou vice versa) para evitar contaminação.
-# sent_id = 51-20140924-MONOGRAFIA_0-89
+# sent_id = 51-20140924-MONOGRAFIA_0-88
 1	Está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	presente	presente	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -3093,10 +3091,10 @@
 45	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Pode ser modificado por tratamentos químicos e formar uma membrana de uma gama incrível de uso final, entre eles a purificação de água, tratamento médico, a separação de gás, filtrar alimentos e bebidas, separadores de bateria e membranas de combustível [10], [17], [18].
-# sent_id = 51-20140924-MONOGRAFIA_0-90
+# sent_id = 51-20140924-MONOGRAFIA_0-89
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ser	ser	AUX	_	VerbForm=Inf	3	aux:pass	_	_
-3	modificado	modificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+3	modificado	modificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	SpacesAfter=\s\n
 4	por	por	ADP	_	_	5	case	_	_
 5	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
 6	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
@@ -3153,13 +3151,13 @@
 57	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 4:
-# sent_id = 51-20140924-MONOGRAFIA_0-91
+# sent_id = 51-20140924-MONOGRAFIA_0-90
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Revestimento polimérico de condutores [10].
-# sent_id = 51-20140924-MONOGRAFIA_0-92
+# sent_id = 51-20140924-MONOGRAFIA_0-91
 1	Revestimento	Revestimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	polimérico	polimérico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3170,7 +3168,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Em processos como moldagem ou extrusão, perfis de superfície lisa de todos os tipos podem ser obtidos por extrusão do polímero a taxas satisfatórias, tais como: tarugos, placas, filmes, tubos e etc.
-# sent_id = 51-20140924-MONOGRAFIA_0-93
+# sent_id = 51-20140924-MONOGRAFIA_0-92
 1	Em	em	ADP	_	_	2	case	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 3	como	como	ADP	_	_	4	case	_	_
@@ -3213,7 +3211,7 @@
 39	etc.	etc.	ADV	_	_	31	conj	_	_
 
 # text = O PVDF pode ser usado ainda na preparação e aplicação de recobrimentos [11].
-# sent_id = 51-20140924-MONOGRAFIA_0-94
+# sent_id = 51-20140924-MONOGRAFIA_0-93
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3234,7 +3232,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Sistemas de transporte de fluidos tem sido um grande mercado para produtos de PVDF, o seu uso é tanto, que no setor petroquímico é utilizado em tubos flexíveis multicamadas (Figura 5), como risers e linhas de fluxo, que trazem o petróleo bruto ou o gás natural no fundo dos poços em alto mar até os campos de petróleo offshore.
-# sent_id = 51-20140924-MONOGRAFIA_0-95
+# sent_id = 51-20140924-MONOGRAFIA_0-94
 1	Sistemas	sistema	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3309,7 +3307,7 @@
 69	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = Nesses casos as condições de serviço são severas e a capacidade que o polímero tem de acomodar deformações e resistir quimicamente a ambientes agressivos, o tornam uma boa escolha.
-# sent_id = 51-20140924-MONOGRAFIA_0-96
+# sent_id = 51-20140924-MONOGRAFIA_0-95
 1-2	Nesses	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
@@ -3339,13 +3337,13 @@
 26	,	,	PUNCT	_	_	9	punct	_	_
 27	o	ele	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	nsubj	_	_
 28	tornam	tornar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpacesAfter=\s\n
 30	boa	bom	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 31	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Desde os anos 90 o mesmo é usado como barreira interna para fluido a temperaturas até cerca de 130 ºC e pressões até 500 bars nessas estruturas multicamadas [1], [10], [19].
-# sent_id = 51-20140924-MONOGRAFIA_0-97
+# sent_id = 51-20140924-MONOGRAFIA_0-96
 1	Desde	desde	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	anos	ano	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
@@ -3390,7 +3388,7 @@
 41	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 5: PVDF utilizado em dutos para sistemas offshore [10].
-# sent_id = 51-20140924-MONOGRAFIA_0-98
+# sent_id = 51-20140924-MONOGRAFIA_0-97
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	5	5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -3407,7 +3405,7 @@
 14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Discutiu-se anteriormente a transição entre as diferentes fases do PVDF e os seus processos de obtenção.
-# sent_id = 51-20140924-MONOGRAFIA_0-99
+# sent_id = 51-20140924-MONOGRAFIA_0-98
 1-2	Discutiu-se	_	_	_	_	_	_	_	_
 1	Discutiu	Discutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3431,7 +3429,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Essas transições entre as fases têm efeito direto nas propriedades finais do polímero e consecutivamente em suas aplicações.
-# sent_id = 51-20140924-MONOGRAFIA_0-100
+# sent_id = 51-20140924-MONOGRAFIA_0-99
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	transições	transição	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -3457,7 +3455,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Por tanto, é essencial que antes de tudo se conheçam as fases do polímero e suas transições para que futuramente se obtenha a propriedade deseja para o processamento escolhido.
-# sent_id = 51-20140924-MONOGRAFIA_0-101
+# sent_id = 51-20140924-MONOGRAFIA_0-100
 1	Por	por	ADP	_	_	2	case	_	_
 2	tanto	tanto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3493,15 +3491,15 @@
 32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 2.1.3
-# sent_id = 51-20140924-MONOGRAFIA_0-102
+# sent_id = 51-20140924-MONOGRAFIA_0-101
 1	2.1.3	2.1.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Processamento
-# sent_id = 51-20140924-MONOGRAFIA_0-103
+# sent_id = 51-20140924-MONOGRAFIA_0-102
 1	Processamento	Processamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Os materiais plásticos são hoje fabricados para uma enorme gama de finalidades e com grande variedade de formas geométricas.
-# sent_id = 51-20140924-MONOGRAFIA_0-104
+# sent_id = 51-20140924-MONOGRAFIA_0-103
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	materiais	material	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	plásticos	plástico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -3524,7 +3522,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para um projeto adequado, visando o melhor aproveitamento de suas boas propriedades, é comum o controle do processo de obtenção do polímero e a correta escolha da técnica de conformação do mesmo.
-# sent_id = 51-20140924-MONOGRAFIA_0-105
+# sent_id = 51-20140924-MONOGRAFIA_0-104
 1	Para	para	ADP	_	_	3	case	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
@@ -3547,7 +3545,7 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	processo	processo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	de	de	ADP	_	_	23	case	_	_
+22	de	de	ADP	_	_	23	case	_	SpacesAfter=\s\n
 23	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
@@ -3570,7 +3568,7 @@
 39	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Materiais poliméricos são em geral conformados através de processos de moldagem a quente ou por extrusão.
-# sent_id = 51-20140924-MONOGRAFIA_0-106
+# sent_id = 51-20140924-MONOGRAFIA_0-105
 1	Materiais	material	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 2	poliméricos	polimérico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3590,7 +3588,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Como já foi dito antes, o PVDF é normalmente processado segundo técnicas de extrusão, injeção ou compressão.
-# sent_id = 51-20140924-MONOGRAFIA_0-107
+# sent_id = 51-20140924-MONOGRAFIA_0-106
 1	Como	como	SCONJ	_	_	4	mark	_	_
 2	já	já	ADV	_	_	4	advmod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -3613,7 +3611,7 @@
 20	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Além disso, entre os processos de conformação se encontra, ainda, a colagem, e eventualmente o polímero também pode ser soldado.
-# sent_id = 51-20140924-MONOGRAFIA_0-108
+# sent_id = 51-20140924-MONOGRAFIA_0-107
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -3643,14 +3641,14 @@
 26	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 2.1.3.1 Moldagem por Compressão
-# sent_id = 51-20140924-MONOGRAFIA_0-109
+# sent_id = 51-20140924-MONOGRAFIA_0-108
 1	2.1.3.1	2.1.3.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Moldagem	Moldagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	por	por	ADP	_	_	4	case	_	_
 4	Compressão	Compressão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 
 # text = O processo de moldagem por compressão consiste em um dos principais processos aplicados a termoestáveis.
-# sent_id = 51-20140924-MONOGRAFIA_0-110
+# sent_id = 51-20140924-MONOGRAFIA_0-109
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3671,7 +3669,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Este processo se baseia em uma sequência de etapas cujo inicio é a montagem em duas partes de um molde em uma prensa.
-# sent_id = 51-20140924-MONOGRAFIA_0-111
+# sent_id = 51-20140924-MONOGRAFIA_0-110
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -3698,7 +3696,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esse molde é aquecido até a temperatura especifica para o serviço, que depende do material a ser processado.
-# sent_id = 51-20140924-MONOGRAFIA_0-112
+# sent_id = 51-20140924-MONOGRAFIA_0-111
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	molde	molde	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3723,7 +3721,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em seguida, deposita-se o material de moldagem, em forma de pó, flocos, esferas, tabletes ou pré-formas sobre a cavidade do molde inferior.
-# sent_id = 51-20140924-MONOGRAFIA_0-113
+# sent_id = 51-20140924-MONOGRAFIA_0-112
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3758,7 +3756,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A prensa é então acionada de modo que os moldes incidam um contra o outro, aumentando progressivamente a pressão exercida sobre o material a ser moldado [20].
-# sent_id = 51-20140924-MONOGRAFIA_0-114
+# sent_id = 51-20140924-MONOGRAFIA_0-113
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	prensa	prensa	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3792,7 +3790,7 @@
 31	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Passando o tempo de cura, a prensa é acionada, abrindo o molde e assim o material é extraído.
-# sent_id = 51-20140924-MONOGRAFIA_0-115
+# sent_id = 51-20140924-MONOGRAFIA_0-114
 1	Passando	passar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -3816,7 +3814,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esse tempo de cura também depende do material a ser processado.
-# sent_id = 51-20140924-MONOGRAFIA_0-116
+# sent_id = 51-20140924-MONOGRAFIA_0-115
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3833,7 +3831,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Na Figura 6 podemos ver uma sequência com as etapas de moldagem por compressão [20].
-# sent_id = 51-20140924-MONOGRAFIA_0-117
+# sent_id = 51-20140924-MONOGRAFIA_0-116
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3853,16 +3851,16 @@
 16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	20	20	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 18	]	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6:
-# sent_id = 51-20140924-MONOGRAFIA_0-118
+# sent_id = 51-20140924-MONOGRAFIA_0-117
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Etapas do processo de moldagem por compressão [20].
-# sent_id = 51-20140924-MONOGRAFIA_0-119
+# sent_id = 51-20140924-MONOGRAFIA_0-118
 1	Etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3878,7 +3876,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.2 ENSAIO DE TRAÇÃO Muitos materiais, quando em serviço, estão sujeitos a solicitações mecânicas.
-# sent_id = 51-20140924-MONOGRAFIA_0-120
+# sent_id = 51-20140924-MONOGRAFIA_0-119
 1	2.2	2.2	NUM	_	NumType=Card	2	nummod	_	_
 2	ENSAIO	ensaio	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	DE	DE	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -3898,7 +3896,7 @@
 17	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Em tais situações é necessário conhecer as características do material e prevenir o mesmo de esforços mecânicos excessivos a fim de evitar que ele frature.
-# sent_id = 51-20140924-MONOGRAFIA_0-121
+# sent_id = 51-20140924-MONOGRAFIA_0-120
 1	Em	em	ADP	_	_	3	case	_	_
 2	tais	tal	DET	_	Gender=Fem|PronType=Dem	3	det	_	_
 3	situações	situação	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
@@ -3929,7 +3927,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O comportamento mecânico do material reflete a sua resposta ou deformação a uma solicitação de carga.
-# sent_id = 51-20140924-MONOGRAFIA_0-122
+# sent_id = 51-20140924-MONOGRAFIA_0-121
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	mecânico	mecânico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3944,14 +3942,14 @@
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
 13	a	a	ADP	_	_	15	case	_	_
-14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpacesAfter=\s\n
 15	solicitação	solicitação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	carga	carga	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Entre as propriedades mecânicas de um material estão: dureza, ductilidade, rigidez, entre outros.
-# sent_id = 51-20140924-MONOGRAFIA_0-123
+# sent_id = 51-20140924-MONOGRAFIA_0-122
 1	Entre	entre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
@@ -3972,7 +3970,7 @@
 18	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para medir as propriedades mecânicas dos materiais em geral são executados experimentos em laboratórios, cuidadosamente preparados, que reproduzem o mais próximo possível as condições em serviço.
-# sent_id = 51-20140924-MONOGRAFIA_0-124
+# sent_id = 51-20140924-MONOGRAFIA_0-123
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	medir	medir	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -4006,7 +4004,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Um desses experimentos é o ensaio mecânico de tração.
-# sent_id = 51-20140924-MONOGRAFIA_0-125
+# sent_id = 51-20140924-MONOGRAFIA_0-124
 1	Um	um	NUM	_	NumType=Card	7	nsubj	_	_
 2-3	desses	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4021,7 +4019,7 @@
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Este tipo de ensaio é projetado para produzir dados de propriedades para solicitações de carga em tração para materiais.
-# sent_id = 51-20140924-MONOGRAFIA_0-126
+# sent_id = 51-20140924-MONOGRAFIA_0-125
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4044,7 +4042,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Nesse tipo de ensaio, uma amostra é deformada, geralmente até a fratura, sob a aplicação de uma carga gradativamente crescente, aplicada uniaxialmente ao longo do eixo mais comprido de um corpo de prova.
-# sent_id = 51-20140924-MONOGRAFIA_0-127
+# sent_id = 51-20140924-MONOGRAFIA_0-126
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -4091,7 +4089,7 @@
 41	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Tais dados são úteis para se caracterizar qualitativamente o desempenho e investigar o seu desenvolvimento [21].
-# sent_id = 51-20140924-MONOGRAFIA_0-128
+# sent_id = 51-20140924-MONOGRAFIA_0-127
 1	Tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4113,7 +4111,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para garantir que pessoas em diferentes lugares possam comparar resultados e que os mesmos sejam confiáveis, foram gerados padrões de ensaio com métodos e procedimentos de obtenção dessas medidas, que são frequentemente coordenados por sociedades profissionais como, por exemplo, ASTM, ISO, DIN, entre outras [21].
-# sent_id = 51-20140924-MONOGRAFIA_0-129
+# sent_id = 51-20140924-MONOGRAFIA_0-128
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	garantir	garantir	VERB	_	VerbForm=Inf	19	advcl	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
@@ -4173,16 +4171,16 @@
 56	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = 2.2.1
-# sent_id = 51-20140924-MONOGRAFIA_0-130
+# sent_id = 51-20140924-MONOGRAFIA_0-129
 1	2.2.1	2.2.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Materiais Poliméricos
-# sent_id = 51-20140924-MONOGRAFIA_0-131
+# sent_id = 51-20140924-MONOGRAFIA_0-130
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Poliméricos	Poliméricos	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Propriedades de tração podem fornecer dados úteis para fins de propriedades de materiais de engenharia.
-# sent_id = 51-20140924-MONOGRAFIA_0-132
+# sent_id = 51-20140924-MONOGRAFIA_0-131
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	tração	tração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4201,7 +4199,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para polímeros essas informações são também valiosas e cuidados na realização dos ensaios se fazem necessário.
-# sent_id = 51-20140924-MONOGRAFIA_0-133
+# sent_id = 51-20140924-MONOGRAFIA_0-132
 1	Para	para	ADP	_	_	2	case	_	_
 2	polímeros	polímero	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
@@ -4225,7 +4223,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Materiais poliméricos têm alta sensibilidade a taxa de esforço e as condições ambientais, por isso testes em condições muito adversas daquelas especificadas em normas devem ser desprezados [21], [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-134
+# sent_id = 51-20140924-MONOGRAFIA_0-133
 1	Materiais	material	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	poliméricos	polimérico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	têm	têr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4263,10 +4261,10 @@
 34	[	[	PUNCT	_	_	31	punct	_	SpaceAfter=No
 35	22	22	NUM	_	NumType=Card	31	flat	_	SpaceAfter=No
 36	]	_	PUNCT	_	_	31	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Dos cuidados que devemos ter para se obter resultados comparativos de materiais, podemos citar o maior cuidado quando na confecção dos corpos de prova, que para os polímeros em geral é o tipo gravata (dog bone), cujo seu enquadramento e suas dimensões devem estar em acordo com as normas em vigor.
-# sent_id = 51-20140924-MONOGRAFIA_0-135
+# sent_id = 51-20140924-MONOGRAFIA_0-134
 1-2	Dos	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -4332,7 +4330,7 @@
 60	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Na Tabela 3 podemos ver um exemplo de dimensões adotadas pela norma ASTM D-638, os parâmetros necessários para a definição do tipo ao qual ocorre esse enquadramento estão também indicados na tabela abaixo [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-136
+# sent_id = 51-20140924-MONOGRAFIA_0-135
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4383,35 +4381,34 @@
 43	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tabela 3:
-# sent_id = 51-20140924-MONOGRAFIA_0-137
+# sent_id = 51-20140924-MONOGRAFIA_0-136
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Dimensões para corpos de prova do tipo dog boné segundo ASTM D- 638 [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-138
-1	Dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+# text = Dimensões para corpos de prova do tipo dog boné segundo ASTM D-638 [22].
+# sent_id = 51-20140924-MONOGRAFIA_0-137
+1	Dimensões	dimensão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	prova	prova	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+5	prova	prova	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	8	case	_	_
+6	de	de	ADP	_	_	5	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-9	dog	dog	X	_	_	10	amod	_	_
-10	boné	boné	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
-12	ASTM	Astr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	D-	D-	SYM	_	_	12	obj	_	_
-14	638	638	NUM	_	NumType=Card	13	nummod	_	_
-15	[	[	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	22	22	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
-17	]	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+8	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+9	dog	dog	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
+10	boné	boné	ADV	_	_	11	advmod	_	_
+11	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+12	ASTM	ASTM	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
+13	D-638	D-638	PROPN	_	Number=Sing	12	flat:name	_	_
+14	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	22	22	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+16	]	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Corpos de prova processados a partir de chapas ou placas devem ter a espessura da placa ou da chapa da qual foi extraído e seus outros parâmetros devem estar de acordo com os valores encontrados em tabela para o tipo de corpo de prova em estudo.
-# sent_id = 51-20140924-MONOGRAFIA_0-139
+# sent_id = 51-20140924-MONOGRAFIA_0-138
 1	Corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	prova	prova	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4464,10 +4461,10 @@
 47	prova	prova	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
 48	em	em	ADP	_	_	49	case	_	_
 49	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+50	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = O número de corpos de prova testados deve ser de no mínimo cinco para materiais isotrópicos, como o PVDF homopolímero, para avaliar a reprodutibilidade.
-# sent_id = 51-20140924-MONOGRAFIA_0-140
+# sent_id = 51-20140924-MONOGRAFIA_0-139
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	número	número	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4499,7 +4496,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Os corpos cujo teste apresentar quebra em algum defeito ou que apresente quebra fora da área da seção transversal devem ser descartadas [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-141
+# sent_id = 51-20140924-MONOGRAFIA_0-140
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
 3	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	4	det	_	_
@@ -4532,7 +4529,7 @@
 28	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Das condições de teste, além das condições ambientais citadas anteriormente, deve-se observar a velocidade de teste de acordo com a Tabela 4.
-# sent_id = 51-20140924-MONOGRAFIA_0-142
+# sent_id = 51-20140924-MONOGRAFIA_0-141
 1-2	Das	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -4566,13 +4563,13 @@
 28	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Tabela 4:
-# sent_id = 51-20140924-MONOGRAFIA_0-143
+# sent_id = 51-20140924-MONOGRAFIA_0-142
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Designações para velocidade de teste [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-144
+# sent_id = 51-20140924-MONOGRAFIA_0-143
 1	Designações	designação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	para	para	ADP	_	_	3	case	_	_
 3	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4584,7 +4581,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para se avaliar as propriedades mecânicas de um material, a avaliação do seu limite elástico é de estrema relevância.
-# sent_id = 51-20140924-MONOGRAFIA_0-145
+# sent_id = 51-20140924-MONOGRAFIA_0-144
 1	Para	para	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	avaliar	avaliar	VERB	_	VerbForm=Inf	21	advcl	_	_
@@ -4610,7 +4607,7 @@
 22	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = No caso dos polímeros a existência de um verdadeiro limite elástico é discutível, módulo de elasticidade, assim como sua definição aceita para descrever a rigidez.
-# sent_id = 51-20140924-MONOGRAFIA_0-146
+# sent_id = 51-20140924-MONOGRAFIA_0-145
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4645,7 +4642,7 @@
 30	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A tensão exata característica do estiramento dos materiais plásticos são altamente dependentes de fatores como a taxa de aplicação de tensão, temperatura, histórico anterior do corpo de prova, etc, no entanto, curvas tensão-deformação para os plásticos, determinadas conforme descrito no presente método de ensaio, quase sempre mostram uma região linear em baixas tensões, e uma reta tangente a esta parte da curva, é uma das maneiras que permitem o cálculo de um valor representativo que define o módulo de elasticidade (Figura 7).
-# sent_id = 51-20140924-MONOGRAFIA_0-147
+# sent_id = 51-20140924-MONOGRAFIA_0-146
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	exata	exato	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4740,7 +4737,7 @@
 85	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
 86	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	84	obj	_	_
 87	de	de	ADP	_	_	89	case	_	_
-88	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	89	det	_	_
+88	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	89	det	_	SpacesAfter=\s\n
 89	valor	valor	NOUN	_	Gender=Masc|Number=Sing	86	nmod	_	_
 90	representativo	representativo	ADJ	_	Gender=Masc|Number=Sing	89	amod	_	_
 91	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	92	nsubj	_	_
@@ -4756,7 +4753,7 @@
 101	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Essa constante é útil se mantiver a sua natureza e sua dependência do tempo, temperatura e fatores semelhantes [21], [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-148
+# sent_id = 51-20140924-MONOGRAFIA_0-147
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	constante	constante	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4788,7 +4785,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 7: Curva típica de tração para PVDF (homopolímero), de onde podemos extrair para pequenas deformações (±2%), através da tangente, o seu respectivo módulo de elasticidade [22].
-# sent_id = 51-20140924-MONOGRAFIA_0-149
+# sent_id = 51-20140924-MONOGRAFIA_0-148
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	7	7	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -4832,7 +4829,7 @@
 40	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
 
 # text = 2.3 DIFRAÇÃO DE RAIOS-X (DRX)
-# sent_id = 51-20140924-MONOGRAFIA_0-150
+# sent_id = 51-20140924-MONOGRAFIA_0-149
 1	2.3	2.3	NUM	_	NumType=Card	2	nummod	_	_
 2	DIFRAÇÃO	Difração	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	DE	de	ADP	_	_	4	case	_	_
@@ -4842,7 +4839,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = A difração de raios-X é um dos principais métodos analíticos para análise estrutural baseado em raios-X.
-# sent_id = 51-20140924-MONOGRAFIA_0-151
+# sent_id = 51-20140924-MONOGRAFIA_0-150
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	difração	difração	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4864,7 +4861,7 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O método consiste na geração desses raios pelo bombardeamento de um alvo (fonte) com elétrons de alta energia, que ao se chocarem provocam a emissão de fótons de radiação X.
-# sent_id = 51-20140924-MONOGRAFIA_0-152
+# sent_id = 51-20140924-MONOGRAFIA_0-151
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4909,7 +4906,7 @@
 38	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Encontra aplicação em diferentes campos, particularmente na engenharia e na ciência dos materiais, bem como na geociência, entre outros.
-# sent_id = 51-20140924-MONOGRAFIA_0-153
+# sent_id = 51-20140924-MONOGRAFIA_0-152
 1	Encontra	encontra	ADP	_	_	2	case	_	_
 2	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -4937,13 +4934,13 @@
 21	em	em	ADP	_	_	23	case	_	_
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	geociência	geociência	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
 25	entre	entre	ADP	_	_	26	case	_	_
 26	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Dado o fenômeno da difração de raios-X, é possível estudar materiais a nível atômico, desvendando e estudando sua estrutura [23], [24].
-# sent_id = 51-20140924-MONOGRAFIA_0-154
+# sent_id = 51-20140924-MONOGRAFIA_0-153
 1	Dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	csubj	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -4977,7 +4974,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Sua característica (intensidade e comprimento de onda) depende do alvo que esta sendo bombardeado, sendo sua intensidade afetada apenas pela posição dos átomos na célula unitária sem mudança de direção.
-# sent_id = 51-20140924-MONOGRAFIA_0-155
+# sent_id = 51-20140924-MONOGRAFIA_0-154
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
 2	característica	característica	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5022,7 +5019,7 @@
 38	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esses choques entre o raio emitido e o refletido ocorrem de maneira elástica, sem perda de energia [23].
-# sent_id = 51-20140924-MONOGRAFIA_0-156
+# sent_id = 51-20140924-MONOGRAFIA_0-155
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	choques	choque	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -5047,7 +5044,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Sabe-se que os átomos são distribuídos no espaço e essa distribuição é de tal forma que os vários planos de uma estrutura cristalina possuem diferentes densidades de átomos ou elétrons, isso faz com que os diversos planos cristalinos tenham diferentes intensidades difratadas.
-# sent_id = 51-20140924-MONOGRAFIA_0-157
+# sent_id = 51-20140924-MONOGRAFIA_0-156
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5098,7 +5095,7 @@
 46	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Considerando-se dois ou mais planos de uma estrutura cristalina, diferentes planos cristalinos irão difratar em diferentes ângulos de acordo com a lei de Bragg (Figura 8).
-# sent_id = 51-20140924-MONOGRAFIA_0-158
+# sent_id = 51-20140924-MONOGRAFIA_0-157
 1-2	Considerando-se	_	_	_	_	_	_	_	_
 1	Considerando	considerar	VERB	_	VerbForm=Ger	16	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -5133,7 +5130,7 @@
 31	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Essa condição imposta pela lei de Bragg está relacionada com a diferença de caminho percorrido pelos raios-X e o comprimento de onda da radiação incidente.
-# sent_id = 51-20140924-MONOGRAFIA_0-159
+# sent_id = 51-20140924-MONOGRAFIA_0-158
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	condição	condição	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	imposta	impor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5168,7 +5165,7 @@
 29	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Por isso um espectro de emissão apresenta para cada diferente transição de níveis de energia, um comprimento de onda diferente [24], [25].
-# sent_id = 51-20140924-MONOGRAFIA_0-160
+# sent_id = 51-20140924-MONOGRAFIA_0-159
 1	Por	por	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5200,13 +5197,13 @@
 29	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 8:
-# sent_id = 51-20140924-MONOGRAFIA_0-161
+# sent_id = 51-20140924-MONOGRAFIA_0-160
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Equação da lei de Bragg [24].
-# sent_id = 51-20140924-MONOGRAFIA_0-162
+# sent_id = 51-20140924-MONOGRAFIA_0-161
 1	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5220,7 +5217,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O princípio consiste na liberação, na forma de fotoelétron, dos elétrons da camada K, próxima ao núcleo, de um átomo do material ao serem atingidos pelo feixe de elétrons com alta energia, deixando assim uma vacância que irá ser ocupada por outro elétron de uma camada L mais externa, liberando energia na forma de fóton de raios-X.
-# sent_id = 51-20140924-MONOGRAFIA_0-163
+# sent_id = 51-20140924-MONOGRAFIA_0-162
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	princípio	princípio	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5305,7 +5302,7 @@
 73	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A energia desse fóton depende da diferença de energia entre as duas camadas.
-# sent_id = 51-20140924-MONOGRAFIA_0-164
+# sent_id = 51-20140924-MONOGRAFIA_0-163
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	energia	energia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	desse	_	_	_	_	_	_	_	_
@@ -5323,10 +5320,10 @@
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 14	duas	dois	NUM	_	NumType=Card	15	nummod	_	_
 15	camadas	camada	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Já que cada camada eletrônica possui diversos subníveis, diversas emissões são possíveis em termos de energia [25].
-# sent_id = 51-20140924-MONOGRAFIA_0-165
+# sent_id = 51-20140924-MONOGRAFIA_0-164
 1	Já	já	ADV	_	_	6	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	4	det	_	_
@@ -5350,7 +5347,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Diversos experimentos envolvendo o PVDF e a difração de raios-X já foram realizados a fim de estudar o polímero em relação a sua estrutura cristalina.
-# sent_id = 51-20140924-MONOGRAFIA_0-166
+# sent_id = 51-20140924-MONOGRAFIA_0-165
 1	Diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	experimentos	experimento	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
 3	envolvendo	envolver	VERB	_	VerbForm=Ger	2	acl	_	_
@@ -5379,7 +5376,7 @@
 26	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = ZUCOLOTTO ao realizar a difração de raios-X de filme de PVDF puro, Foraflon® 4000 HD da ATOCHEM, logo após a etapa de prensagem, pode gerar o difratograma da Figura 9 [26].
-# sent_id = 51-20140924-MONOGRAFIA_0-167
+# sent_id = 51-20140924-MONOGRAFIA_0-166
 1	ZUCOLOTTO	Zucolotto	ADV	_	_	4	advmod	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	SCONJ	_	_	4	mark	_	_
@@ -5425,13 +5422,13 @@
 40	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
 
 # text = Figura 9:
-# sent_id = 51-20140924-MONOGRAFIA_0-168
+# sent_id = 51-20140924-MONOGRAFIA_0-167
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Difratograma de filme de PVDF puro, Foraflon® 4000 HD da ATOCHEM [26].
-# sent_id = 51-20140924-MONOGRAFIA_0-169
+# sent_id = 51-20140924-MONOGRAFIA_0-168
 1	Difratograma	Difratograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	filme	filme	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5452,7 +5449,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O difratograma apresentado na Figura 9, referente ao filme de PVDF puro, mostra que este se encontra na fase α, apresentando picos cristalinos nas posições 2Ɵ iguais a 17,5; 18,4; 20 e 26,5°, característicos dessa fase [26].
-# sent_id = 51-20140924-MONOGRAFIA_0-170
+# sent_id = 51-20140924-MONOGRAFIA_0-169
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	difratograma	difratograma	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5511,7 +5508,7 @@
 51	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Ainda sobre a difração de raios-X em filmes de PVDF, ZUCOLOTTO realizou ainda difração em filmes de PVDF modificados e tratados termicamente (Figura 10), seus resultados mostraram diminuição da intensidade dos picos com o aumento da porcentagem do modificador.
-# sent_id = 51-20140924-MONOGRAFIA_0-171
+# sent_id = 51-20140924-MONOGRAFIA_0-170
 1	Ainda	ainda	ADV	_	_	4	advmod	_	_
 2	sobre	sobre	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5555,7 +5552,7 @@
 39	com	com	ADP	_	_	41	case	_	_
 40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
-42-43	da	_	_	_	_	_	_	_	_
+42-43	da	_	_	_	_	_	_	_	SpacesAfter=\s\n
 42	de	de	ADP	_	_	44	case	_	_
 43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
@@ -5566,7 +5563,7 @@
 48	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Para esse cenário fica caracterizado a substancial redução relativa de cristalinidade [26].
-# sent_id = 51-20140924-MONOGRAFIA_0-172
+# sent_id = 51-20140924-MONOGRAFIA_0-171
 1	Para	para	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -5584,13 +5581,13 @@
 15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 10:
-# sent_id = 51-20140924-MONOGRAFIA_0-173
+# sent_id = 51-20140924-MONOGRAFIA_0-172
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Difratograma de Raios-X de filme de (a) PVDF puro, Foraflon® 4000 HD da ATOCHEM, e (b-d) filmes modificados com aditivo, todos após tratamento térmico [26].
-# sent_id = 51-20140924-MONOGRAFIA_0-174
+# sent_id = 51-20140924-MONOGRAFIA_0-173
 1	Difratograma	Difratograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Raios-X	Raios-x	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5627,29 +5624,29 @@
 33	[	[	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	26	26	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 35	]	_	PUNCT	_	_	34	punct	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.
-# sent_id = 51-20140924-MONOGRAFIA_0-175
+# sent_id = 51-20140924-MONOGRAFIA_0-174
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = MATERIAIS
-# sent_id = 51-20140924-MONOGRAFIA_0-176
+# sent_id = 51-20140924-MONOGRAFIA_0-175
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E MÉTODOS 3.1
-# sent_id = 51-20140924-MONOGRAFIA_0-177
+# sent_id = 51-20140924-MONOGRAFIA_0-176
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	MÉTODOS	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 3	3.1	3.1	NUM	_	NumType=Card	2	obj	_	_
 
 # text = MATERIAIS
-# sent_id = 51-20140924-MONOGRAFIA_0-178
+# sent_id = 51-20140924-MONOGRAFIA_0-177
 1	MATERIAIS	material	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = Para o presente trabalho foi utilizado PVDF homopolímero, SOLEF® 6010, fabricado e gentilmente cedido pela Solvay Solexis, em forma de pellets.
-# sent_id = 51-20140924-MONOGRAFIA_0-179
+# sent_id = 51-20140924-MONOGRAFIA_0-178
 1	Para	para	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	presente	presente	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -5679,7 +5676,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Segundo o fabricante, o material possui índice de fluidez (MFI) de 6g/10 min (ASTM D 1238/230 °C-5 kg) e é muito utilizado em perfis extrudados, como na fabricação de tubos, onde é exigido um rigoroso controle da supefície de acabamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-180
+# sent_id = 51-20140924-MONOGRAFIA_0-179
 1	Segundo	segundo	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fabricante	fabricante	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
@@ -5736,7 +5733,7 @@
 52	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.2 PROCESSAMENTO O polímero, como recebido, foi processado em moldes (Figura 11), preparados especialmente no formato dos corpos de tração de 1 e 3 mm de espessura, sob temperatura de 240 °C (graus) e resfriados, a partir do fundido, em diferentes temperaturas.
-# sent_id = 51-20140924-MONOGRAFIA_0-181
+# sent_id = 51-20140924-MONOGRAFIA_0-180
 1	3.2	3.2	NUM	_	NumType=Card	2	nsubj	_	_
 2	PROCESSAMENTO	Processamentar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5798,23 +5795,23 @@
 56	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 11:
-# sent_id = 51-20140924-MONOGRAFIA_0-182
+# sent_id = 51-20140924-MONOGRAFIA_0-181
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Molde com cinco corpos de prova.
-# sent_id = 51-20140924-MONOGRAFIA_0-183
+# sent_id = 51-20140924-MONOGRAFIA_0-182
 1	Molde	molde	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	cinco	cinco	NUM	_	NumType=Card	4	nummod	_	_
 4	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	prova	prova	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Após uma etapa de preenchimento do molde, o polímero em forma de pellets é aquecido e homogeneizado em moldes com cinco corpos de prova cada.
-# sent_id = 51-20140924-MONOGRAFIA_0-184
+# sent_id = 51-20140924-MONOGRAFIA_0-183
 1	Após	após	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -5846,7 +5843,7 @@
 28	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Esse aquecimento do molde preenchido ocorre em uma prensa hidráulica MARCONI modelo MA 098/A (Figura 12), disponível no Laboratório de Análise Química e Processamento Cerâmico da COPPE/UFRJ, a uma temperatura controlada de 240 °C, sob compressão de 6t (Toneladas) por 9 minutos.
-# sent_id = 51-20140924-MONOGRAFIA_0-185
+# sent_id = 51-20140924-MONOGRAFIA_0-184
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -5905,7 +5902,7 @@
 53	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Durante o período em que se manteve aquecido, foram realizados três processos de degasagem, a fim de evitar o aprisionamento do gás e a formação de vazios nos corpos de prova.
-# sent_id = 51-20140924-MONOGRAFIA_0-186
+# sent_id = 51-20140924-MONOGRAFIA_0-185
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -5946,7 +5943,7 @@
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Esse processo de degasagem foi realizado com a liberação da carga aplicada na compressão por um curto intervalo de tempo, feita de maneira controlada em um intervalo de aproximadamente 20 segundos entre uma degasagem e outra nos primeiros minutos do processamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-187
+# sent_id = 51-20140924-MONOGRAFIA_0-186
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6000,7 +5997,7 @@
 47	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Essa etapa permite a liberação dos gases gerados durante a fusão da resina.
-# sent_id = 51-20140924-MONOGRAFIA_0-188
+# sent_id = 51-20140924-MONOGRAFIA_0-187
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6021,7 +6018,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O processo de alívio de gás utilizado nesse trabalho não é o ideal, tendo em vista que o mesmo foi controlado manualmente e o número de degasagem limitado.
-# sent_id = 51-20140924-MONOGRAFIA_0-189
+# sent_id = 51-20140924-MONOGRAFIA_0-188
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6056,7 +6053,7 @@
 31	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Posteriormente será avaliado a reprodutibilidade do método e os possíveis erros.
-# sent_id = 51-20140924-MONOGRAFIA_0-190
+# sent_id = 51-20140924-MONOGRAFIA_0-189
 1	Posteriormente	posteriormente	ADV	_	_	3	advmod	_	_
 2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
 3	avaliado	avaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -6073,7 +6070,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 12: Prensa hidráulica MARCONI modelo MA 098/A.
-# sent_id = 51-20140924-MONOGRAFIA_0-191
+# sent_id = 51-20140924-MONOGRAFIA_0-190
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	12	12	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -6083,10 +6080,10 @@
 7	modelo	modelo	PROPN	_	Number=Sing	4	flat:name	_	_
 8	MA	MA	PROPN	_	Number=Sing	4	flat:name	_	_
 9	098/A	098/A	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Uma vez terminado o processo de fusão, os moldes com o polímero fundido foram submetidos a um resfriamento controlado utilizando uma prensa hidráulica modelo # 3912 da CARVER (Figura 13), também disponível no Laboratório de Análise Química e Processamento Cerâmico.
-# sent_id = 51-20140924-MONOGRAFIA_0-192
+# sent_id = 51-20140924-MONOGRAFIA_0-191
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	terminado	terminar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
@@ -6138,7 +6135,7 @@
 47	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Essa prensa possui sistema de circulação de água através de duas placas, confeccionado especialmente para essa finalidade, conectadas por mangueira a um banho ultratermostático da M.S.MISTURA modelo - MSM 200/22 (Figura 14), também disponível no mesmo laboratório.
-# sent_id = 51-20140924-MONOGRAFIA_0-193
+# sent_id = 51-20140924-MONOGRAFIA_0-192
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	prensa	prensa	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6188,7 +6185,7 @@
 45	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As temperaturas empregadas no resfriamento dos moldes com o polímero foram de 20°C, 50°C e 80°C, durante um tempo de 5 minutos.
-# sent_id = 51-20140924-MONOGRAFIA_0-194
+# sent_id = 51-20140924-MONOGRAFIA_0-193
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
 3	empregadas	empregar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -6220,7 +6217,7 @@
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Esse tempo foi considerado suficiente para o total resfriamento do conjunto (molde e polímero).
-# sent_id = 51-20140924-MONOGRAFIA_0-195
+# sent_id = 51-20140924-MONOGRAFIA_0-194
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6242,13 +6239,13 @@
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 13:
-# sent_id = 51-20140924-MONOGRAFIA_0-196
+# sent_id = 51-20140924-MONOGRAFIA_0-195
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Prensa hidráulica modelo # 3912 da CARVER.
-# sent_id = 51-20140924-MONOGRAFIA_0-197
+# sent_id = 51-20140924-MONOGRAFIA_0-196
 1	Prensa	Prensa	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	hidráulica	hidráulicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -6258,16 +6255,16 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	CARVER	CARVER	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Figura 14:
-# sent_id = 51-20140924-MONOGRAFIA_0-198
+# sent_id = 51-20140924-MONOGRAFIA_0-197
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Banho ultratermostático da M.S.MISTURA modelo – MSM 200/22.
-# sent_id = 51-20140924-MONOGRAFIA_0-199
+# sent_id = 51-20140924-MONOGRAFIA_0-198
 1	Banho	banho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	ultratermostático	ultratermostático	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6281,7 +6278,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Além do processo de moldagem por compressão, o PVDF também é recomendado para o processamento por extrusão, com propriedades similares ao produto injetado, conforme informado pelo fabricante [10].
-# sent_id = 51-20140924-MONOGRAFIA_0-200
+# sent_id = 51-20140924-MONOGRAFIA_0-199
 1	Além	além	ADV	_	_	8	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6324,17 +6321,17 @@
 37	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 3.3
-# sent_id = 51-20140924-MONOGRAFIA_0-201
+# sent_id = 51-20140924-MONOGRAFIA_0-200
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = ENSAIO DE TRAÇÃO
-# sent_id = 51-20140924-MONOGRAFIA_0-202
+# sent_id = 51-20140924-MONOGRAFIA_0-201
 1	ENSAIO	ensaio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	DE	de	ADP	_	_	3	case	_	_
 3	TRAÇÃO	Tração	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Os ensaios de tração foram realizados em uma máquina de ensaio universal INSTRON 5567 (Figura 15), disponível no laboratório de Materiais Poliméricos da COPPE / UFRJ.
-# sent_id = 51-20140924-MONOGRAFIA_0-203
+# sent_id = 51-20140924-MONOGRAFIA_0-202
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6371,7 +6368,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para esse trabalho, foi utilizada velocidade do travessão de 50 mm/min e os ensaios foram realizados a temperatura ambiente.
-# sent_id = 51-20140924-MONOGRAFIA_0-204
+# sent_id = 51-20140924-MONOGRAFIA_0-203
 1	Para	para	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -6395,16 +6392,16 @@
 20	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 22	ambiente	ambiente	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 15:
-# sent_id = 51-20140924-MONOGRAFIA_0-205
+# sent_id = 51-20140924-MONOGRAFIA_0-204
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Máquina de tração modelo INSTRON 5567.
-# sent_id = 51-20140924-MONOGRAFIA_0-206
+# sent_id = 51-20140924-MONOGRAFIA_0-205
 1	Máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	tração	tração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6414,7 +6411,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A elongação do corpo de prova foi medida utilizando-se o próprio travessão do equipamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-207
+# sent_id = 51-20140924-MONOGRAFIA_0-206
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	elongação	elongação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6438,7 +6435,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para cada condição de ensaio foram utilizados quinze corpos de prova.
-# sent_id = 51-20140924-MONOGRAFIA_0-208
+# sent_id = 51-20140924-MONOGRAFIA_0-207
 1	Para	para	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	condição	condição	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -6452,8 +6449,8 @@
 11	prova	prova	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Os corpos de prova de tração apresentam dimensões segundo a norma ASTM D- 638, corpo de prova do tipo V (Figura 16), com espessura de 1 e 3 mm de acordo com o molde.
-# sent_id = 51-20140924-MONOGRAFIA_0-209
+# text = Os corpos de prova de tração apresentam dimensões segundo a norma ASTM D-638, corpo de prova do tipo V (Figura 16), com espessura de 1 e 3 mm de acordo com o molde.
+# sent_id = 51-20140924-MONOGRAFIA_0-208
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6466,38 +6463,37 @@
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	norma	norma	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	ASTM	ASTM	PROPN	_	Gender=Fem|Number=Sing	11	appos	_	_
-13	D-	d-	PROPN	_	Number=Sing	12	flat:name	_	_
-14	638	638	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	prova	prova	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	V	V	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
-23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	21	appos	_	_
-25	16	16	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	29	punct	_	_
-28	com	com	ADP	_	_	29	case	_	_
-29	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-30	de	de	ADP	_	_	34	case	_	_
-31	1	1	NUM	_	NumType=Card	34	nummod	_	_
-32	e	e	CCONJ	_	_	34	cc	_	_
-33	3	3	NUM	_	NumType=Card	34	nummod	_	_
-34	mm	mm	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-37	com	com	ADP	_	_	39	case	_	_
-38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	molde	molde	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+13	D-638	D-638	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	prova	prova	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	V	V	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	20	appos	_	_
+24	16	16	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+29	de	de	ADP	_	_	33	case	_	_
+30	1	1	NUM	_	NumType=Card	33	nummod	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	3	3	NUM	_	NumType=Card	33	nummod	_	_
+33	mm	mm	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36	com	com	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	molde	molde	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 16: Corpo de prova de tração ASTM D-638 Tipo V.
-# sent_id = 51-20140924-MONOGRAFIA_0-210
+# sent_id = 51-20140924-MONOGRAFIA_0-209
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	16	16	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -6510,10 +6506,10 @@
 10	D-638	D-638	PROPN	_	Number=Sing	9	flat:name	_	_
 11	Tipo	Tipo	PROPN	_	Number=Sing	9	flat:name	_	_
 12	V	V	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Com o objetivo de caracterizar cada corpo de prova de tração e suas condições de processo, os corpos de prova foram codificados da seguinte maneira: utilizou-se o número sequencial de 1 à 3 para cada extração com cinco corpos de prova nas condições de 20°C, 50°C e 80°C para o tempo de resfriamento de 5 minutos em um total de nove placas; seguidos de uma letra representando a posição do corpo de prova dentro da placa, sendo A e E as extremidades da placa, B e D as mais internas e C o corpo do meio conforme Figura 17.
-# sent_id = 51-20140924-MONOGRAFIA_0-211
+# sent_id = 51-20140924-MONOGRAFIA_0-210
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
@@ -6638,7 +6634,7 @@
 114	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Um exemplo de como foram identificado os corpos de prova pode ser visto na Tabela 5 abaixo, para a temperatura de 80°C e espessura de 1 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-212
+# sent_id = 51-20140924-MONOGRAFIA_0-211
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6672,13 +6668,13 @@
 30	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 17:
-# sent_id = 51-20140924-MONOGRAFIA_0-213
+# sent_id = 51-20140924-MONOGRAFIA_0-212
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Orientação dos corpos em uma mesma placa.
-# sent_id = 51-20140924-MONOGRAFIA_0-214
+# sent_id = 51-20140924-MONOGRAFIA_0-213
 1	Orientação	orientação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6688,10 +6684,10 @@
 6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 8	placa	placa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 5: Identificação dos corpos de prova.
-# sent_id = 51-20140924-MONOGRAFIA_0-215
+# sent_id = 51-20140924-MONOGRAFIA_0-214
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6705,12 +6701,12 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.4 RAIO-X
-# sent_id = 51-20140924-MONOGRAFIA_0-216
+# sent_id = 51-20140924-MONOGRAFIA_0-215
 1	3.4	3.4	NUM	_	NumType=Card	2	nummod	_	_
 2	RAIO-X	Raio-x	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Utilizou-se o ensaio de difração por Raios-X, para caracterização da estrutura cristalina, nas amostras de PVDF SOLEF® 6010, retiradas dos corpos de prova de tração não ensaiados, com dimensões retangulares de aproximadamente 5x15 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-217
+# sent_id = 51-20140924-MONOGRAFIA_0-216
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -6760,7 +6756,7 @@
 43	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A análise foi realizada no equipamento XRD-6000 da SHIMADZU disponível no Laboratório de Difração de Raio-X e Histeresigrafia Magnética do Programa de Engenharia Metalúrgica e de Materiais da COPPE/UFRJ com uma fonte de radiação CuKα (λ= 1,542 Ǻ), voltagem de 30 kV e corrente de 30 mA.
-# sent_id = 51-20140924-MONOGRAFIA_0-218
+# sent_id = 51-20140924-MONOGRAFIA_0-217
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6825,7 +6821,7 @@
 57	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Utilizou-se a faixa de 5°<2Ɵ<50°, passo de 0,04 e varredura de 2° min-1.
-# sent_id = 51-20140924-MONOGRAFIA_0-219
+# sent_id = 51-20140924-MONOGRAFIA_0-218
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -6841,19 +6837,19 @@
 12	varredura	varreduro	ADV	_	_	14	advmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	2°	2°	PROPN	_	Number=Sing	1	conj	_	_
-15	min-1.	min-1.	NUM	_	NumType=Card	14	nummod	_	SpacesAfter=\n
+15	min-1.	min-1.	NUM	_	NumType=Card	14	nummod	_	SpacesAfter=\n\n
 
 # text = 4.
-# sent_id = 51-20140924-MONOGRAFIA_0-220
+# sent_id = 51-20140924-MONOGRAFIA_0-219
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = RESULTADOS
-# sent_id = 51-20140924-MONOGRAFIA_0-221
+# sent_id = 51-20140924-MONOGRAFIA_0-220
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = E DISCUSSÕES 4.1 PROCESSAMENTO Foi observado que o PVDF quando processado em placas e posteriormente extraído, através de ferramentas de corte, no formato dos corpos de prova, não se mostrou satisfatório dado a percepção visual nos corpos extraídos de rebarbas e trincas, que poderiam induzir falhas nos ensaios de tração.
-# sent_id = 51-20140924-MONOGRAFIA_0-222
+# sent_id = 51-20140924-MONOGRAFIA_0-221
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	DISCUSSÕES	discussões	PROPN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	4.1	4.1	NUM	_	NumType=Card	2	nummod	_	_
@@ -6919,7 +6915,7 @@
 59	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Por isso, optou-se pela confecção dos moldes especialmente fabricados para facilitar a extração dos mesmos nas dimensões requeridas.
-# sent_id = 51-20140924-MONOGRAFIA_0-223
+# sent_id = 51-20140924-MONOGRAFIA_0-222
 1	Por	por	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6952,7 +6948,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Inicialmente utilizou-se apenas o molde com 1 mm de espessura, mas os resultados obtidos para essa espessura não foram significativos.
-# sent_id = 51-20140924-MONOGRAFIA_0-224
+# sent_id = 51-20140924-MONOGRAFIA_0-223
 1	Inicialmente	inicialmente	ADV	_	_	2	advmod	_	_
 2-3	utilizou-se	_	_	_	_	_	_	_	_
 2	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6979,7 +6975,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Por isso, pensou-se também no molde com 3 mm para efeito comparativo entre as duas espessuras.
-# sent_id = 51-20140924-MONOGRAFIA_0-225
+# sent_id = 51-20140924-MONOGRAFIA_0-224
 1	Por	por	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7004,13 +7000,13 @@
 20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.2 ENSAIO MECÂNICO
-# sent_id = 51-20140924-MONOGRAFIA_0-226
+# sent_id = 51-20140924-MONOGRAFIA_0-225
 1	4.2	4.2	NUM	_	NumType=Card	2	nummod	_	_
 2	ENSAIO	ensaio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	MECÂNICO	MECÂNICO	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Após o processo de moldagem, observou-se uma fina película do material unindo os corpos de prova, a mesma foi retirada utilizando uma gilete de uso comum, o que gerou trincas em alguns corpos.
-# sent_id = 51-20140924-MONOGRAFIA_0-227
+# sent_id = 51-20140924-MONOGRAFIA_0-226
 1	Após	após	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -7054,7 +7050,7 @@
 39	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para isso, embora a recomendação, segundo a norma, para esse tipo de ensaio seja de cinco corpos de prova por condição, optou-se por um número maior pela dificuldade de se extrair o corpo do molde metálico, e assim evitar a insuficiência de material a ser analisado no ensaio de tração.
-# sent_id = 51-20140924-MONOGRAFIA_0-228
+# sent_id = 51-20140924-MONOGRAFIA_0-227
 1	Para	para	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	26	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7121,7 +7117,7 @@
 60	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = Todos os corpos de prova foram processados sob as mesmas condições, discutidas anteriormente, variando apenas temperatura de resfriamento e mantendo a velocidade do travessão constante igual a 50 mm/min.
-# sent_id = 51-20140924-MONOGRAFIA_0-229
+# sent_id = 51-20140924-MONOGRAFIA_0-228
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
@@ -7144,7 +7140,7 @@
 20	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	e	e	CCONJ	_	_	22	cc	_	_
 22	mantendo	manter	VERB	_	VerbForm=Ger	7	conj	_	_
-23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpacesAfter=\s\n
 24	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -7159,7 +7155,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A norma não prevê essa velocidade de teste para esse material com essas dimensões, por isso os valores obtidos experimentalmente foram unicamente comparados entre si.
-# sent_id = 51-20140924-MONOGRAFIA_0-230
+# sent_id = 51-20140924-MONOGRAFIA_0-229
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	norma	norma	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -7189,7 +7185,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para as Figuras 18 a 21 foram apresentados curvas de Tensão versus
-# sent_id = 51-20140924-MONOGRAFIA_0-231
+# sent_id = 51-20140924-MONOGRAFIA_0-230
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	Figuras	figura	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
@@ -7204,7 +7200,7 @@
 12	versus	versus	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = Deformação obtidas nos ensaios de tração do PVDF homopolímero em diferentes temperaturas de resfriamento para as espessuras de 1 e 3 mm e o tempo de resfriamento de 5 minutos.
-# sent_id = 51-20140924-MONOGRAFIA_0-232
+# sent_id = 51-20140924-MONOGRAFIA_0-231
 1	Deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 3-4	nos	_	_	_	_	_	_	_	_
@@ -7242,7 +7238,7 @@
 33	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Cada curva representa a média dos corpos de prova ensaiados em uma mesma condição.
-# sent_id = 51-20140924-MONOGRAFIA_0-233
+# sent_id = 51-20140924-MONOGRAFIA_0-232
 1	Cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	curva	curva	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7262,7 +7258,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os ensaios foram finalizados logo após atingirem o ponto de carga máxima.
-# sent_id = 51-20140924-MONOGRAFIA_0-234
+# sent_id = 51-20140924-MONOGRAFIA_0-233
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7278,7 +7274,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = É importante frisar que em todos os gráficos os resultados foram comparados à temperatura ambiente (23 ºC).
-# sent_id = 51-20140924-MONOGRAFIA_0-235
+# sent_id = 51-20140924-MONOGRAFIA_0-234
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	frisar	frisar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -7303,7 +7299,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = As Tabelas 6 a 10 apresentam os valores de tensão máxima alcançados para cada condição de ensaio, e para cada uma dessas condições também foram extraídos a Média e o Desvio Padrão.
-# sent_id = 51-20140924-MONOGRAFIA_0-236
+# sent_id = 51-20140924-MONOGRAFIA_0-235
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Tabelas	tabela	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	6	6	NUM	_	NumType=Card	2	nummod	_	_
@@ -7342,7 +7338,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Entretanto, os valores de Desvio Padrão (DP) calculados não foram avaliados do ponto de vista estatístico, eles apenas serviram para comparar numericamente os efeitos de cada condição nas propriedades mecânicas, como também verificar se estes valores eram compatíveis.
-# sent_id = 51-20140924-MONOGRAFIA_0-237
+# sent_id = 51-20140924-MONOGRAFIA_0-236
 1	Entretanto	entretanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -7393,7 +7389,7 @@
 46	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = A Figura 18 mostra a comparação entre diferentes posições de corpos de prova, em uma mesma placa, no ensaio de Tração versus
-# sent_id = 51-20140924-MONOGRAFIA_0-238
+# sent_id = 51-20140924-MONOGRAFIA_0-237
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	18	18	NUM	_	NumType=Card	2	nummod	_	_
@@ -7422,7 +7418,7 @@
 25	versus	versus	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Deformação para diferentes temperaturas de resfriamento, velocidade de 50 mm/min e espessura de 1 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-239
+# sent_id = 51-20140924-MONOGRAFIA_0-238
 1	Deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	para	para	ADP	_	_	4	case	_	_
 3	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -7443,7 +7439,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A Tabela 6 fornece os dados de tensão máxima, como também o seu Desvio Padrão e a Média de cada medida.
-# sent_id = 51-20140924-MONOGRAFIA_0-240
+# sent_id = 51-20140924-MONOGRAFIA_0-239
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	6	6	NUM	_	NumType=Card	4	nsubj	_	_
@@ -7466,62 +7462,66 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	22	det	_	_
 22	medida	medida	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = Figura 18: Curvas Tensão X Deformação comparando diferentes corpos na mesma placa a diferentes temperaturas de resfriamento para espessura de 1 mm; (a) 20 ºC, (b) 50 ºC e (c) 80 ºC.
-# sent_id = 51-20140924-MONOGRAFIA_0-241
-1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-2	18:	18:	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Curvas	curvas	PROPN	_	Number=Sing	1	flat:name	_	_
-4	Tensão	tensão	PROPN	_	Number=Sing	1	flat:name	_	_
-5	X	X	PROPN	_	Number=Sing	1	flat:name	_	_
-6	Deformação	deformação	PROPN	_	Number=Sing	1	flat:name	_	_
-7	comparando	comparar	VERB	_	VerbForm=Ger	0	root	_	_
-8	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
-9	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
-10-11	na	_	_	_	_	_	_	_	_
-10	em	em	ADP	_	_	13	case	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-13	placa	placa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
-14	a	a	ADP	_	_	13	case	_	_
-15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
-16	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-19	para	para	ADP	_	_	20	case	_	_
-20	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-21	de	de	ADP	_	_	23	case	_	_
-22	1	1	NUM	_	NumType=Card	23	nummod	_	_
-23	mm	mm	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
-24	;	;	PUNCT	_	_	7	punct	_	_
-25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	26	punct	_	_
-28	20	20	NUM	_	NumType=Card	29	nummod	_	_
-29	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	32	punct	_	_
-31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	b	bado	NOUN	_	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	32	punct	_	_
-34	50	50	NUM	_	NumType=Card	35	nummod	_	_
-35	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	_
-36	e	e	CCONJ	_	_	38	cc	_	_
-37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
-38	c	c	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
-39	)	)	PUNCT	_	_	38	punct	_	_
-40	80	80	NUM	_	NumType=Card	41	nummod	_	_
-41	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+# text = (a) Figura 18: Curvas Tensão X Deformação comparando diferentes corpos na mesma placa a diferentes temperaturas de resfriamento para espessura de 1 mm; (a) 20 ºC, (b) 50 ºC e (c) 80 ºC.
+# sent_id = 51-20140924-MONOGRAFIA_0-240
+1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
+4	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+5	18	18	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	4	punct	_	_
+7	Curvas	curvas	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
+8	Tensão	tensão	PROPN	_	Number=Sing	7	flat:name	_	_
+9	X	X	PROPN	_	Number=Sing	7	flat:name	_	_
+10	Deformação	deformação	PROPN	_	Number=Sing	7	flat:name	_	_
+11	comparando	comparar	VERB	_	VerbForm=Ger	0	root	_	_
+12	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+17	placa	placa	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+18	a	a	ADP	_	_	17	case	_	_
+19	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	1	1	NUM	_	NumType=Card	27	nummod	_	_
+27	mm	mm	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	11	punct	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	_
+32	20	20	NUM	_	NumType=Card	33	nummod	_	_
+33	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	b	bado	NOUN	_	Gender=Masc|Number=Sing	33	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	_
+38	50	50	NUM	_	NumType=Card	39	nummod	_	_
+39	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	33	appos	_	_
+40	e	e	CCONJ	_	_	42	cc	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	c	c	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	_
+44	80	80	NUM	_	NumType=Card	45	nummod	_	_
+45	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Tabela 6:
-# sent_id = 51-20140924-MONOGRAFIA_0-242
+# sent_id = 51-20140924-MONOGRAFIA_0-241
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tensão máxima para corpos em diferentes posições em uma mesma placa a diferentes temperaturas com espessura de 1 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-243
+# sent_id = 51-20140924-MONOGRAFIA_0-242
 1	Tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -7544,7 +7544,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A comparação entre as diferentes disposições dos corpos em um mesmo molde e numa mesma condição foi necessário para que se avaliasse o gradiente de temperatura e sua influência nas propriedades mecânicas dos mesmos.
-# sent_id = 51-20140924-MONOGRAFIA_0-244
+# sent_id = 51-20140924-MONOGRAFIA_0-243
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 3	entre	entre	ADP	_	_	6	case	_	_
@@ -7590,13 +7590,13 @@
 39	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Se tratando de um molde no formato de uma chapa, o mesmo sofre o efeito de borda que se resfria mais rapidamente que o centro, o que pode gerar diferença nas propriedades mecânicas.
-# sent_id = 51-20140924-MONOGRAFIA_0-245
+# sent_id = 51-20140924-MONOGRAFIA_0-244
 1	Se	se	SCONJ	_	_	2	mark	_	_
 2	tratando	tratar	VERB	_	VerbForm=Ger	38	advcl	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	molde	molde	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
-6-7	no	_	_	_	_	_	_	_	_
+6-7	no	_	_	_	_	_	_	_	SpacesAfter=\s\n
 6	em	em	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	formato	formato	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
@@ -7633,7 +7633,7 @@
 38	.	.	PUNCT	_	_	0	root	_	_
 
 # text = Isso é esperado, uma vez que essa distribuição de calor em forma de energia não é uniforme em uma mesma placa.
-# sent_id = 51-20140924-MONOGRAFIA_0-246
+# sent_id = 51-20140924-MONOGRAFIA_0-245
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj:pass	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -7659,7 +7659,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Os resultados da Figura 18 e da Tabela 6 mostram que para a espessura de 1 mm esse afastamento na posição em relação ao corpo do centro não tem grande efeito nas propriedades mecânicas, tanto na parte elástica quanto na parte plástica da curva.
-# sent_id = 51-20140924-MONOGRAFIA_0-247
+# sent_id = 51-20140924-MONOGRAFIA_0-246
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -7726,7 +7726,7 @@
 55	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Essa comparação foi importante uma vez que diante dos resultados obtidos os corpos de prova puderam ser ensaiados e comparados igualmente sem levar em consideração a sua disposição no molde.
-# sent_id = 51-20140924-MONOGRAFIA_0-248
+# sent_id = 51-20140924-MONOGRAFIA_0-247
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -7764,7 +7764,7 @@
 33	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = Na Figura 19 será apresentada a curva
-# sent_id = 51-20140924-MONOGRAFIA_0-249
+# sent_id = 51-20140924-MONOGRAFIA_0-248
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7776,12 +7776,12 @@
 8	curva	curva	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 
 # text = Tensão versus
-# sent_id = 51-20140924-MONOGRAFIA_0-250
+# sent_id = 51-20140924-MONOGRAFIA_0-249
 1	Tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	versus	versus	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Deformação dos corpos de prova de PVDF com 1 mm de espessura e velocidades de 50 mm/min, comparando as propriedades mecânicas para o resfriamento em temperaturas diferentes.
-# sent_id = 51-20140924-MONOGRAFIA_0-251
+# sent_id = 51-20140924-MONOGRAFIA_0-250
 1	Deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7815,7 +7815,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Essa curva foi gerada através da média das tensões em cada temperatura.
-# sent_id = 51-20140924-MONOGRAFIA_0-252
+# sent_id = 51-20140924-MONOGRAFIA_0-251
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	curva	curva	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7835,7 +7835,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Na Tabela 7 serão apresentados novamente esses valores em cada temperatura e seu respectivo desvio.
-# sent_id = 51-20140924-MONOGRAFIA_0-253
+# sent_id = 51-20140924-MONOGRAFIA_0-252
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7856,7 +7856,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 19: Curva Tensão X Deformação comparando propriedades mecânicas para temperaturas diferente de resfriamento, espessura de 1 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-254
+# sent_id = 51-20140924-MONOGRAFIA_0-253
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	19	19	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -7877,16 +7877,16 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	1	1	NUM	_	NumType=Card	20	nummod	_	_
 20	mm	mm	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 7:
-# sent_id = 51-20140924-MONOGRAFIA_0-255
+# sent_id = 51-20140924-MONOGRAFIA_0-254
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tensão máxima em diferentes temperaturas com espessura de 1 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-256
+# sent_id = 51-20140924-MONOGRAFIA_0-255
 1	Tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -7900,7 +7900,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Como é possível ver na Figura 19 e na Tabela 7, mesmo com uma grande diminuição na temperatura de resfriamento (variação de 80 ºC para 20 ºC), as propriedades mecânicas do polímero quase não sofreram alteração.
-# sent_id = 51-20140924-MONOGRAFIA_0-257
+# sent_id = 51-20140924-MONOGRAFIA_0-256
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	possível	possível	ADJ	_	Gender=Masc|Number=Sing	43	advcl	_	_
@@ -7952,7 +7952,7 @@
 45	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\n
 
 # text = Foi visto que para a espessura de 1 mm, a temperatura de resfriamento pouco influenciou nas propriedades mecânicas do polímero.
-# sent_id = 51-20140924-MONOGRAFIA_0-258
+# sent_id = 51-20140924-MONOGRAFIA_0-257
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	que	que	SCONJ	_	_	16	mark	_	_
@@ -7981,7 +7981,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Acreditando que esse efeito térmico pode não ter sido significativo para o polímero devido à pequena espessura e o seu possível comportamento de casca, os mesmos ensaios foram repetidos para o PVDF com espessura de 3 mm como já havia sido proposto antes para esse trabalho.
-# sent_id = 51-20140924-MONOGRAFIA_0-259
+# sent_id = 51-20140924-MONOGRAFIA_0-258
 1	Acreditando	acreditar	VERB	_	VerbForm=Ger	31	advcl	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
 3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -8034,7 +8034,7 @@
 49	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
 
 # text = Na Figura 20 pode-se ver o comportamento mecânico do PVDF com espessura de 3 mm para diferentes posições em uma mesma placa.
-# sent_id = 51-20140924-MONOGRAFIA_0-260
+# sent_id = 51-20140924-MONOGRAFIA_0-259
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8063,43 +8063,57 @@
 23	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 24	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 25	placa	placa	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
-# text = placa a diferentes temperaturas de resfriamento para espessura de 3 mm; (a) 20 ºC, (b) 50 ºC e (c) 80 ºC.
-# sent_id = 51-20140924-MONOGRAFIA_0-261
-1	placa	placa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	a	a	ADP	_	_	4	case	_	_
-3	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
-4	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	para	para	ADP	_	_	8	case	_	_
-8	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	3	3	NUM	_	NumType=Card	11	nummod	_	_
-11	mm	mm	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
-12	;	;	PUNCT	_	_	1	punct	_	_
-13	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	14	punct	_	_
-16	20	20	NUM	_	NumType=Card	17	nummod	_	_
-17	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
-19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	20	punct	_	_
-22	50	50	NUM	_	NumType=Card	23	nummod	_	_
-23	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-24	e	e	CCONJ	_	_	26	cc	_	_
-25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	c	c	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	26	punct	_	_
-28	80	80	NUM	_	NumType=Card	29	nummod	_	_
-29	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+# text = Figura 20: Curvas Tensão X Deformação comparando diferentes corpos na mesma placa a diferentes temperaturas de resfriamento para espessura de 3 mm; (a) 20 ºC, (b) 50 ºC e (c) 80 ºC.
+# sent_id = 51-20140924-MONOGRAFIA_0-260
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	20	20	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Curvas	curvas	PROPN	_	Number=Sing	8	nsubj	_	_
+5	Tensão	tensão	PROPN	_	Number=Sing	4	flat:name	_	_
+6	X	X	PROPN	_	Number=Sing	4	flat:name	_	_
+7	Deformação	deformação	PROPN	_	Number=Sing	4	flat:name	_	_
+8	comparando	comparar	VERB	_	VerbForm=Ger	1	parataxis	_	_
+9	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	placa	placa	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	resfriamento	resfriamento	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	3	3	NUM	_	NumType=Card	24	nummod	_	_
+24	mm	mm	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	_	_	8	punct	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	20	20	NUM	_	NumType=Card	30	nummod	_	_
+30	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	b	bado	NOUN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	_
+35	50	50	NUM	_	NumType=Card	36	nummod	_	_
+36	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+37	e	e	CCONJ	_	_	39	cc	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	c	c	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
+41	80	80	NUM	_	NumType=Card	42	nummod	_	_
+42	ºC	ºC	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para a espessura de 3 mm, assim como para a de 1 mm, não fica claro um gradiente de temperatura.
-# sent_id = 51-20140924-MONOGRAFIA_0-262
+# sent_id = 51-20140924-MONOGRAFIA_0-261
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -8125,7 +8139,7 @@
 23	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Pequenas variações na resposta do polímero a solicitação mecânica são apresentadas, como é visto na Figura 20, porém, essa alteração entre corpos de uma mesma placa pode estar associada a outros fatores.
-# sent_id = 51-20140924-MONOGRAFIA_0-263
+# sent_id = 51-20140924-MONOGRAFIA_0-262
 1	Pequenas	Pequena	NUM	_	Gender=Fem|Number=Plur	2	nummod	_	_
 2	variações	variação	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8170,7 +8184,7 @@
 39	.	.	PUNCT	_	_	35	punct	_	_
 
 # text = Esse resultado é mais acentuado quando no processamento do PVDF o mesmo é resfriado a temperatura de 20ºC.
-# sent_id = 51-20140924-MONOGRAFIA_0-264
+# sent_id = 51-20140924-MONOGRAFIA_0-263
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -8196,7 +8210,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Na Tabela 8 pode-se ver esse efeito pronunciado em forma de números, para valores de tensão máxima, como segue abaixo.
-# sent_id = 51-20140924-MONOGRAFIA_0-265
+# sent_id = 51-20140924-MONOGRAFIA_0-264
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8223,16 +8237,16 @@
 22	como	como	SCONJ	_	_	23	mark	_	_
 23	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 24	abaixo	abaixo	ADV	_	_	23	advmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 8:
-# sent_id = 51-20140924-MONOGRAFIA_0-266
+# sent_id = 51-20140924-MONOGRAFIA_0-265
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Tensão máxima para corpos em diferentes posições em uma mesma placa a diferentes temperaturas com espessura de 3 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-267
+# sent_id = 51-20140924-MONOGRAFIA_0-266
 1	Tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -8255,7 +8269,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Por ultimo, na Figura 21 temos a variação do comportamento em tração para o polímero sendo resfriado em diferentes temperaturas.
-# sent_id = 51-20140924-MONOGRAFIA_0-268
+# sent_id = 51-20140924-MONOGRAFIA_0-267
 1	Por	por	ADP	_	_	2	case	_	_
 2	ultimo	ultimo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8284,7 +8298,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 21: Curva Tensão X
-# sent_id = 51-20140924-MONOGRAFIA_0-269
+# sent_id = 51-20140924-MONOGRAFIA_0-268
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	21	21	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -8293,7 +8307,7 @@
 6	X	X	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Deformação comparando propriedades mecânicas para temperaturas diferente de resfriamento, espessura de 3 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-270
+# sent_id = 51-20140924-MONOGRAFIA_0-269
 1	Deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	comparando	comparar	VERB	_	VerbForm=Ger	0	root	_	_
 3	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -8308,10 +8322,10 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	3	3	NUM	_	NumType=Card	14	nummod	_	_
 14	mm	mm	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Comparando novamente as temperaturas de resfriamento, só que dessa vez para espessura de 3 mm é possível notar uma tendência de aumento na resistência mecânica com o aumento da temperatura de resfriamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-271
+# sent_id = 51-20140924-MONOGRAFIA_0-270
 1	Comparando	comparar	VERB	_	VerbForm=Ger	0	root	_	_
 2	novamente	novamente	ADV	_	_	1	advmod	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -8354,7 +8368,7 @@
 37	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esse aumento na resistência mecânica, como pode ser visto na Tabela 9, não é significativo dado à grande variação de temperatura de resfriamento entre um ensaio e outro, porém essa variação precisa ser avaliada estatisticamente.
-# sent_id = 51-20140924-MONOGRAFIA_0-272
+# sent_id = 51-20140924-MONOGRAFIA_0-271
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -8402,12 +8416,12 @@
 42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Tabela 9:
-# sent_id = 51-20140924-MONOGRAFIA_0-273
+# sent_id = 51-20140924-MONOGRAFIA_0-272
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9:	9:	PUNCT	_	_	1	punct	_	_
 
 # text = Tensão máxima em diferentes temperaturas com espessura de 3 mm.
-# sent_id = 51-20140924-MONOGRAFIA_0-274
+# sent_id = 51-20140924-MONOGRAFIA_0-273
 1	Tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -8421,7 +8435,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para o módulo de elasticidade foram utilizadas as médias dos módulos por corpo de prova, de onde foi gerado a Tabela 10.
-# sent_id = 51-20140924-MONOGRAFIA_0-275
+# sent_id = 51-20140924-MONOGRAFIA_0-274
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	módulo	módulo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -8450,7 +8464,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Uma vez que grandes desvios em relação ao comportamento elástico do material ensaiado não foram observados, esse método de avaliação do módulo se mostrou muito promissor.
-# sent_id = 51-20140924-MONOGRAFIA_0-276
+# sent_id = 51-20140924-MONOGRAFIA_0-275
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	mark	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
@@ -8484,16 +8498,16 @@
 28	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 29	muito	muito	ADV	_	_	30	advmod	_	_
 30	promissor	promissor	ADJ	_	Gender=Masc|Number=Sing	28	xcomp	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 10:
-# sent_id = 51-20140924-MONOGRAFIA_0-277
+# sent_id = 51-20140924-MONOGRAFIA_0-276
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Módulo de elasticidade e o seu desvio padrão.
-# sent_id = 51-20140924-MONOGRAFIA_0-278
+# sent_id = 51-20140924-MONOGRAFIA_0-277
 1	Módulo	Módulo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	elasticidade	elasticidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8505,7 +8519,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = De acordo com a Tabela 10 podemos ver que tanto para a espessura de 1 mm quanto para as amostra com 3 mm, a temperatura de resfriamento teve pouca interferência no comportamento elástico do polímero, com uma aparente tendência de aumento quando se aumenta a temperatura de resfriamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-279
+# sent_id = 51-20140924-MONOGRAFIA_0-278
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -8563,7 +8577,7 @@
 53	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Entretanto, quando comparamos esses valores entre as espessuras ensaiadas, pode-se ver uma tendência de aumento para a menor espessura.
-# sent_id = 51-20140924-MONOGRAFIA_0-280
+# sent_id = 51-20140924-MONOGRAFIA_0-279
 1	Entretanto	entretanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quando	quando	ADV	_	_	4	advmod	_	_
@@ -8590,7 +8604,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = O PVDF homopolímero, como ensaiado, apresentou boa ductilidade, atingindo em média entre 57-62
-# sent_id = 51-20140924-MONOGRAFIA_0-281
+# sent_id = 51-20140924-MONOGRAFIA_0-280
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	homopolímero	homopolímero	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
@@ -8609,7 +8623,7 @@
 16	57-62	57-62	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 
 # text = MPa de tensão máxima e 11% de deformação máxima.
-# sent_id = 51-20140924-MONOGRAFIA_0-282
+# sent_id = 51-20140924-MONOGRAFIA_0-281
 1	MPa	MPa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8623,7 +8637,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A maioria dos corpos ensaiados apresentou a formação do pescoço, com exceção das amostras com 3 mm de espessura resfriados a temperatura de 50 e 80 ºC.
-# sent_id = 51-20140924-MONOGRAFIA_0-283
+# sent_id = 51-20140924-MONOGRAFIA_0-282
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	maioria	maioria	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -8661,7 +8675,7 @@
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Essa formação do pescoço é característica do comportamento de um polímero semicristalino em especial o PVDF com alta cristalinidade, cerca de 35-65%.
-# sent_id = 51-20140924-MONOGRAFIA_0-284
+# sent_id = 51-20140924-MONOGRAFIA_0-283
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8693,7 +8707,7 @@
 27	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Por tanto, os efeito que levaram a não formação do pescoço, nas condições citadas, devem ser avaliados a fim de compreender tal anormalidade.
-# sent_id = 51-20140924-MONOGRAFIA_0-285
+# sent_id = 51-20140924-MONOGRAFIA_0-284
 1	Por	por	ADP	_	_	2	case	_	_
 2	tanto	tanto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8727,7 +8741,7 @@
 29	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Quando comparamos as curvas dos corpos de prova com 1 mm e 3 mm de espessura, verificamos que o PVDF sofreu pouca influência da espessura em seu comportamento viscoelástico.
-# sent_id = 51-20140924-MONOGRAFIA_0-286
+# sent_id = 51-20140924-MONOGRAFIA_0-285
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	comparamos	comparar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -8765,7 +8779,7 @@
 33	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Do ponto de vista de tensão e deformação máxima essa influência foi ainda menor como podemos ver nas Tabelas 6 à10.
-# sent_id = 51-20140924-MONOGRAFIA_0-287
+# sent_id = 51-20140924-MONOGRAFIA_0-286
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8794,10 +8808,10 @@
 24	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Durante a comparação entre corpos de prova do mesmo molde para uma dada temperatura, as amostras com 3 mm apresentaram maior variação entre elas do que para as amostras de 1 mm de espessura, porém essa variação interna das propriedades mecânicas foi muito pequena em relação à similaridade dos dois métodos.
-# sent_id = 51-20140924-MONOGRAFIA_0-288
+# sent_id = 51-20140924-MONOGRAFIA_0-287
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+3	comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpacesAfter=\s\n
 4	entre	entre	ADP	_	_	5	case	_	_
 5	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -8861,12 +8875,12 @@
 59	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = 4.3 Raio-X
-# sent_id = 51-20140924-MONOGRAFIA_0-289
+# sent_id = 51-20140924-MONOGRAFIA_0-288
 1	4.3	4.3	NUM	_	NumType=Card	2	nummod	_	_
 2	Raio-X	Raio-X	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = A Figura 22 apresenta os difratogramas obtidos em análises por difração de Raios-X.
-# sent_id = 51-20140924-MONOGRAFIA_0-290
+# sent_id = 51-20140924-MONOGRAFIA_0-289
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	22	22	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -8883,7 +8897,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = As análises foram realizadas em amostras do PVDF homopolímero, não ensaiados, processados a partir dos pellets para estudo das estruturas formadas sob três condições: a temperatura de resfriamento de 20, 50 e 80 ºC.
-# sent_id = 51-20140924-MONOGRAFIA_0-291
+# sent_id = 51-20140924-MONOGRAFIA_0-290
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	análises	análise	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8931,7 +8945,7 @@
 42	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Todas as amostras analisadas foram processadas nas mesmas condições e foram recolhidas dos corpos de prova com 3 mm de espessura para as diferentes temperaturas de resfriamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-292
+# sent_id = 51-20140924-MONOGRAFIA_0-291
 1	Todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
@@ -8966,13 +8980,13 @@
 30	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 22:
-# sent_id = 51-20140924-MONOGRAFIA_0-293
+# sent_id = 51-20140924-MONOGRAFIA_0-292
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	22	22	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Análise de difração de Raio-X em amostras com 3 mm de espessura resfriados a diferentes temperaturas.
-# sent_id = 51-20140924-MONOGRAFIA_0-294
+# sent_id = 51-20140924-MONOGRAFIA_0-293
 1	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	difração	difração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8989,16 +9003,16 @@
 14	a	a	ADP	_	_	16	case	_	_
 15	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 16	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 11:
-# sent_id = 51-20140924-MONOGRAFIA_0-295
+# sent_id = 51-20140924-MONOGRAFIA_0-294
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultado da análise de DRX em amostras de PVDF homopolímero com 3 mm de espessura.
-# sent_id = 51-20140924-MONOGRAFIA_0-296
+# sent_id = 51-20140924-MONOGRAFIA_0-295
 1	Resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9019,11 +9033,11 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 
-# sent_id = 51-20140924-MONOGRAFIA_0-297
+# sent_id = 51-20140924-MONOGRAFIA_0-296
 1			PROPN	_	Number=Sing	0	root	_	_
 
 # text = Os resultados do difratograma com as amostras de PVDF homopolímero foram similares aos resultados obtido por ZUCOLOTTO, cujos picos encontrados para a fase α encontram-se nas posições 2Ɵ igual a 17,5; 18,4; 20 e 26,5, e podem ser comparados com os resultados da Tabela 11.
-# sent_id = 51-20140924-MONOGRAFIA_0-298
+# sent_id = 51-20140924-MONOGRAFIA_0-297
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9086,7 +9100,7 @@
 55	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = No entanto outro pico pode ser observado para o PVDF observado nesse trabalho a 38,5, e conforme PARK, esse pico pode ser indicativo de reflexões da fase γ [26], [27].
-# sent_id = 51-20140924-MONOGRAFIA_0-299
+# sent_id = 51-20140924-MONOGRAFIA_0-298
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	8	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -9133,7 +9147,7 @@
 41	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = Com relação à cristalinidade do polímero frente às diferentes temperaturas de resfriamento, podemos ver através da Tabela 12 que para a espessura estudada (e=3mm), essa temperatura teve pouca influência na porcentagem do mesmo, onde é possível ver uma tendência de aumento da cristalinidade com o gradual aumento de temperatura.
-# sent_id = 51-20140924-MONOGRAFIA_0-300
+# sent_id = 51-20140924-MONOGRAFIA_0-299
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -9205,7 +9219,7 @@
 62	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Todos os valores se encontram dentro da faixa de cristalinidade encontrada na literatura e esse valores foram obtidos utilizando um programa computacional pela comparação das áreas entre os picos e área total.
-# sent_id = 51-20140924-MONOGRAFIA_0-301
+# sent_id = 51-20140924-MONOGRAFIA_0-300
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	valores	valor	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -9218,7 +9232,7 @@
 9	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	cristalinidade	cristalinidade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-12	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_
+12	encontrada	encontrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	SpacesAfter=\s\n
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	_	_	15	case	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -9249,13 +9263,13 @@
 37	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tabela 12:
-# sent_id = 51-20140924-MONOGRAFIA_0-302
+# sent_id = 51-20140924-MONOGRAFIA_0-301
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	12	12	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Taxa de cristalinidade extraída diretamente do DRX para o PVDF com espessura de 3 mm e diferentes temperaturas de resfriamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-303
+# sent_id = 51-20140924-MONOGRAFIA_0-302
 1	Taxa	Taxa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	cristalinidade	cristalinidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -9281,7 +9295,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Inicialmente pensou-se que a não formação do pescoço, no ensaio de tração, com os corpos de prova com espessura de 3 mm e resfriados a temperatura de 50 e 80 ºC, estivesse associado a taxa de cristalinidade.
-# sent_id = 51-20140924-MONOGRAFIA_0-304
+# sent_id = 51-20140924-MONOGRAFIA_0-303
 1	Inicialmente	inicialmente	ADV	_	_	2	advmod	_	_
 2-3	pensou-se	_	_	_	_	_	_	_	_
 2	pensou	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9331,7 +9345,7 @@
 44	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = De posse dos resultados da Tabela 12 é possível ver que esse comportamento não esta relacionado ao fator cristalinidade e posteriormente deve-se avaliar microestruturalmente esse desvio em relação ao padrão de empescoçamento esperado para esse polímero.
-# sent_id = 51-20140924-MONOGRAFIA_0-305
+# sent_id = 51-20140924-MONOGRAFIA_0-304
 1	De	de	ADP	_	_	2	case	_	_
 2	posse	posse	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -9378,10 +9392,10 @@
 39	para	para	ADP	_	_	41	case	_	_
 40	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	41	det	_	_
 41	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = 5. CONCLUSÕES - O processamento do polímero em moldes, especialmente fabricados, mostrou-se eficiente e reprodutivo.
-# sent_id = 51-20140924-MONOGRAFIA_0-306
+# sent_id = 51-20140924-MONOGRAFIA_0-305
 1	5	5	NUM	_	NumType=Card	14	nsubj:pass	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	CONCLUSÕES	conclusões	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -9407,7 +9421,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Quando comparado ao processamento em placas com posterior extração do corpo utilizando-se ferramentas de corte, o primeiro apresentou melhor acabamento superficial.
-# sent_id = 51-20140924-MONOGRAFIA_0-307
+# sent_id = 51-20140924-MONOGRAFIA_0-306
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	comparado	comparar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
 3-4	ao	_	_	_	_	_	_	_	_
@@ -9439,7 +9453,7 @@
 26	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = - Não foram observadas variações significativas nas propriedades mecânicas em tração, tanto na parte elástica quanto na parte plástica da curva, independente da posição do corpo de prova no molde para as duas espessuras estudadas.
-# sent_id = 51-20140924-MONOGRAFIA_0-308
+# sent_id = 51-20140924-MONOGRAFIA_0-307
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	Não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -9494,7 +9508,7 @@
 45	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Isso garante que todos os corpos podem ser utilizados e comparados igualmente, independentes da posição.
-# sent_id = 51-20140924-MONOGRAFIA_0-309
+# sent_id = 51-20140924-MONOGRAFIA_0-308
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	garante	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	9	mark	_	_
@@ -9516,7 +9530,7 @@
 18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = - Durante os ensaios de tração com os corpos de 3 mm de espessura observou-se uma tendência de aumento na resistência mecânica para os corpos de prova obtidos a temperatura de resfriamento mais elevada.
-# sent_id = 51-20140924-MONOGRAFIA_0-310
+# sent_id = 51-20140924-MONOGRAFIA_0-309
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	Durante	Durante	ADP	_	_	4	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -9558,7 +9572,7 @@
 37	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Esse mesmo fenômeno não foi observado para os corpos com 1 mm de espessura, o que sugere um comportamento de casca do segundo.
-# sent_id = 51-20140924-MONOGRAFIA_0-311
+# sent_id = 51-20140924-MONOGRAFIA_0-310
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
@@ -9588,7 +9602,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = No entanto uma análise mais detalhada se faz necessária para a melhor compreensão dos efeitos que levam a essa tendência de comportamento.
-# sent_id = 51-20140924-MONOGRAFIA_0-312
+# sent_id = 51-20140924-MONOGRAFIA_0-311
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9618,7 +9632,7 @@
 25	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = - O polímero apresentou pouca variação do módulo de elasticidade com relação ao aumento da temperatura de resfriamento, mas viu-se uma tendência de aumento desse mesmo valor quando se diminui a espessura.
-# sent_id = 51-20140924-MONOGRAFIA_0-313
+# sent_id = 51-20140924-MONOGRAFIA_0-312
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -9665,7 +9679,7 @@
 39	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Essas alterações com relação à diminuição da temperatura devem ser avaliadas estatisticamente.
-# sent_id = 51-20140924-MONOGRAFIA_0-314
+# sent_id = 51-20140924-MONOGRAFIA_0-313
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	alterações	alteração	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -9685,7 +9699,7 @@
 15	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = - Os resultados mostraram que quanto maior a temperatura de resfriamento maior é a taxa de cristalinidade, porém esse aumento foi pequeno com relação às grandes variações de temperatura.
-# sent_id = 51-20140924-MONOGRAFIA_0-315
+# sent_id = 51-20140924-MONOGRAFIA_0-314
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -9721,7 +9735,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = - Na caracterização do PVDF, as análises DRX indicaram que a fase α seria predominante no material processado, no entanto uma análise mais detalhada se faz necessária para a compreensão das diferentes estruturas formadas nesse material e sua influência nas propriedades mecânicas.
-# sent_id = 51-20140924-MONOGRAFIA_0-316
+# sent_id = 51-20140924-MONOGRAFIA_0-315
 1	-	-	PUNCT	_	_	4	punct	_	_
 2-3	Na	_	_	_	_	_	_	_	_
 2	Em	em	ADP	_	_	4	case	_	_
@@ -9757,7 +9771,7 @@
 29	mais	mais	ADV	_	_	30	advmod	_	_
 30	detalhada	detalhar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	32	acl	_	_
 31	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	expl	_	_
-32	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+32	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpacesAfter=\s\n
 33	necessária	necessária	ADJ	_	Gender=Fem|Number=Sing	32	xcomp	_	_
 34	para	para	ADP	_	_	36	case	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
@@ -9780,10 +9794,10 @@
 49	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
 50	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	47	nmod	_	_
 51	mecânicas	mecânico	ADJ	_	Gender=Fem|Number=Plur	50	amod	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+52	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 6. SUGESTÕES - Verificar e otimizar o processo de degasagem durante o processamento a fim de investigar sua influência no comportamento final do polímero.
-# sent_id = 51-20140924-MONOGRAFIA_0-317
+# sent_id = 51-20140924-MONOGRAFIA_0-316
 1	6	6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	SUGESTÕES	sugestões	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -9816,7 +9830,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = - Repetir as etapas de processamento para o PVDF com as mesmas espessuras, mas com temperaturas de resfriamento mais elevadas.
-# sent_id = 51-20140924-MONOGRAFIA_0-318
+# sent_id = 51-20140924-MONOGRAFIA_0-317
 1	-	-	PUNCT	_	_	0	root	_	_
 2	Repetir	repetir	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -9841,7 +9855,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = E assim observar sua relação com as propriedades mecânicas.
-# sent_id = 51-20140924-MONOGRAFIA_0-319
+# sent_id = 51-20140924-MONOGRAFIA_0-318
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	assim	asssim	ADV	_	_	3	advmod	_	_
 3	observar	observar	VERB	_	VerbForm=Inf	0	root	_	_
@@ -9854,7 +9868,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = - Avaliar o efeito do tempo de resfriamento adotado, para uma dada temperatura de resfriamento, na cristalização do polímero a partir do fundido.
-# sent_id = 51-20140924-MONOGRAFIA_0-320
+# sent_id = 51-20140924-MONOGRAFIA_0-319
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Avaliar	avaliar	VERB	_	VerbForm=Inf	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -9891,7 +9905,7 @@
 30	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = - Avaliar futuramente o módulo de elasticidade repetindo os ensaios de tração para as mesmas condições de processamento, porém, com a velocidade de travessão compatível com a norma.
-# sent_id = 51-20140924-MONOGRAFIA_0-321
+# sent_id = 51-20140924-MONOGRAFIA_0-320
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Avaliar	avaliar	VERB	_	VerbForm=Inf	0	root	_	_
 3	futuramente	futuramente	ADV	_	_	2	advmod	_	_
@@ -9925,7 +9939,7 @@
 31	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Uma vez que os ensaios foram conduzidos com velocidade em desacordo com o tipo de material e suas dimensões, esses novos ensaios serviram para comparar os valores encontrados com os valores vigentes na literatura.
-# sent_id = 51-20140924-MONOGRAFIA_0-322
+# sent_id = 51-20140924-MONOGRAFIA_0-321
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	mark	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
@@ -9966,7 +9980,7 @@
 37	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = - Verificar microestruturalmente o efeito da espessura nas propriedades mecânicas e na taxa de cristalização.
-# sent_id = 51-20140924-MONOGRAFIA_0-323
+# sent_id = 51-20140924-MONOGRAFIA_0-322
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Verificar	verificar	VERB	_	VerbForm=Inf	0	root	_	_
 3	microestruturalmente	microestruturalmente	ADV	_	_	2	advmod	_	_
@@ -9991,7 +10005,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = - Avaliar a não formação do pescoço nos corpos de prova com 3 mm de espessura resfriados nas temperaturas de 50 e 80 ºC. - Estudar uma possível cristalização secundária e seus efeitos nas propriedades finais do polímero.
-# sent_id = 51-20140924-MONOGRAFIA_0-324
+# sent_id = 51-20140924-MONOGRAFIA_0-323
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Avaliar	avaliar	VERB	_	VerbForm=Inf	0	root	_	_
 3	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -10041,5 +10055,5 @@
 42	de	de	ADP	_	_	44	case	_	_
 43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+45	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 

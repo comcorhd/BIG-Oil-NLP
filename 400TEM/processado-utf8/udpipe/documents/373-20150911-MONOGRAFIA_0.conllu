@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 373-20150911-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO Desde a revolução industrial quando o homem passou a utilizar maquinas a vapor para gerar trabalho, busca-se a otimização do desempenho e adequação aos variados tipos de combustíveis.
@@ -376,7 +376,7 @@
 29	água	água	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 30	em	em	ADP	_	_	31	case	_	_
 31	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Mas alguns desses métodos utilizados geram subprodutos que precisam ser tratados ou utilizados de alguma forma, por exemplo, a glicerina que é um subproduto da reação de transesterificação na produção do biodiesel.
 # sent_id = 373-20150911-MONOGRAFIA_0-12
@@ -623,12 +623,12 @@
 41	de	de	ADP	_	_	42	case	_	_
 42	poluentes	poluente	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	_
 43	possível	possível	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = REVISÃO BIBLIOGRÁFICA 2.
 # sent_id = 373-20150911-MONOGRAFIA_0-17
 1	REVISÃO	revisão	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
-2	BIBLIOGRÁFICA	Bibliográficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	BIBLIOGRÁFICA	Bibliográficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\n
 3	2	2	NUM	_	NumType=Card	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -970,20 +970,19 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	figura	figura	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-16	1:	1:	PUNCT	_	_	2	punct	_	_
+16	1:	1:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 
-# text = Figura 1- Consumo de diesel no mercado brasileiro
+# text = Figura 1-Consumo de diesel no mercado brasileiro
 # sent_id = 373-20150911-MONOGRAFIA_0-29
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	1-	1	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-3	Consumo	Consumo	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	diesel	diesel	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	_	_	8	case	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-9	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	1-Consumo	1-Consumo	PROPN	_	Number=Sing	1	flat:name	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	diesel	diesel	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+8	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 
 # text = Para ser comercializado o diesel precisa atender determinadas características e normas estabelecidas pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP).
 # sent_id = 373-20150911-MONOGRAFIA_0-30
@@ -1179,7 +1178,7 @@
 2	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	diesel	diesel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
-# text = A S10 e B S10 são combustíveis com teor de enxofre, máximo, de . 2.2
+# text = A S10 e B S10 são combustíveis com teor de enxofre, máximo, de .
 # sent_id = 373-20150911-MONOGRAFIA_0-38
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	S10	S10	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -1193,14 +1192,17 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	enxofre	enxofre	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	máximo	grande	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
-17	2.2	2.2	NUM	_	NumType=Card	7	obl	_	_
+13	máximo	grande	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
+
+# text = 2.2
+# sent_id = 373-20150911-MONOGRAFIA_0-39
+1	2.2	2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Propriedades e especificações do combustível diesel 2.2.1
-# sent_id = 373-20150911-MONOGRAFIA_0-39
+# sent_id = 373-20150911-MONOGRAFIA_0-40
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	especificações	especificação	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
@@ -1212,11 +1214,11 @@
 8	2.2.1	2.2.1	NUM	_	NumType=Card	6	nummod	_	_
 
 # text = Viscosidade
-# sent_id = 373-20150911-MONOGRAFIA_0-40
+# sent_id = 373-20150911-MONOGRAFIA_0-41
 1	Viscosidade	Viscosidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = É uma medida da resistência oferecida pelo diesel ao escoamento.
-# sent_id = 373-20150911-MONOGRAFIA_0-41
+# sent_id = 373-20150911-MONOGRAFIA_0-42
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	medida	medida	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -1236,7 +1238,7 @@
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Seu controle visa permitir uma boa atomização do óleo e preservar sua característica lubrificante.
-# sent_id = 373-20150911-MONOGRAFIA_0-42
+# sent_id = 373-20150911-MONOGRAFIA_0-43
 1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	det	_	_
 2	controle	controle	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1256,7 +1258,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Valores de viscosidade abaixo da faixa podem levar a desgaste excessivo nas partes auto-lubrificantes do sistema de injeção, vazamento na bomba de combustível e danos ao pistão.
-# sent_id = 373-20150911-MONOGRAFIA_0-43
+# sent_id = 373-20150911-MONOGRAFIA_0-44
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1298,7 +1300,7 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Viscosidades superiores à faixa podem levar a um aumento do trabalho da bomba de combustível, que trabalhará forçada e apresentará menor vida útil, além de dificultar a atomização do combustível, ocasionando uma combustão incompleta e aumento da emissão de fumaça e material particulado.
-# sent_id = 373-20150911-MONOGRAFIA_0-44
+# sent_id = 373-20150911-MONOGRAFIA_0-45
 1	Viscosidades	Viscosidade	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 2	superiores	alto	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -1358,15 +1360,15 @@
 52	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 2.2.2
-# sent_id = 373-20150911-MONOGRAFIA_0-45
+# sent_id = 373-20150911-MONOGRAFIA_0-46
 1	2.2.2	2.2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Volatilidade
-# sent_id = 373-20150911-MONOGRAFIA_0-46
+# sent_id = 373-20150911-MONOGRAFIA_0-47
 1	Volatilidade	Volatilidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A volatilidade do diesel é medida pela temperatura de destilação versus percentual evaporado na pressão atmosférica.
-# sent_id = 373-20150911-MONOGRAFIA_0-47
+# sent_id = 373-20150911-MONOGRAFIA_0-48
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	volatilidade	volatilidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1392,7 +1394,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Por exemplo, um diesel comum consiste de uma mistura de componentes hidrocarbonetos que evaporam numa faixa de 186 a 390ºC.
-# sent_id = 373-20150911-MONOGRAFIA_0-48
+# sent_id = 373-20150911-MONOGRAFIA_0-49
 1	Por	por	ADP	_	_	7	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -1419,7 +1421,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em 50% do volume recuperado de uma amostra de 100 mL, a temperatura de destilação está entre 245 e 310ºC, e para 85% do volume recuperado da mesma amostra de 100 mL, a temperatura de destilação fica na faixa de 360 a 370ºC (conforme RESOLUÇÃO ANP Nº 15, 2006).
-# sent_id = 373-20150911-MONOGRAFIA_0-49
+# sent_id = 373-20150911-MONOGRAFIA_0-50
 1	Em	em	ADP	_	_	3	case	_	_
 2	50	50	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 3	%	%	SYM	_	_	21	nmod	_	_
@@ -1488,7 +1490,7 @@
 62	.	.	PUNCT	_	_	45	punct	_	_
 
 # text = A boa volatilidade garante um arranque mais fácil do motor, devido a melhor combustão da mistura, produzindo níveis aceitáveis de particulados.
-# sent_id = 373-20150911-MONOGRAFIA_0-50
+# sent_id = 373-20150911-MONOGRAFIA_0-51
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	boa	bom	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	volatilidade	volatilidade	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -1519,17 +1521,17 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 2.2.3
-# sent_id = 373-20150911-MONOGRAFIA_0-51
+# sent_id = 373-20150911-MONOGRAFIA_0-52
 1	2.2.3	2.2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Calor de vaporização
-# sent_id = 373-20150911-MONOGRAFIA_0-52
+# sent_id = 373-20150911-MONOGRAFIA_0-53
 1	Calor	calor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	vaporização	vaporização	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = O calor de vaporização de um líquido é a quantidade de calor suficiente para evaporar um mol deste líquido sem mudar a sua temperatura.
-# sent_id = 373-20150911-MONOGRAFIA_0-53
+# sent_id = 373-20150911-MONOGRAFIA_0-54
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1559,7 +1561,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = O calor de vaporização pode ter um efeito de aquecimento ou resfriamento na mistura ar-combustível, o baixo calor de vaporização proporciona uma combustão mais completa, reduzindo as emissões.
-# sent_id = 373-20150911-MONOGRAFIA_0-54
+# sent_id = 373-20150911-MONOGRAFIA_0-55
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1582,7 +1584,7 @@
 19	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 20	calor	calor	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 21	de	de	ADP	_	_	22	case	_	_
-22	vaporização	vaporização	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+22	vaporização	vaporização	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpacesAfter=\s\n
 23	proporciona	proporcional	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	combustão	combustão	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
@@ -1595,7 +1597,7 @@
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O alto calor de vaporização provoca atraso de ignição do combustível, quando este é pulverizado no ar aquecido, devido ao resfriamento da temperatura do ar.
-# sent_id = 373-20150911-MONOGRAFIA_0-55
+# sent_id = 373-20150911-MONOGRAFIA_0-56
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	alto	alto	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	calor	calor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -1636,7 +1638,7 @@
 33	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os combustíveis de elevado ponto de ebulição levam a um atraso da ignição, quando evapora após a injeção.
-# sent_id = 373-20150911-MONOGRAFIA_0-56
+# sent_id = 373-20150911-MONOGRAFIA_0-57
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	combustíveis	combustível	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -1661,7 +1663,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O retardo na ignição deve ser o mínimo possível; senão chega à câmara de combustão uma quantidade excessiva de combustível não queimado, provocando aumento de pressão no próximo tempo de compressão, diminuição da lubricidade entre as camisas dos cilindros e os anéis de segmento do pistão.
-# sent_id = 373-20150911-MONOGRAFIA_0-57
+# sent_id = 373-20150911-MONOGRAFIA_0-58
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	retardo	retardo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -1726,7 +1728,7 @@
 56	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = O calor de vaporização é um dos parâmetros mais importantes para combustíveis alternativos, pois os aditivos podem alterar esta propriedade (Peralta, 2000).
-# sent_id = 373-20150911-MONOGRAFIA_0-58
+# sent_id = 373-20150911-MONOGRAFIA_0-59
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	calor	calor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1758,17 +1760,17 @@
 28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 2.2.4
-# sent_id = 373-20150911-MONOGRAFIA_0-59
+# sent_id = 373-20150911-MONOGRAFIA_0-60
 1	2.2.4	2.2.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Ponto de névoa
-# sent_id = 373-20150911-MONOGRAFIA_0-60
+# sent_id = 373-20150911-MONOGRAFIA_0-61
 1	Ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	névoa	névoa	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = O ponto de névoa é a temperatura na qual cristais de parafina começam a surgir.
-# sent_id = 373-20150911-MONOGRAFIA_0-61
+# sent_id = 373-20150911-MONOGRAFIA_0-62
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1789,7 +1791,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = As parafinas contidas em hidrocarbonetos de elevado ponto de ebulição são produtos sólidos a temperatura ambiente e, portanto, separam-se dos demais componentes.
-# sent_id = 373-20150911-MONOGRAFIA_0-62
+# sent_id = 373-20150911-MONOGRAFIA_0-63
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	parafinas	parafina	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
 3	contidas	contir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -1821,7 +1823,7 @@
 27	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = No diesel elas se mantêm dissolvidas, mas a baixas temperaturas, dependendo da concentração de parafinas, estas podem se separar dos outros constituintes sob a forma de pequenos cristais que, no sistema de alimentação dos motores, causaria a obstrução dos filtros de combustível.
-# sent_id = 373-20150911-MONOGRAFIA_0-63
+# sent_id = 373-20150911-MONOGRAFIA_0-64
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1884,7 +1886,7 @@
 54	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = O valor máximo legal admitido para o ponto de névoa do diesel no Brasil depende da região e da sazonalidade.
-# sent_id = 373-20150911-MONOGRAFIA_0-64
+# sent_id = 373-20150911-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	máximo	grande	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1916,7 +1918,7 @@
 25	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Para reduzir a ocorrência deste problema são utilizados aditivos em dosagens bastante reduzidas (Peralta, 2000).
-# sent_id = 373-20150911-MONOGRAFIA_0-65
+# sent_id = 373-20150911-MONOGRAFIA_0-66
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	reduzir	reduzir	VERB	_	VerbForm=Inf	9	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1937,20 +1939,20 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	2000	2000	NUM	_	NumType=Card	16	appos:parataxis	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = 2.2.5
-# sent_id = 373-20150911-MONOGRAFIA_0-66
+# sent_id = 373-20150911-MONOGRAFIA_0-67
 1	2.2.5	2.2.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Número de cetano
-# sent_id = 373-20150911-MONOGRAFIA_0-67
+# sent_id = 373-20150911-MONOGRAFIA_0-68
 1	Número	número	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	cetano	cetano	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O número de cetano no diesel está para o motor diesel assim como o número de octanas na gasolina está para o motor ciclo Otto.
-# sent_id = 373-20150911-MONOGRAFIA_0-68
+# sent_id = 373-20150911-MONOGRAFIA_0-69
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	número	número	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1983,7 +1985,7 @@
 28	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Fisicamente, o número de cetano se relaciona diretamente com o retardo de ignição de combustível no motor, de modo que, quanto menor o número de cetano maior será o retardo da ignição.
-# sent_id = 373-20150911-MONOGRAFIA_0-69
+# sent_id = 373-20150911-MONOGRAFIA_0-70
 1	Fisicamente	fisicamente	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2026,7 +2028,7 @@
 38	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Consequentemente, maior será a quantidade de combustível que permanecerá na câmara sem queimar no tempo correto.
-# sent_id = 373-20150911-MONOGRAFIA_0-70
+# sent_id = 373-20150911-MONOGRAFIA_0-71
 1	Consequentemente	consequentemente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	maior	grande	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -2051,7 +2053,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Isso causará um funcionamento incorreto do motor, pois quando a queima acontecer produzirá uma quantidade de energia superior àquela necessária.
-# sent_id = 373-20150911-MONOGRAFIA_0-71
+# sent_id = 373-20150911-MONOGRAFIA_0-72
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	causará	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2080,7 +2082,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Esse excesso de energia força o pistão a descer com velocidade superior a normal, o que provocará sobrecarga sobre os pistões, podendo causar danos mecânicos e perda de potência.
-# sent_id = 373-20150911-MONOGRAFIA_0-72
+# sent_id = 373-20150911-MONOGRAFIA_0-73
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	excesso	excesso	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2115,17 +2117,17 @@
 32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 2.2.6
-# sent_id = 373-20150911-MONOGRAFIA_0-73
+# sent_id = 373-20150911-MONOGRAFIA_0-74
 1	2.2.6	2.2.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Ponto de escoamento
-# sent_id = 373-20150911-MONOGRAFIA_0-74
+# sent_id = 373-20150911-MONOGRAFIA_0-75
 1	Ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O ponto de escoamento representa à temperatura mínima a qual o diesel flui ou escoa, ao ser submetido a um processo de resfriamento.
-# sent_id = 373-20150911-MONOGRAFIA_0-75
+# sent_id = 373-20150911-MONOGRAFIA_0-76
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2157,7 +2159,7 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O ponto de escoamento indica a temperatura abaixo da qual não é possível utilizar a gravidade para transportar o combustível do reservatório ao motor (Luciano, 1991).
-# sent_id = 373-20150911-MONOGRAFIA_0-76
+# sent_id = 373-20150911-MONOGRAFIA_0-77
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2196,18 +2198,18 @@
 33	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 2.2.7
-# sent_id = 373-20150911-MONOGRAFIA_0-77
+# sent_id = 373-20150911-MONOGRAFIA_0-78
 1	2.2	2.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.7	.7	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Ponto de fulgor
-# sent_id = 373-20150911-MONOGRAFIA_0-78
+# sent_id = 373-20150911-MONOGRAFIA_0-79
 1	Ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fulgor	fulgor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O ponto de fulgor é a menor temperatura na qual um combustível libera vapores em quantidade suficiente para formar uma mistura inflamável por uma fonte externa de calor.
-# sent_id = 373-20150911-MONOGRAFIA_0-79
+# sent_id = 373-20150911-MONOGRAFIA_0-80
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2241,7 +2243,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A temperatura de fulgor não é suficiente para que a combustão seja mantida, ou seja, retirando-se a fonte de calor, acaba a inflamação da mistura.
-# sent_id = 373-20150911-MONOGRAFIA_0-80
+# sent_id = 373-20150911-MONOGRAFIA_0-81
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2277,7 +2279,7 @@
 31	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Trata-se de um dado importante para classificação dos produtos combustíveis, em especial no que se refere à segurança, aos riscos de transporte, armazenagem e manuseio.
-# sent_id = 373-20150911-MONOGRAFIA_0-81
+# sent_id = 373-20150911-MONOGRAFIA_0-82
 1-2	Trata-se	_	_	_	_	_	_	_	_
 1	Trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -2319,7 +2321,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O ponto de fulgor é uma característica do diesel que está relacionada à sua inflamabilidade e serve como parâmetro de segurança que deve ser seguido durante o manuseio, transporte, armazenamento e uso do produto.
-# sent_id = 373-20150911-MONOGRAFIA_0-82
+# sent_id = 373-20150911-MONOGRAFIA_0-83
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2365,8 +2367,8 @@
 40	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O Ponto de Fulgor não tem interferência direta no funcionamento do motor (Luciano, 1991).
-# sent_id = 373-20150911-MONOGRAFIA_0-83
-1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+# sent_id = 373-20150911-MONOGRAFIA_0-84
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\n
 2	Ponto	ponto	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Fulgor	fulgor	PROPN	_	Number=Sing	2	nmod	_	_
@@ -2390,7 +2392,7 @@
 20	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Através do ponto de fulgor distinguem-se os líquidos combustíveis e inflamáveis, de acordo com a Norma Regulamentadora NR-20/98 e como mostra a tabela 1: Tabela 1:
-# sent_id = 373-20150911-MONOGRAFIA_0-84
+# sent_id = 373-20150911-MONOGRAFIA_0-85
 1	Através	através	ADV	_	_	7	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2424,7 +2426,7 @@
 29	1:	1:	PROPN	_	Number=Sing	28	flat:name	_	_
 
 # text = Classificação dos combustíveis quanto ao ponto de fulgor 2.2.8
-# sent_id = 373-20150911-MONOGRAFIA_0-85
+# sent_id = 373-20150911-MONOGRAFIA_0-86
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2436,15 +2438,15 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
 9	de	de	ADP	_	_	5	fixed	_	_
-10	fulgor	fulgor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+10	fulgor	fulgor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 11	2.2.8	2.2.8	NUM	_	NumType=Card	10	nummod	_	_
 
 # text = Densidade
-# sent_id = 373-20150911-MONOGRAFIA_0-86
+# sent_id = 373-20150911-MONOGRAFIA_0-87
 1	Densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A densidade revela a quantidade de massa por unidade de volume do combustível que é injetada no motor.
-# sent_id = 373-20150911-MONOGRAFIA_0-87
+# sent_id = 373-20150911-MONOGRAFIA_0-88
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2470,7 +2472,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Como a bomba injetora alimenta o motor com volumes constantes para cada condição de operação, variando-se a densidade, muda-se a massa de combustível injetada.
-# sent_id = 373-20150911-MONOGRAFIA_0-88
+# sent_id = 373-20150911-MONOGRAFIA_0-89
 1	Como	como	SCONJ	_	_	5	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -2504,7 +2506,7 @@
 29	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Altas densidades causam um enriquecimento da mistura (ar + combustível), provocando acréscimo das emissões de particulados, monóxido de carbono (CO), hidrocarbonetos.
-# sent_id = 373-20150911-MONOGRAFIA_0-89
+# sent_id = 373-20150911-MONOGRAFIA_0-90
 1	Altas	alto	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 2	densidades	densidade	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	causam	causar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2540,7 +2542,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Porem, para valores muito baixos de densidade ocorre perda de potência e problemas de dirigibilidade (Martinelli Jr., 1998).
-# sent_id = 373-20150911-MONOGRAFIA_0-90
+# sent_id = 373-20150911-MONOGRAFIA_0-91
 1	Porem	Porer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -2566,17 +2568,17 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.2.9
-# sent_id = 373-20150911-MONOGRAFIA_0-91
+# sent_id = 373-20150911-MONOGRAFIA_0-92
 1	2.2.9	2.2.9	NUM	_	NumType=Card	0	root	_	_
 
 # text = Teor de enxofre
-# sent_id = 373-20150911-MONOGRAFIA_0-92
+# sent_id = 373-20150911-MONOGRAFIA_0-93
 1	Teor	teor	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	enxofre	enxofre	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Na constituição química do petróleo existem compostos de enxofre que, após o refino será retirado do diesel afim de que apresente um teor mínimo de enxofre.
-# sent_id = 373-20150911-MONOGRAFIA_0-93
+# sent_id = 373-20150911-MONOGRAFIA_0-94
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2613,7 +2615,7 @@
 31	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Quando é feita a combustão do diesel, o enxofre presente se transforma em óxidos de enxofre , que são emitidos para atmosfera ou se transformam em ácidos na câmara de combustão, provocando o desgaste de anéis, cilindros e da própria câmara.
-# sent_id = 373-20150911-MONOGRAFIA_0-94
+# sent_id = 373-20150911-MONOGRAFIA_0-95
 1	Quando	quando	SCONJ	_	_	3	mark	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	advcl	_	_
@@ -2667,7 +2669,7 @@
 48	.	.	PUNCT	_	_	36	punct	_	_
 
 # text = Portanto, um teor de enxofre menor no diesel aumenta a vida útil do motor e diminui a emissão de poluentes, como, a emissão de particulados e óxidos de enxofre, que são agentes precursores da chuva ácida.
-# sent_id = 373-20150911-MONOGRAFIA_0-95
+# sent_id = 373-20150911-MONOGRAFIA_0-96
 1	Portanto	portanto	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2717,7 +2719,7 @@
 44	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Entretanto, os compostos de enxofre presentes no diesel possuem um efeito positivo nas propriedades do combustível, porque aumentam sua lubricidade.
-# sent_id = 373-20150911-MONOGRAFIA_0-96
+# sent_id = 373-20150911-MONOGRAFIA_0-97
 1	Entretanto	entretanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -2749,7 +2751,7 @@
 26	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Os processos utilizados na redução da concentração desses compostos no óleo diesel provocam a redução da sua lubricidade, fazendo com que seja necessária a aditivação, em determinados casos, para manter esta propriedade em nível aceitável (Ramos, 2003).
-# sent_id = 373-20150911-MONOGRAFIA_0-97
+# sent_id = 373-20150911-MONOGRAFIA_0-98
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -2803,18 +2805,18 @@
 46	,	,	PUNCT	_	_	47	punct	_	_
 47	2003	2003	NUM	_	NumType=Card	45	appos:parataxis	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+49	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text = 2.2.10
-# sent_id = 373-20150911-MONOGRAFIA_0-98
+# sent_id = 373-20150911-MONOGRAFIA_0-99
 1	2.2.10	2.2.10	NUM	_	NumType=Card	0	root	_	_
 
 # text = Corrosão
-# sent_id = 373-20150911-MONOGRAFIA_0-99
+# sent_id = 373-20150911-MONOGRAFIA_0-100
 1	Corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A corrosão e o desgaste estão associados à presença de enxofre, cinzas e resíduos do combustível.
-# sent_id = 373-20150911-MONOGRAFIA_0-100
+# sent_id = 373-20150911-MONOGRAFIA_0-101
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	corrosão	corrosão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -2839,7 +2841,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O combustível não pode causar corrosão antes da combustão, ou corrosão e desgaste após a combustão.
-# sent_id = 373-20150911-MONOGRAFIA_0-101
+# sent_id = 373-20150911-MONOGRAFIA_0-102
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	combustível	combustível	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -2862,7 +2864,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os componentes do motor e o combustível diesel são feitos para serem compatíveis.
-# sent_id = 373-20150911-MONOGRAFIA_0-102
+# sent_id = 373-20150911-MONOGRAFIA_0-103
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	componentes	componente	NOUN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2881,7 +2883,7 @@
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Tendo em vista que o óleo diesel é um bom lubrificante, sendo assim usado para lubrificar parte da bomba de injeção de combustível (Martinelli Jr., 1998).
-# sent_id = 373-20150911-MONOGRAFIA_0-103
+# sent_id = 373-20150911-MONOGRAFIA_0-104
 1	Tendo	ter	VERB	_	VerbForm=Ger	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	vista	vista	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
@@ -2917,17 +2919,17 @@
 32	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.3
-# sent_id = 373-20150911-MONOGRAFIA_0-104
+# sent_id = 373-20150911-MONOGRAFIA_0-105
 1	2.3	2.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = O ciclo diesel
-# sent_id = 373-20150911-MONOGRAFIA_0-105
+# sent_id = 373-20150911-MONOGRAFIA_0-106
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	diesel	diesel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
 # text = O motor de ciclo diesel caracteriza-se pelo fato de o ar ser admitido no cilindro e comprimido até atingir altas temperaturas.
-# sent_id = 373-20150911-MONOGRAFIA_0-106
+# sent_id = 373-20150911-MONOGRAFIA_0-107
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motor	motor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2958,7 +2960,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A injeção de combustível, teoricamente, só se inicia ao final do tempo de compressão e é feita a uma taxa que possibilita a queima à pressão constante (WYLEL et al., 1998).
-# sent_id = 373-20150911-MONOGRAFIA_0-107
+# sent_id = 373-20150911-MONOGRAFIA_0-108
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3004,7 +3006,7 @@
 40	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O ar é admitido à câmara no primeiro ciclo.
-# sent_id = 373-20150911-MONOGRAFIA_0-108
+# sent_id = 373-20150911-MONOGRAFIA_0-109
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ar	ar	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3021,7 +3023,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = No segundo ciclo, o pistão faz a compressão dessa massa de ar e ao término da compressão, injeta-se combustível a alta pressão no interior da câmara.
-# sent_id = 373-20150911-MONOGRAFIA_0-109
+# sent_id = 373-20150911-MONOGRAFIA_0-110
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3067,7 +3069,7 @@
 36	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Dada as altas temperatura e pressão no interior da câmara, a mistura sofre a explosão ao final do ciclo.
-# sent_id = 373-20150911-MONOGRAFIA_0-110
+# sent_id = 373-20150911-MONOGRAFIA_0-111
 1	Dada	dar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 3	altas	alto	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -3099,7 +3101,7 @@
 25	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = A expansão do gás resultante da explosão, após a injeção do diesel, origina o terceiro ciclo.
-# sent_id = 373-20150911-MONOGRAFIA_0-111
+# sent_id = 373-20150911-MONOGRAFIA_0-112
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -3127,7 +3129,7 @@
 22	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Finalmente o resultado da explosão é liberado pelas válvulas, quando então, reinicia-se o processo, de acordo com a figura 2.
-# sent_id = 373-20150911-MONOGRAFIA_0-112
+# sent_id = 373-20150911-MONOGRAFIA_0-113
 1	Finalmente	finalmente	ADV	_	_	8	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
@@ -3160,13 +3162,13 @@
 27	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 2:
-# sent_id = 373-20150911-MONOGRAFIA_0-113
+# sent_id = 373-20150911-MONOGRAFIA_0-114
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Apresenta o ciclo padrão de ar Diesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-114
+# sent_id = 373-20150911-MONOGRAFIA_0-115
 1	Apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	ciclo	ciclo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -3174,10 +3176,10 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	ar	ar	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	Diesel	Diesel	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = O ciclo diesel consiste das seguintes etapas: 1  2 compressão isentrópica com aumento da temperatura; 2  3 absorção de calor a pressão constante e injeção do combustível; 3  4 expansão isentrópica com redução da temperatura; 4  1 expulsão dos gases a volume constante e perda de calor.
-# sent_id = 373-20150911-MONOGRAFIA_0-115
+# sent_id = 373-20150911-MONOGRAFIA_0-116
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ciclo	ciclo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	diesel	diesel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3246,7 +3248,7 @@
 61	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O rendimento térmico teórico do ciclo diesel fechado equivalente é dado pela equação (1): (1)
-# sent_id = 373-20150911-MONOGRAFIA_0-116
+# sent_id = 373-20150911-MONOGRAFIA_0-117
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 3	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3273,13 +3275,13 @@
 22	)	)	PUNCT	_	_	21	punct	_	_
 
 # text = Onde: tt
-# sent_id = 373-20150911-MONOGRAFIA_0-117
+# sent_id = 373-20150911-MONOGRAFIA_0-118
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	tt	tt	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = = rendimento térmico teórico do ciclo diesel; é o calor cedido sob volume constante [ ⁄ ]; é o calor fornecido sob pressão constante [ ⁄ ]; CV é o calor especifico a volume constante da mistura [ ⁄ ]; CP é o calor especifico a pressão constante da mistura [ ⁄ ]; Tn é a temperatura no estado termodinâmico indicado [ ]; r é a taxa de compressão do motor ⁄ ; a é a taxa de expansão ⁄ ; 2.4
-# sent_id = 373-20150911-MONOGRAFIA_0-118
+# sent_id = 373-20150911-MONOGRAFIA_0-119
 1	=	=	SYM	_	_	12	nmod	_	_
 2	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 3	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3376,11 +3378,11 @@
 89	de	de	ADP	_	_	90	case	_	_
 90	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	88	nmod	_	_
 91	⁄	⁄	SYM	_	_	88	nmod	_	_
-92	;	;	PUNCT	_	_	88	punct	_	_
+92	;	;	PUNCT	_	_	88	punct	_	SpacesAfter=\s\n
 93	2.4	2.4	NUM	_	NumType=Card	88	nummod	_	_
 
 # text = Parâmetros de desempenho dos motores diesel 2.4.1
-# sent_id = 373-20150911-MONOGRAFIA_0-119
+# sent_id = 373-20150911-MONOGRAFIA_0-120
 1	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3392,12 +3394,12 @@
 8	2.4.1	2.4.1	NUM	_	NumType=Card	6	nummod	_	_
 
 # text = Potencia efetiva
-# sent_id = 373-20150911-MONOGRAFIA_0-120
+# sent_id = 373-20150911-MONOGRAFIA_0-121
 1	Potencia	Potencia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	efetiva	efetivo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 
 # text = Representa a potência retirada no eixo do motor, possuindo assim grande interesse prático.
-# sent_id = 373-20150911-MONOGRAFIA_0-121
+# sent_id = 373-20150911-MONOGRAFIA_0-122
 1	Representa	representar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	potência	potência	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -3419,7 +3421,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Ela pode ser medida por um dispositivo frenante utilizado no eixo do motor, denominado dinamômetro.
-# sent_id = 373-20150911-MONOGRAFIA_0-122
+# sent_id = 373-20150911-MONOGRAFIA_0-123
 1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -3443,7 +3445,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Podem-se obter dois tipos de potência efetiva: bruta ou líquida.
-# sent_id = 373-20150911-MONOGRAFIA_0-123
+# sent_id = 373-20150911-MONOGRAFIA_0-124
 1-2	Podem-se	_	_	_	_	_	_	_	_
 1	Podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3460,7 +3462,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A bruta é obtida com o motor básico, ou seja, equipado somente com os componentes essenciais a sua operação.
-# sent_id = 373-20150911-MONOGRAFIA_0-124
+# sent_id = 373-20150911-MONOGRAFIA_0-125
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	bruta	bruta	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3485,7 +3487,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A líquida é obtida com o motor completamente equipado, com todos os componentes necessários ao funcionamento autônomo (Heywood, 1988).
-# sent_id = 373-20150911-MONOGRAFIA_0-125
+# sent_id = 373-20150911-MONOGRAFIA_0-126
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	líquida	líquida	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3514,16 +3516,16 @@
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 2.4.2
-# sent_id = 373-20150911-MONOGRAFIA_0-126
+# sent_id = 373-20150911-MONOGRAFIA_0-127
 1	2.4.2	2.4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Potencia indicada
-# sent_id = 373-20150911-MONOGRAFIA_0-127
+# sent_id = 373-20150911-MONOGRAFIA_0-128
 1	Potencia	Potencia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	indicada	indicado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 
 # text = É a potência desenvolvida na câmara de combustão, isto é, o percurso que o pistão faz ao ir do ponto morto superior (PMS) ao ponto morto inferior (PMI) produto da combustão da mistura (ar + combustível) (Heywood, 1988).
-# sent_id = 373-20150911-MONOGRAFIA_0-128
+# sent_id = 373-20150911-MONOGRAFIA_0-129
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	potência	potência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -3588,17 +3590,17 @@
 56	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.4.3
-# sent_id = 373-20150911-MONOGRAFIA_0-129
+# sent_id = 373-20150911-MONOGRAFIA_0-130
 1	2.4.3	2.4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Potencia de atrito
-# sent_id = 373-20150911-MONOGRAFIA_0-130
+# sent_id = 373-20150911-MONOGRAFIA_0-131
 1	Potencia	Potencia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	atrito	atrito	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = É a potência usada para vencer o atrito entre as partes mecânicas em movimento, acionar acessórios, e para efetuar a aspiração da mistura (ar + combustível) e promover a expulsão dos gases de descarga (Heywood, 1988).
-# sent_id = 373-20150911-MONOGRAFIA_0-131
+# sent_id = 373-20150911-MONOGRAFIA_0-132
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	potência	potência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -3649,15 +3651,15 @@
 46	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.4.4
-# sent_id = 373-20150911-MONOGRAFIA_0-132
+# sent_id = 373-20150911-MONOGRAFIA_0-133
 1	2.4.4	2.4.4	NUM	_	NumType=Card	0	root	_	_
 
 # text = Torque
-# sent_id = 373-20150911-MONOGRAFIA_0-133
+# sent_id = 373-20150911-MONOGRAFIA_0-134
 1	Torque	Torque	SCONJ	_	_	0	root	_	_
 
 # text = É o momento de torção ao qual está sujeito o motor.
-# sent_id = 373-20150911-MONOGRAFIA_0-134
+# sent_id = 373-20150911-MONOGRAFIA_0-135
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3674,7 +3676,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O valor do torque pode ser medido através do banco dinamométrico.
-# sent_id = 373-20150911-MONOGRAFIA_0-135
+# sent_id = 373-20150911-MONOGRAFIA_0-136
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -3693,7 +3695,7 @@
 14	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Este relaciona a força aplicada a um determinado ponto do eixo através de um braço de alavanca e o torque é proporcional ao comprimento do braço.
-# sent_id = 373-20150911-MONOGRAFIA_0-136
+# sent_id = 373-20150911-MONOGRAFIA_0-137
 1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	relaciona	relacionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3729,7 +3731,7 @@
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Para uma determinada rotação, o momento de torção está mostrado na equação (2): (2)
-# sent_id = 373-20150911-MONOGRAFIA_0-137
+# sent_id = 373-20150911-MONOGRAFIA_0-138
 1	Para	para	ADP	_	_	4	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	determinada	determinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
@@ -3751,10 +3753,10 @@
 18	:	:	PUNCT	_	_	11	punct	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	2	2	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	20	punct	_	_
+21	)	)	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
 
 # text = Onde: ⃑⃑⃑⃑⃑ - é o momento de torção; - braço de força; - força.
-# sent_id = 373-20150911-MONOGRAFIA_0-138
+# sent_id = 373-20150911-MONOGRAFIA_0-139
 1	Onde	onde	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	⃑⃑⃑⃑⃑	⃑⃑⃑⃑⃑	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -3775,11 +3777,11 @@
 18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 2.4.5
-# sent_id = 373-20150911-MONOGRAFIA_0-139
+# sent_id = 373-20150911-MONOGRAFIA_0-140
 1	2.4.5	2.4.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = Consumo específico de combustível ( )
-# sent_id = 373-20150911-MONOGRAFIA_0-140
+# sent_id = 373-20150911-MONOGRAFIA_0-141
 1	Consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	específico	específico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3788,7 +3790,7 @@
 6	)	)	PUNCT	_	_	1	punct	_	_
 
 # text = É a quantidade de combustível consumida pelo motor por unidade de potência produzida, durante determinado período de funcionamento.
-# sent_id = 373-20150911-MONOGRAFIA_0-141
+# sent_id = 373-20150911-MONOGRAFIA_0-142
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -3813,7 +3815,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = É um parâmetro muito utilizado para demonstrar o quanto que o motor está transformando de combustível em trabalho.
-# sent_id = 373-20150911-MONOGRAFIA_0-142
+# sent_id = 373-20150911-MONOGRAFIA_0-143
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3835,7 +3837,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Para obter o consumo específico de combustível de um motor a certa rotação divide-se o consumo horário pela potência efetiva , produzida à mesma rotação (Heywood, 1988).
-# sent_id = 373-20150911-MONOGRAFIA_0-143
+# sent_id = 373-20150911-MONOGRAFIA_0-144
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	obter	obter	VERB	_	VerbForm=Inf	14	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3875,7 +3877,7 @@
 34	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = O consumo específico de combustível é calculado pela equação (3).
-# sent_id = 373-20150911-MONOGRAFIA_0-144
+# sent_id = 373-20150911-MONOGRAFIA_0-145
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	específico	específico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3893,7 +3895,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Onde: ⁄ - Consumo específico de combustível ; - Consumo horário de combustível ⁄ ; - Potência efetiva . 2.4.6
-# sent_id = 373-20150911-MONOGRAFIA_0-145
+# sent_id = 373-20150911-MONOGRAFIA_0-146
 1	Onde	onde	ADV	_	_	21	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	⁄	⁄	SYM	_	_	5	conj	_	_
@@ -3917,12 +3919,12 @@
 21	2.4.6	2.4.6	NUM	_	NumType=Card	0	root	_	_
 
 # text = Rendimento volumétrico
-# sent_id = 373-20150911-MONOGRAFIA_0-146
+# sent_id = 373-20150911-MONOGRAFIA_0-147
 1	Rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	volumétrico	volumétrico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = É definido como a relação entre o peso de ar efetivamente introduzido na câmara de combustão no curso de admissão, e o peso teórico que seria necessário para ocupar o mesmo volume nas condições de pressão e temperatura ambiente, conforme a equação (4). (4) Onde: - Rendimento volumétrico; - Peso de ar aspirado em cada curso de admissão.
-# sent_id = 373-20150911-MONOGRAFIA_0-147
+# sent_id = 373-20150911-MONOGRAFIA_0-148
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	definido	definir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	como	como	ADP	_	_	5	case	_	_
@@ -3978,7 +3980,7 @@
 50	.	.	PUNCT	_	_	49	punct	_	SpacesAfter=\n
 51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
 52	4	4	NUM	_	NumType=Card	49	appos	_	SpaceAfter=No
-53	)	)	PUNCT	_	_	52	punct	_	_
+53	)	)	PUNCT	_	_	52	punct	_	SpacesAfter=\s\n
 54	Onde	onde	ADV	_	_	49	advmod	_	SpaceAfter=No
 55	:	:	PUNCT	_	_	49	punct	_	_
 56	-	-	PUNCT	_	_	57	punct	_	_
@@ -3998,7 +4000,7 @@
 70	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = - Peso de ar nas condições atmosféricas locais, necessário para ocupar o volume da cilindrada de um cilindro.
-# sent_id = 373-20150911-MONOGRAFIA_0-148
+# sent_id = 373-20150911-MONOGRAFIA_0-149
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Peso	peso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4025,16 +4027,16 @@
 22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 2.4.7
-# sent_id = 373-20150911-MONOGRAFIA_0-149
+# sent_id = 373-20150911-MONOGRAFIA_0-150
 1	2.4.7	2.4.7	NUM	_	NumType=Card	0	root	_	_
 
 # text = Rendimento total
-# sent_id = 373-20150911-MONOGRAFIA_0-150
+# sent_id = 373-20150911-MONOGRAFIA_0-151
 1	Rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	total	total	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = O rendimento total ou global de um motor é expresso como o produto dos rendimentos volumétricos ( ), térmico ( ) e mecânico ( ).
-# sent_id = 373-20150911-MONOGRAFIA_0-151
+# sent_id = 373-20150911-MONOGRAFIA_0-152
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	total	total	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4066,7 +4068,7 @@
 28	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = (5) Podemos obter o rendimento global quando conhecemos o consumo especifico e o poder calorífico inferior do combustível , usando a expressão: (6)
-# sent_id = 373-20150911-MONOGRAFIA_0-152
+# sent_id = 373-20150911-MONOGRAFIA_0-153
 1	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	5)	5)	NUM	_	NumType=Card	3	nsubj	_	_
 3	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4098,7 +4100,7 @@
 28	)	)	PUNCT	_	_	27	punct	_	_
 
 # text = Onde: - Rendimento total; ⁄ - Consumo específico de combustível ; - Poder calorífico inferior do combustível ⁄ . 2.5
-# sent_id = 373-20150911-MONOGRAFIA_0-153
+# sent_id = 373-20150911-MONOGRAFIA_0-154
 1	Onde	onde	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -4125,11 +4127,11 @@
 23	2.5	2.5	NUM	_	NumType=Card	7	nummod	_	_
 
 # text = Biodiesel
-# sent_id = 373-20150911-MONOGRAFIA_0-154
+# sent_id = 373-20150911-MONOGRAFIA_0-155
 1	Biodiesel	Biodiesel	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O biodiesel é um combustível biodegradável derivado de fontes renováveis como óleos vegetais e gorduras animais.
-# sent_id = 373-20150911-MONOGRAFIA_0-155
+# sent_id = 373-20150911-MONOGRAFIA_0-156
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -4149,7 +4151,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Estimulados por um catalisador, eles são obtidos da reação de transesterificação com um álcool de cadeia curta como o metanol ou etanol.
-# sent_id = 373-20150911-MONOGRAFIA_0-156
+# sent_id = 373-20150911-MONOGRAFIA_0-157
 1	Estimulados	Estimular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
 2	por	por	ADP	_	_	4	case	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4178,11 +4180,11 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Existem diferentes espécies de oleaginosas no Brasil que podem ser usadas para produzir o biodiesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-157
+# sent_id = 373-20150911-MONOGRAFIA_0-158
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	espécies	espécie	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
-4	de	de	ADP	_	_	5	case	_	_
+4	de	de	ADP	_	_	5	case	_	SpacesAfter=\s\n
 5	oleaginosas	oleaginosa	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 6-7	no	_	_	_	_	_	_	_	_
 6	em	em	ADP	_	_	8	case	_	_
@@ -4199,7 +4201,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Dentre elas estão à mamona, dendê, canola, girassol, amendoim, soja e algodão.
-# sent_id = 373-20150911-MONOGRAFIA_0-158
+# sent_id = 373-20150911-MONOGRAFIA_0-159
 1	Dentre	Dentre	ADP	_	_	6	case	_	_
 2	elas	elas	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -4222,7 +4224,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Matérias-primas de origem animal, como o sebo bovino e gordura suína, e também podem ser utilizados óleos residuais de frituras na fabricação do biodiesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-159
+# sent_id = 373-20150911-MONOGRAFIA_0-160
 1	Matérias-primas	matéria-primo	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	origem	origem	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4256,7 +4258,7 @@
 29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O processo de produção consiste na reação química entre óleo vegetal ou animal com metanol ou etanol, em excesso, na presença de um catalisador ácido ou básico, com temperatura controlada, gerando como produtos ésteres metílicos ou etílicos (biodiesel) e glicerina.
-# sent_id = 373-20150911-MONOGRAFIA_0-160
+# sent_id = 373-20150911-MONOGRAFIA_0-161
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4310,7 +4312,7 @@
 49	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A reação de transesterificação pode ser representada pela figura 3:
-# sent_id = 373-20150911-MONOGRAFIA_0-161
+# sent_id = 373-20150911-MONOGRAFIA_0-162
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4325,19 +4327,19 @@
 11	3:	3:	PUNCT	_	_	7	punct	_	_
 
 # text = Figura 3:
-# sent_id = 373-20150911-MONOGRAFIA_0-162
+# sent_id = 373-20150911-MONOGRAFIA_0-163
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Reação de transesterificação
-# sent_id = 373-20150911-MONOGRAFIA_0-163
+# sent_id = 373-20150911-MONOGRAFIA_0-164
 1	Reação	reação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	transesterificação	transesterificação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Após a criação do Programa Nacional de Produção e Uso de Biodiesel (PNPB), em 2004, e a aprovação da Lei nº 11.097, de 13 de janeiro de 2005, o governo brasileiro introduziu o biodiesel na matriz energética nacional.
-# sent_id = 373-20150911-MONOGRAFIA_0-164
+# sent_id = 373-20150911-MONOGRAFIA_0-165
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	criação	criação	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	_
@@ -4391,7 +4393,7 @@
 48	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\n
 
 # text = Desde 1° de janeiro de 2010, todo o óleo diesel veicular comercializado ao consumidor final contém 5% de biodiesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-165
+# sent_id = 373-20150911-MONOGRAFIA_0-166
 1	Desde	desde	PROPN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 2	1°	1°	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4418,7 +4420,7 @@
 23	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Essa mistura é denominada óleo diesel B e, assim como o combustível de origem fóssil, requer determinados cuidados para que a qualidade do produto se mantenha ao longo de toda a cadeia de abastecimento desde a produção até o consumidor final.
-# sent_id = 373-20150911-MONOGRAFIA_0-166
+# sent_id = 373-20150911-MONOGRAFIA_0-167
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	mistura	mistura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -4469,7 +4471,7 @@
 46	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = As principais matérias primas utilizadas na produção do biodiesel nacional estão mostradas a seguir na figura 4: Figura 4:
-# sent_id = 373-20150911-MONOGRAFIA_0-167
+# sent_id = 373-20150911-MONOGRAFIA_0-168
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	matérias	matéria	NOUN	_	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
@@ -4493,13 +4495,13 @@
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	figura	figura	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 20	4	4	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
-21	:	:	PUNCT	_	_	14	punct	_	_
+21	:	:	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
 22	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
 23	4	4	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 24	:	:	PUNCT	_	_	14	punct	_	_
 
 # text = Principais matérias primas utilizadas na produção do biodiesel 2.6 Glicerol
-# sent_id = 373-20150911-MONOGRAFIA_0-168
+# sent_id = 373-20150911-MONOGRAFIA_0-169
 1	Principais	principal	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 2	matérias	matéria	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	primas	primo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4516,7 +4518,7 @@
 12	Glicerol	Glicerol	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
 
 # text = O glicerol, também chamado de glicerina, é uma molécula orgânica da função álcool cuja nomenclatura oficial (IUPAC) é propano-1,2,3-triol.
-# sent_id = 373-20150911-MONOGRAFIA_0-169
+# sent_id = 373-20150911-MONOGRAFIA_0-170
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	glicerol	glicerol	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -4545,7 +4547,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Podemos também classificá-lo como poliol (álcool com várias hidroxilas por sua cadeia).
-# sent_id = 373-20150911-MONOGRAFIA_0-170
+# sent_id = 373-20150911-MONOGRAFIA_0-171
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	também	também	ADV	_	_	3	advmod	_	_
 3-4	classificá-lo	_	_	_	_	_	_	_	_
@@ -4565,7 +4567,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Atualmente, o glicerol está saturando o mercado, e pela lei da oferta e procura tornou-se uma matéria prima de baixo custo, desde quando ela passou a ser um subproduto gerado em excesso na produção de biodiesel (Fernando, 2007).
-# sent_id = 373-20150911-MONOGRAFIA_0-171
+# sent_id = 373-20150911-MONOGRAFIA_0-172
 1	Atualmente	atualmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4621,7 +4623,7 @@
 49	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = O glicerol é uma matéria-prima para aditivos alimentares, surfactantes e ingredientes cosméticos.
-# sent_id = 373-20150911-MONOGRAFIA_0-172
+# sent_id = 373-20150911-MONOGRAFIA_0-173
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	glicerol	glicerol	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4638,7 +4640,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Entretanto, esses mercados estão se mostrando incapazes de consumir todo o glicerol gerado pela indústria de biodiesel (Gonçalves, 2012).
-# sent_id = 373-20150911-MONOGRAFIA_0-173
+# sent_id = 373-20150911-MONOGRAFIA_0-174
 1	Entretanto	entretanto	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -4667,7 +4669,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Hoje em dia, a síntese de cetais e acetais de derivados do glicerol tem potencial para valorizar o mercado do glicerol, porque estes produtos são potencialmente úteis como bioaditivos para a gasolina (Kijensky, 2004).
-# sent_id = 373-20150911-MONOGRAFIA_0-174
+# sent_id = 373-20150911-MONOGRAFIA_0-175
 1	Hoje	hoje	ADV	_	_	5	advmod	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
@@ -4714,7 +4716,7 @@
 42	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Além do mais, rotas alternativas para a produção do triacetilglicerol, também tem se mostrado como um importante aditivo para o biocombustível (Garcia, 2008).
-# sent_id = 373-20150911-MONOGRAFIA_0-175
+# sent_id = 373-20150911-MONOGRAFIA_0-176
 1	Além	além	ADV	_	_	6	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4750,7 +4752,7 @@
 31	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = A glicerina possui a estrutura molecular mostrada na figura 5: Figura 5:
-# sent_id = 373-20150911-MONOGRAFIA_0-176
+# sent_id = 373-20150911-MONOGRAFIA_0-177
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4763,13 +4765,13 @@
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	figura	figura	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 11	5	5	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
-12	:	:	PUNCT	_	_	3	punct	_	_
+12	:	:	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
 13	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	3	appos	_	_
 14	5	5	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Estrutura molecular da glicerina
-# sent_id = 373-20150911-MONOGRAFIA_0-177
+# sent_id = 373-20150911-MONOGRAFIA_0-178
 1	Estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	molecular	molecular	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4778,7 +4780,7 @@
 5	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = E as propriedades apresentadas na tabela 2:
-# sent_id = 373-20150911-MONOGRAFIA_0-178
+# sent_id = 373-20150911-MONOGRAFIA_0-179
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -4790,8 +4792,22 @@
 8	2	2	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	3	punct	_	_
 
+# text = Tabela 2:
+# sent_id = 373-20150911-MONOGRAFIA_0-180
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Propriedades da glicerina
+# sent_id = 373-20150911-MONOGRAFIA_0-181
+1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+
 # text = A glicerina é um subproduto interessante por possuir uma gama de aplicações industriais.
-# sent_id = 373-20150911-MONOGRAFIA_0-179
+# sent_id = 373-20150911-MONOGRAFIA_0-182
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4808,7 +4824,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Ela possui mais de duas mil aplicações diferentes (Gabriele, 2007), especialmente em produtos farmacêuticos, higiene pessoal, alimentos e cosméticos.
-# sent_id = 373-20150911-MONOGRAFIA_0-180
+# sent_id = 373-20150911-MONOGRAFIA_0-183
 1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mais	mais	ADV	_	_	5	advmod	_	_
@@ -4830,14 +4846,14 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	higiene	higiene	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 21	pessoal	pessoal	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
+22	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
 23	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 24	e	e	CCONJ	_	_	25	cc	_	_
 25	cosméticos	cosmético	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Na figura 6 podemos observar algumas das aplicações da glicerina:
-# sent_id = 373-20150911-MONOGRAFIA_0-181
+# sent_id = 373-20150911-MONOGRAFIA_0-184
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4857,7 +4873,7 @@
 14	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = Figura 6: Áreas de aplicação da glicerina 2.7
-# sent_id = 373-20150911-MONOGRAFIA_0-182
+# sent_id = 373-20150911-MONOGRAFIA_0-185
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4871,11 +4887,11 @@
 10	2.7	2.7	NUM	_	NumType=Card	9	nummod	_	_
 
 # text = Tensoativos
-# sent_id = 373-20150911-MONOGRAFIA_0-183
+# sent_id = 373-20150911-MONOGRAFIA_0-186
 1	Tensoativos	Tensoativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Os tensoativos possuem uma parte polar e outra apolar em sua estrutura, por isso, possuem a capacidade de se adsorver nas interfaces de dois líquidos imiscíveis, proporcionando a mistura entre eles.
-# sent_id = 373-20150911-MONOGRAFIA_0-184
+# sent_id = 373-20150911-MONOGRAFIA_0-187
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4915,7 +4931,7 @@
 36	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Vários estudos na área de combustíveis estão sendo realizados para atender as leis ambientais de redução de poluentes.
-# sent_id = 373-20150911-MONOGRAFIA_0-185
+# sent_id = 373-20150911-MONOGRAFIA_0-188
 1	Vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -4939,7 +4955,7 @@
 20	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Por isso, misturas diesel/biodiesel, emulsões e microemulsões estão sendo usadas e estudadas como combustíveis em motores de ciclo diesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-186
+# sent_id = 373-20150911-MONOGRAFIA_0-189
 1	Por	por	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -4964,7 +4980,7 @@
 22	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Para conseguir emulsões estáveis e as microemulsões é necessário o uso de tensoativos, que são usadas para promover a redução da tensão interfacial óleo/água, mantendo-as estáveis (Dantas Neto et al., 2009).
-# sent_id = 373-20150911-MONOGRAFIA_0-187
+# sent_id = 373-20150911-MONOGRAFIA_0-190
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	conseguir	conseguir	VERB	_	VerbForm=Inf	0	root	_	_
 3	emulsões	emulsão	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -5008,7 +5024,7 @@
 39	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A figura 7 representa a estrutura de um tensoativo.
-# sent_id = 373-20150911-MONOGRAFIA_0-188
+# sent_id = 373-20150911-MONOGRAFIA_0-191
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	7	7	NUM	_	NumType=Card	2	nummod	_	_
@@ -5018,10 +5034,10 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7: Estrutura do tensoativo.
-# sent_id = 373-20150911-MONOGRAFIA_0-189
+# sent_id = 373-20150911-MONOGRAFIA_0-192
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5033,7 +5049,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos ou surfactantes são um dos produtos mais versáteis da indústria química, sendo utilizado em diversos produtos, por exemplo, óleos lubrificantes de motor, fármacos, detergentes, fluido de perfuração e também como agentes de flutuação usados no beneficiamento de minérios (ROSEN, 2004).
-# sent_id = 373-20150911-MONOGRAFIA_0-190
+# sent_id = 373-20150911-MONOGRAFIA_0-193
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -5094,7 +5110,7 @@
 55	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos possuem diversas propriedades, dentre as quais se destacam capacidade de formar bolhas e espumas na superfície de um líquido e de se adsorverem nas interfaces.
-# sent_id = 373-20150911-MONOGRAFIA_0-191
+# sent_id = 373-20150911-MONOGRAFIA_0-194
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5130,7 +5146,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = (Líquido-líquido) e (sólido-líquido), reduzindo a tensão interfacial e (líquido-gás) diminuindo a tensão superficial.
-# sent_id = 373-20150911-MONOGRAFIA_0-192
+# sent_id = 373-20150911-MONOGRAFIA_0-195
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Líquido-líquido	Líquido-líquir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -5154,7 +5170,7 @@
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O termo interface refere-se ao limite entre duas fases imiscíveis, enquanto o termo superfície denota a interface onde uma das fases é um gás, usualmente o ar (DelNunzlo, 1990; Rosen, 1978).
-# sent_id = 373-20150911-MONOGRAFIA_0-193
+# sent_id = 373-20150911-MONOGRAFIA_0-196
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	termo	termo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	interface	interfacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5202,11 +5218,11 @@
 42	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.7.1
-# sent_id = 373-20150911-MONOGRAFIA_0-194
+# sent_id = 373-20150911-MONOGRAFIA_0-197
 1	2.7.1	2.7.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Classificação dos tensoativos
-# sent_id = 373-20150911-MONOGRAFIA_0-195
+# sent_id = 373-20150911-MONOGRAFIA_0-198
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5214,7 +5230,7 @@
 4	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Os tensoativos podem ser classificados de acordo com a natureza do grupo hidrofílico, podem possuir cargas elétricas ou não em sua cabeça polar.
-# sent_id = 373-20150911-MONOGRAFIA_0-196
+# sent_id = 373-20150911-MONOGRAFIA_0-199
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5244,7 +5260,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Estas cargas são responsáveis por diversas interações entre os íons, provocando repulsões entre as cabeças e, com isso, aumentando ou diminuindo a solubilização nos solventes polares.
-# sent_id = 373-20150911-MONOGRAFIA_0-197
+# sent_id = 373-20150911-MONOGRAFIA_0-200
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	cargas	carga	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5278,8 +5294,8 @@
 30	polares	polar	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Os tensoativos estão divididos em quatro classes, de acordo com a sua parte polar, em: { ; . 2.7.1.1 Tensoativo catiônico
-# sent_id = 373-20150911-MONOGRAFIA_0-198
+# text = Os tensoativos estão divididos em quatro classes, de acordo com a sua parte polar, em: { ; .
+# sent_id = 373-20150911-MONOGRAFIA_0-201
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5300,13 +5316,16 @@
 18	:	:	PUNCT	_	_	4	punct	_	_
 19	{	{	PUNCT	_	_	4	punct	_	_
 20	;	;	PUNCT	_	_	4	punct	_	_
-21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
-22	2.7.1.1	2.7.1.1	NOUN	_	Gender=Fem|Number=Plur	4	appos	_	_
-23	Tensoativo	Tensoativo	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
-24	catiônico	catiônico	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# text = 2.7.1.1 Tensoativo catiônico
+# sent_id = 373-20150911-MONOGRAFIA_0-202
+1	2.7.1.1	2.7.1.1	NUM	_	NumType=Card	3	nummod	_	_
+2	Tensoativo	Tensoativo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	catiônico	catiônico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Esses agentes tensoativos liberam íons carregados positivamente em solução aquosa.
-# sent_id = 373-20150911-MONOGRAFIA_0-199
+# sent_id = 373-20150911-MONOGRAFIA_0-203
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5320,7 +5339,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Atualmente, esses tensoativos catiônicos desempenham um papel preponderante como agentes antissépticos em cosméticos, como fungicidas gerais e germicidas e como amaciadores de tecidos (MYERS, 2006).
-# sent_id = 373-20150911-MONOGRAFIA_0-200
+# sent_id = 373-20150911-MONOGRAFIA_0-204
 1	Atualmente	atualmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -5354,13 +5373,13 @@
 31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 2.7.1.2 Tensoativo aniônico
-# sent_id = 373-20150911-MONOGRAFIA_0-201
+# sent_id = 373-20150911-MONOGRAFIA_0-205
 1	2.7.1.2	2.7.1.2	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Tensoativo	Tensoativo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	aniônico	aniônico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = Os tensoativos aniônicos, em solução aquosa, apresentam um ou vários grupos ionizáveis que produzem íons carregados negativamente na superfície ativa.
-# sent_id = 373-20150911-MONOGRAFIA_0-202
+# sent_id = 373-20150911-MONOGRAFIA_0-206
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	aniônicos	aniônico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -5388,7 +5407,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Os tensoativos mais difundidos deste grupo são os sabões, compostos sulfonados e os sulfatados (Florêncio, 1995).
-# sent_id = 373-20150911-MONOGRAFIA_0-203
+# sent_id = 373-20150911-MONOGRAFIA_0-207
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -5414,7 +5433,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Este tipo de tensoativo tem alto poder espumante, alta detergência e alta umectância, quando comparado às demais classes de tensoativos.
-# sent_id = 373-20150911-MONOGRAFIA_0-204
+# sent_id = 373-20150911-MONOGRAFIA_0-208
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5442,7 +5461,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Este é o tipo de tensoativos mais utilizado, com um consumo total em torno de 70 a 75% em todo mundo.
-# sent_id = 373-20150911-MONOGRAFIA_0-205
+# sent_id = 373-20150911-MONOGRAFIA_0-209
 1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5469,7 +5488,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Os constituintes principais desta classe são os carboxilatos de metais alcalinos ou sabões, sulfatos, sulfonatos, e, em menor número, os fosfatos (Myers, 2006).
-# sent_id = 373-20150911-MONOGRAFIA_0-206
+# sent_id = 373-20150911-MONOGRAFIA_0-210
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	constituintes	constituinte	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	principais	principal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5506,13 +5525,13 @@
 33	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 2.7.1.3 Tensoativo anfótero
-# sent_id = 373-20150911-MONOGRAFIA_0-207
+# sent_id = 373-20150911-MONOGRAFIA_0-211
 1	2.7.1.3	2.7.1.3	NUM	_	NumType=Card	3	nummod	_	_
 2	Tensoativo	Tensoativo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	anfótero	anfótero	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Os tensoativos anfóteros apresentam, em sua estrutura molecular, grupamentos positivo e negativo.
-# sent_id = 373-20150911-MONOGRAFIA_0-208
+# sent_id = 373-20150911-MONOGRAFIA_0-212
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	anfóteros	anfótero	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -5530,7 +5549,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Estes agentes tensoativos, quando em solução aquosa, apresentam características catiônicas, aniônicas ou não iônicas, que estão relacionadas, principalmente, ao pH do meio e ao tamanho da cadeia.
-# sent_id = 373-20150911-MONOGRAFIA_0-209
+# sent_id = 373-20150911-MONOGRAFIA_0-213
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -5575,7 +5594,7 @@
 38	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Em pH inferior a quatro atuam como tensoativo catiônico, quando o pH encontra-se entre quatro e nove o tensoativo atua como não iônico, e se o pH encontra-se entre nove e dez o comportamento do tensoativo é aniônico.
-# sent_id = 373-20150911-MONOGRAFIA_0-210
+# sent_id = 373-20150911-MONOGRAFIA_0-214
 1	Em	em	ADP	_	_	2	case	_	_
 2	pH	ph	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
 3	inferior	inferior	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5622,18 +5641,10 @@
 41	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 42	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
 43	aniônico	aniônico	ADJ	_	Gender=Masc|Number=Sing	6	ccomp	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
-
-# text = → atua como catiônicos;
-# sent_id = 373-20150911-MONOGRAFIA_0-211
-1	→	→	SYM	_	_	2	nsubj	_	_
-2	atua	atuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	como	como	ADP	_	_	4	case	_	_
-4	catiônicos	catiônico	NOUN	_	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
-5	;	;	PUNCT	_	_	2	punct	_	_
+44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Dentro os tensoativos desta classe os mais importantes são as alquilbetaínas e os alquilsulfobetainas (Florêncio, 1995).
-# sent_id = 373-20150911-MONOGRAFIA_0-212
+# sent_id = 373-20150911-MONOGRAFIA_0-215
 1	Dentro	dentro	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
@@ -5658,14 +5669,14 @@
 21	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 2.7.1.4 Tensoativo não iônico
-# sent_id = 373-20150911-MONOGRAFIA_0-213
+# sent_id = 373-20150911-MONOGRAFIA_0-216
 1	2.7.1.4	2.7.1.4	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Tensoativo	Tensoativo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 4	iônico	iônico	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = Esta classe de agente tensoativo é constituída por substâncias cujas moléculas não se dissociam em solução aquosa.
-# sent_id = 373-20150911-MONOGRAFIA_0-214
+# sent_id = 373-20150911-MONOGRAFIA_0-217
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	classe	classe	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5686,7 +5697,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = São compatíveis com a grande maioria dos demais tensoativos e suas propriedades são pouco afetadas pela mudança de pH.
-# sent_id = 373-20150911-MONOGRAFIA_0-215
+# sent_id = 373-20150911-MONOGRAFIA_0-218
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	compatíveis	compatível	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 3	com	com	ADP	_	_	6	case	_	_
@@ -5712,7 +5723,7 @@
 21	pH.	pH.	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 
 # text = Estes aspectos combinados aumentam consideravelmente suas possibilidades de aplicação, tornando-os bastante interessantes, industrialmente, podendo ser aplicados na formulação de cosméticos, detergentes, produtos farmacêuticos, flotação de minérios e extração (De La Salles, 2000).
-# sent_id = 373-20150911-MONOGRAFIA_0-216
+# sent_id = 373-20150911-MONOGRAFIA_0-219
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	aspectos	aspecto	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	combinados	combinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -5761,11 +5772,11 @@
 44	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 2.7.2
-# sent_id = 373-20150911-MONOGRAFIA_0-217
+# sent_id = 373-20150911-MONOGRAFIA_0-220
 1	2.7.2	2.7.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Propriedades dos tensoativos
-# sent_id = 373-20150911-MONOGRAFIA_0-218
+# sent_id = 373-20150911-MONOGRAFIA_0-221
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5773,7 +5784,7 @@
 4	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Os tensoativos possuem propriedades que lhes conferem características importantes.
-# sent_id = 373-20150911-MONOGRAFIA_0-219
+# sent_id = 373-20150911-MONOGRAFIA_0-222
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5786,7 +5797,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A seguir será feita uma breve descrição de algumas destas.
-# sent_id = 373-20150911-MONOGRAFIA_0-220
+# sent_id = 373-20150911-MONOGRAFIA_0-223
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -5802,12 +5813,12 @@
 12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 2.7.2.1 Micelização
-# sent_id = 373-20150911-MONOGRAFIA_0-221
+# sent_id = 373-20150911-MONOGRAFIA_0-224
 1	2.7.2.1	2.7.2.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Micelização	Micelização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Micelas são agregados moleculares, de tamanho coloidal, em equilíbrio com as moléculas de monômeros das quais são formadas.
-# sent_id = 373-20150911-MONOGRAFIA_0-222
+# sent_id = 373-20150911-MONOGRAFIA_0-225
 1	Micelas	Micele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	agregados	agregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5833,7 +5844,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Elas não são estáticas, elas existem em equilíbrio dinâmico.
-# sent_id = 373-20150911-MONOGRAFIA_0-223
+# sent_id = 373-20150911-MONOGRAFIA_0-226
 1	Elas	elas	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5847,7 +5858,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em soluções aquosas os monômeros de tensoativos orientam-se preferencialmente na interface, de modo que as cabeças polares direcionem-se para a solução aquosa e as caudas apolares orientem-se para o óleo, reduzindo a tensão interfacial.
-# sent_id = 373-20150911-MONOGRAFIA_0-224
+# sent_id = 373-20150911-MONOGRAFIA_0-227
 1	Em	em	ADP	_	_	2	case	_	_
 2	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 3	aquosas	aquoso	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -5895,7 +5906,7 @@
 41	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = À medida que há o aumento da concentração de tensoativo no diluente, ocorre à saturação da interface, atingindo sua concentração máxima, conhecida como concentração micelar crítica (CMC) permitindo que os monômeros iniciem a formação espontânea das micelas, as quais se encontram em permanente equilíbrio dinâmico com os monômeros.
-# sent_id = 373-20150911-MONOGRAFIA_0-225
+# sent_id = 373-20150911-MONOGRAFIA_0-228
 1-2	À	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5956,7 +5967,7 @@
 52	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	53	expl	_	_
 53	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
 54	em	em	ADP	_	_	56	case	_	_
-55	permanente	permanente	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	_
+55	permanente	permanente	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	SpacesAfter=\s\n
 56	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	_
 57	dinâmico	dinâmico	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	_
 58	com	com	ADP	_	_	60	case	_	_
@@ -5965,7 +5976,7 @@
 61	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A elevação da temperatura para os tensoativos não iônicos resulta em uma diminuição na CMC e para os iônicos resulta em um aumento (Oliveira, 2013).
-# sent_id = 373-20150911-MONOGRAFIA_0-226
+# sent_id = 373-20150911-MONOGRAFIA_0-229
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	elevação	elevação	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -6001,7 +6012,7 @@
 31	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O processo de formação da CMC é mostrado na figura 8:
-# sent_id = 373-20150911-MONOGRAFIA_0-227
+# sent_id = 373-20150911-MONOGRAFIA_0-230
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6019,18 +6030,8 @@
 13	8	8	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	9	punct	_	_
 
-# text = Figura 8: Formação da CMC
-# sent_id = 373-20150911-MONOGRAFIA_0-228
-1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	8:	8:	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Formação	formação	PROPN	_	Number=Sing	1	flat:name	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	CMC	CMC	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-
 # text = A natureza do solvente em que os tensoativos estão imersos caracteriza a existência de dois tipos de micelas: as micelas diretas e as micelas inversas.
-# sent_id = 373-20150911-MONOGRAFIA_0-229
+# sent_id = 373-20150911-MONOGRAFIA_0-231
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6062,7 +6063,7 @@
 28	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = As micelas diretas formam-se em solventes polares, onde a cabeça polar do tensoativo fica orientada para o meio polar, enquanto que a cauda apolar está voltada para o interior da micela.
-# sent_id = 373-20150911-MONOGRAFIA_0-230
+# sent_id = 373-20150911-MONOGRAFIA_0-232
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	micelas	micela	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	diretas	direto	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -6105,7 +6106,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Já as micelas inversas apresentam o comportamento inverso, portanto, são formadas em solventes apolares com as cabeças hidrofílicas voltadas para o centro e cercadas por caudas hidrofóbicas.
-# sent_id = 373-20150911-MONOGRAFIA_0-231
+# sent_id = 373-20150911-MONOGRAFIA_0-233
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	micelas	micela	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -6138,7 +6139,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A figura 9 mostra os tipos de micelas:
-# sent_id = 373-20150911-MONOGRAFIA_0-232
+# sent_id = 373-20150911-MONOGRAFIA_0-234
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nmod	_	_
@@ -6149,56 +6150,59 @@
 8	micelas	micela	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	4	punct	_	_
 
-# text = Figura 9: Micelas direta e indireta, respectivamente 2.7.2.2 Adsorção nas interfaces Moléculas de agentes tensoativos encontram-se localizadas em interfaces com a parte polar voltado para a fase aquosa, e a parte apolar voltada para a fase orgânica.
-# sent_id = 373-20150911-MONOGRAFIA_0-233
+# text = Figura 9: Micelas direta e indireta, respectivamente 2.7.2.2 Adsorção nas interfaces
+# sent_id = 373-20150911-MONOGRAFIA_0-235
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+2	9	9	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 4	Micelas	Micele	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
-5	direta	direta	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+5	direta	direta	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 6	e	e	CCONJ	_	_	7	cc	_	_
 7	indireta	indireta	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	respectivamente	respectivamente	ADV	_	_	11	advmod	_	_
+9	respectivamente	respectivamente	ADV	_	_	11	advmod	_	SpacesAfter=\s\n
 10	2.7.2.2	2.7.2.2	NUM	_	NumType=Card	11	nummod	_	_
 11	Adsorção	Adsorção	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 12-13	nas	_	_	_	_	_	_	_	_
 12	em	em	ADP	_	_	14	case	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	interfaces	interface	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-15	Moléculas	Moléculo	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
-18	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
-19-20	encontram-se	_	_	_	_	_	_	_	_
-19	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
-20	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	expl	_	_
-21	localizadas	localizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	36	acl	_	_
-22	em	em	ADP	_	_	23	case	_	_
-23	interfaces	interface	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	_
-24	com	com	ADP	_	_	26	case	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	parte	parte	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-27	polar	polar	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
-28	voltado	voltar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	_
-29	para	para	ADP	_	_	31	case	_	_
-30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	fase	fase	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
-32	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	36	punct	_	_
-34	e	e	CCONJ	_	_	36	cc	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	parte	parte	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
-37	apolar	apolar	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
-38	voltada	voltar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	36	acl	_	_
-39	para	para	ADP	_	_	41	case	_	_
-40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	fase	fase	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
-42	orgânica	orgânica	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Moléculas de agentes tensoativos encontram-se localizadas em interfaces com a parte polar voltado para a fase aquosa, e a parte apolar voltada para a fase orgânica.
+# sent_id = 373-20150911-MONOGRAFIA_0-236
+1	Moléculas	Molécula	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+4	tensoativos	tensoativo	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5-6	encontram-se	_	_	_	_	_	_	_	_
+5	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	localizadas	localizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	interfaces	interface	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	parte	parte	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+13	polar	polar	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	voltado	voltar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fase	fase	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	aquosa	aquoso	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	parte	parte	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+23	apolar	apolar	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	voltada	voltar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
+25	para	para	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	fase	fase	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	orgânica	orgânica	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Esta é uma situação energeticamente favorável, e a forte adsorção, em interfaces ou superfícies, na forma de monômeros de moléculas orientadas, é condição para atividade superficial e responsável pela maioria das propriedades dos tensoativos e características estruturais das micelas.
-# sent_id = 373-20150911-MONOGRAFIA_0-234
+# sent_id = 373-20150911-MONOGRAFIA_0-237
 1	Esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6255,7 +6259,7 @@
 49	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = A equação de adsorção de Gibbs é muito utilizada e permite determinar o grau de adsorção que ocorre numa superfície líquida a partir de dados de tensão superficial (Florêncio,1995).
-# sent_id = 373-20150911-MONOGRAFIA_0-235
+# sent_id = 373-20150911-MONOGRAFIA_0-238
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	equação	equação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6294,7 +6298,7 @@
 35	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Onde: → representa a quantidade de mols dissolvidos por unidade de superfície;
-# sent_id = 373-20150911-MONOGRAFIA_0-236
+# sent_id = 373-20150911-MONOGRAFIA_0-239
 1	Onde	onde	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	→	→	SYM	_	_	4	nsubj	_	_
@@ -6311,7 +6315,7 @@
 14	;	;	PUNCT	_	_	4	punct	_	_
 
 # text = → concentração de tensoativos;
-# sent_id = 373-20150911-MONOGRAFIA_0-237
+# sent_id = 373-20150911-MONOGRAFIA_0-240
 1	→	→	SYM	_	_	0	root	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6319,7 +6323,7 @@
 5	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = → tensão interfacial ou superficial;
-# sent_id = 373-20150911-MONOGRAFIA_0-238
+# sent_id = 373-20150911-MONOGRAFIA_0-241
 1	→	→	SYM	_	_	0	root	_	_
 2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 3	interfacial	interfacial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6328,7 +6332,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = → constante universal dos gases;
-# sent_id = 373-20150911-MONOGRAFIA_0-239
+# sent_id = 373-20150911-MONOGRAFIA_0-242
 1	→	→	SYM	_	_	0	root	_	_
 2	constante	constante	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	universal	universal	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
@@ -6339,20 +6343,20 @@
 7	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = → temperatura.
-# sent_id = 373-20150911-MONOGRAFIA_0-240
+# sent_id = 373-20150911-MONOGRAFIA_0-243
 1	→	→	SYM	_	_	0	root	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.7.2.3 Ponto de Grafft
-# sent_id = 373-20150911-MONOGRAFIA_0-241
+# sent_id = 373-20150911-MONOGRAFIA_0-244
 1	2.7.2.3	2.7.2.3	NUM	_	NumType=Card	2	nummod	_	_
 2	Ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Grafft	Grafft	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = O ponto de Krafft é característico dos tensoativos iônicos, de modo que a partir de certa temperatura, chamada temperatura de Krafft, observa-se que a solubilidade do tensoativo aumenta muito rapidamente, para qualquer composição, com o aumento de poucos graus.
-# sent_id = 373-20150911-MONOGRAFIA_0-242
+# sent_id = 373-20150911-MONOGRAFIA_0-245
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6403,10 +6407,10 @@
 45	de	de	ADP	_	_	47	case	_	_
 46	poucos	pouco	DET	_	Gender=Masc|Number=Plur|PronType=Ind	47	det	_	_
 47	graus	grau	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+48	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = A temperatura de Krafft pode ser determina através de métodos altamente eficazes, tais como: método espectrofotométrico ou turbidimétrico, porem, devido à praticidade e a rapidez de determinação, o método visual vem sendo muito difundido (Santos, 2002).
-# sent_id = 373-20150911-MONOGRAFIA_0-243
+# sent_id = 373-20150911-MONOGRAFIA_0-246
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6456,14 +6460,14 @@
 46	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 2.7.2.4 Ponto de turbidez
-# sent_id = 373-20150911-MONOGRAFIA_0-244
+# sent_id = 373-20150911-MONOGRAFIA_0-247
 1	2.7.2.4	2.7.2.4	NUM	_	NumType=Card	2	nummod	_	_
 2	Ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	turbidez	turbidez	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 
 # text = A formação de micelas nos tensoativos não iônicos acontece abaixo do ponto de turbidez, porque quando se ultrapassa o ponto de turbidez a solução separa-se em duas fases.
-# sent_id = 373-20150911-MONOGRAFIA_0-245
+# sent_id = 373-20150911-MONOGRAFIA_0-248
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formação	formação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6502,7 +6506,7 @@
 33	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Nesta classe de tensoativo não se observa o fenômeno de Krafft, pois se determina o ponto de turbidez através da concentração de tensoativo e da temperatura em que a solução se separa em duas fases e turva, sendo esta concentração e temperatura, o ponto de turbidez.
-# sent_id = 373-20150911-MONOGRAFIA_0-246
+# sent_id = 373-20150911-MONOGRAFIA_0-249
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -6561,7 +6565,7 @@
 53	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Variando-se as concentrações e observando-se a temperatura de turbidez, pode-se construir a curva de turbidez dos tensoativos não iônicos.
-# sent_id = 373-20150911-MONOGRAFIA_0-247
+# sent_id = 373-20150911-MONOGRAFIA_0-250
 1-2	Variando-se	_	_	_	_	_	_	_	_
 1	Variando	variar	VERB	_	VerbForm=Ger	13	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -6593,7 +6597,7 @@
 25	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Na figura 10 podemos observar a curva de turbidez:
-# sent_id = 373-20150911-MONOGRAFIA_0-248
+# sent_id = 373-20150911-MONOGRAFIA_0-251
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6608,13 +6612,13 @@
 11	:	:	PUNCT	_	_	6	punct	_	_
 
 # text = Figura 10:
-# sent_id = 373-20150911-MONOGRAFIA_0-249
+# sent_id = 373-20150911-MONOGRAFIA_0-252
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Curva de turbidez dos tensoativos não iônicos 2.7.2.5 Noções de balanço hidrofílico-lipofílico (BHL)
-# sent_id = 373-20150911-MONOGRAFIA_0-250
+# sent_id = 373-20150911-MONOGRAFIA_0-253
 1	Curva	Curva	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	turbidez	turbidez	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6623,7 +6627,7 @@
 5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 7	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
-8	iônicos	iônico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+8	iônicos	iônico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpacesAfter=\s\n
 9	2.7.2.5	2.7.2.5	NUM	_	NumType=Card	10	nummod	_	_
 10	Noções	Noção	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -6634,7 +6638,7 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = O balanço hidrofílico-lipofílico é uma noção semi-empírica, introduzida por Griffin (1949), para quantificar os efeitos das contribuições das partes apolares e polares existentes na estrutura da molécula tensoativa.
-# sent_id = 373-20150911-MONOGRAFIA_0-251
+# sent_id = 373-20150911-MONOGRAFIA_0-254
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	balanço	balanço	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	hidrofílico-lipofílico	hidrofílico-lipofílico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6677,7 +6681,7 @@
 36	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A predominância de uma das partes tornará a molécula anfifílica de características específicas, determinando os tipos de aplicação, de acordo com a capacidade de emulsionar uma mistura de líquidos imiscíveis.
-# sent_id = 373-20150911-MONOGRAFIA_0-252
+# sent_id = 373-20150911-MONOGRAFIA_0-255
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	predominância	predominância	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6715,7 +6719,7 @@
 34	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Esta noção de BHL indica a percentagem da natureza hidrofílica de um tensoativo.
-# sent_id = 373-20150911-MONOGRAFIA_0-253
+# sent_id = 373-20150911-MONOGRAFIA_0-256
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	noção	noção	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6734,7 +6738,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A Tabela 3 mostra a escala de BHL, para tensoativos não iônicos, e sua afinidade com a água.
-# sent_id = 373-20150911-MONOGRAFIA_0-254
+# sent_id = 373-20150911-MONOGRAFIA_0-257
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3	3	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -6758,7 +6762,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O valor 20 corresponde a um percentual de 100% de caráter hidrofílico para estes tensoativos.
-# sent_id = 373-20150911-MONOGRAFIA_0-255
+# sent_id = 373-20150911-MONOGRAFIA_0-258
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	20	20	NUM	_	NumType=Card	2	nummod	_	_
@@ -6778,7 +6782,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Tabela 3: Escala de BHL 2.8 Microemulsão
-# sent_id = 373-20150911-MONOGRAFIA_0-256
+# sent_id = 373-20150911-MONOGRAFIA_0-259
 1	Tabela	tabela	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3:	3:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Escala	escala	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -6788,7 +6792,7 @@
 7	Microemulsão	Microemulsão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = As microemulsões são misturas interdispersas de dois líquidos imiscíveis, por exemplo, água e óleo, estabilizados por um terceiro componente, o tensoativo, localizado na interface, e às vezes um cotensoativo, quando o tensoativo usado for iônico.
-# sent_id = 373-20150911-MONOGRAFIA_0-257
+# sent_id = 373-20150911-MONOGRAFIA_0-260
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	microemulsões	microemulsão	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6835,10 +6839,10 @@
 42	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	41	acl	_	_
 43	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	44	cop	_	_
 44	iônico	iônico	ADJ	_	Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+45	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = As microemulsões são fisicamente diferentes das emulsões pelo tamanho das micelas, sendo as últimas com agregados maiores que 0,1 mm, o que confere as emulsões a cor branca, aspecto leitoso, ausência de transparência e, ainda, baixa estabilidade, porque as fases se separam em um intervalo de tempo muito pequeno.
-# sent_id = 373-20150911-MONOGRAFIA_0-258
+# sent_id = 373-20150911-MONOGRAFIA_0-261
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	microemulsões	microemulsão	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -6904,7 +6908,7 @@
 60	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = As microemulsões, por possuirem menor tamanho de partículas, permanecem estáveis, mantendo-se em uma única fase.
-# sent_id = 373-20150911-MONOGRAFIA_0-259
+# sent_id = 373-20150911-MONOGRAFIA_0-262
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	microemulsões	microemulsão	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -6928,18 +6932,18 @@
 20	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 2.8.1
-# sent_id = 373-20150911-MONOGRAFIA_0-260
+# sent_id = 373-20150911-MONOGRAFIA_0-263
 1	2.8	2.8	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Classificação de Winsor
-# sent_id = 373-20150911-MONOGRAFIA_0-261
+# sent_id = 373-20150911-MONOGRAFIA_0-264
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Winsor	Winsor	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = As microemulsões podem coexistir em equilíbrio com outras fases, formando sistemas multifásicos, dependendo da concentração, da salinidade, da temperatura e também da natureza da fase oleosa.
-# sent_id = 373-20150911-MONOGRAFIA_0-262
+# sent_id = 373-20150911-MONOGRAFIA_0-265
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	microemulsões	microemulsão	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6983,7 +6987,7 @@
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Estes sistemas foram estudados por Winsor (1948) que os classificou de acordo com as fases observadas em Winsor (WI), (WII), (WIII) e (WIV).
-# sent_id = 373-20150911-MONOGRAFIA_0-263
+# sent_id = 373-20150911-MONOGRAFIA_0-266
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -7022,7 +7026,7 @@
 36	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os sistemas bifásicos, WI e WII, representam duas fases, onde o sistema WI mostra o equilíbrio da fase microemulsão óleo em água (O/A) com a fase orgânica em excesso, já o sistema WII mostra o equilíbrio da fase microemulsão água em óleo (A/O) com a fase aquosa em excesso.
-# sent_id = 373-20150911-MONOGRAFIA_0-264
+# sent_id = 373-20150911-MONOGRAFIA_0-267
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	bifásicos	bifásico	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -7087,7 +7091,7 @@
 60	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O sistema WIII representa um equilíbrio trifásico, com a fase microemulsão em equilíbrio com a fase aquosa e orgânica ao mesmo tempo.
-# sent_id = 373-20150911-MONOGRAFIA_0-265
+# sent_id = 373-20150911-MONOGRAFIA_0-268
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	WIII	Wiii	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
@@ -7116,7 +7120,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Já o sistema WIV representa um equilíbrio monofásico de microemulsão em escala macroscópica.
-# sent_id = 373-20150911-MONOGRAFIA_0-266
+# sent_id = 373-20150911-MONOGRAFIA_0-269
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -7133,7 +7137,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A figura 11 mostra as fases de Winsor:
-# sent_id = 373-20150911-MONOGRAFIA_0-267
+# sent_id = 373-20150911-MONOGRAFIA_0-270
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	11	11	NUM	_	NumType=Card	2	nmod	_	_
@@ -7145,26 +7149,26 @@
 9	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Figura 11:
-# sent_id = 373-20150911-MONOGRAFIA_0-268
+# sent_id = 373-20150911-MONOGRAFIA_0-271
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = As fases de Winsor 2.10
-# sent_id = 373-20150911-MONOGRAFIA_0-269
+# sent_id = 373-20150911-MONOGRAFIA_0-272
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	fases	fase	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	Winsor	Winsor	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	Winsor	Winsor	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\n
 5	2.10	2.10	NUM	_	NumType=Card	4	nummod	_	_
 
 # text = Planejamento experimental
-# sent_id = 373-20150911-MONOGRAFIA_0-270
+# sent_id = 373-20150911-MONOGRAFIA_0-273
 1	Planejamento	Planejamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = O planejamento experimental é uma metodologia estatística utilizada para descobrir empiricamente alguma propriedade particular ou para comparar o efeito de diversas variáveis em um sistema.
-# sent_id = 373-20150911-MONOGRAFIA_0-271
+# sent_id = 373-20150911-MONOGRAFIA_0-274
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7193,7 +7197,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = É uma ferramenta poderosa no estudo do efeito conjunto de vários fatores sobre uma variável de resposta desejada.
-# sent_id = 373-20150911-MONOGRAFIA_0-272
+# sent_id = 373-20150911-MONOGRAFIA_0-275
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ferramenta	ferramenta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -7219,7 +7223,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O planejamento busca alcançar dois grandes objetivos: a maior precisão estatística possível na resposta e o menor custo pela redução de experimentos.
-# sent_id = 373-20150911-MONOGRAFIA_0-273
+# sent_id = 373-20150911-MONOGRAFIA_0-276
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	busca	buscar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7250,7 +7254,7 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O planejamento experimental é a ferramenta estatística mais importante, ela é a essência de um bom planejamento, consiste em planejar um experimento de forma que ele forneça exatamente a informação desejada da forma mais rápida possível (BARROS-NETO; SCARMÍNIO; BRUNS, 2002).
-# sent_id = 373-20150911-MONOGRAFIA_0-274
+# sent_id = 373-20150911-MONOGRAFIA_0-277
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -7303,7 +7307,7 @@
 49	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Um dos delineamentos experimentais mais conhecidos é o experimento fatorial, no qual estão relacionados fatores, ou variáveis, cada um deles presente em diferentes níveis.
-# sent_id = 373-20150911-MONOGRAFIA_0-275
+# sent_id = 373-20150911-MONOGRAFIA_0-278
 1	Um	um	NUM	_	NumType=Card	10	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7340,7 +7344,7 @@
 31	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Desta forma, na existência de k fatores, cada um com níveis há ensaios a serem feitos.
-# sent_id = 373-20150911-MONOGRAFIA_0-276
+# sent_id = 373-20150911-MONOGRAFIA_0-279
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -7366,7 +7370,7 @@
 21	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = No experimento fatorial completo cada combinação possível dos níveis dos fatores precisa ser verificada a fim de determinar o quanto o sistema em estudo é afetado por cada fator.
-# sent_id = 373-20150911-MONOGRAFIA_0-277
+# sent_id = 373-20150911-MONOGRAFIA_0-280
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7405,7 +7409,7 @@
 33	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Assim, o número de experimentos aumenta de forma exponencial com o número de fatores ( ).
-# sent_id = 373-20150911-MONOGRAFIA_0-278
+# sent_id = 373-20150911-MONOGRAFIA_0-281
 1	Assim	assim	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7423,25 +7427,25 @@
 15	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 16	(	(	PUNCT	_	_	7	punct	_	_
 17	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Metodologia 3.
-# sent_id = 373-20150911-MONOGRAFIA_0-279
-1	Metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+# sent_id = 373-20150911-MONOGRAFIA_0-282
+1	Metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\n
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = METODOLOGIA 3.1
-# sent_id = 373-20150911-MONOGRAFIA_0-280
+# sent_id = 373-20150911-MONOGRAFIA_0-283
 1	METODOLOGIA	metodologer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	3.1	3.1	NUM	_	NumType=Card	1	obj	_	_
 
 # text = Materiais
-# sent_id = 373-20150911-MONOGRAFIA_0-281
+# sent_id = 373-20150911-MONOGRAFIA_0-284
 1	Materiais	material	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = No preparo das formulações foram utilizados os seguintes materiais:  Balança analítica (Precisa, modelo 240 A);  Becker 250 ml;  Proveta de 100 ml;  Pipeta de 25 ml;  Agitador magnético com aquecimento (Gehaka, modelo AA - 1840);  Conta gotas;
-# sent_id = 373-20150911-MONOGRAFIA_0-282
+# sent_id = 373-20150911-MONOGRAFIA_0-285
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7504,7 +7508,7 @@
 58	;	;	PUNCT	_	_	8	punct	_	_
 
 # text = Os reagentes utilizados foram os seguintes:  Diesel S10  Água destilada  Tensoativo
-# sent_id = 373-20150911-MONOGRAFIA_0-283
+# sent_id = 373-20150911-MONOGRAFIA_0-286
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	reagentes	reagente	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -7522,7 +7526,7 @@
 15	Tensoativo	Tensoativo	PROPN	_	Number=Sing	8	flat:name	_	_
 
 # text = A  Tensoativo B  Glicerina 3.2
-# sent_id = 373-20150911-MONOGRAFIA_0-284
+# sent_id = 373-20150911-MONOGRAFIA_0-287
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2			PROPN	_	Number=Sing	0	root	_	_
 3	Tensoativo	Tensoativo	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7532,7 +7536,7 @@
 7	3.2	3.2	NUM	_	NumType=Card	2	flat	_	_
 
 # text = Métodos Foram utilizados dois tipos de tensoativos não iônicos na formulação dos combustíveis, o tensoativo
-# sent_id = 373-20150911-MONOGRAFIA_0-285
+# sent_id = 373-20150911-MONOGRAFIA_0-288
 1	Métodos	método	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	3	nsubj:pass	_	_
 2	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -7555,7 +7559,7 @@
 18	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 
 # text = A e o tensoativo B, com o objetivo de incorporar a maior quantidade possível de glicerina sem turvar a solução.
-# sent_id = 373-20150911-MONOGRAFIA_0-286
+# sent_id = 373-20150911-MONOGRAFIA_0-289
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	e	e	CCONJ	_	_	5	cc	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -7580,17 +7584,17 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.2.1
-# sent_id = 373-20150911-MONOGRAFIA_0-287
+# sent_id = 373-20150911-MONOGRAFIA_0-290
 1	3.2.1	3.2.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Procedimento experimental 1.
-# sent_id = 373-20150911-MONOGRAFIA_0-288
+# sent_id = 373-20150911-MONOGRAFIA_0-291
 1	Procedimento	Procedimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	1.	1.	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Foi adicionado uma alíquota de 100 ml do diesel S10 a um Becker; 2.
-# sent_id = 373-20150911-MONOGRAFIA_0-289
+# sent_id = 373-20150911-MONOGRAFIA_0-292
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	adicionado	adicionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7611,7 +7615,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Em seguida, anotado a massa referente a esse volume; 3.
-# sent_id = 373-20150911-MONOGRAFIA_0-290
+# sent_id = 373-20150911-MONOGRAFIA_0-293
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7627,7 +7631,7 @@
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Logo após, adiciona-se os tensoativos nas proporções determinadas pelo planejamento experimental, com agitação após adição de cada tensoativo e sempre tomando nota da massa incorporada; 4.
-# sent_id = 373-20150911-MONOGRAFIA_0-291
+# sent_id = 373-20150911-MONOGRAFIA_0-294
 1	Logo	logo	ADV	_	_	4	advmod	_	_
 2	após	após	ADP	_	_	3	case	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -7663,12 +7667,12 @@
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	massa	massa	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 31	incorporada	incorporar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	30	acl	_	SpaceAfter=No
-32	;	;	PUNCT	_	_	4	punct	_	_
+32	;	;	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 33	4	4	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Depois da adição dos tensoativos nas determinadas proporções, iniciou-se a adição das soluções de glicerina, variando a sua concentração e observando a formulação que incorporava a maior quantidade de glicerina antes de turvar.
-# sent_id = 373-20150911-MONOGRAFIA_0-292
+# sent_id = 373-20150911-MONOGRAFIA_0-295
 1	Depois	depois	ADV	_	_	13	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7717,16 +7721,16 @@
 41	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = 3.2.2
-# sent_id = 373-20150911-MONOGRAFIA_0-293
+# sent_id = 373-20150911-MONOGRAFIA_0-296
 1	3.2.2	3.2.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Planejamento experimental
-# sent_id = 373-20150911-MONOGRAFIA_0-294
+# sent_id = 373-20150911-MONOGRAFIA_0-297
 1	Planejamento	Planejamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = A fim de avaliar a influência das variáveis independentes (massa de tensoativo (MT), proporção entre tensoativos (Prop) e concentração da solução de glicerina (sol%)) na variável dependente (porcentagem mássica de solução de glicerina dissolvida (%MG)), foi feito um planejamento fatorial completo com dois níveis e três fatores com duplicata no ponto central, totalizando 20 ensaios, executados de forma aleatória.
-# sent_id = 373-20150911-MONOGRAFIA_0-295
+# sent_id = 373-20150911-MONOGRAFIA_0-298
 1	A	a	ADP	_	_	4	mark	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -7815,7 +7819,7 @@
 82	.	.	PUNCT	_	_	56	punct	_	_
 
 # text = De acordo com a matriz codificada mostrada na tabela 4: Tabela 4: Matriz codificada do planejamento experimental
-# sent_id = 373-20150911-MONOGRAFIA_0-296
+# sent_id = 373-20150911-MONOGRAFIA_0-299
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -7841,7 +7845,7 @@
 21	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 
 # text = Na Tabela 5 são apresentados os valores reais e os níveis assumidos para os fatores estudados.
-# sent_id = 373-20150911-MONOGRAFIA_0-297
+# sent_id = 373-20150911-MONOGRAFIA_0-300
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7863,7 +7867,7 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As faixas estudadas foram baseadas em valores obtidos em testes preliminares.
-# sent_id = 373-20150911-MONOGRAFIA_0-298
+# sent_id = 373-20150911-MONOGRAFIA_0-301
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	faixas	faixa	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	estudadas	estudado	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -7878,13 +7882,13 @@
 12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tabela 5:
-# sent_id = 373-20150911-MONOGRAFIA_0-299
+# sent_id = 373-20150911-MONOGRAFIA_0-302
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Valores reais e níveis dos fatores
-# sent_id = 373-20150911-MONOGRAFIA_0-300
+# sent_id = 373-20150911-MONOGRAFIA_0-303
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	reais	real	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -7892,10 +7896,10 @@
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+7	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\s\n
 
 # text = Este trabalho apresenta um intervalo de confiança de 95% e foram consideradas as interações não lineares de terceira ordem.
-# sent_id = 373-20150911-MONOGRAFIA_0-301
+# sent_id = 373-20150911-MONOGRAFIA_0-304
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7919,7 +7923,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Seguindo a matriz codificada do planejamento experimental apresentada na tabela 4 e os valores reais e níveis dos fatores presentes na tabela 5, foram feitos os ensaios em duplicata cujos resultados são apresentados na tabela 6:
-# sent_id = 373-20150911-MONOGRAFIA_0-302
+# sent_id = 373-20150911-MONOGRAFIA_0-305
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	30	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	matriz	matriz	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -7970,50 +7974,68 @@
 43	:	:	PUNCT	_	_	30	punct	_	_
 
 # text = Tabela 6:
-# sent_id = 373-20150911-MONOGRAFIA_0-303
+# sent_id = 373-20150911-MONOGRAFIA_0-306
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Ensaios feitos seguindo o planejamento experimental STATISTICA 7.0 para avaliar a significância e predição do modelo.
-# sent_id = 373-20150911-MONOGRAFIA_0-304
+# text = Ensaios feitos seguindo o planejamento experimental
+# sent_id = 373-20150911-MONOGRAFIA_0-307
 1	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
-3	seguindo	seguir	VERB	_	VerbForm=Ger	1	acl	_	_
+3	seguindo	seguir	VERB	_	VerbForm=Ger	1	advcl	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-7	STATISTICA	STATISTICA	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
-8	7.0	7.0	NUM	_	NumType=Card	7	nummod	_	_
-9	para	para	SCONJ	_	_	10	mark	_	_
-10	avaliar	avaliar	VERB	_	VerbForm=Inf	3	advcl	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	significância	significância	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	predição	predição	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Foi realizado o cálculo da ANOVA com o auxilio do programa STATISTICA 7.0 para avaliar a significância e predição do modelo.
+# sent_id = 373-20150911-MONOGRAFIA_0-308
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cálculo	cálculo	NOUN	_	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ANOVA	ANOVA	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	auxilio	auxilio	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	programa	programa	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	STATISTICA	STATISTICA	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
+15	7.0	7.0	NUM	_	NumType=Card	14	nummod	_	_
+16	para	para	SCONJ	_	_	17	mark	_	_
+17	avaliar	avaliar	VERB	_	VerbForm=Inf	2	advcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	significância	significância	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	predição	predição	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = RESULTADOS E DISCURSÕES 4.
-# sent_id = 373-20150911-MONOGRAFIA_0-305
+# sent_id = 373-20150911-MONOGRAFIA_0-309
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	4	cc	_	_
-3	DISCURSÕES	Discursão	NUM	_	NumType=Card	4	nummod	_	_
+3	DISCURSÕES	Discursão	NUM	_	NumType=Card	4	nummod	_	SpacesAfter=\s\n
 4	4	4	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados e Discursões 4.1
-# sent_id = 373-20150911-MONOGRAFIA_0-306
+# sent_id = 373-20150911-MONOGRAFIA_0-310
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Discursões	Discursões	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 4	4.1	4.1	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Obtenção do modelo para a formulação do óleo diesel microemulsionado
-# sent_id = 373-20150911-MONOGRAFIA_0-307
+# sent_id = 373-20150911-MONOGRAFIA_0-311
 1	Obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8030,7 +8052,7 @@
 12	microemulsionado	microemulsionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
 
 # text = Os valores das porcentagens mássicas de solução de glicerina apresentados na tabela 7 foram tratados através do software STATISTICA 7.0 e a partir de regressões não lineares dos dados empíricos foi encontrado um modelo matemático empírico e codificado, conforme detalhado na Equação 8.
-# sent_id = 373-20150911-MONOGRAFIA_0-308
+# sent_id = 373-20150911-MONOGRAFIA_0-312
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8088,13 +8110,13 @@
 50	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Tabela 7:
-# sent_id = 373-20150911-MONOGRAFIA_0-309
+# sent_id = 373-20150911-MONOGRAFIA_0-313
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Porcentagem mássica da solução de glicerina incorporada ao diesel (8)
-# sent_id = 373-20150911-MONOGRAFIA_0-310
+# text = Porcentagem mássica da solução de glicerina incorporada ao diesel Onde , e são massa de tensoativo, proporção de tensoativos e concentração de solução de glicerina, respectivamente.
+# sent_id = 373-20150911-MONOGRAFIA_0-314
 1	Porcentagem	porcentagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	mássica	mássico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8108,35 +8130,29 @@
 9	a	a	ADP	_	_	11	case	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	diesel	diesel	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
-12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	8	8	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	13	punct	_	_
-
-# text = Onde , e são massa de tensoativo, proporção de tensoativos e concentração de solução de glicerina, respectivamente.
-# sent_id = 373-20150911-MONOGRAFIA_0-311
-1	Onde	onde	ADV	_	_	5	advmod	_	_
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	e	e	CCONJ	_	_	5	cc	_	_
-4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	massa	massar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	tensoativo	tensoativo	ADJ	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-12	e	e	CCONJ	_	_	13	cc	_	_
-13	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	solução	solução	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	respectivamente	respectivamente	ADV	_	_	5	advmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+12	Onde	Onde	ADV	_	_	8	advmod	_	_
+13	,	,	PUNCT	_	_	1	punct	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	massa	massa	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	tensoativos	tensoativo	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	solução	solução	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	glicerina	glicerina	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	respectivamente	respectivamente	ADV	_	_	1	appos	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O modelo obtido foi analisado através da avaliação da variância pela ANOVA, que está mostrado na Tabela 8.
-# sent_id = 373-20150911-MONOGRAFIA_0-312
+# sent_id = 373-20150911-MONOGRAFIA_0-315
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	obtido	obtir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -8167,14 +8183,14 @@
 24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Tabela 8: ANOVA
-# sent_id = 373-20150911-MONOGRAFIA_0-313
+# sent_id = 373-20150911-MONOGRAFIA_0-316
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
-4	ANOVA	ANOVA	PROPN	_	Gender=Fem|Number=Plur	1	appos	_	_
+4	ANOVA	ANOVA	PROPN	_	Gender=Fem|Number=Plur	1	appos	_	SpacesAfter=\s\n
 
 # text = A análise estatística apresentou uma regressão significativa com Fcal/Ftab = 31,63 e com coeficiente de determinação igual a 0,98.
-# sent_id = 373-20150911-MONOGRAFIA_0-314
+# sent_id = 373-20150911-MONOGRAFIA_0-317
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	estatística	estatístico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -8197,12 +8213,12 @@
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = De acordo
-# sent_id = 373-20150911-MONOGRAFIA_0-315
+# sent_id = 373-20150911-MONOGRAFIA_0-318
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = ⁄ com Barros Neto (2002) para com valor maior que 10 podemos afirmar que o modelo é significativo e preditivo.
-# sent_id = 373-20150911-MONOGRAFIA_0-316
+# sent_id = 373-20150911-MONOGRAFIA_0-319
 1	⁄	⁄	SYM	_	_	0	root	_	_
 2	com	com	ADP	_	_	3	case	_	_
 3	Barros	Barros	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8228,7 +8244,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Então o modelo proposto pode ser utilizado para prever a porcentagem mássica de solução de glicerina que pode ser incorporada ao diesel, dentro da faixa de operação utilizada neste estudo.
-# sent_id = 373-20150911-MONOGRAFIA_0-317
+# sent_id = 373-20150911-MONOGRAFIA_0-320
 1	Então	então	ADV	_	_	2	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -8269,7 +8285,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Objetivando-se identificar os efeitos das variáveis independentes na resposta, foi feito o diagrama de Pareto conforme a Figura 12.
-# sent_id = 373-20150911-MONOGRAFIA_0-318
+# sent_id = 373-20150911-MONOGRAFIA_0-321
 1-2	Objetivando-se	_	_	_	_	_	_	_	_
 1	Objetivando	Objetivar	VERB	_	VerbForm=Ger	15	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8299,7 +8315,7 @@
 24	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Essa análise resulta no efeito de cada parâmetro da Equação 8 no processo de aditivação da solução de glicerina ao diesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-319
+# sent_id = 373-20150911-MONOGRAFIA_0-322
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	resulta	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8334,7 +8350,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Podemos observar que as variáveis , e são todas significativas ao processo analisado de forma individual e em conjunto.
-# sent_id = 373-20150911-MONOGRAFIA_0-320
+# sent_id = 373-20150911-MONOGRAFIA_0-323
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	observar	observar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
@@ -8359,7 +8375,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Os valores das variáveis no diagrama de Pareto que estão negativos representam uma influencia inversamente proporcional, ou seja, à medida que seu valor diminui estamos caminhando para o ponto ótimo do estudo.
-# sent_id = 373-20150911-MONOGRAFIA_0-321
+# sent_id = 373-20150911-MONOGRAFIA_0-324
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8405,7 +8421,7 @@
 39	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Da mesma maneira, os valores positivos no diagrama expressam uma influencia proporcional, isto é, quando seu valor aumenta estamos caminhando para o ponto ótimo.
-# sent_id = 373-20150911-MONOGRAFIA_0-322
+# sent_id = 373-20150911-MONOGRAFIA_0-325
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8440,7 +8456,7 @@
 30	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = De acordo com o diagrama de Pareto a variável mais significativo é a massa de tensoativo.
-# sent_id = 373-20150911-MONOGRAFIA_0-323
+# sent_id = 373-20150911-MONOGRAFIA_0-326
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -8457,14 +8473,14 @@
 14	massa	massa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = 4.2
-# sent_id = 373-20150911-MONOGRAFIA_0-324
+# sent_id = 373-20150911-MONOGRAFIA_0-327
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Otimização utilizando a superfície de resposta
-# sent_id = 373-20150911-MONOGRAFIA_0-325
+# sent_id = 373-20150911-MONOGRAFIA_0-328
 1	Otimização	Otimização	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	utilizando	utilizar	VERB	_	VerbForm=Ger	1	acl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8473,7 +8489,7 @@
 6	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 
 # text = A metodologia da superfície de resposta foi utilizada com o objetivo de maximizar a porcentagem mássica de solução de glicerina que pode ser incorporada ao diesel.
-# sent_id = 373-20150911-MONOGRAFIA_0-326
+# sent_id = 373-20150911-MONOGRAFIA_0-329
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8507,7 +8523,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = As superfícies de resposta mostradas nas figuras 13 e 14 foram feitas no software STATISTICA 7.0 e correspondem aos dados experimentais descritos na matriz do planejamento experimental.
-# sent_id = 373-20150911-MONOGRAFIA_0-327
+# sent_id = 373-20150911-MONOGRAFIA_0-330
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	superfícies	superfície	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8548,13 +8564,13 @@
 33	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 13:
-# sent_id = 373-20150911-MONOGRAFIA_0-328
+# sent_id = 373-20150911-MONOGRAFIA_0-331
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Superfície de resposta com a variável concentração de glicerina fixa
-# sent_id = 373-20150911-MONOGRAFIA_0-329
+# sent_id = 373-20150911-MONOGRAFIA_0-332
 1	Superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8567,13 +8583,13 @@
 10	fixa	fixo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 
 # text = Figura 14:
-# sent_id = 373-20150911-MONOGRAFIA_0-330
+# sent_id = 373-20150911-MONOGRAFIA_0-333
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Superfície de resposta com a variável proporção de tensoativos fixa Pela Figura 13 podemos observar que nos aproximamos da região ótima à medida que aumentamos a massa de tensoativos (Mt) e a proporção entre tensoativos (Prop).
-# sent_id = 373-20150911-MONOGRAFIA_0-331
+# sent_id = 373-20150911-MONOGRAFIA_0-334
 1	Superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8625,7 +8641,7 @@
 45	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Na Figura 14 observa-se que diminuindo a concentração da solução de glicerina (Sol%) e aumentando a massa de tensoativos conseguimos chegar à região ótima.
-# sent_id = 373-20150911-MONOGRAFIA_0-332
+# sent_id = 373-20150911-MONOGRAFIA_0-335
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8661,14 +8677,14 @@
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	região	região	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
 31	ótima	ótimo	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 4.3
-# sent_id = 373-20150911-MONOGRAFIA_0-333
+# sent_id = 373-20150911-MONOGRAFIA_0-336
 1	4.3	4.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Validação do modelo
-# sent_id = 373-20150911-MONOGRAFIA_0-334
+# sent_id = 373-20150911-MONOGRAFIA_0-337
 1	Validação	Validação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8676,7 +8692,7 @@
 4	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A figura 15 mostra um gráfico com o plot dos valores experimentais e os valores previstos pelo modelo.
-# sent_id = 373-20150911-MONOGRAFIA_0-335
+# sent_id = 373-20150911-MONOGRAFIA_0-338
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	15	15	NUM	_	NumType=Card	2	nummod	_	_
@@ -8702,13 +8718,13 @@
 21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 15:
-# sent_id = 373-20150911-MONOGRAFIA_0-336
+# sent_id = 373-20150911-MONOGRAFIA_0-339
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Valores previstos versus valores experimentais
-# sent_id = 373-20150911-MONOGRAFIA_0-337
+# sent_id = 373-20150911-MONOGRAFIA_0-340
 1	Valores	valor	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	previstos	previsto	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	versus	versu	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
@@ -8716,7 +8732,7 @@
 5	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 
 # text = Verificamos que os valores dos pontos experimentais estão bem próximos dos valores previstos pelo modelo, apresentando pouca variação.
-# sent_id = 373-20150911-MONOGRAFIA_0-338
+# sent_id = 373-20150911-MONOGRAFIA_0-341
 1	Verificamos	Verificar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	_	_	11	mark	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -8742,20 +8758,20 @@
 20	apresentando	apresentar	VERB	_	VerbForm=Ger	15	advcl	_	_
 21	pouca	pouco	DET	_	Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
 22	variação	variação	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = CONCLUSÕES 5.
-# sent_id = 373-20150911-MONOGRAFIA_0-339
-1	CONCLUSÕES	conclusão	NUM	_	NumType=Card	0	root	_	_
+# sent_id = 373-20150911-MONOGRAFIA_0-342
+1	CONCLUSÕES	conclusão	NUM	_	NumType=Card	0	root	_	SpacesAfter=\s\n
 2	5	5	NUM	_	NumType=Card	1	flat	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Conclusões
-# sent_id = 373-20150911-MONOGRAFIA_0-340
+# sent_id = 373-20150911-MONOGRAFIA_0-343
 1	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = O planejamento experimental mostrou-se satisfatório na estimativa da porcentagem mássica de solução de glicerina que pode ser incorporada ao diesel antes do ponto de turbidez, o modelo matemático proposto pode ser considerado significativo e preditivo dentro da faixa estudada neste trabalho.
-# sent_id = 373-20150911-MONOGRAFIA_0-341
+# sent_id = 373-20150911-MONOGRAFIA_0-344
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -8815,7 +8831,7 @@
 50	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Os resultados obtidos experimentalmente e através do modelo mostram que todos os parâmetros estudados tem influência significativa no processo de dissolução e observando a superfície de resposta verificou-se que a região ótima ocorre para condições de massa de tensoativos de 5,5 g sob uma proporção 3/2 e titulada com uma solução de glicerina de 15%.
-# sent_id = 373-20150911-MONOGRAFIA_0-342
+# sent_id = 373-20150911-MONOGRAFIA_0-345
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_

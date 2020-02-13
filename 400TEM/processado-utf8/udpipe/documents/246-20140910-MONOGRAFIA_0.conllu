@@ -1,6 +1,6 @@
 # text = 1.
 # sent_id = 246-20140910-MONOGRAFIA_0-1
-1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+1	1	1	NUM	_	NumType=Card	0	root	_	SpacesBefore=\n|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = INTRODUÇÃO Com o constante e progressivo avanço da industrialização, desde a segunda metade do século XIX, ocorreram diversos danos ao meio ambiente, incluindo atmosfera, água e solo.
@@ -383,7 +383,7 @@
 40	com	com	ADP	_	_	41	case	_	_
 41	características	característica	NOUN	_	Gender=Fem|Number=Plur	38	obl	_	_
 42	carcinogênicas	carcinogênico	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n\n
 
 # text = Neste sentido, o refino do petróleo produz grande variedade de poluentes cujas propriedades modificam-se em função dos processos utilizados.
 # sent_id = 246-20140910-MONOGRAFIA_0-11
@@ -701,7 +701,7 @@
 48	processos	processo	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	_
 49	físicos	físico	ADJ	_	Gender=Masc|Number=Plur	48	amod	_	_
 50	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	48	amod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+51	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = No entanto, os processos que envolvem microrganismos podem apresentar algumas limitações, devido à baixa biodegradabilidade e alta toxicidade do composto em questão, por isso, numerosas espécies de bactérias resistentes e degradadoras de elevadas concentrações de fenol têm sido isoladas e suas vias de degradação estudadas.
 # sent_id = 246-20140910-MONOGRAFIA_0-19
@@ -802,7 +802,7 @@
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 35	petrolífera	petrolífero	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 2. REVISÃO BIBLIOGRÁFICA 2.1.
 # sent_id = 246-20140910-MONOGRAFIA_0-21
@@ -1075,7 +1075,7 @@
 12	em	em	ADP	_	_	14	case	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 2 – Distribuição de água no planeta Terra Fonte: Cadernos
 # sent_id = 246-20140910-MONOGRAFIA_0-28
@@ -1414,7 +1414,7 @@
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	ASTM	ASTM	PROPN	_	Gender=Fem|Number=Sing	6	obl:agent	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	American	American	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
+11	American	American	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	SpacesAfter=\s\n
 12	Society	Society	PROPN	_	Number=Sing	11	flat:name	_	_
 13	for	for	PROPN	_	Number=Sing	11	flat:name	_	_
 
@@ -1745,7 +1745,7 @@
 26-27	nos	_	_	_	_	_	_	_	_
 26	em	em	ADP	_	_	28	case	_	_
 27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-28	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
+28	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	SpacesAfter=\s\n
 29	produzidos	produzir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	28	acl	_	_
 30	e	e	CCONJ	_	_	32	cc	_	_
 31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
@@ -1935,27 +1935,22 @@
 26	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Tabela 4-
+# text = Tabela 4-Características dos efluentes das refinarias.
 # sent_id = 246-20140910-MONOGRAFIA_0-55
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Características dos efluentes das refinarias.
-# sent_id = 246-20140910-MONOGRAFIA_0-56
-1	Características	característica	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-5-6	das	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	refinarias	refinaria	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	4-Características	4-Características	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6-7	das	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	refinarias	refinaria	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: Piras, P. F. (1993).
-# sent_id = 246-20140910-MONOGRAFIA_0-57
+# sent_id = 246-20140910-MONOGRAFIA_0-56
 1	Fonte	fonte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Piras	Piras	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -1968,7 +1963,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Durante o processo de refino de petróleo, o fenol é lançado nos efluentes nas etapas de craqueamento catalítico, produção de lubrificantes e de solventes e nas águas de lavagem da gasolina.
-# sent_id = 246-20140910-MONOGRAFIA_0-58
+# sent_id = 246-20140910-MONOGRAFIA_0-57
 1	Durante	durante	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -2013,7 +2008,7 @@
 38	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = A seguir são introduzidos tratamentos cáusticos, que são fases dos processos de tratamento das frações obtidas, e tem o objetivo de melhorar a qualidade dos produtos, diminuindo possíveis impurezas, sem causar grande modificação nas frações (MARIANO, 2011).
-# sent_id = 246-20140910-MONOGRAFIA_0-59
+# sent_id = 246-20140910-MONOGRAFIA_0-58
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2069,7 +2064,7 @@
 49	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nos efluentes, este composto pode ser encontrado em mais de uma forma, podendo apresentar estrutura mais complexa quando há ligação com outros íons (como nitrofenóis e clorofenóis), que são mais tóxicas que o fenol (ZHOU e FANG, 1997).
-# sent_id = 246-20140910-MONOGRAFIA_0-60
+# sent_id = 246-20140910-MONOGRAFIA_0-59
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -2091,7 +2086,7 @@
 18	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 19	mais	mais	ADV	_	_	20	advmod	_	_
 20	complexa	complexo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-21	quando	quando	ADV	_	_	22	advmod	_	_
+21	quando	quando	ADV	_	_	22	advmod	_	SpacesAfter=\s\n
 22	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 23	ligação	ligação	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 24	com	com	ADP	_	_	26	case	_	_
@@ -2121,22 +2116,22 @@
 48	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = 2.3.
-# sent_id = 246-20140910-MONOGRAFIA_0-61
+# sent_id = 246-20140910-MONOGRAFIA_0-60
 1	2.3	2.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tratamento de Efluentes
-# sent_id = 246-20140910-MONOGRAFIA_0-62
+# sent_id = 246-20140910-MONOGRAFIA_0-61
 1	Tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Efluentes	Efluentes	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Industriais
-# sent_id = 246-20140910-MONOGRAFIA_0-63
+# sent_id = 246-20140910-MONOGRAFIA_0-62
 1	Industriais	industrial	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Com o intuito de minimizar os impactos gerados pela grande quantidade de resíduos industriais, a legislação pressiona o setor industrial para que arquem com a responsabilidade de controle dos seus efluentes, diminuindo o seu potencial poluidor.
-# sent_id = 246-20140910-MONOGRAFIA_0-64
+# sent_id = 246-20140910-MONOGRAFIA_0-63
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
@@ -2182,7 +2177,7 @@
 41	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = Assim, a presença de estações de tratamento de efluentes é uma condição básica em toda instalação industrial.
-# sent_id = 246-20140910-MONOGRAFIA_0-65
+# sent_id = 246-20140910-MONOGRAFIA_0-64
 1	Assim	assim	ADV	_	_	13	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2204,7 +2199,7 @@
 19	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = O sistema de águas residuais é composto por uma série de operação de natureza física, química e biológica usadas para transformação ou remoção de compostos que são indesejáveis no meio ambiente.
-# sent_id = 246-20140910-MONOGRAFIA_0-66
+# sent_id = 246-20140910-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2242,7 +2237,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Segundo BRITO (1996), existem três tipos de tratamento de efluente, dependendo do tipo de material a ser removido: -
-# sent_id = 246-20140910-MONOGRAFIA_0-67
+# sent_id = 246-20140910-MONOGRAFIA_0-66
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	BRITO	Brito	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2271,7 +2266,7 @@
 25	-	-	PUNCT	_	_	7	punct	_	_
 
 # text = Tratamento primário: remoção de substâncias flutuantes e de sólidos finos sedimentares; -
-# sent_id = 246-20140910-MONOGRAFIA_0-68
+# sent_id = 246-20140910-MONOGRAFIA_0-67
 1	Tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	primário	primário	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2288,7 +2283,7 @@
 14	-	-	PUNCT	_	_	1	punct	_	_
 
 # text = Tratamento secundário: processo biológico com finalidade de reduzir o teor de matéria orgânica solúvel; -
-# sent_id = 246-20140910-MONOGRAFIA_0-69
+# sent_id = 246-20140910-MONOGRAFIA_0-68
 1	Tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	secundário	secundário	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2308,7 +2303,7 @@
 17	-	-	PUNCT	_	_	1	punct	_	_
 
 # text = Tratamento terciário: remoção de substâncias não eliminadas nos níveis anteriores.
-# sent_id = 246-20140910-MONOGRAFIA_0-70
+# sent_id = 246-20140910-MONOGRAFIA_0-69
 1	Tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	terciário	terciário	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2325,7 +2320,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para a escolha do método a ser empregado devem ser consideradas as vantagens e desvantagens de cada procedimento, além da eficiência, segurança, simplicidade, formação de lodo, custo de implantação e operação, espaço físico requerido e impacto no meio receptor (SPERLING, 1996).
-# sent_id = 246-20140910-MONOGRAFIA_0-71
+# sent_id = 246-20140910-MONOGRAFIA_0-70
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -2385,17 +2380,17 @@
 54	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 2.3.1.
-# sent_id = 246-20140910-MONOGRAFIA_0-72
+# sent_id = 246-20140910-MONOGRAFIA_0-71
 1	2.3.1	2.3.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Tratamento Biológico
-# sent_id = 246-20140910-MONOGRAFIA_0-73
+# sent_id = 246-20140910-MONOGRAFIA_0-72
 1	Tratamento	tratamento	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Biológico	biológico	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = O tratamento biológico de efluentes industriais é o método mais utilizado atualmente, devido ao baixo custo e à sua versatilidade na oxidação de vários poluentes orgânicos, além da possibilidade de tratamento de grande volume de águas residuais.
-# sent_id = 246-20140910-MONOGRAFIA_0-74
+# sent_id = 246-20140910-MONOGRAFIA_0-73
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	biológico	biológico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2446,7 +2441,7 @@
 44	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Neste tipo de tratamento são utilizados microrganismos, principalmente bactérias, que convertem a matéria orgânica disponível no efluente em compostos inorgânicos inócuos.
-# sent_id = 246-20140910-MONOGRAFIA_0-75
+# sent_id = 246-20140910-MONOGRAFIA_0-74
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2474,10 +2469,10 @@
 23	compostos	composto	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
 24	inorgânicos	inorgânico	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
 25	inócuos	inócuo	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Segundo TEIXEIRA e JARDIM (2004) são conhecidos, basicamente, dois tipos de tratamentos biológicos: - Anaeróbio: emprega algumas formas de carbono, enxofre e nitrogênio como aceptores de elétrons, oxidando a matéria orgânica do substrato à CO2 e CH4.
-# sent_id = 246-20140910-MONOGRAFIA_0-76
+# sent_id = 246-20140910-MONOGRAFIA_0-75
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	TEIXEIRA	Teixeira	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -2530,7 +2525,7 @@
 48	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = - Aeróbio: utiliza o oxigênio molecular dissolvido no efluente como aceptor de elétrons, oxidando a matéria orgânica do poluente à CO2 e H2O.
-# sent_id = 246-20140910-MONOGRAFIA_0-77
+# sent_id = 246-20140910-MONOGRAFIA_0-76
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Aeróbio	Aeróbio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -2565,7 +2560,7 @@
 29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Apesar das inúmeras vantagens, o processo biológico possuem algumas limitações.
-# sent_id = 246-20140910-MONOGRAFIA_0-78
+# sent_id = 246-20140910-MONOGRAFIA_0-77
 1	Apesar	apesar	ADV	_	_	5	case	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -2582,7 +2577,7 @@
 13	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Compostos com elevada toxicidade podem interferir neste tipo de tratamento, uma vez que o impacto de compostos altamente tóxicos gera a diminuição dos microrganismos, além de poder causar modificações em seus metabolitos, impedindo a degradação dessas substâncias (LOPES, 2009).
-# sent_id = 246-20140910-MONOGRAFIA_0-79
+# sent_id = 246-20140910-MONOGRAFIA_0-78
 1	Compostos	Composto	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	elevada	elevar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
@@ -2637,7 +2632,7 @@
 49	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Em efluentes que apresentam altas concentrações de fenol, este tipo de tratamento pode não ter tecnologia adequada, devido ao caráter inibitório do composto que estabelece uma barreira ao metabolismo microbiano.
-# sent_id = 246-20140910-MONOGRAFIA_0-80
+# sent_id = 246-20140910-MONOGRAFIA_0-79
 1	Em	em	ADP	_	_	2	case	_	_
 2	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -2679,7 +2674,7 @@
 36	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = No entanto, vários estudos estão sendo realizados a fim de selecionar cepas bacterianas capazes de tratar efluentes que apresentam elevadas concentrações de compostos fenólicos.
-# sent_id = 246-20140910-MONOGRAFIA_0-81
+# sent_id = 246-20140910-MONOGRAFIA_0-80
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	9	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -2710,7 +2705,7 @@
 27	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Segundo PERPETUO et al. (2009) cepas bacterianas de Chromobacterium violaceum possuem o gene da fenol-hidroxilase, capaz de metabolizar o fenol; diversos outros autores relatam a capacidade de degradação de compostos aromáticos em espécies pertencentes aos gêneros Pseudomonas, Sphingomonas, Burkholderia e Ralstonia (AVANZI et al., 2009;
-# sent_id = 246-20140910-MONOGRAFIA_0-82
+# sent_id = 246-20140910-MONOGRAFIA_0-81
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	PERPETUO	PERPETUO	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	_
 3	et	et	X	_	Number=Sing	2	flat:name	_	_
@@ -2771,7 +2766,7 @@
 56	;	;	PUNCT	_	_	13	punct	_	_
 
 # text = CHEN et al., 2004;
-# sent_id = 246-20140910-MONOGRAFIA_0-83
+# sent_id = 246-20140910-MONOGRAFIA_0-82
 1	CHEN	Chen	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -2780,7 +2775,7 @@
 6	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = THAKUR et al., 2002).
-# sent_id = 246-20140910-MONOGRAFIA_0-84
+# sent_id = 246-20140910-MONOGRAFIA_0-83
 1	THAKUR	THAKUR	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	et	et	X	_	Number=Sing	1	flat:name	_	_
 3	al.	al.	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
@@ -2790,17 +2785,17 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 2.4.
-# sent_id = 246-20140910-MONOGRAFIA_0-85
+# sent_id = 246-20140910-MONOGRAFIA_0-84
 1	2.4	2.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Legislação Ambiental
-# sent_id = 246-20140910-MONOGRAFIA_0-86
+# sent_id = 246-20140910-MONOGRAFIA_0-85
 1	Legislação	legislação	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Ambiental	Ambiental	PROPN	_	Number=Sing	1	flat:name	_	_
 
-# text = No Estado de São Paulo existem muitas indústrias contendo efluentes fenólicos ligados à rede publica de esgoto, para isso, estes efluentes devem sofrer tratamento na própria unidade industrial a fim de minimizar a concentração de fenóis para enquadrar- se dentro da norma imposta pela legislação.
-# sent_id = 246-20140910-MONOGRAFIA_0-87
+# text = No Estado de São Paulo existem muitas indústrias contendo efluentes fenólicos ligados à rede publica de esgoto, para isso, estes efluentes devem sofrer tratamento na própria unidade industrial a fim de minimizar a concentração de fenóis para enquadrar-se dentro da norma imposta pela legislação.
+# sent_id = 246-20140910-MONOGRAFIA_0-86
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2846,23 +2841,23 @@
 40	de	de	ADP	_	_	41	case	_	_
 41	fenóis	fenol	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	_
 42	para	para	SCONJ	_	_	43	mark	_	_
-43	enquadrar	enquadrar	VERB	_	VerbForm=Inf	37	acl	_	SpaceAfter=No
-44	-	-	PUNCT	_	_	43	punct	_	_
-45	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	expl	_	_
-46	dentro	dentro	ADV	_	_	43	advmod	_	_
-47-48	da	_	_	_	_	_	_	_	_
-47	de	de	ADP	_	_	49	case	_	_
-48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	norma	norma	NOUN	_	Gender=Fem|Number=Sing	46	obl	_	_
-50	imposta	impor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	49	acl	_	_
-51-52	pela	_	_	_	_	_	_	_	_
-51	por	por	ADP	_	_	53	case	_	_
-52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	legislação	legislação	NOUN	_	Gender=Fem|Number=Sing	50	obl:agent	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+43-44	enquadrar-se	_	_	_	_	_	_	_	_
+43	enquadrar	enquadrar	VERB	_	VerbForm=Inf	37	advcl	_	_
+44	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	expl	_	_
+45	dentro	dentro	ADV	_	_	43	advmod	_	_
+46-47	da	_	_	_	_	_	_	_	_
+46	de	de	ADP	_	_	48	case	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	norma	norma	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
+49	imposta	impor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	48	acl	_	_
+50-51	pela	_	_	_	_	_	_	_	_
+50	por	por	ADP	_	_	52	case	_	_
+51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	legislação	legislação	NOUN	_	Gender=Fem|Number=Sing	49	obl:agent	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Em 2005, a Resolução CONAMA nº 357, de 17 de março (BRASIL, 2005), que dispõe sobre as condições e padrões de lançamento de efluentes, limitava a emissão de fenóis totais em 0,003 mg.L-1, propondo um alto padrão de qualidade, cuja finalidade era a proteção à saúde humana, bem como às comunidades aquáticas.
-# sent_id = 246-20140910-MONOGRAFIA_0-88
+# sent_id = 246-20140910-MONOGRAFIA_0-87
 1	Em	em	ADP	_	_	2	case	_	_
 2	2005	2005	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2932,7 +2927,7 @@
 65	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = No entanto, a Resolução CONAMA nº 430, de 13 de maio de 2011 (BRASIL, 2011), que complementa e altera a resolução anterior, bem como o Artigo 18 do Decreto Estadual nº 8.469/76, do Estado de São Paulo, estabelecem o limite de 0,5 mg.L-1 de fenóis em emissões de esgoto diretamente no corpo receptor.
-# sent_id = 246-20140910-MONOGRAFIA_0-89
+# sent_id = 246-20140910-MONOGRAFIA_0-88
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	7	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -2956,7 +2951,7 @@
 20	2011	2011	NUM	_	NumType=Card	18	appos:parataxis	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	7	punct	_	_
-23	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	24	nsubj	_	_
+23	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	24	nsubj	_	SpacesAfter=\s\n
 24	complementa	complementar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 25	e	e	CCONJ	_	_	26	cc	_	_
 26	altera	alterar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
@@ -3006,16 +3001,16 @@
 67	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 2.5.
-# sent_id = 246-20140910-MONOGRAFIA_0-90
+# sent_id = 246-20140910-MONOGRAFIA_0-89
 1	2.5	2.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Fenol
-# sent_id = 246-20140910-MONOGRAFIA_0-91
+# sent_id = 246-20140910-MONOGRAFIA_0-90
 1	Fenol	Fenol	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = O fenol é um hidrocarboneto aromático, com várias formas isoméricas que diferem dos álcoois por apresentarem um grupo –OH ligado diretamente a um anel aromático.
-# sent_id = 246-20140910-MONOGRAFIA_0-92
+# sent_id = 246-20140910-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3047,7 +3042,7 @@
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em seu estado puro, o fenol encontra-se na forma sólida branca ou incolor e quando fundido tem baixo ponto de fusão, porém apresentam ponto de ebulição elevado, conferido pela existência de hidrogênio entre as moléculas.
-# sent_id = 246-20140910-MONOGRAFIA_0-93
+# sent_id = 246-20140910-MONOGRAFIA_0-92
 1	Em	em	ADP	_	_	3	case	_	_
 2	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	det	_	_
 3	estado	estado	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -3095,7 +3090,7 @@
 42	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Possui cheiro desagradável, detectável a uma concentração de 40 mg.L-1 em ar e entre 1 a 8 mg.L-1 em água (ATSDR, 1998) e por ser muito solúvel em água, torna-se facilmente um sério contaminante para o meio ambiente (LOPES, 2009).
-# sent_id = 246-20140910-MONOGRAFIA_0-94
+# sent_id = 246-20140910-MONOGRAFIA_0-93
 1	Possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	cheiro	cheiro	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	desagradável	desagradável	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
@@ -3149,7 +3144,7 @@
 50	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Produzido naturalmente ou por processos antropogênicos, o composto pode ser encontrado em alimentos, restos de animais e em material orgânico em decomposição, bem como no ser humano.
-# sent_id = 246-20140910-MONOGRAFIA_0-95
+# sent_id = 246-20140910-MONOGRAFIA_0-94
 1	Produzido	produzir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
 2	naturalmente	naturalmente	ADV	_	_	1	advmod	_	_
 3	ou	ou	CCONJ	_	_	5	cc	_	_
@@ -3185,7 +3180,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Em anos passados o fenol era obtido pela destilação do alcatrão da hulha, no entanto, atualmente, é produzido sinteticamente a partir do benzeno (EPA, 2002).
-# sent_id = 246-20140910-MONOGRAFIA_0-96
+# sent_id = 246-20140910-MONOGRAFIA_0-95
 1	Em	em	ADP	_	_	2	case	_	_
 2	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	passados	passado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -3230,7 +3225,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Na figura 1 são mostrados alguns dos ácidos de ocorrência natural contendo a molécula de fenol, a qual estão ligados diferentes radicais.
-# sent_id = 246-20140910-MONOGRAFIA_0-97
+# sent_id = 246-20140910-MONOGRAFIA_0-96
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3261,7 +3256,7 @@
 26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 1 - Derivados do ácido benzoico de ocorrência natural.
-# sent_id = 246-20140910-MONOGRAFIA_0-98
+# sent_id = 246-20140910-MONOGRAFIA_0-97
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	1	1	NUM	_	NumType=Card	0	root	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -3274,19 +3269,10 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	natural	natural	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
-
-# text = Fonte: LIANDA, 2009.
-# sent_id = 246-20140910-MONOGRAFIA_0-99
-1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	LIANDA	LIANDA	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	2009	2009	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Atualmente, o fenol é principal matéria prima empregada como intermediária na produção de resinas fenólicas, que são usadas nas fundições, construção civil e automobilística, produção de fibras sintéticas, como o nylon e resinas epoxy.
-# sent_id = 246-20140910-MONOGRAFIA_0-100
+# sent_id = 246-20140910-MONOGRAFIA_0-98
 1	Atualmente	atualmente	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3333,7 +3319,7 @@
 42	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O fenol e seus isômeros são ainda empregados como fungicida e desinfetante, por serem tóxicos para a maioria dos microrganismos (GRACIOSO et al., 2010).
-# sent_id = 246-20140910-MONOGRAFIA_0-101
+# sent_id = 246-20140910-MONOGRAFIA_0-99
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
@@ -3367,7 +3353,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Nos efluentes industriais, os fenóis são encontrados em mais de uma forma, podendo apresentar estrutura mais complexa quando há ligação com outros íons (como nitrofenóis e clorofenóis), que são mais tóxicas que o fenol (ZHOU e FANG, 1997).
-# sent_id = 246-20140910-MONOGRAFIA_0-102
+# sent_id = 246-20140910-MONOGRAFIA_0-100
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -3419,50 +3405,47 @@
 48	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 2.5.1.
-# sent_id = 246-20140910-MONOGRAFIA_0-103
+# sent_id = 246-20140910-MONOGRAFIA_0-101
 1	2.5.1	2.5.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Degradação do Fenol
-# sent_id = 246-20140910-MONOGRAFIA_0-104
-1	Degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+# text = Degradação do Fenol Atualmente, existem diversas tecnologias e processos destinados ao tratamento de efluentes fenólicos, que envolvem mecanismos físicos, químicos, biológico e eletroquímico.
+# sent_id = 246-20140910-MONOGRAFIA_0-102
+1	Degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Fenol	Fenol	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-
-# text = Atualmente, existem diversas tecnologias e processos destinados ao tratamento de efluentes fenólicos, que envolvem mecanismos físicos, químicos, biológico e eletroquímico.
-# sent_id = 246-20140910-MONOGRAFIA_0-105
-1	Atualmente	atualmente	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
-5	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
-6	e	e	CCONJ	_	_	7	cc	_	_
-7	processos	processo	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
-8	destinados	destinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	_
-9-10	ao	_	_	_	_	_	_	_	_
-9	a	a	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-14	fenólicos	fenólico	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	8	punct	_	_
-16	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	17	nsubj	_	_
-17	envolvem	envolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
-18	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
-19	físicos	físico	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	biológico	biológico	ADJ	_	Gender=Masc|Number=Sing	19	conj	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
-25	eletroquímico	eletroquímico	ADJ	_	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	3	punct	_	_
+5	Atualmente	atualmente	ADV	_	_	1	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	diversas	diversos	DET	_	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	processos	processo	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+12	destinados	destinar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	efluentes	efluente	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+18	fenólicos	fenólico	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	7	punct	_	_
+20	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	21	nsubj	_	_
+21	envolvem	envolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+22	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+23	físicos	físico	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	biológico	biológico	ADJ	_	Gender=Masc|Number=Sing	23	conj	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	eletroquímico	eletroquímico	ADJ	_	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Estes processos objetivam a: completa oxidação dos contaminantes para CO2, água e produtos inorgânicos.
-# sent_id = 246-20140910-MONOGRAFIA_0-106
+# sent_id = 246-20140910-MONOGRAFIA_0-103
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	objetivam	objetivar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3484,7 +3467,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Outras modificações ou alterações nas estruturas químicas das moléculas orgânicas visam realizar a decomposição parcial ou total do composto, a fim de torna-los menos tóxicos e permitirem a biodegradação (WU e ZHOU, 2001).
-# sent_id = 246-20140910-MONOGRAFIA_0-107
+# sent_id = 246-20140910-MONOGRAFIA_0-104
 1	Outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	modificações	modificação	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -3533,7 +3516,7 @@
 42	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Os métodos mais comumente empregados na remoção do fenol de efluentes industriais são: processos de extração (geralmente extração líquido-líquido), tratamento com carvão ativado, processos térmicos, arraste com ar ou osmose reversa, tratamento biológico (PERA TITUS et al., 2004).
-# sent_id = 246-20140910-MONOGRAFIA_0-108
+# sent_id = 246-20140910-MONOGRAFIA_0-105
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	métodos	método	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -3589,7 +3572,7 @@
 51	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = No entanto, todas as tecnologias citadas apresentam desvantagens.
-# sent_id = 246-20140910-MONOGRAFIA_0-109
+# sent_id = 246-20140910-MONOGRAFIA_0-106
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	7	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -3604,7 +3587,7 @@
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O tratamento com processo de extração, com carvão ativado acoplado com processos térmicos mostra baixa eficiência em sistemas com concentrações baixas de soluto, como é o caso de efluentes industriais fenólicos, podendo ser um processo com custos operacionais mais elevados ou permitirem a regeneração dos fenóis ou ainda, envolverem problemas ambientais, uma vez que os resíduos gerados são dispostos no meio ambiente (KOJIMA et al., 1995).
-# sent_id = 246-20140910-MONOGRAFIA_0-110
+# sent_id = 246-20140910-MONOGRAFIA_0-107
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3686,7 +3669,7 @@
 77	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Os processos que envolvem floculação, precipitação ou osmose reversa também apresentam aplicações limitadas, uma vez que necessitam de tratamento posterior para a remoção do poluente (PERA TITUS et al., 2004).
-# sent_id = 246-20140910-MONOGRAFIA_0-111
+# sent_id = 246-20140910-MONOGRAFIA_0-108
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	processos	processo	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -3724,10 +3707,10 @@
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	2004	2004	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Como citado anteriormente, os tratamentos que envolvem microrganismos também são limitados pela alta toxicidade dos compostos fenólicos e seus derivados por causa dos efeitos deletérios sobre os diferentes microrganismos.
-# sent_id = 246-20140910-MONOGRAFIA_0-112
+# sent_id = 246-20140910-MONOGRAFIA_0-109
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -3767,7 +3750,7 @@
 34	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Neste cenário, a utilização de microrganismos mais resistentes aos fenóis surge como uma importante ferramenta no tratamento de efluentes industriais fenolíticos, visto que as bactérias estão envolvidas em inúmeros ciclos biogeoquímicos e muitas apresentam mecanismos para suportar condições adversas, podendo transformar substâncias tóxicas em compostos menos tóxicos (MUKHOPADHYAY et al., 2002).
-# sent_id = 246-20140910-MONOGRAFIA_0-113
+# sent_id = 246-20140910-MONOGRAFIA_0-110
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -3834,7 +3817,7 @@
 61	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Diversos grupos de microrganismos vêm sendo estudados nos processos de biodegradação de fenol, por conseguirem utilizar uma grande variedade de compostos orgânicos como fonte de carbono e energia.
-# sent_id = 246-20140910-MONOGRAFIA_0-114
+# sent_id = 246-20140910-MONOGRAFIA_0-111
 1	Diversos	diversos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3869,7 +3852,7 @@
 31	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Tais organismos são capazes de colonizar e utilizar diversos substratos exóticos ou tóxicos para seu crescimento.
-# sent_id = 246-20140910-MONOGRAFIA_0-115
+# sent_id = 246-20140910-MONOGRAFIA_0-112
 1	Tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3889,7 +3872,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A via de degradação aeróbia de um composto fenólico por microrganismos, conforme mostrado na figura 2, é iniciada pela hidroxilação do composto, a fim de formar catecol ou formação da hidroquinona para posterior formação do catecol (GRACIOSO, 2012).
-# sent_id = 246-20140910-MONOGRAFIA_0-116
+# sent_id = 246-20140910-MONOGRAFIA_0-113
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	via	via	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3946,8 +3929,8 @@
 49	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Esta reação é catalisada pela fenol-hidroxilase (fenol 2- monooxigenase), sendo considerada limitante na via degradativa.
-# sent_id = 246-20140910-MONOGRAFIA_0-117
+# text = Esta reação é catalisada pela fenol-hidroxilase (fenol 2-monooxigenase), sendo considerada limitante na via degradativa.
+# sent_id = 246-20140910-MONOGRAFIA_0-114
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	reação	reação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3958,22 +3941,21 @@
 7	fenol-hidroxilase	fenol-hidroxilase	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
-10	2-	2-	PUNCT	_	_	11	punct	_	_
-11	monooxigenase	monooxigenase	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	15	punct	_	_
-14	sendo	ser	AUX	_	VerbForm=Ger	15	aux:pass	_	_
-15	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl	_	_
-16	limitante	limitante	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-17-18	na	_	_	_	_	_	_	_	_
-17	em	em	ADP	_	_	19	case	_	_
-18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	via	via	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
-20	degradativa	degradativo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	4	punct	_	_
+10	2-monooxigenase	2-monooxigenase	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	14	aux:pass	_	_
+14	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl	_	_
+15	limitante	limitante	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	via	via	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+19	degradativa	degradativo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Dentre as bactérias, existem 2 tipos de enzimas fenol hidroxilase: a uni-componente e a multi-componente (FUTAMATA et al., 2001).
-# sent_id = 246-20140910-MONOGRAFIA_0-118
+# sent_id = 246-20140910-MONOGRAFIA_0-115
 1	Dentre	Dentre	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
@@ -4001,7 +3983,7 @@
 25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O segundo passo da degradação é a quebra do catecol formado, mediante a abertura do anel aromático, pela ação da catecol dioxigenases.
-# sent_id = 246-20140910-MONOGRAFIA_0-119
+# sent_id = 246-20140910-MONOGRAFIA_0-116
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	passo	passo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -4039,7 +4021,7 @@
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Nesta fase o catecol é degradado pela via orto clivagem (enzima catecol 1,2 dioxigenases) ou pela via meta clivagem (enzima catecol 2,3 dioxigenases) (NAIR et al., 2008).
-# sent_id = 246-20140910-MONOGRAFIA_0-120
+# sent_id = 246-20140910-MONOGRAFIA_0-117
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4083,7 +4065,7 @@
 38	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Estes produtos formados são, então, transformados em produtos do metabolismo celular, até que haja a formação de CO2 e água.
-# sent_id = 246-20140910-MONOGRAFIA_0-121
+# sent_id = 246-20140910-MONOGRAFIA_0-118
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	formados	formar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4112,7 +4094,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Às vezes, a degradação do fenol pode ocorrer de forma parcial ou ocorrer a biotransformação de um composto aromático em outros intermediários, que podem ter efeitos contrários, tornando a toxicidade no ambiente mais elevada.
-# sent_id = 246-20140910-MONOGRAFIA_0-122
+# sent_id = 246-20140910-MONOGRAFIA_0-119
 1-2	Às	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -4159,7 +4141,7 @@
 41	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Portanto, o monitoramento dos compostos intermediários gerados durantes todo o processo é de extrema importância.
-# sent_id = 246-20140910-MONOGRAFIA_0-123
+# sent_id = 246-20140910-MONOGRAFIA_0-120
 1	Portanto	portanto	ADV	_	_	17	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4180,34 +4162,20 @@
 17	importância	importância	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
 
-# text = . Figura 2 - Via de degradação aeróbia de um composto fenólico por microrganismos.
-# sent_id = 246-20140910-MONOGRAFIA_0-124
-1	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
-2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	2	2	PROPN	_	Number=Sing	2	flat:name	_	_
-4	-	-	PUNCT	_	_	2	punct	_	_
-5	Via	via	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	aeróbia	aeróber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	composto	composto	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
-12	fenólico	fenólico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	por	por	ADP	_	_	14	case	_	_
-14	microrganismos	microrganismo	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+# text = .
+# sent_id = 246-20140910-MONOGRAFIA_0-121
+1	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n\n
 
 # text = Fonte: GRACIOSO, 2012
-# sent_id = 246-20140910-MONOGRAFIA_0-125
+# sent_id = 246-20140910-MONOGRAFIA_0-122
 1	Fonte	fonte	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	GRACIOSO	GRACIOSO	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	2012	2012	NUM	_	NumType=Card	1	nummod	_	_
+5	2012	2012	NUM	_	NumType=Card	1	nummod	_	SpacesAfter=\s\n
 
-# text = Na degradação anaeróbia apresentada na figura 3, o caminho mais estudado de transformação de fenol sob condições metanogênicas é mediante a formação de benzoil- CoA.
-# sent_id = 246-20140910-MONOGRAFIA_0-126
+# text = Na degradação anaeróbia apresentada na figura 3, o caminho mais estudado de transformação de fenol sob condições metanogênicas é mediante a formação de benzoil-CoA.
+# sent_id = 246-20140910-MONOGRAFIA_0-123
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4236,13 +4204,11 @@
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	formação	formação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 26	de	de	ADP	_	_	27	case	_	_
-27	benzoil	benzoil	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
-28	-	-	PUNCT	_	_	25	punct	_	_
-29	CoA	CoA	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	25	punct	_	_
+27	benzoil-CoA	benzoil-coa	NOUN	_	Gender=Unsp|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Nesta via metabólica há a presença de enzimas que promovem a carboxilação, reações de descarboxilação e desidroxilação durante a transformação de fenol, apresentada por Gallert e Winter (1992 e 1994).
-# sent_id = 246-20140910-MONOGRAFIA_0-127
+# sent_id = 246-20140910-MONOGRAFIA_0-124
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4282,7 +4248,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Estes autores sugeriram que o fenol é degradado à benzoato, via 4-hidroxibenzoato, 4-hidroxibenzoil-CoA e benzoil-CoA.
-# sent_id = 246-20140910-MONOGRAFIA_0-128
+# sent_id = 246-20140910-MONOGRAFIA_0-125
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	autores	autor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	sugeriram	sugerir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4305,7 +4271,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 3 - Via de degradação anaeróbia de um composto fenólico por microrganismos.
-# sent_id = 246-20140910-MONOGRAFIA_0-129
+# sent_id = 246-20140910-MONOGRAFIA_0-126
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	3	3	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -4322,7 +4288,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Adaptado de KARLSSON et al., 1998.
-# sent_id = 246-20140910-MONOGRAFIA_0-130
+# sent_id = 246-20140910-MONOGRAFIA_0-127
 1	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	KARLSSON	KARLSSON	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
@@ -4330,19 +4296,19 @@
 5	al.	al.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	1998	1998	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 3.
-# sent_id = 246-20140910-MONOGRAFIA_0-131
+# sent_id = 246-20140910-MONOGRAFIA_0-128
 1	3	3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = OBJETIVOS
-# sent_id = 246-20140910-MONOGRAFIA_0-132
+# sent_id = 246-20140910-MONOGRAFIA_0-129
 1	OBJETIVOS	objetivo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Esta proposta visa selecionar e identificar bactérias resistentes à altas concentrações de fenol e capazes de metabolizá-lo como fonte de energia, para serem acrescentadas às estações de tratamento de efluentes em refinarias de petróleo, a fim de contribuir para aumento da velocidade de degradação do fenol, minimizando, em menor tempo, o seu efeito tóxico no efluente.
-# sent_id = 246-20140910-MONOGRAFIA_0-133
+# sent_id = 246-20140910-MONOGRAFIA_0-130
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	visa	visar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4416,15 +4382,15 @@
 65	em	em	ADP	_	_	67	case	_	_
 66	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
 67	efluente	efluente	NOUN	_	Gender=Masc|Number=Sing	55	obl	_	SpaceAfter=No
-68	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+68	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 4.
-# sent_id = 246-20140910-MONOGRAFIA_0-134
+# sent_id = 246-20140910-MONOGRAFIA_0-131
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = MATERIAL E MÉTODOS 4.1.
-# sent_id = 246-20140910-MONOGRAFIA_0-135
+# sent_id = 246-20140910-MONOGRAFIA_0-132
 1	MATERIAL	Material	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	E	e	CCONJ	_	_	3	cc	_	_
 3	MÉTODOS	métor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
@@ -4432,13 +4398,13 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Material 4.1.1.
-# sent_id = 246-20140910-MONOGRAFIA_0-136
+# sent_id = 246-20140910-MONOGRAFIA_0-133
 1	Material	Material	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	4.1.1	4.1.1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Isolamento de bactérias com potencial de biodegradar fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-137
+# sent_id = 246-20140910-MONOGRAFIA_0-134
 1	Isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -4450,7 +4416,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As cepas bacterianas foram isoladas a partir de amostras ambientais, como efluente de refinaria de petróleo, água do rio Atibaia (GPS: (22º41’28’’)(47º07’22’’)) que recebe efluente tratado de refinaria petrolífera e solo de plantação de pinheiros, que liberam substancias alelopáticas com pequena concentração de fenol, a fim de evitar competição por outras plantas (Gatti, 2004).
-# sent_id = 246-20140910-MONOGRAFIA_0-138
+# sent_id = 246-20140910-MONOGRAFIA_0-135
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cepas	cepa	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	bacterianas	bacteriano	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -4530,12 +4496,12 @@
 76	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 4.1.2.
-# sent_id = 246-20140910-MONOGRAFIA_0-139
+# sent_id = 246-20140910-MONOGRAFIA_0-136
 1	4.1.2	4.1.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Meios de Cultura Plate Count Agar (PCA) (HIMEDIA®)
-# sent_id = 246-20140910-MONOGRAFIA_0-140
+# sent_id = 246-20140910-MONOGRAFIA_0-137
 1	Meios	meios	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Cultura	Cultura	PROPN	_	Number=Sing	1	nmod	_	_
@@ -4550,7 +4516,7 @@
 12	)	)	PUNCT	_	_	11	punct	_	_
 
 # text = Peptona de Caseína Hidrolizada 0,50 g Extrato de Levedura 0,25 g Dextrose 0,10 g
-# sent_id = 246-20140910-MONOGRAFIA_0-141
+# sent_id = 246-20140910-MONOGRAFIA_0-138
 1	Peptona	Peptona	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Caseína	Caseína	PROPN	_	Number=Sing	1	nmod	_	_
@@ -4567,7 +4533,7 @@
 14	g	g	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Ágar 1,50 g Água destilada q.s.p. 100 mL pH 7,0 à 25ºC
-# sent_id = 246-20140910-MONOGRAFIA_0-142
+# sent_id = 246-20140910-MONOGRAFIA_0-139
 1	Ágar	Ágar	VERB	_	VerbForm=Inf	0	root	_	_
 2	1,50	1,50	NUM	_	NumType=Card	3	nummod	_	_
 3	g	g	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -4584,7 +4550,7 @@
 13	25ºC	25ºC	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 
 # text = O meio foi esterilizado em autoclave a 1 atm, 121ºC por 15 minutos.
-# sent_id = 246-20140910-MONOGRAFIA_0-143
+# sent_id = 246-20140910-MONOGRAFIA_0-140
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4602,7 +4568,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Caldo Nutriente (HIMEDIA®)
-# sent_id = 246-20140910-MONOGRAFIA_0-144
+# sent_id = 246-20140910-MONOGRAFIA_0-141
 1	Caldo	Caldo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Nutriente	Nutriente	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4610,7 +4576,7 @@
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = Peptona de carne 0,50 g Extrato de Levedura 0,15 g Extrato de Carne 0,15 g Cloreto de Sódio 0,50 g
-# sent_id = 246-20140910-MONOGRAFIA_0-145
+# sent_id = 246-20140910-MONOGRAFIA_0-142
 1	Peptona	Peptona	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	carne	carne	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4625,7 +4591,7 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	Carne	carne	PROPN	_	Number=Sing	11	nmod	_	_
 14	0,15	0,15	NUM	_	NumType=Card	15	nummod	_	_
-15	g	g	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+15	g	g	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\s\n
 16	Cloreto	Cloreto	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	Sódio	Sódio	PROPN	_	Number=Sing	16	nmod	_	_
@@ -4633,7 +4599,7 @@
 20	g	g	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Água destilada q.s.p. 100 mL pH 7,4 à 25ºC
-# sent_id = 246-20140910-MONOGRAFIA_0-146
+# sent_id = 246-20140910-MONOGRAFIA_0-143
 1	Água	Água	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	destilada	destilar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	q.s.p.	q.s.p.	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -4647,7 +4613,7 @@
 10	25ºC	25ºC	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 
 # text = O meio foi esterilizado em autoclave a 1 atm, 121ºC por 15 minutos.
-# sent_id = 246-20140910-MONOGRAFIA_0-147
+# sent_id = 246-20140910-MONOGRAFIA_0-144
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4664,25 +4630,25 @@
 14	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Meio Mineral Mínimo K2HPO4 0,1 g MgSO4 7H2O 0,02 g NaCl 0,01 g CaCl2 0,01 g FeCl2 0,002 g (NH4)2SO4 0,1 g Água destilada q.s.p. 1000 mL pH ajustado para 7,0
-# sent_id = 246-20140910-MONOGRAFIA_0-148
+# text = Meio Mineral Mínimo K2HPO 0,1 g MgSO 7H2O 0,02 g NaCl 0,01 g CaCl 0,01 g FeCl 0,002 g (NH4)2SO4 0,1 g Água destilada q.s.p. 1000 mL pH ajustado para 7,0
+# sent_id = 246-20140910-MONOGRAFIA_0-145
 1	Meio	Meio	PROPN	_	Number=Sing	0	root	_	_
 2	Mineral	Mineral	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Mínimo	mínimo	PROPN	_	Number=Sing	1	flat:name	_	_
-4	K2HPO4	K2HPO4	PROPN	_	Number=Sing	1	flat:name	_	_
+4	K2HPO	K2HPO	PROPN	_	Number=Sing	1	flat:name	_	_
 5	0,1	0,1	NUM	_	NumType=Card	6	nummod	_	_
 6	g	g	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-7	MgSO4	MgSO4	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
+7	MgSO	MgSO	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
 8	7H2O	7H2O	PROPN	_	Number=Sing	7	flat:name	_	_
 9	0,02	0,02	NUM	_	NumType=Card	10	nummod	_	_
 10	g	g	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 11	NaCl	NaCl	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
 12	0,01	0,01	NUM	_	NumType=Card	13	nummod	_	_
 13	g	g	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-14	CaCl2	CaCl2	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
+14	CaCl	CaCl	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
 15	0,01	0,01	NUM	_	NumType=Card	16	nummod	_	_
-16	g	g	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-17	FeCl2	FeCl2	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	_
+16	g	g	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+17	FeCl	FeCl	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
 18	0,002	0,002	NUM	_	NumType=Card	19	nummod	_	_
 19	g	g	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
@@ -4701,7 +4667,7 @@
 33	7,0	7,0	NUM	_	NumType=Card	31	obl	_	_
 
 # text = O meio foi filtrado em membrana
-# sent_id = 246-20140910-MONOGRAFIA_0-149
+# sent_id = 246-20140910-MONOGRAFIA_0-146
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	meio	meio	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4710,7 +4676,7 @@
 6	membrana	membrano	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 
 # text = Millipore 0,45 µm 4.1.3.
-# sent_id = 246-20140910-MONOGRAFIA_0-150
+# sent_id = 246-20140910-MONOGRAFIA_0-147
 1	Millipore	Millipore	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	0,45	0,45	NUM	_	NumType=Card	1	nummod	_	_
 3	µm	µr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4718,7 +4684,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Reagentes e Soluções Solução salina 0,85% NaCl 8,50 g
-# sent_id = 246-20140910-MONOGRAFIA_0-151
+# sent_id = 246-20140910-MONOGRAFIA_0-148
 1	Reagentes	Reagente	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Soluções	Soluções	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -4731,7 +4697,7 @@
 10	g	g	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 
 # text = Água destilada q.s.p. 1000 mL
-# sent_id = 246-20140910-MONOGRAFIA_0-152
+# sent_id = 246-20140910-MONOGRAFIA_0-149
 1	Água	Água	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	destilada	destilar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3	q.s.p.	q.s.p.	PUNCT	_	_	5	punct	_	_
@@ -4739,7 +4705,7 @@
 5	mL	ml	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = A solução foi autoclavada por 15 minutos a 121ºC e 1 atm.
-# sent_id = 246-20140910-MONOGRAFIA_0-153
+# sent_id = 246-20140910-MONOGRAFIA_0-150
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4755,7 +4721,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Solução padrão de fenol Fenol PA (Synth®) foi utilizado para o preparo da solução padrão.
-# sent_id = 246-20140910-MONOGRAFIA_0-154
+# sent_id = 246-20140910-MONOGRAFIA_0-151
 1	Solução	Solução	PROPN	_	Number=Sing	2	nsubj	_	_
 2	padrão	padr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4778,7 +4744,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A concentração inicial de fenol da solução, nos experimentos realizados foi de 3.000 mg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-155
+# sent_id = 246-20140910-MONOGRAFIA_0-152
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4801,7 +4767,7 @@
 18	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Toda água utilizada no trabalho foi proveniente de um purificador de água Millipore® (“água Milli-Q”).
-# sent_id = 246-20140910-MONOGRAFIA_0-156
+# sent_id = 246-20140910-MONOGRAFIA_0-153
 1	Toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	água	água	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4826,7 +4792,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Acetonitrila Acetonitrila (TEDIA ®) 900 mL Água Milli-Q 100 mL
-# sent_id = 246-20140910-MONOGRAFIA_0-157
+# sent_id = 246-20140910-MONOGRAFIA_0-154
 1	Acetonitrila	Acetonitrila	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Acetonitrila	Acetonitrila	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4838,10 +4804,10 @@
 9	Água	água	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	_
 10	Milli-Q	Milli-Q	PROPN	_	Number=Sing	9	flat:name	_	_
 11	100	100	NUM	_	NumType=Card	12	nummod	_	_
-12	mL	ml	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	mL	ml	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\s\n
 
 # text = A solução foi filtrada em membrana
-# sent_id = 246-20140910-MONOGRAFIA_0-158
+# sent_id = 246-20140910-MONOGRAFIA_0-155
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	solução	solução	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4850,7 +4816,7 @@
 6	membrana	membrano	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 
 # text = Millipore 0,22 µm 4.2.
-# sent_id = 246-20140910-MONOGRAFIA_0-159
+# sent_id = 246-20140910-MONOGRAFIA_0-156
 1	Millipore	Millipore	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	0,22	0,22	NUM	_	NumType=Card	1	nummod	_	_
 3	µm	µr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4858,18 +4824,18 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Métodos 4.2.1.
-# sent_id = 246-20140910-MONOGRAFIA_0-160
+# sent_id = 246-20140910-MONOGRAFIA_0-157
 1	Métodos	método	DET	_	Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
 2	4.2.1	4.2.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Isolamento bacteriano
-# sent_id = 246-20140910-MONOGRAFIA_0-161
+# sent_id = 246-20140910-MONOGRAFIA_0-158
 1	Isolamento	isolamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	bacteriano	bacteriano	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 
 # text = A população microbiana, a partir destas amostras, foi adaptada para crescer em fenol a uma concentração inicial de 1.000 µg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-162
+# sent_id = 246-20140910-MONOGRAFIA_0-159
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	população	população	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3	microbiana	microbiano	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
@@ -4897,7 +4863,7 @@
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O processo de adaptação foi realizado em reatores, submetidos à temperatura ambiente com aeração.
-# sent_id = 246-20140910-MONOGRAFIA_0-163
+# sent_id = 246-20140910-MONOGRAFIA_0-160
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4918,7 +4884,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O fenol foi gradativamente acrescentado a cada 24h até atingir a concentração de 3.000 µg.L-1, no reator.
-# sent_id = 246-20140910-MONOGRAFIA_0-164
+# sent_id = 246-20140910-MONOGRAFIA_0-161
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
@@ -4942,7 +4908,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Diariamente era realizado plaqueamento das amostras, para assegurar a viabilidade dos microrganismos.
-# sent_id = 246-20140910-MONOGRAFIA_0-165
+# sent_id = 246-20140910-MONOGRAFIA_0-162
 1	Diariamente	diariamente	ADV	_	_	3	advmod	_	_
 2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
 3	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4963,7 +4929,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = No 10º dia de adaptação, as amostras foram plaqueadas em meio de cultura “Plate Count Agar” (PCA) com incubação à 36ºC por 24h para obtenção de culturas puras.
-# sent_id = 246-20140910-MONOGRAFIA_0-166
+# sent_id = 246-20140910-MONOGRAFIA_0-163
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5004,12 +4970,12 @@
 36	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 4.2.2.
-# sent_id = 246-20140910-MONOGRAFIA_0-167
+# sent_id = 246-20140910-MONOGRAFIA_0-164
 1	4.2.2	4.2.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Preservação das bactérias
-# sent_id = 246-20140910-MONOGRAFIA_0-168
+# sent_id = 246-20140910-MONOGRAFIA_0-165
 1	Preservação	preservação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5017,7 +4983,7 @@
 4	bactérias	bactéria	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = As cepas foram preservadas pelo método de repicagem contínua em tubo inclinado com meio PCA, em duplicata, mantidos sob refrigeração a 10ºC. 4.2.3.
-# sent_id = 246-20140910-MONOGRAFIA_0-169
+# sent_id = 246-20140910-MONOGRAFIA_0-166
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cepas	cepa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -5048,7 +5014,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Determinação da Concentração Inibitória Mínima (CIM) de fenol para os microrganismos presentes nos reatores de enriquecimento.
-# sent_id = 246-20140910-MONOGRAFIA_0-170
+# sent_id = 246-20140910-MONOGRAFIA_0-167
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5074,7 +5040,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para a determinação da Concentração Inibitória Mínima (CIM), que representa a concentração de fenol necessária para inibir o crescimento bacteriano, de forma que quanto menor o CIM, maior a dificuldade da bactéria se desenvolver, foi utilizado adaptação do método proposto por SOUZA (2000):
-# sent_id = 246-20140910-MONOGRAFIA_0-171
+# sent_id = 246-20140910-MONOGRAFIA_0-168
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
@@ -5135,12 +5101,12 @@
 55	:	:	PUNCT	_	_	28	punct	_	_
 
 # text = Em fracos
-# sent_id = 246-20140910-MONOGRAFIA_0-172
+# sent_id = 246-20140910-MONOGRAFIA_0-169
 1	Em	em	ADP	_	_	2	case	_	_
 2	fracos	fraco	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Erlenmeyer de 250 mL inocular 1 mL das cepas bacterianas isoladas no reatores em 90 mL de meio mineral mínimo, com volumes variáveis de soluções de fenol, de forma que cada um dos frascos fique com as concentrações de 0; 100; 200; 400; 600; 800; 1.000; 3.000; 3.500 e 4.000 mg.L-1 de fenol, ajustando-se os volumes finais para 100 mL com meio mineral mínimo.
-# sent_id = 246-20140910-MONOGRAFIA_0-173
+# sent_id = 246-20140910-MONOGRAFIA_0-170
 1	Erlenmeyer	Erlenmeyer	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	250	250	NUM	_	NumType=Card	4	nummod	_	_
@@ -5223,15 +5189,15 @@
 76	meio	meio	ADJ	_	Gender=Masc|Number=Sing	77	amod	_	_
 77	mineral	mineral	NOUN	_	Gender=Masc|Number=Sing	67	obl	_	_
 78	mínimo	mínimo	ADJ	_	Gender=Masc|Number=Sing	77	amod	_	SpaceAfter=No
-79	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+79	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Os frascos
-# sent_id = 246-20140910-MONOGRAFIA_0-174
+# sent_id = 246-20140910-MONOGRAFIA_0-171
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	frascos	frasco	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # text = Erlenmeyer foram incubados em estufa a 36ºC, por um período de 24 horas.
-# sent_id = 246-20140910-MONOGRAFIA_0-175
+# sent_id = 246-20140910-MONOGRAFIA_0-172
 1	Erlenmeyer	Erlenmeyer	PROPN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	incubados	incubar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5249,7 +5215,7 @@
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Para a verificação da resistência para cada concentração, foi efetuado um plaqueamento em meio PCA, meio de cultura indicado para o cultivo de microrganismos heterotróficos aeróbios, pela técnica de “pour plate” ou espalhamento.
-# sent_id = 246-20140910-MONOGRAFIA_0-176
+# sent_id = 246-20140910-MONOGRAFIA_0-173
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	verificação	verificação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
@@ -5295,7 +5261,7 @@
 41	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = As placas foram incubadas a 36ºC, por 24 horas para se confirmar o crescimento das culturas.
-# sent_id = 246-20140910-MONOGRAFIA_0-177
+# sent_id = 246-20140910-MONOGRAFIA_0-174
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	placas	placa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -5318,12 +5284,12 @@
 19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 4.2.4.
-# sent_id = 246-20140910-MONOGRAFIA_0-178
+# sent_id = 246-20140910-MONOGRAFIA_0-175
 1	4.2.4	4.2.4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Teste de biodegradação e quantificação do consumo de fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-179
+# sent_id = 246-20140910-MONOGRAFIA_0-176
 1	Teste	teste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	biodegradação	biodegradação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -5338,7 +5304,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para a quantificação do consumo de fenol foram utilizados dois métodos:
-# sent_id = 246-20140910-MONOGRAFIA_0-180
+# sent_id = 246-20140910-MONOGRAFIA_0-177
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -5354,9 +5320,9 @@
 12	métodos	método	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	10	punct	_	_
 
-# text = Método 1 (espectrofotométricos, com o kit Nanocolor Fenol 5 (MACHEREY- NAGEL®)) e Método 2 (Cromatografia Líquida de Alta Eficiência (CLAE)), sendo este ultimo desenvolvido no próprio laboratório de Toxicidade de Águas, Departamento de Bioquímica e Microbiologia Aplicada – UNESP, Rio Claro.
-# sent_id = 246-20140910-MONOGRAFIA_0-181
-1	Método	método	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+# text = Método 1 (espectrofotométricos, com o kit Nanocolor Fenol 5 (MACHEREY-NAGEL®)) e Método 2 (Cromatografia Líquida de Alta Eficiência (CLAE)), sendo este ultimo desenvolvido no próprio laboratório de Toxicidade de Águas, Departamento de Bioquímica e Microbiologia Aplicada – UNESP, Rio Claro.
+# sent_id = 246-20140910-MONOGRAFIA_0-178
+1	Método	método	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 2	1	1	NUM	_	NumType=Card	1	nummod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	espectrofotométricos	espectrofotométrico	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
@@ -5368,54 +5334,52 @@
 10	Fenol	Fenol	PROPN	_	Number=Sing	9	flat:name	_	_
 11	5	5	PROPN	_	Number=Sing	9	flat:name	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	MACHEREY	MACHEREY	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	13	punct	_	_
-15	NAGEL®	NAGEL®	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	4	punct	_	_
-18	e	e	CCONJ	_	_	19	cc	_	_
-19	Método	Método	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-20	2	2	NUM	_	NumType=Card	19	nummod	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	19	appos	_	_
-23	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	Alta	alta	PROPN	_	Gender=Masc|Number=Sing	23	obl	_	_
-26	Eficiência	eficiência	PROPN	_	Number=Sing	25	flat:name	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	CLAE	CLAE	PROPN	_	Gender=Masc|Number=Sing	25	appos:parataxis	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	1	punct	_	_
-32	sendo	ser	AUX	_	VerbForm=Ger	34	cop	_	_
-33	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
-34	ultimo	ultimo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-35	desenvolvido	desenvolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	34	acl	_	_
-36-37	no	_	_	_	_	_	_	_	_
-36	em	em	ADP	_	_	39	case	_	_
-37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-38	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	_
-39	laboratório	laboratório	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
+13	MACHEREY-NAGEL®	MACHEREY-NAGEL®	PROPN	_	Number=Sing	9	appos:parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	4	punct	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	Método	Método	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+18	2	2	NUM	_	NumType=Card	17	nummod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+21	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Alta	alta	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
+24	Eficiência	eficiência	PROPN	_	Number=Sing	23	flat:name	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	CLAE	CLAE	PROPN	_	Gender=Masc|Number=Sing	23	appos:parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	1	punct	_	_
+30	sendo	ser	AUX	_	VerbForm=Ger	32	cop	_	_
+31	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	ultimo	ultimo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+33	desenvolvido	desenvolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_
+34-35	no	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	37	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	_
+37	laboratório	laboratório	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	Toxicidade	Toxicidade	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 40	de	de	ADP	_	_	41	case	_	_
-41	Toxicidade	Toxicidade	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
-42	de	de	ADP	_	_	43	case	_	_
-43	Águas	Água	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	35	punct	_	_
-45	Departamento	Departamento	PROPN	_	Gender=Masc|Number=Sing	34	conj	_	_
-46	de	de	ADP	_	_	47	case	_	_
-47	Bioquímica	Bioquímica	PROPN	_	Number=Sing	45	nmod	_	_
-48	e	e	CCONJ	_	_	49	cc	_	_
-49	Microbiologia	Microbiologia	PROPN	_	Gender=Fem|Number=Sing	50	conj	_	_
-50	Aplicada	aplicada	PROPN	_	Gender=Fem|Number=Sing	34	conj	_	_
-51	–	–	PUNCT	_	_	52	punct	_	_
-52	UNESP	Unesp	PROPN	_	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
-53	,	,	PUNCT	_	_	54	punct	_	_
-54	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	34	appos	_	_
-55	Claro	Claro	PROPN	_	Number=Sing	54	flat:name	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
+41	Águas	Água	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	33	punct	_	_
+43	Departamento	Departamento	PROPN	_	Gender=Masc|Number=Sing	32	conj	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	Bioquímica	Bioquímica	PROPN	_	Number=Sing	43	nmod	_	_
+46	e	e	CCONJ	_	_	47	cc	_	_
+47	Microbiologia	Microbiologia	PROPN	_	Gender=Fem|Number=Sing	48	conj	_	_
+48	Aplicada	aplicada	PROPN	_	Gender=Fem|Number=Sing	32	conj	_	_
+49	–	–	PUNCT	_	_	50	punct	_	_
+50	UNESP	Unesp	PROPN	_	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	_
+53	Claro	Claro	PROPN	_	Number=Sing	52	flat:name	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
 
 # text = Para os dois métodos foram preparados quatro frascos SCHOTT®, um para cada cepa bacteriana e para o controle, com 90 mL de meio mineral mínimo e adicionou-se fenol para a concentração de 1.000 mg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-182
+# sent_id = 246-20140910-MONOGRAFIA_0-179
 1	Para	para	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 3	dois	dois	NUM	_	NumType=Card	4	nummod	_	_
@@ -5457,7 +5421,7 @@
 38	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Ao frasco utilizado como controle não foi acrescentado suspensão bacteriana e aos outros, adicionou-se 1 mL de suspensão bacteriana de uma das cepas isoladas.
-# sent_id = 246-20140910-MONOGRAFIA_0-183
+# sent_id = 246-20140910-MONOGRAFIA_0-180
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5494,7 +5458,7 @@
 30	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Os frascos foram incubados à 36ºC em estufa.
-# sent_id = 246-20140910-MONOGRAFIA_0-184
+# sent_id = 246-20140910-MONOGRAFIA_0-181
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	frascos	frasco	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
@@ -5508,7 +5472,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Para o Método 2 foram realizados mais dois experimentos, em que as linhagens isoladas foram aplicadas ao efluente de uma refinaria petrolífera e à água de produção de petróleo, ambos acrescidos com 1.000 mg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-185
+# sent_id = 246-20140910-MONOGRAFIA_0-182
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Método	Método	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
@@ -5552,7 +5516,7 @@
 39	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As características físico-químicas destas amostras são apresentadas na tabela 5 e 6, respectivamente.
-# sent_id = 246-20140910-MONOGRAFIA_0-186
+# sent_id = 246-20140910-MONOGRAFIA_0-183
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	características	característica	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3	físico-químicas	físico-químico	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -5574,14 +5538,14 @@
 17	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Tabela 5 - Parâmetros
-# sent_id = 246-20140910-MONOGRAFIA_0-187
+# sent_id = 246-20140910-MONOGRAFIA_0-184
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
 4	Parâmetros	parâmetros	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Físico-químicos do Efluente da Refinaria Fonte: ANGELIS, 2013
-# sent_id = 246-20140910-MONOGRAFIA_0-188
+# sent_id = 246-20140910-MONOGRAFIA_0-185
 1	Físico-químicos	Físico-químico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5590,7 +5554,7 @@
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Refinaria	Refinaria	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	Refinaria	Refinaria	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\s\n
 8	Fonte	Fonte	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	1	punct	_	_
 10	ANGELIS	ANGELIS	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
@@ -5598,14 +5562,14 @@
 12	2013	2013	NUM	_	NumType=Card	10	nummod	_	_
 
 # text = Tabela 6 – Parâmetros
-# sent_id = 246-20140910-MONOGRAFIA_0-189
+# sent_id = 246-20140910-MONOGRAFIA_0-186
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 4	Parâmetros	parâmetros	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = Físico-químicos da Água de Produção de Petróleo 4.2.4.1.
-# sent_id = 246-20140910-MONOGRAFIA_0-190
+# sent_id = 246-20140910-MONOGRAFIA_0-187
 1	Físico-químicos	Físico-químico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5614,19 +5578,19 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	Produção	produção	PROPN	_	Number=Sing	4	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	Petróleo	Petróleo	PROPN	_	Number=Sing	6	nmod	_	_
+8	Petróleo	Petróleo	PROPN	_	Number=Sing	6	nmod	_	SpacesAfter=\s\n
 9	4.2.4.1	4.2.4.1	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Método 1:
-# sent_id = 246-20140910-MONOGRAFIA_0-191
+# sent_id = 246-20140910-MONOGRAFIA_0-188
 1	Método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	1	1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Quantificação de fenol em Espectrofotômetro pelo método 4- amino-antipirina.
-# sent_id = 246-20140910-MONOGRAFIA_0-192
-1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+# text = Quantificação de fenol em Espectrofotômetro pelo método 4-amino-antipirina.
+# sent_id = 246-20140910-MONOGRAFIA_0-189
+1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 4	em	em	ADP	_	_	5	case	_	_
@@ -5634,14 +5598,12 @@
 6-7	pelo	_	_	_	_	_	_	_	_
 6	por	por	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	método	método	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-9	4	4	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
-10	-	-	PUNCT	_	_	1	punct	_	_
-11	amino-antipirina	amino-antipirina	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+8	método	método	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+9	4-amino-antipirina	4-amino-antipirinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O kit Nanocolor Fenol 5 (MACHEREY-NAGEL®), figura 4, tem a mesma metodologia apresentada pelo STANDARD METHODS FOR THE EXAMINATION OF WATER AND WASTEWATER (CLESCERI et al., 1998), trata-se da determinação fotométrica de fenóis, pela produção de um composto avermelhado, gerado pela reação com o reagente 4-animo-antipirina presente nos tubos de reação.
-# sent_id = 246-20140910-MONOGRAFIA_0-193
+# sent_id = 246-20140910-MONOGRAFIA_0-190
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	kit	kit	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	Nanocolor	Nanocolor	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -5717,8 +5679,8 @@
 67	reação	reação	NOUN	_	Gender=Fem|Number=Sing	65	nmod	_	SpaceAfter=No
 68	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = No tubo de ensaio do kit, adicionou-se 4 mL da amostra de estudo, diluída 1.000 vezes, juntamente com os reagentes do kit (devidamente dosados pelo comerciante) agitou-se e aguardou-se 5 minutos para medição no espectrofotômetro MACHEREY- NAGEL®, com detector ultravioleta-visível, no comprimento de onda de 520 nm.
-# sent_id = 246-20140910-MONOGRAFIA_0-194
+# text = No tubo de ensaio do kit, adicionou-se 4 mL da amostra de estudo, diluída 1.000 vezes, juntamente com os reagentes do kit (devidamente dosados pelo comerciante) agitou-se e aguardou-se 5 minutos para medição no espectrofotômetro MACHEREY-NAGEL®, com detector ultravioleta-visível, no comprimento de onda de 520 nm.
+# sent_id = 246-20140910-MONOGRAFIA_0-191
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5772,32 +5734,30 @@
 43	5	5	NUM	_	NumType=Card	44	nummod	_	_
 44	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	41	nsubj	_	_
 45	para	para	ADP	_	_	46	case	_	_
-46	medição	medição	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	_
+46	medição	medição	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
 47-48	no	_	_	_	_	_	_	_	_
 47	em	em	ADP	_	_	49	case	_	_
 48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	espectrofotômetro	espectrofotômetro	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
-50	MACHEREY	MACHEREY	PROPN	_	Gender=Masc|Number=Sing	49	appos	_	SpaceAfter=No
-51	-	-	PUNCT	_	_	50	punct	_	_
-52	NAGEL®	NAGEL®	PROPN	_	Number=Sing	50	flat:name	_	SpaceAfter=No
-53	,	,	PUNCT	_	_	38	punct	_	_
-54	com	com	ADP	_	_	55	case	_	_
-55	detector	detector	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
-56	ultravioleta-visível	ultravioleta-visível	ADJ	_	Gender=Masc|Number=Sing	55	amod	_	SpaceAfter=No
-57	,	,	PUNCT	_	_	38	punct	_	_
-58-59	no	_	_	_	_	_	_	_	_
-58	em	em	ADP	_	_	60	case	_	_
-59	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
-60	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
-61	de	de	ADP	_	_	62	case	_	_
-62	onda	onda	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	_
-63	de	de	ADP	_	_	65	case	_	_
-64	520	520	NUM	_	NumType=Card	65	nummod	_	_
-65	nm	nm	NOUN	_	Gender=Fem|Number=Sing	62	nmod	_	SpaceAfter=No
-66	.	.	PUNCT	_	_	10	punct	_	_
+49	espectrofotômetro	espectrofotômetro	PROPN	_	Gender=Masc|Number=Plur	44	nmod	_	_
+50	MACHEREY-NAGEL®	MACHEREY-NAGEL®	PROPN	_	Number=Sing	49	flat:name	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	38	punct	_	_
+52	com	com	ADP	_	_	53	case	_	_
+53	detector	detector	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
+54	ultravioleta-visível	ultravioleta-visível	ADJ	_	Gender=Masc|Number=Sing	53	amod	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	38	punct	_	_
+56-57	no	_	_	_	_	_	_	_	_
+56	em	em	ADP	_	_	58	case	_	_
+57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
+59	de	de	ADP	_	_	60	case	_	_
+60	onda	onda	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
+61	de	de	ADP	_	_	63	case	_	_
+62	520	520	NUM	_	NumType=Card	63	nummod	_	_
+63	nm	nm	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Este espectrofotômetro apresenta um software para a quantificação de fenol, quando se utiliza o kit Nanocolor Fenol 5 (MACHEREY-NAGEL®), dispensando a construção de curva de calibração ou curva padrão.
-# sent_id = 246-20140910-MONOGRAFIA_0-195
+# sent_id = 246-20140910-MONOGRAFIA_0-192
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	espectrofotômetro	espectrofotômetro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5834,34 +5794,34 @@
 34	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 4: Kit
-# sent_id = 246-20140910-MONOGRAFIA_0-196
+# sent_id = 246-20140910-MONOGRAFIA_0-193
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 4	Kit	kit	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 
 # text = NANOCOLOR® FENOL
-# sent_id = 246-20140910-MONOGRAFIA_0-197
+# sent_id = 246-20140910-MONOGRAFIA_0-194
 1	NANOCOLOR®	NANOCOLOR®	PROPN	_	Number=Sing	0	root	_	_
 2	FENOL	FENOL	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Fonte: - http://www.carvalhaes.net 4.2.4.2.
-# sent_id = 246-20140910-MONOGRAFIA_0-198
+# sent_id = 246-20140910-MONOGRAFIA_0-195
 1	Fonte	fonte	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
-4	http://www.carvalhaes.net	http://www.carvalhaes.net	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	http://www.carvalhaes.net	http://www.carvalhaes.net	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
 5	4.2.4.2	4.2.4.2	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Método 2:
-# sent_id = 246-20140910-MONOGRAFIA_0-199
+# sent_id = 246-20140910-MONOGRAFIA_0-196
 1	Método	método	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Quantificação de fenol em Cromatografia Líquida de Alta Eficiência (CLAE).
-# sent_id = 246-20140910-MONOGRAFIA_0-200
+# sent_id = 246-20140910-MONOGRAFIA_0-197
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5877,7 +5837,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A CLAE (figura 5) foi utilizada para a quantificação do consumo de fenol e identificação de compostos intermediários da decomposição do fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-201
+# sent_id = 246-20140910-MONOGRAFIA_0-198
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	CLAE	CLAE	PROPN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5911,7 +5871,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O cromatógrafo utilizado foi o SHIMATZU® - CL Solution, com detector ultravioleta-visível e coluna cromatográfica Kromasil® C18: 5,0 µm, 25,0 cm.
-# sent_id = 246-20140910-MONOGRAFIA_0-202
+# sent_id = 246-20140910-MONOGRAFIA_0-199
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cromatógrafo	cromatógrafo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -5939,28 +5899,39 @@
 25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 5:
-# sent_id = 246-20140910-MONOGRAFIA_0-203
+# sent_id = 246-20140910-MONOGRAFIA_0-200
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Equipamento de análise de Cromatografia Líquida de Alta Eficiência (CLAE)
-# sent_id = 246-20140910-MONOGRAFIA_0-204
+# text = Equipamento de análise de Cromatografia Líquida de Alta Eficiência (CLAE) Fonte:
+# sent_id = 246-20140910-MONOGRAFIA_0-201
 1	Equipamento	Equipamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	análise	análise	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Cromatografia	Cromatografia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
+6	Líquida	líquir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Alta	alta	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 9	Eficiência	eficiência	PROPN	_	Number=Sing	8	flat:name	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	CLAE	CLAE	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	11	punct	_	_
+13	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	1	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Para as análises, as condições do equipamento foram: - fase móvel: Acetonitrila (ACN) diluída em água ultrapura; - comprimento de onda: 254 nm; - temperatura: 30ºC; - fluxo: 0,8 mL.min-1; - tempo de análise: 14 minutos.
-# sent_id = 246-20140910-MONOGRAFIA_0-205
+# text = Dados do autor.
+# sent_id = 246-20140910-MONOGRAFIA_0-202
+1	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	autor	autor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = Para as análises, as condições do equipamento foram: - fase móvel:
+# sent_id = 246-20140910-MONOGRAFIA_0-203
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	análises	análise	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
@@ -5977,46 +5948,49 @@
 13	fase	fase	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 14	móvel	móvel	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	10	punct	_	_
-16	Acetonitrila	Acetonitrila	PROPN	_	Gender=Fem|Number=Sing	10	appos	_	_
-17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	ACN	ACN	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	18	punct	_	_
-20	diluída	diluir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	16	acl	_	_
-21	em	em	ADP	_	_	22	case	_	_
-22	água	água	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
-23	ultrapura	ultrapuro	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
-24	;	;	PUNCT	_	_	10	punct	_	_
-25	-	-	PUNCT	_	_	10	punct	_	_
-26	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
-27	de	de	ADP	_	_	28	case	_	_
-28	onda	onda	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
-29	:	:	PUNCT	_	_	10	punct	_	_
-30	254	254	NUM	_	NumType=Card	31	nummod	_	_
-31	nm	nm	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
-32	;	;	PUNCT	_	_	10	punct	_	_
-33	-	-	PUNCT	_	_	10	punct	_	_
-34	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
-35	:	:	PUNCT	_	_	10	punct	_	_
-36	30ºC	30ºC	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
-37	;	;	PUNCT	_	_	10	punct	_	_
-38	-	-	PUNCT	_	_	10	punct	_	_
-39	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
-40	:	:	PUNCT	_	_	39	punct	_	_
-41	0,8	0,8	NUM	_	NumType=Card	42	nummod	_	_
-42	mL.min	mL.min	PROPN	_	Gender=Masc|Number=Sing	39	appos	_	SpaceAfter=No
-43	-1	-1	NUM	_	NumType=Card	39	nummod	_	SpaceAfter=No
-44	;	;	PUNCT	_	_	10	punct	_	_
-45	-	-	PUNCT	_	_	10	punct	_	_
-46	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
-47	de	de	ADP	_	_	48	case	_	_
-48	análise	análise	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
-49	:	:	PUNCT	_	_	10	punct	_	_
-50	14	14	NUM	_	NumType=Card	51	nummod	_	_
-51	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = No preparo das amostras, filtrou-se 1 mL da amostra em filtro Millipore® 0,22 µm.
-# sent_id = 246-20140910-MONOGRAFIA_0-206
+# text = Acetonitrila (ACN) diluída em água ultrapura; - comprimento de onda: 254 nm; - temperatura: 30ºC; - fluxo: 0,8 mL.min-1; - tempo de análise: 14 minutos.
+# sent_id = 246-20140910-MONOGRAFIA_0-204
+1	Acetonitrila	Acetonitrila	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	ACN	ACN	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	diluída	diluir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	água	água	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	ultrapura	ultrapuro	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	;	;	PUNCT	_	_	1	punct	_	_
+10	-	-	PUNCT	_	_	1	punct	_	_
+11	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	onda	onda	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	1	punct	_	_
+15	254	254	NUM	_	NumType=Card	16	nummod	_	_
+16	nm	nm	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+17	;	;	PUNCT	_	_	1	punct	_	_
+18	-	-	PUNCT	_	_	19	punct	_	_
+19	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	1	punct	_	_
+21	30ºC	30ºC	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+22	;	;	PUNCT	_	_	1	punct	_	_
+23	-	-	PUNCT	_	_	24	punct	_	_
+24	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	1	punct	_	_
+26	0,8	0,8	NUM	_	NumType=Card	27	nummod	_	_
+27	mL.min	mL.min	PROPN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+28	-1	-1	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+29	;	;	PUNCT	_	_	1	punct	_	_
+30	-	-	PUNCT	_	_	1	punct	_	_
+31	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	análise	análise	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	1	punct	_	_
+35	14	14	NUM	_	NumType=Card	36	nummod	_	_
+36	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = No preparo das amostras, filtrou-se 1 mL da amostra em filtro
+# sent_id = 246-20140910-MONOGRAFIA_0-205
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6037,10 +6011,13 @@
 14	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	em	em	ADP	_	_	16	case	_	_
 16	filtro	filtro	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
-17	Millipore®	Millipore®	PROPN	_	Number=Sing	16	flat:name	_	_
-18	0,22	0,22	NUM	_	NumType=Card	16	nummod	_	_
-19	µm	µm	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Millipore® 0,22 µm.
+# sent_id = 246-20140910-MONOGRAFIA_0-206
+1	Millipore®	Millipore®	PROPN	_	Number=Sing	3	nmod	_	_
+2	0,22	0,22	NUM	_	NumType=Card	1	nummod	_	_
+3	µm	µm	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O filtrado foi diluído 1.000 vezes em água ultrapura e a partir desta diluição utilizou-se 20 µL para injeção manual no cromatógrafo.
 # sent_id = 246-20140910-MONOGRAFIA_0-207
@@ -6095,7 +6072,7 @@
 16	CL	CL	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
 17	Solution	Solution	PROPN	_	Number=Sing	16	flat:name	_	_
 18	SHIMATZU	SHIMATZU	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = 4.2.5.
 # sent_id = 246-20140910-MONOGRAFIA_0-209
@@ -6353,9 +6330,9 @@
 75	expostos	expor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	74	acl	_	SpaceAfter=No
 76	.	.	PUNCT	_	_	22	punct	_	_
 
-# text = Essa resposta é a mais significativa para ser extrapolada a uma população (Gherardi- Golgstein et. al., 1990).
+# text = Essa resposta é a mais significativa para ser extrapolada a uma população (Gherardi-Golgstein et. al., 1990).
 # sent_id = 246-20140910-MONOGRAFIA_0-219
-1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	SpacesAfter=\s\n
 2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -6368,15 +6345,13 @@
 11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	população	população	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	Gherardi	Gherardi	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
-15	-	-	PUNCT	_	_	14	punct	_	_
-16	Golgstein	Golgstein	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
-17	et.	et.	PUNCT	_	_	18	punct	_	_
-18	al.	al.	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	18	punct	_	_
-20	1990	1990	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+14	Gherardi-Golgstein	Gherardi-Golgstein	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	_
+15	et.	et.	PUNCT	_	_	16	punct	_	_
+16	al.	al.	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	1990	1990	NUM	_	NumType=Card	14	appos:parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Para a realização do teste, adicionou-se em tubos de ensaio 10 mL de água do rio Atibaia, a qual continha as seguintes concentrações de fenol: 0,3; 0,5; 1,0; 1,5 e 2,0 mg.L-1.
 # sent_id = 246-20140910-MONOGRAFIA_0-220
@@ -6673,7 +6648,7 @@
 # sent_id = 246-20140910-MONOGRAFIA_0-230
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	http://cfb.unh.edu	http://cfb.unh.edr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+3	http://cfb.unh.edu	http://cfb.unh.edr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	SpacesAfter=\s\n
 4	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
@@ -7170,7 +7145,7 @@
 41	%	%	SYM	_	_	36	nmod	_	_
 42	de	de	ADP	_	_	43	case	_	_
 43	saturação	saturação	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Após cada uma das coletas de água de manutenção foram realizados ensaios de viabilidade da água com a exposição de pelo menos 10 organismos teste durante 48 horas sem alimentação e mantidos na incubadora sob as mesmas condições das culturas.
 # sent_id = 246-20140910-MONOGRAFIA_0-246
@@ -7310,7 +7285,7 @@
 44	ração	ração	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	_
 45	para	para	ADP	_	_	46	case	_	_
 46	truta	truta	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = 5. RESULTADOS E DISCUSSÃO 5.1.
 # sent_id = 246-20140910-MONOGRAFIA_0-249
@@ -7487,7 +7462,7 @@
 14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
 16	utilizadas	utilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	15	acl	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 6 - Culturas bacterianas isoladas e preservadas em tubos de cultura em meio PCA.
 # sent_id = 246-20140910-MONOGRAFIA_0-257
@@ -7772,7 +7747,7 @@
 40	,	,	PUNCT	_	_	37	punct	_	_
 41	2007	2007	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 5.3.
 # sent_id = 246-20140910-MONOGRAFIA_0-265
@@ -7897,7 +7872,7 @@
 2	1	1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Quantificação de Fenol em Espectrofotômetro pelo Método 4- Amino-Antipirina
+# text = Quantificação de Fenol em Espectrofotômetro pelo Método 4-Amino-Antipirina
 # sent_id = 246-20140910-MONOGRAFIA_0-272
 1	Quantificação	Quantificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
@@ -7908,9 +7883,7 @@
 6	por	por	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Método	Método	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-9	4	4	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
-10	-	-	PUNCT	_	_	1	punct	_	_
-11	Amino-Antipirina	Amino-Antipirina	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
+9	4-Amino-Antipirina	4-Amino-Antipirina	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	_
 
 # text = Para este trabalho, este método não se mostrou eficiente, uma vez que não conseguiu expressar a redução do fenol no meio de cultura (figura 11).
 # sent_id = 246-20140910-MONOGRAFIA_0-273
@@ -7947,7 +7920,7 @@
 29	figura	figura	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
 30	11	11	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Figura 11:
 # sent_id = 246-20140910-MONOGRAFIA_0-274
@@ -7955,7 +7928,7 @@
 2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Teste de quantificação de fenol com o kit Nanocolor Fenol 5 (MACHEREY- NAGEL®) 5.3.2.
+# text = Teste de quantificação de fenol com o kit Nanocolor Fenol 5 (MACHEREY-NAGEL®) 5.3.2.
 # sent_id = 246-20140910-MONOGRAFIA_0-275
 1	Teste	teste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
@@ -7969,12 +7942,10 @@
 10	Fenol	Fenol	PROPN	_	Number=Sing	9	flat:name	_	_
 11	5	5	PROPN	_	Number=Sing	9	flat:name	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	MACHEREY	MACHEREY	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	13	punct	_	_
-15	NAGEL®	NAGEL®	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	13	punct	_	_
-17	5.3.2	5.3.2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	_
+13	MACHEREY-NAGEL®	MACHEREY-NAGEL®	PROPN	_	Number=Sing	9	appos:parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	5.3.2	5.3.2	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Método 2:
 # sent_id = 246-20140910-MONOGRAFIA_0-276
@@ -8040,7 +8011,7 @@
 6	para	para	ADP	_	_	7	case	_	_
 7	quantificação	quantificação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+9	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\s\n
 
 # text = A partir da análise dos dados obtidos, pode-se observar que houve redução na concentração de fenol das amostras em que se utilizou o meio mineral acrescido com fenol como única fonte de carbono, em apenas 24 horas.
 # sent_id = 246-20140910-MONOGRAFIA_0-280
@@ -8127,7 +8098,7 @@
 26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	linhagens	linhagem	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
 28	bacterianas	bacteriano	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
-29	:	:	PUNCT	_	_	11	punct	_	_
+29	:	:	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 
 # text = A: Cromatograma da concentração inicial de fenol no meio de cultura (1061,2 mg.L-1); B: Cromatograma da biodegradação do fenol pela bactéria C3 isolada do solo e formação de subproduto, com redução de 14,2% de fenol.
 # sent_id = 246-20140910-MONOGRAFIA_0-282
@@ -8278,7 +8249,7 @@
 6	mineral	mineral	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	24	24	NUM	_	NumType=Card	9	nummod	_	_
-9	horas	hora	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+9	horas	hora	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpacesAfter=\s\n
 
 # text = No mesmo estudo realizado por Avanzi (2009), o autor isolou Pseudomonas aeruginosa na região da zona industrial de Cubatão-SP e com ensaios de biodegradação concluiu que esta linhagem foi capaz de consumir até 800 mg.L-1 de fenol em apenas 24 horas, restando como principal intermediário a hidroquinona.
 # sent_id = 246-20140910-MONOGRAFIA_0-288
@@ -8600,38 +8571,73 @@
 12	horas	hora	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = da biodegradação do fenol pela bactéria C3 isolada do solo, com redução de 24% de fenol.
+# text = A:
 # sent_id = 246-20140910-MONOGRAFIA_0-297
-1-2	da	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	3	case	_	_
-2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	biodegradação	biodegradação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7-8	pela	_	_	_	_	_	_	_	_
-7	por	por	ADP	_	_	9	case	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	bactéria	bactéria	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-10	C3	C3	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
-11	isolada	isolada	PROPN	_	Number=Sing	10	flat:name	_	_
-12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	solo	solo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	3	punct	_	_
-16	com	com	ADP	_	_	17	case	_	_
-17	redução	redução	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	24	24	NUM	_	NumType=Card	20	nummod	_	SpaceAfter=No
-20	%	%	SYM	_	_	17	nmod	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	3	punct	_	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Cromatograma da concentração inicial de fenol no meio de cultura (990,0 mg.L-1);
+# sent_id = 246-20140910-MONOGRAFIA_0-298
+1	Cromatograma	Cromatograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	meio	meio	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	990,0	990,0	NUM	_	NumType=Card	1	appos	_	_
+15	mg.L-1	mg.L-1	NUM	_	NumType=Card	14	flat	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	;	;	PUNCT	_	_	1	punct	_	_
+
+# text = B:
+# sent_id = 246-20140910-MONOGRAFIA_0-299
+1	B:	B:	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+
+# text = Cromatograma da biodegradação do fenol pela bactéria
+# sent_id = 246-20140910-MONOGRAFIA_0-300
+1	Cromatograma	Cromatograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	biodegradação	biodegradação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bactéria	bactéria	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+
+# text = C3 isolada do solo, com redução de 24% de fenol.
+# sent_id = 246-20140910-MONOGRAFIA_0-301
+1	C3	C3	NUM	_	NumType=Card	2	nummod	_	_
+2	isolada	isolada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	solo	solo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	redução	redução	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	24	24	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	SYM	_	_	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = C: Cromatograma da biodegradação do fenol pela bactéria C4 isolada do efluente, com redução de 18% de fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-298
+# sent_id = 246-20140910-MONOGRAFIA_0-302
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Cromatograma	Cromatograma	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -8663,49 +8669,46 @@
 25	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = D:
-# sent_id = 246-20140910-MONOGRAFIA_0-299
+# text = D: Cromatograma da biodegradação do fenol pela bactéria C5 isolada do efluente, com redução de 21% de fenol.
+# sent_id = 246-20140910-MONOGRAFIA_0-303
 1	D:	D:	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-
-# text = Cromatograma da biodegradação do fenol pela bactéria C5 isolada do efluente, com redução de 21% de fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-300
-1	Cromatograma	Cromatograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	biodegradação	biodegradação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8-9	pela	_	_	_	_	_	_	_	_
-8	por	por	ADP	_	_	10	case	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	bactéria	bactéria	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-11	C5	C5	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
-12	isolada	isolada	PROPN	_	Number=Sing	11	flat:name	_	_
-13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	efluente	efluente	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	1	punct	_	_
-17	com	com	ADP	_	_	18	case	_	_
-18	redução	redução	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	21	21	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
-21	%	%	SYM	_	_	18	nmod	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+2	Cromatograma	Cromatograma	PROPN	_	Number=Sing	1	flat:name	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	biodegradação	biodegradação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bactéria	bactéria	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+12	C5	C5	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
+13	isolada	isolada	PROPN	_	Number=Sing	12	flat:name	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	efluente	efluente	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	com	com	ADP	_	_	19	case	_	_
+19	redução	redução	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	21	21	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	_	_	19	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gráfico 2:
-# sent_id = 246-20140910-MONOGRAFIA_0-301
+# sent_id = 246-20140910-MONOGRAFIA_0-304
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Consumo de fenol no efluente em 120 horas 5.3.2.2 –
-# sent_id = 246-20140910-MONOGRAFIA_0-302
+# text = Consumo de fenol no efluente em 120 horas 5.3.2.2 – Biodegradação do fenol na água de produção do petróleo.
+# sent_id = 246-20140910-MONOGRAFIA_0-305
 1	Consumo	Consumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8718,28 +8721,25 @@
 9	horas	hora	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 10	5.3.2.2	5.3.2.2	NUM	_	NumType=Card	9	nummod	_	_
 11	–	–	PUNCT	_	_	1	punct	_	_
-
-# text = Biodegradação do fenol na água de produção do petróleo.
-# sent_id = 246-20140910-MONOGRAFIA_0-303
-1	Biodegradação	Biodegradação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5-6	na	_	_	_	_	_	_	_	_
-5	em	em	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	água	água	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	produção	produção	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+12	Biodegradação	Biodegradação	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	água	água	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	produção	produção	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = No experimento com água de produção de petróleo, os resultados mostram que ocorreu a diminuição de 19% com a linhagem C3; 15% com a linhagem C4 e 16% com a linhagem C5 em relação à concentração inicial de fenol no período de 120 horas.
-# sent_id = 246-20140910-MONOGRAFIA_0-304
+# sent_id = 246-20140910-MONOGRAFIA_0-306
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -8798,7 +8798,7 @@
 53	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Os cromatogramas, apresentados na figura 15 e o gráfico 3 mostram a concentração inicial de fenol na água de produção de petróleo e a diminuição quando acrescentou-se as linhagens bacterianas:
-# sent_id = 246-20140910-MONOGRAFIA_0-305
+# sent_id = 246-20140910-MONOGRAFIA_0-307
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cromatogramas	cromatograma	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -8839,13 +8839,13 @@
 35	:	:	PUNCT	_	_	13	punct	_	_
 
 # text = Figura 15:
-# sent_id = 246-20140910-MONOGRAFIA_0-306
+# sent_id = 246-20140910-MONOGRAFIA_0-308
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Cromatogramas da quantificação de fenol na água de produção de petróleo em 120 horas.
-# sent_id = 246-20140910-MONOGRAFIA_0-307
+# sent_id = 246-20140910-MONOGRAFIA_0-309
 1	Cromatogramas	Cromatograma	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8867,7 +8867,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A: Cromatograma da concentração inicial de fenol no meio de cultura (963,0 mg.L-1); B: Cromatograma da biodegradação do fenol pela bactéria C3 isolada do solo, com redução de 19% de fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-308
+# sent_id = 246-20140910-MONOGRAFIA_0-310
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Cromatograma	Cromatograma	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -8920,12 +8920,12 @@
 44	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = C:
-# sent_id = 246-20140910-MONOGRAFIA_0-309
+# sent_id = 246-20140910-MONOGRAFIA_0-311
 1	C	c	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Cromatograma da biodegradação do fenol pela bactéria C4 isolada do efluente, com redução de 15% de fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-310
+# sent_id = 246-20140910-MONOGRAFIA_0-312
 1	Cromatograma	Cromatograma	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8956,7 +8956,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = D: Cromatograma da biodegradação do fenol pela bactéria C5 isolada do efluente, com redução de 16% de fenol.
-# sent_id = 246-20140910-MONOGRAFIA_0-311
+# sent_id = 246-20140910-MONOGRAFIA_0-313
 1	D:	D:	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Cromatograma	Cromatograma	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -8985,16 +8985,16 @@
 22	%	%	SYM	_	_	19	nmod	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Gráfico 3:
-# sent_id = 246-20140910-MONOGRAFIA_0-312
+# sent_id = 246-20140910-MONOGRAFIA_0-314
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Consumo de fenol na água de produção de petróleo em 120 horas 5.4.
-# sent_id = 246-20140910-MONOGRAFIA_0-313
+# sent_id = 246-20140910-MONOGRAFIA_0-315
 1	Consumo	Consumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fenol	fenol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -9013,11 +9013,11 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Identificação
-# sent_id = 246-20140910-MONOGRAFIA_0-314
+# sent_id = 246-20140910-MONOGRAFIA_0-316
 1	Identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = A identificação das linhagens está em andamento e será anexada na versão final deste trabalho 5.5.
-# sent_id = 246-20140910-MONOGRAFIA_0-315
+# sent_id = 246-20140910-MONOGRAFIA_0-317
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -9043,20 +9043,20 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Teste de Toxicidade
-# sent_id = 246-20140910-MONOGRAFIA_0-316
+# sent_id = 246-20140910-MONOGRAFIA_0-318
 1	Teste	teste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Toxicidade	Toxicidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Aguda com Daphnia similis
-# sent_id = 246-20140910-MONOGRAFIA_0-317
+# sent_id = 246-20140910-MONOGRAFIA_0-319
 1	Aguda	Agur	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 2	com	com	ADP	_	_	3	case	_	_
 3	Daphnia	Daphnia	PROPN	_	Gender=Fem|Number=Sing	1	obl	_	_
 4	similis	simill	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 
 # text = Avaliou-se a toxicidade aguda do fenol em
-# sent_id = 246-20140910-MONOGRAFIA_0-318
+# sent_id = 246-20140910-MONOGRAFIA_0-320
 1-2	Avaliou-se	_	_	_	_	_	_	_	_
 1	Avaliou	Avaliar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -9070,7 +9070,7 @@
 9	em	em	ADP	_	_	5	case	_	_
 
 # text = Daphnia similis na água do Rio Atibaia, o qual recebe o efluente tratado de uma refinaria de petróleo.
-# sent_id = 246-20140910-MONOGRAFIA_0-319
+# sent_id = 246-20140910-MONOGRAFIA_0-321
 1	Daphnia	Daphnir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	similis	simili	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -9097,7 +9097,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Ao final de 48 h de exposição, percebeu-se que o controle e a concentração de 0,3 mg.L-1 não afetaram a mortalidade dos organismos.
-# sent_id = 246-20140910-MONOGRAFIA_0-320
+# sent_id = 246-20140910-MONOGRAFIA_0-322
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9131,7 +9131,7 @@
 28	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = No entanto, para as concentrações de 0,5; 1,0; 1,5 e 2,0 mg.L-1 observou-se mortalidade.
-# sent_id = 246-20140910-MONOGRAFIA_0-321
+# sent_id = 246-20140910-MONOGRAFIA_0-323
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	7	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
@@ -9157,7 +9157,7 @@
 21	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = O teste indicou que a mortalidade de 50% (CE 50) dos indivíduos expostos foi observada próxima a concentração de 0,5 mg.L-1 (gráfico 4), indicando que o fenol é um composto de alta toxicidade para D. similis e a legislação CONAMA, na resolução 430 de 2011, que dispõe sobre condições e padrões de lançamento de efluentes, considera este parâmetro, uma vez que a concentração máxima de fenol em efluentes descartados é de 0,5 mg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-322
+# sent_id = 246-20140910-MONOGRAFIA_0-324
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teste	teste	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	indicou	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9245,16 +9245,16 @@
 83	de	de	ADP	_	_	84	case	_	_
 84	0,5	0,5	NUM	_	NumType=Card	67	nummod	_	_
 85	mg.L-1	mg.L-1	NUM	_	NumType=Card	84	flat	_	SpaceAfter=No
-86	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+86	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Gráfico 4.
-# sent_id = 246-20140910-MONOGRAFIA_0-323
+# sent_id = 246-20140910-MONOGRAFIA_0-325
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Toxicidade aguda do fenol em Daphnia similis na água do Rio Atibaia
-# sent_id = 246-20140910-MONOGRAFIA_0-324
+# sent_id = 246-20140910-MONOGRAFIA_0-326
 1	Toxicidade	Toxicidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	aguda	agur	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9275,7 +9275,7 @@
 15	Atibaia	Atibaia	PROPN	_	Number=Sing	14	flat:name	_	_
 
 # text = A análise estatística utilizada foi o método Spearman-Karber, que indicou que a faixa de toxicidade do fenol para Daphnia similis encontra-se entre 0,43 e 0,73 mg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-325
+# sent_id = 246-20140910-MONOGRAFIA_0-327
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	análise	análise	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	estatística	estatístico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9310,7 +9310,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Em relação à reprodução, pôde-se observar interferência do fenol na partenogênese, uma vez que não houve nascimento de nenhum neonato.
-# sent_id = 246-20140910-MONOGRAFIA_0-326
+# sent_id = 246-20140910-MONOGRAFIA_0-328
 1	Em	em	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -9344,12 +9344,12 @@
 27	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 5.6.
-# sent_id = 246-20140910-MONOGRAFIA_0-327
+# sent_id = 246-20140910-MONOGRAFIA_0-329
 1	5.6	5.6	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Teste de Toxicidade Crônica com Ceriodaphnia dúbia
-# sent_id = 246-20140910-MONOGRAFIA_0-328
+# sent_id = 246-20140910-MONOGRAFIA_0-330
 1	Teste	teste	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Toxicidade	Toxicidade	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -9359,7 +9359,7 @@
 7	dúbia	dúber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 
 # text = O teste de toxicidade crônica com C. dúbia não foi realizado, uma vez que o teste de toxicidade aguda com D. similis mostrou alta toxicidade do fenol para este microcrustáceo, dispensando a realização do teste.
-# sent_id = 246-20140910-MONOGRAFIA_0-329
+# sent_id = 246-20140910-MONOGRAFIA_0-331
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	teste	teste	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9401,10 +9401,10 @@
 37	de	de	ADP	_	_	39	case	_	_
 38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	teste	teste	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n\n
 
 # text = 6. CONCLUSÃO As linhagens isoladas neste trabalho apresentam alta tolerância à toxicidade do fenol e consequentemente podem ter potencial de aplicação no biotratamento de efluentes contendo altas concentrações de compostos fenólicos ou mesmo, em biorremediação de solos in situ.
-# sent_id = 246-20140910-MONOGRAFIA_0-330
+# sent_id = 246-20140910-MONOGRAFIA_0-332
 1	6	6	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	CONCLUSÃO	conclusão	ADV	_	_	5	advmod	_	_
@@ -9457,7 +9457,7 @@
 46	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os resultados obtidos nos três experimentos de biodegradação indicam a eficiência destes microrganismos no tratamento da água em diferentes etapas do processo de refino de petróleo, devido à resistência destas linhagens à diversas composições químicas do meio em que estiverem presentes.
-# sent_id = 246-20140910-MONOGRAFIA_0-331
+# sent_id = 246-20140910-MONOGRAFIA_0-333
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -9521,7 +9521,7 @@
 52	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Os testes de toxicidade demonstraram que o fenol é um composto de alta toxicidade para D. similis e a legislação CONAMA, na resolução 430 de 2011, que dispõe sobre condições e padrões de lançamento de efluentes, considera este parâmetro, uma vez que a concentração máxima de fenol em efluentes descartados é de 0,5 mg.L-1.
-# sent_id = 246-20140910-MONOGRAFIA_0-332
+# sent_id = 246-20140910-MONOGRAFIA_0-334
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	testes	teste	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_

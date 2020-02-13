@@ -1650,41 +1650,73 @@
 51	por	por	ADP	_	_	50	advmod	_	SpaceAfter=No
 52	:	:	PUNCT	_	_	50	punct	_	_
 
-# text = Analisando cada termo tem-se que:    → Forças Viscosas;  →
+# text = Analisando cada termo tem-se que: →
 # sent_id = 396-20160722-MONOGRAFIA_0-57
 1	Analisando	analisar	VERB	_	VerbForm=Ger	5	acl	_	_
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	termo	termo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 4-5	tem-se	_	_	_	_	_	_	_	_
 4	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	16	nsubj	_	_
-6	que	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	8	punct	_	_
-8			PROPN	_	Number=Sing	16	nmod	_	_
-9			PROPN	_	Number=Sing	8	flat:name	_	_
-10			PROPN	_	Number=Sing	8	flat:name	_	_
-11	→	→	SYM	_	_	8	nmod	_	_
-12	Forças	Forças	PROPN	_	Gender=Fem|Number=Plur	11	appos	_	_
-13	Viscosas	Viscosas	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
-14	;	;	PUNCT	_	_	12	punct	_	_
-15			PROPN	_	Number=Sing	12	flat:name	_	_
-16	→	→	SYM	_	_	0	root	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	8	nsubj	_	_
+6	que	que	SCONJ	_	_	8	fixed	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	→	→	SYM	_	_	0	root	_	_
 
-# text = Forças de campo devido à ação gravitacional.
+# text = Entrada de momento menos saída de  momento;
 # sent_id = 396-20160722-MONOGRAFIA_0-58
-1	Forças	força	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+1	Entrada	entrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	campo	campo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4	devido	devido	ADV	_	_	1	advmod	_	_
-5-6	à	_	_	_	_	_	_	_	_
-5	a	a	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	ação	ação	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
-8	gravitacional	gravitacional	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	momento	momento	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+4	menos	menos	ADV	_	_	5	advmod	_	_
+5	saída	sair	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7			PROPN	_	Number=Sing	5	obl	_	_
+8	momento	momento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	;	;	PUNCT	_	_	8	punct	_	_
+
+# text = →
+# sent_id = 396-20160722-MONOGRAFIA_0-59
+1	→	→	SYM	_	_	0	root	_	_
+
+# text = Força de contato na entrada menos Força de  contato na saída;  → Forças Viscosas;  → Forças de campo devido à ação gravitacional.
+# sent_id = 396-20160722-MONOGRAFIA_0-60
+1	Força	força	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	contato	contato	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7	menos	menos	ADV	_	_	8	advmod	_	_
+8	Força	força	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10			PROPN	_	Number=Sing	8	nmod	_	_
+11	contato	contato	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	saída	saída	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	1	punct	_	_
+16			PROPN	_	Number=Sing	1	flat:name	_	_
+17	→	→	SYM	_	_	1	appos	_	_
+18	Forças	Forças	PROPN	_	Number=Sing	17	flat:name	_	_
+19	Viscosas	Viscosas	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+20	;	;	PUNCT	_	_	1	punct	_	_
+21			PROPN	_	Number=Sing	22	nmod	_	_
+22	→	→	SYM	_	_	1	appos	_	_
+23	Forças	força	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	campo	campo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	devido	devido	ADV	_	_	23	advmod	_	_
+27-28	à	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	ação	ação	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+30	gravitacional	gravitacional	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Rearranjando os termos e fazendo o limite para , tem-se: onde o termo dissipativo
-# sent_id = 396-20160722-MONOGRAFIA_0-59
+# sent_id = 396-20160722-MONOGRAFIA_0-61
 1	Rearranjando	Rearranjar	VERB	_	VerbForm=Ger	10	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	termos	termo	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -1704,7 +1736,7 @@
 16	dissipativo	dissipativo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 
 # text = Γ corresponde à energia dissipada na forma de cisalhamento, conforme descrito a seguir: onde K é o perímetro de cisalhamento em m e a tensão de cisalhamento τ é definida segundo o fator de atrito de Fanning f segundo Souza (2010) através da relação:
-# sent_id = 396-20160722-MONOGRAFIA_0-60
+# sent_id = 396-20160722-MONOGRAFIA_0-62
 1	Γ	Γ	PROPN	_	Number=Sing	2	nsubj	_	_
 2	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -1762,7 +1794,7 @@
 52	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = A massa específica ρ e a compressibilidade c são definidas como funções unicamente da pressão, onde:
-# sent_id = 396-20160722-MONOGRAFIA_0-61
+# sent_id = 396-20160722-MONOGRAFIA_0-63
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	específica	específico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -1785,7 +1817,7 @@
 19	:	:	PUNCT	_	_	10	punct	_	_
 
 # text = Simplificando a Equação 3, têm-se:
-# sent_id = 396-20160722-MONOGRAFIA_0-62
+# sent_id = 396-20160722-MONOGRAFIA_0-64
 1	Simplificando	Simplificar	VERB	_	VerbForm=Ger	6	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Equação	Equação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -1797,7 +1829,7 @@
 8	:	:	PUNCT	_	_	6	punct	_	_
 
 # text = O sistema de duas equações diferenciais parciais não-lineares, não homogêneas de ordem um que modelam o escoamento monofásico é:
-# sent_id = 396-20160722-MONOGRAFIA_0-63
+# sent_id = 396-20160722-MONOGRAFIA_0-65
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -1820,8 +1852,8 @@
 20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 21	:	:	PUNCT	_	_	20	punct	_	_
 
-# text = Fazendo-se as devidas modificações nos termos conservativos e aplicando-se a regra da cadeia nos termos diferenciais, obtém-se a forma não-conservativa do sistema de EDP’s:
-# sent_id = 396-20160722-MONOGRAFIA_0-64
+# text = Fazendo-se as devidas modificações nos termos conservativos e aplicando-se a regra da cadeia nos termos diferenciais, obtém-se a forma não-conservativa do sistema de EDP’s:   Basicamente essas duas equações modelam de forma simples um escoamento com apenas uma fase.
+# sent_id = 396-20160722-MONOGRAFIA_0-66
 1-2	Fazendo-se	_	_	_	_	_	_	_	_
 1	Fazendo	fazer	VERB	_	VerbForm=Ger	23	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	expl	_	_
@@ -1850,7 +1882,7 @@
 21	diferenciais	diferencial	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	1	punct	_	_
 23-24	obtém-se	_	_	_	_	_	_	_	_
-23	obtém	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	obtém	obter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
 24	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
 25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	forma	forma	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -1863,27 +1895,26 @@
 32	EDP	EDP	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 33	’s	’s	PROPN	_	Number=Sing	32	flat:name	_	SpaceAfter=No
 34	:	:	PUNCT	_	_	23	punct	_	_
-
-# text = Basicamente essas duas equações modelam de forma simples um escoamento com apenas uma fase.
-# sent_id = 396-20160722-MONOGRAFIA_0-65
-1	Basicamente	basicamente	ADV	_	_	5	advmod	_	_
-2	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
-3	duas	dois	NUM	_	NumType=Card	4	nummod	_	_
-4	equações	equação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
-5	modelam	modelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	forma	forma	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
-8	simples	simples	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-11	com	com	ADP	_	_	14	case	_	_
-12	apenas	apenas	ADV	_	_	13	advmod	_	_
-13	uma	um	NUM	_	NumType=Card	14	nummod	_	_
-14	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+35			PROPN	_	Number=Sing	23	appos	_	_
+36			PROPN	_	Number=Sing	35	flat:name	_	_
+37	Basicamente	Basicamente	PROPN	_	Number=Sing	35	flat:name	_	_
+38	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	40	det	_	_
+39	duas	dois	NUM	_	NumType=Card	40	nummod	_	_
+40	equações	equação	NOUN	_	Gender=Fem|Number=Plur	41	nsubj	_	_
+41	modelam	modelar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	forma	forma	NOUN	_	Gender=Fem|Number=Sing	41	obl	_	_
+44	simples	simples	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
+45	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	41	obj	_	_
+47	com	com	ADP	_	_	50	case	_	_
+48	apenas	apenas	ADV	_	_	49	advmod	_	_
+49	uma	um	NUM	_	NumType=Card	50	nummod	_	_
+50	fase	fase	NOUN	_	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	41	punct	_	_
 
 # text = No tópico a seguir será feita um estudo e abordagem do escoamento multifásico, ou seja, conceitos, definições e equações desse tipo de fluxo.
-# sent_id = 396-20160722-MONOGRAFIA_0-66
+# sent_id = 396-20160722-MONOGRAFIA_0-67
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1919,11 +1950,11 @@
 30	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = 3.2
-# sent_id = 396-20160722-MONOGRAFIA_0-67
+# sent_id = 396-20160722-MONOGRAFIA_0-68
 1	3.2	3.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = ESCOAMENTO MULTIFÁSICO Segundo Marinho (2008), o escoamento multifásico se caracteriza como um fluxo formado por mais de um fluido presente separados por uma ou mais interfaces, podendo ser constituído de uma fase contínua (meio líquido ou gasoso) e uma fase dispersa (bolhas de gás, gotas de líquido ou partículas sólidas), as quais podem ser compostas por diferentes espécies químicas, ou ainda, por duas fases contínuas.
-# sent_id = 396-20160722-MONOGRAFIA_0-68
+# sent_id = 396-20160722-MONOGRAFIA_0-69
 1	ESCOAMENTO	ESCOAMENTO	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 2	MULTIFÁSICO	MULTIFÁSICO	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Segundo	Segundo	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -2004,7 +2035,7 @@
 78	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Para Azevedo (2012), esse tipo de escoamento se classifica de duas maneiras:  De acordo com a morfologia do escoamento;  De acordo com o tipo de fase no escoamento; (i)
-# sent_id = 396-20160722-MONOGRAFIA_0-69
+# sent_id = 396-20160722-MONOGRAFIA_0-70
 1	Para	para	ADP	_	_	2	case	_	_
 2	Azevedo	Azevedo	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2049,8 +2080,8 @@
 40	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	40	punct	_	_
 
-# text = Classificação de acordo com a morfologia do escoamento Basicamente, nos fluxos as fases podem ser dispersos-contínuos ou contínuos- contínuos.
-# sent_id = 396-20160722-MONOGRAFIA_0-70
+# text = Classificação de acordo com a morfologia do escoamento Basicamente, nos fluxos as fases podem ser dispersos-contínuos ou contínuos-contínuos.
+# sent_id = 396-20160722-MONOGRAFIA_0-71
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2073,13 +2104,11 @@
 18	ser	ser	AUX	_	VerbForm=Inf	19	cop	_	_
 19	dispersos-contínuos	dispersos-contínuo	ADJ	_	Gender=Masc|Number=Plur	17	xcomp	_	_
 20	ou	ou	CCONJ	_	_	21	cc	_	_
-21	contínuos	contínuo	ADJ	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
-22	-	-	PUNCT	_	_	17	punct	_	_
-23	contínuos	contínuo	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	17	punct	_	_
+21	contínuos-contínuos	contínuos-contínuo	ADJ	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Nos dispersos-contínuo, como já dito anteriormente, uma fase é dispersa (por exemplo: gás, partículas sólidas etc.,) e a outra fase é contínua (por exemplo: óleo, água, gases etc.,).
-# sent_id = 396-20160722-MONOGRAFIA_0-71
+# sent_id = 396-20160722-MONOGRAFIA_0-72
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -2126,7 +2155,7 @@
 43	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Vale salientar que a fase dispersa não recebe esse nome por ser um gás, essa fase também pode ser um líquido, esse nome é dado porque a interface entre as fases é deformável, e a fase dispersa coalesce e pode se tornar a fase contínua à medida que a sua vazão aumenta.
-# sent_id = 396-20160722-MONOGRAFIA_0-72
+# sent_id = 396-20160722-MONOGRAFIA_0-73
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	salientar	salientar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
@@ -2187,13 +2216,13 @@
 57	.	.	PUNCT	_	_	55	punct	_	SpacesAfter=\n
 
 # text = (ii)
-# sent_id = 396-20160722-MONOGRAFIA_0-73
+# sent_id = 396-20160722-MONOGRAFIA_0-74
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	ii	ii	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Classificação de acordo com o tipo de fase no escoamento
-# sent_id = 396-20160722-MONOGRAFIA_0-74
+# sent_id = 396-20160722-MONOGRAFIA_0-75
 1	Classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2208,7 +2237,7 @@
 11	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = De acordo com o tipo de fase, os escoamentos multifásicos podem ser gás-líquido, gás-sólido, entre outros já citados.
-# sent_id = 396-20160722-MONOGRAFIA_0-75
+# sent_id = 396-20160722-MONOGRAFIA_0-76
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -2233,7 +2262,7 @@
 22	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Com relação a esse tipo de classificação, é interessante conhecer algumas características sobre cada fase.
-# sent_id = 396-20160722-MONOGRAFIA_0-76
+# sent_id = 396-20160722-MONOGRAFIA_0-77
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3	a	a	ADP	_	_	5	case	_	_
@@ -2253,7 +2282,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A fase sólida se encontra normalmente na forma de partículas que são transportadas pelo escoamento, que é dependente do tamanho dos elementos individuais e do movimento entre fluidos associados.
-# sent_id = 396-20160722-MONOGRAFIA_0-77
+# sent_id = 396-20160722-MONOGRAFIA_0-78
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	sólida	sólido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2297,7 +2326,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A fase líquida pode ser contínua contendo elementos dispersos, como gases (bolhas) ou sólidos (partículas), ou também pode ser descontínua, como na forma de gotas em um meio gasoso ou em um meio líquido, por exemplo.
-# sent_id = 396-20160722-MONOGRAFIA_0-78
+# sent_id = 396-20160722-MONOGRAFIA_0-79
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2347,7 +2376,7 @@
 46	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Por último, a fase gasosa possui as mesmas propriedades da fase líquida, embora, em comparação com o líquido, o gás tem uma alta compressibilidade.
-# sent_id = 396-20160722-MONOGRAFIA_0-79
+# sent_id = 396-20160722-MONOGRAFIA_0-80
 1	Por	por	ADP	_	_	2	case	_	_
 2	último	último	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2381,7 +2410,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O principal objetivo é entender o modelo VOF que será discutir mais adiante ao longo deste trabalho.
-# sent_id = 396-20160722-MONOGRAFIA_0-80
+# sent_id = 396-20160722-MONOGRAFIA_0-81
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -2406,7 +2435,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = De acordo com Marinho (2008), para um melhor entendimento dos escoamentos multifásico, foi dito que este se classifica em dois modelos:  Modelo Homogêneo:
-# sent_id = 396-20160722-MONOGRAFIA_0-81
+# sent_id = 396-20160722-MONOGRAFIA_0-82
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -2441,7 +2470,7 @@
 31	:	:	PUNCT	_	_	19	punct	_	_
 
 # text = Nesse tipo de abordagem é assumido que as fases estão em equilíbrio, ou seja, em equilíbrio de pressão, temperatura, mesma velocidade, e assume-se que a velocidade de deslizamento entre as fases é zero, resulta disso uma única equação de conservação da quantidade de movimento e na possibilidade de se considerar uma equação da conservação da massa para cada fase, e assim avaliar as distribuições de fração volumétrica de cada fase.
-# sent_id = 396-20160722-MONOGRAFIA_0-82
+# sent_id = 396-20160722-MONOGRAFIA_0-83
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2536,7 +2565,7 @@
 85	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Entretanto, este modelo só é válido quando as quantidades transportadas das diferentes fases atingem o equilíbrio em distâncias suficientemente curtas.
-# sent_id = 396-20160722-MONOGRAFIA_0-83
+# sent_id = 396-20160722-MONOGRAFIA_0-84
 1	Entretanto	entretanto	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -2563,7 +2592,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Isso se deve ao fato de que, em situações onde a força de arraste (exercida pela fase contínua sobre a dispersa) é grande e não existem forças de campo (gravidade), a taxa de transferência interfacial é muito grande Paladino (2005, apud MARINHO, 2008).
-# sent_id = 396-20160722-MONOGRAFIA_0-84
+# sent_id = 396-20160722-MONOGRAFIA_0-85
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2624,7 +2653,7 @@
 56	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text =  Modelo não-homogêneo ou Heterogêneo:
-# sent_id = 396-20160722-MONOGRAFIA_0-85
+# sent_id = 396-20160722-MONOGRAFIA_0-86
 1			PROPN	_	Number=Sing	0	root	_	_
 2	Modelo	modelo	PROPN	_	Number=Sing	1	flat:name	_	_
 3	não-homogêneo	não-homogêneo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
@@ -2633,7 +2662,7 @@
 6	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Neste modelo é admitido que para cada fase a pressão, temperatura, e velocidade são distintas, resultando na utilização de uma equação de conservação da quantidade de movimento para cada fase.
-# sent_id = 396-20160722-MONOGRAFIA_0-86
+# sent_id = 396-20160722-MONOGRAFIA_0-87
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2675,8 +2704,8 @@
 36	fase	fase	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Neste tipo de modelo existem dois tipos de abordagem que é Euler-Euler e Euler- Lagrange.
-# sent_id = 396-20160722-MONOGRAFIA_0-87
+# text = Neste tipo de modelo existem dois tipos de abordagem que é Euler-Euler e Euler-Lagrange.
+# sent_id = 396-20160722-MONOGRAFIA_0-88
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2688,17 +2717,15 @@
 8	tipos	tipo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	abordagem	abordagem	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	13	nsubj	_	_
+11	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
 12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	Euler-Euler	Euler-Euler	PROPN	_	Gender=Fem|Number=Sing	6	acl:relcl	_	_
+13	Euler-Euler	Euler-Euler	PROPN	_	Gender=Masc|Number=Sing	6	acl:relcl	_	_
 14	e	e	CCONJ	_	_	15	cc	_	_
-15	Euler	Euler	PROPN	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	17	punct	_	_
-17	Lagrange	Lagrange	PROPN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	6	punct	_	_
+15	Euler-Lagrange	Euler-Lagrange	PROPN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Em cada uma dessas duas abordagens também há um “sub-modelo” que também será discutido.
-# sent_id = 396-20160722-MONOGRAFIA_0-88
+# sent_id = 396-20160722-MONOGRAFIA_0-89
 1	Em	em	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	uma	um	NUM	_	NumType=Card	9	obl	_	_
@@ -2720,11 +2747,11 @@
 18	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 3.2.1
-# sent_id = 396-20160722-MONOGRAFIA_0-89
+# sent_id = 396-20160722-MONOGRAFIA_0-90
 1	3.2.1	3.2.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Notações básicas para os modelos
-# sent_id = 396-20160722-MONOGRAFIA_0-90
+# sent_id = 396-20160722-MONOGRAFIA_0-91
 1	Notações	Notação	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	básicas	básico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -2732,7 +2759,7 @@
 5	modelos	modelo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # text = Antes de se discutir melhor os modelos, tanto o heterogêneo quanto o homogêneo se torna necessário demonstrar as equações de fase e a importância de mostrar o conceito de fase para escoamentos multifásicos em dutos.
-# sent_id = 396-20160722-MONOGRAFIA_0-91
+# sent_id = 396-20160722-MONOGRAFIA_0-92
 1	Antes	antes	ADV	_	_	4	advmod	_	_
 2	de	de	SCONJ	_	_	4	mark	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	4	nsubj	_	_
@@ -2772,7 +2799,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 2 – Representação dos modelos Fonte : (MARINHO, 2008)
-# sent_id = 396-20160722-MONOGRAFIA_0-92
+# sent_id = 396-20160722-MONOGRAFIA_0-93
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	2	2	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -2790,7 +2817,7 @@
 14	)	)	PUNCT	_	_	11	punct	_	_
 
 # text = De acordo com Azevedo (2012), uma “quantidade” de fase presente em uma determinada parcela do escoamento é expressa pela variável “fração volumétrica” ou que também pode ser descrita como fração de vazio.
-# sent_id = 396-20160722-MONOGRAFIA_0-93
+# sent_id = 396-20160722-MONOGRAFIA_0-94
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -2836,7 +2863,7 @@
 41	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = A fração volumétrica é definida como a média no tempo da área da fração ocupada pelo fluido em uma dada seção do escoamento.
-# sent_id = 396-20160722-MONOGRAFIA_0-94
+# sent_id = 396-20160722-MONOGRAFIA_0-95
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fração	fração	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	volumétrica	volumétrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2873,7 +2900,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A forma de correlacionar essa variável no escoamento é através da equação de conservação do volume: onde representa a fração volumétrica e representa o número total de fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-95
+# sent_id = 396-20160722-MONOGRAFIA_0-96
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	de	de	SCONJ	_	_	4	mark	_	_
@@ -2912,7 +2939,7 @@
 33	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = A fração volumétrica é obtida em função das vazões volumétricas das fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-96
+# sent_id = 396-20160722-MONOGRAFIA_0-97
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fração	fração	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	volumétrica	volumétrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -2932,7 +2959,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Segundo Garcia (2005), essa variável pode ser chamada de retenção de gás, que é a fração volumétrica do gás e retenção de líquido que é a fração volumétrica de líquido, ambas respectivamente podem ser representadas por e , isso depende da notação de cada autor.
-# sent_id = 396-20160722-MONOGRAFIA_0-97
+# sent_id = 396-20160722-MONOGRAFIA_0-98
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Garcia	Garcia	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2989,8 +3016,8 @@
 52	autor	autor	NOUN	_	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = A fração volumétrica de determinada fase para um escoamento bifásico é obtida com a seguinte equação:
-# sent_id = 396-20160722-MONOGRAFIA_0-98
+# text = A fração volumétrica de determinada fase para um escoamento bifásico é obtida com a seguinte equação: (10)
+# sent_id = 396-20160722-MONOGRAFIA_0-99
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fração	fração	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3	volumétrica	volumétrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3008,9 +3035,12 @@
 15	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 16	equação	equação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 17	:	:	PUNCT	_	_	12	punct	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	10	10	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
 
 # text = Por exemplo, se adoto o índice para o gás, a fração volumétrica da equação acima é a do gás e analogamente se determina a fração volumétrica do líquido.
-# sent_id = 396-20160722-MONOGRAFIA_0-99
+# sent_id = 396-20160722-MONOGRAFIA_0-100
 1	Por	por	ADP	_	_	20	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -3050,70 +3080,71 @@
 34	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = 3.2.1.1 Modelo homogêneo
-# sent_id = 396-20160722-MONOGRAFIA_0-100
+# sent_id = 396-20160722-MONOGRAFIA_0-101
 1	3.2.1.1	3.2.1.1	NUM	_	NumType=Card	2	nummod	_	_
 2	Modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	homogêneo	homogêneo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
 # text = Segundo Azevedo (2012), o modelo se torna homogêneo a partir do instante onde a taxa de transferência na interface entre os fluidos é muito grande, resultando em um campo compartilhado de variáveis entre as fases, o que inclui também os efeitos da turbulência.
-# sent_id = 396-20160722-MONOGRAFIA_0-101
+# sent_id = 396-20160722-MONOGRAFIA_0-102
 1	Segundo	segundo	ADP	_	_	2	case	_	_
-2	Azevedo	Azevedo	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	_
-3	(2012	(2012	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	2	punct	_	_
-6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-8	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
-9	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	homogêneo	homogêneo	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
-11	a	a	ADP	_	_	12	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	9	xcomp	_	_
-13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	instante	instante	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-16	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	29	obl	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	transferência	transferência	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	_	_	23	case	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	interface	interface	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-24	entre	entre	ADP	_	_	26	case	_	_
-25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-26	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
-27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-28	muito	muito	ADV	_	_	29	advmod	_	_
-29	grande	grande	ADJ	_	Gender=Masc|Number=Sing	15	acl:relcl	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	31	punct	_	_
-31	resultando	resultar	VERB	_	VerbForm=Ger	29	advcl	_	_
-32	em	em	ADP	_	_	34	case	_	_
-33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	campo	campo	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
-35	compartilhado	compartilhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	34	acl	_	_
-36	de	de	ADP	_	_	37	case	_	_
-37	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	35	obj	_	_
-38	entre	entre	ADP	_	_	40	case	_	_
-39	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
-40	fases	fase	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	35	punct	_	_
-42	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	31	obj	_	_
-43	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	44	nsubj	_	_
-44	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
-45	também	também	ADV	_	_	44	advmod	_	_
-46	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
-47	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	44	obj	_	_
-48-49	da	_	_	_	_	_	_	_	_
-48	de	de	ADP	_	_	50	case	_	_
-49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	turbulência	turbulência	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	9	punct	_	_
+2	Azevedo	Azevedo	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	2012	2012	NUM	_	NumType=Card	2	appos:parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+10	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	homogêneo	homogêneo	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	partir	partir	VERB	_	VerbForm=Inf	10	xcomp	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	instante	instante	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	obl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	transferência	transferência	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	interface	interface	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+25	entre	entre	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	muito	muito	ADV	_	_	30	advmod	_	_
+30	grande	grande	ADJ	_	Gender=Masc|Number=Sing	16	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	resultando	resultar	VERB	_	VerbForm=Ger	30	advcl	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	campo	campo	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+36	compartilhado	compartilhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	35	acl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	36	obj	_	_
+39	entre	entre	ADP	_	_	41	case	_	_
+40	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	fases	fase	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	36	punct	_	_
+43	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	32	obj	_	_
+44	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	45	nsubj	_	_
+45	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
+46	também	também	ADV	_	_	45	advmod	_	_
+47	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	45	obj	_	_
+49-50	da	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	turbulência	turbulência	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esse modelo é um caso particular da abordagem Euler-Euler que será citado adiante deste trabalho.
-# sent_id = 396-20160722-MONOGRAFIA_0-102
+# sent_id = 396-20160722-MONOGRAFIA_0-103
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3136,7 +3167,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Para o modelo homogêneo, como é assumido que as quantidades transportadas são compartilhadas por todas as fases, tem-se: onde α representa a respectiva fase, U a velocidade do fluido no escoamento e o número total de fases presentes no escoamento.
-# sent_id = 396-20160722-MONOGRAFIA_0-103
+# sent_id = 396-20160722-MONOGRAFIA_0-104
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -3192,7 +3223,7 @@
 49	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Os campos compartilhados não são resolvidos individualmente, ou seja, somente uma equação de transporte descreve bem o sistema.
-# sent_id = 396-20160722-MONOGRAFIA_0-104
+# sent_id = 396-20160722-MONOGRAFIA_0-105
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	campos	campo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	compartilhados	compartilhado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -3216,7 +3247,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Assim, a equação de conservação da massa e a quantidade de movimento podem ser escritas como: onde é o termo fonte associado a massa.
-# sent_id = 396-20160722-MONOGRAFIA_0-105
+# sent_id = 396-20160722-MONOGRAFIA_0-106
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3248,7 +3279,7 @@
 28	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Para o presente caso, a massa específica , a velocidade e a viscosidade absoluta µ são dadas por:
-# sent_id = 396-20160722-MONOGRAFIA_0-106
+# sent_id = 396-20160722-MONOGRAFIA_0-107
 1	Para	para	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	presente	presente	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -3271,7 +3302,7 @@
 20	:	:	PUNCT	_	_	18	punct	_	_
 
 # text = O modelo homogêneo não precisa ser aplicado para todas as regiões fluidas na simulação, ou seja, um campo pode ser resolvido de forma heterogênea, será discutido adiante, enquanto outro é resolvido de forma homogênea, desde que os mesmos estejam acoplados por algum outro modelo, como turbulência, por exemplo.
-# sent_id = 396-20160722-MONOGRAFIA_0-107
+# sent_id = 396-20160722-MONOGRAFIA_0-108
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	homogêneo	homogêneo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3332,7 +3363,7 @@
 57	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
 
 # text = Logo o modelo homogêneo pode ser simples, mas, não modela com precisão a interação entre as fases no escoamento, pois, a interface entre as fases desaparece quando se aplica uma média na fração volumétrica das fases (AZEVEDO, 2012).
-# sent_id = 396-20160722-MONOGRAFIA_0-108
+# sent_id = 396-20160722-MONOGRAFIA_0-109
 1	Logo	logo	ADV	_	_	3	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -3387,7 +3418,7 @@
 49	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 3 – Representação da aplicação de um modelo homogêneo.
-# sent_id = 396-20160722-MONOGRAFIA_0-109
+# sent_id = 396-20160722-MONOGRAFIA_0-110
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -3403,7 +3434,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AZEVEDO, 2012).
-# sent_id = 396-20160722-MONOGRAFIA_0-110
+# sent_id = 396-20160722-MONOGRAFIA_0-111
 1	Fonte	fonte	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3414,13 +3445,13 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.2.1.2 Modelo heterogêneo
-# sent_id = 396-20160722-MONOGRAFIA_0-111
+# sent_id = 396-20160722-MONOGRAFIA_0-112
 1	3.2.1.2	3.2.1.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	heterogêneo	heterogêneo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 
-# text = Como já citado anteriormente temos dois tipos de abordagem neste modelo, Euler- Euler e Euler-Lagrange.
-# sent_id = 396-20160722-MONOGRAFIA_0-112
+# text = Como já citado anteriormente temos dois tipos de abordagem neste modelo, Euler-Euler e Euler-Lagrange.
+# sent_id = 396-20160722-MONOGRAFIA_0-113
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	já	já	ADV	_	_	3	advmod	_	_
 3	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
@@ -3435,15 +3466,13 @@
 11	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	Euler	Euler	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
-15	-	-	PUNCT	_	_	5	punct	_	_
-16	Euler	Euler	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	_
-17	e	e	CCONJ	_	_	18	cc	_	_
-18	Euler-Lagrange	Euler-Lagrange	PROPN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+14	Euler-Euler	Euler-Euler	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	Euler-Lagrange	Euler-Lagrange	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As abordagens Euler-Euler e Euler-Lagrange são então utilizadas na elaboração dos principais modelos de escoamentos multifásicos encontrados em softwares comerciais, como o ANSYS (LIMA, 2014).
-# sent_id = 396-20160722-MONOGRAFIA_0-113
+# sent_id = 396-20160722-MONOGRAFIA_0-114
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	abordagens	abordagem	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	Euler-Euler	Euler-Euler	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -3480,7 +3509,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = (i) Abordagem Euler-Lagrange
-# sent_id = 396-20160722-MONOGRAFIA_0-114
+# sent_id = 396-20160722-MONOGRAFIA_0-115
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	i	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
@@ -3488,7 +3517,7 @@
 5	Euler-Lagrange	Euler-Lagrange	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Na abordagem de Euler-Lagrange, as partículas são tratadas no nível de uma única partícula onde esta se refere a uma partícula sólida, ou uma bolha de gás / fluido / gotícula.
-# sent_id = 396-20160722-MONOGRAFIA_0-115
+# sent_id = 396-20160722-MONOGRAFIA_0-116
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3529,7 +3558,7 @@
 36	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Equações de conservação são resolvidas para a fase contínua de forma euleriana e a fase de partículas se resolve as equações de movimento para cada partícula de forma lagrangeana (STENMARK, 2013).
-# sent_id = 396-20160722-MONOGRAFIA_0-116
+# sent_id = 396-20160722-MONOGRAFIA_0-117
 1	Equações	Equação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	conservação	conservação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3567,7 +3596,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = De acordo com STENMARK (2013), as equações abaixo modelam essa abordagem.
-# sent_id = 396-20160722-MONOGRAFIA_0-117
+# sent_id = 396-20160722-MONOGRAFIA_0-118
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -3585,7 +3614,7 @@
 15	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = onde é a fração de volume da fase, é um termo de origem de massa existente no caso de troca de massa entre as fases, termo é fonte dinâmica existente em caso de troca de momento entre as fases e é a força.
-# sent_id = 396-20160722-MONOGRAFIA_0-118
+# sent_id = 396-20160722-MONOGRAFIA_0-119
 1	onde	onde	PRON	_	PronType=Rel	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3638,7 +3667,7 @@
 48	.	.	PUNCT	_	_	47	punct	_	_
 
 # text = Subscrito α e p referem-se às fases de fluido e de partículas, respectivamente.
-# sent_id = 396-20160722-MONOGRAFIA_0-119
+# sent_id = 396-20160722-MONOGRAFIA_0-120
 1	Subscrito	Subscrito	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	α	α	PROPN	_	Number=Sing	1	flat:name	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -3660,7 +3689,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = As forças que atuam sobre as partículas variam, dependendo da situação de fluxo.
-# sent_id = 396-20160722-MONOGRAFIA_0-120
+# sent_id = 396-20160722-MONOGRAFIA_0-121
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	forças	força	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -3680,7 +3709,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A força de arrasto é geralmente incluída e outras forças que podem ser importantes são, por exemplo, força de elevação, força de massa virtual.
-# sent_id = 396-20160722-MONOGRAFIA_0-121
+# sent_id = 396-20160722-MONOGRAFIA_0-122
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3711,7 +3740,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ao se realizar a modelagem numérica o modelador julga quais as forças que são de importância para incluir, no lado direito da Equação 18.
-# sent_id = 396-20160722-MONOGRAFIA_0-122
+# sent_id = 396-20160722-MONOGRAFIA_0-123
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3746,7 +3775,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Adicionando mais forças para um modelo pode-se aumentar a precisão, mas também aumenta a complexidade.
-# sent_id = 396-20160722-MONOGRAFIA_0-123
+# sent_id = 396-20160722-MONOGRAFIA_0-124
 1	Adicionando	Adicionar	VERB	_	VerbForm=Ger	7	advcl	_	_
 2	mais	mais	ADV	_	_	1	advmod	_	_
 3	forças	força	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -3768,7 +3797,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O acoplamento entre a fase contínua e a fase dispersa é conseguido através dos termos fonte.
-# sent_id = 396-20160722-MONOGRAFIA_0-124
+# sent_id = 396-20160722-MONOGRAFIA_0-125
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	acoplamento	acoplamento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -3790,7 +3819,7 @@
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Estes também estão incluídos na equação para a fase dispersa, mas não estão explicitamente mostrados aqui como eles são uma parte do lado direito.
-# sent_id = 396-20160722-MONOGRAFIA_0-125
+# sent_id = 396-20160722-MONOGRAFIA_0-126
 1	Estes	Este	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	_
 2	também	também	ADV	_	_	4	advmod	_	_
 3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3823,7 +3852,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A integração da Equação 18 dá a posição da fase dispersa (STENMARK, 2013).
-# sent_id = 396-20160722-MONOGRAFIA_0-126
+# sent_id = 396-20160722-MONOGRAFIA_0-127
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	integração	integração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3847,7 +3876,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Segundo Lima (2014), o modelo
-# sent_id = 396-20160722-MONOGRAFIA_0-127
+# sent_id = 396-20160722-MONOGRAFIA_0-128
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Lima	Lima	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3858,7 +3887,7 @@
 8	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Euler-Lagrange também é chamado de Lagrangian Discrete Phase (DPM).
-# sent_id = 396-20160722-MONOGRAFIA_0-128
+# sent_id = 396-20160722-MONOGRAFIA_0-129
 1	Euler-Lagrange	Euler-Lagrange	PROPN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 2	também	também	ADV	_	_	4	advmod	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3873,7 +3902,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A fase contínua é modelada pelas equações da continuidade, enquanto que o comportamento da fase dispersa é determinado pelas equações da dinâmica de cada partícula associadas à interação delas com a fase contínua e entre si.
-# sent_id = 396-20160722-MONOGRAFIA_0-129
+# sent_id = 396-20160722-MONOGRAFIA_0-130
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -3928,7 +3957,7 @@
 45	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A principal consideração do modelo é que a fase dispersa ocupa uma pequena fração volumétrica do domínio do escoamento (menor que 10%), mesmo que ela possua grande fração mássica.
-# sent_id = 396-20160722-MONOGRAFIA_0-130
+# sent_id = 396-20160722-MONOGRAFIA_0-131
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	consideração	consideração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -3971,7 +4000,7 @@
 37	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Logo, sua aplicação é apropriada para a simulação fenômenos envolvendo partículas sólidas ou gotículas dispersas no ar, bem como pequenas bolhas em líquidos.
-# sent_id = 396-20160722-MONOGRAFIA_0-131
+# sent_id = 396-20160722-MONOGRAFIA_0-132
 1	Logo	logo	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
@@ -4002,18 +4031,18 @@
 27	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = (ii)
-# sent_id = 396-20160722-MONOGRAFIA_0-132
+# sent_id = 396-20160722-MONOGRAFIA_0-133
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	ii	ii	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Abordagem Euler-Euler
-# sent_id = 396-20160722-MONOGRAFIA_0-133
+# sent_id = 396-20160722-MONOGRAFIA_0-134
 1	Abordagem	abordagem	PROPN	_	Number=Sing	0	root	_	_
 2	Euler-Euler	Euler-Euler	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = De acordo com Lima (2014), os modelos de Euler-Euler, com exceção do VOF, podem ser utilizados em sistemas que possuam fases contínuas e dispersas ou apenas contínuas.
-# sent_id = 396-20160722-MONOGRAFIA_0-134
+# sent_id = 396-20160722-MONOGRAFIA_0-135
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4051,7 +4080,7 @@
 34	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Sua principal diferença em relação ao modelo DPM é que eles não impõem restrições à fração volumétrica da fase dispersa, que pode superar os 10%.
-# sent_id = 396-20160722-MONOGRAFIA_0-135
+# sent_id = 396-20160722-MONOGRAFIA_0-136
 1	Sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
 2	principal	principal	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -4088,7 +4117,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Segundo Stenmark (2013), quando as duas fases são contínuas esse modelo também pode ser chamado de Modelos Multi-Fluidos e são próprios para fluxos separados, onde ambas as fases podem ser descritas como um processo contínuo.
-# sent_id = 396-20160722-MONOGRAFIA_0-136
+# sent_id = 396-20160722-MONOGRAFIA_0-137
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Stenmark	Stenmark	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4131,7 +4160,7 @@
 40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Segundo Ranade (2002), esta aproximação é utilizada frequentemente para fluxos com as fases dispersas densas, sendo a mais complicada de se entender conceitualmente em comparação com os modelos de aproximações descritos anteriormente.
-# sent_id = 396-20160722-MONOGRAFIA_0-137
+# sent_id = 396-20160722-MONOGRAFIA_0-138
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Ranade	Ranade	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4171,7 +4200,7 @@
 37	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Se a modelagem for bem feita, esta aproximação pode ser aplicada para processos de fluxos multifásicos contendo várias frações de volume na fase dispersa.
-# sent_id = 396-20160722-MONOGRAFIA_0-138
+# sent_id = 396-20160722-MONOGRAFIA_0-139
 1	Se	se	SCONJ	_	_	6	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	modelagem	modelagem	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -4202,7 +4231,7 @@
 27	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Com esta aproximação, a fase dispersa é tratada como contínua, sendo mais satisfatória para se modelar sistemas multifásicos dispersos com um volume significante de fração de fase dispersa (maiores que 10 %).
-# sent_id = 396-20160722-MONOGRAFIA_0-139
+# sent_id = 396-20160722-MONOGRAFIA_0-140
 1	Com	com	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	aproximação	aproximação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
@@ -4242,7 +4271,7 @@
 37	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = É possível representar junção entre fases diferentes desenvolvendo modelos de transporte de interfase satisfatórios, porém, é difícil de controlar fenômenos complexos em nível de partícula (como mudança em tamanho devido a reações, evaporação, etc.).
-# sent_id = 396-20160722-MONOGRAFIA_0-140
+# sent_id = 396-20160722-MONOGRAFIA_0-141
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possível	possível	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	representar	representar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -4286,7 +4315,7 @@
 41	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = De acordo Stenmark (2013), as fases são tratadas separadamente e um conjunto de equações de conservação são resolvidas para cada fase.
-# sent_id = 396-20160722-MONOGRAFIA_0-141
+# sent_id = 396-20160722-MONOGRAFIA_0-142
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3	Stenmark	Stenmark	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -4314,7 +4343,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O acoplamento entre as fases é conseguida através de coeficientes de transferência de pressão e interfase partilhados.
-# sent_id = 396-20160722-MONOGRAFIA_0-142
+# sent_id = 396-20160722-MONOGRAFIA_0-143
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	acoplamento	acoplamento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -4335,7 +4364,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os coeficientes de transferência de interfase precisam ser modelados.
-# sent_id = 396-20160722-MONOGRAFIA_0-143
+# sent_id = 396-20160722-MONOGRAFIA_0-144
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	coeficientes	coeficiente	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4348,7 +4377,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Assim como na abordagem Euler-Lagrange e o modelador tem que decidir quais fenômenos de interfase tem que incluir.
-# sent_id = 396-20160722-MONOGRAFIA_0-144
+# sent_id = 396-20160722-MONOGRAFIA_0-145
 1	Assim	assim	SCONJ	_	_	12	mark	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -4372,7 +4401,7 @@
 20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = As equações que governam para um modelo de dois fluidos com duas fases contínuas são mostrados abaixo.
-# sent_id = 396-20160722-MONOGRAFIA_0-145
+# sent_id = 396-20160722-MONOGRAFIA_0-146
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -4393,7 +4422,7 @@
 18	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = onde é o campo de velocidade média e é a pressão média partilhada pelas fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-146
+# sent_id = 396-20160722-MONOGRAFIA_0-147
 1	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4414,7 +4443,7 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O índice k se refere à fase contínua.
-# sent_id = 396-20160722-MONOGRAFIA_0-147
+# sent_id = 396-20160722-MONOGRAFIA_0-148
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	índice	índice	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	k	k	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -4428,13 +4457,13 @@
 10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = (iii)
-# sent_id = 396-20160722-MONOGRAFIA_0-148
+# sent_id = 396-20160722-MONOGRAFIA_0-149
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	iii	iii	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Abordagem VOF (Volume de Fluido)
-# sent_id = 396-20160722-MONOGRAFIA_0-149
+# sent_id = 396-20160722-MONOGRAFIA_0-150
 1	Abordagem	abordagem	PROPN	_	Number=Sing	0	root	_	_
 2	VOF	VOF	PROPN	_	Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4444,7 +4473,7 @@
 7	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = Uma terceira abordagem de modelagem é o método de volume de fluido (VOF).
-# sent_id = 396-20160722-MONOGRAFIA_0-150
+# sent_id = 396-20160722-MONOGRAFIA_0-151
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	terceira	terceiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	abordagem	abordagem	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -4463,7 +4492,7 @@
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O VOF pertence à abordagem Euler-Euler, ou seja, uma “sub-abordagem”, bem como o modelo homogêneo também é, em que todas as fases são tratadas como contínuo, mas ao contrário dos modelos apresentados anteriormente o modelo VOF não permite que as fases sejam interpenetrantes.
-# sent_id = 396-20160722-MONOGRAFIA_0-151
+# sent_id = 396-20160722-MONOGRAFIA_0-152
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	VOF	VOF	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pertence	pertencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4523,7 +4552,7 @@
 54	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O método VOF usa uma função de indicador de fase, para controlar a interface entre duas ou mais fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-152
+# sent_id = 396-20160722-MONOGRAFIA_0-153
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	VOF	VOF	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -4547,7 +4576,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A função indicadora tem um valor de zero ou um, quando um volume de controle é totalmente preenchido com uma das fases e um valor entre zero e uma interface se está presente no volume de controle.
-# sent_id = 396-20160722-MONOGRAFIA_0-153
+# sent_id = 396-20160722-MONOGRAFIA_0-154
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	função	função	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	indicadora	indicador	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -4593,7 +4622,7 @@
 41	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim, a função de indicador de fase tem as propriedades de fração de volume (STENMARK, 2013).
-# sent_id = 396-20160722-MONOGRAFIA_0-154
+# sent_id = 396-20160722-MONOGRAFIA_0-155
 1	Assim	assim	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4617,7 +4646,7 @@
 21	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Segundo Lima (2014), no modelo VOF, tem-se escoamento de diferentes fases contínuas imicíveis e é simulado por meio da solução de uma única equação de momento e das equações das frações volumétricas de cada fase.
-# sent_id = 396-20160722-MONOGRAFIA_0-155
+# sent_id = 396-20160722-MONOGRAFIA_0-156
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Lima	Lima	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4670,7 +4699,7 @@
 45	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Adicionalmente, a equação de energia da mistura pode ser incluída no sistema para fenômenos envolvendo fluxo térmico.
-# sent_id = 396-20160722-MONOGRAFIA_0-156
+# sent_id = 396-20160722-MONOGRAFIA_0-157
 1	Adicionalmente	Adicionalmente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4696,7 +4725,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Aplicações típicas envolvem jatos (jet breakup), movimento de grandes bolhas em líquidos, movimento de líquidos em canais abertos e qualquer fenômeno envolvendo separação nítida de líquido e gás.
-# sent_id = 396-20160722-MONOGRAFIA_0-157
+# sent_id = 396-20160722-MONOGRAFIA_0-158
 1	Aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 2	típicas	típico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	envolvem	envolvar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4732,7 +4761,7 @@
 33	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = De acordo com Stenmark (2013), as equações de transporte são resolvidas para propriedades misturadas sem velocidade de deslizamento, o que significa que todas as variáveis de campo são assumidas para que sejam compartilhadas entre as fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-158
+# sent_id = 396-20160722-MONOGRAFIA_0-159
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -4776,7 +4805,7 @@
 41	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Para controlar a interface, uma equação de advecção é resolvida para a função de indicador.
-# sent_id = 396-20160722-MONOGRAFIA_0-159
+# sent_id = 396-20160722-MONOGRAFIA_0-160
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	controlar	controlar	VERB	_	VerbForm=Inf	11	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4796,7 +4825,7 @@
 17	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = A fim de obter uma interface nítida a discretização da equação função indicadora é crucial.
-# sent_id = 396-20160722-MONOGRAFIA_0-160
+# sent_id = 396-20160722-MONOGRAFIA_0-161
 1	A	a	ADP	_	_	4	mark	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	de	de	SCONJ	_	_	1	fixed	_	_
@@ -4817,7 +4846,7 @@
 17	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Foram propostas diferentes técnicas para isso.
-# sent_id = 396-20160722-MONOGRAFIA_0-161
+# sent_id = 396-20160722-MONOGRAFIA_0-162
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	propostas	propor	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -4827,7 +4856,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = As equações resolvidas no método VOF são mostradas abaixo.
-# sent_id = 396-20160722-MONOGRAFIA_0-162
+# sent_id = 396-20160722-MONOGRAFIA_0-163
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 3	resolvidas	resolver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4842,12 +4871,12 @@
 11	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Onde .
-# sent_id = 396-20160722-MONOGRAFIA_0-163
+# sent_id = 396-20160722-MONOGRAFIA_0-164
 1	Onde	onde	ADV	_	_	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O subcrito m se refere às propriedades da mistura gás-líquido.
-# sent_id = 396-20160722-MONOGRAFIA_0-164
+# sent_id = 396-20160722-MONOGRAFIA_0-165
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	subcrito	subcrito	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	m	m	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -4865,7 +4894,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Com relação à análise temporal ou permanente de uma mistura modelada em VOF, deve-se avaliar a dependência do escoamento com as condições iniciais do problema.
-# sent_id = 396-20160722-MONOGRAFIA_0-165
+# sent_id = 396-20160722-MONOGRAFIA_0-166
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -4903,7 +4932,7 @@
 31	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Na simulação de um canal aberto, por exemplo, em que a condição de contorno de entrada do líquido estabelece o nível da interface gás-líquido, pode-se optar por uma modelagem em regime permanente.
-# sent_id = 396-20160722-MONOGRAFIA_0-166
+# sent_id = 396-20160722-MONOGRAFIA_0-167
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4950,7 +4979,7 @@
 40	.	.	PUNCT	_	_	33	punct	_	_
 
 # text = Por outro lado, a simulação de um líquido contido em um recipiente em rotação deve ser feita em regime transiente, já que o formato da interface entre as fases são fortemente dependente do nível de líquido inicialmente contido no sistema (LIMA, 2014).
-# sent_id = 396-20160722-MONOGRAFIA_0-167
+# sent_id = 396-20160722-MONOGRAFIA_0-168
 1	Por	por	ADP	_	_	16	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -5007,7 +5036,7 @@
 51	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = 3.3 PADRÕES DE FLUXO MULTIFÁSICO
-# sent_id = 396-20160722-MONOGRAFIA_0-168
+# sent_id = 396-20160722-MONOGRAFIA_0-169
 1	3.3	3.3	NUM	_	NumType=Card	0	root	_	_
 2	PADRÕES	Padrão	NUM	_	NumType=Card	1	flat	_	_
 3	DE	de	ADP	_	_	4	case	_	_
@@ -5015,7 +5044,7 @@
 5	MULTIFÁSICO	MULTIFÁSICO	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Segundo Marinho (2008), as formas dos escoamentos multifásicos como são comumente encontradas nas tubulações da indústria do petróleo são chamadas de padrões de escoamento.
-# sent_id = 396-20160722-MONOGRAFIA_0-169
+# sent_id = 396-20160722-MONOGRAFIA_0-170
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Marinho	marinho	PROPN	_	Gender=Masc|Number=Sing	27	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5054,7 +5083,7 @@
 32	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Esses padrões ou formas de escoamento dependem de muitos fatores, bem como:     Condições de operação;
-# sent_id = 396-20160722-MONOGRAFIA_0-170
+# sent_id = 396-20160722-MONOGRAFIA_0-171
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	padrões	padrão	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
@@ -5079,7 +5108,7 @@
 22	;	;	PUNCT	_	_	7	punct	_	_
 
 # text = Velocidade de escoamento de cada fase;
-# sent_id = 396-20160722-MONOGRAFIA_0-171
+# sent_id = 396-20160722-MONOGRAFIA_0-172
 1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5089,7 +5118,7 @@
 7	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Propriedades físico-quimicas (basicamente massa específica e viscosidade);
-# sent_id = 396-20160722-MONOGRAFIA_0-172
+# sent_id = 396-20160722-MONOGRAFIA_0-173
 1	Propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	físico-quimicas	físico-quimico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -5102,7 +5131,7 @@
 10	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Inclinação e forma geométrica do duto, perfil, posição horizontal ou vertical etc.;
-# sent_id = 396-20160722-MONOGRAFIA_0-173
+# sent_id = 396-20160722-MONOGRAFIA_0-174
 1	Inclinação	Inclinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	forma	forma	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -5123,7 +5152,7 @@
 17	;	;	PUNCT	_	_	1	punct	_	_
 
 # text = Uma diferença importante de ser citada entre o escoamento bifásico horizontal e vertical é que na posição horizontal o padrão tem uma tendência de se tornar estratificado, em função da influência da força da gravidade.
-# sent_id = 396-20160722-MONOGRAFIA_0-174
+# sent_id = 396-20160722-MONOGRAFIA_0-175
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	importante	importante	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5171,7 +5200,7 @@
 41	.	.	PUNCT	_	_	0	root	_	_
 
 # text = O vapor tende a ficar na parte superior e o líquido na região inferior (LUIZ, 2007).
-# sent_id = 396-20160722-MONOGRAFIA_0-175
+# sent_id = 396-20160722-MONOGRAFIA_0-176
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	vapor	vapor	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tende	tender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5198,7 +5227,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Esse trabalho não tem como foco detalhar os escoamentos horizontais, logo o principal foco são os padrões verticais com uma maior atenção a o Padrão Slug.
-# sent_id = 396-20160722-MONOGRAFIA_0-176
+# sent_id = 396-20160722-MONOGRAFIA_0-177
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -5229,7 +5258,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A seguir, estão descritas as configurações mais conhecidas para sistemas bifásicos líquido-gás para tubulações verticais: -
-# sent_id = 396-20160722-MONOGRAFIA_0-177
+# sent_id = 396-20160722-MONOGRAFIA_0-178
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -5249,8 +5278,8 @@
 17	:	:	PUNCT	_	_	5	punct	_	_
 18	-	-	PUNCT	_	_	5	punct	_	_
 
-# text = Escoamento de bolhas: onde a fase gasosa (bolhas) pode apresentar vários tamanhos e formatos geométricos (esféricas ou alongadas) e se encontram distribuídas discretamente ao longo da fase contínua (líquida), é um tipo de escoamento disperso- contínuo, onde as bolhas são a fase dispersa dentro da fase contínua líquida.
-# sent_id = 396-20160722-MONOGRAFIA_0-178
+# text = Escoamento de bolhas: onde a fase gasosa (bolhas) pode apresentar vários tamanhos e formatos geométricos (esféricas ou alongadas) e se encontram distribuídas discretamente ao longo da fase contínua (líquida), é um tipo de escoamento disperso-contínuo, onde as bolhas são a fase dispersa dentro da fase contínua líquida.
+# sent_id = 396-20160722-MONOGRAFIA_0-179
 1	Escoamento	Escoamento	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
@@ -5297,28 +5326,26 @@
 42	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 43	de	de	ADP	_	_	44	case	_	_
 44	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
-45	disperso	disperso	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
-46	-	-	PUNCT	_	_	45	punct	_	_
-47	contínuo	contínuo	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
-48	,	,	PUNCT	_	_	42	punct	_	_
-49	onde	onde	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	54	obl	_	_
-50	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
-51	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	54	nsubj	_	_
-52	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
-53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
-54	fase	fase	NOUN	_	Gender=Fem|Number=Sing	42	acl:relcl	_	_
-55	dispersa	disperso	ADJ	_	Gender=Fem|Number=Sing	54	amod	_	_
-56	dentro	dentro	ADV	_	_	54	advmod	_	_
-57-58	da	_	_	_	_	_	_	_	_
-57	de	de	ADP	_	_	59	case	_	_
-58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
-59	fase	fase	NOUN	_	Gender=Fem|Number=Sing	56	obl	_	_
-60	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	59	amod	_	_
-61	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	59	amod	_	SpaceAfter=No
-62	.	.	PUNCT	_	_	42	punct	_	_
+45	disperso-contínuo	disperso-contínuo	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	42	punct	_	_
+47	onde	onde	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	52	obl	_	_
+48	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	52	nsubj	_	_
+50	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	fase	fase	NOUN	_	Gender=Fem|Number=Sing	42	acl:relcl	_	_
+53	dispersa	disperso	ADJ	_	Gender=Fem|Number=Sing	52	amod	_	_
+54	dentro	dentro	ADV	_	_	52	advmod	_	_
+55-56	da	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	57	case	_	_
+56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	fase	fase	NOUN	_	Gender=Fem|Number=Sing	54	obl	_	_
+58	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	57	amod	_	_
+59	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	57	amod	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	42	punct	_	_
 
 # text = Figura 4 (a).
-# sent_id = 396-20160722-MONOGRAFIA_0-179
+# sent_id = 396-20160722-MONOGRAFIA_0-180
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obl	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5327,7 +5354,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = - Escoamento pistonado ou Slug (ou golfada): que ocorre quando o diâmetro das bolhas é aproximadamente igual ao diâmetro do duto.
-# sent_id = 396-20160722-MONOGRAFIA_0-180
+# sent_id = 396-20160722-MONOGRAFIA_0-181
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Escoamento	Escoamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	pistonado	pistonar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -5361,7 +5388,7 @@
 28	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A parte superior da bolha em dutos verticais possui forma esférica e o gás é separado da parede do duto por uma fina camada de líquido que desce de forma lenta denominada muitas vezes de Slugs de gás ou bolhas de Taylor, Figura 4 (b).
-# sent_id = 396-20160722-MONOGRAFIA_0-181
+# sent_id = 396-20160722-MONOGRAFIA_0-182
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	superior	alto	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5419,7 +5446,7 @@
 52	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = O aumento da velocidade superficial da fase da bolha, faz com que esta venha se coalescer com outras, formando o Slug, ou seja, aproximadamente o diâmetro do duto (Marinho, 2008;
-# sent_id = 396-20160722-MONOGRAFIA_0-182
+# sent_id = 396-20160722-MONOGRAFIA_0-183
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5467,7 +5494,7 @@
 41	;	;	PUNCT	_	_	14	punct	_	_
 
 # text = Azevedo, 2012).
-# sent_id = 396-20160722-MONOGRAFIA_0-183
+# sent_id = 396-20160722-MONOGRAFIA_0-184
 1	Azevedo	Azevedo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	2012	2012	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
@@ -5475,7 +5502,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = - Escoamento agitado (transição): decorrente da instabilidade do escoamento pistonado, que resulta na quebra das bolhas de dimensões maiores e na formação de um escoamento caótico no centro do duto, deslocando o líquido contra as paredes, Figura 4 (c). - Escoamento anular com bolhas (ou nevoeiro): que ocorre quando o líquido forma uma camada, relativamente grossa, sobre as paredes do duto sendo ainda observado bolhas de gás dispersas.
-# sent_id = 396-20160722-MONOGRAFIA_0-184
+# sent_id = 396-20160722-MONOGRAFIA_0-185
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Escoamento	Escoamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	agitado	agitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
@@ -5577,7 +5604,7 @@
 91	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = No centro escoa uma corrente gasosa com uma quantidade considerável de líquido disperso na forma de gotas, Figura 4 (d).
-# sent_id = 396-20160722-MONOGRAFIA_0-185
+# sent_id = 396-20160722-MONOGRAFIA_0-186
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5608,11 +5635,11 @@
 26	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = -
-# sent_id = 396-20160722-MONOGRAFIA_0-186
+# sent_id = 396-20160722-MONOGRAFIA_0-187
 1	-	-	PUNCT	_	_	0	root	_	_
 
 # text = Escoamento anular: caracterizado pelo escoamento de uma fina camada de líquido nas proximidades das paredes, e no centro do duto tem-se o gás escoando, formando-se poucas gotas ou bolhas dispersas em ambas as fases, Figura 4 (e).
-# sent_id = 396-20160722-MONOGRAFIA_0-187
+# sent_id = 396-20160722-MONOGRAFIA_0-188
 1	Escoamento	Escoamento	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
 2	anular	anular	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5673,7 +5700,7 @@
 51	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = Figura 4 – Padrões de escoamento em dutos verticais: (a) bolhas; (b) pistonado; (c) agitado; (d) anular com bolhas; (e) anular.
-# sent_id = 396-20160722-MONOGRAFIA_0-188
+# sent_id = 396-20160722-MONOGRAFIA_0-189
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -5711,7 +5738,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (LUÍZ, 2007).
-# sent_id = 396-20160722-MONOGRAFIA_0-189
+# sent_id = 396-20160722-MONOGRAFIA_0-190
 1	Fonte	fonte	PROPN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5722,7 +5749,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = De acordo com Azevedo (2012), a obtenção desses padrões do visto da Figura 5 é conseguida à medida que se aumenta a velocidade superficial da fase dispersa ou neste caso o gás, pois, a fração volumétrica centraliza-se.
-# sent_id = 396-20160722-MONOGRAFIA_0-190
+# sent_id = 396-20160722-MONOGRAFIA_0-191
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -5782,7 +5809,7 @@
 50	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Para escoamentos de bolhas têm-se velocidades superficiais de 0,037 m/s a 0,14 m/s.
-# sent_id = 396-20160722-MONOGRAFIA_0-191
+# sent_id = 396-20160722-MONOGRAFIA_0-192
 1	Para	para	ADP	_	_	2	case	_	_
 2	escoamentos	escoamento	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5801,7 +5828,7 @@
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Ao aumentar a velocidade superficial a aproximadamente 0,22 m/s, começa a se formar os Slug a 0,34 m/s.
-# sent_id = 396-20160722-MONOGRAFIA_0-192
+# sent_id = 396-20160722-MONOGRAFIA_0-193
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5826,7 +5853,7 @@
 21	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Com o aumento na velocidade, os “Slugs” se quebram (entre 0,53 m/s e 0,84 m/s) até chegar ao escoamento anular, na velocidade de 1,3 m/s.
-# sent_id = 396-20160722-MONOGRAFIA_0-193
+# sent_id = 396-20160722-MONOGRAFIA_0-194
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
@@ -5867,7 +5894,7 @@
 35	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 5 – Padrões de escoamento em dutos verticais:
-# sent_id = 396-20160722-MONOGRAFIA_0-194
+# sent_id = 396-20160722-MONOGRAFIA_0-195
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -5880,7 +5907,7 @@
 10	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Variação da fração volumétrica do gás e da velocidade.
-# sent_id = 396-20160722-MONOGRAFIA_0-195
+# sent_id = 396-20160722-MONOGRAFIA_0-196
 1	Variação	variação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5899,7 +5926,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (DAMSOHN e PRASSER, 2009 apud AZEVEDO, 2012).
-# sent_id = 396-20160722-MONOGRAFIA_0-196
+# sent_id = 396-20160722-MONOGRAFIA_0-197
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5916,7 +5943,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = 3.4 MODELAGENS DE ESCOAMENTOS MULTIFÁSICOS USANDO CFX 3.4.1
-# sent_id = 396-20160722-MONOGRAFIA_0-197
+# sent_id = 396-20160722-MONOGRAFIA_0-198
 1	3.4	3.4	NUM	_	NumType=Card	2	nummod	_	_
 2	MODELAGENS	Modelagem	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	DE	de	ADP	_	_	4	case	_	_
@@ -5927,12 +5954,12 @@
 8	3.4.1	3.4.1	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Notação Multifásica
-# sent_id = 396-20160722-MONOGRAFIA_0-198
+# sent_id = 396-20160722-MONOGRAFIA_0-199
 1	Notação	Notação	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	Multifásica	Multifásica	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Antes de iniciar a metodologia e modelagem no software, é necessário conhecer e aprender sobre alguns parâmetros e variáveis do processo de fluxos multifásicos.
-# sent_id = 396-20160722-MONOGRAFIA_0-199
+# sent_id = 396-20160722-MONOGRAFIA_0-200
 1	Antes	antes	ADV	_	_	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	iniciar	iniciar	VERB	_	VerbForm=Inf	13	advcl	_	_
@@ -5965,7 +5992,7 @@
 28	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Nas equações de balanço de massa, de momento e energia que foram mostradas anteriormente que modelam estes escoamentos tem algumas variáveis que devem ou não ser consideradas na abordagem em análise.
-# sent_id = 396-20160722-MONOGRAFIA_0-200
+# sent_id = 396-20160722-MONOGRAFIA_0-201
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -6005,7 +6032,7 @@
 35	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = A equação de energia neste caso não foi estudada, pois, o modelo em questão não envolve transferência de calor entre as fases, apesar de neste levantamnto bibliográfico ser mostrados alguns parâmetros como o número de Prantl.
-# sent_id = 396-20160722-MONOGRAFIA_0-201
+# sent_id = 396-20160722-MONOGRAFIA_0-202
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	equação	equação	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6052,7 +6079,7 @@
 42	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Na equação de momento há influência da força de arraste e outras forças, logo, esse tópico do trabalho mostra as equações da influência do número de Reynolds para o coeficiente de arraste.
-# sent_id = 396-20160722-MONOGRAFIA_0-202
+# sent_id = 396-20160722-MONOGRAFIA_0-203
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6100,7 +6127,7 @@
 40	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Enfim todos os parâmetros devem ser atentamente estudados para que se tenha uma modelagem no software o mais satisfatória possível.
-# sent_id = 396-20160722-MONOGRAFIA_0-203
+# sent_id = 396-20160722-MONOGRAFIA_0-204
 1	Enfim	enfim	ADV	_	_	2	advmod	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -6126,13 +6153,13 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 3.4.1.1 Massa Específica
-# sent_id = 396-20160722-MONOGRAFIA_0-204
+# sent_id = 396-20160722-MONOGRAFIA_0-205
 1	3.4.1.1	3.4.1.1	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	Massa	massa	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	Específica	específica	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Como ja discutido anteriormente, diferentes fases de fluidos são denotadas usando letras gregas minúsculas alfa, beta, gama etc.
-# sent_id = 396-20160722-MONOGRAFIA_0-205
+# sent_id = 396-20160722-MONOGRAFIA_0-206
 1	Como	como	ADP	_	_	2	case	_	_
 2	ja	ja	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
 3	discutido	discuter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -6156,7 +6183,7 @@
 21	etc.	etc.	ADV	_	_	20	advmod	_	_
 
 # text = Em geral, uma quantidade subscrito com α, β, γ, etc, refere-se ao valor da quantidade para aquela fase particular (ANSYS CFX Solver Theory Guide 2009).
-# sent_id = 396-20160722-MONOGRAFIA_0-206
+# sent_id = 396-20160722-MONOGRAFIA_0-207
 1	Em	em	ADP	_	_	2	case	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6198,7 +6225,7 @@
 36	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Por exemplo, a fração de volume de α é denotado .
-# sent_id = 396-20160722-MONOGRAFIA_0-207
+# sent_id = 396-20160722-MONOGRAFIA_0-208
 1	Por	por	ADP	_	_	11	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -6213,7 +6240,7 @@
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Assim, os volumes ocupados por α de fase em um pequeno volume
-# sent_id = 396-20160722-MONOGRAFIA_0-208
+# sent_id = 396-20160722-MONOGRAFIA_0-209
 1	Assim	assim	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -6229,7 +6256,7 @@
 13	volume	volume	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 
 # text = V em torno de um ponto de fração de volume é dada por:
-# sent_id = 396-20160722-MONOGRAFIA_0-209
+# sent_id = 396-20160722-MONOGRAFIA_0-210
 1	V	v	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 2	em	em	ADP	_	_	6	case	_	_
 3	torno	torno	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
@@ -6246,7 +6273,7 @@
 14	:	:	PUNCT	_	_	12	punct	_	_
 
 # text = O número total de fases é .
-# sent_id = 396-20160722-MONOGRAFIA_0-210
+# sent_id = 396-20160722-MONOGRAFIA_0-211
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	número	número	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	total	total	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -6256,7 +6283,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A fração de volume de cada fase é denotada , onde α = 1 a .
-# sent_id = 396-20160722-MONOGRAFIA_0-211
+# sent_id = 396-20160722-MONOGRAFIA_0-212
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fração	fração	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6275,7 +6302,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A massa específica efetiva do fluido na fase α é denotada pela seguinte equação onde é a massa específica efetiva do fluido e é a massa específca do fluido.
-# sent_id = 396-20160722-MONOGRAFIA_0-212
+# sent_id = 396-20160722-MONOGRAFIA_0-213
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3	específica	específico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6318,7 +6345,7 @@
 35	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = É importante notar que a fase ocupa apenas uma fração do volume, isto é, a massa de α por unidade de volume do fluido a granel.
-# sent_id = 396-20160722-MONOGRAFIA_0-213
+# sent_id = 396-20160722-MONOGRAFIA_0-214
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	notar	notar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -6354,7 +6381,7 @@
 31	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = A massa específica da mistura e a velocidade da mistura são dadas por: 3.4.1.2 Pressão Total em Fluxo Multifásico
-# sent_id = 396-20160722-MONOGRAFIA_0-214
+# sent_id = 396-20160722-MONOGRAFIA_0-215
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	massa	massa	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 3	específica	específico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6381,7 +6408,7 @@
 22	Multifásico	Multifásico	PROPN	_	Number=Sing	21	flat:name	_	_
 
 # text = A pressão total na simulação multifásica é definida como:
-# sent_id = 396-20160722-MONOGRAFIA_0-215
+# sent_id = 396-20160722-MONOGRAFIA_0-216
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	total	total	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -6396,7 +6423,7 @@
 11	:	:	PUNCT	_	_	9	punct	_	_
 
 # text = Esta definição é utilizada para ambos os escoamentos incompressíveis, enquanto os fluxos de fase única tratam pressão total de maneira diferente dependendo da simulação.
-# sent_id = 396-20160722-MONOGRAFIA_0-216
+# sent_id = 396-20160722-MONOGRAFIA_0-217
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	definição	definição	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -6427,7 +6454,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.4.1.3 Densidade de Área Interfacial
-# sent_id = 396-20160722-MONOGRAFIA_0-217
+# sent_id = 396-20160722-MONOGRAFIA_0-218
 1	3.4.1.3	3.4.1.3	NUM	_	NumType=Card	2	nummod	_	_
 2	Densidade	densidade	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6435,7 +6462,7 @@
 5	Interfacial	Interfacial	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = A Transferência Interfacial de movimento, calor e massa são diretamente dependentes da área de contato superficial entre as duas fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-218
+# sent_id = 396-20160722-MONOGRAFIA_0-219
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Transferência	transferência	PROPN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	Interfacial	Interfacial	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -6462,7 +6489,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Este é caracterizado pela a área interfacial por unidade de volume entre a fase α e a fase β, conhecidas como a densidade da área interfacial, ( ) (ANSYS CFX Solver Theory Guide 2009).
-# sent_id = 396-20160722-MONOGRAFIA_0-219
+# sent_id = 396-20160722-MONOGRAFIA_0-220
 1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj:pass	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	caracterizado	caracterizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -6508,12 +6535,12 @@
 41	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 3.4.1.3.1
-# sent_id = 396-20160722-MONOGRAFIA_0-220
+# sent_id = 396-20160722-MONOGRAFIA_0-221
 1	3.4.1.3	3.4.1.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = O Modelo de Superfície Livre
-# sent_id = 396-20160722-MONOGRAFIA_0-221
+# sent_id = 396-20160722-MONOGRAFIA_0-222
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Modelo	Modelo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6521,7 +6548,7 @@
 5	Livre	Livre	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = O modelo de superfície livre tenta resolver a interface entre os fluidos.
-# sent_id = 396-20160722-MONOGRAFIA_0-222
+# sent_id = 396-20160722-MONOGRAFIA_0-223
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6537,7 +6564,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Se houver apenas duas fases na simulação, a seguinte equação é utilizada para a densidade de área interfacial: de geometria complexa e, em muitos casos são altamente transientes.
-# sent_id = 396-20160722-MONOGRAFIA_0-223
+# sent_id = 396-20160722-MONOGRAFIA_0-224
 1	Se	se	SCONJ	_	_	2	mark	_	_
 2	houver	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	advcl	_	_
 3	apenas	apenas	ADV	_	_	4	advmod	_	_
@@ -6574,7 +6601,7 @@
 33	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = Exemplos na hidráulica são os fluxos em vertedouros, em rios, em torno de pilares de pontes, estouros de inundação, flui em comportas, bloqueios, e uma série de outras estruturas.
-# sent_id = 396-20160722-MONOGRAFIA_0-224
+# sent_id = 396-20160722-MONOGRAFIA_0-225
 1	Exemplos	exemplo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -6615,7 +6642,7 @@
 37	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = A capacidade de modelo computacional destes tipos de fluxos é atraente se tais cálculos podem ser feitos com precisão e com recursos computacionais razoáveis.
-# sent_id = 396-20160722-MONOGRAFIA_0-225
+# sent_id = 396-20160722-MONOGRAFIA_0-226
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6645,7 +6672,7 @@
 26	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Para que seja útil, simulações devem ser muito mais rápidas e menos dispendioso do que utilizando modelos experimentais.
-# sent_id = 396-20160722-MONOGRAFIA_0-226
+# sent_id = 396-20160722-MONOGRAFIA_0-227
 1	Para	para	SCONJ	_	_	4	mark	_	_
 2	que	que	SCONJ	_	_	4	mark	_	_
 3	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6670,7 +6697,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O modelo de Superfície Livre baseia-se na técnica de Volume-Of-Fluid (VOF).
-# sent_id = 396-20160722-MONOGRAFIA_0-227
+# sent_id = 396-20160722-MONOGRAFIA_0-228
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6691,7 +6718,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Esta técnica tem muitas propriedades únicas que o tornam especialmente aplicável aos fluxos com superfícies livres.
-# sent_id = 396-20160722-MONOGRAFIA_0-228
+# sent_id = 396-20160722-MONOGRAFIA_0-229
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6713,7 +6740,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A aplicação de escoamento em superfície livre no ANSYS
-# sent_id = 396-20160722-MONOGRAFIA_0-229
+# sent_id = 396-20160722-MONOGRAFIA_0-230
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6727,7 +6754,7 @@
 10	ANSYS	ANSYS	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = CFX é essencialmente o mesmo que escoamento multifásico (nesse caso o modelo é homogêneo), juntamente com algumas opções de discretização especiais, para manter a interface bem modelada.
-# sent_id = 396-20160722-MONOGRAFIA_0-230
+# sent_id = 396-20160722-MONOGRAFIA_0-231
 1	CFX	CFX	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	essencialmente	essencialmente	ADV	_	_	5	advmod	_	_
@@ -6764,7 +6791,7 @@
 33	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Estas incluem:  Um esquema de diferenciação de compressão para a advecção nas equações de fração de volume;  Um esquema transiente de compressão para as equações de fração de volume (se o problema é transiente);  Tratamento especial dos termos do gradiente de pressão e de gravidade para garantir que o fluxo permaneça bem comportado na interface.
-# sent_id = 396-20160722-MONOGRAFIA_0-231
+# sent_id = 396-20160722-MONOGRAFIA_0-232
 1	Estas	este	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	_
 2	incluem	incluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -6839,7 +6866,7 @@
 68	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Logo, no estudo de escoamentos com mais de uma fase, uma superfície livre é a superfície de um fluido que está simultaneamente sujeito a tensão normal perpendicular zero e a tensão de cisalhamento paralela, tal como o limite entre dois fluidos homogéneos, ou gás e líquido, por exemplo, a água líquida e o ar na atmosfera da terra.
-# sent_id = 396-20160722-MONOGRAFIA_0-232
+# sent_id = 396-20160722-MONOGRAFIA_0-233
 1	Logo	logo	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -6913,11 +6940,11 @@
 68	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = Os
-# sent_id = 396-20160722-MONOGRAFIA_0-233
+# sent_id = 396-20160722-MONOGRAFIA_0-234
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	0	root	_	_
 
 # text = Coeficientes adimensionais de transferência na interface podem ser correlacionados em termos do número de Reynolds e número de Prandtl definidos como se segue:
-# sent_id = 396-20160722-MONOGRAFIA_0-234
+# sent_id = 396-20160722-MONOGRAFIA_0-235
 1	Coeficientes	Coeficiente	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 2	adimensionais	adimensional	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6948,7 +6975,7 @@
 26	:	:	PUNCT	_	_	10	punct	_	_
 
 # text = Onde , , e são a massa específica, viscosidade, capacidade calorífica específica e condutividade térmica da mistura, definido por: trabalho não se torna necessário seu uso, porém é importante entender sua formulação e seu uso para outros casos.
-# sent_id = 396-20160722-MONOGRAFIA_0-235
+# sent_id = 396-20160722-MONOGRAFIA_0-236
 1	Onde	onde	ADV	_	_	7	advmod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -6997,18 +7024,18 @@
 45	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = 3.4.1.3.2
-# sent_id = 396-20160722-MONOGRAFIA_0-236
+# sent_id = 396-20160722-MONOGRAFIA_0-237
 1	3.4.1.3	3.4.1.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Força de arraste
-# sent_id = 396-20160722-MONOGRAFIA_0-237
+# sent_id = 396-20160722-MONOGRAFIA_0-238
 1	Força	força	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	arraste	arraste	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Algumas forças que agem no escoamento de bolhas são força de arraste, força de massa virtual, força de sustentação, força de lubrificação da parede entre outras (ANSYS CFX Solver Theory Guide 2009).
-# sent_id = 396-20160722-MONOGRAFIA_0-238
+# sent_id = 396-20160722-MONOGRAFIA_0-239
 1	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	forças	força	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
@@ -7053,7 +7080,7 @@
 40	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Porém, este trabalho comenta somente sobre a força de arraste, pois, é uma variável que foi calculada pelo software a partir das equações ou valores do coeficiente de arraste que são especificados na modelagem, alguns modelos para coeficiente de arraste possibilitam estimar este parâmetro.
-# sent_id = 396-20160722-MONOGRAFIA_0-239
+# sent_id = 396-20160722-MONOGRAFIA_0-240
 1	Porém	porém	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -7113,7 +7140,7 @@
 53	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = A força de arraste representa normalmente a maior parcela da transferência de quantidade de movimento interfacial.
-# sent_id = 396-20160722-MONOGRAFIA_0-240
+# sent_id = 396-20160722-MONOGRAFIA_0-241
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7135,7 +7162,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Em várias aplicações, as outras forças de interface não são consideradas.
-# sent_id = 396-20160722-MONOGRAFIA_0-241
+# sent_id = 396-20160722-MONOGRAFIA_0-242
 1	Em	em	ADP	_	_	3	case	_	_
 2	várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
@@ -7151,7 +7178,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Porém, em escoamentos acelerados em dutos, estas forças podem ter um efeito considerável (ANSYS CFX Solver Theory Guide, 2009).
-# sent_id = 396-20160722-MONOGRAFIA_0-242
+# sent_id = 396-20160722-MONOGRAFIA_0-243
 1	Porém	porém	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -7179,7 +7206,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Esta força é calculada por Sendo o termo de araste interfacial dado por: onde corresponde a resultante da velocidade de deslizamento entre a fase contínua e a fase dispersa, na direção da fase dispersa.
-# sent_id = 396-20160722-MONOGRAFIA_0-243
+# sent_id = 396-20160722-MONOGRAFIA_0-244
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	força	força	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -7225,11 +7252,11 @@
 40	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.5
-# sent_id = 396-20160722-MONOGRAFIA_0-244
+# sent_id = 396-20160722-MONOGRAFIA_0-245
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	_
 
 # text = ESCOAMENTOS COM BOLHAS ISOLADAS.
-# sent_id = 396-20160722-MONOGRAFIA_0-245
+# sent_id = 396-20160722-MONOGRAFIA_0-246
 1	ESCOAMENTOS	Escoamento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	COM	Com	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 3	BOLHAS	bolhas	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -7237,7 +7264,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Existem várias formas de se estimar a velocidade de ascensão de bolhas isoladas.
-# sent_id = 396-20160722-MONOGRAFIA_0-246
+# sent_id = 396-20160722-MONOGRAFIA_0-247
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	formas	forma	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -7254,7 +7281,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Essas formas de estimação dependem do formato da bolha, ou seja, esférica, elipsoidal, Bolha de Taylor etc.
-# sent_id = 396-20160722-MONOGRAFIA_0-247
+# sent_id = 396-20160722-MONOGRAFIA_0-248
 1	Essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	formas	forma	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7282,7 +7309,7 @@
 23	etc.	etc.	ADV	_	_	5	advmod	_	_
 
 # text = Como este estudo não tem o objetivo de estudar vários modelos de velocidade de ascensão de bolha, não se torna necessário expor alguns modelos.
-# sent_id = 396-20160722-MONOGRAFIA_0-248
+# sent_id = 396-20160722-MONOGRAFIA_0-249
 1	Como	como	SCONJ	_	_	5	mark	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -7311,16 +7338,16 @@
 26	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = 3.5.1
-# sent_id = 396-20160722-MONOGRAFIA_0-249
+# sent_id = 396-20160722-MONOGRAFIA_0-250
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Bolhas
-# sent_id = 396-20160722-MONOGRAFIA_0-250
+# sent_id = 396-20160722-MONOGRAFIA_0-251
 1	Bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = A bolha é um globo cheio de gás, pode ser ar ou vapor, que se forma em alguma substância líquida ou bastante viscosa ao ser agitada ou por motivo de ebulição ou fermentação (MARINHO, 2008).
-# sent_id = 396-20160722-MONOGRAFIA_0-251
+# sent_id = 396-20160722-MONOGRAFIA_0-252
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -7366,7 +7393,7 @@
 42	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = De acordo com Marinho (2008), o escoamento bifásico (gás-líquido) na ebulição estacionária a presença de bolhas de gás ou de vapor pode surgir por cavitação.
-# sent_id = 396-20160722-MONOGRAFIA_0-252
+# sent_id = 396-20160722-MONOGRAFIA_0-253
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -7402,7 +7429,7 @@
 32	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Em geral, é possível classificar as bolhas em dois tipos: as bolhas de gás e as bolhas de vapor, dependendo da natureza da fase no interior da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-253
+# sent_id = 396-20160722-MONOGRAFIA_0-254
 1	Em	em	ADP	_	_	2	case	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7445,7 +7472,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A bolha de gás consiste basicamente de uma quantidade de gás submersa num líquido de composição química diferente.
-# sent_id = 396-20160722-MONOGRAFIA_0-254
+# sent_id = 396-20160722-MONOGRAFIA_0-255
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7469,7 +7496,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Por outro lado, a bolha de vapor consiste de uma quantidade da fase gasosa de uma substância submersa na fase líquida da mesma substância.
-# sent_id = 396-20160722-MONOGRAFIA_0-255
+# sent_id = 396-20160722-MONOGRAFIA_0-256
 1	Por	por	ADP	_	_	9	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -7504,7 +7531,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Um dos efeitos mais importantes a se considerar neste tipo de escoamento é a gravidade e a viscosidade da fase líquida, essas duas variáveis influenciam de maneira significativa no formato da bolha e na velocidade, respectivamente (MARINHO, 2008).
-# sent_id = 396-20160722-MONOGRAFIA_0-256
+# sent_id = 396-20160722-MONOGRAFIA_0-257
 1	Um	um	NUM	_	NumType=Card	17	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7563,7 +7590,7 @@
 50	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = A viscosidade atua produzindo uma força de arraste que tende a reduzir a velocidade de seu movimento relativo no fluido circunvizinho.
-# sent_id = 396-20160722-MONOGRAFIA_0-257
+# sent_id = 396-20160722-MONOGRAFIA_0-258
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	atua	atuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7590,7 +7617,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A gravidade pode atuar de maneira favorável ou desfavorável no formato, ou seja, escoamento ascendente ou descendente.
-# sent_id = 396-20160722-MONOGRAFIA_0-258
+# sent_id = 396-20160722-MONOGRAFIA_0-259
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7615,7 +7642,7 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As bolhas podem se agrupar nas seguintes categorias:  Esféricas: em geral, bolhas são aproximadas a esferas se a tensão interfacial e as forças viscosas são muito mais importantes que forças de inércia (Figura 6 a);  Elipsoidais: o próprio nome é sugestivo, sua interface tem formato convexo em relação ao seu interior, seu formato as vezes é bem difícil de ser definido, dado em vista que esse tipo de bolha sofre dilatações periódicas e/ou movimentos inconstantes aleatórios (Figura 6 b);  Capa esférica ou capa esferoidal: são bolhas de tamanho com considerável grande que tendem a adotar uma superfície plana ou bases recortadas e são ausentes de qualquer semelhança frontal e simétrica na parte da “cauda” da bolha ou a parte no “nariz” da bolha (Figura 7).
-# sent_id = 396-20160722-MONOGRAFIA_0-259
+# sent_id = 396-20160722-MONOGRAFIA_0-260
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7781,7 +7808,7 @@
 156	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 6 – (a)
-# sent_id = 396-20160722-MONOGRAFIA_0-260
+# sent_id = 396-20160722-MONOGRAFIA_0-261
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	obj	_	_
 3	–	–	PUNCT	_	_	5	punct	_	_
@@ -7790,39 +7817,46 @@
 6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = Bolha Esférica e (b)
-# sent_id = 396-20160722-MONOGRAFIA_0-261
+# sent_id = 396-20160722-MONOGRAFIA_0-262
 1	Bolha	bolha	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Esférica	Esférica	PROPN	_	Number=Sing	1	flat:name	_	_
 3	e	e	CCONJ	_	_	5	cc	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	b)	b)	NUM	_	NumType=Card	1	conj	_	_
 
-# text = Elipsoidal Figura 7 –
-# sent_id = 396-20160722-MONOGRAFIA_0-262
-1	Elipsoidal	Elipsoidal	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	Figura	figura	PROPN	_	Number=Sing	1	flat:name	_	_
-3	7	7	PROPN	_	Number=Sing	1	flat:name	_	_
-4	–	–	PUNCT	_	_	1	punct	_	_
-
-# text = Diferentes formatos de bolha de capa esferoidal Fonte: (MARINHO, 2008)
+# text = Elipsoidal Fonte: (MARINHO, 2008)
 # sent_id = 396-20160722-MONOGRAFIA_0-263
-1	Diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
-2	formatos	formato	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	capa	capa	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-7	esferoidal	esferoidal	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-8	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	2	punct	_	_
-10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	MARINHO	marinho	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	2008	2008	NUM	_	NumType=Card	11	appos:parataxis	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	11	punct	_	_
+1	Elipsoidal	Elipsoidal	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	Fonte	Fonte	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	MARINHO	marinho	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	2008	2008	NUM	_	NumType=Card	5	appos:parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	5	punct	_	_
+
+# text = Figura 7 – Diferentes formatos de bolha de capa esferoidal Fonte: (MARINHO, 2008)
+# sent_id = 396-20160722-MONOGRAFIA_0-264
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	7	7	NUM	_	NumType=Card	5	nummod	_	_
+3	–	–	PUNCT	_	_	5	punct	_	_
+4	Diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	formatos	formato	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	capa	capa	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+10	esferoidal	esferoidal	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	Fonte	Fonte	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	5	punct	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	MARINHO	marinho	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	2008	2008	NUM	_	NumType=Card	14	appos:parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	14	punct	_	_
 
 # text = A presença de bolhas de gás em fluxos desempenha um papel significante em uma faixa extensa de processos industriais e geofísicos, podendo-se destacar o transporte de óleo em dutos, mistura em reatores químicos, a elaboração de ligas, o processo de aeração, as trocas entre atmosfera-oceano, entre outros.
-# sent_id = 396-20160722-MONOGRAFIA_0-264
+# sent_id = 396-20160722-MONOGRAFIA_0-265
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7881,12 +7915,12 @@
 55	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 3.5.2
-# sent_id = 396-20160722-MONOGRAFIA_0-265
+# sent_id = 396-20160722-MONOGRAFIA_0-266
 1	3.5	3.5	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.2	.2	NUM	_	NumType=Card	1	flat	_	_
 
 # text = Velocidade de Ascensão de Bolhas de Gás em Líquidos (Modelo Davies-Taylor)
-# sent_id = 396-20160722-MONOGRAFIA_0-266
+# sent_id = 396-20160722-MONOGRAFIA_0-267
 1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7901,53 +7935,52 @@
 12	Davies-Taylor	Davies-Taylor	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	11	punct	_	_
 
-# text = De acordo com Davies- Taylor (1950 apud ELLENBERGER et al. 1998), a velocidade de ascensão de uma única e de várias bolhas de capa esférica pode ser estimada usando dois fatores de correlação
-# sent_id = 396-20160722-MONOGRAFIA_0-267
+# text = De acordo com Davies-Taylor (1950 apud ELLENBERGER et al. 1998), a velocidade de ascensão de uma única e de várias bolhas de capa esférica pode ser estimada usando dois fatores de correlação
+# sent_id = 396-20160722-MONOGRAFIA_0-268
 1	De	de	ADP	_	_	2	case	_	_
-2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
-3	com	com	ADP	_	_	5	case	_	_
-4	Davies-	Davies-	PUNCT	_	_	5	punct	_	_
-5	Taylor	Taylor	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-7	1950	1950	NUM	_	NumType=Card	8	nummod	_	_
-8	apud	apud	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
-9	ELLENBERGER	ELLENBERGER	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	_
-10	et	et	X	_	Number=Sing	9	flat:name	_	_
-11	al.	al.	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
-12	1998	1998	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	2	punct	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	29	nsubj:pass	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	única	único	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-22	e	e	CCONJ	_	_	25	cc	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
-25	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	capa	capa	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-28	esférica	esférico	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-29	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-30	ser	ser	AUX	_	VerbForm=Inf	31	aux:pass	_	_
-31	estimada	estimar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	29	xcomp	_	_
-32	usando	usar	VERB	_	VerbForm=Ger	31	advcl	_	_
-33	dois	dois	NUM	_	NumType=Card	34	nummod	_	_
-34	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	correlação	correlação	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	Davies-Taylor	Davies-Taylor	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	1950	1950	NUM	_	NumType=Card	7	nummod	_	_
+7	apud	apud	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+8	ELLENBERGER	ELLENBERGER	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
+9	et	et	X	_	Number=Sing	8	flat:name	_	_
+10	al.	al.	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+11	1998	1998	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	única	único	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+21	e	e	CCONJ	_	_	24	cc	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	capa	capa	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	esférica	esférico	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	ser	ser	AUX	_	VerbForm=Inf	30	aux:pass	_	_
+30	estimada	estimar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	28	xcomp	_	_
+31	usando	usar	VERB	_	VerbForm=Ger	30	advcl	_	_
+32	dois	dois	NUM	_	NumType=Card	33	nummod	_	_
+33	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	correlação	correlação	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
 
 # text = Onde: =
-# sent_id = 396-20160722-MONOGRAFIA_0-268
+# sent_id = 396-20160722-MONOGRAFIA_0-269
 1	Onde	onde	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	=	=	SYM	_	_	0	root	_	_
 
 # text = Velocidade de Ascensão das bolhas
-# sent_id = 396-20160722-MONOGRAFIA_0-269
+# sent_id = 396-20160722-MONOGRAFIA_0-270
 1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7957,7 +7990,7 @@
 6	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 
 # text = Diâmetro das bolhas Fator de Correlação que depende da razão entre o diâmetro da coluna e o diâmetro da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-270
+# sent_id = 396-20160722-MONOGRAFIA_0-271
 1	Diâmetro	Diâmetro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -7989,7 +8022,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fator de Correlação para Aceleração que depende da interação entre as bolhas, é usado para várias bolhas.
-# sent_id = 396-20160722-MONOGRAFIA_0-271
+# sent_id = 396-20160722-MONOGRAFIA_0-272
 1	Fator	fator	PROPN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Correlação	Correlação	PROPN	_	Number=Sing	1	nmod	_	_
@@ -8013,7 +8046,7 @@
 20	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Para escoamento de uma única bolha o Fator (AF) não é preciso calcular sendo assim a Equação 36 se resume somente à O subscrito 0 indica uma velocidade de referência, ou seja, uma velocidade inicial de ascensão da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-272
+# sent_id = 396-20160722-MONOGRAFIA_0-273
 1	Para	para	ADP	_	_	2	case	_	_
 2	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 3	de	de	ADP	_	_	6	case	_	_
@@ -8063,8 +8096,25 @@
 45	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
+# text = O fator (SF) pode ser estimado da seguinte forma:
+# sent_id = 396-20160722-MONOGRAFIA_0-274
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fator	fator	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	SF	SF	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ser	ser	AUX	_	VerbForm=Inf	8	aux:pass	_	_
+8	estimado	estimar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+12	forma	forma	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	8	punct	_	_
+
 # text = Na Figura 8 é apresentada uma bolha com mesmo diâmetro, mas, em dutos diferentes a fim de se comparar a ascensão da mesma com a variação do diâmetro da coluna.
-# sent_id = 396-20160722-MONOGRAFIA_0-273
+# sent_id = 396-20160722-MONOGRAFIA_0-275
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8107,52 +8157,49 @@
 36	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Figura 8 –
-# sent_id = 396-20160722-MONOGRAFIA_0-274
+# text = Figura 8 – Comparação da ascensão para uma bolha de 34 mm de diâmetro em dois dutos de 0,1 m de diâmetro e outro com 0,051 m de diâmetro obtidas através de imagens de vídeo.
+# sent_id = 396-20160722-MONOGRAFIA_0-276
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	8	8	NUM	_	NumType=Card	1	obj	_	_
-3	–	–	PUNCT	_	_	1	punct	_	_
-
-# text = Comparação da ascensão para uma bolha de 34 mm de diâmetro em dois dutos de 0,1 m de diâmetro e outro com 0,051 m de diâmetro obtidas através de imagens de vídeo.
-# sent_id = 396-20160722-MONOGRAFIA_0-275
-1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	para	para	ADP	_	_	7	case	_	_
-6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	34	34	NUM	_	NumType=Card	10	nummod	_	_
-10	mm	mm	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	em	em	ADP	_	_	15	case	_	_
-14	dois	dois	NUM	_	NumType=Card	15	nummod	_	_
-15	dutos	duto	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	0,1	0,1	NUM	_	NumType=Card	18	nummod	_	_
-18	m	m	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-21	e	e	CCONJ	_	_	22	cc	_	_
-22	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	_
-23	com	com	ADP	_	_	25	case	_	_
-24	0,051	0,051	NUM	_	NumType=Card	25	nummod	_	_
-25	m	m	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-28	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	_
-29	através	através	ADV	_	_	28	advmod	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	29	obl	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+2	8	8	NUM	_	NumType=Card	4	nummod	_	_
+3	–	–	PUNCT	_	_	4	punct	_	_
+4	Comparação	comparação	PROPN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bolha	bolha	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	34	34	NUM	_	NumType=Card	13	nummod	_	_
+13	mm	mm	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	dois	dois	NUM	_	NumType=Card	18	nummod	_	_
+18	dutos	duto	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	0,1	0,1	NUM	_	NumType=Card	21	nummod	_	_
+21	m	m	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	_
+26	com	com	ADP	_	_	28	case	_	_
+27	0,051	0,051	NUM	_	NumType=Card	28	nummod	_	_
+28	m	m	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+31	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	30	acl	_	_
+32	através	através	ADV	_	_	31	advmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	32	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (ELLENBERGER et al. 1998).
-# sent_id = 396-20160722-MONOGRAFIA_0-276
+# sent_id = 396-20160722-MONOGRAFIA_0-277
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -8164,7 +8211,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na Figura 9 é apresentado um escoamento de duas bolhas de gás onde é mostrado o tempo de coalescência das mesmas, o resultado foi obtido por ELLENBERGER et al. (1998) através de simulação usando o modelo VOF.
-# sent_id = 396-20160722-MONOGRAFIA_0-277
+# sent_id = 396-20160722-MONOGRAFIA_0-278
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8211,22 +8258,19 @@
 42	VOF	VOF	PROPN	_	Gender=Masc|Number=Sing	41	appos	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Figura 9 –
-# sent_id = 396-20160722-MONOGRAFIA_0-278
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	9	9	NUM	_	NumType=Card	1	nummod	_	_
-3	–	–	PUNCT	_	_	1	punct	_	_
-
-# text = Coalescência para duas bolhas usando modelo VOF.
+# text = Figura 9 – Coalescência para duas bolhas usando modelo VOF.
 # sent_id = 396-20160722-MONOGRAFIA_0-279
-1	Coalescência	Coalescência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	para	para	ADP	_	_	4	case	_	_
-3	duas	dois	NUM	_	NumType=Card	4	nummod	_	_
-4	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-5	usando	usar	VERB	_	VerbForm=Ger	1	acl	_	_
-6	modelo	modelo	ADP	_	_	7	case	_	_
-7	VOF	VOF	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	9	9	NUM	_	NumType=Card	4	nummod	_	_
+3	–	–	PUNCT	_	_	4	punct	_	_
+4	Coalescência	Coalescência	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	duas	dois	NUM	_	NumType=Card	7	nummod	_	_
+7	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	usando	usar	VERB	_	VerbForm=Ger	1	advcl	_	_
+9	modelo	modelo	ADP	_	_	10	case	_	_
+10	VOF	VOF	PROPN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (ELLENBERGER et al. 1998).
 # sent_id = 396-20160722-MONOGRAFIA_0-280
@@ -9991,7 +10035,7 @@
 45	disposta	disposto	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 46	abaixo	abaixo	ADV	_	_	45	advmod	_	_
 
-# text = A velocidade absoluta da fase é dada pela seguinte expressão (50)
+# text = A velocidade absoluta da fase é dada pela seguinte expressão
 # sent_id = 396-20160722-MONOGRAFIA_0-345
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
@@ -10007,9 +10051,6 @@
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
-13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	50	50	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	14	punct	_	_
 
 # text = Em que é o Holdup da fase, a fração volumétrica da fase para condição de deslizamento entre as fases, essa variável é obtida através de correlações empíricas.
 # sent_id = 396-20160722-MONOGRAFIA_0-346
@@ -10231,15 +10272,12 @@
 49	autores	autor	NOUN	_	Gender=Masc|Number=Plur	46	obl:agent	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
-# text = Segue abaixo a equação (55)
+# text = Segue abaixo a equação
 # sent_id = 396-20160722-MONOGRAFIA_0-357
 1	Segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	abaixo	abaixo	ADV	_	_	1	advmod	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	equação	equação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	55	55	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = O método de Beggs e Brill para predição do gradiente de pressão também prediz o padrão de escoamento na tubulação através números adimensionais chamados de limites de transição, o procedimento deste método é descrito no apêndice.
 # sent_id = 396-20160722-MONOGRAFIA_0-358
@@ -10917,7 +10955,7 @@
 19	multifases	multifase	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
 20	:	:	PUNCT	_	_	3	punct	_	_
 
-# text = Número de Reynolds da fase líquida (56)
+# text = Número de Reynolds da fase líquida
 # sent_id = 396-20160722-MONOGRAFIA_0-386
 1	Número	número	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
@@ -10927,9 +10965,6 @@
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	fase	fase	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 7	líquida	líquido	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	56	56	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	_
 
 # text = Podendo ser expresso também como Reynolds da mistura, quando as propriedades forem calculadas pelas equações de mistura.
 # sent_id = 396-20160722-MONOGRAFIA_0-387
@@ -11795,7 +11830,7 @@
 15	VOF	VOF	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	_
 
-# text = As equações abaixo são calculadas pelo software a partir das condições do problema inseridas no mesmo para este caso:  Equação da Conservação da massa (25)  Equação da Conservação de momento linear
+# text = As equações abaixo são calculadas pelo software a partir das condições do problema inseridas no mesmo para este caso:  Equação da Conservação da massa  Equação da Conservação de momento linear
 # sent_id = 396-20160722-MONOGRAFIA_0-425
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	equações	equação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -11834,19 +11869,16 @@
 30-31	da	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	massa	massa	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	25	25	NUM	_	NumType=Card	36	appos:parataxis	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	34	punct	_	_
-36			PROPN	_	Number=Sing	32	nmod	_	_
-37	Equação	Equação	PROPN	_	Number=Sing	36	flat:name	_	_
-38-39	da	_	_	_	_	_	_	_	_
-38	de	de	ADP	_	_	40	case	_	_
-39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	Conservação	Conservação	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
-41	de	de	ADP	_	_	42	case	_	_
-42	momento	momento	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-43	linear	linear	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
+32	massa	massa	PROPN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33			PROPN	_	Number=Sing	32	flat:name	_	_
+34	Equação	Equação	PROPN	_	Number=Sing	32	flat:name	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Conservação	Conservação	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	momento	momento	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+40	linear	linear	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	_
 
 # text = Ambas as fases são tratadas como contínuas.
 # sent_id = 396-20160722-MONOGRAFIA_0-426
@@ -12753,8 +12785,20 @@
 27	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 28	:	:	PUNCT	_	_	17	punct	_	_
 
-# text = Os outros limites (Boundary Type) da malha são paredes (WALL) com condição de não deslizamento e simetria (SYM) que como o próprio nome sugere é a simetria da malha em relação ao eixo axial do tubo.
+# text = Tabela 3 – Condições de saída (OUTLET)
 # sent_id = 396-20160722-MONOGRAFIA_0-459
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	3	3	NUM	_	NumType=Card	1	nummod	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+4	Condições	condição	NOUN	_	Gender=Fem|Number=Plur	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	saída	saída	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	OUTLET	OUTLET	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+
+# text = Os outros limites (Boundary Type) da malha são paredes (WALL) com condição de não deslizamento e simetria (SYM) que como o próprio nome sugere é a simetria da malha em relação ao eixo axial do tubo.
+# sent_id = 396-20160722-MONOGRAFIA_0-460
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	limites	limite	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -12808,7 +12852,7 @@
 47	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = As propriedades dos fluidos, do gás e do óleo, no estado de referência de temperatura e pressão à 25 ºC e 1 atm respectivamente, estão abaixo na Tabela 4: Tabela 4 – Propriedades físico-química dos fluidos.
-# sent_id = 396-20160722-MONOGRAFIA_0-460
+# sent_id = 396-20160722-MONOGRAFIA_0-461
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	30	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -12866,7 +12910,7 @@
 48	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
 
 # text = Os valores das propriedades físico-químicas da Tabela 4 foram baseados de acordo com a pesquisa de Marinho (2008).
-# sent_id = 396-20160722-MONOGRAFIA_0-461
+# sent_id = 396-20160722-MONOGRAFIA_0-462
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -12894,7 +12938,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Na Tabela 5 é apresentada algumas condições gerais que são escolhidas no software para o tratamento numérico e equações governantes.
-# sent_id = 396-20160722-MONOGRAFIA_0-462
+# sent_id = 396-20160722-MONOGRAFIA_0-463
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -12922,7 +12966,7 @@
 23	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 5 – Condições gerais do problema para o duto com diâmetro de 200 mm.
-# sent_id = 396-20160722-MONOGRAFIA_0-463
+# sent_id = 396-20160722-MONOGRAFIA_0-464
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -12942,20 +12986,30 @@
 16	mm	mm	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = Bifásico e transiente Tipo de Escoamento Regime de Fluxo
-# sent_id = 396-20160722-MONOGRAFIA_0-464
+# text = Bifásico e transiente Tipo de Escoamento Laminar Regime de Fluxo Fonte: (AUTORIA PRÓPRIA, 2015).
+# sent_id = 396-20160722-MONOGRAFIA_0-465
 1	Bifásico	Bifásico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	transiente	transiente	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	_
 4	Tipo	tipo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Escoamento	Escoamento	PROPN	_	Number=Sing	4	nmod	_	_
-7	Regime	regime	PROPN	_	Number=Sing	6	flat:name	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	Fluxo	fluxo	PROPN	_	Number=Sing	4	nmod	_	_
+7	Laminar	Laminar	PROPN	_	Number=Sing	6	flat:name	_	_
+8	Regime	regime	PROPN	_	Number=Sing	6	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Fluxo	fluxo	PROPN	_	Number=Sing	6	nmod	_	_
+11	Fonte	Fonte	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	4	punct	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	AUTORIA	autoria	PROPN	_	Gender=Fem|Number=Sing	4	appos	_	_
+15	PRÓPRIA	própria	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	2015	2015	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Como o resultado esperado é o escoamento de uma única bolha consideravelmente grande, mas, não tão significativamente, o modelo de arraste para superfície livre não foi especificado, pois o software não oferece esta opção para este tipo de modelagem.
-# sent_id = 396-20160722-MONOGRAFIA_0-465
+# sent_id = 396-20160722-MONOGRAFIA_0-466
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -13002,7 +13056,7 @@
 44	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em outros casos bem mais complexos o ANSYS oferece alguns modelos de coeficiente de arraste que depende do número de Reynolds, velocidades das fases e propriedades fisico-químicas das mesmas, logo não se encontra no escopo deste trabalho a inserção de tais modelos para resolução dos problemas e o modelo mais simples oferece resultados aceitáveis.
-# sent_id = 396-20160722-MONOGRAFIA_0-466
+# sent_id = 396-20160722-MONOGRAFIA_0-467
 1	Em	em	ADP	_	_	3	case	_	_
 2	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	casos	caso	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
@@ -13074,11 +13128,11 @@
 63	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 5
-# sent_id = 396-20160722-MONOGRAFIA_0-467
+# sent_id = 396-20160722-MONOGRAFIA_0-468
 1	5	5	NUM	_	NumType=Card	0	root	_	_
 
 # text = RESULTADOS E DISCUSSÃO Os resultados obtidos tiveram certa dificuldade de serem alcançados, devido à dificuldade de se escolher e abordar um modelo de velocidade de ascensão de bolha em tubulações, logo no caso que foi simulado o óleo tem uma velocidade que influencia na velocidade da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-468
+# sent_id = 396-20160722-MONOGRAFIA_0-469
 1	RESULTADOS	resultado	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 2	E	e	CCONJ	_	_	7	cc	_	_
 3	DISCUSSÃO	discussão	ADV	_	_	7	advmod	_	_
@@ -13139,7 +13193,7 @@
 54	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A velocidade da fase óleo é estimada a apartir da vazão.
-# sent_id = 396-20160722-MONOGRAFIA_0-469
+# sent_id = 396-20160722-MONOGRAFIA_0-470
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -13158,7 +13212,7 @@
 14	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A pressão na entrada é calculada pelo software de maneira que se torne mais alta que a pressão absoluta da saída, a fim de mostrar um escoamento ascendente vertical.
-# sent_id = 396-20160722-MONOGRAFIA_0-470
+# sent_id = 396-20160722-MONOGRAFIA_0-471
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -13198,7 +13252,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Três casos foram analisados a fim de relacionar o diâmetro da bolha com o gradiente total de pressão, o primeiro com a bolha de 60% do diâmetro da tubulação, o segundo com 50% e o terceiro com 80%.
-# sent_id = 396-20160722-MONOGRAFIA_0-471
+# sent_id = 396-20160722-MONOGRAFIA_0-472
 1	Três	três	NUM	_	NumType=Card	2	nummod	_	_
 2	casos	caso	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -13251,7 +13305,7 @@
 47	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Na seção 5.1 apenas é mostrado o comportamento da bolha com 60% do diâmetro da tubulação e logo em seguida na seção 5.2 é mostrada a análise do gradiente de pressão desse caso.
-# sent_id = 396-20160722-MONOGRAFIA_0-472
+# sent_id = 396-20160722-MONOGRAFIA_0-473
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -13303,7 +13357,7 @@
 42	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Para a seção 5.3 é mostrada a comparação dos casos.
-# sent_id = 396-20160722-MONOGRAFIA_0-473
+# sent_id = 396-20160722-MONOGRAFIA_0-474
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	seção	seção	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -13319,7 +13373,7 @@
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Uma breve discussão em relação aos coeficientes adimensionais e forças no escoamento é mostrada na seção 5.3. 5.1
-# sent_id = 396-20160722-MONOGRAFIA_0-474
+# sent_id = 396-20160722-MONOGRAFIA_0-475
 1	Uma	uma	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 2	breve	breve	ADP	_	_	3	case	_	_
 3	discussão	discussão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -13346,7 +13400,7 @@
 21	5.1	5.1	NUM	_	NumType=Card	20	flat	_	_
 
 # text = ASCENSÃO DO ESCOAMENTO DA BOLHA DE GÁS
-# sent_id = 396-20160722-MONOGRAFIA_0-475
+# sent_id = 396-20160722-MONOGRAFIA_0-476
 1	ASCENSÃO	ascensão	ADV	_	_	4	advmod	_	_
 2-3	DO	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -13360,7 +13414,7 @@
 9	GÁS	gás	PROPN	_	Gender=Masc|Number=Sing	4	flat:name	_	_
 
 # text = Como esperado, o comportamento é de ascensão da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-476
+# sent_id = 396-20160722-MONOGRAFIA_0-477
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -13376,7 +13430,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = A Figura 13 a seguir mostra a bolha nos instantes inicias do caso.
-# sent_id = 396-20160722-MONOGRAFIA_0-477
+# sent_id = 396-20160722-MONOGRAFIA_0-478
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	13	13	NUM	_	NumType=Card	2	nummod	_	_
@@ -13397,7 +13451,7 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Como pode ser notada, a escala de cor para demonstrar o formato da bolha não consegue deixa-la de maneira totalmente esférica.
-# sent_id = 396-20160722-MONOGRAFIA_0-478
+# sent_id = 396-20160722-MONOGRAFIA_0-479
 1	Como	como	ADV	_	_	2	advmod	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -13427,7 +13481,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Esse problema se deve ao fato de que a malha encontra-se muito grosseira, ou seja, quanto mais se refinar essa malha, o formato se aproximará de uma esfera, isso influenciaria de forma negativa aumentando o esforço computacional.
-# sent_id = 396-20160722-MONOGRAFIA_0-479
+# sent_id = 396-20160722-MONOGRAFIA_0-480
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	problema	problema	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -13476,7 +13530,7 @@
 44	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Outra possível forma de aperfeiçoar esse resultado é utilizar um esquema de advecção “upwind” nos parâmetros do modelo no software com a função de “setup”.
-# sent_id = 396-20160722-MONOGRAFIA_0-480
+# sent_id = 396-20160722-MONOGRAFIA_0-481
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	forma	forma	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -13515,7 +13569,7 @@
 33	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Os resultados esperados como a ascensão, velocidades das fases e gradiente de pressão no eixo Z, foram de maneira satisfatória alcançada.
-# sent_id = 396-20160722-MONOGRAFIA_0-481
+# sent_id = 396-20160722-MONOGRAFIA_0-482
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 3	esperados	esperar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -13546,7 +13600,7 @@
 26	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = O diâmetro da bolha foi estipulado de 60 % do diâmetro do tubo, logo um tamanho considerável para o caso.
-# sent_id = 396-20160722-MONOGRAFIA_0-482
+# sent_id = 396-20160722-MONOGRAFIA_0-483
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -13577,7 +13631,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O local inicial onde se encontra o centro da bolha é exatamente à uma distância de 1 m da entrada do tubo no eixo Z. Figura 13 – Situação da Bolha de Gás Fonte: (AUTORIA PRÓPRIA, 2016)
-# sent_id = 396-20160722-MONOGRAFIA_0-483
+# sent_id = 396-20160722-MONOGRAFIA_0-484
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	local	local	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	inicial	inicial	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -13633,7 +13687,7 @@
 47	)	)	PUNCT	_	_	43	punct	_	_
 
 # text = A Figura 14 abaixo mostra uma pequena ascensão percorrida a partir do instante de tempo de 0,01 s, a cada instante de tempo a velocidade superficial da bolha muda, pois, o caso é simulado de maneira transiente.
-# sent_id = 396-20160722-MONOGRAFIA_0-484
+# sent_id = 396-20160722-MONOGRAFIA_0-485
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	14	14	NUM	_	NumType=Card	2	nummod	_	_
@@ -13681,7 +13735,7 @@
 43	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A velocidade mostrada é a média tomando como referência o centro da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-485
+# sent_id = 396-20160722-MONOGRAFIA_0-486
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	mostrada	mostrado	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -13700,7 +13754,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O gás como uma bolha, começa a escoar com uma velocidade superficial inicial nesse instante de tempo, à uma distância de 1 m da entrada do tubo, ou seja, no eixo Z igual a 1 m.
-# sent_id = 396-20160722-MONOGRAFIA_0-486
+# sent_id = 396-20160722-MONOGRAFIA_0-487
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gás	gás	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	como	como	ADP	_	_	5	case	_	_
@@ -13754,7 +13808,7 @@
 46	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A linha amarela nesta imagem representa o Z = 1,5 m.
-# sent_id = 396-20160722-MONOGRAFIA_0-487
+# sent_id = 396-20160722-MONOGRAFIA_0-488
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	linha	linha	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	amarela	amarelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13771,7 +13825,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-488
+# sent_id = 396-20160722-MONOGRAFIA_0-489
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -13783,7 +13837,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A Figura 14 mostra uma pequena ascensão em um pequeno intervalo de tempo, os valores de velocidade média superficial do gás são mostrados nesta figura.
-# sent_id = 396-20160722-MONOGRAFIA_0-489
+# sent_id = 396-20160722-MONOGRAFIA_0-490
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	14	14	NUM	_	NumType=Card	2	nummod	_	_
@@ -13817,7 +13871,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Percebe-se que nesses instantes iniciais a bolha começa a se deformar caracterizando uma semelhança ao formato do Slug.
-# sent_id = 396-20160722-MONOGRAFIA_0-490
+# sent_id = 396-20160722-MONOGRAFIA_0-491
 1-2	Percebe-se	_	_	_	_	_	_	_	_
 1	Percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -13847,7 +13901,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Outra característica notória é o rastro de gás deixado na cauda.
-# sent_id = 396-20160722-MONOGRAFIA_0-491
+# sent_id = 396-20160722-MONOGRAFIA_0-492
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	característica	característica	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	notória	notório	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -13863,31 +13917,14 @@
 12	cauda	cauda	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = A Figura 15 mostra a ascensão a partir do tempo t = 0,01 s até 1 s.
-# sent_id = 396-20160722-MONOGRAFIA_0-492
+# text = A Figura 15
+# sent_id = 396-20160722-MONOGRAFIA_0-493
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
-3	15	15	NUM	_	NumType=Card	4	nsubj	_	_
-4	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-7	a	a	ADP	_	_	11	case	_	_
-8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-12	t	t	X	_	_	11	amod	_	_
-13	=	=	SYM	_	_	11	nmod	_	_
-14	0,01	0,01	NUM	_	NumType=Card	13	nummod	_	_
-15	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	_
-16	até	até	ADP	_	_	15	case	_	_
-17	1	1	NUM	_	NumType=Card	18	nummod	_	_
-18	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	15	15	NUM	_	NumType=Card	2	nummod	_	_
 
 # text = Figura 15 – Ascensão da bolha de gás ao longo da tubulação Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-493
+# sent_id = 396-20160722-MONOGRAFIA_0-494
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	15	15	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -13917,7 +13954,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Ao longo da ascensão da bolha na Figura 15, nota-se a semelhança do caso com o resultado de ELLENBERGER et al. (1998) obtido pelo mesmo método na Figura 7, ou seja, a bolha sofre uma deformação ao subir no duto, uma coalescencia.
-# sent_id = 396-20160722-MONOGRAFIA_0-494
+# sent_id = 396-20160722-MONOGRAFIA_0-495
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -13989,11 +14026,11 @@
 59	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = 5.1.1
-# sent_id = 396-20160722-MONOGRAFIA_0-495
+# sent_id = 396-20160722-MONOGRAFIA_0-496
 1	5.1.1	5.1.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Velocidade de Ascensão do Gás
-# sent_id = 396-20160722-MONOGRAFIA_0-496
+# sent_id = 396-20160722-MONOGRAFIA_0-497
 1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Ascensão	ascensão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -14003,7 +14040,7 @@
 6	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = A velocidade da bolha analisada no Gráfico 1 é a velocidade média do perfil, ou seja, metade da velocidade máxima.
-# sent_id = 396-20160722-MONOGRAFIA_0-497
+# sent_id = 396-20160722-MONOGRAFIA_0-498
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -14037,7 +14074,7 @@
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O local de referência dessa velocidade é no centro da bolha, onde é maior a velocidade da mesma.
-# sent_id = 396-20160722-MONOGRAFIA_0-498
+# sent_id = 396-20160722-MONOGRAFIA_0-499
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	local	local	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -14068,7 +14105,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = No Gráfico 1, logo abaixo, é mostrado os valores de velocidades superficiais médias e a soma, a velocidade da mistura, das fases analisadas, onde há uma maior influência da fase gás a velocidade superficial do óleo tende a 0 m/s e entre a bolha e a parede da tubulação a velocidade do óleo é negativa (será discutido de maneira mais sucinta ao decorrer desta parcela do trabalho), logo para obter a média do óleo é preciso analisar à uma distância ótima da bolha, onde não há influência do gás.
-# sent_id = 396-20160722-MONOGRAFIA_0-499
+# sent_id = 396-20160722-MONOGRAFIA_0-500
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -14198,7 +14235,7 @@
 113	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Portanto os valores podem ser mostrados para cada instante de tempo de acordo com a Figura 15.
-# sent_id = 396-20160722-MONOGRAFIA_0-500
+# sent_id = 396-20160722-MONOGRAFIA_0-501
 1	Portanto	portanto	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	valores	valor	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
@@ -14218,8 +14255,8 @@
 17	15	15	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = A importância de se obter e traçar essas velocidades são obter por métodos analíticos o gradiente de pressão e também comparar as velocidades obtidas na simulação com o cálculo da velocidade teórica feita por Davies- Taylor.
-# sent_id = 396-20160722-MONOGRAFIA_0-501
+# text = A importância de se obter e traçar essas velocidades são obter por métodos analíticos o gradiente de pressão e também comparar as velocidades obtidas na simulação com o cálculo da velocidade teórica feita por Davies-Taylor.
+# sent_id = 396-20160722-MONOGRAFIA_0-502
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	importância	importância	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	de	de	SCONJ	_	_	5	mark	_	_
@@ -14258,12 +14295,11 @@
 34	teórica	teórico	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
 35	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	33	acl	_	_
 36	por	por	ADP	_	_	37	case	_	_
-37	Davies-	davies-	PROPN	_	Number=Sing	35	obl:agent	_	_
-38	Taylor	Taylor	PROPN	_	Number=Sing	37	flat:name	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+37	Davies-Taylor	Davies-Taylor	PROPN	_	Gender=Masc|Number=Sing	35	obl:agent	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Gráfico 1 – Velocidade Superficial Média das fases no instante 0,01 à 1 s. Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-502
+# sent_id = 396-20160722-MONOGRAFIA_0-503
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	1	1	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -14296,7 +14332,7 @@
 27	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Em que: VSG: Velocidade Superficial do Gás;
-# sent_id = 396-20160722-MONOGRAFIA_0-503
+# sent_id = 396-20160722-MONOGRAFIA_0-504
 1	Em	em	ADP	_	_	2	case	_	_
 2	que	que	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -14311,7 +14347,7 @@
 11	;	;	PUNCT	_	_	2	punct	_	_
 
 # text = VSO: Velocidade Superficial do Óleo.
-# sent_id = 396-20160722-MONOGRAFIA_0-504
+# sent_id = 396-20160722-MONOGRAFIA_0-505
 1	VSO	Vso	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Velocidade	Velocidade	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
@@ -14323,7 +14359,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Percebe-se que a velocidade média do gás é maior que a velocidade do óleo, devido a suas propriedades como massa específica e viscosidade ser bem menor em comparação com o óleo.
-# sent_id = 396-20160722-MONOGRAFIA_0-505
+# sent_id = 396-20160722-MONOGRAFIA_0-506
 1-2	Percebe-se	_	_	_	_	_	_	_	_
 1	Percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -14365,7 +14401,7 @@
 36	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O mapa para estimativa do padrão de escoamento em função das velocidades superficiais das fases de acordo com Brill e Mukherjee (1999) se encontra logo abaixo na Figura 16 com a marcação das velocidades obtidas na simulação.
-# sent_id = 396-20160722-MONOGRAFIA_0-506
+# sent_id = 396-20160722-MONOGRAFIA_0-507
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mapa	mapa	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -14420,7 +14456,7 @@
 46	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = Note que o padrão se enquadra no Slug bem antes da faixa de transição para anular.
-# sent_id = 396-20160722-MONOGRAFIA_0-507
+# sent_id = 396-20160722-MONOGRAFIA_0-508
 1	Note	Note	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	6	nsubj	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -14444,7 +14480,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 16 – Mapa de padrões de escoamento multifásico para Tubo Vertical Fonte: (BRILL e MUKHERJEE, 1999).
-# sent_id = 396-20160722-MONOGRAFIA_0-508
+# sent_id = 396-20160722-MONOGRAFIA_0-509
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -14469,7 +14505,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O mapa da Figura 16 mostra a estimativa de uma maneira geral e média, ou seja, existem mapas para diferentes diâmetros de tubulação e diferentes abordagens de fluidos, como o trabalho não tem esse objectivo de comparação não se torna conveniente detalhar o caso e sim mostrar apenas o enquadramento da simulação no padrão Slug ou Plug.
-# sent_id = 396-20160722-MONOGRAFIA_0-509
+# sent_id = 396-20160722-MONOGRAFIA_0-510
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mapa	mapa	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -14539,7 +14575,7 @@
 64	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = O Gráfico 2 abaixo mostra a velocidade calculada e estimada com base em dados experimentais do modelo de Davies e Taylor (Equação 37) comparada com a velocidade do modelo numérico.
-# sent_id = 396-20160722-MONOGRAFIA_0-510
+# sent_id = 396-20160722-MONOGRAFIA_0-511
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	2	2	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -14579,7 +14615,7 @@
 35	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Gráfico 2 – Velocidade Superficial do gás (Simulação) e Modelo Davies-Taylor de 0,01 à 1 s.
-# sent_id = 396-20160722-MONOGRAFIA_0-511
+# sent_id = 396-20160722-MONOGRAFIA_0-512
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	2	2	PROPN	_	Number=Sing	1	flat:name	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -14605,7 +14641,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-512
+# sent_id = 396-20160722-MONOGRAFIA_0-513
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -14617,7 +14653,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O Gráfico 2 mostra que ao longo do tempo, onde há uma convergência de se tornar constante o movimento da bolha, a mesma tende a velocidade calculada pelo método análitico para bolhas isoladas.
-# sent_id = 396-20160722-MONOGRAFIA_0-513
+# sent_id = 396-20160722-MONOGRAFIA_0-514
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	2	2	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -14664,7 +14700,7 @@
 40	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Logo há concordância entre o modelo numérico e o caso analítico para se estimar essa variável.
-# sent_id = 396-20160722-MONOGRAFIA_0-514
+# sent_id = 396-20160722-MONOGRAFIA_0-515
 1	Logo	logo	ADV	_	_	2	advmod	_	_
 2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	concordância	concordância	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -14684,7 +14720,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Como o caso foi apenas nesse instante de tempo ainda é muito difícil de predizer se essa tendência continuaria ao longo do tempo.
-# sent_id = 396-20160722-MONOGRAFIA_0-515
+# sent_id = 396-20160722-MONOGRAFIA_0-516
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
@@ -14717,11 +14753,11 @@
 27	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 5.1.2
-# sent_id = 396-20160722-MONOGRAFIA_0-516
+# sent_id = 396-20160722-MONOGRAFIA_0-517
 1	5.1.2	5.1.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = Análise do Perfil de Velocidade das Fases
-# sent_id = 396-20160722-MONOGRAFIA_0-517
+# sent_id = 396-20160722-MONOGRAFIA_0-518
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -14735,7 +14771,7 @@
 9	Fases	fases	PROPN	_	Number=Sing	4	nmod	_	_
 
 # text = A partir do instante de tempo de 0,7 s nota-se que a bolha atinge o formato do Slug com isso pode-se analisar os perfis de velocidade do líquido e do gás, dado em vista que há uma característica de regime quase permanente, ou seja, as velocidades quase constantes com o tempo.
-# sent_id = 396-20160722-MONOGRAFIA_0-518
+# sent_id = 396-20160722-MONOGRAFIA_0-519
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -14805,7 +14841,7 @@
 61	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = A Figura 17 abaixo mostra os locais onde foram obtidos os perfis de velocidade da bolha, a Linha 1, 2 e 3 sempre indicará a partir de agora uma análise na “cauda”, centro e “nariz” respectivamente.
-# sent_id = 396-20160722-MONOGRAFIA_0-519
+# sent_id = 396-20160722-MONOGRAFIA_0-520
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	17	17	NUM	_	NumType=Card	5	nummod	_	_
@@ -14856,7 +14892,7 @@
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para a Figura 17 (a) as coordenadas da Linha 1, 2 e 3 são Z = 1,44 m; 1,5 m e 1,56 m respectivamente.
-# sent_id = 396-20160722-MONOGRAFIA_0-520
+# sent_id = 396-20160722-MONOGRAFIA_0-521
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
@@ -14890,7 +14926,7 @@
 30	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Para a Figura 17 (b) as coordenadas são Z = 1,51 m; 1,57 m e 1,63 m.
-# sent_id = 396-20160722-MONOGRAFIA_0-521
+# sent_id = 396-20160722-MONOGRAFIA_0-522
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -14914,7 +14950,7 @@
 21	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 17 – Linhas 1, 2 e 3 (Intervalo de 0,7 (a) à 0,8 s (b))
-# sent_id = 396-20160722-MONOGRAFIA_0-522
+# sent_id = 396-20160722-MONOGRAFIA_0-523
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	17	17	NUM	_	NumType=Card	11	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -14942,7 +14978,7 @@
 24	)	)	PUNCT	_	_	20	punct	_	_
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-523
+# sent_id = 396-20160722-MONOGRAFIA_0-524
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -14954,7 +14990,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Em cada local onde as linhas 1, 2 e 3 foram inseridas é possível obter diferentes perfis que são influenciados pela interação entre as fases.
-# sent_id = 396-20160722-MONOGRAFIA_0-524
+# sent_id = 396-20160722-MONOGRAFIA_0-525
 1	Em	em	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	local	local	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
@@ -14986,7 +15022,7 @@
 28	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Uma vantagem do modelo numérico em relação à métodos experimentais é conhecer essa variação de velocidade em diferentes pontos no sentido vertical e horizontal da bolha enquanto que nos métodos experimentais simples os pesquisadores obtém apenas uma dada velocidade média de ascensão.
-# sent_id = 396-20160722-MONOGRAFIA_0-525
+# sent_id = 396-20160722-MONOGRAFIA_0-526
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -15042,7 +15078,7 @@
 48	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Abaixo no Gráfico 3 se encontra o perfil de velocidade do gás referente a Figura 17 (a).
-# sent_id = 396-20160722-MONOGRAFIA_0-526
+# sent_id = 396-20160722-MONOGRAFIA_0-527
 1	Abaixo	Abaixo	ADV	_	_	4	advmod	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -15069,7 +15105,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Gráfico 3 – Perfil de Velocidade do Gás Referente a Figura 17 (a) (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-527
+# sent_id = 396-20160722-MONOGRAFIA_0-528
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -15095,7 +15131,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-528
+# sent_id = 396-20160722-MONOGRAFIA_0-529
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -15107,7 +15143,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A perfil referente a linha 1 tem um formato com duas parábolas, isso acontece porque a linha “corta” o exato local onde a bolha está deformada, ou seja, a cauda.
-# sent_id = 396-20160722-MONOGRAFIA_0-529
+# sent_id = 396-20160722-MONOGRAFIA_0-530
 1	A	a	ADP	_	_	2	case	_	_
 2	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3	referente	referente	ADV	_	_	5	case	_	_
@@ -15146,7 +15182,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A velocidade tende a 0 m/s neste local onde não há fração de gás.
-# sent_id = 396-20160722-MONOGRAFIA_0-530
+# sent_id = 396-20160722-MONOGRAFIA_0-531
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	tende	tender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15166,7 +15202,7 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = No centro da bolha onde há uma maior fração do gás a velocidade é máxima em relação aos dois sentidos da bolha, longitudinal e transversal.
-# sent_id = 396-20160722-MONOGRAFIA_0-531
+# sent_id = 396-20160722-MONOGRAFIA_0-532
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -15206,7 +15242,7 @@
 32	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = No nariz a velocidade é menor em relação aos outros locais, esse local sofre influência da fase líquida ao subir no duto, pois, há uma força de arraste neste local que tende a desacelerar a bolha, geralmente essa força de arraste é mais significativa para escoamentos contra-corrente.
-# sent_id = 396-20160722-MONOGRAFIA_0-532
+# sent_id = 396-20160722-MONOGRAFIA_0-533
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -15273,7 +15309,7 @@
 58	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O perfil de velocidade da linha 2 tende a ser negativo na superfície no meio da bolha, esse comportamento é devido a velocidade do óleo nesse local que é negativa, o óleo tende a descer entre a bolha e o tubo mesmo o escoamento sendo ascendente co-corrente, como a massa específica e viscosidade do óleo é bem maior que a da bolha as forças de tensão superficial agem neste local tensionando a bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-533
+# sent_id = 396-20160722-MONOGRAFIA_0-534
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -15371,7 +15407,7 @@
 86	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Abaixo se encontra os perfis de velocidade da bolha para a Figura 12 (b).
-# sent_id = 396-20160722-MONOGRAFIA_0-534
+# sent_id = 396-20160722-MONOGRAFIA_0-535
 1	Abaixo	abaixo	ADV	_	_	3	advmod	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15393,7 +15429,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Percebe-se que nos dois gráficos o perfil referente a linha 2 não tem uma velocidade máxima definida por uma parábola, um problema na modelagem numérica provavelmente é o motivo desse perfil não aparecer “perfeito”.
-# sent_id = 396-20160722-MONOGRAFIA_0-535
+# sent_id = 396-20160722-MONOGRAFIA_0-536
 1-2	Percebe-se	_	_	_	_	_	_	_	_
 1	Percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -15442,7 +15478,7 @@
 42	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Outra provável possibilidade é realizar uma análise mais sucinta nas forças envolvidas no processo para entender esse comportamento do perfil.
-# sent_id = 396-20160722-MONOGRAFIA_0-536
+# sent_id = 396-20160722-MONOGRAFIA_0-537
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 2	provável	provável	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -15471,8 +15507,34 @@
 23	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
+# text = Gráfico 4 – Perfil de Velocidade do Gás Referente a Figura 17 (b) (Instante 0,8 s).
+# sent_id = 396-20160722-MONOGRAFIA_0-538
+1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	4	4	NUM	_	NumType=Card	1	nummod	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+4	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Velocidade	velocidade	PROPN	_	Number=Sing	4	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+10	Referente	referente	PROPN	_	Number=Sing	9	flat:name	_	_
+11	a	o	ADP	_	_	12	case	_	_
+12	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+13	17	17	NUM	_	NumType=Card	12	nummod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Instante	instante	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+19	0,8	0,8	NUM	_	NumType=Card	20	nummod	_	_
+20	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-537
+# sent_id = 396-20160722-MONOGRAFIA_0-539
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -15484,7 +15546,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Na Figura 17 mostra uma característica bem comum do Slug, o rastro de gás na cauda da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-538
+# sent_id = 396-20160722-MONOGRAFIA_0-540
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -15515,7 +15577,7 @@
 24	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Essa e outras características que foram obtidas no modelo numérico serão discutidas mais adiante para poder comparar com imagens experimentais de outros autores.
-# sent_id = 396-20160722-MONOGRAFIA_0-539
+# sent_id = 396-20160722-MONOGRAFIA_0-541
 1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	13	nsubj:pass	_	_
 2	e	e	CCONJ	_	_	4	cc	_	_
 3	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
@@ -15544,7 +15606,7 @@
 25	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = A velocidade do óleo na região do filme de líquido é descendente e é influenciada pela fase do gás devido a direção do escoamento do mesmo.
-# sent_id = 396-20160722-MONOGRAFIA_0-540
+# sent_id = 396-20160722-MONOGRAFIA_0-542
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -15588,7 +15650,7 @@
 34	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = A Figura 18 mostra o sentido, direçao e escala de cores dos vetores de velocidade superficial do óleo na região de escoamento da bolha, no que é denominado zona do Slug.
-# sent_id = 396-20160722-MONOGRAFIA_0-541
+# sent_id = 396-20160722-MONOGRAFIA_0-543
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	18	18	NUM	_	NumType=Card	2	nmod	_	_
@@ -15637,14 +15699,14 @@
 40	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 18 – Vetores
-# sent_id = 396-20160722-MONOGRAFIA_0-542
+# sent_id = 396-20160722-MONOGRAFIA_0-544
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
 4	Vetores	Vetor	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 
 # text = Velocidade no Filme de Líquido (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-543
+# sent_id = 396-20160722-MONOGRAFIA_0-545
 1	Velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -15660,7 +15722,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-544
+# sent_id = 396-20160722-MONOGRAFIA_0-546
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -15672,7 +15734,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = No Gráfico 5 é mostrado os perfis de velocidade do óleo para o instante de 0,7 s, tomando como referência a Figura 17 (a).
-# sent_id = 396-20160722-MONOGRAFIA_0-545
+# sent_id = 396-20160722-MONOGRAFIA_0-547
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -15707,7 +15769,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = No perfil da linha 2 a velocidade é 0 m/s entre uma extremidade e outra da bolha, ou seja, não tem fase óleo.
-# sent_id = 396-20160722-MONOGRAFIA_0-546
+# sent_id = 396-20160722-MONOGRAFIA_0-548
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -15742,7 +15804,7 @@
 29	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Gráfico 5 – Perfil de Velocidade do Óleo Referete a Figura 17 (a) (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-547
+# sent_id = 396-20160722-MONOGRAFIA_0-549
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -15768,7 +15830,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-548
+# sent_id = 396-20160722-MONOGRAFIA_0-550
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -15780,7 +15842,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A linha 1 como mencionado anteriormente está na “cauda” da bolha, percebe-se que há uma velocidade do óleo muito alta nesta região se comparada com a linha 3, ou seja, a medida que se afasta da bolha essa fase líquida perde a influência da fase gás e tende a uma velocidade estável.
-# sent_id = 396-20160722-MONOGRAFIA_0-549
+# sent_id = 396-20160722-MONOGRAFIA_0-551
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	linha	linha	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
@@ -15855,7 +15917,7 @@
 65	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = O motivo de essa velocidade ter essa magnitude tão alta é que há uma pressão de vácuo atrás da bolha e o gradiente de pressão estática negativa.
-# sent_id = 396-20160722-MONOGRAFIA_0-550
+# sent_id = 396-20160722-MONOGRAFIA_0-552
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -15888,7 +15950,7 @@
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Para a linha 3 a diminuição de velocidade no centro, ou seja, r = 0 m, é que a linha “corta” a fase gás e diminui a fase óleo, isso é bem explícito na Figura 17.
-# sent_id = 396-20160722-MONOGRAFIA_0-551
+# sent_id = 396-20160722-MONOGRAFIA_0-553
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	linha	linha	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -15938,11 +16000,11 @@
 45	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = 5.1.3
-# sent_id = 396-20160722-MONOGRAFIA_0-552
+# sent_id = 396-20160722-MONOGRAFIA_0-554
 1	5.1.3	5.1.3	NUM	_	NumType=Card	0	root	_	_
 
 # text = Análise da Fração Volumétrica do Gás
-# sent_id = 396-20160722-MONOGRAFIA_0-553
+# sent_id = 396-20160722-MONOGRAFIA_0-555
 1	Análise	análise	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -15955,7 +16017,7 @@
 8	Gás	gás	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = A fração volumétrica de gás é variável em relação ao raio na sessão transversal da tubulação e a partir da linha 2 pode ser obtido o perfil de fração de gás.
-# sent_id = 396-20160722-MONOGRAFIA_0-554
+# sent_id = 396-20160722-MONOGRAFIA_0-556
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fração	fração	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	volumétrica	volumétrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -15998,7 +16060,7 @@
 36	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = A partir desta análise é possível mensurar o comprimento da bolha e espessura de filme de líquido, variáveis importante quando se calcula o gradiente de pressão de forma análitica para regime
-# sent_id = 396-20160722-MONOGRAFIA_0-555
+# sent_id = 396-20160722-MONOGRAFIA_0-557
 1	A	a	ADP	_	_	4	case	_	_
 2	partir	partir	NOUN	_	_	1	fixed	_	_
 3-4	desta	_	_	_	_	_	_	_	_
@@ -16037,7 +16099,7 @@
 34	regime	regime	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 
 # text = Slug pelo método de Davies-Taylor.
-# sent_id = 396-20160722-MONOGRAFIA_0-556
+# sent_id = 396-20160722-MONOGRAFIA_0-558
 1	Slug	Slug	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	pelo	_	_	_	_	_	_	_	_
 2	por	por	ADP	_	_	4	case	_	_
@@ -16048,7 +16110,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Gráfico 6 – Fração de Gás (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-557
+# sent_id = 396-20160722-MONOGRAFIA_0-559
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -16063,7 +16125,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-558
+# sent_id = 396-20160722-MONOGRAFIA_0-560
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -16075,7 +16137,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A partir da Figura 12 e Gráfico 6 é estimado a espessura de filme de líquido ( e o comprimento do Slug .
-# sent_id = 396-20160722-MONOGRAFIA_0-559
+# sent_id = 396-20160722-MONOGRAFIA_0-561
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	11	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -16105,7 +16167,7 @@
 25	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = O comprimento do Slug é aproximadamente igual ao diâmetro da bolha para este caso onde a relação de diâmetro da bolha e do duto é 0.6, ou seja, é o parâmetro limite para que possa ser chamado de Slug, mas, geralmente acima dessa relação o comprimento é bem maior que o diâmetro da tubulação e a pelicula de filme de líquido é muito pequena.
-# sent_id = 396-20160722-MONOGRAFIA_0-560
+# sent_id = 396-20160722-MONOGRAFIA_0-562
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -16191,11 +16253,11 @@
 76	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 5.2
-# sent_id = 396-20160722-MONOGRAFIA_0-561
+# sent_id = 396-20160722-MONOGRAFIA_0-563
 1	5.2	5.2	NUM	_	NumType=Card	0	root	_	_
 
 # text = ANÁLISE DO GRADIENTE DE PRESSÃO (Caso 60%)
-# sent_id = 396-20160722-MONOGRAFIA_0-562
+# sent_id = 396-20160722-MONOGRAFIA_0-564
 1	ANÁLISE	análise	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 2-3	DO	_	_	_	_	_	_	_	_
 2	DE	de	ADP	_	_	4	case	_	_
@@ -16210,7 +16272,7 @@
 11	)	)	PUNCT	_	_	8	punct	_	_
 
 # text = O perfil do gradiente de pressão é exibido na Figura 19.
-# sent_id = 396-20160722-MONOGRAFIA_0-563
+# sent_id = 396-20160722-MONOGRAFIA_0-565
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	perfil	perfil	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -16229,7 +16291,7 @@
 14	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Como em cada instante de tempo os perfis são semelhantes tornou-se conveniente ilustrar apenas para o instante de 0,7 s. Figura 19 – Perfil da Pressão Absoluta (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-564
+# sent_id = 396-20160722-MONOGRAFIA_0-566
 1	Como	como	SCONJ	_	_	10	mark	_	_
 2	em	em	ADP	_	_	4	case	_	_
 3	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	4	det	_	_
@@ -16269,20 +16331,8 @@
 35	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
-# text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-565
-1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	AUTORIA	autoria	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5	PRÓPRIA	própria	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
-7	2016	2016	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # text = O gradiente total de pressão é a soma de todas as parcelas de gradientes de pressão como discutido no Capítulo 3.6, logo, está parcela do trabalho destina-se a mostrar o perfil da tensão de cisalhamento na parede do tubo a fim de mostrar o valor da perda de carga por atrito e comparar com o valor obtido analiticamente pelo método de Beggs e Brill.
-# sent_id = 396-20160722-MONOGRAFIA_0-566
+# sent_id = 396-20160722-MONOGRAFIA_0-567
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	gradiente	gradiente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	total	total	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -16368,7 +16418,7 @@
 75	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O gradiente de pressão no local do Slug pode ser estimado também pelo método de Davies-Taylor.
-# sent_id = 396-20160722-MONOGRAFIA_0-567
+# sent_id = 396-20160722-MONOGRAFIA_0-568
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gradiente	gradiente	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -16394,7 +16444,7 @@
 20	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Estes dois métodos foram analisados por vários autores a fim de mostrar a eficácia na aproximação de experimentos.
-# sent_id = 396-20160722-MONOGRAFIA_0-568
+# sent_id = 396-20160722-MONOGRAFIA_0-569
 1	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 2	dois	dois	NUM	_	NumType=Card	3	nummod	_	_
 3	métodos	método	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
@@ -16418,7 +16468,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 5.2.1 Gradiente de Pressão por Atrito
-# sent_id = 396-20160722-MONOGRAFIA_0-569
+# sent_id = 396-20160722-MONOGRAFIA_0-570
 1	5.2	5.2	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 2	.1	.1	NUM	_	NumType=Card	1	flat	_	_
 3	Gradiente	Gradiente	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -16428,7 +16478,7 @@
 7	Atrito	Atrito	PROPN	_	Number=Sing	3	nmod	_	_
 
 # text = De acordo com Çengel e Cimbala (2007), a parcela do gradiente de pressão por atrito nas paredes da tubulação depende totalmente da tensão de cisalhamento, considerando o fluido como sendo newtoniano o fator de atrito de Darcy para escomento laminar é obtido com a seguinte expressão:
-# sent_id = 396-20160722-MONOGRAFIA_0-570
+# sent_id = 396-20160722-MONOGRAFIA_0-571
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -16490,7 +16540,7 @@
 55	:	:	PUNCT	_	_	26	punct	_	_
 
 # text = A simulação permite obter a tensão de cisalhamento nas paredes ao longo do eixo longitudinal da tubulação e a velocidade média do óleo, com isso é possivel calcular e esboçar num gráfico essa perda de carga como uma parcela do gradiente de pressão.
-# sent_id = 396-20160722-MONOGRAFIA_0-571
+# sent_id = 396-20160722-MONOGRAFIA_0-572
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16552,7 +16602,7 @@
 52	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Abaixo é mostrada a escala de cor da tensão de cisalhamento na parede da tubulação ao longo do eixo Z. Tornou-se conveniente analisar somente nesta direção onde a influência é bem mais significativa do que em outras direções e para não dificultar a análise já que o módulo dessa variável é um pouco maior do que na direção Z. Figura 20 – Perfil da Tensão de Cisalhamento nas Paredes (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-572
+# sent_id = 396-20160722-MONOGRAFIA_0-573
 1	Abaixo	abaixo	ADV	_	_	3	advmod	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	mostrada	mostrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -16656,7 +16706,7 @@
 88	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-573
+# sent_id = 396-20160722-MONOGRAFIA_0-574
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -16668,7 +16718,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Como o escoamento da bolha fica quase estável neste instante de tempo, ou seja, escoamento “quase permanente” torna-se conveniente mostrar apenas esse perfil de tensão cisalhante, não havendo necessidade de mostrar para outros instantes de tempo após este.
-# sent_id = 396-20160722-MONOGRAFIA_0-574
+# sent_id = 396-20160722-MONOGRAFIA_0-575
 1	Como	como	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -16721,7 +16771,7 @@
 47	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Nas paredes antes da bolha o perfil é bem mais acentuado tendendo a ser vemelho, ou seja, máximo cisalhamento em relação a outras regiões, o Slug de gás influencia diretamente no escoamento do óleo ao seu redor como discutido no capitulo 3.9, autores como Zheng;
-# sent_id = 396-20160722-MONOGRAFIA_0-575
+# sent_id = 396-20160722-MONOGRAFIA_0-576
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -16786,7 +16836,7 @@
 56	;	;	PUNCT	_	_	34	punct	_	_
 
 # text = He; Che (2007) mostraram que na região do escoamento do Slug a tensão cisalhante tem grandes flutuações devido o escoamento caótico e vórtices turbulentos.
-# sent_id = 396-20160722-MONOGRAFIA_0-576
+# sent_id = 396-20160722-MONOGRAFIA_0-577
 1	He	He	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 2	;	;	PUNCT	_	_	1	punct	_	_
 3	Che	Che	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -16823,7 +16873,7 @@
 31	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Autores como Al-Sarkhi et al (2016) analisaram a influência que a bolha de Slug tem na espessura do filme de líquido com relação ao cisalhamento, percebe-se que na parede dessa região a escala de cisalhamento é mínima e negativa, como a velocidade do óleo é descendente a tensão é contrária à velocidade, logo nesta região o cisalhamento tende a acontecer na direção do escoamento.
-# sent_id = 396-20160722-MONOGRAFIA_0-577
+# sent_id = 396-20160722-MONOGRAFIA_0-578
 1	Autores	autor	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 2	como	como	ADP	_	_	3	case	_	_
 3	Al-Sarkhi	Al-Sarkhi	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -16918,7 +16968,7 @@
 81	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Foi analisada a parcela de gradiente de pressão por atrito a partir da altura de 1 metro, ou seja, Z = 1 m, até Z = 2 m, nessa região o gás influencia de maneira mais significativa no gradiente de pressão.
-# sent_id = 396-20160722-MONOGRAFIA_0-578
+# sent_id = 396-20160722-MONOGRAFIA_0-579
 1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
 2	analisada	analisar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -16973,7 +17023,7 @@
 49	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = O Gráfico 7 mostra essa parcela em função da razão no gráfico) e fazendo z/D, logo tomando-se os valores de Z a partir de 1 metro ( no gráfico) a fim de intervalos para dividir pelo diâmetro da tubulação até 2 metros ( simplificar a análise.
-# sent_id = 396-20160722-MONOGRAFIA_0-579
+# sent_id = 396-20160722-MONOGRAFIA_0-580
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	7	7	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -17038,7 +17088,7 @@
 56	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Gráfico 7 – Perfil do Gradiente de Pressão na Região do Slug (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-580
+# sent_id = 396-20160722-MONOGRAFIA_0-581
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	7	7	PROPN	_	Number=Sing	1	flat:name	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -17065,7 +17115,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-581
+# sent_id = 396-20160722-MONOGRAFIA_0-582
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -17077,7 +17127,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Essa variável foi obtida a partir da Equação 6, tomando a velocidade média do óleo nesse intervalo e a tensão de cisalhamento.
-# sent_id = 396-20160722-MONOGRAFIA_0-582
+# sent_id = 396-20160722-MONOGRAFIA_0-583
 1	Essa	essa	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 2	variável	variável	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -17110,7 +17160,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = No Gráfico 8 é mostrada a tensão de cisalhamento nesse intervalo da tubulação.
-# sent_id = 396-20160722-MONOGRAFIA_0-583
+# sent_id = 396-20160722-MONOGRAFIA_0-584
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -17133,7 +17183,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Gráfico 8 – Perfil da Tensão de Cisalhamento na região do Slug (Instante 0,7 s).
-# sent_id = 396-20160722-MONOGRAFIA_0-584
+# sent_id = 396-20160722-MONOGRAFIA_0-585
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -17160,7 +17210,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-585
+# sent_id = 396-20160722-MONOGRAFIA_0-586
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -17172,7 +17222,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Essa parcela de perca de pressão é diretamente proporcional ao cisalhamento, logo os dois gráficos são semelhantes.
-# sent_id = 396-20160722-MONOGRAFIA_0-586
+# sent_id = 396-20160722-MONOGRAFIA_0-587
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	parcela	parcela	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -17196,7 +17246,7 @@
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O comportamento do cisalhamento para os posteriores instantes de tempo do caso são de forma consideravelmente iguais, logo não é conveniente mostrar para outros instantes de tempo, dado em vista que o objetivo é analisar apenas a maneira com que óleo se comporta na região do escoamento da bolha.
-# sent_id = 396-20160722-MONOGRAFIA_0-587
+# sent_id = 396-20160722-MONOGRAFIA_0-588
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -17261,7 +17311,7 @@
 57	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
 
 # text = Outras parcelas como o gradiente de pressão devido a mudança da velocidade do fluido ao longo da tubulação não foram analisadas, pois, o foco do caso é analisar a pressão de forma absoluta e apenas a parcela de atrito.
-# sent_id = 396-20160722-MONOGRAFIA_0-588
+# sent_id = 396-20160722-MONOGRAFIA_0-589
 1	Outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	parcelas	parcela	NOUN	_	Gender=Fem|Number=Plur	25	nsubj:pass	_	_
 3	como	como	ADP	_	_	5	case	_	_
@@ -17316,7 +17366,7 @@
 47	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
 
 # text = 5.2.2 Gradiente de Pressão Total (Caso 60%)
-# sent_id = 396-20160722-MONOGRAFIA_0-589
+# sent_id = 396-20160722-MONOGRAFIA_0-590
 1	5.2.2	5.2.2	NUM	_	NumType=Card	2	nummod	_	_
 2	Gradiente	Gradiente	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -17329,7 +17379,7 @@
 10	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = O gradiente de pressao total no caso simulado com o gradiente calculado pelo método de Beggs e Brill é mostrado no Gráfico 9.
-# sent_id = 396-20160722-MONOGRAFIA_0-590
+# sent_id = 396-20160722-MONOGRAFIA_0-591
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gradiente	gradiente	NOUN	_	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -17362,7 +17412,7 @@
 27	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Gráfico 9 – Gradiente de Pressão Absoluto (Caso 60%)
-# sent_id = 396-20160722-MONOGRAFIA_0-591
+# sent_id = 396-20160722-MONOGRAFIA_0-592
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 2	9	9	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -17377,7 +17427,7 @@
 12	)	)	PUNCT	_	_	9	punct	_	_
 
 # text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-592
+# sent_id = 396-20160722-MONOGRAFIA_0-593
 1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -17389,7 +17439,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = O método de Beggs e Brill conidera intermitência, ou seja, várias bolhas de Slug escoando no domínio, logo a discrepância dos valores pode ser explicada por causa da quantidade de fração volumétrica de gás, logo não se pode dizer que o caso da simulação é próximo da correlação de Beggs e Brill, pois a quantidade de gás no domínio é menor o que afeta a parcela do gradiente de pressão hidrostática do escoamento.
-# sent_id = 396-20160722-MONOGRAFIA_0-593
+# sent_id = 396-20160722-MONOGRAFIA_0-594
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	método	método	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -17487,7 +17537,7 @@
 87	.	.	PUNCT	_	_	45	punct	_	_
 
 # text = Portanto no método de Beggs e Brill entende-se que a fração volumétrica de gás é bem maior diminuindo a parcela do gradiente de pressão hidrostática.
-# sent_id = 396-20160722-MONOGRAFIA_0-594
+# sent_id = 396-20160722-MONOGRAFIA_0-595
 1	Portanto	portanto	CCONJ	_	_	4	cc	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -17522,7 +17572,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = 5.3 COMPARAÇÃO DOS CASOS
-# sent_id = 396-20160722-MONOGRAFIA_0-595
+# sent_id = 396-20160722-MONOGRAFIA_0-596
 1	5.3	5.3	NUM	_	NumType=Card	2	nummod	_	_
 2	COMPARAÇÃO	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	DOS	_	_	_	_	_	_	_	_
@@ -17531,7 +17581,7 @@
 5	CASOS	Casos	PROPN	_	Number=Sing	4	flat:name	_	_
 
 # text = Neste capítulo é mostrado um pequeno intervalo de tempo de subida entre as bolhas, o perfil de tensão cisalhante nas paredes ao longo da zona do Slug dos casos e a comparação da influência do diâmetro das bolhas na tensão cisalhante fazendo o Gráfico 10 de maneira análoga ao Gráfico 8.
-# sent_id = 396-20160722-MONOGRAFIA_0-596
+# sent_id = 396-20160722-MONOGRAFIA_0-597
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -17609,11 +17659,11 @@
 64	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = 5.3.1
-# sent_id = 396-20160722-MONOGRAFIA_0-597
+# sent_id = 396-20160722-MONOGRAFIA_0-598
 1	5.3.1	5.3.1	NUM	_	NumType=Card	0	root	_	_
 
 # text = Comparação da Ascensão das bolhas
-# sent_id = 396-20160722-MONOGRAFIA_0-598
+# sent_id = 396-20160722-MONOGRAFIA_0-599
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -17625,7 +17675,7 @@
 7	bolhas	bolha	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 
 # text = A Figura 21 abaixo mostra no mesmo instante o escoamento das três bolhas e a comparação da sua ascensão.
-# sent_id = 396-20160722-MONOGRAFIA_0-599
+# sent_id = 396-20160722-MONOGRAFIA_0-600
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	21	21	NUM	_	NumType=Card	2	nummod	_	_
@@ -17654,7 +17704,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Na Tabela 6 é mostrado os coeficientes adimensionais para o instante de tempo 0,3 s.
-# sent_id = 396-20160722-MONOGRAFIA_0-600
+# sent_id = 396-20160722-MONOGRAFIA_0-601
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -17675,7 +17725,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 6 – Parâmetro Hidrodinâmicos da Simulação (Instante 0,3 s)
-# sent_id = 396-20160722-MONOGRAFIA_0-601
+# sent_id = 396-20160722-MONOGRAFIA_0-602
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	1	punct	_	_
@@ -17689,18 +17739,6 @@
 10	Instante	instante	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 11	0,3	0,3	NUM	_	NumType=Card	10	nummod	_	_
 12	s)	s)	NUM	_	NumType=Card	11	flat	_	_
-
-# text = Fonte: (AUTORIA PRÓPRIA, 2016).
-# sent_id = 396-20160722-MONOGRAFIA_0-602
-1	Fonte	fonte	ADV	_	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	1	punct	_	_
-3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	AUTORIA	autoria	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-5	PRÓPRIA	própria	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
-7	2016	2016	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Todos os parâmetros adimensionais foram calculados no local da bolha no instante de 0,3 s com as propriedades da mistura, exceto o número de Reynolds e o Número de Morton.
 # sent_id = 396-20160722-MONOGRAFIA_0-603

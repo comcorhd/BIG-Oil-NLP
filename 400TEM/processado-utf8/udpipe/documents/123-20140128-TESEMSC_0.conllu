@@ -153,178 +153,101 @@
 65	)	)	PUNCT	_	_	62	punct	_	SpaceAfter=No
 66	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Se a função não é periódica, então a transformada de Fourier será uma função contínua dependente da frequência, isto é, será uma função representada pela soma das senóides de todas as frequências do espectro.
+# text = Neste caso, consideram-se l pontos consistindo de dados amostrados e se nós queremos determinar separadamente a amplitude das l senóides, então o tempo de processamento é proporcional a l*, ou seja, ao número de multiplicações.
 # sent_id = 123-20140128-TESEMSC_0-6
-1	Se	se	SCONJ	_	_	6	mark	_	_
-2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	função	função	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-4	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
-5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	periódica	periódico	ADJ	_	Gender=Fem|Number=Sing	22	acl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	15	punct	_	_
-8	então	então	ADV	_	_	15	advmod	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
-14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	função	função	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
-16	contínua	contínuo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-17	dependente	dependente	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	_
+1-2	Neste	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5-6	consideram-se	_	_	_	_	_	_	_	_
+5	consideram	considerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	expl	_	_
+7	l	l	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	pontos	pontos	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+9	consistindo	consistir	VERB	_	VerbForm=Ger	32	advcl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	dados	dado	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	amostrados	amostrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	_
+13	e	e	CCONJ	_	_	16	cc	_	_
+14	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	16	nsubj	_	_
+15	nós	nós	PRON	_	Gender=Unsp|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	queremos	querer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	determinar	determinar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	separadamente	separadamente	ADV	_	_	17	advmod	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	6	punct	_	_
-22	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	27	nsubj	_	_
-23	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	fixed	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
-25	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	cop	_	_
-26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	função	função	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-28	representada	representar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	acl	_	_
-29-30	pela	_	_	_	_	_	_	_	_
-29	por	por	ADP	_	_	31	case	_	_
-30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	soma	soma	NOUN	_	Gender=Fem|Number=Sing	28	obl:agent	_	_
-32-33	das	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	34	case	_	_
-33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
-34	senóides	senóide	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
-35	de	de	ADP	_	_	38	case	_	_
-36	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	38	det	_	_
-37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
-38	frequências	frequência	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
-39-40	do	_	_	_	_	_	_	_	_
-39	de	de	ADP	_	_	41	case	_	_
-40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	espectro	espectro	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	27	punct	_	_
-
-# text = A transformada de Fourier é então uma representação da função no domínio da frequência (Brigham, 1988).
-# sent_id = 123-20140128-TESEMSC_0-7
-1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-6	então	então	ADV	_	_	8	advmod	_	_
-7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	representação	representação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	função	função	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	_	_	14	case	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	domínio	domínio	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	Brigham	Brigham	PROPN	_	Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	1988	1988	NUM	_	NumType=Card	19	appos:parataxis	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
-
-# text = Para os problemas os quais a transformada de Fourier contínua não seja eficaz, a transformada de Fourier discreta oferece um método seguro e eficiente de solução.
-# sent_id = 123-20140128-TESEMSC_0-8
-1	Para	para	ADP	_	_	3	case	_	_
-2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
-4	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	quais	qual	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	13	nsubj	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	contínua	contínuar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-11	não	não	ADV	_	Polarity=Neg	13	advmod	_	_
-12	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	eficaz	eficaz	ADJ	_	Gender=Fem|Number=Sing	3	acl:relcl	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	3	punct	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-19	discreta	discreta	PROPN	_	Number=Sing	18	flat:name	_	_
-20	oferece	oferecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	método	método	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
-23	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
-24	e	e	CCONJ	_	_	25	cc	_	_
-25	eficiente	eficiente	ADJ	_	Gender=Masc|Number=Sing	23	conj	_	_
-26	de	de	ADP	_	_	27	case	_	_
-27	solução	solução	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	20	punct	_	_
-
-# text = De um modo simplificado, obtemos a seguinte equação quando fazemos a integração numérica da transformada de Fourier contínua: computadores com processadores mais potentes, o tempo de processamento da transformada de Fourier discreta exige um uso de máquina muito alto para um elevado número de amostras (Birgham, 1988).
-# sent_id = 123-20140128-TESEMSC_0-9
-1	De	de	ADP	_	_	3	case	_	_
-2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	modo	modo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
-4	simplificado	simplificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	3	punct	_	_
-6	obtemos	obter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-9	equação	equação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-10	quando	quando	ADV	_	_	11	advmod	_	_
-11	fazemos	fazer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	integração	integração	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
-14	numérica	numérico	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	Fourier	Fourier	DET	_	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
-20	contínua	contínua	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-21	:	:	PUNCT	_	_	6	punct	_	_
-22	computadores	computador	NOUN	_	Gender=Masc|Number=Plur	6	appos	_	_
-23	com	com	ADP	_	_	24	case	_	_
-24	processadores	processador	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
-25	mais	mais	ADV	_	_	26	advmod	_	_
-26	potentes	potente	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	6	punct	_	_
-28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-32-33	da	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	34	case	_	_
+20	amplitude	amplitude	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	24	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	l	l	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+24	senóides	senóide	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	9	punct	_	_
+26	então	então	ADV	_	_	9	advmod	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+31	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+32	proporcional	proporcional	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	34	nmod	_	_
-37	discreta	discretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
-38	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
-39	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	uso	uso	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
-41	de	de	ADP	_	_	42	case	_	_
-42	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	_
-43	muito	muito	ADV	_	_	44	advmod	_	_
-44	alto	alto	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
-45	para	para	ADP	_	_	48	case	_	_
-46	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-47	elevado	elevado	ADJ	_	Gender=Masc|Number=Sing	48	amod	_	_
-48	número	número	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-49	de	de	ADP	_	_	50	case	_	_
-50	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	48	nmod	_	_
-51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	Birgham	Birgham	PROPN	_	Gender=Masc|Number=Sing	50	appos	_	SpaceAfter=No
-53	,	,	PUNCT	_	_	54	punct	_	_
-54	1988	1988	NUM	_	NumType=Card	52	appos:parataxis	_	SpaceAfter=No
-55	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+34	l	l	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+35	*	*	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	42	punct	_	_
+37	ou	ou	CCONJ	_	_	42	cc	_	_
+38	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	fixed	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	42	punct	_	_
+40-41	ao	_	_	_	_	_	_	_	_
+40	a	a	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	número	número	NOUN	_	Gender=Masc|Number=Sing	34	conj	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	multiplicações	multiplicação	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Mesmo com computadores com processadores mais potentes, o tempo de processamento da transformada de Fourier discreta exige um uso de máquina muito alto para um elevado número de amostras (Birgham, 1988).
+# sent_id = 123-20140128-TESEMSC_0-7
+1	Mesmo	mesmo	ADV	_	_	3	advmod	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	computadores	computador	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	processadores	processador	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	potentes	potente	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	transformada	transformada	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	discreta	discretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	exige	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	uso	uso	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	muito	muito	ADV	_	_	25	advmod	_	_
+25	alto	alto	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+26	para	para	ADP	_	_	29	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	elevado	elevado	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+29	número	número	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	Birgham	Birgham	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	1988	1988	NUM	_	NumType=Card	33	appos:parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Como conseqüência do desenvolvimento das técnicas para reduzir o tempo de processamento da transformada de Fourier discreta em 1965 Cooley e Tukey publicou o seu algoritmo matemático, o qual recebe o nome de transformada rápida de Fourier ou FFT, na sigla em inglês.
-# sent_id = 123-20140128-TESEMSC_0-10
+# sent_id = 123-20140128-TESEMSC_0-8
 1	Como	como	ADP	_	_	2	case	_	_
 2	conseqüência	conseqüência	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -381,7 +304,7 @@
 50	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = A FFT é um algoritmo computacional que reduz o tempo de processamento da transformada discreta de Fourier a um tempo proporcional a llog*l.
-# sent_id = 123-20140128-TESEMSC_0-11
+# sent_id = 123-20140128-TESEMSC_0-9
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	FFT	FFT	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -411,7 +334,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A FFT revolucionou o uso da transformada discreta de Fourier.
-# sent_id = 123-20140128-TESEMSC_0-12
+# sent_id = 123-20140128-TESEMSC_0-10
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	FFT	FFT	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	revolucionou	revolucionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -427,7 +350,7 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = É importante salientar, no entanto, que a habilidade de utilizar plenamente a FFT depende de um bom entendimento da teoria da transformada discreta de Fourier (Brigham, 1988).
-# sent_id = 123-20140128-TESEMSC_0-13
+# sent_id = 123-20140128-TESEMSC_0-11
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	importante	importante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	salientar	salientar	VERB	_	VerbForm=Inf	2	csubj	_	SpaceAfter=No
@@ -469,7 +392,7 @@
 36	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = As transformações no domínio de Fourier constituem uma classe de métodos que visam facilitar a interpretação geológica a partir da transformação de dados medidos em levantamentos geofísicos de campo em novas formas, mais fáceis e intuitivas de se trabalhar.
-# sent_id = 123-20140128-TESEMSC_0-14
+# sent_id = 123-20140128-TESEMSC_0-12
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	transformações	transformação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -517,7 +440,7 @@
 43	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Estas transformações, em geral, não definem diretamente a distribuição de fontes, mas oferecem um subterfúgio que ajuda a construir um entendimento mais geral a respeito da natureza das fontes geradoras de anomalias de campos potenciais (Gilbert e Galdeano, 1985).
-# sent_id = 123-20140128-TESEMSC_0-15
+# sent_id = 123-20140128-TESEMSC_0-13
 1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	transformações	transformação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -543,7 +466,7 @@
 23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	entendimento	entendimento	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	mais	mais	ADV	_	_	26	advmod	_	_
-26	geral	geral	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	geral	geral	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpacesAfter=\s\n
 27	a	a	ADP	_	_	28	case	_	_
 28	respeito	respeito	NOUN	_	_	26	obl	_	_
 29-30	da	_	_	_	_	_	_	_	_
@@ -570,7 +493,7 @@
 48	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Em outras palavras, temos que a interpretação de dados gravimétricos é mais fácil quando se dispõem de mapas transformados.
-# sent_id = 123-20140128-TESEMSC_0-16
+# sent_id = 123-20140128-TESEMSC_0-14
 1	Em	em	ADP	_	_	3	case	_	_
 2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
@@ -594,7 +517,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = O objetivo de tais mapas é mostrar mais claramente os detalhes que não aparecem no mapa inicial (original).
-# sent_id = 123-20140128-TESEMSC_0-17
+# sent_id = 123-20140128-TESEMSC_0-15
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -620,7 +543,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Por exemplo, a derivada vertical separa as anomalias individuais associadas a estruturas geológicas muito próximas entre si.
-# sent_id = 123-20140128-TESEMSC_0-18
+# sent_id = 123-20140128-TESEMSC_0-16
 1	Por	por	ADP	_	_	7	advmod	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -642,7 +565,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A continuação para cima, por sua vez, é um método que transforma anomalias medidas em uma dada superfície em anomalias tais quais seriam medidas em outro nível (altitude) da superfície em questão.
-# sent_id = 123-20140128-TESEMSC_0-19
+# sent_id = 123-20140128-TESEMSC_0-17
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	continuação	continuação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	para	para	ADP	_	_	4	case	_	_
@@ -684,7 +607,7 @@
 38	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O processo de continuação para cima tende a atenuar as anomalias causadas por fontes rasas em comparação às fontes localizadas em profundidades maiores (Gilbert e Galdeano, 1985).
-# sent_id = 123-20140128-TESEMSC_0-20
+# sent_id = 123-20140128-TESEMSC_0-18
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -720,13 +643,13 @@
 32	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 6.2 CAMPOS ESCALADOS
-# sent_id = 123-20140128-TESEMSC_0-21
+# sent_id = 123-20140128-TESEMSC_0-19
 1	6.2	6.2	NUM	_	NumType=Card	2	nummod	_	_
 2	CAMPOS	campo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	ESCALADOS	Escalar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
 
 # text = NUMÉRICOS E O EFEITO DE BORDA
-# sent_id = 123-20140128-TESEMSC_0-22
+# sent_id = 123-20140128-TESEMSC_0-20
 1	NUMÉRICOS	Numérico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	3	cc	_	_
 3	O	O	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -735,7 +658,7 @@
 6	BORDA	BORDA	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Na prática, trabalhamos com as técnicas da transformada de Fourier discreta, conforme foi abordado no tópico anterior.
-# sent_id = 123-20140128-TESEMSC_0-23
+# sent_id = 123-20140128-TESEMSC_0-21
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -764,7 +687,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Isso significa que não dispomos de dados contínuos, mas somente de amostras de dados.
-# sent_id = 123-20140128-TESEMSC_0-24
+# sent_id = 123-20140128-TESEMSC_0-22
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
@@ -783,7 +706,7 @@
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Em outras palavras, os dados são ditos discretos ou discretos.
-# sent_id = 123-20140128-TESEMSC_0-25
+# sent_id = 123-20140128-TESEMSC_0-23
 1	Em	em	ADP	_	_	3	case	_	_
 2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
@@ -798,7 +721,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Fontes situadas a profundidades muito grandes possuem uma amplitude muito 'fraca' para que possam ser adequadamente modeladas seguindo as técnicas disponíveis na transformada de Fourier discreta, razão pela qual se optou por trabalhar com a modelagem numérica de uma esfera homogênea a 2 km de profundidade, cujo raio vale 500 m e densidade 3000 [ PT> , com um intervalo de amostragem de 50 m nas direções dos eixos x e y e o eixo z, o qual representa as profundidades, com módulo crescente para baixo e com profundidades negativas para baixo.
-# sent_id = 123-20140128-TESEMSC_0-26
+# sent_id = 123-20140128-TESEMSC_0-24
 1	Fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 2	situadas	situar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 3	a	a	ADP	_	_	4	case	_	_
@@ -908,7 +831,7 @@
 103	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Uma situação que resulta no mesmo efeito obtido para fontes muito profundas é aquela na qual se efetua a continuação para cima a um nível muito distante daquele no qual o centro de massa da esfera está posicionado.
-# sent_id = 123-20140128-TESEMSC_0-27
+# sent_id = 123-20140128-TESEMSC_0-25
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	situação	situação	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 3	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	4	nsubj	_	_
@@ -960,7 +883,7 @@
 44	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, a esfera está posicionada de maneira simétrica em relação às bordas do mapa, ou seja, o seu centro de massa está equidistante dos vértices da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-28
+# sent_id = 123-20140128-TESEMSC_0-26
 1	Inicialmente	inicialmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1004,7 +927,7 @@
 37	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = A fim de se poder avaliar o efeito de borda, que ocorre principalmente quando as anomalias de interesse não estão simétricas em relação às bordas das malhas, deslocou-se a esfera de 2 km e 4 km em relação ao centro da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-29
+# sent_id = 123-20140128-TESEMSC_0-27
 1	A	a	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
 3	de	de	SCONJ	_	_	5	mark	_	_
@@ -1064,7 +987,7 @@
 52	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = É verificado que, nessas situações, a determinação correta da profundidade da esfera é prejudicada caso não se aplique uma expansão adequada da malha de dados e não se extrapole a área expandida com os dados prévios com um algoritmo adequado.
-# sent_id = 123-20140128-TESEMSC_0-30
+# sent_id = 123-20140128-TESEMSC_0-28
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	verificado	verificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
@@ -1118,7 +1041,7 @@
 47	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Foram elaborados, no software
-# sent_id = 123-20140128-TESEMSC_0-31
+# sent_id = 123-20140128-TESEMSC_0-29
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	elaborados	elaborar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1128,7 +1051,7 @@
 6	software	software	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 
 # text = Oasis montaj, perfis das anomalias geradas pela esfera homogênea no caso em que o campo escalado foi calculado analiticamente para vários níveis e na situação na qual o campo escalado foi calculado numericamente em vários níveis, usando para tal a operação da continuação para cima no domínio da transformada de Fourier, na extensão MAGMAP do software
-# sent_id = 123-20140128-TESEMSC_0-32
+# sent_id = 123-20140128-TESEMSC_0-30
 1	Oasis	Oasl	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	montaj	montaj	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -1210,13 +1133,13 @@
 69	software	software	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	_
 
 # text = Oasis montaj.
-# sent_id = 123-20140128-TESEMSC_0-33
+# sent_id = 123-20140128-TESEMSC_0-31
 1	Oasis	Oasl	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	montaj	montaj	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = No caso da continuação para cima numérica, calculada no MAGMAP, o campo de gravidade original foi continuado numericamente para cada nível a partir do nível de 0 km do campo de gravidade original e então, a partir do campo de gravidade continuado numericamente, foi calculado o campo escalado para cada nível de continuação.
-# sent_id = 123-20140128-TESEMSC_0-34
+# sent_id = 123-20140128-TESEMSC_0-32
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1238,7 +1161,7 @@
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	campo	campo	NOUN	_	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
 18	de	de	ADP	_	_	19	case	_	_
-19	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+19	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpacesAfter=\s\n
 20	original	original	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
 22	continuado	continuar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	55	advcl	_	_
@@ -1289,7 +1212,7 @@
 64	.	.	PUNCT	_	_	55	punct	_	_
 
 # text = O termo "campo escalado numérico" é aplicado quando se usam as técnicas da transformada de Fourier para calculá-lo.
-# sent_id = 123-20140128-TESEMSC_0-35
+# sent_id = 123-20140128-TESEMSC_0-33
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	termo	termo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -1317,7 +1240,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = O termo "derivadas verticais numéricas" tem sentido análogo ao termo "campo escalado numérico".
-# sent_id = 123-20140128-TESEMSC_0-36
+# sent_id = 123-20140128-TESEMSC_0-34
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	termo	termo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -1340,7 +1263,7 @@
 19	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = As figuras de 13 até 16 a seguir ilustram os perfis gerados para os campos escalados calculados analiticamente e numericamente, para o caso de uma esfera homogênea simétrica em relação às bordas da malha de dados:
-# sent_id = 123-20140128-TESEMSC_0-37
+# sent_id = 123-20140128-TESEMSC_0-35
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1385,7 +1308,7 @@
 40	:	:	PUNCT	_	_	9	punct	_	_
 
 # text = Figura 13: Perfil do campo escalado calculado analiticamente gerado por uma esfera homogênea situada na coordenadas cartesianas (0, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-38
+# sent_id = 123-20140128-TESEMSC_0-36
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -1418,7 +1341,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 14: Perfil do campo escalado calculado no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-39
+# sent_id = 123-20140128-TESEMSC_0-37
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -1444,7 +1367,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-40
+# sent_id = 123-20140128-TESEMSC_0-38
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -1464,10 +1387,10 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	-2000	-2000	NUM	_	NumType=Card	15	conj	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 15: Perfil do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e algoritmo de expansão do inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-41
+# sent_id = 123-20140128-TESEMSC_0-39
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	15	15	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -1512,7 +1435,7 @@
 36	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-42
+# sent_id = 123-20140128-TESEMSC_0-40
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -1535,7 +1458,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 16: Perfil do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e algoritmo de expansão da entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-43
+# sent_id = 123-20140128-TESEMSC_0-41
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -1575,7 +1498,7 @@
 33	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera situada nas coordenadas cartesianas (0, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-44
+# sent_id = 123-20140128-TESEMSC_0-42
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -1595,7 +1518,7 @@
 16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = No caso dos campos escalados obtidos numericamente, foram testadas três situações: i) campo escalado calculado sem expansão; ii) campo escalado obtido usando expansão de 100 % e o algoritmo de expansão do inverso do quadrado da distância e iii) campo escalado determinado com expansão de 100 % e algoritmo de extrapolação da máxima entropia de predição.
-# sent_id = 123-20140128-TESEMSC_0-45
+# sent_id = 123-20140128-TESEMSC_0-43
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1673,7 +1596,7 @@
 69	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Em todos os casos, o campo de gravidade foi continuado numericamente para os níveis de 2 km, 4 km, 6 km e 8 km e então o campo escalado foi obtido para cada nível de continuação.
-# sent_id = 123-20140128-TESEMSC_0-46
+# sent_id = 123-20140128-TESEMSC_0-44
 1	Em	em	ADP	_	_	4	case	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	fixed	_	_
@@ -1716,7 +1639,7 @@
 40	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Observou-se que o campo escalado calculado analiticamente possui uma amplitude máxima para o nível de 2 km (curva vermelha), que é o nível de continuação que corresponde à profundidade do centro de massa da esfera.
-# sent_id = 123-20140128-TESEMSC_0-47
+# sent_id = 123-20140128-TESEMSC_0-45
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -1766,7 +1689,7 @@
 43	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Portanto, no caso do cálculo analítico do campo escalado, a profundidade do centro de massa da esfera foi calculada corretamente.
-# sent_id = 123-20140128-TESEMSC_0-48
+# sent_id = 123-20140128-TESEMSC_0-46
 1	Portanto	portanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -1802,7 +1725,7 @@
 28	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
 
 # text = No caso do campo escalado calculado numericamente, a profundidade do centro de massa da esfera não foi corretamente determinada no caso em que não se aplicou expansão da malha de dados nem algoritmo de extrapolação de dados.
-# sent_id = 123-20140128-TESEMSC_0-49
+# sent_id = 123-20140128-TESEMSC_0-47
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1856,7 +1779,7 @@
 45	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Nesse caso, o valor máximo do campo escalado foi atribuído erroneamente ao nível de continuação de 8 km (curva verde), nível que é o mais distante daquele que corresponde à profundidade real da fonte, que é de 2 km (curva vermelha).
-# sent_id = 123-20140128-TESEMSC_0-50
+# sent_id = 123-20140128-TESEMSC_0-48
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -1901,7 +1824,7 @@
 38-39	à	_	_	_	_	_	_	_	_
 38	a	a	ADP	_	_	40	case	_	_
 39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+40	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	SpacesAfter=\s\n
 41	real	real	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
 42-43	da	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	44	case	_	_
@@ -1919,66 +1842,65 @@
 54	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	28	punct	_	_
 
-# text = Portanto, a falta de um pré- processamento adequado da malha de dados, com as etapas de expansão, preenchimento e extrapolação, resultou na determinação de uma profundidade de 8 km quando, na verdade a profundidade real da esfera é de 2 km.
-# sent_id = 123-20140128-TESEMSC_0-51
-1	Portanto	portanto	ADV	_	_	4	advmod	_	SpaceAfter=No
+# text = Portanto, a falta de um pré-processamento adequado da malha de dados, com as etapas de expansão, preenchimento e extrapolação, resultou na determinação de uma profundidade de 8 km quando, na verdade a profundidade real da esfera é de 2 km.
+# sent_id = 123-20140128-TESEMSC_0-49
+1	Portanto	portanto	ADV	_	_	25	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	falta	falta	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
-5	de	de	ADP	_	_	8	case	_	_
-6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	pré-	pré-	PUNCT	_	_	8	punct	_	_
-8	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-9	adequado	adequado	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
-10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	malha	malha	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	dados	dado	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	8	punct	_	_
-16	com	com	ADP	_	_	18	case	_	_
-17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	preenchimento	preenchimento	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
-23	e	e	CCONJ	_	_	24	cc	_	_
-24	extrapolação	extrapolação	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	4	punct	_	_
-26	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-27-28	na	_	_	_	_	_	_	_	_
-27	em	em	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-33	de	de	ADP	_	_	35	case	_	_
-34	8	8	NUM	_	NumType=Card	35	nummod	_	_
-35	km	km	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
-36	quando	quando	ADV	_	_	26	advmod	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	26	punct	_	_
-38-39	na	_	_	_	_	_	_	_	_
-38	em	em	ADP	_	_	40	case	_	_
-39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
-41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	50	nsubj	_	_
-43	real	real	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	_
-44-45	da	_	_	_	_	_	_	_	_
-44	de	de	ADP	_	_	46	case	_	_
-45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	esfera	esfera	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
-47	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
-48	de	de	ADP	_	_	50	case	_	_
-49	2	2	NUM	_	NumType=Card	50	nummod	_	_
-50	km	km	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	26	punct	_	_
+4	falta	falta	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pré-processamento	pré-processamento	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	adequado	adequado	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malha	malha	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	dados	dado	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	preenchimento	preenchimento	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	extrapolação	extrapolação	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	4	punct	_	_
+25	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	8	8	NUM	_	NumType=Card	34	nummod	_	_
+34	km	km	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+35	quando	quando	ADV	_	_	25	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	39	punct	_	_
+37-38	na	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	49	nsubj	_	_
+42	real	real	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
+43-44	da	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	esfera	esfera	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
+46	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	2	2	NUM	_	NumType=Card	49	nummod	_	_
+49	km	km	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Daí decorre a importância de efetuar corretamente tais etapas.
-# sent_id = 123-20140128-TESEMSC_0-52
+# sent_id = 123-20140128-TESEMSC_0-50
 1-2	Daí	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	2	case	_	_
 2	aí	aí	ADV	_	_	3	advmod	_	_
@@ -1993,7 +1915,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = No caso do cálculo do campo escalado numérico em que foi aplicada uma expansão de 100 %, foram usados dois métodos de extrapolação: o inverso do quadrado da distância e a máxima entropia de predição.
-# sent_id = 123-20140128-TESEMSC_0-53
+# sent_id = 123-20140128-TESEMSC_0-51
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2044,7 +1966,7 @@
 43	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Ambos os métodos indicaram um valor máximo do campo escalado numérico para o nível de continuação de 2 km, correspondente à profundidade real da esfera.
-# sent_id = 123-20140128-TESEMSC_0-54
+# sent_id = 123-20140128-TESEMSC_0-52
 1	Ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	métodos	método	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -2080,7 +2002,7 @@
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Portanto, quando se aplica adequadamente uma expansão na malha de dados e se utiliza de um bom algoritmo de extrapolação, a profundidade é determinada corretamente.
-# sent_id = 123-20140128-TESEMSC_0-55
+# sent_id = 123-20140128-TESEMSC_0-53
 1	Portanto	portanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quando	quando	ADV	_	_	5	advmod	_	_
@@ -2113,7 +2035,7 @@
 29	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Neste caso, no qual a anomalia é simétrica em relação às bordas do mapa, os métodos de extrapolação não possuem uma diferença significativa de precisão e resolução.
-# sent_id = 123-20140128-TESEMSC_0-56
+# sent_id = 123-20140128-TESEMSC_0-54
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -2154,7 +2076,7 @@
 34	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Entretanto, será demonstrado adiante que, para casos nos quais a anomalia está deslocada substancialmente do centro do mapa, a entropia máxima de predição revela-se um método de extrapolação mais eficaz, principalmente no que concerne a níveis de continuação muito distantes do nível de continuação que representa a profundidade real da esfera.
-# sent_id = 123-20140128-TESEMSC_0-57
+# sent_id = 123-20140128-TESEMSC_0-55
 1	Entretanto	entretanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
@@ -2227,7 +2149,7 @@
 63	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Com o intuito de obter uma representação mais detalhada do campo escalado numérico para a anomalia simétrica em relação às bordas, efetuou-se uma continuação numérica para níveis mais próximos do nível de continuação que corresponde ao valor máximo absoluto do campo escalado e, portanto, à profundidade real da esfera.
-# sent_id = 123-20140128-TESEMSC_0-58
+# sent_id = 123-20140128-TESEMSC_0-56
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
@@ -2299,7 +2221,7 @@
 61	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Tais níveis são, a saber: 1000 m, 1500 m, 2000 m, 2500 m e 3000 m.
-# sent_id = 123-20140128-TESEMSC_0-59
+# sent_id = 123-20140128-TESEMSC_0-57
 1	Tais	tal	DET	_	Gender=Fem|PronType=Dem	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
@@ -2324,7 +2246,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As figuras correspondentes (figuras 17 até 23) estão expostas a seguir e os resultados qualitativos são similares aos que foram descritos no parágrafo anterior: o cálculo analítico oferece a profundidade corretamente, enquanto que o cálculo do campo escalado numérico sem expansão sempre atribui o valor máximo do campo escalado ao nível de continuação maior, que no caso é o mais distante do nível referente à profundidade real da esfera, O resultado é, novamente, um valor incorreto de profundidade.
-# sent_id = 123-20140128-TESEMSC_0-60
+# sent_id = 123-20140128-TESEMSC_0-58
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	correspondentes	correspondente	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -2432,7 +2354,7 @@
 96	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Quanto à expansão de 100 % para o cálculo numérico do campo escalado e o uso dos algoritmos de extrapolação do inverso do quadrado da distância e da máxima entropia de predição, o panorama não se altera, ou seja, a profundidade da esfera é corretamente determinada, com o máximo absoluto do campo escalado correspondendo ao nível de continuação de 2 km.
-# sent_id = 123-20140128-TESEMSC_0-61
+# sent_id = 123-20140128-TESEMSC_0-59
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -2518,10 +2440,10 @@
 73	de	de	ADP	_	_	75	case	_	_
 74	2	2	NUM	_	NumType=Card	75	nummod	_	_
 75	km	km	NOUN	_	Gender=Masc|Number=Plur	70	nmod	_	SpaceAfter=No
-76	.	.	PUNCT	_	_	45	punct	_	SpacesAfter=\n
+76	.	.	PUNCT	_	_	45	punct	_	SpacesAfter=\n\n
 
 # text = Figura 17: Perfil do campo potencial gravitacional escalado calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-62
+# sent_id = 123-20140128-TESEMSC_0-60
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2538,7 +2460,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-63
+# sent_id = 123-20140128-TESEMSC_0-61
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -2559,7 +2481,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões quadradas de 20 km comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-64
+# sent_id = 123-20140128-TESEMSC_0-62
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2579,7 +2501,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-65
+# sent_id = 123-20140128-TESEMSC_0-63
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2606,7 +2528,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 18: Perfil do campo potencial gravitacional calculado analiticamente com zoom para uma melhor visualização.
-# sent_id = 123-20140128-TESEMSC_0-66
+# sent_id = 123-20140128-TESEMSC_0-64
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2628,7 +2550,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-67
+# sent_id = 123-20140128-TESEMSC_0-65
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -2649,7 +2571,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A malha de dados possui dimensões quadradas de 20 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-68
+# sent_id = 123-20140128-TESEMSC_0-66
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2670,7 +2592,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-69
+# sent_id = 123-20140128-TESEMSC_0-67
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2697,13 +2619,13 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 19:
-# sent_id = 123-20140128-TESEMSC_0-70
+# sent_id = 123-20140128-TESEMSC_0-68
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	19	19	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-71
+# sent_id = 123-20140128-TESEMSC_0-69
 1	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2727,7 +2649,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-72
+# sent_id = 123-20140128-TESEMSC_0-70
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -2748,7 +2670,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões quadradas de 20 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-73
+# sent_id = 123-20140128-TESEMSC_0-71
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2769,7 +2691,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-74
+# sent_id = 123-20140128-TESEMSC_0-72
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2793,10 +2715,10 @@
 21	e	e	CCONJ	_	_	23	cc	_	_
 22	3	3	NUM	_	NumType=Card	23	nummod	_	_
 23	km	km	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Figura 20: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e algoritmo de extrapolação do inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-75
+# sent_id = 123-20140128-TESEMSC_0-73
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	20	20	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2842,7 +2764,7 @@
 37	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-76
+# sent_id = 123-20140128-TESEMSC_0-74
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -2863,7 +2785,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões quadradas de 20 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-77
+# sent_id = 123-20140128-TESEMSC_0-75
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2884,7 +2806,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-78
+# sent_id = 123-20140128-TESEMSC_0-76
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2911,7 +2833,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 21: Perfil do campo potencial gravitacional (com zoom, para melhor visualização) calculado no domínio da transformada de Fourier com expansão de 100 % e algoritmo de extrapolação do inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-79
+# sent_id = 123-20140128-TESEMSC_0-77
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	21	21	NUM	_	NumType=Card	1	nsubj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -2965,7 +2887,7 @@
 45	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-80
+# sent_id = 123-20140128-TESEMSC_0-78
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -2984,7 +2906,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões quadradas de 20 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-81
+# sent_id = 123-20140128-TESEMSC_0-79
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3005,7 +2927,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-82
+# sent_id = 123-20140128-TESEMSC_0-80
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3029,10 +2951,10 @@
 21	e	e	CCONJ	_	_	23	cc	_	_
 22	3	3	NUM	_	NumType=Card	23	nummod	_	_
 23	km	km	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Figura 22: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e algoritmo de extrapolação da entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-83
+# sent_id = 123-20140128-TESEMSC_0-81
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	22	22	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -3073,7 +2995,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-84
+# sent_id = 123-20140128-TESEMSC_0-82
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -3096,7 +3018,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões quadradas de 20 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-85
+# sent_id = 123-20140128-TESEMSC_0-83
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3117,7 +3039,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-86
+# sent_id = 123-20140128-TESEMSC_0-84
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3144,7 +3066,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 23: Perfil do campo potencial gravitacional (com zoom, para melhor visualização) calculado no domínio da transformada de Fourier com expansão de 100 % e algoritmo de extrapolação da entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-87
+# sent_id = 123-20140128-TESEMSC_0-85
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	23:	23:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -3192,7 +3114,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (0, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-88
+# sent_id = 123-20140128-TESEMSC_0-86
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -3215,7 +3137,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões quadradas de 20 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-89
+# sent_id = 123-20140128-TESEMSC_0-87
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3236,7 +3158,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-90
+# sent_id = 123-20140128-TESEMSC_0-88
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3263,7 +3185,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = A seguir, a esfera foi deslocada de 2 km em relação ao centro da anomalia, não estando, portanto, mais simétrica em relação às bordas do mapa.
-# sent_id = 123-20140128-TESEMSC_0-91
+# sent_id = 123-20140128-TESEMSC_0-89
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3305,7 +3227,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Nesse caso, o cálculo analítico do campo escalado continua a determinar corretamente a profundidade da esfera, uma vez que o máximo absoluto do campo escalado foi obtido na curva referente ao nível de continuação de 2 km, que é a profundidade da esfera (Figura 24).
-# sent_id = 123-20140128-TESEMSC_0-92
+# sent_id = 123-20140128-TESEMSC_0-90
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -3373,7 +3295,7 @@
 58	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Quanto ao cálculo numérico do campo escalado, o cálculo sem expansão resulta no mesmo problema de se obter o valor máximo do campo escalado numérico para o nível de continuação mais distante do nível de continuação correspondente à profundidade da esfera, resultando numa estimativa errônea da mesma (Figura 25).
-# sent_id = 123-20140128-TESEMSC_0-93
+# sent_id = 123-20140128-TESEMSC_0-91
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -3445,10 +3367,10 @@
 60	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	58	appos	_	_
 61	25	25	PROPN	_	Number=Sing	60	flat:name	_	SpaceAfter=No
 62	)	)	PUNCT	_	_	60	punct	_	SpaceAfter=No
-63	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+63	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = Quando se aplica um percentual de expansão de 110 % e os algoritmos de extrapolação, a profundidade é determinada corretamente.
-# sent_id = 123-20140128-TESEMSC_0-94
+# sent_id = 123-20140128-TESEMSC_0-92
 1	Quando	quando	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
@@ -3473,7 +3395,7 @@
 22	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Novamente, o método da entropia máxima de predição revelou-se mais preciso do que o inverso do quadrado da distância, principalmente no que diz respeito à continuidade lateral das curvas representativas das anomalias para os diversos níveis de continuação.
-# sent_id = 123-20140128-TESEMSC_0-95
+# sent_id = 123-20140128-TESEMSC_0-93
 1	Novamente	novamente	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3535,7 +3457,7 @@
 50	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Tal fato é evidenciado nas figuras 26 e 27.
-# sent_id = 123-20140128-TESEMSC_0-96
+# sent_id = 123-20140128-TESEMSC_0-94
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -3550,7 +3472,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 24: Perfil do campo potencial gravitacional calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-97
+# sent_id = 123-20140128-TESEMSC_0-95
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	24	24	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -3566,7 +3488,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-98
+# sent_id = 123-20140128-TESEMSC_0-96
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -3587,7 +3509,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 25: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-99
+# sent_id = 123-20140128-TESEMSC_0-97
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	25	25	NUM	_	NumType=Card	1	obl	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -3614,7 +3536,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-100
+# sent_id = 123-20140128-TESEMSC_0-98
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -3635,7 +3557,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 26: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-101
+# sent_id = 123-20140128-TESEMSC_0-99
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	26	26	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -3679,7 +3601,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-102
+# sent_id = 123-20140128-TESEMSC_0-100
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -3697,10 +3619,10 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	0,-2000	0,-2000	NUM	_	NumType=Card	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 27: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-103
+# sent_id = 123-20140128-TESEMSC_0-101
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	27	27	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -3739,7 +3661,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-104
+# sent_id = 123-20140128-TESEMSC_0-102
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -3760,7 +3682,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Uma das vantagens da operação da continuação para cima é a possibilidade de economizar os custos de levantamentos aéreos, uma vez que é possível calcular o valor do campo de gravidade e dos campos escalados para várias altitudes de medição, dispensando o uso de uma aeronave equipada de um gravímetro para realizar tal procedimento.
-# sent_id = 123-20140128-TESEMSC_0-105
+# sent_id = 123-20140128-TESEMSC_0-103
 1	Uma	um	NUM	_	NumType=Card	15	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3830,7 +3752,7 @@
 62	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Contudo, quando a anomalia de interesse é assimétrica em relação às bordas da área do levantamento, o efeito de borda se torna mais proeminente e a continuidade lateral da anomalia tem a sua resolução prejudicada, com tal efeito se acentuando para corpos mais profundos, ou seja, associados a comprimentos de onda maiores no espectro da transformada de Fourier.
-# sent_id = 123-20140128-TESEMSC_0-106
+# sent_id = 123-20140128-TESEMSC_0-104
 1	Contudo	contudo	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quando	quando	ADV	_	_	9	advmod	_	_
@@ -3909,7 +3831,7 @@
 70	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Nem sempre o fluxo de processamento consistindo da expansão da malha de dados e da aplicação de um algoritmo de extrapolação é suficiente para contornar tais problemas.
-# sent_id = 123-20140128-TESEMSC_0-107
+# sent_id = 123-20140128-TESEMSC_0-105
 1	Nem	nem	ADV	_	_	4	advmod	_	_
 2	sempre	sempre	ADV	_	_	4	advmod	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3946,7 +3868,7 @@
 31	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = Então, testou-se a expansão das dimensões da malha de dados no próprio algoritmo elaborado no MATLAB.
-# sent_id = 123-20140128-TESEMSC_0-108
+# sent_id = 123-20140128-TESEMSC_0-106
 1	Então	então	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	testou-se	_	_	_	_	_	_	_	_
@@ -3977,7 +3899,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Como a esfera foi deslocada de 2 km em relação ao centro da malha de dados, a malha original, que tinha dimensões quadradas de 20000 m x 20000 m foi convertida em uma malha de dimensões retangulares de 24000 m x 20000 m, a fim de 'forçar' com que a anomalia ficasse novamente centrada, ou seja, simétrica em relação às bordas da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-109
+# sent_id = 123-20140128-TESEMSC_0-107
 1	Como	como	SCONJ	_	_	5	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	esfera	esfera	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -4061,7 +3983,7 @@
 77	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
 
 # text = Esse 'truque' pode ser útil quando já se tem uma noção prévia da posição da anomalia na área de levantamento, mas ainda não se sabe a sua profundidade exata.
-# sent_id = 123-20140128-TESEMSC_0-110
+# sent_id = 123-20140128-TESEMSC_0-108
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	truque	truque	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
@@ -4103,7 +4025,7 @@
 36	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Adicionalmente, o campo escalado numérico foi calculado para níveis de continuação mais próximos do nível de continuação correspondente à profundidade da esfera.
-# sent_id = 123-20140128-TESEMSC_0-111
+# sent_id = 123-20140128-TESEMSC_0-109
 1	Adicionalmente	Adicionalmente	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4136,7 +4058,7 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Tais níveis aplicados foram, a saber: 1000 m, 1500 m, 2000 m, 2500 m e 3000 m.
-# sent_id = 123-20140128-TESEMSC_0-112
+# sent_id = 123-20140128-TESEMSC_0-110
 1	Tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	aplicados	aplicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4162,7 +4084,7 @@
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = A expansão adotada para a utilização posterior dos algoritmos de extrapolação (inverso do quadrado da distância e entropia máxima de predição) foi de 100 %.
-# sent_id = 123-20140128-TESEMSC_0-113
+# sent_id = 123-20140128-TESEMSC_0-111
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
 3	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4199,7 +4121,7 @@
 31	.	.	PUNCT	_	_	30	punct	_	_
 
 # text = A conjugação das duas operações acima descritas minimizou o efeito da continuidade lateral da anomalia (Figura 28).
-# sent_id = 123-20140128-TESEMSC_0-114
+# sent_id = 123-20140128-TESEMSC_0-112
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	conjugação	conjugação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -4228,7 +4150,7 @@
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Porém, quando não se aplica nenhuma expansão, a profundidade continua a ser determinada de maneira errônea, pois o máximo absoluto do campo escalado numérico, nessas circunstâncias, continua a ser referente ao nível de continuação mais distante daquele que corresponde à profundidade da esfera (Figura 29).
-# sent_id = 123-20140128-TESEMSC_0-115
+# sent_id = 123-20140128-TESEMSC_0-113
 1	Porém	porém	ADV	_	_	15	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quando	quando	SCONJ	_	_	6	mark	_	_
@@ -4296,7 +4218,7 @@
 59	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Quando se aplica a expansão de 100 % e usando os algoritmos de extrapolação do inverso do quadrado da distância e da máxima entropia de predição, o valor da profundidade é calculado corretamente, com ambos os métodos de extrapolação apresentando uma resolução similar quanto à extensão lateral da anomalia (Figuras 30 e 31).
-# sent_id = 123-20140128-TESEMSC_0-116
+# sent_id = 123-20140128-TESEMSC_0-114
 1	Quando	quando	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	_
@@ -4342,7 +4264,7 @@
 38	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 39	corretamente	corretamente	ADV	_	_	38	advmod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	38	punct	_	_
-41	com	com	ADP	_	_	44	case	_	_
+41	com	com	ADP	_	_	44	case	_	SpacesAfter=\s\n
 42	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	44	det	_	_
 43	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 44	métodos	método	NOUN	_	Gender=Masc|Number=Plur	38	obl	_	_
@@ -4371,7 +4293,7 @@
 65	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\n
 
 # text = Figura 28: Perfil do campo potencial gravitacional calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-117
+# sent_id = 123-20140128-TESEMSC_0-115
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	28	28	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4387,7 +4309,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-118
+# sent_id = 123-20140128-TESEMSC_0-116
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -4408,7 +4330,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 24 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-119
+# sent_id = 123-20140128-TESEMSC_0-117
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4429,7 +4351,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-120
+# sent_id = 123-20140128-TESEMSC_0-118
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4456,7 +4378,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 29: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-121
+# sent_id = 123-20140128-TESEMSC_0-119
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	29	29	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4483,7 +4405,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-122
+# sent_id = 123-20140128-TESEMSC_0-120
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -4504,7 +4426,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A malha de dados possui dimensões retangulares de 24 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-123
+# sent_id = 123-20140128-TESEMSC_0-121
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4525,7 +4447,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-124
+# sent_id = 123-20140128-TESEMSC_0-122
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4549,10 +4471,10 @@
 21	e	e	CCONJ	_	_	23	cc	_	_
 22	3	3	NUM	_	NumType=Card	23	nummod	_	_
 23	km	km	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Figura 30: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-125
+# sent_id = 123-20140128-TESEMSC_0-123
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	30	30	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -4596,7 +4518,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-126
+# sent_id = 123-20140128-TESEMSC_0-124
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -4617,7 +4539,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 24 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-127
+# sent_id = 123-20140128-TESEMSC_0-125
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4638,7 +4560,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-128
+# sent_id = 123-20140128-TESEMSC_0-126
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4665,7 +4587,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 31: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-129
+# sent_id = 123-20140128-TESEMSC_0-127
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	31:	31:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -4703,7 +4625,7 @@
 31	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (2000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-130
+# sent_id = 123-20140128-TESEMSC_0-128
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -4726,7 +4648,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 24 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-131
+# sent_id = 123-20140128-TESEMSC_0-129
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4747,7 +4669,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-132
+# sent_id = 123-20140128-TESEMSC_0-130
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4774,7 +4696,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Quando se desloca a anomalia de 4 km em relação ao centro da malha de dados (Figuras 32, 33, 34 e 35), observa-se que o método de extrapolação da máxima entropia de predição obteve uma grande vantagem em comparação com o inverso do quadrado da distância (Figuras 34 e 35), principalmente no que diz respeito à extensão lateral da anomalia.
-# sent_id = 123-20140128-TESEMSC_0-133
+# sent_id = 123-20140128-TESEMSC_0-131
 1	Quando	quando	SCONJ	_	_	3	mark	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	nsubj	_	_
 3	desloca	deslocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
@@ -4864,7 +4786,7 @@
 78	.	.	PUNCT	_	_	30	punct	_	_
 
 # text = A questão da extensão lateral da anomalia tem uma importância muito grande quando a anomalia é muito deslocada em relação ao centro da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-134
+# sent_id = 123-20140128-TESEMSC_0-132
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	questão	questão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4902,7 +4824,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = No caso do inverso do quadrado da distância (Figura 34), a má resolução da extensão lateral da anomalia faz com que as curvas do campo escalado referentes aos níveis de continuação mais distantes do nível correspondente à profundidade da esfera apresentem valores do campo escalado maiores, no lado no qual a anomalia foi deslocada, do que o máximo absoluto referente à curva do campo escalado numérico para o nível de 2 km, caracterizando o efeito de borda mesmo com a aplicação das etapas de expansão e extrapolação na malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-135
+# sent_id = 123-20140128-TESEMSC_0-133
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4932,7 +4854,7 @@
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	extensão	extensão	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 24	lateral	lateral	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-25-26	da	_	_	_	_	_	_	_	_
+25-26	da	_	_	_	_	_	_	_	SpacesAfter=\s\n
 25	de	de	ADP	_	_	27	case	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	anomalia	anomalia	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
@@ -5041,7 +4963,7 @@
 117	.	.	PUNCT	_	_	28	punct	_	_
 
 # text = Para o método de extrapolação da entropia máxima de predição (Figura 35), este problema não ocorreu, embora a resolução lateral estivesse um pouco prejudicada.
-# sent_id = 123-20140128-TESEMSC_0-136
+# sent_id = 123-20140128-TESEMSC_0-134
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	método	método	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
@@ -5075,7 +4997,7 @@
 30	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Nesta situação da anomalia deslocada de 4 km em relação ao centro da malha de dados, o percentual de expansão aplicado foi de 120%.
-# sent_id = 123-20140128-TESEMSC_0-137
+# sent_id = 123-20140128-TESEMSC_0-135
 1-2	Nesta	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -5113,7 +5035,7 @@
 31	.	.	PUNCT	_	_	30	punct	_	_
 
 # text = O campo escalado numérico calculado sem expansão novamente não produziu um cálculo fidedigno da profundidade da esfera, resultando na mesma situação descrita nos casos anteriores (Figura 33).
-# sent_id = 123-20140128-TESEMSC_0-138
+# sent_id = 123-20140128-TESEMSC_0-136
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	campo	campo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	escalado	escalado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
@@ -5155,7 +5077,7 @@
 35	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Figura 32: Perfil do campo potencial gravitacional calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-139
+# sent_id = 123-20140128-TESEMSC_0-137
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	32:	32:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -5170,7 +5092,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-140
+# sent_id = 123-20140128-TESEMSC_0-138
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5193,7 +5115,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 33: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-141
+# sent_id = 123-20140128-TESEMSC_0-139
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	33:	33:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -5219,7 +5141,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, - 2000).
-# sent_id = 123-20140128-TESEMSC_0-142
+# sent_id = 123-20140128-TESEMSC_0-140
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5240,10 +5162,10 @@
 17	-	-	SYM	_	_	13	conj	_	_
 18	2000	2000	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 34: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-143
+# sent_id = 123-20140128-TESEMSC_0-141
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	34	34	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5287,7 +5209,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-144
+# sent_id = 123-20140128-TESEMSC_0-142
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5308,7 +5230,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 35: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-145
+# sent_id = 123-20140128-TESEMSC_0-143
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	35	35	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5347,7 +5269,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-146
+# sent_id = 123-20140128-TESEMSC_0-144
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5368,7 +5290,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os mesmos procedimentos de calcular numericamente os campos escalados para níveis mais próximos daquele correspondente à profundidade da esfera e de ampliar a malha de dados foi aplicado para o caso da anomalia deslocada de 4 km em relação ao centro da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-147
+# sent_id = 123-20140128-TESEMSC_0-145
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	mesmos	mesmo	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	procedimentos	procedimento	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -5429,7 +5351,7 @@
 52	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Neste caso, os novos níveis foram de 1000 m, 1500 m, 2000 m, 2500 m e 3000 m, e a malha de dados, que era quadrada de dimensões 20000 m x 20000 m, tornou-se retangular com dimensões de 28000 m x 20000 m, sendo aplicada uma expansão de 100 % para o uso dos algoritmos de extrapolação (inverso do quadrado da distância e entropia máxima de predição).
-# sent_id = 123-20140128-TESEMSC_0-148
+# sent_id = 123-20140128-TESEMSC_0-146
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -5520,7 +5442,7 @@
 83	.	.	PUNCT	_	_	42	punct	_	_
 
 # text = As figuras 36 até 41 seguintes explicitam tais procedimentos:
-# sent_id = 123-20140128-TESEMSC_0-149
+# sent_id = 123-20140128-TESEMSC_0-147
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	36	36	NUM	_	NumType=Card	2	nummod	_	_
@@ -5530,10 +5452,10 @@
 7	explicitam	explicitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
 9	procedimentos	procedimento	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	7	punct	_	_
+10	:	:	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
 
 # text = Figura 36: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-150
+# sent_id = 123-20140128-TESEMSC_0-148
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	36	36	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -5560,7 +5482,7 @@
 21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, - 2000).
-# sent_id = 123-20140128-TESEMSC_0-151
+# sent_id = 123-20140128-TESEMSC_0-149
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5584,7 +5506,7 @@
 20	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 28 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-152
+# sent_id = 123-20140128-TESEMSC_0-150
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5605,7 +5527,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-153
+# sent_id = 123-20140128-TESEMSC_0-151
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5632,13 +5554,13 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 37:
-# sent_id = 123-20140128-TESEMSC_0-154
+# sent_id = 123-20140128-TESEMSC_0-152
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	37	37	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Perfil do campo potencial gravitacional calculado (com zoom, para uma melhor visualização) no domínio da transformada de Fourier sem expansão.
-# sent_id = 123-20140128-TESEMSC_0-155
+# sent_id = 123-20140128-TESEMSC_0-153
 1	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5671,7 +5593,7 @@
 27	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-156
+# sent_id = 123-20140128-TESEMSC_0-154
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5694,7 +5616,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 28 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-157
+# sent_id = 123-20140128-TESEMSC_0-155
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5715,7 +5637,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-158
+# sent_id = 123-20140128-TESEMSC_0-156
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5742,7 +5664,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 38: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-159
+# sent_id = 123-20140128-TESEMSC_0-157
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	38:	38:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -5785,7 +5707,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-160
+# sent_id = 123-20140128-TESEMSC_0-158
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5808,7 +5730,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 28 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-161
+# sent_id = 123-20140128-TESEMSC_0-159
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5829,7 +5751,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-162
+# sent_id = 123-20140128-TESEMSC_0-160
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5853,10 +5775,10 @@
 21	e	e	CCONJ	_	_	23	cc	_	_
 22	3	3	NUM	_	NumType=Card	23	nummod	_	_
 23	km	km	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Figura 39: Perfil do campo potencial gravitacional calculado (com zoom, para melhor visualização) no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-163
+# sent_id = 123-20140128-TESEMSC_0-161
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	39:	39:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -5907,7 +5829,7 @@
 42	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-164
+# sent_id = 123-20140128-TESEMSC_0-162
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -5930,7 +5852,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A malha de dados possui dimensões retangulares de 28 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-165
+# sent_id = 123-20140128-TESEMSC_0-163
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5951,7 +5873,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-166
+# sent_id = 123-20140128-TESEMSC_0-164
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5978,7 +5900,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Figura 40: Perfil do campo potencial gravitacional calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-167
+# sent_id = 123-20140128-TESEMSC_0-165
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	40	40	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6017,7 +5939,7 @@
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-168
+# sent_id = 123-20140128-TESEMSC_0-166
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -6040,7 +5962,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A malha de dados possui dimensões retangulares de 28 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-169
+# sent_id = 123-20140128-TESEMSC_0-167
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6061,7 +5983,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-170
+# sent_id = 123-20140128-TESEMSC_0-168
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6085,10 +6007,10 @@
 21	e	e	CCONJ	_	_	23	cc	_	_
 22	3	3	NUM	_	NumType=Card	23	nummod	_	_
 23	km	km	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Figura 41: Perfil do campo potencial gravitacional calculado (com zoom, para melhor visualização) no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-171
+# sent_id = 123-20140128-TESEMSC_0-169
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	41	41	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -6135,7 +6057,7 @@
 40	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por uma esfera homogênea situada nas coordenadas cartesianas (4000, 0, -2000).
-# sent_id = 123-20140128-TESEMSC_0-172
+# sent_id = 123-20140128-TESEMSC_0-170
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -6158,7 +6080,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A malha de dados possui dimensões retangulares de 28 km de comprimento por 20 km de largura.
-# sent_id = 123-20140128-TESEMSC_0-173
+# sent_id = 123-20140128-TESEMSC_0-171
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	malha	malha	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6179,7 +6101,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Os níveis de continuação para cima adotados foram de 1 km, 1.5 km, 2 km, 2.5 km e 3 km.
-# sent_id = 123-20140128-TESEMSC_0-174
+# sent_id = 123-20140128-TESEMSC_0-172
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	níveis	nível	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6206,13 +6128,13 @@
 24	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = 6.3 DERIVADAS VERTICAIS
-# sent_id = 123-20140128-TESEMSC_0-175
+# sent_id = 123-20140128-TESEMSC_0-173
 1	6.3	6.3	NUM	_	NumType=Card	2	nummod	_	_
 2	DERIVADAS	Derivada	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	VERTICAIS	Vertical	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 
 # text = NUMÉRICAS E O EFEITO DE BORDA
-# sent_id = 123-20140128-TESEMSC_0-176
+# sent_id = 123-20140128-TESEMSC_0-174
 1	NUMÉRICAS	Numérica	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	E	e	CCONJ	_	_	4	cc	_	_
 3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6221,7 +6143,7 @@
 6	BORDA	BORDA	PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = O algoritmo de geração da malha de dados para o cálculo analítico do campo de gravidade e das derivadas verticais do campo escalado foi gerado no software MATLAB.
-# sent_id = 123-20140128-TESEMSC_0-177
+# sent_id = 123-20140128-TESEMSC_0-175
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	algoritmo	algoritmo	NOUN	_	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6263,7 +6185,7 @@
 34	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = Já no ambiente da plataforma do software
-# sent_id = 123-20140128-TESEMSC_0-178
+# sent_id = 123-20140128-TESEMSC_0-176
 1	Já	já	ADV	_	_	4	advmod	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -6279,7 +6201,7 @@
 10	software	software	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 
 # text = Oasis montaj, o cálculo das derivadas verticais do campo escalado utilizando as técnicas da transformada de Fourier foi efetuado seguindo as seguintes etapas: 1.
-# sent_id = 123-20140128-TESEMSC_0-179
+# sent_id = 123-20140128-TESEMSC_0-177
 1	Oasis	Oasl	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	montaj	montaj	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6315,7 +6237,7 @@
 30	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = A partir do mapa do campo de gravidade para o nível correspondente a 0 km, o campo gravitacional gerado por duas esferas homogêneas de raios de 500 m e densidades de 3000 [ PT> , situadas nas coordenadas cartesianas (-4000 m, 0 m, -2000 m) e (4000 m, 0 m, -2000 m) foi continuado para cima numericamente, ou seja, no domínio da transformada de Fourier, utilizando a extensão MAGMAP do software
-# sent_id = 123-20140128-TESEMSC_0-180
+# sent_id = 123-20140128-TESEMSC_0-178
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	66	obl	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6413,7 +6335,7 @@
 89	software	software	NOUN	_	Gender=Masc|Number=Sing	86	nmod	_	_
 
 # text = Oasis montaj, da empresa Geosoft, para os níveis de 2 km, 4 km, 6 km e 8 km.
-# sent_id = 123-20140128-TESEMSC_0-181
+# sent_id = 123-20140128-TESEMSC_0-179
 1	Oasis	Oasl	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 2	montaj	montaj	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -6441,7 +6363,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Novamente, considera-se que o módulo da profundidade cresce para baixo e que o eixo z é positivo para baixo.
-# sent_id = 123-20140128-TESEMSC_0-182
+# sent_id = 123-20140128-TESEMSC_0-180
 1	Novamente	novamente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	considera-se	_	_	_	_	_	_	_	_
@@ -6469,7 +6391,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O intervalo de amostragem nas direções dos eixos x e y é de 50 m; 2.
-# sent_id = 123-20140128-TESEMSC_0-183
+# sent_id = 123-20140128-TESEMSC_0-181
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6494,7 +6416,7 @@
 20	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = A partir dos mapas dos campos gravitacionais continuados numericamente, para cada nível, foi calculada a derivada vertical numérica, ou seja, a derivada vertical no domínio da transformada de Fourier, também para cada nível de continuação.
-# sent_id = 123-20140128-TESEMSC_0-184
+# sent_id = 123-20140128-TESEMSC_0-182
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	18	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -6546,7 +6468,7 @@
 45	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Como já foi enfatizado anteriormente, ao contrário do cálculo da derivada analítica, no qual se dispõem de expressões matemáticas que podem ser ajustadas para cada nível de continuação e também pelo fato de podermos obter uma expressão matemática diferente para cada ordem de derivação, o cálculo da derivada vertical no domínio da transformada de Fourier requer certos cuidados, uma vez que a operação da derivada vertical no domínio da transformada de Fourier corresponde a um filtro passa alta, ou seja, é um procedimento que, se não aplicado com critério, sendo utilizadas ordens de derivação muito altas, faz com que os ruídos de alta frequência porventura presentes nos dados sejam amplificados (aumentados).
-# sent_id = 123-20140128-TESEMSC_0-185
+# sent_id = 123-20140128-TESEMSC_0-183
 1	Como	como	SCONJ	_	_	4	mark	_	_
 2	já	já	ADV	_	_	4	advmod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -6622,7 +6544,7 @@
 65	de	de	ADP	_	_	66	case	_	_
 66	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	64	nmod	_	_
 67	requer	requerer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	100	acl:relcl	_	_
-68	certos	certos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	69	det	_	_
+68	certos	certos	DET	_	Gender=Masc|Number=Plur|PronType=Ind	69	det	_	SpacesAfter=\s\n
 69	cuidados	cuidado	NOUN	_	Gender=Masc|Number=Plur	67	obj	_	SpaceAfter=No
 70	,	,	PUNCT	_	_	71	punct	_	_
 71	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
@@ -6695,8 +6617,8 @@
 134	)	)	PUNCT	_	_	133	punct	_	SpaceAfter=No
 135	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
-# text = Enquanto que, analiticamente, é possível calcular as derivadas de ordem n-ésima, no domínio da transformada de Fourier usualmente computam- se as derivadas de 1ª e de 2ª ordens em aplicações geofísicas práticas.
-# sent_id = 123-20140128-TESEMSC_0-186
+# text = Enquanto que, analiticamente, é possível calcular as derivadas de ordem n-ésima, no domínio da transformada de Fourier usualmente computam-se as derivadas de 1ª e de 2ª ordens em aplicações geofísicas práticas.
+# sent_id = 123-20140128-TESEMSC_0-184
 1	Enquanto	enquanto	SCONJ	_	_	7	mark	_	_
 2	que	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -6722,25 +6644,25 @@
 21	de	de	ADP	_	_	22	case	_	_
 22	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23	usualmente	usualmente	ADV	_	_	24	advmod	_	_
-24	computam	computar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-25	-	-	PUNCT	_	_	24	punct	_	_
-26	se	se	SCONJ	_	_	28	mark	_	_
-27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
-28	derivadas	derivada	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	1ª	1ª	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-31	e	e	CCONJ	_	_	34	cc	_	_
-32	de	de	ADP	_	_	34	case	_	_
-33	2ª	2ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	34	amod	_	_
-34	ordens	ordem	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	_
-35	em	em	ADP	_	_	36	case	_	_
-36	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	_
-37	geofísicas	geofísico	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	_
-38	práticas	prático	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	24	punct	_	_
+24-25	computam-se	_	_	_	_	_	_	_	_
+24	computam	computar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	24	expl	_	_
+26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	derivadas	derivada	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	1ª	1ª	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+30	e	e	CCONJ	_	_	33	cc	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	2ª	2ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	33	amod	_	_
+33	ordens	ordem	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
+36	geofísicas	geofísico	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	_
+37	práticas	prático	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Por outro lado, a derivada vertical é uma ferramenta útil para se obter os detalhes do campo potencial em estudo, permitindo que se estude as variações do campo em função da profundidade, permitindo que se diferenciem corpos geradores de anomalias de campos potenciais próximos entre si que não seriam facilmente distinguíveis com o uso de outras técnicas.
-# sent_id = 123-20140128-TESEMSC_0-187
+# sent_id = 123-20140128-TESEMSC_0-185
 1	Por	por	ADP	_	_	10	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -6810,7 +6732,7 @@
 64	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Como estamos trabalhando com dados sintéticos, sem a introdução de ruídos, calculamos, a exemplo das derivadas verticais analíticas, ordens de derivação até 4.
-# sent_id = 123-20140128-TESEMSC_0-188
+# sent_id = 123-20140128-TESEMSC_0-186
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	trabalhando	trabalhar	VERB	_	VerbForm=Ger	14	advcl	_	_
@@ -6843,7 +6765,7 @@
 29	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Como resultado das operações acima citadas, temos como produto final desta etapa de modelagem os mapas, para cada nível de continuação, das derivadas verticais do campo gravitacional continuado para cima em cada nível de continuação; 3.
-# sent_id = 123-20140128-TESEMSC_0-189
+# sent_id = 123-20140128-TESEMSC_0-187
 1	Como	como	ADP	_	_	2	case	_	_
 2	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -6895,7 +6817,7 @@
 45	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Depois dos cálculos da continuação para cima e das derivadas verticais, o campo escalado das derivadas verticais é determinado para cada nível de continuação, a fim de se verificar a eficiência do método na modelagem das duas esferas de modo analítico e também com o intuito de avaliar o impacto do efeito de borda quando se trabalha com os dados utilizando as técnicas da transformada de Fourier.
-# sent_id = 123-20140128-TESEMSC_0-190
+# sent_id = 123-20140128-TESEMSC_0-188
 1	Depois	depois	ADV	_	_	24	advmod	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -6986,7 +6908,7 @@
 79	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Então, são gerados perfis, utilizando o software Oasis montaj, das derivadas verticais do campo escalado analiticamente de 1ª, 2ª, 3ª e 4ª ordens, das derivadas verticais numéricas de 1ª, 2ª, 3ª e 4ª ordens do campo escalado utilizando expansão de 100 % e o algoritmo de extrapolação do inverso do quadrado da distância e das derivadas verticais numéricas de 1ª, 2ª, 3ª e 4ª ordens do campo escalado utilizando uma expansão da malha de dados original de 100 % e o algoritmo de extrapolação da entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-191
+# sent_id = 123-20140128-TESEMSC_0-189
 1	Então	então	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -7111,7 +7033,7 @@
 111	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Novamente, quando se utiliza o termo "derivada vertical numérica", subentende-se que a derivada vertical foi obtida no domínio da transformada de Fourier, ou seja, a partir do uso das técnicas da transformada de Fourier;
-# sent_id = 123-20140128-TESEMSC_0-192
+# sent_id = 123-20140128-TESEMSC_0-190
 1	Novamente	novamente	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quando	quando	ADV	_	_	5	advmod	_	_
@@ -7167,7 +7089,7 @@
 47	;	;	PUNCT	_	_	14	punct	_	_
 
 # text = Como são aplicadas duas operações em sequência no domínio da transformada de Fourier sobre o campo potencial gravitacional original, para cada nível de continuação, os cuidados relativos às etapas de pré-processamento - que são a remoção das tendências de 1ª ordem, a expansão da malha de dados onde as operações no domínio de Fourier serão realizadas a certo percentual das dimensões da malha de dados original e a extrapolação dos dados gerados pela expansão com os dados originais - são ainda mais importantes do que no caso do campo escalado para a modelagem de uma única esfera (sem o uso das derivadas verticais), uma vez que na modelagem das derivadas verticais do campo escalado temos dois pontos de máximo absoluto.
-# sent_id = 123-20140128-TESEMSC_0-193
+# sent_id = 123-20140128-TESEMSC_0-191
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	aplicadas	aplicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	96	advcl	_	_
@@ -7291,7 +7213,7 @@
 108	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	109	det	_	_
 109	modelagem	modelagem	NOUN	_	Gender=Fem|Number=Sing	106	obl	_	_
 110	de	de	ADP	_	_	113	case	_	_
-111	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	113	det	_	_
+111	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	113	det	_	SpacesAfter=\s\n
 112	única	único	ADJ	_	Gender=Fem|Number=Sing	113	amod	_	_
 113	esfera	esfera	NOUN	_	Gender=Fem|Number=Sing	109	nmod	_	_
 114	(	(	PUNCT	_	_	117	punct	_	SpaceAfter=No
@@ -7330,8 +7252,20 @@
 143	absoluto	absoluto	ADJ	_	Gender=Masc|Number=Sing	142	amod	_	SpaceAfter=No
 144	.	.	PUNCT	_	_	138	punct	_	SpacesAfter=\n
 
-# text = A seguir, temos os perfis gerados para as derivadas verticais analíticas (Figuras, 42, 43, 44 e 45):
-# sent_id = 123-20140128-TESEMSC_0-194
+# text = 42, 43, 44 e 45):
+# sent_id = 123-20140128-TESEMSC_0-192
+1	42	42	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	43	43	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	44	44	NUM	_	NumType=Card	1	conj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	45	45	NUM	_	NumType=Card	5	conj	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = A seguir, temos os perfis gerados para as derivadas verticais analíticas (Figuras, Figura 42: Perfil da derivada vertical de 1ª ordem do campo escalado calculado analiticamente.
+# sent_id = 123-20140128-TESEMSC_0-193
 1	A	a	SCONJ	_	_	2	mark	_	_
 2	seguir	seguir	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -7341,50 +7275,35 @@
 7	gerados	gerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_
 8	para	para	ADP	_	_	10	case	_	_
 9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	derivadas	derivada	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	derivadas	derivada	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
 11	verticais	vertical	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	analíticas	analítico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	Figuras	figuras	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	42	42	NUM	_	NumType=Card	14	appos:parataxis	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	14	punct	_	_
-18	43	43	NUM	_	NumType=Card	4	conj	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	44	44	NUM	_	NumType=Card	18	conj	_	_
-21	e	e	CCONJ	_	_	22	cc	_	_
-22	45	45	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
-24	:	:	PUNCT	_	_	4	punct	_	_
-
-# text = Figura 42:
-# sent_id = 123-20140128-TESEMSC_0-195
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	42	42	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-
-# text = Perfil da derivada vertical de 1ª ordem do campo escalado calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-196
-1	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	derivada	derivado	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	vertical	vertical	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-6	de	de	ADP	_	_	8	case	_	_
-7	1ª	1ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
-8	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	campo	campo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-12	escalado	escalar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
-13	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	xcomp	_	_
-14	analiticamente	analiticamente	ADV	_	_	13	advmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	_
+16	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
+17	42	42	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	14	punct	_	_
+19	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	derivada	derivado	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	vertical	vertical	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	1ª	1ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
+26	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	campo	campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+30	escalado	escalar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	29	acl	_	_
+31	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	xcomp	_	_
+32	analiticamente	analiticamente	ADV	_	_	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0,-2000) e (4000,0,- 2000).
-# sent_id = 123-20140128-TESEMSC_0-197
+# sent_id = 123-20140128-TESEMSC_0-194
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7412,7 +7331,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 43: Perfil da derivada vertical de 2ª ordem do campo escalado calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-198
+# sent_id = 123-20140128-TESEMSC_0-195
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	43:	43:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -7434,7 +7353,7 @@
 17	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0,-2000) e (4000,0,- 2000).
-# sent_id = 123-20140128-TESEMSC_0-199
+# sent_id = 123-20140128-TESEMSC_0-196
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7462,7 +7381,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 44: Perfil da derivada vertical de 3ª ordem do campo escalado calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-200
+# sent_id = 123-20140128-TESEMSC_0-197
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	44	44	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7485,7 +7404,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0,-2000) e (4000,0,- 2000).
-# sent_id = 123-20140128-TESEMSC_0-201
+# sent_id = 123-20140128-TESEMSC_0-198
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7510,10 +7429,10 @@
 21	-	-	SYM	_	_	1	conj	_	_
 22	2000	2000	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = Figura 45: Perfil da derivada vertical de 4ª ordem do campo escalado calculado analiticamente.
-# sent_id = 123-20140128-TESEMSC_0-202
+# sent_id = 123-20140128-TESEMSC_0-199
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	45	45	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7536,7 +7455,7 @@
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000, 0, - 2000).
-# sent_id = 123-20140128-TESEMSC_0-203
+# sent_id = 123-20140128-TESEMSC_0-200
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7568,7 +7487,7 @@
 28	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Assim como no caso de uma esfera, o cálculo analítico identificou corretamente a profundidade das duas esferas e conseguiu distingui-las satisfatoriamente, uma vez que os máximos absolutos estão localizados na curva que representa o nível de continuação correspondente às profundidades das esferas.
-# sent_id = 123-20140128-TESEMSC_0-204
+# sent_id = 123-20140128-TESEMSC_0-201
 1	Assim	assim	SCONJ	_	_	13	mark	_	_
 2	como	como	ADP	_	_	1	fixed	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -7628,7 +7547,7 @@
 51	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Evidentemente, a derivada vertical de 4ª ordem obteve a melhor resolução das anomalias das esferas e eliminou melhor o efeito de interferência mútua entre elas.
-# sent_id = 123-20140128-TESEMSC_0-205
+# sent_id = 123-20140128-TESEMSC_0-202
 1	Evidentemente	evidentemente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7661,12 +7580,32 @@
 28	elas	elas	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Os resultados obtidos utilizando expansão de 100 % e extrapolação pela entropia máxima de predição estão ilustrados abaixo (Figuras 46, 47, 48 e 49):
-# sent_id = 123-20140128-TESEMSC_0-206
+# text = máxima de predição estão ilustrados abaixo (Figuras 46, 47, 48 e 49):
+# sent_id = 123-20140128-TESEMSC_0-203
+1	máxima	máximo	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	predição	predição	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ilustrados	ilustrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+6	abaixo	abaixo	ADV	_	_	5	advmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Figuras	figuras	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	46	46	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	47	47	NUM	_	NumType=Card	8	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	48	48	NUM	_	NumType=Card	5	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	49	49	NUM	_	NumType=Card	5	conj	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	5	punct	_	_
+
+# text = Os resultados obtidos utilizando expansão de 100 % e extrapolação pela entropia Figura 46: Perfil da derivada vertical de 1ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
+# sent_id = 123-20140128-TESEMSC_0-204
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
-4	utilizando	utilizar	VERB	_	VerbForm=Ger	2	acl	_	_
+4	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
 5	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	100	100	NUM	_	NumType=Card	8	nummod	_	_
@@ -7677,72 +7616,52 @@
 11	por	por	ADP	_	_	13	case	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	entropia	entropia	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	predição	predição	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-17	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-18	ilustrados	ilustrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
-19	abaixo	abaixo	ADV	_	_	18	advmod	_	_
-20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	Figuras	figuras	PROPN	_	Gender=Masc|Number=Sing	18	appos	_	_
-22	46	46	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	47	47	NUM	_	NumType=Card	21	appos	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	21	punct	_	_
-26	48	48	NUM	_	NumType=Card	18	obl	_	_
-27	e	e	CCONJ	_	_	28	cc	_	_
-28	49	49	NUM	_	NumType=Card	26	conj	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
-30	:	:	PUNCT	_	_	18	punct	_	_
-
-# text = Figura 46: Perfil da derivada vertical de 1ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-207
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	46	46	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	derivada	derivado	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	vertical	vertical	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	1ª	1ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
-11	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	campo	campo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-15	escalado	escalar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
-16	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	xcomp	_	_
-17-18	no	_	_	_	_	_	_	_	_
-17	em	em	ADP	_	_	19	case	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	domínio	domínio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	transformada	transformado	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-23	de	de	SCONJ	_	_	24	mark	_	_
-24	Fourier	Fourier	VERB	_	VerbForm=Inf	1	xcomp	_	_
-25	com	com	ADP	_	_	26	case	_	_
-26	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	100	100	NUM	_	NumType=Card	29	nummod	_	_
-29	%	%	SYM	_	_	26	nmod	_	_
-30	e	e	CCONJ	_	_	31	cc	_	_
-31	extrapolação	extrapolação	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
-32-33	pela	_	_	_	_	_	_	_	_
-32	por	por	ADP	_	_	34	case	_	_
-33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	entropia	entropia	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
-35	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
-36	de	de	ADP	_	_	37	case	_	_
-37	predição	predição	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+14	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	13	appos	_	_
+15	46	46	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	4	punct	_	_
+17	Perfil	perfil	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	derivada	derivado	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	vertical	vertical	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	1ª	1ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+24	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	campo	campo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+28	escalado	escalar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_
+29	calculado	calcular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	domínio	domínio	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	transformada	transformado	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+36	de	de	SCONJ	_	_	37	mark	_	_
+37	Fourier	Fourier	VERB	_	VerbForm=Inf	35	acl	_	_
+38	com	com	ADP	_	_	39	case	_	_
+39	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	100	100	NUM	_	NumType=Card	42	nummod	_	_
+42	%	%	SYM	_	_	39	nmod	_	_
+43	e	e	CCONJ	_	_	44	cc	_	_
+44	extrapolação	extrapolação	NOUN	_	Gender=Fem|Number=Sing	39	conj	_	_
+45-46	pela	_	_	_	_	_	_	_	_
+45	por	por	ADP	_	_	47	case	_	_
+46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	entropia	entropia	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+48	máxima	grande	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	predição	predição	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-208
+# sent_id = 123-20140128-TESEMSC_0-205
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7765,10 +7684,10 @@
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	(4000,0,-2000	(4000,0,-2000	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n\n
 
 # text = Figura 47: Perfil da derivada vertical de 2ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-209
+# sent_id = 123-20140128-TESEMSC_0-206
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	47	47	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7814,7 +7733,7 @@
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-210
+# sent_id = 123-20140128-TESEMSC_0-207
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7840,7 +7759,7 @@
 22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Figura 48: Perfil da derivada vertical de 3ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-211
+# sent_id = 123-20140128-TESEMSC_0-208
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	48	48	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7886,7 +7805,7 @@
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-212
+# sent_id = 123-20140128-TESEMSC_0-209
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7912,7 +7831,7 @@
 22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Figura 49: Perfil da derivada vertical de 4ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pela entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-213
+# sent_id = 123-20140128-TESEMSC_0-210
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	49	49	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -7958,7 +7877,7 @@
 38	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000, 0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-214
+# sent_id = 123-20140128-TESEMSC_0-211
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -7987,7 +7906,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A exemplo do que ocorreu no cálculo analítico, a derivada de 4ª ordem apresentou os melhores resultados quanto à eliminação do efeito de interferência mútua entre as esferas.
-# sent_id = 123-20140128-TESEMSC_0-215
+# sent_id = 123-20140128-TESEMSC_0-212
 1	A	a	ADP	_	_	4	case	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8028,7 +7947,7 @@
 34	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Observou-se ainda que a derivada vertical de 1ª ordem não conseguiu atribuir o valor correto de profundidade, feito que é obtido pelo cálculo das derivadas verticais de 2ª ordem em diante.
-# sent_id = 123-20140128-TESEMSC_0-216
+# sent_id = 123-20140128-TESEMSC_0-213
 1-2	Observou-se	_	_	_	_	_	_	_	_
 1	Observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8070,7 +7989,7 @@
 36	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Além disso, para níveis de continuação muito distantes do nível de continuação correspondente à profundidade da esfera, ou para fontes situadas a profundidades muito grandes, a caracterização da anomalia fica prejudicada, uma vez que a sua amplitude é muito pequena no espectro da sua transformada de Fourier.
-# sent_id = 123-20140128-TESEMSC_0-217
+# sent_id = 123-20140128-TESEMSC_0-214
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -8100,7 +8019,7 @@
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	ou	ou	CCONJ	_	_	26	cc	_	_
 25	para	para	ADP	_	_	26	case	_	_
-26	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	_
+26	fontes	fonte	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	SpacesAfter=\s\n
 27	situadas	situar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	_
 28	a	a	ADP	_	_	29	case	_	_
 29	profundidades	profundidade	NOUN	_	Gender=Fem|Number=Plur	27	obl	_	_
@@ -8139,7 +8058,7 @@
 59	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\n
 
 # text = Finalmente, obtemos os resultados para uma taxa de expansão de 100 % e a utilização do algoritmo de extrapolação do inverso do quadrado da distância (Figuras 50, 51, 52 e 53):
-# sent_id = 123-20140128-TESEMSC_0-218
+# sent_id = 123-20140128-TESEMSC_0-215
 1	Finalmente	finalmente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	obtemos	obtar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8187,7 +8106,7 @@
 41	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Figura 50: Perfil da derivada vertical de 1ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-219
+# sent_id = 123-20140128-TESEMSC_0-216
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	50	50	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8238,7 +8157,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-220
+# sent_id = 123-20140128-TESEMSC_0-217
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -8265,7 +8184,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 51: Perfil da derivada vertical de 2ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-221
+# sent_id = 123-20140128-TESEMSC_0-218
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	51	51	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8316,7 +8235,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-222
+# sent_id = 123-20140128-TESEMSC_0-219
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -8339,10 +8258,10 @@
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	(4000,0,-2000	(4000,0,-2000	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
+22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n\n
 
 # text = Figura 52: Perfil da derivada vertical de 3ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-223
+# sent_id = 123-20140128-TESEMSC_0-220
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	52	52	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -8393,7 +8312,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-224
+# sent_id = 123-20140128-TESEMSC_0-221
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -8419,7 +8338,7 @@
 22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Figura 53: Perfil da derivada vertical de 4ª ordem do campo escalado calculado no domínio da transformada de Fourier com expansão de 100 % e extrapolação pelo inverso do quadrado da distância.
-# sent_id = 123-20140128-TESEMSC_0-225
+# sent_id = 123-20140128-TESEMSC_0-222
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	53:	53:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Perfil	perfil	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -8469,7 +8388,7 @@
 40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Campo gerado por duas esferas homogêneas situadas nas coordenadas cartesianas (-4000, 0, -2000) e (4000,0,-2000).
-# sent_id = 123-20140128-TESEMSC_0-226
+# sent_id = 123-20140128-TESEMSC_0-223
 1	Campo	Campo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 2	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	por	por	ADP	_	_	5	case	_	_
@@ -8495,7 +8414,7 @@
 22	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = Os resultados obtidos para o algoritmo de extrapolação do inverso do quadrado da distância foram similares aos obtidos para o algoritmo de extrapolação da entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-227
+# sent_id = 123-20140128-TESEMSC_0-224
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -8537,7 +8456,7 @@
 34	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Novamente, a derivada vertical de 1ª ordem não conseguiu determinar com precisão a profundidade das esferas, o que só foi conseguido com as derivadas verticais de ordem superior a 2.
-# sent_id = 123-20140128-TESEMSC_0-228
+# sent_id = 123-20140128-TESEMSC_0-225
 1	Novamente	novamente	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8575,7 +8494,7 @@
 34	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Mais uma vez, o nível de continuação correspondente a 8 km praticamente não conseguiu caracterizar anomalia alguma.
-# sent_id = 123-20140128-TESEMSC_0-229
+# sent_id = 123-20140128-TESEMSC_0-226
 1	Mais	mais	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 2	uma	uma	ADP	_	_	3	case	_	_
 3	vez	vez	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -8597,7 +8516,7 @@
 19	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Em síntese, ambos os métodos de extrapolação não mostraram diferenças significativas entre si.
-# sent_id = 123-20140128-TESEMSC_0-230
+# sent_id = 123-20140128-TESEMSC_0-227
 1	Em	em	ADP	_	_	2	case	_	_
 2	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8615,7 +8534,7 @@
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Entretanto, como se tratam de dados sintéticos, faz-se necessário aplicar tal simulação a dados reais, os quais contêm ruídos, principalmente de alta frequência, a fim de avaliar o efeito da introdução de ruídos de alta frequência quando do aumento da ordem de derivação, para que possa efetivamente comparar os dois métodos de extrapolação aqui analisados para dados sintéticos.
-# sent_id = 123-20140128-TESEMSC_0-231
+# sent_id = 123-20140128-TESEMSC_0-228
 1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	como	como	ADV	_	_	5	advmod	_	_
@@ -8691,7 +8610,7 @@
 69	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Enfatiza-se, novamente, que, ara dados ruidosos demais, não se recomenda calcular derivadas verticais de ordem superior a dois.
-# sent_id = 123-20140128-TESEMSC_0-232
+# sent_id = 123-20140128-TESEMSC_0-229
 1-2	Enfatiza-se	_	_	_	_	_	_	_	SpaceAfter=No
 1	Enfatiza	Enfatizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -8716,22 +8635,22 @@
 21	superior	alto	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	a	a	ADP	_	_	23	case	_	_
 23	dois	dois	NUM	_	NumType=Card	21	obl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 7. CONSIDERAÇÕES FINAIS
-# sent_id = 123-20140128-TESEMSC_0-233
+# sent_id = 123-20140128-TESEMSC_0-230
 1	7	7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 3	CONSIDERAÇÕES	considerações	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	FINAIS	finais	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = E CONCLUSÕES
-# sent_id = 123-20140128-TESEMSC_0-234
+# sent_id = 123-20140128-TESEMSC_0-231
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	CONCLUSÕES	conclusões	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # text = Conforme esperado, a modelagem analítica dos campos escalados e de suas derivadas verticais de 1ª, 2ª, 3ª e 4ª ordens determinou a profundidade da fonte corretamente.
-# sent_id = 123-20140128-TESEMSC_0-235
+# sent_id = 123-20140128-TESEMSC_0-232
 1	Conforme	conforme	SCONJ	_	_	2	mark	_	_
 2	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -8768,7 +8687,7 @@
 32	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = Em outras palavras, a modelagem analítica atribuiu um valor máximo absoluto do campo escalado e de suas derivadas verticais para o nível de continuação do campo de gravidade que corresponde à profundidade original da esfera.
-# sent_id = 123-20140128-TESEMSC_0-236
+# sent_id = 123-20140128-TESEMSC_0-233
 1	Em	em	ADP	_	_	3	case	_	_
 2	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
@@ -8816,7 +8735,7 @@
 41	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Com relação às derivadas verticais analíticas de 1ª, 2ª, 3 e 4ª ordens do campo escalado, observou-se que, quanto maior a ordem da derivada, melhor é a resolução na separação das esferas e que, quanto maior a separação horizontal entre as esferas, menor é a ordem de derivação necessária para eliminar o efeito de interferência mútua entre elas.
-# sent_id = 123-20140128-TESEMSC_0-237
+# sent_id = 123-20140128-TESEMSC_0-234
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 3-4	às	_	_	_	_	_	_	_	_
@@ -8897,7 +8816,7 @@
 72	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Quanto à modelagem dos campos escalados no domínio da transformada de Fourier, percebeu-se que, quando não se aplicam as etapas de pré-processamento necessárias (remoção de tendências, expansão da malha de dados original e extrapolação), o nível de continuação relacionado ao máximo absoluto do campo escalado corresponde ao nível de continuação mais distante daquele correspondente à profundidade real da esfera quando, em realidade, o nível de continuação concernente à profundidade da esfera deveria assinalar o valor do máximo absoluto do campo escalado que fora modelado numericamente.
-# sent_id = 123-20140128-TESEMSC_0-238
+# sent_id = 123-20140128-TESEMSC_0-235
 1	Quanto	quanto	ADV	_	_	4	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
@@ -9026,7 +8945,7 @@
 110	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Portanto, o valor da profundidade da esfera não é determinado corretamente.
-# sent_id = 123-20140128-TESEMSC_0-239
+# sent_id = 123-20140128-TESEMSC_0-236
 1	Portanto	portanto	ADV	_	_	13	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -9046,7 +8965,7 @@
 15	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Tal fato é ocasionado pelo efeito de borda e se torna mais evidente quanto maior for o deslocamento das coordenadas cartesianas da esfera em relação ao centro da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-240
+# sent_id = 123-20140128-TESEMSC_0-237
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -9091,7 +9010,7 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Em suma, o efeito de borda é uma consequência do grau de assimetria da anomalia em relação às bordas, uma vez que, quanto mais assimétrica é a anomalia em relação às bordas de um mapa, menos amostrados se tornam os dados na região das proximidades da borda no lado para o qual a anomalia se encontra deslocada em relação ao centro do mapa.
-# sent_id = 123-20140128-TESEMSC_0-241
+# sent_id = 123-20140128-TESEMSC_0-238
 1	Em	em	ADP	_	_	2	case	_	_
 2	suma	suma	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -9182,7 +9101,7 @@
 78	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Tal fato resulta na geração de tendências (que podem ser de 1ª, 2 e até 3ª ordem, dependendo da função que a descreva) e dificulta o processamento no domínio da FFT, uma vez que as anomalias de interesse devem ser periódicas para que ela seja modelada corretamente tanto quanto à sua amplitude, refletindo a precisão no cálculo da profundidade, quanto também à sua extensão lateral, que reflete a precisão na determinação dos seus parâmetros físicos e geométricos (raio e densidade).
-# sent_id = 123-20140128-TESEMSC_0-242
+# sent_id = 123-20140128-TESEMSC_0-239
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	resulta	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9296,7 +9215,7 @@
 101	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\n
 
 # text = Evidentemente, quanto maior for a profundidade da esfera, mais crítico se torna o efeito de borda, uma vez que a amplitude de uma anomalia muito profunda é muito pequena no espectro da transformada de Fourier.
-# sent_id = 123-20140128-TESEMSC_0-243
+# sent_id = 123-20140128-TESEMSC_0-240
 1	Evidentemente	evidentemente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quanto	quanto	ADV	_	_	4	advmod	_	_
@@ -9343,8 +9262,8 @@
 41	Fourier	Fourier	PROPN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
-# text = A fim de contornar os efeitos de borda, lançou-se mão das etapas de pré- processamento descritas anteriormente.
-# sent_id = 123-20140128-TESEMSC_0-244
+# text = A fim de contornar os efeitos de borda, lançou-se mão das etapas de pré-processamento descritas anteriormente.
+# sent_id = 123-20140128-TESEMSC_0-241
 1	A	a	ADP	_	_	4	mark	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	de	de	SCONJ	_	_	1	fixed	_	_
@@ -9363,14 +9282,13 @@
 14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 16	de	de	ADP	_	_	17	case	_	_
-17	pré-	pré	PART	_	_	15	nmod	_	_
-18	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
-19	descritas	descrito	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-20	anteriormente	anteriormente	ADV	_	_	18	advmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	10	punct	_	_
+17	pré-processamento	pré-processamento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	descritas	descrito	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19	anteriormente	anteriormente	ADV	_	_	10	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Foram utilizados dois algoritmos de extrapolação dos dados originais com os dados resultantes da expansão da malha de dados original: o inverso do quadrado da distância e a entropia máxima de predição.
-# sent_id = 123-20140128-TESEMSC_0-245
+# sent_id = 123-20140128-TESEMSC_0-242
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	dois	dois	NUM	_	NumType=Card	4	nummod	_	_
@@ -9417,7 +9335,7 @@
 39	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os valores de expansão aplicados foram tais que se pudesse reproduzir a periodicidade da função que descreve a anomalia gerada pela esfera.
-# sent_id = 123-20140128-TESEMSC_0-246
+# sent_id = 123-20140128-TESEMSC_0-243
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9447,7 +9365,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Quando a anomalia se encontrava simétrica em relação às bordas, o percentual de expansão foi de 100 %.
-# sent_id = 123-20140128-TESEMSC_0-247
+# sent_id = 123-20140128-TESEMSC_0-244
 1	Quando	quando	SCONJ	_	_	5	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	anomalia	anomalia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -9472,13 +9390,13 @@
 21	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Nesse caso, os métodos de extrapolação obtiveram resultados similares e conseguiram determinar a profundidade da esfera corretamente, ou seja, o nível de continuação referente ao da profundidade da esfera correspondeu àquele ao qual se atribuiu o valor máximo do campo escalado.
-# sent_id = 123-20140128-TESEMSC_0-248
+# sent_id = 123-20140128-TESEMSC_0-245
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	SpacesAfter=\s\n
 6	métodos	método	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	extrapolação	extrapolação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -9536,7 +9454,7 @@
 53	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Entretanto, à medida que a esfera modelada foi deslocada do centro da malha de dados, revelou-se que o método de extrapolação da entropia máxima teve uma resolução melhor do que o inverso do quadrado da distância, principalmente com relação à extensão lateral das curvas dos níveis de continuação, na região das bordas de tais curvas.
-# sent_id = 123-20140128-TESEMSC_0-249
+# sent_id = 123-20140128-TESEMSC_0-246
 1	Entretanto	entretanto	ADV	_	_	21	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -9625,7 +9543,7 @@
 73	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Essa diferença de resolução é diretamente proporcional à distância de deslocamento da esfera em relação ao centro do mapa.
-# sent_id = 123-20140128-TESEMSC_0-250
+# sent_id = 123-20140128-TESEMSC_0-247
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9656,7 +9574,7 @@
 24	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Em alguns casos nos quais o algoritmo do inverso do quadrado da distância foi utilizado, alguns valores nas bordas das curvas de alguns níveis de continuação acabaram por ter valores maiores que os valores relativos à amplitude máxima na curva do nível de continuação correspondente à profundidade da esfera que, em tese, teria o valor máximo absoluto do campo escalado.
-# sent_id = 123-20140128-TESEMSC_0-251
+# sent_id = 123-20140128-TESEMSC_0-248
 1	Em	em	ADP	_	_	3	case	_	_
 2	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	casos	caso	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
@@ -9747,7 +9665,7 @@
 76	.	.	PUNCT	_	_	41	punct	_	_
 
 # text = Tal fato ficou mais evidente quando a esfera foi deslocada de 4 km em relação ao centro da malha de dados.
-# sent_id = 123-20140128-TESEMSC_0-252
+# sent_id = 123-20140128-TESEMSC_0-249
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -9776,7 +9694,7 @@
 24	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Com relação às derivadas verticais numéricas do campo escalado, quando se aplica um percentual de expansão de 100 %, ambos os algoritmos de extrapolação conseguem determinar a profundidade da esfera sem que haja uma diferença significativa de resolução entre eles.
-# sent_id = 123-20140128-TESEMSC_0-253
+# sent_id = 123-20140128-TESEMSC_0-250
 1	Com	com	ADP	_	_	2	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 3-4	às	_	_	_	_	_	_	_	_
@@ -9828,7 +9746,7 @@
 46	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = A derivada vertical de 1ª ordem, para ambos os métodos de extrapolação, apresentou certa deficiência em eliminar o efeito de interferência mútua entre as esferas, bem como em determinar a profundidade correta das duas esferas.
-# sent_id = 123-20140128-TESEMSC_0-254
+# sent_id = 123-20140128-TESEMSC_0-251
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	derivada	derivado	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 3	vertical	vertical	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9872,7 +9790,7 @@
 40	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Como era de se esperar, as derivadas de 2ª, 3ª e 4ª ordem forneceram uma resolução melhor na separação dos corpos, ou seja, conseguiram eliminar com mais eficiência o efeito da interferência mútua entre as esferas.
-# sent_id = 123-20140128-TESEMSC_0-255
+# sent_id = 123-20140128-TESEMSC_0-252
 1	Como	como	SCONJ	_	_	5	mark	_	_
 2	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	de	de	SCONJ	_	_	5	mark	_	_
@@ -9922,7 +9840,7 @@
 44	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Evidentemente, quanto menor for a distância horizontal entre as esferas, mais difícil se torna a remoção do efeito de interferência mútua entre as esferas e vice-versa, a exemplo do que já ocorrera com o cálculo analítico das derivadas verticais do campo escalado.
-# sent_id = 123-20140128-TESEMSC_0-256
+# sent_id = 123-20140128-TESEMSC_0-253
 1	Evidentemente	evidentemente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quanto	quanto	ADV	_	_	4	advmod	_	_
@@ -9979,7 +9897,7 @@
 50	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = De uma maneira geral, o método de extrapolação da entropia máxima de predição revelou-se como sendo a solução mais adequada para contornar os efeitos de borda na modelagem numérica dos campos escalados, uma vez que conseguiu determinar com uma resolução melhor do que o algoritmo do inverso do quadrado da distância a extensão lateral das anomalias geradas pelas esferas modeladas.
-# sent_id = 123-20140128-TESEMSC_0-257
+# sent_id = 123-20140128-TESEMSC_0-254
 1	De	de	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -10065,7 +9983,7 @@
 73	.	.	PUNCT	_	_	43	punct	_	_
 
 # text = Entretanto, para as derivadas verticais, ambos os métodos de extrapolação apresentaram resultados semelhantes.
-# sent_id = 123-20140128-TESEMSC_0-258
+# sent_id = 123-20140128-TESEMSC_0-255
 1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -10084,7 +10002,7 @@
 16	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Ressalta-se a importância da aplicação das técnicas de remoção de tendências, expansão da malha de dados original e da extrapolação dos dados originais com os dados expandidos a fim de se determinar as profundidades das fontes geradores de campos potenciais com uma boa precisão.
-# sent_id = 123-20140128-TESEMSC_0-259
+# sent_id = 123-20140128-TESEMSC_0-256
 1-2	Ressalta-se	_	_	_	_	_	_	_	_
 1	Ressalta	Ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -10147,7 +10065,7 @@
 53	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Como, na prática, trabalhamos com m grande volume de dados amostrados (ou discretos), lança-se mão das técnicas da FFT e tais procedimentos descritos nesse parágrafo se tornam fundamentais para que se possa usufruir das vantagens da metodologia DEXP em relação à Deconvolução de Euler na determinação das profundidades das fontes, uma vez que a metodologia DEXP não gera um número alto de soluções como a Deconvolução de Euler.
-# sent_id = 123-20140128-TESEMSC_0-260
+# sent_id = 123-20140128-TESEMSC_0-257
 1	Como	como	SCONJ	_	_	7	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -10213,7 +10131,7 @@
 55	Deconvolução	Deconvolução	PROPN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 56	de	de	ADP	_	_	57	case	_	_
 57	Euler	Euler	PROPN	_	Number=Sing	55	nmod	_	_
-58-59	na	_	_	_	_	_	_	_	_
+58-59	na	_	_	_	_	_	_	_	SpacesAfter=\s\n
 58	em	em	ADP	_	_	60	case	_	_
 59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
 60	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	_
@@ -10244,5 +10162,5 @@
 83	Deconvolução	Deconvolução	PROPN	_	Gender=Fem|Number=Sing	77	nmod	_	_
 84	de	de	ADP	_	_	85	case	_	_
 85	Euler	Euler	PROPN	_	Number=Sing	83	nmod	_	SpaceAfter=No
-86	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+86	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n\n
 

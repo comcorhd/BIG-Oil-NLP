@@ -473,7 +473,7 @@
 40	[	[	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	1	1	NUM	_	NumType=Card	36	appos	_	SpaceAfter=No
 42	]	_	PUNCT	_	_	41	punct	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 1.3.
 # sent_id = 256-20140917-MONOGRAFIA_0-15
@@ -871,7 +871,7 @@
 27	sob	sob	ADP	_	_	29	case	_	_
 28	quais	qual	DET	_	Gender=Fem|Number=Plur|PronType=Rel	29	det	_	_
 29	limitações	limitação	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 256-20140917-MONOGRAFIA_0-26
@@ -1046,7 +1046,7 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Equação	Equação	PROPN	_	Gender=Fem|Number=Sing	18	obl:agent	_	_
 22	1	1	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	25	punct	_	_
+23	:	:	PUNCT	_	_	25	punct	_	SpacesAfter=\s\n
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	1	1	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	25	punct	_	_
@@ -1290,7 +1290,7 @@
 42	:	:	PUNCT	_	_	37	punct	_	_
 43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
 44	7	7	NUM	_	NumType=Card	42	appos	_	SpaceAfter=No
-45	)	)	PUNCT	_	_	44	punct	_	_
+45	)	)	PUNCT	_	_	44	punct	_	SpacesAfter=\s\n
 
 # text = A solução da Equação 7 para vibração livre se dá através do método de separação de variáveis e após algumas manipulações chega-se a Equação 8 para a frequência natural da viga: (8)
 # sent_id = 256-20140917-MONOGRAFIA_0-41
@@ -1564,7 +1564,7 @@
 42	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	fixed	_	_
 43	três	três	NUM	_	NumType=Card	44	nummod	_	_
 44	graus	grau	NOUN	_	Gender=Masc|Number=Plur	39	obl	_	_
-45	de	de	ADP	_	_	46	case	_	_
+45	de	de	ADP	_	_	46	case	_	SpacesAfter=\s\n
 46	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -1589,25 +1589,21 @@
 15	equações	equação	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	6	punct	_	_
 
-# text = Figura 3 - Representação Condição Bi-Apoiada Deflexão = 0 => Momento Fletor = 0 => 2.4.2.
+# text = Figura 3 - Representação Condição Bi-Apoiada Momento Fletor = 0 => 2.4.2.
 # sent_id = 256-20140917-MONOGRAFIA_0-52
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
-4	Representação	representação	PROPN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Representação	representação	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
 5	Condição	condição	PROPN	_	Number=Sing	4	flat:name	_	_
 6	Bi-Apoiada	Bi-Apoiada	PROPN	_	Number=Sing	4	flat:name	_	_
-7	Deflexão	Deflexão	PROPN	_	Number=Sing	4	flat:name	_	_
-8	=	=	SYM	_	_	10	nmod	_	_
-9	0	0	NUM	_	NumType=Card	8	nummod	_	_
-10	=>	=>	SYM	_	_	4	appos	_	_
-11	Momento	Momento	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
-12	Fletor	Fletor	PROPN	_	Number=Sing	11	flat:name	_	_
-13	=	=	SYM	_	_	11	appos	_	_
-14	0	0	NUM	_	NumType=Card	15	nummod	_	_
-15	=>	=>	SYM	_	_	13	appos	_	_
-16	2.4.2	2.4.2	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	_
+7	Momento	Momento	PROPN	_	Number=Sing	4	flat:name	_	_
+8	Fletor	Fletor	PROPN	_	Number=Sing	4	flat:name	_	_
+9	=	=	SYM	_	_	4	appos	_	_
+10	0	0	NUM	_	NumType=Card	11	nummod	_	_
+11	=>	=>	SYM	_	_	9	appos	_	_
+12	2.4.2	2.4.2	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Livre-Livre
 # sent_id = 256-20140917-MONOGRAFIA_0-53
@@ -1680,7 +1676,7 @@
 59	Cisalhamento	Cisalhamento	PROPN	_	Number=Sing	60	nmod	_	_
 60	=	=	SYM	_	_	57	nmod	_	_
 61	0	0	NUM	_	NumType=Card	62	nummod	_	_
-62	=>	=>	SYM	_	_	60	appos	_	_
+62	=>	=>	SYM	_	_	60	appos	_	SpacesAfter=\s\n
 63	2.4.3	2.4.3	NUM	_	NumType=Card	62	nummod	_	SpaceAfter=No
 64	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -1768,7 +1764,7 @@
 11	Inclinação	Inclinação	PROPN	_	Gender=Fem|Number=Sing	10	appos	_	_
 12	=	=	SYM	_	_	11	nmod	_	_
 13	0	0	NUM	_	NumType=Card	12	nummod	_	_
-14	=>	=>	SYM	_	_	1	appos	_	_
+14	=>	=>	SYM	_	_	1	appos	_	SpacesAfter=\s\n
 15	3	3	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1979,7 +1975,7 @@
 24	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	caso	caso	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n\n
 
 # text = Uma das técnicas aplicadas é a utilização de pedras sobre os dutos, gerando um aumento no peso e permitindo, assim, estabilizá-lo e protegê-lo de possíveis danos.
 # sent_id = 256-20140917-MONOGRAFIA_0-66
@@ -2134,7 +2130,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	6	6	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
-11	]	_	PUNCT	_	_	1	punct	_	_
+11	]	_	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 12	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 13	9	9	NUM	_	NumType=Card	24	appos:parataxis	_	_
 14	–	–	PUNCT	_	_	15	punct	_	_
@@ -2269,7 +2265,7 @@
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	7	7	NUM	_	NumType=Card	4	appos	_	SpaceAfter=No
-11	]	_	PUNCT	_	_	4	punct	_	_
+11	]	_	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 12	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	11	11	NUM	_	NumType=Card	15	nummod	_	_
 14	-	-	PUNCT	_	_	15	punct	_	_
@@ -2486,7 +2482,7 @@
 113	crítica	crítica	ADJ	_	Gender=Fem|Number=Sing	112	amod	_	_
 114	de	de	ADP	_	_	115	case	_	_
 115	flambagem	flambagem	NOUN	_	Gender=Fem|Number=Sing	112	nmod	_	SpaceAfter=No
-116	.	.	PUNCT	_	_	112	punct	_	SpacesAfter=\n
+116	.	.	PUNCT	_	_	112	punct	_	SpacesAfter=\n\n
 
 # text = 3.2.2.
 # sent_id = 256-20140917-MONOGRAFIA_0-80
@@ -2614,128 +2610,65 @@
 35	duto	duto	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
-# text = Restrições de aplicação: Tabela 1 - Condições de Contorno Norma DNV-RP-F105 [1] 2)
+# text = Restrições de aplicação: 3.3.
 # sent_id = 256-20140917-MONOGRAFIA_0-85
 1	Restrições	restrição	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-4	:	:	PUNCT	_	_	1	punct	_	_
-5	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
-6	1	1	PROPN	_	Number=Sing	5	flat:name	_	_
-7	-	-	PUNCT	_	_	5	punct	_	_
-8	Condições	condições	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	Contorno	contorno	PROPN	_	Number=Sing	8	nmod	_	_
-11	Norma	norma	PROPN	_	Number=Sing	10	flat:name	_	_
-12	DNV-RP-F105	DNV-RP-F105	PROPN	_	Number=Sing	10	flat:name	_	_
-13	[	[	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	1	1	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-15	]	_	PUNCT	_	_	14	punct	_	_
-16	2	2	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	14	punct	_	_
+4	:	:	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
+5	3.3	3.3	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = For pinned-pin boundary condition Leff is to be replaced by L in the above expressions also for Pcr. 3)
+# text = Comprimento
 # sent_id = 256-20140917-MONOGRAFIA_0-86
-1	For	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
-2	pinned-pin	pinned-pin	X	_	_	7	amod	_	_
-3	boundary	boundary	X	_	_	2	flat:foreign	_	_
-4	condition	conditiom	ADP	_	_	5	case	_	_
-5	Leff	Leff	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	_
-6	is	l	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-7	to	to	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-8	be	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
-9	replaced	replaced	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-10	by	by	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
-11	L	L	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
-12	in	in	PROPN	_	Number=Sing	11	flat:name	_	_
-13	the	the	PROPN	_	Number=Sing	11	flat:name	_	_
-14	above	abover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
-15	expressions	expressions	ADP	_	_	16	case	_	_
-16	also	also	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
-17	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	cop	_	_
-18	Pcr.	Pcr.	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
-19	3)	3)	PROPN	_	Number=Sing	18	flat:name	_	_
+1	Comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
-# text = For fixed-fixed boundary conditions Leff/L=1 per definition.
+# text = Efetivo
 # sent_id = 256-20140917-MONOGRAFIA_0-87
-1	For	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
-2	fixed-fixed	fixed-fixed	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-3	boundary	boundary	X	_	_	5	amod	_	_
-4	conditions	conditions	X	_	_	3	flat:foreign	_	_
-5	Leff/L=1	Leff/L=1	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-6	per	per	VERB	_	VerbForm=Inf	2	csubj	_	_
-7	definition.	definition.	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpacesAfter=\n
+1	Efetivo	Efetivo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 
-# text = 4)
+# text = Como proposto por Hobbs, ref [8], o conceito de comprimento efetivo significa a frequência natural de um vão livre com comprimento L apoiado sobre suportes elásticos sujeitos a pressões externas e internas.
 # sent_id = 256-20140917-MONOGRAFIA_0-88
-1	4)	4)	NUM	_	NumType=Card	0	root	_	_
-
-# text = C5 shall be calculated using the static soil stiffness in the Leff/L calculation.
-# sent_id = 256-20140917-MONOGRAFIA_0-89
-1	C5	C5	NUM	_	NumType=Card	2	nummod	_	_
-2	shall	shall	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-3	be	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	calculated	calculated	PROPN	_	Gender=Masc|Number=Plur	3	obj	_	_
-5	using	using	PROPN	_	Number=Sing	4	flat:name	_	_
-6	the	the	PROPN	_	Number=Sing	4	flat:name	_	_
-7	static	static	PROPN	_	Number=Sing	4	flat:name	_	_
-8	soil	soil	PROPN	_	Number=Sing	4	flat:name	_	_
-9	stiffness	stiffness	PROPN	_	Number=Sing	4	flat:name	_	_
-10	in	in	PROPN	_	Number=Sing	4	flat:name	_	_
-11	the	the	PROPN	_	Number=Sing	4	flat:name	_	_
-12	Leff/L	Leff/L	PROPN	_	Number=Sing	4	flat:name	_	_
-13	calculation	calculation	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
-
-# text = 3.3.
-# sent_id = 256-20140917-MONOGRAFIA_0-90
-1	3.3	3.3	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
-
-# text = Comprimento Efetivo Como proposto por Hobbs, ref [8], o conceito de comprimento efetivo significa a frequência natural de um vão livre com comprimento L apoiado sobre suportes elásticos sujeitos a pressões externas e internas.
-# sent_id = 256-20140917-MONOGRAFIA_0-91
-1	Comprimento	comprimento	PROPN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
-2	Efetivo	Efetivo	PROPN	_	Number=Sing	1	flat:name	_	_
-3	Como	Como	PROPN	_	Number=Sing	1	flat:name	_	_
-4	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
-5	por	por	ADP	_	_	6	case	_	_
-6	Hobbs	Hobbs	PROPN	_	Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	ref	ref	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-9	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	8	8	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
-11	]	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	1	punct	_	_
-13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	conceito	conceito	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-17	efetivo	efetivo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-18	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21	natural	natural	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	vão	vão	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-25	livre	livre	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-26	com	com	ADP	_	_	27	case	_	_
-27	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-28	L	L	PROPN	_	Gender=Masc|Number=Plur	27	appos	_	_
-29	apoiado	apoiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	_
-30	sobre	sobre	ADP	_	_	31	case	_	_
-31	suportes	suporte	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	_
-32	elásticos	elástico	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	_
-33	sujeitos	sujeitar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	31	acl	_	_
-34	a	a	ADP	_	_	35	case	_	_
-35	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	33	obj	_	_
-36	externas	externo	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
-37	e	e	CCONJ	_	_	38	cc	_	_
-38	internas	interno	ADJ	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	18	punct	_	_
+1	Como	como	SCONJ	_	_	2	mark	_	_
+2	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
+3	por	por	ADP	_	_	4	case	_	_
+4	Hobbs	Hobbs	PROPN	_	Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	ref	ref	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	8	8	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+9	]	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	conceito	conceito	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	efetivo	efetivo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	natural	natural	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	vão	vão	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+23	livre	livre	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	com	com	ADP	_	_	25	case	_	_
+25	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+26	L	L	PROPN	_	Gender=Masc|Number=Plur	25	appos	_	_
+27	apoiado	apoiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	_
+28	sobre	sobre	ADP	_	_	29	case	_	_
+29	suportes	suporte	NOUN	_	Gender=Masc|Number=Plur	27	obl	_	_
+30	elásticos	elástico	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
+31	sujeitos	sujeitar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	_
+32	a	a	ADP	_	_	33	case	_	_
+33	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	31	obj	_	_
+34	externas	externo	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	internas	interno	ADJ	_	Gender=Fem|Number=Plur	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Este efeito de comprimento efetivo deve-se ao fato da vibração ultrapassar os limites do comprimento do vão para o caso do duto bi-apoiado, ou seja, uma parte maior do que o vão sofre influência desta vibração sendo necessário assim realizar esta correção.
-# sent_id = 256-20140917-MONOGRAFIA_0-92
+# sent_id = 256-20140917-MONOGRAFIA_0-89
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2799,7 +2732,7 @@
 53	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = A representação do exposto acima pode ser visto na Figura 12 abaixo, onde é possível observar algumas das propriedades do duto tais como, deflexão , tração efetiva , massa efetiva , comprimento do vão L, rigidez flexional EI e a constante referente à rigidez vertical do solo K.
-# sent_id = 256-20140917-MONOGRAFIA_0-93
+# sent_id = 256-20140917-MONOGRAFIA_0-90
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	representação	representação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -2835,7 +2768,7 @@
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	deflexão	deflexão	ADV	_	_	32	advmod	_	_
 31	,	,	PUNCT	_	_	30	punct	_	_
-32	tração	tração	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
+32	tração	tração	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	SpacesAfter=\s\n
 33	efetiva	efetivo	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	massa	masso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	36	det	_	_
@@ -2867,7 +2800,7 @@
 58	K.	K.	PROPN	_	Gender=Masc|Number=Sing	57	appos	_	SpacesAfter=\n
 
 # text = Figura 12 – Modelo de apoios elásticos, [9] A rigidez vertical do solo é um dos fatores preponderantes para o cálculo do parâmetro de solo responsável por governar a razão e pode ser apresentado pela Equação 13.
-# sent_id = 256-20140917-MONOGRAFIA_0-94
+# sent_id = 256-20140917-MONOGRAFIA_0-91
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 2	12	12	NUM	_	NumType=Card	1	nummod	_	_
 3	–	–	PUNCT	_	_	4	punct	_	_
@@ -2919,13 +2852,13 @@
 45	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
 # text = (13)
-# sent_id = 256-20140917-MONOGRAFIA_0-95
+# sent_id = 256-20140917-MONOGRAFIA_0-92
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	13	13	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Para valores muito elevados de , pode-se concluir que existe uma maior rigidez de solo de modo a se aproximar do caso de extremidades bi-engastadas.
-# sent_id = 256-20140917-MONOGRAFIA_0-96
+# sent_id = 256-20140917-MONOGRAFIA_0-93
 1	Para	para	ADP	_	_	2	case	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	muito	muito	ADV	_	_	4	advmod	_	_
@@ -2958,7 +2891,7 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Isto pode se explicar devido a uma elevação da rigidez vertical do solo K diminuindo os efeitos da vibração para pontos mais extremos levando a relação para próximo da unidade, o que é bem razoável uma vez que a extremidade está considerada fixa.
-# sent_id = 256-20140917-MONOGRAFIA_0-97
+# sent_id = 256-20140917-MONOGRAFIA_0-94
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	4	nsubj	_	_
@@ -3014,7 +2947,7 @@
 49	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Pode-se concluir, então, que para uma extremidade apoiada o efeito seja diferente com uma rigidez vertical do solo K ligeiramente menor, pois o duto está apenas apoiado no solo não mais fixo, desta forma o efeito de rigidez vertical do solo se torna menor, causando uma diminuição do valor de e levando a razão entre para valores maiores que a unidade.
-# sent_id = 256-20140917-MONOGRAFIA_0-98
+# sent_id = 256-20140917-MONOGRAFIA_0-95
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3096,7 +3029,7 @@
 73	.	.	PUNCT	_	_	72	punct	_	SpacesAfter=\n
 
 # text = Segundo Pedrosa, ref [9], a partir de uma comparação entre os resultados de Hobbs com resultados de elementos finitos, estes se apresentaram de forma compatível e pode-se traçar o gráfico exposto na Figura 13.
-# sent_id = 256-20140917-MONOGRAFIA_0-99
+# sent_id = 256-20140917-MONOGRAFIA_0-96
 1	Segundo	segundo	ADP	_	_	2	case	_	_
 2	Pedrosa	Pedrosa	PROPN	_	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3140,10 +3073,10 @@
 39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	37	obl	_	_
 41	13	13	NUM	_	NumType=Card	40	nummod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n\n
 
 # text = Figura 13 - Gráfico Comparação Leff/L, [9] Portanto, pode-se concluir que o conceito de comprimento efetivo deve ser utilizado para a condição de contorno do tipo bi-apoiada (pinned-pinned), entretanto para a condição bi-engastada (fixed-fixed) utiliza-se o próprio comprimento L. 3.4.
-# sent_id = 256-20140917-MONOGRAFIA_0-100
+# sent_id = 256-20140917-MONOGRAFIA_0-97
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	13	13	NUM	_	NumType=Card	9	conj	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -3202,12 +3135,12 @@
 53	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Caso Adimensional
-# sent_id = 256-20140917-MONOGRAFIA_0-101
+# sent_id = 256-20140917-MONOGRAFIA_0-98
 1	Caso	caso	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Adimensional	Adimensional	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Uma forma mais polida de tratar um problema é definir variáveis que governem o problema como um todo.
-# sent_id = 256-20140917-MONOGRAFIA_0-102
+# sent_id = 256-20140917-MONOGRAFIA_0-99
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	mais	mais	ADV	_	_	4	advmod	_	_
@@ -3229,7 +3162,7 @@
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Reduzir problemas complexos e de muitas variáveis a equações simples e com poucas variáveis é de grande valia para solucionar questões de engenharia.
-# sent_id = 256-20140917-MONOGRAFIA_0-103
+# sent_id = 256-20140917-MONOGRAFIA_0-100
 1	Reduzir	reduzir	VERB	_	VerbForm=Inf	18	nsubj	_	_
 2	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 3	complexos	complexo	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -3256,7 +3189,7 @@
 24	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = No presente caso de estudo, para fins de simplificação e resumo do problema, algumas definições foram realizadas.
-# sent_id = 256-20140917-MONOGRAFIA_0-104
+# sent_id = 256-20140917-MONOGRAFIA_0-101
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3283,7 +3216,7 @@
 22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = A formulação de deflexão inicial proposta pela DNV-RP-F105, ref [1], é expressa pela Equação 11.
-# sent_id = 256-20140917-MONOGRAFIA_0-105
+# sent_id = 256-20140917-MONOGRAFIA_0-102
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3310,7 +3243,7 @@
 22	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Entretanto, para o caso específico de estudo não utilizaremos cimento na fixação do duto então o fator será nulo.
-# sent_id = 256-20140917-MONOGRAFIA_0-106
+# sent_id = 256-20140917-MONOGRAFIA_0-103
 1	Entretanto	entretanto	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -3338,7 +3271,7 @@
 23	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = Outro artifício é dividir toda a equação por D, uma vez que a utilização da deflexão está associada à razão entre esta e o diâmetro
-# sent_id = 256-20140917-MONOGRAFIA_0-107
+# sent_id = 256-20140917-MONOGRAFIA_0-104
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	artifício	artifício	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3371,7 +3304,7 @@
 28	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 
 # text = D do duto.
-# sent_id = 256-20140917-MONOGRAFIA_0-108
+# sent_id = 256-20140917-MONOGRAFIA_0-105
 1	D	d	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3380,7 +3313,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Desta forma, temos uma redução da Equação 11 para: (14)
-# sent_id = 256-20140917-MONOGRAFIA_0-109
+# sent_id = 256-20140917-MONOGRAFIA_0-106
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -3401,7 +3334,7 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = A ideia é reduzir ao mínimo de variáveis possíveis visando obter uma melhor visualização do problema.
-# sent_id = 256-20140917-MONOGRAFIA_0-110
+# sent_id = 256-20140917-MONOGRAFIA_0-107
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3425,7 +3358,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Pode-se então definir dois termos adimensionais e que governarão a equação da deflexão estática e consequentemente a frequência natural de vibração.
-# sent_id = 256-20140917-MONOGRAFIA_0-111
+# sent_id = 256-20140917-MONOGRAFIA_0-108
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3435,7 +3368,7 @@
 6	termos	termo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 7	adimensionais	adimensional	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 8	e	e	CCONJ	_	_	10	cc	_	_
-9	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	SpacesAfter=\s\n
 10	governarão	governar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	equação	equação	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
@@ -3454,14 +3387,14 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = (15) (16)
-# sent_id = 256-20140917-MONOGRAFIA_0-112
+# sent_id = 256-20140917-MONOGRAFIA_0-109
 1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	15)	15)	NUM	_	NumType=Card	4	nummod	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	16)	16)	NUM	_	NumType=Card	0	root	_	_
 
 # text = Portanto, temos a formulação da deflexão estática sendo governada apenas pela constante devido à condição de contorno aplicada à tubulação e pelos adimensionais e (17)
-# sent_id = 256-20140917-MONOGRAFIA_0-113
+# sent_id = 256-20140917-MONOGRAFIA_0-110
 1	Portanto	portanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3502,7 +3435,7 @@
 33	)	)	PUNCT	_	_	3	punct	_	_
 
 # text = A formulação aproximada para frequência natural proposta pela DNV-RP-F105, ref [1], é expressa pela Equação 12.
-# sent_id = 256-20140917-MONOGRAFIA_0-114
+# sent_id = 256-20140917-MONOGRAFIA_0-111
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
 3	aproximada	aproximar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -3530,7 +3463,7 @@
 23	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Novamente não utilizaremos cimento na fixação do duto, então o fator será nulo.
-# sent_id = 256-20140917-MONOGRAFIA_0-115
+# sent_id = 256-20140917-MONOGRAFIA_0-112
 1	Novamente	novamente	ADV	_	_	3	advmod	_	_
 2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
 3	utilizaremos	utilizarer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3552,7 +3485,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Como sabemos pela Equação 8 que a frequência natural é dada por: (18)
-# sent_id = 256-20140917-MONOGRAFIA_0-116
+# sent_id = 256-20140917-MONOGRAFIA_0-113
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	sabemos	sabar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3-4	pela	_	_	_	_	_	_	_	_
@@ -3573,7 +3506,7 @@
 17	)	)	PUNCT	_	_	16	punct	_	_
 
 # text = E assumindo que: (19)
-# sent_id = 256-20140917-MONOGRAFIA_0-117
+# sent_id = 256-20140917-MONOGRAFIA_0-114
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	assumindo	assumir	VERB	_	VerbForm=Ger	0	root	_	_
 3	que	que	SCONJ	_	_	2	mark	_	SpaceAfter=No
@@ -3583,7 +3516,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 
 # text = Então temos que a Equação 19 pode ser reescrita como: (20)
-# sent_id = 256-20140917-MONOGRAFIA_0-118
+# sent_id = 256-20140917-MONOGRAFIA_0-115
 1	Então	então	ADV	_	_	2	advmod	_	_
 2	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	7	mark	_	_
@@ -3600,7 +3533,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = Realizando o mesmo procedimento, utilizando-se agora dos adimensionais definidos anteriormente pelas Equação 15 e Equação 16 e substituindo estes na Equação 20 temos que a formulação da frequência natural pode ser expressa por: (21)
-# sent_id = 256-20140917-MONOGRAFIA_0-119
+# sent_id = 256-20140917-MONOGRAFIA_0-116
 1	Realizando	realizar	VERB	_	VerbForm=Ger	28	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -3645,13 +3578,13 @@
 37	ser	ser	AUX	_	VerbForm=Inf	38	aux:pass	_	_
 38	expressa	esprimir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	36	xcomp	_	_
 39	por	por	ADP	_	_	42	case	_	SpaceAfter=No
-40	:	:	PUNCT	_	_	42	punct	_	_
+40	:	:	PUNCT	_	_	42	punct	_	SpacesAfter=\s\n
 41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
 42	21	21	NUM	_	NumType=Card	38	obl	_	SpaceAfter=No
 43	)	)	PUNCT	_	_	42	punct	_	_
 
 # text = Desta forma, pode-se observar que apenas com a definição dos adimensionais e , além é claro das condições de contorno aplicadas, tem-se definido a deflexão estática sofrida pelo duto e sua frequência natural de vibração.
-# sent_id = 256-20140917-MONOGRAFIA_0-120
+# sent_id = 256-20140917-MONOGRAFIA_0-117
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -3701,15 +3634,15 @@
 41	natural	natural	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
 42	de	de	ADP	_	_	43	case	_	_
 43	vibração	vibração	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 4.
-# sent_id = 256-20140917-MONOGRAFIA_0-121
+# sent_id = 256-20140917-MONOGRAFIA_0-118
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Estudo de Caso Prático 4.1.
-# sent_id = 256-20140917-MONOGRAFIA_0-122
+# sent_id = 256-20140917-MONOGRAFIA_0-119
 1	Estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Caso	Caso	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3718,7 +3651,7 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Definição do Projeto
-# sent_id = 256-20140917-MONOGRAFIA_0-123
+# sent_id = 256-20140917-MONOGRAFIA_0-120
 1	Definição	definição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3726,7 +3659,7 @@
 4	Projeto	Projeto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = O estudo de caso prático consiste na definição de um duto com dimensões próximas das reais submetido a vãos livres comumente encontrados no leito dos oceanos.
-# sent_id = 256-20140917-MONOGRAFIA_0-124
+# sent_id = 256-20140917-MONOGRAFIA_0-121
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3764,7 +3697,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os dutos submarinos, quando sujeitos a vãos livres e ao peso próprio, irão apresentar uma deflexão inicial, que provocará uma alteração em suas frequências naturais de vibração.
-# sent_id = 256-20140917-MONOGRAFIA_0-125
+# sent_id = 256-20140917-MONOGRAFIA_0-122
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dutos	duto	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 3	submarinos	submarino	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -3800,7 +3733,7 @@
 32	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Os efeitos causados nos dutos devido a esta alteração da frequência podem acarretar em problemas como a diminuição do tempo de vida em fadiga, caso não sejam tomados os devidos cuidados e efeitos de mitigação já mencionados neste presente projeto.
-# sent_id = 256-20140917-MONOGRAFIA_0-126
+# sent_id = 256-20140917-MONOGRAFIA_0-123
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	causados	causar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -3853,12 +3786,12 @@
 46	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = 4.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-127
+# sent_id = 256-20140917-MONOGRAFIA_0-124
 1	4.2	4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Dados do Projeto
-# sent_id = 256-20140917-MONOGRAFIA_0-128
+# sent_id = 256-20140917-MONOGRAFIA_0-125
 1	Dados	dado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -3866,7 +3799,7 @@
 4	Projeto	Projeto	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = Optou-se por utilizar tubulações de diâmetros próximos dos reais visando trazer a teoria vista na graduação para uma aplicação prática no dia-a-dia de um profissional de engenharia submarina.
-# sent_id = 256-20140917-MONOGRAFIA_0-129
+# sent_id = 256-20140917-MONOGRAFIA_0-126
 1-2	Optou-se	_	_	_	_	_	_	_	_
 1	Optou	optar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3906,7 +3839,7 @@
 33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Os diâmetros adotados para o presente projeto foram 6’’, 12’’, 18’’ e 24’’ de forma que assim varrem-se praticamente todos os valores de diâmetros comumente utilizados nas operações com petróleo e gás com dutos submarinos.
-# sent_id = 256-20140917-MONOGRAFIA_0-130
+# sent_id = 256-20140917-MONOGRAFIA_0-127
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	diâmetros	diâmetro	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	adotados	adotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -3959,7 +3892,7 @@
 48	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Dois casos foram definidos para verificação das frequências naturais de vibração, sendo um deles com a condição de contorno com as extremidades engastadas e a outra com a condição de contorno para as extremidades apoiadas.
-# sent_id = 256-20140917-MONOGRAFIA_0-131
+# sent_id = 256-20140917-MONOGRAFIA_0-128
 1	Dois	dois	NUM	_	NumType=Card	2	nummod	_	_
 2	casos	caso	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4003,7 +3936,7 @@
 39	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Sendo assim, foram estudadas as respostas dos dutos submarinos para a deflexão inicial considerando as condições de contorno bi-apoiada e bi-engastada.
-# sent_id = 256-20140917-MONOGRAFIA_0-132
+# sent_id = 256-20140917-MONOGRAFIA_0-129
 1	Sendo	ser	VERB	_	VerbForm=Ger	0	root	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -4031,7 +3964,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Além das observações acima mencionadas, vale destacar que no leito do oceano os dutos estão conectados uns aos outros de forma a não estarem soltos e sendo assim será aplicada uma tensão na extremidade do duto de 500 kN visando simular este efeito.
-# sent_id = 256-20140917-MONOGRAFIA_0-133
+# sent_id = 256-20140917-MONOGRAFIA_0-130
 1	Além	além	ADV	_	_	8	advmod	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4091,7 +4024,7 @@
 51	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Os dutos foram considerados como estando cheios de água, o que acontece em alguns lançamentos, visando obter um caso mais crítico de frequências naturais.
-# sent_id = 256-20140917-MONOGRAFIA_0-134
+# sent_id = 256-20140917-MONOGRAFIA_0-131
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	dutos	duto	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -4121,7 +4054,7 @@
 27	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O peso associado ao duto foi considerado o peso de aço mais o peso do líquido interior, de forma a utilizar-se apenas um peso específico.
-# sent_id = 256-20140917-MONOGRAFIA_0-135
+# sent_id = 256-20140917-MONOGRAFIA_0-132
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	peso	peso	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	associado	associar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4157,7 +4090,7 @@
 30	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Primeiramente realizam-se os cálculos para as frequências naturais de vibração pela formulação aproximada fornecida pela DNV-RP-F105, ref [1].
-# sent_id = 256-20140917-MONOGRAFIA_0-136
+# sent_id = 256-20140917-MONOGRAFIA_0-133
 1	Primeiramente	primeiramente	ADV	_	_	2	advmod	_	_
 2-3	realizam-se	_	_	_	_	_	_	_	_
 2	realizam	realizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4188,9 +4121,9 @@
 25	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Posteriormente, através da modelação dos dutos em elementos finitos (MEF), são calculadas novamente as frequências naturais de vibração para verificar com qual percentual de aproximação a formulação proposta pela norma atende aos casos tratados e definidos neste presente projeto.
-# sent_id = 256-20140917-MONOGRAFIA_0-137
+# sent_id = 256-20140917-MONOGRAFIA_0-134
 1	Posteriormente	posteriormente	ADV	_	_	11	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 3	através	através	ADV	_	_	1	advmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -4245,7 +4178,7 @@
 49	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = Abaixo estão apresentados, na Tabela 2, os dados utilizados para a obtenção dos resultados que serão apresentados.
-# sent_id = 256-20140917-MONOGRAFIA_0-138
+# sent_id = 256-20140917-MONOGRAFIA_0-135
 1	Abaixo	abaixo	ADV	_	_	3	advmod	_	_
 2	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -4272,7 +4205,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Tabela 2 - Dados de Entrada para Cálculos 4.3.
-# sent_id = 256-20140917-MONOGRAFIA_0-139
+# sent_id = 256-20140917-MONOGRAFIA_0-136
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -4285,18 +4218,18 @@
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados 4.3.1.
-# sent_id = 256-20140917-MONOGRAFIA_0-140
+# sent_id = 256-20140917-MONOGRAFIA_0-137
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	4.3.1	4.3.1	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Formulação DNV-RP-F105
-# sent_id = 256-20140917-MONOGRAFIA_0-141
+# sent_id = 256-20140917-MONOGRAFIA_0-138
 1	Formulação	Formulação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	DNV-RP-F105	DNV-RP-F105	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = A partir da formulação aproximada proposta pela norma, pode-se realizar os cálculos para encontrar a frequência natural de vibração para os casos definidos anteriormente, bi-apoiado e bi-engastado.
-# sent_id = 256-20140917-MONOGRAFIA_0-142
+# sent_id = 256-20140917-MONOGRAFIA_0-139
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	12	fixed	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -4335,17 +4268,17 @@
 33	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = 4.3.1.1.
-# sent_id = 256-20140917-MONOGRAFIA_0-143
+# sent_id = 256-20140917-MONOGRAFIA_0-140
 1	4.3.1.1	4.3.1.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Duto Bi-Apoiado
-# sent_id = 256-20140917-MONOGRAFIA_0-144
+# sent_id = 256-20140917-MONOGRAFIA_0-141
 1	Duto	Duto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Bi-Apoiado	Bi-apoiado	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = A partir dos dados de entrada fornecidos anteriormente e da formulação apresentada nas seções 3.2.1 e 3.2.2, pode-se calcular os termos adimensionais e assim obter os valores aproximados a partir da DNV-RP-F105, ref [1], apresentados na Tabela 3.
-# sent_id = 256-20140917-MONOGRAFIA_0-145
+# sent_id = 256-20140917-MONOGRAFIA_0-142
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	5	fixed	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -4401,10 +4334,10 @@
 47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	Tabela	Tabela	PROPN	_	Gender=Fem|Number=Sing	45	obl	_	_
 49	3	3	PROPN	_	Number=Sing	48	flat:name	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+50	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 3 - Resultados Formulação aproximada DNV-RP-F105 (Bi-Apoiado) 4.3.1.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-146
+# sent_id = 256-20140917-MONOGRAFIA_0-143
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -4419,12 +4352,12 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Duto Bi-Engastado
-# sent_id = 256-20140917-MONOGRAFIA_0-147
+# sent_id = 256-20140917-MONOGRAFIA_0-144
 1	Duto	Duto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Bi-Engastado	Bi-Engastado	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Utilizando-se do mesmo procedimento e alterando-se apenas a condição de contorno para o caso bi-engastado, pode-se então obter os valores analíticos da formulação aproximada da norma, os quais estão apresentados na Tabela 4: Tabela 4 – Resultados Formulação aproximada DNV-RP-F105 (Bi-Engastado) 4.3.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-148
+# sent_id = 256-20140917-MONOGRAFIA_0-145
 1-2	Utilizando-se	_	_	_	_	_	_	_	_
 1	Utilizando	utilizar	VERB	_	VerbForm=Ger	20	advcl	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -4489,12 +4422,12 @@
 55	.	.	PUNCT	_	_	20	punct	_	_
 
 # text = Elementos Finitos
-# sent_id = 256-20140917-MONOGRAFIA_0-149
+# sent_id = 256-20140917-MONOGRAFIA_0-146
 1	Elementos	elementos	PROPN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	Finitos	Finitos	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Uma vez obtidas as frequências naturais de vibração a partir da formulação aproximada da norma DNV-RP-F105, ref [1], faz-se necessário agora a realização dos modelos em elementos finitos (MEF) no Software Abaqus, ref [2] e [3], a fim de realizar a comparação entre os resultados obtidos e conseguir mensurar o percentual de acurácia da formulação proposta pela norma para os casos aqui definidos.
-# sent_id = 256-20140917-MONOGRAFIA_0-150
+# sent_id = 256-20140917-MONOGRAFIA_0-147
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
@@ -4584,10 +4517,10 @@
 80	casos	caso	NOUN	_	Gender=Masc|Number=Plur	74	obl	_	_
 81	aqui	aqui	ADV	_	_	82	advmod	_	_
 82	definidos	definir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	80	acl	_	SpaceAfter=No
-83	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+83	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n\n
 
 # text = O software utilizado para a simulação em elementos finitos foi o Abaqus 6.11, ref [2] e [3].
-# sent_id = 256-20140917-MONOGRAFIA_0-151
+# sent_id = 256-20140917-MONOGRAFIA_0-148
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	software	software	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -4613,7 +4546,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = No software Abaqus foram utilizados os mesmos dados inseridos nos cálculos referentes à parte analítica realizada na seção 4.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-152
+# sent_id = 256-20140917-MONOGRAFIA_0-149
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4644,7 +4577,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O material utilizado foi o Aço com Módulo de Elasticidade de 2,07E+11, coeficiente de Poisson 0,3 e densidade dependendo de cada caso, apresentadas na Figura 14 para o duto de 6 polegadas.
-# sent_id = 256-20140917-MONOGRAFIA_0-153
+# sent_id = 256-20140917-MONOGRAFIA_0-150
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	material	material	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -4684,7 +4617,7 @@
 36	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 14 - Propriedades do Material no MEF
-# sent_id = 256-20140917-MONOGRAFIA_0-154
+# sent_id = 256-20140917-MONOGRAFIA_0-151
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -4699,7 +4632,7 @@
 10	MEF	MEF	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
 
 # text = A seção utilizada no modelo foi uma seção do tipo Viga com perfil de duto, onde devem ser fornecidos o raio e a espessura.
-# sent_id = 256-20140917-MONOGRAFIA_0-155
+# sent_id = 256-20140917-MONOGRAFIA_0-152
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	seção	seção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -4732,7 +4665,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Na Figura 15 pode ser observado o caso para o duto de 6 polegadas.
-# sent_id = 256-20140917-MONOGRAFIA_0-156
+# sent_id = 256-20140917-MONOGRAFIA_0-153
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4752,7 +4685,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 15 - Propriedades da Seção utilizada
-# sent_id = 256-20140917-MONOGRAFIA_0-157
+# sent_id = 256-20140917-MONOGRAFIA_0-154
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	15	15	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -4761,10 +4694,10 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Seção	Seção	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
-8	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
+8	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	SpacesAfter=\s\n
 
 # text = Para a realização dos cálculos deve-se realizar uma convenção de sinais e de orientação, a qual foi adotada como positiva na direção crescente de cada eixo, como pode ser observado na Figura 16.
-# sent_id = 256-20140917-MONOGRAFIA_0-158
+# sent_id = 256-20140917-MONOGRAFIA_0-155
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	realização	realização	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -4811,7 +4744,7 @@
 40	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Figura 16 - Orientação do modelo
-# sent_id = 256-20140917-MONOGRAFIA_0-159
+# sent_id = 256-20140917-MONOGRAFIA_0-156
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	16	16	NUM	_	NumType=Card	1	obj	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -4822,7 +4755,7 @@
 7	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 
 # text = Após definidas as propriedades do modelo, pode-se partir para a modelação dos casos, como a condição de contorno aplicada ao duto.
-# sent_id = 256-20140917-MONOGRAFIA_0-160
+# sent_id = 256-20140917-MONOGRAFIA_0-157
 1	Após	após	ADP	_	_	2	case	_	_
 2	definidas	definida	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -4857,7 +4790,7 @@
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Para o caso bi-apoiado a extremidade esquerda é considerada pinada, onde não pode-se movimentar em nenhum dos três eixos x, y e z podendo apenas girar nos 3 graus de liberdade.
-# sent_id = 256-20140917-MONOGRAFIA_0-161
+# sent_id = 256-20140917-MONOGRAFIA_0-158
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -4900,7 +4833,7 @@
 37	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A extremidade à direita apresenta restrição no deslocamento apenas de y e z possibilitando o movimento em x para que possa acontecer a deflexão do duto devido ao seu peso próprio de forma a alterar a frequência natural, objeto de estudo.
-# sent_id = 256-20140917-MONOGRAFIA_0-162
+# sent_id = 256-20140917-MONOGRAFIA_0-159
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extremidade	extremidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -4954,7 +4887,7 @@
 47	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As condições supracitadas podem ser observadas na Figura 17.
-# sent_id = 256-20140917-MONOGRAFIA_0-163
+# sent_id = 256-20140917-MONOGRAFIA_0-160
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	supracitadas	supracitar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -4966,10 +4899,10 @@
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
 10	17	17	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 17 - Condição de Contorno Bi-Apoiada
-# sent_id = 256-20140917-MONOGRAFIA_0-164
+# sent_id = 256-20140917-MONOGRAFIA_0-161
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	17	17	NUM	_	NumType=Card	1	obj	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -4979,7 +4912,7 @@
 7	Bi-Apoiada	Bi-Apoiada	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Além da condição de contorno bi-apoiada, iremos neste trabalho realizar a simulação para a condição de contorno bi-engastada.
-# sent_id = 256-20140917-MONOGRAFIA_0-165
+# sent_id = 256-20140917-MONOGRAFIA_0-162
 1	Além	além	ADV	_	_	9	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5006,7 +4939,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Esta última apresenta a extremidade esquerda completamente fixa, não podendo se movimentar em nenhum dos 3 eixos e não podendo girar em nenhum dos 3 graus de liberdade.
-# sent_id = 256-20140917-MONOGRAFIA_0-166
+# sent_id = 256-20140917-MONOGRAFIA_0-163
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5043,7 +4976,7 @@
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = A extremidade direita deste caso pode-se movimentar apenas no eixo x, permanecendo as demais restrições aplicadas à extremidade esquerda.
-# sent_id = 256-20140917-MONOGRAFIA_0-167
+# sent_id = 256-20140917-MONOGRAFIA_0-164
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extremidade	extremidade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	direita	direito	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5075,7 +5008,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O exposto acima pode ser observado na Figura 18.
-# sent_id = 256-20140917-MONOGRAFIA_0-168
+# sent_id = 256-20140917-MONOGRAFIA_0-165
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	exposto	exposto	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	acima	acima	ADV	_	_	4	advmod	_	_
@@ -5090,7 +5023,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 18 - Condição de Contorno Bi-Engastada
-# sent_id = 256-20140917-MONOGRAFIA_0-169
+# sent_id = 256-20140917-MONOGRAFIA_0-166
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -5100,7 +5033,7 @@
 7	Bi-Engastada	Bi-engastada	PROPN	_	Number=Sing	6	flat:name	_	_
 
 # text = Após definidas as condições de contorno, pode-se agora aplicar o peso próprio no duto e a tração efetiva.
-# sent_id = 256-20140917-MONOGRAFIA_0-170
+# sent_id = 256-20140917-MONOGRAFIA_0-167
 1	Após	após	ADP	_	_	2	case	_	_
 2	definidas	definida	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -5127,7 +5060,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O peso próprio foi aplicado uniformemente em todo o duto e a tração aplicada pontualmente na extremidade direita, como pode ser observado na Figura 19.
-# sent_id = 256-20140917-MONOGRAFIA_0-171
+# sent_id = 256-20140917-MONOGRAFIA_0-168
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	peso	peso	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5158,10 +5091,10 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
 28	19	19	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 19 - Peso Próprio e Tração aplicados ao modelo
-# sent_id = 256-20140917-MONOGRAFIA_0-172
+# sent_id = 256-20140917-MONOGRAFIA_0-169
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	19	19	NUM	_	NumType=Card	0	root	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -5176,7 +5109,7 @@
 11	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 
 # text = Por fim, mas não menos importante, deve-se definir a malha do modelo, a qual será responsável por um melhor ou pior refinamento do resultado obtido através da simulação.
-# sent_id = 256-20140917-MONOGRAFIA_0-173
+# sent_id = 256-20140917-MONOGRAFIA_0-170
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
@@ -5219,7 +5152,7 @@
 36	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A fim de obter um resultado satisfatório, porém com um custo computacional razoável, foi utilizada uma malha proporcional ao tamanho do vão calculado, sendo a malha gerada de forma a obter sempre 100 elementos no modelo.
-# sent_id = 256-20140917-MONOGRAFIA_0-174
+# sent_id = 256-20140917-MONOGRAFIA_0-171
 1	A	a	ADP	_	_	4	mark	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -5268,7 +5201,7 @@
 43	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Ou seja, para um modelo de 64 metros o tamanho do elemento é igual a 0,64 metros caso este o calculado para o duto de 6 polegadas e exposto na Figura 20.
-# sent_id = 256-20140917-MONOGRAFIA_0-175
+# sent_id = 256-20140917-MONOGRAFIA_0-172
 1	Ou	ou	CCONJ	_	_	6	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -5309,7 +5242,7 @@
 36	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = Figura 20 - Malha gerada para o modelo
-# sent_id = 256-20140917-MONOGRAFIA_0-176
+# sent_id = 256-20140917-MONOGRAFIA_0-173
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	20	20	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -5320,7 +5253,7 @@
 8	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 
 # text = A partir da modelação realizada e apresentada nas figuras anteriores pode-se então obter os resultados do modelo em elementos finitos, os quais estão apresentados nas seções a seguir.
-# sent_id = 256-20140917-MONOGRAFIA_0-177
+# sent_id = 256-20140917-MONOGRAFIA_0-174
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	13	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -5360,20 +5293,20 @@
 32	seções	seção	NOUN	_	Gender=Fem|Number=Plur	29	obl	_	_
 33	a	a	SCONJ	_	_	34	mark	_	_
 34	seguir	seguir	VERB	_	VerbForm=Inf	29	advcl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = 4.3.2.1.
-# sent_id = 256-20140917-MONOGRAFIA_0-178
+# sent_id = 256-20140917-MONOGRAFIA_0-175
 1	4.3.2.1	4.3.2.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Duto Bi-Apoiado
-# sent_id = 256-20140917-MONOGRAFIA_0-179
+# sent_id = 256-20140917-MONOGRAFIA_0-176
 1	Duto	Duto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Bi-Apoiado	Bi-apoiado	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Após a simulação no Abaqus, ref [2] e [3], para o caso bi-apoiado chegou-se aos resultados apresentados na Tabela 5:
-# sent_id = 256-20140917-MONOGRAFIA_0-180
+# sent_id = 256-20140917-MONOGRAFIA_0-177
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
@@ -5411,7 +5344,7 @@
 31	:	:	PUNCT	_	_	21	punct	_	_
 
 # text = Tabela 5 - Resultados Elementos Finitos (Abaqus) – Bi-Apoiado 4.3.2.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-181
+# sent_id = 256-20140917-MONOGRAFIA_0-178
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -5427,12 +5360,12 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Duto Bi-Engastado
-# sent_id = 256-20140917-MONOGRAFIA_0-182
+# sent_id = 256-20140917-MONOGRAFIA_0-179
 1	Duto	Duto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Bi-Engastado	Bi-Engastado	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Após a simulação no Abaqus, ref [2] e [3], para o caso bi-engastado chegou-se aos resultados apresentados na Tabela 6:
-# sent_id = 256-20140917-MONOGRAFIA_0-183
+# sent_id = 256-20140917-MONOGRAFIA_0-180
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
@@ -5470,7 +5403,7 @@
 31	:	:	PUNCT	_	_	21	punct	_	_
 
 # text = Tabela 6 - Resultados Elementos Finitos (Abaqus) - Bi-Engastado 4.3.3.
-# sent_id = 256-20140917-MONOGRAFIA_0-184
+# sent_id = 256-20140917-MONOGRAFIA_0-181
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -5486,11 +5419,11 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = FatFree
-# sent_id = 256-20140917-MONOGRAFIA_0-185
+# sent_id = 256-20140917-MONOGRAFIA_0-182
 1	FatFree	FatFree	ADV	_	_	0	root	_	_
 
 # text = Um terceiro parâmetro foi utilizado para fins de comparação dos resultados obtidos.
-# sent_id = 256-20140917-MONOGRAFIA_0-186
+# sent_id = 256-20140917-MONOGRAFIA_0-183
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	parâmetro	parâmetro	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -5508,7 +5441,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Utilizou-se da planilha
-# sent_id = 256-20140917-MONOGRAFIA_0-187
+# sent_id = 256-20140917-MONOGRAFIA_0-184
 1-2	Utilizou-se	_	_	_	_	_	_	_	_
 1	Utilizou	Utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -5518,7 +5451,7 @@
 5	planilha	planilha	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 
 # text = FatFree desenvolvida pela DNV a fim de obter as informações referentes ao comportamento de um duto.
-# sent_id = 256-20140917-MONOGRAFIA_0-188
+# sent_id = 256-20140917-MONOGRAFIA_0-185
 1	FatFree	FatFree	ADV	_	_	2	advmod	_	_
 2	desenvolvida	desenvolver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3-4	pela	_	_	_	_	_	_	_	_
@@ -5542,13 +5475,13 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Vale ressaltar que o FatFree é uma ferramenta extremamente poderosa e sofisticada, entretanto para fins deste presente trabalho apenas será utilizada para o cálculo das frequências naturais In-line e Cross-Flow.
-# sent_id = 256-20140917-MONOGRAFIA_0-189
+# sent_id = 256-20140917-MONOGRAFIA_0-186
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	FatFree	FatFree	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpacesAfter=\s\n
 7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	ferramenta	ferramenta	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
 9	extremamente	extremamente	ADV	_	_	10	advmod	_	_
@@ -5581,7 +5514,7 @@
 34	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 21 - Planilha FatFree – Aba Principal Foram consideradas, para efeito de cálculo e comparação, as condições de contorno pinned-pinned e fixed-fixed, de forma a obter as mesmas condições impostas nos demais casos simulados anteriormente.
-# sent_id = 256-20140917-MONOGRAFIA_0-190
+# sent_id = 256-20140917-MONOGRAFIA_0-187
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	21	21	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -5625,8 +5558,8 @@
 40	anteriormente	anteriormente	ADV	_	_	39	advmod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Foram considerados os mesmos 4 dutos típicos de 6’’, 12’’, 18’’ e 24’’, sendo estes com fluido interno considerado como sendo água salgada e com as propriedades de solo sendo tratadas como as padrões já pré- definidas pela planilha de cálculos.
-# sent_id = 256-20140917-MONOGRAFIA_0-191
+# text = Foram considerados os mesmos 4 dutos típicos de 6’’, 12’’, 18’’ e 24’’, sendo estes com fluido interno considerado como sendo água salgada e com as propriedades de solo sendo tratadas como as padrões já pré-definidas pela planilha de cálculos.
+# sent_id = 256-20140917-MONOGRAFIA_0-188
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -5673,18 +5606,17 @@
 44	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
 45	padrões	padrão	NOUN	_	Gender=Fem|Number=Plur	42	obl	_	_
 46	já	já	ADV	_	_	47	advmod	_	_
-47	pré-	pré	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
-48	definidas	definir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	47	acl	_	_
-49-50	pela	_	_	_	_	_	_	_	_
-49	por	por	ADP	_	_	51	case	_	_
-50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	planilha	planilha	NOUN	_	Gender=Fem|Number=Sing	48	obl:agent	_	_
-52	de	de	ADP	_	_	53	case	_	_
-53	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	51	nmod	_	SpaceAfter=No
-54	.	.	PUNCT	_	_	2	punct	_	_
+47	pré-definidas	pré-definer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	45	acl	_	_
+48-49	pela	_	_	_	_	_	_	_	_
+48	por	por	ADP	_	_	50	case	_	_
+49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	planilha	planilha	NOUN	_	Gender=Fem|Number=Sing	47	obl:agent	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Os resultados obtidos podem ser observados nas tabelas 7 e 8.
-# sent_id = 256-20140917-MONOGRAFIA_0-192
+# sent_id = 256-20140917-MONOGRAFIA_0-189
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -5701,17 +5633,17 @@
 13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Tabela 7 - Resultados FatFree - Bi-Apoiado
-# sent_id = 256-20140917-MONOGRAFIA_0-193
+# sent_id = 256-20140917-MONOGRAFIA_0-190
 1	Tabela	tabela	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	7	7	PROPN	_	Number=Sing	1	flat:name	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	Resultados	Resultados	PROPN	_	Number=Sing	1	flat:name	_	_
 5	FatFree	FatFree	PROPN	_	Number=Sing	1	flat:name	_	_
 6	-	-	PUNCT	_	_	1	punct	_	_
-7	Bi-Apoiado	Bi-Apoiado	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+7	Bi-Apoiado	Bi-Apoiado	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpacesAfter=\s\n
 
 # text = Tabela 8 - Resultados FatFree - Bi-Engastado 4.4.
-# sent_id = 256-20140917-MONOGRAFIA_0-194
+# sent_id = 256-20140917-MONOGRAFIA_0-191
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -5723,7 +5655,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Comparação dos Resultados
-# sent_id = 256-20140917-MONOGRAFIA_0-195
+# sent_id = 256-20140917-MONOGRAFIA_0-192
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -5731,7 +5663,7 @@
 4	Resultados	Resultados	PROPN	_	Number=Sing	1	nmod	_	_
 
 # text = Em mãos dos resultados obtidos tanto para o modelo analítico quanto para o modelo em elementos finitos, pode-se agora realizar a comparação entre estes resultados através de gráficos para verificar qual o percentual de precisão que a formulação proposta pela DNV-RP-F105, ref [1], possui para os casos em estudo neste presente projeto.
-# sent_id = 256-20140917-MONOGRAFIA_0-196
+# sent_id = 256-20140917-MONOGRAFIA_0-193
 1	Em	em	ADP	_	_	2	case	_	_
 2	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -5800,7 +5732,7 @@
 62	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Para uma melhor visualização da comparação dos resultados, estes foram separados em curvas independentes e comparadas duas a duas entre si.
-# sent_id = 256-20140917-MONOGRAFIA_0-197
+# sent_id = 256-20140917-MONOGRAFIA_0-194
 1	Para	para	ADP	_	_	4	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	melhor	bom	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -5830,7 +5762,7 @@
 25	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Sendo assim, as curvas apresentadas nos gráficos a seguir estão descritas detalhadamente abaixo:  DNV:
-# sent_id = 256-20140917-MONOGRAFIA_0-198
+# sent_id = 256-20140917-MONOGRAFIA_0-195
 1	Sendo	ser	VERB	_	VerbForm=Ger	0	root	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -5853,7 +5785,7 @@
 19	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Modelo de resposta aproximado proposto pela DNV como apresentado na seção 3.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-199
+# sent_id = 256-20140917-MONOGRAFIA_0-196
 1	Modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -5873,7 +5805,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Considera rigidez elátisca, tração/compressão e deflexão estática.
-# sent_id = 256-20140917-MONOGRAFIA_0-200
+# sent_id = 256-20140917-MONOGRAFIA_0-197
 1	Considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	rigidez	rigidez	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
 3	elátisca	elátisco	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
@@ -5886,7 +5818,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text =  Abaqus In-Line: Resultados na direção in-line da análise modal do modelo de viga feita no Abaqus utilizando mesmas condições dimensionais, de rigidez e contorno.
-# sent_id = 256-20140917-MONOGRAFIA_0-201
+# sent_id = 256-20140917-MONOGRAFIA_0-198
 1			PROPN	_	Number=Sing	9	nsubj	_	_
 2	Abaqus	Abaqus	PROPN	_	Number=Sing	1	flat:name	_	_
 3	In-Line	In-Line	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -5925,7 +5857,7 @@
 32	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text =  Abaqus Cross-Flow: Resultados na direção cross-flow da análise modal do modelo de viga feita no Abaqus utilizando mesmas condições dimensionais, de rigidez e contorno.
-# sent_id = 256-20140917-MONOGRAFIA_0-202
+# sent_id = 256-20140917-MONOGRAFIA_0-199
 1			PROPN	_	Number=Sing	23	nsubj	_	_
 2	Abaqus	Abaqus	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Cross-Flow	Cross-Flow	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -5964,7 +5896,7 @@
 32	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text =  FatFree In-Line: Resultados na direção in-line obtidos através da utilização da planilha de FatFree da classificadora DNV, onde foram atribuídas as mesmas condições dimensionais, de rigidez e contorno.
-# sent_id = 256-20140917-MONOGRAFIA_0-203
+# sent_id = 256-20140917-MONOGRAFIA_0-200
 1			PROPN	_	Number=Sing	9	nsubj	_	_
 2	FatFree	FatFree	PROPN	_	Number=Sing	1	flat:name	_	_
 3	In-Line	In-Line	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
@@ -6008,14 +5940,14 @@
 37	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text =  FatFree Cross-Flow:
-# sent_id = 256-20140917-MONOGRAFIA_0-204
+# sent_id = 256-20140917-MONOGRAFIA_0-201
 1			PROPN	_	Number=Sing	0	root	_	_
 2	FatFree	FatFree	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Cross-Flow	Cross-Flow	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados na direção cross-flow obtidos através da utilização da planilha de FatFree da classificadora DNV, onde foram atribuídas as mesmas condições dimensionais, de rigidez e contorno, considerando apenas um efeito do solo nos cálculos (Default).
-# sent_id = 256-20140917-MONOGRAFIA_0-205
+# sent_id = 256-20140917-MONOGRAFIA_0-202
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -6042,7 +5974,7 @@
 20	,	,	PUNCT	_	_	6	punct	_	_
 21	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	23	obl	_	_
 22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
-23	atribuídas	atribuir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+23	atribuídas	atribuir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	acl:relcl	_	SpacesAfter=\s\n
 24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 25	mesmas	mesmo	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
 26	condições	condição	NOUN	_	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
@@ -6071,14 +6003,14 @@
 47	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text =  /D DNV:
-# sent_id = 256-20140917-MONOGRAFIA_0-206
+# sent_id = 256-20140917-MONOGRAFIA_0-203
 1			PROPN	_	Number=Sing	0	root	_	_
 2	/D	/D	PROPN	_	Number=Sing	1	flat:name	_	_
 3	DNV	DNV	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Fator de deflexão estática sobre o diâmetro externo
-# sent_id = 256-20140917-MONOGRAFIA_0-207
+# sent_id = 256-20140917-MONOGRAFIA_0-204
 1	Fator	fator	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	deflexão	deflexão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6089,7 +6021,7 @@
 8	externo	externo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 
 # text = D utilizando a formulação analítica proposta pela DNV conforme apresentado na seção 3.2.1.
-# sent_id = 256-20140917-MONOGRAFIA_0-208
+# sent_id = 256-20140917-MONOGRAFIA_0-205
 1	D	d	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6110,14 +6042,14 @@
 16	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text =  /D Abaqus:
-# sent_id = 256-20140917-MONOGRAFIA_0-209
+# sent_id = 256-20140917-MONOGRAFIA_0-206
 1			PROPN	_	Number=Sing	0	root	_	_
 2	/D	/D	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Abaqus	Abaqus	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Fator de deflexão estática sobre o diâmetro externo
-# sent_id = 256-20140917-MONOGRAFIA_0-210
+# sent_id = 256-20140917-MONOGRAFIA_0-207
 1	Fator	fator	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	deflexão	deflexão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6128,7 +6060,7 @@
 8	externo	externo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 
 # text = D utilizando o Abaqus.
-# sent_id = 256-20140917-MONOGRAFIA_0-211
+# sent_id = 256-20140917-MONOGRAFIA_0-208
 1	D	d	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	utilizando	utilizar	VERB	_	VerbForm=Ger	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6136,17 +6068,17 @@
 5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = 4.4.1.
-# sent_id = 256-20140917-MONOGRAFIA_0-212
+# sent_id = 256-20140917-MONOGRAFIA_0-209
 1	4.4.1	4.4.1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Duto Bi-Apoiado
-# sent_id = 256-20140917-MONOGRAFIA_0-213
+# sent_id = 256-20140917-MONOGRAFIA_0-210
 1	Duto	Duto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Bi-Apoiado	Bi-apoiado	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Para o caso do duto bi-apoiado na Figura 22 temos apresentado a comparação de resultados para o duto de 6’’, onde pode-se observar que os resultados obtidos para a formulação da DNV e o valor obtido pelo Abaqus In-Line e Cross-Flow apresentam total compatibilidade.
-# sent_id = 256-20140917-MONOGRAFIA_0-214
+# sent_id = 256-20140917-MONOGRAFIA_0-211
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
@@ -6207,7 +6139,7 @@
 53	.	.	PUNCT	_	_	50	punct	_	SpacesAfter=\n
 
 # text = O valor encontrado para os cálculos realizados na planilha FatFree foram compatíveis com a DNV e Abaqus apesar da consideração do efeito de solo.
-# sent_id = 256-20140917-MONOGRAFIA_0-215
+# sent_id = 256-20140917-MONOGRAFIA_0-212
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	encontrado	encontrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -6241,7 +6173,7 @@
 28	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Isto se deve ao fato das deflexões ainda serem pequenas, não influenciando de forma significativa na alteração da frequência natural.
-# sent_id = 256-20140917-MONOGRAFIA_0-216
+# sent_id = 256-20140917-MONOGRAFIA_0-213
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6274,7 +6206,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Vale ressaltar que como o duto de 6’’, muito leve e com pouca rigidez à flexão, a tração aplicada neste caso torna-se muito elevada tornando as deflexões pequenas e não influenciando no cálculo frequência natural.
-# sent_id = 256-20140917-MONOGRAFIA_0-217
+# sent_id = 256-20140917-MONOGRAFIA_0-214
 1	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ressaltar	ressaltar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	que	que	SCONJ	_	_	28	mark	_	_
@@ -6325,7 +6257,7 @@
 44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = As curvas de /D também se mostraram bastante próximas neste caso, sendo assim o resultado analítico condiz com o modelo numérico.
-# sent_id = 256-20140917-MONOGRAFIA_0-218
+# sent_id = 256-20140917-MONOGRAFIA_0-215
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6350,10 +6282,10 @@
 21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 23	numérico	numérico	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Figura 22 - Frequência Natural - Bi-Apoiado - Duto 6''
-# sent_id = 256-20140917-MONOGRAFIA_0-219
+# sent_id = 256-20140917-MONOGRAFIA_0-216
 1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	22	22	PROPN	_	Number=Sing	1	flat:name	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -6367,7 +6299,7 @@
 11	'	'	PUNCT	_	_	1	punct	_	_
 
 # text = Na Figura 23 tem-se a comparação dos resultados para o caso do duto de 12’’.
-# sent_id = 256-20140917-MONOGRAFIA_0-220
+# sent_id = 256-20140917-MONOGRAFIA_0-217
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6396,7 +6328,7 @@
 22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Novamente temos que os valores das frequências naturais para o modelo analítico proposto pela DNV e pelo modelo numérico de elementos finitos são muito próximos até valores de L/D próximos a 140, limite estabelecido por regra, a partir de valores superiores a L/D = 140 encontra-se alguma pequena diferença, mas pouco significativa, que pode ser explicada devido ao fato da norma da DNV considerar o comprimento do vão efetivo (Leff) superior ao valor do vão real.
-# sent_id = 256-20140917-MONOGRAFIA_0-221
+# sent_id = 256-20140917-MONOGRAFIA_0-218
 1	Novamente	novamente	ADV	_	_	2	advmod	_	_
 2	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	28	mark	_	_
@@ -6502,7 +6434,7 @@
 93	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Para os valores dos dutos de 12’’ temos vãos mais longos que os do duto de 6’’ e por isso a diferença aumenta.
-# sent_id = 256-20140917-MONOGRAFIA_0-222
+# sent_id = 256-20140917-MONOGRAFIA_0-219
 1	Para	para	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	valores	valor	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
@@ -6537,7 +6469,7 @@
 30	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Para as curvas de /D os valores analíticos e numéricos permanecem muito próximos.
-# sent_id = 256-20140917-MONOGRAFIA_0-223
+# sent_id = 256-20140917-MONOGRAFIA_0-220
 1	Para	para	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
@@ -6551,10 +6483,10 @@
 11	permanecem	permanecer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	muito	muito	ADV	_	_	13	advmod	_	_
 13	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	11	xcomp	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\n
 
 # text = Figura 23 - Frequência Natural - Bi-Apoiado - Duto 12''
-# sent_id = 256-20140917-MONOGRAFIA_0-224
+# sent_id = 256-20140917-MONOGRAFIA_0-221
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	23	23	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -6569,7 +6501,7 @@
 12	'	'	PUNCT	_	_	1	punct	_	_
 
 # text = Na Figura 24, tem-se o resultado obtido para o duto de 18’’, neste podemos observar que a diferença entre o modelo analítico e o número começa a ocorrer um pouco mais cedo, para L/D na faixa de 100, embora ainda muito pequena.
-# sent_id = 256-20140917-MONOGRAFIA_0-225
+# sent_id = 256-20140917-MONOGRAFIA_0-222
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6629,7 +6561,7 @@
 53	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Devido ao comprimento do vão ser mais elevado para o caso de 18’’, temos esta diferenciação ocorrendo mais precocemente.
-# sent_id = 256-20140917-MONOGRAFIA_0-226
+# sent_id = 256-20140917-MONOGRAFIA_0-223
 1	Devido	devido	ADV	_	_	10	advmod	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
@@ -6659,7 +6591,7 @@
 25	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Este fato deve-se à consideração de um comprimento de vão menor que o apresentado para os casos reais, entretanto, por se tratar de uma pesquisa de um caso acadêmico simplificado.
-# sent_id = 256-20140917-MONOGRAFIA_0-227
+# sent_id = 256-20140917-MONOGRAFIA_0-224
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3-4	deve-se	_	_	_	_	_	_	_	_
@@ -6699,7 +6631,7 @@
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Assim, pode-se aceitar esta diferenciação como satisfatória.
-# sent_id = 256-20140917-MONOGRAFIA_0-228
+# sent_id = 256-20140917-MONOGRAFIA_0-225
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	pode-se	_	_	_	_	_	_	_	_
@@ -6710,10 +6642,10 @@
 7	diferenciação	diferenciação	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	como	como	ADP	_	_	9	case	_	_
 9	satisfatória	satisfatória	NOUN	_	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = Figura 24 - Frequência Natural - Bi-Apoiado - Duto 18''
-# sent_id = 256-20140917-MONOGRAFIA_0-229
+# sent_id = 256-20140917-MONOGRAFIA_0-226
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	24	24	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -6728,7 +6660,7 @@
 12	'	'	PUNCT	_	_	1	punct	_	_
 
 # text = Na Figura 25 temos apresentado o último caso, para o duto de 24’’ onde pode-se observar que a diferenciação ocorre a partir de L/D na faixa de 80, sendo necessária uma análise mais detalhada para dutos que possuam diâmetros mais elevados.
-# sent_id = 256-20140917-MONOGRAFIA_0-230
+# sent_id = 256-20140917-MONOGRAFIA_0-227
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6783,7 +6715,7 @@
 49	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = Esta diferenciação tem o mesmo motivo já citado anteriormente e se acentua para o caso do duto de 24’’ pois os comprimentos dos vãos são mais elevados devido ao aumento do diâmetro.
-# sent_id = 256-20140917-MONOGRAFIA_0-231
+# sent_id = 256-20140917-MONOGRAFIA_0-228
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	diferenciação	diferenciação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6828,18 +6760,28 @@
 38	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
-# text = 4.4.2.
-# sent_id = 256-20140917-MONOGRAFIA_0-232
-1	4.4.2	4.4.2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
+# text = Figura 25 - Frequência Natural - Bi-Apoiado - Duto 24'' 4.4.2.
+# sent_id = 256-20140917-MONOGRAFIA_0-229
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	25	25	NUM	_	NumType=Card	4	nummod	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Frequência	frequência	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5	Natural	Natural	PROPN	_	Number=Sing	4	flat:name	_	_
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	Bi-Apoiado	Bi-Apoiado	PROPN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+8	-	-	PUNCT	_	_	9	punct	_	_
+9	Duto	Dugar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+10	24''	24'	NUM	_	NumType=Card	9	obj	_	SpacesAfter=\s\n
+11	4.4.2	4.4.2	NUM	_	NumType=Card	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Duto Bi-Engastado
-# sent_id = 256-20140917-MONOGRAFIA_0-233
+# sent_id = 256-20140917-MONOGRAFIA_0-230
 1	Duto	Duto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	Bi-Engastado	Bi-Engastado	PROPN	_	Number=Sing	1	flat:name	_	_
 
 # text = Assim como apresentado para o caso bi-apoiado estão apresentados abaixo a comparação dos resultados obtidos para o caso bi-engastado pelo cálculo analítico, proposto pela norma DNV-RP-F105, ref [1], e pela modelação em elemento finitos (MEF), desenvolvida no Software Abaqus, ref [2] e [3].
-# sent_id = 256-20140917-MONOGRAFIA_0-234
+# sent_id = 256-20140917-MONOGRAFIA_0-231
 1	Assim	assim	SCONJ	_	_	3	mark	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	_	_
@@ -6908,8 +6850,8 @@
 61	]	_	PUNCT	_	_	60	punct	_	SpaceAfter=No
 62	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
-# text = Na Figura 26 estão apresentados os resultados obtidos para o duto de 6’’ e pode- se observar que os valores encontrados pela formulação da DNV, Abaqus e FatFree foram compatíveis, não apresentando diferenciação significativa.
-# sent_id = 256-20140917-MONOGRAFIA_0-235
+# text = Na Figura 26 estão apresentados os resultados obtidos para o duto de 6’’ e pode-se observar que os valores encontrados pela formulação da DNV, Abaqus e FatFree foram compatíveis, não apresentando diferenciação significativa.
+# sent_id = 256-20140917-MONOGRAFIA_0-232
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -6928,37 +6870,37 @@
 15	’	’	PUNCT	_	_	6	punct	_	SpaceAfter=No
 16	’	’	PUNCT	_	_	6	punct	_	_
 17	e	e	CCONJ	_	_	18	cc	_	_
-18	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
-19	-	-	PUNCT	_	_	6	punct	_	_
-20	se	se	SCONJ	_	_	21	mark	_	_
-21	observar	observar	VERB	_	VerbForm=Inf	6	advcl	_	_
-22	que	que	SCONJ	_	_	37	mark	_	_
-23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	valores	valor	NOUN	_	Gender=Masc|Number=Plur	37	nsubj	_	_
-25	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	24	acl	_	_
-26-27	pela	_	_	_	_	_	_	_	_
-26	por	por	ADP	_	_	28	case	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
-29-30	da	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	31	case	_	_
-30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	DNV	DNV	PROPN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	25	punct	_	_
-33	Abaqus	Abaqus	PROPN	_	Gender=Fem|Number=Sing	24	conj	_	_
-34	e	e	CCONJ	_	_	35	cc	_	_
-35	FatFree	FatFree	PROPN	_	Gender=Masc|Number=Sing	24	conj	_	_
-36	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
-37	compatíveis	compatível	ADJ	_	Gender=Masc|Number=Plur	21	ccomp	_	SpaceAfter=No
-38	,	,	PUNCT	_	_	37	punct	_	_
-39	não	não	ADV	_	Polarity=Neg	40	advmod	_	_
-40	apresentando	apresentar	VERB	_	VerbForm=Ger	6	advcl	_	_
-41	diferenciação	diferenciação	NOUN	_	Gender=Fem|Number=Sing	40	obj	_	_
-42	significativa	significativo	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+18-19	pode-se	_	_	_	_	_	_	_	_
+18	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+19	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	18	nsubj	_	_
+20	observar	observar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+21	que	que	SCONJ	_	_	36	mark	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	valores	valor	NOUN	_	Gender=Masc|Number=Plur	36	nsubj	_	_
+24	encontrados	encontrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	23	acl	_	_
+25-26	pela	_	_	_	_	_	_	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	formulação	formulação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	DNV	DNV	PROPN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	24	punct	_	_
+32	Abaqus	Abaqus	PROPN	_	Gender=Fem|Number=Sing	23	conj	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	FatFree	FatFree	PROPN	_	Gender=Masc|Number=Sing	23	conj	_	_
+35	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
+36	compatíveis	compatível	ADJ	_	Gender=Masc|Number=Plur	20	ccomp	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	não	não	ADV	_	Polarity=Neg	39	advmod	_	_
+39	apresentando	apresentar	VERB	_	VerbForm=Ger	6	advcl	_	_
+40	diferenciação	diferenciação	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+41	significativa	significativo	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Este efeito pode ser explicado devido ao fato de para o caso bi-engastado o comprimento efetivo do vão ser considerado o mesmo que o comprimento do vão não sendo necessário realizar nenhum tipo de correção.
-# sent_id = 256-20140917-MONOGRAFIA_0-236
+# sent_id = 256-20140917-MONOGRAFIA_0-233
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7003,7 +6945,7 @@
 39	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Ou seja, a utilização de um modelo simplificado, com um tempo computacional bem inferior a uma análise completa, atende de forma satisfatória.
-# sent_id = 256-20140917-MONOGRAFIA_0-237
+# sent_id = 256-20140917-MONOGRAFIA_0-234
 1	Ou	ou	CCONJ	_	_	4	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -7032,7 +6974,7 @@
 26	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Está apresentado na Figura 27 estão apresentados os resultados obtidos para o duto de 12’’ com extremidades engastadas e novamente temos total compatibilidade entre as frequências naturais tanto da formulação aproximada da DNV, tanto para o modelo em elementos finitos e além disso dos cálculos realizados pelo FatFree.
-# sent_id = 256-20140917-MONOGRAFIA_0-238
+# sent_id = 256-20140917-MONOGRAFIA_0-235
 1	Está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -7096,10 +7038,10 @@
 55	por	por	ADP	_	_	57	case	_	_
 56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 57	FatFree	FatFree	PROPN	_	Gender=Masc|Number=Sing	54	obl:agent	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+58	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Figura 27 - Frequência Natural - Bi-Engastado - Duto 12''
-# sent_id = 256-20140917-MONOGRAFIA_0-239
+# sent_id = 256-20140917-MONOGRAFIA_0-236
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	27	27	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -7114,7 +7056,7 @@
 12	'	'	PUNCT	_	_	1	punct	_	_
 
 # text = Para o caso do duto de 18’’ temos os resultados apresentados na Figura 28 e pode-se observar novamente compatibilidade entre os valores calculados.
-# sent_id = 256-20140917-MONOGRAFIA_0-240
+# sent_id = 256-20140917-MONOGRAFIA_0-237
 1	Para	para	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -7149,7 +7091,7 @@
 29	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Uma pequena diferença é apresentada para valores de L/D superiores a 200, entretanto como a norma da DNV tem como restrição L/D<140 e como a diferença ainda é pequena pode-se considerar os resultados satisfatórios.
-# sent_id = 256-20140917-MONOGRAFIA_0-241
+# sent_id = 256-20140917-MONOGRAFIA_0-238
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	pequena	pequeno	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -7189,10 +7131,10 @@
 35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
 36	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	_
 37	satisfatórios	satisfatório	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n\n
 
 # text = Por fim temos apresentado na Figura 29 os resultados obtidos para o duto de 24’’ com condição bi-engastada e novamente podemos observar que os resultados obtidos foram compatíveis entre si tanto para a formulação aproximada da DNV quanto para o modelo gerado no Abaqus e os cálculos feitos no FatFree.
-# sent_id = 256-20140917-MONOGRAFIA_0-242
+# sent_id = 256-20140917-MONOGRAFIA_0-239
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 3	temos	ter	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7256,7 +7198,7 @@
 57	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Observa-se uma diferenciação um pouco significativa para L/D a partir de 180 entretanto como novamente este se apresenta acima dos limites definidos pela norma da DNV, pode-se considerar os resultados obtidos como satisfatórios.
-# sent_id = 256-20140917-MONOGRAFIA_0-243
+# sent_id = 256-20140917-MONOGRAFIA_0-240
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
@@ -7304,7 +7246,7 @@
 40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Figura 29 - Frequência Natural - Bi-Engastado - Duto 24''
-# sent_id = 256-20140917-MONOGRAFIA_0-244
+# sent_id = 256-20140917-MONOGRAFIA_0-241
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	29	29	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
@@ -7318,7 +7260,7 @@
 11	'	'	PUNCT	_	_	1	punct	_	_
 
 # text = Visando uma melhor visualização da comparação dos resultados está apresentado nas Tabela 9 e Tabela 10 abaixo o comparativo final das frequências naturais com os erros percentuais dos valores apresentados nos gráficos anteriores.
-# sent_id = 256-20140917-MONOGRAFIA_0-245
+# sent_id = 256-20140917-MONOGRAFIA_0-242
 1	Visando	visar	VERB	_	VerbForm=Ger	12	advcl	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	melhor	bom	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -7364,10 +7306,10 @@
 37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	_
 39	anteriores	anterior	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 9 - Comparação dos Resultados com Erros Percentuais - Bi-Apoiada
-# sent_id = 256-20140917-MONOGRAFIA_0-246
+# sent_id = 256-20140917-MONOGRAFIA_0-243
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -7383,7 +7325,7 @@
 12	Bi-Apoiada	Bi-Apoiada	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 
 # text = Tabela 10 - Comparação dos Resultados com Erros Percentuais - Bi-Engastada 5.
-# sent_id = 256-20140917-MONOGRAFIA_0-247
+# sent_id = 256-20140917-MONOGRAFIA_0-244
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
@@ -7396,16 +7338,16 @@
 9	Erros	erros	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	Percentuais	percentual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	1	appos	_	_
 11	-	-	PUNCT	_	_	10	punct	_	_
-12	Bi-Engastada	Bi-Engastar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	_
+12	Bi-Engastada	Bi-Engastar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	SpacesAfter=\s\n
 13	5	5	NUM	_	NumType=Card	10	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Conclusão
-# sent_id = 256-20140917-MONOGRAFIA_0-248
+# sent_id = 256-20140917-MONOGRAFIA_0-245
 1	Conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # text = Com o aumento da exploração do petróleo e da preocupação com o meio ambiente, o estudo da frequência natural em dutos submetidos a vãos longos é fundamental para o dimensionamento dos pipelines.
-# sent_id = 256-20140917-MONOGRAFIA_0-249
+# sent_id = 256-20140917-MONOGRAFIA_0-246
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
@@ -7452,7 +7394,7 @@
 39	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = Se uma primeira etapa deste dimensionamento puder ser feita de forma simplificada, visando obter uma primeira aproximação sobre o comportamento de um determinado duto, isto é de grande ajuda para a engenharia submarina.
-# sent_id = 256-20140917-MONOGRAFIA_0-250
+# sent_id = 256-20140917-MONOGRAFIA_0-247
 1	Se	se	SCONJ	_	_	8	mark	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
@@ -7493,7 +7435,7 @@
 37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\n
 
 # text = A frequência natural de vibração de um duto é de extrema importância no dimensionamento de um duto submarino, uma vez que deve-se atentar para produzir um duto cuja frequência natural esteja fora da ressonância por vibração induzida por vórtices, causando seu colapso e danos.
-# sent_id = 256-20140917-MONOGRAFIA_0-251
+# sent_id = 256-20140917-MONOGRAFIA_0-248
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	natural	natural	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -7549,7 +7491,7 @@
 50	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Após uma apresentação dos conceitos envolvidos e da metodologia propriamente dita, este trabalho apresenta um estudo de caso onde foram analisados os vãos livres referentes a 4 tipos de dutos.
-# sent_id = 256-20140917-MONOGRAFIA_0-252
+# sent_id = 256-20140917-MONOGRAFIA_0-249
 1	Após	após	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	apresentação	apresentação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
@@ -7588,7 +7530,7 @@
 34	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Foram apresentados os resultados para duas condições de contorno sendo elas a bi-apoiada e bi-engastada.
-# sent_id = 256-20140917-MONOGRAFIA_0-253
+# sent_id = 256-20140917-MONOGRAFIA_0-250
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -7607,7 +7549,7 @@
 16	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Sendo assim, como foi apresentados nas Tabela 9 e Tabela 10 a análise de frequência natural realizada no modelo de elementos finitos para estes casos acima mencionados apresentaram-se compatíveis, com as devidas ressalvas com relação a diferenças no caso bi-apoiado ocorrido pela diferença entre a consideração do comprimento efetivo e rigidez vertical do solo no modelo em elementos finitos e nos cálculos realizados no FatFree.
-# sent_id = 256-20140917-MONOGRAFIA_0-254
+# sent_id = 256-20140917-MONOGRAFIA_0-251
 1	Sendo	ser	VERB	_	VerbForm=Ger	31	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -7698,7 +7640,7 @@
 78	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = Entretanto, estes valores apresentaram-se compatíveis para o caso bi-engastado dentro dos limites propostos, com os resultados propostos pela norma DNV-RP-F105.
-# sent_id = 256-20140917-MONOGRAFIA_0-255
+# sent_id = 256-20140917-MONOGRAFIA_0-252
 1	Entretanto	entretanto	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -7727,5 +7669,5 @@
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	norma	norma	NOUN	_	Gender=Fem|Number=Sing	21	obl:agent	_	_
 25	DNV-RP-F105	DNV-RP-F105	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 

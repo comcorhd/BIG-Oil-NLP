@@ -209,7 +209,7 @@
 6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	sonda	sonda	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+9	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\s\n
 10	Durante	durante	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	processo	processo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -708,7 +708,7 @@
 20	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
 21	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 22	por	por	ADP	_	_	30	case	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	30	punct	_	_
+23	:	:	PUNCT	_	_	30	punct	_	SpacesAfter=\s\n
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	1)	1)	NUM	_	NumType=Card	30	appos:parataxis	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
@@ -828,7 +828,7 @@
 25	8	8	NUM	_	NumType=Card	23	appos	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	25	punct	_	_
 27	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	56	obl	_	SpaceAfter=No
-28	:	:	PUNCT	_	_	27	punct	_	_
+28	:	:	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
 29	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
@@ -999,23 +999,8 @@
 30	anular	anular	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 10 - Balanço de pressões no modelo de Nygaard
-# sent_id = 169-20121217-MONOGRAFIA_0-30
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	10	10	NUM	_	NumType=Card	4	nummod	_	_
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Balanço	balanço	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	pressões	pressão	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-7-8	no	_	_	_	_	_	_	_	_
-7	em	em	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	Nygaard	Nygaard	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-
 # text = A variação na taxa do fluxo de massa da mistura gás-líquido na coluna de perfuração ( é dependente das pressões de compressão da própria coluna ( ) e do anular ( ), da pressão hidrostática da coluna ( ) e do anular ( ), das perdas causadas pela fricção da coluna de perfuração ( ) e do anular ( ).
-# sent_id = 169-20121217-MONOGRAFIA_0-31
+# sent_id = 169-20121217-MONOGRAFIA_0-30
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	variação	variação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	na	_	_	_	_	_	_	_	_
@@ -1109,7 +1094,7 @@
 77	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Assim, temos a Equação (9), sendo que é a área seccional da coluna de perfuração.
-# sent_id = 169-20121217-MONOGRAFIA_0-32
+# sent_id = 169-20121217-MONOGRAFIA_0-31
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1134,14 +1119,14 @@
 21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = (9) (10)
-# sent_id = 169-20121217-MONOGRAFIA_0-33
-1	(9)	(9)	NUM	_	NumType=Card	0	root	_	_
+# sent_id = 169-20121217-MONOGRAFIA_0-32
+1	(9)	(9)	NUM	_	NumType=Card	0	root	_	SpacesAfter=\s\n
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	10	10	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
 # text = Adotando como a área seccional do anular, a variação do fluxo de massa da mistura gás-líquido na válvula choke é dada por: (11) (12)
-# sent_id = 169-20121217-MONOGRAFIA_0-34
+# sent_id = 169-20121217-MONOGRAFIA_0-33
 1	Adotando	Adotar	VERB	_	VerbForm=Ger	26	advcl	_	_
 2	como	como	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1181,7 +1166,7 @@
 33	)	)	PUNCT	_	_	32	punct	_	_
 
 # text = Outro fator que influencia na pressão de fundo é a profundidade do poço.
-# sent_id = 169-20121217-MONOGRAFIA_0-35
+# sent_id = 169-20121217-MONOGRAFIA_0-34
 1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	fator	fator	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
@@ -1202,7 +1187,7 @@
 16	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = À medida que essa profundidade vai se tornando cada vez maior, ocorre um acréscimo na taxa de perfuração .
-# sent_id = 169-20121217-MONOGRAFIA_0-36
+# sent_id = 169-20121217-MONOGRAFIA_0-35
 1-2	À	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1229,7 +1214,7 @@
 22	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Sendo assim, a profundidade, representada por , é considerada também um estado do sistema dinâmico proposto por Nygaard et al. (2006), da forma: (13) (14)
-# sent_id = 169-20121217-MONOGRAFIA_0-37
+# sent_id = 169-20121217-MONOGRAFIA_0-36
 1	Sendo	ser	VERB	_	VerbForm=Ger	11	advcl	_	_
 2	assim	assim	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -1269,8 +1254,8 @@
 35	14	14	NUM	_	NumType=Card	33	appos:parataxis	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	35	punct	_	_
 
-# text = Organizando as equações de balanço de massa, e definindo as entradas e saída do sistema, o modelo de ordem reduzida pode ser descrito da seguinte forma: ⃗ (15) (16) ⃗⃗ (17)
-# sent_id = 169-20121217-MONOGRAFIA_0-38
+# text = Organizando as equações de balanço de massa, e definindo as entradas e saída do sistema, o modelo de ordem reduzida pode ser descrito da seguinte forma: (15) ⃗ (16) (17)
+# sent_id = 169-20121217-MONOGRAFIA_0-37
 1	Organizando	Organizar	VERB	_	VerbForm=Ger	24	advcl	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	equações	equação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -1295,7 +1280,7 @@
 21	de	de	ADP	_	_	22	case	_	_
 22	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 23	reduzida	reduzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
-24	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
 25	ser	ser	AUX	_	VerbForm=Inf	26	aux:pass	_	_
 26	descrito	descrever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	xcomp	_	_
 27-28	da	_	_	_	_	_	_	_	_
@@ -1303,20 +1288,19 @@
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 29	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 30	forma	forma	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
-31	:	:	PUNCT	_	_	32	punct	_	_
-32	⃗	⃗	PROPN	_	Number=Sing	34	appos	_	_
-33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	15)	15)	NUM	_	NumType=Card	26	appos:parataxis	_	_
-35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	16	16	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	36	punct	_	_
-38	⃗⃗	⃗⃗	PROPN	_	Number=Sing	34	nmod	_	_
-39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	17	17	NUM	_	NumType=Card	38	appos:parataxis	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	40	punct	_	_
+31	:	:	PUNCT	_	_	24	punct	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	15	15	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	_
+35	⃗	⃗	PROPN	_	Number=Sing	37	nmod	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	16)	16)	NUM	_	NumType=Card	0	root	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	17	17	NUM	_	NumType=Card	37	appos:parataxis	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
 
 # text = Sendo ⃗ o vetor contendo os sete estados de entrada do modelo, ⃗ a saída, onde representa a pressão anular de fundo (BHP), que é a variável que deverá ser controlada, e ⃗⃗ é o vetor contendo a variável manipulada , que corresponde ao parâmetro de abertura da válvula choke.
-# sent_id = 169-20121217-MONOGRAFIA_0-39
+# sent_id = 169-20121217-MONOGRAFIA_0-38
 1	Sendo	ser	AUX	_	VerbForm=Ger	2	cop	_	_
 2	⃗	⃗	PROPN	_	Number=Sing	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1382,7 +1366,7 @@
 60	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Quando um poço de petróleo é modelado usando a coluna de perfuração e o anular como dois compartimentos, é assumido que o gás está uniformemente disperso no líquido.
-# sent_id = 169-20121217-MONOGRAFIA_0-40
+# sent_id = 169-20121217-MONOGRAFIA_0-39
 1	Quando	quando	SCONJ	_	_	7	mark	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	poço	poço	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
@@ -1417,7 +1401,7 @@
 31	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
 
 # text = (Nygaard et al., 2006).
-# sent_id = 169-20121217-MONOGRAFIA_0-41
+# sent_id = 169-20121217-MONOGRAFIA_0-40
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Nygaard	Nygaard	X	_	_	0	root	_	_
 3	et	et	X	_	_	2	flat:foreign	_	_
@@ -1428,7 +1412,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Assim, a densidade da mistura gás-líquido em cada parte do poço é dada pela seguinte relação: (18)
-# sent_id = 169-20121217-MONOGRAFIA_0-42
+# sent_id = 169-20121217-MONOGRAFIA_0-41
 1	Assim	assim	ADV	_	_	16	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1452,13 +1436,13 @@
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 20	relação	relação	NOUN	_	Gender=Fem|Number=Sing	16	obl:agent	_	SpaceAfter=No
-21	:	:	PUNCT	_	_	16	punct	_	_
+21	:	:	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	18	18	NUM	_	NumType=Card	16	appos	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	23	punct	_	_
 
 # text = Sendo que é a massa de gás, é a massa de líquido e é o volume total no compartimento analisado.
-# sent_id = 169-20121217-MONOGRAFIA_0-43
+# sent_id = 169-20121217-MONOGRAFIA_0-42
 1	Sendo	ser	AUX	_	VerbForm=Ger	5	aux	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1485,7 +1469,7 @@
 23	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
 
 # text = A porosidade do líquido na mistura ( é usada para calcular a taxa de massa do gás e do líquido, e é dada por: (19)
-# sent_id = 169-20121217-MONOGRAFIA_0-44
+# sent_id = 169-20121217-MONOGRAFIA_0-43
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	porosidade	porosidade	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1525,7 +1509,7 @@
 33	)	)	PUNCT	_	_	32	punct	_	_
 
 # text = Se a velocidade é reduzida, as perdas devido à pressão de fricção são reduzidas e o gás se expande, o que causa a fuga do líquido para fora do poço e leva o gás a ficar contido na parte de dentro.
-# sent_id = 169-20121217-MONOGRAFIA_0-45
+# sent_id = 169-20121217-MONOGRAFIA_0-44
 1	Se	se	SCONJ	_	_	5	mark	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -1580,7 +1564,7 @@
 48	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Com isso, a taxa da massa de gás deve ser modificada para misturas com baixa velocidade e nesse caso é dada por: (20)
-# sent_id = 169-20121217-MONOGRAFIA_0-46
+# sent_id = 169-20121217-MONOGRAFIA_0-45
 1	Com	com	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1614,7 +1598,7 @@
 29	)	)	PUNCT	_	_	28	punct	_	_
 
 # text = Os cálculos do fluxo de massa da parte gasosa e líquida na broca e na válvula choke são obtidos a partir do fluxo de massa da mistura e utilizando a Equação (20).
-# sent_id = 169-20121217-MONOGRAFIA_0-47
+# sent_id = 169-20121217-MONOGRAFIA_0-46
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	cálculos	cálculo	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1664,7 +1648,7 @@
 41	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = Assim, os fluxos de massa ficam da seguinte maneira: (21) (22) (23) (24)
-# sent_id = 169-20121217-MONOGRAFIA_0-48
+# sent_id = 169-20121217-MONOGRAFIA_0-47
 1	Assim	assim	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -1689,7 +1673,7 @@
 21	)	)	PUNCT	_	_	20	punct	_	_
 
 # text = A pressão de fundo é dada: (25)
-# sent_id = 169-20121217-MONOGRAFIA_0-49
+# sent_id = 169-20121217-MONOGRAFIA_0-48
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1701,8 +1685,8 @@
 9	25	25	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
 
-# text = Sendo o fator de compressão do líquido, a densidade do gás, a constante do gás, a massa molecular do gás, a temperatura média, a pressão atmosférica, a gravidade, a profundidade do poço, o fator de fricção que ocorre entre o líquido e a parede do poço e a velocidade da mistura, os termos que compõe a Equação (25) estão representadas pelas equações: (26) (27) (28) ( ) (29) ( ) (30)
-# sent_id = 169-20121217-MONOGRAFIA_0-50
+# text = Sendo o fator de compressão do líquido, a densidade do gás, a constante do gás, a massa molecular do gás, a temperatura média, a pressão atmosférica, a gravidade, a profundidade do poço, o fator de fricção que ocorre entre o líquido e a parede do poço e a velocidade da mistura, os termos que compõe a Equação (25) estão representadas pelas equações: (26) (27) (28) (29) (30)
+# sent_id = 169-20121217-MONOGRAFIA_0-49
 1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fator	fator	NOUN	_	Gender=Masc|Number=Sing	78	obl	_	_
@@ -1743,7 +1727,7 @@
 34	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	_
 35	atmosférica	atmosférico	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
-37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	SpacesAfter=\s\n
 38	gravidade	gravidade	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	41	punct	_	_
 40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
@@ -1787,32 +1771,25 @@
 75	25	25	NUM	_	NumType=Card	73	appos	_	SpaceAfter=No
 76	)	)	PUNCT	_	_	75	punct	_	_
 77	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	78	aux:pass	_	_
-78	representadas	representar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	84	acl:relcl	_	_
+78	representadas	representar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 79-80	pelas	_	_	_	_	_	_	_	_
 79	por	por	ADP	_	_	81	case	_	_
 80	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	81	det	_	_
 81	equações	equação	NOUN	_	Gender=Fem|Number=Plur	78	obl:agent	_	SpaceAfter=No
 82	:	:	PUNCT	_	_	78	punct	_	_
-83	(	(	PUNCT	_	_	84	punct	_	SpaceAfter=No
-84	26)	26)	NUM	_	NumType=Card	0	root	_	_
-85	(	(	PUNCT	_	_	86	punct	_	SpaceAfter=No
-86	27)	27)	NUM	_	NumType=Card	84	appos	_	_
-87	(	(	PUNCT	_	_	88	punct	_	SpaceAfter=No
-88	28	28	NUM	_	NumType=Card	86	appos:parataxis	_	SpaceAfter=No
-89	)	)	PUNCT	_	_	88	punct	_	_
-90	(	(	PUNCT	_	_	93	punct	_	_
-91	)	)	PUNCT	_	_	93	punct	_	_
-92	(	(	PUNCT	_	_	93	punct	_	SpaceAfter=No
-93	29	29	NUM	_	NumType=Card	86	appos:parataxis	_	SpaceAfter=No
-94	)	)	PUNCT	_	_	93	punct	_	_
-95	(	(	PUNCT	_	_	96	punct	_	_
-96	)	)	PUNCT	_	_	86	punct	_	_
-97	(	(	PUNCT	_	_	98	punct	_	SpaceAfter=No
-98	30	30	NUM	_	NumType=Card	84	appos:parataxis	_	SpaceAfter=No
-99	)	)	PUNCT	_	_	98	punct	_	_
+83	(26)	(26)	NUM	_	NumType=Card	85	nmod	_	_
+84	(	(	PUNCT	_	_	85	punct	_	SpaceAfter=No
+85	27)	27)	NUM	_	NumType=Card	82	nummod	_	_
+86	(	(	PUNCT	_	_	87	punct	_	SpaceAfter=No
+87	28)	28)	NUM	_	NumType=Card	85	appos:parataxis	_	_
+88	(	(	PUNCT	_	_	89	punct	_	SpaceAfter=No
+89	29)	29)	NUM	_	NumType=Card	87	appos	_	_
+90	(	(	PUNCT	_	_	91	punct	_	SpaceAfter=No
+91	30	30	NUM	_	NumType=Card	89	appos:parataxis	_	SpaceAfter=No
+92	)	)	PUNCT	_	_	91	punct	_	_
 
 # text = Os valores de e são obtidos da Equação (18), é o coeficiente de descarga da restrição, que é a relação da taxa de fluxo de massa no final da tubulação, e é a área de restrição, que no caso da válvula choke representa a sua abertura.
-# sent_id = 169-20121217-MONOGRAFIA_0-51
+# sent_id = 169-20121217-MONOGRAFIA_0-50
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 3	de	de	ADP	_	_	6	case	_	_
@@ -1882,7 +1859,7 @@
 60	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = 3.3 – Modelo de Stamnes
-# sent_id = 169-20121217-MONOGRAFIA_0-52
+# sent_id = 169-20121217-MONOGRAFIA_0-51
 1	3.3	3.3	NUM	_	NumType=Card	3	nummod	_	_
 2	–	–	PUNCT	_	_	3	punct	_	_
 3	Modelo	Modelo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -1890,7 +1867,7 @@
 5	Stamnes	Stamnes	PROPN	_	Number=Sing	3	nmod	_	_
 
 # text = Esse modelo foi originalmente proposto por Kaasa (2007) e posteriormente desenvolvido por Stamnes (2007).
-# sent_id = 169-20121217-MONOGRAFIA_0-53
+# sent_id = 169-20121217-MONOGRAFIA_0-52
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
@@ -1912,7 +1889,7 @@
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Nele é considerado um fluido de perfuração monofásico e o poço dividido em dois compartimentos distintos, de maneira semelhante à proposta de Nygaard et al. (2006).
-# sent_id = 169-20121217-MONOGRAFIA_0-54
+# sent_id = 169-20121217-MONOGRAFIA_0-53
 1-2	Nele	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	2	case	_	_
 2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
@@ -1949,7 +1926,7 @@
 32	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A Figura 11 mostra a divisão do sistema nas duas regiões, isto é a coluna de perfuração e o anular, sendo estas conectadas pela broca de perfuração.
-# sent_id = 169-20121217-MONOGRAFIA_0-55
+# sent_id = 169-20121217-MONOGRAFIA_0-54
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	11	11	NUM	_	NumType=Card	2	nummod	_	_
@@ -1985,7 +1962,25 @@
 30	broca	broca	NOUN	_	Gender=Fem|Number=Sing	27	obl:agent	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# text = Figura 11 - Divisão do sistema proposto no modelo de Stamnes
+# sent_id = 169-20121217-MONOGRAFIA_0-55
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	11	11	NUM	_	NumType=Card	4	nummod	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Divisão	Divisão	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	proposto	propor	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Stamnes	Stamnes	PROPN	_	Gender=Unsp|Number=Sing	11	nmod	_	_
 
 # text = Neste sistema, uma bomba de lama bombeia a lama de perfuração para dentro da coluna de perfuração.
 # sent_id = 169-20121217-MONOGRAFIA_0-56
@@ -2277,7 +2272,7 @@
 26	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
 27	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
 28	e	e	CCONJ	_	_	30	cc	_	_
-29	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	30	nsubj	_	_
+29	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	30	nsubj	_	SpacesAfter=\s\n
 30	demanda	demandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 31	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	_
@@ -2618,7 +2613,7 @@
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	36	36	NUM	_	NumType=Card	7	conj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
-20	:	:	PUNCT	_	_	1	punct	_	_
+20	:	:	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	35)	35)	NUM	_	NumType=Card	29	nummod	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
@@ -2845,14 +2840,14 @@
 50	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Assumindo as relações:   e substituindo as Equações (37), (38) e (39) nas Equações (32), (33) e (34), o modelo pode ser descrito por: (40) (42)
+# text = Assumindo as relações:   e substituindo as Equações (37), (38) e (39) nas Equações (32), (33) e (34), o modelo pode ser descrito por: (40) (41) (42)
 # sent_id = 169-20121217-MONOGRAFIA_0-74
 1	Assumindo	assumir	VERB	_	VerbForm=Ger	39	advcl	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	relações	relação	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	1	punct	_	_
 5			PROPN	_	Number=Sing	1	flat:name	_	_
-6			PROPN	_	Number=Sing	5	flat:name	_	_
+6			PROPN	_	Number=Sing	5	flat:name	_	SpacesAfter=\s\n
 7	e	e	CCONJ	_	_	8	cc	_	_
 8	substituindo	substituir	VERB	_	VerbForm=Ger	1	conj	_	_
 9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
@@ -2894,8 +2889,11 @@
 44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	40)	40)	NUM	_	NumType=Card	41	obl	_	_
 46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
-47	42	42	NUM	_	NumType=Card	45	appos:parataxis	_	SpaceAfter=No
+47	41	41	NUM	_	NumType=Card	45	appos	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	47	punct	_	_
+49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	42	42	NUM	_	NumType=Card	45	appos	_	SpaceAfter=No
+51	)	)	PUNCT	_	_	50	punct	_	_
 
 # text = Sendo a entrada de controle dada por: (43)
 # sent_id = 169-20121217-MONOGRAFIA_0-75
@@ -3107,7 +3105,7 @@
 38	de	de	ADP	_	_	39	case	_	_
 39	técnicas	técnica	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
 40	MPD	MPD	PROPN	_	Gender=Fem|Number=Sing	39	appos	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text = 3.4 – Simulação em MatLab/Simulink® - Análise em Malha Aberta
 # sent_id = 169-20121217-MONOGRAFIA_0-80
@@ -3274,41 +3272,26 @@
 34	choke	choke	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 35	(	(	PUNCT	_	_	36	punct	_	_
 36	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
-# text = Tabela 1 - Parâmetros de simulação do modelo de Stamnes Figura 12 –
+# text = Figura 12 – Implementação do modelo de Stamnes em ambiente MatLab/Simulink®
 # sent_id = 169-20121217-MONOGRAFIA_0-84
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	1	1	NUM	_	NumType=Card	4	nummod	_	_
-3	-	-	PUNCT	_	_	2	punct	_	_
-4	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	simulação	simulação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	Stamnes	Stamnes	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	Figura	figura	PROPN	_	Number=Sing	11	flat:name	_	_
-13	12	12	NUM	_	NumType=Card	6	nummod	_	_
-14	–	–	PUNCT	_	_	1	punct	_	_
-
-# text = Implementação do modelo de Stamnes em ambiente MatLab/Simulink®
-# sent_id = 169-20121217-MONOGRAFIA_0-85
-1	Implementação	Implementação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	Stamnes	Stamnes	PROPN	_	Gender=Unsp|Number=Sing	4	nmod	_	_
-7	em	em	ADP	_	_	8	case	_	_
-8	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-9	MatLab/Simulink®	MatLab/Simulink®	PROPN	_	Number=Sing	8	flat:name	_	_
+1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	12	12	NUM	_	NumType=Card	1	nummod	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+4	Implementação	Implementação	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Stamnes	Stamnes	PROPN	_	Gender=Unsp|Number=Sing	7	nmod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+12	MatLab/Simulink®	MatLab/Simulink®	PROPN	_	Number=Sing	11	flat:name	_	_
 
 # text = Para analisar a resposta dinâmica do processo, primeiro foi mantida constante a variável correspondente à vazão de lama ( ) no valor de , já a variável correspondente ao percentual de abertura da válvula choke ( ), sendo 0% totalmente fechada e 100% totalmente aberta, e tendo como ponto de partida da simulação uma abertura de 20%, teve esse valor variado em conforme mostrado na Figura 13.
-# sent_id = 169-20121217-MONOGRAFIA_0-86
+# sent_id = 169-20121217-MONOGRAFIA_0-85
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	analisar	analisar	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3399,23 +3382,26 @@
 81	13	13	NUM	_	NumType=Card	80	nummod	_	SpaceAfter=No
 82	.	.	PUNCT	_	_	71	punct	_	SpacesAfter=\n
 
-# text = Figura 13 – Sequência de variações na abertura da válvula choke
-# sent_id = 169-20121217-MONOGRAFIA_0-87
+# text = Figura 13 –
+# sent_id = 169-20121217-MONOGRAFIA_0-86
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	13	13	NUM	_	NumType=Card	4	nummod	_	_
-3	–	–	PUNCT	_	_	4	punct	_	_
-4	Sequência	sequência	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	variações	variação	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-7-8	na	_	_	_	_	_	_	_	_
-7	em	em	ADP	_	_	9	case	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	válvula	válvula	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-13	choke	choke	ADV	_	_	1	advmod	_	_
+2	13	13	NUM	_	NumType=Card	1	obj	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+
+# text = Sequência de variações na abertura da válvula choke
+# sent_id = 169-20121217-MONOGRAFIA_0-87
+1	Sequência	sequência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	variações	variação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	válvula	válvulo	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	choke	choke	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\s\n
 
 # text = A resposta da saída BHP a variações na abertura da válvula choke é mostrada na Figura 14, onde se visualiza claramente que o fechamento da válvula choke resultou no aumento da pressão no fundo do poço e a abertura resultou na diminuição dessa pressão.
 # sent_id = 169-20121217-MONOGRAFIA_0-88
@@ -3704,7 +3690,7 @@
 25	de	de	ADP	_	_	26	case	_	_
 26	operação	operação	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	nominal	nominal	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 15 – Resposta dos estados a variações na abertura da válvula choke Noutro caso, a abertura da válvula choke é mantida constante em 20% e o fluxo na bomba de lama ( ) é modificado.
 # sent_id = 169-20121217-MONOGRAFIA_0-95
@@ -3888,7 +3874,7 @@
 30	também	também	ADV	_	_	32	advmod	_	_
 31	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
 32	acompanha	acompanhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n\n
 
 # text = Figura 17 -
 # sent_id = 169-20121217-MONOGRAFIA_0-101
@@ -4060,7 +4046,7 @@
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	lama	lama	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+14	lama	lama	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpacesAfter=\s\n
 
 # text = Outras respostas analisadas foram a influencia de perturbações.
 # sent_id = 169-20121217-MONOGRAFIA_0-107
@@ -4317,7 +4303,7 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\n\n
 
 # text = Figura 20 -
 # sent_id = 169-20121217-MONOGRAFIA_0-116
@@ -4552,7 +4538,7 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	e	e	CCONJ	_	_	22	cc	_	_
 22	vice-versa	vice-versa	ADV	_	_	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = Figura 22 –
 # sent_id = 169-20121217-MONOGRAFIA_0-126
@@ -4624,7 +4610,7 @@
 12	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	reversa	reverso	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+15	reversa	reverso	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\s\n
 16	Capítulo	capítulo	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 17	4	4	NUM	_	NumType=Card	16	nummod	_	_
 
@@ -5097,7 +5083,7 @@
 36	multivariable	multivariable	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	optimal	optimal	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	38	punct	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\n
 40	constrained	constrained	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 41	control	control	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
 42	algorithm	algorithr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	SpaceAfter=No
@@ -5670,27 +5656,10 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	controle	controle	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	MPC	MPC	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
-
-# text = Figura 25 - Esquema de implementação dos algoritmos
-# sent_id = 169-20121217-MONOGRAFIA_0-153
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	25	25	NUM	_	NumType=Card	4	nummod	_	_
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	implementação	implementação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7-8	dos	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	algoritmos	algoritmo	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-
-# text = MPC
-# sent_id = 169-20121217-MONOGRAFIA_0-154
-1	MPC	MPC	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = No instante de tempo atual usualmente definido como o instante , o comportamento do processo ao longo de um horizonte de tempo é considerado.
-# sent_id = 169-20121217-MONOGRAFIA_0-155
+# sent_id = 169-20121217-MONOGRAFIA_0-153
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5724,7 +5693,7 @@
 28	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = O intervalo de tempo é conhecido como horizonte de predição.
-# sent_id = 169-20121217-MONOGRAFIA_0-156
+# sent_id = 169-20121217-MONOGRAFIA_0-154
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5738,7 +5707,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Utilizando um modelo do processo, as respostas deste processo às mudanças nas variáveis manipuladas são previstas.
-# sent_id = 169-20121217-MONOGRAFIA_0-157
+# sent_id = 169-20121217-MONOGRAFIA_0-155
 1	Utilizando	utilizar	VERB	_	VerbForm=Ger	21	advcl	_	_
 2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -5767,7 +5736,7 @@
 22	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = As ações das variáveis manipuladas são selecionadas de tal forma que a resposta prevista apresenta determinadas características que sejam desejáveis.
-# sent_id = 169-20121217-MONOGRAFIA_0-158
+# sent_id = 169-20121217-MONOGRAFIA_0-156
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -5793,7 +5762,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = As ações de controle podem variar apenas dentro de um horizonte conhecido como horizonte de controle.
-# sent_id = 169-20121217-MONOGRAFIA_0-159
+# sent_id = 169-20121217-MONOGRAFIA_0-157
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -5813,7 +5782,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = De forma geral, minimiza-se um critério de desempenho desejado sujeito à dinâmica do modelo e às possíveis restrições nas variáveis de entrada/saída.
-# sent_id = 169-20121217-MONOGRAFIA_0-160
+# sent_id = 169-20121217-MONOGRAFIA_0-158
 1	De	de	ADP	_	_	2	case	_	_
 2	forma	forma	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 3	geral	geral	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
@@ -5852,7 +5821,7 @@
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Apenas a primeira ação de controle calculada é de fato implementada no processo real.
-# sent_id = 169-20121217-MONOGRAFIA_0-161
+# sent_id = 169-20121217-MONOGRAFIA_0-159
 1	Apenas	apenas	ADV	_	_	4	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
@@ -5872,7 +5841,7 @@
 16	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = As variáveis controladas da planta são então medidas.
-# sent_id = 169-20121217-MONOGRAFIA_0-162
+# sent_id = 169-20121217-MONOGRAFIA_0-160
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	controladas	controlar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -5886,7 +5855,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = No próximo instante de amostragem, isto é, em , o mesmo problema de otimização é resolvido com a nova condição inicial obtida mediante informação tirada das medidas da (é desta maneira que se introduz retroalimentação ou feedback no planta em controlador) e com o horizonte movido adiante por um intervalo de amostragem (Qin e Badgwell, 2003).
-# sent_id = 169-20121217-MONOGRAFIA_0-163
+# sent_id = 169-20121217-MONOGRAFIA_0-161
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -5963,7 +5932,7 @@
 69	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = A estrutura inerente a todos os algoritmos MPC é ilustrada na Figura 26, onde o controlador é também chamado de otimizador.
-# sent_id = 169-20121217-MONOGRAFIA_0-164
+# sent_id = 169-20121217-MONOGRAFIA_0-162
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	inerente	inerente	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -5988,10 +5957,10 @@
 21	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl:relcl	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	otimizador	otimizador	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
 
 # text = Figura 26 - Estrutura de um sistema de controle MPC 4.2 – LMPC Convencional - O Controlador QDMC
-# sent_id = 169-20121217-MONOGRAFIA_0-165
+# sent_id = 169-20121217-MONOGRAFIA_0-163
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	26	26	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -6012,7 +5981,7 @@
 18	QDMC	QDMC	PROPN	_	Number=Sing	17	flat:name	_	_
 
 # text = Os primeiros controladores aplicados na indústria no início dos anos 70 utilizavam a estratégia MPC sem restrições também conhecido como DMC1, que usavam um modelo de convolução linear de resposta ao degrau e geração da sequência de controle por otimização analítica.
-# sent_id = 169-20121217-MONOGRAFIA_0-166
+# sent_id = 169-20121217-MONOGRAFIA_0-164
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
 3	controladores	controlador	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -6068,7 +6037,7 @@
 48	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Porém, com o aparecimento de restrições presentes nos processos que necessitavam a sua inclusão no desenvolvimento do controlador, foi necessária uma evolução do algoritmo de controle.
-# sent_id = 169-20121217-MONOGRAFIA_0-167
+# sent_id = 169-20121217-MONOGRAFIA_0-165
 1	Porém	porém	ADV	_	_	25	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -6108,7 +6077,7 @@
 33	.	.	PUNCT	_	_	25	punct	_	_
 
 # text = A otimização neste caso passou a ser numérica e a solução do problema convexo DMC por meio de programação quadrática (QP) deu origem ao QDMC, proposto por Garcia e Morshedi (1986).
-# sent_id = 169-20121217-MONOGRAFIA_0-168
+# sent_id = 169-20121217-MONOGRAFIA_0-166
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	otimização	otimização	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	neste	_	_	_	_	_	_	_	_
@@ -6154,7 +6123,7 @@
 40	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O QDMC usa as mesmas equações de predição do DMC, ou seja: (45) 1
-# sent_id = 169-20121217-MONOGRAFIA_0-169
+# sent_id = 169-20121217-MONOGRAFIA_0-167
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	QDMC	QDMC	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6177,7 +6146,7 @@
 19	1	1	NUM	_	NumType=Card	3	nummod	_	_
 
 # text = A síntese do desenvolvimento do DMC pode ser encontrada no Apêndice
-# sent_id = 169-20121217-MONOGRAFIA_0-170
+# sent_id = 169-20121217-MONOGRAFIA_0-168
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -6197,16 +6166,16 @@
 14	Apêndice	Apêndice	PROPN	_	Gender=Masc|Number=Sing	11	obl	_	_
 
 # text = A deste trabalho.
-# sent_id = 169-20121217-MONOGRAFIA_0-171
+# sent_id = 169-20121217-MONOGRAFIA_0-169
 1	A	o	ADP	_	_	4	case	_	_
 2-3	deste	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
+5	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n\n
 
 # text = onde: - é o vetor de erros entre os valores previstos e o valor desejado.
-# sent_id = 169-20121217-MONOGRAFIA_0-172
+# sent_id = 169-20121217-MONOGRAFIA_0-170
 1	onde	onde	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	-	-	PUNCT	_	_	6	punct	_	_
@@ -6226,7 +6195,7 @@
 17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = - é o vetor de erros entre o valor desejado e os valores previstos se não houver nenhuma ação de controle futura (sistema em malha aberta).
-# sent_id = 169-20121217-MONOGRAFIA_0-173
+# sent_id = 169-20121217-MONOGRAFIA_0-171
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6258,7 +6227,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = - é a matriz dinâmica.
-# sent_id = 169-20121217-MONOGRAFIA_0-174
+# sent_id = 169-20121217-MONOGRAFIA_0-172
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6266,8 +6235,8 @@
 5	dinâmica	dinâmica	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Considerando a seguinte função objetivo: (46) sendo que: - é a matriz de fatores de supressão que atenua as variações das ações de controle - é a matriz diagonal de ponderação onde os valores da diagonal principal são proporcionais à importância da variável controlada Substituindo a Equação (45) na Equação (46), temos:
-# sent_id = 169-20121217-MONOGRAFIA_0-175
+# text = Considerando a seguinte função objetivo: (46) sendo que: - é a matriz de fatores de supressão que atenua as variações das ações de controle - é a matriz diagonal de ponderação onde os valores da diagonal principal são proporcionais à importância da variável controlada Substituindo a Equação (45) na Equação (46), temos: (47)
+# sent_id = 169-20121217-MONOGRAFIA_0-173
 1	Considerando	considerar	VERB	_	VerbForm=Ger	5	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -6340,9 +6309,12 @@
 65	,	,	PUNCT	_	_	53	punct	_	_
 66	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 67	:	:	PUNCT	_	_	66	punct	_	_
+68	(	(	PUNCT	_	_	69	punct	_	SpaceAfter=No
+69	47	47	NUM	_	NumType=Card	66	appos	_	SpaceAfter=No
+70	)	)	PUNCT	_	_	69	punct	_	_
 
 # text = Como o último termo do segundo membro, não depende da variável de interesse , a função objetivo do controlador pode ser escrita como: (49) onde: (50) (51)
-# sent_id = 169-20121217-MONOGRAFIA_0-176
+# sent_id = 169-20121217-MONOGRAFIA_0-174
 1	Como	como	SCONJ	_	_	11	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
@@ -6378,7 +6350,7 @@
 30	49	49	NUM	_	NumType=Card	24	appos	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	30	punct	_	_
 32	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	33	obl	_	SpaceAfter=No
-33	:	:	PUNCT	_	_	24	punct	_	_
+33	:	:	PUNCT	_	_	24	punct	_	SpacesAfter=\s\n
 34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	50	50	NUM	_	NumType=Card	33	appos	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	35	punct	_	_
@@ -6387,7 +6359,7 @@
 39	)	)	PUNCT	_	_	38	punct	_	_
 
 # text = Ao problema definido na Equação (49) podemos incluir as restrições nas variáveis manipuladas e controladas: 1.
-# sent_id = 169-20121217-MONOGRAFIA_0-177
+# sent_id = 169-20121217-MONOGRAFIA_0-175
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6416,7 +6388,7 @@
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Nos incrementos das manipuladas: ou seja:
-# sent_id = 169-20121217-MONOGRAFIA_0-178
+# sent_id = 169-20121217-MONOGRAFIA_0-176
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -6431,7 +6403,7 @@
 10	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = As condições 1a) e 1b) podem ser resumidas em: (52) 2.
-# sent_id = 169-20121217-MONOGRAFIA_0-179
+# sent_id = 169-20121217-MONOGRAFIA_0-177
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	condições	condição	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	1a	1ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6451,7 +6423,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Nos valores das manipuladas:
-# sent_id = 169-20121217-MONOGRAFIA_0-180
+# sent_id = 169-20121217-MONOGRAFIA_0-178
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -6462,38 +6434,37 @@
 6	manipuladas	manipulada	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	3	punct	_	_
 
-# text = Como: ou Portanto: 2a) equivale a Daí as condições 2a) e 2b) podem ser resumidas em: (53)
-# sent_id = 169-20121217-MONOGRAFIA_0-181
-1	Como	como	ADV	_	_	8	advmod	_	SpaceAfter=No
+# text = Como: ou Portanto:
+# sent_id = 169-20121217-MONOGRAFIA_0-179
+1	Como	como	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	ou	ou	CCONJ	_	_	6	cc	_	_
-4	Portanto	portanto	ADV	_	_	6	advmod	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	4	punct	_	_
-6	2a	2a	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	1	punct	_	_
-8	equivale	equivalar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
-9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10-11	Daí	_	_	_	_	_	_	_	_
-10	De	de	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-11	aí	aí	ADV	_	_	8	advmod	_	_
-12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	condições	condição	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
-14	2a	2ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	14	punct	_	_
-16	e	e	CCONJ	_	_	17	cc	_	_
-17	2b	2b	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	8	punct	_	_
-19	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
-21	resumidas	resumir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	19	xcomp	_	_
-22	em	em	ADP	_	_	25	case	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	25	punct	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	53	53	NUM	_	NumType=Card	21	obl	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	25	punct	_	_
+3	ou	ou	CCONJ	_	_	4	cc	_	SpacesAfter=\s\n
+4	Portanto	portanto	ADV	_	_	1	conj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Daí as condições 2a) e 2b) podem ser resumidas em: (53)
+# sent_id = 169-20121217-MONOGRAFIA_0-180
+1-2	Daí	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	2	case	_	_
+2	aí	aí	ADV	_	_	5	advmod	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	condições	condição	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	2a	2ar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	2b	2b	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	5	punct	_	_
+10	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	resumidas	resumir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+13	em	em	ADP	_	_	16	case	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	16	punct	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	53	53	NUM	_	NumType=Card	12	obl	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
 
 # text = Resumindo, o problema de otimização que o QDMC resolve tem a função objetivo definida na Equação (49) e as restrições representadas pelas Equações (52) e (53).
-# sent_id = 169-20121217-MONOGRAFIA_0-182
+# sent_id = 169-20121217-MONOGRAFIA_0-181
 1	Resumindo	resumir	VERB	_	VerbForm=Ger	11	advcl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -6534,7 +6505,7 @@
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = É fácil observar que a função objetivo é quadrática em e as restrições são todas lineares.
-# sent_id = 169-20121217-MONOGRAFIA_0-183
+# sent_id = 169-20121217-MONOGRAFIA_0-182
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	fácil	fácil	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	observar	observar	VERB	_	VerbForm=Inf	2	csubj	_	_
@@ -6554,7 +6525,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Esse tipo de problema é clássico dentro da área otimização e é conhecido como o problema de programação quadrática (PQ).
-# sent_id = 169-20121217-MONOGRAFIA_0-184
+# sent_id = 169-20121217-MONOGRAFIA_0-183
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6582,7 +6553,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Do resultado da otimização, só a primeira ação de controle do vetor é usado na planta.
-# sent_id = 169-20121217-MONOGRAFIA_0-185
+# sent_id = 169-20121217-MONOGRAFIA_0-184
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6611,14 +6582,14 @@
 22	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = 4.3 – NMPC Convencional
-# sent_id = 169-20121217-MONOGRAFIA_0-186
+# sent_id = 169-20121217-MONOGRAFIA_0-185
 1	4.3	4.3	NUM	_	NumType=Card	3	nummod	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	Convencional	convencional	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = Embora os processos industriais sejam em geral não-lineares, a maior parte das aplicações MPC são baseadas no uso de modelos lineares.
-# sent_id = 169-20121217-MONOGRAFIA_0-187
+# sent_id = 169-20121217-MONOGRAFIA_0-186
 1	Embora	embora	SCONJ	_	_	8	mark	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	processos	processo	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
@@ -6648,7 +6619,7 @@
 25	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Existem duas principais razões para isso: por um lado, a identificação de um modelo linear baseado nos dados do processo é relativamente fácil e, por outro lado, modelos lineares produzem bons resultados quando a planta opera na vizinhança do ponto de operação.
-# sent_id = 169-20121217-MONOGRAFIA_0-188
+# sent_id = 169-20121217-MONOGRAFIA_0-187
 1	Existem	existir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	csubj	_	_
 2	duas	dois	NUM	_	NumType=Card	4	nummod	_	_
 3	principais	principal	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
@@ -6706,7 +6677,7 @@
 51	.	.	PUNCT	_	_	27	punct	_	_
 
 # text = Nas indústrias de processos, onde o LMPC é amplamente difundido, o objetivo é manter o processo próximo ao estado estacionário ao invés de mudar frequentemente de um ponto de operação para outro, e, por isso, um modelo linear preciso é suficiente.
-# sent_id = 169-20121217-MONOGRAFIA_0-189
+# sent_id = 169-20121217-MONOGRAFIA_0-188
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -6762,7 +6733,7 @@
 50	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Além disso, o uso de um modelo linear em conjunto com função objetivo quadrática leva a um problema
-# sent_id = 169-20121217-MONOGRAFIA_0-190
+# sent_id = 169-20121217-MONOGRAFIA_0-189
 1	Além	além	ADV	_	_	6	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	3	case	_	_
@@ -6786,7 +6757,7 @@
 20	problema	problema	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
 
 # text = QP que converge e cuja solução é implementada em diversos produtos comerciais disponíveis.
-# sent_id = 169-20121217-MONOGRAFIA_0-191
+# sent_id = 169-20121217-MONOGRAFIA_0-190
 1	QP	Qp	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	3	nsubj	_	_
 3	converge	convergir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
@@ -6803,7 +6774,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A existência de algoritmos que garantem uma solução convergente em um período mais curto que o período de amostragem é crucial em processos com grande número de variáveis (Camacho et al., 2005).
-# sent_id = 169-20121217-MONOGRAFIA_0-192
+# sent_id = 169-20121217-MONOGRAFIA_0-191
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	existência	existência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -6839,10 +6810,10 @@
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	2005	2005	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
 
 # text = Entretanto, a resposta dinâmica resultante de um controlador linear é inaceitável quando aplicada ao um processo não-linear com vários graus de severidade.
-# sent_id = 169-20121217-MONOGRAFIA_0-193
+# sent_id = 169-20121217-MONOGRAFIA_0-192
 1	Entretanto	entretanto	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6871,7 +6842,7 @@
 25	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Embora em muitas situações o processo possa estar operando na vizinhança do estado estacionário, e com isso a representação linear seria adequada, existem diversas situações onde isso não ocorre.
-# sent_id = 169-20121217-MONOGRAFIA_0-194
+# sent_id = 169-20121217-MONOGRAFIA_0-193
 1	Embora	Embora	SCONJ	_	_	7	mark	_	_
 2	em	em	ADP	_	_	4	case	_	_
 3	muitas	muito	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
@@ -6910,7 +6881,7 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Por um lado, há processos onde a não linearidade é tão severa (até mesmo na proximidade do estado estacionário), e tão crucial para a estabilidade em malha fechada, que um modelo linear não é suficiente.
-# sent_id = 169-20121217-MONOGRAFIA_0-195
+# sent_id = 169-20121217-MONOGRAFIA_0-194
 1	Por	por	ADP	_	_	3	case	_	_
 2	um	um	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -6958,7 +6929,7 @@
 43	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Por outro lado, há alguns processos que experimentam transições contínuas (partidas, desligamentos, etc.) e passam um bom tempo longe da região de operação no estado estacionário, ou até mesmo processos que nunca estão em operação no estado estacionário, como no caso dos fornos, onde toda a operação é levada no modo transiente.
-# sent_id = 169-20121217-MONOGRAFIA_0-196
+# sent_id = 169-20121217-MONOGRAFIA_0-195
 1	Por	por	ADP	_	_	5	cc	_	_
 2	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	_
 3	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -7033,11 +7004,11 @@
 66	transiente	transiente	ADJ	_	Gender=Masc|Number=Sing	65	amod	_	SpaceAfter=No
 67	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = Para esses processos uma lei de controle linear não será muito eficiente, sendo os controladores não- lineares essenciais para melhorar a performance ou estabilizar a operação (Camacho et al., 2005).
-# sent_id = 169-20121217-MONOGRAFIA_0-197
+# text = Para esses processos uma lei de controle linear não será muito eficiente, sendo os controladores não-lineares essenciais para melhorar a performance ou estabilizar a operação (Camacho et al., 2005).
+# sent_id = 169-20121217-MONOGRAFIA_0-196
 1	Para	para	ADP	_	_	3	case	_	_
 2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
-3	processos	processo	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+3	processos	processo	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	lei	lei	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -7046,34 +7017,32 @@
 9	não	não	ADV	_	Polarity=Neg	12	advmod	_	_
 10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
 11	muito	muito	ADV	_	_	12	advmod	_	_
-12	eficiente	eficiente	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	3	punct	_	_
-14	sendo	ser	AUX	_	VerbForm=Ger	16	cop	_	_
-15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	controladores	controlador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-17	não	não	ADV	_	Polarity=Neg	19	advmod	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	17	punct	_	_
-19	lineares	linear	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
-20	essenciais	essencial	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
-21	para	para	SCONJ	_	_	22	mark	_	_
-22	melhorar	melhorar	VERB	_	VerbForm=Inf	16	acl	_	_
-23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	performance	performance	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
-25	ou	ou	CCONJ	_	_	26	cc	_	_
-26	estabilizar	estabilizar	VERB	_	VerbForm=Inf	22	conj	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	operação	operação	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
-29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	Camacho	Camacho	PROPN	_	Gender=Fem|Number=Sing	28	appos	_	_
-31	et	et	X	_	Number=Sing	30	flat:name	_	_
-32	al.	al.	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	2005	2005	NUM	_	NumType=Card	16	conj	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+12	eficiente	eficiente	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	sendo	ser	AUX	_	VerbForm=Ger	17	cop	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	controladores	controlador	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+17	não-lineares	não-linear	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+18	essenciais	essencial	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	para	para	SCONJ	_	_	20	mark	_	_
+20	melhorar	melhorar	VERB	_	VerbForm=Inf	17	acl	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	performance	performance	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	ou	ou	CCONJ	_	_	24	cc	_	_
+24	estabilizar	estabilizar	VERB	_	VerbForm=Inf	20	conj	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	operação	operação	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Camacho	Camacho	PROPN	_	Gender=Fem|Number=Sing	26	appos	_	_
+29	et	et	X	_	Number=Sing	28	flat:name	_	_
+30	al.	al.	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	2005	2005	NUM	_	NumType=Card	24	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
 
 # text = Do ponto de vista conceitual o NMPC não apresenta dificuldades.
-# sent_id = 169-20121217-MONOGRAFIA_0-198
+# sent_id = 169-20121217-MONOGRAFIA_0-197
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7089,7 +7058,7 @@
 12	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Considerando a mesma função objetivo que no caso linear e um modelo não-linear para o cálculo das predições, o objetivo consiste novamente em encontrar o controle que minimize a função objetivo num algoritmo de horizonte móvel.
-# sent_id = 169-20121217-MONOGRAFIA_0-199
+# sent_id = 169-20121217-MONOGRAFIA_0-198
 1	Considerando	considerar	VERB	_	VerbForm=Ger	0	root	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -7136,7 +7105,7 @@
 41	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Já, do ponto de vista prático, são várias as dificuldades encontradas neste problema (se comparado ao caso linear): (a) a determinação do modelo do processo, quando deve ser obtido por identificação, (b) a obtenção do sinal de controle requer, em geral, a solução de um problema otimização não-convexo, e (c) a análise de estabilidade e robustez da solução.
-# sent_id = 169-20121217-MONOGRAFIA_0-200
+# sent_id = 169-20121217-MONOGRAFIA_0-199
 1	Já	já	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -7228,7 +7197,7 @@
 82	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = Por estes motivos o NMPC é um campo aberto para pesquisas tanto na área de determinação de modelos como nos procedimentos e algoritmos de otimização para o cálculo do controle (Plucenio et al., 2007).
-# sent_id = 169-20121217-MONOGRAFIA_0-201
+# sent_id = 169-20121217-MONOGRAFIA_0-200
 1	Por	por	ADP	_	_	3	case	_	_
 2	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	motivos	motivo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
@@ -7275,7 +7244,7 @@
 41	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Existe uma grande quantidade de técnicas MPC que direta ou indiretamente tratam sistemas não-lineares (Findeisen & Allgöwer, 2002).
-# sent_id = 169-20121217-MONOGRAFIA_0-202
+# sent_id = 169-20121217-MONOGRAFIA_0-201
 1	Existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	grande	grande	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -7300,7 +7269,7 @@
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Uma possível classificação destas técnicas as divide em 3 grupos: (a) as que utilizam diretamente um modelo não-linear genérico e um algoritmo de otimização não-linear de propósito geral; (b) as que utilizam modelos não-lineares particulares (como séries de Volterra ou modelos de Hammerstein) e métodos de otimização específicos para o modelo escolhido; (c) as que utilizam um ou vários modelos lineares para representar o processo e algoritmos de otimização lineares.
-# sent_id = 169-20121217-MONOGRAFIA_0-203
+# sent_id = 169-20121217-MONOGRAFIA_0-202
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	possível	possível	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	classificação	classificação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -7384,10 +7353,10 @@
 80	de	de	ADP	_	_	81	case	_	_
 81	otimização	otimização	NOUN	_	Gender=Fem|Number=Sing	77	nmod	_	_
 82	lineares	linear	ADJ	_	Gender=Fem|Number=Plur	81	amod	_	SpaceAfter=No
-83	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+83	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = Evidentemente as vantagens e desvantagens de uma ou outra alternativa estão diretamente relacionadas ao compromisso desempenho-custo computacional (Plucenio et al., 2007).
-# sent_id = 169-20121217-MONOGRAFIA_0-204
+# sent_id = 169-20121217-MONOGRAFIA_0-203
 1	Evidentemente	evidentemente	ADV	_	_	3	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	vantagens	vantagen	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
@@ -7417,7 +7386,7 @@
 26	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Definido o modelo não linear que será utilizado no controlador, é hora de montar o algoritmo de controle.
-# sent_id = 169-20121217-MONOGRAFIA_0-205
+# sent_id = 169-20121217-MONOGRAFIA_0-204
 1	Definido	definir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -7442,7 +7411,7 @@
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = No presente trabalho, adotou-se a técnica do grupo (a), onde é utilizado um modelo não-linear geral do processo e um algoritmo de otimização de propósito geral.
-# sent_id = 169-20121217-MONOGRAFIA_0-206
+# sent_id = 169-20121217-MONOGRAFIA_0-205
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7484,7 +7453,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Uma versão simplificada deste algoritmo NMPC foi desenvolvida por Qin & Badgwell (2000), a qual é apresentada a seguir.
-# sent_id = 169-20121217-MONOGRAFIA_0-207
+# sent_id = 169-20121217-MONOGRAFIA_0-206
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	versão	versão	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	simplificada	simplificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -7512,7 +7481,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Levando em consideração que a planta a ser controlada pode ser descrita pelo modelo em espaço de estados, não-linear e discreto no tempo definido pelas seguintes equações: (54) (55) onde é um vetor de entradas do processo ou variáveis manipuladas, é um vetor de saídas do processo ou variáveis controladas, é o vetor de variáveis de estado, é o vetor de variáveis de perturbações medidas, é um vetor de perturbações não medidas ou ruído, e é o vetor de ruído.
-# sent_id = 169-20121217-MONOGRAFIA_0-208
+# sent_id = 169-20121217-MONOGRAFIA_0-207
 1	Levando	levar	VERB	_	VerbForm=Ger	0	root	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	consideração	consideração	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
@@ -7617,7 +7586,7 @@
 97	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para resolver o problema de controle é necessário resolver computacionalmente uma sequência de entradas que levarão o processo do seu estado atual para o estado desejado .
-# sent_id = 169-20121217-MONOGRAFIA_0-209
+# sent_id = 169-20121217-MONOGRAFIA_0-208
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	resolver	resolver	VERB	_	VerbForm=Inf	8	advcl	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -7649,7 +7618,7 @@
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Perturbações feedfoward são removidas incorporando seus efeitos ao modelo .
-# sent_id = 169-20121217-MONOGRAFIA_0-210
+# sent_id = 169-20121217-MONOGRAFIA_0-209
 1	Perturbações	Perturbação	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 2	feedfoward	feedfoward	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -7664,7 +7633,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Perturbações feedback são tipicamente manuseadas assumindo que uma perturbação em degrau foi colocado na saída e ela permanecerá constante por todo o tempo futuro.
-# sent_id = 169-20121217-MONOGRAFIA_0-211
+# sent_id = 169-20121217-MONOGRAFIA_0-210
 1	Perturbações	Perturbação	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 2	feedback	feedback	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -7694,7 +7663,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para alcançar isso, um termo que compara a saída prevista atual com a atual medida da saída é dado por: (56) sendo que o termo será utilizado para as predições subseqüentes, da forma: (57)
-# sent_id = 169-20121217-MONOGRAFIA_0-212
+# sent_id = 169-20121217-MONOGRAFIA_0-211
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	alcançar	alcançar	VERB	_	VerbForm=Inf	21	advcl	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
@@ -7740,10 +7709,10 @@
 41	:	:	PUNCT	_	_	21	punct	_	_
 42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
 43	57	57	NUM	_	NumType=Card	21	appos	_	SpaceAfter=No
-44	)	)	PUNCT	_	_	43	punct	_	_
+44	)	)	PUNCT	_	_	43	punct	_	SpacesAfter=\s\n
 
-# text = O algoritmo de controle aqui descrito minimiza a seguinte função: (58) sujeita às seguintes restrições: (59) (60) (61) (62)
-# sent_id = 169-20121217-MONOGRAFIA_0-213
+# text = O algoritmo de controle aqui descrito minimiza a seguinte função: (58) sujeita às seguintes restrições: ( ) (59) (60) (61) (62)
+# sent_id = 169-20121217-MONOGRAFIA_0-212
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	algoritmo	algoritmo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7765,20 +7734,22 @@
 18	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 19	restrições	restrição	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
 20	:	:	PUNCT	_	_	7	punct	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	59	59	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	22	punct	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	60)	60)	NUM	_	NumType=Card	7	appos:parataxis	_	_
+21	(	(	PUNCT	_	_	24	punct	_	_
+22	)	)	PUNCT	_	_	24	punct	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	59	59	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	61	61	NUM	_	NumType=Card	25	appos:parataxis	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	27	punct	_	_
-29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	62	62	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
-31	)	)	PUNCT	_	_	30	punct	_	_
+27	60)	60)	NUM	_	NumType=Card	7	appos:parataxis	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	61	61	NUM	_	NumType=Card	27	appos:parataxis	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	62	62	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
 
 # text = Sendo o horizonte de predição e o horizonte de controle, o comportamento das futuras saídas é controlado penalizando os desvios do estado estacionário desejado , ou seja, ela verifica o valor atual e o valor desejado e calcula o erro representado por: (63)
-# sent_id = 169-20121217-MONOGRAFIA_0-214
+# sent_id = 169-20121217-MONOGRAFIA_0-213
 1	Sendo	ser	AUX	_	VerbForm=Ger	3	cop	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	horizonte	horizonte	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
@@ -7833,7 +7804,7 @@
 50	)	)	PUNCT	_	_	49	punct	_	_
 
 # text = O termo corresponde às variações na entrada, representa a entrada num determinado instante , sendo que nesse caso, varia de acordo com o horizonte de controle .
-# sent_id = 169-20121217-MONOGRAFIA_0-215
+# sent_id = 169-20121217-MONOGRAFIA_0-214
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	termo	termo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7873,7 +7844,7 @@
 33	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As matrizes e são as matrizes de peso, elas definem os ganhos que serão atribuídos a cada variável controlada e manipulada, ou seja, é possível atribuir uma “importância” a cada saída ou entrada e dessa forma ajustar o controlador parar funcionar de maneira mais próxima à desejada.
-# sent_id = 169-20121217-MONOGRAFIA_0-216
+# sent_id = 169-20121217-MONOGRAFIA_0-215
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	matrizes	matriz	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	e	e	CCONJ	_	_	2	cc	_	_
@@ -7933,7 +7904,7 @@
 55	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Do ponto de vista prático a principal vantagem desse método reside no uso de um modelo não linear, que permite em geral, obter predições muito próximas às saídas reais da planta.
-# sent_id = 169-20121217-MONOGRAFIA_0-217
+# sent_id = 169-20121217-MONOGRAFIA_0-216
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -7980,7 +7951,7 @@
 39	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Como desvantagens devem citar-se as questões iterativas dos métodos de otimização, a incerteza no tempo que levam para entregar uma resposta, a convergência, as soluções em mínimos locais, etc. que fazem com que sua utilização para controle em tempo real seja ainda pouco difundida (Plucenio et al., 2007).
-# sent_id = 169-20121217-MONOGRAFIA_0-218
+# sent_id = 169-20121217-MONOGRAFIA_0-217
 1	Como	como	ADP	_	_	2	case	_	_
 2	desvantagens	desvantagem	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
 3	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8042,10 +8013,10 @@
 56	,	,	PUNCT	_	_	55	punct	_	_
 57	2007	2007	NUM	_	NumType=Card	55	nummod	_	SpaceAfter=No
 58	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+59	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo 5 Controle Preditivo do Processo de Perfuração 5.1 – Introdução
-# sent_id = 169-20121217-MONOGRAFIA_0-219
+# sent_id = 169-20121217-MONOGRAFIA_0-218
 1	Capítulo	capítulo	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	5	5	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Controle	Controle	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -8061,7 +8032,7 @@
 12	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # text = Neste capítulo são apresentados os resultados das simulações da aplicação do sistema de controle avançado no processo de perfuração, cujo layout em ambiente MatLab/Simulink® é mostrado na Figura 27.
-# sent_id = 169-20121217-MONOGRAFIA_0-220
+# sent_id = 169-20121217-MONOGRAFIA_0-219
 1-2	Neste	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -8107,7 +8078,7 @@
 37	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Dois sistemas de controle avançado são implementados: um baseado no LMPC e outro no NMPC, apresentados no capítulo anterior.
-# sent_id = 169-20121217-MONOGRAFIA_0-221
+# sent_id = 169-20121217-MONOGRAFIA_0-220
 1	Dois	dois	NUM	_	NumType=Card	2	nummod	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8138,7 +8109,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O objetivo é analisar o comportamento de ambos os sistemas, bem como tecer comparações acerca de seus desempenhos quando submetidos a diversas variações nas condições de operação.
-# sent_id = 169-20121217-MONOGRAFIA_0-222
+# sent_id = 169-20121217-MONOGRAFIA_0-221
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -8171,16 +8142,36 @@
 29	operação	operação	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = Seguindo a ( ).
-# sent_id = 169-20121217-MONOGRAFIA_0-223
+# text = Seguindo a estratégia proposta por Breyholtz et al. (2009), aqui a BHP ( ) é controlada pela ( ).
+# sent_id = 169-20121217-MONOGRAFIA_0-222
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	0	root	_	_
-2	a	o	ADP	_	_	3	case	_	_
-3	(	(	PUNCT	_	_	4	punct	_	_
-4	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	proposta	propor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	Breyholtz	Breyholtz	PROPN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
+7	et	et	X	_	Number=Sing	6	flat:name	_	_
+8	al.	al.	NOUN	_	Gender=Fem|Number=Sing	6	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	2009	2009	NUM	_	NumType=Card	6	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	aqui	aqui	ADV	_	_	15	advmod	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	BHP	BHP	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	_
+16	(	(	PUNCT	_	_	17	punct	_	_
+17	)	)	PUNCT	_	_	1	punct	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	controlada	controlar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	parataxis	_	_
+20-21	pela	_	_	_	_	_	_	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	(	(	PUNCT	_	_	19	obl:agent	_	_
+23	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A vazão de influxo do reservatório ( ) e a vazão da bomba de pressão reversa ( são consideradas como perturbações.
-# sent_id = 169-20121217-MONOGRAFIA_0-224
+# sent_id = 169-20121217-MONOGRAFIA_0-223
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8209,7 +8200,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = Figura 27 – Controle MPC da coluna de perfuração 5.1 – Controle LMPC do Processo de Perfuração
-# sent_id = 169-20121217-MONOGRAFIA_0-225
+# sent_id = 169-20121217-MONOGRAFIA_0-224
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	27	27	NUM	_	NumType=Card	4	nummod	_	_
 3	–	–	PUNCT	_	_	2	punct	_	_
@@ -8220,7 +8211,7 @@
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+10	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\s\n
 11	5.1	5.1	NUM	_	NumType=Card	10	nummod	_	_
 12	–	–	PUNCT	_	_	13	punct	_	_
 13	Controle	Controle	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -8233,7 +8224,7 @@
 19	Perfuração	Perfuração	PROPN	_	Number=Sing	17	nmod	_	_
 
 # text = A implementação do LMPC usa um modelo linear do processo, em forma de matriz de funções de transferência, como mostrado na Tabela 2, para predição e os parâmetros de sintonia listados na Tabela 3.
-# sent_id = 169-20121217-MONOGRAFIA_0-226
+# sent_id = 169-20121217-MONOGRAFIA_0-225
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	implementação	implementação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8282,7 +8273,7 @@
 42	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As funções de transferência foram obtidas pela aplicação do teste de resposta ao degrau no sistema em malha aberta.
-# sent_id = 169-20121217-MONOGRAFIA_0-227
+# sent_id = 169-20121217-MONOGRAFIA_0-226
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	funções	função	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8313,7 +8304,7 @@
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Os parâmetros de sintonia do controlador foram definidos após extensivas simulações, usando algumas regras heurísticas da literatura e o procedimento da tentativa e erro.
-# sent_id = 169-20121217-MONOGRAFIA_0-228
+# sent_id = 169-20121217-MONOGRAFIA_0-227
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8348,7 +8339,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Tabela 2 - Funções de transferência do modelo linear
-# sent_id = 169-20121217-MONOGRAFIA_0-229
+# sent_id = 169-20121217-MONOGRAFIA_0-228
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	2	2	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -8361,22 +8352,8 @@
 9	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	linear	linear	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 
-# text = Tabela 3 - Parâmetros de sintonia do controlador LMPC
-# sent_id = 169-20121217-MONOGRAFIA_0-230
-1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	3	3	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
-4	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	sintonia	sintonia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-10	LMPC	LMPC	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
-
 # text = A resposta do processo a mudanças no ponto de operação é mostrada na Figura 28.
-# sent_id = 169-20121217-MONOGRAFIA_0-231
+# sent_id = 169-20121217-MONOGRAFIA_0-229
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -8401,7 +8378,7 @@
 19	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Na primeira mudança de setpoint, e após uma oscilação moderada, o sistema demora para estabilizar aproximadamente 65 s.
-# sent_id = 169-20121217-MONOGRAFIA_0-232
+# sent_id = 169-20121217-MONOGRAFIA_0-230
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8427,7 +8404,7 @@
 22	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Já na segunda e terceira mudança de setpoint, o sistema estabiliza em 25s e 15s, respectivamente, com um pequeno sobressinal na segunda mudança.
-# sent_id = 169-20121217-MONOGRAFIA_0-233
+# sent_id = 169-20121217-MONOGRAFIA_0-231
 1	Já	já	ADV	_	_	7	advmod	_	_
 2-3	na	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	7	case	_	_
@@ -8458,10 +8435,10 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	28	amod	_	_
 28	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = A Figura 29 mostra a coordenação das variáveis manipuladas para atingir o ponto de operação desejado.
-# sent_id = 169-20121217-MONOGRAFIA_0-234
+# sent_id = 169-20121217-MONOGRAFIA_0-232
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	29	29	NUM	_	NumType=Card	2	nummod	_	_
@@ -8482,14 +8459,32 @@
 17	desejado	desejar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = Figura 29 -
-# sent_id = 169-20121217-MONOGRAFIA_0-235
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	29	29	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
+# text = Figura 28 – Resposta da pressão de fundo com LMPC a variações no setpoint Figura 29 -
+# sent_id = 169-20121217-MONOGRAFIA_0-233
+1	Figura	figuro	ADV	_	_	2	advmod	_	_
+2	28	28	NUM	_	NumType=Card	4	nummod	_	_
+3	–	–	PUNCT	_	_	2	punct	_	_
+4	Resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	LMPC	LMPC	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	variações	variação	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	setpoint	setpoint	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	29	29	NUM	_	NumType=Card	17	obj	_	_
+19	-	-	PUNCT	_	_	17	punct	_	_
 
-# text = Comportamento das variáveis manipuladas com LMPC a variações no setpoint
-# sent_id = 169-20121217-MONOGRAFIA_0-236
+# text = Comportamento das variáveis manipuladas com LMPC a variações no setpoint exibindo um offset com respeito ao setpoint.
+# sent_id = 169-20121217-MONOGRAFIA_0-234
 1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8504,92 +8499,19 @@
 10	em	em	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	setpoint	setpoint	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-
-# text = Influência da variação de influxo do reservatório é apresentada na Figura 30.
-# sent_id = 169-20121217-MONOGRAFIA_0-237
-1	Influência	influência	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
-2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	variação	variação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-12-13	na	_	_	_	_	_	_	_	_
-12	em	em	ADP	_	_	14	case	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	11	obl	_	_
-15	30	30	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	11	punct	_	_
-
-# text = Neste caso, o valor de é alterado de para , no tempo t = 100 s.
-# sent_id = 169-20121217-MONOGRAFIA_0-238
-1-2	Neste	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	3	case	_	_
-2	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	valor	valor	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
-9	alterado	alterar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-10	de	de	SCONJ	_	_	15	mark	_	_
-11	para	para	SCONJ	_	_	15	mark	_	_
-12	,	,	PUNCT	_	_	15	punct	_	_
-13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	_	_	15	case	_	_
-14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-16	t	t	X	_	_	17	nummod	_	_
-17	=	=	SYM	_	_	15	appos	_	_
-18	100	100	NUM	_	NumType=Card	17	nummod	_	_
-19	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	9	punct	_	_
-
-# text = Como pode ser observado, depois de um aumento da BHP, esta não volta a seu ponto de operação, exibindo um offset com respeito ao setpoint.
-# sent_id = 169-20121217-MONOGRAFIA_0-239
-1	Como	como	ADV	_	_	2	advmod	_	_
-2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
-4	observado	observar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	depois	depois	ADV	_	_	4	advmod	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
-10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	BHP	BHP	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	6	punct	_	_
-14	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	16	nsubj	_	_
-15	não	não	ADV	_	Polarity=Neg	16	advmod	_	_
-16	volta	voltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
-17	a	a	ADP	_	_	19	case	_	_
-18	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	19	det	_	_
-19	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	operação	operação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	exibindo	exibir	VERB	_	VerbForm=Ger	4	advcl	_	_
-24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	offset	offset	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
-26	com	com	ADP	_	_	27	case	_	_
-27	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-28-29	ao	_	_	_	_	_	_	_	_
-28	a	a	ADP	_	_	30	case	_	_
-29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	setpoint	setpoint	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	4	punct	_	_
+13	exibindo	exibir	VERB	_	VerbForm=Ger	1	acl	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	offset	offset	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	respeito	respeito	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	setpoint	setpoint	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Esta falta de controle pode ser explicada pela saturação das duas variáveis manipuladas, conforme mostrado na Figura 31.
-# sent_id = 169-20121217-MONOGRAFIA_0-240
+# sent_id = 169-20121217-MONOGRAFIA_0-235
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	falta	falta	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8615,60 +8537,63 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
 22	31	31	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
-# text = Figura 30 - Resposta da pressão de fundo com LMPC a variação na vazão de influxo do reservatório Figura 31 - Comportamento das variáveis manipuladas com LMPC a variação na vazão de influxo do reservatório
-# sent_id = 169-20121217-MONOGRAFIA_0-241
-1	Figura	figura	PROPN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
-2	30	30	PROPN	_	Number=Sing	1	flat:name	_	_
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	Resposta	resposta	PROPN	_	Number=Sing	1	flat:name	_	_
-5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	com	com	ADP	_	_	11	case	_	_
-11	LMPC	LMPC	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+# text = Figura 30 -
+# sent_id = 169-20121217-MONOGRAFIA_0-236
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	30	30	NUM	_	NumType=Card	1	nsubj	_	_
+3	-	-	PUNCT	_	_	1	punct	_	_
+
+# text = Resposta da pressão de fundo com LMPC a variação na vazão de influxo do reservatório Figura 31 - Comportamento das variáveis manipuladas com LMPC a variação na vazão de influxo do reservatório
+# sent_id = 169-20121217-MONOGRAFIA_0-237
+1	Resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	LMPC	LMPC	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	variação	variação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	variação	variação	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
-14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	31	31	NUM	_	NumType=Card	25	nummod	_	_
-24	-	-	PUNCT	_	_	23	punct	_	_
-25	Comportamento	comportamento	PROPN	_	Gender=Masc|Number=Sing	22	obj	_	_
-26-27	das	_	_	_	_	_	_	_	_
-26	de	de	ADP	_	_	28	case	_	_
-27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
-28	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
-29	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	28	acl	_	_
-30	com	com	ADP	_	_	31	case	_	_
-31	LMPC	LMPC	PROPN	_	Gender=Masc|Number=Sing	29	obl	_	_
+13	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	31	31	NUM	_	NumType=Card	22	nummod	_	_
+21	-	-	PUNCT	_	_	20	punct	_	_
+22	Comportamento	comportamento	PROPN	_	Gender=Masc|Number=Sing	19	obj	_	_
+23-24	das	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+26	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	25	acl	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	LMPC	LMPC	PROPN	_	Gender=Masc|Number=Sing	26	obl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	variação	variação	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	variação	variação	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
-34-35	na	_	_	_	_	_	_	_	_
-34	em	em	ADP	_	_	36	case	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-37	de	de	ADP	_	_	38	case	_	_
-38	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
-39-40	do	_	_	_	_	_	_	_	_
-39	de	de	ADP	_	_	41	case	_	_
-40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+33	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
 
 # text = Efeito da variação da vazão da bomba de pressão reversa é mostrado na Figura 32.
-# sent_id = 169-20121217-MONOGRAFIA_0-242
+# sent_id = 169-20121217-MONOGRAFIA_0-238
 1	Efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8695,7 +8620,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Esta perturbação acontece no tempo t = 100s, quando a vazão muda de e para , provocando um pico positivo considerável no valor da pressão que estabiliza no ponto de operação nominal depois de aproximadamente 100 s.
-# sent_id = 169-20121217-MONOGRAFIA_0-243
+# sent_id = 169-20121217-MONOGRAFIA_0-239
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	perturbação	perturbação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	acontece	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8745,7 +8670,7 @@
 43	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = As variações das variáveis manipuladas para compensar a perturbação são mostradas na Figura 33, exigindo um aumento da abertura da válvula choke e a diminuição quase total da vazão de lama de perfuração.
-# sent_id = 169-20121217-MONOGRAFIA_0-244
+# sent_id = 169-20121217-MONOGRAFIA_0-240
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	variações	variação	NOUN	_	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -8790,16 +8715,16 @@
 37	lama	lama	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Figura 32 -
-# sent_id = 169-20121217-MONOGRAFIA_0-245
+# sent_id = 169-20121217-MONOGRAFIA_0-241
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	32	32	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
 
 # text = Resposta da pressão de fundo com LMPC a variação na vazão da bomba de pressão reversa Figura 33 - Comportamento das variáveis manipuladas com LMPC a variação na vazão da bomba de pressão reversa Finalmente, verifica-se a resposta do processo a uma perda de efetividade do controle, provocada por um travamento da válvula choke em 25% da sua abertura, ocorrendo no tempo t = 100 s.
-# sent_id = 169-20121217-MONOGRAFIA_0-246
+# sent_id = 169-20121217-MONOGRAFIA_0-242
 1	Resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8897,7 +8822,7 @@
 83	.	.	PUNCT	_	_	43	punct	_	_
 
 # text = Este aumento repentino e sustentado da abertura da válvula choke produz o decaimento da pressão, como mostrado na Figura 34.
-# sent_id = 169-20121217-MONOGRAFIA_0-247
+# sent_id = 169-20121217-MONOGRAFIA_0-243
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	repentino	repentino	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -8930,7 +8855,7 @@
 26	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = O controlador consegue acomodar esta falha em aproximadamente 30 s, aumentando a vazão de lama conforme visto na Figura 35.
-# sent_id = 169-20121217-MONOGRAFIA_0-248
+# sent_id = 169-20121217-MONOGRAFIA_0-244
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8954,10 +8879,10 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
 22	35	35	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = Figura 34 - Resposta da pressão de fundo com LMPC a perda de controle da válvula choke Figura 35 -
-# sent_id = 169-20121217-MONOGRAFIA_0-249
+# sent_id = 169-20121217-MONOGRAFIA_0-245
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 2	34	34	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -8984,7 +8909,7 @@
 22	-	-	PUNCT	_	_	20	punct	_	_
 
 # text = Comportamento das variáveis manipuladas com LMPC a perda de controle da válvula choke 5.3 – Controle NMPC do Processo de Perfuração
-# sent_id = 169-20121217-MONOGRAFIA_0-250
+# sent_id = 169-20121217-MONOGRAFIA_0-246
 1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9014,7 +8939,7 @@
 24	Perfuração	Perfuração	PROPN	_	Number=Sing	22	nmod	_	_
 
 # text = A implementação do NMPC usa o mesmo modelo não-linear que descreve o processo para predição da saída e os parâmetros de sintonia listados na Tabela 4.
-# sent_id = 169-20121217-MONOGRAFIA_0-251
+# sent_id = 169-20121217-MONOGRAFIA_0-247
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	implementação	implementação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9050,7 +8975,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = De maneira semelhante ao caso linear, os parâmetros de sintonia do controlador foram definidos após extensivas simulações, usando algumas regras heurísticas da literatura e o procedimento da tentativa e erro.
-# sent_id = 169-20121217-MONOGRAFIA_0-252
+# sent_id = 169-20121217-MONOGRAFIA_0-248
 1	De	de	ADP	_	_	2	case	_	_
 2	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 3	semelhante	semelhante	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9094,7 +9019,7 @@
 37	.	.	PUNCT	_	_	17	punct	_	_
 
 # text = Para efeitos de comparação de desempenho do NMPC com o LMPC, foram praticadas as mesmas variações nas condições de operação que no caso linear, apresentadas na seção 5.2.
-# sent_id = 169-20121217-MONOGRAFIA_0-253
+# sent_id = 169-20121217-MONOGRAFIA_0-249
 1	Para	para	ADP	_	_	2	case	_	_
 2	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9133,10 +9058,24 @@
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	seção	seção	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 34	5.2	5.2	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
+
+# text = Tabela 4 - Parâmetros de sintonia do controlador NMPC
+# sent_id = 169-20121217-MONOGRAFIA_0-250
+1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	4	4	NUM	_	NumType=Card	1	nummod	_	_
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	Parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	sintonia	sintonia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+10	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	_
 
 # text = A resposta do processo a uma sequência de mudanças no setpoint é mostrada na Figura 36.
-# sent_id = 169-20121217-MONOGRAFIA_0-254
+# sent_id = 169-20121217-MONOGRAFIA_0-251
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9162,7 +9101,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Na primeira mudança de setpoint, o sistema atinge, sem oscilações, o novo ponto de operação em 25s e aí permanece.
-# sent_id = 169-20121217-MONOGRAFIA_0-255
+# sent_id = 169-20121217-MONOGRAFIA_0-252
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9191,7 +9130,7 @@
 25	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Na segunda mudança de setpoint o acompanhamento é quase que imediato, estabilizando em 3s, e na terceira mudança, o sistema alcança o novo ponto de operação em aproximadamente 13s.
-# sent_id = 169-20121217-MONOGRAFIA_0-256
+# sent_id = 169-20121217-MONOGRAFIA_0-253
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -9231,7 +9170,7 @@
 35	.	.	PUNCT	_	_	26	punct	_	_
 
 # text = O comportamento das variáveis manipuladas é mostrado na Figura 37.
-# sent_id = 169-20121217-MONOGRAFIA_0-257
+# sent_id = 169-20121217-MONOGRAFIA_0-254
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
@@ -9249,7 +9188,7 @@
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Há uma oscilação brusca em , principalmente na segunda variação de setpoint, mas em geral as respostas das variáveis manipuladas foram rápidas, o que permitiu que o processo alcance rapidamente os novos pontos de operação sem oscilações.
-# sent_id = 169-20121217-MONOGRAFIA_0-258
+# sent_id = 169-20121217-MONOGRAFIA_0-255
 1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	oscilação	oscilação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -9293,33 +9232,30 @@
 39	operação	operação	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 40	sem	sem	ADP	_	_	41	case	_	_
 41	oscilações	oscilação	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n\n
 
-# text = Figura 37 -
-# sent_id = 169-20121217-MONOGRAFIA_0-259
+# text = Figura 37 - Comportamento das variáveis manipuladas com NMPC a variações no setpoint
+# sent_id = 169-20121217-MONOGRAFIA_0-256
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	37	37	NUM	_	NumType=Card	1	nummod	_	_
-3	-	-	PUNCT	_	_	1	punct	_	_
-
-# text = Comportamento das variáveis manipuladas com NMPC a variações no setpoint
-# sent_id = 169-20121217-MONOGRAFIA_0-260
-1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2-3	das	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-5	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
-6	com	com	ADP	_	_	7	case	_	_
-7	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
-8	a	a	ADP	_	_	9	case	_	_
-9	variações	variação	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
-10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	setpoint	setpoint	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+2	37	37	NUM	_	NumType=Card	4	nummod	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Comportamento	comportamento	PROPN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	variações	variação	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	12	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	setpoint	setpoint	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 
 # text = A Figura 38 apresenta o perfil de resposta da BHP a uma variação no influxo do reservatório.
-# sent_id = 169-20121217-MONOGRAFIA_0-261
+# sent_id = 169-20121217-MONOGRAFIA_0-257
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	38	38	NUM	_	NumType=Card	2	flat:name	_	_
@@ -9346,7 +9282,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Diferente do caso linear, esta perturbação provoca uma diminuição acentuada da pressão de fundo, mas que se recupera rapidamente, voltando ao setpoint em aproximadamente 10s.
-# sent_id = 169-20121217-MONOGRAFIA_0-262
+# sent_id = 169-20121217-MONOGRAFIA_0-258
 1	Diferente	diferente	ADV	_	_	9	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9384,7 +9320,7 @@
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A Figura 39 mostra o comportamento das variáveis manipuladas para contornar os efeitos desta perturbação.
-# sent_id = 169-20121217-MONOGRAFIA_0-263
+# sent_id = 169-20121217-MONOGRAFIA_0-259
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	39	39	NUM	_	NumType=Card	2	nummod	_	_
@@ -9404,63 +9340,36 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
 17	perturbação	perturbação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
-# text = Figura 38 - Resposta da pressão de fundo com NMPC a variação na vazão de influxo do reservatório Figura 39 -
-# sent_id = 169-20121217-MONOGRAFIA_0-264
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
-2	38	38	NUM	_	NumType=Card	4	nummod	_	_
+# text = Figura 39 - Comportamento das variáveis manipuladas com NMPC a variação na vazão de influxo do reservatório
+# sent_id = 169-20121217-MONOGRAFIA_0-260
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	39	39	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	2	punct	_	_
-4	Resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5-6	da	_	_	_	_	_	_	_	_
+4	Comportamento	comportamento	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	das	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
-6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	com	com	ADP	_	_	11	case	_	_
-11	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	variação	variação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	39	39	NUM	_	NumType=Card	22	nummod	_	_
-24	-	-	PUNCT	_	_	22	punct	_	_
-
-# text = Comportamento das variáveis manipuladas com NMPC a variação na vazão de influxo do reservatório
-# sent_id = 169-20121217-MONOGRAFIA_0-265
-1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2-3	das	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	_	_
-3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-5	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
-6	com	com	ADP	_	_	7	case	_	_
-7	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
-8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	variação	variação	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
-10-11	na	_	_	_	_	_	_	_	_
-10	em	em	ADP	_	_	12	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	manipuladas	manipular	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+12	variação	variação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	influxo	influxo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 
 # text = Ação regulatória do sistema a uma variação da vazão da bomba de pressão reversa é mostrada na Figura 40.
-# sent_id = 169-20121217-MONOGRAFIA_0-266
+# sent_id = 169-20121217-MONOGRAFIA_0-261
 1	Ação	ação	NOUN	_	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
 2	regulatória	regulatório	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -9491,7 +9400,7 @@
 24	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Como pode ser visualizado, o controle compensa perfeitamente a perturbação, não mostrando nenhuma alteração na BHP.
-# sent_id = 169-20121217-MONOGRAFIA_0-267
+# sent_id = 169-20121217-MONOGRAFIA_0-262
 1	Como	como	ADV	_	_	2	advmod	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -9515,7 +9424,7 @@
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Para conseguir este objetivo, o controlador aumenta a abertura da válvula choke, mantendo constante a vazão de lama conforme ilustrado na Figura 41.
-# sent_id = 169-20121217-MONOGRAFIA_0-268
+# sent_id = 169-20121217-MONOGRAFIA_0-263
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	conseguir	conseguir	VERB	_	VerbForm=Inf	8	advcl	_	_
 3	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -9548,13 +9457,13 @@
 28	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Figura 40 -
-# sent_id = 169-20121217-MONOGRAFIA_0-269
+# sent_id = 169-20121217-MONOGRAFIA_0-264
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	40	40	NUM	_	NumType=Card	1	nummod	_	_
 3	-	-	PUNCT	_	_	1	punct	_	_
 
 # text = Resposta da pressão de fundo com NMPC a variação na vazão da bomba de pressão reversa Figura 41 -
-# sent_id = 169-20121217-MONOGRAFIA_0-270
+# sent_id = 169-20121217-MONOGRAFIA_0-265
 1	Resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9576,13 +9485,13 @@
 16	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	reversa	reverso	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+19	reversa	reverso	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpacesAfter=\s\n
 20	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	41	41	NUM	_	NumType=Card	20	obj	_	_
 22	-	-	PUNCT	_	_	20	punct	_	_
 
 # text = Comportamento das variáveis manipuladas com NMPC a variação na vazão da bomba de pressão reversa
-# sent_id = 169-20121217-MONOGRAFIA_0-271
+# sent_id = 169-20121217-MONOGRAFIA_0-266
 1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9606,7 +9515,7 @@
 18	reversa	reverso	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 
 # text = Como último caso de avaliação, consideramos a válvula choke presa em 25% de abertura.
-# sent_id = 169-20121217-MONOGRAFIA_0-272
+# sent_id = 169-20121217-MONOGRAFIA_0-267
 1	Como	como	ADP	_	_	3	case	_	_
 2	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -9626,7 +9535,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Da Figura 42, pode-se observar que a falha provoca uma queda repentina da pressão, porém de magnitude menor que se comparada ao caso linear, que é acomodada em aproximadamente 13s.
-# sent_id = 169-20121217-MONOGRAFIA_0-273
+# sent_id = 169-20121217-MONOGRAFIA_0-268
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -9671,7 +9580,7 @@
 38	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O controlar compensa a perda da efetividade de controle da válvula choke com o aumento rápido da vazão de lama de perfuração, como mostrada na Figura 43.
-# sent_id = 169-20121217-MONOGRAFIA_0-274
+# sent_id = 169-20121217-MONOGRAFIA_0-269
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controlar	controlar	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	compensa	compensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9711,7 +9620,7 @@
 33	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 42 - Resposta da pressão de fundo com NMPC a perda de controle da válvula choke Figura 43 -
-# sent_id = 169-20121217-MONOGRAFIA_0-275
+# sent_id = 169-20121217-MONOGRAFIA_0-270
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	42	42	NUM	_	NumType=Card	4	nummod	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
@@ -9732,13 +9641,13 @@
 16	de	de	ADP	_	_	19	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 18	válvula	válvulo	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
-19	choke	choke	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	choke	choke	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\s\n
 20	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	43	43	NUM	_	NumType=Card	20	obj	_	_
 22	-	-	PUNCT	_	_	20	punct	_	_
 
 # text = Comportamento das variáveis manipuladas com NMPC a perda de controle da válvula choke 5.4 – Discussão de Resultados Foram realizadas simulações equivalentes em ambos os controladores, a primeira diz respeito a variação do setpoint.
-# sent_id = 169-20121217-MONOGRAFIA_0-276
+# sent_id = 169-20121217-MONOGRAFIA_0-271
 1	Comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -9783,7 +9692,7 @@
 39	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = Nesse caso é possível observar a rapidez com que o controlador LMPC responde se comparado ao NMPC.
-# sent_id = 169-20121217-MONOGRAFIA_0-277
+# sent_id = 169-20121217-MONOGRAFIA_0-272
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9808,7 +9717,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Um exemplo disso é que para a primeira entrada de um degrau positivo no sistema o LMPC demora apenas 25 segundos para efetivamente controlar o processo já o NMPC demora cerca de 65 segundos.
-# sent_id = 169-20121217-MONOGRAFIA_0-278
+# sent_id = 169-20121217-MONOGRAFIA_0-273
 1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	20	fixed	_	_
 3-4	disso	_	_	_	_	_	_	_	_
@@ -9850,7 +9759,7 @@
 37	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Mediante a ocorrência de um aumento na vazão do influxo do reservatório, o NMPC sofre uma alteração mais brusca em sua saída, porém rapidamente compensada, levando a pressão de fundo novamente ao valor desejado.
-# sent_id = 169-20121217-MONOGRAFIA_0-279
+# sent_id = 169-20121217-MONOGRAFIA_0-274
 1	Mediante	mediante	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
@@ -9899,7 +9808,7 @@
 42	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = O mesmo não ocorre no LMPC.
-# sent_id = 169-20121217-MONOGRAFIA_0-280
+# sent_id = 169-20121217-MONOGRAFIA_0-275
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -9911,7 +9820,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Nesse caso a variação da saída é um pouco mais branda, mas o controlador após a ocorrência dessa perturbação não consegue levar a saída ao valor desejado.
-# sent_id = 169-20121217-MONOGRAFIA_0-281
+# sent_id = 169-20121217-MONOGRAFIA_0-276
 1-2	Nesse	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -9951,7 +9860,7 @@
 33	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Quando alterada a vazão da bomba de pressão reversa novamente o NMPC possui uma melhor resposta, pois mesmo com a inserção dessa perturbação a saída não foi afetada, graças à rápida ação das variáveis manipuladas.
-# sent_id = 169-20121217-MONOGRAFIA_0-282
+# sent_id = 169-20121217-MONOGRAFIA_0-277
 1	Quando	quando	SCONJ	_	_	2	mark	_	_
 2	alterada	alterar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	12	acl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -10000,7 +9909,7 @@
 42	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = Já a saída do LMPC sofreu uma modificação que resultou em uma demora do sistema a controlar a pressão de fundo novamente.
-# sent_id = 169-20121217-MONOGRAFIA_0-283
+# sent_id = 169-20121217-MONOGRAFIA_0-278
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	saída	saída	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -10030,7 +9939,7 @@
 25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Ao simular um problema na válvula choke, nesse caso seu travamento em um determinado valor, o tempo de resposta de ambos os controladores foram bem próximos, ficando a diferença entre eles a variação que ocorreu na saída do controlador.
-# sent_id = 169-20121217-MONOGRAFIA_0-284
+# sent_id = 169-20121217-MONOGRAFIA_0-279
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	SCONJ	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10065,7 +9974,7 @@
 29	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
 30	bem	bem	ADV	_	_	31	advmod	_	_
 31	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	33	punct	_	_
+32	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\n
 33	ficando	ficar	VERB	_	VerbForm=Ger	31	advcl	_	_
 34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
@@ -10086,7 +9995,7 @@
 48	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = O NMPC teve uma variação ligeiramente menor que o LMPC.
-# sent_id = 169-20121217-MONOGRAFIA_0-285
+# sent_id = 169-20121217-MONOGRAFIA_0-280
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	NMPC	NMPC	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10100,7 +10009,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Ao serem realizadas as devidas comparações de desempenho dos sistemas de controle avançado, foi possível notar a superioridade do NMPC quando comparado ao LMPC.
-# sent_id = 169-20121217-MONOGRAFIA_0-286
+# sent_id = 169-20121217-MONOGRAFIA_0-281
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -10137,7 +10046,7 @@
 30	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Nas simulações realizadas, o controlador NMPC obteve um comportamento mais suave da saída e mesmo nos momentos em que houve a presença de variações e perturbações, as variáveis manipuladas, nesse caso a bomba de entrada de lama e a válvula choke, não apresentaram oscilações que pudessem prejudicar o desempenho do sistema ao longo de sua utilização.
-# sent_id = 169-20121217-MONOGRAFIA_0-287
+# sent_id = 169-20121217-MONOGRAFIA_0-282
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -10213,7 +10122,7 @@
 67	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = O fato de algoritmo NMPC responder de forma rápida resulta inclusive em uma diferença entre as repostas quando é inserida no sistema a ocorrência de um influxo sob a forma da variável .
-# sent_id = 169-20121217-MONOGRAFIA_0-288
+# sent_id = 169-20121217-MONOGRAFIA_0-283
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fato	fato	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10253,7 +10162,7 @@
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = De acordo com o modelo (Figuras 19 e 20) quando o valor do influxo aumenta, a pressão de fundo deveria aumentar.
-# sent_id = 169-20121217-MONOGRAFIA_0-289
+# sent_id = 169-20121217-MONOGRAFIA_0-284
 1	De	de	ADP	_	_	2	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3	com	com	ADP	_	_	5	case	_	_
@@ -10283,7 +10192,7 @@
 26	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Esse evento pode ser observado nas Figuras 30 e 31 que representam essa variação no controlador linear (LMPC).
-# sent_id = 169-20121217-MONOGRAFIA_0-290
+# sent_id = 169-20121217-MONOGRAFIA_0-285
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	evento	evento	NOUN	_	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10311,7 +10220,7 @@
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Porém, no controlador não linear (NMPC), as Figuras 38 e 39 mostram que isso não ocorre.
-# sent_id = 169-20121217-MONOGRAFIA_0-291
+# sent_id = 169-20121217-MONOGRAFIA_0-286
 1	Porém	porém	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -10337,7 +10246,7 @@
 22	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Esse fenômeno se deve ao fato de que como o esse controlador possui duas entradas e uma saída, e seu grau de liberdade é positivo, podem, nesse sistema, ocorrer variações quanto ao comportamento das entradas.
-# sent_id = 169-20121217-MONOGRAFIA_0-292
+# sent_id = 169-20121217-MONOGRAFIA_0-287
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	fenômeno	fenômeno	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
@@ -10388,7 +10297,7 @@
 44	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = E como nesse caso, o controlador responde de maneira muito rápida ele gera distúrbios nos comportamentos das variáveis de entrada e consequentemente retorna a resposta mostrada na Figura 38.
-# sent_id = 169-20121217-MONOGRAFIA_0-293
+# sent_id = 169-20121217-MONOGRAFIA_0-288
 1	E	e	CCONJ	_	_	15	cc	_	_
 2	como	como	SCONJ	_	_	9	mark	_	_
 3-4	nesse	_	_	_	_	_	_	_	_
@@ -10427,15 +10336,15 @@
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 34	38	38	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
 # text = Capítulo 6
-# sent_id = 169-20121217-MONOGRAFIA_0-294
+# sent_id = 169-20121217-MONOGRAFIA_0-289
 1	Capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	nummod	_	_
 
 # text = Conclusões e Recomendações 6.1 – Conclusões
-# sent_id = 169-20121217-MONOGRAFIA_0-295
+# sent_id = 169-20121217-MONOGRAFIA_0-290
 1	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Recomendações	recomendação	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -10444,7 +10353,7 @@
 6	Conclusões	conclusão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = É de extrema importância durante o processo de perfuração ter controle sobre a pressão de fundo do poço a ser perfurado, tanto para evitar acidentes que possam vir a causar perdas de vidas humanas, ambientais e financeiras quanto para minimizar o desperdício da lama de perfuração, que é quem encarece o processo como um todo, e diminuir o tempo em que a sonda passa não operante.
-# sent_id = 169-20121217-MONOGRAFIA_0-296
+# sent_id = 169-20121217-MONOGRAFIA_0-291
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	extrema	extremo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -10522,7 +10431,7 @@
 73	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Esse trabalho teve como objetivo estudar algumas técnicas de controle avançado aplicadas a perfuração de poços de petróleo.
-# sent_id = 169-20121217-MONOGRAFIA_0-297
+# sent_id = 169-20121217-MONOGRAFIA_0-292
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10544,7 +10453,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = No desenvolvimento e implementação do modelo da coluna de perfuração, dois modelos foram estudados, porém vista a necessidade de um fluido monofásico imposta pelo MPD, o modelo de Nygaard (2006) foi descartado e foi utilizado como base das implementações o modelo de Stamnes (2007).
-# sent_id = 169-20121217-MONOGRAFIA_0-298
+# sent_id = 169-20121217-MONOGRAFIA_0-293
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10609,7 +10518,7 @@
 57	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = As simulações realizadas em malha aberta condizem com o esperado de um sistema real.
-# sent_id = 169-20121217-MONOGRAFIA_0-299
+# sent_id = 169-20121217-MONOGRAFIA_0-294
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	simulações	simulação	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	realizadas	realizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
@@ -10627,7 +10536,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = No tocante as técnicas de controle, dois controladores foram implementados.
-# sent_id = 169-20121217-MONOGRAFIA_0-300
+# sent_id = 169-20121217-MONOGRAFIA_0-295
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10644,7 +10553,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = O primeiro foi baseado em um modelo linearizado da coluna de perfuração resultando em um algoritmo de controle LMPC.
-# sent_id = 169-20121217-MONOGRAFIA_0-301
+# sent_id = 169-20121217-MONOGRAFIA_0-296
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -10669,7 +10578,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Já o segundo controlador, um NMPC, foi obtido a partir de um modelo não linear do processo.
-# sent_id = 169-20121217-MONOGRAFIA_0-302
+# sent_id = 169-20121217-MONOGRAFIA_0-297
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
@@ -10694,7 +10603,7 @@
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Para efeitos de comparação, foram realizadas as mesmas simulações em ambos os controladores.
-# sent_id = 169-20121217-MONOGRAFIA_0-303
+# sent_id = 169-20121217-MONOGRAFIA_0-298
 1	Para	para	ADP	_	_	2	case	_	_
 2	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10712,7 +10621,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ao longo do trabalho foi possível visualizar a superioridade do algoritmo NMPC, algoritmo esse que resultou em respostas mais rápidas e um controle mais suave com poucas penalizações aos componentes manipulados do sistema, o que, para o caso do processo de perfuração, é algo bastante útil visto que uma demora em controlar a pressão pode resultar em acidentes que possam a levar a perdas financeiras, ecológicas e até humanas.
-# sent_id = 169-20121217-MONOGRAFIA_0-304
+# sent_id = 169-20121217-MONOGRAFIA_0-299
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10802,7 +10711,7 @@
 81	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A utilização de algoritmos LMPC é mais difundida no mercado, mas isso não significa que algoritmos NMPC sofrem de deméritos, sua aplicação é mais escassa devido à dificuldade intrínseca a um processo não linear.
-# sent_id = 169-20121217-MONOGRAFIA_0-305
+# sent_id = 169-20121217-MONOGRAFIA_0-300
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10836,7 +10745,7 @@
 30-31	à	_	_	_	_	_	_	_	_
 30	a	a	ADP	_	_	32	case	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	dificuldade	dificuldade	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
+32	dificuldade	dificuldade	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	SpacesAfter=\s\n
 33	intrínseca	intrínsecar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
 34	a	a	ADP	_	_	36	case	_	_
 35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -10846,7 +10755,7 @@
 39	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Porém como visto nesse trabalho é possível implementar um controlador NMPC de maneira relativamente simples e cujos resultados são satisfatórios e, como nesse caso, superiores àqueles obtidos com a utilização de algoritmos LMPC.
-# sent_id = 169-20121217-MONOGRAFIA_0-306
+# sent_id = 169-20121217-MONOGRAFIA_0-301
 1	Porém	porém	ADV	_	_	3	cc	_	_
 2	como	como	ADV	_	_	1	fixed	_	_
 3	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	advcl	_	_
@@ -10890,14 +10799,14 @@
 38	LMPC.	LMPC.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = 6.2 – Trabalho Futuros
-# sent_id = 169-20121217-MONOGRAFIA_0-307
+# sent_id = 169-20121217-MONOGRAFIA_0-302
 1	6.2	6.2	NUM	_	NumType=Card	3	nummod	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	Trabalho	Trabalho	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	Futuros	Futuros	PROPN	_	Number=Sing	3	flat:name	_	_
 
 # text = A vertente dos controladores NMPC vem ganhando espaço diante as publicações acadêmicas e científicas.
-# sent_id = 169-20121217-MONOGRAFIA_0-308
+# sent_id = 169-20121217-MONOGRAFIA_0-303
 1	A	a	ADP	_	_	2	case	_	_
 2	vertente	vertente	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -10917,7 +10826,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Os algoritmos de controle não-linear são ferramentas poderosas na manutenção e controle de processos industriais dos mais variados graus de complexidade.
-# sent_id = 169-20121217-MONOGRAFIA_0-309
+# sent_id = 169-20121217-MONOGRAFIA_0-304
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	algoritmos	algoritmo	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -10946,7 +10855,7 @@
 24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Com isso a continuidade do estudo desse tipo de controle é válida principalmente quando aplicada a setores cuja exploração tende a crescer como no caso da indústria de petróleo e mais especificamente no processo de perfuração de poços.
-# sent_id = 169-20121217-MONOGRAFIA_0-310
+# sent_id = 169-20121217-MONOGRAFIA_0-305
 1	Com	com	ADP	_	_	2	case	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -10998,7 +10907,7 @@
 44	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
 
 # text = Como trabalho futuros, recomenda-se usar modelos mais rigorosos de processos de perfuração, visto que os contidos nesse trabalho são modelos de ordem reduzida de parâmetros concentrados.
-# sent_id = 169-20121217-MONOGRAFIA_0-311
+# sent_id = 169-20121217-MONOGRAFIA_0-306
 1	Como	como	ADP	_	_	2	case	_	_
 2	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 3	futuros	futuro	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -11034,7 +10943,7 @@
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Outra sugestão é a avaliação dos controladores sujeita a variações nos parâmetros do processo, como densidade do lama de perfuração, ou que levem em consideração outras variáveis manipuladas, como a bomba de pressão reversa, ou outras variáveis controladas como a ROP.
-# sent_id = 169-20121217-MONOGRAFIA_0-312
+# sent_id = 169-20121217-MONOGRAFIA_0-307
 1	Outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	sugestão	sugestão	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -11091,7 +11000,7 @@
 50	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Além disso, os controladores avançados LMPC e NMPC aqui testados, podem ser implementados como sendo parte de uma estrutura de controle hierárquica, conforme proposto em Breyholtz (2010a).
-# sent_id = 169-20121217-MONOGRAFIA_0-313
+# sent_id = 169-20121217-MONOGRAFIA_0-308
 1	Além	além	ADV	_	_	3	cc	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
@@ -11129,7 +11038,7 @@
 34	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Estruturas de controle hierárquico são comumente adotadas para controlar plantas completas, não só relacionadas à indústria do petróleo, como também em setores da indústria em geral, cujos processos são dotadas de uma certa complexidade.
-# sent_id = 169-20121217-MONOGRAFIA_0-314
+# sent_id = 169-20121217-MONOGRAFIA_0-309
 1	Estruturas	estrutura	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	controle	controle	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -11173,5 +11082,5 @@
 38	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 39	certa	certo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	40	det	_	_
 40	complexidade	complexidade	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+41	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 

@@ -1,19 +1,24 @@
+
 Introdução 1.1 Objetivo O objetivo principal deste trabalho é realizar uma análise de sensibilidade de fadiga estrutural em função das proporções de um FPSO utilizando-se o método de análise simplificada de fadiga baseado na distribuição de Weibull de dois parâmetros. Para isto, foram analisados 3 FPSOs convertidos.
 O dano foi calculado através do software FPSO, desenvolvido pela ABS, tanto na vida pregressa quanto numa locação típica da costa brasileira. Em seguida, foi determinada a vida remanescente. Também, foi feita uma análise da sensibilidade do dano como navio em função dos parâmetros de forma e escala da distribuição de Weibull através de uma reprodução parcial do programa da ABS no Mathcad.
 1.2 Unidades Flutuantes de Produção Armazenamento e Transferência (FPSOs) A explotação de petróleo e gás está caminhando para águas cada vez mais profundas com grandes afastamentos da costa como é o caso da região do Pré-sal (2.200 m de profundidade e 300 km da costa), o que traz novos e grandes desafios em termos de engenharia. Desta forma, os FPSOs adquirem importância cada vez maior.
 Um FPSO é um tipo popular de embarcação utilizada no meio offshore para explotação de hidrocarbonetos. Esta unidade consiste na utilização de um navio ancorado, que suporta no seu convés uma planta de processo (topside), armazena o óleo produzido e ainda permite a transferência da produção para outro navio (aliviador) que é periodicamente amarrado no FPSO para receber e transportar o óleo até os terminais petrolíferos (BATALHA, 2009).
 Um FPSO pode ser uma nova construção ou pode ser a conversão de um navio petroleiro. Estes navios são escolhidos para conversão, pois possuem estrutura e carregamento similares aos FPSOs.
+
 Os navios petroleiros convertidos a FPSO já possuem dano acumulado de fadiga.
 Para calcular a vida remanescente do FPSO, é necessário que se determine o dano pregresso.
 Figura 1 – FPSO em operação (VALADÃO, 2011) 1.3 Bacia de Campos A Bacia de Campos é a bacia petrolífera que mais produz na margem continental brasileira, respondendo atualmente por mais de 80% da produção nacional de petróleo.
 Ocupando uma área de cerca de 100 mil km2, a Bacia de Campos se estende de Anchieta, no Espírito Santo, a Arraial do Cabo, no Rio de Janeiro.
-A exploração da Bacia de Campos ganhou impulso em 1974, com a descoberta do Campo de Garoupa. Entretanto, a sua produção comercial predominantemente de petróleo pesado teve início somente em 1977, no Campo de Enchova. A Figura 3 mostra a evolução da produção da Bacia de Campos.
+
+Figura 2 – Posição da Bacia de Campos (JOHANN, 2013) A exploração da Bacia de Campos ganhou impulso em 1974, com a descoberta do Campo de Garoupa. Entretanto, a sua produção comercial predominantemente de petróleo pesado teve início somente em 1977, no Campo de Enchova. A Figura 3 mostra a evolução da produção da Bacia de Campos.
+
 Devido à importância econômica da Bacia de Campos, ela foi escolhida para ser a locação para os FPSOs estudados. No entanto, a metodologia simplificada poderia ter sido aplicada para qualquer locação.
 1.4 Metodologia A análise de fadiga denota o processo em que a demanda da fadiga em um detalhe estrutural é estabelecida e comparada à resistência à fadiga do elemento. Três métodos principais se baseiam na avaliação direta do dano ou vida esperada, sendo eles o método espectral, o determinístico e o simplificado. Alternativamente, uma avaliação indireta pode ser realizada limitando a variação de tensão ao máximo valor permitido.
 Os métodos citados são baseados nas curvas S-N. Entretanto, se uma fratura for descoberta a melhor maneira de se prever a vida remanescente é através da mecânica da fratura.
 De acordo com ABS (2003), no método espectral, cada estado de mar é caracterizado por um espectro de mar (como Pierson-Moskowitz ou JONSWAP). O diagrama de dispersão de ondas serve para descrever a probabilidade de longo prazo dos diversos estados de mar na locação prevista para o FPSO ficar ancorado.
 No método determinístico, o estado de mar é caracterizado por uma altura de onda e período determinísticos. De acordo com ABS (2004), a distribuição de tensão de longo prazo é definida por um “bloco de carga”, que consiste em blocos com amplitude de tensão constante e um número de ciclos correspondentes.
 Na análise simplificada de fadiga, a distribuição de longo prazo de Weibull é usada para modelar a variação de tensão. A vantagem deste método consiste no fato de que dados empíricos podem ser usados para estimar os parâmetros da distribuição, e desta forma, obter-se uma resposta rápida bastante útil na fase preliminar do projeto. Por este motivo, a metodologia utilizada neste trabalho será a análise de fadiga através do método simplificado, sendo que uma análise espectral completa é sugerida para trabalhos futuros.
+
 1.5 Estrutura de organização O capítulo 2 apresenta acidentes em estruturas offshore devidos à fadiga.
 No capítulo 3, é feita uma apresentação teórica sobre o fenômeno da fadiga.
 No capítulo 4, é introduzido o conceito de processos estocásticos e de estatísticas de onda de curto e longo prazo.
@@ -21,254 +26,393 @@ O capítulo 5 explica o Sistema de avaliação ambiental de uma locação espec�
 O capítulo 6 é focado no método simplificado de análise de fadiga. Desta forma, é o capítulo teórico mais importante do trabalho.
 O capítulo 7 apresenta os exemplos estudados.
 O capítulo 8 apresenta as conclusões do estudo e sugestões para trabalhos futuros.
+
 2 Acidentes em estruturas offshore É comum aprender-se mais com falhas do que com sucesso (ALMAR NAESS, 1985).
 O fenômeno de ruptura por fadiga foi percebido antes de 1850 através da observação de eixos ferroviários que falhavam sem uma explicação lógica. O entendimento do fenômeno se deve aos estudos de Wöhler por volta de 1850.
 Apesar de o fenômeno ter sido estudado no século XIX, no século XX ocorreram vários acidentes devidos à fadiga. A seguir, serão brevemente descritos alguns casos.
 2.1 Alexander L. Kielland De Acordo com ALMAR NAESS (1985), o acidente com a Semissubmersível Alexander L. Kielland ocorreu em 1980 no Mar do Norte. No dia do acidente, havia 212 pessoas embarcadas das quais 123 morreram.
 Investigações mostraram que a razão do acidente foi uma fratura de fadiga que se iniciou na solda mal executada entre um suporte de hidrofone com a barra de contraventamento D6, seguida por uma ruptura rápida e instável da barra. Na Figura 4, pode-se visualizar a posição das cinco colunas, da barra de contraventamento D6 e do suporte de hidrofone. E na Figura 5, aparecem detalhes da região da barra D6 onde ocorreu a ruptura e a posição da trinca.
-Figura 4 – Semissubmersível Alexander L. Kielland (ALMAR NAESS, 1985) Figura 5 – Detalhes da semissubmersível Alexander L. Kielland (ALMAR NAESS, 1985) A ruptura da barra D6 gerou uma sobrecarga nas outras barras de contraventamento que suportavam a coluna fazendo com que eles rompessem. Como consequência, a coluna D se desprendeu e a estrutura ficou desbalanceada de forma que a plataforma emborcou em menos de 20 minutos.
+Figura 4 – Semissubmersível Alexander L. Kielland (ALMAR NAESS, 1985) 
+Figura 5 – Detalhes da semissubmersível Alexander L. Kielland (ALMAR NAESS, 1985) A ruptura da barra D6 gerou uma sobrecarga nas outras barras de contraventamento que suportavam a coluna fazendo com que eles rompessem. Como consequência, a coluna D se desprendeu e a estrutura ficou desbalanceada de forma que a plataforma emborcou em menos de 20 minutos.
 Inspeções tinham sido executadas durante a fabricação e operação, mas não descobriram uma fratura de 70 milímetros de comprimento que já existia desde a época da fabricação.
 Após o acidente, análises baseadas na mecânica da fratura foram executadas e mostraram que a propagação da trinca na barra de contraventamento tinha acelerado de forma rápida em relação ao estágio inicial. Considerando uma trinca de 30 milímetros de comprimento, a vida remanescente de fadiga da barra seria menor do que 1 ano. Logo, a vida de fadiga poderia ter sido verificada dentro de limites razoáveis de incerteza.
 O projeto desta semissubmersível é de uma época em que não era usual a verificação de fadiga com o detalhamento que é realizada atualmente. Alguns anos depois, quando ela foi construída , a prática na indústria offshore já era diferente. Mesmo assim, nenhuma verificação de fadiga foi feita na Alexander L Kielland.
 2.2 Ranger I De Acordo com ALMAR NAESS (1985), o acidente com a plataforma de perfuração auto-elevatória Ranger I ocorreu em 1979 no Golfo do México.
-A Figura 6 ilustra a plataforma Ranger I, destacando a região entre a perna da popa e placa do fundo (mat) onde uma trinca se iniciou e propagou. A trinca de aproximadamente 500 mm de comprimento se iniciou na posição de 270° e propagou para 90° ao longo da vida da estrutura. Esta falha foi responsável pelo colapso da perna. Em seguida, houve o colapso do convés da popa e flexão e separação das pernas da proa. Estudos indicaram que trincas foram observadas próximas à mesma posição nas duas pernas da proa.
+A Figura 6 ilustra a plataforma Ranger I, destacando a região entre a perna da popa e placa do fundo (mat) onde uma trinca se iniciou e propagou. A trinca de aproximadamente 500 mm de comprimento se iniciou na posição de 270° e propagou para 90° ao longo da 
+vida da estrutura. Esta falha foi responsável pelo colapso da perna. Em seguida, houve o colapso do convés da popa e flexão e separação das pernas da proa. Estudos indicaram que trincas foram observadas próximas à mesma posição nas duas pernas da proa.
 Figura 6 – Ranger I (ALMAR NAESS, 1985) Três meses antes do acidente, a “Ranger I” havia passado por reparos em um estaleiro no Alabama. As trincas, que já existiam durante o tempo de permanência da plataforma no estaleiro, permaneceram não detectadas. Logo após o acidente, as regras das sociedades classificadoras envolvidas foram alteradas. Ensaios não destrutivos de conexões críticas das pernas passaram a ser exigidos em intervalos periódicos.
 2.3 Sedco 135 A Sedco 135 foi uma semissubmersível triangular de perfuração que começou a operar no Golfo do México em 1965 (ALMAR NAESS, 1985). No ano de 1967, a estrutura falhou por trincas devidas a fadiga na barra de contraventamento horizontal da popa.
+
 Falhas do mesmo tipo ocorreram em equipamentos similares operando no Mar do Norte, no Mar do Sul da China, no Canadá (Oceano Pacífico) e Offshore da Austrália.
 O caso do Mar do Norte é particularmente ilustrativo, pois a tensão axial atuando na barra de contraventamento horizontal havia sido registrada alguns meses antes do colapso da semissubmersível. Análises de fadiga mostraram uma razoável correlação entre os cálculos e o que de fato aconteceu. Entretanto, naquela época não era rotina fazer análises de fadiga.
 Figura 7 – Ilustração da Sedco 135 (ALMAR NAESS, 1985) 2.4 Navios Liberty De acordo com ANDERSON (1995), no inicio da Segunda Guerra Mundial, os Estados Unidos construiu 2700 navios do tipo Liberty. A técnica construtiva utilizada consistia em unir seções pré-fabricadas do casco por meio de solda. Ocorreram fraturas no casco de 400 navios da frota, sendo que em 90 desses navios, as fraturas eram de sérias. Em 20 navios, essas fraturas resultaram em perda da embarcação.
-Em alguns casos ocorreu fratura frágil ao longo das juntas soldadas, fazendo com que o navio se partisse em dois em questão de segundos como pode ser visto na Figura Fadiga A fadiga é um processo no qual o dano é acumulado em uma estrutura sob uma variação de tensão. Muitas estruturas não experimentam variação de tensão suficiente para dar origem a problemas de fadiga. Entretanto, outras estruturas tais como pontes, guindastes e estruturas offshore apresentam estes problemas de maneira frequente.
+Em alguns casos ocorreu fratura frágil ao longo das juntas soldadas, fazendo com que o navio se partisse em dois em questão de segundos como pode ser visto na Figura 
+8. As causas dos acidentes podem ser atribuídas a solda de má qualidade, a concentração de tensão nas escotilhas do convés e materiais de construção inapropriados. A falha desses navios fortaleceu o estudo da mecânica da fratura.
+Figura 8 – Navio Liberty partido em dois (OKUMOTO et al, 2009) 
+
+Fadiga A fadiga é um processo no qual o dano é acumulado em uma estrutura sob uma variação de tensão. Muitas estruturas não experimentam variação de tensão suficiente para dar origem a problemas de fadiga. Entretanto, outras estruturas tais como pontes, guindastes e estruturas offshore apresentam estes problemas de maneira frequente.
 Segundo a ASTM, a fadiga é o processo de modificação estrutural progressivo, localizado e permanente, que ocorre em um material sujeito a condições que produzem variação de tensões ou deformações em um ou mais pontos, e que pode culminar em trincas ou em fratura completa, após um número suficiente de ciclos.
 A fadiga é constituída de três estágios: • • Propagação das trincas; • Falha final.
 Iniciação de trincas; O primeiro estágio consiste na iniciação da trinca. A duração deste estágio em peças lisas ou levemente entalhadas submetidas a pequenas variações de tensão é da ordem de 90% da vida total da estrutura. Na maior parte dos casos, o processo de iniciação da trinca é concentrado em uma pequena área de elevada tensão.
 O primeiro estágio gera microfissuras que podem formar uma trinca maior através de um processo de coalescência. Esta trinca se desenvolve lentamente, mas à medida que ela reduz a seção transversal, ocorre um aumento da tensão e a velocidade de propagação aumenta.
 A resistência à ruptura dos materiais, normalmente, é obtida a partir de ensaios estáticos. A fadiga pode levar à ruptura uma estrutura submetida a tensões abaixo da tensão obtida em ensaios estáticos (PFEIL e PFEIL, 2009). A falha final, geralmente, ocorre em regiões de concentração de tensão onde a seção transversal reduzida torna-se insuficiente para resistir ao carregamento.
 Este item utilizou como referência bibliográfica ESDEP (sem ano).
+
 3.1 Carregamento 3.1.1 Amplitude constante Um carregamento de amplitude constante varia entre uma tensão máxima e mínima resultando numa variação de tensão ∆σ (equação (1)) que pode ser dada pela diferença entre as duas tensões.
 A metade da variação de tensão é a amplitude de tensão (equação (2)). Este tipo de carregamento é considerado de amplitude constante, pois a amplitude de tensão não altera ao longo do tempo.
 A tensão média é o valor médio entre as tensões máxima e mínima (equação (3)).
-:= - D s s s mín (1) máx - s s (2) mín máx = s a + s s (3) mín máx = s m s (4) s onde: σmáx = tensão máxima; σmín = tensão mínima; σm = tensão média; σa = amplitude de tensão; ∆σ = variação de tensão; R = razão de tensão.
+- D s s s (1) - s s (2) s s s (3) s s (4) s onde: σmáx = tensão máxima; σmín = tensão mínima; σm = tensão média; σa = amplitude de tensão; ∆σ = variação de tensão; R = razão de tensão.
+
 A Figura 10 ilustra um carregamento de amplitude constante.
 Figura 10 – Carregamento de amplitude constante (ESDEP, sem ano) Uma solicitação pode ser classificada como alternada pura, alternada, repetida e ondulada.
 A solicitação alternada pura possui sua tensão máxima positiva, tensão média nula e tensão mínima negativa. A solicitação alternada tem um comportamento similar ao da alternada pura, entretanto sua tensão média é diferente de zero. A solicitação repetida possui a tensão mínima nula. E a solicitação ondulada possui todas as tensões positivas (ver Figura 10).
-Figura 11 – Classificação de solicitações (CADDELL, 1980) 3.1.2 Amplitude variável Em casos práticos, as solicitações não seguem o comportamento de carregamento de amplitude constante (Figura 12). Estes casos podem ser simplificados agrupando solicitações similares em blocos (Figura 13).
-Figura 12 – Representação esquemática de carregamento de amplitude variável (BRANCO, FERNANDO e CASTRO, 1986) Figura 13 – Carregamento simplificado para análise de fadiga (BRANCO, FERNANDO e CASTRO, 1986) 3.2 Tensão nominal De acordo com PILKEY (1997), a tensão utilizada no projeto de membros estruturais considera que os mesmos têm seção constante. Essa tensão é conhecida como tensão nominal. As equações básicas de tensão nominal são: Tensão normal devida ao carregamento axial (5) s onde: σ = tensão normal; A = área da seção transversal; P = carregamento axial.
-Tensão normal devida ao momento fletor M z I (6) = s onde: σ = tensão normal; M = momento fletor; I = momento de inércia; z = distância do centroide até a fibra externa.
-Tensão cisalhante devida ao momento torsor em peça de seção tubular circular T c J (7) = t onde: τ = tensão cisalhante; T = torque; J = momento de inércia polar; c = raio externo.
-3.3 Concentração de tensões Normalmente, estruturas possuem imperfeições como mudanças bruscas de geometria, entalhes, orifícios ou qualquer outro detalhe que altere a seção. Essas imperfeições geram uma concentração de tensão.
-Em regiões distantes destas imperfeições, a tensão pode ser calculada através das equações de tensão nominal. Este fenômeno é explicado pelo princípio de Saint Venant.
+
+3.1.2 Amplitude variável Em casos práticos, as solicitações não seguem o comportamento de carregamento de amplitude constante (Figura 12). Estes casos podem ser simplificados agrupando solicitações similares em blocos (Figura 13).
+Figura 12 – Representação esquemática de carregamento de amplitude variável (BRANCO, FERNANDO e CASTRO, 1986) Figura 13 – Carregamento simplificado para análise de fadiga (BRANCO, FERNANDO e CASTRO, 1986) 3.2 Tensão nominal De acordo com PILKEY (1997), a tensão utilizada no projeto de membros estruturais considera que os mesmos têm seção constante. Essa tensão é conhecida como tensão nominal. As equações básicas de tensão nominal são: 
+Tensão normal devida ao carregamento axial (5) s onde: σ = tensão normal; A = área da seção transversal; P = carregamento axial.
+Tensão normal devida ao momento fletor (6) s onde: σ = tensão normal; M = momento fletor; I = momento de inércia; z = distância do centroide até a fibra externa.
+Tensão cisalhante devida ao momento torsor em peça de seção tubular circular (7) t onde: τ = tensão cisalhante; T = torque; J = momento de inércia polar; c = raio externo.
+
+3.3 Concentração de tensões imperfeições como mudanças bruscas de geometria, entalhes, orifícios ou qualquer outro detalhe que altere a seção. Essas imperfeições geram uma concentração de tensão.
+Normalmente, estruturas possuem Em regiões distantes destas imperfeições, a tensão pode ser calculada através das equações de tensão nominal. Este fenômeno é explicado pelo princípio de Saint Venant.
 Essencialmente, o princípio afirma que efeitos localizados se dissipam ou se ajustam em regiões suficientemente afastadas.
 Entretanto, na região da imperfeição, a tensão deve ser ajustada através de fatores de concentração de tensão (K). Onde K é definido pela relação: K=Tensão máxima (região de concentração de tensão) Tensão nominal A Figura 14 ilustra a distribuição de tensão na seção A-A de uma peça com entalhe submetida a momento fletor. Na região afastada do entalhe, a distribuição de tensão real se aproxima da distribuição de tensão nominal (princípio de Saint Venant). Na região próxima ao entalhe, verifica-se um aumento da tensão em relação à tensão nominal cuja distribuição é dada pela equação (6).
-Uma compreensão qualitativa do efeito de concentração de tensão pode ser dada através de “linhas de força”. Estas linhas indicam o fluxo das tensões na peça e estão distribuídas uniformemente. Quando existe um entalhe, as linhas o contornam como mostra a Figura 15. Desta forma, há uma concentração de linhas na ponta do entalhe.
-A tensão máxima que ocorre pode ser determinada através de métodos experimentais ou técnicas matemáticas que utilizam a teoria da elasticidade. O resultado destes estudos é mostrado através de gráficos por meio dos fatores de concentração de tensão.
-Figura 16 – Fator K para barra chata com furo circular submetida à tensão normal devida a carregamento axial (HIBBLER, 2004) Figura 17 – Fator K para barra circular com mudança de seção submetida à tensão cisalhante devida a momento torsor (HIBBLER, 2004) Figura 18 – Fator K para barra chata com mudança de seção submetida à tensão normal devida a momento fletor (HIBBLER, 2004) Os fatores de concentração de tensão mostrados da Figura 16 até Figura 18 não dependem do material da barra, dependem apenas da geometria da estrutura e do tipo de imperfeição.
+Uma compreensão qualitativa do efeito de concentração de tensão pode ser dada através de “linhas de força”. Estas linhas indicam o fluxo das tensões na peça e estão 
+distribuídas uniformemente. Quando existe um entalhe, as linhas o contornam como mostra a Figura 15. Desta forma, há uma concentração de linhas na ponta do entalhe.
+tensão máxima que ocorre pode ser determinada através de métodos experimentais ou técnicas matemáticas que utilizam a teoria da elasticidade. O resultado destes estudos é mostrado através de gráficos por meio dos fatores de concentração de tensão.
+A Figura 16 – Fator K para barra chata com furo circular submetida à tensão normal devida a carregamento axial (HIBBLER, 2004) 
+Figura 17 – Fator K para barra circular com mudança de seção submetida à tensão cisalhante devida a momento torsor (HIBBLER, 2004) Figura 18 – Fator K para barra chata com mudança de seção submetida à tensão normal devida a momento fletor (HIBBLER, 2004) Os fatores de concentração de tensão mostrados da Figura 16 até Figura 18 não dependem do material da barra, dependem apenas da geometria da estrutura e do tipo de imperfeição.
+
 De acordo com PFEIL e PFEIL (2009), a ductilidade de um material representa a capacidade de um material se deformar quando sujeito a ação de cargas. Aços dúcteis sujeitos a tensões elevadas sofrem deformações plásticas capazes de redistribuir as tensões.
 A fragilidade de um material representa o oposto da ductilidade, ou seja, o material frágil tem menor capacidade de se deformar quando sujeito a ação de cargas. A Figura 19 representa o diagrama de tensão-deformação de aços ASTM. Os aços A490 e A325 tem menor ductilidade que os aços A242 e A36.
-Figura 19 – Diagrama convencional de tensão-deformação dos aços ASTM A36, A242, A325, A490 (PFEIL, PFEIL, 2009) No caso de material frágil, o fator de concentração de tensão é importante em uma estrutura submetida a carregamento estático, pois o limite de proporcionalidade pode estar na tensão de ruptura. Se isto ocorrer, no ponto onde há concentração de tensão se inicia uma trinca e na ponta desta trinca se desenvolverá uma concentração de tensão ainda maior. Desta forma, a trinca se propagará podendo ocasionar a ruptura súbita da estrutura. (HIBBLER, 2004) No caso de materiais dúcteis submetidos a carregamento estático, os fatores de concentração de tensão são desprezíveis, porque o material irá escoar na região de concentração de tensão e o equilíbrio se restabelece por redistribuição das tensões sem formação de trincas. Caso o material dúctil esteja submetido a carregamento dinâmico, a concentração de tensão deve ser levada em consideração, pois haverá formação de trinca se a variação de tensão exceder o limite de resistência à fadiga.
+Figura 19 – Diagrama convencional de tensão-deformação dos aços ASTM A36, A242, A325, A490 (PFEIL, PFEIL, 2009) No caso de material frágil, o fator de concentração de tensão é importante em uma estrutura submetida a carregamento estático, pois o limite de proporcionalidade pode estar na tensão de ruptura. Se isto ocorrer, no ponto onde há concentração de tensão se inicia uma trinca e na ponta desta trinca se desenvolverá uma concentração de tensão ainda maior. Desta forma, a trinca se propagará podendo ocasionar a ruptura súbita da estrutura. (HIBBLER, 2004) 
+No caso de materiais dúcteis submetidos a carregamento estático, os fatores de concentração de tensão são desprezíveis, porque o material irá escoar na região de concentração de tensão e o equilíbrio se restabelece por redistribuição das tensões sem formação de trincas. Caso o material dúctil esteja submetido a carregamento dinâmico, a concentração de tensão deve ser levada em consideração, pois haverá formação de trinca se a variação de tensão exceder o limite de resistência à fadiga.
 Na vizinhança de ligações soldadas, o aço perde sua ductilidade impedindo a distribuição das tensões e com isso acelera os danos decorrentes das variações de tensão.
 3.4 Comportamento à fadiga de estruturas soldadas O processo clássico para analisar o comportamento à fadiga de juntas soldadas é através das curvas S-N cuja ordenada é expressa em termos de tensão nominal (BRANCO, FERNANDO e CASTRO, 1986). Caso ocorram descontinuidades geométricas, considera-se que a tensão atuante será a tensão nominal majorada pelo fator de concentração de tensões. O comportamento à fadiga destas juntas pode ser afetado por muitos parâmetros, entre eles, podem ser citados: • Geometria da junta (junta topo a topo, de canto e tubulares) • Distribuição das tensões; • Material e estado metalúrgico; • Nível de tensões do ciclo; • Tensão média do ciclo de tensões; • Histórico de carga ou de tensões; • Meio ambiente (fadiga com corrosão); • Tensões residuais; • Defeitos de soldagem.
 3.5 Curvas S-N As curvas S-N são formadas por pares de dados S e N, sendo que N representa o número de ciclos para que uma variação de tensão constante S leve a estrutura à ruptura.
+
 Os dados necessários para traçar essas curvas são coletados através de experimentos em que os corpos de prova são submetidos a variações de tensão diferentes. Quanto maior a variação de tensão aplicada ao corpo de prova, menor será o número de ciclos necessários para ruptura.
 A Tabela 1 mostra os parâmetros necessários para construção das curvas S-N da ABS em detalhes não tubulares expostos ao ar. E a Tabela 2 mostra os parâmetros necessários para construção das curvas S-N da DNV nos mesmos detalhes.
 As curvas S-N da norma da ABS e DNV para detalhes no ar possuem um ponto de inflexão para um número de ciclos (Nq) igual a 107. Quando o número de ciclos (N) necessários para levar a estrutura à ruptura é menor do que Nq, a relação S-N pode ser descrita pela equação (8). Caso contrário, a relação será determinada pela equação (9).
 (8) (9) As curvas S-N da Figura 20 foram construídas a partir dos parâmetros da Tabela 1 e equações (8) e (9). Analogamente, as curvas S-N da Figura 21 foram construídas a partir dos parâmetros da Tabela 2.
-Tabela 1 – Parâmetros para curvas offshore S-N para detalhes não tubulares no ar (ABS, Tabela 2 – Parâmetros para curvas offshore S-N para detalhes não tubulares no ar (DNV, onde: A = parâmetro do segmento superior da curva S-N; m = inclinação inversa da curva S-N no segmento superior da curva S-N; C = parâmetro do segmento inferior da curva S-N; r = inclinação inversa da curva S-N no segmento inferior da curva S-N; Sq = Variação de tensão na interseção dos dois segmentos da curva; Nq = Número de ciclos que a estrutura resiste quando a estrutura está submetida à Sq.
-Figura 20 – Curvas offshore S-N da ABS para detalhes não tubulares no ar Figura 21 – Curvas offshore S-N da DNV para detalhes não tubulares no ar A Figura 22 apresenta as curvas offshore S-N da ABS para detalhes não tubulares na água do mar (sem corrosão).
+Tabela 1 – Parâmetros para curvas offshore S-N para detalhes não tubulares no ar (ABS, 2013) 
+Tabela 2 – Parâmetros para curvas offshore S-N para detalhes não tubulares no ar (DNV, onde: A = parâmetro do segmento superior da curva S-N; m = inclinação inversa da curva S-N no segmento superior da curva S-N; C = parâmetro do segmento inferior da curva S-N; r = inclinação inversa da curva S-N no segmento inferior da curva S-N; Sq = Variação de tensão na interseção dos dois segmentos da curva; Nq = Número de ciclos que a estrutura resiste quando a estrutura está submetida à Sq.
+
+Figura 20 – Curvas offshore S-N da ABS para detalhes não tubulares no ar Figura 21 – Curvas offshore S-N da DNV para detalhes não tubulares no ar 
+A Figura 22 apresenta as curvas offshore S-N da ABS para detalhes não tubulares na água do mar (sem corrosão).
 Figura 22 – Curvas offshore S-N da ABS para detalhes não tubulares na água do mar (ABS, 2004) 3.6 Lei dos Danos Cumulativos (Palmgren-Miner) De acordo com BRANCO, FERNANDO e CASTRO (1986) quando uma estrutura é submetida a um número de ciclos inferior ao número necessário para sua ruptura, embora a estrutura não entre em colapso ela sofre dano.
 A regra de Palmgren-Miner admite que o dano em uma estrutura submetida a uma variação de tensão Si pode ser expresso pela razão entre o número de ciclos aplicados e o número de ciclos para causar ruptura para esta solicitação. A equação (10) representa a equação do dano de uma estrutura submetida a i solicitações.
+
 (10) onde: ni = número de ciclos em uma estrutura submetida à tensão Si; Ni = número de ciclos que uma estrutura resiste quando submetida à tensão Si; D = dano acumulado de fadiga.
 Quando a soma do dano gerado por todos os carregamentos é igual a um, a estrutura sofre ruptura.
-As cargas que atuam numa estrutura offshore são aleatórias. Entretanto, as curvas S- N são obtidas de testes com cargas constantes. Para resolver esse problema se utiliza a regra do dano acumulado de Palmgren-Miner.
+As cargas que atuam numa estrutura offshore são aleatórias. Entretanto, as curvas S-N são obtidas de testes com cargas constantes. Para resolver esse problema se utiliza a regra do dano acumulado de Palmgren-Miner.
 A Figura 23 mostra o número de ciclos aplicados em uma estrutura para 3 solicitações diferentes e o número de ciclos para levar a estrutura à ruptura para cada uma das solicitações. A equação (11) representa o cálculo do dano para essas solicitações.
-Figura 23 – Solicitações em uma estrutura (DOWLING, 1993) (11) 3.7 Fadiga de alto ciclo e baixo ciclo A análise de fadiga de alto ciclo é baseada em tensões na fase elástica do material, normalmente, é necessário um número grande de ciclos (mais de 104) para levar a estrutura à ruptura. Na análise de baixo ciclo, é levando em consideração o escoamento do material. Um número relativamente baixo de ciclos é necessário para levar a estrutura à ruptura.
+Figura 23 – Solicitações em uma estrutura (DOWLING, 1993) (11) 
+3.7 Fadiga de alto ciclo e baixo ciclo A análise de fadiga de alto ciclo é baseada em tensões na fase elástica do material, normalmente, é necessário um número grande de ciclos (mais de 104) para levar a estrutura à ruptura. Na análise de baixo ciclo, é levando em consideração o escoamento do material. Um número relativamente baixo de ciclos é necessário para levar a estrutura à ruptura.
 De acordo com DOWLING (1993), a fadiga de baixo ciclo é geralmente acompanhada de quantia significativa de deformação plástica, enquanto a fadiga de alto ciclo está associada a pequenas deformações elásticas.
 3.8 Mecânica da Fratura Linear Elástica Segundo BRANCO, FERNANDO e CASTRO (1986), existem duas filosofias de projeto estrutural: duração garantida (safe life) e ruptura controlada (fail safe). A filosofia de duração garantida é baseada na hipótese de que o material não possui fissuras ou está sujeito a tensões insuficientes para provocar propagação de fissuras, caso elas existam. A filosofia de ruptura controlada é baseada na hipótese de que a estrutura possui uma trinca que deverá ser controlada de forma que a estrutura trabalhe satisfatoriamente.
 A mecânica da fratura é baseada na filosofia de ruptura controlada. A tensão admissível, neste caso, passa a ser definida em função das dimensões de defeitos com dimensão conhecida ou previsível. Esta metodologia será citada no trabalho para conhecimento do fenômeno, mas não será utilizada nos exemplos.
 Para uma trinca se iniciar e propagar é necessário que se verifique a seguinte relação: (12) onde: σa é a amplitude da tensão nominal aplicada a estrutura; a é o comprimento do entalhe ou entalhe + trinca; C2 e m são constantes dependentes do material, tensão média e condições de solicitações.
+
 De acordo com SALGADO, ao considerar uma trinca de fadiga com comprimento igual a “a”, que após determinado número de ciclos ∆N aumenta seu comprimento para “a+∆a”, a velocidade de propagação da trinca pode ser caracterizada pela razão ∆a/∆N.
 Quando ∆a tende a zero a taxa de crescimento da trinca é caracterizada por da/dN.
 A Figura 24 mostra a relação entre a taxa de crescimento de uma trinca por fadiga (da/dN) e a variação do fator de intensidade de tensão (∆K) em coordenadas logarítmicas.
 O fator de intensidade de tensão é definido pela equação (13).
-(13) onde: Y(a) = fator de geometria S= Variação de tensão a = comprimento de uma trinca fator de intensidade de tensão (∆K) em coordenadas logarítmicas (PINHEIRO, 2004) De acordo com PINHEIRO (2004), a curva da Figura 24 pode ser dividida em 3 regiões. A região I apresenta o crescimento de trincas de forma estável. Nessa região, é possível definir um valor de ∆K abaixo do qual não há crescimento observável de trincas.
+(13) onde: Y(a) = fator de geometria S= Variação de tensão a = comprimento de uma trinca Figura 24 – Curva da taxa de crescimento de trinca por fadiga (da/dN) versus variação do fator de intensidade de tensão (∆K) em coordenadas logarítmicas (PINHEIRO, 2004) De acordo com PINHEIRO (2004), a curva da Figura 24 pode ser dividida em 3 regiões. A região I apresenta o crescimento de trincas de forma estável. Nessa região, é possível definir um valor de ∆K abaixo do qual não há crescimento observável de trincas.
+
 Esse valor é conhecido como ∆Kth (th do inglês, threshold, que tem como significado limite inferior).
 A região II assume um crescimento linear em coordenadas logarítmicas da taxa de crescimento da trinca e da variação do fator de intensidade de tensão expresso pela lei de Paris. O crescimento das trincas nessa região ocorre de maneira estável.
 Para propósitos de engenharia, é usual ignorar a existência do threshold e assumir que a lei de Paris se aplica a região I (ABS, 2004). Esta lei é definida pela equação (14).
 (14) temperatura e meio ambiente.
 A região III corresponde uma região de crescimento instável da trinca. Quando o valor máximo do fator de intensidade de tensões se aproxima do valor crítico (KC), ocorre uma aceleração na propagação da trinca.
+
 4 Dados ambientais 4.1 Espectro de energia A natureza de um processo estocástico pode ser entendida considerando o histórico de tempo de um processo (Figura 25). O valor do processo no tempo t pode ser chamado de x(t).
 O valor de x(t) em um intervalo de tempo escolhido t0 não pode ser previsto de forma precisa, entretanto, pode se achar a probabilidade que x(t0) terá dentro de determinados limites. Como não se pode descrever o processo estocástico de forma precisa como função do tempo, o processo deve ser descrito através de propriedades estatísticas, como média, desvio padrão, etc.
 Figura 25 – Histórico de tempo de um processo estocástico (ALMAR NAESS, 1985) Um processo é dito estacionário se as propriedades estatísticas não variam com o tempo. Um processo estocástico estacionário pode ser considerado como uma composição de infinitos componentes harmônicos com diferentes frequências, amplitudes e fases.
-harmônicos (BATALHA, 2009) O espectro de energia representa um processo estocástico estacionário.
+harmônicos (BATALHA, 2009) 
+representa um processo estocástico estacionário.
 Normalmente, a ordenada é representada por densidade de energia e a abscissa é sempre expressa em termos de frequência. A vantagem de se representar um espectro em termos de densidade de energia é que a área total sob a curva resulta na energia total do sistema. A Figura 27 mostra um espectro de energia de um processo estocástico x(t).
-Figura 27 – Espectro de energia para um processo estocástico x(t) (ALMAR NAESS, 1985) Em processos estocásticos estacionários, considera-se que: A função de densidade de probabilidade de x, p(x) é dada por: £ £ (15) A função de distribuição cumulativa é dada por: (16) ¥ - ¥ (17) ¥ - A função de autocorrelação é definida pela equação (18)(19) onde τ representa um (18) A densidade espectral ou espectro de energia é dado pela equação (19) onde ω é a frequência angular.
-¥ ⌠   ⌡ - w t i = w( w( w( t( t ) ) ) Sx Sx Sx R x ) e d (19) p ¥ - Os momentos de um espectro de energia são definidos pela equação (20). O momento de ordem zero (n=0) representa a energia total do processo estocástico.
-¥ w w q (20) O parâmetro de largura de banda é definido pela equação (21), onde m-, m!, m/ representam momentos espectrais.
-e - (21) O parâmetro de largura banda (ε) varia entre zero e um. Quando ε está próximo de zero, o espectro é estreito e o histórico de tempo do processo é suave e regular.
+O espectro de energia Figura 27 – Espectro de energia para um processo estocástico x(t) (ALMAR NAESS, 1985) Em processos estocásticos estacionários, considera-se que: A função de densidade de probabilidade de x, p(x) é dada por: £ £ (15) A função de distribuição cumulativa é dada por: (16) - ¥ ¥ 
+(17) - ¥ 
+A função de autocorrelação é definida pela equação (18)(19) onde τ representa um 
+(18) A densidade espectral ou espectro de energia é dado pela equação (19) onde ω é a frequência angular.
+¥ - 
+
+w t 
+
+t (19) p - ¥ Os momentos de um espectro de energia são definidos pela equação (20). O momento de ordem zero (n=0) representa a energia total do processo estocástico.
+¥ 
+w q w (20) O parâmetro de largura de banda é definido pela equação (21), onde m-, m!, m/ representam momentos espectrais.
+e - (21) 
+O parâmetro de largura banda (ε) varia entre zero e um. Quando ε está próximo de zero, o espectro é estreito e o histórico de tempo do processo é suave e regular.
 Entretanto, quando ε é próximo a um, o espectro é largo e o histórico de tempo do processo é irregular (ALMAR NAESS, 1985).
+
 Figura 28 – Densidade de probabilidade para banda larga e estreita (ALMAR NAESS, 1985) A distribuição de Rice (ALMAR NAESS, 1985) é dada pela equação (23).
-- e s - - - - e s s - ¥ A distribuição de Rayleigh (equação (23)) é uma boa aproximação da distribuição de Rice para pequenos valores de largura de banda. Ela é utilizada devido ao fato de ter fórmulas simples quando comparada à distribuição de Rice (ε→0).
-- (23) onde: σ = 01- 1-= momento espectral de ordem zero 4.2 Estatísticas de onda 4.2.1 Espectros de mar (Curto Prazo) As ondas dos oceanos são encontradas de maneira irregular (Figura 29). De acordo com RIVA (2004), em um intervalo de 3 horas, as propriedades estatísticas de um estado de mar podem ser consideradas constantes. Desta forma, durante este intervalo de tempo, as ondas se comportam como um processo estocástico estacionário.
+
+- 
+e s - - - 
+
+
+
+- 
+
+
+e s 
+s - ¥ A distribuição de Rayleigh (equação (23)) é uma boa aproximação da distribuição de Rice para pequenos valores de largura de banda. Ela é utilizada devido ao fato de ter fórmulas simples quando comparada à distribuição de Rice (ε→0).
+- 
+
+(23) onde: 
+4.2 Estatísticas de onda 4.2.1 Espectros de mar (Curto Prazo) As ondas dos oceanos são encontradas de maneira irregular (Figura 29). De acordo com RIVA (2004), em um intervalo de 3 horas, as propriedades estatísticas de um estado de mar podem ser consideradas constantes. Desta forma, durante este intervalo de tempo, as ondas se comportam como um processo estocástico estacionário.
 Por este motivo, o estado de mar é normalmente representado por um espectro de densidade de energia. A escolha do espectro descreve uma condição de estado de mar de curto prazo.
 Figura 29 – Histórico de tempo de ondas irregulares do oceano (ALMAR NAESS, 1985) Os espectros de mar podem ser obtidos através de análises do histórico de tempo das ondas e podem ser descritos por parâmetros estatísticos como, por exemplo, a altura significativa de onda e o período de pico. A altura significativa de um estado de mar é definida como a altura média das maiores ondas do terço superior de todas as ondas em um histórico qualquer e o período de pico é o período no qual o espectro alcança seu pico (CHAKRABARTI, 2005).
 A escolha do espectro de mar, que representa um estado de mar, e de seus parâmetros estatísticos, depende das medições realizadas na posição geográfica.
 Para prever respostas máximas, um espectro de mar de tempestade extrema deve ser utilizado. Existem varias fórmulas matemáticas de espectros de mar disponíveis como, por exemplo, ISSC, Bretschneider, JONSWAP e Ochi de seis parâmetros (ABS, 2003).
+
 O espectro de Pierson-Moskowitz (P-M) de dois parâmetros é recomendado para condição de mar totalmente desenvolvido. Neste tipo de condição, o estado de mar não é alterado caso se aumente a duração do vento e/ou a pista (é a área em que sopra o vento) (JOURNEE e MASSIE, 2001).
 Este espectro de mar é normalmente usado para representar ondas de tempestades tropicais como as ondas geradas pelos furacões no Golfo do México ou tufões no Mar do Sul da China. A equação (24) descreve o espectro de P-M de dois parâmetros.
-- w w (24) onde: ωp = frequência modal (pico) correspondente ao maior pico do espectro, em rad/s; Hs = altura significativa de onda, em m; ω = frequência circular da onda, em rad/s.
+- 
+
+
+w w (24) 
+
+onde: ωp = frequência modal (pico) correspondente ao maior pico do espectro, em rad/s; Hs = altura significativa de onda, em m; ω = frequência circular da onda, em rad/s.
 O espectro de JONSWAP constitui uma modificação do espectro de P-M. Se o valor do parâmetro de pico (γ) for igual a 1 na equação (25), o espectro de JONSWAP se iguala ao de P-M. Este espectro é usado para representar as ondas de regiões que tem fronteiras geográficas que limitam a pista e também as ondas de tempestades de inverno do Mar do Norte. A equação (25) descreve o espectro de JONSWAP.
-- w w g - (25) onde: ( 2 s 2 )2 )2 w w - p - ( w s = p e a γ = parâmetro de pico (normalmente entre 1 e 7).
+- 
+
+
+w w 
+
+g 
+- 
+(25) 
+w w - - 
+s 
+w = a 
+γ = parâmetro de pico (normalmente entre 1 e 7).
 4.2.2 Diagrama de dispersão de ondas (Longo Prazo) Os diagramas de dispersão de ondas são estatísticas de onda de longo prazo. Eles são necessários para descrever a variação dos estados de mar.
 Um diagrama de dispersão de ondas é composto por estados de mar descritos pela altura de onda significativa e período de pico. A tabela fornece a probabilidade de ocorrência de cada estado de mar. Cada célula da tabela corresponde a uma estatística de onda de curto prazo.
 O período de tempo em que a base de dados do diagrama é construída deve ser longo o suficiente para ser uma base confiável para o projeto (pelo menos cinco anos).
 Cada ponto representa um estado de mar de cerca de três horas em uma duração continua.
 A Tabela 3 apresenta o diagrama de dispersão de ondas do Mar do Norte baseado em um banco de dados confiável fornecido pela ABS.
-Tabela 3 – Diagrama de dispersão de ondas do Mar do Norte (ABS, 2010) Fatores de Severidade Ambiental 5.1 Introdução Este capítulo tem como referência VALENZUELA et al (2004), ZHAO et al (2002) e ABS (2013).
+Tabela 3 – Diagrama de dispersão de ondas do Mar do Norte (ABS, 2010) 
+
+Fatores de Severidade Ambiental 5.1 Introdução Este capítulo tem como referência VALENZUELA et al (2004), ZHAO et al (2002) e ABS (2013).
 Devido à similaridade estrutural entre FPSOs e navios petroleiros, o projeto de navios pode ser aplicado a FPSOs. Entretanto, o carregamento induzido por ondas em um FPSO ancorado é significativamente diferente do carregamento encontrado nas regras de navios. A introdução dos Fatores de Severidade Ambiental (ESF) é capaz de corrigir essa discrepância.
 A ABS desenvolveu o sistema de avaliação do ambiente de uma locação específica (SEAS) cuja principal função é calcular os Fatores de Severidade Ambiental.
 5.2 Fatores de Severidade Ambiental Os ESF determinam a severidade ambiental das rotas ou locação através da comparação com as ondas do Atlântico Norte. A principal função destes fatores é ajustar para as condições ambientais da rota ou locação, o dano de fadiga e as componentes dinâmicas de carga que foram calculados para as condições ambientais do Atlântico Norte.
 5.2.1 Fatores de Severidade Ambiental Alfa O dano de fadiga é primeiramente calculado para condição ambiental do Atlântico Norte e em seguida é ajustado pelo ESF Alfa para se adequar a condição ambiental das rotas ou locação do FPSO.
-Cada reforçador longitudinal pode ter 4 fatores Alfas: • • Trânsito; • Locação histórica; • Rotas históricas.
+Cada reforçador longitudinal pode ter 4 fatores Alfas: 
+• • Trânsito; • Locação histórica; • Rotas históricas.
 Locação esperada; O ESF Alfa maior do que 1,0 representa um aumento da vida de fadiga em relação às ondas do Atlântico Norte. Este aumento da vida se deve ao fato de que as condições ambientais das rotas ou locação do FPSO são menos severas, quando comparadas às condições ambientais do Atlântico Norte.
 Para determinar o fator Alfa, é necessário determinar o RAO (ANEXO 6) na locação estrutural de interesse para um determinado carregamento. O RAO é utilizado para calcular o espectro de resposta da estrutura para cada estado de mar representado por uma célula do diagrama de dispersão de ondas (ABS, 2010).
 De acordo com ABS (2003), depois de determinar o espectro de resposta, se inicia a análise espectral de fadiga. Primeiramente, devem-se calcular os momentos espectrais para cada estado de mar. Estes momentos são utilizados para determinar a distribuição de probabilidade, parâmetro de banda e frequência da resposta de tensão.
 Na análise espectral de fadiga, a variação de tensão é expressa em termos de função de densidade de probabilidade. Essas funções de densidade de probabilidade de curto prazo são baseadas na distribuição de Rayleigh.
 Para levar em consideração os efeitos de swell (ondas que percorrem uma distância longa a partir de sua região de formação), que não são considerados no diagrama de dispersão, a correção de Rainflow deve ser aplicada no cálculo do dano através do fator de Wirsching (equação(26)).
-- - e e (26) onde: εi = largura de banda.
-s e e - n n n - s - G ¥ - pi = probabilidade do período e altura do estado de mar i = 01-?
+- - e e (26) onde: 
+
+
+
+
+
+
+
+e e s (27) onde: - 
+n n = n µi - νi = 
+s G 0 s x, ) ( = função Gama incompleta - 
+= G função Gama x( ) = ¥ ⌠  ⌡ 
+tx 1- - e t 
+= t d T vida de projeto = m, r, A e Sq = parâmetros da curva S-N definidos no item 3.5 M = número de estados de mar λ(m,εi) = fator de Wirsching f0i = frequência da resposta de tensão do estado de mar i = 
+pi = probabilidade do período e altura do estado de mar i = 01-?
 σi O fator Alfa pode ser definido como: (28) 5.2.2 Fatores de Severidade Ambiental Beta Os ESF Beta são usados para ajustar o carregamento dinâmico induzido por ondas. Eles são responsáveis por avaliar a resistência do casco (nas fases ISE e TSA do programa FPSO - ANEXO 2) e a resistência à fadiga das conexões de detalhes estruturais (na fase TSA).
 O carregamento dinâmico induzido por ondas consiste basicamente dos seguintes carregamentos: • Cargas da viga-navio (momentos fletores e forças cortantes); • Pressão hidrodinâmica externa; • Pressões internas (devidas a movimentos e acelerações do navio).
 Com a aplicação dos fatores Beta, o carregamento dinâmico atuante nos FPSOs passa a considerar as condições de onda da locação em que o FPSO irá operar.
 O fator Beta (equação (29)) é definido como a razão entre o valor máximo de um determinado parâmetro de carregamento para uma condição ambiental específica e o mesmo parâmetro na condição ambiental do Atlântico Norte (ABS, 2013).
-(29) onde: LS = Valor extremo baseado na condição ambiental da locação específica (período de retorno de 100 anos), trânsito (10 anos), inspeção/reparo (1 ano) e fadiga (20 anos) para os parâmetros de carregamento dinâmico; LU = Valor extremo baseado na condição ambiental do Atlântico Norte para os parâmetros de carregamento dinâmico.
+(29) 
+onde: LS = Valor extremo baseado na condição ambiental da locação específica (período de retorno de 100 anos), trânsito (10 anos), inspeção/reparo (1 ano) e fadiga (20 anos) para os parâmetros de carregamento dinâmico; LU = Valor extremo baseado na condição ambiental do Atlântico Norte para os parâmetros de carregamento dinâmico.
 A equação a seguir, descreve o momento fletor vertical induzido por ondas atuando (30) onde: Mw = momento fletor vertical induzido por ondas definido em ABS(2012); βVBM = fator de severidade ambiental para momento fletor vertical (item 5.2.2); kc = fator de correlação definido em ABS (2012); ku = fator de carga definido em ABS (2012).
 Os ESF Beta são aplicados às forças cisalhantes, momento fletor horizontal, pressões externas e acelerações de forma análoga ao momento fletor vertical.
 5.3 Função de transferência As funções de transferência (ANEXO 6) podem ser calculadas através da análise seakeeping pelo programa PRECAL ou podem ser utilizadas as funções (RAOs) do banco de dados do sistema.
 Quando o banco de dados é utilizado, o resultado pode não ser conservativo, pois cada FPSO tem sistema de ancoragem e topside diferentes. A profundidade da lâmina de água também pode influenciar no RAO. Desta forma, o ideal é fazer a análise seakeeping de cada FPSO. É recomendado em ABS(2013) que o RAO database seja utilizado apenas para análises preliminares quando as informações detalhadas não estão disponíveis ainda.
+
 O banco de dados de RAO foi construído através da análise seakeeping de cinco navios com comprimento variando de 150 m até 350 m. Nesta análise, o navio é livre para flutuar e não possui carga de topside. Entretanto, o sistema de ancoragem e de risers gera restrições ao movimento dos FPSOs, logo ele não está livre para flutuar. Além disto, a carga de topside adiciona peso ao casco do navio, afetando as características hidrostáticas.
 Ao utilizar o banco de dados para determinação do RAO, o SEAS busca os dois navios com comprimentos mais próximos do comprimento do FPSO analisado. Em seguida, o programa determina a resposta estrutural de cada navio combinando o RAO com o espectro de onda fornecido pelo usuário. Após encontrar as respostas estruturais dos dois navios, o SEAS faz a interpolação baseada nos comprimentos.
 5.4 Locação 5.4.1 Dados ambientais De acordo com ABS (2013), a resposta máxima de movimento induzido por ondas e os efeitos máximos de carga estrutural podem resultar de diferentes períodos de onda.
 Deste modo, as condições ambientais a seguir devem ser consideradas para se obter as respostas máximas do movimento e de efeitos máximos das cargas estruturais. O maior dos valores obtidos será a resposta máxima.
 • Ondas com período de retorno de 100 anos, caracterizadas por uma altura significativa de onda com uma variação de períodos de pico associados. As tempestades de inverno e ciclones tropicais (furacões e tufões), se existirem, devem ser considerados; • Dados do diagrama de dispersão de onda.
 5.4.2 Direcionalidade da onda A direcionalidade da onda descreve a probabilidade de cada ângulo de incidência e tem efeitos significativos na resposta estrutural. O SEAS permite ao usuário selecionar uma ou mais opções para direcionalidade da onda em relação ao FPSO.
+
 • Mar de proa; • Mar de popa; • Ângulo específico; • Igual probabilidade; • Rosetas definidas pelo usuário.
 O mar de proa (head sea) consiste no mar com ondas cuja direção principal aponta para proa do navio, enquanto no mar de popa (following sea) as ondas possuem direção principal apontando para popa do navio. A Figura 30 ilustra como se comporta o mar de proa e popa em relação a um FPSO.
 Figura 30 – Mar de popa e proa (BATALHA, 2009) A direção de uma onda no SEAS é relacionada ao sistema de coordenadas globais.
 Por exemplo, uma onda que vai em direção ao Norte possui um ângulo de 0o e ondas que viajam para o Leste possuem um ângulo de 90o. É permitido ao usuário do SEAS fornecer qual é a direção da onda, respeitando o sistema mencionado.
-A probabilidade equivalente dos ângulos de incidência de ondas deve ser selecionada para a análise de fadiga. Neste caso, a probabilidade da onda viajar em todas as direções é igual.
-A roseta de onda é uma tabela que descreve a probabilidade de cada ângulo de incidência de onda em um local. ABS (2010) se refere a rosetas como direcionalidade de longo prazo.
+incidência de ondas deve ser selecionada para a análise de fadiga. Neste caso, a probabilidade da onda viajar em todas as direções é igual.
+A probabilidade equivalente dos ângulos de A roseta de onda é uma tabela que descreve a probabilidade de cada ângulo de incidência de onda em um local. ABS (2010) se refere a rosetas como direcionalidade de longo prazo.
 Se uma roseta de onda não está disponível deve-se assumir uma probabilidade igual de todos os ângulos de incidência. Para definir uma roseta, o usuário deve fornecer a probabilidade de ocorrência de cada ângulo de incidência para direções igualmente distribuídas.
+
 5.5 Rotas Para o cálculo do dano acumulado devido aos anos de serviço, devem ser conhecidas as rotas por onde os navios petroleiros passaram. Para determinar o traçado da rota, devem ser fornecidos diversos pontos através de suas coordenadas geográficas.
 O programa SEAS possui um banco de dados com rosetas definidas para 1.103 zonas. A Figura 31 apresenta rosetas fornecidas pelo banco de dados para as zonas no entorno da América do Sul.
-De acordo com Souza (2002), o programa calcula o fator de tempo gasto nas diversas zonas por onde passa o navio através do comprimento da rota dentro de cada zona. A Figura 33 mostra o fator de tempo em cada zona que um navio percorre do Golfo Pérsico até a Bacia de Campos.
+Figura 31 – Rosetas no entorno da América do Sul De acordo com Souza (2002), o programa calcula o fator de tempo gasto nas diversas zonas por onde passa o navio através do comprimento da rota dentro de cada zona. A Figura 33 mostra o fator de tempo em cada zona que um navio percorre do Golfo Pérsico até a Bacia de Campos.
 Além disso, o SEAS obtém as rosetas (Figura 32) e espectros de mar das zonas atravessadas. Através do fator de tempo, espectros de mar e rosetas de cada zona, é possível calcular o ESF Alfa das rotas.
 O programa permite a seleção de rotas de ida e volta ou apenas de ida, pois a direcionalidade do espectro de mar afeta o cálculo do dano.
-Figura 32 – Rosetas para áreas atravessadas em uma rota Figura 33 – Fatores de tempo para áreas atravessadas em uma rota Determinar as condições de onda das rotas que um navio percorreu, ao longo dos anos em serviço, é muito difícil. Para resolver essa dificuldade, o SEAS fornece condições de onda aproximadas de um banco de dados global de ondas. Este banco de dados é conhecido como ABSWAVE.
+
+Figura 32 – Rosetas para áreas atravessadas em uma rota Figura 33 – Fatores de tempo para áreas atravessadas em uma rota 
+Determinar as condições de onda das rotas que um navio percorreu, ao longo dos anos em serviço, é muito difícil. Para resolver essa dificuldade, o SEAS fornece condições de onda aproximadas de um banco de dados global de ondas. Este banco de dados é conhecido como ABSWAVE.
 A versão atual do programa contém um total de 26 rotas (Figura 34) em seu banco de dados.
 Figura 34 – Rotas do ABSWAVE.
+
 6 Análise simplificada de fadiga 6.1 Introdução O Método Simplificado de análise de fadiga é bastante utilizado em estruturas offshore. A principal função do método consiste em identificar quais áreas tem menor resistência à fadiga.
 Os pressupostos para avaliar a resistência à fadiga de um detalhe estrutural a partir do método simplificado são (ABS, 2013): • O dano segue a regra de Palmgren-Miner; • A tensão nominal é a base do método; • A classificação dos detalhes estruturais deve estar de acordo com o ANEXO 4.
 • As Curvas S-N utilizadas serão as curvas offshore S-N da ABS para detalhes não tubulares no ar (Figura 20); • As variações de tensão de longo prazo são descritas pela distribuição de probabilidade de Weibull de dois parâmetros; • A vida de projeto é de 20 anos devendo ser levado em consideração o fator de segurança adequado; A vantagem do método é que através de dados experimentais apropriados, é possível estabelecer o parâmetro de forma da distribuição de Weibull.
 6.2 Conexões consideradas na análise simplificada de fadiga ABS (2013) sugere que a avaliação da resistência à fadiga em FPSOs seja feita em conexões de reforçadores longitudinais com cavernas e anteparas transversais. Devem ser escolhidos reforçadores longitudinais do costado na região entre 0,33 e 1,1 do calado, Detalhes de conexão de reforçadores longitudinais com estruturas transversais não estão em contato com a água do mar, logo as curvas S-N utilizadas devem ser as curvas para detalhes no ar.
+
 Para estes detalhes estruturais, a avaliação da fadiga é primeiramente focada no flange dos reforçadores longitudinais nas proximidades da solda com as conexões de barra-chata ou borboleta. Para isso, deverão ser utilizadas as curvas S-N F e F2 (ANEXO 4).
 Detalhes de conexão de reforçadores longitudinais com estruturas transversais não estão em contato com a água do mar, logo as curvas S-N utilizadas devem ser as curvas para detalhes no ar.
 6.3 Modelo O modelo utilizado para análise simplificada de fadiga tem o comprimento longitudinal de três tanques situados na região central do navio como mostra a Figura 35.
-Figura 36 – Vista em planta do modelo de análise simplificada de fadiga Figura 37 – Representação de tanques carregados e descarregados 6.4 Carregamento 6.4.1 Calado De acordo com ABS (2013), para avaliar a resistência à fadiga de um FPSO de casco simples, quatro calados devem ser considerados na avaliação simplificada de fadiga.
+Figura 36 – Vista em planta do modelo de análise simplificada de fadiga 
+Figura 37 – Representação de tanques carregados e descarregados 6.4 Carregamento 6.4.1 Calado De acordo com ABS (2013), para avaliar a resistência à fadiga de um FPSO de casco simples, quatro calados devem ser considerados na avaliação simplificada de fadiga.
 Os calados devem variar entre 0,4 a 0,9 do calado máximo.
 6.4.2 Casos de carregamento Para cada calado são considerados oito casos de carregamento (Figura 38).
 Calcula-se a componente dinâmica de tensão para os oito casos de carregamento. O ANEXO 3 fornece fatores necessários para calcular a componente dinâmica do carregamento.
-Estas tensões são combinadas em quatro pares de variação de tensão. A variação de tensão é determinada somando-se o módulo da parcela dinâmica dos casos de carregamento em quatro pares: FLC1 e FLC2, FLC3 e FLC4, FLC5 e FLC6, e FLC7 e FLC8.
+Estas tensões são combinadas em quatro pares de variação de tensão. A variação de tensão é determinada somando-se o módulo da parcela dinâmica dos casos de carregamento em quatro pares: FLC e FLC2, FLC e FLC4, FLC e FLC6, e FLC e FLC.
+
 Figura 38 – Casos de carregamento para FPSO de casco simples (ABS, 2013) De acordo com ABS (2013), os padrões de carregamento na Figura 38 representam os piores casos de carregamento. Eles não representam, necessariamente, as condições de operação do FPSO.
 Se para as condições de operação, for encontrado algum padrão de carregamento que produza carregamentos mais severos do que os da Figura 38, este padrão deverá ser incluído na análise.
 6.4.3 Variação de tensão Na análise de fadiga, apenas a variação de tensão provocada pelo carregamento dinâmico deve ser considerada. De acordo com ABS (2013), a variação de tensão total em N/cm2 formada pela parcela dinâmica dos casos de carregamento j e k, para cada calado i em um FPSO, pode ser calculada através da equação (31).
-(31) fRUS fRVS kT c = variação de tensão dinâmica global; =WXfYZ[−fYZ\]+XfY^[−fY^\]W; =WXfY![∗ ]+(fY!\∗ =0,5; =0,95; = variação de tensão dinâmica local; )W; = fator de ajuste da probabilidade de excedência; = fator de ajuste da condição de desgaste médio; fd1vj, fd1vk = tensão primária induzida por ondas produzida por flexão vertical da viga navio; = tensão primária induzida por ondas produzida por flexão horizontal da viga navio; = tensão secundária adicional induzida por ondas produzida pela flexão local dos reforçadores longitudinais entre anteparas transversais e cavernas; fd1hj, fd1hk f* d2j, f* d2k O maior valor encontrado de variação de tensão para cada calado será o valor utilizado na análise simplificada de fadiga.
+(31) 
+fRUS fRVS kT c = variação de tensão dinâmica global; = variação de tensão dinâmica local; )W; = fator de ajuste da probabilidade de excedência; = fator de ajuste da condição de desgaste médio; fd1vj, fd1vk = tensão primária induzida por ondas produzida por flexão vertical da viga navio; = tensão primária induzida por ondas produzida por flexão horizontal da viga navio; = tensão secundária adicional induzida por ondas produzida pela flexão local dos reforçadores longitudinais entre anteparas transversais e cavernas; fd1hj, fd1hk f* d2j, f* d2k O maior valor encontrado de variação de tensão para cada calado será o valor utilizado na análise simplificada de fadiga.
 O valor da variação de tensão pode ser afetado pelo efeito de tamanho ou efeito de espessura. De acordo com DNV (2010), diferentes parâmetros podem explicar esse efeito: • Entalhes mais severos com o aumento da espessura da placa; • Ocorre um aumento no gradiente de tensões para espessuras maiores; • Aumento do comprimento da solda aumenta a possibilidade de ocorrer imperfeições que podem iniciar as trincas devidas à fadiga.
-(32) onde: Sf=variação de tensão ajustada; S = variação de tensão antes da modificação; t = espessura da placa em avaliação.
+(32) 
+onde: Sf=variação de tensão ajustada; S = variação de tensão antes da modificação; t = espessura da placa em avaliação.
 6.5 Distribuição de Weibull A distribuição de tensão de longo prazo em FPSOs submetidos a estados de mar aleatórios pode ser descrita pela distribuição de probabilidade de Weibull de dois parâmetros (ABS, 2003).
 De acordo com HORN et al (1999), a função densidade de probabilidade fs(S) e a função de distribuição cumulativa Fs(S) da distribuição de Weibull para variação de tensão S podem ser expressas pelas equações (33) e (34), onde δ e γ são o parâmetro de escala e o parâmetro de forma, respectivamente.
-g - g (33) g d d d g       S - (34) d - S( ) F s 1 e A probabilidade de uma variação de tensão exceder S é dada pela equação (35).
-g - d - (35) 6.5.1 Parâmetro de forma Uma das vantagens do método simplificado é que dados empíricos podem ser utilizados para estabelecer o parâmetro de forma de Weibull, evitando assim a análise espectral. ABS (2013) fornece para navios, um algoritmo empírico que descreve o parâmetro de forma γ da distribuição de Weibull: 150 m L L< 305 m < 305 m para (36) > para • α = 1,00 para estruturas do deck (incluindo estruturas do costado e das anteparas longitudinais caso estejam a uma distância de 0,10 D do deck).
+g - g (33) g d 
+d d g - (34) d - A probabilidade de uma variação de tensão exceder S é dada pela equação (35).
+g - d - (35) 
+6.5.1 Parâmetro de forma Uma das vantagens do método simplificado é que dados empíricos podem ser utilizados para estabelecer o parâmetro de forma de Weibull, evitando assim a análise espectral. ABS (2013) fornece para navios, um algoritmo empírico que descreve o parâmetro de forma γ da distribuição de Weibull: (36) • α = 1,00 para estruturas do deck (incluindo estruturas do costado e das anteparas longitudinais caso estejam a uma distância de 0,10 D do deck).
 • α = 0,93 para estruturas do fundo (incluindo estruturas do costado e das anteparas longitudinais caso estejam a uma distância de 0,10 D do fundo).
 • α = 0,86 para estruturas do costado e antepara longitudinal caso estejam a uma distância de 0,25 D acima da linha central e 0,30 D abaixo dela.
 • α = 0,80 para estruturas da antepara transversal.
 Onde L e D são respectivamente o comprimento e a profundidade do navio. E α é uma constante que varia de acordo com a região de análise.
 Este algoritmo é ajustado para as condições do Atlântico Norte.
 Normalmente, o parâmetro de forma varia entre 0,7 e 1,4, dependendo do período dominante da resposta estrutural e do ambiente considerado. Por exemplo, para o Golfo do México foram encontrados γ de 0,7 e para o Mar do Norte γ>1, podendo alcançar até 1,4.
-SOUZA (2002) apresenta o algoritmo empírico que descreve o parâmetro de forma γ para as condições do Atlântico Norte como a equação (37). A diferença do algoritmo atual para o algoritmo de 11 anos atrás mostra que existe uma preocupação em melhorar esse parâmetro.
-para (37) para 190 < L ≤ 305 m para L > 305 m Figura 39 – Parâmetro de forma 6.5.2 Parâmetro de escala A probabilidade de uma tensão exceder S ocorre uma vez a cada N ciclos e pode ser determinada pela equação (38).
-(38) Combinando as equações (35) e (38), temos que: g - (39) d Através de uma manipulação algébrica da equação (39) e definindo uma variação de tensão de referência fR que caracteriza a maior variação de tensão esperada para o número de ciclos NR, chega-se a equação (40). Esta equação define o parâmetro de escala da distribuição de Weibull (ABS, 2003).
-0.01 f f R = d (40) R( ) g ln N onde: NR = número de ciclos correspondentes à probabilidade de uma tensão exceder fR; = 104 ciclos correspondendo a uma probabilidade de excedência de 10-4; fR = valor de variação de tensão excedido em média 1 vez a cada NR em N/cm2 (item 6.4.3).
+para 150 < L ≤ 190 m (37) para para 
+Figura 39 – Parâmetro de forma 6.5.2 Parâmetro de escala A probabilidade de uma tensão exceder S ocorre uma vez a cada N ciclos e pode ser determinada pela equação (38).
+(38) g - (39) d Através de uma manipulação algébrica da equação (39) e definindo uma variação de tensão de referência fR que caracteriza a maior variação de tensão esperada para o 
+número de ciclos NR, chega-se a equação (40). Esta equação define o parâmetro de escala da distribuição de Weibull (ABS, 2003).
+
+0.01 f f R 
+= d (40) R( ) g ln N onde: NR = número de ciclos correspondentes à probabilidade de uma tensão exceder fR; = 104 ciclos correspondendo a uma probabilidade de excedência de 10-4; fR = valor de variação de tensão excedido em média 1 vez a cada NR em N/cm2 (item 6.4.3).
 6.6 Dano acumulado como FPSO A razão de dano acumulado, incluindo os quatro calados, é obtida através da equação (41).
 (41) A razão de dano acumulado para o calado i, incluindo os oito casos de carregamento, é obtida pela equação (42), onde fi,j-k.é a direcionalidade da onda em relação ao FPSO (Figura 40).
+
 Figura 40 – Direção da onda em relação ao FPSO (ABS, 2012) Utilizando a regra de Palmgren-Miner, uma curva S-N de dois segmentos e a distribuição de Weibull de dois parâmetros, a razão de dano acumulado para o par formado pelos casos de carregamento j-k pode ser definida pela equação (43).
-m G (43) g onde: µ = Coeficiente de tensão levando em conta a mudança NE inclinação das curvas S-N D m- g  G 0 1     G 0 1    m r n, + + n, - n g g - =     m + G g g       Sq ν = d G 0 s x, ) Função Gama incompleta ( = x ⌠  ⌡ ts 1- - e t = t d G Função Gama x( ) = ¥ ⌠  ⌡ tx 1- - e t = d t NL Número de ciclos para vida de projeto esperada = U 4×log-L = = = = = = vida de projeto em segundos comprimento do FPSO em metros parâmetros da curva S-N definidos em 3.5 parâmetro de forma definido em 6.5.1 parâmetro de escala definido em 6.5.2 U L m, r, A e Sq γ δ A razão de dano acumulado deve ser calculada para os casos A e B da Tabela 4 e o maior dos valores de dano encontrado dentre os casos deve ser utilizado. O caso A corresponde ao tipo de amarração spread e o caso B corresponde ao tipo de amarração turret (ANEXO 5).
-Tabela 4 – Fatores fi,j-k-(ABS, 2013) 6.7 Dano acumulado na vida pregressa O cálculo do dano acumulado, antes do FPSO chegar a sua locação esperada, é feito pela equação (44). A determinação do dano como navio e como FPSO em trânsito podem ser calculados de acordo com ABS (2013).
-(44) onde: Fo = αjioh^Shi,S Fs = αqjO^Shi,S Dano como navio baseado nas condições ambientais do Atlântico Norte (em 20 anos); = Do Ds = Dano de alto ciclo como FPSO em locação histórica baseado nas condições ambientais do Atlântico Norte (em 20 anos); Dt = Dano de alto ciclo como FPSO em trânsito baseado nas condições ambientais do Atlântico Norte (em 20 anos); αrotashist,i = ESF para rota histórica i; αlochist,i = ESF para locação histórica i; αtransito,i = ESF para o trânsito i.
+
+
+m G (43) g onde: µ = g - 
+n g g - = G g g ν = d G 0 s x, ) Função Gama incompleta ( = 
+x ⌠  ⌡ 
+ts 1- - e t 
+= t d G Função Gama x( ) = ¥ ⌠  ⌡ 
+tx 1- - e t 
+= d t NL Número de ciclos para vida de projeto esperada = U 4×log-L = U L m, r, A e Sq γ δ A razão de dano acumulado deve ser calculada para os casos A e B da Tabela 4 e o maior dos valores de dano encontrado dentre os casos deve ser utilizado. O caso A corresponde ao tipo de amarração spread e o caso B corresponde ao tipo de amarração turret (ANEXO 5).
+= = = = = vida de projeto em segundos comprimento do FPSO em metros parâmetros da curva S-N definidos em 3.5 parâmetro de forma definido em 6.5.1 parâmetro de escala definido em 6.5.2 Tabela 4 – Fatores fi,j-k-(ABS, 2013) 6.7 Dano acumulado na vida pregressa O cálculo do dano acumulado, antes do FPSO chegar a sua locação esperada, é feito pela equação (44). A determinação do dano como navio e como FPSO em trânsito podem ser calculados de acordo com ABS (2013).
+(44) 
+onde: 120 ×lanos de serviço em rota histórica i 120 ×lanos de serviço para locação histórica i 120 ×lanos de serviço para o trânsito i Fo = αjioh^Shi,S Fs = αqjO^Shi,S Ft = αiorhSij,S Dano como navio baseado nas condições ambientais do Atlântico Norte (em 20 anos); Do = Ds = Dano de alto ciclo como FPSO em locação histórica baseado nas condições ambientais do Atlântico Norte (em 20 anos); Dt = Dano de alto ciclo como FPSO em trânsito baseado nas condições ambientais do Atlântico Norte (em 20 anos); αrotashist,i = ESF para rota histórica i; αlochist,i = ESF para locação histórica i; αtransito,i = ESF para o trânsito i.
 6.8 Vida remanescente Um navio convertido em FPSO possui dano de fadiga devido aos anos de serviço.
 Para calcular este dano e determinar a vida remanescente, uma avaliação de fadiga de detalhes de conexão estruturais deve ser realizada de acordo com as etapas a seguir.
 • Determinar o dano (item 6.7) que ocorreu antes do FPSO chegar à sua locação específica (dano antes da conversão, locações históricas e trânsito); • Calcular o dano combinado dos detalhes de conexão conforme equação (45); • Calcular a vida remanescente dos detalhes de conexão dos reforçadores longitudinais no local da instalação conforme equação (46); • Desenvolver renovação ou reforço para qualquer conexão de reforçador que não mostra vida de fadiga restante adequada no local da instalação.
+
 O dano combinado total para fadiga de alto e baixo ciclo pode ser determinado pela equação (45).
+
+
 a a (45) a Onde αloc é o fator de severidade ambiental para a locação específica.
 A determinação da vida remanescente de fadiga para conexão de reforçadores longitudinais é dada pela equação (46).
 (46) onde: LR = vida remanescente de fadiga da conexão inalterada no local especifico após a conversão; DMcomb = dano combinado de fadiga de alto e baixo ciclo pela equação (45).
 Dhistórico = dano acumulado antes do FPSO chegar a sua locação (equação (44)).
 O cálculo da vida remanescente é usado apenas para os detalhes que existiam antes da conversão e não foram modificados.
 6.9 Fator de segurança O fator de segurança é um fator aplicado individualmente à vida remanescente de cada detalhe estrutural. Este fator leva em consideração as incertezas no processo de avaliação da fadiga, a consequência da falha (falha catastrófica ou não) e a dificuldade de inspeção e reparo.
-Vida de projeto (20 anos)×Fator de segurança≥Vida remanescente calculada Tabela 5 – Fatores de Segurança (ABS, 2013) Exemplos de aplicação 7.1 Introdução O principal objetivo deste capítulo é realizar uma análise de sensibilidade de fadiga estrutural em função das proporções de um FPSO. Serão utilizados três FPSOs com dimensões diferentes, mesma vida pregressa e mesma locação esperada.
+
+Vida de projeto (20 anos)×Fator de segurança≥Vida remanescente calculada Tabela 5 – Fatores de Segurança (ABS, 2013) 
+
+Exemplos de aplicação 7.1 Introdução O principal objetivo deste capítulo é realizar uma análise de sensibilidade de fadiga estrutural em função das proporções de um FPSO. Serão utilizados três FPSOs com dimensões diferentes, mesma vida pregressa e mesma locação esperada.
 Para os 3 primeiros exemplos, será utilizado o software FPSO (ANEXO 2), desenvolvido pela ABS. O programa seleciona 4 posições longitudinais de acordo com a Figura 41 e realiza a análise simplificada de fadiga na conexão entre os reforçadores longitudinais e as estruturas transversais localizadas antes e depois dessa posição.
 Figura 41 – Posições selecionadas no modelo para a análise simplificada de fadiga Os exemplos levarão em consideração apenas a primeira posição. Para esta posição, o primeiro dano calculado refere-se ao detalhe da conexão do reforçador longitudinal com uma caverna e o segundo dano refere-se ao detalhe da conexão do reforçador longitudinal com antepara transversal.
 O primeiro exemplo calculará o dano acumulado como navio petroleiro de conexões de estruturas transversais com reforçadores selecionados com a fase ISE tanker do programa FPSO. O segundo exemplo calculará o dano acumulado como FPSO das mesmas conexões com a fase ISE conversion. O terceiro exemplo calculará a vida remanescente dos reforçadores com auxílio da fase ISE conversion.
+
 Foram escolhidos os seguintes reforçadores longitudinais para os três primeiros exemplos: 1) Um reforçador da quilha (KPL); 2) O último reforçador do fundo antes da antepara longitudinal (BTM); 3) Um reforçador do costado próximo ao calado máximo (SHL); 4) Um reforçador do convés (DEC); 5) Um reforçador na região central da antepara longitudinal (LB).
 Os exemplos quatro e cinco consistirão em uma análise de sensibilidade do dano, respectivamente, em função do parâmetro de forma e escala da distribuição de Weibull para três reforçadores do P-1. Estes exemplos têm por objetivo verificar como a variação dos parâmetros afeta o dano acumulado como navio. Para realização destes exemplos, será utilizada uma planilha de Mathcad, onde será desenvolvida uma reprodução parcial da fase ISE tanker do software FPSO.
+
 7.2 Informações gerais As informações apresentadas a seguir são necessárias para fornecer o projeto básico dos FPSOs.
 Os 3 FPSOs, que são utilizados para determinação do dano e vida remanescente, possuem casco simples e suas chapas são de aço HT36 (resistência ao escoamento de 360 MPa e resistência última de 500 MPa). As principais dimensões dos 3 FPSOs são apresentadas na Tabela 6.
 A Figura 42 indica quais são as principais dimensões de um FPSO.
-Tabela 6 – Principais dimensões Figura 42 – Dimensões principais dos FPSOs (FPSO, 2013) ABS (2013) recomenda que as dimensões de FPSOs respeitem as seguintes relações: • comprimento (L) < 500 m; • boca < 2,5 vezes a profundidade; • comprimento (L) > 5 vezes a boca.
+Tabela 6 – Principais dimensões ABS (2013) recomenda que as dimensões de FPSOs respeitem as seguintes relações: • comprimento (L) < 500 m; • boca < 2,5 vezes a profundidade; • comprimento (L) > 5 vezes a boca.
+
 FPSOs que não respeitem a regra devem ser revisados caso a caso. Visando respeitar as restrições da regra, as dimensões principais foram arbitradas da seguinte maneira: • Primeiramente definiu-se a boca (x) dos três FPSO’s; • A profundidade (x/2) foi considerada como sendo metade da boca(x); • O comprimento (5,5x) foi considerado 5,5 vezes a boca (x); • O calado (x/2,5) foi considerado 2,5 vezes menor do que a boca (x); A velocidade e o coeficiente de bloco foram arbitrados com base em dados de FPSOs existentes. A velocidade considerada para os navios petroleiro foi de 14 nós (aproximadamente 26km/h) e o coeficiente de bloco foi de 0,85 (Coeficiente de bloco é a relação entre o volume deslocado e o volume do paralelepípedo que tem como arestas o comprimento, a boca e o calado).
 Os dados da seção mestra (ANEXO 1), para cada FPSO, são apresentados na Tabela 7. Os momentos fletores em águas tranquilas de tosamento (momento fletor vertical negativo) e alquebramento (momento fletor vertical positivo) são apresentados na Tabela 8.
 Tabela 7 – Dados das seções mestras Tabela 8 - Momento fletor em águas tranquilas (tf.m) A Tabela 9 apresenta as propriedades do modelo (item 6.3). A distância do inicio do modelo até a perpendicular de ré é representado na Figura 35 por Z1.
+
 Tabela 9 – Propriedades do modelo 7.3 Dados para determinação dos fatores de severidade ambiental 7.3.1 Funções de Transferência As funções transferência contidas no banco de dados do sistema foram utilizadas para determinação dos fatores de severidade ambiental.
+
 7.3.2 Locação específica A locação específica escolhida, para os 3 FPSOs, foi a Bacia de Campos. A longitude da locação será 41oW e a latitude será 23oS. Estes valores foram obtidos através da média dos valores da Tabela 10. Essa tabela possui as coordenadas dos vértices do polígono que cerca a Bacia de Campos.
-de Campos estabelecendo que o parâmetro de pico será: (47) pico de 15,5 segundos.
+de Campos estabelecendo que o parâmetro de pico será: γ= 6,4× TP0,491 (47) De acordo com a equação (47), o parâmetro de pico será de 1,67 para um período de pico de 15,5 segundos.
+
 Para a condição de curto prazo, com duração do evento extremo de 3 horas, foi considerado uma altura significativa de onda de 7,84 m, período mínimo de 11 segundos e período máximo de 27 segundos (equação (48)). O período da onda varia a cada 1 segundo.
 (48) igual probabilidade (ver item 5.4.2).
 Bacia de Campos.
 Os ângulos de incidência das ondas foram os mesmos da condição de curto prazo.
-Tabela 12 – Dados de onda para análise de longo prazo 7.3.3 Rotas Foram importadas do ABSWAVE duas rotas históricas para o navio petroleiro. A primeira rota é do Golfo Pérsico até o Mar Mediterrâneo. E a segunda é da Coreia até Golfo Pérsico. Foi considerado que as rotas são de ida e volta. O tempo de permanência dos navios no porto é desprezível nas duas rotas.
+Tabela 12 – Dados de onda para análise de longo prazo 
+7.3.3 Rotas Foram importadas do ABSWAVE duas rotas históricas para o navio petroleiro. A primeira rota é do Golfo Pérsico até o Mar Mediterrâneo. E a segunda é da Coreia até Golfo Pérsico. Foi considerado que as rotas são de ida e volta. O tempo de permanência dos navios no porto é desprezível nas duas rotas.
 O trânsito até a Bacia de Campos tem como ponto de partida o Golfo Pérsico.
 A Tabela 13 apresenta o tempo em serviço gasto e o tempo de permanência no porto para cada rota. A partir destes dois dados, é possível determinar o tempo efetivo em serviço.
-Tabela 13 – Rotas utilizadas 7.4 Exemplo no1 – Dano acumulado como navio O cálculo do dano acumulado como navio também será realizado pela distribuição de Weibull de dois parâmetros. Entretanto, algumas diferenças em relação ao cálculo do dano como FPSO podem ser encontradas em ABS (2013), como por exemplo, o cálculo do dano como navio é feito apenas para um calado e não é levada em consideração a direcionalidade, ou seja, não são utilizadas as equações (41) e (42).
+Tabela 13 – Rotas utilizadas 
+7.4 Exemplo no1 – Dano acumulado como navio O cálculo do dano acumulado como navio também será realizado pela distribuição de Weibull de dois parâmetros. Entretanto, algumas diferenças em relação ao cálculo do dano como FPSO podem ser encontradas em ABS (2013), como por exemplo, o cálculo do dano como navio é feito apenas para um calado e não é levada em consideração a direcionalidade, ou seja, não são utilizadas as equações (41) e (42).
 A Tabela 14 e a Tabela 15 apresentam o dano acumulado na conexão dos reforçadores selecionados com as estruturas transversais da posição 1 para uma vida de projeto de 20 anos. A Figura 44 e a Figura 45 apresentam um gráfico comparativo do dano para os 3 navios.
-Tabela 14 – Dano do detalhe de conexão do reforçador com caverna Tabela 15 – Dano do detalhe de conexão do reforçador com antepara transversal Figura 45 – Gráfico do dano do detalhe de conexão do reforçador com antepara transversal Como era de se esperar, o dano nas conexões entre reforçadores e anteparas transversais é maior do que o dano entre reforçadores e cavernas. Isso ocorre porque as anteparas transversais são mais rígidas, logo atuam tensões maiores. Desta forma, o dano nestes detalhes é maior.
+Tabela 14 – Dano do detalhe de conexão do reforçador com caverna 
+Tabela 15 – Dano do detalhe de conexão do reforçador com antepara transversal 
+Figura 45 – Gráfico do dano do detalhe de conexão do reforçador com antepara transversal Como era de se esperar, o dano nas conexões entre reforçadores e anteparas transversais é maior do que o dano entre reforçadores e cavernas. Isso ocorre porque as anteparas transversais são mais rígidas, logo atuam tensões maiores. Desta forma, o dano nestes detalhes é maior.
 Os reforçadores no costado escolhidos para cada navio estão próximos ao calado máximo. Esta região é conhecida como “splash zone” do navio. O dano nos reforçadores dessa zona são os maiores entre todos os danos nos demais reforçadores do navio. De acordo com Souza (2002), isso ocorre, pois a carga cíclica atuante nessa região é a própria onda.
 Tanto no detalhe de conexão de reforçadores longitudinais com cavernas, quanto no detalhe de reforçadores longitudinais com anteparas transversais, foram encontrados danos maiores que 1 para vida de projeto de 20 anos. Nestes casos, haveria ruptura da conexão antes dos 20 anos.
 O dano apresentou-se maior nos reforçadores do navio com maior dimensão (P-1).
+
 7.5 Exemplo no 2 – Dano como FPSO O dano de fadiga do detalhe de conexão do reforçador da quilha com antepara transversal do P-1 é determinado a seguir. Cada célula da Tabela 16 é calculada pela equação (43).
 Tabela 16 – Dano para cada calado e variação de tensão A Tabela 17 mostra o cálculo do dano da equação (42) para os quatro calados e amarração tipo spread.
-Tabela 17 – Amarração tipo spread Substituindo os valores da Tabela 17 na equação (41), temos que o dano para o (49) A Tabela 18 mostra o cálculo do dano da equação (42) para os quatro calados e amarração tipo turret.
+Tabela 17 – Amarração tipo spread Substituindo os valores da Tabela 17 na equação (41), temos que o dano para o sistema de amarração tipo spread é: DM = 0,723×0,15+0,892×0,35+0,756×0,35+0,712×0,15=0,792 (49) A Tabela 18 mostra o cálculo do dano da equação (42) para os quatro calados e amarração tipo turret.
+
 Tabela 18 – Amarração tipo turret Substituindo os valores da Tabela 18 na equação (41), temos que o dano para o (50) O maior dos danos encontrado nas equações (49) e (50) é o dano da conexão do reforçador longitudinal da quilha com a antepara transversal. Assim sendo, o dano da conexão é 0,971. Analogamente, foram calculados os danos das conexões a seguir.
-Tabela 19 – Dano do detalhe de conexão do reforçador com caverna Tabela 20 – Dano do detalhe de conexão do reforçador com antepara transversal Figura 47 – Gráfico do dano do detalhe de conexão do reforçador com antepara transversal Pode-se observar que no caso de FPSOs, o dano na região de costado é reduzido.
+Tabela 19 – Dano do detalhe de conexão do reforçador com caverna 
+Tabela 20 – Dano do detalhe de conexão do reforçador com antepara transversal 
+Figura 47 – Gráfico do dano do detalhe de conexão do reforçador com antepara transversal Pode-se observar que no caso de FPSOs, o dano na região de costado é reduzido.
 Isso pode ser explicado pelo fato de que FPSOs possuem uma variação de calado, logo o carregamento cíclico das ondas atua em uma faixa maior.
 Assim como no caso do dano como navio, o dano é maior no P-1.
 7.6 Exemplo no 3 – Vida remanescente Em FPSOs de casco simples, uma trinca na conexão dos reforçadores com as estruturas transversais pode se propagar e gerar vazamento de óleo. Além disso, o acesso a uma trinca, em um FPSO em operação, é difícil e de alto risco, principalmente quanto à chance de explosão (Souza, 2002). Desta forma, devem ser utilizados fatores de segurança para conexões cujas falhas são críticas e sem possibilidade de reparo e inspeção.
-A vida remanescente da conexão deve ser maior do que a vida de projeto do FPSO, levando em consideração um fator de segurança. Neste caso, o fator de segurança é igual a 10 (Tabela 5), assim sendo, a vida remanescente calculada deve ser maior do que 200 anos.
+A vida remanescente da conexão deve ser maior do que a vida de projeto do FPSO, levando em consideração um fator de segurança. Neste caso, o fator de segurança é 
+igual a 10 (Tabela 5), assim sendo, a vida remanescente calculada deve ser maior do que 200 anos.
 Neste exemplo, será levado em consideração apenas o detalhe da conexão longitudinal com a antepara, pois o dano para esse tipo de detalhe é maior do que o dano para a conexão longitudinal com a caverna.
 A Tabela 21 apresenta os fatores de severidade ambiental alfa para as conexões dos reforçadores selecionados. Neste exemplo, existem apenas três ESF alfa, pois o FPSO não possui locação histórica.
-O dano acumulado na vida pregressa, na Tabela 22, é calculado através da equação (44). Pode-se perceber que no cálculo do dano pregresso, a contribuição do trânsito é irrisória, pois o fator Ft é muito menor do que Fo. A Tabela 23 apresenta o dano combinado calculado pela equação (45) e a Tabela 24 apresenta a vida remanescente calculada pela equação (46).
-Tabela 23 – Dano combinado Desconsiderando o dano histórico da equação (46), é possível calcular a vida remanescente de uma nova construção. A Tabela 25 mostra uma comparação entre as vida remanescente de um FPSO novo e um convertido para as conexões entre reforçadores longitudinais e cavernas.
-Tabela 25 – Comparação da vida remanescente (em anos) de FPSO convertido e nova 45 anos.
+Tabela 21 – Fator de severidade ambiental alfa O dano acumulado na vida pregressa, na Tabela 22, é calculado através da equação (44). Pode-se perceber que no cálculo do dano pregresso, a contribuição do trânsito é irrisória, pois o fator Ft é muito menor do que Fo. A Tabela 23 apresenta o dano combinado calculado pela equação (45) e a Tabela 24 apresenta a vida remanescente calculada pela equação (46).
+
+Tabela 22 – Dano histórico Tabela 23 – Dano combinado 
+Tabela 24 – Vida Remanescente Desconsiderando o dano histórico da equação (46), é possível calcular a vida remanescente de uma nova construção. A Tabela 25 mostra uma comparação entre as vida remanescente de um FPSO novo e um convertido para as conexões entre reforçadores longitudinais e cavernas.
+
+Tabela 25 – Comparação da vida remanescente (em anos) de FPSO convertido e nova construção 45 anos.
 7.7 Exemplo no 4 – Análise do parâmetro de forma O exemplo a seguir consiste em variar o parâmetro de forma de 0,5 a 1,5 para os detalhes das conexões entre reforçadores longitudinais e anteparas transversais localizadas no convés, costado e quilha no P-1 antes da conversão (Tabela 26).
 O objetivo deste exemplo é a verificação de como o dano se comporta conforme o parâmetro de forma varia. Para isto, foi desenvolvida uma planilha de Mathcad capaz de reproduzir o cálculo do dano de forma análoga ao software FPSO.
-Na Figura 48, os pontos representam o dano calculado pelo software FPSO, onde o parâmetro de forma utilizado é o determinado através do algoritmo empírico fornecido na norma.
+
+Tabela 26 – Dano do detalhe de conexão do reforçador com antepara transversal (Tabela 15) Figura 48 – Variação do parâmetro de forma Na Figura 48, os pontos representam o dano calculado pelo software FPSO, onde o parâmetro de forma utilizado é o determinado através do algoritmo empírico fornecido na norma.
+
 Como era de se esperar, o valor do dano é maior na conexão com maior variação de tensão. Este comportamento se mantém com a variação do parâmetro de forma.
 Nessa figura, pode ser notado que o dano devido à fadiga varia de forma significativa com a alteração do parâmetro de forma.
 A Tabela 27 foi construída através da variação do parâmetro de forma da conexão do costado determinado pelo algoritmo empírico. Na primeira coluna, é apresentada a razão entre o parâmetro de forma utilizado e o parâmetro fornecido na norma. Na segunda coluna, é apresentada a porcentagem de variação do dano em relação a estes dois parâmetros. Por exemplo, um aumento de 40% no parâmetro de forma da conexão do costado gera um dano aproximadamente 174% maior. E uma redução de 20% no parâmetro de forma gera um dano 47,5% menor.
 Tabela 27 – Variação do Parâmetro de forma para a conexão do costado 7.8 Exemplo no 5 – Análise do parâmetro de escala O exemplo a seguir consiste em variar o parâmetro de escala de 0 a 15 para os detalhes das conexões entre reforçadores longitudinais e anteparas transversais localizadas no convés, costado e quilha no P-1 antes da conversão (Tabela 26).
 O objetivo deste exemplo é a verificação de como o dano se comporta conforme o parâmetro de escala varia. Para isto, foi utilizada a mesma planilha desenvolvida para o exemplo no 4.
-Figura 49 – Variação do parâmetro de escala Na Figura 49, os pontos representam o dano calculado pelo software FPSO, onde o parâmetro de escala utilizado é o determinado através da equação (40). O valor deste parâmetro para os 3 reforçadores é apresentado na Tabela 28.
-Tabela 28 – Parâmetro de escala Em relação aos dados obtidos com a equação do parâmetro de escala, o costado possui maior parâmetro, pois possui maior variação de tensão.
+
+Na Figura 49, os pontos representam o dano calculado pelo software FPSO, onde o parâmetro de escala utilizado é o determinado através da equação (40). O valor deste parâmetro para os 3 reforçadores é apresentado na Tabela 28.
+Tabela 28 – Parâmetro de escala 
+Em relação aos dados obtidos com a equação do parâmetro de escala, o costado possui maior parâmetro, pois possui maior variação de tensão.
 Nessa figura, pode ser notado que o dano devido à fadiga varia de forma significativa com a alteração do parâmetro de escala.
 A Tabela 29 foi construída através da variação do parâmetro de escala da conexão do costado determinado pelo algoritmo empírico. Na primeira coluna, é apresentada a razão entre o parâmetro de escala utilizado e o parâmetro fornecido na norma. Na segunda coluna, é apresentada a porcentagem de variação do dano em relação a estes dois parâmetros. Por exemplo, um aumento de 40% no parâmetro de escala da conexão do costado gera um dano 192,7% maior. E uma redução de 20% no parâmetro de forma gera um dano 52,6% menor.
-Tabela 29 – Variação do Parâmetro de escala para a conexão do costado 8 Conclusões e recomendação para trabalhos futuros Neste trabalho, foi realizada uma análise de sensibilidade de fadiga estrutural em função das proporções de um FPSO. Para determinação do dano e vida remanescente, foram utilizados três FPSOs com dimensões diferentes, mesma vida pregressa e mesma locação esperada. Os 3 primeiros exemplos do trabalho foram realizados com o auxílio do software FPSO.
+Tabela 29 – Variação do Parâmetro de escala para a conexão do costado 
+8 Conclusões e recomendação para trabalhos futuros Neste trabalho, foi realizada uma análise de sensibilidade de fadiga estrutural em função das proporções de um FPSO. Para determinação do dano e vida remanescente, foram utilizados três FPSOs com dimensões diferentes, mesma vida pregressa e mesma locação esperada. Os 3 primeiros exemplos do trabalho foram realizados com o auxílio do software FPSO.
 Foi calculado tanto o dano acumulado como navio petroleiro quanto o dano acumulado como FPSO para conexão de reforçadores longitudinais com estruturas transversais (cavernas e anteparas).
 Em seguida, foi determinada a vida remanescente das conexões. Diante das análises realizadas, foi constatado que o dano apresentou-se maior em conexões entre reforçadores e anteparas transversais que são mais rígidas que as cavernas, logo atuam tensões maiores. Desta forma, o dano nestes detalhes é maior.
 Para o dano calculado como navio, os reforçadores no costado próximos ao calado máximo obtiveram o maior dano, independente do tamanho do navio. Isto ocorreu, pois essa região tem como carregamento dinâmico atuante a própria onda.
@@ -278,5 +422,7 @@ Nestes casos, deve ser feito reforço ou renovação da conexão.
 Com o software Mathcad, foi desenvolvida uma planilha que reproduziu de forma parcial o software FPSO. A planilha foi desenvolvida para determinação do dano como navio de conexões entre os reforçadores longitudinais e as estruturas transversais.
 No quarto exemplo, variou-se o parâmetro de forma entre 0,5 e 1,5 para três reforçadores do P-1. E no quinto exemplo, variou-se o parâmetro de escala entre 0 e 15 para os mesmos reforçadores.
 Com os valores de dano obtidos, foi realizada uma análise de sensibilidade em função do parâmetro de forma e escala da distribuição de Weibull. O cálculo do dano se mostrou sensível aos dois parâmetros.
+
 Foi constatado que o aumento dos parâmetros da distribuição de Weibull gera danos maiores nas conexões. Por se tratar de valores obtidos através de dados experimentais, podem ser utilizados parâmetros abaixo do necessário. Se isso ocorrer, a análise será contra a segurança. Por esse motivo, existe a preocupação em melhorar esses parâmetros.
 Para estudos futuros recomenda-se: • Análise de sensibilidade de fadiga estrutural em função das proporções dos FPSOs através de metodologias diferentes da que foi empregada neste trabalho; • Estudos mais aprofundados do Fator de Severidade Ambiental Beta.
+

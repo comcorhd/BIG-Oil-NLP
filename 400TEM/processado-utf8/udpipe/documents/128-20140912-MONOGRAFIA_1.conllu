@@ -3,9 +3,12 @@
 1	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Introdução
+# text = Introdução 1.1 – Motivação
 # sent_id = 128-20140912-MONOGRAFIA_1-2
 1	Introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	1.1	1.1	NUM	_	NumType=Card	1	nummod	_	_
+3	–	–	PUNCT	_	_	1	punct	_	_
+4	Motivação	motivação	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 
 # text = No país, a maior parte do petróleo, gás natural e derivados são transportados por dutos.
 # sent_id = 128-20140912-MONOGRAFIA_1-3
@@ -329,7 +332,7 @@
 24	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
 25	como	como	ADP	_	_	28	case	_	_
 26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-27	excelente	excelente	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+27	excelente	excelente	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpacesAfter=\s\n
 28	alternativa	alternativa	NOUN	_	Gender=Fem|Number=Sing	23	xcomp	_	_
 29	quando	quando	ADV	_	_	36	advmod	_	_
 30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -449,7 +452,7 @@
 23	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = Entretanto, apresenta várias limitações como inchamento em fluidos apolares e alta taxa de permeação, que é compensada utilizando- se tubos de elevada espessura e válvulas de alívio ao longo de toda a linha.
+# text = Entretanto, apresenta várias limitações como inchamento em fluidos apolares e alta taxa de permeação, que é compensada utilizando-se tubos de elevada espessura e válvulas de alívio ao longo de toda a linha.
 # sent_id = 128-20140912-MONOGRAFIA_1-13
 1	Entretanto	entretanto	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -470,26 +473,26 @@
 17	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	19	nsubj:pass	_	_
 18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
 19	compensada	compensar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
-20	utilizando	utilizar	VERB	_	VerbForm=Ger	19	advcl	_	SpaceAfter=No
-21	-	-	PUNCT	_	_	20	punct	_	_
-22	se	se	SCONJ	_	_	23	mark	_	_
-23	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	elevada	elevar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	26	acl	_	_
-26	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-27	e	e	CCONJ	_	_	28	cc	_	_
-28	válvulas	válvula	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	alívio	alívio	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-31-32	ao	_	_	_	_	_	_	_	_
-31	a	a	ADP	_	_	33	case	_	_
-32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	longo	longo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-34	de	de	ADP	_	_	37	case	_	_
-35	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	37	det	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	fixed	_	_
-37	linha	linha	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	3	punct	_	_
+20-21	utilizando-se	_	_	_	_	_	_	_	_
+20	utilizando	utilizar	VERB	_	VerbForm=Ger	19	xcomp	_	_
+21	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	expl	_	_
+22	tubos	tubo	NOUN	_	Gender=Masc|Number=Plur	20	xcomp	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	elevada	elevar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_
+25	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	válvulas	válvula	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	alívio	alívio	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+30-31	ao	_	_	_	_	_	_	_	_
+30	a	a	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	longo	longo	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+33	de	de	ADP	_	_	36	case	_	_
+34	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	36	det	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	fixed	_	_
+36	linha	linha	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Com isso, diminui-se o diâmetro útil do duto hospedeiro e aumenta-se o custo operacional.
 # sent_id = 128-20140912-MONOGRAFIA_1-14
@@ -739,61 +742,64 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	25	det	_	_
 25	danos	dano	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 
-# text = Nesse trabalho, o comportamento do poli(fluoreto de vinilideno) será analisado por ensaios de relaxação de tensão, que se caracterizam pelo decréscimo gradual da tensão quando o material está submetido a uma deformação inicial constante no tempo.
+# text = 1.2 – Objetivo Nesse trabalho, o comportamento do poli(fluoreto de vinilideno) será analisado por ensaios de relaxação de tensão, que se caracterizam pelo decréscimo gradual da tensão quando o material está submetido a uma deformação inicial constante no tempo.
 # sent_id = 128-20140912-MONOGRAFIA_1-21
-1-2	Nesse	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	3	case	_	_
-2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
-7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	10	case	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	poli(	poli(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	fluoreto	fluoreto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	vinilideno	vinilideno	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	10	punct	_	_
-14	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
-15	analisado	analisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-16	por	por	ADP	_	_	17	case	_	_
-17	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	15	obl:agent	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	15	punct	_	_
-23	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	25	nsubj	_	_
-24	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl	_	_
-25	caracterizam	caracterizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
-26-27	pelo	_	_	_	_	_	_	_	_
-26	por	por	ADP	_	_	28	case	_	_
-27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	decréscimo	decréscimo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
-29	gradual	gradual	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
-30-31	da	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-33	quando	quando	ADV	_	_	37	advmod	_	_
-34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	material	material	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
-36	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
-37	submetido	submetir	VERB	_	VerbForm=Part	15	advcl	_	_
-38	a	a	ADP	_	_	40	case	_	_
-39	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
-41	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
-42	constante	constante	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
-43-44	no	_	_	_	_	_	_	_	_
-43	em	em	ADP	_	_	45	case	_	_
-44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+1	1.2	1.2	NUM	_	NumType=Card	3	nummod	_	_
+2	–	–	PUNCT	_	_	1	punct	_	_
+3	Objetivo	objetivo	PROPN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+4-5	Nesse	_	_	_	_	_	_	_	_
+4	Em	em	ADP	_	_	6	case	_	_
+5	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	poli(	poli(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	fluoreto	fluoreto	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	vinilideno	vinilideno	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	9	punct	_	_
+17	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux:pass	_	_
+18	analisado	analisar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	18	obl:agent	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	18	punct	_	_
+26	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	28	nsubj	_	_
+27	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	expl	_	_
+28	caracterizam	caracterizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+29-30	pelo	_	_	_	_	_	_	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	decréscimo	decréscimo	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+32	gradual	gradual	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+36	quando	quando	ADV	_	_	40	advmod	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	material	material	NOUN	_	Gender=Masc|Number=Sing	40	nsubj	_	_
+39	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	submetido	submetir	VERB	_	VerbForm=Part	18	advcl	_	_
+41	a	a	ADP	_	_	43	case	_	_
+42	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	40	obj	_	_
+44	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
+45	constante	constante	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
+46-47	no	_	_	_	_	_	_	_	_
+46	em	em	ADP	_	_	48	case	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
 
 # text = O objetivo é obter através de metodologia experimental e ajuste pelo modelo de Tvergaard a curva de comportamento elastoplástico do PVDF, em diferentes temperaturas, com base em modelo elastoplástico-viscoelástico proposto em literatura para o comportamento de polímeros.
 # sent_id = 128-20140912-MONOGRAFIA_1-22
@@ -883,17 +889,22 @@
 35	para	para	ADP	_	_	37	case	_	_
 36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
 # text = 2.
 # sent_id = 128-20140912-MONOGRAFIA_1-24
 1	2	2	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# text = Revisão Bibliográfica
+# text = Revisão Bibliográfica 2.1 – Reparo de Dutos
 # sent_id = 128-20140912-MONOGRAFIA_1-25
-1	Revisão	revisão	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	Bibliográfica	Bibliográfica	PROPN	_	Number=Sing	1	flat:name	_	_
+1	Revisão	revisão	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	Bibliográfica	Bibliográficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	2.1	2.1	NUM	_	NumType=Card	5	nummod	_	_
+4	–	–	PUNCT	_	_	5	punct	_	_
+5	Reparo	Reparo	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Dutos	Dutos	PROPN	_	Number=Sing	5	nmod	_	_
 
 # text = A malha dutoviária do país apresenta longos trechos perto da vida útil.
 # sent_id = 128-20140912-MONOGRAFIA_1-26
@@ -1277,7 +1288,7 @@
 40	pior	pior	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 41	relação	relação	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
 42	custo-benefício	custo-benefício	NOUN	_	Gender=Masc|Number=Sing	41	appos	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n\n
 
 # text = 2.1.1 – Técnicas com abertura de valas
 # sent_id = 128-20140912-MONOGRAFIA_1-34
@@ -1494,27 +1505,30 @@
 13	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = circunferencialmente calhas soldadas (figura 2), longitudinalmente apenas calhas e e Figura 2:
+# text = e e circunferencialmente calhas soldadas (figura 2), longitudinalmente calhas apenas
 # sent_id = 128-20140912-MONOGRAFIA_1-41
-1	circunferencialmente	circunferencialmente	ADV	_	_	2	advmod	_	_
-2	calhas	calha	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-3	soldadas	soldar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
-4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	figura	figura	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
-6	2	2	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	11	punct	_	_
-9	longitudinalmente	longitudinalmente	ADV	_	_	11	advmod	_	_
-10	apenas	apenas	ADV	_	_	9	advmod	_	_
-11	calhas	calha	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
-12	e	e	CCONJ	_	_	14	cc	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	_
-15	2	2	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	2	punct	_	_
+1	e	e	CCONJ	_	_	4	cc	_	_
+2	e	e	CCONJ	_	_	4	cc	_	_
+3	circunferencialmente	circunferencialmente	ADV	_	_	4	advmod	_	_
+4	calhas	calha	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
+5	soldadas	soldar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
+8	2	2	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	longitudinalmente	longitudinalmente	ADV	_	_	12	advmod	_	_
+12	calhas	calha	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+13	apenas	apenas	ADV	_	_	12	advmod	_	SpacesAfter=\s\n
+
+# text = Figura 2:
+# sent_id = 128-20140912-MONOGRAFIA_1-42
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de tubulação reparada por técnica de dupla calha soldada [3] 2.1.1.3 – Dupla calha com enchimento [3] [5] Uma luva com diâmetro maior que o diâmetro do duto é instalada sobre a região com defeitos, de modo que no espaço anular formado possa ser injetada resina epóxi ou outro material similar que garanta estanqueidade (figura 3).
-# sent_id = 128-20140912-MONOGRAFIA_1-42
+# sent_id = 128-20140912-MONOGRAFIA_1-43
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	53	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	tubulação	tubulação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1588,7 +1602,7 @@
 69	.	.	PUNCT	_	_	55	punct	_	_
 
 # text = Por fim as luvas são seladas por parafusos.
-# sent_id = 128-20140912-MONOGRAFIA_1-43
+# sent_id = 128-20140912-MONOGRAFIA_1-44
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -1600,13 +1614,13 @@
 9	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 3:
-# sent_id = 128-20140912-MONOGRAFIA_1-44
+# sent_id = 128-20140912-MONOGRAFIA_1-45
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3:	3:	PUNCT	_	_	1	punct	_	_
 
-# text = Técnica de dupla calha com enchimento [3] [5] Consiste na aplicação de uma manta de fibras orientadas ao redor da área à ser reparada e em seguida a resina é impregnada manualmente para, ao curar, formar o compósito na região (figura 4), ou são utilizadas placas finas de compósitos já curados, sendo apenas envolto na região e aplicado material adesivo para garantir adesão entre as camadas (figura 5).
-# sent_id = 128-20140912-MONOGRAFIA_1-45
-1	Técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+# text = Técnica de dupla calha com enchimento [3] [5] 2.1.1.4 – Reparo com compósitos [3] [4] Consiste na aplicação de uma manta de fibras orientadas ao redor da área à ser reparada e em seguida a resina é impregnada manualmente para, ao curar, formar o compósito na região (figura 4), ou são utilizadas placas finas de compósitos já curados, sendo apenas envolto na região e aplicado material adesivo para garantir adesão entre as camadas (figura 5).
+# sent_id = 128-20140912-MONOGRAFIA_1-46
+1	Técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	dupla	dupla	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	calha	calho	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
@@ -1614,96 +1628,107 @@
 6	enchimento	enchimento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	3	3	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
-9	]	_	PUNCT	_	_	1	punct	_	_
-10	[	[	PUNCT	_	_	1	punct	_	SpaceAfter=No
-11	5	5	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
-12	]	_	PUNCT	_	_	1	punct	_	_
-13	Consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	_	_	16	case	_	_
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
-17	de	de	ADP	_	_	19	case	_	_
-18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	manta	manta	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	fibras	fibra	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
-22	orientadas	orientar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	21	acl	_	_
-23-24	ao	_	_	_	_	_	_	_	_
-23	a	a	ADP	_	_	25	case	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	redor	redor	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
-26-27	da	_	_	_	_	_	_	_	_
-26	de	de	ADP	_	_	28	case	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	área	área	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-29-30	à	_	_	_	_	_	_	_	_
-29	a	a	ADP	_	_	32	mark	_	_
-30	a	a	ADP	_	_	29	fixed	_	_
-31	ser	ser	AUX	_	VerbForm=Inf	32	aux:pass	_	_
-32	reparada	reparar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
-33	e	e	CCONJ	_	_	39	cc	_	_
-34	em	em	ADP	_	_	35	case	_	_
-35	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	resina	resina	NOUN	_	Gender=Fem|Number=Sing	39	nsubj:pass	_	_
-38	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
-39	impregnada	impregnar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	32	conj	_	_
-40	manualmente	manualmente	ADV	_	_	39	advmod	_	_
-41	para	para	SCONJ	_	_	47	mark	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	45	punct	_	_
-43-44	ao	_	_	_	_	_	_	_	_
-43	a	a	ADP	_	_	45	case	_	_
-44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	curar	curar	NOUN	_	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
-46	,	,	PUNCT	_	_	45	punct	_	_
-47	formar	formar	VERB	_	VerbForm=Inf	39	advcl	_	_
-48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	compósito	compósito	NOUN	_	Gender=Masc|Number=Sing	47	obj	_	_
-50-51	na	_	_	_	_	_	_	_	_
-50	em	em	ADP	_	_	52	case	_	_
-51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
-52	região	região	NOUN	_	Gender=Fem|Number=Sing	47	obl	_	_
-53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
-54	figura	figura	NOUN	_	Gender=Fem|Number=Sing	52	appos	_	_
-55	4	4	NUM	_	NumType=Card	54	nummod	_	SpaceAfter=No
-56	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
-57	,	,	PUNCT	_	_	32	punct	_	_
-58	ou	ou	CCONJ	_	_	60	cc	_	_
-59	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux:pass	_	_
-60	utilizadas	utilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	conj	_	_
-61	placas	placa	NOUN	_	Gender=Fem|Number=Plur	60	nsubj:pass	_	_
-62	finas	fino	ADJ	_	Gender=Fem|Number=Plur	61	amod	_	_
-63	de	de	ADP	_	_	64	case	_	_
-64	compósitos	compósito	NOUN	_	Gender=Masc|Number=Plur	61	nmod	_	_
-65	já	já	ADV	_	_	66	advmod	_	_
-66	curados	curar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	64	acl	_	SpaceAfter=No
-67	,	,	PUNCT	_	_	70	punct	_	_
-68	sendo	ser	AUX	_	VerbForm=Ger	70	cop	_	_
-69	apenas	apenas	ADV	_	_	70	advmod	_	_
-70	envolto	envolto	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	_
-71-72	na	_	_	_	_	_	_	_	_
-71	em	em	ADP	_	_	73	case	_	_
-72	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
-73	região	região	NOUN	_	Gender=Fem|Number=Sing	70	obl	_	_
-74	e	e	CCONJ	_	_	75	cc	_	_
-75	aplicado	aplicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	70	conj	_	_
-76	material	material	NOUN	_	Gender=Masc|Number=Sing	75	obj	_	_
-77	adesivo	adesivo	ADJ	_	Gender=Masc|Number=Sing	76	amod	_	_
-78	para	para	SCONJ	_	_	79	mark	_	_
-79	garantir	garantir	VERB	_	VerbForm=Inf	13	advcl	_	_
-80	adesão	adesão	NOUN	_	Gender=Fem|Number=Sing	79	obj	_	_
-81	entre	entre	ADP	_	_	83	case	_	_
-82	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	83	det	_	_
-83	camadas	camada	NOUN	_	Gender=Fem|Number=Plur	80	nmod	_	_
-84	(	(	PUNCT	_	_	85	punct	_	SpaceAfter=No
-85	figura	figura	NOUN	_	Gender=Fem|Number=Sing	83	appos	_	_
-86	5	5	NUM	_	NumType=Card	85	nummod	_	SpaceAfter=No
-87	)	)	PUNCT	_	_	85	punct	_	SpaceAfter=No
-88	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+9	]	_	PUNCT	_	_	11	punct	_	_
+10	[	[	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	5	5	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+12	]	_	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
+13	2.1.1.4	2.1.1.4	NUM	_	NumType=Card	1	appos	_	_
+14	–	–	PUNCT	_	_	1	punct	_	_
+15	Reparo	Reparo	ADV	_	_	17	advmod	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	compósitos	compósito	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	3	3	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+20	]	_	PUNCT	_	_	22	punct	_	_
+21	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	4	4	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+23	]	_	PUNCT	_	_	22	punct	_	_
+24	Consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	manta	manta	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	fibras	fibra	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+33	orientadas	orientar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	32	acl	_	_
+34-35	ao	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	redor	redor	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	área	área	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+40-41	à	_	_	_	_	_	_	_	_
+40	a	a	ADP	_	_	43	mark	_	_
+41	a	a	ADP	_	_	40	fixed	_	_
+42	ser	ser	AUX	_	VerbForm=Inf	43	aux:pass	_	_
+43	reparada	reparar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
+44	e	e	CCONJ	_	_	50	cc	_	_
+45	em	em	ADP	_	_	46	case	_	_
+46	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	50	obl	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	resina	resina	NOUN	_	Gender=Fem|Number=Sing	50	nsubj:pass	_	_
+49	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux:pass	_	_
+50	impregnada	impregnar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	43	conj	_	_
+51	manualmente	manualmente	ADV	_	_	50	advmod	_	_
+52	para	para	SCONJ	_	_	58	mark	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	56	punct	_	_
+54-55	ao	_	_	_	_	_	_	_	_
+54	a	a	ADP	_	_	56	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	curar	curar	NOUN	_	Gender=Masc|Number=Sing	58	obl	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	formar	formar	VERB	_	VerbForm=Inf	50	advcl	_	_
+59	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	compósito	compósito	NOUN	_	Gender=Masc|Number=Sing	58	obj	_	_
+61-62	na	_	_	_	_	_	_	_	_
+61	em	em	ADP	_	_	63	case	_	_
+62	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	região	região	NOUN	_	Gender=Fem|Number=Sing	58	obl	_	_
+64	(	(	PUNCT	_	_	65	punct	_	SpaceAfter=No
+65	figura	figura	NOUN	_	Gender=Fem|Number=Sing	63	appos	_	_
+66	4	4	NUM	_	NumType=Card	65	nummod	_	SpaceAfter=No
+67	)	)	PUNCT	_	_	65	punct	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	43	punct	_	_
+69	ou	ou	CCONJ	_	_	71	cc	_	_
+70	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	71	aux:pass	_	_
+71	utilizadas	utilizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	conj	_	_
+72	placas	placa	NOUN	_	Gender=Fem|Number=Plur	71	nsubj:pass	_	_
+73	finas	fino	ADJ	_	Gender=Fem|Number=Plur	72	amod	_	_
+74	de	de	ADP	_	_	75	case	_	_
+75	compósitos	compósito	NOUN	_	Gender=Masc|Number=Plur	72	nmod	_	_
+76	já	já	ADV	_	_	77	advmod	_	_
+77	curados	curar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	75	acl	_	SpaceAfter=No
+78	,	,	PUNCT	_	_	81	punct	_	_
+79	sendo	ser	AUX	_	VerbForm=Ger	81	cop	_	_
+80	apenas	apenas	ADV	_	_	81	advmod	_	_
+81	envolto	envolto	ADJ	_	Gender=Masc|Number=Sing	24	xcomp	_	_
+82-83	na	_	_	_	_	_	_	_	_
+82	em	em	ADP	_	_	84	case	_	_
+83	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
+84	região	região	NOUN	_	Gender=Fem|Number=Sing	81	obl	_	_
+85	e	e	CCONJ	_	_	86	cc	_	_
+86	aplicado	aplicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	81	conj	_	_
+87	material	material	NOUN	_	Gender=Masc|Number=Sing	86	obj	_	_
+88	adesivo	adesivo	ADJ	_	Gender=Masc|Number=Sing	87	amod	_	_
+89	para	para	SCONJ	_	_	90	mark	_	_
+90	garantir	garantir	VERB	_	VerbForm=Inf	24	advcl	_	_
+91	adesão	adesão	NOUN	_	Gender=Fem|Number=Sing	90	obj	_	_
+92	entre	entre	ADP	_	_	94	case	_	_
+93	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	94	det	_	_
+94	camadas	camada	NOUN	_	Gender=Fem|Number=Plur	91	nmod	_	_
+95	(	(	PUNCT	_	_	96	punct	_	SpaceAfter=No
+96	figura	figura	NOUN	_	Gender=Fem|Number=Sing	94	appos	_	_
+97	5	5	NUM	_	NumType=Card	96	nummod	_	SpaceAfter=No
+98	)	)	PUNCT	_	_	96	punct	_	SpaceAfter=No
+99	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = Figura 4: Manta de material compósito para aplicação de resina [3] [4] Figura 5:
-# sent_id = 128-20140912-MONOGRAFIA_1-46
+# sent_id = 128-20140912-MONOGRAFIA_1-47
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
@@ -1726,7 +1751,7 @@
 20	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Aplicação direta de placa de compósitos [4] 2.1.2 – Técnicas sem abertura de valas [6] Os métodos sem necessidade de abertura de valas vêm sendo cada vez mais utilizados em alternativa aos métodos tradicionais, que além de poderem apresentar custos mais elevados, agravam os problemas ambientais.
-# sent_id = 128-20140912-MONOGRAFIA_1-47
+# sent_id = 128-20140912-MONOGRAFIA_1-48
 1	Aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 2	direta	direto	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1735,7 +1760,7 @@
 6	compósitos	compósito	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	4	4	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
-9	]	_	PUNCT	_	_	8	punct	_	_
+9	]	_	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 10	2.1.2	2.1.2	NUM	_	NumType=Card	8	flat	_	_
 11	–	–	PUNCT	_	_	8	punct	_	_
 12	Técnicas	técnica	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
@@ -1784,7 +1809,7 @@
 54	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\n
 
 # text = No guia dos métodos não destrutivos para recuperação de dutos subterrâneos com o mínimo de escavação [6] publicado pela ABRATT (Associação Brasileira de Tecnologia Não Destrutiva), filiada à ISTT (International Society for Trenchless Technology), são descritas as principais técnicas para recuperação de dutos sem necessidade de abertura de valas, algumas das quais abordaremos a seguir.
-# sent_id = 128-20140912-MONOGRAFIA_1-48
+# sent_id = 128-20140912-MONOGRAFIA_1-49
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1862,12 +1887,12 @@
 70	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\n
 
 # text = 2.1.2.1 –
-# sent_id = 128-20140912-MONOGRAFIA_1-49
+# sent_id = 128-20140912-MONOGRAFIA_1-50
 1	2.1.2.1	2.1.2.1	NUM	_	NumType=Card	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Revestimento por inserção de novo tubo (sliplining) [6] A inserção consiste em puxar ou empurrar uma nova tubulação de menor diâmetro para dentro da existente (figura 6).
-# sent_id = 128-20140912-MONOGRAFIA_1-50
+# sent_id = 128-20140912-MONOGRAFIA_1-51
 1	Revestimento	Revestimento	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	inserção	inserção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1906,7 +1931,7 @@
 35	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Após a introdução do novo tubo, poderá ser necessária injeção no espaço anular para que a estrutura da rede existente ofereça alguma resistência e aumente a rigidez desse espaço, a perda dessa área na seção transversal pode ser significativa e impactar na vazão permitida após o reparo.
-# sent_id = 128-20140912-MONOGRAFIA_1-51
+# sent_id = 128-20140912-MONOGRAFIA_1-52
 1	Após	após	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	introdução	introdução	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -1973,7 +1998,7 @@
 57	.	.	PUNCT	_	_	45	punct	_	SpacesAfter=\n
 
 # text = Foram desenvolvidas ainda diversas técnicas que permitem a inserção de uma nova tubulação sem a interrupção do fornecimento.
-# sent_id = 128-20140912-MONOGRAFIA_1-52
+# sent_id = 128-20140912-MONOGRAFIA_1-53
 1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
 2	desenvolvidas	desenvolver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 3	ainda	ainda	ADV	_	_	4	advmod	_	_
@@ -1997,7 +2022,7 @@
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Geralmente, esses métodos se baseiam no fluxo do gás pelo espaço anular entre as tubulações antiga e nova durante a instalação.
-# sent_id = 128-20140912-MONOGRAFIA_1-53
+# sent_id = 128-20140912-MONOGRAFIA_1-54
 1	Geralmente	geralmente	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -2026,16 +2051,16 @@
 23	durante	durante	ADP	_	_	25	case	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 6:
-# sent_id = 128-20140912-MONOGRAFIA_1-54
+# sent_id = 128-20140912-MONOGRAFIA_1-55
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	6	6	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de instalação por inserção de novo tubo [6] 2.1.2.2 –
-# sent_id = 128-20140912-MONOGRAFIA_1-55
+# sent_id = 128-20140912-MONOGRAFIA_1-56
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2051,7 +2076,7 @@
 13	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Revestimento por inserção de tubulação apertada (close-fit lining) [6] [7] O uso de revestimentos internos (liners) através da inserção de tubulação apertada tem como objetivo produzir um revestimento ajustado que maximize o diâmetro final e evite a necessidade de injeção no espaço anular, para isso o diâmetro externo da tubulação inserida é ligeiramente maior que o diâmetro interno do duto hospedeiro.
-# sent_id = 128-20140912-MONOGRAFIA_1-56
+# sent_id = 128-20140912-MONOGRAFIA_1-57
 1	Revestimento	Revestimento	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	inserção	inserção	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2133,7 +2158,7 @@
 75	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
 
 # text = Para possibilitar a instalação do revestimento, este é deformado numa etapa anterior a instalação e após o posicionamento da linha ocorre a recomposição da forma original através de pressurização.
-# sent_id = 128-20140912-MONOGRAFIA_1-57
+# sent_id = 128-20140912-MONOGRAFIA_1-58
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	possibilitar	possibilitar	VERB	_	VerbForm=Inf	11	advcl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2175,7 +2200,7 @@
 35	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Uma das técnicas é a redução temporária do diâmetro do duto de revestimento através da compressão por rolo, de modo que possa ser puxado através da rede existente e pressurizado posteriormente (figura 7).
-# sent_id = 128-20140912-MONOGRAFIA_1-58
+# sent_id = 128-20140912-MONOGRAFIA_1-59
 1	Uma	um	NUM	_	NumType=Card	7	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2222,16 +2247,16 @@
 39	figura	figura	NOUN	_	Gender=Fem|Number=Sing	36	appos	_	_
 40	7	7	NUM	_	NumType=Card	39	nummod	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = Figura 7:
-# sent_id = 128-20140912-MONOGRAFIA_1-59
+# sent_id = 128-20140912-MONOGRAFIA_1-60
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de instalação por inserção de novo tubo deformado por rolos [6] A segunda técnica envolve a dobragem do tubo de revestimento numa forma de “U” ou “C” antes da inserção (figura 8).
-# sent_id = 128-20140912-MONOGRAFIA_1-60
+# sent_id = 128-20140912-MONOGRAFIA_1-61
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2282,7 +2307,7 @@
 45	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Essa técnica é frequentemente descrita como “dobra e reconformação”.
-# sent_id = 128-20140912-MONOGRAFIA_1-61
+# sent_id = 128-20140912-MONOGRAFIA_1-62
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -2297,13 +2322,13 @@
 12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 8:
-# sent_id = 128-20140912-MONOGRAFIA_1-62
+# sent_id = 128-20140912-MONOGRAFIA_1-63
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de instalação por inserção de novo tubo deformado em “U” [6] A dobragem do revestimento pode ser feita na fábrica e entregue em forma de bobinas para ser inserido na tubulação através de guinchos ou pode ser dobrado no campo, como parte do processo de instalação.
-# sent_id = 128-20140912-MONOGRAFIA_1-63
+# sent_id = 128-20140912-MONOGRAFIA_1-64
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2369,7 +2394,7 @@
 58	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Em alguns casos, dependendo da espessura do tubo e da deformação imposta, tiras de fixação são colocadas em toda extensão da tubulação para evitar que retorne a sua forma original antes da pressurização e dificulte o processo de instalação.
-# sent_id = 128-20140912-MONOGRAFIA_1-64
+# sent_id = 128-20140912-MONOGRAFIA_1-65
 1	Em	em	ADP	_	_	3	case	_	_
 2	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	casos	caso	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
@@ -2424,7 +2449,7 @@
 47	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\n
 
 # text = Na fase de expansão, as extremidades são fechadas e através de injeção de água aquecida e pressurizada o revestimento se amolda à forma da rede existente.
-# sent_id = 128-20140912-MONOGRAFIA_1-65
+# sent_id = 128-20140912-MONOGRAFIA_1-66
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2461,7 +2486,7 @@
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = A pressão é mantida enquanto a linha resfria, até que atinja uma condição rígida, quando as extremidades são cortadas e as conexões laterais reabertas.
-# sent_id = 128-20140912-MONOGRAFIA_1-66
+# sent_id = 128-20140912-MONOGRAFIA_1-67
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2488,10 +2513,10 @@
 24	conexões	conexão	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
 25	laterais	lateral	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
 26	reabertas	reabrir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	acl	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Na figura 9 podemos observar as etapas de reparo de uma tubulação pela técnica close-fit lining.
-# sent_id = 128-20140912-MONOGRAFIA_1-67
+# sent_id = 128-20140912-MONOGRAFIA_1-68
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2515,7 +2540,7 @@
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Este reparo ocorreu na Alemanha em uma linha de transporte de abastecimento de água de grande diâmetro (1500 mm) e em um trecho de aproximadamente 550 metros, o material da tubulação inserida é polietileno.
-# sent_id = 128-20140912-MONOGRAFIA_1-68
+# sent_id = 128-20140912-MONOGRAFIA_1-69
 1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	reparo	reparo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2560,13 +2585,13 @@
 40	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 9:
-# sent_id = 128-20140912-MONOGRAFIA_1-69
+# sent_id = 128-20140912-MONOGRAFIA_1-70
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	9	9	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Etapas de reparo de tubulação pela técnica de tubulação deformada [7] 2.1.2.3 – Revestimento por aspersão (spray lining) [6] O revestimento por aspersão tem a finalidade de formar uma película protetora que se ligará à superfície da rede existente e para isso a preparação dessa rede é muito importante.
-# sent_id = 128-20140912-MONOGRAFIA_1-70
+# sent_id = 128-20140912-MONOGRAFIA_1-71
 1	Etapas	etapa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	reparo	reparo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2581,7 +2606,7 @@
 11	deformada	deformar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
 12	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	7	7	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-14	]	_	PUNCT	_	_	13	punct	_	_
+14	]	_	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
 15	2.1.2.3	2.1.2.3	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	_
 16	–	–	PUNCT	_	_	17	punct	_	_
 17	Revestimento	Revestimento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -2633,7 +2658,7 @@
 60	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As tecnologias de limpeza incluem jateamento com água em alta pressão, raspagem, escovamento, uso de pigs, etc.
-# sent_id = 128-20140912-MONOGRAFIA_1-71
+# sent_id = 128-20140912-MONOGRAFIA_1-72
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tecnologias	tecnologia	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2657,7 +2682,7 @@
 21	etc.	etc.	ADV	_	_	5	advmod	_	_
 
 # text = Frequentemente, é necessário que haja equilíbrio entre remover todos os vestígios de corrosão e evitar danos na parede do tubo.
-# sent_id = 128-20140912-MONOGRAFIA_1-72
+# sent_id = 128-20140912-MONOGRAFIA_1-73
 1	Frequentemente	frequentemente	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2686,7 +2711,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O revestimento com epóxi é um dos mais utilizados.
-# sent_id = 128-20140912-MONOGRAFIA_1-73
+# sent_id = 128-20140912-MONOGRAFIA_1-74
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	revestimento	revestimento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	com	com	ADP	_	_	4	case	_	_
@@ -2701,7 +2726,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A resina é aplicada por uma máquina aspersora que possui, normalmente, um injetor rotativo, como na figura 10.
-# sent_id = 128-20140912-MONOGRAFIA_1-74
+# sent_id = 128-20140912-MONOGRAFIA_1-75
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	resina	resina	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2728,7 +2753,7 @@
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A espessura da película é controlada pela vazão e velocidade de avanço da máquina.
-# sent_id = 128-20140912-MONOGRAFIA_1-75
+# sent_id = 128-20140912-MONOGRAFIA_1-76
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -2752,7 +2777,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Na maioria dos sistemas, a resina de base e o endurecedor são alimentados por mangueiras separadas e combinados por um misturador estático situado logo antes do injetor.
-# sent_id = 128-20140912-MONOGRAFIA_1-76
+# sent_id = 128-20140912-MONOGRAFIA_1-77
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2790,7 +2815,7 @@
 32	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Em termos ideais, o tempo de cura deve ser o mais curto possível para minimizar o período em que a rede ficará fora de serviço, e também para reduzir o risco de contaminação da resina antes da cura.
-# sent_id = 128-20140912-MONOGRAFIA_1-77
+# sent_id = 128-20140912-MONOGRAFIA_1-78
 1	Em	em	ADP	_	_	2	case	_	_
 2	termos	termos	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 3	ideais	ideal	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
@@ -2838,13 +2863,13 @@
 43	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Figura 10:
-# sent_id = 128-20140912-MONOGRAFIA_1-78
+# sent_id = 128-20140912-MONOGRAFIA_1-79
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	10	10	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Aplicação de resina no interior da tubulação [6] 2.1.2.4 – Revestimento por inserção com cura ( in-loco cured-in-place lining ) [6] Nesta técnica é utilizado um tubo de tecido impregnado com resina epóxi ou de poliéster.
-# sent_id = 128-20140912-MONOGRAFIA_1-79
+# sent_id = 128-20140912-MONOGRAFIA_1-80
 1	Aplicação	aplicação	NOUN	_	Gender=Fem|Number=Sing	32	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	resina	resina	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -2894,7 +2919,7 @@
 44	.	.	PUNCT	_	_	32	punct	_	_
 
 # text = O tubo é introduzido na rede existente, inflado contra a parede dessa rede e curado na temperatura ambiente ou com recirculação de vapor ou água quente.
-# sent_id = 128-20140912-MONOGRAFIA_1-80
+# sent_id = 128-20140912-MONOGRAFIA_1-81
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2931,7 +2956,7 @@
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Algumas variantes utilizam luz ultravioleta para cura da resina.
-# sent_id = 128-20140912-MONOGRAFIA_1-81
+# sent_id = 128-20140912-MONOGRAFIA_1-82
 1	Algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	variantes	variante	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	utilizam	utilizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2946,7 +2971,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Dependendo das características da resina, o revestimento poderá ser entregue em um veículo refrigerado, para evitar que a cura comece prematuramente.
-# sent_id = 128-20140912-MONOGRAFIA_1-82
+# sent_id = 128-20140912-MONOGRAFIA_1-83
 1	Dependendo	depender	VERB	_	VerbForm=Ger	9	advcl	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -2976,81 +3001,16 @@
 25	prematuramente	prematuramente	ADV	_	_	24	advmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	13	punct	_	_
 
-# text = A inserção na rede existente é feita, normalmente, por puxamento por guincho ou por um processo de inversão no qual se usa água (ou, algumas vezes, ar) sob pressão para virar o revestimento pelo avesso à medida que este avança pela rede existente, como na figura 11.
-# sent_id = 128-20140912-MONOGRAFIA_1-83
+# text = A inserção na Figura 11:
+# sent_id = 128-20140912-MONOGRAFIA_1-84
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	inserção	inserção	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
-3-4	na	_	_	_	_	_	_	_	_
+2	inserção	inserção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	na	_	_	_	_	_	_	_	SpacesAfter=\s\n
 3	em	em	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	rede	rede	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	existente	existente	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
-8	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
-10	normalmente	normalmente	ADV	_	_	8	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	8	punct	_	_
-12	por	por	ADP	_	_	13	case	_	_
-13	puxamento	puxamento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
-14	por	por	ADP	_	_	15	case	_	_
-15	guincho	guincho	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
-16	ou	ou	CCONJ	_	_	19	cc	_	_
-17	por	por	ADP	_	_	19	case	_	_
-18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	processo	processo	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	inversão	inversão	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	_	_	21	case	_	_
-23	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	26	obj	_	_
-25	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	26	nsubj	_	_
-26	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-27	água	água	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
-28	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-29	ou	ou	CCONJ	_	_	32	cc	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	32	punct	_	_
-31	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	32	det	_	_
-32	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	ar	ar	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	27	punct	_	_
-36	sob	sob	ADP	_	_	37	case	_	_
-37	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-38	para	para	SCONJ	_	_	39	mark	_	_
-39	virar	virar	VERB	_	VerbForm=Inf	26	advcl	_	_
-40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	revestimento	revestimento	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
-42-43	pelo	_	_	_	_	_	_	_	_
-42	por	por	ADP	_	_	44	case	_	_
-43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	avesso	avesso	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
-45-46	à	_	_	_	_	_	_	_	_
-45	a	a	ADP	_	_	47	case	_	_
-46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	medida	medida	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
-48	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	50	obj	_	_
-49	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	50	nsubj	_	_
-50	avança	avançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	_	_
-51-52	pela	_	_	_	_	_	_	_	_
-51	por	por	ADP	_	_	53	case	_	_
-52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	rede	rede	NOUN	_	Gender=Fem|Number=Sing	50	obl	_	_
-54	existente	existente	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	50	punct	_	_
-56	como	como	SCONJ	_	_	59	mark	_	_
-57-58	na	_	_	_	_	_	_	_	_
-57	em	em	ADP	_	_	59	case	_	_
-58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
-59	figura	figura	NOUN	_	Gender=Fem|Number=Sing	26	advcl	_	_
-60	11	11	NUM	_	NumType=Card	59	nummod	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
-
-# text = Figura 11:
-# sent_id = 128-20140912-MONOGRAFIA_1-84
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	11	11	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
+5	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	11	11	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	2	punct	_	_
 
 # text = Inserção de tubulação com cura por inversão [6] Além de minimizar a redução de diâmetro, uma vantagem da técnica é sua capacidade de se conformar a praticamente qualquer forma da tubulação, o que torna seu uso possível para recuperação de redes não circulares.
 # sent_id = 128-20140912-MONOGRAFIA_1-85
@@ -3063,7 +3023,7 @@
 7	inversão	inversão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	6	6	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-10	]	_	PUNCT	_	_	9	punct	_	_
+10	]	_	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
 11	Além	além	ADV	_	_	13	mark	_	_
 12	de	de	ADP	_	_	11	fixed	_	_
 13	minimizar	minimizar	VERB	_	VerbForm=Inf	1	advcl	_	_
@@ -3142,7 +3102,7 @@
 29	severas	severo	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	carga	carga	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = 2.2 –O PVDF
 # sent_id = 128-20140912-MONOGRAFIA_1-87
@@ -3521,7 +3481,7 @@
 36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	figura	figura	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
 38	12	12	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+39	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\n\n
 
 # text = Figura 12: Estrutura Molecular do PVDF
 # sent_id = 128-20140912-MONOGRAFIA_1-97
@@ -3646,7 +3606,7 @@
 8	13	13	NUM	_	NumType=Card	7	obj	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	7	punct	_	_
 
-# text = Transição entre as diferentes fases do PVDF através de tratamento termo- mecânico.
+# text = Transição entre as diferentes fases do PVDF através de tratamento termo-mecânico.
 # sent_id = 128-20140912-MONOGRAFIA_1-101
 1	Transição	transição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	entre	entre	ADP	_	_	5	case	_	_
@@ -3660,16 +3620,14 @@
 9	através	através	ADV	_	_	1	advmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-12	termo	termo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-13	-	-	PUNCT	_	_	14	punct	_	_
-14	mecânico	mecânico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	_
+12	termo-mecânico	termo-mecânico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = [10] A fase é a mais comum e é normalmente obtida a partir do polímero fundido resfriado em velocidade moderada ou rápida.
 # sent_id = 128-20140912-MONOGRAFIA_1-102
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	10	10	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	2	punct	_	_
+3	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 4	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	fase	fase	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 6	é	é	ADP	_	_	9	case	_	_
@@ -3924,7 +3882,7 @@
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 6	fase	fase	PROPN	_	Number=Sing	5	flat:name	_	_
-7			PROPN	_	Number=Sing	5	flat:name	_	_
+7			PROPN	_	Number=Sing	5	flat:name	_	SpacesAfter=\s\n
 
 # text = A fase é polar e com conformação molecular T3GT3G, ou seja, a cada três trans há um gauche.
 # sent_id = 128-20140912-MONOGRAFIA_1-112
@@ -3950,7 +3908,7 @@
 20	gauche	gauche	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	18	punct	_	_
 
-# text = Já a fase  é obtida a partir da fase , com a aplicação de um intenso campo elétrico, que induz a inversão dos dipolos elétricos das cadeias, obtendo assim uma versão polar de  a Sabe-se que cristalização do PVDF a partir do fundido resulta predominantemente em fase alfa e apresenta uma morfologia esferulítica, apresentando cristalinidade entre 40 e 60% dependendo do método de preparação da amostra e histórico térmico.
+# text = Já a fase  é obtida a partir da fase , com a aplicação de um intenso campo elétrico, que induz a inversão dos dipolos elétricos das cadeias, obtendo assim uma versão polar de  cristalização do PVDF a partir do fundido resulta predominantemente em fase alfa e apresenta uma morfologia esferulítica, apresentando cristalinidade entre 40 e 60% dependendo do método de preparação da amostra e histórico térmico.
 # sent_id = 128-20140912-MONOGRAFIA_1-113
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3989,107 +3947,107 @@
 32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	cadeias	cadeia	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
-35	obtendo	obter	VERB	_	VerbForm=Ger	55	advcl	_	_
+35	obtendo	obter	VERB	_	VerbForm=Ger	51	advcl	_	_
 36	assim	assim	ADV	_	_	35	advmod	_	_
 37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	versão	versão	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
 39	polar	polar	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
 40	de	de	ADP	_	_	41	case	_	_
 41			PROPN	_	Number=Sing	38	nmod	_	_
-42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43-44	Sabe-se	_	_	_	_	_	_	_	_
-43	Sabe	Sabe	PROPN	_	Gender=Fem|Number=Sing	55	obj	_	_
-44	se	se	SCONJ	_	_	55	mark	_	_
-45	que	que	SCONJ	_	_	55	mark	_	_
-46	cristalização	cristalização	NOUN	_	Gender=Fem|Number=Sing	55	nsubj	_	_
-47-48	do	_	_	_	_	_	_	_	_
-47	de	de	ADP	_	_	49	case	_	_
-48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	46	nmod	_	_
-50	a	a	ADP	_	_	49	case	_	_
-51	partir	partir	VERB	_	VerbForm=Inf	46	acl	_	_
-52-53	do	_	_	_	_	_	_	_	_
-52	de	de	ADP	_	_	54	case	_	_
-53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
-54	fundido	fundido	NOUN	_	Gender=Masc|Number=Sing	51	obl	_	_
-55	resulta	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-56	predominantemente	predominantemente	ADV	_	_	55	advmod	_	_
-57	em	em	ADP	_	_	58	case	_	_
-58	fase	fase	NOUN	_	Gender=Fem|Number=Sing	55	obl	_	_
-59	alfa	alfo	ADJ	_	Gender=Fem|Number=Sing	58	amod	_	_
-60	e	e	CCONJ	_	_	61	cc	_	_
-61	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-62	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
-63	morfologia	morfologia	NOUN	_	Gender=Fem|Number=Sing	61	obj	_	_
-64	esferulítica	esferulítico	ADJ	_	Gender=Fem|Number=Sing	63	amod	_	SpaceAfter=No
-65	,	,	PUNCT	_	_	66	punct	_	_
-66	apresentando	apresentar	VERB	_	VerbForm=Ger	6	advcl	_	_
-67	cristalinidade	cristalinidade	NOUN	_	Gender=Fem|Number=Sing	66	obj	_	_
-68	entre	entre	ADP	_	_	72	case	_	_
-69	40	40	NUM	_	NumType=Card	72	nummod	_	_
-70	e	e	CCONJ	_	_	72	cc	_	_
-71	60	60	NUM	_	NumType=Card	72	nummod	_	SpaceAfter=No
-72	%	%	SYM	_	_	73	obl	_	_
-73	dependendo	depender	VERB	_	VerbForm=Ger	67	acl	_	_
-74-75	do	_	_	_	_	_	_	_	_
-74	de	de	ADP	_	_	76	case	_	_
-75	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
-76	método	método	NOUN	_	Gender=Masc|Number=Sing	73	obj	_	_
-77	de	de	ADP	_	_	78	case	_	_
-78	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	76	nmod	_	_
-79-80	da	_	_	_	_	_	_	_	_
-79	de	de	ADP	_	_	81	case	_	_
-80	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	81	det	_	_
-81	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	78	nmod	_	_
-82	e	e	CCONJ	_	_	83	cc	_	_
-83	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	73	conj	_	_
-84	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	83	amod	_	SpaceAfter=No
-85	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+42	cristalização	cristalização	NOUN	_	Gender=Fem|Number=Sing	38	appos	_	_
+43-44	do	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+46	a	a	ADP	_	_	47	case	_	_
+47	partir	partir	VERB	_	VerbForm=Inf	42	nmod	_	_
+48-49	do	_	_	_	_	_	_	_	_
+48	de	de	ADP	_	_	50	case	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	fundido	fundido	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
+51	resulta	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+52	predominantemente	predominantemente	ADV	_	_	51	advmod	_	_
+53	em	em	ADP	_	_	54	case	_	_
+54	fase	fase	NOUN	_	Gender=Fem|Number=Sing	51	obl	_	_
+55	alfa	alfo	ADJ	_	Gender=Fem|Number=Sing	54	amod	_	_
+56	e	e	CCONJ	_	_	57	cc	_	_
+57	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+58	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	morfologia	morfologia	NOUN	_	Gender=Fem|Number=Sing	57	obj	_	_
+60	esferulítica	esferulítico	ADJ	_	Gender=Fem|Number=Sing	59	amod	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	62	punct	_	_
+62	apresentando	apresentar	VERB	_	VerbForm=Ger	6	advcl	_	_
+63	cristalinidade	cristalinidade	NOUN	_	Gender=Fem|Number=Sing	62	obj	_	_
+64	entre	entre	ADP	_	_	68	case	_	_
+65	40	40	NUM	_	NumType=Card	68	nummod	_	_
+66	e	e	CCONJ	_	_	68	cc	_	_
+67	60	60	NUM	_	NumType=Card	68	nummod	_	SpaceAfter=No
+68	%	%	SYM	_	_	69	obl	_	_
+69	dependendo	depender	VERB	_	VerbForm=Ger	63	acl	_	_
+70-71	do	_	_	_	_	_	_	_	_
+70	de	de	ADP	_	_	72	case	_	_
+71	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	método	método	NOUN	_	Gender=Masc|Number=Sing	69	obj	_	_
+73	de	de	ADP	_	_	74	case	_	_
+74	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	72	nmod	_	_
+75-76	da	_	_	_	_	_	_	_	_
+75	de	de	ADP	_	_	77	case	_	_
+76	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
+77	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	74	nmod	_	_
+78	e	e	CCONJ	_	_	79	cc	_	_
+79	histórico	histórico	NOUN	_	Gender=Masc|Number=Sing	69	conj	_	_
+80	térmico	térmico	ADJ	_	Gender=Masc|Number=Sing	79	amod	_	SpaceAfter=No
+81	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
-# text = Polímeros que apresentam estrutura esferulítica são compostos por lamelas cristalinas na forma de feixes, que crescem radialmente a partir de um núcleo central interligado pela fase amorfa, como podemos observar na figura 16.
+# text = Sabe-se que a Polímeros que apresentam estrutura esferulítica são compostos por lamelas cristalinas na forma de feixes, que crescem radialmente a partir de um núcleo central interligado pela fase amorfa, como podemos observar na figura 16.
 # sent_id = 128-20140912-MONOGRAFIA_1-114
-1	Polímeros	Polímero	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
-2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	nsubj	_	_
-3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
-4	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
-5	esferulítica	esferulítico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-6	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	compostos	compor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-8	por	por	ADP	_	_	9	case	_	_
-9	lamelas	lamela	NOUN	_	Gender=Fem|Number=Plur	7	obl:agent	_	_
-10	cristalinas	cristalino	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	_	_	13	case	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	forma	forma	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	feixes	feixe	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	7	punct	_	_
-17	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	_
-18	crescem	crescir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
-19	radialmente	radialmente	ADV	_	_	18	advmod	_	_
-20	a	a	ADP	_	_	21	case	_	_
-21	partir	partir	VERB	_	VerbForm=Inf	18	obl	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	núcleo	núcleo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-25	central	central	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-26	interligado	interligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
-27-28	pela	_	_	_	_	_	_	_	_
-27	por	por	ADP	_	_	29	case	_	_
-28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	fase	fase	NOUN	_	Gender=Fem|Number=Sing	26	obl:agent	_	_
-30	amorfa	amorfo	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	7	punct	_	_
-32	como	como	ADV	_	_	33	cc	_	_
-33	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
-34	observar	observar	VERB	_	VerbForm=Inf	33	xcomp	_	_
-35-36	na	_	_	_	_	_	_	_	_
-35	em	em	ADP	_	_	37	case	_	_
-36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	figura	figura	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
-38	16	16	NUM	_	NumType=Card	37	nummod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	7	punct	_	_
+1-2	Sabe-se	_	_	_	_	_	_	_	_
+1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polímeros	Polímero	NOUN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	_	_
+7	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	esferulítica	esferulítico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	compostos	compor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+12	por	por	ADP	_	_	13	case	_	_
+13	lamelas	lamela	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+14	cristalinas	cristalino	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	forma	forma	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	feixes	feixe	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	11	punct	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	22	nsubj	_	_
+22	crescem	crescir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+23	radialmente	radialmente	ADV	_	_	22	advmod	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	partir	partir	VERB	_	VerbForm=Inf	22	obl	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	núcleo	núcleo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	central	central	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	interligado	interligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	acl	_	_
+31-32	pela	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	fase	fase	NOUN	_	Gender=Fem|Number=Sing	30	obl:agent	_	_
+34	amorfa	amorfo	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	1	punct	_	_
+36	como	como	ADV	_	_	37	cc	_	_
+37	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+38	observar	observar	VERB	_	VerbForm=Inf	37	xcomp	_	_
+39-40	na	_	_	_	_	_	_	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	figura	figura	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
+42	16	16	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = As lamelas inicialmente são paralelas umas às outras, mas no crescimento divergem, se torcem e ramificam, formando as estruturas esferulíticas radialmente simétricas.
 # sent_id = 128-20140912-MONOGRAFIA_1-115
@@ -4174,7 +4132,7 @@
 5	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 6	[	[	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	13	13	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-8	]	_	PUNCT	_	_	7	punct	_	_
+8	]	_	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
 9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 11	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4565,7 +4523,7 @@
 3	]	_	PUNCT	_	_	2	punct	_	_
 4	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	20	20	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
-6	]	_	PUNCT	_	_	2	punct	_	_
+6	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 
 # text = Na tabela 2 podemos observar algumas das principais propriedades do PVDF Solef60512®, que é o polímero utilizado neste trabalho.
 # sent_id = 128-20140912-MONOGRAFIA_1-130
@@ -4611,7 +4569,7 @@
 7	Solef60512®	Solef60512®	PROPN	_	Number=Sing	6	flat:name	_	_
 8	[	[	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	21	21	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-10	]	_	PUNCT	_	_	11	punct	_	_
+10	]	_	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 11	2.3	2.3	NUM	_	NumType=Card	13	nummod	_	_
 12	–	–	PUNCT	_	_	11	punct	_	_
 13	Comportamento	Comportamento	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -4854,19 +4812,23 @@
 46	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	39	punct	_	_
 
-# text = [23] Onde a constante de proporcionalidade
+# text = [23] =E
 # sent_id = 128-20140912-MONOGRAFIA_1-140
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	23	23	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
-4	Onde	onde	ADV	_	_	6	advmod	_	_
-5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	constante	constante	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	proporcionalidade	proporcionalidade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+4	=E	=E	PROPN	_	Number=Sing	2	flat:name	_	_
+
+# text = Onde a constante de proporcionalidade
+# sent_id = 128-20140912-MONOGRAFIA_1-141
+1	Onde	onde	ADV	_	_	3	advmod	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	constante	constante	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	proporcionalidade	proporcionalidade	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 
 # text = E é denominada módulo de elasticidade ou módulo de Young.
-# sent_id = 128-20140912-MONOGRAFIA_1-141
+# sent_id = 128-20140912-MONOGRAFIA_1-142
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4880,7 +4842,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O módulo de elasticidade de um material caracteriza a sua rigidez, e no nível atômico, representa a força das ligações entre os átomos que impede o afastamento destes.
-# sent_id = 128-20140912-MONOGRAFIA_1-142
+# sent_id = 128-20140912-MONOGRAFIA_1-143
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	módulo	módulo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4920,7 +4882,7 @@
 34	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = [23] Para materiais de comportamento linear na região elástica o módulo de elasticidade pode ser determinado pela inclinação da curva tensão versus deformação no regime elástico (figura 17).
-# sent_id = 128-20140912-MONOGRAFIA_1-143
+# sent_id = 128-20140912-MONOGRAFIA_1-144
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	23	23	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
@@ -4964,7 +4926,7 @@
 37	.	.	PUNCT	_	_	19	punct	_	_
 
 # text = Já em materiais de comportamento não-linear o E pode ser determinado através do cálculo de módulo tangente ou secante em determinada tensão (figura 18), geralmente considera-se regime elástico em polímeros até 2% de deformação.
-# sent_id = 128-20140912-MONOGRAFIA_1-144
+# sent_id = 128-20140912-MONOGRAFIA_1-145
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	em	em	ADP	_	_	3	case	_	_
 3	materiais	material	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
@@ -4974,7 +4936,7 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	E	E	PROPN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	ser	ser	AUX	_	VerbForm=Inf	11	aux:pass	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	11	aux:pass	_	SpacesAfter=\s\n
 11	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
 12	através	através	ADV	_	_	25	advmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
@@ -5010,7 +4972,7 @@
 41	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = [22] Figura 17:
-# sent_id = 128-20140912-MONOGRAFIA_1-145
+# sent_id = 128-20140912-MONOGRAFIA_1-146
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	22	22	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
 3	]	_	PUNCT	_	_	2	punct	_	_
@@ -5019,7 +4981,7 @@
 6	:	:	PUNCT	_	_	4	punct	_	_
 
 # text = Diagrama esquemático tensão versus deformação mostrando região elástica linear.
-# sent_id = 128-20140912-MONOGRAFIA_1-146
+# sent_id = 128-20140912-MONOGRAFIA_1-147
 1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	esquemático	esquemático	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5032,7 +4994,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = (Adaptado de [22] )
-# sent_id = 128-20140912-MONOGRAFIA_1-147
+# sent_id = 128-20140912-MONOGRAFIA_1-148
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -5042,13 +5004,13 @@
 7	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Figura 18:
-# sent_id = 128-20140912-MONOGRAFIA_1-148
+# sent_id = 128-20140912-MONOGRAFIA_1-149
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	18	18	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Diagrama esquemático tensão versus deformação mostrando região elástica não linear.
-# sent_id = 128-20140912-MONOGRAFIA_1-149
+# sent_id = 128-20140912-MONOGRAFIA_1-150
 1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	esquemático	esquemático	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5062,7 +5024,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = (Adaptado de [22] )
-# sent_id = 128-20140912-MONOGRAFIA_1-150
+# sent_id = 128-20140912-MONOGRAFIA_1-151
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Adaptado	adaptar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -5072,7 +5034,7 @@
 7	)	)	PUNCT	_	_	2	punct	_	_
 
 # text = Para todos os materiais, na região plástica não existe mais uma relação entre tensão e deformação por uma constante de proporcionalidade.
-# sent_id = 128-20140912-MONOGRAFIA_1-151
+# sent_id = 128-20140912-MONOGRAFIA_1-152
 1	Para	para	ADP	_	_	4	case	_	_
 2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -5099,8 +5061,8 @@
 23	proporcionalidade	proporcionalidade	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	11	punct	_	_
 
-# text = Na figura 19 está esquematizado o gráfico tensão versus deformação para um material de comportamento elástico linear, onde podemos observar claramente a separação entre a região elástica, até  e região plástica.
-# sent_id = 128-20140912-MONOGRAFIA_1-152
+# text = Na figura 19 está esquematizado o gráfico tensão versus deformação para um material de comportamento Figura 19:
+# sent_id = 128-20140912-MONOGRAFIA_1-153
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5110,40 +5072,17 @@
 6	esquematizado	esquematizado	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	gráfico	gráfico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-9	tensão	tensão	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	tensão	tensão	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 10	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	11	det	_	_
 11	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
 12	para	para	ADP	_	_	14	case	_	_
 13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	material	material	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
-16	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-17	elástico	elástico	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-18	linear	linear	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	6	punct	_	_
-20	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	obl	_	_
-21	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
-22	observar	observar	VERB	_	VerbForm=Inf	21	xcomp	_	_
-23	claramente	claramente	ADV	_	_	22	advmod	_	_
-24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	separação	separação	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
-26	entre	entre	ADP	_	_	28	case	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	região	região	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-29	elástica	elástica	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	31	punct	_	_
-31	até	até	PROPN	_	Gender=Masc|Number=Sing	22	conj	_	_
-32			PROPN	_	Number=Sing	31	flat:name	_	_
-33	e	e	CCONJ	_	_	34	cc	_	_
-34	região	região	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
-35	plástica	plástico	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
-
-# text = Figura 19:
-# sent_id = 128-20140912-MONOGRAFIA_1-153
-1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	19	19	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	1	punct	_	_
+16	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\s\n
+17	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+18	19	19	NUM	_	NumType=Card	17	obj	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	6	punct	_	_
 
 # text = Diagrama esquemático tensão versus deformação mostrando região elástica e plástica.
 # sent_id = 128-20140912-MONOGRAFIA_1-154
@@ -5381,7 +5320,7 @@
 # sent_id = 128-20140912-MONOGRAFIA_1-161
 1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	22	22	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	2	punct	_	_
+3	]	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 4	2.3.2	2.3.2	NUM	_	NumType=Card	2	flat	_	_
 5	–	–	PUNCT	_	_	6	punct	_	_
 6	Viscoelasticidade	Viscoelasticidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -5644,7 +5583,7 @@
 30	20	20	NUM	_	NumType=Card	29	nummod	_	_
 31	e	e	CCONJ	_	_	32	cc	_	_
 32	21	21	NUM	_	NumType=Card	30	conj	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
 
 # text = Figura 20:
 # sent_id = 128-20140912-MONOGRAFIA_1-170
@@ -5910,7 +5849,7 @@
 20	representada	representar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	xcomp	_	_
 21	por	por	ADP	_	_	23	case	_	_
 22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+23	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpacesAfter=\s\n
 24	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	obl	_	_
 25	três	três	NUM	_	NumType=Card	26	nummod	_	_
 26	cadeias	cadeia	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
@@ -6096,7 +6035,7 @@
 4	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	24	24	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No
 6	]	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	2	punct	_	_
+7	)	)	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	Viscous	Viscous	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	Flow	flow	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
@@ -6343,7 +6282,7 @@
 45	aliviar	aliviar	VERB	_	VerbForm=Inf	43	xcomp	_	_
 46	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	47	det	_	_
 47	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+48	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
 
 # text = 2.3.2.2 – Modelos reológicos
 # sent_id = 128-20140912-MONOGRAFIA_1-202
@@ -6561,7 +6500,7 @@
 2	esquemático	esquemático	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	amortecedor	amortecedor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	amortecedor	amortecedor	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 
 # text = No modelo de Maxwell os dois elementos, mola e amortecedor, são colocados em série (figura 27) e no modelo de Voigt estes estão em paralelo (figura 28).
 # sent_id = 128-20140912-MONOGRAFIA_1-212
@@ -6713,7 +6652,7 @@
 4	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	8	8	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No
 6	]	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	2	punct	_	_
+7	)	)	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 
 # text = Figura 29:
 # sent_id = 128-20140912-MONOGRAFIA_1-219
@@ -6940,7 +6879,7 @@
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	figura	figura	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
 31	30	30	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\n\n
 
 # text = Figura 30:
 # sent_id = 128-20140912-MONOGRAFIA_1-226
@@ -7100,35 +7039,35 @@
 35	polímeros	polímero	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	18	punct	_	_
 
-# text = [25] excelentes resultados (TLV), que Neste modelo além dos elementos de mola e amortecedor em série para representar a fração viscoelástica, similar ao modelo de Maxwell, temos em paralelo a combinação de molas e um elemento de fricção que correspondem a parcela elastoplástica, conforme observado na figura 31.
+# text = [25] (TLV), que excelentes resultados Neste modelo além dos elementos de mola e amortecedor em série para representar a fração viscoelástica, similar ao modelo de Maxwell, temos em paralelo a combinação de molas e um elemento de fricção que correspondem a parcela elastoplástica, conforme observado na figura 31.
 # sent_id = 128-20140912-MONOGRAFIA_1-234
-1	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
-2	25	25	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
-3	]	_	PUNCT	_	_	5	punct	_	_
-4	excelentes	excelente	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-5	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	TLV	TLV	PROPN	_	Gender=Masc|Number=Sing	5	appos:parataxis	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	5	punct	_	_
-10	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	37	nsubj	_	_
+1	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	25	25	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+3	]	_	PUNCT	_	_	2	punct	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	TLV	TLV	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	37	nsubj	_	_
+9	excelentes	excelente	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 11-12	Neste	_	_	_	_	_	_	_	_
 11	Em	em	ADP	_	_	13	case	_	_
 12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
-13	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+13	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 14	além	além	ADV	_	_	17	cc	_	_
 15-16	dos	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	mola	mola	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 20	e	e	CCONJ	_	_	21	cc	_	_
 21	amortecedor	amortecedor	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
 22	em	em	ADP	_	_	23	case	_	_
-23	série	série	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+23	série	série	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 24	para	para	SCONJ	_	_	25	mark	_	_
-25	representar	representar	VERB	_	VerbForm=Inf	13	acl	_	_
+25	representar	representar	VERB	_	VerbForm=Inf	9	advcl	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	fração	fração	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 28	viscoelástica	viscoelástico	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
@@ -7140,37 +7079,37 @@
 33	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	Maxwell	Maxwell	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	13	punct	_	_
-37	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+36	,	,	PUNCT	_	_	30	punct	_	_
+37	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 38	em	em	ADP	_	_	39	case	_	_
-39	paralelo	paralelo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+39	paralelo	paralelo	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
 40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	combinação	combinação	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+41	combinação	combinação	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
 42	de	de	ADP	_	_	43	case	_	_
 43	molas	mola	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	_
 44	e	e	CCONJ	_	_	46	cc	_	_
 45	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-46	elemento	elemento	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+46	elemento	elemento	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	_
 47	de	de	ADP	_	_	48	case	_	_
 48	fricção	fricção	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 49	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	50	nsubj	_	_
-50	correspondem	correspondir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+50	correspondem	correspondir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
 52	parcela	parcela	NOUN	_	Gender=Fem|Number=Sing	50	obj	_	_
 53	elastoplástica	elastoplástico	ADJ	_	Gender=Fem|Number=Sing	52	amod	_	SpaceAfter=No
-54	,	,	PUNCT	_	_	5	punct	_	_
+54	,	,	PUNCT	_	_	2	punct	_	_
 55	conforme	conforme	SCONJ	_	_	56	mark	_	_
-56	observado	observado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+56	observado	observado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 57-58	na	_	_	_	_	_	_	_	_
 57	em	em	ADP	_	_	59	case	_	_
 58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
 59	figura	figura	NOUN	_	Gender=Fem|Number=Sing	56	obl	_	_
 60	31	31	NUM	_	NumType=Card	59	nummod	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+61	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = .
 # sent_id = 128-20140912-MONOGRAFIA_1-235
-1	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n
+1	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n\n
 
 # text = Figura 31:
 # sent_id = 128-20140912-MONOGRAFIA_1-236
@@ -7317,7 +7256,7 @@
 27	e	e	CCONJ	_	_	28	cc	_	_
 28	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
 29	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = 3.
 # sent_id = 128-20140912-MONOGRAFIA_1-242
@@ -7366,7 +7305,7 @@
 28	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
-# text = O polímero utilizado neste trabalho foi o copolímero de Poli(Fluoreto de Vinilideno) e Polietileno (PE) denominado SOLEF®60512, fornecido pelo fabricante Solvay Solexis na forma de pellets.
+# text = O polímero utilizado neste trabalho foi o copolímero de Poli(Fluoreto de Vinilideno) e Polietileno (PE) denominado SOLEF®, fornecido pelo fabricante Solvay Solexis na forma de pellets.
 # sent_id = 128-20140912-MONOGRAFIA_1-245
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	polímero	polímero	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -7389,9 +7328,9 @@
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	PE	PE	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	19	punct	_	_
-21	denominado	denominado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
-22	SOLEF®60512	SOLEF®60512	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
+21	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
+22	SOLEF®	SOLEF®	PROPN	_	Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
 24	fornecido	fornecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
 25-26	pelo	_	_	_	_	_	_	_	_
 25	por	por	ADP	_	_	27	case	_	_
@@ -7544,7 +7483,7 @@
 22	em	em	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 33:
 # sent_id = 128-20140912-MONOGRAFIA_1-252
@@ -7607,7 +7546,7 @@
 34	processamento	processamento	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
-# text = O conjunto (molde, pellets e placas de aço) é levado para uma estufa (figura 34) com vácuo de 200mmHg a 150ºC onde permanece 20 minutos para um pré- aquecimento.
+# text = O conjunto (molde, pellets e placas de aço) é levado para uma estufa (figura 34) com vácuo de 200mmHg a 150ºC onde permanece 20 minutos para um pré-aquecimento.
 # sent_id = 128-20140912-MONOGRAFIA_1-255
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conjunto	conjunto	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
@@ -7640,11 +7579,10 @@
 29	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
 30	20	20	NUM	_	NumType=Card	31	nummod	_	_
 31	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
-32	para	para	ADP	_	_	35	case	_	_
-33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-34	pré-	pré-	PUNCT	_	_	35	punct	_	_
-35	aquecimento	aquecimento	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	13	punct	_	_
+32	para	para	ADP	_	_	34	case	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pré-aquecimento	pré-aquecimento	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = Em seguida, o conjunto é levado à uma prensa hidráulica (figura 35) e submetido a uma pressão de 6 toneladas por 5 minutos, a 220ºC.
 # sent_id = 128-20140912-MONOGRAFIA_1-256
@@ -7743,7 +7681,7 @@
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	vácuo	vácuo	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	vácuo	vácuo	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\s\n
 
 # text = Figura 35:
 # sent_id = 128-20140912-MONOGRAFIA_1-260
@@ -7829,7 +7767,7 @@
 16	37	37	NUM	_	NumType=Card	15	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
-# text = Figura 37: CPs fabricados e numerados
+# text = Figura 37: CPs fabricados e numerados 3.3 – Metodologia
 # sent_id = 128-20140912-MONOGRAFIA_1-265
 1	Figura	figuro	ADV	_	_	2	advmod	_	_
 2	37	37	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
@@ -7837,7 +7775,10 @@
 4	CPs	CPs	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	fabricados	fabricar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
 6	e	e	CCONJ	_	_	7	cc	_	_
-7	numerados	numerado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	conj	_	_
+7	numerados	numerado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	conj	_	SpacesAfter=\s\n
+8	3.3	3.3	NUM	_	NumType=Card	10	nummod	_	_
+9	–	–	PUNCT	_	_	10	punct	_	_
+10	Metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 
 # text = A metodologia de pesquisa adotada divide-se em seis etapas, identificadas abaixo:
 # sent_id = 128-20140912-MONOGRAFIA_1-266
@@ -7857,30 +7798,33 @@
 13	abaixo	abaixo	ADV	_	_	12	advmod	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	6	punct	_	_
 
-# text = I – Escolha do Material: SOLEF®60512 II – Processamento dos corpos de prova:
+# text = I – Escolha do Material: SOLEF® II –
 # sent_id = 128-20140912-MONOGRAFIA_1-267
-1	I	i	NUM	_	Gender=Unsp|Number=Sing|NumType=Ord	3	parataxis	_	_
+1	I	i	NUM	_	Gender=Unsp|Number=Sing|NumType=Ord	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
-3	Escolha	escolha	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	Escolha	escolha	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Material	Material	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	3	punct	_	_
-8	SOLEF®60512	SOLEF®60512	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
-9	II	II	PROPN	_	Number=Sing	8	flat:name	_	_
-10	–	–	PUNCT	_	_	8	punct	_	_
-11	Processamento	Processamento	PROPN	_	Number=Sing	8	flat:name	_	_
-12-13	dos	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	prova	prova	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	3	punct	_	_
+6	Material	Material	PROPN	_	Number=Sing	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	1	punct	_	_
+8	SOLEF®	SOLEF®	PROPN	_	Number=Sing	1	flat:name	_	_
+9	II	II	PROPN	_	Number=Sing	1	flat:name	_	_
+10	–	–	PUNCT	_	_	1	punct	_	_
+
+# text = Processamento dos corpos de prova:
+# sent_id = 128-20140912-MONOGRAFIA_1-268
+1	Processamento	Processamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	prova	prova	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Moldagem por compressão – norma ASTM D638.
-# sent_id = 128-20140912-MONOGRAFIA_1-268
+# sent_id = 128-20140912-MONOGRAFIA_1-269
 1	Moldagem	Moldagem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7891,7 +7835,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = III– Ensaios de relaxação preliminares (determinação da influência da velocidade nas tensões finais)
-# sent_id = 128-20140912-MONOGRAFIA_1-269
+# sent_id = 128-20140912-MONOGRAFIA_1-270
 1	III–	III–	PROPN	_	Number=Sing	0	root	_	_
 2	Ensaios	ensaios	PROPN	_	Number=Sing	1	flat:name	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -7915,42 +7859,43 @@
 18	)	)	PUNCT	_	_	7	punct	_	_
 
 # text = Os ensaios foram realizados em três diferentes velocidades de travessão (100mm/min, 10mm/min e 1mm/min), considerando valores próximos a situação real de instalação e uma faixa de estudo comparativo.
-# sent_id = 128-20140912-MONOGRAFIA_1-270
+# sent_id = 128-20140912-MONOGRAFIA_1-271
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
 4	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-5	em	em	ADP	_	_	6	case	_	_
-6	três	três	NUM	_	NumType=Card	8	obl	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	três	três	NUM	_	NumType=Card	8	nummod	_	_
 7	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
-8	velocidades	velocidade	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+8	velocidades	velocidade	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	travessão	travessão	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	(100mm/min	(100mm/min	X	_	_	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	10mm/min	10mm/min	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
-14	e	e	CCONJ	_	_	15	cc	_	_
-15	1mm/min	1mm/min	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	considerando	considerar	VERB	_	VerbForm=Ger	4	advcl	_	_
-19	valores	valor	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
-20	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
-21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
-23	real	real	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-26	e	e	CCONJ	_	_	28	cc	_	_
-27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-31	comparativo	comparativo	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	4	punct	_	_
+10	travessão	travessão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	100mm/min	100mm/min	NOUN	_	Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	10mm/min	10mm/min	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	1mm/min	1mm/min	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	considerando	considerar	VERB	_	VerbForm=Ger	4	advcl	_	_
+20	valores	valor	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+21	próximos	próximo	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	situação	situação	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+24	real	real	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	instalação	instalação	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	comparativo	comparativo	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Na temperatura de 40ºC e com deformações de 5 e 10%, também baseados no processo de instalação.
-# sent_id = 128-20140912-MONOGRAFIA_1-271
+# sent_id = 128-20140912-MONOGRAFIA_1-272
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -7977,7 +7922,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = O tempo cedido para o material relaxar foi de 4 horas, considerando tempo suficiente para que ocorram todos os mecanismos de relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-272
+# sent_id = 128-20140912-MONOGRAFIA_1-273
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	cedido	cedir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -8004,12 +7949,12 @@
 24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = IV –
-# sent_id = 128-20140912-MONOGRAFIA_1-273
+# sent_id = 128-20140912-MONOGRAFIA_1-274
 1	IV	IV	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 
 # text = Determinação das condições de ensaio:
-# sent_id = 128-20140912-MONOGRAFIA_1-274
+# sent_id = 128-20140912-MONOGRAFIA_1-275
 1	Determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -8020,7 +7965,7 @@
 7	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Visando reproduzir uma faixa de situações possíveis durante a instalação de um liner foi definido que os ensaios seriam realizados em três temperaturas diferentes (25, 40 e 60ºC) e três deformações iniciais (5, 10 e 20%).
-# sent_id = 128-20140912-MONOGRAFIA_1-275
+# sent_id = 128-20140912-MONOGRAFIA_1-276
 1	Visando	visar	VERB	_	VerbForm=Ger	15	advcl	_	_
 2	reproduzir	reproduzir	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8067,7 +8012,7 @@
 44	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
 
 # text = A temperatura foi definida com base no processo de expansão do duto que pode ser feito em diferentes temperaturas e as deformações numa faixa mais ampla que engloba os valores utilizados na prática e valores maiores que permitem a realização do ajuste de Tvegaard para obter a curva elastoplástica.
-# sent_id = 128-20140912-MONOGRAFIA_1-276
+# sent_id = 128-20140912-MONOGRAFIA_1-277
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
@@ -8130,7 +8075,7 @@
 55	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = V – Ensaios de relaxação: 3 corpos de prova para cada condição.
-# sent_id = 128-20140912-MONOGRAFIA_1-277
+# sent_id = 128-20140912-MONOGRAFIA_1-278
 1	V	V	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	–	–	PUNCT	_	_	3	punct	_	_
 3	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
@@ -8147,7 +8092,7 @@
 14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = VI – Obtenção da curva elastoplástica:
-# sent_id = 128-20140912-MONOGRAFIA_1-278
+# sent_id = 128-20140912-MONOGRAFIA_1-279
 1	VI	vi	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	Obtenção	obtenção	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -8159,7 +8104,7 @@
 8	:	:	PUNCT	_	_	3	punct	_	_
 
 # text = Ajuste, pelo modelo de Tvergaard, das tensões finais obtidas nos ensaios de relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-279
+# sent_id = 128-20140912-MONOGRAFIA_1-280
 1	Ajuste	Ajuste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	pelo	_	_	_	_	_	_	_	_
@@ -8181,10 +8126,10 @@
 16	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3.3.1 – Ensaios de relaxação de tensão
-# sent_id = 128-20140912-MONOGRAFIA_1-280
+# sent_id = 128-20140912-MONOGRAFIA_1-281
 1	3.3.1	3.3.1	NUM	_	NumType=Card	3	nummod	_	_
 2	–	–	PUNCT	_	_	1	punct	_	_
 3	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -8194,7 +8139,7 @@
 7	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 
 # text = Como vimos anteriormente, no ensaio de relaxação de tensão, a deformação é mantida constante e a tensão cai lentamente com o tempo.
-# sent_id = 128-20140912-MONOGRAFIA_1-281
+# sent_id = 128-20140912-MONOGRAFIA_1-282
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	vimos	vir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 3	anteriormente	anteriormente	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -8224,7 +8169,7 @@
 26	.	.	PUNCT	_	_	21	punct	_	_
 
 # text = Podemos dividir a execução do ensaio em duas etapas, na primeira o corpo de prova é tracionado até atingir uma deformação inicial previamente definida, neste trabalho a taxa de deformação imposta através da velocidade do travessão foi constante e o controle dessa deformação ocorreu com o uso de clip gage.
-# sent_id = 128-20140912-MONOGRAFIA_1-282
+# sent_id = 128-20140912-MONOGRAFIA_1-283
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	dividir	dividir	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -8292,7 +8237,7 @@
 59	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na sequência a deformação é mantida constante e observa-se a queda da tensão com o tempo.
-# sent_id = 128-20140912-MONOGRAFIA_1-283
+# sent_id = 128-20140912-MONOGRAFIA_1-284
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -8318,7 +8263,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Todos os ensaios deste trabalho foram realizados na máquina universal de ensaios INSTRON 5567 (figura 38) no Laboratório de Polímeros da COPPE/UFRJ com célula de carga de 2KN e clip gage de 25 mm.
-# sent_id = 128-20140912-MONOGRAFIA_1-284
+# sent_id = 128-20140912-MONOGRAFIA_1-285
 1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
@@ -8367,7 +8312,7 @@
 42	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Como foram feitos ensaios em temperaturas diferentes, uma câmara térmica foi acoplada à máquina permitindo o controle da temperatura de teste.
-# sent_id = 128-20140912-MONOGRAFIA_1-285
+# sent_id = 128-20140912-MONOGRAFIA_1-286
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	aux:pass	_	_
 3	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	advcl	_	_
@@ -8397,7 +8342,7 @@
 25	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Figura 38: Máquina INSTRON 5567 com câmara térmica
-# sent_id = 128-20140912-MONOGRAFIA_1-286
+# sent_id = 128-20140912-MONOGRAFIA_1-287
 1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	38:	38:	PROPN	_	Number=Sing	1	flat:name	_	_
 3	Máquina	máquina	PROPN	_	Number=Sing	1	flat:name	_	_
@@ -8408,7 +8353,7 @@
 8	térmica	térmico	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 
 # text = Os ensaios de relaxação preliminares foram realizados em três velocidades de travessão diferentes (100mm/min, 10mm/min e 1mm/min), na temperatura de 40ºC e com deformações iniciais de 5% e 10%.
-# sent_id = 128-20140912-MONOGRAFIA_1-287
+# sent_id = 128-20140912-MONOGRAFIA_1-288
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8448,7 +8393,7 @@
 36	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Já os ensaios finais foram realizados em apenas uma velocidade de travessão, 1mm/min, porém nas temperaturas de 25, 40 e 60ºC e deformações na ordem de 5, 10 e 20%, como veremos em detalhes a seguir.
-# sent_id = 128-20140912-MONOGRAFIA_1-288
+# sent_id = 128-20140912-MONOGRAFIA_1-289
 1	Já	já	ADV	_	_	3	advmod	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
@@ -8498,7 +8443,7 @@
 45	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Em ambos os casos o tempo de relaxação foi de 4 horas.
-# sent_id = 128-20140912-MONOGRAFIA_1-289
+# sent_id = 128-20140912-MONOGRAFIA_1-290
 1	Em	em	ADP	_	_	4	case	_	_
 2	ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -8511,10 +8456,10 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	4	4	NUM	_	NumType=Card	12	nummod	_	_
 12	horas	hora	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 3.3.2 - Obtenção da curva elastoplástica
-# sent_id = 128-20140912-MONOGRAFIA_1-290
+# sent_id = 128-20140912-MONOGRAFIA_1-291
 1	3.3.2	3.3.2	NUM	_	NumType=Card	3	nummod	_	_
 2	-	-	PUNCT	_	_	1	punct	_	_
 3	Obtenção	obtenção	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -8525,7 +8470,7 @@
 7	elastoplástica	elastoplástico	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 
 # text = Com as curvas tensão versus tempo dos ensaios de relaxação foi possível determinar as tensões viscoelásticas e elastoplásticas do material, considerando que o tempo de relaxação foi suficiente para que ocorresse toda ou grande parte da recuperação do material.
-# sent_id = 128-20140912-MONOGRAFIA_1-291
+# sent_id = 128-20140912-MONOGRAFIA_1-292
 1	Com	com	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
@@ -8577,7 +8522,7 @@
 45	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = A tensão recuperada após o período de relaxação é a definida como a componente viscoelástica (σ VE ) e a tensão residual ao final do ensaio é definida como a componente elastoplástica (σ EP), como ilustrado na figura 39.
-# sent_id = 128-20140912-MONOGRAFIA_1-292
+# sent_id = 128-20140912-MONOGRAFIA_1-293
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	recuperada	recuperar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
@@ -8630,13 +8575,13 @@
 47	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\n
 
 # text = Figura 39:
-# sent_id = 128-20140912-MONOGRAFIA_1-293
+# sent_id = 128-20140912-MONOGRAFIA_1-294
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	39	39	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Esquema de determinação das componentes viscoelásticas e elastoplásticas Considerando a tensão final do ensaio, após as 4 horas de relaxação, como a tensão elastoplástica residual, foi plotado um gráfico para cada temperatura com todas as curvas tensão versus deformação obtidas, como ilustrado na figura 40.
-# sent_id = 128-20140912-MONOGRAFIA_1-294
+# sent_id = 128-20140912-MONOGRAFIA_1-295
 1	Esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8695,13 +8640,13 @@
 53	.	.	PUNCT	_	_	45	punct	_	SpacesAfter=\n
 
 # text = Figura 40:
-# sent_id = 128-20140912-MONOGRAFIA_1-295
+# sent_id = 128-20140912-MONOGRAFIA_1-296
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	40	40	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Gráfico esquemático tensão versus deformação para ensaios realizados
-# sent_id = 128-20140912-MONOGRAFIA_1-296
+# sent_id = 128-20140912-MONOGRAFIA_1-297
 1	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	esquemático	esquemático	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8709,10 +8654,10 @@
 5	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	para	para	ADP	_	_	7	case	_	_
 7	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
-8	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	_
+8	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	7	acl	_	SpacesAfter=\s\n
 
 # text = Para cada deformação aplicada ao material temos uma tensão elastoplástica correspondente o que vai permitir a determinação de uma curva de ajuste que indique a tensão elastoplástica no PVDF naquela temperatura, já desconsiderando toda a parte viscoelástica que foi recuperada durante o tempo de relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-297
+# sent_id = 128-20140912-MONOGRAFIA_1-298
 1	Para	para	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -8768,7 +8713,7 @@
 50	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Para materiais dúcteis e de comportamento não linear, como o caso do PVDF, podemos encontrar na literatura equações para aproximação de resultados obtidos em ensaios uniaxiais, como por exemplo as equações de Needlemann, Ramberg-Osgood e Tvergaard Optamos inicialmente pelo ajuste de Tvergaard por ser um equação simples e de acordo com os resultados obtidos validaríamos o ajuste ou optaríamos por outro.
-# sent_id = 128-20140912-MONOGRAFIA_1-298
+# sent_id = 128-20140912-MONOGRAFIA_1-299
 1	Para	para	ADP	_	_	2	case	_	_
 2	materiais	material	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
 3	dúcteis	dúctil	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
@@ -8843,7 +8788,7 @@
 69	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = A equação de Tvergaard, (equação 6), é descrita por: (6)
-# sent_id = 128-20140912-MONOGRAFIA_1-299
+# sent_id = 128-20140912-MONOGRAFIA_1-300
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	equação	equação	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -8863,7 +8808,7 @@
 17	)	)	PUNCT	_	_	16	punct	_	_
 
 # text = Onde p e p são respectivamente a tensão e a deformação de proporcionalidade,  a deformação final, n é o parâmetro de encruamento e EP a tensão elastoplástica.
-# sent_id = 128-20140912-MONOGRAFIA_1-300
+# sent_id = 128-20140912-MONOGRAFIA_1-301
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	p	p	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 3	e	e	CCONJ	_	_	4	cc	_	_
@@ -8897,7 +8842,7 @@
 31	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
 
 # text = Os parâmetros p e n foram determinados com auxílio de uma rotina desenvolvida em Fortran, através do método dos mínimos quadrados, tendo como dados de entrada os pontos experimentais obtidos.
-# sent_id = 128-20140912-MONOGRAFIA_1-301
+# sent_id = 128-20140912-MONOGRAFIA_1-302
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	p	p	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -8937,7 +8882,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # text = Com a curva final obtida é possível determinar para qualquer deformação inicial aplicada no material, a tensão elastoplástica (EP) correspondente.
-# sent_id = 128-20140912-MONOGRAFIA_1-302
+# sent_id = 128-20140912-MONOGRAFIA_1-303
 1	Com	com	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	curva	curva	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -8963,15 +8908,15 @@
 22	EP	EP	PROPN	_	Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	22	punct	_	_
 24	correspondente	correspondente	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
 
 # text = 4.
-# sent_id = 128-20140912-MONOGRAFIA_1-303
+# sent_id = 128-20140912-MONOGRAFIA_1-304
 1	4	4	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Resultados e Discussões 4.1 – Ensaios preliminares
-# sent_id = 128-20140912-MONOGRAFIA_1-304
+# sent_id = 128-20140912-MONOGRAFIA_1-305
 1	Resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Discussões	discussão	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
@@ -8981,7 +8926,7 @@
 7	preliminares	preliminar	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 
 # text = Sabe-se da literatura que, para polímeros, os mecanismos de deformação podem depender da taxa de deformação a qual o material é submetido [27].
-# sent_id = 128-20140912-MONOGRAFIA_1-305
+# sent_id = 128-20140912-MONOGRAFIA_1-306
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9018,7 +8963,7 @@
 31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Desta forma, foram realizados ensaios preliminares de relaxação de tensão para avaliar o efeito da velocidade de carregamento aplicada para obter a deformação inicial nos processos de relaxação e, assim, determinar a velocidade para os ensaios posteriores.
-# sent_id = 128-20140912-MONOGRAFIA_1-306
+# sent_id = 128-20140912-MONOGRAFIA_1-307
 1-2	Desta	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -9068,7 +9013,7 @@
 44	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Corpos de prova foram preparados e dois grupos de ensaios de relaxação foram realizados, um com 5% de deformação inicial e outro com 10% de deformação inicial, ambos em temperatura de 40ºC e com tempos de relaxação de aproximadamente 4 horas.
-# sent_id = 128-20140912-MONOGRAFIA_1-307
+# sent_id = 128-20140912-MONOGRAFIA_1-308
 1	Corpos	corpo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	prova	prova	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -9117,7 +9062,7 @@
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para cada grupo, foram aplicadas três velocidades de travessão diferentes (100mm/min, 10mm/min e 1mm/min) repetidos em três CPs, totalizando nove CPs em cada grupo.
-# sent_id = 128-20140912-MONOGRAFIA_1-308
+# sent_id = 128-20140912-MONOGRAFIA_1-309
 1	Para	para	ADP	_	_	3	case	_	_
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 3	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -9149,7 +9094,7 @@
 29	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = As figuras 41 e 42 mostram os gráficos de tensão versus tempo e tensão versus deformação respectivamente, obtidos nos ensaios de relaxação com deformação inicial de 5% para as diferentes velocidades.
-# sent_id = 128-20140912-MONOGRAFIA_1-309
+# sent_id = 128-20140912-MONOGRAFIA_1-310
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	41	41	NUM	_	NumType=Card	2	nummod	_	_
@@ -9188,7 +9133,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = As figuras 43 e 44 apresentam os resultados para deformação inicial de 10%.
-# sent_id = 128-20140912-MONOGRAFIA_1-310
+# sent_id = 128-20140912-MONOGRAFIA_1-311
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	43	43	NUM	_	NumType=Card	2	nummod	_	_
@@ -9206,7 +9151,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Nos gráficos as diferentes taxas de carregamento aplicadas nos CPs são representadas pelas cores, sendo a cor verde referente aos ensaios com velocidade de 100mm/min , a cor vermelha os ensaios com velocidade de 10mm/min e a cor azul os ensaios com velocidade de 1mm/min.
-# sent_id = 128-20140912-MONOGRAFIA_1-311
+# sent_id = 128-20140912-MONOGRAFIA_1-312
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -9261,16 +9206,16 @@
 48	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 49	de	de	ADP	_	_	50	case	_	_
 50	1mm/min	1mm/min	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+51	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n\n
 
 # text = Figura 41:
-# sent_id = 128-20140912-MONOGRAFIA_1-312
+# sent_id = 128-20140912-MONOGRAFIA_1-313
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	41	41	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Gráfico tensão versus tempo para deformação inicial aproximada de 5% em diferentes taxas de carregamento
-# sent_id = 128-20140912-MONOGRAFIA_1-313
+# sent_id = 128-20140912-MONOGRAFIA_1-314
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	tensão	tenser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -9289,13 +9234,13 @@
 16	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 
 # text = Figura 42:
-# sent_id = 128-20140912-MONOGRAFIA_1-314
+# sent_id = 128-20140912-MONOGRAFIA_1-315
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	42	42	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Gráfico tensão versus deformação para deformação inicial aproximada de 5% em diferentes taxas de carregamento
-# sent_id = 128-20140912-MONOGRAFIA_1-315
+# sent_id = 128-20140912-MONOGRAFIA_1-316
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -9311,15 +9256,15 @@
 13	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
 14	taxas	taxa	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
-16	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+16	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\s\n
 
 # text = Figura 43:
-# sent_id = 128-20140912-MONOGRAFIA_1-316
+# sent_id = 128-20140912-MONOGRAFIA_1-317
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	43:	43:	PUNCT	_	_	1	punct	_	_
 
 # text = Gráfico tensão versus tempo para deformação inicial aproximada de 10% em diferentes taxas de carregamento Figura 44:
-# sent_id = 128-20140912-MONOGRAFIA_1-317
+# sent_id = 128-20140912-MONOGRAFIA_1-318
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	tensão	tenser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -9341,7 +9286,7 @@
 19	:	:	PUNCT	_	_	17	punct	_	_
 
 # text = Gráfico tensão versus deformação para deformação inicial aproximada de 10% em diferentes taxas de carregamento
-# sent_id = 128-20140912-MONOGRAFIA_1-318
+# sent_id = 128-20140912-MONOGRAFIA_1-319
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -9357,10 +9302,10 @@
 13	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
 14	taxas	taxa	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
-16	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+16	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\s\n
 
 # text = A primeira observação das curvas é a dificuldade de obtenção dos valores de deformações pré-estabelecidos, de forma precisa e repetitiva.
-# sent_id = 128-20140912-MONOGRAFIA_1-319
+# sent_id = 128-20140912-MONOGRAFIA_1-320
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	observação	observação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -9389,7 +9334,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Podemos relacionar tal fenômeno com limitações na técnica adotada para aplicação da deformação e medição através do clip gage, Considerando que os valores obtidos foram próximos, uma análise comparativa é possível e aplicável ao objetivo dos ensaios.
-# sent_id = 128-20140912-MONOGRAFIA_1-320
+# sent_id = 128-20140912-MONOGRAFIA_1-321
 1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	relacionar	relacionar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 3	tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -9442,7 +9387,7 @@
 45	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = A deformação imposta foi controlada através do deslocamento do travessão, foram realizados ensaios preliminares de tração nas diferentes temperaturas e com esses ensaios foi possível determinar para cada deformação desejada qual o deslocamento necessário do travessão.
-# sent_id = 128-20140912-MONOGRAFIA_1-321
+# sent_id = 128-20140912-MONOGRAFIA_1-322
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	imposta	imposto	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -9491,7 +9436,7 @@
 42	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Esses valores de deslocamento foram utilizados nos ensaios de relaxação para obter as deformações e a medição foi feita pelo clip gage.
-# sent_id = 128-20140912-MONOGRAFIA_1-322
+# sent_id = 128-20140912-MONOGRAFIA_1-323
 1	Esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -9521,7 +9466,7 @@
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Como cada CP pode apresentar pequenas variações na forma e dimensões os valores de deformação obtidos não foram semelhantes e, além disso, o uso do clip gage em corpos de prova poliméricos pode apresentar problemas, como escorregamento, que se retrata nos gráficos através de desvios de deformação na fase da relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-323
+# sent_id = 128-20140912-MONOGRAFIA_1-324
 1	Como	como	SCONJ	_	_	4	mark	_	_
 2	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	CP	CP	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -9592,7 +9537,7 @@
 62	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
 
 # text = Observando os gráficos tensão versus tempos podemos constatar que o tempo cedido para relaxação de 4 horas foi suficiente para que ocorresse os mecanismos de relaxação, pois a tensão se estabiliza dentro desse período.
-# sent_id = 128-20140912-MONOGRAFIA_1-324
+# sent_id = 128-20140912-MONOGRAFIA_1-325
 1	Observando	Observar	VERB	_	VerbForm=Ger	7	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -9633,7 +9578,7 @@
 37	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = Observa-se que nos dois grupos (5 e 10%), em velocidades mais baixas, o material apresenta menor módulo elástico e a tensão máxima obtida é menor, comportamento este característico do caráter visco-elástico do material.
-# sent_id = 128-20140912-MONOGRAFIA_1-325
+# sent_id = 128-20140912-MONOGRAFIA_1-326
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	obserr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -9684,7 +9629,7 @@
 44	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Nos gráficos tensão versus tempo observou-se que as curvas de 1mm/min ficaram acima das de 10mm/min, justamente pela diferença nas deformações inicias obtidas, já que os ensaios de 10mm/min atingiram deformações menores que os ensaios de 1 e 100mm/min, logo a tensão elastoplástica final para a velocidade de 10mm/min foi menor que os outros ensaios.
-# sent_id = 128-20140912-MONOGRAFIA_1-326
+# sent_id = 128-20140912-MONOGRAFIA_1-327
 1-2	Nos	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -9756,7 +9701,7 @@
 64	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Tal acontecimento não prejudica a comparação entres as curvas, pois os resultados obtidos caracterizaram de maneira esperada os comportamentos para cada velocidade.
-# sent_id = 128-20140912-MONOGRAFIA_1-327
+# sent_id = 128-20140912-MONOGRAFIA_1-328
 1	Tal	tal	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	acontecimento	acontecimento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -9783,7 +9728,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = A relação entre a deformação inicial e a tensão final após a relaxação fica clara quando comparamos os dois grupos de ensaios, no grupo com deformação inicial aproximada de 10% as tensões finais obtidas são maiores que as do grupo de 5%, quando considerados os ensaios para mesma velocidade de carregamento.
-# sent_id = 128-20140912-MONOGRAFIA_1-328
+# sent_id = 128-20140912-MONOGRAFIA_1-329
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	entre	entre	ADP	_	_	5	case	_	_
@@ -9843,10 +9788,10 @@
 55	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	52	nmod	_	_
 56	de	de	ADP	_	_	57	case	_	_
 57	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\n
+58	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\n\n
 
 # text = Analisando os gráficos observa-se que independente da velocidade utilizada e consequentemente da tensão de pico obtida, quando considerado uma mesma deformação inicial, os valores de tensões após os ensaios de relaxação obtidos são bem próximos uma independência das tensões finais com as velocidades impostas.
-# sent_id = 128-20140912-MONOGRAFIA_1-329
+# sent_id = 128-20140912-MONOGRAFIA_1-330
 1	Analisando	analisar	VERB	_	VerbForm=Ger	40	advcl	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
@@ -9904,7 +9849,7 @@
 51	.	.	PUNCT	_	_	40	punct	_	_
 
 # text = Logo, para os ensaios subsequentes foi adotada a velocidade de 1mm/min, considerando o aspecto de maior facilidade para controle das deformações pela máquina em velocidades menores e a maior repetitividade dos ensaios.
-# sent_id = 128-20140912-MONOGRAFIA_1-330
+# sent_id = 128-20140912-MONOGRAFIA_1-331
 1	Logo	logo	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
@@ -9947,24 +9892,24 @@
 37	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
-# text = e apresentam comportamentos caracterizando semelhantes, 4.2 – Ensaios de relaxação de tensão
-# sent_id = 128-20140912-MONOGRAFIA_1-331
+# text = e apresentam comportamentos semelhantes, caracterizando 4.2 – Ensaios de relaxação de tensão
+# sent_id = 128-20140912-MONOGRAFIA_1-332
 1	e	e	CCONJ	_	_	2	cc	_	_
 2	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	comportamentos	comportamento	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
-4	caracterizando	caracterizar	VERB	_	VerbForm=Ger	2	advcl	_	_
-5	semelhantes	semelhante	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
+4	semelhantes	semelhante	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	caracterizando	caracterizar	VERB	_	VerbForm=Ger	2	advcl	_	_
 7	4.2	4.2	NUM	_	NumType=Card	9	nummod	_	_
 8	–	–	PUNCT	_	_	7	punct	_	_
-9	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+9	Ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 
 # text = Definidas as condições para a realização dos ensaios de relaxação de tensão, sendo a velocidade de carregamento de 1mm/min, deformações iniciais de 5, 10 e 20% temperaturas de 25, 40 e 60ºC e tempo de relaxação de 4 horas, é apresentado na tabela 3 um resumo das condições dos ensaios realizados e o número de corpos de prova para cada condição.
-# sent_id = 128-20140912-MONOGRAFIA_1-332
+# sent_id = 128-20140912-MONOGRAFIA_1-333
 1	Definidas	definir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	condições	condição	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
@@ -10043,13 +9988,13 @@
 72	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Tabela 3:
-# sent_id = 128-20140912-MONOGRAFIA_1-333
+# sent_id = 128-20140912-MONOGRAFIA_1-334
 1	Tabela	tabela	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Resumo dos ensaios de relaxação realizados
-# sent_id = 128-20140912-MONOGRAFIA_1-334
+# sent_id = 128-20140912-MONOGRAFIA_1-335
 1	Resumo	Resumo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -10060,7 +10005,7 @@
 7	realizados	realizado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	acl	_	_
 
 # text = As figuras 45 e 46 mostram os resultados dos ensaios de relaxação para a temperatura de 25ºC, nas diferentes deformações iniciais ( 5, 10 e 20%) após período de 4 horas de relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-335
+# sent_id = 128-20140912-MONOGRAFIA_1-336
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	figuras	figura	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	45	45	NUM	_	NumType=Card	2	nummod	_	_
@@ -10102,16 +10047,16 @@
 37	horas	hora	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
 
 # text = Figura 45:
-# sent_id = 128-20140912-MONOGRAFIA_1-336
+# sent_id = 128-20140912-MONOGRAFIA_1-337
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	45	45	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Gráfico tensão versus tempo para temperatura de 25ºC e 4 horas de relaxação Figura 46:
-# sent_id = 128-20140912-MONOGRAFIA_1-337
+# sent_id = 128-20140912-MONOGRAFIA_1-338
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	tensão	tenser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -10130,7 +10075,7 @@
 16	:	:	PUNCT	_	_	14	punct	_	_
 
 # text = Gráfico tensão versus deformação para temperatura de 25ºC e 4 horas de relaxação
-# sent_id = 128-20140912-MONOGRAFIA_1-338
+# sent_id = 128-20140912-MONOGRAFIA_1-339
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -10143,10 +10088,10 @@
 10	4	4	NUM	_	NumType=Card	11	nummod	_	_
 11	horas	hora	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\s\n
 
 # text = Nas figuras 47 e 48 apresentamos os resultados dos ensaios de relaxação para a temperatura de 40ºC, nas diferentes deformações iniciais (5%, 10% e 20%) após um período de 4 horas de relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-339
+# sent_id = 128-20140912-MONOGRAFIA_1-340
 1-2	Nas	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -10195,33 +10140,18 @@
 43	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
-# text = Figura 47:
-# sent_id = 128-20140912-MONOGRAFIA_1-340
+# text = relaxação
+# sent_id = 128-20140912-MONOGRAFIA_1-341
+1	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+
+# text = Figura 48:
+# sent_id = 128-20140912-MONOGRAFIA_1-342
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	47	47	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+2	48	48	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
 
-# text = Gráfico tensão versus tempo para temperatura de 40ºC e 4 horas de relaxação Figura 48:
-# sent_id = 128-20140912-MONOGRAFIA_1-341
-1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-2	tensão	tenser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
-4	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
-5	para	para	ADP	_	_	6	case	_	_
-6	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	40ºC	40ºC	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	e	e	CCONJ	_	_	11	cc	_	_
-10	4	4	NUM	_	NumType=Card	11	nummod	_	_
-11	horas	hora	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-14	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	48	48	NUM	_	NumType=Card	14	obj	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	14	punct	_	_
-
 # text = Gráfico tensão versus deformação para temperatura de 40ºC e 4 horas de relaxação
-# sent_id = 128-20140912-MONOGRAFIA_1-342
+# sent_id = 128-20140912-MONOGRAFIA_1-343
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -10234,10 +10164,10 @@
 10	4	4	NUM	_	NumType=Card	11	nummod	_	_
 11	horas	hora	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\s\n
 
 # text = E por fim, temos nas figuras 49 e 50 os resultados dos ensaios de relaxação para a temperatura de 60ºC, nas diferentes deformações iniciais (5%, 10% e 20%) após um período de 4 horas de relaxação.
-# sent_id = 128-20140912-MONOGRAFIA_1-343
+# sent_id = 128-20140912-MONOGRAFIA_1-344
 1	E	e	CCONJ	_	_	5	cc	_	_
 2	por	por	ADP	_	_	3	case	_	_
 3	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -10290,33 +10220,33 @@
 47	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
-# text = Figura 49:
-# sent_id = 128-20140912-MONOGRAFIA_1-344
-1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+# text = Figura 49: Gráfico tensão versus tempo para temperatura de 60ºC e 4 horas de relaxação
+# sent_id = 128-20140912-MONOGRAFIA_1-345
+1	Figura	figura	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 2	49	49	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	1	punct	_	_
+4	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	tensão	tenser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	7	det	_	_
+7	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	60ºC	60ºC	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	4	4	NUM	_	NumType=Card	14	nummod	_	_
+14	horas	hora	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 
-# text = Gráfico tensão versus tempo para temperatura de 60ºC e 4 horas de relaxação Figura 50:
-# sent_id = 128-20140912-MONOGRAFIA_1-345
-1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-2	tensão	tenser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
-4	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
-5	para	para	ADP	_	_	6	case	_	_
-6	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	60ºC	60ºC	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	e	e	CCONJ	_	_	11	cc	_	_
-10	4	4	NUM	_	NumType=Card	11	nummod	_	_
-11	horas	hora	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-14	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	50	50	NUM	_	NumType=Card	14	obj	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	14	punct	_	_
-
-# text = Gráfico tensão versus deformação para temperatura de 60ºC e 4 horas de relaxação Podemos fazer as seguintes análises de acordo com os resultados obtidos: 
+# text = Figura 50:
 # sent_id = 128-20140912-MONOGRAFIA_1-346
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	50	50	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# text = Gráfico tensão versus deformação para temperatura de 60ºC e 4 horas de relaxação
+# sent_id = 128-20140912-MONOGRAFIA_1-347
 1	Gráfico	gráfico	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	tensão	tenser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	versus	versu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	4	det	_	_
@@ -10329,55 +10259,55 @@
 10	4	4	NUM	_	NumType=Card	11	nummod	_	_
 11	horas	hora	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-14	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
-15	fazer	fazer	VERB	_	VerbForm=Inf	14	xcomp	_	_
-16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-17	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-18	análises	análise	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-21	com	com	ADP	_	_	23	case	_	_
-22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-23	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
-24	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	23	acl	_	SpaceAfter=No
-25	:	:	PUNCT	_	_	2	punct	_	_
-26			PROPN	_	Number=Sing	2	flat:name	_	_
+13	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\s\n
 
-# text = Em todas as temperaturas ensaiadas alguns CPs não atingiram a deformação inicial pré-estabelecida, da mesma forma como havia sido observado nos ensaios preliminares.
-# sent_id = 128-20140912-MONOGRAFIA_1-347
-1	Em	em	ADP	_	_	4	case	_	_
-2	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
-3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	fixed	_	_
-4	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
-5	ensaiadas	ensaiar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
-6	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
-7	CPs	CPs	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-8	não	não	ADV	_	Polarity=Neg	9	advmod	_	_
-9	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
-12	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	pré-estabelecida	pré-estabelecido	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	18	punct	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	18	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-17	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-18	forma	forma	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
-19	como	como	ADV	_	_	22	advmod	_	_
-20	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
-21	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	22	aux:pass	_	_
-22	observado	observar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	_
-23-24	nos	_	_	_	_	_	_	_	_
-23	em	em	ADP	_	_	25	case	_	_
-24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-25	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
-26	preliminares	preliminar	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	9	punct	_	_
+# text = Podemos fazer as seguintes análises de acordo com os resultados obtidos:  Em todas as temperaturas ensaiadas alguns CPs não atingiram a deformação inicial pré-estabelecida, da mesma forma como havia sido observado nos ensaios preliminares.
+# sent_id = 128-20140912-MONOGRAFIA_1-348
+1	Podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fazer	fazer	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+5	análises	análise	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+11	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	10	acl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	2	punct	_	_
+13			PROPN	_	Number=Sing	17	obj	_	_
+14	Em	em	ADP	_	_	17	case	_	_
+15	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	17	det	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	fixed	_	_
+17	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
+18	ensaiadas	ensaiar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	22	acl	_	_
+19	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	CPs	CPs	PROPN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+21	não	não	ADV	_	Polarity=Neg	22	advmod	_	_
+22	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	17	acl:relcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	deformação	deformação	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	pré-estabelecida	pré-estabelecido	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	31	punct	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	31	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+31	forma	forma	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+32	como	como	ADV	_	_	35	advmod	_	_
+33	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+34	sido	ser	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	35	aux:pass	_	_
+35	observado	observar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	advcl	_	_
+36-37	nos	_	_	_	_	_	_	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	ensaios	ensaio	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	_
+39	preliminares	preliminar	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Isso ocorre devido às limitações na técnica adotada para realização e controle dos ensaios.
-# sent_id = 128-20140912-MONOGRAFIA_1-348
+# sent_id = 128-20140912-MONOGRAFIA_1-349
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	devido	devido	ADV	_	_	2	advmod	_	_
@@ -10401,7 +10331,7 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Entretanto, as deformações iniciais obtidas foram próximas das esperadas e a análise comparativa pode ser realizada.
-# sent_id = 128-20140912-MONOGRAFIA_1-349
+# sent_id = 128-20140912-MONOGRAFIA_1-350
 1	Entretanto	entretanto	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -10423,31 +10353,28 @@
 18	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
-# text = 
-# sent_id = 128-20140912-MONOGRAFIA_1-350
-1			PROPN	_	Number=Sing	0	root	_	_
-
-# text = Comparando as curvas para diferentes temperaturas, o material se comportou como previsto em literatura [8].
+# text =  Comparando as curvas para diferentes temperaturas, o material se comportou como previsto em literatura [8].
 # sent_id = 128-20140912-MONOGRAFIA_1-351
-1	Comparando	comparar	VERB	_	VerbForm=Ger	11	advcl	_	_
-2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
-4	para	para	ADP	_	_	6	case	_	_
-5	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
-6	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	1	punct	_	_
-8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	material	material	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
-10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
-11	comportou	comportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-12	como	como	SCONJ	_	_	13	mark	_	_
-13	previsto	prever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	xcomp	_	_
-14	em	em	ADP	_	_	15	case	_	_
-15	literatura	literatura	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
-16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
-17	8	8	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
-18	]	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	11	punct	_	_
+1			PROPN	_	Number=Sing	12	nsubj	_	_
+2	Comparando	comparar	VERB	_	VerbForm=Ger	12	advcl	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	material	material	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+12	comportou	comportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	como	como	SCONJ	_	_	14	mark	_	_
+14	previsto	prever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	xcomp	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	literatura	literatura	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+17	[	[	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	8	8	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+19	]	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Em polímeros o aumento da temperatura favorece a movimentação e o escorregamento entre cadeias, o que torna o material menos rígido.
 # sent_id = 128-20140912-MONOGRAFIA_1-352
@@ -10607,7 +10534,7 @@
 22	em	em	ADP	_	_	24	case	_	_
 23	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
 24	temperaturas	temperatura	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n\n
 
 # text = 4.3 – Obtenção das curvas elastoplásticas
 # sent_id = 128-20140912-MONOGRAFIA_1-357
@@ -10872,7 +10799,7 @@
 34	equação	equação	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	_
 35	1	1	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n\n
 
 # text = Tabela 5:
 # sent_id = 128-20140912-MONOGRAFIA_1-365
@@ -11010,7 +10937,7 @@
 46	a	a	ADP	_	_	48	case	_	_
 47	35	35	NUM	_	NumType=Card	48	nummod	_	SpaceAfter=No
 48	%	%	SYM	_	_	45	obl	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+49	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = Figura 51:
 # sent_id = 128-20140912-MONOGRAFIA_1-371
@@ -11051,7 +10978,7 @@
 9	para	para	ADP	_	_	10	case	_	_
 10	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 11	de	de	ADP	_	_	12	case	_	_
-12	40ºC	40ºC	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+12	40ºC	40ºC	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	SpacesAfter=\s\n
 13	Figura	figura	PROPN	_	Number=Sing	12	flat:name	_	_
 14	53	53	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	1	punct	_	_
@@ -11180,7 +11107,7 @@
 7	PVDF	PVDF	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	para	para	ADP	_	_	10	case	_	_
 9	diferentes	diferentes	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
-10	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+10	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\s\n
 
 # text = Nos ensaios preliminares, concluímos que a velocidade de imposição da deformação pouco influencia nas tensões finais de relaxação e consequentemente não alteraria a obtenção da curva elastoplástica.
 # sent_id = 128-20140912-MONOGRAFIA_1-377
@@ -11363,7 +11290,7 @@
 24	velocidades	velocidade	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	carregamento	carregamento	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 5. Conclusão
 # sent_id = 128-20140912-MONOGRAFIA_1-382
@@ -11655,5 +11582,5 @@
 32	após	após	ADP	_	_	34	case	_	_
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	relaxação	relaxação	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n\n
 

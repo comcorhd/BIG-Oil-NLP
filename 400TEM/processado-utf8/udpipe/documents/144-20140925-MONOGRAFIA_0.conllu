@@ -1,6 +1,6 @@
 # text = INTRODUÇÃO Atualmente passe-se por um processo de mudança, em escala global, do modo de pensar, agir e produzir.
 # sent_id = 144-20140925-MONOGRAFIA_0-1
-1	INTRODUÇÃO	introdução	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+1	INTRODUÇÃO	introdução	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	SpacesBefore=\n\n
 2	Atualmente	Atualmente	ADV	_	_	3	advmod	_	_
 3-4	passe-se	_	_	_	_	_	_	_	_
 3	passe	passar	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -481,7 +481,7 @@
 8	utilização	utilização	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	dispositivos	dispositivo	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-11	de	de	ADP	_	_	12	case	_	_
+11	de	de	ADP	_	_	12	case	_	SpacesAfter=\s\n
 12	eletrônica	eletrônica	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	potência	potência	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -869,7 +869,7 @@
 11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	3	3	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 13	]	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = O ar que entra no compressor é comprimido e atinge altas pressões e temperaturas.
 # sent_id = 144-20140925-MONOGRAFIA_0-20
@@ -1110,7 +1110,7 @@
 59	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	inglês	inglês	NOUN	_	Gender=Masc|Number=Sing	54	appos:parataxis	_	SpaceAfter=No
 61	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
-62	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+62	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
 # text = 2 TOPOLOGIA CONVENCIONAL
 # sent_id = 144-20140925-MONOGRAFIA_0-27
@@ -1137,8 +1137,23 @@
 15	convencional	convencional	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	4	punct	_	_
 
-# text = A esquerda tem-se o circuito do gerador trifásico, representado por fontes de tensão senoidais em série com uma resistência e uma indutância.
+# text = Figura 2.
 # sent_id = 144-20140925-MONOGRAFIA_0-29
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	2	2	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Sistema de geração trifásico convencional.
+# sent_id = 144-20140925-MONOGRAFIA_0-30
+1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	geração	geração	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	trifásico	trifásico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	convencional	convencional	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# text = A esquerda tem-se o circuito do gerador trifásico, representado por fontes de tensão senoidais em série com uma resistência e uma indutância.
+# sent_id = 144-20140925-MONOGRAFIA_0-31
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3-4	tem-se	_	_	_	_	_	_	_	_
@@ -1169,7 +1184,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = É a ele que a turbina é acoplada.
-# sent_id = 144-20140925-MONOGRAFIA_0-30
+# sent_id = 144-20140925-MONOGRAFIA_0-32
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 2	a	a	ADP	_	_	3	case	_	_
 3	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
@@ -1181,7 +1196,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Ao centro da figura tem-se o conversor CA-CC-CA, representado por chaves e um barramento capacitivo.
-# sent_id = 144-20140925-MONOGRAFIA_0-31
+# sent_id = 144-20140925-MONOGRAFIA_0-33
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1207,7 +1222,7 @@
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Ele pode ser dividido em duas partes.
-# sent_id = 144-20140925-MONOGRAFIA_0-32
+# sent_id = 144-20140925-MONOGRAFIA_0-34
 1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -1218,7 +1233,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A primeira, que converte a tensão e a corrente alternadas (CA) da geração em tensão e corrente contínuas (CC) no barramento, é chamada de retificador ou conversor CA-CC.
-# sent_id = 144-20140925-MONOGRAFIA_0-33
+# sent_id = 144-20140925-MONOGRAFIA_0-35
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1260,7 +1275,7 @@
 37	.	.	PUNCT	_	_	31	punct	_	_
 
 # text = Já a segunda converte a tensão e a corrente contínuas do barramento em tensão e corrente alternadas na carga, é chamada de inversor ou conversor CC-CA.
-# sent_id = 144-20140925-MONOGRAFIA_0-34
+# sent_id = 144-20140925-MONOGRAFIA_0-36
 1	Já	já	ADV	_	_	4	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
@@ -1295,7 +1310,7 @@
 30	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\n
 
 # text = O controle do fluxo de potência se dá pela abertura e o fechamento das chaves do conversor e o instante em que este chaveamento acontece é determinado pela estratégia PWM.
-# sent_id = 144-20140925-MONOGRAFIA_0-35
+# sent_id = 144-20140925-MONOGRAFIA_0-37
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controle	controle	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -1339,7 +1354,7 @@
 36	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Por fim, à direita, tem-se o circuito da carga, também representado por fontes de tensão senoidais em série com uma resistência e uma indutância.
-# sent_id = 144-20140925-MONOGRAFIA_0-36
+# sent_id = 144-20140925-MONOGRAFIA_0-38
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -1376,7 +1391,7 @@
 31	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # text = O sistema de controle (não mostrado na figura) garante que o fluxo de potência aconteça da maneira desejada ou de acordo com a demanda da carga, atuando de forma direta no PWM do conversor e, consequentemente, na determinação dos instantes de chaveamento, o qual será discutido posteriormente.
-# sent_id = 144-20140925-MONOGRAFIA_0-37
+# sent_id = 144-20140925-MONOGRAFIA_0-39
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1444,21 +1459,21 @@
 58	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	59	aux:pass	_	_
 59	discutido	discuter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
 60	posteriormente	posteriormente	ADV	_	_	59	advmod	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+61	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
 
 # text = 2.1 CONVERSORES
-# sent_id = 144-20140925-MONOGRAFIA_0-38
+# sent_id = 144-20140925-MONOGRAFIA_0-40
 1	2.1	2.1	NUM	_	NumType=Card	2	nummod	_	_
 2	CONVERSORES	Conversor	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = E ESTRATÉGIA PWM
-# sent_id = 144-20140925-MONOGRAFIA_0-39
+# sent_id = 144-20140925-MONOGRAFIA_0-41
 1	E	e	CCONJ	_	_	2	cc	_	_
 2	ESTRATÉGIA	estratégia	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	PWM	pwm	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Os conversores são compostos por dispositivos semicondutores do tipo IGBT (Insulated Gate Bipolar Transistor, em inglês) que, ligadas em antiparalelo com diodos, permitem condução bidirecional de corrente.
-# sent_id = 144-20140925-MONOGRAFIA_0-40
+# sent_id = 144-20140925-MONOGRAFIA_0-42
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	conversores	conversor	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1496,7 +1511,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O sentido da corrente na chave bem como a tensão sobre ela depende do seu estado (aberto ou fechado).
-# sent_id = 144-20140925-MONOGRAFIA_0-41
+# sent_id = 144-20140925-MONOGRAFIA_0-43
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -1527,7 +1542,7 @@
 25	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Os instantes de chaveamento nos quais as chaves abrem ou fecham são determinados utilizando a técnica PWM.
-# sent_id = 144-20140925-MONOGRAFIA_0-42
+# sent_id = 144-20140925-MONOGRAFIA_0-44
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	instantes	instante	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -1550,7 +1565,7 @@
 19	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = A figura 3 ilustra a representação de uma chave IGBT bidirecional em corrente.
-# sent_id = 144-20140925-MONOGRAFIA_0-43
+# sent_id = 144-20140925-MONOGRAFIA_0-45
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	3	3	NUM	_	NumType=Card	2	nummod	_	_
@@ -1567,13 +1582,13 @@
 14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 3.
-# sent_id = 144-20140925-MONOGRAFIA_0-44
+# sent_id = 144-20140925-MONOGRAFIA_0-46
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	3	3	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Chave IGBT ligada em antiparalelo com um diodo.
-# sent_id = 144-20140925-MONOGRAFIA_0-45
+# sent_id = 144-20140925-MONOGRAFIA_0-47
 1	Chave	chave	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	IGBT	IGBT	PROPN	_	Number=Sing	1	flat:name	_	_
 3	ligada	ligar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
@@ -1584,8 +1599,8 @@
 8	diodo	diodo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = A técnica consiste na comparação das tensões de pólo de referência, que são os valores desejados para a diferença entre as tensões nos centros de cada braço do conversor e a tensão no centro do barramento (por exemplo, a tensão no centro de um braço é e a tensão no centro do barramento é , assim a tensão de pólo será ) com uma portadora triangular que oscila a uma frequência de 10kHz.
-# sent_id = 144-20140925-MONOGRAFIA_0-46
+# text = A técnica consiste na comparação das tensões de pólo de referência, que são os valores desejados para a diferença entre as tensões nos centros de cada braço do conversor e a tensão no centro do barramento (por exemplo, a tensão no centro de um braço é e a tensão no centro do barramento é , assim a tensão de pólo será maneira, serão obtidas tensões chaveadas na entrada e na saída do conversor.
+# sent_id = 144-20140925-MONOGRAFIA_0-48
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	técnica	técnica	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1660,56 +1675,37 @@
 63	de	de	ADP	_	_	65	case	_	_
 64	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
 65	barramento	barramento	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	_
-66	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	77	cop	_	_
+66	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	cop	_	_
 67	,	,	PUNCT	_	_	68	punct	_	_
-68	assim	assim	ADV	_	_	77	advmod	_	_
+68	assim	assim	ADV	_	_	74	advmod	_	_
 69	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
-70	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	77	nsubj	_	_
+70	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	74	nsubj	_	_
 71	de	de	ADP	_	_	72	case	_	_
 72	pólo	pólo	NOUN	_	Gender=Masc|Number=Sing	70	nmod	_	_
-73	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	77	cop	_	_
-74	)	)	PUNCT	_	_	73	punct	_	_
-75	com	com	ADP	_	_	77	case	_	_
-76	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
-77	portadora	portadora	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-78	triangular	triangular	ADJ	_	Gender=Fem|Number=Sing	77	amod	_	_
-79	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	80	nsubj	_	_
-80	oscila	oscilar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	77	acl:relcl	_	_
-81	a	a	ADP	_	_	83	case	_	_
-82	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	83	det	_	_
-83	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	80	obj	_	_
-84	de	de	ADP	_	_	85	case	_	_
-85	10kHz	10kHz	PROPN	_	Gender=Masc|Number=Sing	83	nmod	_	SpaceAfter=No
-86	.	.	PUNCT	_	_	3	punct	_	_
-
-# text = Dessa maneira, serão obtidas tensões chaveadas na entrada e na saída do conversor.
-# sent_id = 144-20140925-MONOGRAFIA_0-47
-1-2	Dessa	_	_	_	_	_	_	_	_
-1	De	de	ADP	_	_	3	case	_	_
-2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
-3	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
-6	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-7	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
-8	chaveadas	chavear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
-9-10	na	_	_	_	_	_	_	_	_
-9	em	em	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-12	e	e	CCONJ	_	_	15	cc	_	_
-13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	_	_	15	case	_	_
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	saída	saída	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
-16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	conversor	conversor	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+73	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	74	cop	_	_
+74	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	3	acl:relcl	_	SpaceAfter=No
+75	,	,	PUNCT	_	_	74	punct	_	_
+76	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	77	aux:pass	_	_
+77	obtidas	obter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	_
+78	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	77	nsubj:pass	_	_
+79	chaveadas	chavear	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	78	acl	_	_
+80-81	na	_	_	_	_	_	_	_	_
+80	em	em	ADP	_	_	82	case	_	_
+81	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	82	det	_	_
+82	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	79	obl	_	_
+83	e	e	CCONJ	_	_	86	cc	_	_
+84-85	na	_	_	_	_	_	_	_	_
+84	em	em	ADP	_	_	86	case	_	_
+85	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	86	det	_	_
+86	saída	saída	NOUN	_	Gender=Fem|Number=Sing	82	conj	_	_
+87-88	do	_	_	_	_	_	_	_	_
+87	de	de	ADP	_	_	89	case	_	_
+88	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	89	det	_	_
+89	conversor	conversor	NOUN	_	Gender=Masc|Number=Sing	86	nmod	_	SpaceAfter=No
+90	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A figura 4 ilustra como acontece o chaveamento da chave IGBT através da estratégia PWM.
-# sent_id = 144-20140925-MONOGRAFIA_0-48
+# sent_id = 144-20140925-MONOGRAFIA_0-49
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	4	4	NUM	_	NumType=Card	2	appos	_	_
@@ -1729,10 +1725,10 @@
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 17	PWM	PWM	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = e a portadora triangular vt1.
-# sent_id = 144-20140925-MONOGRAFIA_0-49
+# sent_id = 144-20140925-MONOGRAFIA_0-50
 1	e	e	CCONJ	_	_	3	cc	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	portadora	portadora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -1741,13 +1737,13 @@
 6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = Figura 4.
-# sent_id = 144-20140925-MONOGRAFIA_0-50
+# sent_id = 144-20140925-MONOGRAFIA_0-51
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	4	4	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Comparação da tensão de polo de referência
-# sent_id = 144-20140925-MONOGRAFIA_0-51
+# sent_id = 144-20140925-MONOGRAFIA_0-52
 1	Comparação	comparação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -1758,8 +1754,8 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	referência	referência	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 
-# text = Na figura 4 é ilustrado como se dá o chaveamento em uma das três fases, seja ela da carga ou da geração, durante um período da onda triangular, chamado também de referência constante, já que sua frequência de oscilação é muito menor que a da portadora.
-# sent_id = 144-20140925-MONOGRAFIA_0-52
+# text = Na figura 4 é ilustrado como se dá o chaveamento em uma das três fases, seja ela da carga ou da geração, durante um período da onda triangular, chamado também de período de chaveamento.
+# sent_id = 144-20140925-MONOGRAFIA_0-53
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1794,66 +1790,199 @@
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	durante	durante	ADP	_	_	31	case	_	_
 30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	período	período	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+31	período	período	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
 32-33	da	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	onda	onda	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
 35	triangular	triangular	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	31	punct	_	_
-37	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	40	acl	_	_
+37	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_
 38	também	também	ADV	_	_	40	advmod	_	_
 39	de	de	ADP	_	_	40	case	_	_
-40	referência	referência	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-41	constante	constante	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	31	punct	_	_
-43	já	já	SCONJ	_	_	51	mark	_	_
-44	que	que	SCONJ	_	_	43	fixed	_	_
-45	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	46	det	_	_
-46	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	51	nsubj	_	_
-47	de	de	ADP	_	_	48	case	_	_
-48	oscilação	oscilação	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
-49	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
-50	muito	muito	ADV	_	_	51	advmod	_	_
-51	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	20	advcl	_	_
-52	que	que	SCONJ	_	_	53	mark	_	_
-53	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	51	obl	_	_
-54-55	da	_	_	_	_	_	_	_	_
-54	de	de	ADP	_	_	56	case	_	_
-55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
-56	portadora	portadora	NOUN	_	Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
-57	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+40	período	período	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	chaveamento	chaveamento	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	20	punct	_	_
 
-# text = Então, para o período de tempo τ1 para o qual fechada e a tensão de pólo instantânea é –E/2 (nível baixo).
-# sent_id = 144-20140925-MONOGRAFIA_0-53
+# text = Sabendo que a frequência de oscilação da portadora é de fs=10 kHz, logo seu período é Ts=1/fs=10-4 s.
+# sent_id = 144-20140925-MONOGRAFIA_0-54
+1	Sabendo	saber	VERB	_	VerbForm=Ger	0	root	_	_
+2	que	que	SCONJ	_	_	12	mark	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	oscilação	oscilação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	portadora	portadora	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	fs=10	fs=10	NOUN	_	Gender=Fem|Number=Plur	1	ccomp	_	_
+13	kHz	kHz	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	logo	logo	ADV	_	_	19	advmod	_	_
+16	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	17	det	_	_
+17	período	período	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	Ts=1/fs=10-4	Ts=1/fs=10-4	PROPN	_	Gender=Masc|Number=Sing	12	conj	_	_
+20	s	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Então, durante esse período, a tensão de pólo de , que tem como frequência fundamental 60 Hz, pode ser considerada referência constante, já que sua frequência de oscilação é muito menor que a da portadora.
+# sent_id = 144-20140925-MONOGRAFIA_0-55
+1	Então	então	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	durante	durante	ADP	_	_	5	case	_	_
+4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	período	período	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	pólo	pólo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+14	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+17	fundamental	fundamental	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+18	60	60	NUM	_	NumType=Card	19	nummod	_	_
+19	Hz	Hz	PROPN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	ser	ser	AUX	_	VerbForm=Inf	23	aux:pass	_	_
+23	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+24	referência	referência	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+25	constante	constante	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	35	punct	_	_
+27	já	já	SCONJ	_	_	35	mark	_	_
+28	que	que	SCONJ	_	_	27	fixed	_	_
+29	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	30	det	_	_
+30	frequência	frequência	NOUN	_	Gender=Fem|Number=Sing	35	nsubj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	oscilação	oscilação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	muito	muito	ADV	_	_	35	advmod	_	_
+35	menor	pequeno	ADJ	_	Gender=Fem|Number=Sing	23	conj	_	_
+36	que	que	SCONJ	_	_	37	mark	_	_
+37	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	35	obl	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	portadora	portadora	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+
+# text = é maior que a triangular , > , a chave superior do braço está fechada (q=1) e a inferior aberta e a tensão de é E/2 (nível alto), onde E é a tensão no barramento.
+# sent_id = 144-20140925-MONOGRAFIA_0-56
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	maior	grande	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	a	a	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	triangular	triangular	VERB	_	VerbForm=Inf	16	advcl	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	>	>	SYM	_	_	5	obj	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	chave	chave	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+11	superior	alto	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	braço	braço	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	fechada	fechado	ADJ	_	Gender=Fem|Number=Sing	2	csubj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	q=1	q=1	NUM	_	NumType=Card	16	obl	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	inferior	inferior	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	aberta	aberta	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	é	é	PROPN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	E/2	E/2	PROPN	_	Number=Sing	28	flat:name	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	nível	nível	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+32	alto	alto	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	39	punct	_	_
+35	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	39	nsubj	_	_
+36	E	e	CCONJ	_	_	39	cc	_	_
+37	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+40-41	no	_	_	_	_	_	_	_	_
+40	em	em	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	barramento	barramento	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Já para o pólo instantânea <
+# sent_id = 144-20140925-MONOGRAFIA_0-57
+1	Já	já	ADV	_	_	4	advmod	_	_
+2	para	para	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pólo	pólo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+5	instantânea	instantânea	ADJ	_	Number=Sing	4	amod	_	_
+6	<	<	SYM	_	_	0	root	_	_
+
+# text = , a chave superior está aberta (q=0) e a inferior
+# sent_id = 144-20140925-MONOGRAFIA_0-58
+1	,	,	PUNCT	_	_	3	punct	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	chave	chave	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4	superior	superior	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	está	esestar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	q=0	q=0	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	inferior	inferior	ADJ	_	Gender=Fem|Number=Sing	6	conj	_	_
+
+# text = Então, para o período de tempo τ1 para o qual período de tempo para o qual fechada e a tensão de pólo instantânea é –E/2 (nível baixo).
+# sent_id = 144-20140925-MONOGRAFIA_0-59
 1	Então	então	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	para	para	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	período	período	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+5	período	período	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	τ1	τ1	NUM	_	NumType=Card	7	nummod	_	_
-9	para	para	ADP	_	_	11	case	_	_
-10	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	20	nmod	_	_
-12	fechada	fechado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	_
-13	e	e	CCONJ	_	_	15	cc	_	_
-14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	pólo	pólo	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18	instantânea	instantâneo	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-20	–E/2	–E/2	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	nível	nível	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
-23	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	20	punct	_	_
+9	para	para	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	qual	qual	DET	_	Gender=Masc|Number=Sing|PronType=Rel	12	det	_	_
+12	período	período	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	26	nmod	_	_
+18	fechada	fechado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
+19	e	e	CCONJ	_	_	21	cc	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	pólo	pólo	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24	instantânea	instantâneo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	–E/2	–E/2	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	nível	nível	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
+29	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = A segunda metade do período apresenta comportamento simétrico à primeira metade.
-# sent_id = 144-20140925-MONOGRAFIA_0-54
+# sent_id = 144-20140925-MONOGRAFIA_0-60
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	metade	metade	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -1872,7 +2001,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Nota-se que as duas chaves de um mesmo braço trabalham de forma complementar, ou seja, quando uma fecha a outra abre e vice-versa, de maneira a nunca curto-circuitar o capacitor.
-# sent_id = 144-20140925-MONOGRAFIA_0-55
+# sent_id = 144-20140925-MONOGRAFIA_0-61
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -1911,7 +2040,7 @@
 35	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = A estratégia consiste em que, para cada período de chaveamento, o valor médio da tensão de pólo instantânea seja igual à tensão de pólo de referência.
-# sent_id = 144-20140925-MONOGRAFIA_0-56
+# sent_id = 144-20140925-MONOGRAFIA_0-62
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1947,7 +2076,7 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O mesmo processo acontece para as outras duas fases.
-# sent_id = 144-20140925-MONOGRAFIA_0-57
+# sent_id = 144-20140925-MONOGRAFIA_0-63
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	processo	processo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1960,7 +2089,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim, as equações para as tensões de pólo na entrada e na saída do conversor CA-CC-CA da figura 2 são: (2.1) (2.2) (2.3) (2.4) (2.5) (2.6)
-# sent_id = 144-20140925-MONOGRAFIA_0-58
+# sent_id = 144-20140925-MONOGRAFIA_0-64
 1	Assim	assim	ADV	_	_	30	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -1992,7 +2121,7 @@
 25	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	SpaceAfter=No
 26	:	:	PUNCT	_	_	30	punct	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	2.1)	2.1)	NUM	_	NumType=Card	30	appos:parataxis	_	_
+28	2.1)	2.1)	NUM	_	NumType=Card	30	appos:parataxis	_	SpacesAfter=\s\n
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	2.2)	2.2)	NUM	_	NumType=Card	0	root	_	_
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
@@ -2007,7 +2136,7 @@
 40	)	)	PUNCT	_	_	39	punct	_	_
 
 # text = Nota-se a ligação entre as fases da carga é a denominada de ligação “Y”.
-# sent_id = 144-20140925-MONOGRAFIA_0-59
+# sent_id = 144-20140925-MONOGRAFIA_0-65
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -2031,7 +2160,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = O ponto de ligação é denominado neutro e chamado n na figura 2.
-# sent_id = 144-20140925-MONOGRAFIA_0-60
+# sent_id = 144-20140925-MONOGRAFIA_0-66
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -2050,7 +2179,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Sabe-se que há uma tensão entre esse ponto e o centro do barramento (ponto 0), sendo a tensão vn0, chamada de tensão homopolar.
-# sent_id = 144-20140925-MONOGRAFIA_0-61
+# sent_id = 144-20140925-MONOGRAFIA_0-67
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -2085,7 +2214,7 @@
 30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Como será mostrado adiante, as tensões de referência sobre as três fases da carga, denominadas , e , são determinadas pelo sistema de *, que serão controle e é a partir dessas tensões e da tensão homopolar de referência, vn0 determinadas as tensões de pólo de referência que serão utilizadas para realização do PWM.
-# sent_id = 144-20140925-MONOGRAFIA_0-62
+# sent_id = 144-20140925-MONOGRAFIA_0-68
 1	Como	como	SCONJ	_	_	3	mark	_	_
 2	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
 3	mostrado	mostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	advcl	_	_
@@ -2157,7 +2286,7 @@
 64	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\n
 
 # text = * deve ser tal que os limites máximo ( ) e mínimo ( ) das A tensão vn0 tensões de pólo sejam respeitados.
-# sent_id = 144-20140925-MONOGRAFIA_0-63
+# sent_id = 144-20140925-MONOGRAFIA_0-69
 1	*	*	PUNCT	_	_	2	punct	_	_
 2	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	cop	_	_
@@ -2186,7 +2315,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim: (2.7) (2.8) e Onde , .
-# sent_id = 144-20140925-MONOGRAFIA_0-64
+# sent_id = 144-20140925-MONOGRAFIA_0-70
 1	Assim	assim	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2201,7 +2330,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = É então definido o fator de roda livre que pode variar entre 0 e 1.
-# sent_id = 144-20140925-MONOGRAFIA_0-65
+# sent_id = 144-20140925-MONOGRAFIA_0-71
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	então	então	ADV	_	_	3	advmod	_	_
 3	definido	definido	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -2219,7 +2348,7 @@
 15	1.	1	NUM	_	NumType=Card	13	conj	_	_
 
 # text = Dependendo do seu valor, as distorções harmônicas da tensão sobre a carga podem ser diminuídas com consequente redução do seu WTHD e diminuição do THD das correntes.
-# sent_id = 144-20140925-MONOGRAFIA_0-66
+# sent_id = 144-20140925-MONOGRAFIA_0-72
 1	Dependendo	depender	VERB	_	VerbForm=Ger	16	advcl	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	5	case	_	_
@@ -2261,7 +2390,7 @@
 34	.	.	PUNCT	_	_	18	punct	_	_
 
 # text = Assim, a tensão homopolar de referência é dada por: (2.9)
-# sent_id = 144-20140925-MONOGRAFIA_0-67
+# sent_id = 144-20140925-MONOGRAFIA_0-73
 1	Assim	assim	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2278,7 +2407,7 @@
 14	)	)	PUNCT	_	_	13	punct	_	_
 
 # text = Por fim, as tensões de pólo de referência no conversor CC-CA são: (2.10) (2.11) (2.12)
-# sent_id = 144-20140925-MONOGRAFIA_0-68
+# sent_id = 144-20140925-MONOGRAFIA_0-74
 1	Por	por	ADP	_	_	2	case	_	_
 2	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -2294,7 +2423,7 @@
 12	conversor	conversor	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 13	CC-CA	CC-CA	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	_
 14	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	20	punct	_	_
+15	:	:	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	2.10	2.10	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	_
@@ -2305,7 +2434,7 @@
 23	)	)	PUNCT	_	_	22	punct	_	_
 
 # text = Da mesma maneira para a geração, sendo o ponto de ligação das fases denominado m: (2.13) (2.14) (2.15) 2.2
-# sent_id = 144-20140925-MONOGRAFIA_0-69
+# sent_id = 144-20140925-MONOGRAFIA_0-75
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2339,17 +2468,17 @@
 29	2.2	2.2	NUM	_	NumType=Card	11	nummod	_	_
 
 # text = MÁQUINA A IMÃ
-# sent_id = 144-20140925-MONOGRAFIA_0-70
+# sent_id = 144-20140925-MONOGRAFIA_0-76
 1	MÁQUINA	máquina	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	A	a	ADP	_	_	3	case	_	_
 3	IMÃ	Imã	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 
 # text = PERMANENTE
-# sent_id = 144-20140925-MONOGRAFIA_0-71
+# sent_id = 144-20140925-MONOGRAFIA_0-77
 1	PERMANENTE	Permanente	ADV	_	_	0	root	_	_
 
 # text = A máquina a imã permanente é denominada como síncrona, já que a velocidade do campo girante induzido em seu interior é igual à frequência das grandezas elétricas do estator.
-# sent_id = 144-20140925-MONOGRAFIA_0-72
+# sent_id = 144-20140925-MONOGRAFIA_0-78
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2391,7 +2520,7 @@
 35	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = É também uma máquina alternada, já que tensões e correntes mudam de polaridade ao longo do tempo, apresentando ora valores positivos ora valores negativos.
-# sent_id = 144-20140925-MONOGRAFIA_0-73
+# sent_id = 144-20140925-MONOGRAFIA_0-79
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	também	também	ADV	_	_	4	advmod	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2425,7 +2554,7 @@
 29	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Essa máquina surgiu da substituição dos enrolamentos do rotor por um imã permanente.
-# sent_id = 144-20140925-MONOGRAFIA_0-74
+# sent_id = 144-20140925-MONOGRAFIA_0-80
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	surgiu	surgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2448,7 +2577,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Assim, possibilitou-se uma redução das perdas, antes presentes por efeito Joule nos enrolamentos.
-# sent_id = 144-20140925-MONOGRAFIA_0-75
+# sent_id = 144-20140925-MONOGRAFIA_0-81
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	possibilitou-se	_	_	_	_	_	_	_	_
@@ -2473,7 +2602,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = A máquina a imã é constituída de três enrolamentos trifásicos no estator, formando uma armadura semelhante à máquina assíncrona trifásica, e de um rotor a imã permanente [4].
-# sent_id = 144-20140925-MONOGRAFIA_0-76
+# sent_id = 144-20140925-MONOGRAFIA_0-82
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2513,7 +2642,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = As forças eletromotrizes resultantes do giro do imã induzem tensões senoidais nos enrolamentos do estator da máquina.
-# sent_id = 144-20140925-MONOGRAFIA_0-77
+# sent_id = 144-20140925-MONOGRAFIA_0-83
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	forças	força	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	eletromotrizes	eletromotriz	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -2544,7 +2673,7 @@
 23	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = São essas tensões que serão retificadas pelo conversor CA-CC.
-# sent_id = 144-20140925-MONOGRAFIA_0-78
+# sent_id = 144-20140925-MONOGRAFIA_0-84
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -2559,13 +2688,13 @@
 11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # text = 2.2.1 MODELO MATEMÁTICO
-# sent_id = 144-20140925-MONOGRAFIA_0-79
+# sent_id = 144-20140925-MONOGRAFIA_0-85
 1	2.2.1	2.2.1	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	MODELO	modelo	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	_
 3	MATEMÁTICO	matemático	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = A modelagem deve ser feita considerando certas simplificações e aproximações, como mostrado em [4]:  Não é considerada a saturação do circuito magnético; 
-# sent_id = 144-20140925-MONOGRAFIA_0-80
+# sent_id = 144-20140925-MONOGRAFIA_0-86
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	modelagem	modelagem	NOUN	_	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 3	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2595,11 +2724,11 @@
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	circuito	circuito	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	magnético	magnético	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
-29	;	;	PUNCT	_	_	5	punct	_	_
+29	;	;	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
 30			PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = O material magnético permanente tem uma curva de desmagnetização linear e independente da temperatura; 
-# sent_id = 144-20140925-MONOGRAFIA_0-81
+# sent_id = 144-20140925-MONOGRAFIA_0-87
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	material	material	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	magnético	magnético	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2620,7 +2749,7 @@
 17			PROPN	_	Number=Sing	5	flat:name	_	_
 
 # text = O fluxo dos ímãs do rotor e dos enrolamentos do estator são senoidais, dessa forma, a força eletromotriz induzida é senoidal; 
-# sent_id = 144-20140925-MONOGRAFIA_0-82
+# sent_id = 144-20140925-MONOGRAFIA_0-88
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -2658,7 +2787,7 @@
 30			PROPN	_	Number=Sing	0	root	_	_
 
 # text = As perdas por histerese e as perdas produzidas pelas correntes parasitas são desprezíveis;  Admite-se que as resistências e indutâncias da máquina são independentes da temperatura e da frequência; 
-# sent_id = 144-20140925-MONOGRAFIA_0-83
+# sent_id = 144-20140925-MONOGRAFIA_0-89
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	perdas	perda	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3	por	por	ADP	_	_	4	case	_	_
@@ -2703,7 +2832,7 @@
 37			PROPN	_	Number=Sing	0	root	_	_
 
 # text = O enrolamento trifásico do estator é distribuído de forma senoidal.
-# sent_id = 144-20140925-MONOGRAFIA_0-84
+# sent_id = 144-20140925-MONOGRAFIA_0-90
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	enrolamento	enrolamento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	trifásico	trifásico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -2719,7 +2848,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = O enrolamento é conectado em estrela, logo não existe a componente de sequência zero da corrente; 
-# sent_id = 144-20140925-MONOGRAFIA_0-85
+# sent_id = 144-20140925-MONOGRAFIA_0-91
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	enrolamento	enrolamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -2743,7 +2872,7 @@
 20			PROPN	_	Number=Sing	4	appos	_	_
 
 # text = O rotor não tem gaiola-de-esquilo.
-# sent_id = 144-20140925-MONOGRAFIA_0-86
+# sent_id = 144-20140925-MONOGRAFIA_0-92
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rotor	rotor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -2752,7 +2881,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Seguindo a lei de Faraday, uma variação do fluxo magnético em uma bobina induz uma tensão em seus terminais.
-# sent_id = 144-20140925-MONOGRAFIA_0-87
+# sent_id = 144-20140925-MONOGRAFIA_0-93
 1	Seguindo	seguir	VERB	_	VerbForm=Ger	16	advcl	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	lei	lei	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
@@ -2778,7 +2907,7 @@
 22	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Assim, considerando a convenção receptora para a máquina tem-se que, como mostrado em [5]: (2.16)
-# sent_id = 144-20140925-MONOGRAFIA_0-88
+# sent_id = 144-20140925-MONOGRAFIA_0-94
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	considerando	considerar	VERB	_	VerbForm=Ger	10	advcl	_	_
@@ -2805,7 +2934,7 @@
 23	)	)	PUNCT	_	_	22	punct	_	_
 
 # text = Onde R é a resistência da bobina, i a corrente que a percorre e λ o fluxo que a atravessa, como ilustrado na figura 5.
-# sent_id = 144-20140925-MONOGRAFIA_0-89
+# sent_id = 144-20140925-MONOGRAFIA_0-95
 1	Onde	onde	ADV	_	_	5	advmod	_	_
 2	R	R	PROPN	_	Gender=Unsp|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -2840,13 +2969,13 @@
 30	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Figura 5.
-# sent_id = 144-20140925-MONOGRAFIA_0-90
+# sent_id = 144-20140925-MONOGRAFIA_0-96
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	5	5	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Representação de uma bobina com tensão, corrente e fluxo.
-# sent_id = 144-20140925-MONOGRAFIA_0-91
+# sent_id = 144-20140925-MONOGRAFIA_0-97
 1	Representação	representação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2860,7 +2989,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # text = Para uma máquina trifásica pode-se escrever um termos matriciais: (2.17)
-# sent_id = 144-20140925-MONOGRAFIA_0-92
+# sent_id = 144-20140925-MONOGRAFIA_0-98
 1	Para	para	ADP	_	_	3	case	_	_
 2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -2875,10 +3004,10 @@
 11	:	:	PUNCT	_	_	7	punct	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	2.17	2.17	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	13	punct	_	_
+14	)	)	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
 
 # text = Como mostrado em detalhes em [4], as indutâncias por fase podem ser divididas em duas partes.
-# sent_id = 144-20140925-MONOGRAFIA_0-93
+# sent_id = 144-20140925-MONOGRAFIA_0-99
 1	Como	como	SCONJ	_	_	2	mark	_	_
 2	mostrado	mostrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -2901,7 +3030,7 @@
 20	.	.	PUNCT	_	_	16	punct	_	_
 
 # text = Uma referente à indutância própria e outra referente à indutância mútua.
-# sent_id = 144-20140925-MONOGRAFIA_0-94
+# sent_id = 144-20140925-MONOGRAFIA_0-100
 1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	referente	referente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3-4	à	_	_	_	_	_	_	_	_
@@ -2920,7 +3049,7 @@
 14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = As duas componentes dependem do ângulo elétrico do rotor.
-# sent_id = 144-20140925-MONOGRAFIA_0-95
+# sent_id = 144-20140925-MONOGRAFIA_0-101
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	duas	dois	NUM	_	NumType=Card	3	nummod	_	_
 3	componentes	componente	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -2937,7 +3066,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim: (2.18)
-# sent_id = 144-20140925-MONOGRAFIA_0-96
+# sent_id = 144-20140925-MONOGRAFIA_0-102
 1	Assim	assim	ADV	_	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2945,7 +3074,7 @@
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # text = Onde LSS é a matriz das indutâncias próprias e mútuas das três fases do estator e é a distribuição de fluxo produzido pelo imã permanente do rotor.
-# sent_id = 144-20140925-MONOGRAFIA_0-97
+# sent_id = 144-20140925-MONOGRAFIA_0-103
 1	Onde	onde	ADV	_	_	5	advmod	_	_
 2	LSS	LSS	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -2986,7 +3115,7 @@
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = λm é o valor da amplitude do fluxo produzido pelo imã que enlaça os enrolamentos do estator.
-# sent_id = 144-20140925-MONOGRAFIA_0-98
+# sent_id = 144-20140925-MONOGRAFIA_0-104
 1	λm	λm	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3015,7 +3144,7 @@
 22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Logo, as tensões estatóricas se tornam: (2.19)
-# sent_id = 144-20140925-MONOGRAFIA_0-99
+# sent_id = 144-20140925-MONOGRAFIA_0-105
 1	Logo	logo	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -3028,7 +3157,7 @@
 10	2.19)	2.19)	NUM	_	NumType=Card	7	appos	_	_
 
 # text = Conforme detalhado em [5], é possível representar as máquinas elétricas trifásicas por um modelo mais simples que o trifásico primitivo.
-# sent_id = 144-20140925-MONOGRAFIA_0-100
+# sent_id = 144-20140925-MONOGRAFIA_0-106
 1	Conforme	conforme	SCONJ	_	_	2	mark	_	_
 2	detalhado	detalhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -3055,7 +3184,7 @@
 24	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = Isso pode ser obtido fazendo uma transformação de variáveis denominada Transformada odq.
-# sent_id = 144-20140925-MONOGRAFIA_0-101
+# sent_id = 144-20140925-MONOGRAFIA_0-107
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj:pass	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -3071,7 +3200,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = As variáveis odq podem ser obtidas a partir das variáveis trifásicas por: (2.20)
-# sent_id = 144-20140925-MONOGRAFIA_0-102
+# sent_id = 144-20140925-MONOGRAFIA_0-108
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	variáveis	variável	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	odq	odq	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
@@ -3092,7 +3221,7 @@
 17	)	)	PUNCT	_	_	16	punct	_	_
 
 # text = Onde AS é a matriz de transformação e é dada por:
-# sent_id = 144-20140925-MONOGRAFIA_0-103
+# sent_id = 144-20140925-MONOGRAFIA_0-109
 1	Onde	onde	ADV	_	_	5	advmod	_	_
 2	AS	a	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3107,7 +3236,7 @@
 12	:	:	PUNCT	_	_	5	punct	_	_
 
 # text = Assim, substituindo a matriz AS na expressão das tensões estatóricas, o modelo equivalente bifásico dq é obtido e dado por: (2.21)
-# sent_id = 144-20140925-MONOGRAFIA_0-104
+# sent_id = 144-20140925-MONOGRAFIA_0-110
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	substituindo	substituir	VERB	_	VerbForm=Ger	21	advcl	_	_
@@ -3137,10 +3266,10 @@
 25	:	:	PUNCT	_	_	23	obl:agent	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	2.21	2.21	NUM	_	NumType=Card	25	appos	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	27	punct	_	_
+28	)	)	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
 
 # text = Onde rotórico, obtendo-se assim as tensões acima.
-# sent_id = 144-20140925-MONOGRAFIA_0-105
+# sent_id = 144-20140925-MONOGRAFIA_0-111
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	rotórico	rotórico	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -3154,7 +3283,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = . Vale salientar que o referencial é considerado como sobre o fluxo
-# sent_id = 144-20140925-MONOGRAFIA_0-106
+# sent_id = 144-20140925-MONOGRAFIA_0-112
 1	.	.	PUNCT	_	_	2	punct	_	_
 2	Vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	salientar	salientar	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -3169,7 +3298,7 @@
 12	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 
 # text = Por sua vez, o conjugado elétrico desenvolvido pela máquina é dado por: (2.22)
-# sent_id = 144-20140925-MONOGRAFIA_0-107
+# sent_id = 144-20140925-MONOGRAFIA_0-113
 1	Por	por	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 2	sua	sua	ADP	_	_	3	case	_	_
 3	vez	vez	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -3191,7 +3320,7 @@
 18	)	)	PUNCT	_	_	17	punct	_	_
 
 # text = Onde P é o número de pares de pólos da máquina.
-# sent_id = 144-20140925-MONOGRAFIA_0-108
+# sent_id = 144-20140925-MONOGRAFIA_0-114
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	P	P	PROPN	_	Gender=Unsp|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3208,7 +3337,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = O primeiro termo é proporcional à corrente e independente da corrente .
-# sent_id = 144-20140925-MONOGRAFIA_0-109
+# sent_id = 144-20140925-MONOGRAFIA_0-115
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	termo	termo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -3227,7 +3356,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Já o segundo termo é proporcional ao produto e à diferença e é denominado de torque de relutância.
-# sent_id = 144-20140925-MONOGRAFIA_0-110
+# sent_id = 144-20140925-MONOGRAFIA_0-116
 1	Já	já	ADV	_	_	6	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
@@ -3253,7 +3382,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O conjugado elétrico máximo é alcançado quando esse termo de relutância é anulado.
-# sent_id = 144-20140925-MONOGRAFIA_0-111
+# sent_id = 144-20140925-MONOGRAFIA_0-117
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conjugado	conjugado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	elétrico	elétrico	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -3269,50 +3398,36 @@
 13	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = Logo, isso é obtido fazendo através do . controle dessa componente da corrente, ou seja, Por fim, a equação mecânica da máquina é: (2.23)
-# sent_id = 144-20140925-MONOGRAFIA_0-112
+# text = Logo, isso é obtido fazendo através do Por fim, a equação mecânica da máquina é: (2.23)
+# sent_id = 144-20140925-MONOGRAFIA_0-118
 1	Logo	logo	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj:pass	_	_
 4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-6	fazendo	fazer	VERB	_	VerbForm=Ger	34	conj	_	_
+5	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	advcl	_	_
+6	fazendo	fazer	VERB	_	VerbForm=Ger	5	advcl	_	_
 7	através	através	ADV	_	_	6	advmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
-11	controle	controle	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
-12-13	dessa	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
-14	componente	componente	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	ou	ou	CCONJ	_	_	6	cc	_	_
-20	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	19	punct	_	_
-22	Por	por	ADP	_	_	6	advmod	_	_
-23	fim	fim	NOUN	_	Gender=Masc|Number=Sing	22	fixed	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	22	punct	_	_
-25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	equação	equação	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-27	mecânica	mecânico	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
-28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-31	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	SpaceAfter=No
-32	:	:	PUNCT	_	_	34	punct	_	_
-33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	2.23	2.23	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	34	punct	_	_
+10	Por	por	ADP	_	_	11	case	_	_
+11	fim	fim	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	equação	equação	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+15	mecânica	mecânico	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	22	punct	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	2.23	2.23	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
 
 # text = Onde J é o momento de inércia do sistema, é o coeficiente do atrito e é a velocidade mecânica do rotor.
-# sent_id = 144-20140925-MONOGRAFIA_0-113
+# sent_id = 144-20140925-MONOGRAFIA_0-119
 1	Onde	onde	ADV	_	_	5	advmod	_	_
 2	J	J	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3344,7 +3459,7 @@
 26	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Ela se relaciona com a freqûencia elétrica através da seguinte expressão: (2.24)
-# sent_id = 144-20140925-MONOGRAFIA_0-114
+# sent_id = 144-20140925-MONOGRAFIA_0-120
 1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	relaciona	relacionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3364,7 +3479,7 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 
 # text = Nota-se que, em regime permanente, a derivada da velocidade deve se anular, já que a velocidade deve permanecer constante.
-# sent_id = 144-20140925-MONOGRAFIA_0-115
+# sent_id = 144-20140925-MONOGRAFIA_0-121
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -3394,7 +3509,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Logo, como a máquina funciona como gerador, o conjugado mecânico deve ser maior (em módulo) que o conjugado elétrico, de maneira a vencer o atrito e permitir que o rotor continue girando.
-# sent_id = 144-20140925-MONOGRAFIA_0-116
+# sent_id = 144-20140925-MONOGRAFIA_0-122
 1	Logo	logo	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	como	como	ADP	_	_	5	case	_	_
@@ -3435,14 +3550,14 @@
 38	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = 2.3 SISTEMA DE CONTROLE
-# sent_id = 144-20140925-MONOGRAFIA_0-117
+# sent_id = 144-20140925-MONOGRAFIA_0-123
 1	2.3	2.3	NUM	_	NumType=Card	2	nummod	_	_
 2	SISTEMA	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	DE	de	ADP	_	_	4	case	_	_
 4	CONTROLE	Controle	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 
 # text = Os sistemas de controle atuam de maneira a garantir que o fluxo de potência ocorra da maneira desejada e que toda a potência gerada seja consumida pela carga, a menos das perdas.
-# sent_id = 144-20140925-MONOGRAFIA_0-118
+# sent_id = 144-20140925-MONOGRAFIA_0-124
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3485,7 +3600,7 @@
 37	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = Para que isso ocorra, a tensão no barramento deve permanecer constante e isso é assegurado utilizando-se um controlador de tensão no barramento.
-# sent_id = 144-20140925-MONOGRAFIA_0-119
+# sent_id = 144-20140925-MONOGRAFIA_0-125
 1	Para	para	SCONJ	_	_	4	mark	_	_
 2	que	que	SCONJ	_	_	4	mark	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -3518,7 +3633,7 @@
 27	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
 
 # text = Juntamente com os controladores de corrente na carga e na geração e o controlador da velocidade de giro do eixo da turbina, forma-se o sistema de controle.
-# sent_id = 144-20140925-MONOGRAFIA_0-120
+# sent_id = 144-20140925-MONOGRAFIA_0-126
 1	Juntamente	juntamente	ADV	_	_	4	advmod	_	_
 2	com	com	ADP	_	_	4	case	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -3537,7 +3652,7 @@
 14	e	e	CCONJ	_	_	16	cc	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
-17-18	da	_	_	_	_	_	_	_	_
+17-18	da	_	_	_	_	_	_	_	SpacesAfter=\s\n
 17	de	de	ADP	_	_	19	case	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -3562,7 +3677,7 @@
 35	.	.	PUNCT	_	_	29	punct	_	_
 
 # text = O seu funcionamento será em seguida discutido em detalhes.
-# sent_id = 144-20140925-MONOGRAFIA_0-121
+# sent_id = 144-20140925-MONOGRAFIA_0-127
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	det	_	_
 3	funcionamento	funcionamento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -3575,7 +3690,7 @@
 10	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Inicialmente, supõe-se que o sistema esteja em regime permanente, com a tensão no barramento constante, bem como a amplitude das correntes.
-# sent_id = 144-20140925-MONOGRAFIA_0-122
+# sent_id = 144-20140925-MONOGRAFIA_0-128
 1	Inicialmente	inicialmente	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	supõe-se	_	_	_	_	_	_	_	_
@@ -3609,7 +3724,7 @@
 28	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Então, em um determinado instante, a carga passa a demandar mais potência.
-# sent_id = 144-20140925-MONOGRAFIA_0-123
+# sent_id = 144-20140925-MONOGRAFIA_0-129
 1	Então	então	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -3627,7 +3742,7 @@
 15	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = Para suprir essa demanda o capacitor fornece energia nele armazenada à carga e começa a descarregar.
-# sent_id = 144-20140925-MONOGRAFIA_0-124
+# sent_id = 144-20140925-MONOGRAFIA_0-130
 1	Para	para	SCONJ	_	_	2	mark	_	_
 2	suprir	suprir	VERB	_	VerbForm=Inf	7	advcl	_	_
 3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
@@ -3651,7 +3766,7 @@
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = O controle de tensão no barramento, percebendo essa queda de tensão, atua aumentando o conjugado elétrico do gerador e, consequentemente, a potência gerada, de maneira a recarregar o capacitor, fazendo-o voltar à tensão de referência.
-# sent_id = 144-20140925-MONOGRAFIA_0-125
+# sent_id = 144-20140925-MONOGRAFIA_0-131
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controle	controle	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3704,7 +3819,7 @@
 46	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Ou seja, o capacitor atua fornecendo potência, quando do aumento da demanda da carga, dando tempo à geração de aumentar a potência gerada.
-# sent_id = 144-20140925-MONOGRAFIA_0-126
+# sent_id = 144-20140925-MONOGRAFIA_0-132
 1	Ou	ou	CCONJ	_	_	6	cc	_	_
 2	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -3742,7 +3857,7 @@
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A partir do conjugado elétrico é possível obter a componente e, partir da transformada odq, as correntes nas fases.
-# sent_id = 144-20140925-MONOGRAFIA_0-127
+# sent_id = 144-20140925-MONOGRAFIA_0-133
 1	A	a	ADP	_	_	2	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	8	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -3773,7 +3888,7 @@
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Assim, fazendo uso de controladores de corrente nas fases da máquina, obtêm-se as tensões de referência a serem aplicadas na entrada do retificador.
-# sent_id = 144-20140925-MONOGRAFIA_0-128
+# sent_id = 144-20140925-MONOGRAFIA_0-134
 1	Assim	assim	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	fazendo	fazer	VERB	_	VerbForm=Ger	16	advcl	_	_
@@ -3812,7 +3927,7 @@
 31	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = O aumento da potência é propiciado pela máquina primária, a turbina a gás, que aplica um maior conjugado mecânico no eixo da máquina.
-# sent_id = 144-20140925-MONOGRAFIA_0-129
+# sent_id = 144-20140925-MONOGRAFIA_0-135
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3849,7 +3964,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = Como ela é uma fonte primária controlável, para que mais potência seja gerada, basta colocar mais gás natural em seu combustor, aumentando assim a capacidade de fornecimento.
-# sent_id = 144-20140925-MONOGRAFIA_0-130
+# sent_id = 144-20140925-MONOGRAFIA_0-136
 1	Como	como	SCONJ	_	_	5	mark	_	_
 2	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -3883,7 +3998,7 @@
 31	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # text = O aumento da demanda da carga (aumento de corrente) é refletido no aumento da tensão no braço do inversor, aumentando a diferença de potencial sobre a impedância da carga e assim a corrente.
-# sent_id = 144-20140925-MONOGRAFIA_0-131
+# sent_id = 144-20140925-MONOGRAFIA_0-137
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -3937,7 +4052,7 @@
 44	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = As tensões de referência no inversor são determinadas pelo controlador de corrente na carga.
-# sent_id = 144-20140925-MONOGRAFIA_0-132
+# sent_id = 144-20140925-MONOGRAFIA_0-138
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -3961,7 +4076,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = A figura 6 ilustra os controles na geração e na carga.
-# sent_id = 144-20140925-MONOGRAFIA_0-133
+# sent_id = 144-20140925-MONOGRAFIA_0-139
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	6	6	NUM	_	NumType=Card	4	nsubj	_	_
@@ -3980,7 +4095,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = Figura 6(a).
-# sent_id = 144-20140925-MONOGRAFIA_0-134
+# sent_id = 144-20140925-MONOGRAFIA_0-140
 1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	6(	6(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	a	o	ADP	_	_	4	case	_	SpaceAfter=No
@@ -3988,7 +4103,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Sistema de controle da geração (topologia convencional).
-# sent_id = 144-20140925-MONOGRAFIA_0-135
+# sent_id = 144-20140925-MONOGRAFIA_0-141
 1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	controle	controle	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -4002,10 +4117,29 @@
 10	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
-# text = O erro negativo na entrada do controlador de tensão no barramento, dado por , é devido à convenção receptora adotada para a máquina.
-# sent_id = 144-20140925-MONOGRAFIA_0-136
+# text = Figura 6(b).
+# sent_id = 144-20140925-MONOGRAFIA_0-142
+1	Figura	figura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	6(	6(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	b	bado	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Sistema de controle da carga.
+# sent_id = 144-20140925-MONOGRAFIA_0-143
+1	Sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	controle	controle	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	carga	carga	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
+
+# text = O erro negativo na entrada do controlador de tensão no barramento, dado por tensão no barramento estiver menor que a tensão desejada, o erro será negativo, fazendo a máquina desenvolver um conjugado elétrico de referência mais negativo, caracterizando a máquina como um gerador.
+# sent_id = 144-20140925-MONOGRAFIA_0-144
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+2	erro	erro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 3	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4-5	na	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
@@ -4022,73 +4156,56 @@
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	barramento	barramento	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+16	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 17	por	por	ADP	_	_	18	case	_	_
-18	,	,	PUNCT	_	_	16	punct	_	_
-19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-20	devido	devido	ADV	_	_	0	root	_	_
-21-22	à	_	_	_	_	_	_	_	_
-21	a	a	ADP	_	_	23	case	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	convenção	convenção	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
-24	receptora	receptora	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-25	adotada	adotar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	23	acl	_	_
-26	para	para	ADP	_	_	28	case	_	_
-27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	20	punct	_	_
+18	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	barramento	barramento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+22	estiver	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	cop	_	_
+23	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	16	xcomp	_	_
+24	que	que	SCONJ	_	_	32	mark	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
+27	desejada	desejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	26	acl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	erro	erro	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
+31	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	cop	_	_
+32	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	23	csubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	fazendo	fazer	VERB	_	VerbForm=Ger	32	advcl	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+37	desenvolver	desenvolver	VERB	_	VerbForm=Inf	36	acl	_	_
+38	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	conjugado	conjugado	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+40	elétrico	elétrico	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	referência	referência	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
+43	mais	mais	ADV	_	_	44	advmod	_	_
+44	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	46	punct	_	_
+46	caracterizando	caracterizar	VERB	_	VerbForm=Ger	37	advcl	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	_
+49	como	como	ADP	_	_	51	case	_	_
+50	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	gerador	gerador	NOUN	_	Gender=Masc|Number=Sing	46	xcomp	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
-# text = Assim, se a tensão no barramento estiver menor que a tensão desejada, o erro será negativo, fazendo a máquina desenvolver um conjugado elétrico de referência mais negativo, caracterizando a máquina como um gerador.
-# sent_id = 144-20140925-MONOGRAFIA_0-137
-1	Assim	assim	ADV	_	_	10	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	se	se	SCONJ	_	_	5	mark	_	_
-4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
-6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	_	_	8	case	_	_
-7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	barramento	barramento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	estiver	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
-10	menor	pequeno	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-11	que	que	SCONJ	_	_	19	mark	_	_
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
-14	desejada	desejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
-16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	erro	erro	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
-18	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
-19	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	10	ccomp	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	fazendo	fazer	VERB	_	VerbForm=Ger	19	advcl	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
-24	desenvolver	desenvolver	VERB	_	VerbForm=Inf	23	acl	_	_
-25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	conjugado	conjugado	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
-27	elétrico	elétrico	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	referência	referência	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30	mais	mais	ADV	_	_	31	advmod	_	_
-31	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	33	punct	_	_
-33	caracterizando	caracterizar	VERB	_	VerbForm=Ger	24	advcl	_	_
-34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
-36	como	como	ADP	_	_	38	case	_	_
-37	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	gerador	gerador	NOUN	_	Gender=Masc|Number=Sing	33	xcomp	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
-
-# text = (2.25)
-# sent_id = 144-20140925-MONOGRAFIA_0-138
-1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	2.25	2.25	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
-3	)	)	PUNCT	_	_	2	punct	_	_
+# text = , logo: (2.25)
+# sent_id = 144-20140925-MONOGRAFIA_0-145
+1	,	,	PUNCT	_	_	2	punct	_	_
+2	logo	logo	ADV	_	_	5	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	2.25	2.25	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
 
 # text = É feita então a transformada odq e as correntes de referência fases são obtidas, como ilustrado na figura 6(a).
-# sent_id = 144-20140925-MONOGRAFIA_0-139
+# sent_id = 144-20140925-MONOGRAFIA_0-146
 1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	então	então	ADV	_	_	14	advmod	_	_
@@ -4116,7 +4233,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = O controle de velocidade se faz necessário para assegurar que a potência mecânica seja fornecida ao eixo do gerador.
-# sent_id = 144-20140925-MONOGRAFIA_0-140
+# sent_id = 144-20140925-MONOGRAFIA_0-147
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controle	controle	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4143,7 +4260,7 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = A figura 7 ilustra esse controlador.
-# sent_id = 144-20140925-MONOGRAFIA_0-141
+# sent_id = 144-20140925-MONOGRAFIA_0-148
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	7	7	NUM	_	NumType=Card	2	nummod	_	_
@@ -4152,8 +4269,25 @@
 6	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
+# text = Figura 7.
+# sent_id = 144-20140925-MONOGRAFIA_0-149
+1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	7	7	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Diagrama de controle da velocidade.
+# sent_id = 144-20140925-MONOGRAFIA_0-150
+1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	controle	controle	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
 # text = Quando do aumento da demanda da carga elétrica, a máquina tem uma redução * e sua de sua velocidade.
-# sent_id = 144-20140925-MONOGRAFIA_0-142
+# sent_id = 144-20140925-MONOGRAFIA_0-151
 1	Quando	quando	SCONJ	_	_	15	mark	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -4183,7 +4317,7 @@
 24	.	.	PUNCT	_	_	15	punct	_	_
 
 # text = Então a diferença entre a velocidade desejada (referência) ωm velocidade instantânea, medida através de um sensor de velocidade, passa pelo *.
-# sent_id = 144-20140925-MONOGRAFIA_0-143
+# sent_id = 144-20140925-MONOGRAFIA_0-152
 1	Então	então	ADV	_	_	3	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -4214,7 +4348,7 @@
 27	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = O controlador PI e apresenta em sua saída o conjugado mecânico de referencia cm valor deste representa o conjugado necessário para suprir a necessidade da carga elétrica.
-# sent_id = 144-20140925-MONOGRAFIA_0-144
+# sent_id = 144-20140925-MONOGRAFIA_0-153
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	controlador	controlador	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	PI	PI	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -4249,7 +4383,7 @@
 30	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Quando esse valor é atingido, a velocidade volta a seu valor de referência.
-# sent_id = 144-20140925-MONOGRAFIA_0-145
+# sent_id = 144-20140925-MONOGRAFIA_0-154
 1	Quando	quando	SCONJ	_	_	5	mark	_	_
 2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	valor	valor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -4267,7 +4401,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # text = Sabe-se que o modelo simplificado da turbina consiste uma função de transferência do tipo:
-# sent_id = 144-20140925-MONOGRAFIA_0-146
+# sent_id = 144-20140925-MONOGRAFIA_0-155
 1-2	Sabe-se	_	_	_	_	_	_	_	_
 1	Sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4291,7 +4425,7 @@
 18	:	:	PUNCT	_	_	1	punct	_	_
 
 # text = Onde Tp é o a constante de tempo da turbina.
-# sent_id = 144-20140925-MONOGRAFIA_0-147
+# sent_id = 144-20140925-MONOGRAFIA_0-156
 1	Onde	onde	ADV	_	_	5	advmod	_	_
 2	Tp	Tp	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4307,7 +4441,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # text = Assim, o bloco da turbina representa simplesmente um atraso na aplicação desse conjugado sobre o eixo.
-# sent_id = 144-20140925-MONOGRAFIA_0-148
+# sent_id = 144-20140925-MONOGRAFIA_0-157
 1	Assim	assim	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4334,7 +4468,7 @@
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Em sua saída obtém-se conjugado mecânico instantâneo cm, o qual é aplicado no eixo da máquina.
-# sent_id = 144-20140925-MONOGRAFIA_0-149
+# sent_id = 144-20140925-MONOGRAFIA_0-158
 1	Em	em	ADP	_	_	3	case	_	_
 2	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
 3	saída	saída	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
@@ -4358,10 +4492,10 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	máquina	máquina	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Do mesmo modo que para o controle de tensão no barramento, o erro negativo na entrada do controlador de velocidade para que o conjugado mecânico desenvolvido sobre o eixo da máquina seja negativo, caracterizando seu funcionamento como gerador.
-# sent_id = 144-20140925-MONOGRAFIA_0-150
+# sent_id = 144-20140925-MONOGRAFIA_0-159
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4415,7 +4549,7 @@
 46	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\n
 
 # text = Nota-se que os controladores usados são os do tipo PI.
-# sent_id = 144-20140925-MONOGRAFIA_0-151
+# sent_id = 144-20140925-MONOGRAFIA_0-160
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4433,7 +4567,7 @@
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Eles são bastante usados por garantir erro nulo em regime permanente quando bem projetados.
-# sent_id = 144-20140925-MONOGRAFIA_0-152
+# sent_id = 144-20140925-MONOGRAFIA_0-161
 1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	bastante	bastante	ADV	_	_	4	advmod	_	_
@@ -4451,7 +4585,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = O PI modificado, utilizado no controle de corrente, é usado quando a grandeza a ser controlada é de caráter alternado.
-# sent_id = 144-20140925-MONOGRAFIA_0-153
+# sent_id = 144-20140925-MONOGRAFIA_0-162
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	PI	PI	PROPN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 3	modificado	modificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	SpaceAfter=No
@@ -4479,7 +4613,7 @@
 24	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # text = Na figura 8 é ilustrado o diagrama de controle completo para a topologia convencional, composto de todos os sistemas anteriormente discutidos.
-# sent_id = 144-20140925-MONOGRAFIA_0-154
+# sent_id = 144-20140925-MONOGRAFIA_0-163
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -4507,13 +4641,13 @@
 24	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # text = Figura 8.
-# sent_id = 144-20140925-MONOGRAFIA_0-155
+# sent_id = 144-20140925-MONOGRAFIA_0-164
 1	Figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	8	8	NUM	_	NumType=Card	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Diagrama completo do sistema de controle para topologia convencional.
-# sent_id = 144-20140925-MONOGRAFIA_0-156
+# sent_id = 144-20140925-MONOGRAFIA_0-165
 1	Diagrama	Diagrama	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	completo	completo	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -4525,10 +4659,10 @@
 8	para	para	ADP	_	_	9	case	_	_
 9	topologia	topologia	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 10	convencional	convencional	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # text = 3 TOPOLOGIA PROPOSTA – GERAÇÃO HEXAFÁSICA E CARGA TRIFÁSICA
-# sent_id = 144-20140925-MONOGRAFIA_0-157
+# sent_id = 144-20140925-MONOGRAFIA_0-166
 1	3	3	NUM	_	NumType=Card	2	nummod	_	_
 2	TOPOLOGIA	TOPOLOGIA	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	PROPOSTA	proposta	PROPN	_	Number=Sing	2	flat:name	_	_
@@ -4540,7 +4674,7 @@
 9	TRIFÁSICA	Trifásica	PROPN	_	Number=Sing	8	flat:name	_	_
 
 # text = A figura 9 ilustra a configuração que apresenta em sua geração uma máquina a imã permanente hexafásica.
-# sent_id = 144-20140925-MONOGRAFIA_0-158
+# sent_id = 144-20140925-MONOGRAFIA_0-167
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figura	figura	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
@@ -4558,10 +4692,10 @@
 15	imã	imã	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	permanente	permanente	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	hexafásica	hexafásico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
 
 # text = Nota-se que uma ponte
-# sent_id = 144-20140925-MONOGRAFIA_0-159
+# sent_id = 144-20140925-MONOGRAFIA_0-168
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
@@ -4570,7 +4704,7 @@
 5	ponte	ponte	NOUN	_	Gender=Fem|Number=Sing	1	ccomp	_	_
 
 # text = H monofásica é responsável por retificar as tensões e correntes em cada fase da máquina.
-# sent_id = 144-20140925-MONOGRAFIA_0-160
+# sent_id = 144-20140925-MONOGRAFIA_0-169
 1	H	h	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	monofásica	monofásicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4591,7 +4725,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Cada fase alimenta um barramento capacitivo.
-# sent_id = 144-20140925-MONOGRAFIA_0-161
+# sent_id = 144-20140925-MONOGRAFIA_0-170
 1	Cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	fase	fase	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	alimenta	alimentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4601,7 +4735,7 @@
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Para a carga trifásica, pontes
-# sent_id = 144-20140925-MONOGRAFIA_0-162
+# sent_id = 144-20140925-MONOGRAFIA_0-171
 1	Para	para	ADP	_	_	3	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	carga	carga	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -4610,7 +4744,7 @@
 6	pontes	ponte	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
 # text = H ligadas em série, duas a duas, alimentam cada uma das fases.
-# sent_id = 144-20140925-MONOGRAFIA_0-163
+# sent_id = 144-20140925-MONOGRAFIA_0-172
 1	H	h	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 2	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_
 3	em	em	ADP	_	_	4	case	_	_
@@ -4630,7 +4764,7 @@
 16	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Essa configuração apresenta redução das componentes harmônicas de tensões e correntes, como será mostrado posteriormente.
-# sent_id = 144-20140925-MONOGRAFIA_0-164
+# sent_id = 144-20140925-MONOGRAFIA_0-173
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	configuração	configuração	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4652,7 +4786,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Em seguida a estratégia PWM para essa configuração será discutida, bem como o modelo da máquina hexafásica.
-# sent_id = 144-20140925-MONOGRAFIA_0-165
+# sent_id = 144-20140925-MONOGRAFIA_0-174
 1	Em	em	ADP	_	_	2	case	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4676,7 +4810,7 @@
 20	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
 
 # text = Como pode ser verificado na figura 9, o nome dos dois capacitores de cada barramento é dado por Cxy, onde x representa o barramento, variando de 1 a 6, e y representa se se trata do capacitor superior ou inferior do barramento, sendo 1 quando o capacitor é o superior e 2 quando o capacitor é o inferior.
-# sent_id = 144-20140925-MONOGRAFIA_0-166
+# sent_id = 144-20140925-MONOGRAFIA_0-175
 1	Como	como	ADV	_	_	2	advmod	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
@@ -4751,13 +4885,13 @@
 68	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = 3.1 ESTRATÉGIA PWM
-# sent_id = 144-20140925-MONOGRAFIA_0-167
+# sent_id = 144-20140925-MONOGRAFIA_0-176
 1	3.1	3.1	NUM	_	NumType=Card	2	nummod	_	_
 2	ESTRATÉGIA	estratégia	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	PWM	pwm	PROPN	_	Number=Sing	2	flat:name	_	_
 
 # text = Da mesma maneira como foi feito para a topologia convencional, as tensões de pólo de referência obtidas para cada conversor serão comparadas com uma portadora triangular.
-# sent_id = 144-20140925-MONOGRAFIA_0-168
+# sent_id = 144-20140925-MONOGRAFIA_0-177
 1-2	Da	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	4	case	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -4790,7 +4924,7 @@
 29	.	.	PUNCT	_	_	24	punct	_	_
 
 # text = Assim as chaves fecham e abrem de maneira a obter-se as tensões desejadas na entrada e na saída do conversor.
-# sent_id = 144-20140925-MONOGRAFIA_0-169
+# sent_id = 144-20140925-MONOGRAFIA_0-178
 1	Assim	assim	ADV	_	_	4	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	chaves	chave	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -4822,7 +4956,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # text = O retificador consiste em seis conversores, apresentando um total de doze braços e, consequentemente, doze tensões de pólo, uma para cada braço.
-# sent_id = 144-20140925-MONOGRAFIA_0-170
+# sent_id = 144-20140925-MONOGRAFIA_0-179
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	retificador	retificador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	consiste	consistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4852,7 +4986,7 @@
 27	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = O inversor também consiste em seis conversores apresentando um total de doze tensões de pólo.
-# sent_id = 144-20140925-MONOGRAFIA_0-171
+# sent_id = 144-20140925-MONOGRAFIA_0-180
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	inversor	inversor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	também	também	ADV	_	_	4	advmod	_	_
@@ -4871,7 +5005,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = Assim, quando do chaveamento, obtêm-se as seguintes tensões: (3.1) (3.2) (3.3) (3.4) (3.5) (3.6) (3.7) (3.8) (3.9) (3.10) (3.11) (3.12)
-# sent_id = 144-20140925-MONOGRAFIA_0-172
+# sent_id = 144-20140925-MONOGRAFIA_0-181
 1	Assim	assim	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	quando	quando	ADV	_	_	1	advmod	_	_
@@ -4897,7 +5031,7 @@
 21	3.4)	3.4)	NUM	_	NumType=Card	31	nmod	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	3.5	3.5	NUM	_	NumType=Card	21	appos:parataxis	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	23	punct	_	_
+24	)	)	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	3.6	3.6	NUM	_	NumType=Card	21	appos	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	26	punct	_	_
@@ -4918,7 +5052,7 @@
 42	)	)	PUNCT	_	_	41	punct	_	_
 
 # text = Onde z=1 quando a tensão de pólo considerada é relacionada ao braço 1 do conversor ou z=2 quando a tensão de pólo considerada é relacionada ao braço 2 do conversor.
-# sent_id = 144-20140925-MONOGRAFIA_0-173
+# sent_id = 144-20140925-MONOGRAFIA_0-182
 1	Onde	onde	ADV	_	_	2	advmod	_	_
 2	z=1	z=1	NUM	_	NumType=Card	0	root	_	_
 3	quando	quando	ADV	_	_	10	advmod	_	_
@@ -4960,7 +5094,7 @@
 35	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # text = As tensões de referência nos retificadores, e , são determinadas pelos controladores de corrente.
-# sent_id = 144-20140925-MONOGRAFIA_0-174
+# sent_id = 144-20140925-MONOGRAFIA_0-183
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -4982,73 +5116,94 @@
 17	corrente	corrente	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	_
 
-# text = Define-se então seis tensões (3.13) (3.14) (3.15) (3.16) (3.17) (3.18) (3.19) (3.20) (3.21) (3.22) (3.23) (3.24) (3.25) (3.26) (3.27) (3.28) (3.29) (3.30)
-# sent_id = 144-20140925-MONOGRAFIA_0-175
+# text = Define-se então seis tensões auxiliares da seguinte maneira: (3.13) (3.14) (3.15) (3.16) (3.17) (3.18) (3.19) (3.20) (3.21) (3.22) (3.23) (3.24) , e , , , , e , Onde , , , , , , , , (3.25) (3.26) (3.27) (3.28) (3.29) (3.30)
+# sent_id = 144-20140925-MONOGRAFIA_0-184
 1-2	Define-se	_	_	_	_	_	_	_	_
 1	Define	definir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	1	nsubj	_	_
 3	então	então	ADV	_	_	5	advmod	_	_
 4	seis	seis	NUM	_	NumType=Card	5	nummod	_	_
 5	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	3.13	3.13	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	7	punct	_	_
-9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	3.14	3.14	NUM	_	NumType=Card	5	appos	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	10	punct	_	_
+6	auxiliares	auxiliar	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	seguinte	seguinte	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+10	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	1	punct	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	3.15	3.15	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+13	3.13	3.13	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
-15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	3.16	3.16	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	16	punct	_	_
-18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	3.17	3.17	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	19	punct	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	3.18	3.18	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	22	punct	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	3.19	3.19	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	25	punct	_	_
+15	(3.14)	(3.14)	NUM	_	NumType=Card	1	appos	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	3.15	3.15	NUM	_	NumType=Card	15	appos:parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	3.16	3.16	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	3.17	3.17	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	3.18)	3.18)	NUM	_	NumType=Card	1	appos	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	3.20	3.20	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+28	3.19	3.19	NUM	_	NumType=Card	26	appos:parataxis	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	28	punct	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	3.21	3.21	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	31	punct	_	_
+31	3.20	3.20	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpacesAfter=\s\n
 33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	3.22	3.22	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+34	3.21	3.21	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	34	punct	_	_
 36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
-37	3.23)	3.23)	NUM	_	NumType=Card	1	appos	_	_
-38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	3.24	3.24	NUM	_	NumType=Card	37	appos:parataxis	_	SpaceAfter=No
-40	)	)	PUNCT	_	_	39	punct	_	_
+37	3.22	3.22	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	_
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	3.23)	3.23)	NUM	_	NumType=Card	1	appos	_	_
 41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
-42	3.25	3.25	NUM	_	NumType=Card	37	appos	_	SpaceAfter=No
+42	3.24	3.24	NUM	_	NumType=Card	40	appos:parataxis	_	SpaceAfter=No
 43	)	)	PUNCT	_	_	42	punct	_	_
-44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
-45	3.26	3.26	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-46	)	)	PUNCT	_	_	45	punct	_	_
-47	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
-48	3.27	3.27	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-49	)	)	PUNCT	_	_	48	punct	_	_
-50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
-51	3.28	3.28	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-52	)	)	PUNCT	_	_	51	punct	_	_
-53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
-54	3.29	3.29	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-55	)	)	PUNCT	_	_	54	punct	_	_
-56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
-57	3.30	3.30	NUM	_	NumType=Card	1	appos	_	SpaceAfter=No
-58	)	)	PUNCT	_	_	57	punct	_	_
+44	,	,	PUNCT	_	_	1	punct	_	_
+45	e	e	CCONJ	_	_	49	cc	_	_
+46	,	,	PUNCT	_	_	47	punct	_	_
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	,	,	PUNCT	_	_	49	punct	_	_
+49	,	,	PUNCT	_	_	1	punct	_	_
+50	e	e	CCONJ	_	_	62	cc	_	_
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	Onde	onde	ADV	_	_	62	advmod	_	_
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	,	,	PUNCT	_	_	52	punct	_	_
+55	,	,	PUNCT	_	_	52	punct	_	_
+56	,	,	PUNCT	_	_	52	punct	_	_
+57	,	,	PUNCT	_	_	52	punct	_	_
+58	,	,	PUNCT	_	_	52	punct	_	_
+59	,	,	PUNCT	_	_	52	punct	_	_
+60	,	,	PUNCT	_	_	52	punct	_	_
+61	(	(	PUNCT	_	_	62	punct	_	SpaceAfter=No
+62	3.25	3.25	NUM	_	NumType=Card	49	conj	_	SpaceAfter=No
+63	)	)	PUNCT	_	_	62	punct	_	_
+64	(	(	PUNCT	_	_	65	punct	_	SpaceAfter=No
+65	3.26	3.26	NUM	_	NumType=Card	62	appos:parataxis	_	SpaceAfter=No
+66	)	)	PUNCT	_	_	65	punct	_	_
+67	(	(	PUNCT	_	_	68	punct	_	SpaceAfter=No
+68	3.27	3.27	NUM	_	NumType=Card	49	appos	_	SpaceAfter=No
+69	)	)	PUNCT	_	_	68	punct	_	_
+70	(	(	PUNCT	_	_	71	punct	_	SpaceAfter=No
+71	3.28	3.28	NUM	_	NumType=Card	49	appos:parataxis	_	SpaceAfter=No
+72	)	)	PUNCT	_	_	71	punct	_	_
+73	(	(	PUNCT	_	_	74	punct	_	SpaceAfter=No
+74	3.29	3.29	NUM	_	NumType=Card	49	appos	_	SpaceAfter=No
+75	)	)	PUNCT	_	_	74	punct	_	_
+76	(	(	PUNCT	_	_	77	punct	_	SpaceAfter=No
+77	3.30	3.30	NUM	_	NumType=Card	49	appos	_	SpaceAfter=No
+78	)	)	PUNCT	_	_	77	punct	_	_
 
 # text = Assim as tensões de pólo de referência utilizadas para o PWM são: (3.31) (3.31) (3.33) (3.34) (3.35) (3.36) (3.37) (3.38) (3.39) (3.40) (3.41)
-# sent_id = 144-20140925-MONOGRAFIA_0-176
-1	Assim	assim	ADV	_	_	12	advmod	_	_
+# sent_id = 144-20140925-MONOGRAFIA_0-185
+1	Assim	assim	ADV	_	_	15	advmod	_	_
 2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	1	nsubj	_	_
+3	tensões	tensão	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	pólo	pólo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -5058,36 +5213,34 @@
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	PWM	PWM	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
 12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	15	punct	_	_
+13	:	:	PUNCT	_	_	12	punct	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	3.31)	3.31)	NUM	_	NumType=Card	0	root	_	_
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-17	3.31)	3.31)	NUM	_	NumType=Card	15	nmod	_	_
+17	3.31)	3.31)	NUM	_	NumType=Card	15	appos:parataxis	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	3.33	3.33	NUM	_	NumType=Card	17	appos:parataxis	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	19	punct	_	_
-21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	3.34	3.34	NUM	_	NumType=Card	17	appos	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	22	punct	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	3.35	3.35	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	25	punct	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	3.36	3.36	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	28	punct	_	_
-30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	3.37	3.37	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	31	punct	_	_
-33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	3.38	3.38	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	34	punct	_	_
-36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
-37	3.39	3.39	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-38	)	)	PUNCT	_	_	37	punct	_	_
-39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	3.40	3.40	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	40	punct	_	_
-42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	3.41	3.41	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
-44	)	)	PUNCT	_	_	43	punct	_	SpacesAfter=\s\n
+19	3.33)	3.33)	NUM	_	NumType=Card	17	appos	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	3.34	3.34	NUM	_	NumType=Card	19	appos:parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	3.35	3.35	NUM	_	NumType=Card	41	appos:parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	(3.36	(3.36	NUM	_	NumType=Card	41	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	3.37	3.37	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	3.38	3.38	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	3.39	3.39	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	3.40	3.40	NUM	_	NumType=Card	26	appos	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	3.41	3.41	NUM	_	NumType=Card	19	appos	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpacesAfter=\s\n
 
