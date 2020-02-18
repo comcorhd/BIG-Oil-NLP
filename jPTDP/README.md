@@ -1,4 +1,4 @@
-Para baixar os modelos pré-treinados, considerar [ler a página no wiki](https://github.com/comcorhd/BIG-Oil-NLP/wiki/Como-trabalhar-no-reposit%C3%B3rio).
+Para baixar os modelos pré-treinados, considerar [ler a página no wiki](https://github.com/comcorhd/BIG-Oil-NLP/wiki/Adicionar-novos-documentos-ao-corpus).
 
 # Neural Network Models for Joint POS Tagging and Dependency Parsing 
 
