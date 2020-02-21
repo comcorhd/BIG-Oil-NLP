@@ -1,6 +1,6 @@
 # BIG-Oil-NLP
 
-Repositório exclusivo para trabalho do grupo [ComCorHd](http://comcorhd.letras.puc-rio.br) no projeto BIG Oil - Ciência de Dados para a indústria de Óleo & Gás
+Repositório exclusivo para trabalho do grupo [ComCorHd](http://comcorhd.letras.puc-rio.br)
 
 [Como trabalhar no repositório](https://github.com/comcorhd/BIG-Oil-NLP/wiki/Como-come%C3%A7ar-a-trabalhar-no-reposit%C3%B3rio)
 
