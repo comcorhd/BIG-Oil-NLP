@@ -77,7 +77,7 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
-27	conjugados	conjugar	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+27	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
 28	e	e	CCONJ	_	_	30	cc	_	SpacesAfter=\s\s
 29	também	também	ADV	_	_	30	advmod	_	SpacesAfter=\s\s
 30	exibe	exiber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpacesAfter=\s\s
@@ -144,9 +144,9 @@
 7	valor	valor	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-10	conjugados	conjugar	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+10	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 11	por	por	ADP	_	_	12	case	_	_
-12	definição	definição	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+12	definição	definição	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	em	em	ADP	_	_	16	case	_	_
@@ -166,7 +166,7 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpacesAfter=\s\s
-30	conjugados	conjugar	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpacesAfter=\s\s
+30	conjugados	conjugar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	SpacesAfter=\s\s
 31	com	com	ADP	_	_	32	case	_	_
 32	excesso	excesso	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpacesAfter=\s\s
 33	de	de	ADP	_	_	34	case	_	SpacesAfter=\s\s
@@ -246,7 +246,7 @@
 21	com	com	ADP	_	_	23	case	_	SpacesAfter=\s\s
 22	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	SpacesAfter=\s\s
 23	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpacesAfter=\s\s
-24	conjugados	conjugar	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpacesAfter=\s\s
+24	conjugados	conjugado	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpacesAfter=\s\s
 25	e	e	CCONJ	_	_	26	cc	_	_
 26	interferência	interferência	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 27-28	dos	_	_	_	_	_	_	_	_
@@ -295,9 +295,9 @@
 33	valor	valor	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpacesAfter=\s\s
 34	de	de	ADP	_	_	35	case	_	SpacesAfter=\s\s
 35	dienos	dieno	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpacesAfter=\s\s
-36	conjugados	conjugar	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	SpacesAfter=\s\s
+36	conjugados	conjugar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	35	acl	_	SpacesAfter=\s\s
 37	em	em	ADP	_	_	38	case	_	SpacesAfter=\s\s
-38	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	SpacesAfter=\s\s
+38	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	36	obl	_	SpacesAfter=\s\s
 39	de	de	ADP	_	_	40	case	_	SpacesAfter=\s\s
 40	nafta	nafta	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s\r\n
@@ -363,10 +363,10 @@
 11-12	mostraram-se	_	_	_	_	_	_	_	SpacesAfter=\s\s
 11	mostraram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	expl	_	_
-13	menores	pequeno	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
-14	que	que	PRON	_	_	29	nsubj	_	SpacesAfter=\s\s
+13	menores	pequeno	ADV	_	Gender=Masc|Number=Plur	11	advmod	_	_
+14	que	que	PRON	_	_	29	fixed	_	SpacesAfter=\s\s
 15	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	16	nsubj	_	SpacesAfter=\s\s
-16	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	SpacesAfter=\s\s
+16	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	obl	_	SpacesAfter=\s\s
 17-18	pelos	_	_	_	_	_	_	_	SpacesAfter=\s\s
 17	por	por	ADP	_	_	19	case	_	_
 18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
