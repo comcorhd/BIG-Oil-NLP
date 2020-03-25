@@ -67,27 +67,30 @@
 21	CC	cc	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
 
-# text = Em decorrência desse importante desenvolver membranas condutoras protônicas termicamente estáveis acima de 100 oC[1].
+# text = Em decorrência desse interesse é importante desenvolver membranas condutoras protônicas termicamente estáveis acima de 100 oC[1].
 # sent_id = 10-20150122-MONOGRAFIA_0_resumo-3
 1	Em	em	ADP	_	_	2	case	_	_
-2	decorrência	decorrência	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\s\s
+2	decorrência	decorrência	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=\s\s
 3-4	desse	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	importante	importante	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\s
-6	desenvolver	desenvolver	VERB	_	VerbForm=Inf	0	root	_	SpacesAfter=\s\s
-7	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpacesAfter=\s\s|tokenização
-8	condutoras	condutor	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
-9	protônicas	protônicas	NOUN	_	Gender=Fem|Number=Plur	7	amod	_	_
-10	termicamente	termicamente	ADV	_	_	11	advmod	_	_
-11	estáveis	estável	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
-12	acima	acima	ADV	_	_	7	advmod	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	100	100	NUM	_	NumType=Card	12	obl	_	_
-15	oC[	oC[	SYM	_	_	14	nmod	_	SpaceAfter=No|tokenização
-16	1	1	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-17	]	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\r\n
+5	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	é	ser	VERB	_	_	7	cop	_	_
+7	importante	importante	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\s
+8	desenvolver	desenvolver	VERB	_	VerbForm=Inf	7	xcomp	_	SpacesAfter=\s\s
+9	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpacesAfter=\s\s
+10	condutoras	condutor	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	protônicas	protônicas	NOUN	_	Gender=Fem|Number=Plur	9	amod	_	_
+12	termicamente	termicamente	ADV	_	_	13	advmod	_	_
+13	estáveis	estável	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+14	acima	acima	ADV	_	_	9	advmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	100	100	NUM	_	NumType=Card	14	obl	_	_
+17	oC	oC	SYM	_	_	16	nmod	_	SpaceAfter=No
+18	[	[	PUNCT	_	_	19	punct	_	_
+19	1	1	NUM	_	NumType=Card	7	appos:parataxis	_	SpaceAfter=No
+20	]	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\r\n
 
 # text = Neste trabalho apresenta-se os resultados do estudo dos nanocompósitos Zeólita Y/PBE e Zeólita Y/Nafion®, os quais foram obtidos filmes dos materiais compósitos macroscopicamente homogêneos.
 # sent_id = 10-20150122-MONOGRAFIA_0_resumo-4
@@ -112,22 +115,21 @@
 15	Y/PBE	Y/PBE	PROPN	_	Number=Sing	14	compound	_	SpacesAfter=\s\s
 16	e	e	CCONJ	_	_	17	cc	_	SpacesAfter=\s\s
 17	Zeólita	Zeólita	PROPN	_	Gender=Fem|Number=Sing	14	conj	_	SpacesAfter=\s\s
-18	Y/	Y/	PROPN	_	Number=Sing	17	compound	_	SpaceAfter=No|tokenização
-19	Nafion®	Nafion®	PROPN	_	Number=Sing	17	compound	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
-21	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	22	det	_	SpacesAfter=\s\s
-22	quais	qual	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	24	obl	_	SpacesAfter=\s\s
-23	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	SpacesAfter=\s\s
-24	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	acl:relcl	_	SpacesAfter=\s\s
-25	filmes	filme	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	SpacesAfter=\s\s
-26-27	dos	_	_	_	_	_	_	_	SpacesAfter=\s\s
-26	de	de	ADP	_	_	29	case	_	_
-27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-28	materiais	material	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpacesAfter=\s\s
-29	compósitos	compósito	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
-30	macroscopicamente	macroscopicamente	ADV	_	_	31	advmod	_	_
-31	homogêneos	homogêneo	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+18	Y/Nafion®	Y/Nafion®	PROPN	_	Number=Sing	17	compound	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+20	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	21	det	_	SpacesAfter=\s\s
+21	quais	qual	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	23	obl	_	SpacesAfter=\s\s
+22	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	SpacesAfter=\s\s
+23	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	acl:relcl	_	SpacesAfter=\s\s
+24	filmes	filme	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	SpacesAfter=\s\s
+25-26	dos	_	_	_	_	_	_	_	SpacesAfter=\s\s
+25	de	de	ADP	_	_	28	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	materiais	material	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpacesAfter=\s\s
+28	compósitos	compósito	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+29	macroscopicamente	macroscopicamente	ADV	_	_	30	advmod	_	_
+30	homogêneos	homogêneo	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
 
 # text = Ambos os sistemas apresentaram fortes interações intermoleculares entre as fases orgânica e inorgânica.
 # sent_id = 10-20150122-MONOGRAFIA_0_resumo-5
@@ -297,10 +299,10 @@
 19	ESP	ESP	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
 
+# text = O aumento da concentração da zeólita Y no compósito, propiciou maior resistência à degradação e maior retenção de água.
 # sent_id = 10-20150122-MONOGRAFIA_0_resumo-11
-# text = O aumento da concentração da zeólita
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\s
-2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\s
+2	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpacesAfter=\s\s
 3-4	da	_	_	_	_	_	_	_	SpacesAfter=\s\s
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -308,60 +310,56 @@
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	zeólita	zeólita	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_|tokenização
-
-# sent_id = 10-20150122-MONOGRAFIA_0_resumo-12
-# text = Y no compósito, propiciou maior resistência à degradação e maior retenção de água.
-1	Y	Y	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_|tokenização
-2-3	no	_	_	_	_	_	_	_	_
-2	em	em	ADP	_	_	4	case	_	_
-3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	compósito	compósito	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	1	punct	_	_
-6	propiciou	propiciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	maior	grande	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-8	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-9-10	à	_	_	_	_	_	_	_	_
-9	a	a	ADP	_	_	11	case	_	_
-10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-12	e	e	CCONJ	_	_	14	cc	_	_
-13	maior	grande	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
-14	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	água	água	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\r\n
+8	zeólita	zeólita	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	Y	Y	PROPN	_	Gender=Masc|Number=Sing	8	compound	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	compósito	compósito	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	propiciou	propiciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	maior	grande	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	degradação	degradação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	maior	grande	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	água	água	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\r\n
 
 # text = A condutividade do sistema Zeólita Y/Nafion® foi no máximo de uma ordem de grandeza maior que a da membrana Nafion®.
 # sent_id = 10-20150122-MONOGRAFIA_0_resumo-13
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\s
-2	condutividade	condutividade	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	SpacesAfter=\s\s
+2	condutividade	condutividade	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	SpacesAfter=\s\s
 3-4	do	_	_	_	_	_	_	_	SpacesAfter=\s\s
 3	de	de	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\s
-6	Zeólita	Zeólita	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpacesAfter=\s\s|tokenização
-7	Y/	Y/	PROPN	_	Number=Sing	6	compound	_	SpaceAfter=No
-8	Nafion®	Nafion®	PROPN	_	Number=Sing	6	compound	_	SpacesAfter=\s\s
-9	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	SpacesAfter=\s\s
-10-11	no	_	_	_	_	_	_	_	SpacesAfter=\s\s
-10	em	em	ADP	_	_	12	case	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpacesAfter=\s\s
-13	de	de	ADP	_	_	15	case	_	SpacesAfter=\s\s
-14	uma	um	NUM	_	Gender=Fem|Number=Sing|NumType=Card	15	nummod	_	SpacesAfter=\s\s
-15	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\s
-16	de	de	ADP	_	_	17	case	_	_
-17	grandeza	grandeza	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\s\s
-18	maior	grande	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpacesAfter=\s\s
-19	que	que	SCONJ	_	_	20	mark	_	_
-20	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	18	advcl	_	SpacesAfter=\s\s
-21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	23	case	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	membrana	membrana	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpacesAfter=\s\s
-24	Nafion®	Nafion®	PROPN	_	Number=Sing	23	appos	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s\s\s
+6	Zeólita	Zeólita	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpacesAfter=\s\s
+7	Y/Nafion®	Y/Nafion®	PROPN	_	Number=Sing	6	compound	_	SpaceAfter=No
+8	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpacesAfter=\s\s
+9-10	no	_	_	_	_	_	_	_	SpacesAfter=\s\s
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpacesAfter=\s\s
+12	de	de	ADP	_	_	14	case	_	SpacesAfter=\s\s
+13	uma	um	NUM	_	Gender=Fem|Number=Sing|NumType=Card	14	nummod	_	SpacesAfter=\s\s
+14	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\s
+15	de	de	ADP	_	_	16	case	_	_
+16	grandeza	grandeza	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpacesAfter=\s\s
+17	maior	grande	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\s\s
+18	que	que	SCONJ	_	_	19	mark	_	_
+19	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	17	advcl	_	SpacesAfter=\s\s
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	membrana	membrana	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpacesAfter=\s\s
+23	Nafion®	Nafion®	PROPN	_	Number=Sing	22	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s\s\s
 
 # text = O sistema Zeólita Y/PBE dopado com ácido fosfórico apresentou valores de condutividade uma ordem de grandeza maior que membrana Nafion® não hidratada.
 # sent_id = 10-20150122-MONOGRAFIA_0_resumo-14
