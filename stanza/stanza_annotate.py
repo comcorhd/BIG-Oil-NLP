@@ -17,17 +17,11 @@ if os.path.isdir(diretorio):
         with open(diretorio + "/" + arquivo, encoding="utf-8") as f:
             text = f.read()
             arquivos[arquivo.rsplit(".txt")[0]] = CoNLL.convert_dict(nlp(text).to_dict())
-            print(arquivo)
-            print(nlp(text).entities)
-            print("")
 elif os.path.isfile(diretorio):
     arquivo = diretorio
     with open(arquivo, encoding="utf-8") as f:
         text = f.read()
         arquivos[arquivo.rsplit(".txt")[0]] = CoNLL.convert_dict(nlp(text).to_dict())
-        print(arquivo)
-        print(nlp(text).entities)
-        print("")
 
 sentences = []
 conllus = {}
