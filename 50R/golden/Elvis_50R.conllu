@@ -567,7 +567,7 @@
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	ferro	ferro	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	cobre	cobre	VERB	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+7	cobre	cobre	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	zinco	zinco	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 10	e	e	CCONJ	_	_	11	cc	_	_
@@ -764,9 +764,9 @@
 26	de	de	ADP	_	_	28	case	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Laboratório	Laboratório	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-29	de	de	ADP	_	_	28	flat:name	_	_
-30	Biotecnologia	Biotecnologia	PROPN	_	Number=Sing	28	flat:name	_	_
-31	Microbiana	Microbiana	PROPN	_	Number=Sing	28	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Biotecnologia	Biotecnologia	PROPN	_	Number=Sing	28	nmod	_	_
+31	Microbiana	Microbiana	PROPN	_	Number=Sing	30	flat:name	_	_
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	LaBiM	LaBiM	PROPN	_	Gender=Fem|Number=Sing	28	appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
@@ -885,7 +885,7 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	obl	_	_
 14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 15	duas	dois	NUM	_	NumType=Card	17	nummod	_	_
@@ -1020,9 +1020,9 @@
 26	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	4	4	NUM	_	NumType=Card	26	obj	_	_
-29	para	para	ADP	_	_	31	case	_	_
+29	para	para	CCONJ	_	_	31	cc	_	_
 30	18	18	NUM	_	NumType=Card	31	nummod	_	_
-31	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+31	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	carbono	carbono	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	5	punct	_	_
@@ -1084,7 +1084,7 @@
 11	em	em	ADP	_	_	12	case	_	_
 12	pH	pH	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	6,5	6,5	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+14	6,5	6,5	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = A imobilização desta enzima em polipropileno microporoso (Accurel) revelou um biocatalisador imobilizado com elevadas atividades de síntese do éster oleato de etila (300 U/g).
@@ -1106,7 +1106,7 @@
 14	biocatalisador	biocatalisador	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 15	imobilizado	imobilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
 16	com	com	ADP	_	_	18	case	_	_
-17	elevadas	elevar	VERB	_	Gender=Fem|Number=Plur	18	acl	_	_
+17	elevadas	elevar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	18	acl	_	_
 18	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	síntese	síntese	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
@@ -1509,7 +1509,7 @@
 27	células	célula	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
 28	resistentes	resistente	ADJ	_	Gender=Fem|Number=Plur	24	xcomp	_	_
 29	a	a	ADP	_	_	31	case	_	_
-30	diferentes	diferente	DET	_	Gender=Fem|Number=Plur	31	det	_	_
+30	diferentes	diferente	DET	_	Gender=Fem|Number=Plur|PronType=Ind	31	det	_	_
 31	condições	condição	NOUN	_	Gender=Fem|Number=Plur	28	obl	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	oxigenação	oxigenação	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
@@ -1584,7 +1584,7 @@
 62	de	de	ADP	_	_	63	case	_	_
 63	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	_
 64	(	(	PUNCT	_	_	65	punct	_	SpaceAfter=No
-65	liner	liner	VERB	_	Gender=Masc|Number=Sing	60	appos	_	SpaceAfter=No
+65	liner	liner	NOUN	_	Gender=Masc|Number=Sing	60	appos	_	SpaceAfter=No
 66	)	)	PUNCT	_	_	65	punct	_	SpaceAfter=No
 67	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1889,9 +1889,9 @@
 36	técnicas	técnica	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
 37	como	como	ADP	_	_	39	case	_	_
 38	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
-39	toxicidade	toxicidade	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+39	toxicidade	toxicidade	NOUN	_	Gender=Fem|Number=Sing	35	appos:parataxis	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
-41	alta	alto	VERB	_	Gender=Fem|Number=Sing	42	case	_	_
+41	alta	alto	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	_
 42	lubricidade	lubricidade	NOUN	_	Gender=Fem|Number=Sing	39	conj	_	_
 43	e	e	CCONJ	_	_	45	cc	_	_
 44	pouca	pouco	DET	_	Gender=Fem|Number=Sing|PronType=Ind	45	det	_	_
@@ -2541,7 +2541,7 @@
 75	)	)	PUNCT	_	_	74	punct	_	_
 76	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	77	det	_	_
 77	volumes	volume	NOUN	_	Gender=Masc|Number=Plur	85	nsubj	_	_
-78	recuperados	recuperado	VERB	_	Gender=Masc|Number=Plur	77	acl	_	_
+78	recuperados	recuperado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	77	acl	_	_
 79	e	e	CCONJ	_	_	85	cc	_	_
 80	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	81	det	_	_
 81	análises	análise	NOUN	_	Gender=Fem|Number=Plur	77	conj	_	_
