@@ -58,7 +58,7 @@ html += "</table>"
 
 html += "<table border='1'>"
 html += f"<tr><td>Frases comparáveis</td><td colspan='2'>{len([x for x in golden_post.sentences if all(x in y for y in [sistema.sentences, golden_pre.sentences])])}</td></tr>"
-html += f"<tr><td>Tokens modificados</td><td colspan='2'>{len(all_modifications)}</td></tr>"
+html += f"<tr><td>Tokens corrigidos</td><td colspan='2'>{len(all_modifications)}</td></tr>"
 html += "</table>"
 
 html += "<h2>Avaliação dos métodos</h2><hr>"
