@@ -104,12 +104,12 @@ html += "</table><hr>"
 
 html += "<h2>Avaliação dos métodos</h2><hr>"
 html += "<table border='1'>"
-html += "<tr><th>Método</th><th>Erros detectados</th><th>Verdadeiros Positivos</th><th>Falsos Positivos</th></tr>"
+html += "<tr><th>Método</th><th>Erros detectados</th><th title='Erros detectados por todos os métodos'>Erros redundantes</th><th>Verdadeiros Positivos</th><th>Falsos Positivos</th></tr>"
 
-html += f"<tr><td>Nenhum método</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>0</td></tr>"
+html += f"<tr><td>Nenhum método</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>0</td></tr>"
 
 for combination in sorted([x for x in list(somas.keys()) if x], key=lambda x: x[0]):
-    html += f"<tr><td>{' + '.join(combination)}</td><td>{len(somas[combination])}</td><td>{len([x for x in somas[combination] if x in all_modifications])}</td><td>{len([x for x in somas[combination] if x not in all_modifications])}</td></tr>"
+    html += f"<tr><td>{' + '.join(combination)}</td><td>{len(somas[combination])}</td><td>{len([x for x in somas[combination] if all(x in somas[(y, )] for y in combination)])}</td><td>{len([x for x in somas[combination] if x in all_modifications])}</td><td>{len([x for x in somas[combination] if x not in all_modifications])}</td></tr>"
 
 html += "</table><br><br><br><br>"
 
