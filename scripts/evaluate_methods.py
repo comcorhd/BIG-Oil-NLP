@@ -104,7 +104,7 @@ html += "</table><hr>"
 
 html += "<h2>Avaliação dos métodos</h2><hr>"
 html += "<table border='1'>"
-html += "<tr><th>Método</th><th>Erros detectados</th><th title='Erros detectados por todos os métodos'>Erros redundantes</th><th>Verdadeiros Positivos</th><th>Falsos Positivos</th></tr>"
+html += "<tr><th>Método</th><th>Erros detectados</th><th title='Erros detectados por todos os métodos'>Erros sobrepostos</th><th>Verdadeiros Positivos</th><th>Falsos Positivos</th></tr>"
 
 html += f"<tr><td>Nenhum método</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>0</td></tr>"
 
