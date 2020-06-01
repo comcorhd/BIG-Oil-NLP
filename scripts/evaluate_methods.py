@@ -29,9 +29,9 @@ for sentid, sentence in sistema.sentences.items():
 errors_validar_UD = []
 for assunto in validar_UD.validate(golden_pre, errorList = "../ACDC-UD/validar_UD.txt").values():
     for error in assunto:
-        if all(error['sentence'].sent_id in x.sentences for x in [sistema, golden_pre, golden_post]) and all(len(error['sentence'].tokens) == len(x.sentences[error['sentence'].sent_id].tokens) for x in [sistema, golden_pre, golden_post]):
-            if {'sentid': error['sentence'].sent_id, 't': error['t']} not in errors_validar_UD:
-                errors_validar_UD.append({'sentid': error['sentence'].sent_id, 't': error['t']})
+        if all(error['sent_id'] in x.sentences for x in [sistema, golden_pre, golden_post]) and all(len(error['sentence'].tokens) == len(x.sentences[error['sentence']].tokens) for x in [sistema, golden_pre, golden_post]):
+            if {'sentid': error['sent_id'], 't': error['t']} not in errors_validar_UD:
+                errors_validar_UD.append({'sentid': error['sent_id'], 't': error['t']})
 
 confusion_matrix = []
 for sentid, sentence in golden_pre.sentences.items():
