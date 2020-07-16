@@ -124,7 +124,7 @@ html += "<h2>Avaliação dos métodos</h2><hr>"
 html += "<table border='1'>"
 html += "<tr><th>Método</th><th>Erros detectados (por token)</th><th title='Erros detectados por todos os métodos DESSA linha'>Erros repetidos</th><th>Verdadeiros Positivos</th><th>Falsos Positivos</th></tr>"
 
-html += f"<tr><td>Nenhum método</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>Não se aplica</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>Não se aplica</td></tr>"
+html += f"<tr><td>Nenhum método</td><td>{len([x for x in all_modifications if not x in [k for metodo in metodos for k in metodos[metodo]]])}</td><td>Não se aplica</td><td>Não se aplica</td><td>Não se aplica</td></tr>"
 
 for combination in sorted([x for x in list(somas.keys()) if x], key=lambda x: x[0]):
     html += f"<tr><td>{'<b>' if len(combination) == 1 else ''}{' + '.join(combination)}{'</b>' if len(combination) == 1 else ''}</td><td>{len(somas[combination])}</td><td>{len([x for x in somas[combination] if all(x in somas[(y, )] for y in combination)]) if len(combination) > 1 else 'Não se aplica'}</td><td>{len([x for x in somas[combination] if x in all_modifications])}</td><td>{len([x for x in somas[combination] if x not in all_modifications])}</td></tr>"
