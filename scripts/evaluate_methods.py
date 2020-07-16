@@ -46,15 +46,15 @@ for sentid, sentence in golden_pre.sentences.items():
     if all(sentid in x.sentences for x in [golden_pre, sistema, golden_post]) and all(len(sentence.tokens) == len(x.sentences[sentid].tokens) for x in [golden_pre, sistema, golden_post]):
         for t, token in enumerate(sentence.tokens):
             for coluna in ['upos', 'deprel', 'dephead']:
-                if token.col[coluna] == sistema.sentences[sentid].tokens[t].col[coluna]:
+                if token.__dict__[coluna] == sistema.sentences[sentid].tokens[t].__dict__[coluna]:
                     convergence[coluna].append({'sentid': sentid, 't': t})
-                    if token.col[coluna] == golden_post.sentences[sentid].tokens[t].col[coluna]:
+                    if token.__dict__[coluna] == golden_post.sentences[sentid].tokens[t].__dict__[coluna]:
                         convergence_hit[coluna] += 1
-                elif token.col[coluna] != sistema.sentences[sentid].tokens[t].col[coluna]:
+                elif token.__dict__[coluna] != sistema.sentences[sentid].tokens[t].__dict__[coluna]:
                     confusion_matrix_col[coluna].append({'sentid': sentid, 't': t})
-                    if golden_post.sentences[sentid].tokens[t].col[coluna] == golden_pre.sentences[sentid].tokens[t].col[coluna]:
+                    if golden_post.sentences[sentid].tokens[t].__dict__[coluna] == golden_pre.sentences[sentid].tokens[t].__dict__[coluna]:
                         confusion_matrix_hit[coluna]['golden_pre'] += 1
-                    elif golden_post.sentences[sentid].tokens[t].col[coluna] == sistema.sentences[sentid].tokens[t].col[coluna]:
+                    elif golden_post.sentences[sentid].tokens[t].__dict__[coluna] == sistema.sentences[sentid].tokens[t].__dict__[coluna]:
                         confusion_matrix_hit[coluna]['sistema'] += 1
                     else:
                         confusion_matrix_hit[coluna]['none'] += 1
