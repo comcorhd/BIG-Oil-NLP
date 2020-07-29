@@ -5,5 +5,7 @@ git checkout -b new_documents
 cd ~/BIG-Oil-NLP/
 python3 ~/ACDC-UD/split_conllu.py Petroles.conllu
 git diff
+git add -u
+git commit -m "update Petroles from interrogatorio.ica.ele.puc-rio.br"
 git checkout master
-echo "Commit e merge, ou git branch -D new_documents"
+echo "git pull new_documents ou git branch -D new_documents"
