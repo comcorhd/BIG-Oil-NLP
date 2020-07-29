@@ -99,7 +99,7 @@ for i in range(len(metodos)+1):
 pprint(combinatoria)
 
 #COMEÇA A MONTAGEM DOS HTML
-html = "<html><body style='width:60%; padding-bottom:100px; margin:auto; margin-top:20px;'>"
+html = "<html><meta charset='utf-8'/><body style='width:60%; padding-bottom:100px; margin:auto; margin-top:20px;'>"
 html += "<h1>Avaliação dos métodos de correção do Julgamento</h1><hr>"
 html += f"<h3>Sistema: {sys.argv[1]}</h3>"
 html += f"<h3>Sistema guia (pré-correções): {sys.argv[2]}</h3>"

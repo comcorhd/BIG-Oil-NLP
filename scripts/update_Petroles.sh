@@ -1,4 +1,5 @@
 set -e
+git pull
 curl 'http://interrogatorio.ica.ele.puc-rio.br/interrogar-ud/conllu/Petroles.conllu' -o ~/BIG-Oil-NLP/Petroles.conllu
 git checkout -b new_documents
 cd ~/BIG-Oil-NLP/
