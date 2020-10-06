@@ -1,0 +1,176 @@
+1. Introdução
+No Brasil, com as recentes descobertas de grandes reservas de petróleo na bacia de Santos, abaixo da camada de sal, tem-se um cenário desafiador para a produção de petróleo, devido a diversos fatores, como a extensa camada de sal a ser perfurada, dificuldade logística devido à grande distância da costa e ainda a localização das reservas em águas ultraprofundas, com lâmina d’água superior a 1500 metros, que eleva o fator de risco em operações de sistemas submersos. Com essas novas dificuldades, busca-se desenvolver novas tecnologias para superá-las, aumentando a confiabilidade das instalações e operações de sistemas submersos em áreas de maior risco, como neste caso, de águas ultraprofundas.
+São utilizados muitos tipos de sistemas submersos na indústria de óleo e gás offshore, como risers, boias submersas e manifolds, que têm grande importância e devem ser manejados com cuidado, pois a ocorrência de uma falha estrutural em sua instalação ou operação pode levar a catástrofes ambientais, com vazamentos de fluidos e grandes perdas financeiras e ecológicas.
+Pretende-se com este trabalho contribuir para a melhor compreensão de um sistema submerso, neste caso um riser híbrido de produção de petróleo em águas ultraprofundas, possibilitando maior eficiência no projeto e operação do sistema, com consequente menor custo na produção de petróleo em campos do pré-sal.
+Risers de produção são elementos estruturais tubulares cilíndricos que conectam a cabeça de poço até a plataforma de produção na superfície, transportando fluidos como água, óleo e gás.
+Podem ser de variados tipos, como os risers flexíveis, feitos com várias camadas de materiais compósitos e malhas de aço, com baixa rigidez à flexão em comparação à sua rigidez axial ou como os risers rígidos, que são feitos de aço, mais baratos que os flexíveis e que suportam maiores esforços, podendo ser utilizados em águas mais profundas, porém estão sujeitos a falhas por fadiga quando expostos a esforços cíclicos como ondas ou correnteza. Risers são utilizados em diferentes configurações, como em catenária, verticais ou híbridos (em conjunto com boias), entre outros. rocha de volta para a sonda de perfuração, através do anular existente entre a coluna e o riser.
+Existem também os risers de completação, usados na completação de um poço, etapa anterior à produção, em que são instalados equipamentos para deixar o poço pronto para produzir hidrocarbonetos, como a árvore de natal e coluna de produção. Na Figura 1.1 pode-se observar alguns tipos de risers de produção e um riser de perfuração.
+
+Um tipo de riser, no qual será focado este trabalho, é o Riser Híbrido Autossustentado
+(RHAS), que é constituído de um riser vertical ligado à cabeça de poço e uma boia de subsuperfície na parte superior, que, com alto empuxo, traciona o riser verticalmente, aliviando assim o peso suportado pela plataforma, diferentemente dos casos em que o riser é ligado diretamente à plataforma, como no caso do SCR. No topo do RHAS é ligado um riser flexível (chamado também de jumper) até a plataforma de produção, dessa forma o movimento da plataforma pouco influencia no deslocamento do RHAS, pois o jumper atua como absorvedor e atenuador de movimentos. Além disso, esta configuração permite maior flexibilidade na instalação, pois o RHAS pode ser instalado antes da chegada da plataforma de produção ao local, agilizando o processo inicial de produção. Na figura 1.2 pode-se observar um RHAS sujeito a carregamentos de ondas e correnteza e a movimentos oriundos da plataforma à qual está conectado.
+Neste trabalho pretende-se estudar o comportamento estático e dinâmico de um RHAS em diferentes condições ambientais e com diferentes parâmetros estruturais. Tal estudo é de vital importância para o projeto de estruturas marinhas tais como risers, uma vez que condições ambientais adversas podem sobrecarregar o riser quando em operação, e caso seu projeto, assim como sua operação, não tenha sido corretamente dimensionado, podem ocorrer falhas na estrutura.
+
+Figura 1.2 – Riser Híbrido Autossustentado (RHAS) ligado a uma plataforma de produção.
+
+2. Fundamentos teóricos
+2.1 Fundamentos básicos da estrutura de um riser 
+Este trabalho se refere ao RHAS, que é feito de aço e projetado para ter alta rigidez axial, estando sempre em tração, para evitar a flambagem da coluna. Uma das vantagens em se usar risers rígidos ao invés de flexíveis se deve à sua alta resistência mecânica, podendo suportar grandes pressões submarinas, como no caso de águas ultraprofundas, locais em que risers flexíveis iriam sofrer colapso devido à alta pressão a que seriam expostos. planas permanecem planas após deformações; não há variação de área ou volume com as deformações; e quando ocorre torção as seções transversais permanecem planas.
+Na formulação do elemento corrotacionado, a rotação de cada nó da estrutura é descrita através de matrizes de transformação, que fornecem a orientação dos eixos do sistema de coordenadas solidário ao nó, possibilitando o cálculo de grande rotações.
+A figura 2.1 mostra o diagrama de corpo livre de um elemento infinitesimal de segmento tubular em duas dimensões em que é a tensão cisalhante, é o momento fletor e é a tensão axial no riser, é o comprimento infinitesimal do elemento, e são as forças dos carregamento externos mostrados no centro do segmento (ponto s). é a força devido ao peso próprio do elemento. Usando esse segmento infinitesimal do riser pode-se avaliar seu equilíbrio considerando as forças e momentos, obtendo-se o equacionamento que descreve o deslocamento tanto da boia quanto do riser (Chakrabarti, 1982): Em que é o deslocamento lateral do elemento infinitesimal , é a aceleração lateral, é a coordenada vertical, é o comprimento infinitesimal do elemento, é a rigidez à flexão do riser, é a tensão axial, e são as pressões hidrostáticas interna e externa ao riser, , e são, respectivamente, a área transversal interna do riser, a área da seção transversal do riser e área da seção transversal das paredes do riser, , e são, respectivamente, a densidade do fluido dentro do riser, densidade da água do mar e a densidade do material do riser, é a massa do elemento incluindo a massa adicional por unidade de comprimento, e são as forças por unidade de comprimento nas direções in line e vertical.
+
+2.2 Carregamentos de ondas e correnteza
+Para a realização da análise estática e dinâmica de um corpo submerso, é necessário calcular as velocidades e acelerações das partículas de água à sua volta, para então podermos calcular as forças a que o corpo está sujeito.
+Os carregamentos de correnteza utilizados neste trabalho são modelados de forma relativamente simples, sendo apenas um fluido com velocidade constante horizontal numa determinada faixa da lâmina d’água, enquanto os carregamentos de onda podem ser modelados de duas formas, utilizando teorias que modelam a onda de forma sempre periódica e uniforme, com um período e altura definidos, ou utilizando um espectro de onda que representa a densidade de ondas de diversas frequências que ocorrem numa determinada região.
+Os carregamentos de onda neste trabalho são modelados pela teoria de onda linear de Airy, que é a mais simples das teorias de onda, que lineariza os termos de altura de onda e considera as condições de superfície livre linearizadas para se obter a velocidade horizontal e aceleração de cada partícula de fluido, assim como as velocidades e acelerações verticais: Em que é o comprimento de onda, é chamado de número de onda e é igual a em águas profundas, é a distância da linha média de água até a onda, é a distância do leito marinho até a linha média de água, é a posição vertical, medida a partir do velocidade de propagação da onda, ou celeridade, é dada por . Tais valores estão mostrados na figura 2.2.
+Ressalta-se também que as ondas se comportam diferentemente dependendo da profundidade do leito marinho, podendo descrever uma órbita mais circular se as águas são muito profundas ou em formato mais oval se as águas forem mais rasas, conforme mostra a figura 2.3.
+Nota-se que em águas profundas o diâmetro das órbitas circulares vai se tornando menor (assim como as velocidades horizontal e vertical das partículas) à medida que vão se aproximando do fundo do mar, enquanto que em águas rasas, indo em direção ao fundo do mar, apenas um os eixos da elipse torna-se menor, ou seja, a velocidade horizontal das partículas permanece quase a mesma, embora as velocidades verticais diminuam.
+
+Figura 2.3 – Órbitas da teoria de onda linear.
+2.3 Forças na direção in line 
+É de grande importância avaliar as forças hidrodinâmicas (neste caso, o termo à direita da equação) em estruturas offshore para o seu correto projeto e dimensionamento, porém isso não é tarefa simples, dada a complexa interação entre estrutura e fluido, além da aleatoriedade e não-linearidade das ondas do mar. Há uma grande variedade de estruturas offshore e na maioria delas há em sua composição estruturas tubulares, mais ou menos esbeltas ou rombudas. Dependendo do tamanho de cada estrutura, podem ser usadas diferentes formulações ou teorias, como a equação de Morison, a teoria de Froude-Krylov e a teoria de Difração.
+Cada uma destas teorias tem sua validade de aplicação, ou pelo menos, um melhor resultado em determinadas situações. A equação de Morison, envolvendo forças de arrasto e inércia, só é aplicável quando o arrasto é significativo, que é normalmente o caso quando a estrutura é pequena comparada ao comprimento de onda da água. A teoria de Froude-Krylov é tamanho da estrutura é similar ao comprimento de onda, a presença física da estrutura altera o campo de ondas nas redondezas da estrutura, nesse caso considera-se a difração das ondas na superfície, utilizando-se a teoria de Difração.
+A equação de Morison é composta pelos termos de inércia e arrasto, somados linearmente, com seus coeficientes e determinados experimentalmente, sendo função de parâmetros de rugosidade, números de e . Neste trabalho, julgou-se adequado utilizar a equação de Morison modificada, pelo fato do sistema RHAS ser constituído de elementos esbeltos, na presença de carregamentos de ondas e correnteza: Em que é o deslocamento na direção in line do escoamento, é a velocidade, é a aceleração, é a força na direção in line, por unidade de comprimento, é o coeficiente de inércia, é o coeficiente de massa adicional, é o coeficiente de arrasto, é a velocidade da correnteza e a velocidade da partícula de água devido à onda. é o diâmetro externo do riser. e , sendo a densidade da água do mar.
+Utilizando-se a relação entre e ( ), pode-se chegar a uma forma mais simples:
+(2) Os dois primeiros termos da equação de Morison são referentes à força de inércia enquanto o terceiro termo refere-se à força de arrasto. são definidos como: Em que é chamada de velocidade relativa e é a viscosidade cinemática do fluido.
+Neste trabalho, utilizou-se as equações acopladas nas direções in line e transversal, em que o movimento em uma direção influencia o movimento na outra, usando-se a velocidade resultante :
+(3) Em que é a velocidade na direção transversal ao escoamento, como mostra a figura 2.4.
+
+Figura 2.4 – Ilustração do cálculo da velocidade resultante .
+Sendo assim, podemos reescrever a equação da força na direção in line utilizando o conceito de velocidade resultante, assim como a força na direção transversal:
+(4)
+2.4 Forças na direção transversal 
+Quanto aos deslocamentos na direção transversal ao escoamento, há um aspecto importante a ser considerado: a vibração induzida por vórtices (VIV), assim como a movimentação induzida por vórtices (VIM). Quando há um escoamento viscoso em torno de um elemento cilíndrico, pode ocorrer desprendimento da camada limite em torno do cilindro, fazendo ocorrer uma diferença de pressão na parte posterior (jusante) do cilindro em relação à parte anterior (montante), com desprendimento de vórtices alternados, esta alternância se deve ao crescimento da camada cisalhante que é interrompida pela camada cisalhante do lado oposto, caráter cíclico, aumentam as chances de falha por fadiga do material, apresentando ainda hoje um grande desafio em sua modelagem matemática.
+A designação de VIV ou VIM depende do período de oscilação da vibração, para períodos maiores, da ordem de 100 segundos, denomina-se VIM, que é um movimento relacionado a um corpo que se comporta como um corpo rígido; e para períodos menores, da ordem de 1 segundo, VIV, que é uma vibração associada a um corpo flexível.
+A frequência média de desprendimento dos vórtices é relacionada ao número de Strouhal ( ) e a alguns parâmetros, como o diâmetro do cilindro e velocidade instantânea do fluido , de acordo com a equação a seguir: Porém, a frequência média de desprendimento é também função do número de Reynolds, com o número de Strouhal em função do número de Reynolds para cilindros estacionários num escoamento constante e uniforme, de acordo com a figura 2.6. 1966).
+Pode-se então, perceber que para uma grande faixa de número de Reynolds, entre 103 e 105, tem-se um número de Strouhal quase constante (em torno de 0,2), que é o valor normalmente utilizado neste trabalho para o riser. Note-se que a linha superior se refere a uma superfície lisa e linha inferior a uma superfície rugosa.
+Para escoamentos oscilatórios, utilizou-se o modelo de Ferrari e Bearman (1998), que fornece resultados melhores para altos valores de . A formulação proposta para a frequência de desprendimento de vórtices para um cilindro oscilante na direção in line é: Sendo chamado de velocidade média cumulativa do escoamento oscilatório. Caso a formulação de onda usada não fosse linear, seria necessário fazer a integração a cada meio ciclo, pois o termo não seria bem representado por uma função harmônica. A figura 2.7 ilustra como é feita a integração.
+Assim, a força referente ao fenômeno de VIV, transversal ao escoamento, pode ser expressa como: Onde é a densidade do fluido, é a diferença de fase entre a resposta transversal do riser e a força hidrodinâmica na direção transversal e é coeficiente de sustentação.
+O coeficiente de sustentação é comumente usado para definir as forças transversais ao escoamento na forma da equação: Em que é a força transversal e a velocidade do escoamento.
+Dessa forma, assumindo que o riser está oscilando tanto na direção in line quanto na direção transversal, a força de VIV é utilizada no cálculo dos esforços transversais na direção , representados por:
+(6) Em que é o deslocamento na direção transversal do escoamento, é a velocidade e é a aceleração, os dois termos à direita (com e ) são os efeitos de reação do fluido.
+Assim, podemos escrever a força na direção transversal como:
+
+2.5 Análise de elementos finitos 
+A análise em elementos finitos foi feita no domínio do tempo, que, apesar de requerer maior esforço computacional quando comparada com análise no domínio da frequência, normalmente fornece resultados mais precisos.
+Geralmente, a equação diferencial governante de um sistema com vários graus de liberdade pode ser escrita como: Em que , e são, respectivamente, as matrizes de massa, amortecimento estrutural e rigidez global do sistema, , e são os vetores de aceleração, velocidade e deslocamento e é o vetor força.
+Substituindo as equações de e na equação acima, temos as equações da dinâmica do riser: Em que os subscritos e se referem às direções in line e transversal ao escoamento. equações diferenciais, normalmente usado em análises computacionais de elementos finitos.
+Baseia-se em tentar satisfazer a equação em intervalos de tempo , variando os deslocamentos, velocidades e acelerações dentro desse . Assim, utilizando condições iniciais como d e e pequenos intervalos de tempo assume-se que:
+(9) Em que e são os parâmetros de Newmark e determinam a estabilidade da solução.
+Para e tem-se uma solução incondicionalmente estável.
+Para uma equação do tipo:
+(11) O algoritmo de Newmark funciona da seguinte forma: resolve-se a equação (10) para e deixa-se em função de e então substitui-se o termo da equação (9) pela solução encontrada. Assim, encontram-se equações para e apenas em função de . Estas duas equações são substituídas em (11) para solução de
+. Após calculado + , volta-se às duas equações anteriores para cálculo de + e + .
+
+3. Resultados
+Foi feito, neste trabalho, uma análise computacional para correto entendimento do comportamento do RHAS quando na presença de carregamentos como ondas e correnteza com diferentes valores, além de variação de parâmetros estruturais e geométricos, com diferentes valores de coeficientes de arrasto, massa adicional e sustentação, respectivamente: .
+Apesar do sistema de um riser híbrido autossustentado ser constituído de um jumper flexível ligando a boia à plataforma de produção, neste trabalho não será considerado os efeitos oriundos do jumper e da plataforma, uma vez que estes influenciam muito pouco o deslocamento do riser rígido vertical.
+O sistema do RHAS apresentado neste trabalho tem 2700 m, sendo os 37 m do topo pertencentes à boia, enquanto os 2663m restantes são do riser. A malha de elementos finitos foi modelada em 673 elementos cilíndricos, com a metade da massa de cada elemento concentrada em cada nó, com seis graus de liberdade em cada nó, sendo a boia com 7 elementos de comprimentos variáveis, maiores no topo e diminuindo na parte de baixo, e o riser com elementos de tamanhos iguais, como ilustra a figura 3.1.
+
+O tempo de simulação utilizado em cada caso foi variável, cada caso necessitou um período de tempo próprio para entrar em regime permanente de oscilação, em alguns casos 2000 segundos foram suficientes, em outros foi necessário simular por 4500 segundos, sempre utilizando um passo de tempo de 0,05 segundo para cada iteração.
+Foram gerados gráficos das envoltórias dos deslocamentos do RHAS em todos os seus pontos, de acordo com a malha de elementos finitos. Nos casos de correnteza, os gráficos na direção in line representam o máximo deslocamento do RHAS, enquanto que na direção transversal, representam os valores máximos e mínimos, dado o forte caráter oscilatório do movimento de VIV, atuando na direção transversal. Também nos casos de carregamento com ondas, os gráficos na direção in line mostram os máximos e mínimos deslocamentos do sistema RHAS. forças constantes, ou seja, peso próprio do RHAS e empuxo da boia, e quando há carregamento de correnteza (neste trabalho sempre constante no tempo), a força e arrasto proveniente dela. Em seguida, a análise dinâmica considera todos os aspectos restantes, como ondas e esforços de VIV.
+Foram realizadas simulações com diferentes parâmetros com variados carregamentos de onda e correnteza e na tabela 3.1 estão mostrados os valores padronizados, os quais foram usados em todos os casos, exceto quando indicado contrário.
+
+Uma série histórica, ou série temporal, é um gráfico que mostra o deslocamento de um elemento da malha de elementos finitos ao longo do tempo. Como essa série histórica tem uma parte em regime transiente e uma parte em regime permanente, foram descartados os valores em regime transiente para a composição dos gráficos das envoltórias, utilizando-se apenas os valores em regime permanente.
+A figura 3.2 mostra uma série temporal da análise dinâmica de um elemento do RHAS em particular (o primeiro elemento do riser, logo abaixo da boia) com um carregamento de correnteza somente na boia de 1,2 m/s. Observa-se como no tempo inicial (zero) o sistema já está deslocado em pouco mais de 88 m, devido à análise estática anterior, que compreende o carregamento de correnteza.
+
+
+No primeiro caso, como mostra a figura 3.3, foi simulado um carregamento de diferentes velocidades de correnteza que atuam somente na boia, sempre numa mesma direção, obtendo-se os deslocamentos in line e transversal. Observa-se que quanto maior a velocidade de correnteza, maior o valor da força , que contribui para o maior deslocamento do sistema. Na direção transversal, há força apenas na boia, contribuindo para um maior deslocamento nessa região, enquanto que na região do riser há apenas a reação do fluido.
+Nas séries temporais do caso 1 pode-se perceber uma clara tendência de menor amplitude de vibração transversal dos pontos mais próximos do fundo do mar, em comparação com os No caso que ilustra a figura 3.12, foi utilizado carregamento somente de onda com diferentes alturas de onda, considerando uma onda regular sempre de período 12 s. Nota-se um maior deslocamento do RHAS quanto maior a altura de onda, dada à maior energia das ondas com maiores alturas. O maior deslocamento máximo do sistema no caso com onda de altura 12 m se deve ao fato que, por ser uma onda progressiva e com grande energia, a onda não permite que o RHAS volte à posição inicial.
+Verifica-se neste caso com carregamento somente de onda, e também em outros neste trabalho, quando há apenas carregamento de ondas, que não há deslocamentos na direção transversal ao escoamento. Tal fato pode ser explicado pela não separação do escoamento devido ou quando x . Assim, na figura 3.13, sob um carregamento somente de ondas, observa-se como, em toda extensão do RHAS, os valores nunca chegam a ser próximos ou maiores que 1, não havendo forças de VIV.
+A tabela 3.3 mostra diversos valores de e x usados neste trabalho, exatamente no elemento do riser abaixo da boia, que é o valor máximo em todos os casos. Mesmo quando os valores são um pouco acima de 1, como 1,2 ou 1,8, ainda são valores baixos para formação de vórtices, resultando numa força de VIV nula.
+As séries temporais do caso 2 mostram como as amplitudes de deslocamento são maiores nos casos de maior altura de onda.
+
+
+
+
+
+
+Na figura 3.18, observa-se o RHAS submetido a ondas com carregamento somente de ondas com diferentes períodos, sempre com a mesma altura, 4 m. Nota-se o maior deslocamento do sistema com ondas de maior período devido ao aumento de energia das ondas quando aumenta-se o período de onda.
+Nas séries temporais do caso 3, observa-se as maiores amplitudes quando as ondas são de maior período e um regime transiente maior quando o período de onda é 10 s, devido possivelmente à proximidade entre a frequência da onda e do 6º modo de vibração (0,106 Hz).
+
+
+
+
+
+Na figura 3.23, observa-se um caso com carregamento de ondas de período 12 s e altura 6 m com diferentes empuxos na boia, sem alterar as dimensões da boia ou do riser. Quanto maior o empuxo na boia tende a ser menor o deslocamento do riser, no entanto, não é o que se observa, pois o sistema com empuxo de 10000 kN tem um deslocamento quase em todos os pontos inferior ao do sistema com 16000 kN. Isso se deve ao fato da mudança no modo de vibração do sistema quando há mudança na tração do riser. Quando se aumenta a tração, ocorre transição do modo de vibrar do maior modo para o menor modo e há um aumento da amplitude de vibração do sistema. A figura 3.23 mostra que enquanto o sistema, com empuxo de 16000 kN, está no 4º modo de vibrar, o sistema com empuxo de 10000 kN está no 5º modo de vibrar.
+
+
+
+
+
+Na figura 3.28, com carregamento de correnteza de 1,2 m/s somente na boia, o sistema submetido a diferentes empuxos da boia, novamente sem alterar dimensões do sistema. Nota-se maior deslocamento na direção in line quanto menor o empuxo, enquanto que na direção transversal as diferenças de empuxo pouco alteram o deslocamento.
+As séries temporais do caso 5 mostram maior amplitude de vibração transversal para os pontos mais altos do sistema, assim como uma maior diferença entre as posições iniciais e finais da análise, quanto mais alto o ponto no sistema.
+
+
+
+
+
+
+
+
+
+Na figura 3.37, com carregamento de correnteza de velocidade 1,2 m/s somente na região da boia, variou-se o diâmetro da boia, porém sem acarretar um aumento do empuxo devido ao aumento de volume. Nota-se que o maior diâmetro resulta num maior deslocamento do sistema, tanto in line quanto transversal, devido ao aumento do arrasto que é produzido com o aumento do diâmetro hidrodinâmico da boia.
+As séries temporais do caso 6 mostram uma maior amplitude de oscilação na direção transversal nos pontos mais altos do sistema, e, como o caso 5, maior diferença entre a posição inicial e final da análise quanto mais altos os pontos do sistema Na figura 3.46, com carregamento de correnteza de velocidade 1,2 m/s somente na boia, o aumento do diâmetro da boia implicou num aumento natural do empuxo da boia, diferentemente do caso mostrado na figura 3.37. Percebe-se que na direção in line, apesar de haver aumento do arrasto devido ao maior diâmetro, o aumento do empuxo é predominante, fazendo com que quanto maior o diâmetro, menor seja o deslocamento do RHAS. Quanto ao deslocamento na direção transversal, nota-se que o empuxo não é tão predominante, assim quanto maior o diâmetro, maior o deslocamento transversal.
+As séries temporais do caso 7 mostram novamente a maior amplitude de oscilação dos pontos mais altos do sistema.
+
+
+
+
+
+
+
+
+
+Na figura 3.55, com carregamento de ondas de período 12 s e altura 4 m, foi simulado o RHAS com diferentes coeficientes de arrasto . Observa-se que neste caso que quanto maior o coeficiente de arrasto, menor é o deslocamento na direção in line, devido à força de inércia, neste caso, devido à baixa velocidade da partícula de água, ser bem maior que a força de arrasto.
+Nas séries temporais do caso 8 pode-se perceber que quanto maior o , menor é a amplitude da oscilação inicial e mais rápido o sistema entra em regime permanente.
+Nas séries temporais do caso 8 pode-se perceber que quanto maior o , menor é a Na figura 3.60 observa-se o RHAS submetido a um carregamento de correnteza de velocidade 1,2 m/s somente na região da boia, com diferentes coeficientes de arrasto .
+Diferentemente do caso anterior, aqui quanto maior o coeficiente de arrasto, maior o deslocamento na direção in line, porém, o mesmo não ocorre na direção transversal, pois com o aumento do , há uma maior reação do fluido ao movimento do sistema, como mostra a equação (7).
+Nas séries temporais do caso 9, na direção in line, observa-se um período transiente menor com um menor valor de , qualquer que seja o ponto do sistema.
+
+
+
+
+
+
+
+
+
+Na figura 3.69, com carregamento de ondas de período 12 s e altura 4 m, com diferentes coeficientes de massa adicional CA. Nota-se um deslocamento um pouco maior na direção in line quando há um aumento do coeficiente de massa adicional, porém, o sistema com coeficiente 2,0 tem amplitude menor que os anteriores, pois está no 5º modo de vibrar, enquanto os outros estão no 4º modo.
+Nas séries temporais do caso 10, o sistema com coeficiente igual a 2,0 alcança o regime permanente mais tarde, por estar no 5º modo de vibração.
+
+
+
+
+
+Na figura 3.74, com carregamento de correnteza somente na boia com velocidade 1,2 m/s, com diferentes coeficientes de massa adicionada CA do sistema, nota-se que na direção in line a diferença dos deslocamentos foi bem pequena para cada coeficiente, enquanto que na direção transversal oberva-se que quanto maior o coeficiente CA, menor o deslocamento, dada a reação do fluido contrária ao movimento, de acordo com a equação (7). diferentes coeficientes de massa adicional, tanto in line quanto transversal.
+Nas séries temporais do caso 11, não se nota grande diferenças de deslocamento com Na figura 3.83, o RHAS foi submetido a um carregamento somente de ondas de período 12 s e altura 4 m, com diferentes coeficientes de sustentação . Observa-se que não há alterações no deslocamento in line, todas as curvas estão sobrepostas, pois o atua apenas na direção transversal; porém devido à pequena velocidade das partículas de onda, não foram geradas forças transversais nesse caso.
+Nas séries temporais do caso 12, pode-se observar que todas elas são exatamente iguais, pois o em nada influencia o deslocamento in line da estrutura.
+
+
+
+
+
+Na figura 3.88, observa-se o RHAS submetido a um carregamento de correnteza de 1,2 m/s somente na boia, com diferentes coeficientes de sustentação . O deslocamento do sistema na direção in line foi afetado provavelmente pelo fato das equações dos movimentos in line e transversal serem acopladas como descrito na equação (3).
+Nas séries temporais do caso 13, destaca-se a grande amplitude dos deslocamentos transversais com alto e a muito pequena amplitude com baixo . Além disso, as séries de deslocamento in line com baixos valores de têm um regime transiente muit pequeno comparado aos com altos valores de .
+
+
+
+
+
+
+
+
+
+Na figura 3.97, observa-se o sistema submetido a uma correnteza somente na boia de velocidade 1,2 m/s, com diferentes densidades do seu fluido interno. Foram simulados três casos de diferentes fluidos, com óleo pesado, médio e leve, que têm sua densidade específica relacionada com o grau API da seguinte forma: enquanto que na direção transversal o riser preenchido com óleo mais leve tem um maior deslocamento, mesmo com uma maior tração total no sistema. que mostra que o fluido interno do riser pouco importa nesta análise.
+Observa-se nas séries temporais do caso 14 muito pequenas diferenças de deslocamento, Na figura 3.104, observa-se o RHAS com carregamento de ondas de período 12 s e altura 4 m. Observa-se que o fluido mais leve tem o deslocamento na direção in line ligeiramente menor, devido à maior tração total no sistema, uma vez que o peso próprio do riser diminui quando preenchido por óleo leve.
+Nas séries temporais do caso 15, observa-se, como no caso 14, pouca diferença de deslocamentos com diferentes fluidos internos.
+
+
+
+4. Conclusões
+Este estudo procurou utilizar conceitos bem fundamentos de análise da hidrodinâmica de corpos esbeltos e aplicá-los num estudo paramétrico para um modelo de riser sustentado por uma boia de subsuperfície, visando fornecer material para discussões sobre o comportamento de um riser híbrido autossustentado em águas ultraprofundas.
+Os diferentes valores de carregamentos de correnteza e onda mostraram-se, em grande parte dos casos, de grande influência nos resultados, devendo, portanto, serem corretamente estimados na local onde for instalado um RHAS.
+Da mesma forma, o empuxo da boia, que está relacionado com as dimensões da boia, revelou-se um parâmetro importante, alterando substancialmente o comportamento do sistema, devendo, pois, ser cuidadosamente estudado para melhor operação do sistema Pôde ser observada a importância dos coeficientes de arrasto e sustentação, na variação das amplitudes dos deslocamento in line e oscilação transversal, apontando que, devido aos esforços cíclicos, a falha por fadiga deve ser levada em conta no projeto do riser.
+As forças de VIV mostraram-se significativamente importantes no comportamento do sistema, influenciando inclusive nos deslocamentos in line, desde que a velocidade do escoamento seja suficientemente grande, pois carregamentos com ondas que gerem baixos números de não são suficientes para que ocorra o desprendimento de vórtices. E ainda, uma vez que o fenômeno de VIV não é completamente compreendido, deve-se olhar com cuidado para tal fenômeno.
+Como sugestão para futuros trabalhos, pode-se indicar a simulação de carregamentos mais complexos, envolvendo correnteza em conjunto com ondas; a avaliação das forças e da vida em fadiga do sistema; além de uma melhor modelagem do sistema, ligando um jumper flexível ao sistema e utilização da teoria de Difração para o escoamento em torno da boia, dado seu grande diâmetro.
+

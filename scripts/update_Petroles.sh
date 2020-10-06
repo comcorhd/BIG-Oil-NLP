@@ -8,4 +8,4 @@ git diff
 git add -u
 git commit -m "update Petroles from interrogatorio.ica.ele.puc-rio.br"
 git checkout master
-echo "git pull new_documents ou git branch -D new_documents"
+echo "git merge new_documents ou git branch -D new_documents"
