@@ -23,7 +23,7 @@ import numpy as np
 from multiprocessing import Pool, freeze_support
 import argparse
 import pickle
-from Restrictions import Restrictions , process_result, preprocessing
+from Restrictions_Passiva import Restrictions , process_result, preprocessing
 import sys
 import json
 

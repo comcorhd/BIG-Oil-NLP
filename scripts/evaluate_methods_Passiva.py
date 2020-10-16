@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append("../ACDC-UD")
 import estrutura_ud
-import Cristian_Marneffe
+import Cristian_Marneffe_Passiva as Cristian_Marneffe
 import validar_UD
 from pprint import pprint
 from collections import defaultdict
@@ -131,34 +131,33 @@ for combination in sorted([x for x in list(combinatoria) if x], key=lambda x: x[
 
 html += "</table><hr>"
 
-if sys.argv[1] != sys.argv[2]:
-    html += "<h2>Detalhe: matriz de confusão</h2><hr>"
-    html += "<table border='1'>"
-    html += "<tr><th>Coluna</th><th>Divergências (por coluna)</th><th>sistema_guia estava correto (não é erro)</th><th>Não é erro %</th><th>sistema estava correto (erro de fato)</th><th>Ninguém estava correto (erro de fato)</th><th>Erro de fato %</th><th>sistema estava correto %</th><th>Precisa de correção cuidadosa (ninguém estava correto)</th></tr>"
-    for coluna in confusion_matrix_col:
-        html += f"<tr><td>{coluna}</td><td>{len(confusion_matrix_col[coluna])}</td><td>{len(confusion_matrix_hit[coluna]['sistema_guia'])}</td><td>{len(confusion_matrix_hit[coluna]['sistema_guia'])*100 / len(confusion_matrix_col[coluna])}%</td><td>{len(confusion_matrix_hit[coluna]['sistema'])}</td><td>{len(confusion_matrix_hit[coluna]['none'])}</td><td>{(len(confusion_matrix_hit[coluna]['sistema']) + len(confusion_matrix_hit[coluna]['none']))*100 / len(confusion_matrix_col[coluna])}%</td><td>{(len(confusion_matrix_hit[coluna]['sistema']))*100 / len(confusion_matrix_col[coluna])}%</td><td>{(len(confusion_matrix_hit[coluna]['none']))*100 / len(confusion_matrix_col[coluna])}%</td></tr>"
-    html += f"<tr><td><b>Total</b></td><td>{sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(confusion_matrix_hit[coluna]['sistema_guia']) for coluna in confusion_matrix_col])}</td><td>{sum([len(confusion_matrix_hit[coluna]['sistema_guia']) for coluna in confusion_matrix_col])*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td><td>{sum([len(confusion_matrix_hit[coluna]['sistema']) for coluna in confusion_matrix_col])}</td><td>{sum([len(confusion_matrix_hit[coluna]['none']) for coluna in confusion_matrix_col])}</td><td>{(sum([len(confusion_matrix_hit[coluna]['sistema']) for coluna in confusion_matrix_col]) + sum([len(confusion_matrix_hit[coluna]['none']) for coluna in confusion_matrix_col]))*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td><td>{(sum([len(confusion_matrix_hit[coluna]['sistema']) for coluna in confusion_matrix_col]))*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td><td>{sum([len(confusion_matrix_hit[coluna]['none']) for coluna in confusion_matrix_col])*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td></tr>"
-    html += "</table><br>"
+html += "<h2>Detalhe: matriz de confusão</h2><hr>"
+html += "<table border='1'>"
+html += "<tr><th>Coluna</th><th>Divergências (por coluna)</th><th>sistema_guia estava correto (não é erro)</th><th>Não é erro %</th><th>sistema estava correto (erro de fato)</th><th>Ninguém estava correto (erro de fato)</th><th>Erro de fato %</th><th>sistema estava correto %</th><th>Precisa de correção cuidadosa (ninguém estava correto)</th></tr>"
+for coluna in confusion_matrix_col:
+    html += f"<tr><td>{coluna}</td><td>{len(confusion_matrix_col[coluna])}</td><td>{len(confusion_matrix_hit[coluna]['sistema_guia'])}</td><td>{len(confusion_matrix_hit[coluna]['sistema_guia'])*100 / len(confusion_matrix_col[coluna])}%</td><td>{len(confusion_matrix_hit[coluna]['sistema'])}</td><td>{len(confusion_matrix_hit[coluna]['none'])}</td><td>{(len(confusion_matrix_hit[coluna]['sistema']) + len(confusion_matrix_hit[coluna]['none']))*100 / len(confusion_matrix_col[coluna])}%</td><td>{(len(confusion_matrix_hit[coluna]['sistema']))*100 / len(confusion_matrix_col[coluna])}%</td><td>{(len(confusion_matrix_hit[coluna]['none']))*100 / len(confusion_matrix_col[coluna])}%</td></tr>"
+html += f"<tr><td><b>Total</b></td><td>{sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(confusion_matrix_hit[coluna]['sistema_guia']) for coluna in confusion_matrix_col])}</td><td>{sum([len(confusion_matrix_hit[coluna]['sistema_guia']) for coluna in confusion_matrix_col])*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td><td>{sum([len(confusion_matrix_hit[coluna]['sistema']) for coluna in confusion_matrix_col])}</td><td>{sum([len(confusion_matrix_hit[coluna]['none']) for coluna in confusion_matrix_col])}</td><td>{(sum([len(confusion_matrix_hit[coluna]['sistema']) for coluna in confusion_matrix_col]) + sum([len(confusion_matrix_hit[coluna]['none']) for coluna in confusion_matrix_col]))*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td><td>{(sum([len(confusion_matrix_hit[coluna]['sistema']) for coluna in confusion_matrix_col]))*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td><td>{sum([len(confusion_matrix_hit[coluna]['none']) for coluna in confusion_matrix_col])*100 / sum([len(confusion_matrix_col[coluna]) for coluna in confusion_matrix_col])}%</td></tr>"
+html += "</table><br>"
 
-    html += "<table border='1'>"
-    html += "<tr><th>Coluna</th><th>Convergências (por coluna)</th><th>Convergência correta</th><th>Convergência incorreta</th><th>Confiança das convergências</th></tr>"
-    for coluna in confusion_matrix_col:
-        html += f"<tr><td>{coluna}</td><td>{len(convergence_col[coluna])}</td><td>{len(convergence_hit[coluna])}</td><td>{len(convergence_col[coluna] - convergence_hit[coluna])}</td><td>{len(convergence_hit[coluna])*100 / len(convergence_col[coluna])}%</td></tr>"
-    html += f"<tr><td><b>Total</b></td><td>{sum([len(convergence_col[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(convergence_hit[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(convergence_col[coluna]) - len(convergence_hit[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(convergence_hit[coluna]) for coluna in confusion_matrix_col])*100 / sum([len(convergence_col[coluna]) for coluna in confusion_matrix_col])}</td></tr>"
-    html += "</table><br>"
+html += "<table border='1'>"
+html += "<tr><th>Coluna</th><th>Convergências (por coluna)</th><th>Convergência correta</th><th>Convergência incorreta</th><th>Confiança das convergências</th></tr>"
+for coluna in confusion_matrix_col:
+    html += f"<tr><td>{coluna}</td><td>{len(convergence_col[coluna])}</td><td>{len(convergence_hit[coluna])}</td><td>{len(convergence_col[coluna] - convergence_hit[coluna])}</td><td>{len(convergence_hit[coluna])*100 / len(convergence_col[coluna])}%</td></tr>"
+html += f"<tr><td><b>Total</b></td><td>{sum([len(convergence_col[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(convergence_hit[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(convergence_col[coluna]) - len(convergence_hit[coluna]) for coluna in confusion_matrix_col])}</td><td>{sum([len(convergence_hit[coluna]) for coluna in confusion_matrix_col])*100 / sum([len(convergence_col[coluna]) for coluna in confusion_matrix_col])}</td></tr>"
+html += "</table><br>"
 
-    html += "<table border='1'>"
-    html += f"<tr><th></th><th>Dos {len(confusion_matrix_errors)} tokens com erros de fato, o método encontrou:</th><th>Dos {len(convergence)} tokens com convergência incorreta, o método encontrou:</th></tr>"
-    html += f"<tr><td>Nenhum método (apenas a matriz)</td><td>{len(confusion_matrix_errors - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))} ({ len(confusion_matrix_errors - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))*100 / len(confusion_matrix_errors)}%)</td><td>{len(convergence - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))} ({len(convergence - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))*100 / len(convergence)}%)</td></tr>"
-    for metodo in [x for x in metodos if x not in ["Matriz de confusão"]]:
-        html += f"<tr><td>{metodo}</td><td>{len(set.intersection(confusion_matrix_errors, metodos[metodo]))} ({len(set.intersection(confusion_matrix_errors, metodos[metodo]))*100 / len(confusion_matrix_errors)}%)</td><td>{len(set.intersection(convergence, metodos[metodo]))} ({len(set.intersection(convergence, metodos[metodo]))*100 / len(convergence)}%)</td></tr>"
-    html += "</table><hr>"
+html += "<table border='1'>"
+html += f"<tr><th></th><th>Dos {len(confusion_matrix_errors)} tokens com erros de fato, o método encontrou:</th><th>Dos {len(convergence)} tokens com convergência incorreta, o método encontrou:</th></tr>"
+html += f"<tr><td>Nenhum método (apenas a matriz)</td><td>{len(confusion_matrix_errors - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))} ({ len(confusion_matrix_errors - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))*100 / len(confusion_matrix_errors)}%)</td><td>{len(convergence - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))} ({len(convergence - set.union(*[metodos[metodo] for metodo in metodos if metodo not in ['Matriz de confusão']]))*100 / len(convergence)}%)</td></tr>"
+for metodo in [x for x in metodos if x not in ["Matriz de confusão"]]:
+    html += f"<tr><td>{metodo}</td><td>{len(set.intersection(confusion_matrix_errors, metodos[metodo]))} ({len(set.intersection(confusion_matrix_errors, metodos[metodo]))*100 / len(confusion_matrix_errors)}%)</td><td>{len(set.intersection(convergence, metodos[metodo]))} ({len(set.intersection(convergence, metodos[metodo]))*100 / len(convergence)}%)</td></tr>"
+html += "</table><hr>"
 
 html += '</body></html>'
 
 if not os.path.isdir(f"EM"):
     os.mkdir(f"EM")
-with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}.html", "w") as f:
+with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}_Passiva.html", "w") as f:
     f.write(html)
 
 
