@@ -13,6 +13,9 @@ if len(sys.argv) != 4:
     print("usage: evaluate_methods.py system.conllu sistema_guiamodifications.conllu goldenmodifications.conllu")
     exit()
 
+if not os.path.isdir(f"EM"):
+    os.mkdir(f"EM")
+
 sistema = estrutura_ud.Corpus(recursivo=True)
 sistema_guia = estrutura_ud.Corpus(recursivo=True)
 golden = estrutura_ud.Corpus(recursivo=True)
@@ -74,7 +77,8 @@ for sentid, sentence in sistema_guia.sentences.items():
                         confusion_matrix_hit[coluna]['none'].add(f"{sentid}<tok>{t}")
                         confusion_matrix_errors.add(f"{sentid}<tok>{t}")
 
-cristian_marneffe_lexicais = set()
+cristian_marneffe_lexicais = []
+cristian_marneffe_lexicais_dependency = []
 lexical_pairs = 0
 lexical_pairs_hit = 0
 lexical_governor = 0
@@ -85,7 +89,7 @@ for exemplo in Cristian_Marneffe.main(sys.argv[2], 'lexicais'):
     deprel_groups = defaultdict(list)
     for error in exemplo['frases']:
         if all(error['sent_id'] in x.sentences for x in [sistema, sistema_guia, golden]) and all(len(x.sentences[error['sent_id']].tokens) == len(x.sentences[error['sent_id']].tokens) for x in [sistema, sistema_guia, golden]):
-            cristian_marneffe_lexicais.add(f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}") #realmente ID1 ou ID2?
+            cristian_marneffe_lexicais.append(f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}") #realmente ID1 ou ID2?
             deprel_groups[sistema_guia.sentences[error['sent_id']].tokens[sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id2'])]].deprel].append(f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}")
             if f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}" in all_modifications and not example_found_error:
                 example_found_error = True
@@ -95,12 +99,14 @@ for exemplo in Cristian_Marneffe.main(sys.argv[2], 'lexicais'):
     for deprel in deprel_groups:
         example_found_error = False
         for token in deprel_groups[deprel]:
+            cristian_marneffe_lexicais_dependency.append(token)
             if token in all_modifications and not example_found_error:
                 example_found_error = True
                 lexical_governor_hit += 1
 lexical_governor += lexical_pairs
 
-cristian_marneffe_gramaticais = set()
+cristian_marneffe_gramaticais = []
+cristian_marneffe_gramaticais_dependency = []
 grammatical_pairs = 0
 grammatical_pairs_hit = 0
 grammatical_governor = 0
@@ -111,7 +117,7 @@ for exemplo in Cristian_Marneffe.main(sys.argv[2], 'gramaticais'):
     deprel_groups = defaultdict(list)
     for error in exemplo['frases']:
         if all(error['sent_id'] in x.sentences for x in [sistema, sistema_guia, golden]) and all(len(x.sentences[error['sent_id']].tokens) == len(x.sentences[error['sent_id']].tokens) for x in [sistema, sistema_guia, golden]):
-            cristian_marneffe_gramaticais.add(f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}") #realmente ID1 ou ID2?
+            cristian_marneffe_gramaticais.append(f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}") #realmente ID1 ou ID2?
             deprel_groups[sistema_guia.sentences[error['sent_id']].tokens[sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id2'])]].deprel].append(f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}")
             if f"{error['sent_id']}<tok>{sistema_guia.sentences[error['sent_id']].map_token_id[str(error['id1'])]}" in all_modifications and not example_found_error:
                 example_found_error = True
@@ -121,10 +127,49 @@ for exemplo in Cristian_Marneffe.main(sys.argv[2], 'gramaticais'):
     for deprel in deprel_groups:
         example_found_error = False
         for token in deprel_groups[deprel]:
+            cristian_marneffe_gramaticais_dependency.append(token)
             if token in all_modifications and not example_found_error:
                 example_found_error = True
                 grammatical_governor_hit += 1
 grammatical_governor += grammatical_pairs
+
+#PRINT das frases dos n-grams inconsistentes
+def print_token(i, length, token):
+    sent_id = token.split("<tok>")[0]
+    t = int(token.split("<tok>")[1])
+    head = sistema_guia.sentences[sent_id].tokens[t].head_token.lemma + "_" + sistema_guia.sentences[sent_id].tokens[t].head_token.deprel
+    child = sistema_guia.sentences[sent_id].tokens[t].lemma + "_" + sistema_guia.sentences[sent_id].tokens[t].deprel
+    head_t = int(sistema_guia.sentences[sent_id].map_token_id[sistema_guia.sentences[sent_id].tokens[t].head_token.id])
+    return "{}/{} - <span style='color:red'>{}</span> <- <span style='color:blue'>{}</span>: {}<hr>".format(
+        i+1,
+        length,
+        head,
+        child,
+        " ".join(["<span style='color:{};'>".format("red"*(x_t==head_t)+"blue"*(x_t==t)) + x.word + "</span>" for x_t, x in enumerate(sistema_guia.sentences[sent_id].tokens) if not '-' in x.id])
+    )
+with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}_n-grams-lexicais.html", "w+") as f:
+    f.write("<html><meta charset='utf-8'/><body>")
+    for i, token in enumerate(cristian_marneffe_lexicais):
+        f.write(print_token(i, len(cristian_marneffe_lexicais), token))
+    f.write("</body></html>")
+
+with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}_n-grams-gramaticais.html", "w+") as f:
+    f.write("<html><meta charset='utf-8'/><body>")
+    for i, token in enumerate(cristian_marneffe_gramaticais):
+        f.write(print_token(i, len(cristian_marneffe_gramaticais), token))
+    f.write("</body></html>")
+
+with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}_n-grams-lexicais-dependency.html", "w+") as f:
+    f.write("<html><meta charset='utf-8'/><body>")
+    for i, token in enumerate(cristian_marneffe_lexicais_dependency):
+        f.write(print_token(i, len(cristian_marneffe_lexicais_dependency), token))
+    f.write("</body></html>")
+
+with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}_n-grams-gramaticais-dependency.html", "w+") as f:
+    f.write("<html><meta charset='utf-8'/><body>")
+    for i, token in enumerate(cristian_marneffe_gramaticais_dependency):
+        f.write(print_token(i, len(cristian_marneffe_gramaticais_dependency), token))
+    f.write("</body></html>")
 
 #combinações
 metodos = {
@@ -133,6 +178,8 @@ metodos = {
     'N-grams gramaticais': cristian_marneffe_gramaticais, 
     'N-grams lexicais': cristian_marneffe_lexicais
     }
+for metodo in metodos:
+    metodos[metodo] = set(metodos[metodo])
 combinatoria = []
 somas = defaultdict()
 for i in range(len(metodos)+1):
@@ -203,8 +250,6 @@ html += f"</table><br>"
 
 html += '</body></html>'
 
-if not os.path.isdir(f"EM"):
-    os.mkdir(f"EM")
 with open(f"EM/{sys.argv[1].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[1] else sys.argv[1].rsplit('.', 1)[0]}_{sys.argv[2].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[2] else sys.argv[2].rsplit('.', 1)[0]}_{sys.argv[3].rsplit('/', 1)[1].rsplit('.', 1)[0] if '/' in sys.argv[3] else sys.argv[3].rsplit('.', 1)[0]}.html", "w") as f:
     f.write(html)
 
