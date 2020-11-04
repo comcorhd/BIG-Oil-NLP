@@ -6,8 +6,7 @@ Repositório exclusivo para trabalho do grupo [ComCorHd](http://comcorhd.letras.
 
 ## Releases
 
-(em breve)
-
+[Petroles v1](releases/Petroles v1.conllu)
 
 ## Descrição do repositório
 
