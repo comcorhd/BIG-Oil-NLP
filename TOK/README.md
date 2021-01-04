@@ -1,3 +1,3 @@
-Caso seja necess�rio continuar tokenizando:
-Usar os arquivos TOK_{}_golden.conllu, pois cont�m as �ltimas edi��es realizadas, para tokenizar.
-Comparar com o arquivo original TOK_{}.conllu, e juntar o golden com o previous_golden TOK_golden.conllu (c�digo descrito no notebook).
+- TOK_golden.conllu contém menos sentenças, apenas alguns dos casos que o anotador automático errou, e contém indicações de "yyy" e "zzz" para ponto final e ponto e vírgula imaginários;
+- Petroles-TOK.conllu contém absolutamente todas as sentenças que tiveram tokenização e sentenciação corrigidas pelos anotadores.
+- Petroles-TOK-UDPIPE.conllu contém as mesmas frases de Petroles-TOK.conllu, porém tokenizadas/sentenciadas pelo UDPipe.
