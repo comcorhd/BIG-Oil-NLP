@@ -6,7 +6,9 @@ Repositório exclusivo para trabalho do grupo [ComCorHd](http://comcorhd.letras.
 
 ## Releases
 
-[Petroles v1](releases/Petroles v1.conllu)
+[Petroles v1](releases/Petroles_v1.conllu)
+
+[Golden de tokenização e sentenciação](TOK/Petroles-TOK.conllu)
 
 ## Descrição do repositório
 
