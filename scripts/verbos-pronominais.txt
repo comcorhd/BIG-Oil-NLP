@@ -8,5 +8,7 @@ pronominals = ["insinuar","fornecer","prover","depravar","armar","munir","abenç
 if token.lemma == "se" and token.head_token.lemma in pronominals and token.upos == "PRON":
 	if token.deprel != "expl":
 		token.deprel = "expl"
+	if "Gender=" in token.misc:
+		token.misc = append_to(token.misc, "Gender=" + token.feats.split("Gender=")[1].split("|")[0])
 	if token.feats != "_":
 		token.feats = "_"
